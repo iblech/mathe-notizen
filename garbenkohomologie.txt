@@ -1,0 +1,21 @@
+Def.: Sei E Topos. Dann habe Gamma: Ab(E) -> Ab(Set), ist linksexakt. Der i-te
+rechtsabgeleitete Funktor ist H^i.
+
+Beob.: Ext^i(1, F) ~~ H^i(X, F).
+
+Intuitiver Grund für mangelnde Rechtsexaktheit: Surjektivität bedeutet lokale
+Urbildexistenz. Daraus folgt aber noch nicht globale Urbildexistenz.
+
+Berechnung mit Čech-Methoden.
+
+Beispielanwendung: Erstes und zweites cousin problem.
+-- Etwa ist das erste genau dann immer lösbar, wenn H^1(O) = 0,
+wobei O die Garbe der holomorphen Funktionen bezeichnet.
+
+Literatur: http://stacks.math.columbia.edu/download/cohomology.pdf
+Nächster Schritt: Kohomologie von Schemata; was sind interessante Moduln auf
+Schemata?
+
+Affine Schemata sind kohomologisch trivial.
+
+Klassisches Resultat: H^q(X, O_X(d)) für X = P_R^n.
