@@ -1,0 +1,47 @@
+Vektorbündel liefern verallgemeinerte Begriffe von "Funktionen" auf einem
+Basisraum. Beispiele:
+
+* Eine normale Funktion (Basisraum --> R) ist ein globaler Schnitt
+  des trivialen Bündels Basisraum x R.
+
+* Der globale Schnitt [t] |-> [(t, t-1/2)] von S^1 ins Möbiusbündel
+  misst den Winkel. Ist nicht als stetige gewöhnliche Funktion realisierbar.
+  (S^1 = I/(0 ~ 1), Totalraum des Möbiusbündels = (I x R)/~, wobei (0,v) ~
+  (1,-v).)
+
+Es gibt auch den Begriff des lokal freien O_X-Moduls vom Rang n.
+Kann für einen solchen Modul E und eine gegebene lokale Trivialisierung
+(bestehend aus Isos phi_i: E|_Ui --> O_Ui^n) Übergangsabbildungen definieren:
+T_ij = phi_i . phi_j^(-1).
+
+Diese erfüllen die Kozykelbedingung: T_ij T_jk = T_ik.
+
+Umgekehrt definieren solche Übergangsabbildungen einen lokal freien O_X-Modul
+vom Rang n, über das Lemma über das Verkleben von Garben.
+
+Ein Schnitt s von E induziert Schnitte s_i von O_Ui^n: s_i := phi_i(s).
+Dann gilt T_ij(s_j) = s_i.
+
+Die Garbe der Schnitte des Möbiusbündels hat als einzige interessante
+Übergangsabbildung folgende:
+
+    T_01(t) = 1 für t < 1/2, -1 für t > 1/2.
+
+Dabei ist S^1 überdeckt durch (0,1) und [0,1] \ {1/2}, daher ist die Setzung
+wohldefiniert.
+
+Man kann die Garbe des Möbiusbündels in der internen Sprache angeben,
+wenn man sich die Formelkonstanten U, V, t<1/2, t>1/2 erlaubt:
+
+    M := R<S> / span(T),
+
+wobei
+* R<S> den freien R-Modul auf der Menge S bezeichnet (R = Garbe der
+  stetigen Funktionen),
+* S = { links | U } \cup { rechts | V },
+* T = { links-rechts | U und V und t>1/2 } \cup { links+rechts | U und V und t <1/2 }.
+
+Ein analoges Vorgehen ist für beliebige Moduln, die durch Übergangsabbildungen
+gegeben sind, möglich!
+
+Literatur: Ravi Vakil, Hatcher.

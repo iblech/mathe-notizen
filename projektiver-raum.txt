@@ -1,0 +1,13 @@
+Der eindimensionale reelle projektive Raum ist (zumindest topologisch) isomorph
+zu S^1.
+
+P^n entsteht aus Verkleben folgender affiner Schemata X_i:
+
+    X_i = Spec k[x_0/x_i, ..., x_n/x_i].
+
+Dabei sollte man den Term x_i/x_i weglassen. In X_i gibt es eine offene
+Teilmenge X_ij:
+
+    X_ij = Spec k[x_0/x_i, ..., x_n/x_i, (x_j/x_i)^(-1)].
+
+Diese ist zu X_ji vermöge x_k/x_i |--> (x_k/x_j) / (x_i/x_j) isomorph.
