@@ -1,0 +1,16 @@
+Literatur:
+http://www.math.univ-montp2.fr/~toen/crm-2008.pdf
+Simplicial presheaves and derived algebraic geometry
+Bertrand Toën
+
+Problem: Viele Moduliprobleme in der Kategorie der Schemata nicht lösbar!
+Indizien dafür: Der definierende Punktefunktor verwendet Tensorprodukte oder
+Quotienten von Mengen. Sollte durch derivierte Versionen ersetzt werden
+(deriviertes Tensorprodukt, Quotientengruppoid).
+
+Betrachte Funktoren sRing --> sSet (simpliziale Ringe bzw. Mengen) als
+fundamental, nicht mehr Funktoren Ring --> Set.
+
+Kapitel 2: Mir fehlen Modellkategoriekenntnisse.
+
+Später für Kontangentialkomplex: Modellkategoriekenntnisse, Homotopiefasern

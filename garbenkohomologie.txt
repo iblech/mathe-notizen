@@ -7,6 +7,7 @@ Intuitiver Grund für mangelnde Rechtsexaktheit: Surjektivität bedeutet lokale
 Urbildexistenz. Daraus folgt aber noch nicht globale Urbildexistenz.
 
 Berechnung mit Čech-Methoden.
+Beispiel: Gibt gute Überdeckungen für qcoh Garben auf sep. Schemata.
 
 Beispielanwendung: Erstes und zweites cousin problem.
 -- Etwa ist das erste genau dann immer lösbar, wenn H^1(O) = 0,
