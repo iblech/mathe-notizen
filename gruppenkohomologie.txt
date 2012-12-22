@@ -1,0 +1,28 @@
+Motivation: Studium von Fixpunkten von Gruppenwirkungen auf Moduln
+
+Gruppenkohomologie von G ~~ singuläre Kohomologie von BG
+(z.B. Z bzw. S^1, Z/(2) bzw. RP^infty)
+
+Def.: Kategorie der G-Moduln (d.h. Z[G]-Moduln)
+
+Def.: Funktor ( )^G: G-Mod --> Ab, M |--> M^G
+Beob.: ist linksexakt, aber i.A. nicht rechtsexakt
+Bem.: (__)^G ~~ [Z, __]
+
+Def.: H^i(G; M) = R^i ( )^G (M).
+
+Konkreter: C^n(G; M) = Abb(G^n, M) mit nicht ganz offensichtlichem Differential
+
+Dann ergibt sich:
+* H^0(G; M) = M^G
+* H^1(G; M) = crossed homos G --> M/principal crossed homos
+  speziell wenn G trivial auf M operiert: H^1(G; M) ~~ Hom_G(G, M)
+* wenn G trivial auf M operiert:
+  H^2(G; M) ~~ zentrale Erweiterungen von G durch M
+
+Nächste Schritte:
+* Nützlichkeit kategorieller Definition untersuchen:
+  G-Modul besteht aus abelscher Gruppe M mit Gruppenhomo G --> Aut(M);
+  M^G ist Differenzkern aller Abbildungen M --> M, die von den Gruppenelementen
+  induziert werden.
+* Topos-Verallgemeinerungen?
