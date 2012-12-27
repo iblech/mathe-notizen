@@ -1,0 +1,7 @@
+It's not true that you can recover derived categories of schemes from derived
+categories of a cover via gluing data.
+
+Nächste Schritte:
+* Das dg-Paper von Toën zusammenfassen.
+* Insbesondere das kanonische Beispiel darin verstehen.
+* Barr-Beck verstehen

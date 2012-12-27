@@ -1,0 +1,17 @@
+Gewöhnliche Definition qcoh Moduln als spezielle O_X-Moduln: klar.
+
+David Ben-Zvi auf [1]:
+"You can define the category of quasicoherent sheaves on a scheme or stack (or
+an arbitrary functor) as the limit over all affines Spec R mapping to the stack
+of the categories R-Mod. You will need some descent theorem however to compare
+this with a more usual definition. The same definition works for the
+(∞-categorical refinement of) the derived category of quasicoherent sheaves. (I
+learned this from Toen's survey on Higher and Derived Stacks)."
+
+Nächste Schritte:
+* Schicke toposlogische Begründung dafür finden, dass (q)coh Moduln stabil
+  unter Rückzug sind.
+* Wann ist ein Geradenbündel trivial? Genügt es, wenn es einen nichttrivialen
+  globalen Schnitt besitzt? Huy05, Seite 75, Aufg. 2.2.5 spricht dagegen.
+
+[1] http://mathoverflow.net/questions/16427/quasi-coherent-sheaves-in-the-functor-of-points-approach

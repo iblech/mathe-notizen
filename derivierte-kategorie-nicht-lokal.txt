@@ -1,0 +1,21 @@
+Siehe: Toën, Lectures on DG categories, Seite 8.
+
+1) P^1 ist Pushout von Spec Z[T], Spec Z[U] über Spec Z[X,X^(-1)] in
+   der Kategorie der Schemata.
+
+2) Demzufolge ist Qcoh(P^1) Pullback (in einem geeigneten 2-kategoriellen Sinn)
+   von Z[T]-Mod und Z[U]-Mod über Z[X,X^(-1)]-Mod.
+
+3) Aber D_qcoh(P^1) ist nicht Pullback von D(Z[T]) und D(Z[U]) über
+   D(Z[X,X^(-1)]): In D_qcoh(P^1) gibt es einen nichttrivialen Morphismus 
+
+       O --> O(-2)[1]
+
+   (der einem Element von Ext^1(O, O(-2)) ~~ H^1(O(-2)) ~~ Z entspricht),
+   der aber im richtigen Faserprodukt der D's null ist.
+
+Nächste Schritte:
+* Den richtigen 2-kategoriellen Sinn oben verstehen.
+* Aussage 2) allgemein beweisen.
+* Das Beispiel in 3) in und auswendig verstehen. Was ist der intuitive
+  Grund fürs Scheitern?

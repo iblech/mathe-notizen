@@ -14,9 +14,13 @@ Beispielanwendung: Erstes und zweites cousin problem.
 wobei O die Garbe der holomorphen Funktionen bezeichnet.
 
 Literatur: http://stacks.math.columbia.edu/download/cohomology.pdf
-Nächster Schritt: Kohomologie von Schemata; was sind interessante Moduln auf
-Schemata?
 
 Affine Schemata sind kohomologisch trivial.
 
-Klassisches Resultat: H^q(X, O_X(d)) für X = P_R^n.
+Klassisches Resultat: H^q(X, O_X(d)) für X = P_R^n,
+siehe http://stacks.math.columbia.edu/download/coherent.pdf#01XS.
+
+Nächste Schritte:
+* Kohomologie von Schemata
+* Was sind interessante Moduln auf Schemata?
+* Was besagt das klassische Resultat für Ext^i auf P^n anschaulich?

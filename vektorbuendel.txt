@@ -45,3 +45,7 @@ Ein analoges Vorgehen ist für beliebige Moduln, die durch Übergangsabbildungen
 gegeben sind, möglich!
 
 Literatur: Ravi Vakil, Hatcher.
+
+Nächste Schritte:
+* Kozykelbeschreibug in und auswendig kennen
+* Kozykelbeschreibungen von direkte Summe, Tensorprodukt, Duales verstehen
