@@ -20,6 +20,11 @@ Affine Schemata sind kohomologisch trivial.
 Klassisches Resultat: H^q(X, O_X(d)) für X = P_R^n,
 siehe http://stacks.math.columbia.edu/download/coherent.pdf#01XS.
 
+Beispiel: Kohomologie eines irreduziblen Schemas mit Werten in der konstanten
+Garbe Z oder C ist oftmals trivial; Abhilfe: analytische Topologie verwenden
+(oder natürlich bessere Kohomologietheorien). Siehe
+http://www.math.mcgill.ca/goren/SeminarOnCohomology/Sheaf_Cohomology.pdf.
+
 Nächste Schritte:
 * Kohomologie von Schemata
 * Was sind interessante Moduln auf Schemata?

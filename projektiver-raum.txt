@@ -1,3 +1,5 @@
+=== Konstruktion über Verklebung affiner Teile
+
 Der eindimensionale reelle projektive Raum ist (zumindest topologisch) isomorph
 zu S^1.
 
@@ -11,3 +13,10 @@ Teilmenge X_ij:
     X_ij = Spec k[x_0/x_i, ..., x_n/x_i, (x_j/x_i)^(-1)].
 
 Diese ist zu X_ji vermöge x_k/x_i |--> (x_k/x_j) / (x_i/x_j) isomorph.
+
+
+=== Nächste Schritte
+
+* Die üblichen wichtigen Garben auf P^n verstehen.
+* Eulersequenz verstehen...
+* Insbesondere topossprachliche interne Definitionen herleiten!

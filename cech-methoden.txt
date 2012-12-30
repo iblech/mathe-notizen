@@ -1,0 +1,47 @@
+=== Anwendbarkeit von Čech-Methoden
+
+http://mathoverflow.net/questions/4214/equivalence-of-grothendieck-style-versus-cech-style-sheaf-cohomology
+
+
+=== Zusammenhang zu simplizialer Kohomologie
+
+http://www.math.mcgill.ca/goren/SeminarOnCohomology/Sheaf_Cohomology.pdf, Seite 18:
+Eine simpliziale Triangulierung induziert (über die Sternkonstruktion) eine
+offene Überdeckung, deren Čech-Komplex isomorph zum simplizialen
+Kokettenkomplex ist. Details angeblich in Griffiths, Harris: Principles of
+algebraic geometry.
+
+
+=== Exaktheit
+
+Der "garbifizierte Čech-Funktor" O_X-Mod --> Kom^+(O_X-Mod) ist im Allgemeinen
+/nicht/ exakt, aber linksexakt.
+
+
+=== Kanonische Abbildung Ȟ^1(X; F) --> Ext^1_klassisch(O_X, F)
+
+Mit einem 1-Čech-Kozykel omega zu einem O_X-Modul F bezüglich einer Überdeckung
+U_i kann man folgende Konstruktion durchführen: Man definiert einen O_X-Modul E
+als Verklebung von
+
+    E_i := F|U_i \oplus O|_U_i
+
+mit phi_ij: E_i|U_ij --> E_j|U_ij gegeben durch die Matrizen
+
+    [ id, omega_ij; 0, id ].
+
+Dann kann man eine Sequenz
+
+    0 --> F --> E --> O --> 0
+
+definieren (durch Verkleben der kanonischen Injektionen und Projektionen), und
+diese ist exakt (lokal klar). Ihr Bild unter Ext^1_klass(O, F) --> H^1(X; F) ist
+höchstwahrscheinlich [omega].
+
+Unter dieser Konstruktion gehen Koränder auf zerfallende kurze exakte
+Sequenzen. Ob umgekehrt nur Koränder zerfallende kurze exakte Sequenzen geben,
+konnte ich nicht nachprüfen.
+
+Beispiel: Überdecke S^1 durch U, V, W; habe dann nichttriviale
+Kohomologieklasse [VW]. Diese induziert nicht-zerfallende kurze exakte Sequenz
+0 --> Z --> ? --> Z --> 0.

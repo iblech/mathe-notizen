@@ -1,8 +1,8 @@
 Sei A abelsche Kategorie.
 
-Def.: K(A) := Isoklassen von Objekten aus A modulo kurzer exakter Sequenzen.
+Def.: K_0(A) := Isoklassen von Objekten aus A modulo kurzer exakter Sequenzen.
 
-Habe Abbildung Ob(Kom^b(A)) --> K(A), E^* |--> [E^*] := \sum (-1)^n [E^n].
+Habe Abbildung Ob(Kom^b(A)) --> K_0(A), E^* |--> [E^*] := \sum (-1)^n [E^n].
 
 Elementare Beobachtungen:
 1) [E^*] = [H^*(E^*)]:
@@ -14,14 +14,23 @@ Elementare Beobachtungen:
    auf kurzen exakten Sequenzen null ist, dann gilt:
    -- dim ist Gruppenhomo (in Ob(A) bzgl. direkte Summe).
    -- dim ist invariant auf Isoklassen.
-   -- dim induziert Gruppenhomo K(A) --> G.
+   -- dim induziert Gruppenhomo K_0(A) --> G.
 
-Anwendung: Für X Schema habe D^b(X) --> K(X) := K(O_X-Mod).
-1) Kann jedes Element in K(X) als Linearkombination von Klassen lokal
+Anwendung: Für X Schema habe D^b(X) --> K_0(X) := K_0(O_X-Mod).
+1) Kann jedes Element in K_0(X) als Linearkombination von Klassen lokal
    freier Moduln schreiben (falls X glatt).
 2) Kann dadurch Ringstruktur definieren.
 3) Die K-Konstruktion ist kontravariant, durch Rückzug von lokal freien Moduln.
 4) Außerdem kovariant, durch verallgemeinertes direktes Bild:
        f_! [F] := \sum (-1)^n [R^n f_*(F)].
+
+Eulercharakteristik einer Modulgarbe (nach Hartshorne, Ex. III.5.1):
+Def.: chi(F) = \sum (-1)^i dim_k H^i(X; F).
+Prop.: chi ist null auf kurzen exakten Sequenzen.
+Bew. (direkt): Lange exakte Kohomologiesequenz hinschreiben und alternierend
+Dimensionen aufsummieren, das gibt null.
+Bew. (mit Lemmas): chi(F) ist gleich dem Bild von [Gamma(I^*)] unter der
+Dimensionsabbildung, wobei 0 --> F --> I^* eine injektive Auflösung ist. Dann
+Hufeisenlemma.
 
 Literatur: Max Karoubi, Huybrechts Fourier-Mukai S. 124.

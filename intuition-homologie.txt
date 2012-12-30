@@ -1,0 +1,47 @@
+=== Singuläre Homologie
+
+n-Kette: Linearkombination von n-Simplizes
+
+n-Zykel: n-dimensionales Gebiet ohne Rand
+
+n-Rand: n-dimensionales Gebiet, das etwas (n+1)-dimensionales berandet
+
+
+=== Singuläre Kohomologie
+
+n-Kokette: Zuordnung von Koeffizienten zu allen n-Simplizes
+
+n-Kozykel: "lokal konsistente n-Koketten" ("könnten von einem Potenzial
+stammen")
+
+n-Korand: Zuordnung, die "global konsistent" ist, d.h. von einem Potenziel
+stammt
+
+
+=== de-Rham-Kohomologie
+
+d omega = 0: Integral über omega ist unabhängig vom Weg (bei Deformationen)
+
+omega = d alpha: Integral über omega ist null auf geschlossenen Wegen
+
+
+=== Čech-Kohomologie
+
+n-Kokette: Zuordnung von Koeffizienten (Schnitten der untersuchten Garbe F) zu
+(n+1)-Schnitten der Überdeckungsmengen
+
+0-Kozykel: Verklebedatum für einen globalen Schnitt von F
+1-Kozykel: Schnitte phi_ij, die die Kozykelbedingung erfüllen: phi_jk - phi_ik + phi_ij = 0.
+
+1-Korand: d phi = (phi_j - phi_i)_ij
+
+
+=== Verbindender Homomorphismus in relativer singulärer Homologie
+
+...der liefert zu einer relativen Kette in C_n(X, A) tatsächlich ihren Rand als
+Element von H_(n+1)(A).
+
+
+=== Nächste Schritte
+
+* Verbindender Homomorphismus in allgemeineren (Ko-)Homologietheorien

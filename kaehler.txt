@@ -1,0 +1,37 @@
+=== Derivationen
+
+Sei B eine A-Algebra und M ein B-Modul. Dann ist eine
+
+    A-Derivation von B nach M
+
+eine A-lineare Abbildung d: B --> M, die die Leibnizregel
+
+    d(xy) = x dy + y dx
+
+für alle x, y in B erfüllt.
+
+
+=== Omega^1_B/A
+
+Omega^1_B/A ist definiert als ein B-Modul, der den Funktor Der(B,_) kodarstellt:
+Modul der Differentialformen vom Grad 1 auf B über A.
+
+Konstruktion: Omega^1_B/A ist...
+a) ...der freie Modul zur Basis d(b), b in B, modulo Relationen
+   (A-Linearität und Leibnizregel)
+b) ...I/I^2, wobei I = ker(B \otimes_A B --> B).
+
+
+=== Beispiel: P^1
+
+Auf P^1 gilt Omega ~~ O(-2), denn die lokalen Schnitte von Omega(2),
+
+    auf D(T_0):  T_0^2 \otimes d(T_1/T_0)
+    auf D(T_1): -T_1^1 \otimes d(T_0/T_1)
+
+verkleben zu einem globalen Schnitt. Siehe Liu.
+
+
+=== Nächste Schritte:
+
+* P^1-Beispiel verstehen. Hat es auch eine anschauliche Bedeutung?

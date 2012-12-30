@@ -18,10 +18,12 @@ Nächste Schritte:
    -- { x | phi_x \neq 0 } \subset supp F \cap \supp G.
    -- Wenn phi Mono: supp F \subset supp G.
    -- Wenn phi Epi:  supp F \supset supp G.
+   -- Wie ist es bei kurzen exakten Sequenzen?
 
 4) Sei i: Z \subset X abgeschlossen, F Garbe auf Z.
    Dann ist i_*(F) Garbe auf X, die auf Z dieselben Halme wie F hat
    und auf X\Z jeweils 0 als Halme hat.
+   Insbesondere ist i_* dann exakt.
 
 5) Sei F Garbe auf X, supp F \subset Z \subset X, Z abgeschlossen.
    Dann ist F --> i_* i^(-1) F ein Iso.
