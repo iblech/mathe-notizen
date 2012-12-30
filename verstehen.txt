@@ -26,6 +26,7 @@ Unsortierte Fragen:
 * D^b(X) für X = Spec A? Wodurch wird D^b(X) und Aut(D^b X) dann erzeugt?
 * Was ist D(X) anschaulich?
 * Hilft Topossicht, um relative Situationen einfacher zu machen?
+* Spektralsequenzen
 
 Lesen:
 * Ploogs Dissertation

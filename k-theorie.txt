@@ -1,14 +1,20 @@
 Sei A abelsche Kategorie.
 
-Def.: K_0(A) := Isoklassen von Objekten aus A modulo kurzer exakter Sequenzen.
+Def.: K_0(A) := Freie abelsche Gruppe über den Isoklassen von Objekten aus A
+modulo kurzer exakter Sequenzen.
 
 Habe Abbildung Ob(Kom^b(A)) --> K_0(A), E^* |--> [E^*] := \sum (-1)^n [E^n].
+Könnte man wohl "verallgemeinerte Eulercharakteristik" nennen.
 
 Elementare Beobachtungen:
 1) [E^*] = [H^*(E^*)]:
-   Setze Z^n := ker d^n, B^n := im d^(n-1), dann ist
+   Setze Z^n := ker d^n, B^n := im d^(n-1), dann sind
        0 --> Z^n --> E^n --> B^(n+1) --> 0
-   exakt. Teleskopsumme.
+       0 --> B^n --> Z^n --> H^n --> 0
+   exakt. Teleskopsumme. Wenn ich mir keine Subtraktion erlaube (also K_0 als
+   freien abelschen Monoid definiere), gilt die entsprechend übersetzte
+   Behauptung. Daraus folgt etwa eine allgemeine Formel für die Träger der an
+   einer exakten Sequenz beteiligten Modulgarben.
 2) Insbesondere ist [E^*] = 0 falls E^* azyklisch.
 3) Ist dim: Ob(A) --> G eine Abbildung in eine abelsche Gruppe G, die
    auf kurzen exakten Sequenzen null ist, dann gilt:

@@ -18,7 +18,18 @@ Nächste Schritte:
    -- { x | phi_x \neq 0 } \subset supp F \cap \supp G.
    -- Wenn phi Mono: supp F \subset supp G.
    -- Wenn phi Epi:  supp F \supset supp G.
-   -- Wie ist es bei kurzen exakten Sequenzen?
+
+   Ist 0 --> F' --> F --> F'' --> 0 eine kurze exakte Sequenz, so gilt
+   supp(F) = supp(F') \cup supp(F''). Was hat das für Konsequenzen?
+   Etwas ähnliches gilt auch für längere exakte Sequenzen, sogar für
+   unendlich lange. Das zeigt man möglichst elegant durch eine
+   Verallgemeinerung von K-Theorie (Definition als freien abelschen Monoid
+   genügt für den Fall endlicher exakter Sequenzen).
+
+   Damit verwandt: Ist 0 --> F' --> F --> F'' --> 0 eine nicht unbedingt exakte
+   Sequenz, so gilt (kurz geschrieben):
+
+       |F'| + |F''| + |H^1| = |F| + |H^0| + |H^2|.
 
 4) Sei i: Z \subset X abgeschlossen, F Garbe auf Z.
    Dann ist i_*(F) Garbe auf X, die auf Z dieselben Halme wie F hat
