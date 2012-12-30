@@ -1,0 +1,27 @@
+Sei A abelsche Kategorie.
+
+Def.: K(A) := Isoklassen von Objekten aus A modulo kurzer exakter Sequenzen.
+
+Habe Abbildung Ob(Kom^b(A)) --> K(A), E^* |--> [E^*] := \sum (-1)^n [E^n].
+
+Elementare Beobachtungen:
+1) [E^*] = [H^*(E^*)]:
+   Setze Z^n := ker d^n, B^n := im d^(n-1), dann ist
+       0 --> Z^n --> E^n --> B^(n+1) --> 0
+   exakt. Teleskopsumme.
+2) Insbesondere ist [E^*] = 0 falls E^* azyklisch.
+3) Ist dim: Ob(A) --> G eine Abbildung in eine abelsche Gruppe G, die
+   auf kurzen exakten Sequenzen null ist, dann gilt:
+   -- dim ist Gruppenhomo (in Ob(A) bzgl. direkte Summe).
+   -- dim ist invariant auf Isoklassen.
+   -- dim induziert Gruppenhomo K(A) --> G.
+
+Anwendung: Für X Schema habe D^b(X) --> K(X) := K(O_X-Mod).
+1) Kann jedes Element in K(X) als Linearkombination von Klassen lokal
+   freier Moduln schreiben (falls X glatt).
+2) Kann dadurch Ringstruktur definieren.
+3) Die K-Konstruktion ist kontravariant, durch Rückzug von lokal freien Moduln.
+4) Außerdem kovariant, durch verallgemeinertes direktes Bild:
+       f_! [F] := \sum (-1)^n [R^n f_*(F)].
+
+Literatur: Max Karoubi, Huybrechts Fourier-Mukai S. 124.

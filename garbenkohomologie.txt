@@ -24,3 +24,5 @@ Nächste Schritte:
 * Kohomologie von Schemata
 * Was sind interessante Moduln auf Schemata?
 * Was besagt das klassische Resultat für Ext^i auf P^n anschaulich?
+* Welche der Kategorien Mod(O_X), Qcoh(O_X), Coh(O_X) besitzen genügend
+  viele Injektive und Projektive, und weshalb?

@@ -1,7 +1,46 @@
 It's not true that you can recover derived categories of schemes from derived
 categories of a cover via gluing data.
 
+Sei k ein kommutativer Grundring.
+
+Def.:
+1) C(k) ist die Kategorie der Kettenkomplexe von k-Moduln.
+2) Eine dg-Kategorie ist eine C(k)-angereicherte Kategorie.
+
+Bsp.: Sei A eine k-Algebra.
+1) C(A) wird dg-Kategorie.
+2) BA (bestehend aus nur einem Objekt und A[0] als Hom-Komplex) wird dg-Kategorie.
+
+Def.: Sei M eine dg-Kategorie.
+1) [M] ist diejenige gewöhnliche (k-lineare) Kategorie, die man aus M
+   erhält, indem man von allen Hom-Komplexen jeweils H^0 nimmt.
+2) Ein M-Modul ist ein dg-Funktor T --> C(k).
+3) Wenn M sogar eine C(k)-angereicherte Modellkategorie ist, ist
+   Int(M) diejenige Unterkategorie, die nur aus den fasernden und zugleich
+   kofasernden Objekten besteht.
+   -- Ein beschränkter Komplex in C(R) ist genauu dann zugleich fasernd und
+      kofasernd, wenn all seine Bestandteile projektive R-Moduln sind.
+4) L(M) := Int(M-Mod).
+
+Beob.: [Int(M)] = Ho(M) = M lokalisiert an Äquivalenzen.
+
+Bsp.:
+1) [L(BA)] ~ D(R).
+2) D(BA) := Ho(BA-Mod) ~ D(R).
+
+Def.: X k-Schema.
+1) L(X) := L(O_X) := Int(C(O_X)).
+2) Volle Unterkategorie P_perf(X) der perfekten Komplexe.
+   -- die kompakten Objekte in D(X) (Achtung, andere Definition)
+   -- vermutlich genau die Komplexe, die qis zu beschränkten Komplexen
+      projektiver O_X-Moduln v.e.T. sind.
+
+Prop.: L_perf(X) ist Homotopiepullback von L_perf(U) und L_perf(V) über
+L_perf(U \cap V).
+
+Prop.: X, Y glatt, eigentlich/k. Dann RHom(L_perf(X), L_perf(Y)) ~ L_perf(X x Y).
+
 Nächste Schritte:
 * Das dg-Paper von Toën zusammenfassen.
-* Insbesondere das kanonische Beispiel darin verstehen.
-* Barr-Beck verstehen
+* Barr-Beck verstehen.
+* Ho(dg-cat), Links- und Rechtsableitung verstehen.

@@ -1,0 +1,19 @@
+Nächste Schritte:
+* X ~~ Proj(\bigoplus_k H^0(X, omega_X^k)) für X glatt, projektiv, omega_X ampel. Wieso?
+  (Stichwort: "kanonischer Ring")
+* Bondal und Orlov verstehen. Evtl. auch Verallg. von Kawamata ansehen.
+* Beispiel 4.15 nachvollziehen (induzierte Äquivalenzen von D^bX)
+  und sehr gut verstehen. ...anschaulich?
+* Gruppendarstellung von Aut(D^b X)?
+* Was sind Korrespondenzen bei Kohomologietheorien?
+  (Hintergrund: Fourier-Mukai-Transformationen sind derivierte Versionen davon.)
+  Hängt das mit Spännen zusammen?
+* Was passiert eigentlich mit den Resultaten aus Huy für die "richtige"
+  derivierte dg-Kategorie?
+* Allgemein: Was geht bei Varietäten, die nicht glatt und projektiv sind,
+  schief? (Glaube, omega_X bzw. den Serrefunktor trifft es besonders.)
+* Habe Funktor D^b(X x Y) --> [D^b(X), D^b(Y)]? Was weiß ich über den?
+  Wann sind zwei FKT zueinander isomorph?
+* Quelle 82 in Huy: Analogie zu L^2.
+* Bsp. 5.15 in Huy verstehen (zumindest nachvollziehen).
+* Kann man allgemeine Eulerzahltheorie auf D^b(X) anwenden?

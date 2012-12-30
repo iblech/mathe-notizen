@@ -1,0 +1,42 @@
+Nächste Schritte:
+* Morphismen zwischen Garben im Hinblick auf ihre Träger verstehen
+* allgemein Träger von Garben, insbesondere Ring- und Modulgarben.
+  Gibt es auf noetherschen Schemata Unterschiede?
+* Wolkenkratzergarben k(x) auf X für x abg. Punkt verstehen.
+  Was ist ihr Hom(%,%)? Sind sie kohärent? Was ergibt sie mit
+  omega tensoriert? Was hat sie mit der Faser von Moduln zu tun?
+  Solche sind indecomposable (im Sinne von Huy 123).
+
+1) Träger eines Schnitts: supp s := { x | s_x \neq 0 } ist stets abgeschlossen.
+
+2) Träger einer (Modul- oder Ring-)Garbe: supp F := { x | F_x \neq 0 }
+   -- ist im Allgemeinen weder offen noch abgeschlossen.
+   -- aber abgeschlossen, wenn F Ringgarbe oder Modulgarbe v.e.T.
+   -- ist Vereinigung der Träger aller Schnitte über allen offenen Teilmengen.
+
+3) Ist phi: F --> G ein Morphismus, dann:
+   -- { x | phi_x \neq 0 } \subset supp F \cap \supp G.
+   -- Wenn phi Mono: supp F \subset supp G.
+   -- Wenn phi Epi:  supp F \supset supp G.
+
+4) Sei i: Z \subset X abgeschlossen, F Garbe auf Z.
+   Dann ist i_*(F) Garbe auf X, die auf Z dieselben Halme wie F hat
+   und auf X\Z jeweils 0 als Halme hat.
+
+5) Sei F Garbe auf X, supp F \subset Z \subset X, Z abgeschlossen.
+   Dann ist F --> i_* i^(-1) F ein Iso.
+
+6) Zu U \subset X offen gibt es i_!:
+   -- i_! -| i^(-1) -| i_*
+   -- i_! ist exakt.
+   -- Halme von i_!(F) gleich F_x bzw. gleich 0.
+   -- Definiert als die Vergarbung der Prägarbe
+          W |--> F(W), falls W \subset U; 0, sonst.
+
+7) Toposstandpunkt noch nicht ganz klar.
+   [[ s = 0 ]] gehört wohl zu X \ supp s.
+   [[ F bewohnt ]] gehört wohl zu { x | F_x bewohnt }.
+   [[ 1 = 0 ]] gehört wohl zu X \ supp R, R Ringgarbe.
+   Was bedeutet [[ \exists x : M. x \neq 0 ]] für M Modulgarbe?
+
+8) Geometrischer Nakayama.

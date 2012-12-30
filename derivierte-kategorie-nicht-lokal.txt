@@ -14,6 +14,11 @@ Siehe: Toën, Lectures on DG categories, Seite 8.
    (der einem Element von Ext^1(O, O(-2)) ~~ H^1(O(-2)) ~~ Z entspricht),
    der aber im richtigen Faserprodukt der D's null ist.
 
+Intuitiver Grund für die Nichtlokalität: Etwa entsprechen Homs in der
+derivierten Kategorie Kohomologie- oder Extgruppen. Solche sind aber nicht
+lokal: Etwa kann die Kohomologie auf einer Überdeckung jeweils null sein, ohne
+global null zu sein.
+
 Nächste Schritte:
 * Den richtigen 2-kategoriellen Sinn oben verstehen.
 * Aussage 2) allgemein beweisen.

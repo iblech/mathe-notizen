@@ -1,0 +1,10 @@
+Additive Funktoren müssen zerfallende kurze exakte Sequenzen erhalten.
+
+Kurze exakte Sequenzen, bei denen das vordere Objekt injektiv oder das hintere
+projektiv ist, zerfallen.
+
+Exakte Funktoren vertauschen mit Kohomologie und bewahren daher insbesondere
+Azyklizität.
+
+Hat ein additiver Funktor einen linksexakten Linksadjungierten, so schickt er
+injektive Objekte auf injektive.
