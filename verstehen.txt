@@ -27,8 +27,17 @@ Unsortierte Fragen:
 * Was ist D(X) anschaulich?
 * Hilft Topossicht, um relative Situationen einfacher zu machen?
 * Spektralsequenzen
+* Lawvere’s Reconstruction Theorem verstehen
+* Good candidates at present are A∞-categories, dg-categories and stable
+  (∞,1)-categories. [...] It is known that all 3 approaches give the same
+  result over a field of characteristic zero.
+* method of acyclic models
+* Der K-Theorie welcher abelschen (oder zumindest additiven) Kategorie
+  entspricht die K-Theorie von Vektorbündeln?
+* computational linguistics!
 
 Lesen:
 * Ploogs Dissertation
 * Huybrechts ICM
 * twists.pdf
+* Luries Higher Algebra für derivierte unendlich-Kategorie

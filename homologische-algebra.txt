@@ -8,3 +8,9 @@ Azyklizität.
 
 Hat ein additiver Funktor einen linksexakten Linksadjungierten, so schickt er
 injektive Objekte auf injektive.
+
+Eine Kettenhomotopie h zwischen f, g: X --> Y ist dasselbe wie ein Komplexmorphismus
+H: I \otimes X --> Y mit H(s \otimes x) = f(x), H(t \otimes x) = g(x), H(H
+\otimes x) = h(x). Dabei sei I Z<s,t> in Grad 0 und Z<H> in Grad 1.
+(Homologische Konvention!)
+http://mathoverflow.net/questions/59357/why-chain-homotopy-when-there-is-no-topology-in-the-background/59387#59387

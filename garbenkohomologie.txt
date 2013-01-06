@@ -16,6 +16,7 @@ wobei O die Garbe der holomorphen Funktionen bezeichnet.
 Literatur: http://stacks.math.columbia.edu/download/cohomology.pdf
 
 Affine Schemata sind kohomologisch trivial.
+Für welche Modulgarben?
 
 Klassisches Resultat: H^q(X, O_X(d)) für X = P_R^n,
 siehe http://stacks.math.columbia.edu/download/coherent.pdf#01XS.

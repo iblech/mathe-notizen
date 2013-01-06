@@ -6,6 +6,11 @@ n-Zykel: n-dimensionales Gebiet ohne Rand
 
 n-Rand: n-dimensionales Gebiet, das etwas (n+1)-dimensionales berandet
 
+"Kleine Ketten": Ist U ein System von Teilräumen von X deren Innere X
+überdecken, so ist die Inklusion C_*(U) --> C_*(X) ein Quasiisomorphismus.
+Endlich-malige baryzentrische Unterteilung C_*(X) --> C_*(X) ist homotop zur
+Identität.
+
 
 === Singuläre Kohomologie
 

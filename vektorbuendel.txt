@@ -49,3 +49,5 @@ Literatur: Ravi Vakil, Hatcher.
 Nächste Schritte:
 * Kozykelbeschreibug in und auswendig kennen
 * Kozykelbeschreibungen von direkte Summe, Tensorprodukt, Duales verstehen
+* Wieso zerfallen alle kurzen exakten Sequenzen von Vektorbündeln
+  (im topologischen Sinn)?
