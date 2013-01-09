@@ -1,0 +1,31 @@
+=== Ideelle Injektive
+
+Idee: Wie Marc ideelle Oberkörper definiert hat, sind vielleicht auch ideelle
+Injektive nützlich.
+
+
+=== Ideelle Oberkörper als Kolimes?
+
+Sei f ein Polynom aus K[X] mit Grad >= 1. Dann ist L := K[X]/(f) ein ideeller
+Oberkörper von f, in dem f mindestens eine Nullstelle besitzt. Dieses L kann
+aber nicht realisiert werden als
+
+    colim K[X]/(g), über alle g | f, deg g >= 1.
+
+Dieses Diagramm hat nämlich (mit klassischer Logik) mehrere Konvergenzpunkte.
+
+
+=== Zerfällungsalgebra
+
+"Besser" als Zerfällungskörper: Die Zerfällungsalgebra A eines Polynoms
+
+    f = X^n - a_1 X^(n-1) +- ... \in K[X]
+
+ist K[X_1, ..., X_n]/(sigma_1 - a_1, ..., sigma_n - a_n) mit den
+elementarsymmetrischen Funktionen sigma_i. Man kann zeigen, dass K --> A
+injektiv ist. Morphismen A --> R über K entsprechen 1:1 (und S_n-äquivariant)
+Linearfaktorzerlegungen von f in R (unter Beachtung der Reihenfolge).
+
+Literatur:
+* Richman. Van der Waerden's construction of a splitting field.
+* Cohen, Coquand. A constructive version of Laplace's proof on the existence of complex roots.
