@@ -15,6 +15,31 @@ aber nicht realisiert werden als
 Dieses Diagramm hat nämlich (mit klassischer Logik) mehrere Konvergenzpunkte.
 
 
+=== Ideelle Oberkörper als tatsächliche Körper in einem neuen Topos
+
+Sei f aus K[X]. Sei I die durch Teilbarkeit partiell geordnete Menge aller
+Teiler von f. Die so induzierte Kategorie können wir mit einer
+Grothendiecktopologie versehen, wenn wir definieren:
+
+    Eine Überdeckung eines Polynoms g ist eine Familie g_i von Teilern von g
+    derart, dass ihr kgV ein Vielfaches von g ist.
+
+Ziemlich sicher erfüllt diese Definition die richtigen Axiome. Insbesondere ist
+(d,d') eine Überdeckung von g, falls g = d d'.
+
+Der Topos der Garben auf I enthält dann den Ring L,
+
+    L(g) := K[X]/(g),
+
+welcher aus Sicht der internen Sprache sogar ein Körper ist.
+
+Vermutlich stimmt also folgendes allgemeines Prinzip: Ist K ein Körper eines
+Topos E und f ein Polynom aus K[X], so gibt es einen Topos E[f] --> E, der eine
+Körpererweiterung pi^* K --> L enthält, in der f mindestens eine Nullstelle
+besitzt. (Führe dazu obige Konstruktion intern in E aus und nutze das
+Idempotenzlemma.)
+
+
 === Zerfällungsalgebra
 
 "Besser" als Zerfällungskörper: Die Zerfällungsalgebra A eines Polynoms
