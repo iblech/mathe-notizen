@@ -35,6 +35,10 @@ Unsortierte Fragen:
 * Der K-Theorie welcher abelschen (oder zumindest additiven) Kategorie
   entspricht die K-Theorie von Vektorbündeln?
 * computational linguistics!
+* Coquand "Algebraically closed fields" verstehen, insb. die Anwendung
+  zur Berechnung von Zweigen algebraischer Kurven.
+* Verdier-Dualität und Co., siehe Abschnitt 14 von Goresky, Primer on
+  Sheaves.
 
 Lesen:
 * Ploogs Dissertation

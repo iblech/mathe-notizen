@@ -4,8 +4,6 @@
   Was ist ihr Hom(%,%)? Sind sie kohärent? Was ergibt sie mit
   omega tensoriert? Was hat sie mit der Faser von Moduln zu tun?
   Solche sind indecomposable (im Sinne von Huy 123).
-* Lokal konstante Garben sind angeblich schon durch ihre Monodromie bestimmt.
-  Wieso? Was bedeutet das?
 
 
 === Träger
@@ -65,3 +63,23 @@ Was bedeutet [[ \exists x : M. x \neq 0 ]] für M Modulgarbe?
 === Geometrischer Nakayama
 
 Klar. Formulierung siehe Ravi Vakil.
+
+
+=== Lokale Systeme
+
+Ein lokales System ist eine lokal konstante Garbe (von Vektorräumen), d.h. eine
+Garbe, die auf den Mengen einer Überdeckung jeweils isomorph zu einer
+konstanten Garbe ist.
+
+Fundamentales Lemma: Lokale Systeme auf X entsprechen Darstellungen des
+Fundamentalgruppoids von X.
+
+Ist gamma: [0,1] --> X ein Weg, hat man einen Isomorphismus F_gamma(0) -->
+F_gamma(1) von Halmen, indem man das Intervall in (dank Kompaktheit endlich
+viele) Teile teilt, deren Bild unter gamma jeweils in einer geeigneten offenen
+Menge landen (offen und zusammenhängend). Abstrakter: Der Rückzug von F auf
+[0,1] ist sogar eine konstante Garbe.
+
+Details:
+* Achar, Local Systems and Constructible Sheaves.
+* Schapira, Algebra and Topology.
