@@ -12,6 +12,14 @@ Endlich-malige baryzentrische Unterteilung C_*(X) --> C_*(X) ist homotop zur
 Identität.
 
 
+=== compactly supported simplicial cohomology
+
+Koketten: dieselben wie in simplizialer Kohomologie, sollen aber kompakten
+Träger haben.
+
+Dann etwa H^0(R) = 0, H^1(R) = Z.
+
+
 === Singuläre Kohomologie
 
 n-Kokette: Zuordnung von Koeffizienten zu allen n-Simplizes

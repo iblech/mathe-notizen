@@ -44,3 +44,5 @@ Nächste Schritte:
 * Das dg-Paper von Toën zusammenfassen.
 * Barr-Beck verstehen.
 * Ho(dg-cat), Links- und Rechtsableitung verstehen.
+
+Siehe auch: http://nforum.mathforge.org/discussion/2969/derived-category-of-sheaves/
