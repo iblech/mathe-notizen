@@ -1,0 +1,4 @@
+* Unendliche Galoistheorie konstruktiv?
+  Gal(L|K) als Locale statt topologischen Raum?
+  Vgl. http://arxiv.org/abs/1301.0300.
+* Grothendiecks Galoistheorie?
