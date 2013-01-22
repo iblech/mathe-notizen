@@ -1,0 +1,14 @@
+* Tensorprodukte von Kategorien
+
+* Derivierte Kategorie von Schemata
+  * Definition
+  * Nichtlokalität
+  * dg-Enhancement
+  * Erzeuger
+  * Begriff "derivierte Äquivalenz"
+    * Orlov
+  * Rekonstruktion
+
+* Fourier-Mukai 
+  * Definition (mit Intuition)
+  * sehen, dass bekannte Äquivalenzen als F-M geschrieben werden können

@@ -1,0 +1,13 @@
+Shigeru Mukai
+Abelian variety and spin representation
+http://www.math.nagoya-u.ac.jp/~mukai/paper/warwick13.pdf
+
+Remark 1.4: D^b(X) ist kohomologische Vervollständigung von Coh(X)
+-- so, wie L^2(R^n) die Vervollständigung des Raums gewöhnlicher Funktionen ist.
+
+Tabelle (3.2) auf Seite 8 listet ein Wörterbuch Analysis <-> alg. Geo in Bezug
+auf Integraltransformationen.
+
+=== Nächste Schritte
+
+* Was bedeutet Remark 1.4?

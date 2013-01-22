@@ -1,0 +1,12 @@
+Def.: D(X) := D^b(Coh(O_X)).
+
+Satz: D(P^n) wird erzeugt durch die exzeptionelle Sequenz
+    O(-n), O(-n+1), ..., O(-1), O.
+
+Nächste Schritte:
+* Grundlegende Lemmas zu D(X) notieren.
+* Satz über exzeptionelle Sequenz beweisen können.
+
+Literatur:
+* Căldăru. Derived categories of schemes: a skimming.
+  http://www.math.wisc.edu/~andreic/publications/lnPoland.pdf

@@ -39,6 +39,9 @@ Unsortierte Fragen:
   zur Berechnung von Zweigen algebraischer Kurven.
 * Verdier-Dualität und Co., siehe Abschnitt 14 von Goresky, Primer on
   Sheaves.
+* Simons Frage von damals: Wann sind X-Interpretationen in Y dasselbe
+  wie umgekehrt?
+* Was ist Set^op?
 * Grundlagen über gemeinsame Verfeinerungen, die Hauptvermutung usw.
   herausfinden. Werden Dächer in der derivierten Kategorie gestiftet?
 * Ist simpl->sing. Homologie ein qis?

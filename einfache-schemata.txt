@@ -1,0 +1,7 @@
+Die nodal cubic, Spec C[X,Y]/(Y^2 - X^3 - X^2), ist die Verklebung von zwei
+Kopien von A^1. Das sieht man daran, dass C[X,Y]/(...) Equalizer der beiden
+Morphismen C[t] --> C (Auswertung an +1 bzw. -1) ist.
+
+Siehe:
+* http://rigtriv.wordpress.com/2008/07/08/normalization-and-normal-varieties/
+* http://qchu.wordpress.com/2012/11/02/zsqrt-3-is-the-eisenstein-integers-glued-together-at-two-points/
