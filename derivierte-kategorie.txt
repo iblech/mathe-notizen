@@ -58,3 +58,6 @@ kohärenten Moduln gerade
 
     (1) unzerlegbare Vektorbündel und
     (2) Wolkenkratzergarben, die Träger in einem einzigen abgeschlossenen Punkt haben.
+
+Quelle:
+http://www.mathematik.uni-stuttgart.de/~thiel/notes/derived_category_of_a_curve.pdf
