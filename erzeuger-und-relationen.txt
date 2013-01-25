@@ -1,0 +1,4 @@
+* Wenn X qc, qs: Qcoh(X) ~ Ind(Coh(X)).
+  http://mathoverflow.net/questions/39941/does-qcohx-admit-a-generating-set/39952#39952
+
+* https://amathew.wordpress.com/2011/07/30/quasi-coherent-sheaves-presentable-categories-and-a-result-of-gabber/

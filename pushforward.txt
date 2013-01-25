@@ -1,0 +1,36 @@
+Def.: Sei pi: X --> Y Morphismus von lokal geringten Räumen. Sei F ein
+O_X-Modul. Dann wird pi_*(F) ein O_Y-Modul, vermöge der Skalareinschränkung
+O_Y --> pi_*(O_X).
+
+Herunterdrücken ist linksexakt.
+
+
+=== Bewahrung von Quasi-Kohärenz
+
+Prop.: Ist pi: X --> Y quasi-kompakt und quasi-separiert, so bildet pi_*
+quasi-kohärente Moduln auf quasi-kohärente Moduln ab.
+
+Bew.: oE Y affin. Dann wird X durch endlich viele affinoffene U_i überdeckt,
+deren Schnitte jeweils durch endlich viele affinoffene U_ijk überdeckt werden.
+Man erhält die Sequenz
+
+    0 --> pi_*(F) --> \bigoplus_i pi_* F|_i --> \bigoplus_ijk pi_* F|_ijk.
+
+Da der zweite und dritte Modul quasi-kohärent sind (man weiß, was mit qcoh
+Moduln auf affinen Schemata beim Herunterdrücken passiert), ist es der erste
+(als Kern) ebenfalls.
+
+
+=== Bewahrung von Kohärenz
+
+Im Allgemeinen nicht, betrachte etwa den Pushforward der Strukturgarbe unter
+A^1_k --> Spec k.
+
+Aber schon, wenn der Morphismus, entlang dem heruntergedrückt wird, eigentlich
+ist.
+
+
+=== Nächste Schritte
+
+* Wo bricht obiger Beweis zusammen, falls man unendlich viele affinoffene
+  benötigt?

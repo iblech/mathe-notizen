@@ -41,13 +41,13 @@ Unsortierte Fragen:
   Sheaves.
 * Simons Frage von damals: Wann sind X-Interpretationen in Y dasselbe
   wie umgekehrt?
-* Was ist Set^op?
 * Grundlagen über gemeinsame Verfeinerungen, die Hauptvermutung usw.
   herausfinden. Werden Dächer in der derivierten Kategorie gestiftet?
 * Ist simpl->sing. Homologie ein qis?
 * Mayer-Vietoris-Sequenz als Entartung einer Spektralsequenz verstehen
 * Wieso ist Integrieren ein Algebra-Homomorphismus Omega^*(M) --> C^*(M)?
 * Was gibt es zu pro-endlichen Mengen zu sagen?
+* Stone-Dualität verstehen? Was ist Set^op?
 
 Lesen:
 * Ploogs Dissertation

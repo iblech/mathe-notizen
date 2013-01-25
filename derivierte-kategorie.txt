@@ -1,0 +1,60 @@
+=== Struktur der derivierten Kategorie
+
+Beh.: Sei C eine abelsche Kategorie mit Ext^i(X,Y) = 0 für alle i >= 2, X, Y in C.
+Dann ist jedes Objekt aus D^b(C) isomorph zu seinem Homologiekomplex.
+
+Bew.: Induktion über die Amplitude von M. Schreibe kanonische Filtrierung hin:
+
+    tau^(<= n-1) M ---------> tau^(<= n) M
+              ^                 /
+              1\               /
+                \             /
+                 \           v
+                   H^n(M)[-n]
+
+Diese Dreiecke zerfallen jeweils: Nach Voraussetzung sind die Grad-1-Pfeile
+Nullmorphismen.
+
+Aber es stimmt nicht, dass die Kategorie D^b(C) äquivalent zur unendlichen
+direkten Summe von C's ist -- das ist genau dann der Fall, wenn C halbeinfach
+ist, d.h. wenn schon alle Ext^i mit i >= 1 verschwinden.
+
+Bem.: Gelfand-Manin diskutiert das "genau dann" nur für die volle (statt
+beschränkte) derivierte Kategorie. Sollte aber trotzdem stimmen.
+
+Motto: Ein Objekt der derivierten Kategorie besteht aus seinen
+Khomologieobjekten und kohomologischer "Kleber", der diese zusammenhält. Wenn
+alle Ext^2 verschwinden, gibt es keinen Kleber.
+
+Quelle:
+* Bridgeland, http://www.mat.unimi.it/Spring_School/program2.htm
+* Shapira, Categories and Homological Algebra, Kor. 7.2.9.
+
+
+=== Notwendigkeit des Ableitens von Funktoren
+
+Sei A = Z und x eine Zahl ungleich \pm 1 und 0, oder sei A = k[X] und x das
+Polynom X.
+
+Dann gilt: A^\vee := Hom_A(A/(x), A) = 0. Insbesondere also A^\vee\vee
+\not\cong A.
+
+Aber deriviert stimmt es: RHom(RHom(A/(x), A), A) ~~ A/(x).
+
+Sei ferner f: A --> A/(x) die kanonische Projektion. Dann gilt f^\vee\vee = f,
+aber H^*(f^\vee) = 0.
+
+
+=== Derivierte Kategorie einer projektiven Kurve C
+
+Jedes Objekt aus D^b(C) setzt sich aus Shifts und endlichen direkten Summen von
+unzerlegbaren kohärenten Moduln zusammen. Da man für jeden kohärenten Modul F auf C
+die Zerlegung
+
+    F ~~ F_tor \oplus F/F_tor
+
+hat, wobei F/F_tor lokal frei von endlichem Rang ist, sind die unzerlegbaren
+kohärenten Moduln gerade
+
+    (1) unzerlegbare Vektorbündel und
+    (2) Wolkenkratzergarben, die Träger in einem einzigen abgeschlossenen Punkt haben.

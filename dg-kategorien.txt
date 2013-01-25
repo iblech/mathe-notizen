@@ -18,7 +18,7 @@ Def.: Sei M eine dg-Kategorie.
 3) Wenn M sogar eine C(k)-angereicherte Modellkategorie ist, ist
    Int(M) diejenige Unterkategorie, die nur aus den fasernden und zugleich
    kofasernden Objekten besteht.
-   -- Ein beschränkter Komplex in C(R) ist genauu dann zugleich fasernd und
+   -- Ein beschränkter Komplex in C(R) ist genau dann zugleich fasernd und
       kofasernd, wenn all seine Bestandteile projektive R-Moduln sind.
 4) L(M) := Int(M-Mod).
 

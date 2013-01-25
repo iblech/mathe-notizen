@@ -8,6 +8,12 @@ this with a more usual definition. The same definition works for the
 (∞-categorical refinement of) the derived category of quasicoherent sheaves. (I
 learned this from Toen's survey on Higher and Derived Stacks)."
 
+Gute Literatur: Appendix B: Modules vs. Quasi-coherent modules (in particular
+B.2, B.3 and B.12) on pages 409ff of Thomason-Trobaugh, Higher Algebraic
+K-theory of Schemes and of Derived Categories, The Grothendieck Festschrift,
+Vol. III, 247–435, Progress in Mathematics, 88, Birkhäuser Boston, Boston, MA,
+1990, MR 1106918.
+
 Nächste Schritte:
 * Schicke toposlogische Begründung dafür finden, dass (q)coh Moduln stabil
   unter Rückzug sind.

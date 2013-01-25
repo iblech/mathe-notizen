@@ -6,6 +6,8 @@ Satz: D(P^n) wird erzeugt durch die exzeptionelle Sequenz
 Nächste Schritte:
 * Grundlegende Lemmas zu D(X) notieren.
 * Satz über exzeptionelle Sequenz beweisen können.
+* Seite 17 unten von Bridgeland/SpringSchool ("Properties of D(X)")
+  verstehen: Finiteness, Riemann-Roch, Serre duality.
 
 Literatur:
 * Căldăru. Derived categories of schemes: a skimming.

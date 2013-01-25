@@ -4,7 +4,9 @@
   * Definition
   * Nichtlokalität
   * dg-Enhancement
-  * Erzeuger
+  * Struktur
+    * Filtrierung durch abgeschnittene Komplexe
+    * speziell auf P^n: exzeptionelle Sequenz
   * Begriff "derivierte Äquivalenz"
     * Orlov
   * Rekonstruktion

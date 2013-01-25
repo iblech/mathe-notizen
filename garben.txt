@@ -15,6 +15,9 @@
    -- aber abgeschlossen, wenn F Ringgarbe oder Modulgarbe v.e.T.
    -- ist Vereinigung der Träger aller Schnitte über allen offenen Teilmengen.
 
+   Beispiel: supp(A/p) = V(p) = { q | p \subseteq q }.
+   Speziell: supp(A/m) = { m }, wenn m maximal ist.
+
 3) Ist phi: F --> G ein Morphismus, dann:
    -- { x | phi_x \neq 0 } \subset supp F \cap \supp G.
    -- Wenn phi Mono: supp F \subset supp G.
