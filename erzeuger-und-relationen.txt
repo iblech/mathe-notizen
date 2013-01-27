@@ -2,3 +2,11 @@
   http://mathoverflow.net/questions/39941/does-qcohx-admit-a-generating-set/39952#39952
 
 * https://amathew.wordpress.com/2011/07/30/quasi-coherent-sheaves-presentable-categories-and-a-result-of-gabber/
+
+* http://mathoverflow.net/questions/55735/description-of-quasi-coherent-modules-on-a-product
+  Thus the (enhanced) derived category is just dg modules over the ext algebra
+  of this generator (or over the small category of generators). Now it's easy
+  to see that the external product of generators is a generator for the
+  product. Hence sheaves on the product are modules for the tensor product of
+  the dg algebras, ie sheaves on the product are the tensor product of
+  categories of sheaves on each factor.
