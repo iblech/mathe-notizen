@@ -1,0 +1,24 @@
+* Sei f \in A. Dann gilt:
+    { x \in Spec A | f = 0 \in k(x) } = V((f)) = { p | f \in p }.
+
+* Sei A ein lokaler Ring mit maximalem Ideal m.
+  Dann erhält und reflektiert (!) der kanonische Ringhomo
+
+      A --> A/m
+
+  Invertierbarkeit.
+
+* Man sagt, ein Schnitt eines Moduls F verschwinde an einem Punkt, wenn
+  er in F_x \otimes_{O_x} k(x) null ist.
+
+* Abbildungen X --> P^n entsprechen Geradenbündeln L auf X zusammen
+  mit n+1 globalen Schnitten dieses Bündels, welche keine gemeinsame Nullstelle
+  besitzen.
+
+* Sei f globaler Schnitt eines Geradenbündels L. Dann habe O_X --> L.
+  Dieser Morphismus ist genau dann ein Iso, wenn er lokal ein Iso;
+  teste auf Überdeckung, auf der L trivial ist. Die Einschränkung
+  O_X|_U --> L|_U ist durch Multiplikation mit f|_U gegeben. Sie besitzt genau
+  dann ein Inverses, wenn f (aufgefasst als Funktion auf U) ein Inverses
+  besitzt. Das ist genau dann der Fall, wenn f nicht null ist in den Fasern.
+  Also: O_X --> L ist genau dann ein Iso, wenn f nirgendwo verschwindet.
