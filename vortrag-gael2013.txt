@@ -1,0 +1,17 @@
+Which of the senior speaker's courses are you most interested in and why?
+I'm most interested in Kuznetsov's and Lazarsfeld's courses:
+A leitmotif for my Ph.D. thesis is the idea of presenting objects by generators
+and relations, because I'll be dealing with symmetric products of derived
+categories. Kuznetsov's course is therefore directly relevant to my work.
+XXXXX
+
+Which of the courses do you think you will understand the most and why?
+I'll probably understand the courses of Kuznetsov and Lazarsfeld the most,
+because I'm already familiar with derived categories, Fourier-Mukai
+transformations etc.
+
+Please give a short description of your research interests (at most 1 page but
+more than "Algebraic geometry". If possible, you should point out connections
+to the topics of the senior speakers.)
+
+Using the internal language of topoi in algebraic geometry

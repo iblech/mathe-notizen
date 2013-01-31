@@ -1,0 +1,12 @@
+* http://mathoverflow.net/questions/50971/how-to-make-ext-and-tor-constructive
+
+* Probleme:
+  (1) Wahlen, um Homotopieäquivalenzen zwischen Auflösungen zu konstruieren
+  (2) Injektive Auflösungen problematisch (injektiv = divisibel stimmt nicht usw.)
+  (3) Auflösungen nicht kanonisch
+  (4) Projektive Auflösungen gibt es vielleicht nicht
+
+* 2-sided bar construction
+* kanonische freie Auflösung
+
+* Ext^n als Äquivalenzklassen geeigneter exakter Sequenzen

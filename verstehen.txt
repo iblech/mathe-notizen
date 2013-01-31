@@ -48,6 +48,7 @@ Unsortierte Fragen:
 * Wieso ist Integrieren ein Algebra-Homomorphismus Omega^*(M) --> C^*(M)?
 * Was gibt es zu pro-endlichen Mengen zu sagen?
 * Stone-Dualität verstehen? Was ist Set^op?
+* Derivierte Kategorien konstruktiv? Schematheorie konstruktiv?
 
 Lesen:
 * Ploogs Dissertation
