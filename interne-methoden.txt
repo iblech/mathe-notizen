@@ -3,3 +3,5 @@
 * Manche Aussagen phi erfüllen folgende Regel:
   x |== phi  <==>  U |== phi für eine Umgebung U von x
   Kann man allgemein sagen, welche das sind?
+* Welches Transferprinzip gilt zwischen Aussagen für
+  A-Moduln M und A~-Moduln M~ auf Spec A?

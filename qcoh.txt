@@ -14,16 +14,20 @@ K-theory of Schemes and of Derived Categories, The Grothendieck Festschrift,
 Vol. III, 247–435, Progress in Mathematics, 88, Birkhäuser Boston, Boston, MA,
 1990, MR 1106918.
 
+* Qcoh(X) kann als Kategorie quasikohärenter Moduln in einem Topos von Köchern
+  realisiert werden. Pushforward ist in diesem Bild sehr einfach, und man sieht
+  super, wieso die qcqs-Eigenschaft eingeht.
+
 Nächste Schritte:
 * Schicke toposlogische Begründung dafür finden, dass (q)coh Moduln stabil
   unter Rückzug sind.
-* Wann ist ein Geradenbündel trivial? Genügt es, wenn es einen nichttrivialen
-  globalen Schnitt besitzt? Huy05, Seite 75, Aufg. 2.2.5 spricht dagegen.
 * Gibt es Erzeuger und Relationen für Mod(O_X), Qcoh(O_X), Coh(O_X), D(O_X)?
 * Benutze Abschnitt 2 von relative homological algebra,
   um endlich die qcoh-Bedingung richtig zu verstehen!
 * http://stacks.math.columbia.edu/tag/05N9: Kategorie der R-Moduln
   ist Kolimes der Kategorien der R_i-Moduln, wenn R filtrierter Kolimes der R_i
   ist.
+* http://stacks.math.columbia.edu/tag/01PG: qcoh Modul ist Kolimes
+  seiner e.p. Untermoduln, falls X qc qs.
 
 [1] http://mathoverflow.net/questions/16427/quasi-coherent-sheaves-in-the-functor-of-points-approach

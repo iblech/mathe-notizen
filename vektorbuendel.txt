@@ -1,3 +1,5 @@
+=== Vektorbündel als Begriffe verallgemeinerter Funktionen
+
 Vektorbündel liefern verallgemeinerte Begriffe von "Funktionen" auf einem
 Basisraum. Beispiele:
 
@@ -8,6 +10,9 @@ Basisraum. Beispiele:
   misst den Winkel. Ist nicht als stetige gewöhnliche Funktion realisierbar.
   (S^1 = I/(0 ~ 1), Totalraum des Möbiusbündels = (I x R)/~, wobei (0,v) ~
   (1,-v).)
+
+
+=== Vektorbündel über lokale Trivialisierungen und Übergangsabbildungen
 
 Es gibt auch den Begriff des lokal freien O_X-Moduls vom Rang n.
 Kann für einen solchen Modul E und eine gegebene lokale Trivialisierung
@@ -30,6 +35,9 @@ Die Garbe der Schnitte des Möbiusbündels hat als einzige interessante
 Dabei ist S^1 überdeckt durch (0,1) und [0,1] \ {1/2}, daher ist die Setzung
 wohldefiniert.
 
+
+=== Geradenbündel in interner Sprache
+
 Man kann die Garbe des Möbiusbündels in der internen Sprache angeben,
 wenn man sich die Formelkonstanten U, V, t<1/2, t>1/2 erlaubt:
 
@@ -46,7 +54,24 @@ gegeben sind, möglich!
 
 Literatur: Ravi Vakil, Hatcher.
 
-Nächste Schritte:
+
+=== Trivialität von Geradenbündeln
+
+Ein Geradenbündel L ist genau dann trivial (d.h. isomorph zu O_X),
+wenn es einen nirgends verschwindenden globalen Schnitt besitzt.
+("Nirgends verschwindend" :<==> nicht null in allen Fasern L|_x =
+L_x \otimes_{O_(X,x)} k(x).)
+
+Für ganze Schemata, die über einem Körper k eigentlich sind, gilt außerdem:
+Ein Geradenbündel L ist genau dann trivial, wenn L und L^\vee nichttriviale
+globale Schnitte besitzen (d.h. Schnitte, die jeweils nicht der Nullschnitt
+sind). [Denn: O_X(X) ist für solche Schemata X eine endliche Körpererweiterung
+von k, besteht also nur aus Konstanten. Siehe
+http://math.stackexchange.com/questions/154580/if-a-line-bundle-and-its-dual-both-have-a-section-on-a-projective-variety-does.]
+
+
+=== Nächste Schritte
+
 * Kozykelbeschreibug in und auswendig kennen
 * Kozykelbeschreibungen von direkte Summe, Tensorprodukt, Duales verstehen
 * Wieso zerfallen alle kurzen exakten Sequenzen von Vektorbündeln
