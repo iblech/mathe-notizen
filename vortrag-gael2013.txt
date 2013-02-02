@@ -15,3 +15,5 @@ more than "Algebraic geometry". If possible, you should point out connections
 to the topics of the senior speakers.)
 
 Using the internal language of topoi in algebraic geometry
+
+siehe interne-methoden.txt

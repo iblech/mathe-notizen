@@ -20,5 +20,10 @@ Nächste Schritte:
 * Wann ist ein Geradenbündel trivial? Genügt es, wenn es einen nichttrivialen
   globalen Schnitt besitzt? Huy05, Seite 75, Aufg. 2.2.5 spricht dagegen.
 * Gibt es Erzeuger und Relationen für Mod(O_X), Qcoh(O_X), Coh(O_X), D(O_X)?
+* Benutze Abschnitt 2 von relative homological algebra,
+  um endlich die qcoh-Bedingung richtig zu verstehen!
+* http://stacks.math.columbia.edu/tag/05N9: Kategorie der R-Moduln
+  ist Kolimes der Kategorien der R_i-Moduln, wenn R filtrierter Kolimes der R_i
+  ist.
 
 [1] http://mathoverflow.net/questions/16427/quasi-coherent-sheaves-in-the-functor-of-points-approach

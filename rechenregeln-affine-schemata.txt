@@ -22,3 +22,6 @@
   dann ein Inverses, wenn f (aufgefasst als Funktion auf U) ein Inverses
   besitzt. Das ist genau dann der Fall, wenn f nicht null ist in den Fasern.
   Also: O_X --> L ist genau dann ein Iso, wenn f nirgendwo verschwindet.
+
+* Bsp. 10.3.3 in Vakil ("Consider the projection of the // parabola")
+  erlärt super, wie man Fasern ausrechnet.
