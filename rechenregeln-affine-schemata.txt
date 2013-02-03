@@ -16,7 +16,7 @@
   besitzen.
 
 * Sei f globaler Schnitt eines Geradenbündels L. Dann habe O_X --> L.
-  Dieser Morphismus ist genau dann ein Iso, wenn er lokal ein Iso;
+  Dieser Morphismus ist genau dann ein Iso, wenn er lokal ein Iso ist;
   teste auf Überdeckung, auf der L trivial ist. Die Einschränkung
   O_X|_U --> L|_U ist durch Multiplikation mit f|_U gegeben. Sie besitzt genau
   dann ein Inverses, wenn f (aufgefasst als Funktion auf U) ein Inverses

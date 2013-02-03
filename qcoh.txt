@@ -29,5 +29,9 @@ Nächste Schritte:
   ist.
 * http://stacks.math.columbia.edu/tag/01PG: qcoh Modul ist Kolimes
   seiner e.p. Untermoduln, falls X qc qs.
+* the category qcoh(p(v)) of quasicoherent sheaves over the projective space
+  p(v) of a vector space v is the free "good tensor category" on a "line
+  object" l equipped with a "good embedding" e : l -> v.
+  http://notebook361.wordpress.com/2012/05/21/hello-world/
 
 [1] http://mathoverflow.net/questions/16427/quasi-coherent-sheaves-in-the-functor-of-points-approach

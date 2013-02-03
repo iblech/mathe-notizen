@@ -1,0 +1,19 @@
+* http://www.mta.ca/~cat-dist/catlist/1999/finite-topos
+
+* http://math.andrej.com/2009/09/08/constructive-stone-minima-of-sets-of-natural-numbers/
+
+* L := { U \subseteq N | U bewohnt und aufwärts-abgeschlossen }
+
+* Habe zwei Dimensionsbegriffe: über Maximalzahl l.u. Vektoren und Minimalzahl
+  zum Erzeugen benötigter Vektoren. Sind Elemente von L bzw. "L^op".
+
+
+Nächste Schritte:
+
+* Gibt es zu jeder verallgemeinerten natürlichen Zahl einen Vektorraum
+  entsprechender Dimension?
+
+* Wie passt das Konzept des Rangs eines Vektorbündels zu diesen Definitionen?
+
+* Es gibt auch den Begriff des Grads eines Schemamorphismus (siehe Vakil).
+  Zusammenhang?
