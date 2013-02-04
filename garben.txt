@@ -6,6 +6,27 @@
   Solche sind indecomposable (im Sinne von Huy 123).
 
 
+=== Wolkenkratzergarben in algebraischer Geometrie
+
+Sei X ein Schema und A ein abgeschlossenes Unterschema. Dann ist mit
+"Wolkenkratzergarbe zu A" der Pushforward der Strukturgarbe von A unter der
+kanonischen abgeschlossenen Immersion gemeint.
+
+Ist speziell x ein abgeschlossener Punkt, so ist mit A das Spektrum von k(x)
+gemeint. Die kanonische kurze exakte Sequenz lautet dann
+
+    0 --> m~ --> R~ = O_X --> (R/m)~ --> 0.
+
+Diese Wolkenkratzergarben sind im noetherschen Fall kohärent.
+
+Diejenigen Wolkenkratzergarben, die zu abgeschlossenen Punkten gehören, haben
+keine echten Unterobjekte -- und werden durch diese Eigenschaft schon
+charakterisiert (vgl. Huy05 S. 123; Beweis noch nicht genau nachvollzogen).
+
+Anwendung: Auf diese Weise kann man zumindest die abgeschlossenen Punkte aus
+Coh(X) rekonstruieren.
+
+
 === Träger
 
 1) Träger eines Schnitts: supp s := { x | s_x \neq 0 } ist stets abgeschlossen.

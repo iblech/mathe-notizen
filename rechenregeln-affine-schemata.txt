@@ -13,7 +13,7 @@
 
 * Abbildungen X --> P^n entsprechen Geradenbündeln L auf X zusammen
   mit n+1 globalen Schnitten dieses Bündels, welche keine gemeinsame Nullstelle
-  besitzen.
+  besitzen. Siehe Thm. 16.3.7 (Omnibustheorem zu Pullback) und 16.4.1 in Vakil.
 
 * Sei f globaler Schnitt eines Geradenbündels L. Dann habe O_X --> L.
   Dieser Morphismus ist genau dann ein Iso, wenn er lokal ein Iso ist;

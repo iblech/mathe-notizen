@@ -1,0 +1,21 @@
+Aspekte:
+* formale Definition
+* Übergangsfunktionen
+* Nutzen, um Schemamorphismen in P^n zu charakterisieren
+* Divisoren?
+* O(-1) als tautologisches Bündel
+* Euler-Sequenz
+* Anschauliche Vorstellung des Twistens
+
+* RP^1 ist homöomorph zu S^1 -- dazu Einheitskreis AUF die x-Achse
+  (statt zentriert um den Ursprung) setzen.
+
+* Wie sieht O(1) im Vergleich zu O(-1) aus? Wieso hat das eine Bündel
+  nichttriviale globale Schnitte, das andere aber keine?
+
+* Das zu O(-1) assoziierte Bündel (in Vakils Sinn, also Spec Sym O(1))
+  ist angeblich das tautologische Bündel. Habe schon gesehen:
+
+      Hom_P^n(W, Spec Sym O(1)) ~~ glob. Schnitte von (mu_* W)(-1)
+
+  für mu : W --> X.

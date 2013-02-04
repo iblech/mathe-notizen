@@ -3,9 +3,9 @@ varieties/ von Ploog und Sosna gelesen habe:
 * Anschauung zu glatten Varietäten
 * Verbindung zu symplektischer Geometrie, Homological Mirror Symmetry
 * Aut(D^b X) ist scheinbar vollständig verstanden, wenn das kanonische Bündel
-  oder sein duales ampfell ist: Diese Gruppe wird dann erzeugt von
+  oder sein duales ampel ist: Diese Gruppe wird dann erzeugt von
   Geradenbündeltwists, Automorphismen der Varietät und Shifts.
-* Aber wemm das kanonische Bündel trivial ist (sozusagen interessanter Fall),
+* Aber wenn das kanonische Bündel trivial ist (sozusagen interessanter Fall),
   gibt es noch weitere Autoäquivalenzen.
 * Motto: Aut(D^b X) ist Gruppe höherer (derivierter) Äquivalenzen von X.
 * f_*: D(X) --> D(Y) verstehen

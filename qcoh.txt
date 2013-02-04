@@ -18,6 +18,9 @@ Vol. III, 247–435, Progress in Mathematics, 88, Birkhäuser Boston, Boston, MA
   realisiert werden. Pushforward ist in diesem Bild sehr einfach, und man sieht
   super, wieso die qcqs-Eigenschaft eingeht.
 
+* Qcoh auf P^n:
+  http://mathoverflow.net/questions/93086/basics-about-quasi-coherent-modules-on-projective-schemes
+
 Nächste Schritte:
 * Schicke toposlogische Begründung dafür finden, dass (q)coh Moduln stabil
   unter Rückzug sind.

@@ -1,0 +1,12 @@
+* Ist E ein lokal freier O_X-Modul, heißt je nach Quelle
+
+      Spec Sym E --> X
+
+  oder
+
+      Spec Sym E^\vee --> X
+
+  das zu E assoziierte Vektorbündel: Vgl. Vakil 17.1.4 oder Stacks 01M2.
+
+Nächste Schritte:
+* Konstruktion intern verstehen!
