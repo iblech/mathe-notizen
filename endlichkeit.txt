@@ -7,6 +7,9 @@
 * Habe zwei Dimensionsbegriffe: über Maximalzahl l.u. Vektoren und Minimalzahl
   zum Erzeugen benötigter Vektoren. Sind Elemente von L bzw. "L^op".
 
+* Zusammenhang zum Konzept des Rangs eines lokal freien Moduls:
+  Könnte sein: Invariant unter lokaler Isomorphie sind beide (bzw. alle drei)
+  Konzepte.
 
 Nächste Schritte:
 

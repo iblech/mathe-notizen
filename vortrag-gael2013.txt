@@ -1,18 +1,36 @@
 Which of the senior speaker's courses are you most interested in and why?
+
 I'm most interested in Kuznetsov's and Lazarsfeld's courses:
-A leitmotif for my Ph.D. thesis is the idea of presenting objects by generators
-and relations, because I'll be dealing with symmetric products of derived
-categories. Kuznetsov's course is therefore directly relevant to my work.
-XXXXX
+* My Ph.D. research will deal with symmetric products of derived
+  categories; Kuznetsov's course is therefore directly relevant to my work.
+* There are two reasons for my interest in Lazarsfeld's course:
+  Firstly, the idea of presenting objects by generators and relations (and
+  generalizations thereof) will play an important technical role in my resarch.
+  Secondly, constructive mathematics (particularly constructive algebra in the
+  sense of Richman, Coquand, Lombardi...) is a long-term side interest of me.
+  A central theme of constructive algebra is that one shouldn't work with large
+  objects (e.g. the field of algebraic numbers) directly, but with finite
+  approximations (e.g. certain splitting fields of explicitly given polynomials).
+
 
 Which of the courses do you think you will understand the most and why?
+
 I'll probably understand the courses of Kuznetsov and Lazarsfeld the most,
-because I'm already familiar with derived categories, Fourier-Mukai
-transformations etc.
+because I'm already familiar with homological algebra, derived categories,
+Fourier-Mukai transformations etc. and the classical theory of syzygies.
+
 
 Please give a short description of your research interests (at most 1 page but
 more than "Algebraic geometry". If possible, you should point out connections
 to the topics of the senior speakers.)
+
+
+
+
+Unter anderem interessiere ich mich für konstruktive Mathematik,
+intuitionistische Logik, Topostheorie, Kategorientheorie, Anwendungen in der
+theoretischen Informatik.
+
 
 Using the internal language of topoi in algebraic geometry
 
