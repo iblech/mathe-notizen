@@ -1,7 +1,23 @@
 * Eig. koh. Moduln kann man super intern zeigen!
   vgl. http://amathew.files.wordpress.com/2010/07/031.pdf
+
+* X reduziertes Schema <==>
+    Sh(X) |== für alle s : O_X. [s nicht invertierbar ==> s = 0].
+
+* Topologischer Raum X zusammenhängend <==>
+    Die interne Sprache von Sh(X) erfüllt folgende Eigenschaft:
+    Seien phi, psi zwei disjunkte Aussagen (d.h. phi und psi ==> _|_).
+    Dann folgt aus Sh(X) |== (phi oder psi), dass Sh(X) |== phi oder
+    dass Sh(X) |== psi.
+
 * Manche Aussagen phi erfüllen folgende Regel:
   x |== phi  <==>  U |== phi für eine Umgebung U von x
   Kann man allgemein sagen, welche das sind?
+
 * Welches Transferprinzip gilt zwischen Aussagen für
   A-Moduln M und A~-Moduln M~ auf Spec A?
+
+* Gibt es einen Operator B (eine Lawvere-Tierney-Topologie?)
+  derart, dass B phi genau dann gilt, wenn phi auf einer offenen dichten
+  Teilmenge gilt? Beweise damit, dass Moduln v.e.T. auf integren Schemata auf
+  einer dichten Teilmenge lokal frei sind!
