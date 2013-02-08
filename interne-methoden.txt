@@ -4,6 +4,9 @@
 * X reduziertes Schema <==>
     Sh(X) |== für alle s : O_X. [s nicht invertierbar ==> s = 0].
 
+* X beliebiges Schema. Dann erfüllt O_X in Sh(X) folgende Eigenschaft:
+    für alle s : O_X. [s nicht invertierbar ==> s nilpotent].
+
 * Topologischer Raum X zusammenhängend <==>
     Die interne Sprache von Sh(X) erfüllt folgende Eigenschaft:
     Seien phi, psi zwei disjunkte Aussagen (d.h. phi und psi ==> _|_).
