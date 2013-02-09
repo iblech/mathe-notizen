@@ -5,12 +5,14 @@ I'm most interested in Kuznetsov's and Lazarsfeld's courses:
   categories; Kuznetsov's course is therefore directly relevant to my work.
 * There are two reasons for my interest in Lazarsfeld's course:
   Firstly, the idea of presenting objects by generators and relations (and
-  generalizations thereof) will play an important technical role in my resarch.
+  generalizations thereof) will play an important technical role in my research.
   Secondly, constructive mathematics (particularly constructive algebra in the
-  sense of Richman, Coquand, Lombardi...) is a long-term side interest of me.
+  sense of Richman, Coquand, Lombardi, ...) is a long-term side interest of me.
   A central theme of constructive algebra is that one shouldn't work with large
   objects (e.g. the field of algebraic numbers) directly, but with finite
-  approximations (e.g. certain splitting fields of explicitly given polynomials).
+  approximations (e.g. certain splitting fields of explicitly given
+  polynomials); from this point of view, the concept of syzygies is obviously
+  very important.
 
 
 Which of the courses do you think you will understand the most and why?
@@ -24,12 +26,14 @@ Please give a short description of your research interests (at most 1 page but
 more than "Algebraic geometry". If possible, you should point out connections
 to the topics of the senior speakers.)
 
+My main interest is in symmetric products of derived categories and
+"categorified linear algebra" (symmetric and exterior products of categories),
+but I'm also interested in applications of topos theory to algebraic geometry,
+i.e. gaining better understanding of relative situations by using the
+intuitionistic internal language of certain topoi, and constructive mathematics
+in general.
 
-
-
-Unter anderem interessiere ich mich für konstruktive Mathematik,
-intuitionistische Logik, Topostheorie, Kategorientheorie, Anwendungen in der
-theoretischen Informatik.
+I'd be happy to provide any additional information required.
 
 
 Using the internal language of topoi in algebraic geometry
