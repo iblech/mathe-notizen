@@ -51,6 +51,7 @@ Unsortierte Fragen:
 * Derivierte Kategorien konstruktiv? Schematheorie konstruktiv?
 * Helfen pro/ind-endliche topologische Räume, um etwa die Cantormenge zu
   verstehen?
+* Stacks: http://ens.math.univ-montp2.fr/~toen/m2.html
 
 Lesen:
 * Ploogs Dissertation

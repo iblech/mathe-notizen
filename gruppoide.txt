@@ -1,0 +1,15 @@
+=== Prägarbentopoi zu Gruppoiden
+
+* Allgemein: Set^{C^op} / X ~ Set^{(C \downarrow X)^op} (Prägarbenkategorie über der
+  Kategorie der Elemente von X)
+
+* Daher speziell: Set^{X//G} ~ Set^G / X.
+
+* Siehe: http://golem.ph.utexas.edu/category/2008/01/geometric_representation_theor_19.html
+
+
+=== Nächste Schritte
+
+* Interne Sprache des Topos der G-Mengen untersuchen!
+
+* http://golem.ph.utexas.edu/category/2007/07/question_about_representations.html
