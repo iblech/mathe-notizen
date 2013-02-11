@@ -1,0 +1,3 @@
+* http://www.jmilne.org/math/CourseNotes/lec.html
+
+* Kummer-Sequenz ist exakt!
