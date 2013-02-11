@@ -10,3 +10,6 @@
   product. Hence sheaves on the product are modules for the tensor product of
   the dg algebras, ie sheaves on the product are the tensor product of
   categories of sheaves on each factor.
+
+* Estrada, Saorín. Locally finitely presented categories with no flat objects.
+  Hat in der Einleitung viele Literaturverweise!

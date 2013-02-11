@@ -61,3 +61,5 @@ of finite type.
   Zusammenhang?
 
 * Ist "kohärent" kategoriell definierbar (wie e.e., e.p.)?
+
+* Zusammenhang zwischen Projektivität und Endlichkeitsbedingungen

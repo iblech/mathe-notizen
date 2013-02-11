@@ -1,3 +1,5 @@
 === Nächste Schritte
 
 * Doppelnegationsübersetzung verstehen
+
+* Zusammenhang zur nicht-nicht-Topologie erkennen
