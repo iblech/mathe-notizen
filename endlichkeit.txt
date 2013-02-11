@@ -59,3 +59,5 @@ of finite type.
 
 * Es gibt auch den Begriff des Grads eines Schemamorphismus (siehe Vakil).
   Zusammenhang?
+
+* Ist "kohärent" kategoriell definierbar (wie e.e., e.p.)?

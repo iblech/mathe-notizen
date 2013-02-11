@@ -1,0 +1,5 @@
+=== Nächste Schritte
+
+* Verstehen, wieso Sh(E) äquivalent zu E ist, wenn E ein Grothendiecktopos ist.
+  (Dabei E als Situs mit der kanonischen Topologie aufgefasst, siehe
+  http://ncatlab.org/nlab/show/canonical+topology.)

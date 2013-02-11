@@ -58,3 +58,8 @@ Element von H_(n+1)(A).
 === Nächste Schritte
 
 * Verbindender Homomorphismus in allgemeineren (Ko-)Homologietheorien
+* Ist simpl->sing. Homologie ein qis?
+* Mayer-Vietoris-Sequenz als Entartung einer Spektralsequenz verstehen
+* Wieso ist Integrieren ein Algebra-Homomorphismus Omega^*(M) --> C^*(M)?
+* Grundlagen über gemeinsame Verfeinerungen, die Hauptvermutung usw.
+  herausfinden. Werden Dächer in der derivierten Kategorie gestiftet?

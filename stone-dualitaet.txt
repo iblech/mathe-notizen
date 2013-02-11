@@ -1,0 +1,6 @@
+=== Nächste Schritte
+
+* Was gibt es zu pro-endlichen Mengen zu sagen?
+* Stone-Dualität verstehen? Was ist Set^op?
+* Helfen pro/ind-endliche topologische Räume, um etwa die Cantormenge zu
+  verstehen?

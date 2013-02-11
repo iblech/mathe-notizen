@@ -1,13 +1,31 @@
+=== Definition
+
 Def.: D(X) := D^b(Coh(O_X)).
+
+
+=== Projektiver Raum
 
 Satz: D(P^n) wird erzeugt durch die exzeptionelle Sequenz
     O(-n), O(-n+1), ..., O(-1), O.
 
-Nächste Schritte:
+
+=== Derivierte Kategorie von C^infty-Mannigfaltigkeiten
+
+Da Coh(X) für C^infty-Mannigfaltigkeiten halbeinfach ist, da Moduln auf
+C^infty(__) stets fein sind, ist D(X) äquivalent zur direkten Summe von Coh(X)
+über n aus Z.
+
+
+=== Nächste Schritte
+
 * Grundlegende Lemmas zu D(X) notieren.
 * Satz über exzeptionelle Sequenz beweisen können.
 * Seite 17 unten von Bridgeland/SpringSchool ("Properties of D(X)")
   verstehen: Finiteness, Riemann-Roch, Serre duality.
+* Wieso ist D^b(X) eine gute, aber Coh(X) keine gute Invariante?
+* D^b(X) für X = Spec A? Wodurch wird D^b(X) und Aut(D^b X) dann erzeugt?
+* Was ist D(X) anschaulich?
+* Derivierte Kategorien konstruktiv? Schematheorie konstruktiv?
 
 Literatur:
 * Căldăru. Derived categories of schemes: a skimming.

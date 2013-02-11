@@ -2,29 +2,12 @@ Gekommen, als ich /On autoequivalences of some Calabi--Yau and hyperkähler
 varieties/ von Ploog und Sosna gelesen habe:
 * Anschauung zu glatten Varietäten
 * Verbindung zu symplektischer Geometrie, Homological Mirror Symmetry
-* Aut(D^b X) ist scheinbar vollständig verstanden, wenn das kanonische Bündel
-  oder sein duales ampel ist: Diese Gruppe wird dann erzeugt von
-  Geradenbündeltwists, Automorphismen der Varietät und Shifts.
-* Aber wenn das kanonische Bündel trivial ist (sozusagen interessanter Fall),
-  gibt es noch weitere Autoäquivalenzen.
-* Motto: Aut(D^b X) ist Gruppe höherer (derivierter) Äquivalenzen von X.
-* f_*: D(X) --> D(Y) verstehen
 * Hilbertschema X^[n] verstehen: ist eine Hyperkählervarietät
-* Quotientstack [X/G] (immer ein glatter D-M-Stack)
-* Coh^G(X) ~ Coh([X/G]) angeblich trivialerweise
-* Moduln in Punktefunktorsicht
 * Kap. 2 von Sheaves in Topology
 * Invarianten als f_* verstehen
 
 Unsortierte Fragen:
 * BGG nur für P^n oder bel. proj. Var.?
-* D^b(X) für X = P^n?
-* Wieso ist D^b(X) eine gute, aber Coh(X) keine gute Invariante?
-* Was passiert, wenn X eine C^infty- oder komplexe Mannigfaltigkeit ist?
-  Vgl. Huy05.
-* Ist "kohärent" kategoriell definierbar (wie e.e., e.p.)?
-* D^b(X) für X = Spec A? Wodurch wird D^b(X) und Aut(D^b X) dann erzeugt?
-* Was ist D(X) anschaulich?
 * Hilft Topossicht, um relative Situationen einfacher zu machen?
 * Spektralsequenzen
 * Lawvere’s Reconstruction Theorem verstehen
@@ -32,26 +15,11 @@ Unsortierte Fragen:
   (∞,1)-categories. [...] It is known that all 3 approaches give the same
   result over a field of characteristic zero.
 * method of acyclic models
-* Der K-Theorie welcher abelschen (oder zumindest additiven) Kategorie
-  entspricht die K-Theorie von Vektorbündeln?
 * computational linguistics!
-* Coquand "Algebraically closed fields" verstehen, insb. die Anwendung
-  zur Berechnung von Zweigen algebraischer Kurven.
 * Verdier-Dualität und Co., siehe Abschnitt 14 von Goresky, Primer on
   Sheaves.
 * Simons Frage von damals: Wann sind X-Interpretationen in Y dasselbe
   wie umgekehrt?
-* Grundlagen über gemeinsame Verfeinerungen, die Hauptvermutung usw.
-  herausfinden. Werden Dächer in der derivierten Kategorie gestiftet?
-* Ist simpl->sing. Homologie ein qis?
-* Mayer-Vietoris-Sequenz als Entartung einer Spektralsequenz verstehen
-* Wieso ist Integrieren ein Algebra-Homomorphismus Omega^*(M) --> C^*(M)?
-* Was gibt es zu pro-endlichen Mengen zu sagen?
-* Stone-Dualität verstehen? Was ist Set^op?
-* Derivierte Kategorien konstruktiv? Schematheorie konstruktiv?
-* Helfen pro/ind-endliche topologische Räume, um etwa die Cantormenge zu
-  verstehen?
-* Stacks: http://ens.math.univ-montp2.fr/~toen/m2.html
 
 Lesen:
 * Ploogs Dissertation

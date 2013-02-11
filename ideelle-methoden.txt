@@ -54,3 +54,9 @@ Linearfaktorzerlegungen von f in R (unter Beachtung der Reihenfolge).
 Literatur:
 * Richman. Van der Waerden's construction of a splitting field.
 * Cohen, Coquand. A constructive version of Laplace's proof on the existence of complex roots.
+
+
+=== Nächste Schritte
+
+* Coquand "Algebraically closed fields" verstehen, insb. die Anwendung
+  zur Berechnung von Zweigen algebraischer Kurven.

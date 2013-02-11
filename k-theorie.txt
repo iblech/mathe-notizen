@@ -39,4 +39,7 @@ Bew. (mit Lemmas): chi(F) ist gleich dem Bild von [Gamma(I^*)] unter der
 Dimensionsabbildung, wobei 0 --> F --> I^* eine injektive Auflösung ist. Dann
 Hufeisenlemma.
 
+* Der K-Theorie welcher abelschen (oder zumindest additiven) Kategorie
+  entspricht die K-Theorie von Vektorbündeln?
+
 Literatur: Max Karoubi, Huybrechts Fourier-Mukai S. 124.

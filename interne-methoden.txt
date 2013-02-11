@@ -1,3 +1,5 @@
+=== Ein paar Eigenschaften
+
 * Eig. koh. Moduln kann man super intern zeigen!
   vgl. http://amathew.files.wordpress.com/2010/07/031.pdf
 
@@ -13,6 +15,17 @@
     Dann folgt aus Sh(X) |== (phi oder psi), dass Sh(X) |== phi oder
     dass Sh(X) |== psi.
 
+* Sei X topologischer Raum und phi eine Aussage der internen Sprache von Sh(X).
+  Dann gilt: [[phi]] ist genau dann eine dichte Teilmenge von X, wenn
+      Sh(X) |== nicht nicht phi.
+
+* Sei X topologischer Raum. Dann ist genau dann jede nichtleere offene
+  Teilmenge von X dicht, wenn für jede Aussage phi gilt:
+      nicht (Sh(X) |== nicht phi)   ==>   Sh(X) |== nicht nicht phi.
+
+
+=== Nächste Schritte
+
 * Manche Aussagen phi erfüllen folgende Regel:
   x |== phi  <==>  U |== phi für eine Umgebung U von x
   Kann man allgemein sagen, welche das sind?
@@ -24,3 +37,9 @@
   derart, dass B phi genau dann gilt, wenn phi auf einer offenen dichten
   Teilmenge gilt? Beweise damit, dass Moduln v.e.T. auf integren Schemata auf
   einer dichten Teilmenge lokal frei sind!
+
+* Wie Marcs topos-theoretische Sicht auf Arbeit mit generischen Situationen
+  formalisieren?
+
+* Hatte interne Garben bzg. Lawvere-Tierney-Topologien mal verstanden.
+  Wieder verstehen und aufschreiben!

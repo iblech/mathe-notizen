@@ -1,0 +1,3 @@
+* Quotientstack [X/G] (immer ein glatter D-M-Stack)
+* Coh^G(X) ~ Coh([X/G]) angeblich trivialerweise
+* http://ens.math.univ-montp2.fr/~toen/m2.html
