@@ -1,3 +1,5 @@
+=== Definition und elementare Beobachtungen
+
 Sei A abelsche Kategorie.
 
 Def.: K_0(A) := Freie abelsche Gruppe über den Isoklassen von Objekten aus A
@@ -22,7 +24,22 @@ Elementare Beobachtungen:
    -- dim ist invariant auf Isoklassen.
    -- dim induziert Gruppenhomo K_0(A) --> G.
 
+
+=== Variante für additive Kategorien
+
+Sei A nur additiv. Dann kann man immerhin Elemente der Form
+
+    [X \oplus Y] - [X] - [Y]
+
+herausteilen. Dann hat man folgendes Lemma:
+
+Lemma: [X] = [Y]  <==>  X \oplus Z ~~ Y \oplus Z für ein Z.
+
+
+=== K-Theorie eines Schemas
+
 Anwendung: Für X Schema habe D^b(X) --> K_0(X) := K_0(O_X-Mod).
+
 1) Kann jedes Element in K_0(X) als Linearkombination von Klassen lokal
    freier Moduln schreiben (falls X glatt).
 2) Kann dadurch Ringstruktur definieren.
@@ -30,14 +47,22 @@ Anwendung: Für X Schema habe D^b(X) --> K_0(X) := K_0(O_X-Mod).
 4) Außerdem kovariant, durch verallgemeinertes direktes Bild:
        f_! [F] := \sum (-1)^n [R^n f_*(F)].
 
-Eulercharakteristik einer Modulgarbe (nach Hartshorne, Ex. III.5.1):
+
+=== Eulercharakteristik einer Modulgarbe (nach Hartshorne, Ex. III.5.1):
+
 Def.: chi(F) = \sum (-1)^i dim_k H^i(X; F).
+
 Prop.: chi ist null auf kurzen exakten Sequenzen.
+
 Bew. (direkt): Lange exakte Kohomologiesequenz hinschreiben und alternierend
 Dimensionen aufsummieren, das gibt null.
+
 Bew. (mit Lemmas): chi(F) ist gleich dem Bild von [Gamma(I^*)] unter der
 Dimensionsabbildung, wobei 0 --> F --> I^* eine injektive Auflösung ist. Dann
 Hufeisenlemma.
+
+
+== Nächste Schritte
 
 * Der K-Theorie welcher abelschen (oder zumindest additiven) Kategorie
   entspricht die K-Theorie von Vektorbündeln?
