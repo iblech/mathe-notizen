@@ -10,3 +10,24 @@
 * kanonische freie Auflösung
 
 * Ext^n als Äquivalenzklassen geeigneter exakter Sequenzen
+
+
+=== Konkret im Computer
+
+Kann die abelsche Struktur von Modulkategorien implementieren:
+* für endlich-dimensionale Vektorräume
+* für ... Moduln über Ringen, sodass ich die SNF habe
+* für k[X_0, ..., X_n]?
+
+Kann die abelsche Struktur von Kategorien kohärenter Modulgarben implementieren:
+* für Schemata, die eine endliche Überdeckung durch affine Unterschemata
+  zulassen, deren Schnitte selbst wieder affin sind und über deren
+  Funktionenringen ich die abelsche Struktur der zugehörigen Modulkategorie
+  implementieren kann.
+
+Kann die abelsche Struktur von Kategorien von Kettenkomplexen implementieren:
+* falls ich die abelsche Struktur der zugrundeliegenden abelschen Kategorie
+  implementieren kann.
+
+Kann die triangulierte Struktur der Homotopiekategorie implementieren:
+* ???

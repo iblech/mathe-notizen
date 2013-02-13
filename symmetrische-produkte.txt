@@ -1,0 +1,6 @@
+=== S^n(P^1)
+
+Das n-fache symmetrische Produkt von P^1 ist isomorph zu P^n.
+Das ist ein klassisches Resultat, siehe etwa:
+
+    Helge Maakestad. Resultants and symmetric products. arXiv:0502046.

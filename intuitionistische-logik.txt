@@ -1,3 +1,26 @@
+=== AxC ==> LEM
+
+Sei phi eine Aussage.
+
+Definiere die Mengen
+
+    A := { x \in {0,1} | x = 0 oder phi },
+    B := { x \in {0,1} | x = 1 oder phi }.
+
+Beide Mengen sind bewohnt, daher gibt es nach AxC eine Auswahlfunktion s
+mit
+
+    [s(A) = 0 oder phi] und [s(B) = 1 oder phi].
+
+Somit folgt
+
+    s(A) != s(B) oder phi.
+
+Die Behauptung folgt, da wegen Extensionalität gilt:
+
+    phi <==> A = B <==> s(A) = s(B).
+
+
 === Nächste Schritte
 
 * Doppelnegationsübersetzung verstehen

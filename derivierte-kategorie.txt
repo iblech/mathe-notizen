@@ -61,3 +61,24 @@ kohärenten Moduln gerade
 
 Quelle:
 http://www.mathematik.uni-stuttgart.de/~thiel/notes/derived_category_of_a_curve.pdf
+
+
+=== Ein Lemma von Beilinson
+
+Sei F: C --> D ein exakter Funktor zwischen triangulierten Kategorien. Sei
+(X_i) ein Erzeugendensystem für C. Wenn:
+    (1) (F(X_i)) bilden ein Erzeugendensystem für D
+    (2) Hom(X_i, X_j) --> Hom(F(X_i), F(X_j)) sind Isos
+Dann: Ist F eine Äquivalenz.
+
+Beweis: Die essentielle Surjektivität ist klar. Die Volltreuheit folgt mit der
+Tatsache, dass Hom(A, __) und Hom(__, A) kohomologische Funktoren sind, und dem
+Fünferlemma.
+
+Quelle: Beilinson, Coherent sheaves on P^n and problems in linear algebra.
+
+
+=== Monomorphismen in derivierten Kategorien zerfallen
+
+Siehe
+http://mathoverflow.net/questions/15658/how-do-i-know-the-derived-category-is-not-abelian/15662#15662.
