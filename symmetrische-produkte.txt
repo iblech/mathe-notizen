@@ -4,3 +4,38 @@ Das n-fache symmetrische Produkt von P^1 ist isomorph zu P^n.
 Das ist ein klassisches Resultat, siehe etwa:
 
     Helge Maakestad. Resultants and symmetric products. arXiv:0502046.
+
+Das kann man so zeigen: Seien n Punkte im P^1 gegeben. Dann kann man diese
+Punkte mit der Veronese-Abbildung in den P^n abbilden; die Bildpunkte spannen
+eine Hyperebene im P^n auf. Diese entspricht einem Punkt im P^n-Dual.
+
+Genauer: Es kann natürlich passieren, dass manche der Punkte zusammenlaufen.
+Aber dann kann man die Hyperebene über Tangentialinformation rekonstruieren.
+
+Rechnerisches Beispiel für n = 2:
+Die Veronese-Abbildung ist [x:y] |--> [x^2 : xy : y^2].
+
+Die Gerade, die [1:y:y^2] mit [1:v:v^2] verbindet, hat auf der Karte z_0 = 1
+die Gleichung
+
+    (y v^2 - y^2 v) z_0 + (y^2 - v^2) z_1 + (v - y) z_2 = 0.
+
+In dieser kann man noch den gemeinsamen Faktor (v - y) herausteilen,
+dann erhält man
+
+    yv z_0 - (y + v) z_1 + z_2 = 0.
+
+Analog lautet die Gleichung für die Verbindungsgerade von [x^2:x:1] mit
+[u^2:u:1] auf der Karte z_2 = 1
+
+    z_0 - (u + v) z_1 + xu z_2 = 0.
+
+Insgesamt lautet die gesuchte Gleichung daher
+
+    yv z_0 - (xv + yu) z_1 + xu z_2 = 0,
+
+der gesuchte Isomorphismus ist also:
+
+    [ [x:y], [u:v] ] |--> [yv : -(xv + yu) : xu],
+
+wobei man das Minuszeichen natürlich auch weglassen kann.

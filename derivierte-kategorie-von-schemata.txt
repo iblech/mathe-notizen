@@ -28,5 +28,5 @@ C^infty(__) stets fein sind, ist D(X) äquivalent zur direkten Summe von Coh(X)
 * Derivierte Kategorien konstruktiv? Schematheorie konstruktiv?
 
 Literatur:
-* Căldăru. Derived categories of schemes: a skimming.
+* Caldararu. Derived categories of schemes: a skimming.
   http://www.math.wisc.edu/~andreic/publications/lnPoland.pdf
