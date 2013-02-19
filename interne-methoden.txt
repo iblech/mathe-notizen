@@ -43,3 +43,6 @@
 
 * Hatte interne Garben bzg. Lawvere-Tierney-Topologien mal verstanden.
   Wieder verstehen und aufschreiben!
+
+* Ist eine Garbe genau dann lokal konstant, wenn sie aus interner Sicht diskret
+  ist? Vermutlich nicht! Gegenbeispiel?

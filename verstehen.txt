@@ -20,6 +20,10 @@ Unsortierte Fragen:
   Sheaves.
 * Simons Frage von damals: Wann sind X-Interpretationen in Y dasselbe
   wie umgekehrt?
+* Finite-Difference Approach to the Hodge Theory of Harmonic Forms
+  Lieblingspaper von Eric Forgy (?)
+* http://ncatlab.org/schreiber/show/master+thesis+Stel
+* two approaches to modeling the universe: sdg and framed sets
 
 Lesen:
 * Ploogs Dissertation

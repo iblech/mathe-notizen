@@ -15,6 +15,32 @@
   Hat in der Einleitung viele Literaturverweise!
 
 
+=== Lokal endlich präsentierbare Kategorien
+
+Definition: Eine Kategorie C heißt lokal endlich präsentierbar, wenn:
+(1) C besitzt kleine Kolimiten.
+(2) C_fp ist essenziell klein.
+(3) Jedes Objekt X ist filtrierter Kolimes des kanonischen Diagramms
+    C_fp/X --> C.
+
+Dabei bezeichnet C_fp die volle Unterkategorie der kompakten Objekte X (die,
+für die Hom(X, __) mit filtrierten Kolimiten vertauscht).
+
+Äquivalent ist:
+(1) C_fp besitzt endliche Kolimiten.
+(2) Die eingeschränkte Yoneda-Einbettung C --> [C_fp^op, Set] identifiziert C
+    mit den "linksexakten" (d.h. endliche Limiten bewahrenden) Funktoren
+    C_fp^op --> Set.
+
+Bin der Meinung, dass das Diagramm oben stets filtriert ist. Denn das Koprodukt
+zweier kompakter Objekte ist kompakt!
+Update: Ist mir grad nicht mehr klar. Verwechsele ich die Ordnungsrichtung?
+
+Beispiel: Die Kategorie der A-Modul ist lokal endlich präsentierbar.
+Zur Rekonstruktion eines A-Moduls aus einem linksexakten Funktor F: C_fp^op -->
+Set muss man F((x,y) |-> x+y) und F(x |-> ax) für a \in A wissen.
+
+
 === Kompakte Objekte
 
 Nach Bondal-van den Bergh (S. 8f):
