@@ -44,6 +44,10 @@ Beispiel: Die Kategorie der A-Modul ist lokal endlich präsentierbar.
       x |--> phi_U(x), wobei (U --> M) e.p. mit u \in U so, dass u |--> x.
   (Existenz eines solchen U gesichert: Wähle U als freien A-Modul vom Rang 1;
   und Wohldefiniertheit durch direkte Summe und Herausteilen.)
+* Damit folgt: Kompakte Objekte in A-Mod sind endlich präsentiert.
+  Denn die Identität M --> M faktorisiert über einen endlich präsentierten
+  Modul U, stellt daher M als direkten Summanden eines endlich präsentierten
+  Moduls dar und zeigt somit, dass M selbst endlich präsentiert ist.
 * Zur Rekonstruktion eines A-Moduls aus einem linksexakten Funktor
   F: C_fp^op --> Set muss man F((x,y) |-> x+y) und F(x |-> ax) für a \in A wissen.
 
