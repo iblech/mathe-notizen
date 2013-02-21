@@ -36,37 +36,3 @@ Das Diagramm oben ist stets filtriert:
 * Denn das initiale Objekt ist kompakt.
 * Koprodukte von kompakten Objekten sind kompakt.
 * Kodifferenzkerne zwischen kompakten Objekten sind kompakt.
-
-Beispiel: Die Kategorie der A-Modul ist lokal endlich präsentierbar.
-* Sei M ein A-Modul. Nachweis, dass M Kolimes das kanonischen Diagramms ist:
-  Sei (phi_U : U --> Z) ein Kokegel des kanonischen Diagramms.
-  Dann definiere psi : M --> Z durch
-      x |--> phi_U(x), wobei (U --> M) e.p. mit u \in U so, dass u |--> x.
-  (Existenz eines solchen U gesichert: Wähle U als freien A-Modul vom Rang 1;
-  und Wohldefiniertheit durch direkte Summe und Herausteilen.)
-* Damit folgt: Kompakte Objekte in A-Mod sind endlich präsentiert.
-  Denn die Identität M --> M faktorisiert über einen endlich präsentierten
-  Modul U, stellt daher M als direkten Summanden eines endlich präsentierten
-  Moduls dar und zeigt somit, dass M selbst endlich präsentiert ist.
-* Zur Rekonstruktion eines A-Moduls aus einem linksexakten Funktor
-  F: C_fp^op --> Set muss man F((x,y) |-> x+y) und F(x |-> ax) für a \in A wissen.
-
-
-=== Kompakte Objekte
-
-Nach Bondal-van den Bergh (S. 8f):
-* Sei X qc qs. Dann sind die kompakten Objekte in
-  D_qcoh(X) genau die perfekten Komplexe.
-* D_qcoh(X) wird von einem einzelnen perfekten Komplex erzeugt.
-* Sei X sogar qc sep: Dann ist D(Qcoh(X)) --> D_qcoh(X) eine Äquivalenz.
-* Sei X sogar glatt über einem örper: Dann D^b(Coh(X)) ~ D_perf(X).
-
-Daraus entnehme ich:
-* D^b(Coh(X)) ist die Unterkategorie der kompakten Objekte von
-  D^b(Qcoh(X)). Stimmt das?
-
-Ferner schreiben sie:
-* Q qc qs. Dann D_qcoh(X) ~ D(Lambda) für eine DG-Algebra Lambda mit
-  beschränkter Kohomologie.
-Als Motto: "Quasikompakte quasiseparierte Schemata sind affin, in einem abgeleiteten
-Sinn."

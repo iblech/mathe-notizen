@@ -1,0 +1,83 @@
+=== Kompakte Objekte allgemein
+
+* Endliche Kolimiten kompakter Objekte sind kompakt.
+
+* Faktorisiert die Identität M --> M über ein kompaktes Objekt U,
+
+      M --iota--> U --pi--> M,
+
+  dann ist M selbst kompakt, da es der Kolimes des Differenzkokerndiagramms
+
+      U ====> U (id vs. iota pi)
+
+  ist. Das stimmt in allen Kategorien, ein Beweis der universellen Eigenschaft
+  geht so:
+
+      Sei U --phi--> Z mit phi = phi iota pi.
+      Definiere psi := phi iota : M --> Z.
+      Dann kommutiert das Diagramm:
+          psi pi = phi iota pi = phi.
+      Außerdem war das die einzige Möglichkeit:
+          Sei psi pi = phi. Dann folgt psi = psi pi iota = phi iota.
+
+
+=== Kompakte Objekte in A-Mod
+
+Die Kategorie der A-Modul ist lokal endlich präsentierbar.
+
+* Sei M ein A-Modul. Nachweis, dass M Kolimes das kanonischen Diagramms ist:
+  Sei (phi_U : U --> Z) ein Kokegel des kanonischen Diagramms.
+  Dann definiere psi : M --> Z durch
+      x |--> phi_U(x), wobei (U --> M) e.p. mit u \in U so, dass u |--> x.
+  (Existenz eines solchen U gesichert: Wähle U als freien A-Modul vom Rang 1;
+  und Wohldefiniertheit durch direkte Summe und Herausteilen.)
+
+* Damit folgt: Kompakte Objekte in A-Mod sind endlich präsentiert.
+  Denn die Identität M --> M faktorisiert über einen endlich präsentierten
+  Modul U, stellt daher M als direkten Summanden eines endlich präsentierten
+  Moduls dar und zeigt somit, dass M selbst endlich präsentiert ist.
+
+* Zur Rekonstruktion eines A-Moduls aus einem linksexakten Funktor
+  F: C_fp^op --> Set muss man F((x,y) |-> x+y) und F(x |-> ax) für a \in A wissen.
+
+
+=== Kompakte Objekte in Set
+
+* Endliche Mengen sind kompakt.
+
+* Jede Menge X ist filtrierter Kolimes des kanonischen Diagramms aller
+  Abbildungen U --> X, wobei U endlich ist. Das beweist man wie im Fall von
+  A-Mod.
+
+* Faktorisiert die Identität X --> X einer Menge über eine endliche Menge U,
+
+      X --iota--> U --pi--> X,
+
+  so ist X selbst endlich: Wir können X mit iota[X] identifizieren. Dann ist X
+  eine herauslösbare Teilmenge von U:
+
+      Sei u \in U. Betrachte iota(pi(u)), denn es gilt:
+          u = iota(pi(u))  <==>  u \in X.
+      Da U diskret ist, ist also "u \in X" entscheidbar.
+
+* Folglich sind kompakte Mengen endlich.
+
+
+=== Kompakte Objekte in derivierten Kategorien
+
+Nach Bondal-van den Bergh (S. 8f):
+* Sei X qc qs. Dann sind die kompakten Objekte in
+  D_qcoh(X) genau die perfekten Komplexe.
+* D_qcoh(X) wird von einem einzelnen perfekten Komplex erzeugt.
+* Sei X sogar qc sep: Dann ist D(Qcoh(X)) --> D_qcoh(X) eine Äquivalenz.
+* Sei X sogar glatt über einem örper: Dann D^b(Coh(X)) ~ D_perf(X).
+
+Daraus entnehme ich:
+* D^b(Coh(X)) ist die Unterkategorie der kompakten Objekte von
+  D^b(Qcoh(X)). Stimmt das?
+
+Ferner schreiben sie:
+* Q qc qs. Dann D_qcoh(X) ~ D(Lambda) für eine DG-Algebra Lambda mit
+  beschränkter Kohomologie.
+Als Motto: "Quasikompakte quasiseparierte Schemata sind affin, in einem abgeleiteten
+Sinn."
