@@ -32,13 +32,20 @@ für die Hom(X, __) mit filtrierten Kolimiten vertauscht).
     mit den "linksexakten" (d.h. endliche Limiten bewahrenden) Funktoren
     C_fp^op --> Set.
 
-Bin der Meinung, dass das Diagramm oben stets filtriert ist. Denn das Koprodukt
-zweier kompakter Objekte ist kompakt!
-Update: Ist mir grad nicht mehr klar. Verwechsele ich die Ordnungsrichtung?
+Das Diagramm oben ist stets filtriert:
+* Denn das initiale Objekt ist kompakt.
+* Koprodukte von kompakten Objekten sind kompakt.
+* Kodifferenzkerne zwischen kompakten Objekten sind kompakt.
 
 Beispiel: Die Kategorie der A-Modul ist lokal endlich präsentierbar.
-Zur Rekonstruktion eines A-Moduls aus einem linksexakten Funktor F: C_fp^op -->
-Set muss man F((x,y) |-> x+y) und F(x |-> ax) für a \in A wissen.
+* Sei M ein A-Modul. Nachweis, dass M Kolimes das kanonischen Diagramms ist:
+  Sei (phi_U : U --> Z) ein Kokegel des kanonischen Diagramms.
+  Dann definiere psi : M --> Z durch
+      x |--> phi_U(x), wobei (U --> M) e.p. mit u \in U so, dass u |--> x.
+  (Existenz eines solchen U gesichert: Wähle U als freien A-Modul vom Rang 1;
+  und Wohldefiniertheit durch direkte Summe und Herausteilen.)
+* Zur Rekonstruktion eines A-Moduls aus einem linksexakten Funktor
+  F: C_fp^op --> Set muss man F((x,y) |-> x+y) und F(x |-> ax) für a \in A wissen.
 
 
 === Kompakte Objekte
