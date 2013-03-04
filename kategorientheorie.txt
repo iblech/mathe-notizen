@@ -1,0 +1,15 @@
+=== Rechenregel adjungierte Funktoren
+
+Sei F -| G. Sei der Isomorphismus
+
+    Hom(FA, B) --> Hom(A, GB)
+
+mit ( )^T und sein Inverses mit T^( ) bezeichnet. Dann gilt
+
+    Gg . omega^T . f = (g . omega . Ff)^T
+
+für omega : FA --> B und
+
+    g . T^mu . Ff = T^(Gg . mu . f)
+
+für mu : A --> GB.

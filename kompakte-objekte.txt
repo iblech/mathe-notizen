@@ -70,7 +70,7 @@ Nach Bondal-van den Bergh (S. 8f):
   D_qcoh(X) genau die perfekten Komplexe.
 * D_qcoh(X) wird von einem einzelnen perfekten Komplex erzeugt.
 * Sei X sogar qc sep: Dann ist D(Qcoh(X)) --> D_qcoh(X) eine Äquivalenz.
-* Sei X sogar glatt über einem örper: Dann D^b(Coh(X)) ~ D_perf(X).
+* Sei X sogar glatt über einem Körper: Dann D^b(Coh(X)) ~ D_perf(X).
 
 Daraus entnehme ich:
 * D^b(Coh(X)) ist die Unterkategorie der kompakten Objekte von
