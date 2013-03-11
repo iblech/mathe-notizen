@@ -67,7 +67,7 @@ So ein alpha erfüllt übrigens
 
     alpha_A(g) . f = alpha_B(g . f)
 
-für alle f \in Hom^s(A,B), g \in Hom^i(A,X). Dabei haben sich die Vorzeichen
+für alle f \in Hom^s(B,A), g \in Hom^i(A,X). Dabei haben sich die Vorzeichen
 in X^ und W^ sowie in der Definition der dg-Funktorkategorie genau
 herausgekürzt.
 
