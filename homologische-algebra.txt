@@ -14,3 +14,24 @@ H: I \otimes X --> Y mit H(s \otimes x) = f(x), H(t \otimes x) = g(x), H(H
 \otimes x) = h(x). Dabei sei I Z<s,t> in Grad 0 und Z<H> in Grad 1.
 (Homologische Konvention!)
 http://mathoverflow.net/questions/59357/why-chain-homotopy-when-there-is-no-topology-in-the-background/59387#59387
+
+
+=== Monoidale Struktur auf Kom(R-Mod)
+
+Hom^p(X, Y) := \prod_i Hom(X^i, Y^(p+i))
+    mit d(f \in Hom^p) = (d^(p+i) f^i - (-1)^p f^(i+1) d^i)_i.
+
+(X \otimes Y)^p := \sum_{i+j=p} X^i \otimes Y^j
+    mit d(x \otimes y) = dx \otimes y + (-1)^|x| x \otimes dy.
+
+Symmetrische Struktur:
+    (X \otimes Y)^p --> (Y \otimes X)^p
+       x \otimes y |--> (-1)^(ij) y \otimes x
+
+Evaluationsabbildung:
+    Hom^i(X, Y) \otimes X^j --> Y^(i+j)
+              f \otimes x  |--> f^j(x)
+
+Neutrales Element bezöglich \otimes:
+    Komplex 1 (hat R in Grad 0 sitzen),
+    in X ~~ X \otimes 1 und X ~~ 1 \otimes X geht kein Vorzeichen ein.

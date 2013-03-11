@@ -1,15 +1,78 @@
 It's not true that you can recover derived categories of schemes from derived
 categories of a cover via gluing data.
 
+
+=== Grundlegende Definitionen
+
 Sei k ein kommutativer Grundring.
 
 Def.:
 1) C(k) ist die Kategorie der Kettenkomplexe von k-Moduln.
 2) Eine dg-Kategorie ist eine C(k)-angereicherte Kategorie.
+   Konvention: Verkettung soll Morphismus Hom(B,C) \otimes Hom(A,B) --> Hom(A,C) sein.
 
 Bsp.: Sei A eine k-Algebra.
 1) C(A) wird dg-Kategorie.
 2) BA (bestehend aus nur einem Objekt und A[0] als Hom-Komplex) wird dg-Kategorie.
+
+Def.: dg-Funktor und dg-natürliche Transformation.
+
+Def.: Seien A und B dg-Kategorien. Dann wird auch Funct(A,B) zu einer
+dg-Kategorie, mit folgender Setzung:
+    Hom^n(F, G) := { eta : F^gr --> G^gr[n] }
+        mit Differential d(eta)_X = d(eta_X).
+    Ein solches eta ist per Definition eine Familie von Elementen
+        eta_X \in Hom^n(FX, GX)
+    mit
+        G(f) . eta_X = (-1)^ns eta_Y . F(f) \in Hom^(n+s)(FX, GY)
+    für alle f \in Hom^s(X, Y). Ist wohldefiniertes Differential --
+    egal, welche Kompositionsreihenfolgenkonvention man in der Definition einer
+    angereicherten Kategorie wählt.
+Das ist tatsächlich nichts besonderes, sondern Spezialfall der ganz
+gewöhnlichen angereicherten Funktorkategoriekonstruktion (mit Hom-Objekten als
+Equalizer gewisser zweier Morphismen): Siehe etwa Seite 192
+von Borceux, Stubbe, Short introduction to enriched categories.
+
+
+=== dg-Yoneda
+
+Sei V eine dg-Kategorie. Zu einem Objekt X von V assoziiere dg-Funktor
+
+    X^ : V^op --> C(k-Mod),
+            Y |-> Hom_V(Y, X)
+
+mit Morphismenanteil
+
+    Hom_V^p(Z, Y) --> Hom^p(X^(Y), X^(Z))
+                f |-> (g \in Hom_V^i(Y,X) |-> (-1)^pi g . f)_i.
+
+Beachte dabei die hineinkommenden Vorzeichen!
+
+Dann kann man die Yoneda-Einbettung hinschreiben:
+
+    V --> Funct(V^op, C(k-Mod)),
+    X |-> X^
+
+mit Morphismenanteil
+
+    Hom_V^n(X, W) --> Hom^n(X^, W^)
+              phi |-> phi^ mit phi^_A : f \in Hom^i(A,X) |-> phi . f.
+
+Dieser ist ein Isomorphismus, mit Inversem
+
+    Hom^n(X^, W^) --> Hom_V^n(X, W)
+            alpha |-> alpha_X(id_X).
+
+So ein alpha erfüllt übrigens
+
+    alpha_A(g) . f = alpha_B(g . f)
+
+für alle f \in Hom^s(A,B), g \in Hom^i(A,X). Dabei haben sich die Vorzeichen
+in X^ und W^ sowie in der Definition der dg-Funktorkategorie genau
+herausgekürzt.
+
+
+=== [.]
 
 Def.: Sei M eine dg-Kategorie.
 1) [M] ist diejenige gewöhnliche (k-lineare) Kategorie, die man aus M
@@ -28,6 +91,9 @@ Bsp.:
 1) [L(BA)] ~ D(R).
 2) D(BA) := Ho(BA-Mod) ~ D(R).
 
+
+=== dg-derivierte Kategorie
+
 Def.: X k-Schema.
 1) L(X) := L(O_X) := Int(C(O_X)).
 2) Volle Unterkategorie P_perf(X) der perfekten Komplexe.
@@ -40,7 +106,9 @@ L_perf(U \cap V).
 
 Prop.: X, Y glatt, eigentlich/k. Dann RHom(L_perf(X), L_perf(Y)) ~ L_perf(X x Y).
 
-Nächste Schritte:
+
+=== Nächste Schritte
+
 * Das dg-Paper von Toën zusammenfassen.
 * Barr-Beck verstehen.
 * Ho(dg-cat), Links- und Rechtsableitung verstehen.
