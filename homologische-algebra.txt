@@ -35,3 +35,10 @@ Evaluationsabbildung:
 Neutrales Element bezöglich \otimes:
     Komplex 1 (hat R in Grad 0 sitzen),
     in X ~~ X \otimes 1 und X ~~ 1 \otimes X geht kein Vorzeichen ein.
+
+Kann den Shift-Funktor als dg-Funktor verstehen:
+    Kom(A) --> Kom(A)
+         X |-> X[n]  (mit Vorzeichen im Differential),
+    auf Morphismen:
+        Hom(X,Y) --> Hom(X[n], Y[n])
+        in Grad p: f |-> (-1)^np f[n].

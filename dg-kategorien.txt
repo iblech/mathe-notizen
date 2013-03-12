@@ -91,6 +91,25 @@ Beim Nachrechnen bedenke, dass F als kontravarianter Funktor die Gleichung
 für f \in Hom^i(A,X), g \in Hom^s(B,A) erfüllt. Beachte die Vorzeichen!
 
 
+=== dg-Moduln
+
+Die Kategorie der dg-Moduln auf einer dg-Kategorie A ist
+
+    A^op-Mod := Funct(A^op, C(k-Mod)).
+
+Def.:
+1) Moduln der Form X^ heißen frei.
+2) Moduln heißen semi-frei, wenn er eine endliche (?) Filtrierung
+   durch Moduln besitzt, sodass die Faktormoduln jeweils direkte Summen von
+   Shifts freier Moduln sind.
+3) Modul F heißt azyklisch :<=> F(A) azyklisch f.a. A
+   Bsp.: X^ ist genau dann azyklisch, wenn id_X nullhomolog in Hom(X,X).
+4) Modul F heißt h-projektiv :<=> Hom_Ho(P, F) = 0 f.a. azyklischen Moduln F
+   Bsp.: Alle semi-freien Moduln sind h-projektiv, denn für freie ist das klar,
+   für Shifts ziemlich klar und vielleicht hat man folgende Eigenschaft: Sind
+   F/G und G h-projektiv, so auch F.
+
+
 === [.]
 
 Def.: Sei M eine dg-Kategorie.

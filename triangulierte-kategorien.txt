@@ -1,0 +1,7 @@
+* Eine volle Unterkategorie D einer triangulierten Kategorie C heißt
+  triangulierte Unterkategorie, wenn sie abgeschlossen unter Shifts ist und
+  Kegel von Morphismen aus D essenziell in D liegen.
+
+* Eine triangulierte Unterkategorie heißt epaisse (thick), wenn
+  sie abgeschlossen unter Isos und direkten Summanden ist.
+  (Unter direkten Summen ist sie sowieso abgeschlossen!)
