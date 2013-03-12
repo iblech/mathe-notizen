@@ -110,6 +110,39 @@ Def.:
    F/G und G h-projektiv, so auch F.
 
 
+=== Prä-triangulierte Kategorien
+
+Def.: Ein Shift X[r] eines Objekts X einer dg-Kategorie A besteht aus einem
+Objekt X[r] zusammen mit geschlossenen Morphismen
+    alpha : X --> X[r] vom Grad -r,  beta: X[r] --> X vom Grad r,
+die zueinander invers sind.
+
+Def.: Ein Kegel C eines geschlossenen Grad-0-Morphismus f besteht aus einem
+Objekt C zusammen mit Grad-0-Morphismen
+    i : X[1] <-> C : p,  s : C <-> Y : j
+mit
+    pi = 1, sj = 1, si = 0, pj = 0, ip + js = 1,
+    dj = 0, dp = 0, di . alpha = jf, ds = -f beta p.
+
+Je zwei Kegel sind zueinander eindeutig isomorph. Dieser Kegelbegriff
+formalisiert "strikte Kegel". Diese erfüllen nicht die Axiome triangulierter
+Kategorien!
+
+Def./Lemma:
+1) Zu einer dg-Kategorie A gibt es eine Kategorie A^pre-tr...
+2) Diese ist abgeschlossen unter Kegeln von geschlossenen Grad-0-Morpismen.
+3) Außerdem ist jedes Objekt in A^pre-tr sukzessiver Kegel von geschlossenen
+   Grad-0-Morphismen, deren Quelle in A liegt.
+4) A heißt prä-trianguliert, wenn Ho(A) --> Ho(A^pre-tr) eine Äquivalenz ist.
+   Das ist gleichbedeutend damit, dass A Shifts und Kegel enthält.
+
+Lemma: Die Homotopiekategorie einer prä-triangulierten Kategorie ist eine
+triangulierte Kategorie.
+Beweis: Der üblichen Beweis, dass Kom(A)/Homotopie trianguliert ist, lässt sich
+in dem Kontext hier wiederholen. Habe das für TR1 bis TR3 geprüft (nur nicht
+Rückwärtsrotieren). TR4 (Oktaederaxiom) habe ich mir nicht ausgeschaut.
+
+
 === [.]
 
 Def.: Sei M eine dg-Kategorie.
@@ -151,4 +184,7 @@ Prop.: X, Y glatt, eigentlich/k. Dann RHom(L_perf(X), L_perf(Y)) ~ L_perf(X x Y)
 * Barr-Beck verstehen.
 * Ho(dg-cat), Links- und Rechtsableitung verstehen.
 
-Siehe auch: http://nforum.mathforge.org/discussion/2969/derived-category-of-sheaves/
+Siehe auch:
+* http://nforum.mathforge.org/discussion/2969/derived-category-of-sheaves/
+* http://www.math.jussieu.fr/~keller/publ/OnDGCat.pdf
+* http://arxiv.org/pdf/math/0401009v1.pdf
