@@ -71,6 +71,25 @@ für alle f \in Hom^s(B,A), g \in Hom^i(A,X). Dabei haben sich die Vorzeichen
 in X^ und W^ sowie in der Definition der dg-Funktorkategorie genau
 herausgekürzt.
 
+Man hat auch eine dg-Variante des Yoneda-Lemmas:
+
+    Hom(X^, F) ~~  F(X),
+
+mit Iso nach rechts durch
+
+    alpha |-> alpha_X^0(id_X) \in F(X)^n
+
+und Iso nach links durch
+
+    omega \in F(X)^n |-> alpha mit
+        alpha_A = (f \in Hom^i(A,X) |-> (-1)^in F^i(f)^n(omega)).
+
+Beim Nachrechnen bedenke, dass F als kontravarianter Funktor die Gleichung
+
+    F^s(g)^(n+i) . F^i(f)^n = (-1)^is F^(s+i)(f . g)^n
+
+für f \in Hom^i(A,X), g \in Hom^s(B,A) erfüllt. Beachte die Vorzeichen!
+
 
 === [.]
 
