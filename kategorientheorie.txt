@@ -13,3 +13,55 @@ für omega : FA --> B und
     g . T^mu . Ff = T^(Gg . mu . f)
 
 für mu : A --> GB.
+
+
+=== Kofinalität
+
+Def.: Ein Funktor H : D_0 --> D heißt genau dann kofinal, wenn gilt:
+1) Für alle d \in D existiert ein d_0 \in D_0 und ein Morphismus
+       d --> H d_0
+   in D.
+2) Für jedes d \in D und Morphismen
+       d -----> H d_0
+       |
+       v
+     H d_0'
+   existieren d_0 --> d_1, d_0' --> 1, deren Bilder unter H dieses Diagramm zu
+   einem kommuativen erweitern.
+
+Prop.: Kokegel(F) ~~ Kokegel(F . H) für F : D --> C, d.h. die Kokegelkategorien
+sind sogar isomorph.
+
+
+=== Idempotente
+
+Def.:
+1) Ein Morphismus e : X --> X heißt genau dann idempotent, wenn e . e = e.
+2) Eine Zerfällung eines Idempotenten e besteht aus Morphismen
+       p : X --> Y, i : Y --> X
+   mit i p = e, p i = id.
+
+Prop.: In einer Ab-angereichterten Kategorie sind äquivalent:
+(1) Alle Idempotenten haben einen Kern.
+(2) Alle Idempotenten zerfallen.
+
+Bew.:
+* (1) ==> (2): Sei e^2 = e. Finde Kern K -i-> A von 1-e.
+  Finde dann Morphismus A-p->K mit i p = e. Existiert und ist eindeutig, da
+  A -e-> A Möchtegern-Kern von 1-e. Es folgt p i = id, denn da i ein Mono ist,
+  genügt es i p i = e i = i nachzuweisen, und das stimmt, da (1 - e) i = 0.
+* (2) ==> (1): Sei e^2 = e. Finde Zerfällung von 1-e: 1-e = i p, id = p i.
+  Dann ist Y -i-> X -e-> X ein Kerndiagramm, denn e i = (1 - ip) i = i - ipi = 0
+  und für jedes Z -j-> X mit e j = 0 ist pj : Z --> Y eindeutiger Morphismus
+  mit i pj = j.
+
+Prop.: In erreichbaren Kategorien zerfallen alle Idempotenten.
+Bew.: Sei e : A --> A mit e^2 = e. Dann ist A mit den Morphismen id und e
+ein filtriertes Diagramm und besitzt daher einen Kolimes p : A --> B.
+Da auch e : A --> A ein Kokegel ist, gibt es einen eindeutigen Morphismus
+i : B --> A mit i p = e. Daraus folgt p i p = p. Da p : A --> B Kolimes
+ist, kann es nur einen Morphismus psi mit psi p = p geben. Da id das tut,
+muss p i = id sein.
+
+Es gilt auch die Umkehrung! Jede kleine Kategorie, in der alle Idempotenten
+zerfallen, ist erreichbar, siehe Adámek, Rosicky, Prop. 2.6.
