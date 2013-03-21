@@ -1,0 +1,28 @@
+=== Definition und grundlegende Eigenschaften
+
+1) Ein Köcher ist ein orientierter Graph.
+2) Zu einem Köcher Q hat man seine Pfadalgebra kQ, die als Basis
+   alle Pfade von Q hat. Sie ist genau dann endlich-dimensional,
+   wenn es nur endlich viele Pfade in Q gibt. Wenn die Ecken- und Pfeilmenge
+   von Q endlich ist, ist das gleichbedeutend damit, dass es keine orientierten
+   Schleifen in Q gibt.
+3) Die Kategorie der Links-kQ-Moduln ist äquivalent zur Kategorie aller
+   Q-förmigen Diagramme von Vektorräumen.
+
+   Wenn Q endlich ist, hat diese Kategorie genau dann nur eine endliche Anzahl
+   endlich-dimensionaler unzerlegbarer Objekte (modulo Isomorphie), wenn der
+   zugrundeliegende Graph von Q eine disjunkte Vereinigung von
+   Dynkin-Diagrammen der Typen A, D, E ist.
+4) Ein Ideal von kQ heißt zulässig, wenn es ein N mit
+      (kQ_1)^N \subseteq I \subseteq (kQ_1)^2
+   gibt, wobei kQ_1 das zweiseitige Ideal erzeugt von den Länge-1-Pfaden ist.
+   In dieser Situation ist dann kQ/I-Mod äquivalent zur Kategorie derjenigen
+   Q-förmigen Diagramme von Vektorräumen, die die Relationen in I erfüllen.
+   kQ/I ist stets endlich-dimensional, also artinsch und noethersch.
+   Außerdem ist kQ/I von endlicher globaler Dimension, wenn Q keinen
+   orientierten Zykel enthält.
+
+
+=== Siehe auch
+
+* Keller, Derived categories and tilting.

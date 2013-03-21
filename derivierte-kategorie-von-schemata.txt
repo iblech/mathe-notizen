@@ -16,13 +16,21 @@ C^infty(__) stets fein sind, ist D(X) äquivalent zur direkten Summe von Coh(X)
 über n aus Z.
 
 
+=== Wieso ist D^b(X) eine gute, aber Coh(X) keine gute Invariante?
+
+D^b(X) ist gröber (daher einfacher zu verstehen), aber immer noch gut genug!
+
+Siehe etwa Keller, Derived Categories and Tilting, S. 1f.: Die klassischen
+Invarianten einer k-Algebra A (wie etwa K_0, Zentrum, K_i, HH^*, ...) werden
+nicht nur von A, nicht nur von Mod-A, sondern sogar nur von D(Mod-A) bestimmt.
+
+
 === Nächste Schritte
 
 * Grundlegende Lemmas zu D(X) notieren.
 * Satz über exzeptionelle Sequenz beweisen können.
 * Seite 17 unten von Bridgeland/SpringSchool ("Properties of D(X)")
   verstehen: Finiteness, Riemann-Roch, Serre duality.
-* Wieso ist D^b(X) eine gute, aber Coh(X) keine gute Invariante?
 * D^b(X) für X = Spec A? Wodurch wird D^b(X) und Aut(D^b X) dann erzeugt?
 * Was ist D(X) anschaulich?
 * Derivierte Kategorien konstruktiv? Schematheorie konstruktiv?

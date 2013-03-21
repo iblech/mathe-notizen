@@ -81,3 +81,10 @@ Ferner schreiben sie:
   beschränkter Kohomologie.
 Als Motto: "Quasikompakte quasiseparierte Schemata sind affin, in einem abgeleiteten
 Sinn."
+
+Kellers Überblicksartikel:
+* K^b(proj R) --> Perf(R) (volle Unterkategorie der perfekten Komplexe in
+  D(R-Mod)) ist eine Äquivalenz.
+* Die Euler-Charakteristik K_0(Perf(R)) --> K_0(R-Mod) ist ein Iso.
+  Folgerung: Ringe mit äquivalenter derivierter Kategorie haben isomorphe
+  K_0-Gruppen.
