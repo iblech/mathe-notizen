@@ -38,4 +38,10 @@ I'd be happy to provide any additional information required.
 
 Using the internal language of topoi in algebraic geometry
 
+Associated to a scheme are several important topoi, for instance the petit and
+gros Zariski topoi. These come with an internal language, from which point of
+view the structure sheaf looks like an ordinary ring (instead of a sheaf of
+rings) and quasi-coherent sheaves of modules look like ordinary modules. This
+can be exploited to give more conceptual proofs 
+
 siehe interne-methoden.txt

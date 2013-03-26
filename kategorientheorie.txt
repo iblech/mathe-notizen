@@ -65,3 +65,21 @@ muss p i = id sein.
 
 Es gilt auch die Umkehrung! Jede kleine Kategorie, in der alle Idempotenten
 zerfallen, ist erreichbar, siehe Adámek, Rosicky, Prop. 2.6.
+
+
+=== Yoneda angereichert in der Kategorie V der Wahrheitswerte
+
+Sei P eine Quasiordnung aufgefasst als angereicherte Kategorie.
+
+Eine Prägarbe auf P ist dann durch die Angabe einer nach unten abgeschlossenen
+Teilmenge von P gegeben. Eine solche ist eine Bastelanleitung für ein Supremum
+(Kolimes).
+
+Die Aussage, dass eine Prägarbe Kolimiten aus P auf Limiten in V schickt,
+sollte gleichbedeutend damit sein, dass die zur Prägarbe gehörige Teilmenge
+"stabil unter Suprema" ist: Immer wenn ein System (Diagramm) in P ein Supremum
+besitzt, muss die Zugehörigkeit des Supremums gleichbedeutend sein mit der
+Zugehörigkeit aller Elemente des Diagramms.
+
+Nächste Schritte:
+* Stimmt das "sollte gleichbedeutend" sein?
