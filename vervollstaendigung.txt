@@ -1,0 +1,60 @@
+* /Freie/ Kovervollständigung einer Kategorie C:
+
+      C --> [C^op, Set]
+
+* Kovervollständigung einer Kategorie C, die vorhandene Kolimiten erhält:
+
+      C --> [C^op, Set]_s
+
+  Das ist die volle Unterkategorie derjenigen Prägarben, die Kolimiten in C auf
+  Limiten in Set schicken.
+
+  Die Bezeichnung ist gerechtfertigt, denn:
+  * Die derart eingeschränkte Yoneda-Einbettung erhält Kolimiten
+    (das kennt man sonst nicht!).
+  * [C^op, Set]_s ist noch kovollständig -- denn der Kolimes von
+    s-Prägarben ist noch s.
+  * [C^op, Set]_s ist kleinst mit diesen Eigenschaften, d.h. erfüllt
+    die erwartete universelle Eigenschaft. (Habe diesen Punkt nicht völlig
+    formal geprüft.)
+
+* Dual: Um zu C beliebige Limiten unter Beibehaltung existierender Limiten
+  hinzuzufügen, schreibe
+
+      C --> [C, Set]_s^op,
+
+  wobei das "s" jetzt die Eigenschaft einer Koprägarbe F : C --> Set bezeichnen
+  soll, Limiten auf Limiten zu schicken.
+
+* Allgemeines Rezept nach [1], um zu einer Kategorie C Kolimiten eines
+  bestimmten Typs B unter Beibehaltung existierender Kolimiten eines bestimmten
+  (anderen) Typs A hinzuzufügen:
+
+  Betrachte die volle Unterkategorie derjenigen Prägarben in [C^op, Set],
+  die A-förmige Kolimiten tatsächlich bewahren (diese ist noch kovollständig,
+  und die Yoneda-Einbettung erhält A-förmige Kolimiten). Nimm dann in dieser
+  Unterkategorie wiederum eine Unterkategorie C', und zwar derjenigen
+  Objekte, die Kolimes eines B-förmigen Diagramms sind. Die Morphismen in C'
+  sollen dabei nicht alle aus C sein, sondern nur diejenigen, die durch
+  Kokegelmorphismen induziert werden.
+  
+  Damit das funktioniert, müssen folgende zwei Voraussetzungen erfüllt sein:
+  * A-förmige Diagramme müssen auch B-förmige Diagramme sein
+    -- sonst wird die Yoneda-Einbettung A-förmige Diagramme nicht erhalten,
+    da man nur von B-förmigen Kolimiten in C' weiß, dass sie wie in
+    [C^op, Set]_s berechnet werden.
+  * Binäre Produkte von B-förmigen Diagrammen müssen wieder B-förmig sein
+    -- sonst ist C' nicht abgeschlossen unter B-förmigen Kolimiten.
+    Das nochmal prüfen!
+
+  Manchmal kann man das Ergebnis auch explizit beschreiben, zum Beispiel die
+  freie Vervollständigung einer Kategorie mit endlichen Produkten zu einer, die
+  alle endlichen Limiten besitzt: Siehe [2], Seite 237.
+
+* Man kann lokal präsentierbare Kategorien zu Topoi "vervollständigen",
+  siehe [2] und [3].
+
+[1] http://mathoverflow.net/questions/41386/equalizer-completion/46214#46214
+[2] M. Bunge, A. Carboni. The symmetric topos. J. Pure Appl. Alg. 105 (1995),
+    S. 239--249.
+[3] http://mathoverflow.net/questions/85323/topos-associated-to-a-category

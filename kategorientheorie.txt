@@ -33,6 +33,15 @@ Prop.: Kokegel(F) ~~ Kokegel(F . H) für F : D --> C, d.h. die Kokegelkategorien
 sind sogar isomorph.
 
 
+=== Limiten von Limiten
+
+Sei F : I x J --> C ein Diagramm.
+Besitze C folgende Limiten: L_i := lim F(i, __).
+Daraus kann man ein Diagramm L : I --> C basteln.
+Besitze C einen Limes dieses Diagramms: K := lim L_i.
+Dann wird K zu einem Limes von F.
+
+
 === Idempotente
 
 Def.:

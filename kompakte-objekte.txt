@@ -63,6 +63,11 @@ Die Kategorie der A-Modul ist lokal endlich präsentierbar.
 * Folglich sind kompakte Mengen endlich.
 
 
+=== Kompakte Objekte in Topoi
+
+Nächste Schritte: ???
+
+
 === Kompakte Objekte in derivierten Kategorien
 
 Nach Bondal-van den Bergh (S. 8f):

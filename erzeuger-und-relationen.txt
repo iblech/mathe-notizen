@@ -36,3 +36,30 @@ Das Diagramm oben ist stets filtriert:
 * Denn das initiale Objekt ist kompakt.
 * Koprodukte von kompakten Objekten sind kompakt.
 * Kodifferenzkerne zwischen kompakten Objekten sind kompakt.
+
+
+=== Lokal präsentierbare Kategorien und Topoi
+
+* Jeder Grothendiecktopos E (auf einem kleinem Situs C) ist lokal
+  präsentierbar. Genauer:
+  
+  Sei alpha eine reguläre Kardinalzahl, die echt größer ist als die Zahl der
+  Morphismen im Definitionssitus C. Dann ist E lokal alpha-präsentierbar, denn:
+  * alpha-filtrierte Kolimiten von Garben in E kann man als Prägarbenkolimiten
+    berechnen.
+  * Die Garben a(Hom(__, X)) für X aus C sind alpha-präsentierbar.
+  * E ist kovollständig.
+  * Die Familie dieser Garben ist ein starker Erzeuger.
+
+* Man kann lokal präsentierbare Kategorien zu Topoi "vervollständigen",
+  siehe [1] und [2] (Thm. 3.1 auf Seite 239).
+
+[1] M. Bunge, A. Carboni. The symmetric topos. J. Pure Appl. Alg. 105 (1995),
+    S. 239--249.
+[2] http://mathoverflow.net/questions/85323/topos-associated-to-a-category
+
+
+=== Nächste Schritte:
+
+* Wozu ist der symmetrische Topos gut?
+* Was ist eine "Darstellung als Koinverter"?
