@@ -26,7 +26,7 @@ Def.: Ein Funktor H : D_0 --> D heißt genau dann kofinal, wenn gilt:
        |
        v
      H d_0'
-   existieren d_0 --> d_1, d_0' --> 1, deren Bilder unter H dieses Diagramm zu
+   existieren d_0 --> d_1, d_0' --> d_1, deren Bilder unter H dieses Diagramm zu
    einem kommuativen erweitern.
 
 Prop.: Kokegel(F) ~~ Kokegel(F . H) für F : D --> C, d.h. die Kokegelkategorien
