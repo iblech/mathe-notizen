@@ -17,6 +17,9 @@
 
 === Lokal endlich präsentierbare Kategorien
 
+Motto: Large categories whose objects arise from small generators under small
+relations.
+
 Definition: Eine Kategorie C heißt lokal endlich präsentierbar, wenn:
 (1) C besitzt kleine Kolimiten.
 (2) C_fp ist essenziell klein.
@@ -32,10 +35,61 @@ für die Hom(X, __) mit filtrierten Kolimiten vertauscht).
     mit den "linksexakten" (d.h. endliche Limiten bewahrenden) Funktoren
     C_fp^op --> Set.
 
-Das Diagramm oben ist stets filtriert:
+Außerdem äquivalent:
+(1) C ist kappa-zugänglich.
+(2) C besitzt kleine Kolimiten,
+    oder: C besitzt kappa-Kolimiten,
+    oder: C besitzt kleine Limiten.
+
+Das Diagramm oben ist stets filtriert (wenn C endliche Kolimiten besitzt):
 * Denn das initiale Objekt ist kompakt.
 * Koprodukte von kompakten Objekten sind kompakt.
 * Kodifferenzkerne zwischen kompakten Objekten sind kompakt.
+
+Prop.: Sei D kleine volle Unterkategorie von C. Dann erhält die eingeschränkte
+Yoneda-Einbettung C --> Set^(D^op) genau dann lambda-filtrierte Kolimiten, wenn
+jedes Objekt aus D lambda-präsentierbar ist.
+
+Prop.: Eine Kategorie ist genau dann lokal kappa-präsentierbar, wenn sie
+äquivalent zur Kategorie kappa-stetiger Funktoren D^op --> Set für eine
+kappa-kovollständige kleine Kategorie D ist.
+
+
+=== Zugängliche Kategorien
+
+Def.: Eine Kategorie heißt kappa-zugänglich, wenn sie:
+(1) lokal klein ist,
+(2) kappa-filtrierte Kolimiten besitzt,
+(3) eine /Menge/ kappa-präsentierter Objekte derart besitzt,
+    dass jedes Objekt kappa-filtrierter Kolimes von Objekten dieser Mengen ist.
+
+Axiom (3) sagt /nicht/, dass jedes Objekt kappa-/kleiner/ Kolimes von Objekten
+dieser Menge ist. (Diese andere Aussage würde nach sich ziehen, dass überhaupt
+jedes Objekt kappa-präsentiert ist.) Die kappa-präsentierten Objekte sind dann
+genau die Retrakte der Objekte aus dieser Menge.
+
+Def.: Ein kappa-Torsor auf Kategorie D ist ein Funktor D^op --> Set, der als
+kappa-filtrierter Kolimes repräsentierbarer Prägarben darstellbar ist.
+
+Bem.:
+(1) Die Kategorie der kappa-Torsoren auf D ist abgeschlossen unter
+    kappa-filtrierten Kolimiten in [D^op, Set].
+(2) Jeder kappa-Torsor erhält kappa-kleine Limiten (da die darstellbaren
+    Prägarben das tun).
+(3) Ist D kappa-kovollständig und klein, so ist umgekehrt jede Prägarbe, die
+    kappa-kleine Limiten bewahrt, schon ein kappa-Torsor.
+
+Prop.: Eine Kategorie ist genau dann kappa-zugänglich, wenn sie äquivalent ist
+zur Kategorie der kappa-Torsoren auf einer gewissen kleinen Kategorie.
+
+Bew.: Wenn C kappa-zugänglich ist, erhält die eingeschränkte Yoneda-Einbettung
+in die Prägarbenkategorie auf einem kleinen Skelett der vollen Unterkategorie
+der kappa-präsentierbaren Objekte von C kappa-filtrierte Kolimiten. Das
+wesentliche Bild dieser Einbettung sind genau kappa-filtrierte Kolimiten
+repräsentierbarer Prägarben.
+
+Bem.: Die kappa-präsentierbaren Objekte in kappa-Tors(D) sind genau die
+Retrakte von darstellbaren Funktoren.
 
 
 === Lokal präsentierbare Kategorien und Topoi

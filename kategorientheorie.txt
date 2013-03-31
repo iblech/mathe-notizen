@@ -33,6 +33,27 @@ Prop.: Kokegel(F) ~~ Kokegel(F . H) für F : D --> C, d.h. die Kokegelkategorien
 sind sogar isomorph.
 
 
+=== Dichtheit
+
+Eine volle Unterkategorie D von C ist genau dann dicht, wenn die eingeschränkte
+Yoneda-Einbettung
+
+    C --> Set^(D^op)
+
+noch volltreu ist.
+
+"==>" Habe noch das Yoneda-Lemma Hom_(Set^(D^op))(Hom(__,X),F) ~~ F(X)
+      für Prägarben F, die Kolimiten auf Limiten schicken.
+
+"<==" Wenn zum Nachweis der universellen Eigenschaft ein beliebiger Kokegel
+      gegeben ist, kann man daraus eine natürliche Trafo zwischen den
+      zugehörigen darstellbaren Prägarben basteln. Die Tatsache, dass es genau
+      ein Urbild dieser natürlichen Trafo gibt, zeigt die Behauptung.
+
+Nächste Schritte:
+* Sehen, dass nicht { R }, aber { R x R } dicht in R-Vect liegt.
+
+
 === Limiten von Limiten
 
 Sei F : I x J --> C ein Diagramm.
@@ -64,6 +85,10 @@ Bew.:
   und für jedes Z -j-> X mit e j = 0 ist pj : Z --> Y eindeutiger Morphismus
   mit i pj = j.
 
+Prop.: Die Angabe einer Zerfällung eines idempotenten Morphismus e : X --> X
+ist gleichbedeutend mit der Angabe eines Differenzkerns (oder eines
+Kodifferenzkerns) von (e, id).
+
 Prop.: In erreichbaren Kategorien zerfallen alle Idempotenten.
 Bew.: Sei e : A --> A mit e^2 = e. Dann ist A mit den Morphismen id und e
 ein filtriertes Diagramm und besitzt daher einen Kolimes p : A --> B.
@@ -74,6 +99,23 @@ muss p i = id sein.
 
 Es gilt auch die Umkehrung! Jede kleine Kategorie, in der alle Idempotenten
 zerfallen, ist erreichbar, siehe Adámek, Rosicky, Prop. 2.6.
+
+Prop.: Wenn in einer Kategorie C alle Idempotenten zerfallen, so sind Retrakte
+darstellbarer Prägarben auf C schon selbst darstellbar.
+
+Bew.: Sei F ein Retrakt von X^. Dann erhalte einen idempotenten
+Morphismus e : X^ --> X^. Dieser kommt von einem idempotenten
+Morphismus f : X --> X und zerfällt nach Voraussetzung (über ein Objekt Y). Da
+die Yoneda-Einbettung Limiten bewahrt, muss daher F isomorph zu Y^ sein.
+
+
+=== Eingeschränktes Yoneda-Lemma (eine völlige Tautologie!)
+
+Sei D eine volle Unterkategorie von C. Dann hat man
+
+    Hom_(Set^(D^op))(Hom(__, X), F) ~~ lim_{d --> X} F(d)
+
+für X in C, F in Set^(D^op).
 
 
 === Yoneda angereichert in der Kategorie V der Wahrheitswerte

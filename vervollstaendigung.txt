@@ -54,6 +54,19 @@
 * Man kann lokal präsentierbare Kategorien zu Topoi "vervollständigen",
   siehe [2] und [3].
 
+* Sei C klein und besitze endliche Limiten.
+  Sei omega-Cont(C, Set) die Kategorie der stetigen Funktoren C --> Set.
+      -- ist abgeschlossen unter kleinen Limiten in der vollständigen
+         Koprägarbenkategorie
+  Diese ist gleich (das ist nicht klar) zur Kategorie omega-Tors(C^op).
+      -- ist abgeschlossen unter omega-filtrierten Koimiten in der
+         vollständigen Koprägarbenkategorie
+  Sei F aus omega-Cont(C, Set). Dann gilt:
+      F omega-präsentierbar <==> F darstellbar.
+  "==>" F ist Retrakt einer darstellbaren Koprägarbe und daher selbst
+        darstellbar.
+  "<==" Filtrierte Kolimiten berechnet man weiterhin ganz normal.
+
 [1] http://mathoverflow.net/questions/41386/equalizer-completion/46214#46214
 [2] M. Bunge, A. Carboni. The symmetric topos. J. Pure Appl. Alg. 105 (1995),
     S. 239--249.
