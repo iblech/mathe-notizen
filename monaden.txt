@@ -1,0 +1,104 @@
+=== Definition
+
+Eine Monade auf C ist ein Monoidobjekt in der Kategorie der Endofunktoren auf C.
+
+
+=== Zusammenhang zu Monoiden
+
+Monads and monoids are related in many ways. This is one of them, namely that a
+monad is a monoid object in Cat. Another simple one is that the structure of
+monoids can be given with a monad (just as with any algebraic structure.)
+Another is that we can generalize monads from Cat to arbitrary bicategories.
+Then monoids are special cases of monads, though this isn't terribly
+interesting.
+
+
+=== Monaden aus Adjunktionen
+
+Sei F -| U eine Adjunktion mit F : C --> D und
+
+    Eins   eta : Id_C ==> U F
+    Koeins eps :  F U ==> Id_D.
+
+Dann wird
+
+    T := U F : C --> C
+
+mit der Multiplikation U eps F zu einer Monade.
+
+
+=== Eilenberg-Moore-Kategorie
+
+Ist T eine Monade, so heißt die Kategorie C^T der T-Algebren (oder T-Moduln)
+auch Eilenberg-Moore-Kategorie.
+
+Das besondere an ihr: Man hat die Adjunktion
+
+    vergiss: C^T --> C,   (TX -> X) |-> X
+    frei:      C --> C^T,         X |-> (TTX --> TX),
+
+und deren zugehörige Monade ist gerade T.
+
+C^T besitzt alle Limiten, die auch C besitzt, und diese werden von dem
+Vergissfunktor erzeugt.
+
+
+=== Kleisli-Kategorie
+
+XXX
+
+
+=== Monadische Funktoren und Kategorien
+
+Ein Funktor U : D --> C heißt monadisch, wenn er einen Linksadjungierten
+F : C --> D derart besitzt, dass der kanonische Vergleichsfunktor
+
+    D --> C^T
+    M |-> (UM, U eta_M)
+
+eine Äquivalenz ist. In diesem Fall heißt D auch monadisch über C.
+
+
+=== Beispiele für Monaden und ihre Algebren
+
+Auf Set:
+
+1. Error-Monade TX := X \amalg E.
+   T-Algebren sind Mengen X zusammen mit einer Abbildung E --> X.
+
+2. Reader-Monade TX := X^E.
+   T-Algebren sind Mengen X zusammen mit einer E-adischen Verknüpfung mit:
+   * x ... x = x
+   * (x11 ... x1n) ... (xn1 ... xnn) = x11 ... xnn
+
+3. Writer-Monade TX := X x M, M ein Monoid.
+   T-Algebren sind Rechts-M-Mengen.
+
+4. TX := 1.
+   T-Algebren sind Singletonmengen.
+
+5. TX := (X x S)^S.
+   T-Algebren sind ???.
+
+6. TX := nichtleere binäre Bäume, an deren Blättern Elemente aus X stehen.
+   T-Algebren sind Magmen.
+
+Weitere Beispiele:
+
+1. auf C: Id_C-Algebren sind einfach Objekte von C.
+2. auf Ab: (R \otimes_Z __)-Algebren sind R-Moduln.
+3. auf Graph: Algebren zur Monade "zugrundeliegender Graph der freien Kategorie"
+   sind kleine Kategorien.
+
+
+=== Potenzmengenfunktor
+
+Der kontravariante Potenzmengenfunktor P : Set^op --> Set ist monadisch,
+er präsentiert Set^op als die Kategorie der vollständigen atomischen boolschen
+Algebren, zumindest in klassischer Logik.
+
+
+=== Nächste Schritte:
+
+* Verstehen, wieso die T-Algebren zum Potenzmengenfunktor die sind, die sie sind.
+* Monade für Subsingletonmengen aufschreiben.

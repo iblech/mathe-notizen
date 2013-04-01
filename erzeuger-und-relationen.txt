@@ -54,6 +54,11 @@ Prop.: Eine Kategorie ist genau dann lokal kappa-präsentierbar, wenn sie
 äquivalent zur Kategorie kappa-stetiger Funktoren D^op --> Set für eine
 kappa-kovollständige kleine Kategorie D ist.
 
+Prop. (Adámek 1.64): Sind C und C^op lokal präsentierbare Kategorien, dass ist
+C äquivalent zu einem vollständigen Verband.
+
+Kor.: Nicht jede abelsche Kategorie ist lokal präsentierbar.
+
 
 === Zugängliche Kategorien
 

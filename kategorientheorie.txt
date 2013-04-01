@@ -1,3 +1,12 @@
+=== Duale Kategorie
+
+Set^op ist nicht äquivalent zu Set. Denn in Set ist jeder Morphismus ins
+initiale Objekt ein Isomorphismus, in Set^op aber nicht.
+
+Siehe auch:
+* http://mathoverflow.net/questions/29442/what-is-the-opposite-category-of-the-category-of-modules-or-hopf-algebra-represe/39975#39975
+
+
 === Rechenregel adjungierte Funktoren
 
 Sei F -| G. Sei der Isomorphismus
