@@ -38,10 +38,21 @@ I'd be happy to provide any additional information required.
 
 Using the internal language of topoi in algebraic geometry
 
+There are several important topoi associated to a scheme, for instance the
+petit and gros Zariski topoi. These come with an internal language which
+closely resembles the usual formal language of mathematics, but is "local on
+the base scheme": For example, the structure sheaf looks like an ordinary local
+ring (instead of a sheaf of rings) and vector bundles look like ordinary
+ordinary free modules from the internal perspective. In the talk, we'll learn
+how this can be exploited to give more conceptual proofs of basic observations
+in algebraic geometry.
+
+
+The talk will give a short introduction to this technical device and discuss 
 Associated to a scheme are several important topoi, for instance the petit and
 gros Zariski topoi. These come with an internal language, from which point of
 view the structure sheaf looks like an ordinary ring (instead of a sheaf of
-rings) and quasi-coherent sheaves of modules look like ordinary modules. This
+rings) and sheaves of modules look like ordinary modules. This
 can be exploited to give more conceptual proofs 
 
 siehe interne-methoden.txt
