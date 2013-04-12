@@ -1,0 +1,31 @@
+* Reguläre Schnitte... Nochmal über Koszul-Auflösungen in diesem Kontext
+  nachdenken!
+
+* universelle Kurve
+
+* Pfaffsche: universelle Quadratwurzel aus Determinante
+
+* "Geraden können nicht zerbrechen",
+  daher ist { l | l Gerade, l \subseteq Y } \subseteq Grass(C^6, 2)
+  schon kompakt.
+
+* tom Dieck: Man kann nur Aussagen beweisen, an die man glaubt.
+
+* "Das elegante Universum"
+
+* Ellingsrud and Strømme
+
+* eingebetter Punkt = Serviette, Knäuel, ohne Richtung!
+  (Allgemein oder nur bei Lehns Beispiel?)
+
+* Kurve g --> g = det(3x3-Matrix) --> P^2 viele Möglichkeiten, einen
+  zweidimensionalen Spaltenraum auszuwählen --> Minoren --> neue Kurven
+
+* P(S^3 C^4) = Modulraum der kubischen Flächen
+
+* Bei einer Auflösung 0 <-- I <-- R_0 <-- R_1 <-- ... verliert man mit
+  jedem Schritt nach rechts Information
+
+* Modulräume von Garben
+
+* Eisenbud, Matrixfaktorisierungen
