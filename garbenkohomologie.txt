@@ -32,3 +32,5 @@ Nächste Schritte:
 * Was besagt das klassische Resultat für Ext^i auf P^n anschaulich?
 * Welche der Kategorien Mod(O_X), Qcoh(O_X), Coh(O_X) besitzen genügend
   viele Injektive und Projektive, und weshalb?
+* Welche Bedeutung hat es, dass H^* mit |_U kommutiert?
+  Hat das überhaupt was mit Garbenkohomologie zu tun?

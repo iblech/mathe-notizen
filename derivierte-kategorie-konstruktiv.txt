@@ -7,6 +7,7 @@
   (4) Projektive Auflösungen gibt es vielleicht nicht
 
 * 2-sided bar construction
+  * siehe auch Weibel, um 8.6.1
 * kanonische freie Auflösung
 
 * Ext^n als Äquivalenzklassen geeigneter exakter Sequenzen

@@ -19,6 +19,17 @@ derivierten Kategorie Kohomologie- oder Extgruppen. Solche sind aber nicht
 lokal: Etwa kann die Kohomologie auf einer Überdeckung jeweils null sein, ohne
 global null zu sein.
 
+Zumindest aber ist die Eigenschaft eines Morphismus f : A --> B
+in D(X), ein Isomorphismus zu sein, lokal, d.h. f ist genau dann ein Iso, wenn
+für eine Überdeckung X = \bigcup U alle f|_U: A|_U --> B|_U jeweils Isos in
+D(U) sind.
+Beweis: f Iso
+   <==> H^*(f) : H^*(A) --> H^*(B) Isos f.a. * (als Morphismen von Garben)
+   <==> H^*(f)|_U Isos
+   <==> H^*(f|_U) Isos
+Der letzte Schritt funktioniert deswegen, da "Einschränken auf U" ein exakter
+Funktor ist!
+
 Nächste Schritte:
 * Den richtigen 2-kategoriellen Sinn oben verstehen.
 * Aussage 2) allgemein beweisen.

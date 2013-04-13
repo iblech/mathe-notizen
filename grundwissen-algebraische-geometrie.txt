@@ -31,6 +31,30 @@
 * Nächster Schritt: Was ist ein regulärer Schnitt?
 
 
+=== Unterschemata
+
+* Sei f : X --> Y eine abgeschlossene Immersion. Dann habe die kurze exakte
+  Sequenz
+
+  0 --> I_{X/Y} --> O_Y --> f_* O_X --> 0.
+
+  Der Modul vorne heißt auch /Idealgarbe von f/.
+
+* Sei etwa Y = P^1, X = Spec k und f die Inklusion des abgeschlossenen Punkts
+  P = (0:1). Dann ist die Sequenz
+
+      0 --> O(-1) --> O --> k(P) --> 0
+
+  exakt. Die Abbildung vorne ist dabei durch Multiplikation mit x_0 gegeben.
+  Also ist O(-1) die Idealgarbe von { P }.
+
+* Die erste infinitesimale Umgebung von X --> Y ist dasjenige
+  Unterschemata von Y, was von I^2 ausgeschnitten wird.
+  Hat was mit dem Konormalkomplex zu tun!
+
+* Auflösung von f_*(O_X): Siehe GenHKR.pdf, Seite 8f.!
+
+
 === Fasern
 
 * Bsp. 10.3.3 in Vakil ("Consider the projection of the // parabola")

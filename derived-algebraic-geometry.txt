@@ -1,7 +1,9 @@
+=== Toën
+
 Literatur:
-http://www.math.univ-montp2.fr/~toen/crm-2008.pdf
 Simplicial presheaves and derived algebraic geometry
 Bertrand Toën
+http://www.math.univ-montp2.fr/~toen/crm-2008.pdf
 
 Problem: Viele Moduliprobleme in der Kategorie der Schemata nicht lösbar!
 Indizien dafür: Der definierende Punktefunktor verwendet Tensorprodukte oder
@@ -14,3 +16,21 @@ fundamental, nicht mehr Funktoren Ring --> Set.
 Kapitel 2: Mir fehlen Modellkategoriekenntnisse.
 
 Später für Kontangentialkomplex: Modellkategoriekenntnisse, Homotopiefasern
+
+
+=== Selbstschnitt von Untervarietäten
+
+Literatur:
+http://www.math.wisc.edu/~andreic/publications/GenHKR.pdf
+Dima Arinkin, Andrei Căldăraru.
+When is the self-intersection of a subvariety a fibration?
+
+Sei Y ein glattes Schema und X ein glattes Unterschema.
+Sei i die abgeschlossene Immersion X --> Y.
+
+Dann kann ich mir (angeblich) den derivierten Schnitt
+
+    X x_Y^R X
+
+als das gewöhnliche Schema X vorstellen, wobei aber die Strukturgarbe durch
+einen Strukturkomplex ersetzt ist, nämlich i^* i_* O_X \in D(X).
