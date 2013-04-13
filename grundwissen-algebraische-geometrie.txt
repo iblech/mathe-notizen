@@ -1,5 +1,10 @@
+=== Verschwindungsmengen in affinen Schemata
+
 * Sei f \in A. Dann gilt:
     { x \in Spec A | f = 0 \in k(x) } = V((f)) = { p | f \in p }.
+
+
+=== Verschwinden von Schnitten
 
 * Sei A ein lokaler Ring mit maximalem Ideal m.
   Dann erhält und reflektiert (!) der kanonische Ringhomo
@@ -22,6 +27,11 @@
   dann ein Inverses, wenn f (aufgefasst als Funktion auf U) ein Inverses
   besitzt. Das ist genau dann der Fall, wenn f nicht null ist in den Fasern.
   Also: O_X --> L ist genau dann ein Iso, wenn f nirgendwo verschwindet.
+
+* Nächster Schritt: Was ist ein regulärer Schnitt?
+
+
+=== Fasern
 
 * Bsp. 10.3.3 in Vakil ("Consider the projection of the // parabola")
   erlärt super, wie man Fasern ausrechnet.

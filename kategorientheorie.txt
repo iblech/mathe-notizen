@@ -23,6 +23,13 @@ für omega : FA --> B und
 
 für mu : A --> GB.
 
+Siehe auch: http://mathoverflow.net/questions/6551/what-is-an-intuitive-view-of-adjoints-version-1-category-theory/6558#6558
+All of these examples are particularly nice in the sense that we get triangles
+or short exact sequences describing the object we start with in terms of our
+complementary approximations (by complementary I mean that there is
+orthogonality floating around in all of these examples so we have in some sense
+decomposed our category).
+
 
 === Kofinalität
 
