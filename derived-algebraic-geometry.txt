@@ -34,3 +34,6 @@ Dann kann ich mir (angeblich) den derivierten Schnitt
 
 als das gewöhnliche Schema X vorstellen, wobei aber die Strukturgarbe durch
 einen Strukturkomplex ersetzt ist, nämlich i^* i_* O_X \in D(X).
+
+Formal: Simpliziale Schemata, dg-Schemata nach Ciocan-Fontanine und Kapranov
+oder derivierte Schemata nach Lurie oder Toën-Vezzosi.
