@@ -1,0 +1,20 @@
+=== Endlichkeitseigenschaften von Kernen
+
+* Sei phi : M --> A^n eine surjektive lineare Abbildung,
+  wobei M endlich erzeugt ist. Dann ist der Kern von phi
+  a) ein direkter Summand von M und
+  b) somit selbst endlich erzeugt.
+
+  Beweis: Urbilder u_i |-> e_i wählen,
+  dann M = ker phi \oplus span(u_i).
+
+  Beweis: Habe eine surjektive lineare Abbildung p : A^m --> M.
+  Dann ist (nach dem folgenden) der Kern von A^m --> A^n sogar lokal frei,
+  somit insbesondere lokal endlich erzeugt und somit insbesondere tatsächlich
+  endlich erzeugt. Das Bild dieses Kerns unter p ist genau ker phi.
+
+* Sei phi : A^m --> A^n eine surjektive lineare Abbildung und
+  sei A ein lokaler Ring. Dann ist der Kern von phi frei vom Rand m - n.
+
+  Beweis: Durch Basistrafo kann man die zu phi gehörige Matrix auf die Form
+  (Einheitsmatrix | Nullmatrix) bringen.

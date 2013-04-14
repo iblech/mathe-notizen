@@ -28,6 +28,10 @@
   besitzt. Das ist genau dann der Fall, wenn f nicht null ist in den Fasern.
   Also: O_X --> L ist genau dann ein Iso, wenn f nirgendwo verschwindet.
 
+* Sei L ein Geradenbündel. Lineare Abbildungen phi : O^n --> L entsprechen
+  bekanntlich der Angabe von n globalen Schnitten auf L. Diese haben genau dann
+  keine gemeinsame Nullstelle, wenn phi surjektiv ist.
+
 * Nächster Schritt: Was ist ein regulärer Schnitt?
 
 
