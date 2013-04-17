@@ -39,3 +39,12 @@ der gesuchte Isomorphismus ist also:
     [ [x:y], [u:v] ] |--> [yv : -(xv + yu) : xu],
 
 wobei man das Minuszeichen natürlich auch weglassen kann.
+
+
+=== Überlagerung
+
+Es gibt eine natürliche 2:1 Überlagerung (P^1)^2 --> Sym^2(P^1) ~~ P^2,
+verzweigt längs der Diagonalen.
+
+Quelle: Kommentar von Qfwfq bei
+http://mathoverflow.net/questions/21854/vector-bundles-on-mathbbp1-times-mathbbp1

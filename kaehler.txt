@@ -17,7 +17,7 @@ Omega^1_B/A ist definiert als ein B-Modul, der den Funktor Der(B,_) kodarstellt:
 Modul der Differentialformen vom Grad 1 auf B über A.
 
 Konstruktion: Omega^1_B/A ist...
-a) ...der freie Modul zur Basis d(b), b in B, modulo Relationen
+a) ...der freie B-Modul zur Basis d(b), b in B, modulo Relationen
    (A-Linearität und Leibnizregel)
 b) ...I/I^2, wobei I = ker(B \otimes_A B --> B).
 
