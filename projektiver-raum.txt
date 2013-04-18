@@ -15,6 +15,67 @@ Teilmenge X_ij:
 Diese ist zu X_ji vermöge x_k/x_i |--> (x_k/x_j) / (x_i/x_j) isomorph.
 
 
+=== Beschreibung des Punktefunktors
+
+Hom_Z(X, P^n)
+    ~~ { <L, s_0,...,s_n> |
+          L Geradenbündel auf X,
+          s_0,...,s_n Schnitte von L ohne gemeinsame Nullstelle } / Isomorphie
+    ~~ { O_X^n --> L Surjektion } / Isomorphie
+     = Rang-1-Quotienten von O_X^n
+
+Hom_S(X, P^n_S) ~~ Hom_Z(X, P^n)
+
+Speziell: Hom_k(k, P^n) ~~ Rang-1-Quotienten von k^n.
+
+Somit erfüllt der projektive Raum folgende universelle Eigenschaft:
+
+    Auf P^n gibt es eine universelle rechtsexakte Sequenz
+
+        O^n --> O(1) --> 0,
+
+    sodass für jedes Schema X und jede rechtsexakte Sequenz
+
+        O^n --> L --> 0,
+
+    wobei L ein Geradenbündel auf X ist, genau ein Morphismus
+    f : X --> P^n gibt, sodass diese exakte Sequenz Rückzug der universellen
+    ist (bis auf Isomorphie).
+
+Der Kern der universellen Surjektion O^n --> O(1) ist dabei gerade Omega^1(1).
+
+
+=== Vektorbündel auf P^1 über einem Körper
+
+Jedes lokal freie Vektorbündel vom Rang r auf P^1 ist direkte Summe gewisser
+Geradenbündel O(n).
+
+Beweis: Führe Klassifikation auf Bestimmung des Doppelquotienten
+GL_r(k[X,X^(-1)]) modulo GL_r(k[X]) und GL_r(k[X^(-1)]) zurück. Dann
+Matrixumformumgen.
+
+Genauer: Ila Varma, Classification of vector bundles on P^1.
+
+
+=== Interne Sprache
+
+Folgende Definition im großen Zarisikitopos Zar(S) liefert *nicht*
+den projektiven Raum über S:
+
+    { f : (A^1_S)^n -->> L | L freier A^1_S-Modul vom Rang 1 } / ~~.
+
+Denn das ist isomorph zu
+
+    { (f_1, ..., f_n) | f_i \in A^1_S, \exists i: f_i invertierbar }
+
+und liefert auf (X --> S) daher vermutlich
+
+    { (f_1, ..., f_n) | f_i \in O_X(X) ohne gemeinsame Nullstelle }.
+
+Andere Idee: Intern als Proj A^1_S[X_0,...,X_n] definieren.
+(Im kleinen Zariskitopos.)
+
+
 === Nächste Schritte
 
 * Die üblichen wichtigen Garben auf P^n verstehen.

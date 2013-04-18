@@ -1,4 +1,4 @@
-=== Endlichkeitseigenschaften von Kernen
+=== Endlichkeitseigenschaften von Moduln
 
 * Sei phi : M --> A^n eine surjektive lineare Abbildung,
   wobei M endlich erzeugt ist. Dann ist der Kern von phi
@@ -18,3 +18,12 @@
 
   Beweis: Durch Basistrafo kann man die zu phi gehörige Matrix auf die Form
   (Einheitsmatrix | Nullmatrix) bringen.
+
+* Sind in einer kurzen exakten Sequenz die äußeren beiden Moduln frei von
+  endlichem Rang, so auch der mittlere.
+
+  Falls der Grundring lokal ist, folgt aus der Freiheit der rechten beiden
+  Moduln die Freiheit des linken.
+
+  Aber die Freiheit des Kokerns folgt im Allgemeinen nie.
+  Das sieht man etwa schon an Z_(2) --> Z_(2), z |--> 2z.

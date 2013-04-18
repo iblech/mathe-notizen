@@ -70,6 +70,12 @@ von k, besteht also nur aus Konstanten. Siehe
 http://math.stackexchange.com/questions/154580/if-a-line-bundle-and-its-dual-both-have-a-section-on-a-projective-variety-does.]
 
 
+=== Vektorbündel in der stetigen, holomorphen und algebraischen Kategorie
+
+Siehe Ulrich Krähmer, Picard Groups: Real and Complex, Algebraic and
+Continuous, http://www.maths.gla.ac.uk/~ukraehmer/invmodneu.pdf.
+
+
 === Nächste Schritte
 
 * Kozykelbeschreibug in und auswendig kennen
@@ -77,3 +83,5 @@ http://math.stackexchange.com/questions/154580/if-a-line-bundle-and-its-dual-bot
 * Wieso zerfallen alle kurzen exakten Sequenzen von Vektorbündeln
   (im topologischen Sinn)?
 * Gilt? M~ lokal frei <==> M projektiv
+* Was ist der klassifizierende Raum der Vektorbündel in der algebraischen
+  Kategorie?
