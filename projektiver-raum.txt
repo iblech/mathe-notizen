@@ -21,28 +21,28 @@ Hom_Z(X, P^n)
     ~~ { <L, s_0,...,s_n> |
           L Geradenbündel auf X,
           s_0,...,s_n Schnitte von L ohne gemeinsame Nullstelle } / Isomorphie
-    ~~ { O_X^n --> L Surjektion } / Isomorphie
-     = Rang-1-Quotienten von O_X^n
+    ~~ { O_X^(n+1) --> L Surjektion } / Isomorphie
+     = Rang-1-Quotienten von O_X^(n+1)
 
 Hom_S(X, P^n_S) ~~ Hom_Z(X, P^n)
 
-Speziell: Hom_k(k, P^n) ~~ Rang-1-Quotienten von k^n.
+Speziell: Hom_k(k, P^n) ~~ Rang-1-Quotienten von k^(n+1).
 
 Somit erfüllt der projektive Raum folgende universelle Eigenschaft:
 
     Auf P^n gibt es eine universelle rechtsexakte Sequenz
 
-        O^n --> O(1) --> 0,
+        O^(n+1) --> O(1) --> 0,
 
     sodass für jedes Schema X und jede rechtsexakte Sequenz
 
-        O^n --> L --> 0,
+        O^(n+1) --> L --> 0,
 
     wobei L ein Geradenbündel auf X ist, genau ein Morphismus
     f : X --> P^n gibt, sodass diese exakte Sequenz Rückzug der universellen
     ist (bis auf Isomorphie).
 
-Der Kern der universellen Surjektion O^n --> O(1) ist dabei gerade Omega^1(1).
+Der Kern der universellen Surjektion O^(n+1) --> O(1) ist dabei gerade Omega^1(1).
 
 
 === Vektorbündel auf P^1 über einem Körper

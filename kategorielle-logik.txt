@@ -1,0 +1,2 @@
+* http://ljk.imag.fr/membres/Dominique.Duval/Slides/capp10.pdf
+* A categorical semantics of quantum protocols: http://arxiv.org/abs/quant-ph/0402130

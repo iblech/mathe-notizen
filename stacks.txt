@@ -1,3 +1,6 @@
 * Quotientstack [X/G] (immer ein glatter D-M-Stack)
 * Coh^G(X) ~ Coh([X/G]) angeblich trivialerweise
 * http://ens.math.univ-montp2.fr/~toen/m2.html
+* http://www.math.uni-bonn.de/ag/kleineag/Stacks/programm-stacks.pdf
+* http://staff.science.uva.nl/~heinloth/StacksSeminar/
+* http://www.stud.uni-karlsruhe.de/~uabge/diplom.pdf
