@@ -118,7 +118,23 @@ Retrakte von darstellbaren Funktoren.
 [2] http://mathoverflow.net/questions/85323/topos-associated-to-a-category
 
 
+=== Kategorien von Gruppen, Ringen, Moduln in Topoi
+
+* Eine Kategorie ist genau dann lokal präsentierbar, wenn sie
+  äquivalent zur Kategorie Mod(S) der Mengen-wertigen Modelle eines
+  Limesentwurfs S ist.
+
+* Ist K eine lokal lambda-präsentierbare Kategorie und S ein Limesentwurf
+  mit lambda-kleinen Diagrammen, so ist die Kategorie Mod(S, K) der K-wertigen
+  Modelle von S ebenfalls lokal lambda-präsentierbar.
+
+  Beispiel: Die Kategorie der Gruppen (oder Ringe) in einem Topos ist lokal
+  lambda-präsentierbar.
+
+
 === Nächste Schritte:
 
 * Wozu ist der symmetrische Topos gut?
 * Was ist eine "Darstellung als Koinverter"?
+* Ist die Kategorie von Moduln über einem festen Ring in einem Topos
+  lokal präsentierbar?
