@@ -21,6 +21,12 @@ Die Behauptung folgt, da wegen Extensionalität gilt:
     phi <==> A = B <==> s(A) = s(B).
 
 
+=== Literatur
+
+* The Age of Alternative Logics.
+  Assessing Philosophy of Logic and Mathematics Today.
+
+
 === Nächste Schritte
 
 * Doppelnegationsübersetzung verstehen
