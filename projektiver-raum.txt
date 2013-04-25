@@ -15,6 +15,14 @@ Teilmenge X_ij:
 Diese ist zu X_ji vermöge x_k/x_i |--> (x_k/x_j) / (x_i/x_j) isomorph.
 
 
+=== Andere offene Teile
+
+Ist f ein homogenes Polynom in k[x_0,...,x_n], so hat man die offene Teilmenge
+D(f) von P^n. Deren Schnitt mit X_i ist die offene Teilmenge
+
+    D(f(x_0/x_i, ..., x_n/x_i)).
+
+
 === Beschreibung des Punktefunktors
 
 Hom_Z(X, P^n)

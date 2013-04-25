@@ -27,3 +27,12 @@
 
   Aber die Freiheit des Kokerns folgt im Allgemeinen nie.
   Das sieht man etwa schon an Z_(2) --> Z_(2), z |--> 2z.
+
+
+=== Dualisieren
+
+* Habe stets Hom_A(M, N) --> Hom_A(N^, M^).
+  Wenn die kanonischen Abbildungen M --> M^^ und N --> N^^ Isos sind,
+  ist das ebenfalls ein Iso.
+
+* Falls M frei von endlichem Rang ist, ist M --> M^^ ein Iso.

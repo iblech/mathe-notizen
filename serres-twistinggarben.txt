@@ -19,3 +19,18 @@ Aspekte:
       Hom_P^n(W, Spec Sym O(1)) ~~ glob. Schnitte von (mu_* W)(-1)
 
   für mu : W --> X.
+
+
+=== Definition mit Übergangsfunktionen
+
+O(m) auf P^n (siehe projektiver-raum.txt) hat folgende Übergangsfunktionen:
+
+    T_ij = Multiplikation mit (x_i / x_j)^m.
+
+Damit ist etwa offensichtlich, dass:
+* O(m) tensor O(p) ~~ O(m + p).
+* O(-1) bis auf den Nullschnitt keine globalen Schnitte besitzt.
+* p homogen vom Grad m in k[x_0,...,x_n]
+      |--> kompatible Familie, auf x_i != 0: p(x_0/x_i,...,x_n/x_i).
+* Besser: p/q vom Gesamtgrad m
+      |--> kompatible Familie, auf x_i != 0 (und q != 0): .../...
