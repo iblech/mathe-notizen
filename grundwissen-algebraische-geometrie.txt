@@ -63,3 +63,18 @@
 
 * Bsp. 10.3.3 in Vakil ("Consider the projection of the // parabola")
   erlärt super, wie man Fasern ausrechnet.
+
+
+=== Flache Familien
+
+* As others have stated above, flatness of a family should mean that the fibres
+  of the family vary somehow continuously. Let state this in terms of a module
+  M over a ring R. Here a fibre of M over a prime P of R is M(P), the
+  k(P)-vector space MP/PAP, where k(P) denotes the quotient field of R/P. If
+  the fibres vary continuously, it should be possible to extend a basis of M(P)
+  to nearby fibres, i.e. that the lift of a k(P)-basis wrt. the canonical map
+  MP -> M(P) should yield a basis of MP over AP, i.e. that the stalk MP is a
+  free module.
+
+* And in fact: If M is a finitely presented R-module it is flat if and only if M
+  is locally free, i.e. that stalks are free.

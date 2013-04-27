@@ -1,0 +1,57 @@
+=== C^*-Algebren
+
+Def.: ...
+
+Def.: Ein Element a einer *-Algebra heißt genau dann normal, wenn a* a = a a*.
+
+Bem.: Jedes Element ist Summe zweier normaler Elemente:
+
+    a = 1/2 * ((a + a*) + (a - a*)).
+
+Bem.: Jede Abbildung A --> B zwischen zwei C^*-Algebren, die aber nur auf
+den normalen Elementen von A definiert zu sein braucht, lässt sich in eindeutiger
+Weise zu einem auf ganz A definierten Homo fortsetzen. Wie lautet die präzise
+Formulierung?
+
+
+=== Quantenmechanische Systeme
+
+Def.: Ein quantenmechanisches System ist das formale Duale einer C^*-Algebra A,
+vorgestellt als den would-be-Phasenraum des Systems.
+
+Wörterbuch:
+* Observable: selbstadjungierte Elemente a \in A.
+  -- Äquivalent: C^*-Algebrenhomos C(R)_0 --> A.
+* Zustände: C-lineare Abbildungen p : A --> C (positiv und normalisiert).
+* Wert der Observablen a im Zustand p: p(a).
+* Ein-Parameter-Untergruppe R --> Aut(A): Evolution des Systems.
+
+Mit der GNS-Konstruktion kann man solchen quantenmechanischen Systemen
+Hilberträume zuordnen.
+
+Beispiel: A = L(H,H) für einen Hilbertraum H.
+
+Weiter im Wörterbuch:
+* Quasi-Zustände: Abbildungen p : A --> C (positiv und normalisiert),
+  die auf allen kommutativen Unteralgebren von A C-linear sind.
+  "Operationally, quasi-states should be the genuine states!"
+
+
+=== Bohr-Topos zu einem quantenmechanischen System A
+
+Def.: Bohr(A) := [C(A), Set], wobei C(A) die partiell geordnete Menge der
+kommutativen C^*-Unteralgebren bezeichnet.
+
+In Bohr(A) gibt es nun die tautologisch definierte C^*-Algebra
+
+    U \in C(A) |--> U.
+
+Die Besonderheit liegt darin, dass diese aus interner Sicht kommutativ ist!
+
+* Ein Quasi-Zustand ist dasselbe wie ein klassischer Zustand der internen
+  Algebra.
+
+
+=== Literatur
+
+* http://ncatlab.org/nlab/show/Bohr%20topos
