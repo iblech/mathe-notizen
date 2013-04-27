@@ -78,3 +78,14 @@
 
 * And in fact: If M is a finitely presented R-module it is flat if and only if M
   is locally free, i.e. that stalks are free.
+
+
+=== Wieso Primideale statt maximale Ideale?
+
+* Urbildoperation erhält nur Primalität, nicht Maximalität.
+* Für Basiswechsel: Etwa schickt A^1_C --> A^1_Q die nicht-algebraischen Punkte
+  auf den generischen.
+* Generische Punkte machen Spaß!
+* Nur so ist (Spec A, O) die universelle Lokalisierung von A.
+* Nur so ist A |--> (Spec A, O) der Linksadjungierte zum Vergissfunktor LRS --> Ring.
+* Nur so wird die Kategorie der affinen Schemata dual zur Kategorie der Ringe.
