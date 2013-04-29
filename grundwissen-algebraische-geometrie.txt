@@ -1,3 +1,15 @@
+=== Vektorräume als affine Schemata
+
+Die kovariante Zuordnung
+
+    V |--> Spec Sym V^
+
+bildet jeden (endlich-dimensionalen) k-Vektorraum auf ein Schema ab, dessen
+k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
+
+    Hom(k, Spec Sym V^) = Hom(Sym V^, k) = Hom_lin(V^, k) = V^^ = V.
+
+
 === Verschwindungsmengen in affinen Schemata
 
 * Sei f \in A. Dann gilt:

@@ -34,3 +34,40 @@ Damit ist etwa offensichtlich, dass:
       |--> kompatible Familie, auf x_i != 0: p(x_0/x_i,...,x_n/x_i).
 * Besser: p/q vom Gesamtgrad m
       |--> kompatible Familie, auf x_i != 0 (und q != 0): .../...
+
+
+=== Totalräume und tautologische Bündel
+
+Auf P(V) := { Rang-1-Quotienten von V } hat das kanonische Bündel
+
+    E(1) := { <Q, x \in Q> } --> P(V)
+
+und damit seine Tensorprodukte
+
+    E(n) = { <Q, x \in Q^(tensor n)> } --> P(V),
+
+wobei negative Tensorpotenzen durch Dualisieren erklärt sind.
+
+* Deren Garben von Schnitten sind gerade die O(n)-Garben.
+
+* Ein Schnitt f/g von O(n) induziert folgenden Schnitt von E(n):
+
+      Q |--> <Q, f(lambda) / g(lambda) * pi(x)^(tensor n)>,
+
+          wobei x ein beliebiges Element von V, das in Q nicht verschwindet, ist
+            und lambda das eindeutige Element aus V^ mit
+                    lambda|_K = 0 und lambda(x) = 1 (wobei K = ker pi)
+                bezeichnet.
+
+  Für n < 0 kann man das noch ein wenig einfacher ausdrücken:
+
+      Q |--> <Q, f(lambda) / g(lambda) * lambda^(tensor (-n))>,
+
+          wobei lambda ein beliebiges nicht-null-Element von Q^ bezeichnet.
+
+* So kann man sehen, dass E(-1) nur den Nullschnitt als globalen Schnitt
+  besitzt:
+
+  Sei s : P(V) --> E(-1) Schnitt.
+  Da E(-1) \subset P(V) x V^, erhält man damit eine Abbildung P(V) --> V^.
+  Deren Komponenten P(V) --> k müssen konstant (und dann null) sein.

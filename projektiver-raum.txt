@@ -1,3 +1,23 @@
+=== Klassische Definitionen
+
+Ganz klassisch definiert man den projektiven Raum P(V) zu einem Vektorraum V
+als Menge der Ursprungsgeraden in V. Diese Konstruktion ist kovariant
+funktoriell unter injektiven linearen Abbildungen V --> V'.
+
+Moderner definiert man P(V) als die Menge der Rang-1-Quotienten von V (bis auf
+Isomorphie). Diese Konstruktion ist kontravariant funktoriell unter surjektiven
+linearen Abbildungen V --> V'. Die Menge der Morphismen Spec k --> Proj Sym V
+steht in Bijektion mit den Elementen dieser Menge P(V).
+
+Folgende drei Konstruktionen sind zueinander isomorph:
+* { 1-dimensionale Unterräume von W^ }
+* { Kodim-1-Unterräume von W }
+* { 1-dimensionale Quotienten von W }
+
+Wenn man sich also tatsächlich die Ursprungsgeraden von V parametrisieren
+möchte, muss man P(V^) betrachten.
+
+
 === Konstruktion über Verklebung affiner Teile
 
 Der eindimensionale reelle projektive Raum ist (zumindest topologisch) isomorph
