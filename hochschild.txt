@@ -1,0 +1,3 @@
+* http://sbseminar.wordpress.com/2007/07/22/hochschild-homology/
+* http://ncatlab.org/nlab/show/Hochschild+cohomology
+* http://mathoverflow.net/questions/178/why-is-the-hochschild-homology-of-kt-just-kt-in-degrees-0-and-1
