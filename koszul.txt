@@ -7,3 +7,6 @@
 
 * Wann sind Schnitte durch ihren "zero locus" bestimmt?
   http://mathoverflow.net/questions/66774/when-is-a-section-of-vector-bundle-determined-by-its-zero-locus
+
+* http://mathsmensa.wordpress.com/2011/07/13/computing-the-derived-category-i/
+* http://solbap.wordpress.com/2010/06/20/famous-fourier-mukai-results-ii-orlovs-result-and-the-beilinson-resolution/
