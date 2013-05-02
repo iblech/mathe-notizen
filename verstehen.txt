@@ -16,6 +16,7 @@ Unsortierte Fragen:
   result over a field of characteristic zero.
 * method of acyclic models
 * computational linguistics!
+  http://arxiv.org/abs/cs.CL/0205026
 * Verdier-Dualität und Co., siehe Abschnitt 14 von Goresky, Primer on
   Sheaves.
 * Simons Frage von damals: Wann sind X-Interpretationen in Y dasselbe
