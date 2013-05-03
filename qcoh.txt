@@ -27,6 +27,8 @@ Vol. III, 247–435, Progress in Mathematics, 88, Birkhäuser Boston, Boston, MA
 * Qcoh auf P^n:
   http://mathoverflow.net/questions/93086/basics-about-quasi-coherent-modules-on-projective-schemes
 
+* http://math.stackexchange.com/questions/158243/modules-over-a-functor-of-points
+
 Nächste Schritte:
 * Schicke toposlogische Begründung dafür finden, dass (q)coh Moduln stabil
   unter Rückzug sind.
