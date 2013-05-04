@@ -1,0 +1,2 @@
+* Unendlich-Zeugs für Fluidsimulationen:
+  Dennis Sullivan, http://arxiv.org/pdf/1010.2721v1.pdf
