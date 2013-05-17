@@ -46,3 +46,57 @@
 
 * Ist eine Garbe genau dann lokal konstant, wenn sie aus interner Sicht diskret
   ist? Vermutlich nicht! Gegenbeispiel?
+
+
+=== math.se-Antwort
+
+http://math.stackexchange.com/questions/394194/what-does-a-proof-in-an-internal-logic-actually-look-like/394981#394981
+
+Here is an arbitrary example from algebraic geometry. We'll prove the following
+well-known statement about $\mathcal{O}_X$-modules on reduced schemes $X$ by
+reducing to constructive linear algebra interpreted in the topos
+$\mathrm{Sh}(X)$ of sheaves on $X$:
+
+> Let $\mathcal{F}$ be an $\mathcal{O}_X$-module locally of finite type.
+> Then $\mathcal{F}$ is locally free iff its rank is constant.
+
+We can translate this statement into the internal language of $\mathrm{Sh}(X)$
+by the following dictionary:
+
+ - In the internal language, the sheaf of rings $\mathcal{O}_X$ looks like an ordinary ring.
+ - Accordingly, $\mathcal{F}$ looks like an ordinary module on that ring.
+ - $\mathcal{F}$ is locally of finite type iff it is finitely generated from
+   the internal point of view.
+ - $\mathcal{F}$ is locally free iff it is a free module from the internal
+   point of view.
+ - Internally, we can define the rank of $\mathcal{F}$ as the minimal number
+   of elements needed to generate $\mathcal{F}$. But constructively,
+   the natural numbers may fail to have minima of arbitrary inhabited sets (see
+   [this enlightening blog post by Andrej Bauer][1]), so this minimal number
+   might not actually be an (internal) natural number, but be an element of a
+   suitable completion. Externally, the rank defined this way induces a upper
+   semicontinuous function on $X$ (see [nLab and the Mulvey reference therein][2]); it is constant iff internally, the minimal number of
+   generators is an actual natural number.
+ - Finally, the scheme $X$ is reduced iff $\mathcal{O}_X$ looks like an
+   ordinary reduced ring from the internal perspective. This in turn is
+   equivalent to $\mathcal{O}_X$ being a so-called residue field from the
+   internal point of view (i.e. a non-trivial ring with every non-unit being
+   zero).
+
+So the statement follows if we can give a constructive proof of the following
+linear algebra fact:
+
+> Let $A$ be a residue field and let $M$ be a finitely generated $A$-module.
+> Then $A$ is free iff the minimal number of elements needed to generate $M$
+> as an $A$-module is an actual natural number.
+
+The direction "$\Rightarrow$" is clear. For the direction "$\Leftarrow$",
+consider a minimal generating family $x_1,\ldots,x_n$ of $M$ (which exists by
+assumption). This family is linearly independent (and therefore a basis): Let $\sum_i \lambda_i x_i =
+0$. If any $\lambda_i$ were invertible, the family
+$x_1,\ldots,x_{i-1},x_{i+1},\ldots,x_n$ would too generate $M$, contradicting
+the minimality. So each $\lambda_i$ is not invertible and thus zero (by assumption on $A$).
+
+
+  [1]: http://math.andrej.com/2009/09/08/constructive-stone-minima-of-sets-of-natural-numbers/
+  [2]: http://ncatlab.org/nlab/show/one-sided+real+number
