@@ -1,1 +1,6 @@
 * http://www.math.uni-bonn.de/ag/kleineag/ModulraeumeVonGarben/ModulraeumeVonGarben.pdf
+* http://www.math.harvard.edu/~lurie/papers/moduli.pdf
+* http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter04/henriques.pdf
+* http://www.math.jussieu.fr/~vezzosi/papers/newton-fin.pdf
+* http://arxiv.org/abs/math.DG/0203100 (Orbifolds as Groupoids)
+* http://golem.ph.utexas.edu/category/2009/09/a_seminar_on_gromovwitten_theo.html

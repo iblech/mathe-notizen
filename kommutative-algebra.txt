@@ -29,6 +29,17 @@
   Das sieht man etwa schon an Z_(2) --> Z_(2), z |--> 2z.
 
 
+=== Zusammenhang zu Vektorbündeln
+
+Prop. (Thm. 7.21 in http://math.uga.edu/~pete/integral.pdf):
+    Sei M ein A-Modul. Dann sind äquivalent:
+    (1) M ist endlich erzeugt und projektiv.
+    (2) Es gibt eine Zerlegung 1 = \sum_i f_i der Eins, sodass
+        jeder Modul M_(f_i) ein freier A_(f_i)-Modul endlichen Rangs ist.
+
+Also: M~ lokal frei <==> M erfüllt (2) <==> M erfüllt (1).
+
+
 === Dualisieren
 
 * Habe stets Hom_A(M, N) --> Hom_A(N^, M^).
@@ -36,3 +47,8 @@
   ist das ebenfalls ein Iso.
 
 * Falls M frei von endlichem Rang ist, ist M --> M^^ ein Iso.
+
+
+=== Siehe auch
+
+* http://math.uga.edu/~pete/integral.pdf
