@@ -101,3 +101,36 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 * Nur so ist (Spec A, O) die universelle Lokalisierung von A.
 * Nur so ist A |--> (Spec A, O) der Linksadjungierte zum Vergissfunktor LRS --> Ring.
 * Nur so wird die Kategorie der affinen Schemata dual zur Kategorie der Ringe.
+
+Genauer zum Punkt universelle Lokalisierung:
+
+  Gegeben Ring A. Gesucht lokaler Ring A' zusammen mit Morphismus iota : A --> A',
+  sodass es zu jedem Morphismus A --> B in einen lokalen Ring B genau einen
+  lokalen Morphismus A' --> B gibt, der vorkomponiert mit A --> A' wieder A --> B
+  ergibt.
+
+  Dieses Problem ist in Set nicht lösbar: Denn sei p ein Primideal und s \not\in p.
+  Dann folgt, dass iota(s) invertierbar in A' ist, da s invertierbar in A_p
+  ist. Sei nun q ein weiteres Primideal. Dann folgt, dass s auch invertierbar
+  in A_q ist, d.h. nicht in q enthalten ist. Damit folgt zusammengenommen: Je
+  zwei Primideale von A sind gleich.
+
+
+=== Garbe meromorpher Funktionen
+
+Siehe: Steven Kleiman, Misconceptions about K_X.
+
+Sei X ein Schema. Dann ist K_X die Garbifizierung der (nur über die
+affinoffenen Teile gehenden!) Prägarbe
+
+    U |--> Quot O_X(U).
+
+Wenn man über alle offenen U gehen möchte, muss man K_X als Garbifizierung der
+Prägarbe
+
+    U |--> O_X(U)[S(U)^(-1)]
+
+definieren, wobei S(U) = { f | f_x ist kein Nullteiler in allen O_x, x \in U }.
+
+Es gilt: Halm K_x = S_x^(-1) O_x, wobei S_x = lim_{x \in U} S(U). Das kann eine
+echte Teilmenge von Quot O_x sein.
