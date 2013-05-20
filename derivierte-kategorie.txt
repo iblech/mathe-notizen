@@ -82,3 +82,9 @@ Quelle: Beilinson, Coherent sheaves on P^n and problems in linear algebra.
 
 Siehe
 http://mathoverflow.net/questions/15658/how-do-i-know-the-derived-category-is-not-abelian/15662#15662.
+
+
+=== Topologische Sicht
+
+Siehe: J. P. May, Derived categories from a topological point of view:
+http://www.math.uchicago.edu/~may/MISC/DerivedCats.pdf

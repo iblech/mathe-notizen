@@ -187,4 +187,5 @@ Prop.: X, Y glatt, eigentlich/k. Dann RHom(L_perf(X), L_perf(Y)) ~ L_perf(X x Y)
 Siehe auch:
 * http://nforum.mathforge.org/discussion/2969/derived-category-of-sheaves/
 * http://www.math.jussieu.fr/~keller/publ/OnDGCat.pdf
-* http://arxiv.org/pdf/math/0401009v1.pdf
+* Grothendieck ring of pretriangulated categories: http://arxiv.org/pdf/math/0401009v1.pdf
+* Ben-Zvi, Francis, Nadler: http://arxiv.org/pdf/0805.0157v5.pdf

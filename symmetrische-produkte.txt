@@ -1,3 +1,24 @@
+=== S^n(A^1)
+
+Sei k algebraisch abgeschlossen. Dann:
+
+    Hom_k(Spec k, S^n(A^1)) ~~
+    Hom_k(k[X_1,...,X_n]^(S_n), k) ~~
+    { f \in k[X] | f normiert, deg f = n }.
+
+Der letzte Iso ist durch
+
+    phi |--> f = X^n + a_(n-1) X^(n-1) + ... + a_1 X + a_o
+                  mit a_i = (-1)^(n-i) phi(e_(n-i))
+
+bzw.
+
+    f |--> (p(X_1,...,X_n) |-> p(x_1,...,x_n))
+                  mit x_1, ..., x_n den Nullstellen von f
+
+gegeben.
+
+
 === S^n(P^1)
 
 Das n-fache symmetrische Produkt von P^1 ist isomorph zu P^n.
@@ -40,6 +61,16 @@ der gesuchte Isomorphismus ist also:
 
 wobei man das Minuszeichen natürlich auch weglassen kann.
 
+Andere Sicht: n Punkte des P^1 definieren genau ein homogenes Polynom vom Grad n,
+welches an diesen Punkten verschwindet (und umgekehrt): Zu [x_i : y_i], i = 1,...,n
+nämlich das Polynom
+
+    \prod_i (x_i Y - y_i X),
+
+welches bis auf Vielfache wohldefiniert ist. Sein Koeffizientenvektor liegt in
+kanonischer Art und Weise in P^n. Das ergibt für n = 2 genau denselben Iso wie
+oben (sogar mit demselben Vorzeichen).
+
 
 === Überlagerung
 
@@ -48,3 +79,17 @@ verzweigt längs der Diagonalen.
 
 Quelle: Kommentar von Qfwfq bei
 http://mathoverflow.net/questions/21854/vector-bundles-on-mathbbp1-times-mathbbp1
+
+Hilb^2(P^2) ist ein P^2-Bündel über (P^2)^ (dual) und daher eine exceptional
+collection. Siehe http://mathoverflow.net/questions/34479/hilbert-schemes-of-points-and-exceptional-collections/34553#34553.
+
+
+=== Zusammenhang mit effektiven Divisoren
+
+http://mathoverflow.net/questions/10349/smoothness-of-symmetric-powers/10373#10373:
+
+I also wanted to mention a `high-technology' answer to (1). Namely, if C is a
+smooth algebraic curve, its n-th symmetric power coincides with the variety of
+all degree n effective divisors on C (that is, we consider n-element subsets of
+C, and then allow points to merge). In a fancier language, we are looking at
+the Hilbert scheme of length n subschemes of C.

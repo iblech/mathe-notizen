@@ -1,0 +1,4 @@
+* Michael Britze, On the cohomology of generalized Kummer varietes, 2002:
+  http://www.math.uni-bonn.de/people/huybrech/britze.pdf
+* In Andis Paper: http://arxiv.org/pdf/1301.4970v1.pdf
+* Paolo Stellari: ttp://arxiv.org/pdf/math/0401009v1.pdf
