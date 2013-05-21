@@ -73,6 +73,20 @@ Somit erfüllt der projektive Raum folgende universelle Eigenschaft:
 Der Kern der universellen Surjektion O^(n+1) --> O(1) ist dabei gerade Omega^1(1).
 
 
+=== Verallgemeinerung: P(E)
+
+Sei E ein lokal freier Modul auf S. Dann ist das projektive Bündel P(E) --> S
+gegeben durch folgenden Funktor:
+
+            Sch/S ---> Set
+    (f : X --> S) |--> invertierbare Quotienten von f^* E.
+
+
+=== Projektiver Raum nicht affin
+
+Siehe: Daniel Biss, Which functor is the projective line? 2003.
+
+
 === Vektorbündel auf P^1 über einem Körper
 
 Jedes lokal freie Vektorbündel vom Rang r auf P^1 ist direkte Summe gewisser

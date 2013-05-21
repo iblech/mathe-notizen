@@ -1,3 +1,5 @@
+=== Unterkategorien
+
 * Eine volle Unterkategorie D einer triangulierten Kategorie C heißt
   triangulierte Unterkategorie, wenn sie abgeschlossen unter Shifts ist und
   Kegel von Morphismen aus D essenziell in D liegen.
@@ -5,3 +7,27 @@
 * Eine triangulierte Unterkategorie heißt epaisse (thick), wenn
   sie abgeschlossen unter Isos und direkten Summanden ist.
   (Unter direkten Summen ist sie sowieso abgeschlossen!)
+
+
+=== Aufspannende Klassen
+
+* Eine Klasse Omega von Objekten einer triangulierten Kategorie C
+  heißt aufspannende Klasse, falls für alle Objekte B gilt:
+  1) Hom(A, B[i]) = 0 f.a. A aus Omega, i aus Z  ==>  B = 0.
+  1) Hom(B[i], A) = 0 f.a. A aus Omega, i aus Z  ==>  B = 0.
+  Eine der beiden Bedingungen genügt, falls C einen Serrefunktor zulässt.
+
+* Sei F : C --> C' ein exakter Funktor mit G -| F -| H.
+  Dann ist F genau dann volltreu, wenn für alle A, B aus Omega, i aus Z
+  die Abbildungen
+
+      Hom(A, B[i]) --> Hom(F(A), F(B[i]))
+
+  bijektiv sind.
+
+* Eine Folge (L_i)_{i \in Z} von Objekten in einer k-linearen abelschen
+  Kategorie heißt ampfel, falls...
+
+* Sei A eine k-lineare abelsche Kategorie von endlicher homologischer
+  Dimension. Sei (L_i)_i eine ample Folge. Dann bilden die L_i in
+  D^b(A) eine aufspannende Klasse.

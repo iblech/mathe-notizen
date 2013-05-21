@@ -25,6 +25,16 @@ Invarianten einer k-Algebra A (wie etwa K_0, Zentrum, K_i, HH^*, ...) werden
 nicht nur von A, nicht nur von Mod-A, sondern sogar nur von D(Mod-A) bestimmt.
 
 
+=== Aufspannende Klassen
+
+* Sei X glatt, projektiv über k. Dann bilden die k(x), x abgeschlossener Punkt,
+  eine aufspannende Klasse von D^b(X).
+
+* Sei X eine projektive Varietät über einem Körper k und L ein amples
+  Geradenbündel auf X. Dann bilden die L^i eine ample Folge und somit eine
+  aufspannende Klasse in D^b(X).
+
+
 === Nächste Schritte
 
 * Grundlegende Lemmas zu D(X) notieren.

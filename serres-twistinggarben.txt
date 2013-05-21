@@ -38,7 +38,7 @@ Damit ist etwa offensichtlich, dass:
 
 === Totalräume und tautologische Bündel
 
-Auf P(V) := { Rang-1-Quotienten von V } hat das kanonische Bündel
+Auf P(V) := { Rang-1-Quotienten von V } habe das kanonische Bündel
 
     E(1) := { <Q, x \in Q> } --> P(V)
 
@@ -71,3 +71,16 @@ wobei negative Tensorpotenzen durch Dualisieren erklärt sind.
   Sei s : P(V) --> E(-1) Schnitt.
   Da E(-1) \subset P(V) x V^, erhält man damit eine Abbildung P(V) --> V^.
   Deren Komponenten P(V) --> k müssen konstant (und dann null) sein.
+
+* Speziell wenn V = W^: Dann gibt es die kürzeren Beschreibungen
+    E(1)  = { <l \subseteq W, x \in l^> }
+    E(-1) = { <l \subseteq W, x \in l> }.
+
+  Ein Element lambda aus W^ definiert dann eine affine Hyperebene { x \in W |
+  lambda(x) = 1 }. Schneidet man diese mit den Ursprungsgeraden von W, so
+  definiert das einen (nicht überall definierten) Schnitt von E(-1). Er
+  entspricht dem Schnitt 1/lambda von O(-1).
+
+  Man kann mit lambda aber auch einen Schnitt von E(1) definieren:
+  Nämlich l |--> lambda|_l. Dieser ist überall definiert, hat aber bei den
+  Ursprungsgeraden l mit l \subseteq ker(lambda) Nullstellen.
