@@ -1,0 +1,2 @@
+* http://www.dtc.ox.ac.uk/people/12/frot/CoherentTopoi.pdf
+  Gödel's completeness theorem and Deligne's theorem
