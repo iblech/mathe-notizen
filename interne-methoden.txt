@@ -47,6 +47,8 @@
 * Ist eine Garbe genau dann lokal konstant, wenn sie aus interner Sicht diskret
   ist? Vermutlich nicht! Gegenbeispiel?
 
+* Was hat Marc zu internen Dedekindringen gesagt?
+
 
 === math.se-Antwort
 
@@ -97,6 +99,11 @@ assumption). This family is linearly independent (and therefore a basis): Let $\
 $x_1,\ldots,x_{i-1},x_{i+1},\ldots,x_n$ would too generate $M$, contradicting
 the minimality. So each $\lambda_i$ is not invertible and thus zero (by assumption on $A$).
 
-
   [1]: http://math.andrej.com/2009/09/08/constructive-stone-minima-of-sets-of-natural-numbers/
   [2]: http://ncatlab.org/nlab/show/one-sided+real+number
+
+
+=== Graphen
+
+Siehe Andrej Bauers MO-Post und Sebastiano Vigna, A guided tour in the topos
+of graphs.
