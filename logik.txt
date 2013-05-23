@@ -1,2 +1,27 @@
 * http://www.dtc.ox.ac.uk/people/12/frot/CoherentTopoi.pdf
   Gödel's completeness theorem and Deligne's theorem
+
+* Sei phi : A --> P(A) eine Abbildung. Dann kann man explizit
+  ein Element der Wertemenge angeben, das nicht getroffen wird, nämlich
+
+      { x \in A | x \not\in phi(x) }.
+
+  Also gibt es keine surjektive Abbildung A --> P(A).
+
+  Auch kann man zeigen, dass es keine injektive Abbildung phi : P(A) --> A
+  geben kann: Definiere
+
+      U := { x \in A | \forall V \subseteq A: x \in V ==> x != phi(V) }
+      x0 := phi(U).
+
+  Dann folgt x0 \not\in U. Andererseits kann man (unter Benutzung der
+  Injektivität) zeigen, dass für alle V \subseteq A die Implikation
+
+      x0 \in V ==> x0 != phi(V)
+
+  gilt. Also gilt doch x0 \in U. Widerspruch.
+
+
+=== Nächste Schritte
+
+* Kann man explizit x, y mit phi(x) != phi(y) angeben?
