@@ -1,0 +1,16 @@
+Synthetische Differentialgeometrie
+
+* Bsp.: Ableitung von x^2
+* Wunsch: Soll valide, formale Argumentation sein!
+
+* Untersuchung, wieso es keine nilquadrat. Zahlen geben
+  kann. Sehe: Benötige DNE.
+
+* Kock-Lawvere-Axiom
+
+* Tangentialraum
+* Vektorfelder?
+* Diff'formen?
+* Integrationstheorie?
+
+* Toposmodelle. Vorstellung von { x | x^2 = 0 } klar erklären.
