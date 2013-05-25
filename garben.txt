@@ -110,3 +110,15 @@ Menge landen (offen und zusammenhängend). Abstrakter: Der Rückzug von F auf
 Details:
 * Achar, Local Systems and Constructible Sheaves.
 * Schapira, Algebra and Topology.
+
+
+=== Kategorie der Garben als Lokalisierung der Prägarbenkategorie
+
+Sh(X) = PSh(X)[(lokale Isos)^(-1)]. Dabei heißt ein Prägarbenmorphismus lokaler
+Iso, wenn er Isos auf allen Halmen induziert.
+
+Motto: Eine Garbe ist was man erhält, wenn man eine Prägarbe nimmt und alles
+wegschmeisst, was nicht auf dem Niveau von Halmen detektierbar ist.
+
+Siehe: Antwort von Zhen Lin auf
+http://math.stackexchange.com/questions/9928/yoga-of-localization-in-categories.

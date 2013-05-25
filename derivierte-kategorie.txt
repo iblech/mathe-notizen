@@ -1,3 +1,8 @@
+=== Einführungen
+
+http://math.berkeley.edu/~mhaiman/math256/Derived-Cat-1-5.pdf
+
+
 === Struktur der derivierten Kategorie
 
 Beh.: Sei C eine abelsche Kategorie mit Ext^i(X,Y) = 0 für alle i >= 2, X, Y in C.
@@ -80,11 +85,19 @@ Quelle: Beilinson, Coherent sheaves on P^n and problems in linear algebra.
 
 === Monomorphismen in derivierten Kategorien zerfallen
 
-Siehe
-http://mathoverflow.net/questions/15658/how-do-i-know-the-derived-category-is-not-abelian/15662#15662.
+Siehe:
+* http://mathoverflow.net/questions/15658/how-do-i-know-the-derived-category-is-not-abelian/15662#15662
+* http://math.stackexchange.com/questions/189769/when-is-the-derived-category-abelian
 
 
 === Topologische Sicht
 
 Siehe: J. P. May, Derived categories from a topological point of view:
 http://www.math.uchicago.edu/~may/MISC/DerivedCats.pdf
+
+
+=== Nächste Schritte
+
+* Folgendes Must-Read-Paper lesen:
+  Orlov, Derived categories of coherent sheaves and equivalences between them.
+  http://www.mi.ras.ru/~orlov/papers/Uspekhi2003.pdf

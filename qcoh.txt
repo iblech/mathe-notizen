@@ -29,6 +29,13 @@ Vol. III, 247–435, Progress in Mathematics, 88, Birkhäuser Boston, Boston, MA
 
 * http://math.stackexchange.com/questions/158243/modules-over-a-functor-of-points
 
+* Martin Brandenburg und Alexandru Chirvasitu:
+  Tensor functors between categories of quasi-coherent sheaves.
+  http://arxiv.org/pdf/1202.5147v1.pdf
+  Thm.: f |--> f^* stiftet eine Äquivalenz zwischen Hom(Y,X) und
+  kostetigen Tensorfunktoren Qcoh(Y) --> Qcoh(X), falls X qc qs und Y ein
+  beliebiges Schema ist.
+
 Nächste Schritte:
 * Schicke toposlogische Begründung dafür finden, dass (q)coh Moduln stabil
   unter Rückzug sind.
