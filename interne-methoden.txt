@@ -24,6 +24,41 @@
       nicht (Sh(X) |== nicht phi)   ==>   Sh(X) |== nicht nicht phi.
 
 
+=== Rationale Funktionen
+
+* Intern kann man die Teilmenge
+
+      S := { f : O_X | f regulär }
+
+  definieren. Diese ist multiplikativ abgeschlossen. Da "f regulär" für festes
+  f \in O_X(U) eine geometrische Aussage ist, gilt:
+
+      S(U) = { f \in O_X(U) | f regulär in allen O_{X,x}, x \in U }.
+
+  Dabei verwendet: [[ { x : F | phi(x) } ]](U) = { x \in F(U) | U |== phi(x) }.
+
+* Daher kann man intern S^(-1) O_X bilden.
+
+* Die extern definierte Ringgarbe K rationaler Funktionen erfüllt dieselbe
+  universelle Eigenschaft:
+
+      Sei U \subseteq X. Sei F Ringgarbe auf U. Sei phi : O_X --> F
+      Ringhomo, der aus interner Sicht reguläre Elemente auf invertierbare
+      schickt; das ist extern äquivalent dazu, dass er auf allen offenen Teilmengen V
+      die Elemente aus S(V) auf invertierbare Elemente schickt.
+
+      Dann gibt es genau einen Morphismus K^pre|_U --> F, der das Dreieck
+      O_U --> K^pre --> F zum Kommutieren bringt. Wegen der Lokalität der
+      Vergarbung gibt es daher genau einen Morphismus K|_U = a(K^pre|_U), der
+      das Dreieck K^pre|_U --> K|_U --> F zum Kommutieren bringt.
+ 
+  Dabei verwendet: Stack-Semantik, um die universelle Eigenschaft richtig zu
+  interpretieren; Lokalität der Vergarbung; Beschreibung von K aus
+  http://therisingsea.org/notes/Section2.6-Divisors.pdf.
+
+* Also kann ich K intern verstehen als S^(-1) O_X! :-)
+
+
 === Nächste Schritte
 
 * Manche Aussagen phi erfüllen folgende Regel:
