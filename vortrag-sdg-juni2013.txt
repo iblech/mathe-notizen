@@ -1,5 +1,31 @@
 Synthetische Differentialgeometrie
 
+Seit Weierstraß ist es Mathematikern verboten, mit infinitesimal kleinen
+Größen~$\varepsilon$ zu rechnen; nur Physiker dürfen das noch. Dabei sind
+Argumente mit solchen Zahlen keineswegs inhaltslos -- das eigentliche Problem
+liegt beim üblichen formalen Rahmen, in dem man Mathematik betreibt: Dieser ist
+nicht flexibel genug, um solche Argumente zu fassen.
+
+Im Vortrag werden wir ein alternatives Mathematik-Universum kennenlernen, in
+dem manche Traumaxiome gelten: Jede Abbildung der reellen Zahlen in sich ist
+glatt, und es gibt Zahlen~$\varepsilon$ mit~$\varepsilon^2 = 0$
+und~$\varepsilon \neq 0$. Mit solcher glatten infinitesimalen Analysis kann
+man dann Differentialgeometrie synthetisch verstehen. Etwa ist die Vorstellung
+von Tangentialvektoren als infinitesimale Kurvenstücke in diesem Bild formal
+völlig korrekt und Vektorfelder können mit infinitesimalen Flüssen
+identifiziert werden. Außerdem gibt es unerwartete neue Konzepte.
+
+Natürlich werden wir auch den Bezug dieser Traummathematik zur üblichen
+Mathematik diskutieren. Dabei wird das Wort \emph{Topos} fallen, Vorkenntnisse
+diesbezüglich sind aber überhaupt nicht nötig. Man sollte aber schonmal gesehen
+haben, wie man die Ableitung der Quadratfunktion bestimmt.
+
+Keywords: Nilquadratische Zahlen, Mikrokürzbarkeit, Mikrolinearität, Prinzip
+vom ausgeschlossenen Dritten, intuitionistische Logik, Tangentialvektoren,
+Vektorfelder, Flüsse, Differentialformen als Größen statt als Funktionale,
+Topostheorie, Garbenmodelle, duale Zahlen
+
+
 * Bsp.: Ableitung von x^2
 * Wunsch: Soll valide, formale Argumentation sein!
 
