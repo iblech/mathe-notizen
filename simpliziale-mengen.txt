@@ -2,3 +2,5 @@ Jede Motivation sollte die Punkte von Lurie enthalten:
 http://mathoverflow.net/questions/58497/is-there-a-high-concept-explanation-for-why-simplicial-leads-to-homotopy-theor/58530#58530
 
 Was sind die kuratowski-endlichen Objekte in sSet?
+
+http://golem.ph.utexas.edu/category/2008/01/mark_weber_on_nerves_of_catego.html
