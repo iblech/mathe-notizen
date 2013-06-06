@@ -1,0 +1,11 @@
+Dr. Giovanni Morando, Universität Padua
+
+Frage: Gegeben eine Kategorie C. Gibt es einen *kleinen* Topos, in den C
+einbettet?
+
+Beispiel: Sei Q = * --><-- * Steffis Quiver.
+Dann Rep(Q) ~ Rep(kQ) ~ Rep(C<x,y>) \--> Rep(D_X) \--> Mod(D)
+
+ConstructibleSheaves(X) \--> Sh(X)
+\--> Sh(X') \--> Sh(X)
+\--> Sh(R_{pt})
