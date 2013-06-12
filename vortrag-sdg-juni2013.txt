@@ -17,7 +17,7 @@ identifiziert werden. Außerdem gibt es unerwartete neue Konzepte.
 
 Natürlich werden wir auch den Bezug dieser Traummathematik zur üblichen
 Mathematik diskutieren. Dabei wird das Wort \emph{Topos} fallen, Vorkenntnisse
-diesbezüglich sind aber überhaupt nicht nötig. Man sollte aber schon mal gesehen
+diesbezüglich sind aber überhaupt nicht nötig. Man sollte nur schon mal gesehen
 haben, wie man die Ableitung der Quadratfunktion bestimmt.
 
 Keywords: Nilquadratische Zahlen, Mikrokürzbarkeit, Mikrolinearität, Prinzip
@@ -40,3 +40,9 @@ Topostheorie, Garbenmodelle, duale Zahlen
 * Integrationstheorie?
 
 * Toposmodelle. Vorstellung von { x | x^2 = 0 } klar erklären.
+
+
+Post mortem:
+* Seltsame Funktionen nicht hinschreibbar.
+* Mehr Zeit für den Schluss, damit besser klar wird, wie man das Zeug 
+  einsetzen kann. --> Zorn-Phase überwinden. 
