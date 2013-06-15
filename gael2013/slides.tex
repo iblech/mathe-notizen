@@ -1,0 +1,260 @@
+\documentclass[10pt,utf8,notheorems,compress]{beamer}
+
+\usepackage[english]{babel}
+
+\usepackage{amsmath,amssymb}
+%\usepackage[framed,amsmath,thmmarks,hyperref]{ntheorem}
+
+%\usepackage[small,nohug]{diagrams}
+%\diagramstyle[labelstyle=\scriptstyle]
+
+%\usepackage[protrusion=true,expansion=false]{microtype}
+
+%\usepackage{lmodern}
+\usepackage{tabto}
+%\usepackage{tikz}
+\usepackage{array}
+%\usepackage[all]{xy}
+
+\setlength\parskip{\medskipamount}
+\setlength\parindent{0pt}
+
+%\theoremseparator{:}
+\theoremstyle{plain}  %nonumberplain
+%\newtheorem{beh}{Behauptung}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Korollar}
+\newtheorem{theorem}{Satz}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{baddefinition}{Misleading definition}
+\newtheorem{motto}{Motto}
+%\newtheorem{kor}{Korollar}
+%\newtheorem{satz}{Satz}
+%\newtheorem{lemma}{Lemma}
+%\newtheorem{hilfsaussage}{Hilfsaussage}
+%\theorembodyfont{\normalfont}
+\newtheorem{axiom}{Axiom}
+%\newtheorem{defnprop}{Definition/Proposition}
+%\newtheorem{bem}{Bemerkung}
+\newtheorem{examples}{Examples}
+%\theoremsymbol{\ensuremath{\openbox}}
+%\newtheorem{proof}{Beweis}
+%\newtheorem{defn}{Definition}
+
+\newcommand{\lra}{\longrightarrow}
+\newcommand{\lhra}{\ensuremath{\lhook\joinrel\relbar\joinrel\rightarrow}}
+\newcommand{\thlra}{\relbar\joinrel\twoheadrightarrow}
+
+\newcommand{\ZZ}{\mathbb{Z}}
+\renewcommand{\C}{\mathcal{C}}
+\newcommand{\D}{\mathcal{D}}
+\newcommand{\E}{\mathcal{E}}
+\newcommand{\F}{\mathcal{F}}
+\renewcommand{\O}{\mathcal{O}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\Hom}{\mathrm{Hom}}
+\newcommand{\id}{\mathrm{id}}
+\newcommand{\Aut}[1]{\operatorname{Aut}(#1)}
+\newcommand{\GL}[1]{\operatorname{GL}(#1)}
+\newcommand{\freist}{\_{}\_{}}
+\newcommand{\Set}{\mathrm{Set}}
+\newcommand{\Grp}{\mathrm{Grp}}
+\newcommand{\Vect}{\mathrm{Vect}}
+\newcommand{\Sh}{\mathrm{Sh}}
+\newcommand{\Zar}{\mathrm{Zar}}
+\newcommand{\?}{\,{:}\,}
+\renewcommand{\_}{\mathpunct{.}\,}
+\newcommand{\speak}[1]{\ulcorner\text{#1}\urcorner}
+
+\def\longleadsto{\mathrel{-}\joinrel\leadsto}
+\DeclareMathOperator{\ggT}{ggT}
+\DeclareMathOperator{\Ob}{Ob}
+\newcommand{\op}{\mathrm{op}}
+
+\title[Internal language of topoi]{Using the internal language of topoi in algebraic geometry}
+\author[Ingo Blechschmidt (Univ. Augsburg)]{Ingo Blechschmidt}
+\institute{University of Augsburg (Germany)}
+\date{June 24th, 2013}
+
+%\usetheme{Warsaw}  %Warsaw, Berkeley?
+\usetheme{Singapore}
+%\useoutertheme{split}
+%\usecolortheme{seahorse}
+\usefonttheme{serif}
+\usepackage{palatino}
+%\useinnertheme{rectangles}
+%\usepackage{bookman}
+%\setbeamercovered{transparent}
+
+\setbeamertemplate{navigation symbols}{}
+%\setbeamertemplate{footline}{}
+%\setbeamertemplate{headline}{}
+
+%\beamertemplateboldcenterframetitle
+%\setbeamerfont{frametitle}{size={\Large}}
+
+%\makeatletter
+%\setbeamertemplate{theorem begin}
+%{%
+%  \inserttheoremheadfont% \bfseries
+%  \inserttheoremname \inserttheoremnumber
+%  \ifx\inserttheoremaddition\@empty\else\ (\inserttheoremaddition)\fi%
+%  \inserttheorempunctuation
+%  \normalfont
+%}
+%\setbeamertemplate{theorem end}{%
+%  % empty
+%}
+%\makeatother
+
+\newcommand*\oldmacro{}%
+\let\oldmacro\insertshorttitle%
+\renewcommand*\insertshorttitle{%
+  \oldmacro\hfill\insertframenumber\,/\,\inserttotalframenumber\hfill}
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}}
+
+\newcommand{\slogan}[1]{%
+  \begin{center}%
+    \setlength{\fboxrule}{2pt}%
+    \setlength{\fboxsep}{-3pt}%
+    {\usebeamercolor[fg]{item}\fbox{\usebeamercolor[fg]{normal
+    text}\parbox{0.9\textwidth}{\begin{center}#1\end{center}}}}%
+  \end{center}%
+}
+
+\newcommand{\hil}[1]{{\usebeamercolor[fg]{item}{#1}}}
+
+\begin{document}
+
+\setbeameroption{show notes}
+\setbeamertemplate{note page}[plain]
+
+\frame{\titlepage}
+%\frame[t]{\frametitle{Gliederung}\begin{minipage}{\textwidth}\begin{small}\tableofcontents\end{small}\end{minipage}}
+\frame[t]{\frametitle{Outline}\tableofcontents}
+
+\section{The internal language of topoi}
+
+\frame[t]{\frametitle{What is a topos?}
+  \begin{baddefinition}A \emph{topos} is a category which has finite limits,
+  is cartesian closed and has a subobject classifier.
+  \end{baddefinition}
+
+  \begin{motto}A topos is a category sufficiently rich to support
+  an \emph{internal language}.
+  \end{motto}
+
+  \begin{examples}\vspace{-1em}\begin{itemize}
+    \item \hil{$\Set$:} \tabto{1.5cm} category of sets
+    \item \hil{$\Sh(X)$:} \tabto{1.5cm} category of set-valued sheaves on a space~$X$
+    \item \hil{$\Zar(S)$:} \tabto{1.5cm} gros Zariski topos of a base scheme~$S$
+  \end{itemize}\end{examples}
+}
+
+\frame[t]{\frametitle{The internal language}
+  
+}
+
+
+\section{The petit Zariski topos of a scheme}
+
+\frame[t]{\frametitle{The petit Zariski topos}
+  \begin{definition}The \emph{petit Zariski topos} of a scheme~$X$ is the
+  category~$\Sh(X)$ of set-valued sheaves on~$X$.\end{definition}
+
+  \begin{block}{Basic properties}
+  \vspace{-1em}
+  \begin{itemize}
+    \item The structure sheaf~$\O_X$ looks like an ordinary ring.
+    \item A sheaf of~$\O_X$-modules looks like an ordinary module on that ring.
+  \end{itemize}
+  \end{block}
+
+}
+
+\frame[t]{\frametitle{The structure sheaf, internally}
+  \begin{itemize}
+    \item Internally, $\O_X$ is a local ring: \[ \Sh(X) \models \forall x,y\?\O_X\_
+      \speak{$x+y$ inv.} \Longrightarrow
+      \speak{$x$ or $y$ inv.} \]
+
+    \item Internally, $\O_X$ is ``almost'' a field:
+    \[ \Sh(X) \models \forall x\?\O_X\_
+      \neg\speak{$x$ inv.} \Longrightarrow \speak{$x$ is nilpotent} \]
+
+    \item $X$ is reduced iff $\O_X$ is internally a reduced ring,
+    \[ \Sh(X) \models \bigwedge_{n \geq 0} \forall x\?\O_X\_ x^n = 0 \Longrightarrow
+    x = 0, \]
+    iff $\O_X$ is internally a so-called residue field,
+    \[ \Sh(X) \models \forall x\?\O_X\_
+      \neg\speak{$x$ inv.} \Longrightarrow x = 0. \]
+  \end{itemize}
+}
+
+\frame[t]{\frametitle{The sheaf of rational functions}
+  \begin{itemize}
+    \item Classically, one can define as the sheaf~$K_X$ of rational functions
+    as the sheafification of
+    \[ U \subseteq X \longmapsto \Gamma(U, \O_X)[S(U)^{-1}], \]
+    where~$S(U) = \{ s \in \O_X(U) \,|\, \text{$s \in \O_{X,x}^\times$
+    for all~$x \in U$} \}$.
+
+    \item Internally, we can simply define~$K_X$ as the total quotient ring
+    of~$\O_X$.
+  \end{itemize}
+}
+
+\frame[t]{\frametitle{Sheaves of modules, internally}
+  Let~$\F$ be a sheaf of~$\O_X$-modules.
+  \begin{itemize}
+    \item $\F$ is locally of finite type iff internally, it is finitely
+    generated:
+    \begin{multline*}
+      \Sh(X) \models \bigvee_{n\geq0} \exists x_1,\ldots,x_n\?\F\_
+      \forall x\?\F\_ \exists a_1,\ldots,a_n\?\O_X\_
+      x = \sum_i a_i x_i
+    \end{multline*}
+
+    \item $\F$ is locally of finite presentation iff internally,
+    it is finitely presented:
+    \[ \Sh(X) \models \speak{$\exists$ surjection~$\O_X^n
+    \twoheadrightarrow \F$ with f.g. kernel} \]
+
+    \item $\F$ is locally free iff internally, it is a free module:
+    \[ \Sh(X) \models \bigvee_{n\geq0} \F \cong \O_X^n \]
+  \end{itemize}
+}
+
+\frame[t]{\frametitle{Rank of a sheaf of modules}
+  Let~$\F$ be an~$\O_X$-module locally of finite type. Then we have the
+  upper-semicontinuous rank function
+  \[ \begin{array}{@{}rcl@{}}
+    X &\longrightarrow& \NN \\
+    x &\longmapsto& \text{minimal number of elements needed to generate~$\F_x$.}
+  \end{array} \]
+  Internally, this is simply the
+  \[ \text{minimal number of elements needed to generate~$\F$} \in \widehat\NN \]
+  considered as an element of the completed natural numbers.
+
+  \begin{block}{Well-known proposition}
+  If~$X$ is a reduced scheme, $\F$ is locally free iff its rank is locally
+  constant.\end{block}
+
+  \begin{block}{Internal proof}
+  
+  \end{block}
+}
+
+\end{document}
