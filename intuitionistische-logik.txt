@@ -26,6 +26,8 @@ Die Behauptung folgt, da wegen Extensionalität gilt:
 * The Age of Alternative Logics.
   Assessing Philosophy of Logic and Mathematics Today.
 
+* Von Andrej Bauer empfohlen:
+  http://www.cs.cmu.edu/~fp/courses/15317-f09/index.html
 
 === Nächste Schritte
 
