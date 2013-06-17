@@ -12,9 +12,18 @@
 
 %\usepackage{lmodern}
 \usepackage{tabto}
-%\usepackage{tikz}
 \usepackage{array}
 %\usepackage[all]{xy}
+
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\newcommand{\hcancel}[5]{%
+    \tikz[baseline=(tocancel.base)]{
+        \node[inner sep=0pt,outer sep=0pt] (tocancel) {#1};
+        \draw[red, line width=0.5mm] ($(tocancel.south west)+(#2,#3)$) -- ($(tocancel.north east)+(#4,#5)$);
+    }%
+}%
 
 \setlength\parskip{\medskipamount}
 \setlength\parindent{0pt}
@@ -67,6 +76,7 @@
 \newcommand{\?}{\,{:}\,}
 \renewcommand{\_}{\mathpunct{.}\,}
 \newcommand{\speak}[1]{\ulcorner\text{#1}\urcorner}
+\newcommand{\Ll}{:\Longleftrightarrow}
 
 \def\longleadsto{\mathrel{-}\joinrel\leadsto}
 \DeclareMathOperator{\ggT}{ggT}
@@ -163,8 +173,56 @@
   \end{itemize}\end{examples}
 }
 
+\frame[t]{\frametitle{Kripke-Joyal semantics for~$\Sh(X)$}
+  Define~$U \models \varphi$ (``$\varphi$ holds on~$U$'') recursively by:
+  \[ \renewcommand{\arraystretch}{1.3}\begin{array}{@{}lcl@{}}
+    U \models f = g \? \F &\Ll& f|_U = g|_U \in \Gamma(U, \F) \\
+    U \models \varphi \wedge \psi &\Ll&
+      \text{$U \models \varphi$ and $U \models \psi$} \\
+    U \models \varphi \vee \psi &\Ll&
+      \hcancel{\text{$U \models \varphi$ or $U \models \psi$}}{0pt}{3pt}{0pt}{-2pt} \\
+    && \text{there exists a covering $U = \bigcup_i U_i$ s.\,th. for all~$i$:} \\
+    && \quad\quad \text{$U_i \models \varphi$ or $U_i \models \psi$} \\
+    U \models \varphi \Rightarrow \psi &\Ll&
+      \text{for all open subsets~$V \subseteq U$:} \\
+    && \quad\quad \text{$V \models \varphi$ implies $V \models \psi$} \\
+    U \models \forall f \? \F\_ \varphi(f) &\Ll&
+      \text{for all sections~$f \in \Gamma(V, \F), V \subseteq U$: $V \models
+      \varphi(f)$} \\
+    U \models \exists f \? \F\_ \varphi(f) &\Ll&
+      \text{there exists a covering $U = \bigcup_i U_i$ s.th. for all~$i$:} \\
+    && \quad\quad \text{there exists a section~$f_i \in \Gamma(U_i, \F)$ s.\,th.
+    $U_i \models \varphi(f_i)$}
+  \end{array} \]
+}
+
 \frame[t]{\frametitle{The internal language}
-  
+  Let~$X$ be a topological space. Then we can recursively define
+  \[ U \models \varphi \quad \text{(``$\varphi$ holds on~$U$'')} \]
+  for open subsets~$U \subseteq X$ and formulas~$\varphi$.
+
+  \begin{block}{Crucial properties}
+  \vspace{-1em}
+  \begin{itemize}
+    \item \hil{Locality:} \tabto{1.9cm} If~$U = \bigcup_i U_i$, then
+      $U \models \varphi$ iff $U_i \models
+      \varphi$ for each~$i$.
+    \item \hil{Soundness:} \tabto{1.9cm} If~$U \models \varphi$ and $\varphi \vdash \psi$
+    intuitionistically, then~$U \models \psi$.
+  \end{itemize}
+  \end{block}
+
+  \begin{block}{Examples}
+  \vspace{-1em}
+  \begin{itemize}
+    \item $U \models f = g$
+      \tabto{3cm} iff $f|_U = g|_U \in \Gamma(U, \F)$.
+    \item $U \models f = 0 \vee g = 0$
+      \tabto{3cm} iff on a cover~$U = \bigcup_i U_i$,\ \ $f|_{U_i} = 0$ or~$g|_{U_i} = 0$.
+    \item $U \models \neg\neg(f = 0)$
+      \tabto{3cm} iff~$f = 0$ holds on a dense open subset.
+  \end{itemize}
+  \end{block}
 }
 
 
