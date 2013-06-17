@@ -84,7 +84,7 @@
 %\usecolortheme{seahorse}
 \usefonttheme{serif}
 \usepackage{palatino}
-%\useinnertheme{rectangles}
+\useinnertheme{rectangles}
 %\usepackage{bookman}
 %\setbeamercovered{transparent}
 
@@ -204,16 +204,17 @@
 }
 
 \frame[t]{\frametitle{The sheaf of rational functions}
-  \begin{itemize}
-    \item Classically, one can define as the sheaf~$K_X$ of rational functions
-    as the sheafification of
-    \[ U \subseteq X \longmapsto \Gamma(U, \O_X)[S(U)^{-1}], \]
-    where~$S(U) = \{ s \in \O_X(U) \,|\, \text{$s \in \O_{X,x}^\times$
-    for all~$x \in U$} \}$.
+  \begin{block}{Classical definition}
+  The sheaf~$K_X$ of \emph{rational functions} on a scheme~$X$ is the
+  sheafification of
+  \[ U \subseteq X \longmapsto \Gamma(U, \O_X)[S(U)^{-1}], \]
+  where~$S(U) = \{ s \in \Gamma(U, \O_X) \,|\, \text{$s \in \O_{X,x}^\times$
+  for all~$x \in U$} \}$.
+  \end{block}
 
-    \item Internally, we can simply define~$K_X$ as the total quotient ring
-    of~$\O_X$.
-  \end{itemize}
+  \begin{block}{Internal definition}
+  $K_X$ is the total quotient ring of~$\O_X$.
+  \end{block}
 }
 
 \frame[t]{\frametitle{Sheaves of modules, internally}
@@ -238,23 +239,33 @@
 }
 
 \frame[t]{\frametitle{Rank of a sheaf of modules}
-  Let~$\F$ be an~$\O_X$-module locally of finite type. Then we have the
-  upper-semicontinuous rank function
+  Let~$\F$ be an~$\O_X$-module locally of finite type.
+  
+  \begin{columns}[t]
+  \begin{column}{0.5\textwidth}
+  \begin{block}{Classical definition}
+  The \emph{rank function} of~$\F$ is given by
   \[ \begin{array}{@{}rcl@{}}
     X &\longrightarrow& \NN \\
-    x &\longmapsto& \text{minimal number of elements needed to generate~$\F_x$.}
+    x &\longmapsto& \dim_{k(x)} \F_x / \mathfrak{m}_x \F_x.
   \end{array} \]
-  Internally, this is simply the
-  \[ \text{minimal number of elements needed to generate~$\F$} \in \widehat\NN \]
-  considered as an element of the completed natural numbers.
+  \end{block}
+  \end{column}
+  \begin{column}{0.5\textwidth}
+  \begin{block}{Internal definition}
+  The \emph{rank} of~$\F$ is the
+  minimal number of generators of~$\F$,
+  considered as an element of the \hil{completed natural numbers}.
+  \end{block}
+  \end{column}
+  \end{columns}
 
   \begin{block}{Well-known proposition}
-  If~$X$ is a reduced scheme, $\F$ is locally free iff its rank is locally
-  constant.\end{block}
-
-  \begin{block}{Internal proof}
-  
-  \end{block}
+  Assume~$X$ to be reduced. Then:
+  \begin{itemize}
+  \item $\F$ is locally free iff its rank is locally constant.
+  \item $\F$ is locally free on a dense open subset.
+  \end{itemize}\end{block}
 }
 
 \end{document}
