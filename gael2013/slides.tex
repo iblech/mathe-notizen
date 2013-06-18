@@ -17,7 +17,7 @@
 
 
 \usepackage{tikz}
-\usetikzlibrary{calc}
+\usetikzlibrary{calc,shapes.callouts,shapes.arrows}
 \newcommand{\hcancel}[5]{%
     \tikz[baseline=(tocancel.base)]{
         \node[inner sep=0pt,outer sep=0pt] (tocancel) {#1};
@@ -56,6 +56,7 @@
 \newcommand{\thlra}{\relbar\joinrel\twoheadrightarrow}
 
 \newcommand{\ZZ}{\mathbb{Z}}
+\renewcommand{\AA}{\mathbb{A}}
 \renewcommand{\C}{\mathcal{C}}
 \newcommand{\D}{\mathcal{D}}
 \newcommand{\E}{\mathcal{E}}
@@ -73,10 +74,12 @@
 \newcommand{\Vect}{\mathrm{Vect}}
 \newcommand{\Sh}{\mathrm{Sh}}
 \newcommand{\Zar}{\mathrm{Zar}}
+\newcommand{\Sch}{\mathrm{Sch}}
 \newcommand{\?}{\,{:}\,}
 \renewcommand{\_}{\mathpunct{.}\,}
 \newcommand{\speak}[1]{\ulcorner\text{#1}\urcorner}
 \newcommand{\Ll}{:\Longleftrightarrow}
+\newcommand{\ul}[1]{\underline{#1}}
 
 \def\longleadsto{\mathrel{-}\joinrel\leadsto}
 \DeclareMathOperator{\ggT}{ggT}
@@ -84,9 +87,11 @@
 \newcommand{\op}{\mathrm{op}}
 
 \title[Internal language of topoi]{Using the internal language of topoi in algebraic geometry}
-\author[Ingo Blechschmidt (Univ. Augsburg)]{Ingo Blechschmidt}
-\institute{University of Augsburg (Germany)}
-\date{June 24th, 2013}
+\author[Ingo Blechschmidt (Univ. Augsburg)]{Ingo Blechschmidt \\[0.5em]
+\scriptsize
+University of Augsburg (Germany)}
+\institute{--- questions welcome at all times ---}
+\date{June 24th, 2013 \\[0.5em] Géométrie Algébrique en Liberté XXI}
 
 %\usetheme{Warsaw}  %Warsaw, Berkeley?
 \usetheme{Singapore}
@@ -135,6 +140,12 @@
   }%
   \item[]}{\end{list}}
 
+\newcommand{\pointthis}[2]{
+        \tikz[remember picture,baseline]{\node[anchor=base,inner sep=0,outer sep=0]%
+        (#1) {#1};\node[overlay,rectangle callout,%
+        callout relative pointer={(0.2cm,0.3cm)},fill=blue!20] at ($(#1.north)+(-.5cm,-0.9cm)$) {#2};}%
+        }%
+
 \newcommand{\slogan}[1]{%
   \begin{center}%
     \setlength{\fboxrule}{2pt}%
@@ -157,6 +168,7 @@
 
 \section{The internal language of topoi}
 
+\subsection{What is a topos?}
 \frame[t]{\frametitle{What is a topos?}
   \begin{baddefinition}A \emph{topos} is a category which has finite limits,
   is cartesian closed and has a subobject classifier.
@@ -172,6 +184,238 @@
     \item \hil{$\Zar(S)$:} \tabto{1.5cm} gros Zariski topos of a base scheme~$S$
   \end{itemize}\end{examples}
 }
+
+\subsection{What is the internal language?}
+\frame[t]{\frametitle{The internal language}
+  Let~$X$ be a topological space. Then we can recursively define
+  \[ U \models \varphi \quad \text{(``$\varphi$ holds on~$U$'')} \]
+  for open subsets~$U \subseteq X$ and formulas~$\varphi$.
+
+  \begin{block}{Crucial properties}
+  \vspace{-1em}
+  \begin{itemize}
+    \item \hil{Locality:} \tabto{1.9cm} If~$U = \bigcup_i U_i$, then
+      $U \models \varphi$ iff $U_i \models
+      \varphi$ for each~$i$.
+    \item \hil{Soundness:} \tabto{1.9cm} If~$U \models \varphi$ and $\varphi \vdash \psi$
+    \pointthis{intuitionistically}{
+      no $\varphi \vee \neg\varphi$,\quad
+      no $\neg\neg\varphi \Rightarrow \varphi$,\quad
+      no axiom of choice
+    }, then~$U \models \psi$.
+  \end{itemize}
+  \end{block}
+
+  \vfill
+
+  \begin{block}{Examples}
+  \vspace{-1em}
+  \begin{itemize}
+    \item $U \models f = g$
+      \tabto{3cm} iff $f|_U = g|_U \in \Gamma(U, \F)$.
+    \item $U \models f = 0 \vee g = 0$
+      \tabto{3cm} iff on a cover~$U = \bigcup_i U_i$,\ \ $f|_{U_i} = 0$ or~$g|_{U_i} = 0$.
+    \item $U \models \neg\neg(f = 0)$
+      \tabto{3cm} iff~$f = 0$ holds on a dense open subset.
+  \end{itemize}
+  \end{block}
+}
+
+
+\section{The petit Zariski topos of a scheme}
+
+\frame[t]{\frametitle{The petit Zariski topos}
+  \begin{definition}The \emph{petit Zariski topos} of a scheme~$X$ is the
+  category~$\Sh(X)$ of set-valued sheaves on~$X$.\end{definition}
+
+  \begin{block}{Basic look and feel}
+  \vspace{-0.5em}
+  \begin{itemize}
+    \item Internally, the structure sheaf~$\O_X$ looks like \[ \text{
+    an ordinary ring.} \]
+    \item Internally, a sheaf of~$\O_X$-modules looks like \[
+    \text{an ordinary module on that ring.} \]
+  \end{itemize}
+  \end{block}
+}
+
+\subsection{Sheaves of modules}
+\frame[t]{\frametitle{Sheaves of modules, internally}
+  Let~$\F$ be a sheaf of~$\O_X$-modules.
+  \begin{itemize}
+    \item $\F$ is \emph{locally of finite type} iff internally, it is finitely
+    generated:
+    \begin{multline*}
+      \Sh(X) \models \bigvee_{n\geq0} \exists x_1,\ldots,x_n\?\F\_
+      \forall x\?\F\_ \exists a_1,\ldots,a_n\?\O_X\_
+      x = \sum_i a_i x_i
+    \end{multline*}
+
+    \item $\F$ is \emph{locally of finite presentation} iff internally,
+    it is finitely presented:
+    \[ \Sh(X) \models \speak{$\exists$ surjection~$\O_X^n
+    \twoheadrightarrow \F$ with f.g. kernel} \]
+
+    \item $\F$ is \emph{locally free} iff internally, it is a free module:
+    \[ \Sh(X) \models \bigvee_{n\geq0} \F \cong \O_X^n \]
+
+    \item $\F$ is \emph{coherent} iff internally, it is\ldots
+  \end{itemize}
+}
+
+\frame[t]{\frametitle{The sheaf of rational functions}
+  \begin{block}{Classical definition}
+  The sheaf~$K_X$ of \emph{rational functions} on a scheme~$X$ is the
+  sheafification of
+  \[ U \subseteq X \longmapsto \Gamma(U, \O_X)[S(U)^{-1}], \]
+  where~$S(U) = \{ s \in \Gamma(U, \O_X) \,|\, \text{$s \in \O_{X,x}^\times$
+  for all~$x \in U$} \}$.
+  \end{block}
+
+  \begin{block}{Internal definition}
+  $K_X$ is the total quotient ring of~$\O_X$.
+  \end{block}
+}
+
+\subsection{The structure sheaf}
+\frame[t]{\frametitle{The structure sheaf, internally}
+  \begin{itemize}
+    \item Internally, $\O_X$ is a local ring: \[ \Sh(X) \models \forall x,y\?\O_X\_
+      \speak{$x+y$ inv.} \Longrightarrow
+      \speak{$x$ inv. or $y$ inv.} \]
+
+    \item In fact, $\O_X$ is ``almost'' a field:
+    \[ \Sh(X) \models \forall x\?\O_X\_
+      \neg\speak{$x$ inv.} \Longrightarrow \speak{$x$ is nilpotent} \]
+    \vfill
+
+    \item The scheme $X$ is reduced iff $\O_X$ is internally a reduced ring,
+    \[ \Sh(X) \models \bigwedge_{n \geq 0} \forall x\?\O_X\_ x^n = 0 \Longrightarrow
+    x = 0, \]
+    iff $\O_X$ is internally a so-called residue field,
+    \[ \Sh(X) \models \forall x\?\O_X\_
+      \neg\speak{$x$ inv.} \Longrightarrow x = 0. \]
+  \end{itemize}
+}
+
+\subsection{On the rank of sheaves of modules}
+\frame[t]{\frametitle{Rank of a sheaf of modules}
+  \hspace{-1em}Let~$\F$ be an~$\O_X$-module locally of finite type.
+  
+  \begin{columns}[t,onlytextwidth]
+    \hspace{-1em}
+    \begin{column}{0.5\textwidth}
+      \begin{block}{Classical definition}
+        \ \\[-0.5em]
+        The \emph{rank function} of~$\F$ is
+        \[ \begin{array}{@{}rcl@{}}
+          X &\longrightarrow& \NN \\
+          x &\longmapsto& \dim_{k(x)} \F_x / \mathfrak{m}_x \F_x.
+        \end{array} \]
+      \end{block}
+    \end{column}
+    \hspace{2em}
+    \begin{column}{0.5\textwidth}
+      \begin{block}{Internal definition}
+        \ \\[-0.5em]
+        The \emph{rank} of~$\F$ is the
+        minimal number of generators of~$\F$,
+        considered as an element of the \hil{completed natural numbers}.
+      \end{block}
+    \end{column}
+  \end{columns}
+
+  \vfill
+
+  \begin{columns}[t,onlytextwidth]
+    \hspace{-1em}
+    \begin{column}{0.5\textwidth}
+      \begin{block}{Well-known proposition}
+        \ \\[-0.5em]
+        Assume~$X$ to be reduced. Then:
+        \begin{itemize}
+        \item $\F$ is locally free iff its rank is locally constant.
+        \item $\F$ is locally free on a dense open subset.
+        \end{itemize}
+      \end{block}
+    \end{column}
+    \hspace{2em}
+    \begin{column}{0.5\textwidth}
+      \begin{block}{Constructive linear algebra}
+        \ \\[-0.5em]
+        Let~$M$ be a f.\,g. module over a residue field. Then:
+        \begin{itemize}
+          \item $M$ is free iff its rank is an ordinary natural number.
+          \item $M$ is always not not free.
+        \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+}
+
+
+\section{The gros Zariski topos of a scheme}
+\frame[t]{\frametitle{The gros Zariski topos}
+  \begin{definition}The \emph{gros Zariski topos}~$\Zar(S)$ of a scheme~$S$ is the
+  category of sheaves~$(\Sch/S)^\mathrm{op} \to \Set$ defined on the Grothendieck
+  situs~$\Sch/S$ of schemes over~$S$.\end{definition}
+
+  \begin{block}{Basic look and feel}
+  \vspace{-0.5em}
+  \begin{itemize}
+    \item For each~$S$-scheme~$X$, its functor of points~$\ul{X}$ is an object
+    of~$\Zar(S)$. It feels like
+    \[ \text{the set of points of~$X$}. \]
+    \item Internally, $\ul{\AA^1_S}$ (affine line), given by
+    \[ \ul{\AA^1_S} : X \longmapsto \Gamma(X, \O_X), \]
+    looks like a field: $\Zar(S) \models \forall x\?\ul{\AA^1_S}\_ x \neq 0
+    \Longrightarrow \speak{$x$ inv.}$
+  \end{itemize}
+  \end{block}
+}
+
+
+\frame[t]{\frametitle{Conclusion}
+  \begin{center}
+    \hil{\large Ordinary mathematics is\ldots}
+  \end{center}
+  \begin{columns}[onlytextwidth]
+    \begin{column}{0.5\textwidth}
+      formal manipulation of symbols
+    \end{column}
+    vs.
+    \hspace{0.5em}
+    \begin{column}{0.5\textwidth}
+      discovering exciting relationships
+    \end{column}
+  \end{columns}
+
+  \begin{center}
+    \hil{\large Mathematics internal to a topos is\ldots}
+  \end{center}
+  \begin{columns}[onlytextwidth]
+    \begin{column}{0.5\textwidth}
+      a technical device for simplifying boring proofs
+    \end{column}
+    vs.
+    \hspace{0.5em}
+    \begin{column}{0.5\textwidth}
+      exploring exciting alternative universes
+      and their curious objects
+    \end{column}
+  \end{columns}
+
+  \vfill
+  \begin{block}{Related work (Wort?)}
+    \begin{itemize}
+      \item Synthetic differential geometry: Kock, Moerdijk, \ldots
+      \item Constructive mathematics
+      \item Homotopy type theorie: Voevodsky, \ldots
+    \end{itemize}
+  \end{block}
+}
+
+\appendix
 
 \frame[t]{\frametitle{Kripke-Joyal semantics for~$\Sh(X)$}
   Define~$U \models \varphi$ (``$\varphi$ holds on~$U$'') recursively by:
@@ -194,136 +438,6 @@
     && \quad\quad \text{there exists a section~$f_i \in \Gamma(U_i, \F)$ s.\,th.
     $U_i \models \varphi(f_i)$}
   \end{array} \]
-}
-
-\frame[t]{\frametitle{The internal language}
-  Let~$X$ be a topological space. Then we can recursively define
-  \[ U \models \varphi \quad \text{(``$\varphi$ holds on~$U$'')} \]
-  for open subsets~$U \subseteq X$ and formulas~$\varphi$.
-
-  \begin{block}{Crucial properties}
-  \vspace{-1em}
-  \begin{itemize}
-    \item \hil{Locality:} \tabto{1.9cm} If~$U = \bigcup_i U_i$, then
-      $U \models \varphi$ iff $U_i \models
-      \varphi$ for each~$i$.
-    \item \hil{Soundness:} \tabto{1.9cm} If~$U \models \varphi$ and $\varphi \vdash \psi$
-    intuitionistically, then~$U \models \psi$.
-  \end{itemize}
-  \end{block}
-
-  \begin{block}{Examples}
-  \vspace{-1em}
-  \begin{itemize}
-    \item $U \models f = g$
-      \tabto{3cm} iff $f|_U = g|_U \in \Gamma(U, \F)$.
-    \item $U \models f = 0 \vee g = 0$
-      \tabto{3cm} iff on a cover~$U = \bigcup_i U_i$,\ \ $f|_{U_i} = 0$ or~$g|_{U_i} = 0$.
-    \item $U \models \neg\neg(f = 0)$
-      \tabto{3cm} iff~$f = 0$ holds on a dense open subset.
-  \end{itemize}
-  \end{block}
-}
-
-
-\section{The petit Zariski topos of a scheme}
-
-\frame[t]{\frametitle{The petit Zariski topos}
-  \begin{definition}The \emph{petit Zariski topos} of a scheme~$X$ is the
-  category~$\Sh(X)$ of set-valued sheaves on~$X$.\end{definition}
-
-  \begin{block}{Basic properties}
-  \vspace{-1em}
-  \begin{itemize}
-    \item The structure sheaf~$\O_X$ looks like an ordinary ring.
-    \item A sheaf of~$\O_X$-modules looks like an ordinary module on that ring.
-  \end{itemize}
-  \end{block}
-
-}
-
-\frame[t]{\frametitle{The structure sheaf, internally}
-  \begin{itemize}
-    \item Internally, $\O_X$ is a local ring: \[ \Sh(X) \models \forall x,y\?\O_X\_
-      \speak{$x+y$ inv.} \Longrightarrow
-      \speak{$x$ or $y$ inv.} \]
-
-    \item Internally, $\O_X$ is ``almost'' a field:
-    \[ \Sh(X) \models \forall x\?\O_X\_
-      \neg\speak{$x$ inv.} \Longrightarrow \speak{$x$ is nilpotent} \]
-
-    \item $X$ is reduced iff $\O_X$ is internally a reduced ring,
-    \[ \Sh(X) \models \bigwedge_{n \geq 0} \forall x\?\O_X\_ x^n = 0 \Longrightarrow
-    x = 0, \]
-    iff $\O_X$ is internally a so-called residue field,
-    \[ \Sh(X) \models \forall x\?\O_X\_
-      \neg\speak{$x$ inv.} \Longrightarrow x = 0. \]
-  \end{itemize}
-}
-
-\frame[t]{\frametitle{The sheaf of rational functions}
-  \begin{block}{Classical definition}
-  The sheaf~$K_X$ of \emph{rational functions} on a scheme~$X$ is the
-  sheafification of
-  \[ U \subseteq X \longmapsto \Gamma(U, \O_X)[S(U)^{-1}], \]
-  where~$S(U) = \{ s \in \Gamma(U, \O_X) \,|\, \text{$s \in \O_{X,x}^\times$
-  for all~$x \in U$} \}$.
-  \end{block}
-
-  \begin{block}{Internal definition}
-  $K_X$ is the total quotient ring of~$\O_X$.
-  \end{block}
-}
-
-\frame[t]{\frametitle{Sheaves of modules, internally}
-  Let~$\F$ be a sheaf of~$\O_X$-modules.
-  \begin{itemize}
-    \item $\F$ is \emph{locally of finite type} iff internally, it is finitely
-    generated:
-    \begin{multline*}
-      \Sh(X) \models \bigvee_{n\geq0} \exists x_1,\ldots,x_n\?\F\_
-      \forall x\?\F\_ \exists a_1,\ldots,a_n\?\O_X\_
-      x = \sum_i a_i x_i
-    \end{multline*}
-
-    \item $\F$ is \emph{locally of finite presentation} iff internally,
-    it is finitely presented:
-    \[ \Sh(X) \models \speak{$\exists$ surjection~$\O_X^n
-    \twoheadrightarrow \F$ with f.g. kernel} \]
-
-    \item $\F$ is \emph{locally free} iff internally, it is a free module:
-    \[ \Sh(X) \models \bigvee_{n\geq0} \F \cong \O_X^n \]
-  \end{itemize}
-}
-
-\frame[t]{\frametitle{Rank of a sheaf of modules}
-  Let~$\F$ be an~$\O_X$-module locally of finite type.
-  
-  \begin{columns}[t]
-  \begin{column}{0.5\textwidth}
-  \begin{block}{Classical definition}
-  The \emph{rank function} of~$\F$ is given by
-  \[ \begin{array}{@{}rcl@{}}
-    X &\longrightarrow& \NN \\
-    x &\longmapsto& \dim_{k(x)} \F_x / \mathfrak{m}_x \F_x.
-  \end{array} \]
-  \end{block}
-  \end{column}
-  \begin{column}{0.5\textwidth}
-  \begin{block}{Internal definition}
-  The \emph{rank} of~$\F$ is the
-  minimal number of generators of~$\F$,
-  considered as an element of the \hil{completed natural numbers}.
-  \end{block}
-  \end{column}
-  \end{columns}
-
-  \begin{block}{Well-known proposition}
-  Assume~$X$ to be reduced. Then:
-  \begin{itemize}
-  \item $\F$ is locally free iff its rank is locally constant.
-  \item $\F$ is locally free on a dense open subset.
-  \end{itemize}\end{block}
 }
 
 \end{document}
