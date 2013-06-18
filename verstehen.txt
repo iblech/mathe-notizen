@@ -25,6 +25,8 @@ Unsortierte Fragen:
   Lieblingspaper von Eric Forgy (?)
 * http://ncatlab.org/schreiber/show/master+thesis+Stel
 * two approaches to modeling the universe: sdg and framed sets
+* nicht-nicht-Übersetzung
+* Vortragsidee: Topologie ohne Punkte; HoTT
 
 Lesen:
 * Ploogs Dissertation

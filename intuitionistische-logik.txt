@@ -21,6 +21,18 @@ Die Behauptung folgt, da wegen Extensionalität gilt:
     phi <==> A = B <==> s(A) = s(B).
 
 
+=== Minima von Mengen natürlicher Zahlen
+
+Behauptung: Für alle m >= 0 und alle aufwärts-abgeschlossenen Teilmengen U von
+N, die m enthalten gilt: Nicht nicht besitzt U ein Minimum.
+
+Beweis durch Induktion: Induktionsanfang m = 0 klar. Jetzt der Schritt m --> m + 1.
+Kann zeigen: Falls m in U, dann enthält U ein Minimum nach
+Induktionsvoraussetzung. Falls m nicht in U, dann ist m + 1 das Minimum: Sei u
+in U beliebig. Dann u >= m + 1 oder u <= m. Letzteres kann nicht sein.
+Da nicht nicht (m in U oder m nicht in U), folgt die Behauptung!
+
+
 === Literatur
 
 * The Age of Alternative Logics.

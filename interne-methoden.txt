@@ -23,6 +23,10 @@
   Teilmenge von X dicht, wenn für jede Aussage phi gilt:
       nicht (Sh(X) |== nicht phi)   ==>   Sh(X) |== nicht nicht phi.
 
+* X reduziertes Schema, F Modul von endlichem Typ.
+  Dann gilt: Sh(X) |== F ist nicht nicht frei (von endlichem Rang),
+  also ist F lokal frei auf einer dichten Teilmenge!
+
 
 === Rationale Funktionen
 
