@@ -28,33 +28,6 @@
 \setlength\parskip{\medskipamount}
 \setlength\parindent{0pt}
 
-%\theoremseparator{:}
-\theoremstyle{plain}  %nonumberplain
-%\newtheorem{beh}{Behauptung}
-\newtheorem{proposition}{Proposition}
-\newtheorem{corollary}{Korollar}
-\newtheorem{theorem}{Satz}
-\theoremstyle{definition}
-\newtheorem{definition}{Definition}
-\newtheorem{baddefinition}{Misleading definition}
-\newtheorem{motto}{Motto}
-%\newtheorem{kor}{Korollar}
-%\newtheorem{satz}{Satz}
-%\newtheorem{lemma}{Lemma}
-%\newtheorem{hilfsaussage}{Hilfsaussage}
-%\theorembodyfont{\normalfont}
-\newtheorem{axiom}{Axiom}
-%\newtheorem{defnprop}{Definition/Proposition}
-%\newtheorem{bem}{Bemerkung}
-\newtheorem{examples}{Examples}
-%\theoremsymbol{\ensuremath{\openbox}}
-%\newtheorem{proof}{Beweis}
-%\newtheorem{defn}{Definition}
-
-\newcommand{\lra}{\longrightarrow}
-\newcommand{\lhra}{\ensuremath{\lhook\joinrel\relbar\joinrel\rightarrow}}
-\newcommand{\thlra}{\relbar\joinrel\twoheadrightarrow}
-
 \newcommand{\ZZ}{\mathbb{Z}}
 \renewcommand{\AA}{\mathbb{A}}
 \renewcommand{\C}{\mathcal{C}}
@@ -83,16 +56,15 @@
 \newcommand{\ul}[1]{\underline{#1}}
 \newcommand{\affl}{\ensuremath{{\ul{\AA}^1_S}}}
 
-\def\longleadsto{\mathrel{-}\joinrel\leadsto}
-\DeclareMathOperator{\ggT}{ggT}
-\DeclareMathOperator{\Ob}{Ob}
+\newcommand{\lra}{\longrightarrow}
+
 \newcommand{\op}{\mathrm{op}}
 
-\title[Internal language of topoi]{Using the internal language of topoi in algebraic geometry}
+\title[Using the internal language of topoi in algebraic geometry]{Using the internal language of topoi in algebraic geometry}
 \author[Ingo Blechschmidt (Univ. Augsburg)]{Ingo Blechschmidt \\[0.5em]
 \scriptsize
 University of Augsburg (Germany)}
-\institute{--- questions welcome at all times ---}
+%\institute{--- questions welcome at all times ---}
 \date{June 24th, 2013 \\[0.5em] Géométrie Algébrique en Liberté XXI}
 
 \usetheme{Singapore}
@@ -105,6 +77,18 @@ University of Augsburg (Germany)}
 
 \setbeameroption{show notes}
 \setbeamertemplate{note page}[plain]
+
+\defbeamertemplate*{footline}{split theme}
+{%
+  \leavevmode%
+  \hbox{\begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm plus1fill,rightskip=.3cm]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
 
 \newcommand*\oldmacro{}%
 \let\oldmacro\insertshorttitle%
@@ -152,22 +136,25 @@ University of Augsburg (Germany)}
 
 \subsection{What is a topos?}
 \frame[t]{\frametitle{What is a topos?}
-  \begin{baddefinition}A \hil{topos} is a category which has finite limits,
+  \begin{block}{Formal definition}A \hil{topos} is a category which has finite limits,
   is cartesian closed and has a subobject classifier.
-  \end{baddefinition}
+  \end{block}
 
-  \begin{motto}A topos is a category sufficiently rich to support
-  an \emph{internal language}.
-  \end{motto}
+  \begin{block}{Motto}A topos is a category sufficiently rich to support
+  an \hil{internal language}.
+  \end{block}
 
-  \begin{examples}\vspace{-0.5em}\begin{itemize}
+  \begin{block}{Examples}\vspace{-0.5em}\begin{itemize}
     \item \hil{$\Set$:} \tabto{1.5cm} category of sets
     \item \hil{$\Sh(X)$:} \tabto{1.5cm} category of set-valued sheaves on a space~$X$
     \item \hil{$\Zar(S)$:} \tabto{1.5cm} gros Zariski topos of a base scheme~$S$
-  \end{itemize}\end{examples}
+  \end{itemize}\end{block}
 }
 
 \subsection{What is the internal language?}
+\frame[t]{\frametitle{What is the internal language?}
+}
+
 \frame[t]{\frametitle{The internal language of~$\Sh(X)$}
   Let~$X$ be a topological space. Then we can recursively define
   \[ U \models \varphi \quad \text{(``$\varphi$ holds on~$U$'')} \]
@@ -180,7 +167,7 @@ University of Augsburg (Germany)}
       $U \models \varphi$ iff $U_i \models
       \varphi$ for each~$i$.
     \item \hil{Soundness:} \tabto{1.9cm} If~$U \models \varphi$ and $\varphi \vdash \psi$
-    \pointthis{intuitionistically}{
+    \pointthis{constructively}{
       no $\varphi \vee \neg\varphi$,\quad
       no $\neg\neg\varphi \Rightarrow \varphi$,\quad
       no axiom of choice
@@ -207,8 +194,8 @@ University of Augsburg (Germany)}
 \section{The petit Zariski topos of a scheme}
 
 \frame[t]{\frametitle{The petit Zariski topos}
-  \begin{definition}The \hil{petit Zariski topos} of a scheme~$X$ is the
-  category~$\Sh(X)$ of set-valued sheaves on~$X$.\end{definition}
+  \begin{block}{Definition}The \hil{petit Zariski topos} of a scheme~$X$ is the
+  category~$\Sh(X)$ of set-valued sheaves on~$X$.\end{block}
 
   \begin{block}{Basic look and feel}
   \vspace{-0.5em}
@@ -233,16 +220,46 @@ University of Augsburg (Germany)}
       x = \sum_i a_i x_i
     \end{multline*}
 
-    \item $\F$ is \hil{locally of finite presentation} iff internally,
-    it is finitely presented:
-    \[ \Sh(X) \models \speak{$\exists$ surjection~$\O_X^n
-    \twoheadrightarrow \F$ with f.\,g. kernel} \]
+%    \item $\F$ is \hil{locally of finite presentation} iff internally,
+%    it is finitely presented:
+%    \[ \Sh(X) \models \speak{$\exists$ surjection~$\O_X^n
+%    \twoheadrightarrow \F$ with f.\,g. kernel} \]
 
     \item $\F$ is \hil{locally finitely free} iff internally, it is a finitely free module:
     \[ \Sh(X) \models \bigvee_{n\geq0} \F \cong \O_X^n \]
 
-    \item $\F$ is \hil{coherent} iff internally, it is\ldots
+%    \item $\F$ is \hil{coherent} iff internally, it is\ldots
+
+    \item Similarly for finite presentation, coherence, flatness, \ldots
   \end{itemize}
+
+  \vfill
+  \hil{Motto:} We can understand notions of algebraic geometry as notions of
+  linear algebra internal to~$\Sh(X)$.
+}
+
+\frame[t]{\frametitle{Proving in the internal universe}
+  \begin{block}{Well-known proposition}
+    Let $0 \lra \F' \lra \F \lra \F'' \lra 0$ be a short exact sequence
+    of~$\O_X$-modules. If~$\F'$ and~$\F''$ are locally of finite type, so
+    is~$\F$.
+  \end{block}
+
+  \begin{block}{Proof}
+    \begin{enumerate}
+      \item From the internal point of view, the short exact sequence
+      is a sequence of ordinary modules with~$\F'$ and~$\F''$ being finitely
+      generated.
+
+      \item So~$\F$ is finitely generated too, by standard constructive linear algebra
+      -- interpreted internal to~$\Sh(X)$.
+
+      \item Externally, this means that~$\F$ is locally of finite type.
+    \end{enumerate}
+  \end{block}
+
+  \hil{Motto:} We can understand basic statements of algebraic geometry as
+  statements of linear algebra internal to~$\Sh(X)$.
 }
 
 \frame[t]{\frametitle{The sheaf of rational functions}
@@ -274,7 +291,7 @@ University of Augsburg (Germany)}
     \item The scheme $X$ is reduced iff $\O_X$ is internally a reduced ring,
     \[ \Sh(X) \models \bigwedge_{n \geq 0} \forall x\?\O_X\_ x^n = 0 \Longrightarrow
     x = 0, \]
-    iff $\O_X$ is internally a so-called residue field,
+    iff $\O_X$ fulfills the field condition
     \[ \Sh(X) \models \forall x\?\O_X\_
       \neg\,\speak{$x$ inv.} \Longrightarrow x = 0. \]
   \end{itemize}
@@ -314,7 +331,7 @@ University of Augsburg (Germany)}
     \begin{column}{0.5\textwidth}
       \begin{block}{Well-known proposition}
         \ \\[-0.5em]
-        Assume~$X$ to be reduced. Then:
+        Assume~$X$ to be reduced. \\ Then:
         \begin{itemize}
         \item $\F$ is locally free iff its rank is locally constant.
         \item $\F$ is locally free on a dense open subset.
@@ -333,16 +350,38 @@ University of Augsburg (Germany)}
       \end{block}
     \end{column}
   \end{columns}
+
+  \note{
+    \begin{block}{Proposition}
+      If every inhabited subset of the natural numbers has a minimum, then the
+      law of excluded middle holds.
+    \end{block}
+
+    \begin{block}{Proof}
+      Let~$\varphi$ be an arbitrary formula. Define the subset
+      \[ U := \{ n \in \NN \,|\, n = 1 \vee \varphi \} \subseteq \NN, \]
+      which surely is inhabited by~$1 \in U$. So by assumption, there exists a
+      number~$z \in \NN$ which is the minimum of~$U$. We have
+      \[ z = 0 \quad\vee\quad z > 0 \]
+      (this is not clear, but can be proven by induction).
+
+      If~$z = 0$, we have~$0 \in U$, so~$0 = 1 \vee \varphi$, so~$\varphi$
+      holds.
+
+      If~$z > 0$, then~$\neg\varphi$ holds: Because if~$\varphi$ were
+      true, zero would be an element of~$U$, contradicting the minimality of~$z$.
+    \end{block}
+  }
 }
 
 
 \section{The gros Zariski topos of a scheme}
 \frame[t]{\frametitle{The gros Zariski topos}
-  \begin{definition}The \hil{gros Zariski topos $\Zar(S)$} of a scheme~$S$ is the
+  \begin{block}{Definition}The \hil{gros Zariski topos $\Zar(S)$} of a scheme~$S$ is the
   category $\Sh(\Sch/S)$,
   i.\,e. consists of certain functors
   \[ (\Sch/S)^\op \longrightarrow \Set. \]
-  \end{definition}
+  \end{block}
 
   \vspace{-1em}
   \begin{block}{Basic look and feel}
@@ -383,7 +422,7 @@ University of Augsburg (Germany)}
 \section*{Conclusion}
 \frame[t]{\frametitle{Conclusion}
   \begin{center}
-    \hil{\large Ordinary mathematics is\ldots}
+    \hil{\large Usual mathematics is\ldots}
   \end{center}
   \begin{columns}[onlytextwidth]
     \begin{column}{0.5\textwidth}
