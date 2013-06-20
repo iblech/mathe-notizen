@@ -64,10 +64,11 @@
 \renewcommand{\O}{\mathcal{O}}
 \newcommand{\NN}{\mathbb{N}}
 \newcommand{\RR}{\mathbb{R}}
+\newcommand{\GG}{\mathbb{G}}
 \newcommand{\Hom}{\mathrm{Hom}}
 \newcommand{\id}{\mathrm{id}}
 \newcommand{\Aut}[1]{\operatorname{Aut}(#1)}
-\newcommand{\GL}[1]{\operatorname{GL}(#1)}
+\newcommand{\GL}{\mathrm{GL}}
 \newcommand{\freist}{\_{}\_{}}
 \newcommand{\Set}{\mathrm{Set}}
 \newcommand{\Grp}{\mathrm{Grp}}
@@ -80,6 +81,7 @@
 \newcommand{\speak}[1]{\ulcorner\text{#1}\urcorner}
 \newcommand{\Ll}{:\Longleftrightarrow}
 \newcommand{\ul}[1]{\underline{#1}}
+\newcommand{\affl}{\ensuremath{{\ul{\AA}^1_S}}}
 
 \def\longleadsto{\mathrel{-}\joinrel\leadsto}
 \DeclareMathOperator{\ggT}{ggT}
@@ -93,36 +95,16 @@ University of Augsburg (Germany)}
 \institute{--- questions welcome at all times ---}
 \date{June 24th, 2013 \\[0.5em] Géométrie Algébrique en Liberté XXI}
 
-%\usetheme{Warsaw}  %Warsaw, Berkeley?
 \usetheme{Singapore}
 %\useoutertheme{split}
-%\usecolortheme{seahorse}
 \usefonttheme{serif}
 \usepackage{palatino}
 \useinnertheme{rectangles}
-%\usepackage{bookman}
-%\setbeamercovered{transparent}
 
 \setbeamertemplate{navigation symbols}{}
-%\setbeamertemplate{footline}{}
-%\setbeamertemplate{headline}{}
 
-%\beamertemplateboldcenterframetitle
-%\setbeamerfont{frametitle}{size={\Large}}
-
-%\makeatletter
-%\setbeamertemplate{theorem begin}
-%{%
-%  \inserttheoremheadfont% \bfseries
-%  \inserttheoremname \inserttheoremnumber
-%  \ifx\inserttheoremaddition\@empty\else\ (\inserttheoremaddition)\fi%
-%  \inserttheorempunctuation
-%  \normalfont
-%}
-%\setbeamertemplate{theorem end}{%
-%  % empty
-%}
-%\makeatother
+\setbeameroption{show notes}
+\setbeamertemplate{note page}[plain]
 
 \newcommand*\oldmacro{}%
 \let\oldmacro\insertshorttitle%
@@ -170,7 +152,7 @@ University of Augsburg (Germany)}
 
 \subsection{What is a topos?}
 \frame[t]{\frametitle{What is a topos?}
-  \begin{baddefinition}A \emph{topos} is a category which has finite limits,
+  \begin{baddefinition}A \hil{topos} is a category which has finite limits,
   is cartesian closed and has a subobject classifier.
   \end{baddefinition}
 
@@ -178,7 +160,7 @@ University of Augsburg (Germany)}
   an \emph{internal language}.
   \end{motto}
 
-  \begin{examples}\vspace{-1em}\begin{itemize}
+  \begin{examples}\vspace{-0.5em}\begin{itemize}
     \item \hil{$\Set$:} \tabto{1.5cm} category of sets
     \item \hil{$\Sh(X)$:} \tabto{1.5cm} category of set-valued sheaves on a space~$X$
     \item \hil{$\Zar(S)$:} \tabto{1.5cm} gros Zariski topos of a base scheme~$S$
@@ -186,7 +168,7 @@ University of Augsburg (Germany)}
 }
 
 \subsection{What is the internal language?}
-\frame[t]{\frametitle{The internal language}
+\frame[t]{\frametitle{The internal language of~$\Sh(X)$}
   Let~$X$ be a topological space. Then we can recursively define
   \[ U \models \varphi \quad \text{(``$\varphi$ holds on~$U$'')} \]
   for open subsets~$U \subseteq X$ and formulas~$\varphi$.
@@ -225,7 +207,7 @@ University of Augsburg (Germany)}
 \section{The petit Zariski topos of a scheme}
 
 \frame[t]{\frametitle{The petit Zariski topos}
-  \begin{definition}The \emph{petit Zariski topos} of a scheme~$X$ is the
+  \begin{definition}The \hil{petit Zariski topos} of a scheme~$X$ is the
   category~$\Sh(X)$ of set-valued sheaves on~$X$.\end{definition}
 
   \begin{block}{Basic look and feel}
@@ -243,7 +225,7 @@ University of Augsburg (Germany)}
 \frame[t]{\frametitle{Sheaves of modules, internally}
   Let~$\F$ be a sheaf of~$\O_X$-modules.
   \begin{itemize}
-    \item $\F$ is \emph{locally of finite type} iff internally, it is finitely
+    \item $\F$ is \hil{locally of finite type} iff internally, it is finitely
     generated:
     \begin{multline*}
       \Sh(X) \models \bigvee_{n\geq0} \exists x_1,\ldots,x_n\?\F\_
@@ -251,21 +233,21 @@ University of Augsburg (Germany)}
       x = \sum_i a_i x_i
     \end{multline*}
 
-    \item $\F$ is \emph{locally of finite presentation} iff internally,
+    \item $\F$ is \hil{locally of finite presentation} iff internally,
     it is finitely presented:
     \[ \Sh(X) \models \speak{$\exists$ surjection~$\O_X^n
-    \twoheadrightarrow \F$ with f.g. kernel} \]
+    \twoheadrightarrow \F$ with f.\,g. kernel} \]
 
-    \item $\F$ is \emph{locally free} iff internally, it is a free module:
+    \item $\F$ is \hil{locally finitely free} iff internally, it is a finitely free module:
     \[ \Sh(X) \models \bigvee_{n\geq0} \F \cong \O_X^n \]
 
-    \item $\F$ is \emph{coherent} iff internally, it is\ldots
+    \item $\F$ is \hil{coherent} iff internally, it is\ldots
   \end{itemize}
 }
 
 \frame[t]{\frametitle{The sheaf of rational functions}
   \begin{block}{Classical definition}
-  The sheaf~$K_X$ of \emph{rational functions} on a scheme~$X$ is the
+  The sheaf~$K_X$ of \hil{rational functions} on a scheme~$X$ is the
   sheafification of
   \[ U \subseteq X \longmapsto \Gamma(U, \O_X)[S(U)^{-1}], \]
   where~$S(U) = \{ s \in \Gamma(U, \O_X) \,|\, \text{$s \in \O_{X,x}^\times$
@@ -286,7 +268,7 @@ University of Augsburg (Germany)}
 
     \item In fact, $\O_X$ is ``almost'' a field:
     \[ \Sh(X) \models \forall x\?\O_X\_
-      \neg\speak{$x$ inv.} \Longrightarrow \speak{$x$ is nilpotent} \]
+      \neg\,\speak{$x$ inv.} \Longrightarrow \speak{$x$ is nilpotent} \]
     \vfill
 
     \item The scheme $X$ is reduced iff $\O_X$ is internally a reduced ring,
@@ -294,7 +276,7 @@ University of Augsburg (Germany)}
     x = 0, \]
     iff $\O_X$ is internally a so-called residue field,
     \[ \Sh(X) \models \forall x\?\O_X\_
-      \neg\speak{$x$ inv.} \Longrightarrow x = 0. \]
+      \neg\,\speak{$x$ inv.} \Longrightarrow x = 0. \]
   \end{itemize}
 }
 
@@ -307,7 +289,7 @@ University of Augsburg (Germany)}
     \begin{column}{0.5\textwidth}
       \begin{block}{Classical definition}
         \ \\[-0.5em]
-        The \emph{rank function} of~$\F$ is
+        The \hil{rank function} of~$\F$ is
         \[ \begin{array}{@{}rcl@{}}
           X &\longrightarrow& \NN \\
           x &\longmapsto& \dim_{k(x)} \F_x / \mathfrak{m}_x \F_x.
@@ -318,7 +300,7 @@ University of Augsburg (Germany)}
     \begin{column}{0.5\textwidth}
       \begin{block}{Internal definition}
         \ \\[-0.5em]
-        The \emph{rank} of~$\F$ is the
+        The \hil{rank} of~$\F$ is the
         minimal number of generators of~$\F$,
         considered as an element of the \hil{completed natural numbers}.
       \end{block}
@@ -356,25 +338,49 @@ University of Augsburg (Germany)}
 
 \section{The gros Zariski topos of a scheme}
 \frame[t]{\frametitle{The gros Zariski topos}
-  \begin{definition}The \emph{gros Zariski topos}~$\Zar(S)$ of a scheme~$S$ is the
-  category of sheaves~$(\Sch/S)^\mathrm{op} \to \Set$ defined on the Grothendieck
-  situs~$\Sch/S$ of schemes over~$S$.\end{definition}
+  \begin{definition}The \hil{gros Zariski topos $\Zar(S)$} of a scheme~$S$ is the
+  category $\Sh(\Sch/S)$,
+  i.\,e. consists of certain functors
+  \[ (\Sch/S)^\op \longrightarrow \Set. \]
+  \end{definition}
 
+  \vspace{-1em}
   \begin{block}{Basic look and feel}
   \vspace{-0.5em}
   \begin{itemize}
     \item For each~$S$-scheme~$X$, its functor of points~$\ul{X}$ is an object
     of~$\Zar(S)$. It feels like
     \[ \text{the set of points of~$X$}. \]
-    \item Internally, $\ul{\AA^1_S}$ (affine line), given by
-    \[ \ul{\AA^1_S} : X \longmapsto \Gamma(X, \O_X), \]
-    looks like a field: $\Zar(S) \models \forall x\?\ul{\AA^1_S}\_ x \neq 0
+    \item Internally, $\affl$ (affine line), given by
+    \[ \affl : X \longmapsto \Gamma(X, \O_X), \]
+    looks like a field: $\Zar(S) \models \forall x\?\affl\_ x \neq 0
     \Longrightarrow \speak{$x$ inv.}$
   \end{itemize}
   \end{block}
 }
 
 
+\subsection{Group schemes}
+\frame[t]{\frametitle{Group schemes}
+  \vspace{1em}
+  \hspace{-1em}
+  \begin{tabular}{l|l|l}
+    group scheme & internal definition & functor of points: $X \mapsto \ldots$ \\[0.5em]\hline
+    $\GG_\text{a}$ & $\affl$ (as additive group) & $\Gamma(X, \O_X)$ \\[0.5em]
+    $\GG_\text{m}$ & $\{ x \? \affl \,|\, \text{$x$ inv.} \}$ & $\Gamma(X, \O_X)^\times$ \\[0.5em]
+    $\mu_n$ & $\{ x \? \affl \,|\, x^n = 1 \}$ & $\{ f \in \Gamma(X, \O_X) \,|\, f^n = 1 \}$ \\[0.5em]
+    $\GL_n$ & $\{ M \? \affl^{n \times n} \,|\, \text{$M$ inv.} \}$ & $\GL_n(\Gamma(X, \O_X))$
+  \end{tabular}
+}
+
+
+\subsection{Open and closed immersions}
+\frame[t]{\frametitle{Open and closed immersions}
+  
+}
+
+
+\section*{Conclusion}
 \frame[t]{\frametitle{Conclusion}
   \begin{center}
     \hil{\large Ordinary mathematics is\ldots}
@@ -404,16 +410,23 @@ University of Augsburg (Germany)}
       and their curious objects
     \end{column}
   \end{columns}
-
-  \vfill
-  \begin{block}{Related work (Wort?)}
-    \begin{itemize}
-      \item Synthetic differential geometry: Kock, Moerdijk, \ldots
-      \item Constructive mathematics
-      \item Homotopy type theorie: Voevodsky, \ldots
-    \end{itemize}
-  \end{block}
+%
+%  \vfill
+%  \begin{block}{Related work}
+%    \begin{itemize}
+%      \item Synthetic differential geometry: Kock, Moerdijk, \ldots
+%      \item Constructive mathematics
+%      \item Homotopy type theorie: Voevodsky, \ldots
+%    \end{itemize}
+%  \end{block}
 }
+
+\frame[t]{\frametitle{References}
+  \begin{itemize}
+    \item \ldots
+  \end{itemize}
+}
+
 
 \appendix
 
