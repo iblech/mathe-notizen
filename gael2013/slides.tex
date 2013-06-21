@@ -34,7 +34,9 @@
 \newcommand{\D}{\mathcal{D}}
 \newcommand{\E}{\mathcal{E}}
 \newcommand{\F}{\mathcal{F}}
+\renewcommand{\G}{\mathcal{G}}
 \renewcommand{\O}{\mathcal{O}}
+\renewcommand{\P}{\mathcal{P}}
 \newcommand{\NN}{\mathbb{N}}
 \newcommand{\RR}{\mathbb{R}}
 \newcommand{\GG}{\mathbb{G}}
@@ -153,13 +155,85 @@ University of Augsburg (Germany)}
 
 \subsection{What is the internal language?}
 \frame[t]{\frametitle{What is the internal language?}
+  The internal language of a topos~$\E$ allows to
+  \begin{enumerate}
+    \item formulate properties,
+    \item prove statements and
+    \item construct objects and morphisms
+  \end{enumerate}
+  of the topos by using a \hil{naive element-based} language:
+
+  \begin{center}
+    \begin{tabular}{r|l}
+      external point of view & internal point of view \\\hline
+      objects of~$\E$ & sets \\
+      morphisms of~$\E$ & maps of sets
+    \end{tabular}
+  \end{center}
+
+  \note{
+    \begin{itemize}
+      \item Actually, the objects of~$\E$ feel more like \emph{types} instead of \emph{sets}:
+      For instance, there is no global membership relation~$\in$. Rather,
+      for each object~$A$ of~$\E$, there is a relation~${\in_A} : A \times \P(A) \to
+      \Omega$.
+    \end{itemize}
+  }
 }
 
 \frame[t]{\frametitle{The internal language of~$\Sh(X)$}
   Let~$X$ be a topological space. Then we can recursively define
   \[ U \models \varphi \quad \text{(``$\varphi$ holds on~$U$'')} \]
   for open subsets~$U \subseteq X$ and formulas~$\varphi$.
+  \[ \renewcommand{\arraystretch}{1.3}\begin{array}{@{}lcl@{}}
+    U \models f = g \? \F &\Ll& f|_U = g|_U \in \Gamma(U, \F) \\
+    U \models \varphi \wedge \psi &\Ll&
+      \text{$U \models \varphi$ and $U \models \psi$} \\
+    U \models \varphi \vee \psi &\Ll&
+      \hcancel{\text{$U \models \varphi$ or $U \models \psi$}}{0pt}{3pt}{0pt}{-2pt} \\
+    && \text{there exists a covering $U = \bigcup_i U_i$ s.\,th. for all~$i$:} \\
+    && \quad\quad \text{$U_i \models \varphi$ or $U_i \models \psi$} \\
+    U \models \varphi \Rightarrow \psi &\Ll&
+      \text{for all open~$V \subseteq U$: } 
+    \text{$V \models \varphi$ implies $V \models \psi$} \\
+    U \models \forall f \? \F\_ \varphi(f) &\Ll&
+      \text{for all sections~$f \in \Gamma(V, \F), V \subseteq U$: $V \models
+      \varphi(f)$} \\
+    U \models \exists f \? \F\_ \varphi(f) &\Ll&
+      \text{there exists a covering $U = \bigcup_i U_i$ s.\,th. for all~$i$:} \\
+    && \quad\quad \text{there exists a section~$f_i \in \Gamma(U_i, \F)$ s.\,th.
+    $U_i \models \varphi(f_i)$}
+  \end{array} \]
 
+  \note{
+    \begin{itemize}
+      \item Let~$\alpha : \F \to \G$ be a morphism of sheaves on~$X$. Then:
+      \begin{align*}
+        & X \models \speak{$\alpha$ is injective} \\[0.5em]
+        \Longleftrightarrow\
+        & X \models \forall s,t\?\F\_ \alpha(s) = \alpha(t) \Rightarrow s = t \\[0.5em]
+        \Longleftrightarrow\ &
+          \text{for all open~$U \subseteq X$, sections $s, t \in \Gamma(U, \F)$:} \\
+        &\qquad\qquad
+            U \models \alpha(s) = \alpha(t) \Rightarrow s = t \\[0.5em]
+        \Longleftrightarrow\ &
+          \text{for all open~$U \subseteq X$, sections $s, t \in \Gamma(U, \F)$:} \\
+        &\qquad\qquad
+            \text{for all open~$V \subseteq U$:} \\
+        &\qquad\qquad\qquad\qquad
+              \text{$\alpha_V(s|_V) = \alpha_V(t_V)$ implies $s|_V = t|_V$} \\[0.5em]
+        \Longleftrightarrow\ &
+          \text{for all open~$U \subseteq X$, sections $s, t \in \Gamma(U, \F)$:} \\
+        &\qquad\qquad
+              \text{$\alpha_U(s|_U) = \alpha_U(t_U)$ implies $s|_U = t|_U$} \\[0.5em]
+        \Longleftrightarrow\ &
+          \text{$\alpha$ is a monomorphism}
+      \end{align*}
+    \end{itemize}
+  }
+}
+
+\frame[t]{\frametitle{The internal language of~$\Sh(X)$}
   \begin{block}{Crucial properties}
   \vspace{-1em}
   \begin{itemize}
@@ -180,8 +254,8 @@ University of Augsburg (Germany)}
   \begin{block}{Examples}
   \vspace{-1em}
   \begin{itemize}
-    \item $U \models f = g$
-      \tabto{3cm} iff $f|_U = g|_U \in \Gamma(U, \F)$.
+    \item $U \models f = 0$
+      \tabto{3cm} iff $f|_U = 0 \in \Gamma(U, \F)$.
     \item $U \models f = 0 \vee g = 0$
       \tabto{3cm} iff on a cover~$U = \bigcup_i U_i$,\ \ $f|_{U_i} = 0$ or~$g|_{U_i} = 0$.
     \item $U \models \neg\neg(f = 0)$
@@ -486,7 +560,7 @@ University of Augsburg (Germany)}
       \text{for all sections~$f \in \Gamma(V, \F), V \subseteq U$: $V \models
       \varphi(f)$} \\
     U \models \exists f \? \F\_ \varphi(f) &\Ll&
-      \text{there exists a covering $U = \bigcup_i U_i$ s.th. for all~$i$:} \\
+      \text{there exists a covering $U = \bigcup_i U_i$ s.\,th. for all~$i$:} \\
     && \quad\quad \text{there exists a section~$f_i \in \Gamma(U_i, \F)$ s.\,th.
     $U_i \models \varphi(f_i)$}
   \end{array} \]
