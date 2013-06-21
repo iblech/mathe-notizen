@@ -42,3 +42,23 @@ Kann den Shift-Funktor als dg-Funktor verstehen:
     auf Morphismen:
         Hom(X,Y) --> Hom(X[n], Y[n])
         in Grad p: f |-> (-1)^np f[n].
+
+
+=== Einbettungstheorem
+
+Sei A eine kleine abelsche Kategorie. Dann faktorisiert die Yoneda-Einbettung
+
+    A ---> Set^(A^op) =: A^
+
+über die Kategorie abelscher Gruppenobjekte des Topos A^,
+
+    Ab(A^) --> A^.
+
+Der Funktor A --> Ab(A^) ist volltreu.
+
+Also: Die abelsche Kategorie A ist eine Unterkategorie der Kategorie abelscher
+Gruppen eines gewissen Topos. Die Einbettung ist zwar wohl linksexakt, aber
+vermutlich nicht rechtsexakt, sodass das noch nicht so viel hilft.
+
+Quelle: John Barwise, Handbook of Mathematical Logic, Abschnitt über
+Toposlogik (von Fourman), ganz am Ende (Seite 1088).
