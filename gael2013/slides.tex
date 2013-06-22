@@ -150,8 +150,17 @@ University of Augsburg (Germany)}
   \begin{block}{Examples}\vspace{-0.5em}\begin{itemize}
     \item \hil{$\Set$:} \tabto{1.5cm} category of sets
     \item \hil{$\Sh(X)$:} \tabto{1.5cm} category of set-valued sheaves on a space~$X$
-    \item \hil{$\Zar(S)$:} \tabto{1.5cm} gros Zariski topos of a base scheme~$S$
+%   \item \hil{$\Zar(S)$:} \tabto{1.5cm} gros Zariski topos of a base scheme~$S$
   \end{itemize}\end{block}
+
+  \note{
+    \begin{itemize}
+      \item While absolutely correct, the formal definition is actually
+      misleading in a sense: A topos has lots of other vital structure, which
+      is crucial for a rounded understanding, but is not listed in the
+      definition, which is trimmed for minimality.
+    \end{itemize}
+  }
 }
 
 \subsection{What is the internal language?}
@@ -186,6 +195,13 @@ University of Augsburg (Germany)}
       There, an explicit embedding into a category of modules is constructed.
       Here, we only change perspective and talk about the same objects and
       morphisms.
+
+      \item There exists a weaker variant of the internal language which works
+      in abelian categories. By using it, one can even pretend that the objects
+      are abelian groups (instead of modules), and when constructing morphisms
+      by appealing to the axiom of unique choice (which is a theorem), one
+      needn't even have to check linearity. The proof that this approach
+      works uses only categorical logic (so ist mostly ``just formal'').
     \end{itemize}
   }
 }
@@ -269,7 +285,7 @@ University of Augsburg (Germany)}
     \item $U \models f = 0 \vee g = 0$
       \tabto{3cm} iff on a cover~$U = \bigcup_i U_i$,\ \ $f|_{U_i} = 0$ or~$g|_{U_i} = 0$.
     \item $U \models \neg\neg(f = 0)$
-      \tabto{3cm} iff~$f = 0$ holds on a dense open subset.
+      \tabto{3cm} iff~$f = 0$ holds on a dense open subset of~$U$.
   \end{itemize}
   \end{block}
 
@@ -667,5 +683,7 @@ University of Augsburg (Germany)}
 % es fehlt nur noch:
 % quasicompactness
 % qcoh modules
+
+% XXX: min. no. of gen's. vs. rank
 
 \end{document}
