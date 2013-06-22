@@ -51,6 +51,7 @@
 \newcommand{\Sh}{\mathrm{Sh}}
 \newcommand{\Zar}{\mathrm{Zar}}
 \newcommand{\Sch}{\mathrm{Sch}}
+\DeclareMathOperator{\Spec}{Spec}
 \newcommand{\?}{\,{:}\,}
 \renewcommand{\_}{\mathpunct{.}\,}
 \newcommand{\speak}[1]{\ulcorner\text{#1}\urcorner}
@@ -108,10 +109,10 @@ University of Augsburg (Germany)}
   }%
   \item[]}{\end{list}}
 
-\newcommand{\pointthis}[2]{
+\newcommand{\pointthis}[2]{%
         \tikz[remember picture,baseline]{\node[anchor=base,inner sep=0,outer sep=0]%
         (#1) {#1};\node[overlay,rectangle callout,%
-        callout relative pointer={(0.2cm,0.3cm)},fill=blue!20] at ($(#1.north)+(-.5cm,-0.9cm)$) {#2};}%
+        callout relative pointer={(0.2cm,0.8cm)},fill=blue!20] at ($(#1.north)+(-.5cm,-1.4cm)$) {#2};}%
         }%
 
 \newcommand{\slogan}[1]{%
@@ -157,11 +158,11 @@ University of Augsburg (Germany)}
 \frame[t]{\frametitle{What is the internal language?}
   The internal language of a topos~$\E$ allows to
   \begin{enumerate}
-    \item formulate properties,
-    \item prove statements and
-    \item construct objects and morphisms
+    \item construct objects and morphisms of the topos,
+    \item formulate statements about them and
+    \item prove such statements
   \end{enumerate}
-  of the topos by using a \hil{naive element-based} language:
+  in a \hil{naive element-based} language:
 
   \begin{center}
     \begin{tabular}{r|l}
@@ -171,7 +172,7 @@ University of Augsburg (Germany)}
     \end{tabular}
   \end{center}
 
-  \hil{Special case:} The internal language of~$\Set$ is the usual mathematical
+  \hil{Special case:} The language of~$\Set$ is the usual mathematical
   language.
 
   \note{
@@ -180,6 +181,11 @@ University of Augsburg (Germany)}
       For instance, there is no global membership relation~$\in$. Rather,
       for each object~$A$ of~$\E$, there is a relation~${\in_A} : A \times \P(A) \to
       \Omega$.
+
+      \item Compare with the embedding theorem for abelian categories:
+      There, an explicit embedding into a category of modules is constructed.
+      Here, we only change perspective and talk about the same objects and
+      morphisms.
     \end{itemize}
   }
 }
@@ -243,12 +249,13 @@ University of Augsburg (Germany)}
     \item \hil{Locality:} \tabto{1.9cm} If~$U = \bigcup_i U_i$, then
       $U \models \varphi$ iff $U_i \models
       \varphi$ for each~$i$.
-    \item \hil{Soundness:} \tabto{1.9cm} If~$U \models \varphi$ and $\varphi \vdash \psi$
-    \pointthis{constructively}{
+    \item \hil{Soundness:} \tabto{1.9cm} If~$U \models \varphi$ and $\varphi$
+    implies $\psi$ \pointthis{constructively}{
       no $\varphi \vee \neg\varphi$,\quad
       no $\neg\neg\varphi \Rightarrow \varphi$,\quad
       no axiom of choice
-    }, then~$U \models \psi$.
+    }, \\[0.1cm]
+    \tabto{1.9cm} then~$U \models \psi$.
   \end{itemize}
   \end{block}
 
@@ -276,6 +283,7 @@ University of Augsburg (Germany)}
 
 
 \section{The petit Zariski topos of a scheme}
+\subsection{Basic look and feel}
 
 \frame[t]{\frametitle{The petit Zariski topos}
   \begin{block}{Definition}The \hil{petit Zariski topos} of a scheme~$X$ is the
@@ -329,6 +337,7 @@ University of Augsburg (Germany)}
     is~$\F$.
   \end{block}
 
+  \vfill
   \begin{block}{Proof}
     Follows at once from the following theorem of constructive linear algebra:
 
@@ -337,6 +346,7 @@ University of Augsburg (Germany)}
       modules. If~$M'$ and~$M''$ are finitely generated, so is~$M$.
     \end{quote}
   \end{block}
+  \vfill
 %    \begin{enumerate}
 %      \item From the internal point of view, the short exact sequence
 %      is a sequence of ordinary modules with~$\F'$ and~$\F''$ being finitely
@@ -366,7 +376,7 @@ University of Augsburg (Germany)}
   \end{block}
 }
 
-\subsection{The structure sheaf}
+\subsection{The structure sheaf in more detail}
 \frame[t]{\frametitle{The structure sheaf, internally}
   \begin{itemize}
     \item Internally, $\O_X$ is a local ring: \[ \Sh(X) \models \forall x,y\?\O_X\_
@@ -496,6 +506,7 @@ University of Augsburg (Germany)}
 }
 
 \section{The gros Zariski topos of a scheme}
+\subsection{Basic look and feel}
 \frame[t]{\frametitle{The gros Zariski topos}
   \begin{block}{Definition}The \hil{gros Zariski topos $\Zar(S)$} of a scheme~$S$ is the
   category $\Sh(\Sch/S)$,
@@ -531,14 +542,57 @@ University of Augsburg (Germany)}
     $\mu_n$ & $\{ x \? \affl \,|\, x^n = 1 \}$ & $\{ f \in \Gamma(X, \O_X) \,|\, f^n = 1 \}$ \\[0.5em]
     $\GL_n$ & $\{ M \? \affl^{n \times n} \,|\, \text{$M$ inv.} \}$ & $\GL_n(\Gamma(X, \O_X))$
   \end{tabular}
+  \vspace{2em}
+
+  \hil{Motto:} Group schemes look like ordinary groups, internally.
 }
 
 
-\subsection{Open and closed immersions}
-\frame[t]{\frametitle{Open and closed immersions}
-  
+\subsection{Open immersions}
+\frame[t]{\frametitle{Open immersions}
+  \begin{block}{Definition}
+    A formula~$\varphi$ is called
+    \begin{itemize}
+      \item \hil{decidable} iff~$\varphi \vee \neg\varphi$ holds.
+      \item \hil{$\neg\neg$-stable} iff~$\neg\neg\varphi \Rightarrow \varphi$
+      holds.
+    \end{itemize}
+  \end{block}
+
+  We can similarly define a notion of~\hil{open} formulas in~$\Zar(S)$.
+
+  \begin{block}{Proposition}
+    \vspace{-1em}
+    \begin{itemize}
+      \item For~$f \in \Gamma(X,\O_X)$, the formula~``$f(x) \neq 0$'' is open.
+      \item A morphism~$p : Y \to X$ is an open immersion iff
+            \[ \Zar(S) \models \speak{$\ul{p}$ is injective and ``$x \in
+            \operatorname{image}(\ul{p})$'' is open}. \]
+    \end{itemize}
+  \end{block}
 }
 
+
+\subsection{Open problems}
+\frame[t]{\frametitle{Open problems}
+  \begin{itemize}
+  \item
+  Find internal characterizations for morphisms of schemes
+  \begin{itemize}
+    \item being of finite type,
+    \item being separated,
+    \item being proper,
+    \item \ldots
+  \end{itemize}
+
+  \item
+  Find interesting and useful properties of the internal language of specific
+  schemes, for instance projective~$n$-space.
+
+  \item Find general transfer principles for statements about~$A$-modules~$M$
+  vs.~$\O_{\Spec A}$-modules~$M^\sim$.
+  \end{itemize}
+}
 
 \section*{Conclusion}
 \frame[t]{\frametitle{Conclusion}
@@ -586,6 +640,19 @@ University of Augsburg (Germany)}
     \item \ldots
   \end{itemize}
 }
+
+\appendix
+\subsection{Axioms for the affine line}
+\frame[t]{\frametitle{Axioms for the affine line}
+  \begin{block}{Proposition}
+    $\Zar(S) \models \speak{every function~$\affl \to \affl$ is a polynomial}.$
+  \end{block}
+
+  Compare with the axiom of synthetic differential geometry:
+  \[ \text{every function~$\RR \to \RR$ is smooth.} \]
+}
+
+
 % Coquand dynamical
 % Shulman stack
 % Bridges
@@ -596,5 +663,9 @@ University of Augsburg (Germany)}
 % http://www.mathunion.org/ICM/ICM1978.1/Main/icm1978.1.0331.0338.ocr.pdf
 % Hakim
 % Elephant
+
+% es fehlt nur noch:
+% quasicompactness
+% qcoh modules
 
 \end{document}
