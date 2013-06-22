@@ -171,6 +171,9 @@ University of Augsburg (Germany)}
     \end{tabular}
   \end{center}
 
+  \hil{Special case:} The internal language of~$\Set$ is the usual mathematical
+  language.
+
   \note{
     \begin{itemize}
       \item Actually, the objects of~$\E$ feel more like \emph{types} instead of \emph{sets}:
@@ -262,6 +265,13 @@ University of Augsburg (Germany)}
       \tabto{3cm} iff~$f = 0$ holds on a dense open subset.
   \end{itemize}
   \end{block}
+
+  \note{
+    \begin{itemize}
+      \item The internal logic of~$\Sh(X)$ is classical (fulfills law of excluded
+      middle) iff~$X$ is discrete.
+    \end{itemize}
+  }
 }
 
 
@@ -320,17 +330,23 @@ University of Augsburg (Germany)}
   \end{block}
 
   \begin{block}{Proof}
-    \begin{enumerate}
-      \item From the internal point of view, the short exact sequence
-      is a sequence of ordinary modules with~$\F'$ and~$\F''$ being finitely
-      generated.
+    Follows at once from the following theorem of constructive linear algebra:
 
-      \item So~$\F$ is finitely generated too, by standard constructive linear algebra
-      -- interpreted internal to~$\Sh(X)$.
-
-      \item Externally, this means that~$\F$ is locally of finite type.
-    \end{enumerate}
+    \begin{quote}
+      Let~$0 \lra M' \lra M \lra M'' \lra 0$ be a short exact sequence of
+      modules. If~$M'$ and~$M''$ are finitely generated, so is~$M$.
+    \end{quote}
   \end{block}
+%    \begin{enumerate}
+%      \item From the internal point of view, the short exact sequence
+%      is a sequence of ordinary modules with~$\F'$ and~$\F''$ being finitely
+%      generated.
+%
+%      \item So~$\F$ is finitely generated too, by standard constructive linear algebra
+%      -- interpreted internal to~$\Sh(X)$.
+%
+%      \item Externally, this means that~$\F$ is locally of finite type.
+%    \end{enumerate}
 
   \hil{Motto:} We can understand basic statements of algebraic geometry as
   statements of linear algebra internal to~$\Sh(X)$.
@@ -404,23 +420,23 @@ University of Augsburg (Germany)}
     \hspace{-1em}
     \begin{column}{0.5\textwidth}
       \begin{block}{Well-known proposition}
-        \ \\[-0.5em]
+        \ \\[-1.1em]
         Assume~$X$ to be reduced. \\ Then:
-        \begin{itemize}
+        \begin{enumerate}
         \item $\F$ is locally free iff its rank is locally constant.
         \item $\F$ is locally free on a dense open subset.
-        \end{itemize}
+        \end{enumerate}
       \end{block}
     \end{column}
     \hspace{2em}
     \begin{column}{0.5\textwidth}
       \begin{block}{Constructive linear algebra}
-        \ \\[-0.5em]
-        Let~$M$ be a f.\,g. module over a residue field. Then:
-        \begin{itemize}
+        \ \\[-1.1em]
+        Let~$M$ be a f.\,g. module over a field. Then:
+        \begin{enumerate}
           \item $M$ is free iff its rank is an ordinary natural number.
           \item $M$ is always not not free.
-        \end{itemize}
+        \end{enumerate}
       \end{block}
     \end{column}
   \end{columns}
@@ -437,7 +453,7 @@ University of Augsburg (Germany)}
       which surely is inhabited by~$1 \in U$. So by assumption, there exists a
       number~$z \in \NN$ which is the minimum of~$U$. We have
       \[ z = 0 \quad\vee\quad z > 0 \]
-      (this is not clear, but can be proven by induction).
+      (this is not obvious, but can be proven by induction).
 
       If~$z = 0$, we have~$0 \in U$, so~$0 = 1 \vee \varphi$, so~$\varphi$
       holds.
@@ -448,6 +464,36 @@ University of Augsburg (Germany)}
   }
 }
 
+\note{
+  \begin{block}{Proposition}
+    The partially ordered set
+    \[ \widehat\NN := \{ A \subseteq \NN \,|\, \text{$A$ inhabited and upward
+    closed}
+    \} \]
+    is the least partially ordered set containing~$\NN$ and possessing minima
+    of arbitrary inhabited subsets.
+  \end{block}
+
+  \begin{block}{External translation}
+    Let~$X$ be a topological space and consider the constant sheaf~$N$ with
+    $\Gamma(U, N) = \{ f : U \to \NN \,|\ \text{$f$ continuous} \}$.
+    Then there is a 1:1--correspondence:
+
+    \begin{enumerate}
+      \item Let~$A \hookrightarrow N$ be a subobject which is inhabited
+      and upward closed from the internal point of view. Then
+      \[
+        x \longmapsto \inf\{ n \in \NN \,|\, n \in A_x \}
+      \]
+      is an upper semi-continous function on~$X$.
+
+      \item Let~$\alpha : X \to \NN$ be a upper semi-continous function. Then
+      \[ U \subseteq X \longmapsto \{ f : U \to \NN \,|\, \text{$f$
+      continuous,\ \ $f \geq \alpha$ on~$U$} \} \]
+      is a subobject of~$N$ which internally is inhabited and upward closed.
+    \end{enumerate}
+  \end{block}
+}
 
 \section{The gros Zariski topos of a scheme}
 \frame[t]{\frametitle{The gros Zariski topos}
@@ -479,6 +525,7 @@ University of Augsburg (Germany)}
   \hspace{-1em}
   \begin{tabular}{l|l|l}
     group scheme & internal definition & functor of points: $X \mapsto \ldots$ \\[0.5em]\hline
+    && \\[-0.5em]
     $\GG_\text{a}$ & $\affl$ (as additive group) & $\Gamma(X, \O_X)$ \\[0.5em]
     $\GG_\text{m}$ & $\{ x \? \affl \,|\, \text{$x$ inv.} \}$ & $\Gamma(X, \O_X)^\times$ \\[0.5em]
     $\mu_n$ & $\{ x \? \affl \,|\, x^n = 1 \}$ & $\{ f \in \Gamma(X, \O_X) \,|\, f^n = 1 \}$ \\[0.5em]
@@ -514,7 +561,7 @@ University of Augsburg (Germany)}
   \end{center}
   \begin{columns}[onlytextwidth]
     \begin{column}{0.5\textwidth}
-      a technical device for simplifying boring proofs
+      a technical device for simplifying routine proofs
     \end{column}
     vs.
     \hspace{0.5em}
@@ -523,13 +570,13 @@ University of Augsburg (Germany)}
       and their curious objects
     \end{column}
   \end{columns}
-%
+
 %  \vfill
 %  \begin{block}{Related work}
 %    \begin{itemize}
 %      \item Synthetic differential geometry: Kock, Moerdijk, \ldots
 %      \item Constructive mathematics
-%      \item Homotopy type theorie: Voevodsky, \ldots
+%      \item Homotopy type theory: Voevodsky, \ldots
 %    \end{itemize}
 %  \end{block}
 }
@@ -539,31 +586,15 @@ University of Augsburg (Germany)}
     \item \ldots
   \end{itemize}
 }
-
-
-\appendix
-
-\frame[t]{\frametitle{Kripke-Joyal semantics for~$\Sh(X)$}
-  Define~$U \models \varphi$ (``$\varphi$ holds on~$U$'') recursively by:
-  \[ \renewcommand{\arraystretch}{1.3}\begin{array}{@{}lcl@{}}
-    U \models f = g \? \F &\Ll& f|_U = g|_U \in \Gamma(U, \F) \\
-    U \models \varphi \wedge \psi &\Ll&
-      \text{$U \models \varphi$ and $U \models \psi$} \\
-    U \models \varphi \vee \psi &\Ll&
-      \hcancel{\text{$U \models \varphi$ or $U \models \psi$}}{0pt}{3pt}{0pt}{-2pt} \\
-    && \text{there exists a covering $U = \bigcup_i U_i$ s.\,th. for all~$i$:} \\
-    && \quad\quad \text{$U_i \models \varphi$ or $U_i \models \psi$} \\
-    U \models \varphi \Rightarrow \psi &\Ll&
-      \text{for all open subsets~$V \subseteq U$:} \\
-    && \quad\quad \text{$V \models \varphi$ implies $V \models \psi$} \\
-    U \models \forall f \? \F\_ \varphi(f) &\Ll&
-      \text{for all sections~$f \in \Gamma(V, \F), V \subseteq U$: $V \models
-      \varphi(f)$} \\
-    U \models \exists f \? \F\_ \varphi(f) &\Ll&
-      \text{there exists a covering $U = \bigcup_i U_i$ s.\,th. for all~$i$:} \\
-    && \quad\quad \text{there exists a section~$f_i \in \Gamma(U_i, \F)$ s.\,th.
-    $U_i \models \varphi(f_i)$}
-  \end{array} \]
-}
+% Coquand dynamical
+% Shulman stack
+% Bridges
+% Mulvey
+% Kock (2x)
+% Moerdijk: proper maps
+% Wraith:
+% http://www.mathunion.org/ICM/ICM1978.1/Main/icm1978.1.0331.0338.ocr.pdf
+% Hakim
+% Elephant
 
 \end{document}
