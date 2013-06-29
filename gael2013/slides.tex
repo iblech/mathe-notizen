@@ -88,7 +88,9 @@
 \scriptsize
 University of Augsburg (Germany)}
 %\institute{--- questions welcome at all times ---}
-\date{June 24th, 2013 \\[0.5em] Géométrie Algébrique en Liberté XXI}
+\date{June 24th, 2013 \\[0.5em] Géométrie Algébrique en Liberté XXI
+%\\ \textcolor{red}{\textbf{-- preliminary version --}}%
+}
 
 \usetheme{Singapore}
 %\useoutertheme{split}
@@ -98,8 +100,9 @@ University of Augsburg (Germany)}
 
 \setbeamertemplate{navigation symbols}{}
 
-\setbeameroption{show notes}
-\setbeamertemplate{note page}[plain]
+\setbeameroption{hide notes}
+%\setbeameroption{show notes}
+%\setbeamertemplate{note page}[plain]
 
 \defbeamertemplate*{footline}{split theme}
 {%
@@ -148,11 +151,28 @@ University of Augsburg (Germany)}
 
 \begin{document}
 
-\setbeameroption{show notes}
-\setbeamertemplate{note page}[plain]
-
 \frame{\titlepage}
 %\frame[t]{\frametitle{Gliederung}\begin{minipage}{\textwidth}\begin{small}\tableofcontents\end{small}\end{minipage}}
+
+\note{
+  There are several important topoi associated to a scheme, for instance the
+  petit and gros Zariski topoi. These come with an internal mathematical language
+  which closely resembles the usual formal language of mathematics, but is ``local
+  on the base scheme'':
+
+  For example, from the internal perspective, the structure sheaf looks like an
+  ordinary local ring (instead of a sheaf of rings with local stalks) and vector
+  bundles look like ordinary free modules (instead of sheaves of modules
+  satisfying a certain condition). The translation of internal statements and
+  proofs is facilitated by an easy mechanical procedure.
+
+  The talk will give an introduction to this topic and show how the internal
+  point of view can be exploited to give simpler definitions and more conceptual
+  proofs of the basic notions and observations in algebraic geometry. We will also
+  point out certain unexpected properties of the internal universe, for instance
+  that the structure sheaf looks in fact even like a field.
+}
+
 \frame[t]{\frametitle{Outline}\tableofcontents}
 
 \section{The internal language of topoi}
@@ -237,6 +257,7 @@ University of Augsburg (Germany)}
   Let~$X$ be a topological space. Then we can recursively define
   \[ U \models \varphi \quad \text{(``$\varphi$ holds on~$U$'')} \]
   for open subsets~$U \subseteq X$ and formulas~$\varphi$.
+  \pause
   \[ \renewcommand{\arraystretch}{1.3}\begin{array}{@{}lcl@{}}
     U \models f = g \? \F &\Ll& f|_U = g|_U \in \Gamma(U, \F) \\
     U \models \varphi \wedge \psi &\Ll&
@@ -432,8 +453,9 @@ University of Augsburg (Germany)}
   \end{itemize}
 
   \vfill
-  \hil{Motto:} We can understand notions of algebraic geometry as notions of
-  linear algebra internal to~$\Sh(X)$.
+  \hil{Motto:} \tabto{1.2cm} We can understand notions of algebraic geometry as
+  \\
+  \tabto{1.2cm} notions of linear algebra internal to~$\Sh(X)$.
 }
 
 \frame[t]{\frametitle{Proving in the internal universe}
@@ -464,7 +486,9 @@ University of Augsburg (Germany)}
 %      \item Externally, this means that~$\F$ is locally of finite type.
 %    \end{enumerate}
 
-  \hil{Motto:} We can understand basic statements of algebraic geometry as
+  \hil{Motto:} \tabto{1.2cm} We can understand basic statements of algebraic
+  geometry as \\
+  \tabto{1.2cm}
   statements of linear algebra internal to~$\Sh(X)$.
 
   \note{
@@ -803,6 +827,7 @@ University of Augsburg (Germany)}
     \end{column}
   \end{columns}
 
+  \vspace{1em}
   \begin{center}
     \hil{\large Mathematics internal to a topos is\ldots}
   \end{center}
@@ -817,6 +842,10 @@ University of Augsburg (Germany)}
       and their curious objects
     \end{column}
   \end{columns}
+  \vspace{-0.5em}
+  \begin{center}
+    \hil{\large\ldots and can be fruitfully used in algebraic geometry}
+  \end{center}
 
   \vfill
   \begin{center}
@@ -955,5 +984,12 @@ University of Augsburg (Germany)}
 % qcoh modules
 
 % XXX: Vereinfachungsregeln
+
+% meine masterarbeit!
+
+% anel zitieren.
+% über univ. lokalen Ring reden.
+% effective erwähnen, Coquand besser zitieren
+% Koszul!
 
 \end{document}
