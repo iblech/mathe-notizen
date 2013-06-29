@@ -3,6 +3,7 @@
 \usepackage[english]{babel}
 
 \usepackage{amsmath,amssymb}
+\usepackage{extarrows}
 %\usepackage[framed,amsmath,thmmarks,hyperref]{ntheorem}
 
 %\usepackage[small,nohug]{diagrams}
@@ -62,6 +63,25 @@
 \newcommand{\lra}{\longrightarrow}
 
 \newcommand{\op}{\mathrm{op}}
+
+\newcommand{\fmini}[2]{\framebox{\begin{minipage}{#1}#2\end{minipage}}}
+\makeatletter
+\def\underunbrace#1{\mathop{\vtop{\m@th\ialign{##\crcr
+      $\hfil\displaystyle{#1}\hfil$\crcr\noalign{\kern3\p@\nointerlineskip}
+      \crcr\noalign{\kern3\p@}}}}\limits}
+\def\overunbrace#1{\mathop{\vbox{\m@th\ialign{##\crcr\noalign{\kern3\p@}
+      \crcr\noalign{\kern3\p@\nointerlineskip}
+      $\hfil\displaystyle{#1}\hfil$\crcr}}}\limits}
+\makeatother
+
+\newcommand{\backupstart}{
+  \newcounter{framenumbervorappendix}
+  \setcounter{framenumbervorappendix}{\value{framenumber}}
+}
+\newcommand{\backupend}{
+  \addtocounter{framenumbervorappendix}{-\value{framenumber}}
+  \addtocounter{framenumber}{\value{framenumbervorappendix}} 
+}
 
 \title[Using the internal language of topoi in algebraic geometry]{Using the internal language of topoi in algebraic geometry}
 \author[Ingo Blechschmidt (Univ. Augsburg)]{Ingo Blechschmidt \\[0.5em]
@@ -148,17 +168,21 @@ University of Augsburg (Germany)}
   \end{block}
 
   \begin{block}{Examples}\vspace{-0.5em}\begin{itemize}
-    \item \hil{$\Set$:} \tabto{1.5cm} category of sets
-    \item \hil{$\Sh(X)$:} \tabto{1.5cm} category of set-valued sheaves on a space~$X$
+    \item \hil{$\Set$:} \tabto{1.2cm} category of sets
+    \item \hil{$\Sh(X)$:} \tabto{1.2cm} category of set-valued sheaves on a space~$X$
 %   \item \hil{$\Zar(S)$:} \tabto{1.5cm} gros Zariski topos of a base scheme~$S$
   \end{itemize}\end{block}
 
   \note{
     \begin{itemize}
-      \item While absolutely correct, the formal definition is actually
+      \item While technically correct, the formal definition is actually
       misleading in a sense: A topos has lots of other vital structure, which
       is crucial for a rounded understanding, but is not listed in the
       definition, which is trimmed for minimality.
+
+      A more comprehensive definition is: A \emph{topos} is a locally cartesian
+      closed, finitely complete and cocomplete Heyting category which is exact,
+      extensive and has a subobject classifier.
     \end{itemize}
   }
 }
@@ -189,7 +213,7 @@ University of Augsburg (Germany)}
       \item Actually, the objects of~$\E$ feel more like \emph{types} instead of \emph{sets}:
       For instance, there is no global membership relation~$\in$. Rather,
       for each object~$A$ of~$\E$, there is a relation~${\in_A} : A \times \P(A) \to
-      \Omega$.
+      \Omega$, where~$\P(A)$ is the power object of~$A$.
 
       \item Compare with the embedding theorem for abelian categories:
       There, an explicit embedding into a category of modules is constructed.
@@ -202,6 +226,9 @@ University of Augsburg (Germany)}
       by appealing to the axiom of unique choice (which is a theorem), one
       needn't even have to check linearity. The proof that this approach
       works uses only categorical logic (so ist mostly ``just formal'').
+
+      \item For textbook developments of the internal language,
+      see~\cite{johnstone:elephant} and~\cite{moerdijk:maclane:sheaves}.
     \end{itemize}
   }
 }
@@ -226,36 +253,71 @@ University of Augsburg (Germany)}
       \varphi(f)$} \\
     U \models \exists f \? \F\_ \varphi(f) &\Ll&
       \text{there exists a covering $U = \bigcup_i U_i$ s.\,th. for all~$i$:} \\
-    && \quad\quad \text{there exists a section~$f_i \in \Gamma(U_i, \F)$ s.\,th.
+    && \quad\quad \text{there exists~$f_i \in \Gamma(U_i, \F)$ s.\,th.
     $U_i \models \varphi(f_i)$}
   \end{array} \]
 
   \note{
     \begin{itemize}
-      \item Let~$\alpha : \F \to \G$ be a morphism of sheaves on~$X$. Then:
-      \begin{align*}
-        & X \models \speak{$\alpha$ is injective} \\[0.5em]
-        \Longleftrightarrow\
-        & X \models \forall s,t\?\F\_ \alpha(s) = \alpha(t) \Rightarrow s = t \\[0.5em]
-        \Longleftrightarrow\ &
-          \text{for all open~$U \subseteq X$, sections $s, t \in \Gamma(U, \F)$:} \\
-        &\qquad\qquad
-            U \models \alpha(s) = \alpha(t) \Rightarrow s = t \\[0.5em]
-        \Longleftrightarrow\ &
-          \text{for all open~$U \subseteq X$, sections $s, t \in \Gamma(U, \F)$:} \\
-        &\qquad\qquad
-            \text{for all open~$V \subseteq U$:} \\
-        &\qquad\qquad\qquad\qquad
-              \text{$\alpha_V(s|_V) = \alpha_V(t_V)$ implies $s|_V = t|_V$} \\[0.5em]
-        \Longleftrightarrow\ &
-          \text{for all open~$U \subseteq X$, sections $s, t \in \Gamma(U, \F)$:} \\
-        &\qquad\qquad
-              \text{$\alpha_U(s|_U) = \alpha_U(t_U)$ implies $s|_U = t|_U$} \\[0.5em]
-        \Longleftrightarrow\ &
-          \text{$\alpha$ is a monomorphism}
-      \end{align*}
+      \item The rules are called \emph{Kripke-Joyal semantics} and can be
+      formulated over any topos (not just sheaf topoi). They are not all
+      arbitrary: Rather, they are very finely adjusted to make the crucial
+      properties about the internal language (see next slide) true.
+      % XXX: make true
+      % XXX: finely adjusted (meine: abgestimmt)
+
+      \item There are two further rules concerning the constants~$\top$
+      and~$\bot$ (truehood resp. falsehood):
+      % XXX Begriff truehood!
+        \[ \renewcommand{\arraystretch}{1.3}\begin{array}{@{}lcl@{}}
+          U \models \top &\Ll& U = U \\
+          U \models \bot &\Ll& U = \emptyset
+        \end{array} \]
+
+      \item Negation is defined as
+      \[ \neg\varphi :\equiv (\varphi \Rightarrow \bot). \]
+
+      \item One can extend the language to allow for \emph{unbounded}
+      quantification (think~$\forall a \in A$ vs.~$\forall A$), see Shulman's
+      stack semantics~\cite{shulman:stack}. This is needed to formulate
+      universal properties internal to~$\Sh(X)$, for instance.
+
+      \item One can further extend the language to be able to talk
+      about locally internal categories over~$\Sh(X)$: Then one can do category
+      theory internal to~$\Sh(X)$ using the internal language. (This specific
+      approach is, as far as I am aware, original work. But of course, internal
+      category theory has been done for a long time, see for instance the
+      textbook~\cite{johnstone:elephant}; also
+      cf.~\cite{chapman:rowbottom:relcat}.)
     \end{itemize}
   }
+}
+
+\note{
+  \begin{itemize}
+    \item Let~$\alpha : \F \to \G$ be a morphism of sheaves on~$X$. Then:
+    \begin{align*}
+      & X \models \speak{$\alpha$ is injective} \\[0.5em]
+      \Longleftrightarrow\
+      & X \models \forall s,t\?\F\_ \alpha(s) = \alpha(t) \Rightarrow s = t \\[0.5em]
+      \Longleftrightarrow\ &
+        \text{for all open~$U \subseteq X$, sections $s, t \in \Gamma(U, \F)$:} \\
+      &\qquad\qquad
+          U \models \alpha(s) = \alpha(t) \Rightarrow s = t \\[0.5em]
+      \Longleftrightarrow\ &
+        \text{for all open~$U \subseteq X$, sections $s, t \in \Gamma(U, \F)$:} \\
+      &\qquad\qquad
+          \text{for all open~$V \subseteq U$:} \\
+      &\qquad\qquad\qquad\qquad
+            \text{$\alpha_V(s|_V) = \alpha_V(t|_V)$ implies $s|_V = t|_V$} \\[0.5em]
+      \Longleftrightarrow\ &
+        \text{for all open~$U \subseteq X$, sections $s, t \in \Gamma(U, \F)$:} \\
+      &\qquad\qquad
+            \text{$\alpha_U(s|_U) = \alpha_U(t|_U)$ implies $s|_U = t|_U$} \\[0.5em]
+      \Longleftrightarrow\ &
+        \text{$\alpha$ is a monomorphism of sheaves}
+    \end{align*}
+  \end{itemize}
 }
 
 \frame[t]{\frametitle{The internal language of~$\Sh(X)$}
@@ -293,6 +355,34 @@ University of Augsburg (Germany)}
     \begin{itemize}
       \item The internal logic of~$\Sh(X)$ is classical (fulfills law of excluded
       middle) iff~$X$ is discrete.
+
+      \item There is a false rumor about constructive mathematics, namely that
+      the term \emph{contradiction} is generally forbidden. This is not the
+      case, one has to distinguish between
+      \begin{itemize}
+        \item a true proof by contradiction: ``Assume~$\varphi$ were false.
+        Then \ldots, contradiction. So~$\varphi$ is in fact true.''
+      \end{itemize}
+      which constructively is only a proof of the weaker
+      statement~$\neg\neg\varphi$, and
+      \begin{itemize}
+        \item a proof of a negated formula: ``Assume~$\psi$ were true. Then
+        \ldots, contradiction. So~$\neg\psi$ holds.''
+      \end{itemize}
+      which is a perfectly fine in constructive mathematics.
+
+      \item There is a similar rumor that constructive mathematicians \emph{deny}
+      the law of excluded middle. In fact, one can constructively prove that there is no
+      counterexample to the law: For any formula~$\varphi$, it holds
+      that~$\neg\neg(\varphi \vee \neg\varphi)$.
+
+      In constructive mathematics, one merely doesn't \emph{use} the law of
+      excluded middle. (Only in concrete models, for example as provided by the
+      internal universe of the sheaf topos on a non-discrete topological space,
+      the law of excluded middle will actually be refutable.)
+
+      \item See~\cite{troelstra:dalen:constr} for references about constructive
+      mathematics.
     \end{itemize}
   }
 }
@@ -376,6 +466,15 @@ University of Augsburg (Germany)}
 
   \hil{Motto:} We can understand basic statements of algebraic geometry as
   statements of linear algebra internal to~$\Sh(X)$.
+
+  \note{
+    \begin{itemize}
+      \item Note that in the standard proof of the linear algebra fact, there
+      is no actual \emph{choice} of generators happening (which would require
+      the axiom of choice, which is not available in the internal universe):
+      One simply uses the elimination rule for the existential quantifier.
+    \end{itemize}
+  }
 }
 
 \frame[t]{\frametitle{The sheaf of rational functions}
@@ -383,8 +482,8 @@ University of Augsburg (Germany)}
   The sheaf~$K_X$ of \hil{rational functions} on a scheme~$X$ is the
   sheafification of
   \[ U \subseteq X \longmapsto \Gamma(U, \O_X)[S(U)^{-1}], \]
-  where~$S(U) = \{ s \in \Gamma(U, \O_X) \,|\, \text{$s \in \O_{X,x}^\times$
-  for all~$x \in U$} \}$.
+  where~$S(U) = \{ s \in \Gamma(U, \O_X) \,|\, \text{$s \in \O_{X,x}$ is
+  regular for all~$x \in U$} \}$.
   \end{block}
 
   \begin{block}{Internal definition}
@@ -411,34 +510,60 @@ University of Augsburg (Germany)}
     \[ \Sh(X) \models \forall x\?\O_X\_
       \neg\,\speak{$x$ inv.} \Longrightarrow x = 0. \]
   \end{itemize}
+
+  \note{
+    \begin{itemize}
+      \item The usual definition of a local ring (a nontrivial ring with
+      exactly one maximal ideal) is equivalent to the more elementary condition
+      given here -- in classical logic. In constructive logic, the latter is
+      much better behaved. (For instance, recall that one even needs Zorn's
+      lemma to show the existence of a maximal ideal in a nontrivial ring.)
+
+      \item In constructive mathematics, the notion of \emph{field} bifurcates
+      into several related but non-equivalent ones. A non-comprehensive list
+      is the following:
+      \begin{align*}
+        \forall x\_ & x = 0 \vee \speak{$x$ inv.} \\
+        \forall x\_ & \neg\,\speak{$x$ inv.} \Rightarrow x = 0 \\
+        \forall x\_ & x \neq 0 \Rightarrow \speak{$x$ inv.}
+      \end{align*}
+    \end{itemize}
+  }
 }
 
 \subsection{On the rank of sheaves of modules}
 \frame[t]{\frametitle{Rank of a sheaf of modules}
   \hspace{-1em}Let~$\F$ be an~$\O_X$-module locally of finite type.
-  
-  \begin{columns}[t,onlytextwidth]
-    \hspace{-1em}
-    \begin{column}{0.5\textwidth}
-      \begin{block}{Classical definition}
-        \ \\[-0.5em]
-        The \hil{rank function} of~$\F$ is
-        \[ \begin{array}{@{}rcl@{}}
-          X &\longrightarrow& \NN \\
-          x &\longmapsto& \dim_{k(x)} \F_x / \mathfrak{m}_x \F_x.
-        \end{array} \]
-      \end{block}
-    \end{column}
-    \hspace{2em}
-    \begin{column}{0.5\textwidth}
-      \begin{block}{Internal definition}
-        \ \\[-0.5em]
-        The \hil{rank} of~$\F$ is the
-        minimal number of generators of~$\F$,
-        considered as an element of the \hil{completed natural numbers}.
-      \end{block}
-    \end{column}
-  \end{columns}
+  There is a correspondence
+%  \begin{columns}[t,onlytextwidth]
+%    \hspace{-1em}
+%    \begin{column}{0.5\textwidth}
+%      \begin{block}{Classical definition}
+%        \ \\[-0.5em]
+%        The \hil{rank function} of~$\F$ is
+%        \[ \begin{array}{@{}rcl@{}}
+%          X &\longrightarrow& \NN \\
+%          x &\longmapsto& \dim_{k(x)} \F_x / \mathfrak{m}_x \F_x.
+%        \end{array} \]
+%      \end{block}
+%    \end{column}
+%    \hspace{2em}
+%    \begin{column}{0.5\textwidth}
+%      \begin{block}{Internal definition}
+%        \ \\[-0.5em]
+%        The \hil{rank} of~$\F$ is the
+%        minimal number of generators of~$\F$,
+%        considered as an element of the \hil{completed natural numbers}.
+%      \end{block}
+%    \end{column}
+%  \end{columns}
+  \[
+    \underunbrace{\fmini{0.35\textwidth}{upper semi-continuous \\ functions on~$X$}}_{\text{external}}
+    \xleftrightarrow{\text{1-1 correspondence}}
+    \underunbrace{\fmini{0.4\textwidth}{completed natural numbers}}_{\text{internal}}
+  \]
+  \hspace{-1em}under which the rank function of~$\F$ maps to the \hil{minimal
+  number of \\\hspace{-1em}generators of~$\F$}.
 
   \vfill
 
@@ -460,7 +585,7 @@ University of Augsburg (Germany)}
         \ \\[-1.1em]
         Let~$M$ be a f.\,g. module over a field. Then:
         \begin{enumerate}
-          \item $M$ is free iff its rank is an ordinary natural number.
+          \item $M$ is free iff above number is an ordinary natural number.
           \item $M$ is always not not free.
         \end{enumerate}
       \end{block}
@@ -488,6 +613,16 @@ University of Augsburg (Germany)}
       true, zero would be an element of~$U$, contradicting the minimality of~$z$.
     \end{block}
   }
+
+%  \note{
+%    \begin{block}{Proposition}
+%      If every finitely generated module over a field admits a basis, then the
+%      law of excluded middle hods.
+%    \end{block}
+%
+%    \begin{block}{Proof}
+%      Let~$\varphi$ be an arb
+  % XXX: Stimmt das?
 }
 
 \note{
@@ -500,11 +635,10 @@ University of Augsburg (Germany)}
     of arbitrary inhabited subsets.
   \end{block}
 
-  \begin{block}{External translation}
+  \begin{block}{External translation (see~\cite{mulvey:intalg})}
     Let~$X$ be a topological space and consider the constant sheaf~$N$ with
     $\Gamma(U, N) = \{ f : U \to \NN \,|\ \text{$f$ continuous} \}$.
-    Then there is a 1:1--correspondence:
-
+    Then there is a 1-1 correspondence:
     \begin{enumerate}
       \item Let~$A \hookrightarrow N$ be a subobject which is inhabited
       and upward closed from the internal point of view. Then
@@ -521,16 +655,26 @@ University of Augsburg (Germany)}
   \end{block}
 }
 
+\note{
+  \begin{itemize}
+    \item There is the so-called \emph{negative translation}: To a zeroth
+    approximation, this reads that a formula~$\varphi$ is true classically
+    iff~$\neg\neg\varphi$ is true constructively. (Beware that this is a
+    oversimplification! You can find the exact statement
+    in~\cite{coquand:negative}.)
+  \end{itemize}
+}
+
+
 \section{The gros Zariski topos of a scheme}
 \subsection{Basic look and feel}
 \frame[t]{\frametitle{The gros Zariski topos}
   \begin{block}{Definition}The \hil{gros Zariski topos $\Zar(S)$} of a scheme~$S$ is the
   category $\Sh(\Sch/S)$,
   i.\,e. consists of certain functors
-  \[ (\Sch/S)^\op \longrightarrow \Set. \]
+  $(\Sch/S)^\op \longrightarrow \Set$.
   \end{block}
 
-  \vspace{-1em}
   \begin{block}{Basic look and feel}
   \vspace{-0.5em}
   \begin{itemize}
@@ -539,10 +683,41 @@ University of Augsburg (Germany)}
     \[ \text{the set of points of~$X$}. \]
     \item Internally, $\affl$ (affine line), given by
     \[ \affl : X \longmapsto \Gamma(X, \O_X), \]
-    looks like a field: $\Zar(S) \models \forall x\?\affl\_ x \neq 0
+    looks like a field:\ \ $\Zar(S) \models \forall x\?\affl\_ x \neq 0
     \Longrightarrow \speak{$x$ inv.}$
   \end{itemize}
   \end{block}
+
+  \note{
+    \begin{itemize}
+      \item The overcategory~$\Sch/S$ becomes a Grothendieck site by declaring
+      families of jointly surjective open immersions to be covers. See for
+      instance the excellent Stacks project~\cite{stacks} for details.
+
+      \item Hakim worked out a theory of schemes internal to toposes (but
+      without using the internal language), see~\cite{hakim:rel}.
+
+      \item The internal language of~$\Zar(\Spec A)$ is related to Coquand's
+      program about dynamical methods in algebra,
+      see~\cite{coquand:completeness,coquand:logical,coquand:effective}.
+
+      \item The observation that~$\affl$ is internally a field is due to
+      Kock~\cite{kock:univproj} (in the case~$S = \Spec\ZZ$).
+    \end{itemize}
+  }
+}
+
+\note{
+  \begin{itemize}
+    \item The affine line fulfills the axiom
+      \[ \Zar(S) \models \speak{every function~$\affl \to \affl$ is a
+      polynomial}. \]
+
+      Compare with the axiom of synthetic differential geometry:
+      \[ \text{every function~$\RR \to \RR$ is smooth.} \]
+
+      See~\cite{kock:sdg}.
+  \end{itemize}
 }
 
 
@@ -560,7 +735,7 @@ University of Augsburg (Germany)}
   \end{tabular}
   \vspace{2em}
 
-  \hil{Motto:} Group schemes look like ordinary groups, internally.
+  \hil{Motto:} Internal to~$\Zar(S)$, group schemes look like ordinary groups.
 }
 
 
@@ -597,7 +772,7 @@ University of Augsburg (Germany)}
   \begin{itemize}
     \item being of finite type,
     \item being separated,
-    \item being proper,
+    \item being proper (related work:~\cite{moerdijk:vermeulen:proper}),
     \item \ldots
   \end{itemize}
 
@@ -607,6 +782,8 @@ University of Augsburg (Germany)}
 
   \item Find general transfer principles for statements about~$A$-modules~$M$
   vs.~$\O_{\Spec A}$-modules~$M^\sim$.
+
+  \item Contemplate about using derived methods in the internal setting.
   \end{itemize}
 }
 
@@ -641,6 +818,12 @@ University of Augsburg (Germany)}
     \end{column}
   \end{columns}
 
+  \vfill
+  \begin{center}
+    \small
+    annotated version of these slides: \\
+    \url{http://xrl.us/gaeltopos}
+  \end{center}
 %  \vfill
 %  \begin{block}{Related work}
 %    \begin{itemize}
@@ -651,39 +834,126 @@ University of Augsburg (Germany)}
 %  \end{block}
 }
 
-\frame[t]{\frametitle{References}
-  \begin{itemize}
-    \item \ldots
-  \end{itemize}
+\backupstart
+\frame[t,allowframebreaks]{\frametitle{References}
+  \begin{thebibliography}{18}
+    \setbeamertemplate{bibliography item}[text]
+    %\beamertemplatebookbibitems
+    \bibitem{caramello:bridges}
+      O. Caramello.
+      \newblock {\em The unification of Mathematics via Topos Theory}.
+      \newblock arXiv 1006.3930, 2010.
+
+    %\beamertemplatearticlebibitems
+    \bibitem{coquand:negative}
+      T. Coquand.
+      \newblock Computational content of classical logic.
+      \newblock \emph{Semantics and Logics of Computation}, 33--78, 1997.
+
+    %\beamertemplatearticlebibitems
+    \bibitem{coquand:completeness}
+      T. Coquand.
+      \newblock A completeness proof for geometrical logic.
+      \newblock \emph{Logic, Methodology and Philosophy of Sciences}, 79--90, 2005.
+
+    %\beamertemplatearticlebibitems
+    \bibitem{coquand:logical}
+      T. Coquand and H. Lombardi.
+      \newblock A logical approach to abstract algebra.
+      \newblock \emph{Math. Structures Comput. Sci}, 16(5):885--900, 2006.
+
+    %\beamertemplatearticlebibitems
+    \bibitem{coquand:effective}
+      M. Coste, H. Lombardi and M. F. Roy.
+      \newblock Dynamical methods in algebra: effective Nullstellensätze.
+      \newblock \emph{Ann. Pure Appl. Logic}, 111(3):203--256, 2001.
+
+    %\beamertemplatebookbibitems
+    \bibitem{chapman:rowbottom:relcat}
+      J. Chapman and F. Rowbottom.
+      \newblock {\em Relative Category Theory and Geometric Morphisms: A Logical Approach}.
+      \newblock Clarendon Press, 1992.
+
+    %\beamertemplatebookbibitems
+    \bibitem{hakim:rel}
+      M. Hakim.
+      \newblock {\em Topos annelés et schémas relatifs}.
+      \newblock Springer-Verlag, 1972.
+
+    %\beamertemplatebookbibitems
+    \bibitem{johnstone:elephant}
+      P. T. Johnstone.
+      \newblock {\em Sketches of an Elephant: A Topos Theory Compendium}.
+      \newblock Oxford University Press, 2002.
+
+    %\beamertemplatearticlebibitems
+    \bibitem{kock:univproj}
+      A. Kock.
+      \newblock Universal projective geometry via topos theory.
+      \newblock \emph{J. Pure Appl. Algebra}, 9(1):1--24, 1976.
+
+    %\beamertemplatebookbibitems
+    \bibitem{kock:sdg}
+      A. Kock.
+      \newblock {\em Synthetic Differential Geometry}.
+      \newblock Cambridge University Press, 2006.
+
+    %\beamertemplatebookbibitems
+    \bibitem{moerdijk:maclane:sheaves}
+      S. Mac Lane and I. Moerdijk.
+      \newblock {\em Sheaves in Geometry and Logic: a First Introduction to Topos Theory}.
+      \newblock Springer-Verlag, 1992.
+
+    %\beamertemplatebookbibitems
+    \bibitem{moerdijk:vermeulen:proper}
+      I. Moerdijk and J. J. C. Vermeulen.
+      \newblock {\em Proper maps of toposes}.
+      \newblock American Mathematical Society, 2000.
+
+    %\beamertemplatearticlebibitems
+    \bibitem{mulvey:intalg}
+      C. Mulvey.
+      \newblock Intuitionistic algebra and representations of rings.
+      \newblock \emph{Mem. Amer. Math. Soc.}, 148:3--57, 1974.
+
+    %\beamertemplatearticlebibitems
+    \bibitem{shulman:stack}
+      M. Shulman.
+      \newblock Stack semantics and the comparison of material and structural set theories.
+      \newblock \emph{arXiv} 1004.3802, 2010.
+
+    %\beamertemplatebookbibitems
+    \bibitem{stacks}
+      The Stacks Project Authors.
+      \newblock {\em Stacks Project}.
+      \newblock 2013.
+
+    %\beamertemplatebookbibitems
+    \bibitem{troelstra:dalen:constr}
+      A. S. Troelstra and D. van Dalen.
+      \newblock {\em Constructivism in Mathematics: An Introduction}.
+      \newblock North-Holland Publishing, 1988.
+
+    %\beamertemplatearticlebibitems
+    \bibitem{wraith:int}
+      G. C. Wraith.
+      \newblock Intuitionistic algebra: some recent developments in topos theory.
+      \newblock \emph{Proceedings of ICM}, 1978.
+
+    %\beamertemplatearticlebibitems
+    \bibitem{wraith:galois}
+      G. C. Wraith.
+      \newblock Generic Galois theory of local rings.
+      \newblock \emph{Lecture Notes in Math.}, 753:739--767, 1979.
+  \end{thebibliography}
 }
+\backupend
 
-\appendix
-\subsection{Axioms for the affine line}
-\frame[t]{\frametitle{Axioms for the affine line}
-  \begin{block}{Proposition}
-    $\Zar(S) \models \speak{every function~$\affl \to \affl$ is a polynomial}.$
-  \end{block}
-
-  Compare with the axiom of synthetic differential geometry:
-  \[ \text{every function~$\RR \to \RR$ is smooth.} \]
-}
-
-
-% Coquand dynamical
-% Shulman stack
-% Bridges
-% Mulvey
-% Kock (2x)
-% Moerdijk: proper maps
-% Wraith:
-% http://www.mathunion.org/ICM/ICM1978.1/Main/icm1978.1.0331.0338.ocr.pdf
-% Hakim
-% Elephant
 
 % es fehlt nur noch:
 % quasicompactness
 % qcoh modules
 
-% XXX: min. no. of gen's. vs. rank
+% XXX: Vereinfachungsregeln
 
 \end{document}
