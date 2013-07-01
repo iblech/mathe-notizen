@@ -100,9 +100,9 @@ University of Augsburg (Germany)}
 
 \setbeamertemplate{navigation symbols}{}
 
-\setbeameroption{hide notes}
-%\setbeameroption{show notes}
-%\setbeamertemplate{note page}[plain]
+%\setbeameroption{hide notes}
+\setbeameroption{show notes}
+\setbeamertemplate{note page}[plain]
 
 \defbeamertemplate*{footline}{split theme}
 {%
@@ -152,9 +152,11 @@ University of Augsburg (Germany)}
 \begin{document}
 
 \frame{\titlepage}
-%\frame[t]{\frametitle{Gliederung}\begin{minipage}{\textwidth}\begin{small}\tableofcontents\end{small}\end{minipage}}
 
 \note{
+  % XXX: Blocksatz
+  \begin{center}\large\textbf{Abstract}\end{center}
+
   There are several important topoi associated to a scheme, for instance the
   petit and gros Zariski topoi. These come with an internal mathematical language
   which closely resembles the usual formal language of mathematics, but is ``local
@@ -198,7 +200,12 @@ University of Augsburg (Germany)}
       \item While technically correct, the formal definition is actually
       misleading in a sense: A topos has lots of other vital structure, which
       is crucial for a rounded understanding, but is not listed in the
-      definition, which is trimmed for minimality.
+      definition (which is trimmed for minimality).
+      % XXX: trimmed
+
+      A more comprehensive definition is: A \emph{topos} is a locally cartesian
+      closed, finitely complete and cocomplete Heyting category which is exact,
+      extensive and has a subobject classifier.
 
       A more comprehensive definition is: A \emph{topos} is a locally cartesian
       closed, finitely complete and cocomplete Heyting category which is exact,
@@ -257,7 +264,7 @@ University of Augsburg (Germany)}
   Let~$X$ be a topological space. Then we can recursively define
   \[ U \models \varphi \quad \text{(``$\varphi$ holds on~$U$'')} \]
   for open subsets~$U \subseteq X$ and formulas~$\varphi$.
-  \pause
+% \pause
   \[ \renewcommand{\arraystretch}{1.3}\begin{array}{@{}lcl@{}}
     U \models f = g \? \F &\Ll& f|_U = g|_U \in \Gamma(U, \F) \\
     U \models \varphi \wedge \psi &\Ll&
@@ -291,25 +298,12 @@ University of Augsburg (Germany)}
       and~$\bot$ (truehood resp. falsehood):
       % XXX Begriff truehood!
         \[ \renewcommand{\arraystretch}{1.3}\begin{array}{@{}lcl@{}}
-          U \models \top &\Ll& U = U \\
+          U \models \top &\Ll& U = U \text{ (always fulfilled)}\\
           U \models \bot &\Ll& U = \emptyset
         \end{array} \]
 
       \item Negation is defined as
       \[ \neg\varphi :\equiv (\varphi \Rightarrow \bot). \]
-
-      \item One can extend the language to allow for \emph{unbounded}
-      quantification (think~$\forall a \in A$ vs.~$\forall A$), see Shulman's
-      stack semantics~\cite{shulman:stack}. This is needed to formulate
-      universal properties internal to~$\Sh(X)$, for instance.
-
-      \item One can further extend the language to be able to talk
-      about locally internal categories over~$\Sh(X)$: Then one can do category
-      theory internal to~$\Sh(X)$ using the internal language. (This specific
-      approach is, as far as I am aware, original work. But of course, internal
-      category theory has been done for a long time, see for instance the
-      textbook~\cite{johnstone:elephant}; also
-      cf.~\cite{chapman:rowbottom:relcat}.)
     \end{itemize}
   }
 }
@@ -341,6 +335,42 @@ University of Augsburg (Germany)}
   \end{itemize}
 }
 
+\note{
+  \begin{itemize}
+    \item Similarly, we have (exercise, use the rules!):
+    \begin{align*}
+      &
+        X \models \speak{$\alpha$ is surjective} \\[0.5em]
+      \Longleftrightarrow\ &
+        X \models \forall s\?\G\_ \exists t\?\F\_ \alpha(t) = s \\[0.5em]
+      \Longleftrightarrow\ &
+        \text{$\alpha$ is an epimorphism of sheaves}
+    \end{align*}
+  \end{itemize}
+}
+
+\note{
+  \begin{itemize}
+    \item One can extend the language to allow for \emph{unbounded}
+    quantification (think~$\forall A$ vs.~$\forall a \in A$), see Shulman's
+    stack semantics~\cite{shulman:stack}. This is needed to formulate
+    universal properties internal to~$\Sh(X)$, for instance.
+
+    \item One can further extend the language to be able to talk
+    about locally internal categories over~$\Sh(X)$ (in the sense of
+    Penon~\cite{penon:locint}, see for instance the appendix
+    of~\cite{johnstone:topos}):
+    Then one can do category
+    theory internal to~$\Sh(X)$ using the internal language.
+    
+    This specific
+    approach is, as far as I am aware, original work. But of course, internal
+    category theory has been done for a long time, see for instance the
+    textbook~\cite{johnstone:elephant}; also
+    cf.~\cite{chapman:rowbottom:relcat}.
+  \end{itemize}
+}
+
 \frame[t]{\frametitle{The internal language of~$\Sh(X)$}
   \begin{block}{Crucial properties}
   \vspace{-1em}
@@ -357,6 +387,9 @@ University of Augsburg (Germany)}
     \tabto{1.9cm} then~$U \models \psi$.
   \end{itemize}
   \end{block}
+  \vspace{0.5cm}
+  {\small Note: The internal logic of~$\Sh(X)$ is classical (fulfills the law
+  of excluded middle) iff~$X$ is discrete.}
 
   \vfill
 
@@ -371,41 +404,98 @@ University of Augsburg (Germany)}
       \tabto{3cm} iff~$f = 0$ holds on a dense open subset of~$U$.
   \end{itemize}
   \end{block}
+}
 
-  \note{
+\note{%
+  \vspace{-0.5em}%
+  \begin{center}\large\bf Why is constructive mathematics
+  interesting?\end{center}
+  \vspace{-1em}
+  \begin{itemize}
+    \item The internal logic of most topoi is constructive.
+
+    \item From a constructive proof of a statement, it's always possible to
+    mechanically extract an \emph{algorithm} witnessing its truth. For example:
+    A proof of the infinitude of primes gives rise to an algorithm
+    which actually computes infinitely many primes (outputting one at a
+    time, never stopping).
+
+    \item By the celebrated \emph{Curry--Howard correspondence},
+    constructive truth of a formula is equivalent to the existence of a
+    program of a certain type associated to the formula.
+
+    \item In constructive mathematics, one can experiment with (and draw
+    useful conclusions also holding in a usual sense) \emph{anti-classical
+    dream axioms}, for instance the one of synthetic differential geometry:
+    \begin{quote}All functions~$\RR \to \RR$ are smooth.\end{quote}
+
+    \item Constructive accounts of classical theories are sometimes more
+    elegant or point out some minor but interesting points not recognized from a
+    classical perspective.
+    % XXX: recognized --> wahrgenommen/wertgeschätzt
+
+    \item The philosophical question on the \emph{meaning of truth} is
+    easier to tackle in constructive mathematics.
+  \end{itemize}
+}
+
+\note{
+  \begin{center}\large\bf Three rumours about constructive mathematics\end{center}
+
+  \begin{enumerate}
+    \item There is a false rumour about constructive mathematics, namely that
+    the term \emph{contradiction} is generally forbidden. This is not the
+    case, one has to distinguish between
     \begin{itemize}
-      \item The internal logic of~$\Sh(X)$ is classical (fulfills law of excluded
-      middle) iff~$X$ is discrete.
-
-      \item There is a false rumor about constructive mathematics, namely that
-      the term \emph{contradiction} is generally forbidden. This is not the
-      case, one has to distinguish between
-      \begin{itemize}
-        \item a true proof by contradiction: ``Assume~$\varphi$ were false.
-        Then \ldots, contradiction. So~$\varphi$ is in fact true.''
-      \end{itemize}
-      which constructively is only a proof of the weaker
-      statement~$\neg\neg\varphi$, and
-      \begin{itemize}
-        \item a proof of a negated formula: ``Assume~$\psi$ were true. Then
-        \ldots, contradiction. So~$\neg\psi$ holds.''
-      \end{itemize}
-      which is a perfectly fine in constructive mathematics.
-
-      \item There is a similar rumor that constructive mathematicians \emph{deny}
-      the law of excluded middle. In fact, one can constructively prove that there is no
-      counterexample to the law: For any formula~$\varphi$, it holds
-      that~$\neg\neg(\varphi \vee \neg\varphi)$.
-
-      In constructive mathematics, one merely doesn't \emph{use} the law of
-      excluded middle. (Only in concrete models, for example as provided by the
-      internal universe of the sheaf topos on a non-discrete topological space,
-      the law of excluded middle will actually be refutable.)
-
-      \item See~\cite{troelstra:dalen:constr} for references about constructive
-      mathematics.
+      \item a true proof by contradiction: ``Assume~$\varphi$ were false.
+      Then \ldots, contradiction. So~$\varphi$ is in fact true.''
     \end{itemize}
-  }
+    which constructively is only a proof of the weaker
+    statement~$\neg\neg\varphi$, and
+    \begin{itemize}
+      \item a proof of a negated formula: ``Assume~$\psi$ were true. Then
+      \ldots, contradiction. So~$\neg\psi$ holds.''
+    \end{itemize}
+    which is a perfectly fine in constructive mathematics.
+
+    \item There is a similar rumour that constructive mathematicians \emph{deny}
+    the law of excluded middle. In fact, one can constructively prove that there is no
+    counterexample to the law: For any formula~$\varphi$, it holds
+    that~$\neg\neg(\varphi \vee \neg\varphi)$.
+
+    In constructive mathematics, one merely doesn't \emph{use} the law of
+    excluded middle. (Only in concrete models, for example as provided by the
+    internal universe of the sheaf topos on a non-discrete topological space,
+    the law of excluded middle will actually be refutable.)
+  \end{enumerate}
+}
+
+\note{
+  \begin{enumerate}
+    \item[3.] There is one last false rumour about constructive mathematics: Namely
+    that most of mathematics breaks down in a constructive setting. This is
+    only true if interpreted naively: Often, already very small changes to the
+    definitions and statements (which are classically simply equivalent
+    reformulations) suffice to make them constructively acceptable.
+
+    In other cases, adding an additional hypotheses, which is classically
+    always satisfied, is necessary (and interesting). Here is an example: In
+    constructive mathematics, one can not show that any inhabited subset of the
+    natural numbers possesses a minimal element. [One can also not show the
+    negation -- recall the previous false rumor.] But one can show (quite
+    easily, by induction) that any inhabited and \emph{detachable} subset
+    of the natural numbers possesses a minimal element. A subset~$U \subseteq
+    \NN$ is detachable iff for any number~$n \in \NN$, it holds that~$n
+    \in U$ or~$n \not\in U$.
+
+    This has a computational intepretation: Given an arbitrary subset~$U
+    \subseteq \NN$, one cannot algorithmically find its minimal element. But it
+    \emph{is} possible if one has an algorithmic \emph{test of membership}
+    for~$U$.
+  \end{enumerate}
+
+  See~\cite{stanford:constr,bauer:blog,troelstra:dalen:constr} for references about constructive
+  mathematics.
 }
 
 
@@ -537,6 +627,14 @@ University of Augsburg (Germany)}
 
   \note{
     \begin{itemize}
+      \item We write ``$\Sh(X) \models \ldots$'' instead of~``$X \models
+      \ldots$'' to emphasize the particular topos we're using.
+
+      \item The corner quotes ``$\speak{\ldots}$'' indicate that
+      translation into formal language is left to the reader. For example:
+      \[ \speak{$x$ is invertible} \quad:\equiv\quad
+        \exists y\?\O_X\_ x y = 1. \]
+
       \item The usual definition of a local ring (a nontrivial ring with
       exactly one maximal ideal) is equivalent to the more elementary condition
       given here -- in classical logic. In constructive logic, the latter is
@@ -681,11 +779,43 @@ University of Augsburg (Germany)}
 
 \note{
   \begin{itemize}
+    \item Under the correspondence, locally constant upper-semicontinuous
+    functions map exactly to the ordinary internal natural numbers, i.\,e. the
+    global sections of~$N$.
+
+    \item Here is an explicit example of a completed natural number: Let~$X =
+    \Spec k[X]$ and~$\F = k[X]/(X-a)^\sim$. The rank of~$\F$ is~$1$ at~$a$ and
+    zero otherwise. It corresponds to the internal completed natural number
+    \begin{multline*}
+      \min \{ n \in \NN \,|\, \speak{$\F$ can be generated by~$n$ elements} \} = \\
+        \min\{ n \in \NN \,|\, n \geq 1 \vee \speak{the element $(X-a)$ of~$\O_X$
+        is invertible} \}.
+    \end{multline*}
+  \end{itemize}
+}
+
+\note{
+  \begin{itemize}
+    \item Here is a constructive proof the first cited proposition in
+    linear algebra:
+
+    By assumption, the minimal number~$n \in \NN$ of generators for~$M$ exists.
+    Let~$x_1,\ldots,x_n$ be a generating family. We want to prove it to be
+    linearly independent, so that it constitutes a basis.
+    
+    Let~$\sum_i \lambda_i x_i = 0$. If any~$\lambda_i$
+    were invertible, the shortened family~$x_1,\ldots,x_{i-1},x_{i+1},\ldots,x_n$
+    would also generate~$M$. By minimality of~$m$, this is not possible. So
+    each~$\lambda_i$ is not invertible. By the field assumption on~$A$, it
+    follows that each~$\lambda_i$ is zero.
+
     \item There is the so-called \emph{negative translation}: To a zeroth
-    approximation, this reads that a formula~$\varphi$ is true classically
+    approximation, this says that a formula~$\varphi$ is true classically
     iff~$\neg\neg\varphi$ is true constructively. (Beware that this is a
     oversimplification! You can find the exact statement
-    in~\cite{coquand:negative}.)
+    in~\cite{coquand:negative}.) By classical experience, we can therefore
+    expect the statement \emph{a finitely generated module over a field is not
+    not free} to hold constructively, and a rigorous proof is easy as well.
   \end{itemize}
 }
 
@@ -867,7 +997,26 @@ University of Augsburg (Germany)}
 \frame[t,allowframebreaks]{\frametitle{References}
   \begin{thebibliography}{18}
     \setbeamertemplate{bibliography item}[text]
+    %\beamertemplatearticlebibitems
+    \bibitem{bauer:blog}
+      A. Bauer.
+      \newblock Mathematics and computation (blog).
+      \newblock {\small\url{http://math.andrej.com/category/constructive-math/}}
+
     %\beamertemplatebookbibitems
+    \bibitem{blechschmidt:msc}
+      I. Blechschmidt.
+      \newblock Topostheorie und algebraische Geometrie.
+      \newblock unpublished master's thesis, 2012.
+      \newblock {\small\url{http://xrl.us/gaeltoposmsc}}
+
+    %\beamertemplatearticlebibitems
+    \bibitem{stanford:constr}
+      D. Bridges.
+      \newblock Constructive Mathematics.
+      \newblock {\em The Stanford Encyclopedia of Philosophy}, 2013.
+      \newblock {\small\url{http://plato.stanford.edu/archives/spr2013/entries/mathematics-constructive/}}
+
     \bibitem{caramello:bridges}
       O. Caramello.
       \newblock {\em The unification of Mathematics via Topos Theory}.
@@ -910,6 +1059,12 @@ University of Augsburg (Germany)}
       \newblock Springer-Verlag, 1972.
 
     %\beamertemplatebookbibitems
+    \bibitem{johnstone:topos}
+      P. T. Johnstone.
+      \newblock {\em Topos Theory}.
+      \newblock Academic Press, 1977.
+
+    %\beamertemplatebookbibitems
     \bibitem{johnstone:elephant}
       P. T. Johnstone.
       \newblock {\em Sketches of an Elephant: A Topos Theory Compendium}.
@@ -945,6 +1100,12 @@ University of Augsburg (Germany)}
       \newblock Intuitionistic algebra and representations of rings.
       \newblock \emph{Mem. Amer. Math. Soc.}, 148:3--57, 1974.
 
+    %\beamertemplatearticlebibiems
+    \bibitem{penon:locint}
+      J. Penon.
+      \newblock Catégories localement internes.
+      \newblock \emph{C. R. Acad. Sc. Paris Sér. A}, 278:1577--1580, 1974.
+
     %\beamertemplatearticlebibitems
     \bibitem{shulman:stack}
       M. Shulman.
@@ -976,8 +1137,27 @@ University of Augsburg (Germany)}
       \newblock \emph{Lecture Notes in Math.}, 753:739--767, 1979.
   \end{thebibliography}
 }
+
+\note{
+  In a few days, you will find additional information on:
+  \begin{itemize}
+    \item More examples
+    \item Consequences of the global notions of compactness and irreducibility on the
+    internal universe of the petit Zariski topos
+    \item Simplification rules making the Kripke-Joyal semantics more fun to use
+    \item Understanding the Koszul complex internally
+    \item Consequences of~$\affl$ being a field from the internal perspective:
+    For instance, in the case~$S = \Spec A$, there follows a curious
+    metatheorem: When proving a statement of a certain logical form about a
+    local~$A$-algebra, one may assume that the algebra is in fact a field (even
+    if it is really not!).
+    \item \ldots
+  \end{itemize}
+}
+
 \backupend
 
+\backupend
 
 % es fehlt nur noch:
 % quasicompactness
