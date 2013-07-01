@@ -2,6 +2,8 @@
 
 \usepackage[english]{babel}
 
+\usepackage{ragged2e}
+
 \usepackage{amsmath,amssymb}
 \usepackage{extarrows}
 %\usepackage[framed,amsmath,thmmarks,hyperref]{ntheorem}
@@ -53,6 +55,7 @@
 \newcommand{\Zar}{\mathrm{Zar}}
 \newcommand{\Sch}{\mathrm{Sch}}
 \DeclareMathOperator{\Spec}{Spec}
+\DeclareMathOperator{\colim}{colim}
 \newcommand{\?}{\,{:}\,}
 \renewcommand{\_}{\mathpunct{.}\,}
 \newcommand{\speak}[1]{\ulcorner\text{#1}\urcorner}
@@ -154,9 +157,10 @@ University of Augsburg (Germany)}
 \frame{\titlepage}
 
 \note{
-  % XXX: Blocksatz
   \begin{center}\large\textbf{Abstract}\end{center}
 
+  \begin{changemargin}{0.6em}{0.6em}
+  \justifying
   There are several important topoi associated to a scheme, for instance the
   petit and gros Zariski topoi. These come with an internal mathematical language
   which closely resembles the usual formal language of mathematics, but is ``local
@@ -170,9 +174,12 @@ University of Augsburg (Germany)}
 
   The talk will give an introduction to this topic and show how the internal
   point of view can be exploited to give simpler definitions and more conceptual
-  proofs of the basic notions and observations in algebraic geometry. We will also
+  proofs of the basic notions and observations in algebraic geometry. We~will also
   point out certain unexpected properties of the internal universe, for instance
   that the structure sheaf looks in fact even like a field.
+
+  (This is a report on my master's thesis~\cite{blechschmidt:msc}.)
+  \end{changemargin}
 }
 
 \frame[t]{\frametitle{Outline}\tableofcontents}
@@ -236,7 +243,9 @@ University of Augsburg (Germany)}
       \item Actually, the objects of~$\E$ feel more like \emph{types} instead of \emph{sets}:
       For instance, there is no global membership relation~$\in$. Rather,
       for each object~$A$ of~$\E$, there is a relation~${\in_A} : A \times \P(A) \to
-      \Omega$, where~$\P(A)$ is the power object of~$A$.
+      \Omega$, where~$\P(A)$ is the power object of~$A$ and~$\Omega$ is the
+      object of truth values of~$\E$ (can be understood as the power object of
+      a terminal object).
 
       \item Compare with the embedding theorem for abelian categories:
       There, an explicit embedding into a category of modules is constructed.
@@ -250,9 +259,10 @@ University of Augsburg (Germany)}
       doesn't even have to check linearity. The proof that this approach
       works uses only categorical logic (so ist mostly ``just formal'').
 
-      \item For textbook developments of the internal language,
-      see~\cite{johnstone:elephant}~(chapters~D1 and~D4)
-      and~\cite{moerdijk:maclane:sheaves} (chapter~VI).
+      \item For expositions of the internal language,
+      see the books~\cite{johnstone:elephant}~(chapters~D1 and~D4)
+      and~\cite{moerdijk:maclane:sheaves} (chapter~VI) or the lecture
+      notes~\cite{streicher:ctcl} (chapter~13).
     \end{itemize}
   }
 }
@@ -286,14 +296,15 @@ University of Augsburg (Germany)}
     \begin{itemize}
       \item The rules are called \emph{Kripke-Joyal semantics} and can be
       formulated over any topos (not just sheaf topoi). They are not all
-      arbitrary: Rather, they are very finely adjusted to make the crucial
+      arbitrary: Rather, they are very finely concerted to make the crucial
       properties about the internal language (see next slide) true.
-      % XXX: make true
-      % XXX: finely adjusted (meine: abgestimmt)
+
+      \item We write ``$f:\F$'' instead of~``$f\in\F$'' to remind ourselves
+      that~$\F$ is not really (externally) a set consisting of elements, but
+      that we only pretend this by using the internal language.
 
       \item There are two further rules concerning the constants~$\top$
-      and~$\bot$ (truehood resp. falsehood):
-      % XXX Begriff truehood!
+      and~$\bot$ (truth resp. falsehood):
         \[ \renewcommand{\arraystretch}{1.3}\begin{array}{@{}lcl@{}}
           U \models \top &\Ll& U = U \text{ (always fulfilled)}\\
           U \models \bot &\Ll& U = \emptyset
@@ -348,6 +359,29 @@ University of Augsburg (Germany)}
 
 \note{
   \begin{itemize}
+    \item One can simplify the rules for often-occuring special cases:
+    \[ \renewcommand{\arraystretch}{1.3}\begin{array}{@{}lcl@{}}
+      U \models \forall s\?\F\_ \forall t\?\G\_ \varphi(s,t)
+      &\Longleftrightarrow&
+      \text{for all open~$V \subseteq U$,} \\
+      && \text{sections~$s \in \Gamma(V,\F)$, $t \in \Gamma(V,\G)$:} \\
+      &&\qquad\qquad V \models \varphi(s,t) \\\\
+      U \models \forall s\?\F\_ \varphi(s) \Rightarrow \psi(s)
+      &\Longleftrightarrow&
+      \text{for all open~$V \subseteq U$, sections~$s \in \Gamma(V,\F)$:} \\
+      &&\qquad\qquad \text{$V \models \varphi(s)$ implies $V \models \psi(s)$} \\\\
+      U \models \exists!s\?\F\_ \varphi(s)
+      &\Longleftrightarrow&
+      \text{for all open~$V \subseteq U$,} \\
+      &&
+      \text{there is exactly one section~$s \in \Gamma(V,\F)$ with:} \\
+      &&\qquad\qquad V \models \varphi(s)
+    \end{array} \]
+  \end{itemize}
+}
+
+\note{
+  \begin{itemize}
     \item One can extend the language to allow for \emph{unbounded}
     quantification (think~$\forall A$ vs.~$\forall a \in A$), see Shulman's
     stack semantics~\cite{shulman:stack}. This is needed to formulate
@@ -356,14 +390,12 @@ University of Augsburg (Germany)}
     \item One can further extend the language to be able to talk
     about locally internal categories over~$\Sh(X)$ (in the sense of
     Penon~\cite{penon:locint}, see for instance the appendix
-    of~\cite{johnstone:topos}):
-    Then one can do category
-    theory internal to~$\Sh(X)$ using the internal language.
-    
-    This specific
-    approach is, as far as I am aware, original work. But of course, internal
-    category theory has been done for a long time, see for instance the
-    textbook~\cite{johnstone:elephant}; also
+    of~\cite{johnstone:topos}): Then one can do category theory internal
+    to~$\Sh(X)$ using the internal language, see~\cite{blechschmidt:msc}.
+
+    This specific approach is, as far as I am aware, original work. But of
+    course, internal category theory has been done for a long time, see for
+    instance the textbook~\cite{johnstone:elephant}; also
     cf.~\cite{chapman:rowbottom:relcat}.
   \end{itemize}
 }
@@ -453,7 +485,7 @@ University of Augsburg (Germany)}
       \item a proof of a negated formula: ``Assume~$\psi$ were true. Then
       \ldots, contradiction. So~$\neg\psi$ holds.''
     \end{itemize}
-    which is a perfectly fine in constructive mathematics.
+    which is a perfectly fine proof of~$\neg\psi$ in constructive mathematics.
 
     \item There is a similar rumour that constructive mathematicians \emph{deny}
     the law of excluded middle. In fact, one can constructively prove that there is no
@@ -479,7 +511,7 @@ University of Augsburg (Germany)}
     always satisfied, is necessary (and interesting). Here is an example: In
     constructive mathematics, one can not show that any inhabited subset of the
     natural numbers possesses a minimal element. [One can also not show the
-    negation -- recall the previous false rumor.] But one can show (quite
+    negation -- recall the previous false rumour.] But one can show (quite
     easily, by induction) that any inhabited and \emph{detachable} subset
     of the natural numbers possesses a minimal element. A subset~$U \subseteq
     \NN$ is detachable iff for any number~$n \in \NN$, it holds that~$n
@@ -544,6 +576,23 @@ University of Augsburg (Germany)}
   \hil{Motto:} \tabto{1.2cm} We can understand notions of algebraic geometry as
   \\
   \tabto{1.2cm} notions of linear algebra internal to~$\Sh(X)$.
+
+  \note{
+    \begin{itemize}
+      \item $\F$ is \emph{coherent} iff internally,
+      \begin{multline*}
+        \Sh(X) \models \speak{$\F$ is finitely generated} \mathrel{\wedge} \\
+        \bigwedge_{n \geq 0} \forall f\?\O_X^n\to\F\_
+        \speak{$f$ is~$\O_X$-linear} \Rightarrow
+        \speak{$\ker f$ is finitely generated}.
+      \end{multline*}
+
+      \item It's fruitful to build a \emph{dictionary} between
+      external and corresponding internal notions: After proving an
+      equivalence \emph{once}, it can be used arbitrarily often (see next
+      slide). In this way, much routine work can be avoided.
+    \end{itemize}
+  }
 }
 
 \frame[t]{\frametitle{Proving in the internal universe}
@@ -585,6 +634,11 @@ University of Augsburg (Germany)}
       is no actual \emph{choice} of generators happening (which would require
       the axiom of choice, which is not available in the internal universe):
       One simply uses the elimination rule for the existential quantifier.
+
+      \item Proving basic statements of algebraic geometry by interpreting
+      linear algebra facts in the internal language of the petit Zariski topos
+      is not only simpler than the standard approach, but also more
+      \emph{conceptual}.
     \end{itemize}
   }
 }
@@ -600,6 +654,21 @@ University of Augsburg (Germany)}
 
   \begin{block}{Internal definition}
   $K_X$ is the total quotient ring of~$\O_X$.
+  \end{block}
+}
+
+\note{
+  \begin{center}\large \textbf{Tensor products of sheaves of
+  modules}\end{center}
+
+  \begin{block}{Classical definition}
+    The \hil{tensor product} of~$\O_X$-modules~$\F$, $\G$ is the sheafification
+    of the presheaf
+    \[ U \subseteq X \longmapsto \Gamma(U, \F) \otimes_{\Gamma(U,\O_X)} \Gamma(U, \G). \]
+  \end{block}
+
+  \begin{block}{Internal definition}
+    $\F \otimes_{\O_X} \G$ is the usual tensor product of ordinary modules.
   \end{block}
 }
 
@@ -777,18 +846,33 @@ University of Augsburg (Germany)}
 
 \note{
   \begin{itemize}
-    \item Under the correspondence, locally constant upper-semicontinuous
+    \item Under the correspondence, locally constant
     functions map exactly to the ordinary internal natural numbers, i.\,e. the
     global sections of~$N$.
 
-    \item Here is an explicit example of a completed natural number: Let~$X =
+    \item Here is an explicit example of a completed natural number which is
+    not an ordinary natural number: Let~$X =
     \Spec k[X]$ and~$\F = k[X]/(X-a)^\sim$. The rank of~$\F$ is~$1$ at~$a$ and
     zero otherwise. It corresponds to the internal completed natural number
     \begin{multline*}
-      \min \{ n \in \NN \,|\, \speak{$\F$ can be generated by~$n$ elements} \} = \\
+      z := \min \{ n \in \NN \,|\, \speak{$\F$ can be generated by~$n$ elements} \} = \\
         \min\{ n \in \NN \,|\, n \geq 1 \vee \speak{the element $(X-a)$ of~$\O_X$
         is invertible} \}.
     \end{multline*}
+    We have the internal implications
+    \begin{align*}
+      \Sh(X) \models \phantom{\neg}\,\speak{$(X-a)$ inv.} \Rightarrow z = 0\phantom{,} \\
+      \Sh(X) \models \neg\,\speak{$(X-a)$ inv.} \Rightarrow z = 1,
+    \end{align*}
+    but we do \emph{not} have
+    \begin{align*}
+      \Sh(X) \models \speak{$(X-a)$ inv.} \ \vee\ \neg\,\speak{$(X-a)$ inv.},
+    \end{align*}
+    which would imply
+    \begin{align*}
+      \Sh(X) \models z = 0 \vee z = 1,
+    \end{align*}
+    i.\,e. the false statement that~$\F$ is locally free (of ranks~$0$ and~$1$).
   \end{itemize}
 }
 
@@ -803,7 +887,7 @@ University of Augsburg (Germany)}
     
     Let~$\sum_i \lambda_i x_i = 0$. If any~$\lambda_i$
     were invertible, the shortened family~$x_1,\ldots,x_{i-1},x_{i+1},\ldots,x_n$
-    would also generate~$M$. By minimality of~$m$, this is not possible. So
+    would also generate~$M$. By minimality of~$n$, this is not possible. So
     each~$\lambda_i$ is not invertible. By the field assumption on~$A$, it
     follows that each~$\lambda_i$ is zero.
 
@@ -817,6 +901,51 @@ University of Augsburg (Germany)}
   \end{itemize}
 }
 
+\note{
+  \begin{center}\large\textbf{Quasi-compactness}\end{center}
+
+  \begin{itemize}
+    \item Of course, quasi-compactness is not a local condition: A scheme can
+    be covered by quasi-compact opens without itself being quasi-compact.
+    Therefore there can \emph{not} exist a formula~$\varphi$ such that
+    \[ \Sh(X) \models \varphi \quad\Longleftrightarrow\quad
+      \text{$X$ is quasi-compact,} \]
+    so quasi-compactness can not be characterized by the internal language.
+
+    \item But quasi-compactness of~$X$ has consequences on the meta-properties
+    of the internal language: The scheme~$X$ is quasi-compact iff for any
+    directed set~$I$ and monotone family~$(\varphi_i)_{i \in I}$ of formulas
+    (i.\,e. $\Sh(X) \models \varphi_i \Rightarrow \varphi_j$ for~$i \preceq
+    j$), it holds that
+    \[ \Sh(X) \models \bigvee_{i \in I} \varphi_i
+      \quad\Longrightarrow\quad
+      \text{there exists~$i \in I$ such that $\Sh(X) \models \varphi_i$.} \]
+  \end{itemize}
+}
+
+\note{
+  \begin{block}{Well-known proposition}
+    Let~$I$ be a directed set and~$(\F_i)_{i \in I}$ be a directed family
+    of~$\O_X$-modules. If~$\F := \colim_i \F_i$ is locally of finite type
+    and~$X$ is quasi-compact, then there exists an index~$i \in I$ such that the
+    canonical map~$\F_i \to \F$ is an epimorphism.
+  \end{block}
+
+  \begin{block}{Proof}
+    We have the following theorem of constructive linear algebra:
+    \begin{quote}
+      Let~$I$ be a directed set and~$(M_i)_{i \in I}$ be a directed family 
+      of~$\O_X$-modules. If~$M := \colim_i M_i$ is finitely generated, then it
+      holds that
+      \[ \bigvee_{i \in I} \text{$\F_i \to \F$ is surjective}. \]
+    \end{quote}
+    So the proposition follows from the characterization of quasi-compactness
+    and the observation that the family of formulas
+    \[ \speak{$\F_i \to \F$ is surjective} \]
+    is indeed monotone. (Internal directed colimits coincide with externally
+    calculated ones.)
+  \end{block}
+}
 
 \section{The gros Zariski topos of a scheme}
 \subsection{Basic look and feel}
@@ -861,7 +990,7 @@ University of Augsburg (Germany)}
 
 \note{
   \begin{itemize}
-    \item The affine line fulfills the axiom
+    \item The affine line fulfils the axiom
       \[ \Zar(S) \models \speak{every function~$\affl \to \affl$ is a
       polynomial}. \]
 
@@ -913,6 +1042,15 @@ University of Augsburg (Germany)}
             \operatorname{image}(\ul{p})$'' is open}. \]
     \end{itemize}
   \end{block}
+
+  \note{
+    \begin{itemize}
+      \item A section~$f \in \Gamma(X,\O_X)$ can internally be understood as an
+      element of the set of all maps from~$\ul{X}$ to~$\affl$, because the
+      global sections of the inner hom object~$\mathcal{H}om(\ul{X},\affl)$
+      correspond to the global sections of~$\O_X$.
+    \end{itemize}
+  }
 }
 
 
@@ -993,7 +1131,7 @@ University of Augsburg (Germany)}
 
 \backupstart
 \frame[t,allowframebreaks]{\frametitle{References}
-  \begin{thebibliography}{18}
+  \begin{thebibliography}{[18]}
     \setbeamertemplate{bibliography item}[text]
     %\beamertemplatearticlebibitems
     \bibitem{bauer:blog}
@@ -1116,6 +1254,13 @@ University of Augsburg (Germany)}
       \newblock {\em Stacks Project}.
       \newblock 2013.
 
+    %\beamertemplatearticlebibitems
+    \bibitem{streicher:ctcl}
+      T. Streicher.
+      \newblock Introduction to category theory and categorical logic.
+      \newblock Lecture notes, 2004.
+      \newblock {\scriptsize \url{http://www.mathematik.tu-darmstadt.de/~streicher/CTCL.pdf}}
+
     %\beamertemplatebookbibitems
     \bibitem{troelstra:dalen:constr}
       A. S. Troelstra and D. van Dalen.
@@ -1142,7 +1287,6 @@ University of Augsburg (Germany)}
     \item More examples
     \item Consequences of the global notions of compactness and irreducibility on the
     internal universe of the petit Zariski topos
-    \item Simplification rules making the Kripke-Joyal semantics more fun to use
     \item Understanding the Koszul complex internally
     \item Consequences of~$\affl$ being a field from the internal perspective:
     For instance, in the case~$S = \Spec A$, there follows a curious
@@ -1158,10 +1302,7 @@ University of Augsburg (Germany)}
 \backupend
 
 % es fehlt nur noch:
-% quasicompactness
 % qcoh modules
-
-% XXX: Vereinfachungsregeln
 
 % meine masterarbeit!
 
@@ -1169,6 +1310,5 @@ University of Augsburg (Germany)}
 % über univ. lokalen Ring reden.
 % effective erwähnen, Coquand besser zitieren
 % Koszul!
-% Tensorprodukt
 
 \end{document}
