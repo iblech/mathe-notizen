@@ -577,7 +577,7 @@ University of Augsburg (Germany)}
 %    \twoheadrightarrow \F$ with f.\,g. kernel} \]
 
     \item $\F$ is \hil{locally finitely free} iff internally, it is a finitely free module:
-    \[ \Sh(X) \models \bigvee_{n\geq0} \F \cong \O_X^n \]
+    \[ \Sh(X) \models \bigvee_{n\geq0} \speak{$\F \cong \O_X^n$} \]
 
 %    \item $\F$ is \hil{coherent} iff internally, it is\ldots
 
@@ -855,9 +855,22 @@ University of Augsburg (Germany)}
     of arbitrary inhabited subsets.
   \end{block}
 
+  The embedding $\NN \hookrightarrow \widehat\NN$ is given by
+  \[ n \in \NN \longmapsto {\uparrow}(n) := \{ m \in \NN \,|\, m \geq n \}. \]
+
+  \begin{block}{Proof}
+    If~$M \subseteq \widehat\NN$ is an inhabited subset, its minimum is
+    \[ \min M = \bigcup M \in \widehat\NN. \]
+    The proof of the universal property is left to the reader.
+  \end{block}
+}
+
+\note{
   \begin{block}{External translation (see~\cite{mulvey:intalg})}
     Let~$X$ be a topological space and consider the constant sheaf~$N$ with
     $\Gamma(U, N) = \{ f : U \to \NN \,|\ \text{$f$ continuous} \}$.
+    Internally, the sheaf~$N$ plays the role of the ordinary natural numbers.
+
     Then there is an 1-1 correspondence:
     \begin{enumerate}
       \item Let~$A \hookrightarrow N$ be a subobject which is inhabited
@@ -873,14 +886,14 @@ University of Augsburg (Germany)}
       is a subobject of~$N$ which internally is inhabited and upward closed.
     \end{enumerate}
   \end{block}
+
+  Under the correspondence, locally constant
+  functions map exactly to the [image of the] ordinary internal natural numbers
+  [in the completed natural numbers].
 }
 
 \note{
   \begin{itemize}
-    \item Under the correspondence, locally constant
-    functions map exactly to the ordinary internal natural numbers, i.\,e. the
-    global sections of~$N$.
-
     \item Here is an explicit example of a completed natural number which is
     not an ordinary natural number: Let~$X =
     \Spec k[X]$ and~$\F = k[X]/(X-a)^\sim$. The rank of~$\F$ is~$1$ at~$a$ and
@@ -909,8 +922,8 @@ University of Augsburg (Germany)}
 
 \note{
   \begin{itemize}
-    \item \begin{justify}Here is a constructive proof the first cited proposition in
-    linear algebra:
+    \item \begin{justify}Here is a constructive proof of the first cited
+    proposition in linear algebra:
 
     By assumption, the minimal number~$n \in \NN$ of generators for~$M$ exists.
     Let~$x_1,\ldots,x_n$ be a generating family of minimal length~$n$. We want
@@ -922,17 +935,20 @@ University of Augsburg (Germany)}
     each~$\lambda_i$ is not invertible. By the field assumption on~$A$, it
     follows that each~$\lambda_i$ is zero.\end{justify}
 
-    \item \begin{justify}In constructive mathematics, one can not show that any
-    finitely generated vector space over a field admits a finite basis. This is not because
-    the space might strangely turn out to be infinite-dimensional, but merely
-    because one may not be able to explicitly exhibit a basis.\end{justify}
+    \item \begin{justify}In constructive mathematics, one can not show that
+    every finitely generated vector space over a field admits a finite basis.
+    (Exercise: Proof this by showing that this would imply the law of excluded
+    middle.)
+    This is not because the space might strangely turn out to be
+    infinite-dimensional, but merely because one may not be able to explicitly
+    exhibit a finite basis.\end{justify}
 
     \item \begin{justify}There is the so-called \emph{negative translation}: To a zeroth
     approximation, this says that a formula~$\varphi$ is true classically
     iff~$\neg\neg\varphi$ is true constructively. (Beware that this is a
     oversimplification! You can find the exact statement
     in~\cite{coquand:negative}.) By classical experience, we can therefore
-    expect the statement \emph{a finitely generated module over a field is not
+    expect the statement \emph{a~finitely generated module over a field is not
     not free} to hold constructively, and a rigorous proof is easy as well.\end{justify}
   \end{itemize}
 }
@@ -976,7 +992,7 @@ University of Augsburg (Germany)}
       Let~$I$ be a directed set and~$(M_i)_{i \in I}$ be a directed family 
       of~$\O_X$-modules. If~$M := \colim_i M_i$ is finitely generated, then it
       holds that
-      \[ \bigvee_{i \in I} \text{$\F_i \to \F$ is surjective}. \]
+      \[ \bigvee_{i \in I} \speak{$\F_i \to \F$ is surjective}. \]
     \end{quote}
     So the proposition follows from the characterization of quasi-compactness
     and the observation that the family of formulas
@@ -991,7 +1007,7 @@ University of Augsburg (Germany)}
 \frame[t]{\frametitle{The gros Zariski topos}
   \begin{block}{Definition}The \hil{gros Zariski topos $\Zar(S)$} of a scheme~$S$ is the
   category $\Sh(\Sch/S)$,
-  i.\,e. consists of certain functors
+  i.\,e. it consists of certain functors
   $(\Sch/S)^\op \longrightarrow \Set$.
   \end{block}
 
@@ -1018,30 +1034,41 @@ University of Augsburg (Germany)}
       philosophy of describing schemes by their functors of points into one's
       mathematical language.\end{justify}
 
-      \item \begin{justify}Hakim worked out a theory of schemes internal to toposes (but
-      without using the internal language), see~\cite{hakim:rel}.\end{justify}
+      \item \begin{justify}Explicitly, the functor~$\ul{X}$ is given
+      by~$\ul{X}(T) = \Hom_S(T,X)$ for~$S$-schemes~$T$. Because the Zariski
+      site is \emph{subcanonical}, this functor is always a sheaf.\end{justify}
 
-      \item \begin{justify}The internal language of~$\Zar(\Spec A)$ is related to Coquand's
-      program about dynamical methods in algebra,
-      see~\cite{coquand:completeness,coquand:logical,coquand:effective}.\end{justify}
-
-      \item \begin{justify}The observation that~$\affl$ is internally a field is due to
-      Kock~\cite{kock:univproj} (in the case~$S = \Spec\ZZ$) and implies a
-      curious meta-theorem:
-
-      Because $\Zar(\Spec\ZZ)$ is the \emph{classifying topos} for the theory
-      of local rings, any statement about local rings which is of a certain
-      logical form holds for~$\ul{\AA}^1_{\Spec\ZZ}$ iff it holds for any local
-      ring (in any universe, particularly~$\Set$).
-
-      Therefore, in proving a statement of such a form about arbitrary local
-      rings, one may assume that they even are fields.
-
-      There is a similar story for local~$A$-algebras, see~\cite{anel:fact}.
-      See~\cite{wraith:int} for a short exposition on the usefulness of
-      classifying topoi and universal models.\end{justify}
+      \item \begin{justify}The object~$\ul{S}$ looks like an one-element set
+      from the internal universe. This is to be expected.\end{justify}
     \end{itemize}
   }
+}
+
+\note{
+  \begin{itemize}
+    \item \begin{justify}Hakim worked out a theory of schemes internal to topoi (but
+    without using the internal language), see~\cite{hakim:rel}.\end{justify}
+
+    \item \begin{justify}The internal language of~$\Zar(\Spec A)$ is related to Coquand's
+    program about dynamical methods in algebra,
+    see~\cite{coquand:completeness,coquand:logical,coquand:effective}.\end{justify}
+
+    \item \begin{justify}The observation that~$\affl$ is internally a field is due to
+    Kock~\cite{kock:univproj} (in the case~$S = \Spec\ZZ$) and implies a
+    curious meta-theorem:
+
+    Because $\Zar(\Spec\ZZ)$ is the \emph{classifying topos} for the theory
+    of local rings, any statement about local rings which is of a certain
+    logical form holds for the \emph{universal model}~$\ul{\AA}^1_{\Spec\ZZ}$
+    iff it holds for any local ring (in any universe, particularly~$\Set$).
+
+    Therefore, in proving a statement of such a form about arbitrary local
+    rings, one may assume that they even fulfil the field condition.
+
+    There is a similar story for local~$A$-algebras, see~\cite{anel:fact}.
+    See~\cite{wraith:int} for a short exposition on the usefulness of
+    classifying topoi and universal models.\end{justify}
+  \end{itemize}
 }
 
 \note{
@@ -1066,9 +1093,9 @@ University of Augsburg (Germany)}
     group scheme & internal definition & functor of points: $X \mapsto \ldots$ \\[0.5em]\hline
     && \\[-0.5em]
     $\GG_\text{a}$ & $\affl$ (as additive group) & $\Gamma(X, \O_X)$ \\[0.5em]
-    $\GG_\text{m}$ & $\{ x \? \affl \,|\, \text{$x$ inv.} \}$ & $\Gamma(X, \O_X)^\times$ \\[0.5em]
+    $\GG_\text{m}$ & $\{ x \? \affl \,|\, \speak{$x$ inv.} \}$ & $\Gamma(X, \O_X)^\times$ \\[0.5em]
     $\mu_n$ & $\{ x \? \affl \,|\, x^n = 1 \}$ & $\{ f \in \Gamma(X, \O_X) \,|\, f^n = 1 \}$ \\[0.5em]
-    $\GL_n$ & $\{ M \? \affl^{n \times n} \,|\, \text{$M$ inv.} \}$ & $\GL_n(\Gamma(X, \O_X))$
+    $\GL_n$ & $\{ M \? \affl^{n \times n} \,|\, \speak{$M$ inv.} \}$ & $\GL_n(\Gamma(X, \O_X))$
   \end{tabular}
   \vspace{2em}
 
@@ -1106,6 +1133,9 @@ University of Augsburg (Germany)}
       global sections of the inner hom object~$\mathcal{H}om(\ul{X},\affl)$
       correspond to the global sections of~$\O_X$.\end{justify}
 
+      \item \begin{justify}The morphism~$\ul{p} : \ul{Y} \to \ul{X}$ is given
+      by postcomposition with~$p : Y \to X$.\end{justify}
+
       \item \begin{justify}The notion of \emph{open truth values} is treated in
       synthetic topology, see~\cite{escardo:synth,lesnik:synth}.\end{justify}
     \end{itemize}
@@ -1125,8 +1155,8 @@ University of Augsburg (Germany)}
       \item being proper (related work:~\cite{moerdijk:vermeulen:proper}).
     \end{itemize}
 
-    \item Find interesting and useful properties of the internal language of
-    specific schemes, for instance projective~$n$-space.
+    \item Find interesting and useful structure and properties of the internal
+    universe for specific schemes, for instance projective~$n$-space.
 
     \item Find general transfer principles for statements about~$A$-modules~$M$
     vs.~$\O_{\Spec A}$-modules~$M^\sim$.
