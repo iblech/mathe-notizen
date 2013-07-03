@@ -33,6 +33,14 @@ in U beliebig. Dann u >= m + 1 oder u <= m. Letzteres kann nicht sein.
 Da nicht nicht (m in U oder m nicht in U), folgt die Behauptung!
 
 
+=== Basen endlich erzeugter Vektorräume
+
+Sei U := { x \in Q | x = 0 oder phi }. Betrachte den Q-Vektorraum V := Q / U.
+Dieser ist endlich erzeugt. Wenn er eine Basis besäße, hätte diese entweder
+Länge 0 oder eine positive Länge. Im ersten Fall würde phi folgen, im zweiten
+nicht phi.
+
+
 === Literatur
 
 * The Age of Alternative Logics.
