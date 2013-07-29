@@ -3,3 +3,5 @@
   Vgl. http://arxiv.org/abs/1301.0300.
   * Was sind Punkte von Gal(L|K)?
 * Grothendiecks Galoistheorie?
+* Metatheorem: Gilt phi(x_1,...,x_n), so gilt auch phi(x_1',...,x_n'),
+  wobei die x_i' zu den x_i simultan galoissch konjugiert sind.
