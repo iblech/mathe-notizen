@@ -3,6 +3,34 @@
 * W. D. Gillam. Localization of ringed spaces.
   http://www.math.brown.edu/~wgillam/localizationfinal.pdf
 
+* Myles Tierney. In Algebra, topology and category theory (Ed. Alex Heller): On
+  the spectrum of a ringed topos.
+
+
+=== Spektrum als Lokalisierung an universellem Filter
+
+Def.: Ein Filter F eines Rings A ist eine Teilmenge mit
+1) 1 in F
+2) xy in F  <==>  x, y in F
+3) nicht: 0 in F
+4) x + y in F  ==>  x in F oder y in F
+
+Prop.: A ist ein lokaler Ring <==> A^x ist ein Filter.
+
+Prop.: Sei S saturierte mult. abg. Teilmenge. Dann:
+    S Filter <==> A[S^(-1)] lokal.
+
+Beob.: In X = Spec A habe gamma^*(A). Das ist ein Ring, jedoch nicht unbedingt
+ein lokaler. Ferner habe den universellen Filter F auf gamma^*(A), auf offenen
+Teilmengen definiert durch
+
+    F(U) = { f : U --> A stetig | f(p) \not\in p f.a. p \in U }.
+
+Die Lokalisierung von gamma^*(A) nach diesem Filter liefert gerade O_X.
+
+Achtung: Die Aussage der Beobachtung habe ich nicht bis ins letzte Detail
+überprüft.
+
 
 === Spektrum nichtkommutativer Ringe
 
