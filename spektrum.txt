@@ -1,0 +1,10 @@
+=== Internes Spektrum
+
+* W. D. Gillam. Localization of ringed spaces.
+  http://www.math.brown.edu/~wgillam/localizationfinal.pdf
+
+
+=== Spektrum nichtkommutativer Ringe
+
+* Manuel Reyes. Sheaves that fail to represent matrix rings.
+  http://arxiv.org/pdf/1211.4005.pdf
