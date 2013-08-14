@@ -3,6 +3,9 @@
 * In Andis Paper: http://arxiv.org/pdf/1301.4970v1.pdf
 * Paolo Stellari: http://arxiv.org/pdf/math/0401009v1.pdf
 
+Noch sichten:
+* http://yougotmath.files.wordpress.com/2012/03/kummer-variety.pdf
+
 
 === Originalartikel von Beauville
 
