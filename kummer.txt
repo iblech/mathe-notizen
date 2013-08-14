@@ -1,4 +1,26 @@
 * Michael Britze, On the cohomology of generalized Kummer varietes, 2002:
   http://www.math.uni-bonn.de/people/huybrech/britze.pdf
 * In Andis Paper: http://arxiv.org/pdf/1301.4970v1.pdf
-* Paolo Stellari: ttp://arxiv.org/pdf/math/0401009v1.pdf
+* Paolo Stellari: http://arxiv.org/pdf/math/0401009v1.pdf
+
+
+=== Originalartikel von Beauville
+
+Beauville, Variétés Kähleriennes dont la première classe de Chern est nulle.
+
+Der Artikel von Paolo Stellari verweist hierdrauf für die Konstruktion der
+verallgemeinerten Kummer-Varietät.
+
+
+=== Euler-Charakteristik von verallg. Kummer-Varietäten
+
+Siehe Martin Gulbrandsen, Computer the Euler characteristic of generalized
+Kummer varieties. Habe den Artikel (mit Lücken) bis einschließlich des
+Faserproduktdiagramms auf Seite 53 unten grob nachvollzogen.
+
+
+=== Derivierte Kategorie der gewöhnlichen Kummer-Varietät
+
+Wird im Artikel von Paolo Stellari diskutiert. Dort wird auf den
+Originalartikel [2] von Bridgeland, King und Reid für Details zur
+G-äquivarianten derivierten Kategorie verwiesen.
