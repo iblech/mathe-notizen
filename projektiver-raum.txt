@@ -118,6 +118,28 @@ Andere Idee: Intern als Proj A^1_S[X_0,...,X_n] definieren.
 (Im kleinen Zariskitopos.)
 
 
+=== Projektiver Raum über Ringen
+
+Sei R ein Ring. Dann stehen die Mengen
+
+    Rang-1-Quotienten von R^n modulo Isomorphie
+
+und
+
+    Zeilenvektoren (r_1 ... r_n) mit 1 \in (r_1,...,r_n)
+    modulo Einheiten
+
+in kanonischer Bijektion.
+
+Falls R lokal ist, vereinfacht sich die Bedingung dazu, dass eine der Zahlen
+r_i invertierbar sein muss.
+
+Falls R außerdem sogar nur ein Primideal hat, hat diese Konstruktion sogar
+etwas zu sagen: Denn dann ist Sh(Spec R) ~ Set und daher
+
+    Hom(Spec R, P^n) ~~ { [r_0 ... r_n] | ein r_i invertierbar }.
+
+
 === Nächste Schritte
 
 * Die üblichen wichtigen Garben auf P^n verstehen.

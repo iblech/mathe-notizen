@@ -1,0 +1,13 @@
+Definition: Ein komplexer Torus ist eine komplexe Mannigfaltigkeit,
+die als reelle Mannigfaltigkeit diffeomorph zu einem Torus, also einem
+kartesischen Produkt von S^1'en, ist.
+
+Die Anzahl der Faktoren muss natürlich durch das Doppelte der komplexen
+Dimension gegeben sein.
+
+Beispiel (alle komplexen Tori sind bis auf ??? von dieser Form):
+M := C^n / Lambda, wobei Lambda ein Gitter in C^n ist, also von der
+Form span_Z einer R-Basis von C^n.
+
+Einfachstes Beispiel: n = 1, Lambda = span_Z(1, i). Dann erhält man "den
+kanonischen Torus".

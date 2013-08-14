@@ -1,5 +1,15 @@
 === Endlichkeitseigenschaften von Moduln
 
+* Sei pi : A^n --> M eine zerfallende surjektive lineare Abbildung.
+  Dann ist M ein direkter Summand von pi, ein Iso ist gegeben durch
+
+       A^n  ~~ M + ker pi
+         x |-> (pi(x), x - s pi(x))
+    s(a)+b <-| (a,b),
+
+  und somit ist ker pi endlich erzeugt. Die Abbildung A^n --> ker pi, x |-> x -
+  s(pi(x)) ist (wohldefiniert und) surjektiv.
+
 * Sei phi : M --> A^n eine surjektive lineare Abbildung,
   wobei M endlich erzeugt ist. Dann ist der Kern von phi
   a) ein direkter Summand von M und
