@@ -60,7 +60,7 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 * Sei f : X --> Y eine abgeschlossene Immersion. Dann habe die kurze exakte
   Sequenz
 
-  0 --> I_{X/Y} --> O_Y --> f_* O_X --> 0.
+      0 --> I_{X/Y} --> O_Y --> f_* O_X --> 0.
 
   Der Modul vorne heißt auch /Idealgarbe von f/.
 
@@ -72,6 +72,14 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
   exakt. Die Abbildung vorne ist dabei durch Multiplikation mit x_0 gegeben.
   Also ist O(-1) die Idealgarbe von { P }.
 
+* Nach http://www.math.rice.edu/~hassett/teaching/465spring04/CCAGlec9.pdf:
+  k algebraisch abgeschlossen, p \in k[x_0,...,x_n] homogen vom Grad D > 0 und
+  irreduzibel. Dann ist die Idealgarbe von
+
+      H := { [x_0 : ... : x_n] | p(x_0,...,x_n) = 0 }
+
+  durch O_(P^n)(-D) gegeben.
+
 * Die erste infinitesimale Umgebung von X --> Y ist dasjenige
   Unterschemata von Y, was von I^2 ausgeschnitten wird.
   Hat was mit dem Konormalkomplex zu tun!
@@ -81,7 +89,7 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 
 === Fasern
 
-* Bsp. 10.3.3 in Vakil ("Consider the projection of the // parabola")
+* Bsp. 9.3.3 in Vakil ("Consider the projection of the // parabola")
   erlärt super, wie man Fasern ausrechnet.
 
 
@@ -96,7 +104,7 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
   MP -> M(P) should yield a basis of MP over AP, i.e. that the stalk MP is a
   free module.
 
-* And in fact: If M is a finitely presented R-module it is flat if and only if M
+  And in fact: If M is a finitely presented R-module it is flat if and only if M
   is locally free, i.e. that stalks are free.
 
 

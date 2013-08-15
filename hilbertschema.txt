@@ -1,0 +1,11 @@
+=== Literatur
+
+* Simons Masterarbeit
+* Nakajima
+* Lothar Göttsche. Hilbert schemes: local properties and Hilbert scheme of
+  points. http://users.ictp.it/~gottsche/hilblec.ps.gz
+* http://www.algant.eu/documents/theses/habibi.pdf
+  Orientiert sich an Göttsche im fünften Kapitel, arbeitet aber ein paar Details
+  aus.
+* Lehn. Lectures on Hilbert schemes.
+  http://www.mathematik.uni-mainz.de/Members/lehn/ar/montreal.ps

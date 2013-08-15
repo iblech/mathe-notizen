@@ -38,7 +38,7 @@ Damit ist etwa offensichtlich, dass:
 
 === Totalräume und tautologische Bündel
 
-Auf P(V) := { Rang-1-Quotienten von V } habe das kanonische Bündel
+Auf P(V) := { Rang-1-Quotienten von V } hat das kanonische Bündel
 
     E(1) := { <Q, x \in Q> } --> P(V)
 
@@ -65,13 +65,6 @@ wobei negative Tensorpotenzen durch Dualisieren erklärt sind.
 
           wobei lambda ein beliebiges nicht-null-Element von Q^ bezeichnet.
 
-* So kann man sehen, dass E(-1) nur den Nullschnitt als globalen Schnitt
-  besitzt:
-
-  Sei s : P(V) --> E(-1) Schnitt.
-  Da E(-1) \subset P(V) x V^, erhält man damit eine Abbildung P(V) --> V^.
-  Deren Komponenten P(V) --> k müssen konstant (und dann null) sein.
-
 * Speziell wenn V = W^: Dann gibt es die kürzeren Beschreibungen
     E(1)  = { <l \subseteq W, x \in l^> }
     E(-1) = { <l \subseteq W, x \in l> }.
@@ -84,3 +77,26 @@ wobei negative Tensorpotenzen durch Dualisieren erklärt sind.
   Man kann mit lambda aber auch einen Schnitt von E(1) definieren:
   Nämlich l |--> lambda|_l. Dieser ist überall definiert, hat aber bei den
   Ursprungsgeraden l mit l \subseteq ker(lambda) Nullstellen.
+
+* So kann man sehen, dass E(-1) nur den Nullschnitt als globalen Schnitt
+  besitzt:
+
+  Sei s : P(V) --> E(-1) Schnitt.
+  Da E(-1) \subset P(V) x V^, erhält man damit eine Abbildung P(V) --> V^.
+  Deren Komponenten P(V) --> k müssen konstant (und dann null) sein.
+
+  Für E(1) kann man so nicht argumentieren, und das ist natürlich auch gut so.
+
+
+=== Morphismen zwischen den Twistinggarben
+
+Sei p ein globaler Schnitt von O(m). Dann erhalte einen Morphismus
+
+    O(-m) --> O,
+
+in der internen Sprache einfach durch f |--> f p gegeben, und auf D(X_i) durch
+
+    f |--> f * p(X_0/X_i, ..., X_n/X_i) = f p / X_i^m.
+
+(Diese Teilmorphismen verkleben tatsächlich: f auf D(X_i) wird auf dasselbe
+abgebildet wie f * (X_i/X_j)^(-m) auf D(X_j).

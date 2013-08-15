@@ -8,7 +8,7 @@ Sei k algebraisch abgeschlossen. Dann:
 
 Der letzte Iso ist durch
 
-    phi |--> f = X^n + a_(n-1) X^(n-1) + ... + a_1 X + a_o
+    phi |--> f = X^n + a_(n-1) X^(n-1) + ... + a_1 X + a_0
                   mit a_i = (-1)^(n-i) phi(e_(n-i))
 
 bzw.
@@ -16,7 +16,13 @@ bzw.
     f |--> (p(X_1,...,X_n) |-> p(x_1,...,x_n))
                   mit x_1, ..., x_n den Nullstellen von f
 
-gegeben.
+gegeben. Brauche dafür algebraische Abgeschlossenheit gar nicht: Denn ich setze
+die Nullstellen ja nur in symmetrische Polynome ein. Tatsächlich gilt ja
+einfach
+
+    k[X_1,...,X_n]^(S_n) ~~ k[E_1,...,E_n],
+
+also S^n(A^1) ~~ A^n.
 
 
 === S^n(P^1)
