@@ -150,3 +150,14 @@ definieren, wobei S(U) = { f | f_x ist kein Nullteiler in allen O_x, x \in U }.
 
 Es gilt: Halm K_x = S_x^(-1) O_x, wobei S_x = lim_{x \in U} S(U). Das kann eine
 echte Teilmenge von Quot O_x sein.
+
+
+=== Topologische Räume von Dimension 0
+
+Für topologische Räume von Dimension 0 gilt: Die irreduziblen Komponenten sind
+durch
+
+    cl {x}
+
+für x \in X gegeben. Zwei solche Mengen überlappen nur trivial oder sind
+gleich.

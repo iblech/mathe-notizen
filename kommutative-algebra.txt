@@ -59,6 +59,25 @@ Also: M~ lokal frei <==> M erfüllt (2) <==> M erfüllt (1).
 * Falls M frei von endlichem Rang ist, ist M --> M^^ ein Iso.
 
 
+=== Länge von R-Moduln
+
+Definition: len M = sup { n | ex. U_0 < ... < U_n <= M Kette von Untermoduln }.
+Kann oBdA fordern U_0 = 0, U_n = M.
+
+Beispiele:
+* Falls M Vektorraum über einem Körper: len M = dim M.
+* len M = 0  <==>  M = 0.
+* len M = 1  <==>  M einfach.
+* len R kann unendlich sein, etwa für R = Z.
+
+Proposition: Sei 0 --> M' --> M --> M'' --> 0.
+Dann len M < infty <==> len M', len M'' < infty und
+die Länge verhält sich additiv.
+
+Beispiel: Sei R ein Hauptidealbereich. Dann ist die Länge von R/(a)
+gleich der Gesamtzahl irreduzibler Faktoren in a.
+
+
 === Siehe auch
 
 * http://math.uga.edu/~pete/integral.pdf
