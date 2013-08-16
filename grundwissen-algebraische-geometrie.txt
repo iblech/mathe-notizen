@@ -24,6 +24,13 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 * insbesondere: Spec A = \bigcup_i D(g_i)  <==>  \sum_i g_i invertierbar.
 
 
+=== Rationale Punkte
+
+* Jeder Morphismus Spec K --> X faktorisiert über Spec k(x) --> X,
+  wobei x der eindeutige Punkt im mengentheoretischen Bild bezeichnet.
+  Insbesondere ist K also eine Körpererweiterung von k(x).
+
+
 === Verschwinden von Schnitten
 
 * Sei A ein lokaler Ring mit maximalem Ideal m.

@@ -26,7 +26,29 @@ Garbe Z oder C ist oftmals trivial; Abhilfe: analytische Topologie verwenden
 (oder natürlich bessere Kohomologietheorien). Siehe
 http://www.math.mcgill.ca/goren/SeminarOnCohomology/Sheaf_Cohomology.pdf.
 
-Nächste Schritte:
+
+=== Lange exakte Sequenz für Unterschemata
+
+Sei i : Z --> X eine abgeschlossene Immersion. Dann hat man bekanntermaßen die
+kurze exakte Sequenz
+
+    0 --> I --> O_X --> f_* O_Z --> 0.
+
+Daraus folgt
+
+    0 --> I(X) --> O_X(X) --> O_Z(Z) --> H^1(X, I) --> ...
+
+Wenn X affin ist, verschwindet der H^1-Term und man hat O_Z(Z) = O_X(X) / I(X),
+wie zu erwarten.
+
+Wenn X aber nicht affin in, wäre das eine unsinnige Behauptung. Sei
+beispielsweise Z = V(X_0^2) in P^1. Dann ist der Ring der globalen Schnitte
+durch k[eps]/eps^2 gegeben, und nicht nur ein Quotient des Rings globaler
+Schnitte auf X (welcher nur k ist).
+
+
+=== Nächste Schritte
+
 * Kohomologie von Schemata
 * Was sind interessante Moduln auf Schemata?
 * Was besagt das klassische Resultat für Ext^i auf P^n anschaulich?

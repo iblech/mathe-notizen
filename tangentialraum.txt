@@ -1,0 +1,30 @@
+=== Tangentialvektoren im affinen Raum
+
+Es gilt: Jeder Morphismus
+
+    Spec R[eps]/(eps^2) --> Spec R[X_1,...,X_n]
+
+über Spec R wird gegeben durch
+
+    * einen Punkt (a_1,...,a_n),
+    * eine Richtung (v_1,...,v_n),
+
+sodass der Morphismus auf Ringniveau durch
+
+    f(X_1,...,X_n) |--> f(a_1,...,a_n) + eps * Df(a_1,...,a_n)(v_1,...,v_n)
+                            = f(a + eps * v)
+
+gegeben ist.
+
+
+=== Nächste Schritte
+
+Verstehen, wie die Menge von Morphismen
+
+    Spec k[eps]/(eps^2) --> X,
+
+die über einen vorgebenen Morphismus Spec k --> X faktorisieren, zu einem
+k-Vektorraum wird.
+
+Was gilt im Falle von Punkten, die nicht k-rational sind? Was gilt, wenn das
+Basisschema kein Körper ist?

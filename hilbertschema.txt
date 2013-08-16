@@ -1,3 +1,13 @@
+=== Unterschemata von A^1 der Dimension 0
+
+Sei k algebraisch abgeschlossen. Dann sind die null-dimensionalen Unterschemata
+von A^1_k der Länge n durch Verschwindungsmengen
+
+    V(f),
+
+wobei f ein normiertes Polynom vom Grad n ist, gegeben.
+
+
 === Literatur
 
 * Simons Masterarbeit

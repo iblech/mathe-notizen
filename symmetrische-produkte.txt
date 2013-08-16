@@ -99,3 +99,9 @@ smooth algebraic curve, its n-th symmetric power coincides with the variety of
 all degree n effective divisors on C (that is, we consider n-element subsets of
 C, and then allow points to merge). In a fancier language, we are looking at
 the Hilbert scheme of length n subschemes of C.
+
+
+=== S^2(A^2)
+
+Es gilt: S^2(A^2) ~~ A^2 x Spec k[u,v,w]/(uw - v^2),
+siehe http://www.algant.eu/documents/theses/habibi.pdf.

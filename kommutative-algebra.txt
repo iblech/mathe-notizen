@@ -78,6 +78,19 @@ Beispiel: Sei R ein Hauptidealbereich. Dann ist die Länge von R/(a)
 gleich der Gesamtzahl irreduzibler Faktoren in a.
 
 
+=== Einfache Moduln
+
+Da ich nicht weiß, was eine "gute" Definition von Einfachheit in einem
+konstruktiven Kontext ist, kann ich das Folgende nur klassisch behaupten.
+
+Proposition: Sei M ein einfacher A-Modul. Dann ist M unkanonisch isomorph zu
+A/m für ein maximales Ideal m.
+
+Beweis: Habe ein x in M, x ungleich null. Erhalte A --> M. Erhalte A/ker --> M.
+Muss ein Iso sein. Ferner folgt, dass der Kern schon ein maximales Ideal sein
+muss.
+
+
 === Siehe auch
 
 * http://math.uga.edu/~pete/integral.pdf
