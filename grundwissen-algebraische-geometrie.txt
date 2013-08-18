@@ -168,3 +168,28 @@ durch
 
 für x \in X gegeben. Zwei solche Mengen überlappen nur trivial oder sind
 gleich.
+
+
+=== Motivation für Schemata
+
+Siehe David Mumford, My Introduction to Schemes and Functors.
+http://www.math.jussieu.fr/~leila/grothendieckcircle/Mumford.pdf.
+Redet auch über das Picard-Schema und die Geradenbündel auf Spec k[eps].
+
+
+=== Nullstellensatz
+
+Sei k algebraisch abgeschlossen und M eine Menge von Polynomen aus
+k[X_1,...,X_n]. Dann gilt:
+
+    V(M)_naiv = leer  <==>  1 \in (M).
+
+Damit ist mit V(M)_naiv die gemeinsame Nullstellenmenge gemeint.
+
+Beweis durch folgende Kette äquivalenter Aussagen:
+* V(M)_naiv = leer
+* für alle maximalen Ideale m: M <= m ==> bot  (k alg. abg. und nochwas?)
+* für alle Primideale p: M <= p ==> 1 in p  (Zorn)
+* 1 \in Schnitt über alle Primideale p mit M <= p
+* 1 \in sqrt(M)  (Zorn)
+* 1 \in (M)

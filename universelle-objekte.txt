@@ -1,0 +1,51 @@
+=== Universelle Ringe mit gewissen Eigenschaften
+
+Z ist der universelle Ring für *.
+
+Z[X] ist der universelle Ring für beliebige Ringelemente.
+Universelles Element ist X.
+
+Z[X]/(X^n - 1) ist der universelle Ring für n-te Einheitswurzeln.
+Universelle n-te Einheitswurzel ist [X].
+
+Z[X]/(X^n) klassifiziert nil-n-Elemente.
+
+
+=== Universelles nilpotentes Element
+
+Es kann keinen Ring geben, der den Funktor
+
+    R |--> sqrt(0) in R
+
+kodarstellt. Denn wäre dem so, gäbe es ein universelles nilpotentes Element,
+sodass jedes beliebige nilpotente Element das Bild von diesem unter einem
+geeigneten Ringhomo wäre. Also wäre der Nilpotenzgrad aller nilpotenten Elemente
+gleichmäßig durch den Nilpotenzgrad des universellen Elements beschränkt.
+
+Laut Anton Geraschenko ist dieser Funktor auch nicht durch einen algebraischen
+Raum darstellbar:
+http://mathoverflow.net/questions/11164/what-does-the-nilpotent-cone-represent
+
+Im Übrigen erhält R nicht Limiten: Im unendlichen Produkt
+
+    R[X]/(X^n), n >= 0,
+
+ist das Element (X,X,X,...) nicht nilpotent, obwohl seine Projektionen in jedem
+Faktor nilpotent sind.
+
+
+=== Nächste Schritte
+
+* Was klassifiziert der Potenzreihenring Z[[X]]?
+
+* Für welche Ringe R gilt, dass die Morphismen
+  Z[X_1,...,X_n] --> R gemeinsam injektiv sind? Kann man sich evtl. so
+  einschränken, dass man nicht /alle/ solcher Morphismen benötigt, sondern
+  vielleicht nur die in einer Zariski-dichten Teilmenge?
+  
+  Das ist wichtig für Abkürzerbeweise, wie etwa folgender von Cayley-Hamilton:
+  Wir zeigen, dass p_A(A) = 0 ist, wobei A die generische Matrix (im Ring
+  Z[X_11,...,X_nn]) ist.  Also müssen wir n^2 Polynomidentitäten zeigen. Es
+  genügt, das für alle möglichen komplexen Werte der X_ij zu zeigen. Aus
+  Stetigkeitsgründen genügt es wiederum, nur solche X_ij zu betrachten, sodass
+  die zugehörige Matrix diagonalisierbar ist.

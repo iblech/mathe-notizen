@@ -1,0 +1,159 @@
+=== Coquands generische Primideale
+
+Sei A ein kommutativer Ring. Dann kann ich folgende logische Theorie
+betrachten:
+
+* Ein Typ A.
+* Eine Konstante x für jedes Element aus A.
+{-
+* Gleichheit für Terme vom Typ A.
+* Termkonstruktoren für Addition und Multiplikation.
+* Axiome, sodass A ein Ring wird.
+* Für jeden Term vom Typ A ein entsprechendes Axiom,
+  das Gleichheit mit dem erhaltenen evaluierten Ringelement vorschreibt.
+-}
+* Nur und, oder, top, bot, keine Implikation, keine Quantoren.
+* Ein Prädikat Z(x) für x : A, mit folgenden Axiomen:
+  * top |- Z(0)
+  * Z(1) |- bot
+  * Z(x) & Z(y) |- Z(x + y)
+  * Z(x) |- Z(xy)
+  * Z(xy) |- Z(x) v Z(y)
+
+Dann kann man (konstruktiv) folgendes Metatheorem beweisen:
+
+    Genau dann ist
+        Z(a_1) & ... & Z(a_n) |- Z(b)
+    ableitbar, b im Wurzelideal von (a_1,...,a_n) enthalten ist.
+
+Beweis der Rückrichtung: Trivial.
+
+Beweis der Hinrichtung: Durch Angabe eines semantischen Modells. Und zwar
+wollen wir die Formeln in Rad(A)^op (oder in Rad_fin(A)^op) interpretieren.
+Dabei definieren wir Z(x) := sqrt(x). Dann ist der Nachweis, dass die Axiome
+erfüllt sind, Routine. Nützlich ist I \cap J = sqrt(I * J) für Radikalideale I, J.
+Bedenke, dass top := sqrt(0) und bot := (1). Die Behauptung ist dann klar, denn
+die Interpretation von Z(a_1) & ... & Z(a_n) |- Z(b) ist sqrt(a_1,...,a_n)
+\supset sqrt(b).
+
+
+=== Erweiterung: Variablen
+
+Wir können auch Variablen und den Existenzquantor in der Sprache zulassen. Dann
+benötigt man natürlich Regeln für Gleichheit, Termkonstruktoren für Summe und
+Produkt usw.
+
+Erstaunlicherweise kann man dann noch folgende zwei Axiome hinzufügen:
+
+* top |- Z(x) v [exists y: Z(xy - 1)]
+* top |- exists n. Z(x^n + a_(n-1)x^(n-1) + ... + a_1x + a_0)
+
+Die Interpretation ändert man wie folgt ab: Im Kontext x_1,...,x_n
+werden Formeln als Elemente von Rad_fin(A[X_1,...,X_n])^op interpretiert.
+Die Definition von Z(x) ändert sich nicht. Aber neu eingeführt werden muss die
+Interpretation von "x = y": Diese definiert man als sqrt(x - y).
+Das ist ein Radikalideal in dem jeweiligen A[X_1,...,X_n].
+[ Besser: Auf Gleichheitsformeln verzichten und umformulieren zu Z(x-y). ]
+
+Pullback passiert durch Idealerweiterung. Man kann nachrechnen, dass der
+Pullback der Interpretation von Z(x) (oder x=y) gleich der Interpretation von
+Z(x) (bzw. x=y) im neuen Kontext ist.
+
+Die Doppelregel für den Existenzquantor besagt:
+    I \supseteq J[Y] in A[X_1,...,X_n, Y]
+        <==> I \cap A[X_1,...,X_n] \supseteq J in A[X_1,...,X_n].
+
+Es ist spannend, die Gültigkeit der Interpretationen der Axiome nachzuweisen.
+Dazu muss man zeigen, dass das Ideal
+
+    sqrt(x) \cap { a \in A[X_1,...,X_n] | a \in sqrt(xY-1) }
+
+bzw.
+
+    { a \in A[X_1,...,X_n] | a \in sqrt(Y^n + a_(n-1)Y^(n-1) + ... + a_0) }
+
+gleich dem Nilradikal ist.
+
+
+=== Generischer Filter
+
+Man kann auch ein Prädikat V(x) mit den dualen Axiomen
+
+* V(0) |- bot
+* top |- V(1)
+* V(x + y) |- V(x) v V(y)
+* V(xy) |- V(x)
+* V(x) & V(y) |- V(xy)
+
+betrachten. Zusätzlich kann man an die Axiome
+
+* top |- Z(x) v V(x)
+* Z(x) & V(x) |- bot
+
+denken. Dazu kann man auch wieder ein semantisches Modell angeben, oder einfach
+sehen (Axiome nachrechnen), dass die Setzung
+
+    V(x)  :<==>  exists y. Z(xy - 1)
+
+schon das Gewünschte leistet.
+
+
+=== Vergleich mit klassischem Vorgehen
+
+Nach Zorn genügt es, um nachzuweisen, dass ein Element x nilpotent ist, zu
+zeigen, dass x in jedem Primideal p liegt. Das ist äquivalent dazu, dass x im
+Integritätsbereich A/p null ist; und das ist äquivalent dazu, dass x in
+Quot(A/p) null ist; und das ist wiederum äquivalent dazu, dass x in einem
+algebraischen Abschluss von Quot(A/p) null ist.
+
+Es gilt also folgendes Prinzip, was wegen der Primideale und in schwächerer
+Ausprägung wegen des algebraischen Abschlusses unkonstruktiv ist:
+
+    Genau dann ist x \in A nilpotent, wenn das Bild von x unter allen Ringhomos
+    A --> K, wobei K ein algebraisch abgeschlossener Körper ist, null ist.
+
+Wenn man sich in der Beweisform einschränkt, ist das auch konstruktiv völlig
+okay! Siehe das als eine Art "Regel" an (wie Markovs Regel).
+
+
+=== Topostheoretisches Modell für Coquands "generische Primideale"
+
+Sei A ein Ring. Wähle als Situs nicht Rad(A) wie fürs Spektrum üblich, sondern
+Rad(A)^op bzw. Rad_fin(A)^op. Eine Überdeckung von I ist also etwa durch zwei
+Radikalideale J, K mit I = J \wedge K gegeben.
+
+Dann definiere die Prägarbe P:
+
+    P(I) := I.
+
+Die muss noch garbifiziert werden. Aber moralisch sollte man folgendes haben:
+
+* P sollte aus interner Sicht ein Primideal sein.
+  Etwa gilt tatsächlich: Wenn ab \in P(I), dann a \in P(I + sqrt(a)),
+  b \in P(I + sqrt(b)) und I = (I + sqrt(a)) (I + sqrt(b)).
+
+* Falls [[a \in P]] <= [[b \in P]], dann sollte für alle Radikalideale I
+  gelten: a \in I ==> b \in I.
+
+  Das ist äquivalent mit b \in sqrt(a).
+
+
+=== Zerfällungskörper
+
+Coquand sagt, bzw. ich interpretiere ihn: Sei k ein Körper und A :=
+k[X]/(X^2+1). Sogar wenn k diskret ist, kann man die Irreduzibilitätsfrage in A
+nicht entscheiden (bedenke etwa k = { z \in Q[i] | z \in Q oder phi }). Aber im
+topologischen Modell habe ich zeigen, dass A ein Körper ist.
+
+Der Nachweis ist mir nicht gelungen; vielleicht hat Coquand etwas anderes
+gemeint. Jedenfalls hat es vermutlich Verbindungen zu Marcs ideellen
+Oberkörpern.
+
+
+=== Nächste Schritte
+
+* Coquands Bemerkung zu Zerfällungskörpern verstehen.
+
+* Verstehen, was die Doppelnegationsübersetzung einem bringen würde
+  bzw. wie man sie irgendwie retten kann (naiv geht es nicht, da ich in
+  Rad(A)^op keine Implikation habe!). Bezug zu obigem V/Z!

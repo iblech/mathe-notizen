@@ -56,7 +56,18 @@ Literatur:
 * Cohen, Coquand. A constructive version of Laplace's proof on the existence of complex roots.
 
 
+=== Beispiel: Diskreter Körper, der nicht als faktoriell erkannt werden kann
+
+Sei phi eine beliebige Aussage.
+Sei K = { z \in Q[i] | z \in Q oder phi }.
+Dann ist (X^2+1) reduzibel in K genau dann, wenn phi.
+
+
 === Nächste Schritte
 
 * Coquand "Algebraically closed fields" verstehen, insb. die Anwendung
   zur Berechnung von Zweigen algebraischer Kurven.
+
+* Zeigt Marc, dass es nicht nicht Zerfällungskörper gibt?
+  Wenn ja, wie genau funktioniert der Beweis "K funktoriell ==> K(y)
+  funktoriell"?

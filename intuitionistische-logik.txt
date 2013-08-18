@@ -1,3 +1,76 @@
+=== Ein paar Tautologien
+
+Schreibe -phi := (phi -> r).
+
+* Sei phi entscheidbar. Dann:
+  phi -> psi   <==>   nicht phi oder psi.
+
+  Die Rückrichtung benötigt das Explosionsprinzip für psi!
+
+* Falls man Explosionsprinzip für psi hat, sind in minimaler Logik
+  äquivalent:
+  1) --(phi ==> psi)
+  2) phi ==> --psi
+  3) --phi ==> --psi
+  Dabei sind 2) und 3) sogar stets äquivalent, und 1) ==> 2)/3) folgt auch
+  immer.
+
+* r ==> --phi.
+
+* --r <==> r.
+
+* ---phi <==> -phi.
+
+* --(phi v psi) <==> --(--phi v --psi).
+
+* -(phi v psi) <==> -phi & -psi.
+
+* --(phi & psi) <==> --phi & --psi.
+
+
+=== Doppelnegationsübersetzungen (in minimale Logik)
+
+Habe mindestens folgende Varianten:
+
+* Vor jedem Operator/Quantor jeweils nichtnicht einfügen.
+* Nur vor jedem "oder", jedem "es gibt" und natürlichen den atomaren Formeln
+  jeweils nichtnicht einfügen.
+* "bot" durch "r" ersetzen, direkt nach jedem "forall x" ein nichtnicht
+  einfügen und dann die gesamte Aussage doppelt negieren.
+
+Die ersten beiden sind immer äquivalent. Die dritte ist zu den ersten
+äquivalent, falls ich für atomare Formeln das Explosionsprinzip habe und ich
+für jeden in Existenzquantoren vorkommenden Typ einen Term habe.
+
+Fundamentale Aussage: Gilt phi |- psi klassisch, so gilt phi^0 |- psi^0 in
+minimaler Logik. Insbesondere gilt phi^negneg |- psi^negneg, falls ich "bot"
+habe. In klassischer Logik ist phi^r äquivalent zu (phi v r).
+
+In folgendem Artikel steht, welche übersetzten Aussage von ihren
+Originalfassungen intuitionistisch impliziert werden:
+
+    Hajime Ishihara. A note on the Gödel-Gentzen translation.
+    Math. Log. Quart. 46 (2000) 1, 135--137.
+
+
+=== Friedmans Trick
+
+Definiere top^A = T, bot^A = A, phi^A = phi v A für phi atomar und durch naive
+Rekursion für &,v,-->,forall,exists.
+
+Dann habe: Falls phi |- psi intuitionistisch, dann phi^A |- psi^A
+intuitionistisch; brauche dazu A |- phi^A als Lemma, und dazu muss es für alle
+unter Existenzquantoren vorkommenden Typen Terme geben. Es gibt dann mitunter
+unendlich viele verschiedene Beweise!
+
+Habe phi^A <==> phi v A für (zumindest) all solche Formeln, die sich nur aus
+top, bot, wedge, vee, forall_{<= n}, exists zusammensetzen. Also quasi für
+geometrische Formeln! Es muss wieder Terme für alle existenzquantifizierten
+Typen geben.
+
+Habe (nicht nicht exists x. phi(x))^A ==> exists x. phi(x), falls
+phi(x)^A ==> phi(x) v A.
+
 === AxC ==> LEM
 
 Sei phi eine Aussage.
@@ -27,18 +100,28 @@ Behauptung: Für alle m >= 0 und alle aufwärts-abgeschlossenen Teilmengen U von
 N, die m enthalten gilt: Nicht nicht besitzt U ein Minimum.
 
 Beweis durch Induktion: Induktionsanfang m = 0 klar. Jetzt der Schritt m --> m + 1.
-Kann zeigen: Falls m in U, dann enthält U ein Minimum nach
+Kann zeigen: Falls m in U, dann enthält U nicht nicht ein Minimum nach
 Induktionsvoraussetzung. Falls m nicht in U, dann ist m + 1 das Minimum: Sei u
 in U beliebig. Dann u >= m + 1 oder u <= m. Letzteres kann nicht sein.
-Da nicht nicht (m in U oder m nicht in U), folgt die Behauptung!
+In beiden Fällen folgt also, dass U nicht nicht ein Minimum besitzt.
+Da nicht nicht (m in U oder m nicht in U), folgt die Behauptung! (Wenn man vier
+nichts zu zweien kürzt.)
 
 
 === Basen endlich erzeugter Vektorräume
 
 Sei U := { x \in Q | x = 0 oder phi }. Betrachte den Q-Vektorraum V := Q / U.
-Dieser ist endlich erzeugt. Wenn er eine Basis besäße, hätte diese entweder
+Dieser ist endlich erzeugt. Wenn er eine (endliche) Basis besäße, hätte diese entweder
 Länge 0 oder eine positive Länge. Im ersten Fall würde phi folgen, im zweiten
 nicht phi.
+
+
+=== Limit Computable Mathematics
+
+* Michael Toftdal, Calibration of Ineffective Theorems of Analysis
+  in a Constructive Context. http://www.shayashi.jp/PALCM/toftdal.pdf
+* http://www.shayashi.jp/PALCM/
+* Oleg
 
 
 === Literatur
@@ -49,8 +132,21 @@ nicht phi.
 * Von Andrej Bauer empfohlen:
   http://www.cs.cmu.edu/~fp/courses/15317-f09/index.html
 
+
 === Nächste Schritte
 
 * Doppelnegationsübersetzung verstehen
 
+* Verstehen, wie Olegs Sum-Vorschlag die Doppelnegationsübersetzung
+  ersetzen kann
+
+* CPS von Typen wie "Integer" verstehen
+
 * Zusammenhang zur nicht-nicht-Topologie erkennen
+
+* Vermutung zu Geschichte: Früher haben die Leute durchaus LEM
+  benutzt, aber nur über relativ harmlose Aussagen.
+  Prüfe diese Vermutung, indem du z.B. in Cauchy nachsiehst, wie er den
+  Tigersatz bewiesen hat!
+
+* Bishop lesen! Ist die Bibel, laut Andrej.

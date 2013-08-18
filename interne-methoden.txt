@@ -88,6 +88,14 @@
 
 * Was hat Marc zu internen Dedekindringen gesagt?
 
+* Schema X genau dann lokal von endlicher Präsentation,
+  wenn Hom(__, X) (bestimmte) Limiten bewahrt!
+  Siehe: http://stacks.math.columbia.edu/download/limits.pdf
+
+* Erhalte ich X_red, indem ich O_X/sqrt(0) intern betrachte?
+
+* Richmans "enabling conditions" topostheoretisch verstehen!
+
 
 === math.se-Antwort
 

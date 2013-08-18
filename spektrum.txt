@@ -6,6 +6,42 @@
 * Myles Tierney. In Algebra, topology and category theory (Ed. Alex Heller): On
   the spectrum of a ringed topos.
 
+* Coquand & Co. Spectral schemes as ringed lattices.
+  http://hlombardi.free.fr/publis/schemas.pdf
+
+
+=== Coquands Spektrum
+
+Sei A ein Ring.
+
+Definiere L_A := Rad_fin(A), ist ein distributiver Verband (kein Rahmen).
+Hat die Basis L_A' := { sqrt(f) | f \in A }.
+
+Habe die auf L_A' definierte Garbe
+
+    J |--> A[S_J^(-1)], wobei S_J = { c \in A | J \subseteq sqrt(c) }.
+    (Bemerkung: Falls J = sqrt(f), ist Invertierung an S_J dasselbe wie
+    Invertierung von f.)
+
+Kann diese Garbe auf ganz L_A fortsetzen. Auf diese Weise wird L_A zu einem
+geringten distributiven Verband.
+
+Über Lokalitätsbegriffe spricht Coquand erstmal nicht.
+
+
+=== Duale Algebra der Radikalideale ist kein Rahmen
+
+Beispiel in Z: Das Radikalideal
+
+    Schnitt über alle sqrt(p), p >= 3
+    addiert zu (2)
+
+ist gleich (2) und daher echt kleiner als
+
+    Schnitt über alle (sqrt(p) addiert mit (2)), p >= 3,
+
+was nämlich gleich (1) ist.
+
 
 === Spektrum als Lokalisierung an universellem Filter
 
@@ -36,3 +72,10 @@ Achtung: Die Aussage der Beobachtung habe ich nicht bis ins letzte Detail
 
 * Manuel Reyes. Sheaves that fail to represent matrix rings.
   http://arxiv.org/pdf/1211.4005.pdf
+
+
+=== Quantorenelimination
+
+Hat was mit dem Theorem von Chevelley über Bilder konstruierbarer Mengen zu
+tun. Nächste Schritte: Das verstehen! Siehe etwa französischen Artikel von
+Joyal, Theoreme de Chevalley–Tarski et remarque sur l’algebre constructive.
