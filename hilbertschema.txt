@@ -8,6 +8,14 @@ von A^1_k der Länge n durch Verschwindungsmengen
 wobei f ein normiertes Polynom vom Grad n ist, gegeben.
 
 
+=== Universelle Unterschemata
+
+Habe (A^1)^[n] = A^n. Das universelle Unterschema von (A^1)^[n] x A^1 ist
+gegeben durch
+
+    { (a_0,...,a_(n-1), x) | x^n + a_(n-1) x^(n-1) + ... + a_1 x + a_0 = 0 }.
+
+
 === Literatur
 
 * Simons Masterarbeit
