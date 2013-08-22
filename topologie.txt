@@ -20,19 +20,28 @@ abgeschlossen ist, auch in U abgeschlossen. Die Umkehrung gilt, falls U selbst
 abgeschlossen ist.
 
 Liu (S. 61): Falls X eine algebraische Varietät über einem Körper ist, gilt die
-Umkehrung auch, wenn U offen ist.
+Umkehrung auch, wenn U offen ist. (Algebraische Varietät = Strukturmorphismus
+zu Spec k ist von endlichem Typ.)
 
 
 === Spezialisierung
 
-Sei a ein Punkt im Abschluss von x.
-Dann enthält jede offene Teilmenge, die a enthält, auch x.
+* Sei a ein Punkt im Abschluss von x.
+  Dann enthält jede offene Teilmenge, die a enthält, auch x.
+
+* Sei X ein Schema lokal von endlichem Typ über einem Körper k und U eine
+  offene Umgebung eines Punkts x. Dann gibt es eine affinoffene Umgebung V von x,
+  die ganz in U enthalten ist. Da V nicht leer, gibt es einen Punkt, der in V
+  abgeschlossen ist. Dieser muss dann auch in X abgeschlossen sein.
 
 
 === Offene Eigenschaften
 
 Sei P eine offene Eigenschaft von Punkten eines topologischen Raums X, d.h.
 gilt P an einem Punkt, so gilt P schon an allen Punkten einer offenen Umgebung.
+
+Beispiel: Ist F ein O_X-Modul lokal von endlichem Typ, so ist "rank <= n" eine
+offene Eigenschaft.
 
 Ist X kompakt, so gilt P überall, wenn P an den abgeschlossenen Punkten gilt.
 Denn jeder Punkt enthält einen abgeschlossenen Punkt in seinem Abschluss.
