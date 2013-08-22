@@ -52,6 +52,37 @@ of finite type.
   Minimalzahl benötigter Erzeuger von M gleich der k-Dimension von M/mM.)
 
 
+=== Grade von Schemamorphismen
+
+Sei f : X --> Y ein Morphismus von Schemata.
+
+* Vakil definiert, falls f ein endlicher Morphismus ist:
+
+      Grad von f bei y = rk von f_* O_X bei y = dim_k(y) Gamma(f^(-1)[y]).
+
+* In Liu (S. 176) findet sich, falls X und Y integral, lokal noethersch,
+  f dominant:
+  
+      Vakils Grad >= [K(X) : K(Y)].
+
+  Genau dann gilt "=" für alle y aus f[X], wenn f flach ist.
+
+* Stacks definiert (Kap. morphisms):
+  f heißt finite locally free, falls f affin ist und
+  f_*(O_X) lokal endlich-freier O_Y-Modul ist. Der Grad von f ist dann der Rang
+  von f_*(O_X) (falls dieser global eindeutig ist).
+
+* Laut Stacks sind äquivalent:
+  
+  (1) f finite locally free
+  (2) f endlich, flach und l.v.e.P.
+  (3) (falls Y lokal noethersch) f endlich und flach.
+
+* Mit Vakils Resultat folgt, dass der Grad in folgendem Sinn stabil unter
+  Basiswechsel ist: Sei g' der Basiswechsel von g längs eines Morphismus f.
+  Dann ist der Grad von g' bei y' gleich der Grad von g bei f(y').
+
+
 === Nächste Schritte
 
 * Gibt es zu jeder verallgemeinerten natürlichen Zahl einen Vektorraum

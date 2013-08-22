@@ -39,6 +39,27 @@
   Das sieht man etwa schon an Z_(2) --> Z_(2), z |--> 2z.
 
 
+=== Ganzheit
+
+* Sei A --> B ein Ringhomo. Dann sind äquivalent:
+
+  (1) B endlich über A.
+  (2) B ganz und als Algebra endlich erzeugt über A.
+
+  Beweis:
+  (1) ==> (2): Ganzheit folgt aus Cayley-Hamilton.
+  (2) ==> (1): Brauche wegen Ganzheitsgleichungen nicht beliebige Potenzen der
+  Erzeuger.
+
+* Sei phi : A --> B ein injektiver Ringhomo. Sei x aus A.
+  Sei phi(x) invertierbar und sei phi(x)^(-1) ganz über A.
+  Dann ist ist x auch invertierbar in A.
+
+* Mit Noether-Normalisierung folgt: Sei A endlich erzeugte Algebra über einem
+  Körper k und p ein maximales Ideal in A. Dann ist A/m eine endliche (!)
+  Erweiterung von k.
+
+
 === Zusammenhang zu Vektorbündeln
 
 Prop. (Thm. 7.21 in http://math.uga.edu/~pete/integral.pdf):

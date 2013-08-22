@@ -30,6 +30,28 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
   wobei x der eindeutige Punkt im mengentheoretischen Bild bezeichnet.
   Insbesondere ist K also eine Körpererweiterung von k(x).
 
+* Spec k(x) --> X ist genau dann eine abgeschlossene Immersion,
+  wenn x ein abgeschlossener Punkt von X ist.
+
+* Sei f : X --> Y eine offene oder abgeschlossene Immersion. Sei x in X.
+  Dann ist k(f(x)) --> k(x) ein Iso.
+
+* Sei X ein Schema über k und x ein Punkt von X.
+  Ist k --> k(x) ein Iso, so ist x abgeschlossen.
+
+  Sei X ein Schema lokal von endlichem Typ über k, k algebraisch abgeschlossen,
+  und x ein Punkt von X.
+  Ist x abgeschlossen, so ist k --> k(x) ein Iso.
+  (Denn k(x) ist dann ein Quotient von O_X(U) (für eine geeignete affinoffene
+  Teilmenge U) modulo einem maximalen Ideal und daher eine endliche Erweiterung
+  von k.)
+
+  [Gegenbeispiel, falls k nicht algebraisch abgeschlossen: (X^2 + 1) in A^1_R.]
+
+* Sei X ein Schema über k und x ein Punkt von X.
+  Ist k(x) | k endlich, so ist x abgeschlossen.
+  Ist x abgeschlossen und X lokal von endlichem Typ über k, so ist k(x) | k endlich.
+
 
 === Verschwinden von Schnitten
 

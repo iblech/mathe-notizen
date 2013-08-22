@@ -1,0 +1,38 @@
+=== Abschluss
+
+Sei U \subseteq X ein beliebiger Unterraum, nicht unbedingt offen oder
+abgeschlossen.
+
+Sei M eine Teilmenge von U. Dann gilt:
+
+    clos_U(M) = clos_X(M) \cap U
+
+Falls U abgeschlossen sein sollte, gilt sogar
+
+    clos_U(M) = clos_X(M).
+
+
+=== Abgeschlossene Punkte
+
+Sei U \subseteq X ein beliebiger Unterraum, nicht unbedingt offen oder
+abgeschlossen. Dann ist trivialerweise jeder Punkt aus U, der in X
+abgeschlossen ist, auch in U abgeschlossen. Die Umkehrung gilt, falls U selbst
+abgeschlossen ist.
+
+Liu (S. 61): Falls X eine algebraische Varietät über einem Körper ist, gilt die
+Umkehrung auch, wenn U offen ist.
+
+
+=== Spezialisierung
+
+Sei a ein Punkt im Abschluss von x.
+Dann enthält jede offene Teilmenge, die a enthält, auch x.
+
+
+=== Offene Eigenschaften
+
+Sei P eine offene Eigenschaft von Punkten eines topologischen Raums X, d.h.
+gilt P an einem Punkt, so gilt P schon an allen Punkten einer offenen Umgebung.
+
+Ist X kompakt, so gilt P überall, wenn P an den abgeschlossenen Punkten gilt.
+Denn jeder Punkt enthält einen abgeschlossenen Punkt in seinem Abschluss.

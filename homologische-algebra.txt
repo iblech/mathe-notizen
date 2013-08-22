@@ -8,6 +8,7 @@ Azyklizität.
 
 Hat ein additiver Funktor einen linksexakten Linksadjungierten, so schickt er
 injektive Objekte auf injektive.
+Insbesondere bewahrt der Funktor "|_U", wobei U offen, Injektive.
 
 Eine Kettenhomotopie h zwischen f, g: X --> Y ist dasselbe wie ein Komplexmorphismus
 H: I \otimes X --> Y mit H(s \otimes x) = f(x), H(t \otimes x) = g(x), H(H

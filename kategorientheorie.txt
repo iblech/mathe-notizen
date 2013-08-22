@@ -31,6 +31,16 @@ orthogonality floating around in all of these examples so we have in some sense
 decomposed our category).
 
 
+=== Bewahrung von Monos/Epis bei adjungierter Transponierung
+
+Sei die Notation wie im vorherigen Abschnitt. Erhalte G Monomorphismen. Dann
+gilt: (__)^T erhält genau dann Monomorphismen FX->Y, wenn id_FX^T : X --> GL(X) ein
+Mono ist.
+
+Genauso: Erhalte G Epimorphis,en. Dann gilt: (__)^T erhält genau dann
+Epimorphismen FX->Y, wenn id_FX^T : X --> GL(X) ein Epi ist.
+
+
 === Kofinalität
 
 Def.: Ein Funktor H : D_0 --> D heißt genau dann kofinal, wenn gilt:
