@@ -21,7 +21,7 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 * D(f) \cap D(g) = D(fg)
 * D(f) \subseteq \bigcup_i D(g_i)  <==>  f \in \sqrt{(g_i)_i}
   (für "==>": Zorn!)
-* insbesondere: Spec A = \bigcup_i D(g_i)  <==>  \sum_i g_i invertierbar.
+* insbesondere: Spec A = \bigcup_i D(g_i)  <==>  (g_i)_i = (1).
 
 
 === Rationale Punkte

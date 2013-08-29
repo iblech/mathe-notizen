@@ -49,3 +49,5 @@ Faktor nilpotent sind.
   genügt, das für alle möglichen komplexen Werte der X_ij zu zeigen. Aus
   Stetigkeitsgründen genügt es wiederum, nur solche X_ij zu betrachten, sodass
   die zugehörige Matrix diagonalisierbar ist.
+
+* Gibt es ein universelles nilpotentes Element in einem anderen Topos?
