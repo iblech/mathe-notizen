@@ -1,0 +1,4 @@
+=== Literatur
+
+* Brian Osserman. A pithy look at the Quot, Hilbert, and Hom schemes.
+  https://www.math.ucdavis.edu/~osserman/classes/256B/notes/sem-quot.pdf

@@ -1,6 +1,6 @@
 === S^n(A^1)
 
-Sei k algebraisch abgeschlossen. Dann:
+Habe:
 
     Hom_k(Spec k, S^n(A^1)) ~~
     Hom_k(k[X_1,...,X_n]^(S_n), k) ~~
@@ -16,13 +16,18 @@ bzw.
     f |--> (p(X_1,...,X_n) |-> p(x_1,...,x_n))
                   mit x_1, ..., x_n den Nullstellen von f
 
-gegeben. Brauche dafür algebraische Abgeschlossenheit gar nicht: Denn ich setze
+gegeben. Brauche dafür algebraische Abgeschlossenheit nicht: Denn ich setze
 die Nullstellen ja nur in symmetrische Polynome ein. Tatsächlich gilt ja
 einfach
 
     k[X_1,...,X_n]^(S_n) ~~ k[E_1,...,E_n],
 
 also S^n(A^1) ~~ A^n.
+
+Algebraische Abgeschlossenheit wird nur dann als Voraussetzung benötigt, wenn
+man möchte, dass die k-rationalen Punkte von S^n(A^1) vermöge der kanonischen
+Abbildung in Bijektion zu S^n(A^1(k)), also zur Menge der ungeordneten n-Tupel
+von Punkten aus k^n, stehen.
 
 
 === S^n(P^1)

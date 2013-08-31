@@ -215,3 +215,11 @@ Beweis durch folgende Kette äquivalenter Aussagen:
 * 1 \in Schnitt über alle Primideale p mit M <= p
 * 1 \in sqrt(M)  (Zorn)
 * 1 \in (M)
+
+
+=== Grad und Geschlecht
+
+http://math.la.asu.edu/~paupert/degreegenus.pdf
+Alex Pruss, The Degree-Genus Formula...
+
+http://www.math.utah.edu/~bertram/6030/12Classification.pdf

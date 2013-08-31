@@ -16,6 +16,24 @@ gegeben durch
     { (a_0,...,a_(n-1), x) | x^n + a_(n-1) x^(n-1) + ... + a_1 x + a_0 = 0 }.
 
 
+=== Derivierte Kategorie
+
+Laut [Ploog] sagt [Haiman], dass Hilb_n(X) ~~ S_n-Hilb(X^n).
+
+Falls omega_X ~~ O_X, hat man eine Injektion
+
+    Aut(D^b(X)) --> Aut(D^b(Hilb_n(X))).
+
+Andi beschreibt diese wie folgt: Sei Psi in Aut(D^b(X)). Schreibe P in
+D^b(X x X) für einen Fourier-Mukai-Kern von Psi. Dann trägt Psi^{\box n} in
+D^b(X^n x X^n) eine natürliche S_n-Linearisierung (durch Vertauschung der
+Box-Faktoren). Daher induziert es eine S_n-äquivariante derivierte
+Autoäquivalenz von X^n, also ein Element von Aut(D^b_(S^n)(X^n)). Diese Gruppe
+ist isomorph zu Aut(D^b(X^[n])).
+
+(Achtung: Benötige evtl., dass X Dimension 2 ist.)
+
+
 === Literatur
 
 * Simons Masterarbeit

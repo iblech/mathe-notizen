@@ -1,3 +1,17 @@
+=== Zusammenhang zu perspektivischem Zeichnen
+
+* Motto: Wenn ich durch ein Fenster schaue und auf dem Fenster nachfahre,
+  was ich sehe, dann ist das dasselbe, wie wenn ich die Szenerie nicht als
+  Teilmenge des R^3, sondern als Teilmenge des P^2 betrachte und dann einen
+  affinen Teil ansehe.
+
+* Das Motto ist ziemlich genau halb richtig: Denn damit das stimmt, müssten
+  sich meine Sehstrahlen auch nach hinten erstrecken.
+
+* Horizont?
+
+
+
 === Klassische Definitionen
 
 Ganz klassisch definiert man den projektiven Raum P(V) zu einem Vektorraum V
