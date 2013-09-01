@@ -96,6 +96,10 @@
 
 * Richmans "enabling conditions" topostheoretisch verstehen!
 
+* Klassifikation der Vektorbündel auf P^1 und A^1 intern möglich?
+  (Siehe Vakil 18.5.6.) Könnte etwas mit der Smithschen Normalform zu tun
+  haben.
+
 
 === math.se-Antwort
 
