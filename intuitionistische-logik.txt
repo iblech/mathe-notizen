@@ -52,6 +52,8 @@ Originalfassungen intuitionistisch impliziert werden:
     Hajime Ishihara. A note on the Gödel-Gentzen translation.
     Math. Log. Quart. 46 (2000) 1, 135--137.
 
+Angeblich gilt: --phi <==> phi^r, falls in phi nicht forall, ==> vorkommen.
+
 
 === Friedmans Trick
 
@@ -69,7 +71,8 @@ geometrische Formeln! Es muss wieder Terme für alle existenzquantifizierten
 Typen geben.
 
 Habe (nicht nicht exists x. phi(x))^A ==> exists x. phi(x), falls
-phi(x)^A ==> phi(x) v A.
+phi(x)^A ==> phi(x) v A und A := (exists y. phi(x)).
+
 
 === AxC ==> LEM
 
