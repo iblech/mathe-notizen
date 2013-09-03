@@ -46,7 +46,7 @@ Produkt usw.
 Erstaunlicherweise kann man dann noch folgende zwei Axiome hinzufügen:
 
 * top |- Z(x) v [exists y: Z(xy - 1)]
-* top |- exists n. Z(x^n + a_(n-1)x^(n-1) + ... + a_1x + a_0)
+* top |- exists x. Z(x^n + a_(n-1)x^(n-1) + ... + a_1x + a_0)
 
 Die Interpretation ändert man wie folgt ab: Im Kontext x_1,...,x_n
 werden Formeln als Elemente von Rad_fin(A[X_1,...,X_n])^op interpretiert.
