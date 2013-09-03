@@ -45,3 +45,25 @@ offene Eigenschaft.
 
 Ist X kompakt, so gilt P überall, wenn P an den abgeschlossenen Punkten gilt.
 Denn jeder Punkt enthält einen abgeschlossenen Punkt in seinem Abschluss.
+
+
+=== Irreduzibilität
+
+* Ein topologischer Raum X heißt genau dann irreduzibel, wenn aus X = A cup B
+  mit A, B abgeschlossen folgt, dass A oder B schon ganz X ist. Oft fordert man
+  auch noch, dass X nicht leer ist.
+
+* Äquivalent: Der Schnitt nichtleerer offener Teilmengen ist nichtleer. Ggf. muss
+  man wieder noch dazu fordern, dass X nicht leer ist.
+
+* Nichtleere offene Teilräume von irreduziblen Räumen sind wieder irreduzibel.
+
+* Seien Y und Y' beides abgeschlossene irreduzible Kodimension-1 Unterräume
+  eines Raums X. Sei U eine offene dichte Teilmenge von X.
+  Seien Y cap U und Y' cap U beide nicht leer. Dann gilt VIELLEICHT:
+
+      Y cap U = Y cap U'  ==>  Y = Y'.
+
+  Denn: Sei W = clos(Y cap U). Es ist W abgeschlossen und irreduzibel.
+  Außerdem ist W ebenfalls von Kodimension 1 [stimmt das?].
+  Da W in Y und in Y' liegt, muss W schon gleich Y und Y' sein.

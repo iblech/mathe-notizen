@@ -59,6 +59,20 @@
   Körper k und p ein maximales Ideal in A. Dann ist A/m eine endliche (!)
   Erweiterung von k.
 
+* Sei Z ein Ring und S ein multiplikatives System.
+  Sei Q := Z[S^(-1)].
+  Sei Q --> A ein ganzer Ringhomo.
+  Dann habe den Ring O_A derjenigen Elemente aus A, die eine Ganzheitsgleichung
+  über Z erfüllen. Da jedes Element x aus A von der Form ux/u ist, wobei u ein
+  Element aus S und ux ein Element aus A ist, das ganz über Z ist, ist
+
+      O_A[S^(-1)] --> A
+
+  ein Iso.
+
+  Insbesondere sind also die Quotientenkörper von Ganzheitsringen von endlichen
+  Erweiterungen K von Q wieder gleich K.
+
 
 === Zusammenhang zu Vektorbündeln
 

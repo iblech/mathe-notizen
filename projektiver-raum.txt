@@ -56,6 +56,16 @@ D(f) von P^n. Deren Schnitt mit X_i ist die offene Teilmenge
     D(f(x_0/x_i, ..., x_n/x_i)).
 
 
+=== Funktionenkörper
+
+K(P^n) = rationale Funktionen in X_0,...,X_n, wobei Zähler und Nenner homogen
+vom selben Grad.
+
+K(P^1) ~~ k(T) vermöge f(X,Y)/g(X,Y) |-> f(1,T) bzw. h(T) |-> h(Y/X).
+
+(Was gilt über Grund*ringen*?)
+
+
 === Beschreibung des Punktefunktors
 
 Hom_Z(X, P^n)

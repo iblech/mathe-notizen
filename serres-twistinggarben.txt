@@ -99,4 +99,25 @@ in der internen Sprache einfach durch f |--> f p gegeben, und auf D(X_i) durch
     f |--> f * p(X_0/X_i, ..., X_n/X_i) = f p / X_i^m.
 
 (Diese Teilmorphismen verkleben tatsächlich: f auf D(X_i) wird auf dasselbe
-abgebildet wie f * (X_i/X_j)^(-m) auf D(X_j).
+abgebildet wie f * (X_i/X_j)^(-m) auf D(X_j).)
+
+
+=== Als Geradenbündel eines Divisors
+
+Sei D der Divisor div(x_0), wobei x_0 als globaler Schnitt von O(1) zu sehen
+ist. Explizit kann dieser auf der Überdeckung D(x_i) durch die rationale
+Funktion
+
+    x_0/x_i
+
+gegeben werden.
+
+Dann ist O(D) isomorph zu O(1). Der Isomorphismus sieht so aus:
+
+    O(1) ---> O(D)
+       g |--> g / x_0
+   x_0 h ---| h
+
+Gut erkennbar ist dann auch, wie O(D) bis auf Isomorphie nicht von der Wahl des
+Index "0" in "x_0" abhängt, und dass man allgemeiner sogar jede
+nicht-verschwindende Linearform nehmen kann.

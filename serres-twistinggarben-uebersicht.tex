@@ -1,0 +1,139 @@
+\documentclass[a4paper,ngerman]{scrartcl}
+
+%\usepackage{ucs}
+\usepackage[utf8]{inputenc}
+
+\usepackage[ngerman]{babel}
+
+\usepackage{amsmath,amsthm,amssymb,amscd,color,graphicx}
+
+%\usepackage[small,nohug]{diagrams}
+%\diagramstyle[labelstyle=\scriptstyle]
+
+\usepackage[protrusion=true,expansion=true]{microtype}
+
+\usepackage{lmodern}
+%\usepackage{hyperref}
+
+\setlength\parskip{\medskipamount}
+\setlength\parindent{0pt}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+
+\renewcommand{\O}{\mathcal{O}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\DeclareMathOperator{\Span}{span}
+\DeclareMathOperator{\Spec}{Spec}
+\DeclareMathOperator{\Proj}{Proj}
+\DeclareMathOperator{\Sym}{Sym}
+
+%\newarrow{Equals}=====
+
+%\usepackage{geometry}
+%\geometry{tmargin=2cm,bmargin=4cm,lmargin=3cm,rmargin=3cm}
+
+\begin{document}
+
+\begin{center}\Large\textbf{\textsf{Serres Twistinggarben}}\end{center}
+
+\subsection*{Der richtige projektive Raum}
+
+Sei~$X = \Proj \Sym^\bullet V^\vee$, wobei~$V$ ein endlich-dimensionaler~$k$-Vektorraum
+ist. (\emph{Dieses} Schema, und nicht etwa~$\Proj \Sym^\bullet V$, ist die
+schematheoretische Realisierung des klassischen projektiven Raums von~$V$.)
+
+Dann stiftet jede Ursprungsgerade~$\ell = \Span(x) \subseteq V$ einen
+abgeschlossenen Punkt von~$X$, und zwar den, der zu folgendem homogenen Primideal gehört:
+\[ \mathfrak{p} = \bigoplus_{n \geq 0} \{ f \in \Sym^n V^\vee \,|\, f(x) = 0
+\}. \]
+Dabei ist die Einsetzung~$f(x)$ für den Spezialfall~$f = \vartheta_1 \cdots
+\vartheta_n$, $\vartheta_i \in V^\vee$ durch
+\[ f(x) := \vartheta_1(x) \cdots \vartheta_n(x) \]
+und sonst durch lineare Fortsetzung definiert.
+
+\subsection*{Halm und Faser von~$\O(m)$}
+
+Für die Halm von~$\O(m)$ an diesem Punkt gilt
+\[ \O(m)_\mathfrak{p} \cong
+  \bigoplus_{n \in \ZZ}
+  \left\{ \frac{f}{g} \ \middle|\  f \in \Sym^{n+m} V^\vee,\ g \in \Sym^n V^\vee,\ 
+    g(x) \neq 0 \right\}. \]
+
+Für die Faser von~$\O(-1)$ hat man den Isomorphismus
+\[ \renewcommand{\arraystretch}{1.5}\begin{array}{@{}rcl@{}}
+  \O(-1)|_\mathfrak{p} &\stackrel{\cong}{\longrightarrow}&
+    \ell \\
+  \frac{f}{g} &\longmapsto& \frac{f(x)}{g(x)} \cdot x.
+\end{array} \]
+Der Ausdruck auf der rechten Seite ist wirklich wohldefiniert, d.\,h. hängt
+nicht von der konkreten Wahl des Aufpunkts~$x \in \ell$ ab: Denn~$g$ hat ja
+einen um Eins größeren Grad wie~$f$. Der Ausdruck~$\frac{f(\lambda
+x)}{g(\lambda x)}$ skaliert daher wie~$\lambda^{-1}$. Das gleicht sich mit der
+Multiplikation mit~$x$, das wie~$\lambda^1$ skaliert, gerade aus.
+
+Für die Faser von~$\O(1)$ hat man den Isomorphismus
+\[ \renewcommand{\arraystretch}{1.5}\begin{array}{@{}rcl@{}}
+  \O(1)|_\mathfrak{p} &\stackrel{\cong}{\longrightarrow}&
+    \ell^\vee \\
+  \frac{f}{g} &\longmapsto& (v \in \ell \mapsto \frac{f(v)}{g(v)}).
+\end{array} \]
+Wieder ist der Ausdruck wohldefiniert: Da der Grad von~$f$ um genau Eins höher
+ist wie der von~$g$, ist~$f(v) / g(v)$ linear in~$v$.
+
+Analog gilt für~$m \geq 1$
+\begin{align*}
+  \O(m)|_\mathfrak{p} &\cong (\ell^\vee)^{\otimes m} =: \ell^{\otimes(-m)}, \\
+  \O(-m)|_\mathfrak{p} &\cong \ell^{\otimes m}.
+\end{align*}
+
+\subsection*{$\O(-1)$ vs.~$\O(1)$}
+
+Wie kann man~$\O(-1)$ von seinem Dualen~$\O(1)$ anschaulich voneinander unterscheiden? Das
+differentialtopologische Bild hilft leider nicht (denn das
+differentialtopologische Äquivalent zu~$X$ im Falle~$V = \mathbb{R}^2$ ist der
+Einheitskreis~$S^1$, und dieser besitzt bis auf Isomorphie nur zwei Geradenbündel).
+Es gibt aber durchaus einen fundamentalen Unterschied zwischen den
+beiden~$\O_X$-Moduln (die übrigens beide lokal frei vom Rang~$1$ sind):
+\[ \Gamma(X, \O(-1)) = 0, \quad \Gamma(X, \O(1)) \cong V^\vee. \]
+Die informale Interpretation der ersten Aussage ist: Wenn man nicht einfach nur immer den
+Nullpunkt nehmen möchte, kann man nicht auf stetige Art und Weise einen Punkt aus jeder
+Ursprungsgerade~$\ell \subseteq V$ auswählen.
+
+Die globalen Schnitte von~$\O(1)$ kann man explizit angeben: Ein Funktional~$\theta \in
+V^\vee$ induziert für jede Ursprungsgerade~$\ell \subseteq V$ die
+eingeschränkte lineare Abbildung~$\theta|_\ell \in \ell^\vee \cong
+\O(1)|_\mathfrak{p}$.
+
+\subsection*{Ein Grund, wieso die~$\O(m)$ wichtig sind}
+
+Sei~$x_0,\ldots,x_n$ eine Basis von~$V$ und~$\alpha_0,\ldots,\alpha_n$ die
+zugehörige Dualbasis von~$V^\vee$. (Es gilt dann~$\Sym^\bullet V^\vee =
+k[\alpha_0,\ldots,\alpha_n]$.) Dann ist offensichtlich die Zuordnung
+\[ [a_0:\ldots:a_n] := \Span\Bigl(\sum_i a_i x_i\Bigr) \longmapsto
+  \alpha_j\Bigl(\sum_i a_i x_i\Bigr) = a_j \]
+wichtig, die also einen durch homogene Koordinaten gegebenen Punkt seine~$j$-te
+Koordinate zuordnet. Leider ist sie aber auch nicht wohldefiniert, da die
+Koordinaten ja nur bis auf skalare Vielfache gegeben sind. Wir können
+sie nur verstehen als \emph{verallgemeinerte Funktion} -- als globalen Schnitt
+eines geeigneten Geradenbündels, nämlich als den Schnitt~$\alpha_j \in V^\vee
+\cong \Gamma(X, \O(1))$.
+
+Ein anderes Beispiel: Die Zuordnung
+\[ [a_0:a_1:a_2] \longmapsto a_0^2 + a_0 a_1 + a_2^2 \]
+ist als Funktion nicht wohldefiniert. Wir können sie aber interpretieren als
+globalen Schnitt von~$\O(2)$. Sein Verschwindungsschema wird ein gewisses
+abgeschlossenes Unterschema von~$X$ sein.
+
+\emph{Aufgabe, bei der man viel lernt.} Sei~$V = \mathbb{R}^2$ mit der
+Standardbasis. Die zugehörige Dualbasis ist dann~$\alpha_1 = (1\ 0)$, $\alpha_2
+= (0\ 1)$. Visualisiere den projektiven Raum zu~$V$, also~$\Proj
+\mathbb{R}[\alpha_1,\alpha_2]$, wie in der Übung über die um eins nach oben
+verschobene gestrichelte Linie. Verwende dann die
+Isomorphismen~$\O(-1)|_\mathfrak{p} \cong \ell$, um den Schnitt~$1/\alpha_1$
+von~$\O(-1)$ (der auf~$D_+(\alpha_1)$ definiert ist) zu zeichnen. Beobachte
+genau, wieso der Funktionswert von~$1/\alpha_1$ an der Stelle~$\mathfrak{p}$
+als Element von~$\ell$ wohldefiniert ist, obwohl homogene Koordinaten ja nur
+bis auf skalare Vielfache wohldefiniert sind.
+
+\end{document}
