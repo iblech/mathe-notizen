@@ -11,7 +11,6 @@
 * Horizont?
 
 
-
 === Klassische Definitionen
 
 Ganz klassisch definiert man den projektiven Raum P(V) zu einem Vektorraum V

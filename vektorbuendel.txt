@@ -45,7 +45,7 @@ Basisraum. Beispiele:
   a) direkte Summe: Blockdiagonalmatrix
   b) Tensorprodukt: Tensorprodukt von Matrizen (lin. Abb.)
   c) Determinante: Determinante
-  d) Dual: T_ij vom Dualen = T_ji^transponiert = T_ij(invertiert und transponiert)
+  d) Dual: T_ij vom Dualen = T_ji^transponiert = T_ij^(invertiert und transponiert)
 
 
 === Geradenbündel in interner Sprache

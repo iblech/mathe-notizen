@@ -1,0 +1,43 @@
+=== Cartier-Divisoren
+
+Def.: Ein Cartier-Divisor auf X ist ein globaler Schnitt von K_X^x / O_X^x.
+
+Bem.: Explizit kann ein Cartier-Divisor durch eine offene Überdeckung U_i
+zusammen mit invertierbaren Elementen f_i aus K_X(U_i) gegeben werden, sodass
+f_i/f_j in O_X^x(U_i cap U_j) liegt.
+
+Bem.: Wenn X reduziert ist, kann man sich angeblich (Quelle: Debarre) auf
+integral offene Mengen und nicht-verschwindende rationale Funktionen
+beschränken.
+
+Def.: Ein Cartier-Divisor heißt Hauptdivisor, wenn er im Bild der kanonischen
+Abbildung Gamma(X, K_X^x) --> Gamma(X, K_X^x/O_X^x) liegt.
+
+Def.: Zwei Cartier-Divisoren heißen linear äquivalent, wenn ihr Unterschied ein
+Hauptdivisor ist.
+
+Def.: Ein Cartier-Divisor heißt effektiv, wenn man die f_i's als
+Nichtnullteiler aus O_X(U_i) wählen kann. Die f_i definieren dann ein
+Kodimension-1-Unterschema, dessen Reduktion Träger von D heißt.
+
+
+=== Verbindung zu Geradenbündeln
+
+Sei ein Divisor D durch (U_i, f_i)_i gegeben. Dann kann man ein Geradenbündel
+O(D) definieren.
+
+a) über Übergangsabbildungen: T_ij = f_j / f_i
+
+b) als Untermodul von K_X: O(D)|_Ui = O_X|_Ui-Erzeugnis von 1/f_i
+
+c) in der internen Sprache: { g in K_X | D g in O_X }
+
+
+=== Beispiele auf P^n
+
+    Geradenbündel    Divisor       Träger     effektiv?
+  -------------------------------------------------------
+        O              1            leer          ja
+       O(1)          x_0/x_i       V(x_0)         ja
+       O(2)         (x_0/x_i)^2    V(x_0)         ja
+      O(-1)          x_i/x_0         ---         nein
