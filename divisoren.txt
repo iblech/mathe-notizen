@@ -41,3 +41,9 @@ c) in der internen Sprache: { g in K_X | D g in O_X }
        O(1)          x_0/x_i       V(x_0)         ja
        O(2)         (x_0/x_i)^2    V(x_0)         ja
       O(-1)          x_i/x_0         ---         nein
+
+
+=== Literatur
+
+* Erstes Kapitel Debarre
+* Bonavero: http://www-fourier.ujf-grenoble.fr/~bonavero/articles/ecoledete/lectu9.ps
