@@ -223,3 +223,9 @@ http://math.la.asu.edu/~paupert/degreegenus.pdf
 Alex Pruss, The Degree-Genus Formula...
 
 http://www.math.utah.edu/~bertram/6030/12Classification.pdf
+
+
+=== Umgebungen
+
+Nächste Schritte: Spec O_{X,x} an Beispielen studieren!
+Vervollständigung?

@@ -74,6 +74,17 @@
   Erweiterungen K von Q wieder gleich K.
 
 
+=== Skalareinschränkung und -erweiterung
+
+Sei phi : A --> B ein *surjektiver* Ringhomo.
+
+Sei M ein B-Modul. Dann ist M \otimes_A B kanonisch B-isomorph zu M.
+(So wird vermutlich B-Mod eine volle Unterkategorie von A-Mod.)
+
+Folgendes stimmt aber nicht: Sei N ein A-Modul. Dann ist N \otimes_A B
+kanonisch A-isomorph zu N.
+
+
 === Zusammenhang zu Vektorbündeln
 
 Prop. (Thm. 7.21 in http://math.uga.edu/~pete/integral.pdf):

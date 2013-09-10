@@ -62,6 +62,7 @@ K(P^n) = rationale Funktionen in X_0,...,X_n, wobei Zähler und Nenner homogen
 vom selben Grad.
 
 K(P^1) ~~ k(T) vermöge f(X,Y)/g(X,Y) |-> f(1,T) bzw. h(T) |-> h(Y/X).
+Statt f(1,T) kann man auch f(X,TX) schreiben: Denn das X kürzt sich heraus.
 
 (Was gilt über Grund*ringen*?)
 
