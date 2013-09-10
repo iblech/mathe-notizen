@@ -26,6 +26,7 @@ for(my $phi = 0; $phi < 2*PI; $phi += 2*PI/($ARGV[1] || 100)) {
           $ploty + $t/I * $b * R2 * (-sin($phi)),
           $t/I * $c * R2;
     }
+    print "\n";
   } else {
       my $t = I;
       my $p = $ARGV[2] || 1;
