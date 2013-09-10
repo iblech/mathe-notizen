@@ -113,6 +113,21 @@ Sei F eine Garbe auf X mit supp F = { x0 }. Sei x0 ein abgeschlossener Punkt.
 * F ist kanonisch isomorph zu i_*(F_x0), wobei i : {x0} --> X die kanonische
   abgeschlossene Immersion ist.
 
+* F ist injektiv (und somit flabby, was man auch direkt sehen kann).
+  Denn F_x0 ist als Vektorraum über einem Körper injektiv in k(x0)-Mod.
+  Die Flabbyness kann ich auch einsehen, wenn O_X kein lokaler Ring ist (und
+  man somit nicht Rückzug auf Vektorräume hat).
+
+* Daher verschwindet die höhere Garbenkohomologie von X mit Werten in F.
+  Kann das auch direkt einsehen: Sei F_x0 --> I^* eine injektive Auflösung in
+  O_x0-Mod. Dann ist i_*(F_x0) --> i_*(I^*) eine injektive Auflösung in X.
+  Die Behauptung folgt.
+
+  Korollar: chi(F) = dim_k F_x0. Falls F_x0 die Skalareinschränkung längs
+  O_x0 --> k(x0) eines k(x0)-Vektorraums ist, und ferner k = k(x0) gilt,
+  so ist das gleich der k-Dimension dieses Vektorraums (welcher dann gleich
+  der Faser von F an der Stelle x0 ist).
+
 * Sei L ein O_X-Modul mit L_x0 ~~ O_x0. Dann habe einen Isomorphismus
 
       F \otimes L ---> F,

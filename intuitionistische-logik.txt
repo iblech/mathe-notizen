@@ -127,6 +127,22 @@ nicht phi.
 * Oleg
 
 
+=== "Injektive Objekte" in Set
+
+Potenzmengen sind "injektiv" bezüglich beliebiger injektiver Abbildungen: Ist
+f : A --> B eine beliebige Injektion, so lässt sich jede Abbildung A --> P(M)
+auf B fortsetzen.
+
+Ferner sind die Mengen, die injektiv bezüglich herauslösbarer Injektionen sind,
+gerade die bewohnten Mengen.
+
+
+=== Zerfällungen von Injektionen
+
+Sei iota : A --> B mit pi . iota = id. Wenn B diskret ist, ist A herauslösbar
+in B. Denn "b in A" ist äquivalent zu "iota(pi(b)) = b".
+
+
 === Literatur
 
 * The Age of Alternative Logics.

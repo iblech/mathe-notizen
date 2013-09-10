@@ -37,7 +37,7 @@ Sei die Notation wie im vorherigen Abschnitt. Erhalte G Monomorphismen. Dann
 gilt: (__)^T erhält genau dann Monomorphismen FX->Y, wenn id_FX^T : X --> GL(X) ein
 Mono ist.
 
-Genauso: Erhalte G Epimorphis,en. Dann gilt: (__)^T erhält genau dann
+Genauso: Erhalte G Epimorphismen. Dann gilt: (__)^T erhält genau dann
 Epimorphismen FX->Y, wenn id_FX^T : X --> GL(X) ein Epi ist.
 
 
