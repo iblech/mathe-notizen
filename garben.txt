@@ -42,7 +42,15 @@ Coh(X) rekonstruieren.
    Beispiel: supp(A/p) = V(p) = { q | p \subseteq q }.
    Speziell: supp(A/m) = { m }, wenn m maximal ist.
 
-3) Ist phi: F --> G ein Morphismus, dann:
+3) Falls U cap (supp F) = leer, so ist F(U) = 0.
+
+   Umformulierung der Definition: F_x = 0, falls x nicht in supp F liegt.
+
+4) Der Träger ändert sich unter Garbifizierung nicht.
+
+5) supp(F \otimes G) \subseteq supp(F) \cap supp(G).
+
+6) Ist phi: F --> G ein Morphismus, dann:
    -- { x | phi_x \neq 0 } \subset supp F \cap \supp G.
    -- Wenn phi Mono: supp F \subset supp G.
    -- Wenn phi Epi:  supp F \supset supp G.
@@ -76,6 +84,40 @@ Coh(X) rekonstruieren.
    -- Halme von i_!(F) gleich F_x bzw. gleich 0.
    -- Definiert als die Vergarbung der Prägarbe
           W |--> F(W), falls W \subset U; 0, sonst.
+
+
+=== Wolkenkratzergarben allgemein
+
+Sei F eine Garbe auf X mit supp F = { x0 }. Sei x0 ein abgeschlossener Punkt.
+
+* Jeder Keim s \in F_x0 lässt sich eindeutig zu einem globalen Schnitt,
+  dessen Halm bei x0 gleich s ist, fortsetzen.
+
+  Denn: Die Eindeutigkeitsaussage ist klar (vergleiche Halme!). Zur Existenz
+  finde einen Schnitt s, der auf einer offenen Menge U um x0 definiert ist und
+  den vorgegebenen Keim repräsentiert. Dann lässt sich X durch
+
+      U  und  X \ {x0}
+
+  überdecken (hier geht die Abgeschlossenheit von x0 ein!). Die Schnitte s auf U
+  und der einzige Schnitt auf X\{x0} (der Nullschnitt) verkleben zum gesuchten
+  globalen Schnitt.
+
+* Daher hat man für x0 in U einen kanonischen Isomorphismus
+
+      F(U) ---> F_x0.  (Keim nehmen)
+
+  Dieser ist natürlich in U, in dem Sinn, dass für V \subseteq U die beiden
+  Morphismen F(U) ---> F_x0 übereinstimmen.
+
+* F ist kanonisch isomorph zu i_*(F_x0), wobei i : {x0} --> X die kanonische
+  abgeschlossene Immersion ist.
+
+* Sei L ein O_X-Modul mit L_x0 ~~ O_x0. Dann habe einen Isomorphismus
+
+      F \otimes L ---> F,
+
+  der kanonisch ist modulo Wahl des Isomorphismus L_x0 ~~ O_x0.
 
 
 === Toposstandpunkt
