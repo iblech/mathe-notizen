@@ -20,7 +20,9 @@ Unsortierte Fragen:
 * Verdier-Dualität und Co., siehe Abschnitt 14 von Goresky, Primer on
   Sheaves.
 * Simons Frage von damals: Wann sind X-Interpretationen in Y dasselbe
-  wie umgekehrt?
+  wie umgekehrt? Siehe
+  http://golem.ph.utexas.edu/category/2007/12/a_topos_for_algebraic_quantum.html,
+  "Sheaves of things are these things internal to sheaves.", Elephant D.1.2.14.
 * Finite-Difference Approach to the Hodge Theory of Harmonic Forms
   Lieblingspaper von Eric Forgy (?)
 * http://ncatlab.org/schreiber/show/master+thesis+Stel
