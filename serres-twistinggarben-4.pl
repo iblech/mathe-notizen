@@ -12,37 +12,26 @@ use constant I  => 10;
 
 # Nutze Iso S^1 --> P^1.
 
+my $n = $ARGV[0] || (-1);
+
 for(my $phi = 0; $phi < 2*PI; $phi += 2*PI/($ARGV[1] || 100)) {
   # Homogene Koordinaten entsprechend phi unter dem Iso.
   my $u = cos($phi / 2);
   my $v = sin($phi / 2);
 
   # Dreidimensionaler Vektor, dessen Spann geplottet werden soll.
-
-  # für O(-1):
-  #my $x = $u;
-  #my $y =  0;
-  #my $z = $v;
-
-  # für O(-2):
-  #my $x = $u**2;
-  #my $y = $u*$v;
-  #my $z = $v**2;
-
-  # für O(-3):
-  #my $x = $u**3;
-  #my $y = $u * $v**2;
-  #my $z = $v**3;  #$v**2 * $v;
-
-  # für O(-4):
-  #my $x = $u**4;
-  #my $y = $u * $v**3;
-  #my $z = $v**2 * $v**2;
-
-  # für O(-2):
-  my $x = $u;
-  my $y = 0;
-  my $z = $v;
+  # für O(n):
+  my ($x,$y,$z);
+  if($n < 0) {
+    $x = $u**(-$n);
+    $y = 0;
+    $z = $v**(-$n);
+  } else {
+    $x = $v**$n;
+    $y = 0;
+    $z = $u**$n;
+    die "Unsinn. Das geplottete Bündel ist algebraisch isomorph zu O(-$n).";
+  }
 
   # Faserkoordinatensystem
   my $originx = R1 * cos($phi);
