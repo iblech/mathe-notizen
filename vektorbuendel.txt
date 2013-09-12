@@ -46,6 +46,7 @@ Basisraum. Beispiele:
   b) Tensorprodukt: Tensorprodukt von Matrizen (lin. Abb.)
   c) Determinante: Determinante
   d) Dual: T_ij vom Dualen = T_ji^transponiert = T_ij^(invertiert und transponiert)
+  e) Twist mit O(m): (x_i / x_j)^m * alte Matrix
 
 
 === Geradenbündel in interner Sprache

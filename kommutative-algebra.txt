@@ -39,6 +39,20 @@
   Das sieht man etwa schon an Z_(2) --> Z_(2), z |--> 2z.
 
 
+=== Injektivität und Surjektivität
+
+Sei M eine quadratische Matrix über einem Ring.
+
+* Wenn M als Abbildung surjektiv ist, ist sie auch injektiv.
+  Denn kann ein Rechtsinverses konstruieren; dann folgt aus der
+  Multiplikativität der Determinante, dass det(M) invertierbar ist; und daher
+  kann man das Inverse von M explizit angeben.
+
+* Gilt die Umkehrung, zumindest über lokalen Ringen?
+  Vermutlich nicht, sonst hätte Liu seine Übungsaufgabe 5.1.13 stärker
+  formuliert.
+
+
 === Ganzheit
 
 * Sei A --> B ein Ringhomo. Dann sind äquivalent:

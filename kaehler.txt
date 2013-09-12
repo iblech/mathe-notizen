@@ -32,6 +32,30 @@ Auf P^1 gilt Omega ~~ O(-2), denn die lokalen Schnitte von Omega(2),
 verkleben zu einem globalen Schnitt. Siehe Liu.
 
 
+== Beispiel: Spec k[X,Y]/(f(X,Y))
+
+Sei das Jacobikriterium erfüllt.
+
+Auf D(del_x F) ist Omega^1 durch O_X<dy / del_x F> gegeben,
+auf D(del_y F) ist Omega^1 durch O_X<dx / del_y F> gegeben.
+
+Habe Relation del_x F dx + del_y F dy = 0.
+
+Übergangsabbildung: T_xy = -1.
+
+Kann aber auch als Übergangsabbildung T_xy = 1 erhalten. Dazu nehme als
+Basiselement nicht dx / del_y F, sondern -dx / del_y F.
+
+Omega^1 ist isomorph zu O_X, vermöge
+
+    p dx + q dy |--> p del_y F - del_x F q.
+
+Der Iso in die Rückrichtung ist gegeben durch
+
+    h |--> falls del_x F invertierbar: -h / del_x F dy,
+           falls del_y F invertierbar:  h / del_y F dx.
+
+
 === Nächste Schritte:
 
 * P^1-Beispiel verstehen. Hat es auch eine anschauliche Bedeutung?
