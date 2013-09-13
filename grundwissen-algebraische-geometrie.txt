@@ -24,6 +24,15 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 * insbesondere: Spec A = \bigcup_i D(g_i)  <==>  (g_i)_i = (1).
 
 
+=== Morphismen in affine Schemata
+
+Sei f : X --> Spec A gehörig zu phi : A --> O_X(X). Dann gilt für alle x aus X:
+
+    f(x) = phi_x^(-1)[m_x] = { f in A | phi(f)_x nicht invertierbar in O_{X,x} },
+
+wobei phi_x : A --> O_X(X) --> O_{X,x}.
+
+
 === Rationale Punkte
 
 * Jeder Morphismus Spec K --> X faktorisiert über Spec k(x) --> X,
@@ -51,6 +60,18 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 * Sei X ein Schema über k und x ein Punkt von X.
   Ist k(x) | k endlich, so ist x abgeschlossen.
   Ist x abgeschlossen und X lokal von endlichem Typ über k, so ist k(x) | k endlich.
+
+* Der Funktor Sch/k --> Set, X |--> Hom_k(Spec k, X) ist natürlich nicht treu.
+  Etwa sind die Morphismen
+
+      Spec k[eps]/(eps)^2 --> Spec k[x]
+
+  mit x |-> eps bzw. x |-> 2*eps verschieden (falls char k != 2), aber auf
+  rationalen Punkten gleich.
+
+  Der Funktor ist aber durchaus treu auf der vollen Unterkategorie der
+  reduzierten k-Schemata (wenn k algebraisch abgeschlossen; laut Mumford,
+  Lectures on algebraic curves, Seite 16).
 
 
 === Verschwinden von Schnitten

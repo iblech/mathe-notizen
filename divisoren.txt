@@ -43,6 +43,34 @@ c) in der internen Sprache: { g in K_X | D g in O_X }
       O(-1)          x_i/x_0         ---         nein
 
 
+=== Grade
+
+Liu 3.5: X Kurve über k, D nicht-verschwindender effektiver Cartier-Divisor.
+Dann deg_k D = dim_k H^0(D, O_D), wobei (D, O_D) das abgeschlossene Unterschema
+zur Idealgarbe O_X(-D) --> O_X ist.
+
+
+=== Morphismen X --> P^1
+
+Liu, S. 277 ("Morphisms to P^1_k").
+
+Sei X eine normale Kurve/k und f aus K(X). Dann erhält man einen Morphismus
+
+    pi : X ---> P^1_k
+
+als Verklebung von U --> D(T_0), V --> D(T_1), wobei U = X \ supp (f)_infty,
+V = X \ supp (f)_0.
+
+Kann mir diesen Morphismus als x |--> [Zähler(x) : Nenner(x)] vorstellen.
+(Beweise diese Aussage!)
+
+* deg pi = deg (f)_infty.
+* (1, f) erzeugen O_X(D), wobei D = (f)_infty.
+* X normale, projektive Kurve/k mit f aus K(X) mit (f) = [x_0] - [x_1],
+  zwei verschiedene rationale Punkte. Dann ist der induzierte Morphismus
+  pi : X --> P^1 ein Iso.
+
+
 === Literatur
 
 * Erstes Kapitel Debarre
