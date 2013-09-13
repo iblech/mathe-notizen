@@ -67,3 +67,19 @@ Denn jeder Punkt enthält einen abgeschlossenen Punkt in seinem Abschluss.
   Denn: Sei W = clos(Y cap U). Es ist W abgeschlossen und irreduzibel.
   Außerdem ist W ebenfalls von Kodimension 1 [stimmt das?].
   Da W in Y und in Y' liegt, muss W schon gleich Y und Y' sein.
+
+
+=== Lokale Räume
+
+Ein topologischer Raum (oder eine Locale) heißt genau dann lokal, wenn in jeder
+offenen Überdeckung des Raums eine der Überdeckungsmengen schon gleich dem
+gesamten Raum ist.
+
+* Beispiel: Spec(A) ist genau für A lokal ein lokaler Raum.
+
+* Ist X lokal, so gilt für geometrische Aussagen phi:
+
+      Sh(X) |== phi   gdw.   phi.
+
+  (Beweis durch Induktion über den Formelaufbau; trivial für top, bot, wedge;
+  nach Voraussetzung für vee, exists; falsch für impl und forall.)

@@ -151,6 +151,12 @@ Muss ein Iso sein. Ferner folgt, dass der Kern schon ein maximales Ideal sein
 muss.
 
 
+=== Lokalisierung
+
+* Sei A ein Ring, p ein Primideal und in A. Dann:
+      x regulär in A_p <==> [xy = 0 in A ==> y in p]
+
+
 === Siehe auch
 
 * http://math.uga.edu/~pete/integral.pdf

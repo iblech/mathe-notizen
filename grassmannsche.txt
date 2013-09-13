@@ -1,0 +1,14 @@
+=== Punktefunktor
+
+Gr(r,n):
+
+    X |--> { O^{n+1} --> E | E lokal vom Rang r } / ~~
+
+
+=== Plücker-Einbettung
+
+Gr(r,n) --> P^N gegeben durch
+
+    (O^(n+1) --> E) |--> (Lambda^r O^(n+1) --> Lambda^r E).
+
+Siehe Mumford, Lectures on curves on algebraic surfaces, Seite 32f.

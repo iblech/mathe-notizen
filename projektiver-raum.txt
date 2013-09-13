@@ -163,6 +163,16 @@ etwas zu sagen: Denn dann ist Sh(Spec R) ~ Set und daher
 
     Hom(Spec R, P^n) ~~ { [r_0 ... r_n] | ein r_i invertierbar }.
 
+Mumford (in Lectures on curves on algebraic surfaces) sagt sogar, dass diese
+Isomorphie auch dann gilt, wenn R ein lokaler Ring mit mehr als einem Primideal
+ist. Das ist aus folgendem Grund so:
+
+    Ein Geradenbündel ist ein O_X-Modul, der lokal isomorph zu O_X ist. Wegen
+    der Lokalität von X folgt aus lokaler Isomorphie schon globale. Also gibt
+    es bis auf Isomorphie nur ein Geradenbündel, O_X selbst.
+    Globale Schnitte r_0, ..., r_n von O_X sind einfach Elemente von R; genau
+    dann gilt \bigcup D(r_i) = X, wenn ein r_i invertierbar ist.
+
 
 === Nächste Schritte
 

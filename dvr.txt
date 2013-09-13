@@ -1,0 +1,20 @@
+=== Topologisch
+
+Sei X = Spec(A), A ein diskreter Bewertungsring mit Quotientenkörper K. Dann
+gibt es genau zwei nichtleere offene Mengen in X:
+
+* der gesamte Raum
+* die Menge, die nur den generischen Punkt enthält
+
+
+=== Quasikohärente Moduln
+
+Daher ist ein quasikohärenter Modul F auf X gegeben durch
+
+* einen A-Modul F(X),
+* einen K-Vektorraum F(xi),
+* einer A-linearen Abbildung F(X) --> F(xi)
+
+sodass
+
+* F(xi) ~~ F(X) \otimes_A K.

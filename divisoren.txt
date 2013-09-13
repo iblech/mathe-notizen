@@ -20,6 +20,10 @@ Def.: Ein Cartier-Divisor heißt effektiv, wenn man die f_i's als
 Nichtnullteiler aus O_X(U_i) wählen kann. Die f_i definieren dann ein
 Kodimension-1-Unterschema, dessen Reduktion Träger von D heißt.
 
+Bem.: (Mumford, Lectures on curves on algebraic surfaces) Wenn X irreduzibel,
+normal und noethersch ist, dann ist K_X die konstante Garbe zum Halm O_{X,xi},
+wobei xi den generischen Punkt von X bezeichnet. Stimmt das?
+
 
 === Verbindung zu Geradenbündeln
 

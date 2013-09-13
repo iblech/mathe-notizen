@@ -34,9 +34,32 @@ ist das Element (X,X,X,...) nicht nilpotent, obwohl seine Projektionen in jedem
 Faktor nilpotent sind.
 
 
+=== Universelle Potenzreihe
+
+Der Funktor
+
+    R |--> R[[T]]
+
+ist durch Z[A_0, A_1, ...] kodarstellbar. (Gefunden in Mumford, Lectures on
+curves on algebraic surfaces, Bonuskapitel.)
+
+
+=== Universelles Polynom
+
+Der Funktor
+
+    R |--> R[T]
+
+ist nicht kodarstellbar. Sonst wäre der Grad aller Polynome durch eine
+universelle Konstante nach oben beschränkt.
+
+Zumindest ist der Funktor R |--> R[T]/(T^n) kodarstellbar, nämlich durch Z[A_0,
+..., A_(n-1)].
+
+
 === Nächste Schritte
 
-* Was klassifiziert der Potenzreihenring Z[[X]]?
+* Ist R |--> S^2 R = (R x R)/~ kodarstellbar?
 
 * Für welche Ringe R gilt, dass die Morphismen
   Z[X_1,...,X_n] --> R gemeinsam injektiv sind? Kann man sich evtl. so

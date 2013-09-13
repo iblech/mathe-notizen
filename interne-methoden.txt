@@ -62,6 +62,16 @@
 
 * Also kann ich K intern verstehen als S^(-1) O_X! :-)
 
+* Außerdem ist klar, dass der Halm K_x gleich dem totalen Quotientenring von
+  O_{X,x} ist. Denn "S^(-1) O_X ist eine geometrische Konstruktion und ist
+  daher mit Pullback verträglich". Genauer: S^(-1) O_X passt in die kurze
+  Sequenz
+
+      0 --> { (a/s; b/t) | ta = sb } --> (O_X x Reg(O_X))^2 --> S^(-1) O_X.
+
+  Diese bleibt beim Nehmen des Halms exakt und geht in die erwarteten Terme
+  über.
+
 
 === Nächste Schritte
 
@@ -99,6 +109,10 @@
 * Klassifikation der Vektorbündel auf P^1 und A^1 intern möglich?
   (Siehe Vakil 18.5.6.) Könnte etwas mit der Smithschen Normalform zu tun
   haben.
+
+* Endlich relatives Spektrum als internes Spektrum verstehen.
+  Spec(O_X) ist vielleicht nicht unbedingt der Punkt (sollte er aber sein!),
+  aber zumindest ein lokaler Raum.
 
 
 === math.se-Antwort
