@@ -1,0 +1,90 @@
+=== Definition (nach Hartshorne, nicht Liu)
+
+Sei X ein Schema über k, char k = p. Der Frobeniusmorphismus
+
+    F : X ---> X
+
+ist topologisch die Identität und ringtheoretisch durch Potenzieren mit p
+gegeben.
+
+Achtung: F ist kein Morphismus über k.
+
+
+=== X_p
+
+Sei pi : X --> k der Strukturmorphismus. Dann gilt pi . F = F . pi.
+
+Wenn man daher X_p als (X --> k --> k) definiert, wird
+
+    F' : X_p ---> X
+
+zu einem Morphismus über k.
+
+
+=== Beispiel: X = Spec A
+
+Dann wird F : X --> X induziert durch A --> A, a |-> a^p.
+
+X_p ist dann vermöge des Identitätsmorphismus über k isomorph zu
+Spec A_p, wobei A_p als Ring einfach A ist, aber die k-Struktur durch
+Potenzieren mit p verändert wurde.
+
+Falls k perfekt ist, ist Spec k[x]/(f) k-isomorph zu (Spec k[x]/(g))_p, wobei die
+Koeffizienten von g die mit p potenzierten Koeffizienten von f sind. Sei etwa
+speziell X = Spec k[x]. Dann ist unter diesem Isomorphismus F' gegeben durch
+den Ringmorphismus f(x) |--> f(x^p). (Ohne den Isomorphismus potenziert er auch
+noch die Koeffizienten, ist also durch f(x) |--> f(x)^p gegeben.)
+
+Falls k nicht unbedingt perfekt ist, ist (Spec k[x]/(g))_p k-isomorph zu
+Spec k^(1/p)[x]/(f), wobei die Koeffizienten von f die p-ten Wurzeln der
+Koeffizienten von g sind.
+
+
+=== Beispiel: X Kurve
+
+Sei K der Funktionskörper von X, ist natürlich sogar eine k-Algebra.
+
+Der Funktionskörper von X_p ist als Körper natürlich einfach K. Aber die
+k-Struktur ist durch Potenzieren mit p gegeben. Als k-Algebren gilt also:
+
+    K(X_p) ~~ K' ~~ K^(1/p).
+
+Der Frobeniusmorphismus F' : X_p --> X induziert die Körpererweiterung
+
+    K(X) ---> K(X_p), u |--> u^p.
+
+Unter dem Isomorphismus ist das einfach die kanonische Inklusion
+
+    K ---> K^(1/p), u |--> u.
+
+Laut Hartshorne ist der Grad von F' stets p. Das ist etwas spezielles mit
+Kurven.
+
+
+=== Algebra
+
+* Sei Omega ein algebraisch abgeschlossener Oberkörper eines Körpers K der
+  Charakteristik p. Sei K^(1/p) die Menge derjenigen Zahlen aus K, deren p-te
+  Potenz in K liegt. Dann sind K^(1/p) und K als Körper vermöge der Abbildung
+
+      x |--> x^p
+
+  isomorph. Diese ist ein Ringmorphismus, aber kein Morphismus von
+  F_p-Algebren.
+
+* Sei K Oberkörper von k der Charakteristik p.
+  Sei K' als Körper K, aber mit k-Algebrenstruktur durch den Frobenius.
+
+  Dann ist K' als k-Algebra isomorph zu K^(1/p) (mit seiner von K induzierten
+  k-Struktur):
+
+      K^(1/p) ---> K'
+            u |--> u^p
+
+* Falls k perfekt ist, ist koeffizientenweises Potenzieren mit p ein
+  k-Isomorphismus k[x]/(f) --> k[x]/(g)', wobei die Koeffizienten von g die mit p
+  potenzierten Koeffizienten von f sind.
+
+* K^(1/p) kann über K vermutlich jeden beliebigen Grad haben. Wenn aber
+  K = k(x), dann ist K^(1/p) = k^(1/p)(x^(1/p)) und hat daher Grad p,
+  das Minimalpolynom ist X^p - x.

@@ -70,7 +70,7 @@ Sei M eine quadratische Matrix über einem Ring.
   Dann ist ist x auch invertierbar in A.
 
 * Mit Noether-Normalisierung folgt: Sei A endlich erzeugte Algebra über einem
-  Körper k und p ein maximales Ideal in A. Dann ist A/m eine endliche (!)
+  Körper k und m ein maximales Ideal in A. Dann ist A/m eine endliche (!)
   Erweiterung von k.
 
 * Sei Z ein Ring und S ein multiplikatives System.
@@ -153,8 +153,27 @@ muss.
 
 === Lokalisierung
 
-* Sei A ein Ring, p ein Primideal und in A. Dann:
-      x regulär in A_p <==> [xy = 0 in A ==> y in p]
+* Sei A ein Ring, p ein Primideal und x in A. Dann:
+
+      x regulär in A_p <==> [xy = 0 in A ==> y in p] f.a. y
+
+
+=== Äußere Algebra
+
+* Habe Lambda^(n+1) R^n = 0 konstruktiv, aus rein kombinatorischen Gründen.
+
+* Habe Lambda^n R^n --> R (Iso) konstruktiv, vermöge der Determinante.
+
+* Sei 0 --> F' --> F --> F'' --> 0 exakte Sequenz freier Moduln.
+  Dann habe (det F') tensor (det F'') --> det F Iso, explizit gegeben durch
+
+      x_1 ^ ... ^ x_n  tensor  y_1 ^ ... ^ y_m
+          |--> i(x_1) ^ ... ^ i(x_n) ^ a_1 ^ ... ^ a_m,
+              wobei p(a_j) = y_j (Wahl spielt keine Rolle).
+
+* Die Determinante verhält sich multiplikativ in exakten Sequenzen
+  freier Moduln. (Siehe auch Vakil, 13.5.H, "determinant line bundles behave
+  well in exact sequences".)
 
 
 === Siehe auch

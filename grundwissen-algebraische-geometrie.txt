@@ -15,6 +15,8 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 * Sei f \in A. Dann gilt:
     { x \in Spec A | f = 0 \in k(x) } = V((f)) = { p | f \in p }.
 
+* clos M = V(\bigcap M)  (nochmal prüfen!)
+
 
 === Standardoffene Teilmengen
 
@@ -32,7 +34,12 @@ Sei f : X --> Spec A gehörig zu phi : A --> O_X(X). Dann gilt für alle x aus X
 
     f(x) = phi_x^(-1)[m_x] = { f in A | phi(f)_x nicht invertierbar in O_{X,x} },
 
-wobei phi_x : A --> O_X(X) --> O_{X,x}.
+wobei phi_x : A --> O_X(X) --> O_{X,x}. Umgekehrt ist phi die Komposition
+
+    A --> Gamma(Spec A, O_(Spec A)) --> Gamma(X, O_X),
+
+induziert durch f^# : f^(-1) O_(Spec A) --> O_X, bzw. genauer durch seinen
+Transponierten O_(Spec A) --> f_* O_X.
 
 
 === Rationale Punkte
@@ -115,6 +122,9 @@ wobei phi_x : A --> O_X(X) --> O_{X,x}.
       0 --> I_{X/Y} --> O_Y --> f_* O_X --> 0.
 
   Der Modul vorne heißt auch /Idealgarbe von f/.
+
+  Höchstwahrscheinlich gilt f^* f_* O_X ~~ O_X (kanonisch).
+  (Tensorieren mit Algebra, deren Strukturmorphismus surjektiv ist.)
 
 * Sei etwa Y = P^1, X = Spec k und f die Inklusion des abgeschlossenen Punkts
   P = (0:1). Dann ist die Sequenz
@@ -246,6 +256,13 @@ http://math.la.asu.edu/~paupert/degreegenus.pdf
 Alex Pruss, The Degree-Genus Formula...
 
 http://www.math.utah.edu/~bertram/6030/12Classification.pdf
+
+Super:
+http://www.imsc.res.in/~kapil/geometry/ais/2_genus.html
+
+http://mathoverflow.net/questions/92771/a-geometric-characterization-for-arithmetic-genus
+geometrische Charakterisierung der hirzebruchschen arithmetischen Zahl
+chi(X,O_X) (über einfache Formel verwandt mit dem arithmetischen Genus).
 
 
 === Umgebungen

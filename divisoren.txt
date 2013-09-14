@@ -75,6 +75,17 @@ Kann mir diesen Morphismus als x |--> [Zähler(x) : Nenner(x)] vorstellen.
   pi : X --> P^1 ein Iso.
 
 
+=== Adjunktionsformel
+
+Sei D glatter Divisor auf X. Dann
+
+    K_D = (K_X + D)|_D
+
+bzw.
+
+    omega_D = i^*(omega_X tensor O(D)).
+
+
 === Literatur
 
 * Erstes Kapitel Debarre
