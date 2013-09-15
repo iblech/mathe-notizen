@@ -197,6 +197,7 @@ Genauer zum Punkt universelle Lokalisierung:
 === Garbe meromorpher Funktionen
 
 Siehe: Steven Kleiman, Misconceptions about K_X.
+http://retro.seals.ch/digbib/fr/voltoc?rid=ensmat-001:1979:25&e=3&id=ssearch&id2=browse4&id3=#n3
 
 Sei X ein Schema. Dann ist K_X die Garbifizierung der (nur über die
 affinoffenen Teile gehenden!) Prägarbe
@@ -211,7 +212,11 @@ Prägarbe
 definieren, wobei S(U) = { f | f_x ist kein Nullteiler in allen O_x, x \in U }.
 
 Es gilt: Halm K_x = S_x^(-1) O_x, wobei S_x = lim_{x \in U} S(U). Das kann eine
-echte Teilmenge von Quot O_x sein.
+echte Teilmenge von Quot O_x sein. Mit Quot ist natürlich immer die
+Lokalisierung an den regulären Elementen gemeint.
+
+K_X ist auf integren Schemata eine flasque Garbe, da sie die konstante Garbe
+K(X) = O_{X,xi} ist. (Prüfen!)
 
 
 === Topologische Räume von Dimension 0

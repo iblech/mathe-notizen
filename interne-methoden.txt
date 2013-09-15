@@ -62,15 +62,20 @@
 
 * Also kann ich K intern verstehen als S^(-1) O_X! :-)
 
-* Außerdem ist klar, dass der Halm K_x gleich dem totalen Quotientenring von
+* Außerdem ist UNSINN, dass der Halm K_x gleich dem totalen Quotientenring von
   O_{X,x} ist. Denn "S^(-1) O_X ist eine geometrische Konstruktion und ist
   daher mit Pullback verträglich". Genauer: S^(-1) O_X passt in die kurze
   Sequenz
 
-      0 --> { (a/s; b/t) | ta = sb } --> (O_X x Reg(O_X))^2 --> S^(-1) O_X.
+      0 --> { (a/s; b/t) | ta = sb } --> (O_X x Reg(O_X))^2 --> S^(-1) O_X --> 0.
 
   Diese bleibt beim Nehmen des Halms exakt und geht in die erwarteten Terme
-  über.
+  über. Update: Nicht ganz. Der Halm von Reg(O_X) an einer Stelle bettet zwar
+  immer injektiv ein, kann aber echt kleiner sein als Reg(O_{X,x}). "Reg" ist
+  nämlich auch keine geometrische Konstruktion.
+
+  Kleiman schreibt, dass wenn X lokal noethersch oder wenn X reduziert ist und
+  die Menge der irreduziblen Komponenten lokal endlich ist, es doch stimmt.
 
 
 === Nächste Schritte
@@ -94,7 +99,9 @@
   Wieder verstehen und aufschreiben!
 
 * Ist eine Garbe genau dann lokal konstant, wenn sie aus interner Sicht diskret
-  ist? Vermutlich nicht! Gegenbeispiel?
+  ist? Vermutlich nicht! Gegenbeispiel? Wie kann man denn konstante oder lokal
+  konstante Garben intern erkennen? Vielleicht irgendwie, dass sie unter jedem
+  phi gleich aussehen?
 
 * Was hat Marc zu internen Dedekindringen gesagt?
 

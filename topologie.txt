@@ -58,6 +58,8 @@ Denn jeder Punkt enthält einen abgeschlossenen Punkt in seinem Abschluss.
 
 * Nichtleere offene Teilräume von irreduziblen Räumen sind wieder irreduzibel.
 
+* Irreduzible Räume sind zusammenhängend.
+
 * Seien Y und Y' beides abgeschlossene irreduzible Kodimension-1 Unterräume
   eines Raums X. Sei U eine offene dichte Teilmenge von X.
   Seien Y cap U und Y' cap U beide nicht leer. Dann gilt VIELLEICHT:

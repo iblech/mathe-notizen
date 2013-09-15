@@ -37,6 +37,22 @@ b) als Untermodul von K_X: O(D)|_Ui = O_X|_Ui-Erzeugnis von 1/f_i
 c) in der internen Sprache: { g in K_X | D g in O_X }
 
 
+=== Jedes Geradenbündel kommt von einem Cartier-Divisor
+
+Sei X integer. Habe 0 --> O_X^* --> K_X^* --> K_X^*/O_X^* --> 0 exakt.
+In der induzierten langen exakten Kohomologiesequenz verschwindet die höhere
+Kohomologie von K_X^*, da das eine flasque Garbe ist. Erhalte also:
+
+    Gamma(X, K_X^*) --> Gamma(X, K_X^*/O_X^*)
+      --> H^1(X, O_X^*) --> 0
+
+Also ist H^1(X, O_X^*) = Pic(X) der Kokern von
+
+    Gamma(X, K_X^*) --> Gamma(X, K_X^*/O_X^*).
+
+Das ist gerade die Gruppe der Cartier-Divisoren modulo Hauptdivisoren.
+
+
 === Beispiele auf P^n
 
     Geradenbündel    Divisor       Träger     effektiv?

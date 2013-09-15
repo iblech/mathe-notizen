@@ -180,3 +180,10 @@ wegschmeisst, was nicht auf dem Niveau von Halmen detektierbar ist.
 
 Siehe: Antwort von Zhen Lin auf
 http://math.stackexchange.com/questions/9928/yoga-of-localization-in-categories.
+
+
+=== Siehe auch
+
+http://www.math.uni-kiel.de/algebra/bois/docz/sheaves_notes.pdf
+Nette Einführung mit Bildern. Sagt auch etwas, wie man Coh(X) aus Coh(U_i)
+erhält.
