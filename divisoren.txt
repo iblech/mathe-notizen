@@ -53,6 +53,21 @@ Also ist H^1(X, O_X^*) = Pic(X) der Kokern von
 Das ist gerade die Gruppe der Cartier-Divisoren modulo Hauptdivisoren.
 
 
+=== Cartier --> Weil nicht immer injektiv
+
+Sei X = Spec k[x,y]/(xy + x^3 + y^3). Dann sind (x) und (y) zwei verschiedene
+Cartier-Divisoren. Aber sie geben beide den Weil-Divisor 3 * P.
+http://mathoverflow.net/questions/103686/cartier-divisors-on-singular-curves
+
+
+=== Q-Cartier
+
+* Neilsche Parabel, Ursprung
+
+* Konik, http://www.math.umass.edu/~hacking/seminarW11/tevelev1.pdf,
+  Seite 2
+
+
 === Beispiele auf P^n
 
     Geradenbündel    Divisor       Träger     effektiv?

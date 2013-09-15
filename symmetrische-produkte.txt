@@ -110,3 +110,9 @@ the Hilbert scheme of length n subschemes of C.
 
 Es gilt: S^2(A^2) ~~ A^2 x Spec k[u,v,w]/(uw - v^2),
 siehe http://www.algant.eu/documents/theses/habibi.pdf.
+
+
+=== A^3/((x,y,z) ~ (-x,-y,-z))
+
+Siehe erste Antwort zu
+http://mathoverflow.net/questions/55526/example-of-a-variety-with-k-x-mathbb-q-cartier-but-not-cartier.

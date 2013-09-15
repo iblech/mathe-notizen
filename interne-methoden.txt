@@ -179,3 +179,12 @@ the minimality. So each $\lambda_i$ is not invertible and thus zero (by assumpti
 
 Siehe Andrej Bauers MO-Post und Sebastiano Vigna, A guided tour in the topos
 of graphs.
+
+
+=== Lefschetz-Prinzip
+
+Siehe Lefschetz's principle, J Barwise, P Eklof.
+http://www.sciencedirect.com/science/article/pii/0021869369901173
+
+Lefschetz's principle and local functors.
+http://www.ams.org/journals/proc/1973-037-02/S0002-9939-1973-0325389-7/S0002-9939-1973-0325389-7.pdf
