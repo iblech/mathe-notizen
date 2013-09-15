@@ -3,3 +3,5 @@ Allgemein auf P^n: 0 --> Omega_1 --> O(-1)^(n+1) --> O --> 0
 Auf P^0 = Spec k:
 
     0 --> Omega^1_(k/k) = 0 --> k --> k --> 0
+
+http://mathoverflow.net/questions/5211/geometric-meaning-of-the-euler-sequence-on-mathbbpn-example-8-20-1-in-ch-ii/5270#5270
