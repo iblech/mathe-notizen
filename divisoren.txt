@@ -84,6 +84,42 @@ Liu 3.5: X Kurve über k, D nicht-verschwindender effektiver Cartier-Divisor.
 Dann deg_k D = dim_k H^0(D, O_D), wobei (D, O_D) das abgeschlossene Unterschema
 zur Idealgarbe O_X(-D) --> O_X ist.
 
+Vakil 18.4.1 (S. 467) "The Riemann-Roch Theorem for line bundles on a regular
+projective curve"
+
+
+=== Grade von Geradenbündeln über regulären projektiven Kurven C über k
+
+* Der Grad eines Weil-Divisor ist definiert als die mit den Graden der
+  Restklassenkörpern gewichtete Summe der Koeffizienten.
+
+* Sei C eine reguläre projektive Kurve über k. Dann gilt Riemann-Roch:
+  Für jeden Weil-Divisor D auf C hat man die Beziehung
+
+      chi(C, O_C(D)) = deg D + chi(C, O_C).
+
+  Die Behauptung ist klar für D = 0.
+
+  Für D = D' - p, p ein Punkt, folgt sie per Induktion aus der Behauptung für
+  D' und der mit O_C(D') tensorierten Unterschemasequenz
+
+      0 --> O_C(-p) --> O_C --> k(p) --> 0.
+
+  Wie geht der Beweis im Allgemeinen?
+
+* Den Grad eines Geradenbündels L kann man so definieren:
+
+      deg L = chi(C, L) - chi(C, O_C).
+
+* Ist dann s ein nichtverschwindender rationaler Schnitt von L, so gilt
+
+      deg L = deg div(s).
+
+  Denn es gilt bekanntlich L ~~ O_C(div(s)). Dann folgt die Formel sofort aus
+  Riemann-Roch.
+
+Siehe auch Vakils Kapitel über Schnitttheorie!
+
 
 === Morphismen X --> P^1
 

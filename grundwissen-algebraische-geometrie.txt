@@ -274,3 +274,10 @@ chi(X,O_X) (über einfache Formel verwandt mit dem arithmetischen Genus).
 
 Nächste Schritte: Spec O_{X,x} an Beispielen studieren!
 Vervollständigung?
+
+
+=== Faser
+
+Ist O_{X,x} ---> k(x) flach oder sogar treuflach?
+Dann könnte man aus Exaktheit an Halmen die geometrischere Exaktheit an Fasern
+folgern.

@@ -56,3 +56,9 @@ Schnitte auf X (welcher nur k ist).
   viele Injektive und Projektive, und weshalb?
 * Welche Bedeutung hat es, dass H^* mit |_U kommutiert?
   Hat das überhaupt was mit Garbenkohomologie zu tun?
+
+
+=== Siehe auch
+
+* http://homepages.warwick.ac.uk/~masda/surf/ParkC/chB.ps
+  Schöne Erklärungen
