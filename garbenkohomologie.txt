@@ -62,3 +62,6 @@ Schnitte auf X (welcher nur k ist).
 
 * http://homepages.warwick.ac.uk/~masda/surf/ParkC/chB.ps
   Schöne Erklärungen
+
+* https://www.math.ucdavis.edu/~osserman/classes/256B/notes/cheat-cohom.pdf
+  sagt auch was zu Riemann-Roch
