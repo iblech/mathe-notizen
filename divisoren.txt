@@ -58,6 +58,25 @@ b) als Untermodul von K_X: O(D)|_Ui = O_X|_Ui-Erzeugnis von 1/f_i
 c) in der internen Sprache: { g in K_X | D g in O_X }
 
 
+=== Exakte Sequenz zum Träger eines effektiven Cartier-Divisors
+
+Sei D effektiver Cartier-Divisor. Dann ist (D, O_D) das zur Idealgarbe
+O_X(-D) --> O_X gehörige Unterschema. Manchmal heißt das wohl Träger von D,
+manchmal nennt man aber auch nur seine Reduktion so.
+
+Wenn D lokal durch f aus O_X gegeben ist, ist O_X(-D) lokal durch f O_X
+gegeben. Daher ist V(O(-D)) lokal durch { x | (f) != (1) in O_{X,x} } gegeben.
+
+Kann das auch intern schön definieren: Intern gilt D = [f], wobei f aus O_X
+(notwendigermaßen regulär). Daher ist O_X(-D) = f O_X, und ich habe die
+Inklusionsabbildung O_X(-D) --> O_X.
+
+Wenn D aber nicht effektiv ist, gilt intern nur D = [f/s]. Daher ist
+O_X(-D) = (f/s) O_X. Dann kann ich schon eine Abbildung O_X(-D) --> O_X
+hinschreiben, nämlich Multiplikation mit s, aber diese hängt von der Wahl von s
+ab. Erhalte also keine globale Abbildung O_X(-D) --> O_X.
+
+
 === Jedes Geradenbündel kommt von einem Cartier-Divisor
 
 Sei X integer. Habe 0 --> O_X^* --> K_X^* --> K_X^*/O_X^* --> 0 exakt.
@@ -153,9 +172,6 @@ projective curve"
   welcher nicht verschwindet. Daher gilt deg L = deg div(s) >= 0, da div(s)
   sicher ein effektiver Divisor ist.
 
-* Sei D effektiver Cartier-Divisor. Dann ist (D, O_D) das zur Idealgarbe
-  O_X(-D) --> O_X gehörige Unterschema.
-
 * Liu Kapitel 7.3.1: Der Grad eines Cartier-Divisors D auf C ist definiert als
   die mit den Graden der Restklassenkörper gewichtete Summe der Multiplizitäten
   mult_x(D), wobei x über alle abgeschlossenen Punkte von C läuft. Dabei gilt
@@ -184,6 +200,12 @@ projective curve"
   dann umstellen.
 
 Siehe auch Vakils Kapitel über Schnitttheorie!
+
+
+=== Ampel
+
+Introduction to Mori Theory, Kor. 3.4 auf Seite 27:
+Sei X glatte Kurve. Dann ist ein Divisor D auf X genau dann ampel, wenn deg(D) > 0.
 
 
 === Blow-Up

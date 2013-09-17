@@ -10,3 +10,68 @@
 
 * http://mathsmensa.wordpress.com/2011/07/13/computing-the-derived-category-i/
 * http://solbap.wordpress.com/2010/06/20/famous-fourier-mukai-results-ii-orlovs-result-and-the-beilinson-resolution/
+
+
+=== Koszul-Auflösung I
+
+Sei s : O_X regulär. Dann ist nach der allgemeinen Theorie der Koszul-Komplex,
+verlängert um O_X/(s), exakt. Also ist folgende Sequenz exakt:
+
+    0 --> O_X --> O_X --> O_X/(s) --> 0.
+
+Der erste Morphismus ist dabei durch Multiplikation mit s gegeben. Diese
+Sequenz ist isomorph zu
+
+    0 --> s O_X --> O_X --> O_X/(s) --> 0,
+
+wobei jetzt der erste Morphismus einfach durch die Inklusion gegeben ist.
+
+Der Clou: Das ist gerade die exakte Sequenz zum Unterschema V(s)!
+
+* s kann auch ein Schnitt eines Geradenbündels sein.
+  Dann kann ich nämlich das Ideal I := (phi(s)) \subseteq O_X definieren, wobei
+  phi : L --> O_X ein Iso ist; die Wahl spielt keine Rolle, wegen
+
+      psi(s) = psi(phi^(-1)(1)) * phi(s),
+
+  wobei der vordere Faktor in O_X^* liegt. Die Auflösung sieht dann so aus:
+
+      0 --> L --> L --> L/(s) --> 0,
+
+  oder isomorph
+
+      0 --> phi(s) O_X --> O_X --> O_X/(phi(s)) --> 0.
+
+
+=== Koszul-Auflösung II
+
+Sei s, t : O_X eine reguläre Sequenz. Dann ist O_X/(s,t) isomorph zur
+vorgedrückten Strukturgarbe von V(s,t) und kann frei aufgelöst werden durch:
+
+    0 --> O_X --------> O_X^2 -------> O_X --> O_X/(s,t) --> 0
+               [-t;s]          [s t]
+
+
+=== Algebra
+
+* f, g in A bilden eine reguläre Sequenz
+
+      <==> f regulär  und  f|gh ==> f|h für alle h aus A.
+
+* Das ist zum Beispiel dann erfüllt, wenn A ein UFD ist, f nicht null
+  und f und g keine gemeinsamen irreduziblen Faktoren besitzen.
+
+* Auch ist es dann erfüllt, wenn f regulär ist und (f,g) = (1) ist.
+
+
+=== Intern
+
+* f, g aus O_X(X) bilden aus interner Sicht eine reguläre Sequenz
+
+      <==> f, g bilden in allen O_{X,x} eine reguläre Sequenz.
+
+
+=== Nächste Schritte
+
+* Wann bilden Elemente aus A eine reguläre Sequenz von globalen Funktionen auf
+  Spec A?

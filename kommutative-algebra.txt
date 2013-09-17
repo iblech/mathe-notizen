@@ -159,7 +159,7 @@ muss.
 
 * Sei A ein Ring, p ein Primideal und x in A. Dann:
 
-      x regulär in A_p <==> [xy = 0 in A ==> y in p] f.a. y
+      x regulär in A_p <==> [xy = 0 in A ==> ex. z \not\in p: zy = 0] f.a. y
 
 * Sei iota : A --> A[S^(-1)] die Lokalisierung an einem *saturierten* multiplikativ
   abgeschlossenen System (d.h. xy in S ==> x in S und y in S). Dann ist iota(x)

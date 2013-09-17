@@ -100,6 +100,20 @@ Somit erfüllt der projektive Raum folgende universelle Eigenschaft:
 Der Kern der universellen Surjektion O^(n+1) --> O(1) ist dabei gerade Omega^1(1).
 
 
+=== Grad der Morphismen zu Geradenbündeln
+
+Sei X eine Kurve und L ein Geradenbündel auf X mit geeigneten Schnitten
+s_0,...,s_n. Dann hat der induzierte Morphismus
+
+    f : X ---> P^n
+
+Grad deg(L). Denn nach der Projektionsformel gilt:
+
+    deg(L) = L . X = f^*(O(1)) . X = deg(f) * (O(1) . P^n) = deg(f).
+
+Natürlich nur unter irgendwelchen Voraussetzungen.
+
+
 === Verallgemeinerung: P(E)
 
 Sei E ein lokal freier Modul auf S. Dann ist das projektive Bündel P(E) --> S

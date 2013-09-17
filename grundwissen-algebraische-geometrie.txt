@@ -126,6 +126,8 @@ Transponierten O_(Spec A) --> f_* O_X.
   Höchstwahrscheinlich gilt f^* f_* O_X ~~ O_X (kanonisch).
   (Tensorieren mit Algebra, deren Strukturmorphismus surjektiv ist.)
 
+  Es gilt: supp(f_* O_X) = V(I) = { x in X | I_x != (1) in O_{X,x} }.
+
 * Sei etwa Y = P^1, X = Spec k und f die Inklusion des abgeschlossenen Punkts
   P = (0:1). Dann ist die Sequenz
 
