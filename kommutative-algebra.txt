@@ -180,6 +180,17 @@ muss.
   well in exact sequences".)
 
 
+=== Duale Zahlen
+
+Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
+
+* a + b eps ist genau dann invertierbar, wenn a invertierbar in A ist.
+
+  Das Inverse ist dann a^(-1) - a^(-2) b eps.
+
+* Ist A lokal, so auch A[eps]/(eps^2). Die Umkehrung gilt auch.
+
+
 === Siehe auch
 
 * http://math.uga.edu/~pete/integral.pdf

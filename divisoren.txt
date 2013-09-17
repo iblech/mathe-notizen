@@ -204,6 +204,8 @@ bzw.
   supp D = { x in X | D_x != 1 } = { x in X | O_X(D)_x != O_{X,x} },
   abgeschlossen in X.
 
+* Was ist div(x) in V(Y^2 - X^3)? Siehe Liu Example 7.2.15 auf Seite 270.
+
 
 === Literatur
 
