@@ -12,6 +12,30 @@ Falls U abgeschlossen sein sollte, gilt sogar
     clos_U(M) = clos_X(M).
 
 
+=== Lokalität des Abschlusses
+
+Sei U \subseteq X offen. Dann gilt für beliebige Teilmengen M von X:
+
+    clos_U(M \cap U) = clos_X(M) \cap U.
+
+Beweis: Zu zeigen ist nur noch
+
+    clos_X(M \cap U) \cap U = clos_X(M) \cap U.
+
+Dabei ist "<=" klar. Sei für ">=" ein x aus clos_X(M) \cap U gegeben.
+Um die Zugehörigkeit zur linken Seite zu zeigen, sei eine abgeschlossene
+Teilmenge V mit M \cap U <= V gegeben. Dann folgt
+
+    M <= V \cup (X \ U).
+
+Da die rechte Seite abgeschlossen ist, folgt also
+
+    clos_X(M) <= V \cup (X \ U).
+
+Der Punkt x liegt nach Voraussetzung in der linken Seite. Da er nicht in (X\U)
+liegt, liegt er also in V.
+
+
 === Abgeschlossene Punkte
 
 Sei U \subseteq X ein beliebiger Unterraum, nicht unbedingt offen oder
