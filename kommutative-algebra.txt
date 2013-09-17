@@ -161,6 +161,13 @@ muss.
 
       x regulär in A_p <==> [xy = 0 in A ==> y in p] f.a. y
 
+* Sei iota : A --> A[S^(-1)] die Lokalisierung an einem *saturierten* multiplikativ
+  abgeschlossenen System (d.h. xy in S ==> x in S und y in S). Dann ist iota(x)
+  genau dann invertierbar, wenn x in S liegt.
+
+* Die Menge der regulären Elemente eines Rings ist immer ein saturiertes
+  multiplikativ abgeschlossenes System.
+
 
 === Äußere Algebra
 
@@ -178,6 +185,10 @@ muss.
 * Die Determinante verhält sich multiplikativ in exakten Sequenzen
   freier Moduln. (Siehe auch Vakil, 13.5.H, "determinant line bundles behave
   well in exact sequences".)
+
+* Habe eine Filtrierung auf Lambda^r(F), wenn F der Mittelteil einer kurzen
+  exakten Sequenz ist. Siehe Vakil, aber noch prüfen, insbesondere auf
+  konstruktive Zulässigkeit.
 
 
 === Duale Zahlen

@@ -25,6 +25,27 @@ normal und noethersch ist, dann ist K_X die konstante Garbe zum Halm O_{X,xi},
 wobei xi den generischen Punkt von X bezeichnet. Stimmt das?
 
 
+=== Konkretes Beispiel
+
+Sei X = V(Y - X^2) die Parabel.
+
+Dann gilt div(X) = Ursprung = p, denn
+
+    O_{X,p} / (X)
+       = k[X,Y], aber Y = X^2, X = 0 und alles außer (X,Y) invertieren
+       ~~ k
+
+hat Länge 1. Dagegen gilt div(Y) = 2 * p, denn
+
+    O_{X,p} / (Y)
+       = k[X,Y], aber Y = X^2, Y = 0 und alles außer (X,Y) invertieren
+       = k[X](X^2)
+
+hat Länge 2.
+
+Welche anschauliche Bedeutung hat das?
+
+
 === Verbindung zu Geradenbündeln
 
 Sei ein Divisor D durch (U_i, f_i)_i gegeben. Dann kann man ein Geradenbündel
@@ -78,7 +99,7 @@ http://mathoverflow.net/questions/103686/cartier-divisors-on-singular-curves
       O(-1)          x_i/x_0         ---         nein
 
 
-=== Cartier als Summe effektiver Cartier
+=== Cartier als Differenz effektiver Cartier
 
 Introduction to Mori Theory, Prop 2.36: Jeder Cartier-Divisor auf einem
 projektiven Schema ist linear äquivalent zur Differenz zweier effektiver
@@ -123,6 +144,14 @@ projective curve"
 
   Denn es gilt bekanntlich L ~~ O_C(div(s)). Dann folgt die Formel sofort aus
   Riemann-Roch.
+
+* deg (L tensor M) = deg L + deg M.  (Nutze rationale Schnitte.)
+
+* Wenn h^0(L) > 0, so ist deg L >= 0. (Auf glatter, eigentlicher Kurve.)
+
+  Denn unter der Voraussetzung gibt es einen globalen Schnitt s von L,
+  welcher nicht verschwindet. Daher gilt deg L = deg div(s) >= 0, da div(s)
+  sicher ein effektiver Divisor ist.
 
 * Sei D effektiver Cartier-Divisor. Dann ist (D, O_D) das zur Idealgarbe
   O_X(-D) --> O_X gehörige Unterschema.
@@ -192,6 +221,21 @@ Sei D glatter Divisor auf X. Dann
 bzw.
 
     omega_D = i^*(omega_X tensor O(D)).
+
+
+=== Schnitttheorie
+
+Sei L ein Geradenbündel auf X und F ein kohärenter Modul dessen Träger
+eigentlich ist (automatisch, falls X eigentlich) und dessen Dimension <= 1 ist.
+Dann heißt die Zahl
+
+    (L . F) := chi(X, F) - chi(X, L^ otimes F)   (duales Bündel)
+
+Schnittzahl von L mit F.
+
+* (L . O_X) = chi(O) - chi(L^) = -deg(L^) = deg(L).
+* (O . F) = 0.
+* (O(m) . P^n) := (O(m) . O_{P^n}) = m.
 
 
 === Nächste Schritte

@@ -5,3 +5,37 @@ Auf P^0 = Spec k:
     0 --> Omega^1_(k/k) = 0 --> k --> k --> 0
 
 http://mathoverflow.net/questions/5211/geometric-meaning-of-the-euler-sequence-on-mathbbpn-example-8-20-1-in-ch-ii/5270#5270
+
+
+Habe die kanonische Abbildung
+
+    mu : A_0^(n+1) ---> P^n,
+
+welche eine lineare Abbildung
+
+    Omega_(P^n) --> mu_* Omega_(A_0^(n+1))
+
+induziert. Auf D(x_i) sieht die recht tautologisch aus:
+
+    d(x_j/x_i) |--> d(x_j/x_i) = ...Quotientenregel...
+
+Auf der rechten Seite sind die x_l einfach gewöhnliche Funktionen, weshalb ganz
+normal die Quotientenregel anwendbar ist. Auch die Abbildung
+
+    O_(P^n) --> mu_* O_(A_0^(n+1))
+
+ist tautologisch: Sie zieht das nur als Einheit verstehbare Element x_j/x_i auf
+den tatsächlichen Bruch der beiden Funktionen x_j und x_i zurück.
+
+
+
+Die Abbildung Omega --> O(-1)^(n+1) sieht auf D(x_0) so aus:
+
+    sum_{i=1}^n f_i(x_1/x_0,...,x_n/x_0) d(x_i/x_0)
+
+wird geschickt auf
+
+    sum_{i=1}^n f_i/x_0 e_i - (sum_{i=1}^n f_i x_i/x_0^2) e_0.
+
+Auf diesen Term kommt man, wenn man die gegebene Differentialform auf A_0^(n+1)
+zurückzieht und dann dort in der Basis dx_l, l = 0,...,n, entwickelt.

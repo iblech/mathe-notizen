@@ -55,6 +55,9 @@ D(f) von P^n. Deren Schnitt mit X_i ist die offene Teilmenge
 
     D(f(x_0/x_i, ..., x_n/x_i)).
 
+Die Teilmenge D(f) selbst kann man auch als Spec k[x_0,...,x_n, f^(-1)]_0
+beschreiben, wobei "_0" den homogenen Anteil vom Grad 0 heraussuchen soll.
+
 
 === Funktionenkörper
 

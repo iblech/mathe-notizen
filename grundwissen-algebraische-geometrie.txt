@@ -211,12 +211,25 @@ Prägarbe
 
 definieren, wobei S(U) = { f | f_x ist kein Nullteiler in allen O_x, x \in U }.
 
-Es gilt: Halm K_x = S_x^(-1) O_x, wobei S_x = lim_{x \in U} S(U). Das kann eine
-echte Teilmenge von Quot O_x sein. Mit Quot ist natürlich immer die
-Lokalisierung an den regulären Elementen gemeint.
+* Es gilt: Halm K_x = S_x^(-1) O_x, wobei S_x = lim_{x \in U} S(U). Das kann eine
+  echte Teilmenge von Quot O_x sein. Mit Quot ist natürlich immer die
+  Lokalisierung an den regulären Elementen gemeint.
 
-K_X ist auf integren Schemata eine flasque Garbe, da sie die konstante Garbe
-K(X) = O_{X,xi} ist. (Prüfen!)
+* K_X ist auf integren Schemata eine flasque Garbe, da sie die konstante Garbe
+  K(X) = O_{X,xi} ist. (Prüfen!)
+
+* Auf X = Spec A, A Integritätsbereich, kann man ganz einfach zeigen, dass K_X
+  die konstante Garbe zu K(X) = O_{X,xi} = Quot A ist:
+
+  Habe die Prägarbenabbildung
+
+      (Quot A)_{konst,pre} --> O_X[reg^(-1)]_pre,
+
+  welche auf einer offenen nichtleeren Menge U (welche daher zusammenhängend
+  ist!) x/s auf x/s schickt. Das ist okay, denn wenn s nicht null in A ist, ist
+  s regulär in allen lokalen Ringen.
+
+  Dann Quelle und Ziel vergarben. Halmweise ist das ein Iso (wieso?).
 
 
 === Topologische Räume von Dimension 0
@@ -269,6 +282,10 @@ http://mathoverflow.net/questions/92771/a-geometric-characterization-for-arithme
 geometrische Charakterisierung der hirzebruchschen arithmetischen Zahl
 chi(X,O_X) (über einfache Formel verwandt mit dem arithmetischen Genus).
 
+Beispiel: P^1 --> P^1, [x:y] |-> [x^2:y^2] induziert die Körpererweiterung
+K(P^1) --> K(P^1), h(x/y) |-> h(x^2/x^2), bzw. isomorph k(T) --> k(T^2) und hat
+daher Grad 2.
+
 
 === Umgebungen
 
@@ -278,6 +295,16 @@ Vervollständigung?
 
 === Faser
 
-Ist O_{X,x} ---> k(x) flach oder sogar treuflach?
-Dann könnte man aus Exaktheit an Halmen die geometrischere Exaktheit an Fasern
-folgern.
+* O_{X,x} --> k(x) ist nur dann flach, wenn k(x) sogar freier O_{X,x}-Modul ist.
+
+* Daher scheint Exaktheit an Halmen nur bedingt etwas mit der geometrischeren
+  Exaktheit an Fasern zu tun zu haben.
+
+
+=== Nächste Schritte
+
+* Nachvollziehen, unter welchen Voraussetzungen Schnitte von K_X einfach auf
+  kleinen offenen Mengen definierte Schnitte von O_X sind. Dasselbe auch für
+  L[S^(-1)].
+
+* Angeblich: F_x \cong O_{X,x}^n, F v.e.T. um x ==> F frei v.R. n um x.
