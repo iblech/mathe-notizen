@@ -78,17 +78,23 @@ http://mathoverflow.net/questions/103686/cartier-divisors-on-singular-curves
       O(-1)          x_i/x_0         ---         nein
 
 
-=== Grade
+=== Cartier als Summe effektiver Cartier
 
-Liu 3.5: X Kurve über k, D nicht-verschwindender effektiver Cartier-Divisor.
-Dann deg_k D = dim_k H^0(D, O_D), wobei (D, O_D) das abgeschlossene Unterschema
-zur Idealgarbe O_X(-D) --> O_X ist.
+Introduction to Mori Theory, Prop 2.36: Jeder Cartier-Divisor auf einem
+projektiven Schema ist linear äquivalent zur Differenz zweier effektiver
+Cartier-Divisoren.
 
-Vakil 18.4.1 (S. 467) "The Riemann-Roch Theorem for line bundles on a regular
-projective curve"
+Beweis: Sei D ein Cartier-Divisor auf X. Wir wollen annehmen, dass X ganz ist
+(wieso ist das erlaubt?). Sei H ein effektiver sehr ampler Divisor. Dann wird
+für genügend großes m das Geradenbündel O_X(D + mH) durch globale Schnitte
+erzeugt. Ferner besitzt es insbesondere einen nicht-verschwindenden Schnitt s.
+Dann gilt D ~ div(s) - mH, fertig.
 
 
 === Grade von Geradenbündeln über regulären projektiven Kurven C über k
+
+Vakil 18.4.1 (S. 467) "The Riemann-Roch Theorem for line bundles on a regular
+projective curve"
 
 * Der Grad eines Weil-Divisor ist definiert als die mit den Graden der
   Restklassenkörpern gewichtete Summe der Koeffizienten.
@@ -118,7 +124,42 @@ projective curve"
   Denn es gilt bekanntlich L ~~ O_C(div(s)). Dann folgt die Formel sofort aus
   Riemann-Roch.
 
+* Sei D effektiver Cartier-Divisor. Dann ist (D, O_D) das zur Idealgarbe
+  O_X(-D) --> O_X gehörige Unterschema.
+
+* Liu Kapitel 7.3.1: Der Grad eines Cartier-Divisors D auf C ist definiert als
+  die mit den Graden der Restklassenkörper gewichtete Summe der Multiplizitäten
+  mult_x(D), wobei x über alle abgeschlossenen Punkte von C läuft. Dabei gilt
+
+      mult_x(D) := length_{O_{X,x}}(O_{D,x}) = [k(x) : k]^{-1} * dim_k O_{D,x}.
+
+  Das erste Gleichheitszeichen funktioniert glaube ich nur, wenn D effektiv
+  ist.
+
+* Liu beweist, dass seine Definition des Grads eines Cartier-Divisors die
+  Beziehung
+
+      deg_k D = dim_k H^0(D, O_D)
+
+  erfüllt, falls D ein nicht-verschwindender effektiver Cartier-Divisor ist.
+
+* Die Größe auf der rechten Seite ist auch gleich dem (Vakil-)Grad von O_X(D).
+  Denn:
+
+      deg O_X(D)
+          = chi(O_X(D)) - chi(O_X)    { jetzt 0 --> O_X(-D) --> O_X --> O_D --> 0 }
+          = chi(O_X(D)) - chi(O_X(-D)) - chi(O_D) + (chi(O_X) - chi(O_X))
+          = deg(D) - deg(-D) - chi(O_D)
+          = 2 deg(D) - chi(O_D),
+
+  dann umstellen.
+
 Siehe auch Vakils Kapitel über Schnitttheorie!
+
+
+=== Blow-Up
+
+Siehe Introduction to Mori Theory, Prop. 3.10.
 
 
 === Morphismen X --> P^1
@@ -151,6 +192,17 @@ Sei D glatter Divisor auf X. Dann
 bzw.
 
     omega_D = i^*(omega_X tensor O(D)).
+
+
+=== Nächste Schritte
+
+* Wieso ergeben div(s) & Co. immer eine endliche Linearkombination?
+  Welche Voraussetzungen benötigt man dazu?
+  Siehe etwa Liu direkt vor Kap. 7.1.3 auf Seite 260.
+
+* Träger eines Cartier-Divisors Def. 1.28 Liu Seite 260:
+  supp D = { x in X | D_x != 1 } = { x in X | O_X(D)_x != O_{X,x} },
+  abgeschlossen in X.
 
 
 === Literatur

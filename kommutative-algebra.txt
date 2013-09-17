@@ -137,6 +137,10 @@ die Länge verhält sich additiv.
 Beispiel: Sei R ein Hauptidealbereich. Dann ist die Länge von R/(a)
 gleich der Gesamtzahl irreduzibler Faktoren in a.
 
+Proposition: Sei A ein noetherscher lokaler Ring und zugleich eine Algebra über
+einem Körper k. Sei M ein endlich erzeugter A-Modul.
+Dann gilt len_A(M) * dim_k(A/m) = dim_k(M). (Liu Ex. 7.1.6, Seite 264)
+
 
 === Einfache Moduln
 
