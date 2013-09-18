@@ -170,6 +170,11 @@
 
       x + y regulär  ==>  x regulär  oder  y regulär.
 
+* Unter gewissen Umständen gilt bei eigentlichen Abbildungen f, dass
+  f_* O_X ~~ O_Y. Siehe
+  http://mathoverflow.net/questions/63301/when-will-the-pushforward-of-a-structure-sheaf-still-be-a-structure-sheaf.
+  Kann man das verwenden, um intern Eigentlichkeit zu charakterisieren?
+
 
 === math.se-Antwort
 

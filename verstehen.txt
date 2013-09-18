@@ -29,6 +29,8 @@ Unsortierte Fragen:
 * two approaches to modeling the universe: sdg and framed sets
 * nicht-nicht-Übersetzung
 * Vortragsidee: Topologie ohne Punkte; HoTT
+* http://www.andrew.cmu.edu/user/awodey/students/jackson.pdf Sheaf-theoretic
+  measure theory
 
 Lesen:
 * Ploogs Dissertation

@@ -233,6 +233,11 @@ definieren, wobei S(U) = { f | f_x ist kein Nullteiler in allen O_x, x \in U }.
 
   Dann Quelle und Ziel vergarben. Halmweise ist das ein Iso (wieso?).
 
+* Siehe Stacks Project: http://stacks.math.columbia.edu/tag/01RR.
+  Kann ich den Beweis von http://stacks.math.columbia.edu/tag/01X5 bringen?
+  Ist http://math.stackexchange.com/questions/446846/sheaf-of-meromorphic-functions-on-an-integral-scheme
+  korrekt?
+
 
 === Topologische Räume von Dimension 0
 
