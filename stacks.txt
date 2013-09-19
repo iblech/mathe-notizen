@@ -4,3 +4,4 @@
 * http://www.math.uni-bonn.de/ag/kleineag/Stacks/programm-stacks.pdf
 * http://staff.science.uva.nl/~heinloth/StacksSeminar/
 * http://www.stud.uni-karlsruhe.de/~uabge/diplom.pdf
+* http://www.math.wisc.edu/~dewey/TalkNotes/mgTalk.pdf

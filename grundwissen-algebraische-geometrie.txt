@@ -293,6 +293,8 @@ Beispiel: P^1 --> P^1, [x:y] |-> [x^2:y^2] induziert die Körpererweiterung
 K(P^1) --> K(P^1), h(x/y) |-> h(x^2/x^2), bzw. isomorph k(T) --> k(T^2) und hat
 daher Grad 2.
 
+http://www.math.wisc.edu/~dewey/TalkNotes/AGdegree.pdf
+
 
 === Umgebungen
 
@@ -306,6 +308,12 @@ Vervollständigung?
 
 * Daher scheint Exaktheit an Halmen nur bedingt etwas mit der geometrischeren
   Exaktheit an Fasern zu tun zu haben.
+
+
+=== Projektive Morphismen
+
+* Morphismen zwischen projektiven Varietäten sind stets projektiv.
+  http://mathoverflow.net/questions/41390/morphism-between-projective-varieties
 
 
 === Nächste Schritte
