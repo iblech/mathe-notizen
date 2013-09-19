@@ -83,3 +83,6 @@ Dann bilden die Komplexe
 *in der derivierten Kategorie* eine kurze exakte Sequenz:
 
     0 --> (ker f)[1] --> G --> (cok f)[-1] --> 0.
+
+Was meine ich damit? In der derivierten Kategorie kann ich ja nicht von
+Exaktheit sprechen.
