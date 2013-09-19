@@ -28,7 +28,7 @@ Bem.: Gelfand-Manin diskutiert das "genau dann" nur für die volle (statt
 beschränkte) derivierte Kategorie. Sollte aber trotzdem stimmen.
 
 Motto: Ein Objekt der derivierten Kategorie besteht aus seinen
-Khomologieobjekten und kohomologischer "Kleber", der diese zusammenhält. Wenn
+Kohomologieobjekten und kohomologischer "Kleber", der diese zusammenhält. Wenn
 alle Ext^2 verschwinden, gibt es keinen Kleber.
 
 Quelle:

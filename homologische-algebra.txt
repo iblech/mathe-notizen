@@ -63,3 +63,23 @@ vermutlich nicht rechtsexakt, sodass das noch nicht so viel hilft.
 
 Quelle: John Barwise, Handbook of Mathematical Logic, Abschnitt über
 Toposlogik (von Fourman), ganz am Ende (Seite 1088).
+
+
+=== Filtrierung
+
+Sei F^* ein Komplex, dessen Kohomologie in den Graden 0 und 1 konzentriert ist.
+Dann ist dieser quasiisomorph zu
+
+    G^* : 0 --> A --> B --> 0
+
+mit einer nichttrivialen Abbildung f : A --> B.
+
+Dann bilden die Komplexe
+
+    0 --> ker f -->   0   --> 0,
+    0 -->   A   -->   B   --> 0,
+    0 -->   0   --> cok f --> 0
+
+*in der derivierten Kategorie* eine kurze exakte Sequenz:
+
+    0 --> (ker f)[1] --> G --> (cok f)[-1] --> 0.
