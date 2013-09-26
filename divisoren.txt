@@ -1,3 +1,18 @@
+=== Nutzen
+
+* Unterbündel von K_X vom Rang 1 entsprechen Divisoren
+  (bis auf Isomorphie bzw. bis auf lineare Äquivalenz).
+
+* Geradenbündel sind bis auf Isomorphie schon eindeutig durch einen
+  rationalen Schnitt gegeben: L ~~ O(div(s)).
+
+* Abbildungen in den projektiven Raum sind durch Geradenbündel und daher
+  durch Divisoren gegeben.
+
+* Sei X --> P^n durch L und s_0,...,s_n gegeben. Dann habe die Gleichung
+  x_i = 0 in P^n. Was hat das mit s_i = 0 zu tun?
+
+
 === Cartier-Divisoren
 
 Def.: Ein Cartier-Divisor auf X ist ein globaler Schnitt von K_X^x / O_X^x.
@@ -244,6 +259,8 @@ bzw.
 
     omega_D = i^*(omega_X tensor O(D)).
 
+* Damit klar, wann ein vollständiger Durchschnitt im P^n Fano ist.
+
 
 === Schnitttheorie
 
@@ -271,6 +288,8 @@ Schnittzahl von L mit F.
   abgeschlossen in X.
 
 * Was ist div(x) in V(Y^2 - X^3)? Siehe Liu Example 7.2.15 auf Seite 270.
+
+* Internes Zeugs aufschreiben.
 
 
 === Literatur

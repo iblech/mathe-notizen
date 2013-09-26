@@ -316,6 +316,26 @@ Vervollständigung?
   http://mathoverflow.net/questions/41390/morphism-between-projective-varieties
 
 
+=== Sonderrolle von C
+
+* In erster Näherung kann man sich die Kurve zum algebraischen Abschluss
+  von k(T) als ein nicht-noethersches Schema aller verzweigten Überlagerungen
+  von P^1 vorstellen.
+
+* Kann aus einer Varietät über C einen analytischen Raum machen.
+  (Dabei geht A^n auf C^n.) Da der Funktor X |--> X^an wohl irgendwelche
+  Treuheitseigenschaften hat, kann man damit "in der analytischen Topologie"
+  arbeiten.
+
+* Über anderen Körpern arbeitet man halt mit der étalen Topologie.
+
+
+=== A^1 ist über F_p nicht zusammenhängend
+
+Denn man hat die étale Überlagerung X^p - X. Ihre Ableitung ist -1 und
+verschwindet daher nirgendwo.
+
+
 === Nächste Schritte
 
 * Nachvollziehen, unter welchen Voraussetzungen Schnitte von K_X einfach auf
