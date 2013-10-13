@@ -85,7 +85,7 @@
 * Ein rationaler Schnitt eines Geradenbündels L ist wohl dasselbe wie
   ein globaler Schnitt von L tensor_O K.
 
-* So einem Schnitt kann ich ein eindeutiges Element aus K_X/O_X^* zuordnen
+* So einem Schnitt kann man ein eindeutiges Element aus K_X/O_X^* zuordnen
   (f ~ g <==> f = u g für ein u aus O_X^*), und zwar wie folgt:
 
   Sei q aus L[S^(-1)] vorgegeben.
@@ -109,7 +109,7 @@
 
   Wie oben ist das Unabhängigkeit von der Wahl von f. Mit "nicht verschwindend"
   muss gemeint sein, dass f in K_X invertierbar ist. Das ist genau dann der
-  Fall, wenn phi(x) regulär ist.
+  Fall, wenn der Zähler regulär ist.
 
 * Sei dann s ein nichtverschwindender rationaler Schnitt eines Geradenbündels L.
   Dann kann man in der internen Sprache explizit einen Iso
@@ -119,6 +119,34 @@
   hinschreiben: Sei z aus L beliebig. Sei s = x/s. Sei phi : L --> O_X.
   Dann div(s) = [phi(x)/s]. Also O(div(s)) = s/phi(x) * O_X. Ordne daher z auf
   s/phi(x) * phi(z) ab.
+
+* Dann kann man in der internen Sprache beweisen:
+  Genau dann hat man einen globalen Iso O(D) --> O(D'),
+  wenn man einen globalen Schnitt f von K_X^* mit D - D' = [f] hat.
+
+  Explizit: Sei phi : O(D) --> O(D') ein Iso. Schreibe D = [g], D' = [g'].
+  Dann gibt es ein p : O_X mit phi(1/g) = 1/g' * p.
+  Setze dann f := phi(1/g) / (1/g) = g/g' * p : K_X.
+  Dann kann man nachrechnen, dass f in K_X invertierbar ist (also p regulär in
+  O_X ist), dass g/g' = u f für ein invertierbares u : O_X (also p invertierbar
+  in O_X) und dass f unabhängig von der Wahl von g ist.
+
+  Umgekehrt: Sei f ein globaler Schnitt von K_X^* mit D - D' = [f].
+  Schreibe D = [g] und D' = [g']. Dann g/g' = u f für ein invertierbares u : O_X.
+  Dann ist O(D) --> O(D'), h |--> h * f ein Iso. Die Wohldefiniertheit kann man
+  natürlich intern zeigen: Ein h = p/g wird auf pf/g = u^(-1) p/g' abgebildet.
+
+* Ebenso einfach: Jeder O_X-Untermodul F von K_X, der lokal vom Rang 1 ist, ist
+  von der Form O(D) für einen Cartier-Divisor D.
+
+  Intern habe einen Iso phi : F --> O_X.
+  Es ist phi^(-1)(1) \in F \subseteq K_X.
+  Kann also D := [ 1 / phi^(-1)(1) ] definieren.
+
+  Dann kann man zeigen: D ist wohldefiniert (d.h. phi^(-1)(1) ist tatsächlich
+  in K_X invertierbar) und unabhängig von der Wahl von phi.
+  Nutze für letzteres die Identität psi(phi^(-1)(h)) = h * psi(phi^(-1)(1)),
+  wobei der zweite Faktor ein invertierbares Element aus O_X ist.
 
 
 === Nächste Schritte

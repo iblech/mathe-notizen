@@ -85,6 +85,12 @@ Coh(X) rekonstruieren.
    -- Definiert als die Vergarbung der Prägarbe
           W |--> F(W), falls W \subset U; 0, sonst.
 
+4) Zurückziehen/Vorwärtsdrücken induziert ziemlich sicher eine Äquivalenz
+
+      AbSh(Z) ~ { F aus AbSh(X) | supp F \subseteq Z },
+
+   wenn Z \subseteq X abgeschlossen ist.
+
 
 === Wolkenkratzergarben allgemein
 

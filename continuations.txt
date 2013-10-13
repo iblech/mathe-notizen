@@ -1,0 +1,4 @@
+=== Nächste Schritte
+
+* delimited verstehen.
+  Gibt es ein logisches Pendant?

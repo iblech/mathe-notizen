@@ -138,3 +138,5 @@ Retrakte von darstellbaren Funktoren.
 * Was ist eine "Darstellung als Koinverter"?
 * Ist die Kategorie von Moduln über einem festen Ring in einem Topos
   lokal präsentierbar?
+* Ist die Kategorie der quasikohärenten Garben lokal präsentierbar?
+  Vielleicht nicht über Set, aber über Sh(X)?

@@ -2,3 +2,5 @@
 
 * Lurie, The effective content of surreal algebra.
   http://www.jstor.org/discover/10.2307/2586835?uid=3737864&uid=2&uid=4&sid=21102122441171
+
+* konstruktiv?

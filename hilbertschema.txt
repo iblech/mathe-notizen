@@ -16,6 +16,13 @@ gegeben durch
     { (a_0,...,a_(n-1), x) | x^n + a_(n-1) x^(n-1) + ... + a_1 x + a_0 = 0 }.
 
 
+=== Mor-Schema
+
+Zumindest, falls O_X(X) ein endlich-dimensionaler k-Vektorraum ist, gilt wohl:
+
+    Mor(X, A^1) = Spec Sym^* O_X(X)^vee.
+
+
 === Derivierte Kategorie
 
 Laut [Ploog] sagt [Haiman], dass Hilb_n(X) ~~ S_n-Hilb(X^n).

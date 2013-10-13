@@ -11,6 +11,9 @@
 * http://mathsmensa.wordpress.com/2011/07/13/computing-the-derived-category-i/
 * http://solbap.wordpress.com/2010/06/20/famous-fourier-mukai-results-ii-orlovs-result-and-the-beilinson-resolution/
 
+* Motto: reguläre Sequenz ==> richtige Kodimension.
+  Inwieweit stimmt das Motto?
+
 
 === Koszul-Auflösung I
 
@@ -62,6 +65,19 @@ vorgedrückten Strukturgarbe von V(s,t) und kann frei aufgelöst werden durch:
   und f und g keine gemeinsamen irreduziblen Faktoren besitzen.
 
 * Auch ist es dann erfüllt, wenn f regulär ist und (f,g) = (1) ist.
+
+
+=== Allgemeiner
+
+Sei phi : E --> O_X. Definiere K_n := Lambda^n E mit
+
+    d(x_1 ^ ... ^ x_n) = \sum (-1)^(i+1) phi(x_i) x_1 ^ ... ^ nicht-x_i ^ ... ^ x_n.  
+
+Dann habe den Komplex
+
+    ... --> K_2 --> K_1~~E --> K_0~~O_X --> 0.
+
+In guten Fällen wird der zu einer Auflösung von cok phi.
 
 
 === Intern

@@ -96,6 +96,16 @@ Siehe: J. P. May, Derived categories from a topological point of view:
 http://www.math.uchicago.edu/~may/MISC/DerivedCats.pdf
 
 
+=== K-Theorie und Kohomologie
+
+* Der Funktor H^n : Kom^b(A) --> A faktorisiert über D^b(A).
+
+* Die Abbildung Kom^b(A) --> K(A), E^* |-> sum (-1)^n [E^n], faktorisiert über D^b(A).
+
+* Der Morphismus D^b(A) --> K(A) ist verträglich mit Pullback und Pushforward,
+  in einem geeigneten Sinne. Siehe Huybrechts.
+
+
 === Nächste Schritte
 
 * Folgendes Must-Read-Paper lesen:

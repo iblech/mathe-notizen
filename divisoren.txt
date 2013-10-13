@@ -72,6 +72,8 @@ b) als Untermodul von K_X: O(D)|_Ui = O_X|_Ui-Erzeugnis von 1/f_i
 
 c) in der internen Sprache: { g in K_X | D g in O_X }
 
+   oder: Wenn D = [f], dann f^(-1) O_X \subseteq K_X.
+
 
 === Exakte Sequenz zum Träger eines effektiven Cartier-Divisors
 
@@ -107,12 +109,43 @@ Also ist H^1(X, O_X^*) = Pic(X) der Kokern von
 
 Das ist gerade die Gruppe der Cartier-Divisoren modulo Hauptdivisoren.
 
+* Andere Sichtweise: Sei L ein Geradenbündel. Dann kann ich (wie?)
+  L tensor_{O_X} K_X als Unterbündel von K_X auffassen. Für solche ist klar,
+  dass sie von Divisoren stammen.
 
-=== Cartier --> Weil nicht immer injektiv
+* Noch eine andere Sichtweise: Sei L ein Geradenbündel. Stelle dir L über
+  Übergangsabbildungen vor. Kann diese mit K_X tensorieren. Dann...
 
-Sei X = Spec k[x,y]/(xy + x^3 + y^3). Dann sind (x) und (y) zwei verschiedene
-Cartier-Divisoren. Aber sie geben beide den Weil-Divisor 3 * P.
-http://mathoverflow.net/questions/103686/cartier-divisors-on-singular-curves
+
+=== Cartier --> Weil
+
+* Sei D ein Cartierdivisor auf X. Dann habe den Weildivisor
+
+      sum_Y n_Y Y,
+
+  wobei die Summe über alle integralen Hyperflächen (also vermutlich alle eta's
+  der Kodimension 1) geht.
+
+* Vermutlich ergibt sich n_Y als Bewertung einer geeigneten lokalen rationalen
+  Funktion von D.
+
+* Vermutlich ergibt sich die Bewertung dadurch, dass ich in O_{X,eta} genau ein
+  maximales Ideal habe und daher (auch für Elemente des Quotientenkörpers)
+  zählen kann, in welcher Potenz des maximalen Ideals sie enthalten sind.
+  "O_{X,eta} ist von Dimension 1 und ganz abgeschlossen, also ein DVR."
+
+* Vermutlich gilt: D effektiv <==> n_Y >= 0 für alle Y.
+
+  "==>": D ist lokal durch reguläre Funktionen gegeben. Diese haben wohl
+  Bewertung >= 0.
+
+  "<==": Rationale Funktionen, die keine Pole haben, sind regulär.
+
+* Die Zuordnung Cartier --> Weil ist nicht immer injektiv. Beispiel:
+
+  Sei X = Spec k[x,y]/(xy + x^3 + y^3). Dann sind (x) und (y) zwei verschiedene
+  Cartier-Divisoren. Aber sie geben beide den Weil-Divisor 3 * P.
+  http://mathoverflow.net/questions/103686/cartier-divisors-on-singular-curves
 
 
 === Q-Cartier
@@ -125,12 +158,15 @@ http://mathoverflow.net/questions/103686/cartier-divisors-on-singular-curves
 
 === Beispiele auf P^n
 
-    Geradenbündel    Divisor       Träger     effektiv?
+    Geradenbündel    Divisor*      Träger     effektiv?
   -------------------------------------------------------
         O              1            leer          ja
        O(1)          x_0/x_i       V(x_0)         ja
        O(2)         (x_0/x_i)^2    V(x_0)         ja
       O(-1)          x_i/x_0         ---         nein
+
+
+  (*) Notiert ist jeweils die lokale Gleichung in D(x_i).
 
 
 === Cartier als Differenz effektiver Cartier
@@ -247,6 +283,9 @@ Kann mir diesen Morphismus als x |--> [Zähler(x) : Nenner(x)] vorstellen.
 * X normale, projektive Kurve/k mit f aus K(X) mit (f) = [x_0] - [x_1],
   zwei verschiedene rationale Punkte. Dann ist der induzierte Morphismus
   pi : X --> P^1 ein Iso.
+* pi ist genau dann dominant, wenn f transzendent über k ist.
+
+Habe diese Aussagen alle nicht geprüft.
 
 
 === Adjunktionsformel
@@ -260,6 +299,20 @@ bzw.
     omega_D = i^*(omega_X tensor O(D)).
 
 * Damit klar, wann ein vollständiger Durchschnitt im P^n Fano ist.
+
+
+=== "Mayer-Vietoris"
+
+Sei Z \subseteq X irreduzibel von Kodimension 1, X irreduzibel, normal (regulär
+in Kodimension 1), reduziert. Dann sind exakt:
+
+    0 --> Z --> Weil(X) --> Weil(X\Z) --> 0
+
+und
+
+    Z --> Cl(X) --> Cl(X \ Z) --> 0.
+
+Siehe Vakil.
 
 
 === Schnitttheorie
@@ -289,7 +342,9 @@ Schnittzahl von L mit F.
 
 * Was ist div(x) in V(Y^2 - X^3)? Siehe Liu Example 7.2.15 auf Seite 270.
 
-* Internes Zeugs aufschreiben.
+* Kann Cartier-Divisoren manchmal und angeblich Cartier-Divisor-Klassen
+  immer zurückziehen. Wurde als Schlüsselpunkt zu Cartier-Divisoren bezeichnet.
+  Verstehen!
 
 
 === Literatur

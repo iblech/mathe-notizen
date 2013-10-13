@@ -220,6 +220,20 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   Q ist flach über Z (von oben) und K ist flach über Q, da Q ein Körper ist.
 
 
+=== Nakayama
+
+* Sei A ein lokaler Ring und M ein endlich erzeugter A-Modul.
+  Dann:
+      minimale Anzahl von A-Erzeugern von M
+    = minimale Anzahl von k-Erzeugern von M/mM.
+
+  Denn:
+  1. Sei M durch x_1,...,x_n erzeugt als A-Modul. Dann wird M/mM durch
+     [x_1],...,[x_n] als k-Vektorraum erzeugt.
+  2. Sei M/mM erzeugt durch [x_1],...,[x_n] als k-Vektorraum.
+     Dann wird M nach Nakayama durch x_1,...,x_n als A-Modul erzeugt.
+
+
 === Siehe auch
 
 * http://math.uga.edu/~pete/integral.pdf

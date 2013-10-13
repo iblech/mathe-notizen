@@ -1,0 +1,28 @@
+=== Marcs Konstruktionsvorschlag für den Topos R
+
+Definiere folgenden Situs:
+
+* die offenen Mengen sollen dieselben wie von Q sein.
+* Aber Überdeckungen müssen eine Lebesgue-Zahl besitzen, damit sie als
+  Überdeckung zählen.
+
+Etwa hat (0,2) = bigcup_n B_(1/n)(1/n) keine Lebesgue-Zahl.
+
+Der Topos der reellen Zahlen soll dann der Garbentopos auf diesem Situs sein.
+
+Kann man damit den Topos R explizit aus dem Topos Q gewinnen?
+
+Sei x in R. Dann habe A : U |-> { * | exists y in Q; r > 0: B_r^Q(y) subseteq
+U, x in B_r^R(y) } Prägarbe. Ist das eine Garbe?
+
+Sei A : Ouv(Q) --> Set. Dann erhalte reelle Zahl x als eindeutige Zahl in
+bigcap_{y in Q, r > 0, A(B_r^Q(y)) bewohnt} B_r^R(y).
+
+
+=== Nächste Schritte
+
+* Bildet die Kategorie Hom(Sh(R), Sh(R)) tatsächlich eine Menge
+  oder ist das gar nicht zu erwarten?
+
+* Locale-theoretischer Schnitt über alle dichten offenen Teilmengen.
+  Würde basiswechselstabile Version liefern.

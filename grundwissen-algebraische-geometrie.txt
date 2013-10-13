@@ -114,6 +114,46 @@ Transponierten O_(Spec A) --> f_* O_X.
 * Nächster Schritt: Was ist ein regulärer Schnitt?
 
 
+=== Verschwindungsschema
+
+Sei s ein globaler Schnitt von O_X. Dann habe das Unterschema iota : V(s) --> X
+mit der kurzen exakten Sequenz
+
+    0 --> (s) --> O_X --> iota* O_V --> 0.
+
+Sei f : Y --> X ein Schemamorphismus.
+
+Behauptung: f faktorisiert genau dann über iota, wenn f^#(s) = 0.
+
+Beweis:
+"==>" Der Ringmorphismus f^# : O_X --> f_* O_Y ist also die Komposition
+
+         O_X --> iota_* O_V(s) --> iota_* fquer_* O_Y ~~ f_* O_Y.
+
+      Schon der vordere Morphismus schickt s auf Null.
+
+"<==" Zunächst topologisch. Angenommen, s wäre in O_{X,f(y)} doch invertierbar.
+      Dann wäre s also auf einer kleinen offenen Umgebung U von f(y)
+      invertierbar. Nach Voraussetzung gilt trotzdem, dass f^#(s) in
+      O_Y(f^(-1) U) Null ist. Also gilt 1 = 0 in O_Y(f^(-1) U). Insbesondere
+      ist damit O_{Y,y} der Nullring. Das kann aber nicht sein.
+
+      Nun ist O_V(s) --> fquer_* O_Y zu definieren. Äquivalent (!) ist
+      iota_* O_V(s) --> iota_* fquer_* O_Y ~~ f_* O_Y zu definieren. Wegen
+      iota_* O_V(s) ~~ O_X/(s) ist nach dem Homomorphiesatz so ein Morphismus
+      einfach durch f^# gegeben.
+
+      Bemerkung: Für's topologische Faktorisieren genügt schon, dass f^#(s)
+      in allen O_{Y,y} nicht invertierbar ist.
+
+
+Allgemeiner gilt bestimmt folgendes: Sei L ein Geradenbündel auf X und s ein
+globaler Schnitt von L. Dann kann man ebenfalls V(s) definieren. Die universelle
+Eigenschaft lautet dann: Ein Morphismus f : Y --> X faktorisiert genau dann
+über V(s) --> X, wenn der von s induzierte Schnitt in dem O_Y-Modul f^*(L) Null
+ist. Habe das aber nicht geprüft!
+
+
 === Unterschemata
 
 * Sei f : X --> Y eine abgeschlossene Immersion. Dann habe die kurze exakte
@@ -298,8 +338,15 @@ http://www.math.wisc.edu/~dewey/TalkNotes/AGdegree.pdf
 
 === Umgebungen
 
-Nächste Schritte: Spec O_{X,x} an Beispielen studieren!
-Vervollständigung?
+* Das Bild von Spec O_{X,x} --> X ist die Menge der Punkte aus X, die zu x
+  spezialisieren.
+
+* Insbesondere ist Spec O_{X,x} --> X im Allgemeinen keine abgeschlossene
+  Immersion. Sei etwa X ganz und x der generische Punkt. Dann ist das Bild nur {x}.
+  Das ist keine abgeschlossene Teilmengen.
+
+* Nächste Schritte: Spec O_{X,x} an Beispielen studieren!
+  Vervollständigung?
 
 
 === Faser
@@ -336,6 +383,16 @@ Denn man hat die étale Überlagerung X^p - X. Ihre Ableitung ist -1 und
 verschwindet daher nirgendwo.
 
 
+=== glatt, normal, regulär
+
+Sei k algebraisch abgeschlossen (oder auch nur perfekt), X Varietät über k.
+
+Dann gilt:
+1.) X glatt <==> X regulär
+2.) X regulär ==> X normal
+3.) X regulär <== X normel, falls dim X <= 1.
+
+
 === Nächste Schritte
 
 * Nachvollziehen, unter welchen Voraussetzungen Schnitte von K_X einfach auf
@@ -343,3 +400,5 @@ verschwindet daher nirgendwo.
   L[S^(-1)].
 
 * Angeblich: F_x \cong O_{X,x}^n, F v.e.T. um x ==> F frei v.R. n um x.
+
+* Was sind die lokalen Modelle glatter (projektiver?) Schemata?
