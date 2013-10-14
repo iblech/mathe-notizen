@@ -16,6 +16,21 @@ gegeben durch
     { (a_0,...,a_(n-1), x) | x^n + a_(n-1) x^(n-1) + ... + a_1 x + a_0 = 0 }.
 
 
+=== Hilbertpolynom
+
+Sei Z ein abgeschlossenes Unterschema von P^N. Dann habe auf Z das
+Geradenbündel O(1) als Rückzug des Geradenbündels auf P^N.
+
+Dann ist das Hilbertpolynom von Z definiert durch
+
+    P_Z(m) := chi(Z, O(m)).
+
+* Wenn Z eine Kurve ist, gilt P_Z(m) = deg(O(1)) * m + chi(Z, O_Z).
+
+* Für genügend große m gilt: P_Z(m) = h^0(Z, O(m)).
+  (Serres Verschwindungstheorem.)
+
+
 === Mor-Schema
 
 Zumindest, falls O_X(X) ein endlich-dimensionaler k-Vektorraum ist, gilt wohl:

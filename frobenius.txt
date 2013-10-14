@@ -88,3 +88,13 @@ Kurven.
 * K^(1/p) kann über K vermutlich jeden beliebigen Grad haben. Wenn aber
   K = k(x), dann ist K^(1/p) = k^(1/p)(x^(1/p)) und hat daher Grad p,
   das Minimalpolynom ist X^p - x.
+
+* Sei V ein k-Vektorraum. Sei V' = V, aber mit k-Struktur durch den Frobenius.
+  Dann gilt:
+
+      dim_k V' = dim_{k^p} V = dim_k(V) * [k : k^p].
+
+  Falls k perfekt ist, ist die kanonische Inklusion k^p --> k (nur einbetten,
+  nicht p-te Wurzel ziehen!) bijektiv und daher gilt dann
+
+      dim_k V' = dim_k V.

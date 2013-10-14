@@ -26,3 +26,7 @@ bigcap_{y in Q, r > 0, A(B_r^Q(y)) bewohnt} B_r^R(y).
 
 * Locale-theoretischer Schnitt über alle dichten offenen Teilmengen.
   Würde basiswechselstabile Version liefern.
+
+* Vortragsfolien Johnstone anschauen
+
+* Scotts Intervalldomain (Siehe "A topos for algebraic quantum theory", Seite 16)

@@ -1,0 +1,22 @@
+=== Arithmetisches Geschlecht
+
+p_a = (-1)^n (chi(O_X) - 1),
+
+    wobei n = dim X.
+
+
+=== Geometrisches Geschlecht (falls X glatt, k alg. abg.)
+
+p_g = dim_k H^0(X, omega)
+
+* Dank Serre-Dualität gilt auch
+
+    p_g = dim_k H^n(X, O_X).
+
+
+=== Zusammenhang
+
+* Ist X eine glatte projektive Kurve über k, k alg. abg., so gilt p_g = p_a:
+
+    p_a = 1 - chi(O_X) = 1 - h^0(O_X) + h^1(O_X)
+        = h^1(O_X) = h^0(omega) = p_g.
