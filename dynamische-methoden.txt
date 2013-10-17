@@ -157,3 +157,5 @@ Oberkörpern.
 * Verstehen, was die Doppelnegationsübersetzung einem bringen würde
   bzw. wie man sie irgendwie retten kann (naiv geht es nicht, da ich in
   Rad(A)^op keine Implikation habe!). Bezug zu obigem V/Z!
+
+* Was ist der klassifizierende Topos zur Theorie des generischen Primideals?
