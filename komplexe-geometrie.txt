@@ -1,0 +1,56 @@
+=== Holomorphe Funktionen
+
+* Eine stetig differenzierbare Funktion f : U --> C, U < C offen, ist genau
+  dann holomorph, wenn
+
+      del f/del zbar = 0.
+
+  Dabei del/del zbar = 1/2 (del/del x + i del/del y).
+
+
+=== Keime von Teilmengen
+
+* Ist X ein topologischer Raum, so kann man die Garbe P mit
+  P(U) = Menge aller Teilmengen von U und U|_V = U cap V definieren.
+
+  Ein Keim einer Menge ist dann ein Keim dieser Garbe.
+
+* Habe den Garbenmorphismus O --> P, f |-> { z | f(z) = 0 }.
+  Der induziert dann natürlich auf Halmniveau eine Abbildung O_x --> P_x.
+  Diese ordnet jedem Funktionskeim ihren Verschwindungsmengenkeim zu.
+
+
+=== Hodge-Zerlegung (LA-Teil)
+
+* Ein komplexer Vektorraum ist dasselbe wie ein reeller Vektorraum mit
+  fast-komplexer Struktur J.
+
+* Sei V ein endlich-dimensionaler reeller Vektorraum mit fast-komplexer Struktur J.
+  Dann induziert J eine C-lineare Abbildung auf der Komplexifizierung
+ 
+      V_C := V tensor_R C
+
+  von V. Diese hat (höchstens) die Eigenwerte i und -i. Der Eigenraum zum
+  Eigenwert i heißt V^(1,0), der zum Eigenwert -i heißt V^(0,1).
+
+* Stets gilt: V_C = V^(1,0) oplus V^(0,1).
+
+* Außerdem überführt die komplexe Konjugation die beiden Unterräume ineinander.
+
+* v |-> 1/2 (v - i J(v)) ist der Projektor auf V^(1,0).
+
+* Bei R^2 mit der üblichen komplexen Struktur ist span((1,-i)) der Eigenraum
+  zum Eigenwert i und span((1,i)) der zum Eigenwert -i.
+
+* Sei x_1,...,x_n eine C-Basis von V. Definiere y_i := J(x_i).
+  Dann ist x_i,y_i eine R-Basis von V und eine C-Basis von V_C.
+
+  Definiere z_i := 1/2 (x_i - i y_i). Dann z_i-bar = 1/2 (x_i + i y_i).
+
+  Dann ist z_1,...,z_n eine C-Basis von V^(1,0) und z_1-bar,...,z_n-bar eine
+  C-Basis von V^(0,1).
+
+* Es gilt: (-2i)^m (z_1 wedge z_1-bar) wedge ... wedge (z_m wedge z_m-bar)
+  = (x_1 wedge y_1) wedge ... wedge (x_m wedge y_m), für alle m <= dim_C V^(1,0).
+
+* Nächste Schritte: d = del + del-bar, Fundamentalform, ...

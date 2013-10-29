@@ -192,6 +192,10 @@
   Spec(O_X) ist vielleicht nicht unbedingt der Punkt (sollte er aber sein!),
   aber zumindest ein lokaler Raum.
 
+* Sei E --> X ein topologisches Vektorbündel.
+  Dann kann man seine Projektivierung konstruieren: P(E) --> X.
+  Kann man das intern verstehen?
+
 * Welche Körperbedingung erfüllt K_X? Damit es zumindest ein lokaler Ring wird,
   sollte die Menge der regulären Elemente von O_X einen Filter bilden (siehe
   spektrum.txt). Dazu bräuchte
