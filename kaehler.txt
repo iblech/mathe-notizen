@@ -10,6 +10,11 @@ eine A-lineare Abbildung d: B --> M, die die Leibnizregel
 
 für alle x, y in B erfüllt.
 
+* Falls d : B --> M eine additive Abbildung ist, die die Leibnizregel erfüllt,
+  sind äquivalent:
+  1. d ist A-homogen (und damit eine Derivation).
+  2. d(a) = 0 für alle a aus A.
+
 
 === Omega^1_B/A
 
@@ -20,6 +25,13 @@ Konstruktion: Omega^1_B/A ist...
 a) ...der freie B-Modul zur Basis d(b), b in B, modulo Relationen
    (A-Linearität und Leibnizregel)
 b) ...I/I^2, wobei I = ker(B \otimes_A B --> B).
+
+
+=== Tangentiale Vektorfelder
+
+Habe: (Omega^1)^vee = Hom_B(Omega^1, B) = Der_A(B, B).
+
+Beispiel: (Omega^1_X)^vee = Der_C(O_X, O_X).
 
 
 === Beispiel: P^1
