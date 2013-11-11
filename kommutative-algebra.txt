@@ -53,6 +53,15 @@ Sei M eine quadratische Matrix über einem Ring.
   formuliert.
 
 
+=== Eigenvektoren
+
+* Sei det(M) = 0. Unter welchen Voraussetzungen gibt es dann einen
+  Vektor v im Kern von M, welcher (in welchem Sinn?) nichttrivial ist?
+
+  Anwendung: M könnte eine fast-komplexe Struktur auf einer Mannigfaltigkeit
+  sein.
+
+
 === Ganzheit
 
 * Sei A --> B ein Ringhomo. Dann sind äquivalent:

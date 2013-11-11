@@ -1,0 +1,45 @@
+=== Kählerform
+
+Sei g symmetrische Bilinearform auf TX, also ein symmetrisches Element in
+Omega tensor Omega.
+
+Sei J eine fast-komplexe Struktur auf X.
+
+* Gelte: g(Jx, Jy) = g(x,y).
+
+* Setze omega(x,y) := g(Jx, y).
+
+  Dann ist omega schiefsymmetrisch: omega(x,y) = -omega(y,x).
+
+* Auch die C-lineare Erweiterung von omega auf (TX)_C ist in diesem
+  Sinne schiefsymmetrisch, und daher ein Tensor in Lambda^2(Omega_C).
+
+* Schreibe g_ij := g(del/del z_i, del/del z_j),
+  g_iJ := g(del/del z_i, del/del z_j-bar) usw., wobei sich "g" auf die
+  C-lineare Fortsetzung bezieht.
+
+  Dann gilt: g_ij = 0, g_IJ = 0.
+
+* Daher gilt: omega = sum_{i < j}
+      (omega_ij dz_i dz_j + omega_iJ dz_i dz_J + omega_IJ dz_I dz_J).
+
+  Wegen omega_ij = i g_ij = 0, omega_IJ = -i g_IJ = 0 vereinfacht sich das zu:
+
+      omega = i sum_{i < j} g_iJ dz_i dz_J.
+
+  Also ist omega eine (1,1)-Form. Hier bezieht sich "omega" wieder auf die
+  C-lineare Fortsetzung.
+
+* Motto: Beziehung zwischen g und J induziert Beziehung zwischen omega und J;
+  das wiederum liefert Information über den Typ.
+
+
+=== Nächste Schritte
+
+* Beweis ausformulieren: Fasern eines Vektorbündels in gewöhnlicher vs. in
+  O_X-Modul-Sicht.
+
+* Beweis der Existenz und Eindeutigkeit eines Levi-Civita-Zusammenhangs
+  (in interner Sprache).
+
+* Beispiel für g (riemannsche Metrik) im Falle von Untermannigfaltigkeiten.

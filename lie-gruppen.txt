@@ -1,0 +1,3 @@
+=== Beispiele
+
+* O_n und SO_n haben beide so (schiefsymmetrische Matrizen) als Lie-Algebra.
