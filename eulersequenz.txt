@@ -39,3 +39,15 @@ wird geschickt auf
 
 Auf diesen Term kommt man, wenn man die gegebene Differentialform auf A_0^(n+1)
 zurückzieht und dann dort in der Basis dx_l, l = 0,...,n, entwickelt.
+
+
+=== Globale k-Formen
+
+Nach der Euler-Sequenz ist Omega eine Untergarbe von einer direkten Summe von
+O(-1)'en und hat daher nur den Nullschnitt als globalen Schnitt.
+
+
+=== Nächte Schritte
+
+* Wie folgt, dass auch die höheren Omega^i nur den trivialen Schnitt als
+  globalen Schnitt haben?

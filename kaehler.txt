@@ -4,7 +4,7 @@ Sei B eine A-Algebra und M ein B-Modul. Dann ist eine
 
     A-Derivation von B nach M
 
-eine A-lineare Abbildung d: B --> M, die die Leibnizregel
+eine A-lineare Abbildung d : B --> M, die die Leibnizregel
 
     d(xy) = x dy + y dx
 
@@ -21,6 +21,8 @@ für alle x, y in B erfüllt.
 Omega^1_B/A ist definiert als ein B-Modul, der den Funktor Der(B,_) kodarstellt:
 Modul der Differentialformen vom Grad 1 auf B über A.
 
+    Der_A(B, M) ~~ Hom_B(Omega^1_B/A, M).
+
 Konstruktion: Omega^1_B/A ist...
 a) ...der freie B-Modul zur Basis d(b), b in B, modulo Relationen
    (A-Linearität und Leibnizregel)
@@ -32,6 +34,23 @@ b) ...I/I^2, wobei I = ker(B \otimes_A B --> B).
 Habe: (Omega^1)^vee = Hom_B(Omega^1, B) = Der_A(B, B).
 
 Beispiel: (Omega^1_X)^vee = Der_C(O_X, O_X).
+
+
+=== Übergangsabbildungen für die Tangentialgarbe
+
+Sei X eine Mannigfaltigkeit. Sei (phi_i : U_i --> V_i) ein Atlas, V_i Teilmenge
+vom R^n.
+
+Dann kann man TX als Vektorbündel bezüglich der Übergangsabbildungen
+
+    J(phi_j . phi_i^(-1))(__)
+
+(oder deren Inverses, egal) realisieren, also als die Jacobimatrix des
+Kartenwechsels. Quelle: Wikipedia
+
+Somit lässt sich Omega^n über folgende Übergangsabbildungen darstellen:
+
+    1 / det J(phi_j . phi_i^(-1)) = det J(phi_i . phi_j^(-1)).
 
 
 === Beispiel: P^1
