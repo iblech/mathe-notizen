@@ -49,6 +49,90 @@ Basisraum. Beispiele:
   e) Twist mit O(m): (x_i / x_j)^m * alte Matrix
 
 
+=== Vektorbündel als O_X^*-Torsorn
+
+* Sei G eine Gruppe. Ein G-Torsor ist eine Menge X mit G-Wirkung,
+  sodass X bewohnt ist und für alle x, y aus X genau ein g aus G mit g * x = y
+  existiert.
+
+  Bei gegebenem x aus X ist daher G --> X, g |-> g * x ein Iso von G-Wirkungen.
+
+* Sei A ein Ring. Dann sind Moduln von Rang 1 über A und A^*-Torsorn das gleiche:
+
+  Ist M ein Rang-1-A-Modul, so ist M^* := { x : M | unter irgendeinem Iso M --> A
+  geht x auf ein invertierbares Element } ein A^*-Torsor.
+
+  [ Bem.: Es gilt M^* = { x : M | (A --> M, Mult. mit x) ist ein Iso }. ]
+
+  Ist T ein A^*-Torsor, so ist M := A \otimes_{A^*} T := { (a,t) | a:A, t:T }/~,
+  wobei (lambda a, t) ~ (a, lambda t) für alle lambda : A^* und sonst nichts,
+  ein A-Modul von Rang 1.
+
+* Die Isos sehen so aus:
+
+  *  T ---> (A \otimes_{A^*} T)^* = { (a,t) | a : A^*, t : T }
+     x |--> [(1, x)]
+    ax <--| [(a, x)]
+
+  * A \otimes_{A^*} M^* ---> M
+    [(a, m)] |--> am
+
+* Anwendung: Ein Geradenbündel ist dasselbe wie ein O_X^*-Torsor.
+  H^1(X, O_X^*) klassifiziert O_X^*-Torsorn und daher Geradenbündel.
+  Siehe http://stacks.math.columbia.edu/download/sites-cohomology.pdf#03F0.
+
+* Allgemeines Motto: Isomorphismenklassen von Objekten einer gewissen Art,
+  welche lokal aber nicht unbedingt global trivial sind, werden klassifiziert
+  durch H^1(X, Aut), wobei Aut die Garbe der Automorphismen solcher Objekte
+  ist.
+
+  Beispiel: Geradenbündel sind lokal gleich O_X. Also werden sie klassifiziert
+  durch H^1(X, Aut(O_X)). Es gilt natürlich Aut(O_X) ~~ O_X^*.
+
+  Für Vektorbündel vom Rang n hat man Aut(O_X^n) ~~ GL_n(O_X).
+
+* Nichtkommutativ ist es ein wenig komplizierter. Erst ein Beispiel:
+
+  Sei M ein O_X-Modul lokal von Rang n. Dann wird keine kanonische Teilmenge
+  von M zu einem GL_n(O_X)-Torsor. Wohl aber Rahmen(M) := { (x_1,...,x_n) Basis }.
+
+* Allgemein geht es so: Aut_A(F)-Torsorn sind dasselbe wie A-Moduln, die
+  isomorph zu F sind.
+
+  Ist M ein solcher A-Modul, ist Iso_A(F,M) ein Aut_A(F)-Torsor. (Obacht: Mit
+  Inverse des Automorphismus verknüpfen!)
+
+  Ist T ein Aut_A(F)-Torsor, so ist F otimes_{Aut_A(F)} T ein A-Modul, der
+  isomorph zu F ist. (Obacht: F mit Rechts-Aut_A(F)-Wirkung versehen!)
+
+* Ich denke, dass folgendes gilt: Ein O_n(A)-Torsor ist dasselbe wie
+  ein A-Modul M zusammen mit einer Bilinearform M x M --> A, sodass
+  es eine Orthonormalbasis von M der Länge n gibt.
+
+* Vgl. http://mathoverflow.net/questions/22907/confusion-about-how-the-first-cohomology-classifies-torsors.
+
+* Vgl. http://mathoverflow.net/questions/2414/sheaf-description-of-g-bundles.
+
+
+=== Vektorbündel mit zusätzlicher Struktur
+
+* Wenn die Übergangsabbildungen etwa alle mit der euklidischen Bilinearform
+  O_X^n x O_X^n --> O_X verträglich sind, wenn also die zugehörigen Matrizen
+  orthogonale Matrizen sind, erhält man auf dem Vektorbündel eine Bilinearform
+  E x E --> O_X; und umgekehrt.
+
+* O_n: erhält euklidische Bilinearform
+  SO_n: erhält euklidische Bilinearform und Orientierung
+  usw.
+
+* Ziemlich sicher: Sind die Übergangsabbildungen alle SL_n, haben also
+  Determinante 1, so erhält man einen kanonischen Iso O_X --> det E.
+  Die Umkehrung sollte auch gelten.
+
+  Man kann wohl die Übergangsabbildungen eines Vektorbündels, das mit einem Iso
+  O_X --> det E daherkommt, so umskalieren, dass sie alle Determinante 1 haben.
+
+
 === Geradenbündel in interner Sprache
 
 Man kann die Garbe des Möbiusbündels in der internen Sprache angeben,
@@ -106,6 +190,23 @@ kanonisch isomorph zu E:
         Gamma( (E^^)|_U ) ~~
         Gamma( E|_U ) ~~
         E(U).
+
+
+=== Faserbündel
+
+Charles Siegel auf http://mathoverflow.net/questions/2414/sheaf-description-of-g-bundles:
+
+* Ein lokal triviales Faserbündel mit Faser F sollte dasselbe sein wie
+  eine Garbe von Mengen, die lokal isomorph ist zur Garbe
+
+      U |--> Hom_Top(U, F).
+
+* Im Fall F = R mit der gewöhnlichen Topologie ist die angesprochene Garbe
+  einfach die Garbe der stetigen Funktionen, allgemein bekannt als Objekt
+  reeller Zahlen.
+
+* Ben Webster mahnt aber zur Vorsicht, die Topologie betreffend:
+  Zariski vs. etale...
 
 
 === Nächste Schritte

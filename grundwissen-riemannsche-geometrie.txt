@@ -1,0 +1,5 @@
+=== Stereographische Projektion
+
+Von R zu S^1 \ {Nordpol}:
+
+    r |--> (2r/(r^2+1), (r^2-1)/(r^2+1)).

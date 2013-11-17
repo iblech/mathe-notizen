@@ -29,7 +29,7 @@ derived global sections of O, i.e. over "derived global functions"..
 === Zusammenhang zwischen Ext^1_klassisch(O, F) und H^1(X; F)
 
 Einer kurzen exakten Sequenz 0 --> F --> ? --> O --> 0 kann man das Bild von 1
-unter delta: H^0(X; O) --> H^1(X; F) aus der langen exakten Kohomologiesequenz
+unter delta : H^0(X; O) --> H^1(X; F) aus der langen exakten Kohomologiesequenz
 zuordnen.
 
 Ist umgekehrt eine Klasse [omega] aus H^1(X; F) gegeben, kann man eine kurze
@@ -37,7 +37,7 @@ exakte Sequenz 0 --> F --> I --> cok --> 0 derart finden, dass [omega] unter
 delta ein Urbild s in Γ(cok) hat. (Wähle etwa I als ein injektives Objekt und
 nutze H^1(X; I) = 0.) Dann ist die Sequenz
 
-    0 --> F --> I x_cok O --> O
+    0 --> F --> I x_cok O --> O --> 0
 
 die gesuchte. Siehe http://stacks.math.columbia.edu/download/sites-cohomology.pdf#03F0.
 
