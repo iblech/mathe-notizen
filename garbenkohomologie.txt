@@ -57,6 +57,8 @@ Schnitte auf X (welcher nur k ist).
 * Welche Bedeutung hat es, dass H^* mit |_U kommutiert?
   Hat das überhaupt was mit Garbenkohomologie zu tun?
 
+* Verstehen: Deformations are cohomological, M. Anel.
+
 
 === Siehe auch
 

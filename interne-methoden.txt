@@ -261,6 +261,53 @@ the minimality. So each $\lambda_i$ is not invertible and thus zero (by assumpti
   [2]: http://ncatlab.org/nlab/show/one-sided+real+number
 
 
+=== Zweite math.se-Antwort
+
+A topological space (or locale) $X$ is *local* (i.e. in any covering of $X$ by
+open subsets at least one such subset is already equal to $X$) iff the internal
+language of $\mathrm{Sh}(X)$ fulfils the following disjunction property: If
+$(\phi_i)_{i \in I}$ is an arbitrary family of formulas and $\mathrm{Sh}(X)
+\models \bigvee_{i \in I} \phi_i$, then there exists an index $i \in I$ such
+that $\mathrm{Sh}(X) \models \phi_i$.
+
+Also, if $X$ is local, the internal language fulfils the following existence
+property: If $\mathrm{Sh}(X) \models \exists x : \mathcal{F}. \phi(x)$, then
+there actually exists a global section $x \in \Gamma(X,\mathcal{F})$ such that
+$\mathrm{Sh}(X) \models \phi(x)$.
+
+A topological space $X$ is *compact* iff the internal language of
+$\mathrm{Sh}(X)$ fulfils the following property: If $I$ is a directed set,
+$(\phi_i)_{i \in I}$ is a monotone family of formulas (meaning $\mathrm{Sh}(X)
+\models (\phi_i \Rightarrow \phi_j)$ for $i \preceq j$) and $\mathrm{Sh}(X)
+\models \bigvee_{i \in I} \phi_i$, then there exists an index $i \in I$ such
+that $\mathrm{Sh}(X) \models \phi_i$. This follows directly from the
+order-theoretic characterization of compactness (a space $X$ being compact iff
+for any monotone family $(U_i)_{i \in I}$ of open sets with $X = \bigcup_i
+U_i$, there exists $i \in I$ such that $X = U_i$).
+
+As an example, you can use the latter characterization to give an internal
+proof of [lemma 01BB in the Stacks Project][1] (saying that if a filtered
+colimit $\mathcal{F} = \mathrm{colim}_i \mathcal{F}_i$ of
+$\mathcal{O}_X$-modules is of finite type on a quasi-compact scheme $X$, then
+one of the maps $\mathcal{F}_i \to \mathcal{F}$ is an epimorphism) by reducing
+to the following familiar fact of constructive linear algebra: If a filtered
+colimit $A = \mathrm{colim}_i A_i$ is finitely generated, one of the maps $A_i
+\to A$ is surjective.
+
+Unfortunately, the logical principles above are *meta* properties of the
+internal language, so I'm not sure this answers your question.
+
+**Addendum:** An intrinsic characterization of compactness is not possible,
+i.e. there cannot exist a formula $\phi$ such that the internal language of the
+sheaf topos of a topological space satisfies $\phi$ iff the space is compact:
+If a topological space $X$ can be covered by compact subspaces $U_i$, the
+formula $\phi$ would be satisfied on each $U_i$ and hence, by the local
+character of the internal language, on $X$ as well. If $X$ itself is not
+compact, this is a contradiction.
+
+  [1]: http://stacks.math.columbia.edu/tag/01BB
+
+
 === Graphen
 
 Siehe Andrej Bauers MO-Post und Sebastiano Vigna, A guided tour in the topos
