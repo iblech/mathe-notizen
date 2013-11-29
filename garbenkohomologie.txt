@@ -27,6 +27,19 @@ Garbe Z oder C ist oftmals trivial; Abhilfe: analytische Topologie verwenden
 http://www.math.mcgill.ca/goren/SeminarOnCohomology/Sheaf_Cohomology.pdf.
 
 
+=== Motivation: Lift von Schnitten
+
+Sei E --> F ein surjektiver Morphismus von Vektorbündeln.
+
+Dann habe die kurze exakte Sequenz
+
+    0 --> K --> E --> F --> 0  (Kern vorne).
+
+Aus der langen exakten Sequenz in Kohomologie erhält man einen Morphismus
+Gamma(F) --> H^1(K). Ein globaler Schnitt von F lässt sich genau dann zu einem
+globalen Schnitt von E liften, wenn sein Bild unter dieser Abbildung null ist.
+
+
 === Lange exakte Sequenz für Unterschemata
 
 Sei i : Z --> X eine abgeschlossene Immersion. Dann hat man bekanntermaßen die
