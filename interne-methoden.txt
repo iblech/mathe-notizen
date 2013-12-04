@@ -149,7 +149,21 @@
   wobei der zweite Faktor ein invertierbares Element aus O_X ist.
 
 
+=== Induktionsbeweise für Vektorbündel
+
+Beweise Lemma 3 von
+http://mathriding.wordpress.com/2012/12/06/vector-bundles-locally-free-sheaves-and-divisors-on-a-curve/:
+
+Sei E ein Vektorbündel vom Rang r. Dann gibt es eine kurze exakte Sequenz
+
+    0 --> L --> E --> E' --> 0,
+
+wobei L ein Geradenbündel und E' ein Vektorbündel vom Rang r-1 ist.
+
+
 === Nächste Schritte
+
+* "Lemma 3" oben beweisen
 
 * Manche Aussagen phi erfüllen folgende Regel:
   x |== phi  <==>  U |== phi für eine Umgebung U von x

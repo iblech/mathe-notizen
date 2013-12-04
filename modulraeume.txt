@@ -4,3 +4,11 @@
 * http://www.math.jussieu.fr/~vezzosi/papers/newton-fin.pdf
 * http://arxiv.org/abs/math.DG/0203100 (Orbifolds as Groupoids)
 * http://golem.ph.utexas.edu/category/2009/09/a_seminar_on_gromovwitten_theo.html
+
+* http://www.mathematik.uni-kl.de/~wwwagag/download/scripts/Moduli.ps.gz
+
+* https://www.math.umass.edu/~mirkovic/A.COURSE.notes/1.AlgebraicGeometry/B.Chapters/5.pdf
+  einfach zugänglich!
+
+* http://math.stanford.edu/~vakil/727/
+  18.727: Deformation theory and moduli spaces

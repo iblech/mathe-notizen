@@ -67,3 +67,6 @@ ist isomorph zu Aut(D^b(X^[n])).
   aus.
 * Lehn. Lectures on Hilbert schemes.
   http://www.mathematik.uni-mainz.de/Members/lehn/ar/montreal.ps
+* http://math.stanford.edu/~vakil/727/, dort der Link
+  http://math.stanford.edu/~vakil/727/roy.pdf
+* http://alg.math.uni-augsburg.de/forschung/spring-school-on-algebraic-geometry-2010/Picard-Vortrag.pdf

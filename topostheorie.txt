@@ -1,0 +1,5 @@
+Für mich ungewohnte Aspekte von Topostheorie:
+
+* Kohomologie
+
+* Homotopie, siehe http://www.math.washington.edu/~warner/HTT_Warner.pdf.

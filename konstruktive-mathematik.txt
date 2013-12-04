@@ -1,0 +1,2 @@
+* Effektive Homotopietheorie:
+  http://arxiv.org/pdf/1105.6257v3.pdf

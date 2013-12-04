@@ -37,6 +37,9 @@ d omega = 0: Integral über omega ist unabhängig vom Weg (bei Deformationen)
 
 omega = d alpha: Integral über omega ist null auf geschlossenen Wegen
 
+omega = (-y dx + x dy) / (x^2 + y^2) ist auf R^2 \ {0} geschlossen, aber nicht
+exakt.
+
 
 === Čech-Kohomologie
 

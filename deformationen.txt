@@ -1,0 +1,6 @@
+* http://math.stanford.edu/~vakil/727/
+  18.727: Deformation theory and moduli spaces
+
+* Manin-Motto
+* Direkt über Ext-Klasse
+* Grund für H^0(T_X) = 0
