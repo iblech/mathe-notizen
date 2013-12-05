@@ -189,6 +189,7 @@ wobei L ein Geradenbündel und E' ein Vektorbündel vom Rang r-1 ist.
   phi gleich aussehen?
 
 * Was hat Marc zu internen Dedekindringen gesagt?
+  Sei X = Spec(Zahlkörper). Dann Sh(X) |= "O_X ist ein Hauptidealbereich". ?
 
 * Schema X genau dann lokal von endlicher Präsentation,
   wenn Hom(__, X) (bestimmte) Limiten bewahrt!
