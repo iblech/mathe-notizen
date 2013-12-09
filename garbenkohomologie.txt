@@ -40,6 +40,14 @@ Gamma(F) --> H^1(K). Ein globaler Schnitt von F lässt sich genau dann zu einem
 globalen Schnitt von E liften, wenn sein Bild unter dieser Abbildung null ist.
 
 
+=== Konkretes und einfaches Beispiel
+
+Sei X = S^1, F die Garbe der R-wertigen Funktionen und G die Garbe der
+S^1-wertigen Funktionen. Dann ist der kanonische Morphismus F --> G ein
+Epimorphismus, aber nicht surjektiv auf globalen Schnitten. Der Kokern auf
+globalen Schnitten ist Z.
+
+
 === Lange exakte Sequenz für Unterschemata
 
 Sei i : Z --> X eine abgeschlossene Immersion. Dann hat man bekanntermaßen die
@@ -71,6 +79,8 @@ Schnitte auf X (welcher nur k ist).
   Hat das überhaupt was mit Garbenkohomologie zu tun?
 
 * Verstehen: Deformations are cohomological, M. Anel.
+
+* Kokern-Beispiel oben nachrechnen.
 
 
 === Siehe auch
