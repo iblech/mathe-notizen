@@ -68,6 +68,14 @@ durch k[eps]/eps^2 gegeben, und nicht nur ein Quotient des Rings globaler
 Schnitte auf X (welcher nur k ist).
 
 
+=== Verträglichkeit mit Kolimiten
+
+"Filtrierte Kolimiten nehmen" ist exakt in der Kategorie der abelschen Gruppen.
+Daher vertauscht "Kohomologie nehmen" mit "Filtrierte Kolimiten nehmen".
+Siehe:
+http://math.stackexchange.com/questions/401302/does-taking-the-direct-limit-of-chain-complexes-commute-with-taking-homology
+
+
 === Nächste Schritte
 
 * Kohomologie von Schemata
