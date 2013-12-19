@@ -1,0 +1,28 @@
+== Definition
+
+R heißt lokal, falls nicht(1 = 0) und x+y inv. ==> x inv. oder y inv.
+
+Äquivalent: Ist x_1 + ... + x_n inv., so ex. i mit x_i inv., für alle n >= 0.
+
+
+== Apartness-Relation auf lokalen Ringen
+
+Def.: x # y  :<==>  (x - y) inv.
+
+Dann sind + und * stark extensional.
+
+Die lokalen Ringhomos sind gerade die stark extensionalen Ringhomos.
+
+
+== Verbindung zu Heyting-Körpern
+
+Jeder Heyting-Körper ist ein lokaler Ring und umgekehrt!
+
+Genauer: Die Kategorie der Heyting-Körper (mit stark extensionalen Homos) ist
+äquivalent zur Kategorie der lokalen Ringe (mit lokalen Homos).
+
+
+== Siehe auch
+
+http://nforum.mathforge.org/discussion/2199/fundamental-theorem-of-algebra/
+Kommentar #32 von Toby Bartels
