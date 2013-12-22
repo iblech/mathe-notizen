@@ -28,6 +28,75 @@
   also ist F lokal frei auf einer dichten Teilmenge!
 
 
+=== Unterschema
+
+* Definiere für Punkte x0 \in X (X ein LRS) einen neuen Operator in der internen
+  Sprache:
+
+      U |== !x0  gdw.  x0 \not\in U.
+
+  Diese Erweiterung erfüllt weiterhin das Lokalitätsaxiom. Sie ist auch einfach
+  das Prädikat zum offenen Kern von (X \ {x0}).
+
+* Für eine Funktion f \in O_X(X) gilt:
+
+      f = 0 \in k(x0)  <==>  X |== (f inv. ==> !x0).
+
+  "==>": Sei U \subseteq X. Sei f auf U invertierbar. Dann ist f auch in allen
+  k(x), x \in U, invertierbar. Also x0 \not\in U.
+
+  "<==": Auf D(f) ist f invertierbar. Also muss x0 \not\in D(f) sein. Also ist
+  f in O_{X,x0} nicht invertierbar, liegt somit im maximalen Ideal und ist im
+  Körper k(x0) Null.
+
+* Daraus folgere ich: Das Ideal vorne in der kurzen exakten Sequenz zum
+  Unterschema Spec k(x0) (falls x0 abgeschlossen),
+
+      0 --> I --> O_X --> i_* O_k(x0) --> 0,
+
+  kann in der internen Sprache durch
+
+      { f : O_X | f invertierbar ==> !x0 }
+
+  gegeben werden.
+
+* Was passiert bei anderen Aussagen phi statt "!x0"? Ideale erhält man in jedem
+  Fall.
+
+* Kann man dadurch auch größere Unterschemata charakterisieren?
+
+* Kann man die Ideale der obigen Form irgendwie charakterisieren?
+
+* I ist eine Art maximales Ideal:
+
+  * X |== 1 \in J ist gleichbedeutend mit X |== !x0.
+    Das ist genau dann richtig, wenn X = {x0}.
+
+  * X |== forall f,g : O. fg \in J ==> f \in J oder g \in J
+    gilt, denn für f, g : O(U) mit fg = 0 in k(x0) folgt
+    f = 0 oder g = 0 in k(x0). (Falls x0 \not\in U, ist "= 0" in k(x0) eine
+    triviale wahre Aussage.)
+
+  * U |== nicht (f \in J) bedeutet für f \in O(U),
+    dass f auf einer dichten offenen Teilmenge von U invertierbar ist und
+    dass alle nichtleeren offenen Teilmengen von U x0 enthalten.
+
+  * Daher gilt X |== forall f : O. f \not\in J ==> J + (f) = (1).
+    Denn sei f \in O(U) beliebig mit U |== nicht (f in J).
+    Ohne Einschränkung sei U nicht leer.
+    Dann ist f auf einer offenen dichten Teilmenge V von U invertierbar. Diese
+    muss x0 enthalten. Überdecke U durch V und (U \ {x0}); hierbei geht die
+    Abgeschlossenheit von x0 ein. Auf V gilt intern, dass (f) das Einsideal
+    ist. Auf (U \ {x0}) gilt intern, dass J das Einsideal ist (da dort !x0
+    gilt).
+
+
+=== Internes Spektrum
+
+* O_X in Sh(X), also dem kleinen Zariski-Topos, hat im Allgemeinen noch viele
+  maximale Ideale: die Idealgarben zu abgeschlossenen Punkten.
+
+
 === Rationale Funktionen
 
 * Intern kann man die Teilmenge
@@ -221,6 +290,12 @@ wobei L ein Geradenbündel und E' ein Vektorbündel vom Rang r-1 ist.
   f_* O_X ~~ O_Y. Siehe
   http://mathoverflow.net/questions/63301/when-will-the-pushforward-of-a-structure-sheaf-still-be-a-structure-sheaf.
   Kann man das verwenden, um intern Eigentlichkeit zu charakterisieren?
+
+* Kripke-Joyal-Semantik auf (E,j) durch Kripke-Joyal-Semantik auf E
+  ausdrücken!
+
+* Endlich verstehen, direkt anhand der Kripke-Joyal-Semantik:
+  Wieso gelten geometrische Formeln genau dann, wenn sie halmweise gelten?
 
 
 === math.se-Antwort

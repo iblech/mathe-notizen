@@ -117,8 +117,23 @@ Sei F eine Garbe auf X mit supp F = { x0 }. Sei x0 ein abgeschlossener Punkt.
   Morphismen F(U) ---> F_x0 übereinstimmen.
 
 * F ist kanonisch isomorph zu i_*(F_x0), wobei i : {x0} --> X die kanonische
-  abgeschlossene Immersion ist. (Welchen i_*-Funktor meine ich hier? Den von
-  O_x0-Moduln oder den von k(x0)-Moduln?)
+  abgeschlossene Immersion ist. Genauer:
+
+  1. Wenn F nur eine Garbe abelscher Gruppen ist, ist der rein
+  garbentheoretische Pushforward längs der stetigen Abbildung i die einzige
+  Option.
+
+  2. Wenn X ein lokal geringter Raum und F ein O_X-Modul ist, möchte man
+  vielleicht die LRS-Varianten von Pullback und Pushforward verwenden.
+  Dann darf man NICHT i : Spec k(x0) --> X verwenden. Denn der Pullback eines
+  O_X-Moduls unter diesem Morphismus ist nicht der Halm, sondern die Faser an
+  der Stelle x0; und Vorwärtsdrücken kann man gar nicht beliebige
+  O_{X,x0}-Moduln.
+
+  3. Stattdessen muss man i : (pt, O_{X,x0}) --> X verwenden.
+  Beobachte, dass dieser LRS im Allgemeinen KEIN Schema ist (müsste schon affin
+  sein, dann müsste er aber soviele Punkte enthalten, wie O_{X,x0} Primideale
+  besitzt).
 
 * F ist injektiv (und somit flabby, was man auch direkt sehen kann).
   Denn F_x0 ist als Vektorraum über einem Körper injektiv in k(x0)-Mod.

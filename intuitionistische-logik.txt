@@ -15,6 +15,11 @@ Schreibe -phi := (phi -> r).
   Dabei sind 2) und 3) sogar stets äquivalent, und 1) ==> 2)/3) folgt auch
   immer.
 
+* -(phi ==> psi)  <==>  --phi & -psi.
+
+  Für "==>" benötigt man dabei das Explosionsprinzip für phi.
+  "<==" gilt stets.
+
 * r ==> --phi.
 
 * --r <==> r.

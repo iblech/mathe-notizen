@@ -343,7 +343,7 @@ http://www.math.wisc.edu/~dewey/TalkNotes/AGdegree.pdf
 
 * Insbesondere ist Spec O_{X,x} --> X im Allgemeinen keine abgeschlossene
   Immersion. Sei etwa X ganz und x der generische Punkt. Dann ist das Bild nur {x}.
-  Das ist keine abgeschlossene Teilmengen.
+  Das ist keine abgeschlossene Teilmenge.
 
 * Nächste Schritte: Spec O_{X,x} an Beispielen studieren!
   Vervollständigung?
