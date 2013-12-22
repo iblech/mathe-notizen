@@ -41,7 +41,8 @@ Nächste Schritte:
   unter Rückzug sind.
 * Gibt es Erzeuger und Relationen für Mod(O_X), Qcoh(O_X), Coh(O_X), D(O_X)?
 * Benutze Abschnitt 2 von relative homological algebra,
-  um endlich die qcoh-Bedingung richtig zu verstehen!
+  um endlich die qcoh-Bedingung richtig zu verstehen! Beachte Warnung von
+  Martin Brandenburg.
 * http://stacks.math.columbia.edu/tag/05N9: Kategorie der R-Moduln
   ist Kolimes der Kategorien der R_i-Moduln, wenn R filtrierter Kolimes der R_i
   ist.
