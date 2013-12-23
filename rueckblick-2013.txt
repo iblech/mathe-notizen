@@ -1,0 +1,71 @@
+Derivierte Kategorie & Co: 
+* Ganter, Kapranov: Symmetric and exterior powers of categories 
+* Huybrechts: Fourier-Mukai transforms in algebraic geometry 
+* Bondal, van den Berg: Generators and representability of functors in 
+  commutative and noncommutative geometry 
+* Toën: The homotopy theory of dg-categories and derived Morita theory 
+* Bondal, Larsen, Lunts: Grothendieck ring of pretriangulated categories 
+* Ploog, Sosna: On autoequivalences of some Calabi--Yau and hyperkähler varieties 
+* Ben-Zvi, Francis, Nadler: Integral Transforms and Drinfeld Centers in Derived 
+  Algebraic Geometry 
+* diverse weitere Artikel 
+ 
+Erzeuger und Relationen: 
+* Adámek, Rosicky: Locally Presentable and Accessible Categories 
+  * Konstruktiv waren manche Aussagen auf dem nLab bezüglich kompakter Objekte 
+    in Set falsch; korrigiert. 
+* Estrada, Enochs: Relative homological algebra in the category of 
+  quasi-coherent sheaves 
+ 
+Interne Sprache: 
+* O_X ist auf reduzierten Schemata ein Körper (im kleinen Zariski-Topos!). 
+* Rationale Funktionen und die Äquivalenz zwischen Cartier-Divisoren und 
+  Geradenbündeln kann man schön intern beweisen. 
+* Der intern definierte Rang eines O_X-Moduls l.v.e.T. entspricht extern der 
+  oberhalbstetigen Rangfunktion. (Benötige Nakayama für eine Richtung.) 
+* Die Idealgarben zu abgeschlossenen Punkten kann man auch intern definieren. 
+* Noch unklar: Relatives Spektrum als internes Spektrum verstehen. 
+  Jeder sagt, dass klar ist, wie das geht: Das relative Spektrum einer 
+  quasikohärenten O_X-Algebra A sollte einfach durch die Konstruktion des 
+  gewöhnlichen Spektrums von A im kleinen Zariski-Topos von X gegeben sein. 
+  (Natürlich als Örtlichkeit verstanden.) Das funktioniert aber nicht: 
+  Speziell sollte die intern definierte Örtlichkeit Spec O_X gleich dem 
+  einpunktigen Raum sein. Ist sie aber nicht, O_X hat im Allgemeinen noch viele 
+  maximale Ideale aus interner Sicht. 
+* nLab-Einträge und Antworten auf math.SE 
+ 
+Vervollständigung: 
+* allgemein von metrischen Räumen 
+* topostheoretische Aspekte 
+ 
+Pizzaseminar: 
+* Doppelnegationsübersetzung 
+* Dynamische Methoden von Coquand, Lombardi & Co. 
+* Bohr-Topos 
+ 
+Schulen: 
+* Barcelona: Compactifying Moduli Spaces 
+* Stockholm: GAeL 
+* Poitiers: Rational curves on algebraic varieties 
+* Strasbourg: Around Torelli's theorem for K3 surfaces 
+* Augsburg: Andrejewski-Tag 
+Nächstes Jahr: 
+* München: Bayerische Kleine AG 
+* Padua: Higher Structures in Algebraic Analysis 
+ 
+Lehre: 
+* LA I, Analysis I 
+* "Verbotene Algebra-Übungen" (zu Marcos Algebra II) 
+* Pizzaseminar zu Kategorientheorie 
+* Analysis II, Algebra I 
+* Pizzaseminar zu konstruktiver Mathematik, Knotentheorie & Co. 
+* Brückenkurs 
+* LA I, Algebra II 
+ 
+Sonstiges: 
+* Vorträge im Seminar über zyklische (Ko-)Homologie von Kai Cieliebak 
+* Vorträge im Arbeitsseminar Geometrie & Topologie: SDG, Örtlichkeiten 
+* Vortrag im Hyperkählerseminar
+* Frisch herausgekommenes Buch über Homotopietyptheorie 
+* Matheschülerzirkel 
+* Linux-Infotag 
