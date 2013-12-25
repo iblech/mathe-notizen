@@ -24,9 +24,21 @@ Modul der Differentialformen vom Grad 1 auf B über A.
     Der_A(B, M) ~~ Hom_B(Omega^1_B/A, M).
 
 Konstruktion: Omega^1_B/A ist...
+
 a) ...der freie B-Modul zur Basis d(b), b in B, modulo Relationen
    (A-Linearität und Leibnizregel)
-b) ...I/I^2, wobei I = ker(B \otimes_A B --> B).
+
+b) ...I/I^2, wobei I = ker(B \otimes_A B --> B)  (zusammenmultiplizieren).
+  
+   Dabei kann man B \otimes_A B durch Multiplikation im rechten Tensorfaktor
+   auch als B-Modul ansehen; die Abbildung ist dann B-linear und I daher ein
+   B-Untermodul. So wird auch I/I^2 zu einem B-Modul.
+
+   Die universelle Derivation ist dann durch
+
+       d : B --> I/I^2, b |-> [b⊗1 - 1⊗b]
+
+   gegeben.
 
 
 === Tangentiale Vektorfelder
@@ -87,6 +99,26 @@ Der Iso in die Rückrichtung ist gegeben durch
            falls del_y F invertierbar:  h / del_y F dx.
 
 
-=== Nächste Schritte:
+=== Zusammenhang mit der Diagonale
+
+Laut Liu (Kap. 6.1.2, Seite 216): Die Diagonale Delta : X --> X x_Y X
+ist lokal eine abgeschlossene Immersion, daher ist Delta(X) abgeschlossen in
+einer gewissen offenen Menge U. Sei I der Kern von Delta^# auf U.
+Dann ist Omega^1_{X/Y} ~~ Delta^*(I/I^2).
+
+Siehe auch: http://mathoverflow.net/questions/54593/diagonal-map-and-infinitesimal-points
+
+
+=== Fasern
+
+%Da die Kotangentialgarbenkonstruktion in einem gewissen Sinn mit Zurückziehen
+%verträglich ist, gilt folgendes: Die Faser von Omega^1_{X/Y} über 
+
+
+=== Nächste Schritte
 
 * P^1-Beispiel verstehen. Hat es auch eine anschauliche Bedeutung?
+
+* Zusammenhang mit Diagonale anschaulich verstehen.
+
+* Siehe auch: http://therisingsea.org/notes/Section2.8-Differentials.pdf

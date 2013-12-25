@@ -300,6 +300,8 @@ bzw.
 
 * Damit klar, wann ein vollständiger Durchschnitt im P^n Fano ist.
 
+* Siehe auch: http://therisingsea.org/notes/Section2.8-Differentials.pdf
+
 
 === "Mayer-Vietoris"
 

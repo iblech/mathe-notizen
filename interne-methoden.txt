@@ -130,6 +130,7 @@
   Dabei verwendet: Stack-Semantik, um die universelle Eigenschaft richtig zu
   interpretieren; Lokalität der Vergarbung; Beschreibung von K aus
   http://therisingsea.org/notes/Section2.6-Divisors.pdf.
+  Siehe auch http://therisingsea.org/notes/Section2.8-Differentials.pdf.
 
 * Also kann ich K intern verstehen als S^(-1) O_X! :-)
 
@@ -292,7 +293,8 @@ wobei L ein Geradenbündel und E' ein Vektorbündel vom Rang r-1 ist.
   Kann man das verwenden, um intern Eigentlichkeit zu charakterisieren?
 
 * Kripke-Joyal-Semantik auf (E,j) durch Kripke-Joyal-Semantik auf E
-  ausdrücken!
+  ausdrücken! Siehe auch:
+  http://math.stackexchange.com/questions/177484/what-is-a-lawvere-tierney-topology
 
 * Endlich verstehen, direkt anhand der Kripke-Joyal-Semantik:
   Wieso gelten geometrische Formeln genau dann, wenn sie halmweise gelten?

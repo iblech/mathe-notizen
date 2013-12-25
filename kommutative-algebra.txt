@@ -53,6 +53,26 @@ Sei M eine quadratische Matrix über einem Ring.
   formuliert.
 
 
+=== Quotientenmoduln
+
+* Sei A ein lokaler Ring. Sei M ein A-Modul frei von endlichem Rang.
+  Dann ist die Kategorie der freien Quotientenmoduln von M, die von einem
+  festen vorgegebenen Rang sind, sogar schon ein Gruppoid. Denn eine
+  lineare Abbildung Q --> Q' über M ist automatisch surjektiv und hat (da A
+  lokal) somit trivialen Kern, ist also auch injektiv.
+
+* Sei ein Diagramm der Form
+
+      A  --> B  --> C --> 0  (exakt)
+             |
+             v
+             B' --> C'
+
+  gegeben. Dann existiert genau dann ein Morphismus C --> C', der das rechte
+  Quadrat kommutieren lässt, wenn die Komposition A --> B --> B' --> C' Null ist.
+  Das liegt einfach an der Linksexaktheit von Hom(__, C').
+
+
 === Eigenvektoren
 
 * Sei det(M) = 0. Unter welchen Voraussetzungen gibt es dann einen
@@ -213,20 +233,23 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
 
 === Freiheit und Flachheit über Z
 
-* Eine Z-Algebra K, die ein Körper ist, kann nicht frei sein. Sei b eines
-  der Basiselemente. Stelle dann b/2 über die Basis dar. Dann multipliziere mit 2.
-  Auf der rechten Seite steht dann eine gerade Anzahl b's. Bringe das b von der
-  linken Seite auf die rechte. Dann steht eine nichttriviale Relation da (da
-  die Anzahl b's ungerade ist).
+* Eine Z-Algebra K, die ein Körper der Charakteristik != 2 ist, kann nicht frei
+  sein. Sei b eines der Basiselemente. Stelle dann b/2 über die Basis dar. Dann
+  multipliziere mit 2. Auf der rechten Seite steht dann eine gerade Anzahl b's.
+  Bringe das b von der linken Seite auf die rechte. Dann steht eine
+  nichttriviale Relation da (da die Anzahl b's ungerade ist).
 
-* Daher ist auch kein Körper projektiv über Z: Denn Untermoduln freier Z-Moduln
-  wären frei. [Kann man das auch konstruktiv zeigen?]
+* Daher ist auch kein Körper mit Char. != 2 projektiv über Z:
+  Denn Untermoduln freier Z-Moduln wären frei. [Kann man das auch konstruktiv zeigen?]
 
 * Q ist flach über Z: Sei a^T m = 0, a aus Z^p, m aus Q^p. Dann finde ein u
   aus Z\{0} mit u*m in Z^p. Dann gilt a^T (u*m) = 0 und (u*m) * (1/u) = m.
 
 * Daher ist jeder Körper K flach über Z: Habe Z --> Q --> K.
   Q ist flach über Z (von oben) und K ist flach über Q, da Q ein Körper ist.
+
+* Allgemeine Bemerkung: Surjektive Ringhomos sind im Allgemeinen NICHT flach.
+  Gegenbeispiel: Z --> Z/(2).
 
 
 === Nakayama

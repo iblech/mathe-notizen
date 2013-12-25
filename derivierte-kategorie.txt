@@ -106,8 +106,16 @@ http://www.math.uchicago.edu/~may/MISC/DerivedCats.pdf
   in einem geeigneten Sinne. Siehe Huybrechts.
 
 
+=== Recollement
+
+http://arxiv.org/pdf/math/0509473.pdf: Beschreibt (in der ersten Proposition),
+wie sich eine derivierte Kategorie aus zwei Teilen zusammensetzt.
+
+
 === Nächste Schritte
 
 * Folgendes Must-Read-Paper lesen:
   Orlov, Derived categories of coherent sheaves and equivalences between them.
   http://www.mi.ras.ru/~orlov/papers/Uspekhi2003.pdf
+
+* Recollement-Paper lesen

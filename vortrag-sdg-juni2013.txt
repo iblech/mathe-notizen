@@ -46,3 +46,6 @@ Post mortem:
 * Seltsame Funktionen nicht hinschreibbar.
 * Mehr Zeit für den Schluss, damit besser klar wird, wie man das Zeug 
   einsetzen kann. --> Zorn-Phase überwinden. 
+
+
+Falls ich den Namen wieder vergesse: Hadamard-Lemma!

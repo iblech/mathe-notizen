@@ -203,6 +203,16 @@ Siehe: Antwort von Zhen Lin auf
 http://math.stackexchange.com/questions/9928/yoga-of-localization-in-categories.
 
 
+=== Grothendiecks vier bzw. sechs Funktoren
+
+Siehe: http://blog.konradvoelkel.de/2012/05/four-functors-example/
+
+Ein Grund für die Notwendigkeit der derivierten Kategorie ist, dass f_! im
+Allgemeinen keinen Rechtsadjungierten f^! in der Garbenkategorie besitzt.
+(Kann er nicht haben, denn f_! besitzt im Allgemeinen Kohomologie, ist also
+nicht rechtsexakt.)
+
+
 === Siehe auch
 
 http://www.math.uni-kiel.de/algebra/bois/docz/sheaves_notes.pdf

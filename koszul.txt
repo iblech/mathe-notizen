@@ -5,6 +5,8 @@
   Siehe GenHKR.pdf, Lemma 1.14, Seite 11. Was ist damit gemeint, und unter
   welchen Voraussetzungen gilt das?
 
+* GenHKR gibt auch noch ein einfaches Lemma für Regularität.
+
 * Wann sind Schnitte durch ihren "zero locus" bestimmt?
   http://mathoverflow.net/questions/66774/when-is-a-section-of-vector-bundle-determined-by-its-zero-locus
 

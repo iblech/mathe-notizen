@@ -154,6 +154,22 @@ Eigenschaft lautet dann: Ein Morphismus f : Y --> X faktorisiert genau dann
 ist. Habe das aber nicht geprüft!
 
 
+=== Verschwindungsschema II
+
+Zu einem globalen Schnitt s eines Vektorbündels E kann man ebenfalls ein
+Verschwindungsschema konstruieren. Lokal/intern ist ein solcher nämlich einfach durch
+mehrere Schnitte von O_X gegeben: s_1, ..., s_n. Nehme dann als Idealgarbe
+einfach (s_1, ..., s_n) (nicht (s_1 * ... * s_n)).
+
+Ist alpha : E --> F ein Morphismus von Vektorbündeln, so kann man auch sinnvoll
+vom zugehörigen Verschwindungsschema sprechen. Lokal ist ein solcher einfach
+durch rk(E) * rk(F) viele Schnitte von O_X gegeben, die sollen alle
+verschwinden.
+
+Ist alpha speziell von der Form E --> O_X, so wird das Bild von alpha gerade
+die Idealgarbe sein.
+
+
 === Unterschemata
 
 * Sei f : X --> Y eine abgeschlossene Immersion. Dann habe die kurze exakte
@@ -166,7 +182,7 @@ ist. Habe das aber nicht geprüft!
   Höchstwahrscheinlich gilt f^* f_* O_X ~~ O_X (kanonisch).
   (Tensorieren mit Algebra, deren Strukturmorphismus surjektiv ist.)
 
-  Es gilt: supp(f_* O_X) = V(I) = { x in X | I_x != (1) in O_{X,x} }.
+  Es gilt: supp(f_* O_X) = V(I) = { y in Y | I_y != (1) in O_{Y,y} }.
 
 * Sei etwa Y = P^1, X = Spec k und f die Inklusion des abgeschlossenen Punkts
   P = (0:1). Dann ist die Sequenz
@@ -190,11 +206,16 @@ ist. Habe das aber nicht geprüft!
 
 * Auflösung von f_*(O_X): Siehe GenHKR.pdf, Seite 8f.!
 
+* Abgeschlossene Immersionen sind fast nie flach (siehe Liu, Kapitel 4.3.1,
+  Beispiel 3.6), wenn sie nicht auch offen sind.
+
 
 === Fasern
 
 * Bsp. 9.3.3 in Vakil ("Consider the projection of the // parabola")
   erlärt super, wie man Fasern ausrechnet.
+
+* (f^* E)|_x = E|_f(x) tensor_k(f(x)) k(x).
 
 
 === Flache Familien
@@ -352,9 +373,17 @@ http://www.math.wisc.edu/~dewey/TalkNotes/AGdegree.pdf
 === Faser
 
 * O_{X,x} --> k(x) ist nur dann flach, wenn k(x) sogar freier O_{X,x}-Modul ist.
+  Konkretes Gegenbeispiel: Multiplikation mit 2 ist als Abbildung Z_(2) -->
+  Z_(2) injektiv, nach Übergang zur Faser (also Z_(2) / (2) = F_2) aber nicht
+  mehr (ist dann die Nullabbildung).
 
 * Daher scheint Exaktheit an Halmen nur bedingt etwas mit der geometrischeren
-  Exaktheit an Fasern zu tun zu haben.
+  Exaktheit an Fasern zu tun zu haben. ABER:
+
+* Bekanntermaßen bleibt eine kurze exakte Sequenz nach Tensorieren exakt,
+  wenn der rechte Modul selbst flach war (gilt das konstruktiv?). Also ist
+  "Faser nehmen" einer kurzen exakten Sequenz von O_X-Moduln durchaus exakt,
+  sofern nur der rechte Modul flach über O_X (zum Beispiel frei) ist!
 
 
 === Projektive Morphismen

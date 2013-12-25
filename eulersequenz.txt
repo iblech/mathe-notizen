@@ -47,6 +47,11 @@ Nach der Euler-Sequenz ist Omega eine Untergarbe von einer direkten Summe von
 O(-1)'en und hat daher nur den Nullschnitt als globalen Schnitt.
 
 
+=== Verallgemeinerung auf der Grassmannschen
+
+Siehe grassmannsche.txt.
+
+
 === Nächte Schritte
 
 * Wie folgt, dass auch die höheren Omega^i nur den trivialen Schnitt als

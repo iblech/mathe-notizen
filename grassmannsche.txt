@@ -12,3 +12,47 @@ Gr(r,n) --> P^N gegeben durch
     (O^(n+1) --> E) |--> (Lambda^r O^(n+1) --> Lambda^r E).
 
 Siehe Mumford, Lectures on curves on algebraic surfaces, Seite 32f.
+
+
+=== Kotangentialgarbe
+
+Sei G die Grassmannsche von m-dimensionalen Quotienten eines Vektorraums V.
+Dann gibt es auf G die kanonische kurze exakte Sequenz
+
+    0 --> A --> O_G tensor V --> B --> 0.
+
+Die Faser von B an einem Quotienten Q ist dabei gerade dieser Quotient,
+und auf Faserniveau ist die Abbildung O_G tensor V --> B gerade die
+Projektionsabbildung.
+
+In fünf Schritten kann man sehen, dass Omega_G ~~ Hom(B, A).
+Diese Erkenntnis verallgemeinert die Euler-Sequenz.
+
+1. Für beliebiges f = (f1, f2) : T --> G x G gilt folgende Kette von
+Äquivalenzen:
+* f faktorisiert über Delta in G x G
+* f1 = f_2
+* f1^*(B) = f2^*(B) als Quotienten von O_G tensor V
+  (universelle Eigenschaft von G!)
+* f1^*(A) --> O_G tensor V --> f2^*(B) verschwindet
+* f^*(pi1^*(A) --> pi2^*(B)) verschwindet
+
+2. Also ist Delta das Verschwindungsschema von pi1^*(A) --> pi2^*(B),
+umgeschrieben das von Hom(pi2^*(B), pi2^*(A)) --> O_(GxG).
+
+3. Daher gibt es eine kanonische Surjektion Hom --> I_Delta,
+wobei I_Delta die Idealgarbe zu Delta in G x G bezeichnet.
+
+4. Geht man noch weiter zu I_Delta/I_Delta^2 und schränkt sich auf Delta ~~ G ein,
+so erhält man eine Surjektion Hom(B,A) --> Omega_G. (Dabei verwende spezielle
+Darstellung der Kotangentialgarbe!)
+
+5. Da beide Moduln lokal frei vom Rang m(n-m) sind, ist diese Surjektion ein Iso.
+
+Quelle: Manfred Lehn in Barcelona (Compactifying Moduli Spaces)
+http://www.crm.cat/en/Activities/Documents/quadern-web.pdf
+
+
+=== Nächste Schritte
+
+* Das Ergebnis über die Kotangentialgarbe anschaulich verstehen.
