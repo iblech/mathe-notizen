@@ -108,6 +108,8 @@ Dann ist Omega^1_{X/Y} ~~ Delta^*(I/I^2).
 
 Siehe auch: http://mathoverflow.net/questions/54593/diagonal-map-and-infinitesimal-points
 
+Wie ist das universelle Differential gegeben?
+
 
 === Fasern
 
@@ -122,3 +124,13 @@ Siehe auch: http://mathoverflow.net/questions/54593/diagonal-map-and-infinitesim
 * Zusammenhang mit Diagonale anschaulich verstehen.
 
 * Siehe auch: http://therisingsea.org/notes/Section2.8-Differentials.pdf
+
+* Siehe auch: http://home.mathematik.uni-freiburg.de/soergel/Skripten/XXLAG.pdf
+  Hat Kapitel über algebraische Differentialrechnung.
+
+* Verstehen, wie die Orientierungsgarbe mit den Top-Differentialformen
+  zusammenhängt:
+  http://mathoverflow.net/questions/10966/two-kinds-of-orientability-orientation-for-a-differentiable-manifold/10968#10968
+
+  Laut einer Wikipedia-Spekulation so:
+  Omega^n \ {0} modulo Wirkung von R^+ ist die Orientierungsgarbe.

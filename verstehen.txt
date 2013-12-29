@@ -31,6 +31,7 @@ Unsortierte Fragen:
 * Vortragsidee: Topologie ohne Punkte; HoTT
 * http://www.andrew.cmu.edu/user/awodey/students/jackson.pdf Sheaf-theoretic
   measure theory
+* Variational bicomplex
 
 Lesen:
 * Ploogs Dissertation

@@ -17,3 +17,21 @@ Nächste Schritte:
 * Quelle 82 in Huy: Analogie zu L^2.
 * Bsp. 5.15 in Huy verstehen (zumindest nachvollziehen).
 * Kann man allgemeine Eulerzahltheorie auf D^b(X) anwenden?
+
+
+=== Analogie zur klassischen Fouriertransformation
+
+* Die Formel für die Verkettung ist in perfekter Analogie zur klassischen Formel.
+
+Was passiert, wenn man Wolkenkratzergarben als Kerne nimmt?
+
+Übersetzt sich Dualisieren wirklich zu Kehrwert bilden?
+
+Gibt es eine Analogie zu den Links- und Rechtsadjungierten?
+
+Gibt es ein Analogon zur Auflösung der Diagonale?
+
+
+=== Nächste Schritte
+
+* Analogie-Tabelle anlegen und -Fragen klären

@@ -58,6 +58,18 @@ n-Kokette: Zuordnung von Koeffizienten (Schnitten der untersuchten Garbe F) zu
 Element von H_(n+1)(A).
 
 
+=== Relative Homologie
+
+Die Zuordnung U |--> H_n(X, X \ U) definiert eine Prägarbe. Deren
+Garbifizierung ist die Orientierungsgarbe. Ihr Halm an einem Punkt x ist
+die relative Homologie H_n(X, X \ {x}).
+
+Siehe:
+* http://mathoverflow.net/questions/79200/orientation-sheaf-and-double-cover
+* http://link.springer.com/chapter/10.1007%2FBFb0081420
+  Sheaves that are locally constant with applications to homology manifolds
+
+
 === Nächste Schritte
 
 * Verbindender Homomorphismus in allgemeineren (Ko-)Homologietheorien
@@ -66,3 +78,4 @@ Element von H_(n+1)(A).
 * Wieso ist Integrieren ein Algebra-Homomorphismus Omega^*(M) --> C^*(M)?
 * Grundlagen über gemeinsame Verfeinerungen, die Hauptvermutung usw.
   herausfinden. Werden Dächer in der derivierten Kategorie gestiftet?
+* Aussagen über die Orientierungsgarbe nachvollziehen.

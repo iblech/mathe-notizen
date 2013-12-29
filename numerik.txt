@@ -1,2 +1,5 @@
 * Unendlich-Zeugs für Fluidsimulationen:
   Dennis Sullivan, http://arxiv.org/pdf/1010.2721v1.pdf
+
+* Abschätzung für die Frobenius-Norm von Kommutatoren:
+  Böttcher, Wenzel, http://www.tu-chemnitz.de/mathematik/preprint/2008/PREPRINT_05.pdf

@@ -29,6 +29,16 @@ charakterisiert (vgl. Huy05 S. 123; Beweis noch nicht genau nachvollzogen).
 Anwendung: Auf diese Weise kann man zumindest die abgeschlossenen Punkte aus
 Coh(X) rekonstruieren.
 
+* Sei i_*(k(x)) die Wolkenkratzergarbe zu einem abgeschlossenen Punkt x.
+  Sei G ein beliebiger O_X-Modul. Dann gilt
+
+      i_*(k(x)) tensor G ~~ i_*(G|_x)  (Faser),
+
+  denn das Tensorprodukt ist eine Garbe, die höchstens in x Träger hat.
+  Nach unten stehender Kategorienäquivalenz ist sie daher isomorph zum
+  Pushforward des Rückzugs. Dieser ist der Halm des Tensorprodukts bei x,
+  also k(x) tensor_{O_{X,x}} G_x, also G|_x.
+
 
 === Träger
 
@@ -139,6 +149,7 @@ Sei F eine Garbe auf X mit supp F = { x0 }. Sei x0 ein abgeschlossener Punkt.
   Denn F_x0 ist als Vektorraum über einem Körper injektiv in k(x0)-Mod.
   Die Flabbyness kann ich auch einsehen, wenn O_X kein lokaler Ring ist (und
   man somit nicht Rückzug auf Vektorräume hat).
+  ??? Hier scheinen Halm und Faser verwechselt zu sein.
 
 * Daher verschwindet die höhere Garbenkohomologie von X mit Werten in F.
   Kann das auch direkt einsehen: Sei F_x0 --> I^* eine injektive Auflösung in
@@ -218,3 +229,14 @@ nicht rechtsexakt.)
 http://www.math.uni-kiel.de/algebra/bois/docz/sheaves_notes.pdf
 Nette Einführung mit Bildern. Sagt auch etwas, wie man Coh(X) aus Coh(U_i)
 erhält.
+
+
+=== Nächste Schritte
+
+* Wieso sind Wolkenkratzergarben (die aus der algebraischen Geometrie) im
+  noetherschen Fall kohärent?
+
+* Was passiert mit solchen Wolkenkratzergarben unter Vorwärtsdrücken und
+  Zurückziehen?
+
+* Höhere direkte Bilder verstehen. Weiß man etwas über den Träger?
