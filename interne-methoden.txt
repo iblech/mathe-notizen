@@ -219,6 +219,13 @@
   wobei der zweite Faktor ein invertierbares Element aus O_X ist.
 
 
+=== Kählerdifferentiale
+
+* Die Konstruktion, Kählerdifferentiale zu bilden, ist geometrisch (siehe
+  kategorielle-logik.txt). Daher ist völlig klar: Der Halm von Omega_{B/A}
+  ist Omega_{B_x/A_x}.
+
+
 === Induktionsbeweise für Vektorbündel
 
 Beweise Lemma 3 von
@@ -298,6 +305,10 @@ wobei L ein Geradenbündel und E' ein Vektorbündel vom Rang r-1 ist.
 
 * Endlich verstehen, direkt anhand der Kripke-Joyal-Semantik:
   Wieso gelten geometrische Formeln genau dann, wenn sie halmweise gelten?
+
+* Garbenbedingung und Garbifizierung zu Lawvere-Tierney-Topologien intern
+  verstehen. Vgl. Johnstone: The associated sheaf functor in an elementary
+  topos.
 
 
 === math.se-Antwort

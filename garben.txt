@@ -214,6 +214,24 @@ Siehe: Antwort von Zhen Lin auf
 http://math.stackexchange.com/questions/9928/yoga-of-localization-in-categories.
 
 
+=== Garben auf lokalen Räumen
+
+Sei X ein lokaler Raum.
+
+* Sei x ein Brennpunkt von X. Dann ist für jede Garbe F die kanonische Abbildung
+
+      F(X) ---> F_x
+
+  ein Iso. Daher ist also "globale Schnitte nehmen" dann einfach Spezialfall
+  von "Halm nehmen". Das ist gut zu wissen, wenn man es mit geometrischen
+  Formeln zu tun hat!
+
+* Auch ohne Brennpunkt besitzt der "globale Schnitte"-Funktor einen extra
+  Rechtsadjungierten, explizit durch folgende Formel gegeben:
+
+      Gamma^!(M) := (auf U: [ (U=X), M ]).
+
+
 === Grothendiecks vier bzw. sechs Funktoren
 
 Siehe: http://blog.konradvoelkel.de/2012/05/four-functors-example/

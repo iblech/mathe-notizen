@@ -1,2 +1,112 @@
 * http://ljk.imag.fr/membres/Dominique.Duval/Slides/capp10.pdf
 * A categorical semantics of quantum protocols: http://arxiv.org/abs/quant-ph/0402130
+
+
+=== Zusammenhang zwischen [[.]] und |==
+
+Siehe Shulmans Stack-Paper. Sei phi eine Aussage über einem Topos E mit einer
+freien Variable x. Dann definiert die Kripke-Joyal-Interpretation von phi eine
+Prägarbe auf E, nämlich
+
+    A |--> { a : A --> X | A |== (a^* phi)[x/a] }.
+
+Das ist eine Unterprägarbe von Hom(__, X). Diese nun wird dargestellt durch
+
+    [[x:X. phi]].
+
+NB: Diese Unterprägarbe ist sogar eine Garbe, also ein richtiges Unterobjekt in
+Sh(E). Das klärt ein wenig die Bezeichnung "Stack-Semantik".
+
+
+=== Schnitte von [[x:X. phi]] in einem Garbentopos Sh(Y)
+
+Die U-Schnitte von [[x:X. phi]] gerade diejenigen U-Schnitte von X, die in der
+Kripke-Joyal-Semantik die Aussage phi erfüllen. (Wende dazu den genannten
+Zusammenhang auf A := Hom(__,U) an.)
+
+* Die Formel "forall y. xy = 0 ==> x = 0" (d.h. "x ist regulär") ist nicht
+  geometrisch. Trotzdem kann man einfach angeben, wie das Unterobjekt der
+  regulären Elemente einer Ringgarbe R aussieht:
+
+      Reg_R(U) = { x \in R(U) | U |== phi(x) }
+               = { x \in R(U) | x regulär in allen R_p, p \in U }.
+
+  Denn für festes x ist phi(x) eine geometrische Sequenz.
+
+
+=== Schnitte von [[ { x:X | phi } ]] in einem Garbentopos Sh(Y)
+
+Betrachte das Pullbackdiagramm
+
+    [[ x:X. phi ]] --------> 1
+         |                   |
+         |                   |
+         |                   |
+         v                   v
+         X --------------> Omega  (das ist, modulo Curryfizierung,
+                 chi              die Interpretation [[ {x|phi} ]])
+
+auf U-Schnitten; da Schnitte nehmen linksexakt ist, bleibt das ein
+Pullbackdiagramm. Da aber Omega(U) nicht viel mit der externen Menge der
+Wahrheitswerte zu tun hat, lässt sich chi_U nicht als klassifizierende
+Abbildung einer Teilmenge von X(U) lesen.
+
+Es gilt zumindest für alle s aus X(U): chi_U(s) = U <==> U |== phi[s/x].
+
+
+=== Geometrische Formeln und Konstruktionen
+
+* Geometrische Formeln vertragen sich gut mit dem Zurückziehen längs
+  geometrischer Morphismen:
+
+      f^* [[phi]] = [[f^*(phi)]].
+
+* Mittels Induktion über den Formelaufbau kann man leicht folgendes zeigen:
+  Sei phi eine geometrische Formel über eine Teilmenge U. Sei x in U.
+  Dann gilt:
+
+      Set |== x^* phi   <==>   ex. x \in V \subseteq U: V |== phi.
+
+  Falls phi auch "==>" oder "forall" enthält, gilt nur "<==" -- allerdings nur
+  dann, wenn man noch die volle Induktionsvoraussetzung für alle Teilaussagen
+  zur Verfügung hat. Wegen der Charakterisierung der Gültigkeit geometrischer
+  Sequenzen ist die Rückrichtung aber sowieso trivial.
+
+* Damit ist es leicht, zu zeigen, dass eine geometrische Sequenz genau
+  dann auf einer offenen Teilmenge U gilt, wenn sie an allen Halmen gilt.
+
+* Eine *Konstruktion* heißt geometrisch, wenn sie sich nur aus Dingen
+  zusammensetzt, die unter solchen Rückzügen erhalten bleiben, insbesondere
+  sind das Produkt und Koprodukt, aber auch Interpretationen von geometrischen
+  Formeln (nicht Sequenzen!).
+
+* Etwa ist R^x := { x:R | exists y:R. xy = 1 } eine geometrische Konstruktion,
+  Reg(R) := { x:R | forall y:R. xy = 0 ==> y = 0 } aber nicht.
+
+* Objekte natürlicher Zahlen und Listenobjekte kommutieren mit Rückzug.
+
+* Die Konstruktion "freier R-Modul auf" kommutiert ebenfalls. Das ist NICHT
+  klar, wenn man dazu die feinste Äquivalenzrelation mit ... verwendet,
+  aber SCHON, wenn man ihn einfach als Koequalizer definiert:
+
+      Rel ==> L(R x X) --> coeq,
+
+  wobei Rel = { (v,w) | v,w sind mit einer elementaren Umformung miteinander
+  verbunden }. Die beiden Morphismen aus Rel sind die beiden
+  Projektionsmorphismen. Denn Koequalizer, Rel und L sind alle geometrisch.
+
+* Auch die Konstruktion "Kählerdifferentiale" ist geometrisch.
+
+
+=== Generischer Halm
+
+Sei xi ein generischer Punkt eines topologischen Raums X. Das soll heißen, dass
+der Abschluss von {xi} ganz X ist. Dann gilt: Jede nichtleere offene Teilmenge
+enthält xi. Daher folgt für eine geometrische Formel phi über X:
+
+    phi gilt am generischen Halm  <==>
+    phi gilt auf einer dichten offenen Teilmenge von X.
+
+In diesem Sinn ist zu einem lokal geringten Raum (X,O_X) die "Keim-Umgebung"
+(pt,O_{X,x}) also nicht nur in einem geometrischen Sinn keimartig, sondern auch
+in einem logischen.

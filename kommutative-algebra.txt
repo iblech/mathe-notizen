@@ -39,6 +39,24 @@
   Das sieht man etwa schon an Z_(2) --> Z_(2), z |--> 2z.
 
 
+=== Endlichkeitseigenschaften von Algebren
+
+* Sei eine R-Algebra S als R-Modul endlich erzeugt.
+  Dann ist S auch als R-Algebra endlich erzeugt. (Klar.
+
+* Sei eine R-Algebra S als R-Modul frei von endlichem Rang.
+  Dann ist S auch als R-Algebra von endlicher Präsentation.
+
+  Sei dazu x_1, ..., x_n eine Basis von S über R.
+  Schreibe
+
+      x_i x_j = sum_k a^ij_k x_k,
+      1       = sum_k b_k x_k.
+
+  Dann R[X_1,...,X_n]/(X_i X_j - sum a^ij_k X_k, 1 - sum b_k X_k)
+  kanonisch isomorph zu S.
+
+
 === Injektivität und Surjektivität
 
 Sei M eine quadratische Matrix über einem Ring.

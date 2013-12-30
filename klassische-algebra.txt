@@ -1,3 +1,24 @@
 === Elementarsymmetrische Funktionen
 
 Es gilt: e_i(x_1^(-1), ..., x_n^(-1)) = e_(n-i)(x_1,...,x_n) / e_n(x_1,...,x_n).
+
+
+=== Aut(G) zyklisch ==> G abelsch
+
+Habe G --> Aut(G), g |-> conj_g. Der Kern besteht gerade aus den Elementen des
+Zentrums. Habe also Inklusion
+
+    G / Z(G) --> Aut(G).
+
+Somit ist auch G/Z(G) zyklisch. Sei [v] ein Erzeuger. Seien g, h aus G
+beliebig. Dann gilt:
+
+    g = v^n u, h = v^m w für gewisse Zentrumselemente u, v,
+
+    also gh = v^n u v^m w = v^n v^m uw = v^m v^n uw = v^m w v^n u = hg.
+
+
+=== Nächste Schritte
+
+* Unter welchen Voraussetzungen ist eine Untergruppe einer zyklischen Gruppe
+  auch konstruktiv wieder zyklisch?

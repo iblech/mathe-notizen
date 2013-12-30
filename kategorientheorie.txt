@@ -160,3 +160,22 @@ Zugehörigkeit aller Elemente des Diagramms.
 
 Nächste Schritte:
 * Stimmt das "sollte gleichbedeutend" sein?
+
+
+=== Yoneda-Lemma als Aussage über Termmodelle
+
+ou can think of "category" as meaning the same thing as "algebraic theory in a
+multisorted language with only unary functions" (the objects of the category
+being the sorts of the language, the morphisms being the definable functions,
+and the equalities between (composites of) morphisms being the laws of the
+theory). From this perspective, a functor from C to Set is simply a model of
+the theory corresponding to C, and natural transformations of such functors are
+homomorphisms of models. The Yoneda lemma then is about free models:
+specifically, it says that for every sort s, the "term model" of terms with a
+single variable, of sort s (equivalently, definable functions with domain s) is
+the free model on a single generator of sort s. [It may be unfamiliar when
+expressed as "Nat(Hom(s, -), M) ~= M(s), naturally in M", but that is indeed
+all this categorical expression is saying]
+
+Quelle: Sridhar Ramesh in
+http://mathoverflow.net/questions/3184/philosophical-meaning-of-the-yoneda-lemma/15143#15143

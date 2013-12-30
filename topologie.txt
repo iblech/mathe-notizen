@@ -94,6 +94,10 @@ Denn jeder Punkt enthält einen abgeschlossenen Punkt in seinem Abschluss.
   Außerdem ist W ebenfalls von Kodimension 1 [stimmt das?].
   Da W in Y und in Y' liegt, muss W schon gleich Y und Y' sein.
 
+* Sei xi ein Punkt eines topologischen Raums X, sodass {xi} abgeschlossen ist.
+  Dann enthält jede nichtleere offene Teilmenge von X xi, und damit ist X
+  irreduzibel. Gilt die Umkehrung?
+
 
 === Lokale Räume
 
@@ -105,7 +109,11 @@ gesamten Raum ist.
 
 * Ist X lokal, so gilt für geometrische Aussagen phi:
 
-      Sh(X) |== phi   gdw.   phi.
+      Sh(X) |== phi   gdw.   phi im gewöhnlichen Sinn (zurückgezogen auf
+      globale Schnitte).
 
   (Beweis durch Induktion über den Formelaufbau; trivial für top, bot, wedge;
-  nach Voraussetzung für vee, exists; falsch für impl und forall.)
+  nach Voraussetzung für vee, exists; falsch für impl und forall. Alternativ:
+  Nimm an, dass X einen Brennpunkt x besitzt. (Das gilt bei nüchternen Räumen
+  oder so.) Dann gilt Set |== x^*(phi) genau dann, wenn es phi auf einer
+  offenen Umgebung von x stimmt. Aber X selbst ist die einzige solche Umgebung.)
