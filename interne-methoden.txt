@@ -97,7 +97,7 @@
   maximale Ideale: die Idealgarben zu abgeschlossenen Punkten.
 
 
-=== Rationale Funktionen
+=== Rationale Funktionen I
 
 * Intern kann man die Teilmenge
 
@@ -108,9 +108,11 @@
 
       S(U) = { f \in O_X(U) | f regulär in allen O_{X,x}, x \in U }.
 
-  Dabei verwendet: [[ { x : F | phi(x) } ]](U) = { x \in F(U) | U |== phi(x) }.
-  (Damit kann man die Behauptung zumindest explizit per Hand abkürzen. Ob die
-  geometrische Form schon genügt, weiß ich gerade nicht.)
+  Dabei verwendet: [[ { x : F | phi(x) } ]](U) = { x \in F(U) | U |== phi(x) },
+  siehe kategorielle-logik.txt.
+
+  Obacht: Da die Konstruktion von S nicht an sich geometrisch ist, stimmt der
+  Halm S_x NICHT mit der Menge der regulären Elemente in O_{X,x} überein.
 
 * Daher kann man intern S^(-1) O_X bilden.
 
@@ -134,20 +136,136 @@
 
 * Also kann ich K intern verstehen als S^(-1) O_X! :-)
 
-* Außerdem ist UNSINN, dass der Halm K_x gleich dem totalen Quotientenring von
-  O_{X,x} ist. Denn "S^(-1) O_X ist eine geometrische Konstruktion und ist
-  daher mit Pullback verträglich". Genauer: S^(-1) O_X passt in die kurze
-  Sequenz
-
-      0 --> { (a/s; b/t) | ta = sb } --> (O_X x Reg(O_X))^2 --> S^(-1) O_X --> 0.
-
-  Diese bleibt beim Nehmen des Halms exakt und geht in die erwarteten Terme
-  über. URPDATE: Nicht ganz. Der Halm von Reg(O_X) an einer Stelle bettet zwar
-  immer injektiv ein, kann aber echt kleiner sein als Reg(O_{X,x}). "Reg" ist
-  nämlich auch keine geometrische Konstruktion.
+* Da Lokalisierung eine geometrische Konstruktion ist, gilt
+  (S^(-1) O_X)_x = S_x^(-1) O_{X,x}. Der Halm S_x bettet zwar immer
+  injektiv ein, kann aber echt kleiner sein als die Menge der regulären
+  Elemente in O_{X,x}. Daher ist der Halm im Allgemeinen NICHT gleich dem
+  totalten Quotientenring von O_{X,x}.
 
   Kleiman schreibt, dass wenn X lokal noethersch oder wenn X reduziert ist und
   die Menge der irreduziblen Komponenten lokal endlich ist, es doch stimmt.
+
+* Wenn O_X reduziert ist, ist S^(-1) O_X ein Körper von Brüchen, d.h. erfüllt
+  "ungleich Null ==> invertierbar": Sei f/s nicht Null. Dann ist auch f nicht
+  Null. Dann ist f auch in O_X nicht Null. Also ist f in O_X regulär. Also ist f
+  und somit f/s in S^(-1) O_X invertierbar.
+
+  Ein lokaler Ring ist S^(-1) O_X im Allgemeinen aber nicht. Dazu müsste S
+  einen Filter bilden, d.h. es müsste gelten:
+
+      x + y regulär  ==>  x regulär  oder  y regulär.
+
+
+=== Rationale Funktionen II
+
+* Sei zu einer Garbe F auf X folgende Garbe P, ausgeschrieben
+  P_{<= 1}^{\neg\neg bewohnt}(F), definiert:
+
+      P = { W \subseteq F | W Subsingleton und nicht nicht bewohnt }.
+
+  * Falls F etwa ein Ring ist, wird P auch zu einem Ring:
+
+      W + W' := { w + w' | w \in W, w' \in W' }
+           0 := { 0 }
+
+  * Falls x in W, so W = { x }.
+
+  * Falls Gleichheit in F nichtnicht-stabil ist, folgt aus nicht nicht W = W'
+    schon W = W': Das ist mit der unten gegebenen topologischen Beschreibung
+    klar. Es sollte sich aber auch konstruktiv zeigen lassen!
+
+* Falls Gleichheit in F nichtnicht-stabil ist, lässt sich die Bedingung an W
+  äquivalent wie folgt schreiben:
+
+      Nicht nicht ist W ein Singleton.
+
+  Extern bedeutet die Nichtnichtstabilität, dass für jede offene Menge U
+  und für je zwei Schnitte s, s' von F auf U gilt: Sollten s und s' auf einer
+  dichten offenen Teilmenge von U übereinstimmen, so stimmen sie schon auf ganz U
+  überein.
+
+* Falls R ein Ring mit s regulär <==> --(s invertierbar) ist
+  (das gilt zum Beispiel für O_X, falls X reduziert ist), so
+  gibt es einen injektiven Ringhomo Reg^(-1) R --> P(R):
+
+  Schicke einen Bruch f/s auf W := { uf | u : R, us = 1 }.
+  W ist sicherlich ein Subsingleton und nach Voraussetzung an R auch
+  nicht nicht bewohnt.
+
+  Surjektiv ist dieser Homo aber nicht immer -- wohl aber im Anwendungsfall in
+  der algebraischen Geometrie, siehe unten.
+
+* Für die volle Potenzmengengarbe PP von F gilt:
+
+      Gamma(U, PP) = Hom(U_, [F, Omega]) = Hom(U_ x F, Omega)
+          = Sub(U_ x F) = Sub(F|_U), denn:
+
+  * Gamma(V, U_ x F) = { s \in F(V) | V \subseteq U }.
+    Insbesondere also (U_ x F)|_U = F.
+    (Es gilt NICHT: U_ x F = i_* i^(-1) F = i_* F|_U. Das kann nämlich noch
+    viele globale Schnitte haben.)
+
+  * Ist G ^--> U_ x F ein Unterobjekt, so ist
+    G|_U --> F|_U das zugehörige Unterobjekt von F|_U.
+
+  * Ist H ^--> F|_U ein Unterobjekt, so ist
+    (V |-> { s \in H(U \cap V) | V \subseteq U }) das zugehörige Unterobjekt
+    von U_ x F.
+
+* Für die Garbe PPP der Subsingletons gilt:
+
+      Gamma(U, PPP)
+          = { S \in Gamma(U, PP) | U |== forall x,y \in S. x = y }
+          = { [S ^--> F|_U]      | U |== forall x,y : S.   x = y }
+          = { [S ^--> F|_U]      | alle Halme S_x sind Subsingletons }
+  
+  Beim zweiten Schritt muss man kurz nachdenken, da die Beschreibung der vollen
+  Potenzmengengarbe ausgenutzt wird.
+
+* Für die eigentlich interessante Garbe P gilt:
+
+      Gamma(U, P)
+          = { [S ^--> F|_U] | U |== S Subsingleton und nicht nicht bewohnt }
+          = { [S ^--> F|_U] | alle Halme S_x Subsingletons und
+                                  es existiert eine offene dichte Teilmenge V in U
+                                  sodass alle Halme auf V Singletons sind }.
+  
+  Wenn man nun annimmt, dass (#) Gleichheit auf F nichtnicht-stabil ist, kann man
+  das weiter vereinfachen zu
+
+          = { <V in U offen dicht, s \in F(V)> } / ~,
+
+  wobei (~) durch Gleichheit auf offener dichter Teilmenge des gemeinsamen
+  Definitionsbereichs (oder wegen (#) äquivalent schon auf dem gemeinsamen
+  Definitionsbereich selbst) gegeben ist.
+
+  Die Umrechnung "|->" geschieht wie folgt:
+
+      Nach Voraussetzung existiert ein geeignetes V.
+      Verklebe die eindeutig gegebenen Keime in den Halmen von S
+      zu einem Element s aus F. Die Kompatibilitätsbedingung ist wegen der
+      Subsingletoneigenschaft erfüllt.
+
+      Bei anderer Wahl von V, V', wird der neue Schnitt s' mit s auf
+      dem Schnitt V \cap V' übereinstimmen und daher dieselbe Äquivalenzklasse
+      geben.
+
+  Die Umrechnung "<-|" geschieht so:
+
+      Betrachte <V, s>.
+      Auf offenen Mengen W von U definiere S(W) := { f \in F(W) | f = s auf V \cap W }.
+      S ist eine Untergarbe von F|_U, sie ist auf einer dichten offenen
+      Teilmenge bewohnt (nämlich durch s auf V) und ein Subsingleton (wenn
+      f = s auf V cap W und f' = s auf V cap W, so f = f' auf V cap W und
+      wegen (#) daher auch auf ganz V.
+
+      Wegen (#) hängt S auch nicht von der Wahl von <V, s> ab.
+
+* Beispiel: F = C, F = C^\infty und F = O_X auf reduzierten Schemata X
+  erfüllen Eigenschaft (#). Daher sind Schnitte von P durch das gegeben, was
+  man gemeinhin rationale Funktionen nennt.
+
+* Im 
 
 
 === Cartier-Divisoren und Geradenbündel
@@ -287,12 +405,6 @@ wobei L ein Geradenbündel und E' ein Vektorbündel vom Rang r-1 ist.
 * Sei E --> X ein topologisches Vektorbündel.
   Dann kann man seine Projektivierung konstruieren: P(E) --> X.
   Kann man das intern verstehen?
-
-* Welche Körperbedingung erfüllt K_X? Damit es zumindest ein lokaler Ring wird,
-  sollte die Menge der regulären Elemente von O_X einen Filter bilden (siehe
-  spektrum.txt). Dazu bräuchte
-
-      x + y regulär  ==>  x regulär  oder  y regulär.
 
 * Unter gewissen Umständen gilt bei eigentlichen Abbildungen f, dass
   f_* O_X ~~ O_Y. Siehe
