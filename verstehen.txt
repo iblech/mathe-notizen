@@ -23,6 +23,10 @@ Unsortierte Fragen:
   wie umgekehrt? Siehe
   http://golem.ph.utexas.edu/category/2007/12/a_topos_for_algebraic_quantum.html,
   "Sheaves of things are these things internal to sheaves.", Elephant D.1.2.14.
+  http://golem.ph.utexas.edu/category/2007/10/geometric_representation_theor_2.html#c012724
+  For example, a group object in the category of rings (to pick two algebraic
+  theories out of a hat) is “the same thing” as a ring object in the category
+  of groups.
 * Finite-Difference Approach to the Hodge Theory of Harmonic Forms
   Lieblingspaper von Eric Forgy (?)
 * http://ncatlab.org/schreiber/show/master+thesis+Stel
@@ -32,6 +36,7 @@ Unsortierte Fragen:
 * http://www.andrew.cmu.edu/user/awodey/students/jackson.pdf Sheaf-theoretic
   measure theory
 * Variational bicomplex
+* Diagrammjagden
 
 Lesen:
 * Ploogs Dissertation

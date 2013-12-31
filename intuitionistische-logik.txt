@@ -148,6 +148,25 @@ Sei iota : A --> B mit pi . iota = id. Wenn B diskret ist, ist A herauslösbar
 in B. Denn "b in A" ist äquivalent zu "iota(pi(b)) = b".
 
 
+=== Körperbedingungen
+
+Schreibe in diesem Abschnitt "-" für "neg".
+
+* Gelte -(s inv.) ==> s nilpotent.
+
+  Dann ist -(1 = 0) äquivalent dazu, dass auch die Rückrichtung gilt.
+
+* Gelte -(s inv.) ==> s nilpotent und -(1 = 0).
+
+  Dann gilt auch: --(s nilpotent) ==> s nilpotent.
+
+* Gelte -(s inv.) ==> s nilpotent und -(1 = 0) und ferner s^2 = 0 ==> s = 0.
+
+  Dann gilt: --(s = 0) ==> s = 0.
+
+* Unter diesen Voraussetzungen gilt auch: s regulär <==> --(s invertierbar).
+
+
 === Literatur
 
 * The Age of Alternative Logics.

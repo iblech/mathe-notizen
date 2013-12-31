@@ -158,21 +158,23 @@
 
 === Rationale Funktionen II
 
-* Sei zu einer Garbe F auf X folgende Garbe P, ausgeschrieben
+* Sei zu einer Menge F folgende Menge P, ausgeschrieben
   P_{<= 1}^{\neg\neg bewohnt}(F), definiert:
 
       P = { W \subseteq F | W Subsingleton und nicht nicht bewohnt }.
 
-  * Falls F etwa ein Ring ist, wird P auch zu einem Ring:
+  * Falls F etwa ein Ring ist, erbt P auch die Ring-Operationen:
 
       W + W' := { w + w' | w \in W, w' \in W' }
+          -W := { -w | w \in W }
            0 := { 0 }
+
+    Allerdings gelten nicht alle Axiome. Etwa ist W + (-W) nicht unbedingt
+    gleich { 0 }, sondern nur nicht nicht gleich { 0 }.
 
   * Falls x in W, so W = { x }.
 
-  * Falls Gleichheit in F nichtnicht-stabil ist, folgt aus nicht nicht W = W'
-    schon W = W': Das ist mit der unten gegebenen topologischen Beschreibung
-    klar. Es sollte sich aber auch konstruktiv zeigen lassen!
+  * Man kann auch P/negneg betrachten. Das ist dann wirklich ein Ring.
 
 * Falls Gleichheit in F nichtnicht-stabil ist, lässt sich die Bedingung an W
   äquivalent wie folgt schreiben:
@@ -186,9 +188,9 @@
 
 * Falls R ein Ring mit s regulär <==> --(s invertierbar) ist
   (das gilt zum Beispiel für O_X, falls X reduziert ist), so
-  gibt es einen injektiven Ringhomo Reg^(-1) R --> P(R):
+  gibt es einen injektiven Ringhomo Reg^(-1) R --> P(R)/negneg.
 
-  Schicke einen Bruch f/s auf W := { uf | u : R, us = 1 }.
+  Schicke einen Bruch f/s auf die Klasse von W := { uf | u : R, us = 1 }.
   W ist sicherlich ein Subsingleton und nach Voraussetzung an R auch
   nicht nicht bewohnt.
 
@@ -222,7 +224,7 @@
   Beim zweiten Schritt muss man kurz nachdenken, da die Beschreibung der vollen
   Potenzmengengarbe ausgenutzt wird.
 
-* Für die eigentlich interessante Garbe P gilt:
+* Für die Garbe P gilt:
 
       Gamma(U, P)
           = { [S ^--> F|_U] | U |== S Subsingleton und nicht nicht bewohnt }
@@ -230,42 +232,26 @@
                                   es existiert eine offene dichte Teilmenge V in U
                                   sodass alle Halme auf V Singletons sind }.
   
-  Wenn man nun annimmt, dass (#) Gleichheit auf F nichtnicht-stabil ist, kann man
-  das weiter vereinfachen zu
+  Das kann man weiter vereinfachen zu
 
-          = { <V in U offen dicht, s \in F(V)> } / ~,
+          = { <V in U offen dicht, s \in F(V)> }.
 
-  wobei (~) durch Gleichheit auf offener dichter Teilmenge des gemeinsamen
-  Definitionsbereichs (oder wegen (#) äquivalent schon auf dem gemeinsamen
-  Definitionsbereich selbst) gegeben ist.
+  Die Zuordnung geht so: Zu einem Unterobjekt S kann man die Menge
+  V := { x \in U | S_x bewohnt } = Vereinigung über all die offenen Mengen W,
+  für die S(W) bewohnt ist, bilden. Auf dieser gibt es einen Schnitt s als
+  Verklebung der gegebenen Keime.
 
-  Die Umrechnung "|->" geschieht wie folgt:
+  Umgekehrt kann man zu <V,s> ein Unterobjekt S durch
 
-      Nach Voraussetzung existiert ein geeignetes V.
-      Verklebe die eindeutig gegebenen Keime in den Halmen von S
-      zu einem Element s aus F. Die Kompatibilitätsbedingung ist wegen der
-      Subsingletoneigenschaft erfüllt.
+        S(W) = { s|_{W cap Z} \in F(W cap Z) | Z \subseteq W }
 
-      Bei anderer Wahl von V, V', wird der neue Schnitt s' mit s auf
-      dem Schnitt V \cap V' übereinstimmen und daher dieselbe Äquivalenzklasse
-      geben.
+  definieren.
 
-  Die Umrechnung "<-|" geschieht so:
+* Als nächstes kann man P(F)/negneg betrachten. 
 
-      Betrachte <V, s>.
-      Auf offenen Mengen W von U definiere S(W) := { f \in F(W) | f = s auf V \cap W }.
-      S ist eine Untergarbe von F|_U, sie ist auf einer dichten offenen
-      Teilmenge bewohnt (nämlich durch s auf V) und ein Subsingleton (wenn
-      f = s auf V cap W und f' = s auf V cap W, so f = f' auf V cap W und
-      wegen (#) daher auch auf ganz V.
-
-      Wegen (#) hängt S auch nicht von der Wahl von <V, s> ab.
-
-* Beispiel: F = C, F = C^\infty und F = O_X auf reduzierten Schemata X
-  erfüllen Eigenschaft (#). Daher sind Schnitte von P durch das gegeben, was
-  man gemeinhin rationale Funktionen nennt.
-
-* Im 
+% Beispiel: F = C, F = C^\infty und F = O_X auf reduzierten Schemata X
+% erfüllen Eigenschaft (#). Daher sind Schnitte von P durch das gegeben, was
+% man gemeinhin rationale Funktionen nennt.
 
 
 === Cartier-Divisoren und Geradenbündel

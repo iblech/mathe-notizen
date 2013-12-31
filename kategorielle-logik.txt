@@ -110,3 +110,11 @@ enthält xi. Daher folgt für eine geometrische Formel phi über X:
 In diesem Sinn ist zu einem lokal geringten Raum (X,O_X) die "Keim-Umgebung"
 (pt,O_{X,x}) also nicht nur in einem geometrischen Sinn keimartig, sondern auch
 in einem logischen.
+
+
+=== Nächste Schritte
+
+* Für den Rückzug mit f^* statt f^(-1) auf Spec k(x)
+  geeignete Transferprinzipien herleiten.
+
+* Halm vs. kleine Umgebung kategoriell verstehen.

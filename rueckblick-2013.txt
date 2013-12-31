@@ -69,3 +69,6 @@ Sonstiges:
 * Frisch herausgekommenes Buch über Homotopietyptheorie 
 * Matheschülerzirkel 
 * Linux-Infotag 
+
+nLab:
+...
