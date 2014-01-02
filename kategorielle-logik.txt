@@ -72,6 +72,13 @@ Es gilt zumindest für alle s aus X(U): chi_U(s) = U <==> U |== phi[s/x].
   zur Verfügung hat. Wegen der Charakterisierung der Gültigkeit geometrischer
   Sequenzen ist die Rückrichtung aber sowieso trivial.
 
+  Die Äquivalenz gilt auch, wenn Teilaussagen der Form "x \in A" für
+  Teil"mengen" A \subseteq M vorkommen. Die muss man allerdings richtig
+  verstehen: Nicht die Menge A als globales Element von [M, Omega] auffassen,
+  sondern als Untergarbe von M. Wenn A selbst über eine geometrische Formel
+  definiert wurde, kann man auch gut angeben, wie die zurückgezogene Untergarbe
+  x^* A aussieht.
+
 * Damit ist es leicht, zu zeigen, dass eine geometrische Sequenz genau
   dann auf einer offenen Teilmenge U gilt, wenn sie an allen Halmen gilt.
 
@@ -110,6 +117,16 @@ enthält xi. Daher folgt für eine geometrische Formel phi über X:
 In diesem Sinn ist zu einem lokal geringten Raum (X,O_X) die "Keim-Umgebung"
 (pt,O_{X,x}) also nicht nur in einem geometrischen Sinn keimartig, sondern auch
 in einem logischen.
+
+Verallgemeinerung: Sei xi ein Punkt, sodass der Abschluss von {xi} eine Menge A
+ist. Dann gilt: Jede nichtleere offene Teilmenge von A enthält xi. Somit gilt
+für geometrische Formeln phi über X:
+
+    phi gilt am Halm xi  <==>
+    phi gilt auf einer offenen Menge, die xi enthält  <==>
+    phi gilt auf einer dichten offenen Teilmenge von A
+        (ziehe hier phi längs A ^--> X zurück und rede
+        dann in der internen Sprache von Sh(A))
 
 
 === Nächste Schritte

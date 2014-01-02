@@ -68,6 +68,57 @@ Achtung: Die Aussage der Beobachtung habe ich nicht bis ins letzte Detail
 überprüft.
 
 
+=== Wann ist das Spektrum einpunktig?
+
+Sei A ein lokaler Ring.
+
+* Genau dann erfüllt der lokal geringte Raum (pt, A) die universelle
+  Eigenschaft von Spec A (nämlich, dass Morphismen aus beliebig lokal geringten
+  Räumen hinein durch Ringhomos in die andere Richtung auf globalen Schnitten
+  gegeben sind), wenn jeder Ringhomo A --> B in einen lokalen Ring schon lokal ist.
+
+  Dabei habe ich evtl. ein kleines bisschen klassische Logik verwendet, durch
+  Betrachtung von Halmen. Neu machen mit Örtlichkeiten!
+
+* In klassischer Logik ist das genau dann der Fall, wenn A genau ein Primideal
+  besitzt:
+
+  * Sei p irgendein Primideal. Betrachte den Homo A --> A_p.
+    Sei x ein Element aus A, das nicht invertierbar ist (also im maximalen
+    Ideal liegt). Dann ist nach Voraussetzung auch das Bild in A_p nicht
+    invertierbar, also liegt x in p.
+    Somit m \subseteq p. Die umgekehrte Richtung gilt sowieso.
+
+  * Wenn A nur ein Primideal besitzt, ist das maximale Ideal als Schnitt aller
+    Primideale das Nilradikal. Also ist jedes Element entweder invertierbar
+    oder nilpotent. Damit folgt sofort die Behauptung.
+
+* Konstruktiv hinreichend dafür sind etwa folgende Bedingungen:
+
+  * nilpotent oder invertierbar
+  * nicht nilpotent ==> invertierbar
+
+  Es genügt aber scheinbar nicht:
+
+  * nicht invertierbar ==> nilpotent
+
+* Wenn man Spec A als Rahmen der Radikalideale von A (nicht nur der endlich
+  erzeugten) realisiert, so ist Spec A genau dann einpunktig, wenn jedes
+  Element von A nilpotent oder invertierbar ist. Denn:
+
+  * Die Rahmenabbildung Omega --> Rad(A), phi |-> { x | x nilp. oder phi }
+    ist genau dann ein Iso, wenn sie bijektiv ist.
+
+  * Injektiv ist sie stets.
+
+  * Surjektiv ist sie genau dann, wenn für jedes Radikalideal J gilt:
+    forall x \in J: x nilp. oder 1 \in J.
+
+  * Das ist genau dann der Fall, wenn für jedes f aus A gilt:
+    f nilp. oder f invertierbar.
+    (Betrachte für eine Richtung f \in sqrt(f)).
+
+
 === Spektrum nichtkommutativer Ringe
 
 * Manuel Reyes. Sheaves that fail to represent matrix rings.
@@ -79,3 +130,15 @@ Achtung: Die Aussage der Beobachtung habe ich nicht bis ins letzte Detail
 Hat was mit dem Theorem von Chevelley über Bilder konstruierbarer Mengen zu
 tun. Nächste Schritte: Das verstehen! Siehe etwa französischen Artikel von
 Joyal, Theoreme de Chevalley–Tarski et remarque sur l’algebre constructive.
+
+
+=== Nächste Schritte
+
+* Produziere explizites Gegenbeispiel für vermutlich falsche Behauptung,
+  die Bedingung "nicht invertierbar ==> nilpotent" sei hinreichend.
+
+* In Zar(S) kann man zu einer O_S-Algebrengarbe A das interne Spektrum
+  Spec A_groß bauen (als Örtlichkeit). Die Einschränkung auf Sh(S) könnte
+  irgendwas interessantes sein. Was?
+
+* Universelle Eigenschaft über Örtlichkeiten formulieren!

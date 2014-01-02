@@ -70,3 +70,9 @@ ist isomorph zu Aut(D^b(X^[n])).
 * http://math.stanford.edu/~vakil/727/, dort der Link
   http://math.stanford.edu/~vakil/727/roy.pdf
 * http://alg.math.uni-augsburg.de/forschung/spring-school-on-algebraic-geometry-2010/Picard-Vortrag.pdf
+
+
+=== Nächste Schritte
+
+* Die zwei äquivalenten Definition des Punktefunktors zum Hilbertschema
+  verstehen: Unterschemata bzw. Quotienten von O_???

@@ -1,0 +1,44 @@
+Literatur: Symmetric and exterior powers of categories. Nora Ganter, Mikhail
+Kapranov.
+
+=== A-Mod tensor_k B-Mod --> (A tensor_k B)-Mod volltreu
+
+Sei für einen kommutativen Ring R R-Mod die Kategorie der endlich präsentierten
+R-Moduln. (!)
+
+Dann ist der genannte Funktor volltreu. Dazu ist zu zeigen, dass die kanonische
+Abbildung
+
+    Hom_A(M,M') tensor_k Hom_B(N,N') -->
+        Hom_{A tensor_k B}(M tensor_k N, M' tensor_k N')
+
+ein Iso von k-Vektorräumen ist. Das geht so:
+
+* Im Fall, dass M und N jeweils frei von endlichem Rang und M' und N'
+  beliebig sind, ist es klar.
+
+* Falls M durch eine Sequenz der Form
+
+      A^p --> A^n --> M --> 0
+
+  endlich präsentiert und N = B oder N = B^m ist, kann man das Diagramm
+
+      0 --> Hom_A(M,  M') tensor Hom_B(N,N')
+        --> Hom_A(A^n,M') tensor Hom_B(N,N')
+        --> Hom_A(A^p,M') tensor Hom_B(N,N')  (erste Zeile)
+
+      0 --> Hom(M   tensor N, M' tensor N')
+        --> Hom(A^n tensor N, M' tensor N')
+        --> Hom(A^p tensor N, M' tensor N')  (zweite Zeile)
+
+  mit exakten Zeilen betrachten. Da man für die mittleren und rechten Moduln
+  die Aussage schon hat, folgt mit dem Viererlemma die Behauptung.
+
+* Falls M und N beide beliebig endlich präsentiert sind, macht man ein
+  ähnliches Argument, wobei man die vorherige Stufe schon ausnutzt.
+
+
+=== Nächste Schritte
+
+* Obiger Funktor ist angeblich eine Äquivalenz, falls A und B halbeinfach sind.
+  Das verstehen!

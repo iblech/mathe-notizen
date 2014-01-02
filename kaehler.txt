@@ -113,8 +113,8 @@ Wie ist das universelle Differential gegeben?
 
 === Fasern
 
-%Da die Kotangentialgarbenkonstruktion in einem gewissen Sinn mit Zurückziehen
-%verträglich ist, gilt folgendes: Die Faser von Omega^1_{X/Y} über 
+Liu sagt (Ex. 6.2.5): Wenn X --> S v.e.T., x \in X_s abgeschlossen, k(x)|k(s)
+separabel, dann: Omega^1_{X/S}|_x = T_{X_s,x}^.
 
 
 === Nächste Schritte

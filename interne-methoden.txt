@@ -27,6 +27,11 @@
   Dann gilt: Sh(X) |== F ist nicht nicht frei (von endlichem Rang),
   also ist F lokal frei auf einer dichten Teilmenge!
 
+* Die Bedigungen "F_x ist endlich erzeugt" und "F ist auf einer
+  offenen Umgebung von x endlich erzeugt" haben wenig miteinander zu tun. Denn
+  die Aussage, endlich erzeugt zu sein, ist (sogar, wenn man die Erzeuger
+  vorgibt), keine geometrische Formel.
+
 
 === Unterschema
 
@@ -37,6 +42,11 @@
 
   Diese Erweiterung erfüllt weiterhin das Lokalitätsaxiom. Sie ist auch einfach
   das Prädikat zum offenen Kern von (X \ {x0}).
+
+  Bemerkung: Falls x0 abgeschlossen ist, gilt für Punkte x: Genau dann gibt es
+  eine offene Umgebung U von x, sodass U |== !x0, falls x ungleich x0.
+  Daher kann man "!x0" als geometrische Formel ansehen, deren Rückzug auf den
+  Halm bei x "x != x0" bedeutet.
 
 * Für eine Funktion f \in O_X(X) gilt:
 
@@ -95,6 +105,12 @@
 
 * O_X in Sh(X), also dem kleinen Zariski-Topos, hat im Allgemeinen noch viele
   maximale Ideale: die Idealgarben zu abgeschlossenen Punkten.
+
+* Etwa im Fall X = Spec Z besitzt O_X aber keine interessanten Primelemente:
+  Die Bedingung "p|xy ==> p|x oder p|y" ist eine geometrische Sequenz und gilt
+  daher genau dann, wenn sie halmweise gilt. Am generischen Halm ist sie aber
+  nur für p = 0 \in Q erfüllt. Also gilt auch p = 0 \in Z (bzw. Z[(...)^{-1}],
+  wenn nicht mit einem globalen Element gestartet).
 
 
 === Rationale Funktionen I
@@ -400,9 +416,8 @@ wobei L ein Geradenbündel und E' ein Vektorbündel vom Rang r-1 ist.
 * Kripke-Joyal-Semantik auf (E,j) durch Kripke-Joyal-Semantik auf E
   ausdrücken! Siehe auch:
   http://math.stackexchange.com/questions/177484/what-is-a-lawvere-tierney-topology
-
-* Endlich verstehen, direkt anhand der Kripke-Joyal-Semantik:
-  Wieso gelten geometrische Formeln genau dann, wenn sie halmweise gelten?
+  Würde die Anwendbarkeit interner Methoden deutlich vergrößern, da man über
+  offene und abgeschlossene Unterschemata reden könnte.
 
 * Garbenbedingung und Garbifizierung zu Lawvere-Tierney-Topologien intern
   verstehen. Vgl. Johnstone: The associated sheaf functor in an elementary

@@ -431,3 +431,5 @@ Dann gilt:
 * Angeblich: F_x \cong O_{X,x}^n, F v.e.T. um x ==> F frei v.R. n um x.
 
 * Was sind die lokalen Modelle glatter (projektiver?) Schemata?
+
+* Wann sind Bilder abgeschlossener Punkte abgeschlossen?

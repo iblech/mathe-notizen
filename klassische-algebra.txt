@@ -18,6 +18,18 @@ beliebig. Dann gilt:
     also gh = v^n u v^m w = v^n v^m uw = v^m v^n uw = v^m w v^n u = hg.
 
 
+=== Kreisteilungspolynome
+
+For the factorization of xn−1, the first n where an irreducible factor has a
+coefficient besides 0, 1, or −1 is n=105. The point is that the possible
+nonzero coefficients only depend up to sign on the odd prime factors of n (not
+their multiplicities or any factors of 2), and for n a product of two different
+odd primes the irred. factors have only coeff. 0, 1, and −1. So the first
+possible n to be a counterexample would be n=3⋅5⋅7=105, and that is a
+counterexample. 
+http://math.stackexchange.com/questions/48301/examples-of-results-failing-in-higher-dimensions#comment322324_48349
+
+
 === Nächste Schritte
 
 * Unter welchen Voraussetzungen ist eine Untergruppe einer zyklischen Gruppe

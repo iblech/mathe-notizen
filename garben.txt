@@ -182,6 +182,21 @@ Was bedeutet [[ \exists x : M. x \neq 0 ]] für M Modulgarbe?
 Klar. Formulierung siehe Ravi Vakil.
 
 
+=== Garbenhom bei O_X-Moduln
+
+Man hat stets einen natürlichen Morphismus
+
+    HOM_{O_X}(E, F)_x --> Hom_{O_{X,x}}(E_x, F_x).
+
+Falls E um x von endlicher Präsentation ist, ist das sogar ein Iso.
+Zeige das so: Kann auf offene Umgebung von x einzuschränken; für
+E = O_X^n wäre es klar; HOM-Funktor ist linksexakt; 4er-Lemma.
+
+Sollte ferner Hom(E_x, F_x) tensor k(x) --> Hom(E|_x, F|_x) ein Iso sein, gilt
+sogar HOM(E, F)|_x ~~ Hom(E|_x, F|_x). Das ist zum Beispiel dann der Fall, wenn
+E und F frei von endlichem Rang um x sind. Vermutlich auch noch allgemeiner.
+
+
 === Lokale Systeme
 
 Ein lokales System ist eine lokal konstante Garbe (von Vektorräumen), d.h. eine
