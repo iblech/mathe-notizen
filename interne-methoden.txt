@@ -346,6 +346,23 @@
   ist Omega_{B_x/A_x}.
 
 
+=== Antiklassische Prinzipien im kleinen Zariski-Topos
+
+Grothendiecks "generic freeness lemma" sagt:
+
+    Let A be a Noetherian integral domain, M a finitely generated A-module. Then
+    there there exists f \in A, f \neq 0, with M[f^(-1)] a free A[f^(-1)]-module.
+
+Daraus folgt folgendes Prinzip für die interne Welt des kleinen Zariski-Topos
+von A:
+
+    Ein endlich erzeugter O_X-Modul ist bereits nicht nicht frei.
+
+Das ist leider, anders als der Titel versprechen lässt, KEIN antiklassisches
+Prinzip: Denn O_X ist ja aus interner Sicht eine Art Körper. Für Körper ist
+diese Aussage aber (klassisch) zu erwarten.
+
+
 === Induktionsbeweise für Vektorbündel
 
 Beweise Lemma 3 von

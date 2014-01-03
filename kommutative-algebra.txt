@@ -39,6 +39,24 @@
   Das sieht man etwa schon an Z_(2) --> Z_(2), z |--> 2z.
 
 
+=== Kohärente Moduln
+
+* Sind in einer kurzen exakten Sequenz zwei der drei Moduln kohärent,
+  so auch der dritte.
+
+* Endlich erzeugte Untermoduln kohärenter Moduln sind kohärent.
+
+* Ein Ring A ist genau dann kohärent als Modul über sich selbst,
+  wenn endlich präsentierte Moduln schon kohärent sind.
+
+* M e.p., N kohärent ==> Hom(M,N) kohärent.
+
+* In diesem Fall ist die Unterkategorie der kohärenten Moduln
+  die kleinste abelsche Unterkategorie aller Moduln, welche
+  die freien Moduln endlichen Rangs (und beliebige Abbildungen zwischen ihnen)
+  umfasst.
+
+
 === Endlichkeitseigenschaften von Algebren
 
 * Sei eine R-Algebra S als R-Modul endlich erzeugt.

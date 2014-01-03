@@ -422,6 +422,14 @@ Dann gilt:
 3.) X regulär <== X normel, falls dim X <= 1.
 
 
+=== Eliminationstheorie
+
+Vakil 7.4.6: Die Aussage, dass pi : P^n_A --> Spec A abgeschlossen ist, ist das
+fundamentale Theorem der Eliminationstheorie. Es besagt nämlich, dass der Ort,
+wo ein Gleichungssystem über A eine nichttriviale Lösung (also eine Lösung im
+projektiven Raum) besitzt, selbst wiederum durch Gleichungen gegeben werden kann.
+
+
 === Nächste Schritte
 
 * Nachvollziehen, unter welchen Voraussetzungen Schnitte von K_X einfach auf

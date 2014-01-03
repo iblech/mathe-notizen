@@ -19,12 +19,17 @@ Kann die abelsche Struktur von Modulkategorien implementieren:
 * für endlich-dimensionale Vektorräume
 * für ... Moduln über Ringen, sodass ich die SNF habe
 * für k[X_0, ..., X_n]?
+* Allgemein: Benötige, dass der Grundring als Modul über sich selbst kohärent
+  ist. Das sind vermutlich prüfersche oder dedekindsche Ringe.
 
 Kann die abelsche Struktur von Kategorien kohärenter Modulgarben implementieren:
 * für Schemata, die eine endliche Überdeckung durch affine Unterschemata
   zulassen, deren Schnitte selbst wieder affin sind und über deren
   Funktionenringen ich die abelsche Struktur der zugehörigen Modulkategorie
   implementieren kann.
+
+  Das hat einen allgemeineren Grund: 2-Faserprodukte von abelschen Kategorien
+  sind auf konstruktive Art und Weise wieder abelsch.
 
 Kann die abelsche Struktur von Kategorien von Kettenkomplexen implementieren:
 * falls ich die abelsche Struktur der zugrundeliegenden abelschen Kategorie

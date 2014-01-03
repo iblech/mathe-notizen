@@ -93,3 +93,12 @@ Kellers Überblicksartikel:
 * Die Euler-Charakteristik K_0(Perf(R)) --> K_0(R-Mod) ist ein Iso.
   Folgerung: Ringe mit äquivalenter derivierter Kategorie haben isomorphe
   K_0-Gruppen.
+
+
+=== Endlichkeitsbedingungen an Schemata
+
+Vakil 7.3.18: Ein Morphismus von Schemata X --> Y ist lokal von endlicher Präsentation
+genau dann, wenn Hom_Y(__, X) mit projektiven Systemen von affinen Y-Schemata
+vertauscht.
+
+Nächste Schritte: Konsequenzen daraus ziehen!
