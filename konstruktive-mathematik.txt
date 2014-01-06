@@ -1,2 +1,5 @@
 * Effektive Homotopietheorie:
   http://arxiv.org/pdf/1105.6257v3.pdf
+
+* Berechenbare Mathematik = Realisierbarkeitsinterpretation konstruktiver Mathematik
+  http://math.andrej.com/data/c2c.pdf

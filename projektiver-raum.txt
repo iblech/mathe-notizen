@@ -196,3 +196,7 @@ ist. Das ist aus folgendem Grund so:
 * Die üblichen wichtigen Garben auf P^n verstehen.
 * Eulersequenz verstehen...
 * Insbesondere topossprachliche interne Definitionen herleiten!
+
+* Hat P^n auch eine universelle Eigenschaft bezüglich beliebiger lokal
+  geringter Räume? Welche Theorie klassifiziert der kleine oder große
+  Zariskitopos auf P^n?

@@ -104,6 +104,10 @@ Es gilt zumindest für alle s aus X(U): chi_U(s) = U <==> U |== phi[s/x].
 
 * Auch die Konstruktion "Kählerdifferentiale" ist geometrisch.
 
+* Rückzug von Örtlichkeiten funktioniert, ist aber nicht ganz trivial:
+  Siehe Spitters/Vickers/Wolters, Gelfand spectra in Grothendieck toposes using
+  geometric mathematics, http://arxiv.org/pdf/1310.0705.pdf.
+
 
 === Generischer Halm
 

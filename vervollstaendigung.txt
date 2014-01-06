@@ -1,3 +1,5 @@
+=== Vervollständigung von Kategorien
+
 * /Freie/ Kovervollständigung einer Kategorie C:
 
       C --> [C^op, Set]
@@ -71,3 +73,18 @@
 [2] M. Bunge, A. Carboni. The symmetric topos. J. Pure Appl. Alg. 105 (1995),
     S. 239--249.
 [3] http://mathoverflow.net/questions/85323/topos-associated-to-a-category
+
+
+=== Vervollständigung von metrischen Räumen
+
+* "<" hat computational content (x < y <==> x#y und nicht (y < x)),
+  "<=" nicht (definiert als Negation von >).
+
+  Siehe http://www.win.tue.nl/~bspitter/extraction.pdf.
+
+* http://math.andrej.com/wp-content/uploads/2006/08/continuity_begets_continuity_bavaria_slides.pdf
+  Stetigkeitsbegriff
+
+* Johnstones topologischer Topos
+
+* http://drops.dagstuhl.de/opus/volltexte/2009/2257/pdf/Bauer.2257.pdf

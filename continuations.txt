@@ -2,3 +2,6 @@
 
 * delimited verstehen.
   Gibt es ein logisches Pendant?
+
+* http://www.cs.bham.ac.uk/~hxt/research/hayo-thielecke-publications.shtml
+  Kategorieller Rahmen für CPS
