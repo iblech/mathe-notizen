@@ -17,6 +17,9 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 
 * clos M = V(\bigcap M)  (nochmal prüfen!)
 
+* Falls V(I(W)) = W und V eine beliebige Teilmenge des affinen Raums ist,
+  so gilt I(V) : I(W) = I(V \ W) (Idealquotient).
+
 
 === Standardoffene Teilmengen
 

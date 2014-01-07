@@ -64,8 +64,13 @@ Teilmengen definiert durch
 
 Die Lokalisierung von gamma^*(A) nach diesem Filter liefert gerade O_X.
 
-Achtung: Die Aussage der Beobachtung habe ich nicht bis ins letzte Detail
-überprüft.
+Es gibt auch das universelle Primideal, gegeben durch
+
+    Z(U) = { f : U --> A stetig | f(p) \in p f.a. p \in U }.
+
+Es gilt in der internen Sprache:
+
+    forall f : gamma^*(A). nicht (f in Z) <==> f in F.
 
 
 === Wann ist das Spektrum einpunktig?
