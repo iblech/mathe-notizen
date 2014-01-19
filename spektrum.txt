@@ -64,7 +64,7 @@ Teilmengen definiert durch
 
 Die Lokalisierung von gamma^*(A) nach diesem Filter liefert gerade O_X.
 
-Es gibt auch das universelle Primideal, gegeben durch
+Es gibt auch das universelle Primideal Z, mit
 
     Z(U) = { f : U --> A stetig | f(p) \in p f.a. p \in U }.
 

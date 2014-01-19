@@ -21,6 +21,8 @@ gemeint. Die kanonische kurze exakte Sequenz lautet dann
     0 --> m~ --> R~ = O_X --> (R/m)~ --> 0.
 
 Diese Wolkenkratzergarben sind im noetherschen Fall kohärent.
+[ Der kanonische Morphismus O_X --> E, E := i_* k(x), ist zumindest stets
+surjektiv. Der Halm des Kerns ist bei x gleich m_x, sonst gleich O_{X,x}. ]
 
 Diejenigen Wolkenkratzergarben, die zu abgeschlossenen Punkten gehören, haben
 keine echten Unterobjekte -- und werden durch diese Eigenschaft schon

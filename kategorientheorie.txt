@@ -188,3 +188,17 @@ all this categorical expression is saying]
 
 Quelle: Sridhar Ramesh in
 http://mathoverflow.net/questions/3184/philosophical-meaning-of-the-yoneda-lemma/15143#15143
+
+
+=== Inneres Hom
+
+* In Set/A ist das innere Hom gegeben durch:
+
+    HOM(X, Y) = { <a, X|_a --> Y|_a> }.
+
+* In G-Set/A ist das innere Hom gegebe durch dieselbe Konstruktion,
+  mit G-Wirkung durch
+
+      g . <a,f> := <ga, gf>,
+
+  wobei (gf)(x) = g . f(g^(-1) . x).

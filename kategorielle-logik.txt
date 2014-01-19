@@ -139,3 +139,5 @@ für geometrische Formeln phi über X:
   geeignete Transferprinzipien herleiten.
 
 * Halm vs. kleine Umgebung kategoriell verstehen.
+
+* Assoziierte Punkte?

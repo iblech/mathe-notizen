@@ -46,10 +46,10 @@
 
 * Endlich erzeugte Untermoduln kohärenter Moduln sind kohärent.
 
+* M e.p., N kohärent ==> Hom(M,N) kohärent.
+
 * Ein Ring A ist genau dann kohärent als Modul über sich selbst,
   wenn endlich präsentierte Moduln schon kohärent sind.
-
-* M e.p., N kohärent ==> Hom(M,N) kohärent.
 
 * In diesem Fall ist die Unterkategorie der kohärenten Moduln
   die kleinste abelsche Unterkategorie aller Moduln, welche
@@ -255,6 +255,17 @@ muss.
   exakten Sequenz ist. Siehe Vakil, aber noch prüfen, insbesondere auf
   konstruktive Zulässigkeit.
 
+* Habe Lambda^i(V) tensor W^(tensor i) --> Lambda^i(V tensor W),
+  falls W vom Rang 1. Diese Abbildung bildet die offensichtliche Basis
+  auf die offensichtliche Basis ab und ist daher ein Iso.
+
+
+=== Verklebung von Modulkategorien
+
+Siehe Tag 05N9 im Stacks-Projekt: Die Kategorie der R-Algebren ist der Kolimes
+der Kategorie der R_i-Algebren, wenn R = colim_i R_i ein filtrierter Kolimes
+von Ringen ist.
+  
 
 === Duale Zahlen
 

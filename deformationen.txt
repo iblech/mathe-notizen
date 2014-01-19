@@ -4,3 +4,10 @@
 * Manin-Motto
 * Direkt über Ext-Klasse
 * Grund für H^0(T_X) = 0
+
+* Inwieweit ist eine Extension
+
+      [ 0 --> T_X --> ? --> O_X --> 0 ]
+
+  dasselbe wie der Isomorphietyp einer flachen C[eps]-Algebra A auf X mit
+  A/(eps) ~~ O_X (über C)?

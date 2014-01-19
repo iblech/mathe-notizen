@@ -221,6 +221,13 @@ die Idealgarbe sein.
 * (f^* E)|_x = E|_f(x) tensor_k(f(x)) k(x).
 
 
+=== Flachheit
+
+* Angeblich gilt: X --> Y flach bei x genau dann, wenn
+  X x_Y Spec O_{Y,y} --> Spec O_{Y,y} flach bei x' ist,
+  wobei x' Urbild von x unter X x_Y Spec O_{Y,y} --> X ist.
+
+
 === Flache Familien
 
 * As others have stated above, flatness of a family should mean that the fibres

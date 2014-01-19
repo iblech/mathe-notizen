@@ -1,0 +1,9 @@
+=== Cohesive Toposes and Cantor's "lauter Einsen"
+
+Habe Adjunktionen
+
+    diskret -| Punkte -| chaotisch/indiskret.
+
+Falls Variation statt Kohäsion im Vordergrund steht, andere Bezeichnung:
+
+    Orbits -| stationär -| Gleichgewichte -| chaotisch.

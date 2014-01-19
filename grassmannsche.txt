@@ -23,7 +23,11 @@ Dann gibt es auf G die kanonische kurze exakte Sequenz
 
 Die Faser von B an einem Quotienten Q ist dabei gerade dieser Quotient,
 und auf Faserniveau ist die Abbildung O_G tensor V --> B gerade die
-Projektionsabbildung.
+Projektionsabbildung. Die Faser von A ist der Raum der Elemente von V,
+die im Quotienten verschwinden. (Wenn V = W^ und l \subseteq W ein UVR der
+Dimension m ist, so ist W^ --> l^ ein Quotient vom Rang m. Die Faser von B
+an dieser Stelle ist dann l^ und die von A ist l^\perp = { theta aus W^ |
+theta_l = 0 }.)
 
 In fünf Schritten kann man sehen, dass Omega_G ~~ Hom(B, A).
 Diese Erkenntnis verallgemeinert die Euler-Sequenz.
@@ -51,6 +55,22 @@ Darstellung der Kotangentialgarbe!)
 
 Quelle: Manfred Lehn in Barcelona (Compactifying Moduli Spaces)
 http://www.crm.cat/en/Activities/Documents/quadern-web.pdf
+
+Bem.: Der wichtige Morphismus auf G x G sieht im Fall V = W^ faserweise so aus:
+
+    l_1^\perp ^--> V -->> l_2^,  theta |--> theta|_{l_2}.
+
+In Tensordarstellung sieht er so aus:
+
+    sum_i del/del-x_i tensor y_i,
+
+        faserweise sum [w_i]_{l_1} tensor theta_i|_{l_2},
+
+wobei w_0, ..., w_n eine Basis von W, theta_0, ..., theta_n die zugehörige
+Dualbasis von W^ = V, y_i die entsprechenden Schnitte von B (in der Faser
+über l gegeben durch theta_i|_l) und del/del-x_i die entsprechenden Schnitte
+von A^ sind (in der Faser über l gegeben durch [w_i]|_l, als Element von
+(l^\perp)^ ~~ W/l).
 
 
 === Nächste Schritte

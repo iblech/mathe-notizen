@@ -191,6 +191,11 @@ ist. Das ist aus folgendem Grund so:
     dann gilt \bigcup D(r_i) = X, wenn ein r_i invertierbar ist.
 
 
+=== Wichtige Garben
+
+Siehe eingescanntes Blatt.
+
+
 === Nächste Schritte
 
 * Die üblichen wichtigen Garben auf P^n verstehen.
@@ -198,5 +203,5 @@ ist. Das ist aus folgendem Grund so:
 * Insbesondere topossprachliche interne Definitionen herleiten!
 
 * Hat P^n auch eine universelle Eigenschaft bezüglich beliebiger lokal
-  geringter Räume? Welche Theorie klassifiziert der kleine oder große
-  Zariskitopos auf P^n?
+  geringter Räume oder gar allgemeiner lokal geringter Topoi? Welche Theorie
+  klassifiziert der kleine oder große Zariskitopos auf P^n?

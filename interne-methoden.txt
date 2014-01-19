@@ -9,6 +9,11 @@
 * X beliebiges Schema. Dann erfüllt O_X in Sh(X) folgende Eigenschaft:
     für alle s : O_X. [s nicht invertierbar ==> s nilpotent].
 
+  Beispiel, wenn X zudem quasikompakt: Sei f globale Funktion.
+  Dann: f verschwindet in allen k(x) <==> f nicht invertierbar in allen Halmen
+  <==> Sh(X) |= f nicht invertierbar <==> Sh(X) |= f nilpotent <==> f^n = 0 für
+  ein n (hier geht Quasikompaktheit ein).
+
 * Topologischer Raum X zusammenhängend <==>
     Die interne Sprache von Sh(X) erfüllt folgende Eigenschaft:
     Seien phi, psi zwei disjunkte Aussagen (d.h. phi und psi ==> _|_).
@@ -111,6 +116,28 @@
   daher genau dann, wenn sie halmweise gilt. Am generischen Halm ist sie aber
   nur für p = 0 \in Q erfüllt. Also gilt auch p = 0 \in Z (bzw. Z[(...)^{-1}],
   wenn nicht mit einem globalen Element gestartet).
+
+
+=== Endlichkeit
+
+* Sei X = A^n über einem Ring R. Dann ist O_X als "Algebra, wo man auch
+  Quotienten bilden darf" über R[X_1,...,X_n] (konstante Garbe) endlich
+  erzeugt, d.h. es gilt
+
+      Sh(X) |==
+          forall f : O_X. exists g, h : R[X_1,...,X_n].
+          h(x_1,...,x_n) invertierbar in O_X und
+          f = g(x_1,...,x_n) / h(x_1,...,x_n).
+
+  Somit gilt auch O_X = Quot R[X_1,...,X_n], wobei nach den Elementen
+  lokalisiert wird, die in O_X invertierbar sind.
+
+* Tieferer Hintergrund ist natürlich die Konstruktion von O_X als Lokalisierung
+  nach dem universellen Filter.
+
+* Sollte genauso für jede endlich erzeugte R-Algebra statt speziell R[X_1,...,X_n]
+  funktionieren. Die x_i beziehen sich dann auf die gegebenen Erzeuger.
+  (Nutze: f^(-1) A ist e.e. f^(-1)k-Algebra, falls A e.e. k-Algebra.)
 
 
 === Rationale Funktionen I
@@ -375,21 +402,28 @@ Sei E ein Vektorbündel vom Rang r. Dann gibt es eine kurze exakte Sequenz
 wobei L ein Geradenbündel und E' ein Vektorbündel vom Rang r-1 ist.
 
 
+=== Untertopoi
+
+Ist U eine offene Teilmenge von X, kann man das Prädikat ?U mit
+
+    V |== ?U  gdw.  V \subseteq U
+
+betrachten. Ist A eine abgeschlossene Teilmenge von X, so gilt
+
+    V |== ?A^c  gdw.  V \subseteq A^c  gdw.  V \cap A = leer.
+
+* V |== (?U ==> phi) gdw. (V cap U) |== phi.
+
+* Was bedeutet V |== (?A^c vee phi)? Etwa (V \cap A) |==_A phi?
+  Ist Zurückziehen auf abgeschlossene Teilmengen ein logischer Funktor?
+
+
 === Nächste Schritte
 
 * "Lemma 3" oben beweisen
 
-* Manche Aussagen phi erfüllen folgende Regel:
-  x |== phi  <==>  U |== phi für eine Umgebung U von x
-  Kann man allgemein sagen, welche das sind?
-
 * Welches Transferprinzip gilt zwischen Aussagen für
   A-Moduln M und A~-Moduln M~ auf Spec A?
-
-* Gibt es einen Operator B (eine Lawvere-Tierney-Topologie?)
-  derart, dass B phi genau dann gilt, wenn phi auf einer offenen dichten
-  Teilmenge gilt? Beweise damit, dass Moduln v.e.T. auf integren Schemata auf
-  einer dichten Teilmenge lokal frei sind!
 
 * Wie Marcs topos-theoretische Sicht auf Arbeit mit generischen Situationen
   formalisieren?
@@ -439,6 +473,14 @@ wobei L ein Geradenbündel und E' ein Vektorbündel vom Rang r-1 ist.
 * Garbenbedingung und Garbifizierung zu Lawvere-Tierney-Topologien intern
   verstehen. Vgl. Johnstone: The associated sheaf functor in an elementary
   topos.
+
+* X qc, O_{X,x} reduziert für alle abgeschlossenen Punkte x ==> O_X reduziert.
+  Wie intern zeigen?
+
+* Was ist ein Geradenbündel "mit einer Trivialisierung beim generischen Punkt",
+  und wie schlägt sich das intern nieder?
+
+* Zar(A) --> Sh(Spec A) ist lokal, laut dem nLab! Konsequenzen?
 
 
 === math.se-Antwort
