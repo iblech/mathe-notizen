@@ -75,6 +75,15 @@
   kanonisch isomorph zu S.
 
 
+=== Endlichkeitseigenschaften von Körpern
+
+* Sei K ein Körper und L = K(x) ein Oberkörper, sodass für ein n
+  die Familie 1, x, x^2, ..., x^n ein EZS ist. Dann kann man konstruktiv nicht
+  zeigen, dass L als K-VR frei ist. Aber schon, wenn K faktoriell ist!
+
+* Was, wenn man nur irgendein EZS kennt?
+
+
 === Injektivität und Surjektivität
 
 Sei M eine quadratische Matrix über einem Ring.
