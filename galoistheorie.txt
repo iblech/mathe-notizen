@@ -11,3 +11,6 @@
 
 * Metatheorem: Gilt phi(x_1,...,x_n), so gilt auch phi(x_1',...,x_n'),
   wobei die x_i' zu den x_i simultan galoissch konjugiert sind.
+
+* Josts Frage: Wieso funktioniert die Lösungsformel vierten Grads,
+  obwohl die Galoisgruppe evtl. viel weniger als die volle S_4 ist?
