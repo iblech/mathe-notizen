@@ -86,3 +86,8 @@ Dann bilden die Komplexe
 
 Was meine ich damit? In der derivierten Kategorie kann ich ja nicht von
 Exaktheit sprechen.
+
+
+=== Super lecture notes
+
+http://www.math.fsu.edu/~aluffi/archive/paper306.pdf

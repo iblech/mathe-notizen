@@ -31,3 +31,8 @@
 * Sei A eine k-lineare abelsche Kategorie von endlicher homologischer
   Dimension. Sei (L_i)_i eine ample Folge. Dann bilden die L_i in
   D^b(A) eine aufspannende Klasse.
+
+
+=== Neue Axiome
+
+Neeman, Some new axioms for triangulated categories.
