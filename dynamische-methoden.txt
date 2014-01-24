@@ -158,4 +158,12 @@ Oberkörpern.
   bzw. wie man sie irgendwie retten kann (naiv geht es nicht, da ich in
   Rad(A)^op keine Implikation habe!). Bezug zu obigem V/Z!
 
+  * In Rad(A)^op ist das unendliche Distributivgesetzt NICHT erfüllt,
+    wie folgendes Gegenbeispiel (ausgedrückt in Rad(A)) zeigt:
+
+        (2) \vee \bigwedge (p) = (2) \vee (0) = (2) !=
+        \bigwedge (2) \vee (p) = \bigwedge (1) = (1).
+
+    Dabei geht das \bigwedge über alle Primzahlen p >= 3.
+
 * Was ist der klassifizierende Topos zur Theorie des generischen Primideals?

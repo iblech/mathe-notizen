@@ -108,6 +108,10 @@ Es gilt zumindest für alle s aus X(U): chi_U(s) = U <==> U |== phi[s/x].
   Siehe Spitters/Vickers/Wolters, Gelfand spectra in Grothendieck toposes using
   geometric mathematics, http://arxiv.org/pdf/1310.0705.pdf.
 
+* Die Hom-Konstruktion ist im Allgemeinen nicht geometrisch, aber schon, wenn
+  der vordere Modul von endlicher Präsentation ist. Siehe meine Antwort auf
+  StackExchange: http://math.stackexchange.com/questions/16203/why-doesnt-hom-commute-with-taking-stalks/645385#645385
+
 
 === Generischer Halm
 

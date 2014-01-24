@@ -88,6 +88,17 @@ Was meine ich damit? In der derivierten Kategorie kann ich ja nicht von
 Exaktheit sprechen.
 
 
+=== Flachheit von Q
+
+Q ist ein flacher Z-Modul, da Z ein Dedekindscher Bereich und Q torsionsfrei
+ist.
+
+
+=== Potenzielle Übungsaufgaben für die HomoAlg im SS 2014
+
+www.math.ucsd.edu/~k3walsh/11Bsheet6.pdf
+
+
 === Super lecture notes
 
 http://www.math.fsu.edu/~aluffi/archive/paper306.pdf

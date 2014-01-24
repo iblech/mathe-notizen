@@ -1,0 +1,6 @@
+* http://blog.sigfpe.com/2008/01/type-that-should-not-be.html
+* http://blog.sigfpe.com/2008/01/what-does-topology-have-to-do-with.html
+* http://blog.sigfpe.com/2010/05/constructing-intermediate-values.html
+* http://blog.sigfpe.com/2010/07/death-to-hydrae-or-denotational.html
+* http://blog.sigfpe.com/2009/05/three-projections-of-doctor-futamura.html
+* http://blog.sigfpe.com/2006/11/yoneda-lemma.html

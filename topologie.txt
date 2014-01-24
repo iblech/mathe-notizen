@@ -99,6 +99,27 @@ Denn jeder Punkt enthält einen abgeschlossenen Punkt in seinem Abschluss.
   irreduzibel. Gilt die Umkehrung?
 
 
+=== Oberhalbstetige Abbildungen
+
+* Oberhalbstetige Abbildungen X --> N sehen so aus:
+
+                   *
+
+        -----------o---------
+
+* Ist X irreduzibel mit generischem Punkt xi. Dann ist eine oberhalbstetige
+  Abbildung f : X --> N automatisch konstant auf einer dichten offenen
+  Teilmenge:
+
+  Da f in xi oberhalbstetig, gibt es eine Umgebung U von xi sodass f <= f(xi)
+  auf U.
+
+  Sei nun x in U beliebig. Da f in x oberhalbstetig ist, gibt es eine Umgebung
+  V von x mit f <= f(x) auf V.
+
+  Da xi ebenfalls in V liegt, gilt f(xi) <= f(x) <= f(xi). Also f(xi) = f(x).
+
+
 === Lokale Räume
 
 Ein topologischer Raum (oder eine Locale) heißt genau dann lokal, wenn in jeder
