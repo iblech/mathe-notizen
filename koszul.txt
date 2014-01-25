@@ -15,6 +15,8 @@
 
 * Motto: reguläre Sequenz ==> richtige Kodimension.
   Inwieweit stimmt das Motto?
+  Die Umkehrung scheint zu stimmen, siehe Ende von
+  http://www.maths.ed.ac.uk/~eshinder/Mainz-Lecture-1.pdf.
 
 
 === Koszul-Auflösung I

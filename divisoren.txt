@@ -353,3 +353,4 @@ Schnittzahl von L mit F.
 
 * Erstes Kapitel Debarre
 * Bonavero: http://www-fourier.ujf-grenoble.fr/~bonavero/articles/ecoledete/lectu9.ps
+* http://www2.iag.uni-hannover.de/~kass/files/ChowRing.pdf
