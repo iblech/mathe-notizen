@@ -1,0 +1,157 @@
+=== Definition
+
+Ein metrischer Raum besteht aus einer Menge X zusammen mit einer Relation
+
+    d(x,x') <= q
+
+für positive rationale Zahlen q. Wir fordern nicht, dass der Wahrheitswert
+dieser Aussage entscheidbar, negneg-stabil oder sonstwas sein soll.
+
+Die grundlegenden Axiome sind:
+
+1. Oben-Abgeschlossenheit: d(x,y) <= q, q < r  ==>  d(x,y) <= r.
+2. Abgeschlossenheit: d(x,y) <= r für alle r > q  ==>  d(x,y) <= q.
+3. Punktungleichung: d(x,x) <= q
+4. Dreiecksungleichung: d(x,y) <= q, d(y,z) <= r  ==>  d(x,z) <= q+r.
+
+Je nach Spielart kann man außerdem fordern:
+
+5. Symmetrie: d(x,y) <= q  ==>  d(y,x) <= q.
+6. Beschränktheit: d(x,y) <= q für ein q.
+7. Separation: d(x,y) <= q für alle q  ==>  x = y.
+
+Bem.: "Beschränktheit" ist ein sehr schlechter Begriff.
+Bem.: Habe Rechnungen größtenteils genau geprüft. Allerdings habe ich nie auf
+Symmetrieverzicht geachtet.
+
+
+=== Cauchy-Vervollständigung
+
+Ein Cauchy-Prozess in X ist eine Abbildung
+
+    alpha : Q^+ --> P(X)
+
+sodass
+
+a) alpha(eps) bewohnt für alle eps > 0.
+b) d(x,x') <= eps + eps' für alle x \in alpha(eps), x' \in alpha(eps'), eps, eps' > 0.
+
+nLab nennt das auch "mehrwertige Cauchy-Folge". Anschaulich soll alpha(eps)
+eine Menge von Punkten sein, die vom Konvergenzpunkt höchstens (<=) die
+Entfernung eps haben.
+
+Auf der Menge C(X) der Cauchy-Prozesse kann man eine Äquivalenzrelation durch
+
+    alpha ~ alpha' gdw.
+        d(x,x') <= eps + eps' f.a. x \in alpha(eps), x' \in alpha'(eps'), eps,eps' > 0
+
+und eine Metrik durch
+
+    d(alpha,alpha') <= q gdw.
+        f.a. eps,eps' > 0, f.a. x \in alpha(eps), x' \in alpha(eps'):
+            d(x,x') <= eps + eps' + q
+
+definieren. Es gilt:
+
+* Die Metrik respektiert die Äquivalenzrelation.
+* Falls X symmetrisch ist, so auch C(X).
+* Falls X beschränkt ist, so auch C(X).
+* Falls d(alpha,alpha') <= q f.a. q, so alpha ~ alpha'.
+* C(X)/~ ist separiert.
+
+Bem.: Wenn man nicht "d(x,y) <= q", sondern "d(x,y) < q" axiomatisiert,
+ist die analog definierte Relation (~) nicht transitiv.
+
+Ferner kann man vereinfachen:
+* alpha ~ alpha'       gdw. d(x,x') <= 2eps     f.a. x in alpha(eps), x' in alpha(eps'), eps > 0.
+* d(alpha,alpha') <= q gdw. d(x,x') <= 2eps + q f.a. x in alpha(eps), x' in alpha(eps'), eps > 0.
+
+Die Abbildung
+
+  iota : X --> C(X), x |-> konstant {x}
+
+ist metrikerhaltend. Sie ist stets injektiv. Falls X separiert ist, ist sogar
+X --> C(X)/~ noch injektiv.
+
+Die Abbildung C(X) --> C(C(X))/~ ist surjektiv:
+
+    Sei Lambda \in C(C(X)).
+    Definiere beta \in C(X) -- die Menge beta(eps) soll bestehen aus solchen
+    x'en aus X, für die gilt:
+
+        exists eps', eps'': eps' + eps'' <= eps, alpha in Lambda(eps''), x in alpha(eps').
+
+
+=== Vergleich zur Dedekind-Vervollständigung
+
+Es gilt: C(Q)/~ ~~ R_Dedekind.
+
+Aus einem dedekindschen Schnitt (L,R) von Q kann man den Cauchy-Prozess
+
+    eps |-> { x in Q | x+eps \in R, x-\eps in L }
+
+erhalten. Aus einem Cauchy-Prozess alpha kann man den Schnitt
+
+    (L,R) mit
+        L = { x in Q | exists eps, x' in alpha(eps): x < x' - eps },
+        R = { x in Q | exists eps, x' in alpha(eps): x > x' + eps }
+
+gewinnen.
+
+Diese Zuordnung ist wohldefiniert und bijektiv. Dazu ist folgende Beobachtung
+hilfreich:
+
+* Genau dann liegt x in L, wenn ein y > x mit negneg(x in L) existiert.
+  (Wir wissen x in L oder y in R, dann...)
+
+  (Mit Markov gilt schon: x in L <==> negneg(x in L).)
+
+* Daraus folgt folgendes Prinzip: Möchte man L \subseteq L' zeigen,
+  genügt es, nachzuweisen, dass jedes x aus L nicht nicht in L' liegt.
+
+Exemplarisch der Wohldefiniertheitsbeweis:
+
+    Sei alpha ~ alpha'. Zu zeigen: L = L'.
+    Sei x in L. Zu zeigen: x liegt nicht nicht in L'.
+    Angenommen, x liegt nicht in L'.
+    Dann: forall eps, forall u in alpha'(eps): x >= u - eps.
+    Nach Voraussetzung: exists tau, v in alpha(tau): x < v - tau.
+    Somit:
+        v - tau = u + (v-u) - tau <= u + tau + eps - tau = u-eps + 2eps
+            <= x + 2eps  f.a. eps > 0.
+    Also v - tau <= x.
+    Das ist ein Widerspruch zu v - tau > x.
+
+Wenn man auf den dedekindschen reellen Zahlen die Metrik
+
+    d((L,R), (L',R')) <= q gdw.
+        f.a. eps:
+            exists x  in L,  x' in R': x' - x  <= q + eps  und
+            exists x' in L', x  in R:  x  - x' <= q + eps
+
+definiert, erhält die Abbildung auch noch die Metrik.
+
+
+=== Topologisch
+
+Sei X topologischer Raum. Sei f : X --> R eine stetige Funktion.
+Dann definiert diese den dedekindschen Schnitt
+
+    L(U) = { q : X --> Q stetig | q < f auf U },
+    R(U) = { q : X --> Q stetig | f < q auf U }
+
+bzw. den Cauchy-Prozess
+
+    M(eps)(U) = { q : X --> Q stetig | q - eps < f < q + eps auf U }.
+
+Damit ist offenbar, dass L (bzw. R) im Allgemeinen nicht negneg-stabile
+Zugehörigkeit hat: Betrachte etwa X = [0,1], f = Quadratfunktion, q = 0.
+Dann q < f auf X \ {0}, aber nicht q < f auf ganz X.
+
+Aber anschaulich ist: Falls q + eps < f auf offener dichter Teilmenge, dann
+auch q < f auf dem gesamten Raum.
+
+
+=== Literatur
+
+* Richman, Real numbers and other completions.
