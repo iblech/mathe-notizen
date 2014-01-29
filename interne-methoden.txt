@@ -418,6 +418,48 @@ betrachten. Ist A eine abgeschlossene Teilmenge von X, so gilt
   Ist Zurückziehen auf abgeschlossene Teilmengen ein logischer Funktor?
 
 
+=== Generische Elemente
+
+Ziel: Verstehen, wie man "Sei N eine unbeschränkte natürliche Zahl." rigoros
+machen kann.
+
+Eine Möglichkeit: Arbeite im Topos E := [N, Set], wobei N mit der gewöhnlichen
+Ordnung versehen wird.
+
+* Es gilt p |== neg neg phi (wobei n eine Abkürzung für Hom_{N^op}(__, n) ist)
+  genau dann, wenn nicht nicht ein q >= p existiert mit q |== phi.
+
+* In E habe ein Objekt natürlicher Zahl: NN, die konstante Koprägarbe N.
+
+* Führe eine neue Termkonstante # vom Typ NN ein. Deren Interpretation im
+  Kontext p soll Hom(__, p) --> NN, gegeben durch das Element p \in NN(p),
+  sein. (Unter Rückzügen bleibt # #!)
+
+* Dann gilt:
+
+      p |== forall n : NN. neg neg (# >= n),
+
+  denn das ist gleichbedeutend mit
+
+      fa. q >= p, n in N:
+          neg neg exists r >= q:
+              r |== # >= n
+
+  und ist also für r := max { q, n } wahr.
+
+* Aber: Diese Formalisierung ist nicht verträglich mit klassischer Logik.
+  Wenn man die möchte, sollte man vielleicht nicht auf Teufel komm Raus
+  unbedingt die nichtnicht-Modalität verwenden, sondern eine andere (neue)!
+
+  Ein Axiom der Form "top |-_{n:N} box (# >= n)" ist aber schlecht.
+  Denn dann wäre auch "box (# >= # + 1)" und somit "box bot" ableitbar.
+  Das soll vermutlich nicht sein.
+
+* Wie kann man das umsetzen? Was wären Modelle dafür?
+
+* Wie auf andere Arten von generischen Objekten ausweiten?
+
+
 === Nächste Schritte
 
 * "Lemma 3" oben beweisen
