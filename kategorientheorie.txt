@@ -50,6 +50,16 @@ Ferner gilt:
 * f Mono, F treu ==> f^T Mono
 
 
+=== Noch etwas
+
+* Sei f : A --> GX. Dann habe T^f : FA --> X.
+  Habe id : FA --> FA, also auch id^T : A --> GFA.
+
+  Dann gilt:
+
+      G(T^f) . id^T = (T^f . id)^T = (T^f)^T = f.
+
+
 === Kofinalität
 
 Def.: Ein Funktor H : D_0 --> D heißt genau dann kofinal, wenn gilt:
