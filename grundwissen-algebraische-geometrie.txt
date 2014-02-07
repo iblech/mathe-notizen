@@ -451,3 +451,7 @@ projektiven Raum) besitzt, selbst wiederum durch Gleichungen gegeben werden kann
 * Was sind die lokalen Modelle glatter (projektiver?) Schemata?
 
 * Wann sind Bilder abgeschlossener Punkte abgeschlossen?
+
+* Wie sehen Faserprodukte in LRS aus?
+
+* Wann sind Projektive flach?
