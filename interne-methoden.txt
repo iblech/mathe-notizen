@@ -140,6 +140,38 @@
   (Nutze: f^(-1) A ist e.e. f^(-1)k-Algebra, falls A e.e. k-Algebra.)
 
 
+=== Aussagen an Halmen
+
+Sei box die Modalität ((__ --> !x) --> !x). Es gilt
+
+    U |== box phi
+
+genau dann, wenn x \not\in U oder wenn eine offene Teilmenge V von U mit x \in
+V und V |== phi existiert.
+
+* "Sei F v.e.T. um x und F_x = 0 (Halm). Dann F = 0 um x."
+
+  Das folgt sofort aus:
+  "box(F endl.erz.), forall s:F. box(s=0).  ==>  box(forall s:F. s=0)."
+
+  Denn: "F_x = 0" ist äquivalent zu "(F = 0)^box" (wie negneg-Übersetzung). Das
+  ist nach dem bekannten Vereinfachungslemma äquivalent zu "forall s:F.
+  box(s=0)".
+
+* "Sei F v.e.P. um x und F_x ~~ O_x^n. Dann F frei v.R. n um x."
+
+  Das folgt sofort aus:
+
+      box(F endlich präsentiert), (F frei v. R. n)^box
+        ==> box(F frei v. R. n).
+
+  Unter der Präsentationsvoraussetzung ist die Eigenschaft, frei vom Rang n zu
+  sein, eine geometrische: Es soll Elemente aus HOM(O^n,F) und HOM(F,O^n)
+  geben, die miteinander verknüpft beide Male die Identität geben. Daher
+  ist (F frei v. R. n)^box äquivalent zu box(F frei v. R. n). Damit ist schon
+  alles klar.
+
+
 === Rationale Funktionen I
 
 * Intern kann man die Teilmenge
@@ -292,9 +324,9 @@
 
 * Als nächstes kann man P(F)/negneg betrachten. 
 
-% Beispiel: F = C, F = C^\infty und F = O_X auf reduzierten Schemata X
-% erfüllen Eigenschaft (#). Daher sind Schnitte von P durch das gegeben, was
-% man gemeinhin rationale Funktionen nennt.
+* Beispiel: F = C, F = C^\infty und F = O_X auf reduzierten Schemata X
+  sind negneg-separiert. Daher sind Schnitte von P(F)/negneg durch das gegeben, was
+  man gemeinhin rationale Funktionen nennt.
 
 
 === Cartier-Divisoren und Geradenbündel
@@ -418,7 +450,7 @@ betrachten. Ist A eine abgeschlossene Teilmenge von X, so gilt
   Ist Zurückziehen auf abgeschlossene Teilmengen ein logischer Funktor?
 
 
-=== Generische Elemente
+=== Generische Elemente I
 
 Ziel: Verstehen, wie man "Sei N eine unbeschränkte natürliche Zahl." rigoros
 machen kann.
@@ -458,6 +490,36 @@ Ordnung versehen wird.
 * Wie kann man das umsetzen? Was wären Modelle dafür?
 
 * Wie auf andere Arten von generischen Objekten ausweiten?
+
+
+=== Generische Elemente II
+
+Betrachte den Topos E = Sh(R). Darin gibt es die universelle reelle Zahl #,
+gegeben durch die Identitätsfunktion als globalen Schnitt von C.
+
+* Falsch ist: E |== # != #.
+
+* Es gilt: E |== forall q : Q. # != q.
+
+* Falsch ist: E |== forall r : R. # != r.
+
+* Es gilt: E |== neg \vee_n exists a_0,...,a_(n-1) : Q. #^n + sum_i a_i #^i = 0.
+
+  Denn normierte Polynome vom Grad n können nicht auf nichtleeren offenen
+  Teilmengen verschwinden.
+
+* Es gilt: E |== negneg exists q:Q. |#| >= q > 0,
+  d.h. E |== negneg (# apart 0).
+
+* In E' := Sh_negneg(R) gilt also: 
+
+      E' |== # apart 0.
+
+  In E' kann man also klassisch arbeiten und hat eine reelle Zahl #
+  zur Verfügung, die apart von jeder rationalen Zahl ist.
+
+* Frage: Welche Interpretation haben Ergebnisse, die man in E' erzielt?
+  Das betrifft insbesondere solche, in deren Formulierung # nicht vorkommt.
 
 
 === Nächste Schritte
@@ -523,6 +585,8 @@ Ordnung versehen wird.
   und wie schlägt sich das intern nieder?
 
 * Zar(A) --> Sh(Spec A) ist lokal, laut dem nLab! Konsequenzen?
+
+* "G --> F, G veT, F koh., phi_x inj ==> phi|_U inj"
 
 
 === math.se-Antwort

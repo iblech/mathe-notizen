@@ -29,6 +29,27 @@ geringten distributiven Verband.
 Über Lokalitätsbegriffe spricht Coquand erstmal nicht.
 
 
+=== Rahmen der Radikalideale
+
+* Rad(A), die Menge aller Radikalideale, ist ein Rahmen.
+
+* Elemente der Form sqrt((x_1,...,x_n)) sind kompakt.
+
+* Für ein Radikalideal a ist die Menge
+
+      Ja := { x | a \subseteq sqrt(x) }
+
+  eine saturierte multiplikativ abgeschlossene Teilmenge. Für a = sqrt(f)
+  ist Lokalisierung von Ja dasselbe wie Invertierung von f.
+
+  Auf Rad(A) kann man kanonisch die Prägarbe
+
+      O(a) := A[(Ja)^(-1)]
+
+  definieren. Für endliche Überdeckungen erfüllt die vermutlich das
+  Verklebeaxiom, für unendliche aber vermutlich nicht.
+
+
 === Duale Algebra der Radikalideale ist kein Rahmen
 
 Beispiel in Z: Das Radikalideal
