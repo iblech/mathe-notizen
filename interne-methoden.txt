@@ -211,6 +211,15 @@ Sei j eine Lawvere-Tierney-Topologie.
   wobei S ~ T :<==> j(S = T).
 
   Man kann auch gleich nur j-stabile Repräsentanten nehmen.
+  Wenn das hier alles in einem Garbentopos mit j = negneg passiert, kann man
+  damit X^+ super extern deuten: Deren U-Schnitte sind Paare <V,f>, wobei V
+  eine dichte offene Teilmenge von U, f ein Schnitt von X auf V und dieser
+  *maximal definiert* ist (d.h. jede Fortsetzung ist schon gleich <V,f>).
+
+  Mit der ursprünglichen Definition ist die Interpretation folgende:
+  U-Schnitte sind Äquivalenzklassen von Paaren <V,f>, wobei zwei Paare als
+  gleich gelten, wenn auf einer dichten offenen Teilmenge des gemeinsamen
+  Definitionsbereichs die gegebenen Schnitte übereinstimmen.
 
 * Dann gelten die üblichen Resultate zur Plus-Konstruktion.
 
@@ -327,6 +336,9 @@ Sei j eine Lawvere-Tierney-Topologie.
   Null. Dann ist f auch in O_X nicht Null. Also ist f in O_X regulär. Also ist f
   und somit f/s in S^(-1) O_X invertierbar.
 
+  Ferner ist er (wie O_X) ein Körper in dem Sinn, dass er "nicht invertierbar
+  ==> gleich Null" erfüllt.
+
   Ein lokaler Ring ist S^(-1) O_X im Allgemeinen aber nicht. Dazu müsste S
   einen Filter bilden, d.h. es müsste gelten:
 
@@ -429,6 +441,48 @@ Sei j eine Lawvere-Tierney-Topologie.
 * Beispiel: F = C, F = C^\infty und F = O_X auf reduzierten Schemata X
   sind negneg-separiert. Daher sind Schnitte von P(F)/negneg durch das gegeben, was
   man gemeinhin rationale Funktionen nennt.
+
+
+=== Rationale Funktionen III
+
+Sei X mit forall s:O_X. nicht (s invertierbar) ==> s = 0.
+Dann ist Gleichheit auf O_X negneg-stabil.
+
+* Dann ist S^(-1) O_X negneg-separiert.
+
+* Ist (intern) B eine Teilmenge von S^(-1) O_X, die ein Subsingleton
+  und nicht nicht bewohnt ist, so kann man sich fragen, ob ein
+  f aus S^(-1) O_X existiert, sodass f nicht nicht in B enthalten ist.
+  (Eindeutig ist ein solches f auf jeden Fall.)
+
+  Im Folgenden sei das "Bedingung #".
+
+* Unabhängig von # gibt es O_X --> S^(-1) O_X.
+
+* Ferner gibt es für jede negneg-Garbe G und jeden Morphismus
+  O_X --> G eine eindeutige Fortsetzung S^(-1) O_X --> G.
+  (Hierbei nutzt man aus, dass jedes Element von S^(-1) O_X
+  nicht nicht von der Form u/1 für ein u aus O_X ist.)
+
+* Bedingung # sagt extern: Jeder Schnitt von S^(-1) O_X,
+  der auf einer offenen dichten Teilmenge definiert ist, lässt sich fortsetzen.
+
+Die kritische Frage ist nun, wann Bedingung # erfüllt ist. Ist sie es nämlich,
+so ist S^(-1) O_X einfach die negneg-Garbifizierung von O_X. Das zeigt (?),
+dass Schnitte von S^(-1) O_X einfach durch Äquivalenzklassen von Schnitten von
+O_X gegeben sind, die auf offenen dichten Teilmengen definiert sind.
+
+* Beispiel: Sei X = Spec A, A ein Integritätsbereich. Dann stimmt es:
+  Denn ein Schnitt auf D(h) hat die Form a/s, wobei a = b/h^n,
+  s = c/h^m. Also ist a/s = bh^m / (ch^n) eine globale Fortsetzung.
+
+* Beispiel: Sei X ein integres Schema. Dann stimmt es auch.
+  Denn lokal sieht das aus wie Spec A, A Integritätsbereich.
+
+* Beispiel: Sei X ein topologischer Raum und O_X die Garbe der stetigen
+  Funktionen. Dann sehe ich NICHT, wieso # gelten sollte.
+  Es wird aber in [Mulvey] behauptet. Ein Gegenbeispiel sollte sin(1/x)
+  sein.
 
 
 === Cartier-Divisoren und Geradenbündel

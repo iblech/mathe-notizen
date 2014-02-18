@@ -122,7 +122,8 @@ Sei A ein lokaler Ring.
 * Konstruktiv hinreichend dafür sind etwa folgende Bedingungen:
 
   * nilpotent oder invertierbar
-  * nicht nilpotent ==> invertierbar
+  * nicht nilpotent ==> invertierbar  [S^(-1) O_X erfüllt das zum Beispiel,
+    wenn X reduziertes Schema]
 
   Es genügt aber scheinbar nicht:
 

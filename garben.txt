@@ -219,6 +219,18 @@ Details:
 * Schapira, Algebra and Topology.
 
 
+=== Konstante Garben
+
+* Konstante Garben sind auf Räumen mit generischem Punkt negneg-Garben.
+  Das liegt daran, dass Abbildungen X --> A, wobei X einen generischen Punkt
+  hat und A diskret ist, konstant sind (mit Wert f(xi)). Für jede nichtleere
+  offene Teilmenge U ist dann F(U) --> F_xi ein Iso.
+
+* Allgemeiner sind Abbildungen X --> A, wobei X einen generischen Punkt hat
+  und A hausdorffsch ist, konstant. Insbesondere ist die Garbe der stetigen
+  Funktionen auf solchen Räumen X also die konstante Garbe R.
+
+
 === Kategorie der Garben als Lokalisierung der Prägarbenkategorie
 
 Sh(X) = PSh(X)[(lokale Isos)^(-1)]. Dabei heißt ein Prägarbenmorphismus lokaler
