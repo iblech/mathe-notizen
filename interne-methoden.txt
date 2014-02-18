@@ -82,10 +82,13 @@
 
 * Kann man die Ideale der obigen Form irgendwie charakterisieren?
 
-* I ist eine Art maximales Ideal:
+* J ist eine Art maximales Ideal -- aber leider nicht ganz:
 
   * X |== 1 \in J ist gleichbedeutend mit X |== !x0.
     Das ist genau dann richtig, wenn X = {x0}.
+    Aber obacht: X |== nicht (1 \in J) gilt leider nicht.
+    Das würde bedeuten, dass für alle offenen Teilmengen U gilt:
+    Sollte x0 nicht in U liegen, dann ist U leer.
 
   * X |== forall f,g : O. fg \in J ==> f \in J oder g \in J
     gilt, denn für f, g : O(U) mit fg = 0 in k(x0) folgt
@@ -170,6 +173,105 @@ V und V |== phi existiert.
   geben, die miteinander verknüpft beide Male die Identität geben. Daher
   ist (F frei v. R. n)^box äquivalent zu box(F frei v. R. n). Damit ist schon
   alles klar.
+
+
+=== Garbifizierung
+
+Sei j eine Lawvere-Tierney-Topologie.
+
+* Ein Unterobjekt U --> X ist genau dann j-dicht, wenn
+
+      forall x:X. j(x \in U).
+
+* Ein Unterobjekt U --> X ist genau dann j-abgeschlossen, wenn
+
+      forall x:X. j(x \in U) ==> x \in U.
+
+* Ein Objekt X ist genau dann j-separiert, wenn
+
+      forall x,y:X. j(x = y) ==> x = y.
+
+* Ein Objekt X ist genau dann eine j-Garbe, wenn
+
+      forall S \subseteq X:
+          j(S Singleton) ==> exists! x:X. j(x \in S).
+
+  Bemerkung: Falls X j-separiert ist, sind äquivalent:
+  * j(S Singleton).
+  * S Subsingleton und j(S bewohnt).
+
+  In diesem Fall sind ferner äquivalent:
+  * j(x \in S).
+  * j(S = {x}).
+
+* Die Plus-Konstruktion kann man so definieren:
+
+      X^+ := { S \subseteq X | j(S Singleton) }/~,
+
+  wobei S ~ T :<==> j(S = T).
+
+  Man kann auch gleich nur j-stabile Repräsentanten nehmen.
+
+* Dann gelten die üblichen Resultate zur Plus-Konstruktion.
+
+* Insbesondere gilt, wenn X schon j-separiert war, dass
+
+      X^+ = { S \subseteq X | S Subsingleton, j(S bewohnt) }/~
+
+  die j-Garbifizierung von X ist.
+
+* J = { phi | j(phi) } klassifiziert j-dichte Unterobjekte,
+  Omega_j = { phi | j(phi) <==> phi } klassifiziert j-abgeschlossene
+  Unterobjekte.
+
+* In einem Garbentopos Sh(X) gilt:
+
+  * Ein Unterobjekt A --> B ist genau dann negneg-dicht,
+    wenn jeder Schnitt von B zumindest auf einer offenen dichten Teilmenge ein
+    Urbild unter der Inklusion besitzt.
+
+  * Eine Garbe ist genau dann negneg-separiert, wenn
+    Schnitte, die auf einer offenen dichten Teilmenge übereinstimmen,
+    sondern ganz übereinstimmen.
+
+  * Eine Garbe ist genau dann eine negneg-Garbe, wenn
+    jeder Schnitt, der auf einer offenen dichten Teilmenge definiert ist,
+    genau eine Fortsetzung besitzt.
+
+* Literatur:
+
+  Vladimir Lifschitz.
+  An intuitionistic definition of classical natural numbers.
+  Er arbeitet mit der negneg-Garbifizierung der natürlichen Zahlen.
+
+  Fer-Jan de Vries.
+  Applications of constructive logic to sheaf constructions in toposes.
+  Vorsicht: Dort wurde "j-dicht" mit "j-abgeschlossen" verwechselt!
+
+  Peter Johnstone.
+  The associated sheaf functor in an elementary topos.
+
+  M.F. Farina & G.C. Meloni, The associated sheaf functor, Istit. Lombardo
+  Accad. Sci. Lett. Rend. A 114 (1982), 50--55.
+  unzugänglich!
+
+
+=== Lokale Kripke-Joyal-Semantik
+
+* Kann definieren: U |==_negneg phi genau dann,
+  wenn auf einer offenen dichten Teilmenge V von U gilt: V |== phi.
+  (Das ist zu j = negneg.)
+
+  Analog: U |==_x phi genau dann,
+  wenn x kein Element von U ist oder eine Teilmenge V von U
+  mit x in V und V |== phi existiert.
+  (Das ist zu j = ((__ --> !x) --> !x).)
+
+* Somit U |==_j phi genau dann, wenn U |== phi^j (Übersetzung, bei der
+  eigentlich vor alles, eigentlich aber nur vor atomare Aussagen, vee
+  und exists ein j kommt).
+
+* Die so definierte interne Sprache ist klassisch (erfüllt LEM).
 
 
 === Rationale Funktionen I
@@ -520,6 +622,26 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
 
 * Frage: Welche Interpretation haben Ergebnisse, die man in E' erzielt?
   Das betrifft insbesondere solche, in deren Formulierung # nicht vorkommt.
+
+
+=== Generische Elemente III
+
+* Idee: Arbeite mit kleinster dichten Unterörtlichkeit und verwende geeignete
+  Sprache, um sinnvoll vorgeben zu können, dass diese Punkte enthält.
+
+  Damit soll folgendes funktionieren: Wenn man argumentieren kann
+  "Sei x in D. Dann x in U_1, U_2, U_3. Wegen U_1 cap U_2 cap U_3 subseteq V
+  folgt also x in V.", dann soll folgen, dass V eine dichte Teilmenge ist.
+
+* Vielleicht sollte man in Sh(Loc) arbeiten, um vorgeben zu können,
+  dass Örtlichkeiten Punkte haben. Vergleiche Johnstones Artikel über den
+  topologischen Topos und Diagrammjagden in allgemeinen abelschen Kategorien.
+
+* Verstehe Zusammenhang zu Terence Taos Mini-NSA: Offensichtlich haben
+  "auf offener dichter Teilmenge" und "nach Übergang zu einer Teilfolge"
+  ähnlichen Charakter.
+
+  Siehe: http://math.stackexchange.com/questions/454393/does-cheap-nonstandard-analysis-take-place-in-a-topos/
 
 
 === Nächste Schritte

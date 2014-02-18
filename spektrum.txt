@@ -144,6 +144,83 @@ Sei A ein lokaler Ring.
     f nilp. oder f invertierbar.
     (Betrachte für eine Richtung f \in sqrt(f)).
 
+* O_X erfüllt die Bedingung "nilpotent oder invertierbar" im Allgemeinen
+  nicht. Betrachte etwa X = Spec Z und f = 2. Da O_X reduziert ist, ist "2
+  nilpotent" äquivalent zu "2 = 0". Es gilt aber "nicht (2 = 0)". Invertierbar
+  ist 2 aber auch nicht. [Kürzer: Die Aussage ist geometrisch. Im Halm zum
+  Primideal (2) ist 2 weder nilpotent noch invertierbar.]
+
+
+=== Zusammenhang internes Spektrum und relatives Spektrum
+
+Wenn man davon ausgeht, dass die universelle Eigenschaft des relativen
+Spektrums sogar in der Kategorie der lokal geringten Örtlichkeiten gilt, dann
+hat man:
+
+    Hom_{LRL/(X,O_X)}(W, RelSpec A) ~~
+    Hom_{LRL(Sh(X))/(pt,O_X)}(W, RelSpec A) ~~
+    Hom_{O_X}(A, mu_* O_W).
+
+Das interne Spektrum erfüllt eine ähnliche, aber nicht gleiche universelle
+Eigenschaft (zumindest ist das sehr plausibel -- natürlich reden die Leute
+nicht über lokal geringte Örtlichkeiten):
+
+    Hom_{LRL(Sh(X))/(IntSpec Z)}(W, IntSpec A) ~~
+    Hom_Ring(A, mu_* O_W)
+
+    Hom_{LRL(Sh(X))/(IntSpec O_X)}(W, IntSpec A) ~~
+    Hom_{O_X}(A, mu_* O_W)
+
+Daher sieht man: Wenn IntSpec O_X ~~ (pt, O_X) sein sollte, dann würde IntSpec A
+die universelle Eigenschaft von RelSpec A erfüllen.
+
+Es stimmt im Allgemeinen aber nicht, dass IntSpec O_X ~~ (pt, O_X).
+
+* Spec ist also ein guter Funktor Ring --> LRL/(Spec Z).
+  Hier ist aber ein guter Funktor Alg(R) --> LRL/(pt, R) gesucht, wobei
+  R ein lokaler Ring ist (der im Anwendungsfall O_X noch die Voraussetzung
+  "nicht invertierbar ==> nilpotent" erfüllt).
+
+* Ein Vorschlag wäre, Spec R' := Spec Reg^(-1)R zu setzen.
+  Dieses Spektrum ist genau dann einpunktig, wenn jedes Element aus R
+  nilpotent oder regulär ist.
+
+  Für R = O_X bedeutet diese Bedingung insbesondere, dass für jede globale
+  Funktion f gilt:
+
+      X = Nilp(f) cup Reg(f),
+
+  wobei Nilp(f) = { x | f nilpotent in O_{X,x} } und
+  Reg(f) = { x | f regulär in allen Halmen auf einer Umgebung um x }.
+  (So definiert sind beide Mengen offen, und disjunkt voneinander.)
+
+  Für R = O_X zu X = Spec A, A Integritätsbereich, ist diese Bedingung erfüllt!
+  Sogar trivialerweise, zu Überdeckungen muss man nicht übergehen.
+
+  Für R = O_X zu X = Spec k[x,y]/(xy) aber nicht. Gegenbeispiel ist die
+  Funktion x im lokalen Ring beim Ursprung. Diese ist nicht nilpotent und auch
+  nicht regulär dort, insbesondere also nicht auf einer kleinen Umgebung.
+
+* Bemerkung: Die Betrachtung von Spec (R/m), m das Ideal der nilpotenten bzw.
+  nicht-invertierbaren Elemente, hilft nicht. Denn Rad(R) = Rad(R/m).
+  R/m ist nur ein Körper im Sinne von "nicht invertierbar ==> null".
+
+* Ein anderer Vorschlag wäre, als neues Spektrum nicht die Menge aller
+  Radikalideale zu nehmen, sondern nur solche, sodass für jedes Element x von R,
+  dessen Bild im gegebenen Radikalideal liegt, x nilpotent oder dieses Ideal
+  schon das Einsideal ist.
+
+  Diese Bedingung ist stabil unter Schnittbildung, aber nicht unter
+  Summenbildung. Man kann eine Art Reflektor definieren, über
+
+      Ja := bigcap_{a \subseteq b, b erfüllt Bedingung} b.
+
+  Aber dann konnte ich nicht J(a cap a') = Ja cap Ja' zeigen. Das bräuchte man
+  aber, wenn man damit eine Unterörtlichkeit definieren möchte.
+
+  Ob damit die Abbildung Omega --> Rad' surjektiv wird, ist auch nicht ganz
+  klar.
+
 
 === Spektrum nichtkommutativer Ringe
 
