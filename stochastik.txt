@@ -1,0 +1,2 @@
+* http://stacky.net/wiki/index.php?title=Misconceptions_about_machine_learning
+* http://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm

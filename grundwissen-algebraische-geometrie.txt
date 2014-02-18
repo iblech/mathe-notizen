@@ -461,3 +461,6 @@ projektiven Raum) besitzt, selbst wiederum durch Gleichungen gegeben werden kann
 * Wie sehen Faserprodukte in LRS aus?
 
 * Wann sind Projektive flach?
+
+* Wie sieht GL(V) als Schema aus? Vermutung für den Punktefunktor:
+  R |--> Aut(V_R)  (Automorphismen der Skalarerweiterung)

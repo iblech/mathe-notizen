@@ -7,3 +7,7 @@
 * http://www.math.wisc.edu/~dewey/TalkNotes/mgTalk.pdf
 * pt/G ~ BG.
 * Artin-Räume als Zwischenstufe: erlaube étale Verklebungen
+* http://homepage.sns.it/vistoli/descent.pdf
+* http://www.math.harvard.edu/~nasko/documents/stacks.pdf
+* http://stacky.net/files/written/Stacks/Stacks.pdf
+* http://www.math.uzh.ch/index.php?pr_vo_det&key1=1287&key2=580&no_cache=1
