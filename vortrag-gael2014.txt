@@ -1,0 +1,43 @@
+Which of the senior speaker's courses are you most interested in and why?
+
+I'm most interested in O'Grady's and Bhatt's courses:
+
+* O'Grady's course will be directly relevant to my Ph.D. research, as I am
+studying (symmetric products of) derived categories of Hyperkähler manifolds.
+
+* Bhatt's lectures relate to my other research interest, namely using topos
+theory in algebraic geometry.
+
+I'm also interested in Esnault's course, but see below.
+
+
+Which of the courses do you think you will understand the most and why?
+
+I will probably understand O'Grady's and Bhatt's courses the most: O'Grady's,
+because I am (beginning to be) familiar with Hyperkähler manifolds; Bhatt's,
+because I am familiar with the abstract machinery of Grothendieck topologies,
+étale topology and so on and because I'm acquainted with crystalline
+cohomology.
+
+I have not yet dealt with fundamental groups of schemes. So, to be able to
+follow Esnault's lectures, I will probably have to learn the basics first. I
+would be glad to close this gap in education.
+
+
+Mathematical interests
+
+My main interest is in symmetric products of derived categories and
+"categorified linear algebra" (symmetric and exterior products of categories).
+The main kinds of geometric objects I work with are Hyperkähler manifolds.
+
+I'm also interested in applications of topos theory to algebraic geometry, i.e.
+gaining better understanding of relative situations by using the intuitionistic
+internal language of certain topoi, and constructive mathematics in general.
+
+I'd be happy to provide any additional information required.
+
+Remark on my proposed talk: I gave a similar talk in Stockholm last year. This
+year's talk would not simply be a reiteration; instead, I would present some
+new observations which I believe to be quite useful. Of course, I understand
+that you might want to prefer students who had not yet the chance to talk in
+front of an international audience.
