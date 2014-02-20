@@ -175,6 +175,52 @@ V und V |== phi existiert.
   alles klar.
 
 
+=== Aussagen an offenen Unterräumen
+
+Sei U eine offene Teilmenge von X. Dann ist
+
+    U ==> ___
+
+eine Lawvere-Tierney-Topologie. Der Topos der Garben bezüglich dieser Topologie
+ist gerade Sh(U).
+
+* Definiere eine Formelübersetzung analog zur Doppelnegationsübersetzung,
+  bei der vor jeden Junktor ein "U ==>" vorangestellt wird.
+
+  Dann kann man aber zeigen, dass für alle Formeln phi
+  gilt: phi^circ <==> (U ==> phi).
+
+  Daher ist Zurückziehen auf U ein logischer Funktor.
+
+* Folgende Aussagen sind äquivalent:
+
+  * Sh(X) |== phi^circ
+  * Sh_j(X) |== phi
+  * Sh(U) |== phi
+  * Sh(X) |== U ==> phi
+  * U |== phi
+
+
+=== Aussagen an abgeschlossenen Unterräumen
+
+Sei A eine abgeschlossene Teilmenge von X. Dann ist
+
+    ___ vee A^c
+
+eine Lawvere-Tierney-Topologie. Der Topos der Garben bezüglich dieser Topologie
+ist gerade Sh(A). (Zurückziehen auf Sh(A) entspricht Garbifizieren,
+Vorwärtsdrücken entspricht Vergessen.)
+
+* X |== f = g vee A^c
+  ist äquivalent zu: f = g in allen F_x, x \in A.
+
+* Spec A |== b \in iota_*(Z)
+  ist äquivalent zu: forall p: a_1,...,a_n \in p ==> b \in p.
+
+  Dabei ist iota die Inklusion Spec A/(a_i) --> Spec A
+  und Z das universelle Primideal auf Spec A/(a_i).
+
+
 === Garbifizierung
 
 Sei j eine Lawvere-Tierney-Topologie.
@@ -479,10 +525,38 @@ O_X gegeben sind, die auf offenen dichten Teilmengen definiert sind.
 * Beispiel: Sei X ein integres Schema. Dann stimmt es auch.
   Denn lokal sieht das aus wie Spec A, A Integritätsbereich.
 
+* Beispiel: Sei X nur ein reduziertes Schema. Dann stimmt es auch!
+  Es genügt, die Behauptung für X = Spec A, A reduziert aber vielleicht kein
+  Integritätsbereich, nachzuweisen. Sei dazu U eine beliebige offene dichte
+  Teilmenge. Sei ein Schnitt von S^(-1) O_X gegeben. Dieser ist von der Form
+  a/s, wobei a = g^(-1) b, s = h^(-1) c, g in JU, h in JU, s auf U regulär.
+  Wenn man U = bigcup_i D(f_i) schreib, so bedeutet g in JU, dass
+  sqrt((f_i)_i) subseteq sqrt(g); und analog für h.
+
+  Der gegebene Schnitt ist dann gleich (bh) / (cg). Zu zeigen ist, dass cg
+  regulär auf ganz Spec A ist. Dann haben wir den Schnitt nämlich fortgesetzt.
+
+  Sei dazu cg x = 0 in A[z^(-1)]. Dann also cg z^a x = 0 in A, insbesondere
+  in A[(JU)^(-1)]. Da c auf U regulär ist, folgt g z^a x = 0 dort, also
+  p g z^a x = 0 für ein p aus JU. Für jedes i gibt es ein n_i mit
+  f_i^(n_i) = u_i p. Daher ist für jedes i f_i g z^a x nilpotent.
+  Und somit (Dichtheit!) ist g z^a x nilpotent, also Null.
+
+  Nun nochmal: Für jedes i gibt es ein m_i mit f_i^(m_i) = v_i g.
+  Daher ist für jedes i f_i z^a x nilpotent. Und somit (Dichtheit) ist
+  z^a x nilpotent, also Null. Somit ist x Null in A[z^(-1)]. Das war zu zeigen.
+
+* Nichtbeispiel: X Schema, das nicht reduzier ist
+  Dann ist O_X nicht negneg-separiert und S^(-1) O_X daher auch nicht.
+  Also kann S^(-1) O_X keine negneg-Garbe sein.
+
 * Beispiel: Sei X ein topologischer Raum und O_X die Garbe der stetigen
   Funktionen. Dann sehe ich NICHT, wieso # gelten sollte.
   Es wird aber in [Mulvey] behauptet. Ein Gegenbeispiel sollte sin(1/x)
   sein.
+
+* Bemerkung: negneg-Vergarbung ist dasselbe wie Pullback und Pushforward
+  auf die kleinste dichte Unterörtlichkeit.
 
 
 === Cartier-Divisoren und Geradenbündel

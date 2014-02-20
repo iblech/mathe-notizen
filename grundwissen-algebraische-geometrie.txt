@@ -34,6 +34,10 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 
       fg nilpotent ==> g nilpotent.
 
+* \bigcup_i D(f_i) ist genau dann dicht, wenn für alle g:
+
+      f_i g nilpotent für alle i ==> g nilpotent.
+
 * Spec A ist lokaler topologischer Raum <==> A ist ein lokaler Ring.
 
 

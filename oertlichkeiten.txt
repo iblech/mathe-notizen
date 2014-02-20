@@ -1,0 +1,5 @@
+=== Kleinste dichte Unterörtlichkeit
+
+Sh(X_negneg) sollte isomorph sein zu Sh_negneg(X).
+Zurückziehen und Vorwärtsdrücken auf X_negneg sollte dasselbe sein wie
+bezüglich negneg zu vergarben.
