@@ -546,9 +546,13 @@ O_X gegeben sind, die auf offenen dichten Teilmengen definiert sind.
   Daher ist für jedes i f_i z^a x nilpotent. Und somit (Dichtheit) ist
   z^a x nilpotent, also Null. Somit ist x Null in A[z^(-1)]. Das war zu zeigen.
 
-* Nichtbeispiel: X Schema, das nicht reduzier ist
-  Dann ist O_X nicht negneg-separiert und S^(-1) O_X daher auch nicht.
-  Also kann S^(-1) O_X keine negneg-Garbe sein.
+* Nichtbeispiel: X Schema, das nicht reduziert ist.
+  Dann ist O_X im Allgemeinen nicht negneg-separiert und S^(-1) O_X daher auch
+  nicht. Also kann S^(-1) O_X (im Allgemeinen) keine negneg-Garbe sein.
+
+  Aufgabe: Genaue Charakterisierung finden, wann S^(-1) O_X bzw. O_X
+  negneg-separiert ist, und wann S^(-1) O_X schon eine negneg-Garbe ist.
+  Sollte klassisches Wissen sein.
 
 * Beispiel: Sei X ein topologischer Raum und O_X die Garbe der stetigen
   Funktionen. Dann sehe ich NICHT, wieso # gelten sollte.
