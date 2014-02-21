@@ -1,3 +1,10 @@
 siehe pizzaseminar/tensor-kategorien
 
 Merke: 4½ Seiten sind schon etwas mehr als 45 Minuten.
+
+http://www.pps.univ-paris-diderot.fr/~mellies/gallery.html
+allgemeines graphisches Kalkül
+One main ambition of my work is to understand how formal proofs should be
+written down. This simple question is related to a myriad of fascinating
+problems at the interface of proof theory, games semantics, n-dimensional
+algebra, and mathematical physics.

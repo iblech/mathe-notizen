@@ -960,25 +960,25 @@ http://www.ams.org/journals/proc/1973-037-02/S0002-9939-1973-0325389-7/S0002-993
 
 === Mail an Ravi Vakil
 
-Dear Ravi,
+Hello Ravi,
 
 in your notes on Algebraic Geometry, you state on page 119 the general
 principle that if a property holds at the generic point then it tends to
 hold on a dense open subset.
 
-In fact, there is a general meta-theorem saying which properties spread
-out in this manner: This is true for all properties which can be
+In fact, there is a general metatheorem describing which properties
+spread out in this manner. This is true for all properties which can be
 formulated as a "geometric formula", and false in general for other
 properties.
 
-In mathematical logic, a formula is called "geometric" if and only if it
-consists only of "=", "wedge", "vee", "exists", but not "==>" and not
-"forall".  Sometimes, a non-geometric formula may be equivalently
-reformulated in a geometric way.
+In categorical logic, a formula is called "geometric" if and only if it
+consists only of "=", "wedge", "vee", "exists", but not "==>", not
+"forall" and not "not". Sometimes, a non-geometric formula may be
+equivalently reformulated in a geometric way.
 
-Here are three examples:
+I hope this is of some interest to you. Here are three examples:
 
-* In concise notation, the property that a sheaf of modules is zero
+* In concise notation, the property that a sheaf F of modules is zero
   reads "forall s:F. s = 0". Because of the "forall", this is not a
   geometric formula, and indeed it is not the case that being zero on a
   dense open subset is equivalent to the stalk at the generic point
@@ -995,10 +995,10 @@ Here are three examples:
 
 * The property of a sheaf being locally free is not geometric in
   general. But it is if the sheaf in question is coherent. [This
-  requires some checking.] Therefore it's completely obvious that a
-  coherent sheaf is locally free on a dense open subset if and only if
-  the stalk at the generic point xi is a free O_{X,xi}-module. (This is
-  your exercise 13.7.F.)
+  requires some checking.] With this in mind, it's completely obvious
+  that a coherent sheaf is locally free on a dense open subset if and
+  only if the stalk at the generic point xi is a free O_{X,xi}-module.
+  (This is your exercise 13.7.F.)
 
 In fact, the generic point is not special in this regard: A geometric
 formula holds on some open subset containing a point x if and only if it
@@ -1012,19 +1012,20 @@ PS: If you are into such things, here is the logical background:
 1. Above "concise notation" actually uses the Bénabou-Mitchell internal
    language of the sheaf topos over the given scheme X.
 
-2. A formula phi holds at the generic point iff its "double negation
-   translation" holds on X.
+2. An arbitrary formula phi holds at the generic point iff its "double
+   negation translation" holds on X.
 
    The double negation translation of a formula is obtained by tacking a
    "\neg \neg" in front of each "exists", each "vee" and each "=".
 
    The double negation translation itself is classical; the particular
-   observation is surely well-known to the experts, even though I
-   have not found it in the literature.
+   application to schemes is probably well-known to the experts, even
+   though I have not found it in the literature.
 
-3. It is a classical [and easy] result of mathematical logic that for geometric
-   formulas phi, the double negation translation of phi is equivalent to
-   "\neg \neg phi" (i.e. all negneg's pulled to the front).
+3. It is a classical [and easy] result of mathematical logic that for
+   geometric formulas phi, the double negation translation of phi is
+   equivalent to "\neg \neg phi" (i.e. all negneg's pulled to the
+   front). This is easily proved by induction on the structure of phi.
 
-4. One can check that the interpretation of "\neg \neg phi" with the sheaf
-   semantics is precisely that phi holds on a dense open subset.
+4. One can check that the interpretation of "\neg \neg phi" with the
+    sheaf semantics is precisely that phi holds on a dense open subset.

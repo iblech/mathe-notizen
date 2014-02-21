@@ -5,6 +5,8 @@
 * Direkt über Ext-Klasse
 * Grund für H^0(T_X) = 0
 
+* Motivation für f^#: f sollte glatt sein!
+
 * Inwieweit ist eine Extension
 
       [ 0 --> T_X --> ? --> O_X --> 0 ]
