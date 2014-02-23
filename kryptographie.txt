@@ -1,2 +1,5 @@
 * Backdoor in elliptischen Kurven:
   http://www.ams.org/notices/201402/rnoti-p190.pdf
+
+* http://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction
+  https://crackstation.net/hashing-security.htm
