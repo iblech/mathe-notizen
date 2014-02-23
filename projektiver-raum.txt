@@ -202,6 +202,9 @@ Siehe eingescanntes Blatt.
 * Eulersequenz verstehen...
 * Insbesondere topossprachliche interne Definitionen herleiten!
 
+* Kohomologie auf P^n verstehen:
+  http://www.math.ens.fr/~merker/CMI-ENS-Exchange/2004/saravanan.pdf
+
 * Hat P^n auch eine universelle Eigenschaft bezüglich beliebiger lokal
   geringter Räume oder gar allgemeiner lokal geringter Topoi? Welche Theorie
   klassifiziert der kleine oder große Zariskitopos auf P^n?

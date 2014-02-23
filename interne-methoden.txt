@@ -842,6 +842,8 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
 
 * "G --> F, G veT, F koh., phi_x inj ==> phi|_U inj"
 
+* Lesen: http://sbseminar.wordpress.com/2009/08/06/algebraic-geometry-without-prime-ideals
+
 
 === math.se-Antwort
 

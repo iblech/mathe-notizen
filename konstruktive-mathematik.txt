@@ -3,3 +3,17 @@
 
 * Berechenbare Mathematik = Realisierbarkeitsinterpretation konstruktiver Mathematik
   http://math.andrej.com/data/c2c.pdf
+
+
+=== Lustige Situation in Ringen
+
+Sei R ein Ring und seien a,b,c Ringelemente. Gelte a,b,c != 0.
+Gelte ferner abc = 0.
+
+Dann ist klar: R kann kein Integritätsbereich sein. Aber Nullteiler kann man
+auch nicht explizit angeben:
+
+* Sollte ab  = 0 sein, so ist (a,b)  ein Nullteiler.
+* Sollte ab != 0 sein, so ist (ab,c) ein Nullteiler.
+
+Welcher Fall vorliegt, kann man aber nicht entscheiden.

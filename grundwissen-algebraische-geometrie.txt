@@ -468,3 +468,5 @@ projektiven Raum) besitzt, selbst wiederum durch Gleichungen gegeben werden kann
 
 * Wie sieht GL(V) als Schema aus? Vermutung für den Punktefunktor:
   R |--> Aut(V_R)  (Automorphismen der Skalarerweiterung)
+
+* Lesen: http://sbseminar.wordpress.com/2010/01/12/residues-and-integrals/?relatedposts_exclude=2821
