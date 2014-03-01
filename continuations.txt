@@ -5,3 +5,10 @@
 
 * http://www.cs.bham.ac.uk/~hxt/research/hayo-thielecke-publications.shtml
   Kategorieller Rahmen für CPS
+
+* Zipper können mittels delimited continuations generisch
+  von einer traverse-Funktion abgeleitet werden:
+  http://okmij.org/ftp/Haskell/ZipperTraversable.hs
+
+* Rückwärts zippen:
+  http://conway.rutgers.edu/~ccshan/wiki/blog/posts/WalkZip3/
