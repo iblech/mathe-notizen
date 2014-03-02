@@ -11,6 +11,10 @@ offene Überdeckung, deren Čech-Komplex isomorph zum simplizialen
 Kokettenkomplex ist. Details angeblich in Griffiths, Harris: Principles of
 algebraic geometry.
 
+Angeblich kann man zwischen je zwei Triangulierungen einer Mannigfaltigkeit nur
+mit den Pochner-Bewegungen wechseln. Siehe:
+http://math.ucr.edu/home/baez/qg-winter2001/qg16.1.html
+
 
 === Exaktheit
 

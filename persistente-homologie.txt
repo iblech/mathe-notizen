@@ -1,0 +1,5 @@
+* Ein Übersichtsartikel: http://arxiv.org/pdf/1212.5398.pdf
+
+* http://figshare.com/articles/Lecture_notes_IMA_seminar_23_October_2014/829576
+  Mikael Vejdemo-Johansson: Hat ein Programm für topostheoretische Grundlagen
+  persistenter Homologie.

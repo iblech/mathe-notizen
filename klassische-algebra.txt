@@ -30,6 +30,18 @@ counterexample.
 http://math.stackexchange.com/questions/48301/examples-of-results-failing-in-higher-dimensions#comment322324_48349
 
 
+=== Artin--Wedderburn-Theorem
+
+http://en.wikipedia.org/wiki/Artin%E2%80%93Wedderburn_theorem
+
+The theorem states that an (Artinian) [1] semisimple ring R is isomorphic to
+a product of finitely many ni-by-ni matrix rings over division rings Di, for
+some integers ni, both of which are uniquely determined up to permutation of
+the index i. In particular, any simple left or right Artinian ring is
+isomorphic to an n-by-n matrix ring over a division ring D, where both n and D
+are uniquely determined.[2]
+
+
 === Nächste Schritte
 
 * Unter welchen Voraussetzungen ist eine Untergruppe einer zyklischen Gruppe

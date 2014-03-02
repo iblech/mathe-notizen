@@ -67,4 +67,9 @@ Hufeisenlemma.
 * Der K-Theorie welcher abelschen (oder zumindest additiven) Kategorie
   entspricht die K-Theorie von Vektorbündeln?
 
+* Siehe http://arxiv.org/pdf/math/0512103v1.pdf, Seite 30 unten:
+  Gibt Herausteilen aller kurzen exakten Sequenzen dasselbe wie nur das
+  Herausteilen zerfallende kurzer exakter Sequenzen, falls A halbeinfach ist?
+  Oder sogar immmer...?
+
 Literatur: Max Karoubi, Huybrechts Fourier-Mukai S. 124.

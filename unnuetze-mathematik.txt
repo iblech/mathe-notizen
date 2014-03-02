@@ -1,0 +1,9 @@
+Unnütze Mathematik, die später doch einen Nutzen hatte:
+
+* http://math.ucr.edu/home/baez/qg-winter2001/qg16.1.html
+
+  Theorem: A 2d topological lattice field theory is a semisimple algebra.
+  Wedderburn's Theorem (späte 1800er): Every semisimple algebra is a finite direct sum of
+  matrix algebras Mn(C).
+
+  Also: Wedderburn hat 2d topological lattice field theory's klassifiziert.

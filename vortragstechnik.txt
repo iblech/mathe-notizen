@@ -1,0 +1,2 @@
+* Idee: Ein Maskottchen, das wiederholt auf den Folien auftritt und
+  Ratschläge gibt oder den Sprecher beledigt.
