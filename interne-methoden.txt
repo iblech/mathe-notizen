@@ -844,6 +844,9 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
 
 * Lesen: http://sbseminar.wordpress.com/2009/08/06/algebraic-geometry-without-prime-ideals
 
+* Kurz prüfen, ob alle relevanten Aussagen bei der Stack-Semantik gültig
+  bleiben.
+
 
 === math.se-Antwort
 
