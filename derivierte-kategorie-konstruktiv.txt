@@ -37,3 +37,10 @@ Kann die abelsche Struktur von Kategorien von Kettenkomplexen implementieren:
 
 Kann die triangulierte Struktur der Homotopiekategorie implementieren:
 * ???
+
+
+=== Nächte Schritte
+
+* Unbedingt http://www.mfo.de/document/1320b/OWR_2013_25.pdf
+  durcharbeiten: Mini-Workshop: Constructive Homological Algebra with
+  Applications to Coherent Sheaves and Control Theory
