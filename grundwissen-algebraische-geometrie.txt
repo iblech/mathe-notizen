@@ -441,6 +441,13 @@ Dann gilt:
 2.) X regulär ==> X normal
 3.) X regulär <== X normel, falls dim X <= 1.
 
+* Glattheit von Morphismen bedeutet in der algebraischen Geometrie
+  etwas fundamental anderes wie in der Differentialtopologie. Dort muss man
+  explizit "glatt" dazu sagen, um unstetige Abbildungen auszuschließen. Hier
+  dagegen sind alle Abbildungen in diesem Sinn glatt (denn man hat ja f^#...).
+  "glatt" bedeutet eher: Alle Fasern sind glatt, und das ganze schön
+  gleichmäßig.
+
 
 === Eliminationstheorie
 

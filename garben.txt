@@ -231,6 +231,14 @@ Details:
   Funktionen auf solchen Räumen X also die konstante Garbe R.
 
 
+=== Torsion
+
+* angeblich: kohärent, torsionsfrei ==> lokal frei
+  (zumindest in Dimension 1)
+
+* angeblich: F kohärent, torsionsfrei ==> F^^ lokal frei
+
+
 === Kategorie der Garben als Lokalisierung der Prägarbenkategorie
 
 Sh(X) = PSh(X)[(lokale Isos)^(-1)]. Dabei heißt ein Prägarbenmorphismus lokaler
@@ -287,3 +295,5 @@ erhält.
   Zurückziehen?
 
 * Höhere direkte Bilder verstehen. Weiß man etwas über den Träger?
+
+* Bemerkungen unter Überschrift "Torsion" verstehen

@@ -68,6 +68,11 @@ Die Kategorie der A-Modul ist lokal endlich präsentierbar.
 Nächste Schritte: ???
 
 
+=== Kompakte Objekte in Sch/k
+
+Was sind sie?
+
+
 === Kompakte Objekte in derivierten Kategorien
 
 Nach Bondal-van den Bergh (S. 8f):
@@ -95,7 +100,8 @@ Kellers Überblicksartikel:
   K_0-Gruppen.
 
 Vergleiche http://stacks.math.columbia.edu/tag/08CL
-zu perfekten Komplexen.
+zu perfekten Komplexen. Stimmt es, dass ein Komplex genau dann perfekt ist,
+wenn er dualisierbar ist?
 
 
 === Endlichkeitsbedingungen an Schemata

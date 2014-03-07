@@ -1034,3 +1034,17 @@ PS: If you are into such things, here is the logical background:
 
 4. One can check that the interpretation of "\neg \neg phi" with the
     sheaf semantics is precisely that phi holds on a dense open subset.
+
+
+=== Gliederung hypothetischer Notes zum Thema
+
+* Introduction
+* Kripke-Joyal-Semantik für Sh(C), C Situs
+* Modulgarben (inkl. Rang, natürliche Zahlen)
+* rationale Funktionen, Divisoren
+* Aussagen an Halmen und an dichten offenen Teilmengen
+* negneg-Modalität, andere Modalitäten
+* internes Spektrum
+* großer Zariski-Topos
+* Meta-Eigenschaften
+* lokal-interne Kategorien? offene Immersionen?

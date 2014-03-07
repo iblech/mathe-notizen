@@ -212,3 +212,13 @@ http://mathoverflow.net/questions/3184/philosophical-meaning-of-the-yoneda-lemma
       g . <a,f> := <ga, gf>,
 
   wobei (gf)(x) = g . f(g^(-1) . x).
+
+
+=== Limiten und Kolimiten in der 1-Kategorie Cat
+
+Cat ist vollständig und kovollständig.
+
+
+=== Nächste Schritte
+
+* Kurz über "Cat ist vollständig und kovollständig" nachdenken.
