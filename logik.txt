@@ -25,3 +25,5 @@
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?
+
+* http://golem.ph.utexas.edu/category/2012/12/universe_polymorphism_and_typi.html
