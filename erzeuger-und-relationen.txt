@@ -131,6 +131,9 @@ Retrakte von darstellbaren Funktoren.
   Beispiel: Die Kategorie der Gruppen (oder Ringe) in einem Topos ist lokal
   lambda-präsentierbar.
 
+* Qcoh(X) ist darstellbar. Siehe:
+  http://amathew.wordpress.com/2011/07/30/quasi-coherent-sheaves-presentable-categories-and-a-result-of-gabber/
+
 
 === Nächste Schritte:
 

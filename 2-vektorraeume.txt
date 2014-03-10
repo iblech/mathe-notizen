@@ -1,0 +1,5 @@
+=== Nächste Schritte
+
+* 2-Darstellungstheorie:
+  http://arxiv.org/pdf/math/0602510v4.pdf
+  http://golem.ph.utexas.edu/string/archives/000757.html

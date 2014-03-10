@@ -17,3 +17,28 @@ auch nicht explizit angeben:
 * Sollte ab != 0 sein, so ist (ab,c) ein Nullteiler.
 
 Welcher Fall vorliegt, kann man aber nicht entscheiden.
+
+
+=== Kompaktifizierung der natürlichen Zahlen
+
+N* := { (x_n)_n | x_n in {0,1}, (x_n) monoton steigend }.
+
+* N* ist die *finale Koalgebra* zum Funktor 1 + (__).
+
+  Die Koalgebrenstruktur wird gegeben durch
+
+      (x_n) |--> falls x_0 = 1: *, sonst: (x_(n+1)).
+
+* Unendlich wird dargestellt durch
+
+      (0,0,0,...),
+
+  natürliche Zahlen durch
+
+      (0,...,0, 1,...).
+
+* Die Ordnung eines Elements in einem diskreten Monoid ist in natürlicher
+  Weise ein Element dieser vervollständigten natürlichen Zahlen.
+
+* Konsequenterweise ist auch die Charakteristik eines diskreten Rings
+  eine solche Zahl.

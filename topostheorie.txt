@@ -12,6 +12,25 @@ Dissertation von Shawn Henry: Classifying Topoi and Preservation of Higher
 Order Logic by Geometric Morphisms
 
 
+=== Genügend Injektive
+
+http://comments.gmane.org/gmane.science.mathematics.categories/6311
+
+Sei E ein Grothendieck-Topos. Sei R ein Ring in E.
+Dann hat Mod_E(R) genügend viele Injektive.
+
+Das folgt sofort aus:
+
+1. Mod_E(Z) hat genügend viele Injektive (Johnstone). Dazu zeigt man
+   (leicht), dass man oBdA voraussetzen darf, dass in E das Auswahlaxiom gilt.
+   Dann wiederholt man den üblichen Beweis.
+
+2. Allgemein, wenn es genügend viele injektive abelsche Gruppen gibt,
+   dann auch genügend viele injektive R-Moduln (z.B. Eisenbud).
+
+* Ab_E = Mod_E(Z) erfüllt stets Grothendiecks Axiom AB5.
+
+
 === Nächste Schritte
 
 * Sind die Garben bezüglich der kanonischen Topologie auf einem Topos E
