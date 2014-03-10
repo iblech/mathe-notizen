@@ -1,10 +1,54 @@
 === Kleinste dichte Unterörtlichkeit
 
-Sh(X_negneg) sollte isomorph sein zu Sh_negneg(X).
-Zurückziehen und Vorwärtsdrücken auf X_negneg sollte dasselbe sein wie
-bezüglich negneg zu vergarben.
+* Sh(X_negneg) sollte isomorph sein zu Sh_negneg(X).
+  Zurückziehen und Vorwärtsdrücken auf X_negneg sollte dasselbe sein wie
+  bezüglich negneg zu vergarben.
+
+* Sei X ein topologischer Raum mit einem generischen Punkt xi.
+  Dann ist X_negneg --> X isomorph zu {xi} --> X.
+  Auf Garbenniveau habe ich das schon verstanden. Noch direkt auf Rahmenniveau
+  verstehen!
+
+* Zu einer offenen Teilmenge U eines topologischen Raums X können wir die
+  Modalität Box := ((__ --> U) --> U) definieren.
+
+  Es gilt: Box(V) = V genau dann, wenn
+
+      für alle offenen Z:
+          [für alle offenen W: W cap V subseteq U ==> W cap Z subseteq U]
+          ==> Z subseteq V.
+
+  Das ist genau dann der Fall, wenn das Innere von V* in V enthalten ist.
+  Dabei ist V* eine Art anderer Art Abschluss von V, nämlich
+
+      \bigcap_{W mit W cap V subseteq U} (W --> U),
+
+  oder verständlicher
+
+      V* = clos(V \ U) cup U.
+
+  (Sollte das noch einmal prüfen, scheint aber alles stimmig zu sein.)
+
+* Es gilt int V* = X genau dann, wenn U^c subseteq clos(V\U).
+
+* Besonders interessant ist der Fall U = int(X \ {x0}), x0 abgeschlossen.
+
+  Dann gilt: int V* = X <==> x_0 in V.
+
+  Ferner ist V* = X, falls x0 in V, und X \ {x0} sonst.
+
+  X_Box besteht also aus nur zwei offenen Teilmengen: X und X \ {x0}.
+  Insbesondere ist Sh(X_Box) boolsch.
+
+  Ist die Inklusion von X_Box in X dieselbe wie die von {x0} nach X?
 
 
 === Kovarianter Zugang
 
 http://www.mat.uc.pt/~picado/covariant/contents.pdf
+
+
+=== Nächste Schritte
+
+* Wie sieht X_negneg aus, wenn es keinen einzelnen generischen Punkt gibt?
+  Haben assoziierte Punkte etwas zu sagen?

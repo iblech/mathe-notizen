@@ -13,7 +13,7 @@
 * Ext^n als Äquivalenzklassen geeigneter exakter Sequenzen
 
 
-=== Konkret im Computer
+=== Konkret im Computer I
 
 Kann die abelsche Struktur von Modulkategorien implementieren:
 * für endlich-dimensionale Vektorräume
@@ -37,6 +37,31 @@ Kann die abelsche Struktur von Kategorien von Kettenkomplexen implementieren:
 
 Kann die triangulierte Struktur der Homotopiekategorie implementieren:
 * ???
+
+
+=== Konkret im Computer II (dg)
+
+Kann ich in A^pretr rechnen, wenn ich in der dg-Kategorie A rechnen kann?
+* Ja!
+* Homs in A^pretr sind nur Matrizen aus Morphismen in A.
+
+Kann ich in Ho(A) rechnen, wenn ich in A rechnen kann?
+* Dazu muss man von den Hom-Homplexen die nullte Kohomologie nehmen können.
+* Hinreichend dazu ist, dass die Homs in A kohärente k-Moduln sind.
+* Denn man hat folgende Beobachtung: Die Kohomologie von (X --> Y --> Z)
+  ist dann wieder kohärent, wenn Y und Z kohärent und X endlich erzeugt ist.
+  Vielleicht geht es auch noch schwächer.
+
+Erfüllt dg-D^b(X), X glatt, projektiv, diese Bedingung?
+* Kann das nicht sofort sagen.
+* Denn I(O_X-Mod) ist ja ein Modell. Injektive sind aber riesig.
+* Vielleicht sieht es bei anderen Modellen aber besser aus.
+  Im Artikel über den Grothendieckring triangulierter Kategorien wird etwa P(X)
+  verwendet, die volle Unterkategorie der perfekten Komplexe; für solche
+  Objekte scheint man eine gute Čech-Theorie zu haben.
+
+Erfüllt Coh(X) als k-angereicherte Kategorie diese Bedingung?
+* Nicht ganz klar. Überlegen!
 
 
 === Nächte Schritte
