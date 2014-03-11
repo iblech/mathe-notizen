@@ -1041,6 +1041,7 @@ PS: If you are into such things, here is the logical background:
 * Introduction
 * Kripke-Joyal-Semantik für Sh(C), C Situs
 * Modulgarben (inkl. Rang, natürliche Zahlen)
+* universelle Eigenschaft vom z.B. Tensorprodukt; intern vs. extern
 * rationale Funktionen, Divisoren
 * Aussagen an Halmen und an dichten offenen Teilmengen
 * negneg-Modalität, andere Modalitäten
