@@ -91,6 +91,11 @@ In guten Fällen wird der zu einer Auflösung von cok phi.
       <==> f, g bilden in allen O_{X,x} eine reguläre Sequenz.
 
 
+=== Beispiel: RHom(k(x),k(x))
+
+Siehe http://mathoverflow.net/questions/124451/calculate-hom-in-derived-category.
+
+
 === Nächste Schritte
 
 * Wann bilden Elemente aus A eine reguläre Sequenz von globalen Funktionen auf
