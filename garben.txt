@@ -41,6 +41,19 @@ Coh(X) rekonstruieren.
   Pushforward des Rückzugs. Dieser ist der Halm des Tensorprodukts bei x,
   also k(x) tensor_{O_{X,x}} G_x, also G|_x.
 
+* Hom_{O_X}(i_*(k(x)), i_*(k(x))) ~~ Hom_R(R/m, R/m) ~~ Hom_R(R, R/m) ~~ R/m.
+
+* Sei f : X --> Y ein Morphismus von k-Schemata, mit X lveT/k und k algebraisch
+  abgeschlossen.
+
+  Dann sind k-rationale Punkte und abgeschlossene Punkte dasselbe,
+  und f_* bildet die Wolkenkratzergarben k(x) auf die entsprechenden Garben
+  k(f(x)) ab. (Der Halm an x bzw. f(x) ist dabei beide Male gleich k.
+  Wäre k nicht algebraisch abgeschlossen, könnte man nur einen Morphismus
+  k(f(x)) --> f_* k(x) erhalten.)
+
+  [ Eigentlich muss es hier natürlich i_* k(x) bzw. j_* k(f(x)) heißen. ]
+
 
 === Träger
 
@@ -168,6 +181,17 @@ Sei F eine Garbe auf X mit supp F = { x0 }. Sei x0 ein abgeschlossener Punkt.
       F \otimes L ---> F,
 
   der kanonisch ist modulo Wahl des Isomorphismus L_x0 ~~ O_x0.
+
+* Sei f : X --> Y ein Morphismus von topologischen Räumen.
+
+  Dann gilt: (f_* F)(U) = F_x0, falls f(x0) in U; 0, sonst.
+
+  Insbesondere gilt (f_* F)_{f(x0)} = F_x0.
+
+  Damit die Halme von f_*F an allen anderen Punkten verschwinden, ist es
+  hinreichend, dass für jede offene Umgebung V von Y eine Unterumgebung V'
+  existiert, die f(x0) nicht enthält. Das ist etwa dann der Fall, wenn
+  f(x0) ein abgeschlossener Punkt in Y ist.
 
 
 === Toposstandpunkt

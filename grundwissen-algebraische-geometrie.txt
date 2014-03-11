@@ -95,6 +95,19 @@ Transponierten O_(Spec A) --> f_* O_X.
   reduzierten k-Schemata (wenn k algebraisch abgeschlossen; laut Mumford,
   Lectures on algebraic curves, Seite 16).
 
+* Sei f : X --> Y ein Morphismus von k-Schemata, mit X l.v.e.T./k.
+
+  Sei x in X ein abgeschlossener Punkt.
+  Wegen der lveT-Voraussetzung ist dann k(x) | k endlich.
+
+  Dann haben wir den Turm k(x) | k(f(x)) | k.
+  Daher ist k(f(x)) | k ebenfalls endlich, und somit ist f(x) wieder
+  abgeschlossen.
+
+  # Wenn k algebraisch abgeschlossen ist, sind k(x) und k(f(x)) beide gleich k.
+    Dann sind also die Mengen der k-rationalen Punkte und der abgeschlossenen
+    Punkte identisch, und f induziert eine Abbildung zwischen ihnen.
+
 
 === Verschwinden von Schnitten
 
