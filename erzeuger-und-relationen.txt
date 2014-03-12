@@ -54,7 +54,7 @@ Prop.: Eine Kategorie ist genau dann lokal kappa-präsentierbar, wenn sie
 äquivalent zur Kategorie kappa-stetiger Funktoren D^op --> Set für eine
 kappa-kovollständige kleine Kategorie D ist.
 
-Prop. (Adámek 1.64): Sind C und C^op lokal präsentierbare Kategorien, dass ist
+Prop. (Adámek 1.64): Sind C und C^op lokal präsentierbare Kategorien, dann ist
 C äquivalent zu einem vollständigen Verband.
 
 Kor.: Nicht jede abelsche Kategorie ist lokal präsentierbar.
@@ -143,3 +143,6 @@ Retrakte von darstellbaren Funktoren.
   lokal präsentierbar?
 * Ist die Kategorie der quasikohärenten Garben lokal präsentierbar?
   Vielleicht nicht über Set, aber über Sh(X)?
+
+* Vergleiche:
+  http://wiki.heinrich-hartmann.net/index.php/Compact_Objects

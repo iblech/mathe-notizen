@@ -69,6 +69,7 @@ vorgedrückten Strukturgarbe von V(s,t) und kann frei aufgelöst werden durch:
   und f und g keine gemeinsamen irreduziblen Faktoren besitzen.
 
 * Auch ist es dann erfüllt, wenn f regulär ist und (f,g) = (1) ist.
+  XXX: Stimmt das? Bedenke den Extremfall g = 0!
 
 
 === Allgemeiner

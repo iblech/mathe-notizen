@@ -6,6 +6,8 @@ Aspekte:
 * O(-1) als tautologisches Bündel
 * Euler-Sequenz
 * Anschauliche Vorstellung des Twistens
+* "Shiften in die affine Situation", siehe
+  http://math.stackexchange.com/questions/215480/what-is-the-line-bundle-mathcalo-xk-intuitively
 
 * RP^1 ist homöomorph zu S^1 -- dazu Einheitskreis AUF die x-Achse
   (statt zentriert um den Ursprung) setzen.

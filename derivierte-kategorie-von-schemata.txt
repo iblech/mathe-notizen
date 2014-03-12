@@ -8,6 +8,19 @@ Def.: D(X) := D^b(Coh(O_X)).
 Satz: D(P^n) wird erzeugt durch die exzeptionelle Sequenz
     O(-n), O(-n+1), ..., O(-1), O.
 
+Angeblich, siehe
+http://wiki.heinrich-hartmann.net/index.php/Derived_Categories_of_Projective_Spaces:
+
+Für T := O + O(1) + ... + O(n) auf X = Proj Sym V, dim V = n+1 gilt:
+
+1. T ist ein schwacher Erzeuger für D(X).
+2. End(T) = S^*V / S^(n+1)V.
+3. Ext^i(T,T) = 0 für i != 0.
+
+Mindestens Eigenschaft 2 scheint mir komisch.
+
+Vergleiche auch: http://wiki.heinrich-hartmann.net/index.php/Koszul_Duality
+
 
 === Derivierte Kategorie von C^infty-Mannigfaltigkeiten
 

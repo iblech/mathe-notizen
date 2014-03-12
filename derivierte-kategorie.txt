@@ -50,6 +50,22 @@ Sei ferner f: A --> A/(x) die kanonische Projektion. Dann gilt f^\vee\vee = f,
 aber H^*(f^\vee) = 0.
 
 
+=== Beispiel einer Ext-Algebra
+
+Sei E die äußere Algebra über einem Körper K in Erzeugern e_1, ..., e_n.
+Den Körper K kann man dann als Quotient E/m (maximales Ideal) wiedergewinnen.
+So interpretiert, gilt:
+
+    Ext_A^*(K, K) ~~ K[y_1, ..., y_n],
+
+wobei die y_i die Dualbasis zu den e_i bilden.
+
+Das steht zum Beispiel in der Doktorarbeit von Gesa Kämpf, Module theory over
+the exterior algebra with applications to combinatorics,
+https://repositorium.uni-osnabrueck.de/bitstream/urn:nbn:de:gbv:700-201005176260/1/thesis_kaempf.pdf,
+ist aber ein klassisches Resultat.
+
+
 === Derivierte Kategorie einer projektiven Kurve C
 
 Jedes Objekt aus D^b(C) setzt sich aus Shifts und endlichen direkten Summen von

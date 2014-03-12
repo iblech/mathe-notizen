@@ -189,3 +189,5 @@ Siehe auch:
 * http://www.math.jussieu.fr/~keller/publ/OnDGCat.pdf
 * Grothendieck ring of pretriangulated categories: http://arxiv.org/pdf/math/0401009v1.pdf
 * Ben-Zvi, Francis, Nadler: http://arxiv.org/pdf/0805.0157v5.pdf
+* http://www.mi.ras.ru/~akuznet/dgcat/Keller%20On%20differential%20graded%20categories.pdf
+* http://www.maths.ed.ac.uk/~eshinder/Mainz-Lecture-3.pdf
