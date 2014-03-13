@@ -115,6 +115,16 @@ http://mathoverflow.net/questions/66266/categorical-characterization-of-quasi-co
 
 Nächste Schritte: Konsequenzen daraus ziehen!
 
+Siehe Kommentar von Martin Brandenburg in
+http://mathoverflow.net/questions/95064/finitely-presented-objects-in-the-category-of-quasi-coherent-sheaves?rq=1:
+* O_X-Moduln von endlicher Präsentation sind kompakte Objekte in Qcoh(X).
+  Die Umkehrung stimmt ebenfalls, falls X konzentriert ist.
+
+Siehe Kommentar von Cisinski in
+http://mathoverflow.net/questions/90055/categorical-interpretation-of-quasi-compact-quasi-separated-schemes?rq=1:
+* Ein Schema ist genau dann qc qs, wenn der globale Schnittfunktor
+  (auf mengenwertigen Garben) filtrierte Kolimiten erhält.
+
 
 === Kompaktheit topologischer Räume
 
