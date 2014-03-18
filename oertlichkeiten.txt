@@ -1,3 +1,14 @@
+=== Topologischer Unterraum als Unterörtlichkeit
+
+Sei Y \subseteq X ein Unterraum eines topologischen Raums.
+Dann ist der zugehörige Kern gegeben durch
+
+  j(U) = bigcup { V | V cap Y = U cap Y }
+       = bigcup { V | V cap Y subseteq U }.
+
+Quelle: XXX
+
+
 === Kleinste dichte Unterörtlichkeit
 
 * Sh(X_negneg) sollte isomorph sein zu Sh_negneg(X).

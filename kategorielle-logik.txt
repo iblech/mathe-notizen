@@ -140,6 +140,90 @@ für geometrische Formeln phi über X:
         dann in der internen Sprache von Sh(A))
 
 
+=== Sh_j(E) vs. Sh(E) mit j-Übersetzung
+
+* Gelte für einen modalen Operator Box:
+
+      (Box phi)^Box = Box(phi^Box).
+
+  Dabei bezeichnet (__)^Box die Box-Übersetzung (nur auf Formeln, ohne Änderung
+  der Objekte).
+
+  Das ist erfüllt für folgende Operatoren:
+
+  * Box = negneg.
+  * Box = (__ --> alpha) --> alpha.
+  * Box = alpha --> __.
+  * Box = __ v alpha.
+
+  Wenn diese Bedingung erfüllt ist, so fühlt sich Box unter die Box-Übersetzung
+  wie die Identität an:
+
+      (Box phi ==> phi)^Box
+
+    = (Box phi)^Box ==> phi^Box
+
+    = Box(phi^Box) ==> phi^Box, das ist stets richtig.
+
+  Das ist wohl einer der Gründe, wieso man bei der Box-Übersetzung nicht die
+  Objekte vergarbifizieren muss: Sie fühlen sich schon garbifiziert an!
+
+* Im Allgemeinen ist der Vergissfunktor Sh_j(E) --> Sh(E) ja nur linksexakt.
+  Was bringt die Ableitung dieses Funktors (etwa auf abelschen Gruppen)?
+  Etwa im Fall Set_negneg --> Set?
+  Wie sieht die aus?
+
+  Ein explizites Modell sieht so aus, über Ext^1(ZZ, __),
+  wobei ZZ die konstante Garbe ZZ bezeichnet:
+
+  Zu einer kurzen exakten Sequenz 0 --> X --> Y --> Z --> 0 in Sh_j(E)
+  (also j-gibt es zu jedem z:Z ein Urbild) gehört die Sequenz
+
+      0 --> X -f-> Y -g-> Z --> Ext^1(ZZ,X)
+
+  in E, mit Ext^1(ZZ,X) = { [0 --> X --> ? --> ZZ --> 0 j-exakt] }.
+  Die Dimensionsshiftabbildung sieht so aus:
+
+      z |--> [0 --> X --> { (y,r) | g(y) = rz } --> ZZ --> 0].
+
+  Diese Sequenz ist tatsächlich j-exakt.
+
+
+* Welche Bedeutung hat es, mit (__)^j zu arbeiten, aber über Objekte
+  von E zu sprechen? Klingt erstmal so, als ob man Garbensprache verwenden
+  würde, um über Prägarben zu sprechen. Das wäre ja nicht sound.
+  Aber vielleicht arbeitet man tatsächlich automatisch mit den assoziierten
+  Garben.
+
+
+=== Bemerkungen, die konsolidiert werden müssen
+
+* "Set |== x^* phi   <==>   ex. x \in V subseteq U: V |== phi."
+
+  Das gilt nicht für das "große E", also unbeschränkte Quantifikation.
+  Die Hinrichtung passt noch. Aber nicht die Rückrichtung.
+
+  Es sei denn, man schränkt sich auf lokal konstante Garben ein.
+
+* "X |== forall A. (phi --> psi)  <==>  f.a. x \in X, Mengen A: phi_x --> psi_x."
+
+  Das stimmt, für geometrische phi, psi.
+
+* Sei X mit folgender Eigenschaft: Jede offene Teilmenge lässt sich durch
+  komapkte offene Teilmengen überdecken. Das ist etwa für Schemata erfüllt!
+
+  Sei phi eine solche Aussage, sodass für jede kompaktoffene Teilmenge U
+  gilt: U cap [phi] ist wieder kompakt.
+
+  Das ist etwa für phi = "f invertierbar" auf einem Schema erfüllt!
+
+  Dann gilt folgendes logisches Prinzip:
+
+      X |== (phi --> bigvee_i psi_i) --> bigvee_i (phi --> psi_i),
+
+  wobei (psi_i) eine monotone Familie über eine gerichtete Indexmenge ist.
+
+
 === Nächste Schritte
 
 * Für den Rückzug mit f^* statt f^(-1) auf Spec k(x)

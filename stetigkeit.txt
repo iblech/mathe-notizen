@@ -4,3 +4,8 @@ Siehe auch:
 
 * Betrachte Funktionen, die auf Q definiert sind, nicht auf R.
   Dann ist das ganze nicht mehr tautologisch!
+
+* Palmgren, Resolution of the uniform lower bound problem in constructive
+  analysis.
+
+* Palmgren, Continuity on the real line and in formal spaces.

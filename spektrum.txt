@@ -94,6 +94,16 @@ Es gilt in der internen Sprache:
     forall f : gamma^*(A). nicht (f in Z) <==> f in F.
 
 
+=== Unterschema
+
+* Eine interessante Aussage ist: Spec A |== b \in i_* Z,
+  wobei Z das universelle Primideal auf Spec A/(a_1,...,a_n) ist.
+
+  Daher stellt sich die Frage, ob man i_* Z intern definieren kann.
+
+  Und, geht das?
+
+
 === Wann ist das Spektrum einpunktig?
 
 Sei A ein lokaler Ring.

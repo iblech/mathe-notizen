@@ -108,6 +108,14 @@
     ist. Auf (U \ {x0}) gilt intern, dass J das Einsideal ist (da dort !x0
     gilt).
 
+* Sei J ein Ideal von O_X. Sei j(phi) := phi v (1 \in J).
+  Dann ist O_X/J eine j-Garbe und aus Sh_j-Sicht auch ein lokaler Ring:
+
+  Dazu ist zu zeigen, dass für alle s,t : O_X/J mit s + t = 1 in O_X/J
+  folgt, dass j(s inv. oder t inv.).
+
+  Das ist klar.
+
 
 === Internes Spektrum
 
@@ -205,7 +213,7 @@ ist gerade Sh(U).
 
 Sei A eine abgeschlossene Teilmenge von X. Dann ist
 
-    ___ vee A^c
+    j(___) = ___ vee A^c
 
 eine Lawvere-Tierney-Topologie. Der Topos der Garben bezüglich dieser Topologie
 ist gerade Sh(A). (Zurückziehen auf Sh(A) entspricht Garbifizieren,
@@ -219,6 +227,30 @@ Vorwärtsdrücken entspricht Vergessen.)
 
   Dabei ist iota die Inklusion Spec A/(a_i) --> Spec A
   und Z das universelle Primideal auf Spec A/(a_i).
+
+* Omega_j := { j(phi) | phi in Omega } = { phi | j(phi) <=> phi }
+  ist kompakt! Sei bigvee U_i = T in Omega_j, d.h.
+  bigcup U_i vee A^c = T in Omega. Dann bigcup U_i = T und damit
+  U_i = T für ein i, oder A^c. Damit aber Omega_j = { T } und damit ist (das
+  mindestens eine existente) U_i auch gleich T.
+
+
+=== Reduzierte Schemastruktur
+
+* X_red ist wirklich X mit Strukturgarbe O_X/sqrt(0).
+
+* Die U-Schnitte von sqrt(0) sind übrigens die auf ganz U nilpotenten
+  Funktionen, falls U quasikompakt ist.
+
+* Es ist auch recht leicht zu zeigen, dass X_red --> X
+  das universelle reduzierte abgeschlossene Unterschema mit X als
+  zugrundeliegenden topologischen Raum ist.
+
+  Dass es selbst ein solches ist, ist klar. (Benutze, dass sqrt(0) qcoh ist.)
+
+  Sei Z --> X ein weiteres solches. Dazu gehört ein surjektiver lokaler
+  Ringhomo O_X --> O_Z. Da O_Z reduziert ist, induziert dieser einen Morphismus
+  O_X/sqrt(0) --> O_Z. Damit faktorisiert Z --> X über X_red --> X.
 
 
 === Garbifizierung
@@ -530,7 +562,8 @@ O_X gegeben sind, die auf offenen dichten Teilmengen definiert sind.
   Integritätsbereich, nachzuweisen. Sei dazu U eine beliebige offene dichte
   Teilmenge. Sei ein Schnitt von S^(-1) O_X gegeben. Dieser ist von der Form
   a/s, wobei a = g^(-1) b, s = h^(-1) c, g in JU, h in JU, s auf U regulär.
-  Wenn man U = bigcup_i D(f_i) schreib, so bedeutet g in JU, dass
+  [ Stimmt das? Verwechsele ich hier nicht die Prägarbe mit der Garbe S^(-1) O_X? ]
+  Wenn man U = bigcup_i D(f_i) schreibt, so bedeutet g in JU, dass
   sqrt((f_i)_i) subseteq sqrt(g); und analog für h.
 
   Der gegebene Schnitt ist dann gleich (bh) / (cg). Zu zeigen ist, dass cg
@@ -561,6 +594,53 @@ O_X gegeben sind, die auf offenen dichten Teilmengen definiert sind.
 
 * Bemerkung: negneg-Vergarbung ist dasselbe wie Pullback und Pushforward
   auf die kleinste dichte Unterörtlichkeit.
+
+
+=== Rationale Funktionen IV
+
+* Falls X lokal Noethersch, kann man leicht zeigen,
+  dass K_{X,x} = Quot O_{X,x}. Siehe Artikel.
+
+* Ass = { x \in X | m_x ist in O_{X,x} ein assoziiertes Primideal,
+  also von der Form Ann(s) für ein s \in O_{X,x} }.
+
+  Ist lokal endlich (d.h. Schnitte mit den Mengen einer geeigneten offenen
+  Überdeckung, nämlich einer durch affinoffennoethersche Teilmengen), denn die
+  Menge der assoziierten Primideale eines noetherschen Rings ist endlich.
+
+* Es gilt auf lokal noetherschen Schemata: O_X ist genau dann Box-separiert für
+  Box = (U ==> __), wenn Ass subseteq U.
+
+* K_X sollte Vergarbung von O_X bezüglich j sein, wobei
+
+      j(phi) = (O_X ist (phi => __)-separiert).
+
+  Kann intern zeigen, dass das wirklich ein Kern ist.
+  Die Separiertheitseigenschaft kann man auch intern nachweisen.
+
+* Falls X integer: j(phi) <==> negneg phi.
+
+
+=== Quasikohärenz
+
+* Kann ich Vakil p. 368, 13.3.H hard exercise intern lösen?
+
+* Kann mit dem einfachen Kriterium zeigen, dass Kerne von Abbildungen
+  zwischen qcoh Moduln wieder qcoh sind. Kokerne haben nicht auf Anhieb
+  funktioniert.
+
+* Ich bekomme es nicht hin, zu zeigen, dass das endlich erzeugte Ideal
+  (h) von O_X wieder qcoh ist. Es ist dann trivial, wenn h regulär ist, denn
+  dann ist (h) isomorph zu O_X; aber das ist ja ein langweiliger Fall. (Oder?)
+
+* Kann mit Kompaktheitshilfe (siehe kategorielle-logik.txt) zeigen,
+  dass das Ideal sqrt(0) qcoh ist.
+
+* Habe gesehen, dass qcoh Untermodul eines Moduls v.e.T. wieder v.e.T. ist,
+  auf lokal noetherschen Schemata. Vielleicht gibt es aber noch ein anderes
+  Theorem. Etwa, dass Untermoduln, die von geometrischen Aussagen
+  ausgeschnitten werden, stets qcoh sind (oder aber stets die Konklusion
+  erfüllen!). Das wäre sehr schön. Aber vielleicht zu sehr Wunschdenken...?
 
 
 === Cartier-Divisoren und Geradenbündel
@@ -1034,6 +1114,32 @@ PS: If you are into such things, here is the logical background:
 
 4. One can check that the interpretation of "\neg \neg phi" with the
     sheaf semantics is precisely that phi holds on a dense open subset.
+
+
+=== Charakterisierung von Schemata
+
+* Ein Vorschlag: Eine lokal geringte Örtlichkeit X ist genau dann
+  ein Schema, wenn: neg (f inv.) ==> f nilpotent und f im internen Sinn qcoh.
+
+* Zumindest gilt nämlich: Ist der zugrundeliegende Raum der Punkt,
+  so folgt schon (in klassischer Logik), dass O_X nur ein Primideal hat und
+  daher der Raum isomorph zu Spec O_X ist.
+
+* Außerdem erfüllt (M, C) für topologische Mannigfaltigkeiten diese
+  Bedingung im Allgemeinen nicht: Zwar ist C[f^{-1}] noch f-separiert, aber
+  keine f-Garbe. Betrachte den Fall M = R und die Funktion e^(1/x) auf D(x).
+  Keine Funktion der Form x^n e^(1/x) ist im Ursprung stetig.
+
+* Dasselbe Beispiel funktioniert auch für (C, O_C) komplexe Mannigfaltigkeit.
+
+* Wie steht es um folgende Bedingung? "Ex. Ring A lok.konst., sodass O_X
+  die Lokalisierung von A an einer saturierten Menge S, die sogar ein Filter
+  ist, ist mit x \not\in S <==> x nilpotent".
+
+  Für Set funktioniert es wieder.
+
+* Die Bedingung, O_X sei aus interner Sicht qcoh, genügt nicht.
+  Denn in Set mit klassischer Logik erfüllt ja jeder Ring diese.
 
 
 === Gliederung hypothetischer Notes zum Thema

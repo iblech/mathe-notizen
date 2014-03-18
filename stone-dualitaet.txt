@@ -1,3 +1,57 @@
+=== Stone-Räume
+
+Ein Stone-Raum ist ein kompakter, total unzusammenhängender Hausdorffraum.
+
+Die Kategorie der Stone-Räume ist äquivalent zu Pro(FinSet).
+
+
+=== Stone-Dualität
+
+Die Kategorie der Stone-Räume ist dual äquivalent zur Kategorie der boolschen
+Algebren, vermöge der Funktoren
+
+    X |--> Algebra der offenabgeschlossenen Teilmengen von X,
+
+    A |--> St(A) := Hom_Bool(A, {0,1}) mit geeigneter Topologie.
+
+Ein Element a \in A induziert die offenabgeschlossene Teilmenge
+
+    { phi \in St(A) | phi(a) = 1 }.
+
+
+=== Anschauliche Interpretation
+
+* Elemente einer boolschen Algebra A können wir uns als Aussagen über die Welt
+  vorstellen.
+
+* Punkte von St(A) sind dann maximal konsistente Beschreibungen der Welt.
+  Das ist insbesondere dann der Fall, wenn A die Algebra der Ereignisse eines
+  stochastischen Systems sind.
+
+* Jede Aussage a \in A verkörpert sich in der offenabgeschlossenen Menge
+  der Weltbeschreibungen/Zustände, in denen a gilt.
+
+* In Gal(L|K) sind Mengen der Form Gal(L|E), E|K endlich, offenabgeschlossen.
+  (Das sind aber nicht die einzigen. Vereinigungen solcher sind etwa ebenfalls
+  offenabgeschlossen.) Sie entsprechen der Aussage "das hypothetische sigma
+  lässt E fix".
+
+* In Z_p sind die Bälle offenabgeschlossene Mengen. Sie entsprechen etwa
+  Aussagen der Form "die Zahl endet auf ...23".
+
+
+=== Punktfreie Wahrscheinlichkeitstheorie
+
+* http://math.stackexchange.com/questions/163630/point-free-random-variable-what-does-the-functor-preserve-and-reflect
+
+* Rota, Twelve problems in probability theory no one likes to bring up.
+
+* http://www.cs.ru.nl/~spitters/LC.pdf
+
+* Wahrscheinlichkeitstheorie sollte nicht durch Punkte aufgebaut werden.
+  Denn das sind ja "unmögliche"/Wahrscheinlichkeit-0 Ereignisse.
+
+
 === Nächste Schritte
 
 * Was gibt es zu pro-endlichen Mengen zu sagen?

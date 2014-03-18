@@ -54,6 +54,29 @@ Coh(X) rekonstruieren.
 
   [ Eigentlich muss es hier natürlich i_* k(x) bzw. j_* k(f(x)) heißen. ]
 
+Hier ein etwas spezielles Beispiel. Was ist die richtige Allgemeinheit?
+
+* Sei C_{0} auf X = C die Wolkenkratzergarbe mit Träger in 0 und Halm C dort.
+  Die Koszul-Auflösung zeigt sofort, dass C_{0} als O_X-Modul endlich
+  präsentiert ist: Habe 0 --> O_X --z--> O_X --> C_{0} --> 0.
+
+  Also gilt: HOM(C_{0}, O_X)_0 ~~ Hom_{O_0}(C, O_0) = 0.
+
+
+=== Halme des Pushforwards
+
+Sei f : X --> Y. Sei y \in Y. Gelte folgende Bedingung: Jede Familie von
+offenen Umgebungen um die Urbildpunkte f^{-1}[y] lässt sich so verkleinern,
+dass die Umgebungen paarweise disjunkt werden und sodass ihre Vereinigung von
+eine Obermenge von einer Menge der Form f^{-1}[U] ist, für eine offene
+Teilmenge y \in U \subseteq Y.
+
+Dann gilt: (f_* F)_y ~~ \prod_{f(x)=y} F_x.
+
+Das ist zum Beispiel erfüllt bei:
+* f : R --> R, x |-> x^2
+* f : S^1 --> S^1, z |-> z^2
+
 
 === Träger
 
@@ -254,6 +277,16 @@ Details:
   und A hausdorffsch ist, konstant. Insbesondere ist die Garbe der stetigen
   Funktionen auf solchen Räumen X also die konstante Garbe R.
 
+* Untergarben lokal konstanter Garben sind nicht immer wieder lokal konstant.
+
+  Beispiel: A --> NN (konstante Garbe) mit A = { n:N | ex. EZS von F mit n
+  Elementen }. Wenn A lokal konstant wäre, so wäre lokal der Halm A_x immer
+  derselbe; insbesondere wäre x |--> rk_x F lokal konstant. Das muss ja aber im
+  Allgemeinen nicht der Fall sein.
+
+* Lokale Konstanz mit endlichen Werten kann man leicht intern charakterisieren:
+  Das stimmt genau dann, wenn X |== bigvee_n F ~~ [n], also wenn X |== F endlich.
+
 
 === Torsion
 
@@ -321,3 +354,5 @@ erhält.
 * Höhere direkte Bilder verstehen. Weiß man etwas über den Träger?
 
 * Bemerkungen unter Überschrift "Torsion" verstehen
+
+* Dinge wie "f_* K ~~ K oplus K" verstehen, wobei K jeweils konstante Garbe

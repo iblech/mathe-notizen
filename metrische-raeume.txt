@@ -155,3 +155,6 @@ auch q < f auf dem gesamten Raum.
 === Literatur
 
 * Richman, Real numbers and other completions.
+
+* Palmgren, A constructive and functorial embedding of locally compact metric
+  spaces into locales.

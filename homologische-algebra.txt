@@ -102,3 +102,66 @@ www.math.ucsd.edu/~k3walsh/11Bsheet6.pdf
 === Super lecture notes
 
 http://www.math.fsu.edu/~aluffi/archive/paper306.pdf
+
+
+=== Baer-Summe und Skalarmultiplikation auf Ext^1
+
+let R be a ring. Let A and B be R-modules. Then Ext^1(A,B) has a
+concrete description as the set of equivalence classes of short exact
+sequences of the form
+ 
+    0 ----> B --f--> E --g--> A ----> 0.
+
+The addition on Ext^1 is given by the Baer sum of short exact sequences.
+ 
+Here is how scalars lambda \in R act on such Ext classes:
+
+Define E_lambda := (E oplus B) / { (f(b), -lambda b) | b \in B }.
+This is the pushout of B --f--> E and B --lambda--> B.
+
+Then the sequence
+
+    0 ----> B ----> E_lambda ----> A ---> 0
+
+with first morphism given by
+
+    b |--> [(0, b)]
+
+and second morphism given by
+
+    [(e, b)] |--> g(e)   (this is indeed well-defined)
+
+is again exact. This short exact sequence is the result of the scalar
+lambda acting on the class [0 --> B --> E --> A --> 0].
+
+Observe that for lambda = 0, the resulting sequence does indeed split.
+(A splitting is given by E_lambda --> B, [(e,b)] |--> b. This map is
+well-defined only because of lambda = 0.)
+
+There is also a dual description of E_lambda. Namely we can define
+E_lambda as the pullback of E --g--> A and A --lambda--> A, i.e. as
+
+    E_lambda := { (e, a) | g(e) = lambda a }.
+
+Then the result of lambda acting on [0 --> B --> E --> A --> 0] is given
+by
+
+    0 --> B --> E_lambda --> A --> 0
+
+with first morphism given by
+ 
+    b |--> (f(b), 0)
+
+and second morphism given by
+
+    (e,a) |--> a.
+
+Here is how one can figure this out by oneself: Generalize the problem.
+We know that an element of Ext^1(A,B) can be combined with an element of
+Hom(A',A) to yield an element of Ext^1(A',B). Similarly, we know that we
+can combine an element of Ext^1(A,B) with an element of Hom(B,B') to an
+element of Ext^1(A,B'). In each case, there is exactly one canonical way to
+explicitly describe the resulting elements: Namely by using a pullback
+resp. a pushforward construction. By specializing to endomorphisms of A
+(or endomorphisms of B) given by multiplication with a scalar, one
+obtains the above constructions.

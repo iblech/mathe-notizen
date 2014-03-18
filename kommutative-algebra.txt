@@ -308,6 +308,13 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   Gegenbeispiel: Z --> Z/(2).
 
 
+=== Projektive Moduln
+
+* Über die Charakterisierung von projektiven Moduln als direkte Summanden
+  freier Moduln kann man leicht zeigen: Das Tensorprodukt projektiver Moduln
+  ist wieder projektiv.
+
+
 === Nakayama
 
 * Sei A ein lokaler Ring und M ein endlich erzeugter A-Modul.

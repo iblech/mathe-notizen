@@ -1,0 +1,6 @@
+=== Literatur
+
+* Chirvasitu, Johnson-Freyd.
+  The fundamental pro-groupoid of an affine 2-scheme.
+  http://arxiv.org/pdf/1105.3104v4.pdf
+  Hat viel Material zum Tensorprodukt von Kategorien...
