@@ -1,3 +1,10 @@
+=== Disjunktion durch existenzielle Quantifikation
+
+  phi v psi <==>
+    exists x : { 0, 1 }.
+      (x = 0 ==> phi) wedge (x != 0 ==> psi).
+
+
 === Ein paar Tautologien
 
 Schreibe -phi := (phi -> r).
