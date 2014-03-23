@@ -11,6 +11,8 @@ Falls U abgeschlossen sein sollte, gilt sogar
 
     clos_U(M) = clos_X(M).
 
+* clos(M) = X \ int(X \ M).
+
 
 === Lokalität des Abschlusses
 

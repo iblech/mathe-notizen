@@ -20,6 +20,8 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 * Falls V(I(W)) = W und V eine beliebige Teilmenge des affinen Raums ist,
   so gilt I(V) : I(W) = I(V \ W) (Idealquotient).
 
+* int(Spec A \ {p}) = Spec A \ V(p).
+
 
 === Standardoffene Teilmengen
 
