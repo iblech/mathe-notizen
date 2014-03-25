@@ -219,11 +219,27 @@ Sei F eine Garbe auf X mit supp F = { x0 }. Sei x0 ein abgeschlossener Punkt.
 
 === Toposstandpunkt
 
-Toposstandpunkt noch nicht ganz klar.
-[[ s = 0 ]] gehört wohl zu X \ supp s.
-[[ F bewohnt ]] gehört wohl zu { x | F_x bewohnt }.
-[[ 1 = 0 ]] gehört wohl zu X \ supp R, R Ringgarbe.
-Was bedeutet [[ \exists x : M. x \neq 0 ]] für M Modulgarbe?
+* [[ s = 0 ]] ist X \ supp s = { x | s_x = 0 }.
+
+* [[ F = 0 ]] ist int(X \ supp F) = X \ clos supp F, denn:
+
+       U \subseteq [[ F = 0 ]]
+  <==> U |== F = 0
+  <==> für alle x \in U: x \in X \ supp F
+  <==> U \subseteq (X \ supp F).
+
+* In einer kurzen exakten Sequenz 0 --> F --> G --> H --> 0 gilt:
+  G = 0 genau dann, wenn F = 0 und H = 0.
+
+  Daraus folgt sofort ein Ergebnis über die Abschlüsse der Träger:
+  clos supp G = clos supp F cup clos supp H.
+
+* [[ F bewohnt ]] = { x | F_x bewohnt }; das ist natürlich langweilig
+  für O_X-Modulgarben, da gleich ganz X.
+
+* [[ 1 = 0 ]] gehört zu X \ supp R, R Ringgarbe.
+
+* Was bedeutet [[ \exists x : M. x \neq 0 ]] für M Modulgarbe?
 
 
 === Geometrischer Nakayama
