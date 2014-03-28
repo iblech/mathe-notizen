@@ -205,6 +205,11 @@ Sei F eine Garbe auf X mit supp F = { x0 }. Sei x0 ein abgeschlossener Punkt.
 
   der kanonisch ist modulo Wahl des Isomorphismus L_x0 ~~ O_x0.
 
+  XXX: Das nochmal prüfen!
+
+  Habe folgendes verwandtes Resultat, X lokal geringter Raum:
+  i_*(k(x0)) otimes F ~~ i_*(F|_x0).
+
 * Sei f : X --> Y ein Morphismus von topologischen Räumen.
 
   Dann gilt: (f_* F)(U) = F_x0, falls f(x0) in U; 0, sonst.

@@ -1113,7 +1113,7 @@ PS: If you are into such things, here is the logical background:
    front). This is easily proved by induction on the structure of phi.
 
 4. One can check that the interpretation of "\neg \neg phi" with the
-    sheaf semantics is precisely that phi holds on a dense open subset.
+   sheaf semantics is precisely that phi holds on a dense open subset.
 
 
 === Charakterisierung von Schemata

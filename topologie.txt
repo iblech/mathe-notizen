@@ -121,6 +121,22 @@ Denn jeder Punkt enthält einen abgeschlossenen Punkt in seinem Abschluss.
 
   Da xi ebenfalls in V liegt, gilt f(xi) <= f(x) <= f(xi). Also f(xi) = f(x).
 
+* Ganz allgemein ist eine oberhalbstetige Abbildung f : X --> N *immer*
+  lokal konstant auf einer offenen dichten Teilmenge, nämlich auf
+
+      W := bigcup { U | f auf U lokal konstant }.
+
+  Das ist klar, denn W = [[bigvee_n f = n]] und wir wissen ja, das bewohnte
+  Mengen natürlicher Zahlen immer nicht nicht ein Minimum besitzen.
+
+  Ansonsten kann man auch einen direkten Beweis führen. Sei U eine nichtleere
+  Teilmenge. Wähle ein x \in U. Finde eine Umgebung V \subseteq U von x
+  mit f <= f(x) auf V. Falls f = f(x) auf V gelten sollte, fertig. Andernfalls
+  gibt es einen Punkt, bei dem "<" gilt. Mit dem kann man fortfahren.
+  Irgendwann ist man fertig.
+
+  Mit Abbildungen X --> N cup {infty} funktioniert das natürlich auch!
+
 
 === Lokale Räume
 
