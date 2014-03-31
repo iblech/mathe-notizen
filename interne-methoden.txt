@@ -311,6 +311,10 @@ Sei j eine Lawvere-Tierney-Topologie.
   Omega_j = { phi | j(phi) <==> phi } klassifiziert j-abgeschlossene
   Unterobjekte.
 
+  Omega_j ist eine j-Garbe und der Unterobjektklassifizierer in Sh_j.
+  Aber Omega_j ist nicht die Vergarbung von Omega.
+  (Denke an Halme von Omega eines Garbentopos!)
+
 * In einem Garbentopos Sh(X) gilt:
 
   * Ein Unterobjekt A --> B ist genau dann negneg-dicht,
