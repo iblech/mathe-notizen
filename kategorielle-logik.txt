@@ -224,6 +224,29 @@ für geometrische Formeln phi über X:
   wobei (psi_i) eine monotone Familie über eine gerichtete Indexmenge ist.
 
 
+=== Sh(X) boolsch
+
+* Sh(X) ist genau dann boolsch, wenn für jede offene Teilmenge U gilt:
+  U ist die einzige offene dichte Teilmenge von U.
+
+* Sei X ein T1-Raum, d.h. für je zwei verschiedene Punkte existiert eine
+  offene Menge U, die den einen, aber nicht den anderen Punkt enthält.
+
+  Dann gilt: Sh(X) ist boolsch <==> X ist diskret.
+
+  "<==": Sei V in U offen, dicht. Sei x in U. Dann {x} \subseteq U offen,
+  nichtleer. Also V cap {x} != {}. Also x in V.
+
+  "==>": Sei x in X. Angenommen, {x} ist nicht offen.
+  Setze U := bigcup { V | V offen mit x nicht in V } = int(X \ {x}).
+  Dann ist U dicht in X: Sei W offen, nichtleer. Dann muss ein y in W
+  existieren, das nicht gleich x ist. (Denn enthielte W nur x, so wäre {x}
+  offen.) Nach T1-Voraussetzung existiert dann eine offene Menge V, die y aber
+  nicht x enthält. Daher ist der Schnitt U cap W nicht leer: Er umfasst V cap W,
+  und diese Menge enthält y.
+  Somit ist U = X. Das ist ein Widerspruch.
+
+
 === Nächste Schritte
 
 * Für den Rückzug mit f^* statt f^(-1) auf Spec k(x)
