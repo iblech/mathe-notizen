@@ -139,6 +139,9 @@ Matrixumformumgen.
 
 Genauer: Ila Varma, Classification of vector bundles on P^1.
 
+Oder auch: http://www2.mathematik.uni-mainz.de/alggeom/burban/Survey.pdf,
+gut verständlich!
+
 
 === Interne Sprache
 
