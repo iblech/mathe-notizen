@@ -38,6 +38,23 @@ Der Punkt x liegt nach Voraussetzung in der linken Seite. Da er nicht in (X\U)
 liegt, liegt er also in V.
 
 
+=== Kriterium für Zugehörigkeit zum Abschluss
+
+Sei x \in U, U offen in X. Sei M eine Teilmenge von X. Gelte:
+
+    Für alle offenen Umgebungen V von x in U
+    gibt es einen Punkt y in V,
+    der in M liegt.
+
+Dann liegt x im Abschluss von M.
+
+Denn: Sei A eine abgeschlossene Obermenge von M. Wir müssen zeigen, dass x in A
+liegt. Angenommen, das wäre nicht der Fall. Dann ist V := U \ A eine offene
+Umgebung von x in U. Daher existiert ein y aus V cap M. Damit liegt y
+insbesondere in A. Andererseits liegt y ja in V und daher nicht in A.
+Widerspruch.
+
+
 === Abgeschlossene Punkte
 
 Sei U \subseteq X ein beliebiger Unterraum, nicht unbedingt offen oder

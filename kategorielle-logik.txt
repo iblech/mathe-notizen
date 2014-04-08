@@ -172,6 +172,7 @@ für geometrische Formeln phi über X:
   Was bringt die Ableitung dieses Funktors (etwa auf abelschen Gruppen)?
   Etwa im Fall Set_negneg --> Set?
   Wie sieht die aus?
+  Was bringt das im Fall j = ((__ --> !x) --> !x)?
 
   Ein explizites Modell sieht so aus, über Ext^1(ZZ, __),
   wobei ZZ die konstante Garbe ZZ bezeichnet:

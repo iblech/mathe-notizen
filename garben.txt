@@ -115,6 +115,11 @@ Das ist zum Beispiel erfüllt bei:
 
        |F'| + |F''| + |H^1| = |F| + |H^0| + |H^2|.
 
+7) supp HOM(F,G) \subseteq clos supp(F) \cap clos supp(G).
+
+   Das ist klar mit einem topologischen Kriterium für Zugehörigkeit zum
+   Abschluss.
+
 
 === i_* und i_! 
 

@@ -767,6 +767,9 @@ betrachten. Ist A eine abgeschlossene Teilmenge von X, so gilt
 * Was bedeutet V |== (?A^c vee phi)? Etwa (V \cap A) |==_A phi?
   Ist Zurückziehen auf abgeschlossene Teilmengen ein logischer Funktor?
 
+* Es gilt: F_x = {s} genau dann, falls F^++ = {s}, wobei "++" die
+  Vergarbung bezüglich ((__ --> !x) --> !x) bezeichnet.
+
 
 === Generische Elemente I
 

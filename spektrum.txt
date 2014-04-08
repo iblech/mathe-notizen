@@ -246,6 +246,31 @@ tun. Nächste Schritte: Das verstehen! Siehe etwa französischen Artikel von
 Joyal, Theoreme de Chevalley–Tarski et remarque sur l’algebre constructive.
 
 
+=== Internes Spektrum, "richtig"
+
+Beobachtung: Die Menge der *quasikohärenten* Radikalideale von O_X entspricht
+extern der Menge der offenen Teilmengen von X:
+
+    quasikohärentes Radikalideal I
+        |--> offene Menge { x \in X | 1 \in I_x }
+
+    offene Menge U
+        |--> Idealgarbe zum reduzierten abgeschlossenen Unterschema X \ U
+
+* Da es vermutlich einen geeigneten Reflektor Radikalideale --> quasikohärente
+  Radikalideale gibt, wird Rad_qcoh(O_X) zu einem internen Rahmen.
+  ...aber der Reflektor ist ein *Links*adjungierter!
+
+* Analog könnte man Rad_qcoh(A) und so Spec_int(A) definieren.
+  Erfüllt das die richtigen Eigenschaften?
+
+* Prüfe, ob für das so definierte interne Spektrum gilt:
+
+      Spec_int(O_X[f^(-1)]) ~~ Ouv(D(f))
+
+      Spec_int(O_X/(f)) ~~ Ouv(V(f))
+
+
 === Nächste Schritte
 
 * Produziere explizites Gegenbeispiel für vermutlich falsche Behauptung,

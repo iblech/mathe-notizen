@@ -57,6 +57,23 @@ induziert durch f^# : f^(-1) O_(Spec A) --> O_X, bzw. genauer durch seinen
 Transponierten O_(Spec A) --> f_* O_X.
 
 
+=== Spektren von Algebren, die endlich als Modul sind
+
+* Sei k ein Körper. Sei A eine k-Algebra, die endlich als Modul ist.
+  Dann gibt es Erzeuger x_1,...,x_n, welche wegen Cayley--Hamilton (betrachte
+  die k-lineare Abbildung x |-> x_i x) ganz über k sind: f_i(x_i) = 0.
+
+  Da es in k nur endlich viele Nullstellen dieser Polynome f_i gibt, gibt es
+  nur endlich viele k-Algebrenhomos A --> k, d.h. k-rationale Punkte von Spec A
+  über k.
+
+* Sei X --> Y ein endlicher Schemamorphismus über k.
+  Dann besitzen die Fasern nur endlich viele k-rationale Punkte.
+  Außerdem besitzen die Fasern überhaupt nur endlich viele Punkte, aber wie
+  zeigt man das? Siehe:
+  http://math.stackexchange.com/questions/112345/the-fibers-of-a-finite-morphism-of-affine-varieties-are-all-finite
+
+
 === Rationale Punkte
 
 * Jeder Morphismus Spec K --> X faktorisiert über Spec k(x) --> X,
