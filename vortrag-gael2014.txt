@@ -41,3 +41,22 @@ year's talk would not simply be a reiteration; instead, I would present some
 new observations which I believe to be quite useful. Of course, I understand
 that you might want to prefer students who had not yet the chance to talk in
 front of an international audience.
+
+
+
+
+There are several important topoi associated to a scheme, for instance the
+petit and gros Zariski topoi. These come with an internal mathematical language
+which closely resembles the usual formal language of mathematics, but is "local
+on the base scheme": For example, from the internal perspective, the structure
+sheaf looks like an ordinary local ring (instead of a sheaf of rings with local
+stalks) and vector bundles look like ordinary free modules (instead of sheaves
+of modules satisfying a certain condition). The translation of internal
+statements and proofs is facilitated by an easy mechanical procedure.
+
+The talk will give an introduction to this topic and show how the internal
+point of view can be exploited to give simpler definitions and more conceptual
+proofs of the basic notions and observations in algebraic geometry. As an
+application, we will show how the internal language helps to understand under
+which circumstances truth at points spreads to truth on neighbourhoods -- we
+can give a purely formal and simple-to-use criterion for when this is the case.
