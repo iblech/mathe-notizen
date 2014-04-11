@@ -19,6 +19,38 @@ Ein Element a \in A induziert die offenabgeschlossene Teilmenge
     { phi \in St(A) | phi(a) = 1 }.
 
 
+=== Konstruktiv
+
+Die Kategorie Set^op ist äquivalent zur Kategorie der vollständigen atomischen
+Heyting-Algebren (CAHA).
+
+* Eine solche Algebra kommt mit einem Positivitätsbegriff.
+
+* Atomisch bedeutet, dass jedes Element Supremum von Atomen, oder äquivalent
+  Supremum der Menge aller unterhalb liegenden Atome, ist.
+
+* Man kann nachrechnen: In P(X) sind die Atome gerade die Singletons.
+
+  Verwende dazu Tricks wie U \subseteq \bigcup { {x} | x \in U }.
+
+* Für jede Menge U von Atomen in einer CAHA gilt:
+  
+      U = { a | a atomar, a <= sup U }.
+
+  Dazu muss man nutzen, dass Atome tiny sind.
+
+* Die Äquivalenz ist so gegeben:
+
+      Menge X |--> Potenzalgebra P(X)
+
+      CAHA P |--> Menge der Atome in P
+
+  Für den Nachweis der Äquivalenz ist unter anderem wichtig, dass für eine
+  CAHA P gilt, dass die Potenzmenge der Menge der Atome von P isomorph zu P
+  ist. (Ein Isomorphismus ist durch U \subseteq Atome(P) |-> sup U gegeben.
+  Dessen Inverses ist x |-> { a | a atomar in P, a <= x }.)
+
+
 === Anschauliche Interpretation
 
 * Elemente einer boolschen Algebra A können wir uns als Aussagen über die Welt
