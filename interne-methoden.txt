@@ -315,6 +315,12 @@ Sei j eine Lawvere-Tierney-Topologie.
   Aber Omega_j ist nicht die Vergarbung von Omega.
   (Denke an Halme von Omega eines Garbentopos!)
 
+  Potenzobjekte berechnet man in Sh_j wie in Sh.
+
+  Sh_j(E) ist äquivalent zu Sh_E(Omega_j) durch
+  X j-Garbe |--> (U |-> Hom(U,X)) und
+  F Garbe auf Omega_j |-> F(T).
+
 * In einem Garbentopos Sh(X) gilt:
 
   * Ein Unterobjekt A --> B ist genau dann negneg-dicht,
