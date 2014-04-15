@@ -1,0 +1,21 @@
+=== Newtons Finite-Differenzen-Kalkül
+
+Seien (a_n), (b_k) Folgen. Dann:
+
+    a_m = sum_{k=0}^m binom{m}{k} b_k für alle m >= 0
+
+        genau dann, wenn
+
+    b_k = (partial^k a)_0 für alle k >= 0.
+
+
+=== Simpliziale Mengen aus Verklebedaten
+
+Sei X ein Verklebedatum und X~ die zugehörige simpliziale Menge. Dann gilt:
+
+    |X~_m| = sum_{k=0}^m binom{m}{k} |X_m|.
+
+
+=== Siehe auch
+
+* http://www.math.uchicago.edu/~may/IMA/Joyal.pdf, Seite 163f.
