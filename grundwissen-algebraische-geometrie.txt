@@ -127,6 +127,10 @@ Transponierten O_(Spec A) --> f_* O_X.
     Dann sind also die Mengen der k-rationalen Punkte und der abgeschlossenen
     Punkte identisch, und f induziert eine Abbildung zwischen ihnen.
 
+* Ein sehr wichtiges Prinzip: Gültigkeit offener Bedingungen kann auf
+  quasikompakten Schemata schon auf abgeschlossenen Punkten geprüft werden.
+  Siehe topologie.txt.
+
 
 === Verschwinden von Schnitten
 

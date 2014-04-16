@@ -67,6 +67,28 @@ Umkehrung auch, wenn U offen ist. (Algebraische Varietät = Strukturmorphismus
 zu Spec k ist von endlichem Typ.)
 
 
+=== Offene Bedingungen und abgeschlossene Punkte
+
+Gelte, dass jeder Punkt einen abgeschlossenen Punkt in seinem Abschluss
+enthält. Das ist etwa bei quasikompakten Schemata so. (Siehe:
+http://math.stackexchange.com/questions/942/meaning-of-closed-points-of-a-scheme/)
+
+Sei P eine offene Eigenschaft: Wenn P an einer Stelle x gilt, so gilt P auch an
+allen Stellen einer offenen Umgebung von P. (Wenn P durch eine geometrische
+Formel in der internen Sprache realisiert werden kann, ist das beispielsweise
+der Fall.)
+
+Gelte P an allen abgeschlossenen Punkten. Dann folgt bereits: P gilt an allen
+Punkten.
+
+Sei dazu x ein beliebiger Punkt. Dann liegt in seinem Abschluss ein
+abgeschlossener Punkt a: a \in clos {x}. Nach Voraussetzung gibt es eine offene
+Umgebung U von a, sodass P auf allen Punkten von U gilt. In U muss nun x
+ebenfalls enthalten sein. Denn angenommen, x läge nicht in U. Dann läge x in
+der abgeschlossenen Menge X \ U. Somit läge a auch da drin. Das kann nicht
+sein.
+
+
 === Spezialisierung
 
 * Sei a ein Punkt im Abschluss von x.
@@ -116,6 +138,16 @@ Denn jeder Punkt enthält einen abgeschlossenen Punkt in seinem Abschluss.
 * Sei xi ein Punkt eines topologischen Raums X, sodass {xi} abgeschlossen ist.
   Dann enthält jede nichtleere offene Teilmenge von X xi, und damit ist X
   irreduzibel. Gilt die Umkehrung?
+
+
+=== Stetige Abbildungen in diskrete Räume
+
+Sei f : X --> A stetig, wobei A ein diskreter Raum ist. Sei xi ein generischer
+Punkt in X. Dann ist f konstant mit Wert f(xi). Denn:
+
+Sei x in X beliebig. Dann ist die Teilmenge { f(x) } in A offen. Ihr Urbild
+ist daher ebenfalls offen und nichtleer, da sie x enthält. Folglich enthält sie
+auch xi. Somit gilt f(xi) = f(x).
 
 
 === Oberhalbstetige Abbildungen

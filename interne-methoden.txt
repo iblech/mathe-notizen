@@ -14,6 +14,16 @@
   <==> Sh(X) |= f nicht invertierbar <==> Sh(X) |= f nilpotent <==> f^n = 0 für
   ein n (hier geht Quasikompaktheit ein).
 
+* Sei f ein Element eines Rings A. Dann sind äquivalent:
+
+  1. Spec A |== forall g. fg nilpotent ==> g nilpotent
+  2. Spec A |== nicht (f nilpotent)
+  3. f schwach-regulär in folgendem Sinn: Ist fh nilpotent in A,
+     so auch h.
+
+  Schwächer ist 2'. Spec A |== nicht (f = 0). Das ist gleichbedeutend mit:
+  Ist fh in A Null, so ist h nilpotent.
+
 * Topologischer Raum X zusammenhängend <==>
     Die interne Sprache von Sh(X) erfüllt folgende Eigenschaft:
     Seien phi, psi zwei disjunkte Aussagen (d.h. phi und psi ==> _|_).
@@ -127,6 +137,8 @@
   daher genau dann, wenn sie halmweise gilt. Am generischen Halm ist sie aber
   nur für p = 0 \in Q erfüllt. Also gilt auch p = 0 \in Z (bzw. Z[(...)^{-1}],
   wenn nicht mit einem globalen Element gestartet).
+
+* D(f) \subseteq Omega ist vermutlich lokal kompakt. Hilft das was?
 
 
 === Endlichkeit
