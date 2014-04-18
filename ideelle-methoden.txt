@@ -39,6 +39,8 @@ Körpererweiterung pi^* K --> L enthält, in der f mindestens eine Nullstelle
 besitzt. (Führe dazu obige Konstruktion intern in E aus und nutze das
 Idempotenzlemma.)
 
+* Siehe auch: http://arxiv.org/abs/1404.4549 von Mannaa und Coquand.
+
 
 === Zerfällungsalgebra
 

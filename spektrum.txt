@@ -187,8 +187,8 @@ die universelle Eigenschaft von RelSpec A erfüllen.
 
 Es stimmt im Allgemeinen aber nicht, dass IntSpec O_X ~~ (pt, O_X).
 
-* Spec ist also ein guter Funktor Ring --> LRL/(Spec Z).
-  Hier ist aber ein guter Funktor Alg(R) --> LRL/(pt, R) gesucht, wobei
+* Spec ist also ein guter Funktor Ring^op --> LRL/(Spec Z).
+  Hier ist aber ein guter Funktor Alg(R)^op --> LRL/(pt, R) gesucht, wobei
   R ein lokaler Ring ist (der im Anwendungsfall O_X noch die Voraussetzung
   "nicht invertierbar ==> nilpotent" erfüllt).
 
