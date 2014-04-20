@@ -1167,6 +1167,20 @@ PS: If you are into such things, here is the logical background:
   Denn in Set mit klassischer Logik erfüllt ja jeder Ring diese.
 
 
+=== Diskrete Bewertungsringe
+
+* Die Eigenschaften
+
+  - schwacher Integritätsbereich
+  - lokal
+  - endlich erzeugte Ideale sind Hauptideale
+  - von je zwei Elementen teilt eines das andere
+
+  sind geometrische Implikationen und gelten dann für O_X genau dann, wenn sie
+  halmweise gelten. Etwa gilt das in X = Spec Z und allgemeiner für alle
+  Dedekindschemata!
+
+
 === Gliederung hypothetischer Notes zum Thema
 
 * Introduction

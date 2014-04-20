@@ -18,3 +18,36 @@ Daher ist ein quasikohärenter Modul F auf X gegeben durch
 sodass
 
 * F(xi) ~~ F(X) \otimes_A K.
+
+
+=== Teilereigenschaften in DVRs
+
+Sei A ein lokaler Integritätsbereich (schwacher Sinn genügt) und so, dass
+endlich erzeugte Ideale Hauptideale sind. Dann gilt für je zwei Elemente x, y:
+
+    x | y oder y | x.
+
+Dazu betrachte eine Bézoutdarstellung ihres größten gemeinsamen Teilers:
+
+    d = ax + by, x = dx', y = dy'.
+
+Dann folgt
+
+    d = (ax' + by') d.
+
+Dann folgt d = 0 oder ax' + by' = 1.
+
+Falls d = 0, folgt x = y = 0. Also x|y und y|x.
+
+Falls ax' + by' = 1, folgt wegen Lokalität (ohne Einschränkung), dass x'
+invertierbar ist. Also ist y = x (x')^(-1) y' ein Vielfaches von x.
+
+
+Bemerkung: Partiell folgt eine Umkehrung. Sei A ein Ring mit der
+Teilereigenschaft. Dann ist A lokal:
+
+    Gelte x + y = 1. Ohne Einschränkung x = ay.
+    Dann (1 + a) y = 1.
+    Also ist y invertierbar.
+
+Außerdem ist jedes endlich erzeugte Ideal ein Hauptideal.
