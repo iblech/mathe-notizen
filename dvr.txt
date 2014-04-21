@@ -50,4 +50,30 @@ Teilereigenschaft. Dann ist A lokal:
     Dann (1 + a) y = 1.
     Also ist y invertierbar.
 
-Außerdem ist jedes endlich erzeugte Ideal ein Hauptideal.
+Außerdem ist jedes endlich erzeugte Ideal ein Hauptideal. Aber natürlich folgt
+nicht die Integritätsbedingung.
+
+
+Sei A ein Ring, der die Teilerbedingung erfüllt. Dann ist A ganz abgeschlossen
+in seinem totalen Quotientenring K (der Lokalisierung nach den regulären
+Elementen). Das zeigt man so:
+
+* Für jedes Element x aus K gilt:
+
+      x in A  oder  (x invertierbar in K und x^(-1) in A).
+
+  Denn: Schreibe x = a/b. Habe b|a oder a|b. Im ersten Fall liegt x in A.
+  Im zweiten Fall ist a regulär (als Teiler eines regulären Elements), also ist
+  x invertierbar, und x^(-1) = b/a liegt in A.
+
+  Übrigens: Die Teilerbedingung ist äquivalent zu dieser Aussage.
+
+* Ein Ring, der bezüglich seines Quotientenkörpers diese Bedingung erfüllt,
+  ist ganz abgeschlossen in seinem Quotientenkörper.
+
+  Sei dazu x aus K mit x^n + a_(n-1) x^(n-1) + ... + a_1 x + a_0 = 0.
+  Dann x in A oder (x invertierbar und x^(-1) in A).
+  Im ersten Fall sind wir fertig.
+  Im zweiten folgt:
+
+      x = -(a_(n-1) + ... + a_1 x^(-n+2) + a_0 x^(-n+1)) in A.
