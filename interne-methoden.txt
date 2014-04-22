@@ -326,6 +326,9 @@ Sei j eine Lawvere-Tierney-Topologie.
   Omega_j ist eine j-Garbe und der Unterobjektklassifizierer in Sh_j.
   Aber Omega_j ist nicht die Vergarbung von Omega.
   (Denke an Halme von Omega eines Garbentopos!)
+  [ Es stimmt doch, wenn j folgende spezielle Eigenschaft hat:
+  j(phi ==> psi) <==> (phi ==> j(psi)). Das ist etwa für negneg der Fall. Siehe
+  Borceaux, Seite 512, Exercise 9.5.7. ]
 
   Potenzobjekte berechnet man in Sh_j wie in Sh.
 
