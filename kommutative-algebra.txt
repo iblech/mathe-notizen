@@ -139,9 +139,13 @@ Sei M eine quadratische Matrix über einem Ring.
   (2) ==> (1): Brauche wegen Ganzheitsgleichungen nicht beliebige Potenzen der
   Erzeuger.
 
+* Sei B als Modul endlich über A. Sei A in B ganz abgeschlossen. Dann ist B = A:
+  Sei z in B. Dann ist z Nullstelle des charakteristischen Polynoms einer
+  Matriz zur linearen Abbildung x |--> zx. Also liegt z in A.
+
 * Sei phi : A --> B ein injektiver Ringhomo. Sei x aus A.
   Sei phi(x) invertierbar und sei phi(x)^(-1) ganz über A.
-  Dann ist ist x auch invertierbar in A.
+  Dann ist x auch invertierbar in A.
 
 * Mit Noether-Normalisierung folgt: Sei A endlich erzeugte Algebra über einem
   Körper k und m ein maximales Ideal in A. Dann ist A/m eine endliche (!)
