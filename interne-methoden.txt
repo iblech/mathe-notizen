@@ -48,6 +48,14 @@
   vorgibt), keine geometrische Formel.
 
 
+=== Dimension
+
+* dim X <= n gdw. Sh(X) |== krulldim O_X <= n.
+
+* dim X <= 1 gdw. Sh(X) |== forall a,b : O_X.
+      a inv.  v  (a. inv ==> (b inv. v neg (b inv))).
+
+
 === Unterschema
 
 * Definiere für Punkte x0 \in X (X ein LRS) einen neuen Operator in der internen

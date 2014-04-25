@@ -140,14 +140,16 @@ Denn jeder Punkt enthält einen abgeschlossenen Punkt in seinem Abschluss.
   irreduzibel. Gilt die Umkehrung?
 
 
-=== Stetige Abbildungen in diskrete Räume
+=== Diskrete Räume
 
-Sei f : X --> A stetig, wobei A ein diskreter Raum ist. Sei xi ein generischer
-Punkt in X. Dann ist f konstant mit Wert f(xi). Denn:
+* Sei f : X --> A stetig, wobei A ein diskreter Raum ist. Sei xi ein generischer
+  Punkt in X. Dann ist f konstant mit Wert f(xi). Denn:
 
-Sei x in X beliebig. Dann ist die Teilmenge { f(x) } in A offen. Ihr Urbild
-ist daher ebenfalls offen und nichtleer, da sie x enthält. Folglich enthält sie
-auch xi. Somit gilt f(xi) = f(x).
+  Sei x in X beliebig. Dann ist die Teilmenge { f(x) } in A offen. Ihr Urbild
+  ist daher ebenfalls offen und nichtleer, da sie x enthält. Folglich enthält sie
+  auch xi. Somit gilt f(xi) = f(x).
+
+* Sei X überdeckt durch offene Teilmengen U_i. Sind alle U_i diskret, so auch X.
 
 
 === Oberhalbstetige Abbildungen

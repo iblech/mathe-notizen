@@ -58,6 +58,10 @@ vorgedrückten Strukturgarbe von V(s,t) und kann frei aufgelöst werden durch:
     0 --> O_X --------> O_X^2 -------> O_X --> O_X/(s,t) --> 0
                [-t;s]          [s t]
 
+Auch kann das Ideal (s,t) frei aufgelöst werden:
+
+    0 --> O_X --> O_X^2 --> (s,t) --> 0.
+
 
 === Algebra
 

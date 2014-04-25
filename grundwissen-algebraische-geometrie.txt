@@ -358,13 +358,19 @@ definieren, wobei S(U) = { f | f_x ist kein Nullteiler in allen O_x, x \in U }.
 
 === Topologische Räume von Dimension 0
 
-Für topologische Räume von Dimension 0 gilt: Die irreduziblen Komponenten sind
-durch
+* Für topologische Räume von Dimension 0 gilt: Die irreduziblen Komponenten sind
+  durch
 
-    cl {x}
+      cl {x}
 
-für x \in X gegeben. Zwei solche Mengen überlappen nur trivial oder sind
-gleich.
+  für x \in X gegeben. Zwei solche Mengen überlappen nur trivial oder sind
+  gleich.
+
+* Angeblich: Ist X ein Schema mit dim X = 0, das nur endlich viele Punkte
+  enthält, so ist X affin und diskret. Die Diskretheit ist klar: Lokal ist X
+  sicher affin (das Spektrum eines Dimension-0-Rings) und wegen der
+  Dimensionsbedingung diskret (jedes D(f) hat ein offenes Komplement). Ein
+  Raum, der lokal diskret ist, ist es auch global.
 
 
 === Motivation für Schemata
