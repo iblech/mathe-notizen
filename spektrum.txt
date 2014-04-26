@@ -50,6 +50,29 @@ geringten distributiven Verband.
   Verklebeaxiom, für unendliche aber vermutlich nicht.
 
 
+=== Verklebeaxiom in einem Beispiel
+
+Sei A ein Ring. Sei 1 = sum_i z_i x_i eine Zerlegung der Eins. Seien Brüche
+
+    s_i = a_i/b_i in A[S_i^(-1)]
+
+gegeben, wobei S_i = { c | x_i in sqrt(c) }. Also gibt es (oBdA eine)
+natürliche Zahl n und Ringelemente u_i mit
+
+    x_i^n = u_i b_i.
+
+Gelte s_i = s_j in den zweifach lokalisierten Ringen. Das bedeutet (oBdA), dass
+es eine natürliche Zahl m und Ringelemente c_ij, v_ij mit
+
+    c_ij b_i a_j = c_ij b_j a_i,
+    (x_i x_j)^m = v_ij c_ij
+
+gibt. Setze dann s := sum_i #_i x_i^m a_i u_i, wobei die #_i so gewählt sind,
+dass 1 = sum_i #_i x_i^(m+n) gilt. Dann gilt s/1 = a_j/b_j in A[S_j^(-1)], denn
+
+    x_j^m b_j s = ... = x_j^m a_j.
+
+
 === Duale Algebra der Radikalideale ist kein Rahmen
 
 Beispiel in Z: Das Radikalideal

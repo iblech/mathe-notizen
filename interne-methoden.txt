@@ -82,6 +82,20 @@
   f in O_{X,x0} nicht invertierbar, liegt somit im maximalen Ideal und ist im
   Körper k(x0) Null.
 
+  Das ist auch völlig klar:
+
+       f = 0 \in k(x0)
+
+  <==> f ist in O_{X,x0} nicht invertierbar
+
+  <==> X |== (f ist nicht invertierbar)^Box
+
+  <==> X |== (exists g. fg = 1)^Box ==> Box(bot)
+
+  <==> X |== Box(exists g. fg = 1) ==> Box(bot)
+
+  <==> X |== (exists g. fg = 1) ==> Box(bot)
+
 * Daraus folgere ich: Das Ideal vorne in der kurzen exakten Sequenz zum
   Unterschema Spec k(x0) (falls x0 abgeschlossen),
 
@@ -169,6 +183,17 @@
 * Sollte genauso für jede endlich erzeugte R-Algebra statt speziell R[X_1,...,X_n]
   funktionieren. Die x_i beziehen sich dann auf die gegebenen Erzeuger.
   (Nutze: f^(-1) A ist e.e. f^(-1)k-Algebra, falls A e.e. k-Algebra.)
+
+* Vielleicht gilt für ein S-Schema X folgendes:
+
+  X --> S ist genau dann lokal von endlichem Typ, wenn:
+
+      Sh(S) |== exists w_1,...,w_n : Ouv(IX).
+          T = w_1 v ... v w_n,
+          alle w_i quasikompakt,
+          O_S --> Gamma(w_i, O_X) von endlichem Typ.
+
+  Die Interpretation der internen Aussage ist aber etwas mühevoll.
 
 
 === Aussagen an Halmen

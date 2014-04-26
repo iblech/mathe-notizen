@@ -313,6 +313,8 @@ Details:
 * Lokale Konstanz mit endlichen Werten kann man leicht intern charakterisieren:
   Das stimmt genau dann, wenn X |== bigvee_n F ~~ [n], also wenn X |== F endlich.
 
+* Gilt HOM(gamma*(A), gamma*(B)) ~~ gamma*(B^A), zumindest lokal?
+
 
 === Torsion
 

@@ -166,6 +166,34 @@ Sei M eine quadratische Matrix über einem Ring.
   Erweiterungen K von Q wieder gleich K.
 
 
+=== Torsion
+
+* M_tors = { x : M | exists a. a regulär und ax = 0 }.
+
+* M torsionsfrei :<==> M_tors = 0.
+
+* M Torsionsmodul :<==> M = M_tors.
+
+* M Torsionsmodul <==> M tensor_A A[reg^(-1)] = 0 <==> M[reg^(-1)] = 0.
+
+* M^ ist stets torsionsfrei.
+
+* M reflexiv ==> M torsionsfrei.
+
+* A/(d) Torsionsmodul <==> 1 \in A/(d) Torsionselement <==> d regulär.
+
+* A/(d) torsionsfrei <== d = 0 oder d inv.
+  Falls A starker Integritätsbereich ist, gilt auch "==>".
+
+* Eine direkte Summe ist genau dann torsionsfrei, wenn alle Summanden
+  torsionsfrei sind. Genauso mit Torsionsmoduln.
+
+* Angeblich: M endlich präsentiert ==> M^ reflexiv.
+
+* Angeblich: Kerne von linearen Abbildungen zwischen endlich freien Moduln sind
+  reflexiv.
+
+
 === Skalareinschränkung und -erweiterung
 
 Sei phi : A --> B ein *surjektiver* Ringhomo.
