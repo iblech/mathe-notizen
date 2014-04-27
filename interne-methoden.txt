@@ -56,6 +56,14 @@
       a inv.  v  (a. inv ==> (b inv. v neg (b inv))).
 
 
+=== Noether
+
+* X ist noethersch gdw.:
+
+      Sh(X) |== phi_i ==> phi_(i+1) für alle i
+  ==> ex. n: Sh(X) |== phi_n <==> phi_(n+1) <==> ...
+
+
 === Unterschema
 
 * Definiere für Punkte x0 \in X (X ein LRS) einen neuen Operator in der internen
