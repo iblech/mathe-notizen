@@ -205,5 +205,11 @@ gesamten Raum ist.
   (Beweis durch Induktion über den Formelaufbau; trivial für top, bot, wedge;
   nach Voraussetzung für vee, exists; falsch für impl und forall. Alternativ:
   Nimm an, dass X einen Brennpunkt x besitzt. (Das gilt bei nüchternen Räumen
-  oder so.) Dann gilt Set |== x^*(phi) genau dann, wenn es phi auf einer
+  oder so.) Dann gilt Set |== x^*(phi) genau dann, wenn phi auf einer
   offenen Umgebung von x stimmt. Aber X selbst ist die einzige solche Umgebung.)
+
+* Ist X lokal, so ist X auch zusammenhängend:
+
+  Gelte X = bigcup_i U_i, U_i offen, paarweise disjunkt, alle U_i nichtleer.
+  Dann gilt schon X = U_j für ein j. Also Widerspruch, falls es noch weitere
+  U_i gibt!
