@@ -377,6 +377,16 @@ Sei j eine Lawvere-Tierney-Topologie.
   X j-Garbe |--> (U |-> Hom(U,X)) und
   F Garbe auf Omega_j |-> F(T).
 
+* { x : F | phi^Box(x) }^+ ~~ { xquer : F^+ | phi^Boxplus(xquer) },
+  als Teilmengen von F^+.
+
+* { x : F | phi(x) }^+ ~~ { x : F | Box(phi(x)) }^+.
+
+* Daraus wird ersichtlich: Wenn Box(phi(x)) <==> phi^Box(x),
+  dann { x : F | phi(x) }^+ ~~ { xquer : F^+ | phi^Boxplus(xquer) }.
+
+  Das drückt aus: {x:F|phi(x)}_a ~~ {[x]:F_a|phi(x)} für Punkte a.
+
 * In einem Garbentopos Sh(X) gilt:
 
   * Ein Unterobjekt A --> B ist genau dann negneg-dicht,

@@ -45,7 +45,13 @@ globalen Schnitt von E liften, wenn sein Bild unter dieser Abbildung null ist.
 Sei X = S^1, F die Garbe der R-wertigen Funktionen und G die Garbe der
 S^1-wertigen Funktionen. Dann ist der kanonische Morphismus F --> G ein
 Epimorphismus, aber nicht surjektiv auf globalen Schnitten. Der Kokern auf
-globalen Schnitten ist Z.
+globalen Schnitten ist Z. Der verbindende Morphismus ist die Berechnung des
+Abbildungsgrads!
+
+Die Garbe der S^1-wertigen Funktionen kann man übrigens auch einfach als C/Z
+beschreiben, also die Garbe der stetigen Funktionen modulo die konstante Garbe Z.
+
+Das ganze funktioniert nicht nur für X = S^1, sondern auch für X = R^2 \ {0}.
 
 
 === Lange exakte Sequenz für Unterschemata
@@ -66,6 +72,11 @@ Wenn X aber nicht affin in, wäre das eine unsinnige Behauptung. Sei
 beispielsweise Z = V(X_0^2) in P^1. Dann ist der Ring der globalen Schnitte
 durch k[eps]/eps^2 gegeben, und nicht nur ein Quotient des Rings globaler
 Schnitte auf X (welcher nur k ist).
+
+
+=== Ableitung von vergiss : Sh --> PSh
+
+R^n vergiss F = (U |--> H^n(U; F)).
 
 
 === Verträglichkeit mit Kolimiten
