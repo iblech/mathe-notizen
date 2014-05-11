@@ -232,6 +232,9 @@ für geometrische Formeln phi über X:
 
 * Sei X ein T1-Raum, d.h. für je zwei verschiedene Punkte existiert eine
   offene Menge U, die den einen, aber nicht den anderen Punkt enthält.
+  (Das ist äquivalent dazu, dass alle Punkte abgeschlossen sind. Schemata sind
+  also im Allgemeinen nicht T1! Ein Spektrum eines Rings ist genau dann T1,
+  wenn der Ring <=null-dimensional ist.)
 
   Dann gilt: Sh(X) ist boolsch <==> X ist diskret.
 

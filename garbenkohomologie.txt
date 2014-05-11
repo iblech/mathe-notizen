@@ -15,9 +15,6 @@ wobei O die Garbe der holomorphen Funktionen bezeichnet.
 
 Literatur: http://stacks.math.columbia.edu/download/cohomology.pdf
 
-Affine Schemata sind kohomologisch trivial.
-Für welche Modulgarben?
-
 Klassisches Resultat: H^q(X, O_X(d)) für X = P_R^n,
 siehe http://stacks.math.columbia.edu/download/coherent.pdf#01XS.
 
@@ -25,6 +22,20 @@ Beispiel: Kohomologie eines irreduziblen Schemas mit Werten in der konstanten
 Garbe Z oder C ist oftmals trivial; Abhilfe: analytische Topologie verwenden
 (oder natürlich bessere Kohomologietheorien). Siehe
 http://www.math.mcgill.ca/goren/SeminarOnCohomology/Sheaf_Cohomology.pdf.
+
+
+=== Kohomologie affiner Schemata
+
+Sei X = Spec A ein noethersches affines Schema und F = M~ ein *quasikohärenter* O_X-Modul.
+
+Sei 0 -> M -> I^* eine injektive Auflösung in der Kategorie der A-Moduln.
+
+Dann zeigt man, dass die Tilde-Konstruktion eines injektiven Moduls eine
+flasque Garbe liefert (Artin-Rees-Lemma) und daher für Auflösungen verwendet
+werden kann.
+
+Es ist also 0 --> F --> (I^*)^~ eine akzeptable Auflösung. Auf globalen
+Schnitten ergibt das wieder die ursprüngliche Auflösung von M.
 
 
 === Motivation: Lift von Schnitten

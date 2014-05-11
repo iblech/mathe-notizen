@@ -185,6 +185,27 @@ Sei A ein lokaler Ring.
   Primideal (2) ist 2 weder nilpotent noch invertierbar.]
 
 
+=== Wann ist das (volle Radikalideal-)Spektrum boolsch?
+
+* Ist a ein Radikalideal, so gilt
+
+      neg a = { x | xu nilpotent für alle u in a }.
+
+* Ein Radikalideal a ist genau dann dicht, wenn
+
+      a cap b = sqrt(0) ==> b = sqrt(0)
+
+  für alle Radikalideale b. Man kann auch nur Ideale der Form sqrt(h) nehmen.
+
+* Spec(A) ist boolsch genau dann, wenn das Einsideal das einzige
+  dichte Ideal ist. In diesem Fall gilt dim A <= 0. Die Umkehrung gilt
+  vielleicht auch...
+
+* Ein reduzierter Ring ist genau dann von Dimension <= 0, wenn er ein
+  von-Neumann-regulärer Ring ist. Das bedeutet, dass für alle x gilt:
+  x^2 | x.
+
+
 === Zusammenhang internes Spektrum und relatives Spektrum
 
 Wenn man davon ausgeht, dass die universelle Eigenschaft des relativen
