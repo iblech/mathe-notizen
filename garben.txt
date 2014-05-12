@@ -129,7 +129,10 @@ Das ist zum Beispiel erfüllt bei:
    Insbesondere ist i_* dann exakt.
 
 2) Sei F Garbe auf X, supp F \subset Z \subset X, Z abgeschlossen.
-   Dann ist F --> i_* i^(-1) F ein Iso.
+   Dann (und nur dann) ist F --> i_* i^(-1) F ein Iso.
+
+   Das ist übrigens genau dann der Fall, wenn F(U) = F(V) für U, V
+   mit U cap Z = V cap Z.
 
 3) Zu U \subset X offen gibt es i_!:
    -- i_! -| i^(-1) -| i_*
