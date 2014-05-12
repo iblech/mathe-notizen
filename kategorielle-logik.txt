@@ -251,6 +251,14 @@ für geometrische Formeln phi über X:
   Somit ist U = X. Das ist ein Widerspruch.
 
 
+=== Reelle Zahlen
+
+* Dedekindsche reelle Zahlen: Garbe der stetigen reellwertigen Funktionen.
+* Cauchy-Zahlen: Garbe der lokal konstanten reellwertigen Funktionen.
+* ???: Garbe der differenzierbaren/glatten Funktionen.
+* ???: Garbe der holomorphen Funktionen. Aus interner Sicht diskret!
+
+
 === Nächste Schritte
 
 * Für den Rückzug mit f^* statt f^(-1) auf Spec k(x)

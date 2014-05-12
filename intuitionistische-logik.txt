@@ -108,6 +108,12 @@ Die Behauptung folgt, da wegen Extensionalität gilt:
 
     phi <==> A = B <==> s(A) = s(B).
 
+Bemerkung: the axiom of choice is a local-global statement (although I had
+never thought of it this way before this problem), namely that if f:X->Y is a
+surjection you can find a way to glue the preimages f^(-1)[{y}] of a surjection
+together to form a section of the map f.
+http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
+
 
 === Minima von Mengen natürlicher Zahlen
 
