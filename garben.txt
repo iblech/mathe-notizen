@@ -78,6 +78,15 @@ Das ist zum Beispiel erfüllt bei:
 * f : S^1 --> S^1, z |-> z^2
 
 
+Etwas allgemeiner: Es gilt (f_* F)_y ~~ Gamma(f^{-1}[y], F), wenn folgende
+Bedingung erfüllt ist: Zu jeder offenen Teilmenge U von X, welche f^{-1}[y]
+umfasst, gibt es eine offene Teilmenge V von Y, welche y enthält und sodass
+f^{-1}[V] eine Teilmenge von U ist.
+
+Evtl. hilft das tubular neighbourhood theorem, um diese Bedingung zu
+garantieren.
+
+
 === Träger
 
 1) Träger eines Schnitts: supp s := { x | s_x \neq 0 } ist stets abgeschlossen.
