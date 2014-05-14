@@ -98,6 +98,12 @@ Siehe:
 http://math.stackexchange.com/questions/401302/does-taking-the-direct-limit-of-chain-complexes-commute-with-taking-homology
 
 
+=== Eigentlicher Basiswechsel (proper base change)
+
+Siehe: Torsten Wedhorn. Manifolds, sheaves, and cohomology. Seite 86.
+Super erklärt, verständlicher Beweis!
+
+
 === Gruppenwirkung
 
 H^*(X, F) trägt eine Ext^*(O_X,O_X)-Wirkung:

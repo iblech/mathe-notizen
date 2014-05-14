@@ -83,8 +83,8 @@ Bedingung erfüllt ist: Zu jeder offenen Teilmenge U von X, welche f^{-1}[y]
 umfasst, gibt es eine offene Teilmenge V von Y, welche y enthält und sodass
 f^{-1}[V] eine Teilmenge von U ist.
 
-Evtl. hilft das tubular neighbourhood theorem, um diese Bedingung zu
-garantieren.
+Das ist genau dann der Fall, wenn f abgeschlossen ist!
+Siehe: Torsten Wedhorn. Manifolds, sheaves, and cohomology. Seite 86.
 
 
 === Träger
