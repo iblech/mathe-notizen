@@ -3,3 +3,6 @@
 * Verstehen: Ein Vektorbündel mit einem flachen Zusammenhang ist
   dasselbe wie ein lokales System von Vektorräumen, jeweils bis auf Isomorphie.
   Siehe Claire Voisin, Prop. 9.11, Seite 229.
+
+* Galois Groups and Fundamental Groups (Cambridge Studies in Advanced
+  Mathematics 117)
