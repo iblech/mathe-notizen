@@ -65,6 +65,22 @@ beschreiben, also die Garbe der stetigen Funktionen modulo die konstante Garbe Z
 Das ganze funktioniert nicht nur für X = S^1, sondern auch für X = R^2 \ {0}.
 
 
+=== Chern-Klassen
+
+Sei 0 --> Z --> O_X --> O_X^* --> 0 die exponentielle Garbensequenz.
+
+Dann wird H^0(X,O_X^*) --> H^1(X,Z) induziert, eine Art verallgemeinerter
+Windungszahl. Sie misst, inwieweit X nicht zusammenziehbar ist.
+
+Ferner wird Pic(X) = H^1(X,O_X^*) --> H^2(X,Z) induziert. Diese Abbildung
+ordnet einem Geradenbündel seine erste Chern-Klasse zu.
+
+Ferner gibt es d log : O_X^* --> Omega^1, f |--> df/f. Diese induziert eine
+Abbildung Pic(X) = H^1(X,O_X^*) --> H^1(X,Omega^1). Letzteres ist nach
+Hodge-Theorie eine Teilmenge von H^2(X,C); so liefert auch diese Abbildung die
+erste Chern-Klasse.
+
+
 === Lange exakte Sequenz für Unterschemata
 
 Sei i : Z --> X eine abgeschlossene Immersion. Dann hat man bekanntermaßen die
@@ -79,7 +95,7 @@ Daraus folgt
 Wenn X affin ist, verschwindet der H^1-Term und man hat O_Z(Z) = O_X(X) / I(X),
 wie zu erwarten.
 
-Wenn X aber nicht affin in, wäre das eine unsinnige Behauptung. Sei
+Wenn X aber nicht affin ist, wäre das eine unsinnige Behauptung. Sei
 beispielsweise Z = V(X_0^2) in P^1. Dann ist der Ring der globalen Schnitte
 durch k[eps]/eps^2 gegeben, und nicht nur ein Quotient des Rings globaler
 Schnitte auf X (welcher nur k ist).
