@@ -12,6 +12,10 @@
 
 * Ext^n als Äquivalenzklassen geeigneter exakter Sequenzen
 
+* http://arxiv.org/pdf/1003.1943v3.pdf:
+  (L_q F)(A) := [Ext^q(A, __), F]  (Menge nat. Trafos),
+  und Ext über Yoneda.
+
 
 === Konkret im Computer I
 
@@ -62,6 +66,13 @@ Erfüllt dg-D^b(X), X glatt, projektiv, diese Bedingung?
 
 Erfüllt Coh(X) als k-angereicherte Kategorie diese Bedingung?
 * Nicht ganz klar. Überlegen!
+
+
+=== Mohamed Barakat
+
+* http://arxiv.org/pdf/1003.1943v3.pdf R-fpmod
+* http://arxiv.org/pdf/math/0701146v2.pdf homalg
+* http://arxiv.org/pdf/1202.3337.pdf Gabriel monad
 
 
 === Nächte Schritte

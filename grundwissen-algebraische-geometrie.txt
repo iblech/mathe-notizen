@@ -258,6 +258,9 @@ die Idealgarbe sein.
 * Abgeschlossene Immersionen sind fast nie flach (siehe Liu, Kapitel 4.3.1,
   Beispiel 3.6), wenn sie nicht auch offen sind.
 
+* HOM_{O_X}(O_Z, F) ~~ Ann_{J_Z}(F) = { s:F | J_Z s = 0 },
+      wenn Z ein abgeschlossenes Unterschema von X mit Idealgarbe J_Z ist.
+
 
 === Fasern
 

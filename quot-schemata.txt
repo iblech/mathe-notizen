@@ -1,4 +1,56 @@
+=== Tangentialraum
+
+* Tangentialraum an Quot_{E/X/k} bei [q] ist Hom_{O_X}(ker(q), Q).
+
+* Speziell E = O_X, um das Hilbertschema zu erhalten:
+  Tangentialraum an Hilb_{X/k} bei [Z] ist Hom_{O_X}(J_Z,O_X).
+
+* Speziell im Fall Hilb = X^[n] kann man das noch weiter vereinfachen:
+
+  Die kurze exakte Sequenz 0 --> J_Z --> O_X --> O_Z --> 0 induziert
+
+      0 -->   Hom(O_Z,O_Z) -->   Hom(O_X,O_Z) --> Hom(J_Z,O_Z)
+        --> Ext^1(O_Z,O_Z) --> Ext^1(O_X,O_Z) --> ...
+
+  Der erste Vektorraum ist zum zweiten isomorph, denn Hom(O_Z,O_Z) ~~
+  Ann_{J_Z}(O_Z) = Gamma(X,O_Z) = Gamma(Z,O_Z). Beide sind n-dimensional. Also
+  ist die erste Abbildung ein Iso. Es ist sogar einfach die gegebene Abbildung
+  der Iso, so kompliziert muss man also gar nicht argumentieren.
+
+  Ferner: Ext^1(O_X,O_Z) = H^1(X, O_Z) = H^1(X, O_Z(n)) für beliebiges n,
+  ist also null wegen Serre-Verschwindung. (O_Z hat ja Träger in endlich vielen
+  abgeschlossenen Punkten. Das sollte genügen, damit O_Z ~~ O_Z(n).)
+
+  Also ist Hom(J_Z,O_Z) --> Ext^1(O_Z,O_Z) ein Iso.
+
+* Im Fall, dass X eine Kurve ist, kann man die Dimension des Tangentialraums
+  wie folgt bestimmen:
+
+      Ext^1(O_Z,O_Z) = H^0(X, O_Z tensor K_X)^ = H^0(X, O_Z),
+
+  also n-dimensional.
+
+
+=== Explizites Modell im Fall (A^n)^[2]
+
+http://math.stanford.edu/~dlitt/exposnotes/hilbertpoints.pdf
+Seite 5
+
+
+=== Konstruktion
+
+Nitin Nitsure. Construction of Hilbert and Quot schemes.
+http://arxiv.org/pdf/math/0504590.pdf
+
+
 === Literatur
 
 * Brian Osserman. A pithy look at the Quot, Hilbert, and Hom schemes.
   https://www.math.ucdavis.edu/~osserman/classes/256B/notes/sem-quot.pdf
+
+* Daniel Litt. The Hilbert scheme of points on a surface.
+  http://math.stanford.edu/~dlitt/exposnotes/hilbertpoints.pdf
+
+* http://www.math.kth.se/~skjelnes/Pdffiler/forel_impa.pdf
+
+* http://homepages.warwick.ac.uk/staff/D.Maclagan/papers/HilbertSchemesNotes.pdf

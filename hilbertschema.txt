@@ -31,11 +31,24 @@ Dann ist das Hilbertpolynom von Z definiert durch
   (Serres Verschwindungstheorem.)
 
 
+=== Tangentialraum
+
+Siehe quot-schemata.txt.
+
+
 === Mor-Schema
 
 Zumindest, falls O_X(X) ein endlich-dimensionaler k-Vektorraum ist, gilt wohl:
 
     Mor(X, A^1) = Spec Sym^* O_X(X)^vee.
+
+
+=== Hilbertschema einer Kurve C
+
+http://scgp.stonybrook.edu/archives/7535, erster Vortrag.
+
+* Minute 10: Länge-d-Unterschemata von C <--> effektive Cartier-Divisoren
+  von C von Grad d
 
 
 === Derivierte Kategorie
