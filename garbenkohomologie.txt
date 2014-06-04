@@ -81,6 +81,26 @@ Hodge-Theorie eine Teilmenge von H^2(X,C); so liefert auch diese Abbildung die
 erste Chern-Klasse.
 
 
+=== Charakterisierung von Geradenbündeln im reellen Fall
+
+Habe 0 --> O_X^+ --> O_X^* --> Z/(2) --> 0, wobei O_X = Garbe der
+stetigen/glatten Funktionen, O_X^+ = Untergarbe der überall positiven
+Funktionen und Z/(2) konstante Garbe. Die Abbildung schickt f
+auf sign(f).
+
+O_X^+ ist isomorph zu O_X (durch den Logarithmus) und hat daher keine
+höhere Kohomologie (O_X ist fein).
+
+Folglich haben wir in Kohomologie:
+
+    0 --> H^1(X, O_X^*) --> H^1(X, Z/(2)) --> 0.
+
+Speziell im Fall X = S^1 erhält man also, das es bis auf Isomorphie genau zwei
+Vektorbündel gibt, denn H^1(S^1, Z/(2)) ~~ Z/(2).
+
+Quelle: http://math.stackexchange.com/a/531547
+
+
 === Lange exakte Sequenz für Unterschemata
 
 Sei i : Z --> X eine abgeschlossene Immersion. Dann hat man bekanntermaßen die

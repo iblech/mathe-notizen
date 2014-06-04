@@ -87,6 +87,28 @@ Das ist genau dann der Fall, wenn f abgeschlossen ist!
 Siehe: Torsten Wedhorn. Manifolds, sheaves, and cohomology. Seite 86.
 
 
+=== Zurück und vor
+
+Sei f : X --> Y Morphismus geringter Räume. Sei F ein O_X-Modul und E ein lokal
+freier O_Y-Modul endlichen Rangs. Dann gilt die Projektionsformel:
+
+    f_*(F tensor f^*E) ~~ f_*F tensor E.
+
+Für F = O_X erhält man:
+
+    f_* f^* E ~~ f_*O_X tensor E.
+
+Ist f speziell eine offene Immersion von Schemata sodass Y normal und X
+mindestens Kodimension 2 hat, so gilt f_*O_X ~~ O_Y, also in diesem Fall
+
+    f_* f^* E ~~ E.
+
+Quelle: http://mathoverflow.net/questions/114032/restriction-of-sheaf
+
+Das ist natürlich ein Hartogs-Phänomen. Für mehr Hintergrund siehe:
+http://mathoverflow.net/questions/45347/why-does-the-s2-property-of-a-ring-correspond-to-the-hartogs-phenomenon/45354#45354
+
+
 === Träger
 
 1) Träger eines Schnitts: supp s := { x | s_x \neq 0 } ist stets abgeschlossen.
