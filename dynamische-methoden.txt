@@ -138,6 +138,26 @@ Die muss noch garbifiziert werden. Aber moralisch sollte man folgendes haben:
   Das ist äquivalent mit b \in sqrt(a).
 
 
+=== Vergleich mit dem gewöhnlichen Spektrum
+
+* O^* ist in Sh(Spec A) der generische Filter:
+
+  1. O^* erfüllt die Filteraxiome.
+  2. Spec A |== (a in O^* ==> b in O^*) ist gleichbedeutend mit
+     forall p. a nicht in p ==> b nicht in p,
+     also mit D(a) subseteq D(b),
+     also mit a in sqrt(b).
+
+  Leider scheint man mit dem universellen Filter nicht so leicht arbeiten zu
+  können wie mit dem universellen Primideal!
+
+* Das generische Primideal erfüllt *nicht* die Bedingung, dass
+  aus Spec A |== a in p ==> b in p folgt, dass b in sqrt(a) liegt.
+
+* Es wäre sehr schön, das universelle Primideal in einem Topos zu realisieren,
+  da man dann die gesamte höhere Logik zur Verfügung hat!
+
+
 === Zerfällungskörper
 
 Coquand sagt, bzw. ich interpretiere ihn: Sei k ein Körper und A :=
