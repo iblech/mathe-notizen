@@ -1,3 +1,13 @@
+=== C[G] enthält alle irreduziblen Darstellungen
+
+http://unapologetic.wordpress.com/2010/11/17/decomposing-the-left-regular-representation/
+
+
+=== Familie CRep(t) von Kategorien
+
+http://sbseminar.wordpress.com/2009/02/25/delignes-%E2%80%9Cla-categorie-des-representations-du-groupe-symetrique-s_t-lorsque-t-n%E2%80%99est-pas-un-entier-naturel%E2%80%9D/
+
+
 === Nächste Schritte
 
 * Siehe Siehe http://arxiv.org/pdf/math/0512103v1.pdf, Seite 32:

@@ -38,6 +38,14 @@ ein Iso von k-Vektorräumen ist. Das geht so:
   ähnliches Argument, wobei man die vorherige Stufe schon ausnutzt.
 
 
+=== Bridgeland-King-Reid
+
+* A. D. Elagin. Equivariant derived category of bundles of projective spaces.
+  Variante der semiorthogonalen Zerlegung von D^b(X) für X = P_S(E)
+  im G-äquivarianten Fall.
+  http://link.springer.com/article/10.1134%2FS0081543809010076
+
+
 === Nächste Schritte
 
 * Obiger Funktor ist angeblich eine Äquivalenz, falls A und B halbeinfach sind.

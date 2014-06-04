@@ -262,6 +262,39 @@ die Idealgarbe sein.
       wenn Z ein abgeschlossenes Unterschema von X mit Idealgarbe J_Z ist.
 
 
+=== Normalenbündel und Co.
+
+Sei f : Y --> X eine abgeschlossene Immersion. Sei I die zugehörige Idealgarbe.
+Dann hat I/I^2 Träger auf Y, kann also als Modul auf Y angesehen werden.
+Der so definierte O_Y-Modul ist N_{Y/X}^vee, die Konormalgarbe.
+
+Die Normalgarbe ist der ihr O_Y-Duales.
+
+Man hat eine exakte Sequenz
+
+    N_{Y/X}^vee --> f^*(Omega_X) --> Omega_Y --> 0.
+
+Unter Glattheitsbedingungen steht auch vorne noch eine Null.
+
+Die Konormalgarbe kann man auch direkt auf Y als J/J^2 definieren, wobei J =
+ker(f^{-1} O_X --> O_Y). (Nimm dazu die Unterschemasequenz auf X und ziehe sie
+zurück. Dabei bleibt sie exakt. Daher sieht man, dass J = f^{-1}(I).)
+
+Unbedingt verstehen:
+http://mathoverflow.net/questions/111464/self-intersection-and-the-normal-bundle
+
+Grob steht da: Ein Schnitt des Normalenbündels definiert eine Deformation
+erster Ordnung. (Zu jedem Punkt kennt man seine Verschiebung.) Das ist ferner
+dasselbe wie ein Tangentenvektor im Hilbertschema der abgeschlossenen
+Unterschemata (welches Hilbertschema ist das genau?). Der Grad des
+Normalenbündels gibt an, wie viele Nullstellen ein solcher Schnitt hat. Das
+entspricht daher der Anzahl der Schnittpunkte des Originalobjekts mit dem
+deformierten Objekt.
+
+"Was in der glatten Kategorie lokal gilt, gilt in der algebraischen Kategorie
+infinitesimal."
+
+
 === Fasern
 
 * Bsp. 9.3.3 in Vakil ("Consider the projection of the // parabola")
@@ -502,13 +535,19 @@ wo ein Gleichungssystem über A eine nichttriviale Lösung (also eine Lösung im
 projektiven Raum) besitzt, selbst wiederum durch Gleichungen gegeben werden kann.
 
 
+=== Referenzen
+
+* Hartshorne
+* Liu
+* Vakil
+* A Royal Road to Algebraic Geometry
+
+
 === Nächste Schritte
 
 * Nachvollziehen, unter welchen Voraussetzungen Schnitte von K_X einfach auf
   kleinen offenen Mengen definierte Schnitte von O_X sind. Dasselbe auch für
   L[S^(-1)].
-
-* Angeblich: F_x \cong O_{X,x}^n, F v.e.T. um x ==> F frei v.R. n um x.
 
 * Was sind die lokalen Modelle glatter (projektiver?) Schemata?
 

@@ -142,6 +142,9 @@ Genauer: Ila Varma, Classification of vector bundles on P^1.
 Oder auch: http://www2.mathematik.uni-mainz.de/alggeom/burban/Survey.pdf,
 gut verständlich!
 
+Ebenso schön: David Nadler. 256B algebraic geometry.
+http://math.berkeley.edu/~qchu/Notes/256B.pdf
+
 
 === Interne Sprache
 

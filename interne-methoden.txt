@@ -48,6 +48,12 @@
   vorgibt), keine geometrische Formel.
 
 
+=== Kategorien intern in Sch/S
+
+* Akhil Mathew. Categories parametrized by schemes and representation theory in
+  complex rank. http://arxiv.org/abs/1006.1381v1
+
+
 === Dimension
 
 * dim X <= n gdw. Sh(X) |== krulldim O_X <= n.
