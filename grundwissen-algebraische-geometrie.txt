@@ -294,6 +294,12 @@ deformierten Objekt.
 "Was in der glatten Kategorie lokal gilt, gilt in der algebraischen Kategorie
 infinitesimal."
 
+http://mathoverflow.net/questions/111430/tangent-bundle-and-normal-bundle-in-self-product
+Sei K die Idealgarbe zur Diagonale in X x X, wobei X eine glatte Varietät ist.
+Dann ist Omega^1 der Pullback von K/K^2. Ferner hat man die exakte Sequenz
+
+    0 --> K/K^2 --> Omega_{X x X} otimes O_Delta --> O_Delta --> 0.
+
 
 === Fasern
 
