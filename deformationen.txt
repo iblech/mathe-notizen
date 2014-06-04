@@ -13,3 +13,22 @@
 
   dasselbe wie der Isomorphietyp einer flachen C[eps]-Algebra A auf X mit
   A/(eps) ~~ O_X (über C)?
+
+
+=== Kodaira-Spencer
+
+* Konkretes Beispiel:
+  http://mathoverflow.net/questions/22345/kodaira-spencer-map-in-a-concrete-instance
+
+* Konstruktion mit Ext:
+  http://mathoverflow.net/questions/74500/construction-of-kodaira-spencer-map
+
+* Timos Lieblingskonstruktion:
+  Eduard Looijenga. A minicourse on moduli of curves.
+  http://users.ictp.it/~pub_off/lectures/lns001/Looijenga/Looijenga.pdf
+
+
+=== Referenzen
+
+* Manetti: http://www1.mat.uniroma1.it/people/manetti/dispense/defomanifold.pdf
+* Gross, Huybrechts, Joyce: Calabi-Yau manifolds and related geometries.

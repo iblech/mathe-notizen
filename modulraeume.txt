@@ -1,3 +1,6 @@
+* Moduli of curves, nur zwei Seiten:
+  http://math.stanford.edu/~ionel/257C/L2.pdf
+
 * http://www.math.uni-bonn.de/ag/kleineag/ModulraeumeVonGarben/ModulraeumeVonGarben.pdf
 * http://www.math.harvard.edu/~lurie/papers/moduli.pdf
 * http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter04/henriques.pdf
