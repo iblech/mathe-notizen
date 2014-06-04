@@ -1,0 +1,20 @@
+=== Geometrische Reihe
+
+Betrachte den Komplex
+
+    0 --> k[x][-1] --> k[x] --> 0,
+
+mit dem ersten nichttrivialen Term in Grad -1. Die Abbildung ist durch
+Multiplikation mit x gegeben. Die Euler-Charakteristik dieses Komplex
+graduierter k-Vektorräume ist dann durch
+
+    -t sum_i t^i + sum_i t^i = (1-t) sum_i t^i
+
+gegeben. Die Kohomologie des Komplexes ist in Grad 0 konzentriert, mit Wert k.
+Die Euler-Charakteristik ist daher gleich
+
+    1.
+
+Das kategorifiziert die Beobachtung (1-t) sum_i t^i = 1.
+
+Quelle: http://mathoverflow.net/questions/1465/can-we-categorify-the-equation-1-t1-t-t2-1
