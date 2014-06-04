@@ -1,0 +1,2 @@
+* http://sbseminar.wordpress.com/2010/01/12/residues-and-integrals/
+  Tr : H^1(X, Omega^1) --> k berechnet Residuen.

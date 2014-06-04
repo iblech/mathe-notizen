@@ -1,0 +1,7 @@
+* Kapranov. Semiinfinite symmetric powers.
+  http://arxiv.org/pdf/math/0107089.pdf
+
+  Enthält auch ein Kapitel über lokal linear kompakte Räume.
+
+* http://golem.ph.utexas.edu/category/2012/09/where_do_linearly_compact_vect.html
+  Mehr zu lokal linear kompakten Räume.
