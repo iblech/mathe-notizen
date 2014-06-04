@@ -70,6 +70,13 @@ Siehe:
   Sheaves that are locally constant with applications to homology manifolds
 
 
+=== Hawaiianischer Ohrring
+
+Daniel K. Biss.
+A generalized approach to the fundamental group.
+http://www.jstor.org/stable/2695468
+
+
 === Nächste Schritte
 
 * Verbindender Homomorphismus in allgemeineren (Ko-)Homologietheorien
