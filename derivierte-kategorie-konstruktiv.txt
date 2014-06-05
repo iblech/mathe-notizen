@@ -73,6 +73,7 @@ Erfüllt Coh(X) als k-angereicherte Kategorie diese Bedingung?
 * http://arxiv.org/pdf/1003.1943v3.pdf R-fpmod
 * http://arxiv.org/pdf/math/0701146v2.pdf homalg
 * http://arxiv.org/pdf/1202.3337.pdf Gabriel monad
+* http://homalg.math.rwth-aachen.de/~barakat/talks/SheafAndLocalCohomology.pdf
 
 
 === Nächte Schritte
