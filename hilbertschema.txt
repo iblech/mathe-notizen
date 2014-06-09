@@ -83,6 +83,7 @@ ist isomorph zu Aut(D^b(X^[n])).
 * http://math.stanford.edu/~vakil/727/, dort der Link
   http://math.stanford.edu/~vakil/727/roy.pdf
 * http://alg.math.uni-augsburg.de/forschung/spring-school-on-algebraic-geometry-2010/Picard-Vortrag.pdf
+* Strømme. http://matwbn.icm.edu.pl/ksiazki/bcp/bcp36/bcp36111.pdf
 
 
 === Nächste Schritte
