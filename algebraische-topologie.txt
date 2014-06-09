@@ -2,7 +2,7 @@
 
 n-Kette: Linearkombination von n-Simplizes
 
-n-Zykel: n-dimensionales Gebiet ohne Rand
+n-Zykel: n-dimensionales Gebiet ohne Rand (Linearkombinationen erlaubt!)
 
 n-Rand: n-dimensionales Gebiet, das etwas (n+1)-dimensionales berandet
 
@@ -10,6 +10,9 @@ n-Rand: n-dimensionales Gebiet, das etwas (n+1)-dimensionales berandet
 überdecken, so ist die Inklusion C_*(U) --> C_*(X) ein Quasiisomorphismus.
 Endlich-malige baryzentrische Unterteilung C_*(X) --> C_*(X) ist homotop zur
 Identität.
+
+* Ist gamma eine Schleife, so ist gamma(a + _) eine zu gamma homologe Schleife.
+  Daher sind ab und ba in S^1 v S^1 homolog.
 
 
 === compactly supported simplicial cohomology

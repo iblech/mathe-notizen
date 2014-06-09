@@ -1,3 +1,18 @@
+=== Homöomorphie
+
+* Sind zwei Mannigfaltigkeiten diffeomorph, so lassen sie sich in einen
+  genügend hoch-dimensionalen euklidischen Raum einbetten, wo es dann eine
+  Ein-Parameter-Familie von Diffeomorphismen des umgebenden Raums gibt,
+  die die eine Darstellung der Mannigfaltigkeit in die andere überführt.
+
+* Knetvorstellungen definieren einen Homöomorphismus durch Betrachtung
+  korrespondierender Punkte.
+
+* Zwei verlinkte Kreislinien sind homöomorph zu einer disjunkten Vereinigung.
+
+* Das doppelt verdrillte Band ist homöomorph zum gewöhnlichen Band.
+
+
 === Abschluss
 
 Sei U \subseteq X ein beliebiger Unterraum, nicht unbedingt offen oder
