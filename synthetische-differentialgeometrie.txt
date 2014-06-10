@@ -1,0 +1,4 @@
+* Reyes, Wraith.
+  A note on tangent bundles in a category with ring object.
+
+  Diskutiert unter anderem, das Schemata infinitesimal linear sind.

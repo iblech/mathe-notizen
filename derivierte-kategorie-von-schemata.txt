@@ -37,6 +37,9 @@ Siehe etwa Keller, Derived Categories and Tilting, S. 1f.: Die klassischen
 Invarianten einer k-Algebra A (wie etwa K_0, Zentrum, K_i, HH^*, ...) werden
 nicht nur von A, nicht nur von Mod-A, sondern sogar nur von D(Mod-A) bestimmt.
 
+Die Fundamentalgruppe wird übrigens *nicht* von D^b(X) bestimmt.
+Siehe: Christian Schnell. The fundamtenal group is not a derived invariant.
+
 
 === Aufspannende Klassen
 

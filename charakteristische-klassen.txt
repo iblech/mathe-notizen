@@ -1,0 +1,7 @@
+=== Euler
+
+Let σ : X --> E be a generic smooth section and Z <= X its zero locus. Then Z
+represents a homology class [Z] of codimension r in X, and e(E) is the
+Poincaré dual of [Z].
+
+http://en.wikipedia.org/wiki/Euler_class

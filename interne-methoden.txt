@@ -1012,6 +1012,8 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
 * Kurz prüfen, ob alle relevanten Aussagen bei der Stack-Semantik gültig
   bleiben.
 
+* Splitting-Prinzip intern beweisen?
+
 
 === math.se-Antwort
 

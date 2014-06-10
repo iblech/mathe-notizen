@@ -1,0 +1,8 @@
+=== Vektoren und Kovektoren
+
+Intuition: http://profstewart.org/pm2/ln11.pdf
+
+
+=== Torsion
+
+http://mathoverflow.net/questions/20493/what-is-torsion-in-differential-geometry-intuitively

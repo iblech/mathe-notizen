@@ -541,6 +541,15 @@ wo ein Gleichungssystem über A eine nichttriviale Lösung (also eine Lösung im
 projektiven Raum) besitzt, selbst wiederum durch Gleichungen gegeben werden kann.
 
 
+=== Gründe, wieso die Zariski-Topologie gelegentlich ungenügend ist
+
+http://www.jmilne.org/math/CourseNotes/LEC.pdf
+
+Seite 10
+
+sehr gut lesbar!
+
+
 === Referenzen
 
 * Hartshorne

@@ -4,3 +4,10 @@ http://mathoverflow.net/questions/58497/is-there-a-high-concept-explanation-for-
 Was sind die kuratowski-endlichen Objekte in sSet?
 
 http://golem.ph.utexas.edu/category/2008/01/mark_weber_on_nerves_of_catego.html
+
+
+=== Simpliziale Mengen als Grundlagen von Analysis
+
+Jon Beck. Simplicial sets and the foundations of analysis.
+
+http://link.springer.com/chapter/10.1007/BFb0061815
