@@ -1,0 +1,10 @@
+* Konstruieren vs. erkennen
+
+* Angeblich gibt es Vergleichsmethoden zwischen der stetigen und glatten
+  Kategorie. Da scheint der Kobordismussatz eine Rolle zu spielen.
+  Mit ihm kann man Browder-Levine beweisen.
+
+* Waldhausens K-Theorie, liefert eine faserweise Version der
+  Euler-Charakteristik. Euler-Klasse!
+
+* L-Theorie
