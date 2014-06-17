@@ -24,10 +24,15 @@
   endlich erzeugt. Das Bild dieses Kerns unter p ist genau ker phi.
 
 * Sei phi : A^m --> A^n eine surjektive lineare Abbildung und
-  sei A ein lokaler Ring. Dann ist der Kern von phi frei vom Rand m - n.
+  sei A ein lokaler Ring. Dann ist der Kern von phi frei vom Rang m - n.
 
   Beweis: Durch Basistrafo kann man die zu phi gehörige Matrix auf die Form
   (Einheitsmatrix | Nullmatrix) bringen.
+
+* Sei phi : A^n --> A^n eine surjektive lineare Abbildung. Dann ist
+  phi auch injektiv. Denn sie ist nach dem vorherigen Punkt halmweise injektiv!
+  Alternativ: Finde Rechtsinverses. Produktformel für die Determinante sagt,
+  dass die Determinante von phi invertierbar ist. Daher ist phi invertierbar.
 
 * Sind in einer kurzen exakten Sequenz die äußeren beiden Moduln frei von
   endlichem Rang, so auch der mittlere.
@@ -366,6 +371,14 @@ Klar mit Tor.
      [x_1],...,[x_n] als k-Vektorraum erzeugt.
   2. Sei M/mM erzeugt durch [x_1],...,[x_n] als k-Vektorraum.
      Dann wird M nach Nakayama durch x_1,...,x_n als A-Modul erzeugt.
+
+
+=== Invariant Basis Number, Wohldefiniertheit des Rangs
+
+Konstruktiver Beweis für R^n ~~ R^m ==> n = m oder 1 = 0 (R kommutativ):
+
+Fred Richman. Nontrivial uses of trivial rings. 1988.
+http://www.ams.org/journals/proc/1988-103-04/S0002-9939-1988-0954974-5/S0002-9939-1988-0954974-5.pdf
 
 
 === Siehe auch

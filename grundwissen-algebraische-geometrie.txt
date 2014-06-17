@@ -261,6 +261,11 @@ die Idealgarbe sein.
 * HOM_{O_X}(O_Z, F) ~~ Ann_{J_Z}(F) = { s:F | J_Z s = 0 },
       wenn Z ein abgeschlossenes Unterschema von X mit Idealgarbe J_Z ist.
 
+* Bemerkung: Die Idealgarbe der Diagonale wird von (pi_1^#(f) - pi_2^#(f))
+  erzeugt. Beweis in Ravi Vakil (21.2.23): Sei sum_i x_i y_i = 0.
+  Dann sum_i (x_i tensor y_i) = sum_i (x_i tensor y_i - x_iy_i tensor 1) =
+  sum_i x_i (1 tensor y_i - y_i tensor 1).
+
 
 === Normalenbündel und Co.
 
