@@ -80,6 +80,15 @@ A generalized approach to the fundamental group.
 http://www.jstor.org/stable/2695468
 
 
+=== Twisted coefficients / lokale Systeme
+
+Davis. Lecture Notes in Algebraic Topology.
+http://www.maths.ed.ac.uk/~aar/papers/davkir.pdf
+
+Hutching. Introduction to higher homotopy groups and obstruction theory.
+http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf
+
+
 === Nächste Schritte
 
 * Verbindender Homomorphismus in allgemeineren (Ko-)Homologietheorien

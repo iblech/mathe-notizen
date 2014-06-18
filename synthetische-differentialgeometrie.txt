@@ -2,3 +2,15 @@
   A note on tangent bundles in a category with ring object.
 
   Diskutiert unter anderem, das Schemata infinitesimal linear sind.
+
+* Hellman.
+  Mathematical Pluralism: The Case of Smooth Infinitesimal Analysis.
+  http://www.tc.umn.edu/~hellm001/Publications/MathematicalPluralismSIA.pdf
+
+* Giordano.
+  Infinitesimal differential geometry.
+  http://www.emis.de/journals/AMUC/_vol-73/_no_2/_giordano/giordano.pdf
+
+* Kostecki.
+  An Introduction to Synthetic Differential Geometry.
+  http://www.fuw.edu.pl/~kostecki/sdg.pdf
