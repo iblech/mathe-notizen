@@ -94,6 +94,17 @@ Q ist ein flacher Z-Modul, da Z ein Dedekindscher Bereich und Q torsionsfrei
 ist.
 
 
+=== Injektive Auflösungen
+
+Funktoriell so:
+Here is the construction of a functorial injection of an arbitrary R-module M
+to an injective R-module J(M) dual-analogous to the above-mentioned
+construction of the "free R-module on the elements of M". Set J(M) to be the
+product of copies of HomZ(R,Q/Z) indexed by all the abelian group homomorphisms
+M→Q/Z. –  Leonid Positselski Jul 27 '12 at 17:22
+http://mathoverflow.net/questions/103252/why-are-injective-modules-more-complicated-than-projective-modules
+
+
 === Potenzielle Übungsaufgaben für die HomoAlg im SS 2014
 
 www.math.ucsd.edu/~k3walsh/11Bsheet6.pdf

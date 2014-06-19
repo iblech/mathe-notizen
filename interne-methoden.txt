@@ -1014,6 +1014,10 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
 
 * Splitting-Prinzip intern beweisen?
 
+* Famously, for simplicial sets, the concrete objects are precisely the
+  ¬¬-separated presheaves.
+  http://nforum.mathforge.org/discussion/1955/on-quasitoposes/
+
 
 === math.se-Antwort
 
