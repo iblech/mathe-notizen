@@ -1,0 +1,7 @@
+=== Obere Schranken für Gegenbeispiele und Beweise
+
+Gustavo Lacerda.
+Upper-Bounding Proof Length with the Busy Beaver.
+http://arxiv.org/abs/1406.1808
+
+Sehr einfach zu verstehen!

@@ -180,6 +180,20 @@ Schreibe in diesem Abschnitt "-" für "neg".
 * Unter diesen Voraussetzungen gilt auch: s regulär <==> --(s invertierbar).
 
 
+=== Intuitionistische epistemische Logik
+
+Sergei Artemov, Tudor Protopopescu.
+Intuitionistic Epistemic Logic.
+http://arxiv.org/abs/1406.1582
+
+
+=== Dialoge für Beweissuche
+
+Jesse Alama.
+Dialogues for proof search.
+http://arxiv.org/abs/1405.1864
+
+
 === Literatur
 
 * The Age of Alternative Logics.
