@@ -28,3 +28,6 @@
 * Keller, Derived categories and tilting.
 
 * Alistair Craw, Explicit methods for derived categories of sheaves.
+
+* http://www-fourier.ujf-grenoble.fr/~mbrion/notes_quivers_rev.pdf
+  Enthält Diskussion der Ext-Gruppen.
