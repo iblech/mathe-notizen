@@ -40,6 +40,8 @@ Lemma: [X] = [Y]  <==>  X \oplus Z ~~ Y \oplus Z für ein Z.
 
 Anwendung: Für X Schema habe D^b(X) --> K_0(X) := K_0(O_X-Mod).
 
+XXX: Wirklich O_X-Mod? Oder Coh(O_X)?
+
 1) Kann jedes Element in K_0(X) als Linearkombination von Klassen lokal
    freier Moduln schreiben (falls X glatt).
 2) Kann dadurch Ringstruktur definieren.
@@ -49,6 +51,10 @@ Anwendung: Für X Schema habe D^b(X) --> K_0(X) := K_0(O_X-Mod).
 
 Wenn man nur zerfallende kurze exakte Sequenzen herausteilt, erhält man nicht
 die richtige Gruppe:
+http://mathoverflow.net/questions/30877/how-is-k-theory-defined-for-coherent-sheaves
+
+Aber: Unter gewissen Umständen (Glattheit) kann man sich auf zerfallende kurze
+exakte Sequenzen von *Vektorbündeln* einschränken:
 http://mathoverflow.net/questions/30877/how-is-k-theory-defined-for-coherent-sheaves
 
 

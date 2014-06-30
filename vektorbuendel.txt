@@ -201,6 +201,12 @@ vergrößern, dass der Quotient lokal frei wird. Siehe:
 http://www.tufts.edu/~mteixido/files/vectbund.pdf
 
 
+=== Stabile Vektorbündel
+
+http://ncatlab.org/nlab/files/HuybrechtsLehn.pdf
+http://www.tufts.edu/~mteixido/files/vectbund.pdf
+
+
 === Faserbündel
 
 Charles Siegel auf http://mathoverflow.net/questions/2414/sheaf-description-of-g-bundles:
