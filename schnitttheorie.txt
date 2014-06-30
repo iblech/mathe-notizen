@@ -1,0 +1,3 @@
+* http://rigtriv.wordpress.com/2009/11/05/chern-classes-part-2/
+* http://rigtriv.wordpress.com/2009/03/22/the-chow-ring-and-chern-classes/
+* http://rigtriv.wordpress.com/2009/11/02/manipulating-cycles/

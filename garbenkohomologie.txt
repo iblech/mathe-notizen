@@ -140,6 +140,10 @@ Siehe: Torsten Wedhorn. Manifolds, sheaves, and cohomology. Seite 86.
 https://www2.math.uni-paderborn.de/fileadmin/Mathematik/People/wedhorn/Lehre/SkriptMannigfaltigkeiten.pdf
 Super erklärt, verständlicher Beweis!
 
+Auch interessant: http://math.harvard.edu/~keerthi/files/perfect_complexes.pdf
+Alle Aussagen folgen daraus, dass das höhere direkte Bild perfekte Komplexe
+liefert.
+
 
 === Gruppenwirkung
 

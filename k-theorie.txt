@@ -47,6 +47,17 @@ Anwendung: Für X Schema habe D^b(X) --> K_0(X) := K_0(O_X-Mod).
 4) Außerdem kovariant, durch verallgemeinertes direktes Bild:
        f_! [F] := \sum (-1)^n [R^n f_*(F)].
 
+Wenn man nur zerfallende kurze exakte Sequenzen herausteilt, erhält man nicht
+die richtige Gruppe:
+http://mathoverflow.net/questions/30877/how-is-k-theory-defined-for-coherent-sheaves
+
+
+=== Nutzen der K-Theorie eines Schemas für Schnitttheorie
+
+* Mit der K-Theorie können wir Chern-Klassen definieren:
+  Für Vektorbündel ist das bekannt, und darauf kann man sich (unter geeigneten
+  Bedingungen) zurückziehen.
+
 
 === Eulercharakteristik einer Modulgarbe (nach Hartshorne, Ex. III.5.1):
 

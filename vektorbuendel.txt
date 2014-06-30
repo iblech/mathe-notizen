@@ -192,6 +192,15 @@ kanonisch isomorph zu E:
         E(U).
 
 
+=== Quotienten von Vektorbündeln
+
+Natürlich sind Quotienten von lokal freien Garben im Allgemeinen nicht wieder
+lokal frei. Man kann aber (zumindest auf Kurven!) stets das Unterbündel so
+vergrößern, dass der Quotient lokal frei wird. Siehe:
+
+http://www.tufts.edu/~mteixido/files/vectbund.pdf
+
+
 === Faserbündel
 
 Charles Siegel auf http://mathoverflow.net/questions/2414/sheaf-description-of-g-bundles:

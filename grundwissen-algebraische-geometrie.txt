@@ -1,3 +1,10 @@
+=== Wie viel weiß der zugrundeliegende topologische Raum eines Schemas?
+
+"Note that all curves (over a fixed algebraically closed field say) are
+homemorophic in the Zariski topology." Laut Torsten Ekedahl auf
+http://mathoverflow.net/questions/19345/how-to-characterize-abelian-sheaves-that-are-quasi-coherent.
+
+
 === Vektorräume als affine Schemata
 
 Die kovariante Zuordnung
