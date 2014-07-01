@@ -178,6 +178,13 @@ L_perf(U \cap V).
 Prop.: X, Y glatt, eigentlich/k. Dann RHom(L_perf(X), L_perf(Y)) ~ L_perf(X x Y).
 
 
+=== Neue Enhancements
+
+Valery A. Lunts, Olaf M. Schnürer.
+New enhancements of derived categories of coherent sheaves and applications.
+http://arxiv.org/abs/1406.7559
+
+
 === Nächste Schritte
 
 * Das dg-Paper von Toën zusammenfassen.

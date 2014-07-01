@@ -52,6 +52,13 @@ Die Besonderheit liegt darin, dass diese aus interner Sicht kommutativ ist!
   Algebra.
 
 
+=== Quanten-Logik
+
+Simon Kramer.
+Quantum Logic as Classical Logic.
+http://arxiv.org/abs/1406.3526
+
+
 === Literatur
 
 * http://ncatlab.org/nlab/show/Bohr%20topos

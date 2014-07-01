@@ -1,0 +1,32 @@
+=== Arithmetischer Situs
+
+Alain Connes, Caterina Consani
+
+http://arxiv.org/abs/1405.4527
+
+We show that the non-commutative geometric approach to the Riemann zeta
+function has an algebraic geometric incarnation: the "Arithmetic Site". This
+site involves the tropical semiring viewed as a sheaf on the topos which is the
+dual of the multiplicative semigroup of positive integers. We prove that the
+set of points of the arithmetic site over the maximal compact subring of the
+tropical semifield is the non-commutative space quotient of the adele class
+space of Q by the action of the maximal compact subgroup of the idele class
+group. We realize the Frobenius correspondences in the square of the
+"Arithmetic Site" and compute their composition. This note provides the
+algebraic geometric space underlying the non-commutative approach to RH.
+
+
+=== Körper mit einem Element
+
+Yuri I. Manin
+Cyclotomy and analytic geometry over F_1
+
+http://arxiv.org/abs/0809.1564
+
+Geometry over non--existent "field with one element" F1 conceived by Jacques
+Tits [Ti] half a century ago recently found an incarnation, in at least two
+related but different guises. In this paper I analyze the crucial role of roots
+of unity in this geometry and propose a version of the notion of "analytic
+functions" over F1. The paper combines a focused survey with some new
+constructions.
+In new version, several local additions and changes are made, references added.

@@ -351,6 +351,10 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   freier Moduln kann man leicht zeigen: Das Tensorprodukt projektiver Moduln
   ist wieder projektiv.
 
+* Ist A ein nichtkommutativer Ring und e ein idempotentes Element, so ist
+  Ae ein projektiver A-Links-Modul. Das kann man direkt sehen oder daran
+  festmachen, dass Ae ein direkter Summand von A ist: A = Ae oplus A(1-e).
+
 
 === Tensorieren ist exakt, wenn der rechteste Modul flach ist
 

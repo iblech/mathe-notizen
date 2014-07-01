@@ -1,11 +1,13 @@
 === Definition und grundlegende Eigenschaften
 
 1) Ein Köcher ist ein orientierter Graph.
+
 2) Zu einem Köcher Q hat man seine Pfadalgebra kQ, die als Basis
    alle Pfade von Q hat. Sie ist genau dann endlich-dimensional,
    wenn es nur endlich viele Pfade in Q gibt. Wenn die Ecken- und Pfeilmenge
    von Q endlich ist, ist das gleichbedeutend damit, dass es keine orientierten
    Schleifen in Q gibt.
+
 3) Die Kategorie der Links-kQ-Moduln ist äquivalent zur Kategorie aller
    Q-förmigen Diagramme von Vektorräumen.
 
@@ -13,6 +15,7 @@
    endlich-dimensionaler unzerlegbarer Objekte (modulo Isomorphie), wenn der
    zugrundeliegende Graph von Q eine disjunkte Vereinigung von
    Dynkin-Diagrammen der Typen A, D, E ist.
+
 4) Ein Ideal von kQ heißt zulässig, wenn es ein N mit
       (kQ_1)^N \subseteq I \subseteq (kQ_1)^2
    gibt, wobei kQ_1 das zweiseitige Ideal erzeugt von den Länge-1-Pfaden ist.
@@ -23,11 +26,63 @@
    orientierten Zykel enthält.
 
 
+=== Wichtige Köcher
+
+* S_v ist die in v konzentrierte Darstellung mit Wert k.
+
+  Sie entspricht dem Links-kQ-Modul k, mit einer beinahe trivialen kQ-Wirkung.
+
+* Der Links-kQ-Modul kQ e_v (wobei e_v der triviale Pfad an v ist) entspricht
+  (e_w kQ e_v)_w = (k<v ----> w>)_w.
+
+* Der Links-kQ-Modul (oplus_v kQe_v tensor_k e_vX) entspricht
+  (oplus_v k<v ----> w> tensor_k X(v))_w.
+
+
+=== Ext von Köcherdarstellungen
+
+http://www.math.jussieu.fr/~aubert/gr.ps und
+http://www-fourier.ujf-grenoble.fr/~mbrion/notes_quivers_rev.pdf sind
+beide gut darin, die Grundlagen von Köchern zu erklären.
+
+Insbesondere gibt es eine für die Theorie fundamentale kanonische
+Standardauflösung einer jeder Köcherdarstellung aus insgesamt drei
+Termen.
+
+Mit dieser kann man leicht die Ext-Gruppen (eigentlich Ext-Köcher)
+zwischen Köchern berechnen. Es folgt auch sofort, dass alle Ext^2 und
+höher Null sind. Das hat Auswirkungen auf die derivierte Kategorie von
+Köcherdarstellungen: Jedes Objekt K^* ist isomorph zu ihrem
+Kohomologiekomplex H^*(K^*) -- allerdings auf unkanonische Art und
+Weise. (Für Kanonizität bräuchte man, dass auch alle Ext^1 Null sind. In
+diesem anti-realen Fall wäre sogar die derivierte Kategorie äquivalent
+zur direkten Summe der underivierten Kategorien.)
+
+Ein interessanter Spezialfall: Sei S_v die Köcherdarstellung, die in dem
+Knotenpunkt v konzentriert ist und dort den Wert k (der Grundkörper)
+hat. Dann gilt:
+
+    Hom(S_v, S_w) = 0,   falls v != w
+    Hom(S_v, S_w) = S_v, falls v = w.
+
+    Ext^1(S_v, S_w) = \bigoplus_{Pfeile a von v nach w} (k, in w konzentriert).
+
+Und eine nette Formel, für beliebige Köcherdarstellungen X und Y:
+
+    chi(X, Y) := chi(Ext^*(X,Y)) =
+        dim Hom(X,Y) - dim Ext^1(X,Y) =
+        sum_v dim(X_v) dim(Y_v) - sum_a dim(X_{Quelle a}) dim(Y_{Ziel a}).
+
+
+=== Modulräume von Darstellungen von Köchern
+
+Markus Reineke.
+Moduli of representations of quivers.
+http://poisson.phc.unipi.it/~maggiolo/wp-content/uploads/2008/12/GM_Reineke.pdf
+
+
 === Siehe auch
 
 * Keller, Derived categories and tilting.
 
 * Alistair Craw, Explicit methods for derived categories of sheaves.
-
-* http://www-fourier.ujf-grenoble.fr/~mbrion/notes_quivers_rev.pdf
-  Enthält Diskussion der Ext-Gruppen.
