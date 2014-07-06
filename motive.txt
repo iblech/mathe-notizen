@@ -1,0 +1,5 @@
+=== Literatur
+
+* Thomas C. Hales.
+  What is motivic measure?
+  http://www.ams.org/journals/bull/2005-42-02/S0273-0979-05-01053-0/home.html

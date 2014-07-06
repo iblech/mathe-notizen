@@ -325,6 +325,10 @@ Details:
 * Achar, Local Systems and Constructible Sheaves.
 * Schapira, Algebra and Topology.
 
+Euler characteristic with coefficients in a rank n local system equals n times
+ordinary Euler characteristic.
+http://mathoverflow.net/questions/136516/euler-characteristic-of-coverings-via-sheaf-theory?rq=1
+
 
 === Konstante Garben
 

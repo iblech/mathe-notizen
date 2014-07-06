@@ -1,0 +1,4 @@
+* Die Kategorie der Supervektorräume (Z_2-graduierte Vektorräume)
+  wird mit der Koszul-Vorzeichenkonvention zu einer Tensorkategorie.
+  Das ist der Grund, wieso die Koszul-Vorzeichenkonvention "immer funktioniert"
+  (Kontsevich, kontsdef.ps, Seite 9).

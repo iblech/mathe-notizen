@@ -1,1 +1,14 @@
+=== Hurwitz
+
+Sei f : Y --> X eine Überlagerung vom Grad d. Dann gilt:
+
+    chi(Y) = d chi(X).
+
+Laut
+http://mathoverflow.net/questions/136516/euler-characteristic-of-coverings-via-sheaf-theory
+ist eine abstrakte Möglichkeit, das zu begründen, die Leray-Spektralsequenz.
+
+
+=== Literatur
+
 * http://math.berkeley.edu/~teleman/math/Riemann.pdf

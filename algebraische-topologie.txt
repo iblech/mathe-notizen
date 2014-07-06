@@ -73,6 +73,16 @@ Siehe:
   Sheaves that are locally constant with applications to homology manifolds
 
 
+=== Mayer--Vietoris
+
+* Eine Interpretation: Kompatible Kohomologieklassen lassen sich verkleben
+  -- im Allgemeinen aber nicht eindeutig!. (Daher kann eine globale Klasse mehr
+  Information enthalten als ihre Einschränkungen auf Teile.)
+
+* Die Mayer--Vietoris-Sequenz impliziert, dass die Euler-Charakteristik
+  eine Bewertung ist (d.h. das Inklusions-/Exklusionsprinzip erfüllt).
+
+
 === Hawaiianischer Ohrring
 
 Daniel K. Biss.

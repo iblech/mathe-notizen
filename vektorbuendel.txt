@@ -224,6 +224,16 @@ Charles Siegel auf http://mathoverflow.net/questions/2414/sheaf-description-of-g
   Zariski vs. etale...
 
 
+=== Klassifizierende Räume
+
+* Also, whenever G is the fundamental group of a Riemann surface Σ of genus g
+  where g = 1,2,3,..., the universal cover Σ~ of this surface is contractible,
+  and G acts freely on it, so we have EG = Σ~ and BG = Σ. So, your friendly
+  neighborhood two-holed torus is actually the classifying space of a group!
+
+  http://math.ucr.edu/home/baez/calgary/BG.html
+
+
 === Nächste Schritte
 
 * Kozykelbeschreibug in und auswendig kennen

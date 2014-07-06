@@ -51,6 +51,14 @@ http://scgp.stonybrook.edu/archives/7535, erster Vortrag.
   von C von Grad d
 
 
+=== Hilbertschema des affinen Raums
+
+Mark E. Huibregtse.
+The cotangent space at a monomial ideal of the Hilbert scheme of points of an
+affine space.
+http://arxiv.org/abs/math/0506575
+
+
 === Derivierte Kategorie
 
 Laut [Ploog] sagt [Haiman], dass Hilb_n(X) ~~ S_n-Hilb(X^n).
