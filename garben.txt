@@ -361,6 +361,13 @@ http://mathoverflow.net/questions/136516/euler-characteristic-of-coverings-via-s
 * Gilt HOM(gamma*(A), gamma*(B)) ~~ gamma*(B^A), zumindest lokal?
 
 
+=== Garbentheoretischer Zugang zu Mannigfaltigkeiten
+
+* Donu Arapura: Manifolds and Varieties via Sheaves.
+  http://www.math.purdue.edu/~dvb/preprints/crashcourse.pdf
+  http://www.math.purdue.edu/~dvb/preprints/sheaves.pdf
+
+
 === Torsion
 
 * angeblich: kohärent, torsionsfrei ==> lokal frei

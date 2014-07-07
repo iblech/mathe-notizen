@@ -135,3 +135,10 @@ Dann ist O(D) isomorph zu O(1). Der Isomorphismus sieht so aus:
 Gut erkennbar ist dann auch, wie O(D) bis auf Isomorphie nicht von der Wahl des
 Index "0" in "x_0" abhängt, und dass man allgemeiner sogar jede
 nicht-verschwindende Linearform nehmen kann.
+
+
+=== Äußere Potenzen
+
+Laut http://www.math.purdue.edu/~dvb/preprints/book-chap17.pdf, Korollar 17.1.3:
+
+    Lambda^p O(-1)^(n+1) = O(-p)^\binom{n+1}{p}.

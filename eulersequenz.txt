@@ -56,3 +56,6 @@ Siehe grassmannsche.txt.
 
 * Wie folgt, dass auch die höheren Omega^i nur den trivialen Schnitt als
   globalen Schnitt haben?
+
+* http://www.math.purdue.edu/~dvb/preprints/book-chap17.pdf
+  scheint Intuition/Geometrie zu haben.
