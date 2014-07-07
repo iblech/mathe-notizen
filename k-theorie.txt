@@ -18,7 +18,7 @@ Elementare Beobachtungen:
    Behauptung. Daraus folgt etwa eine allgemeine Formel für die Träger der an
    einer exakten Sequenz beteiligten Modulgarben.
 2) Insbesondere ist [E^*] = 0 falls E^* azyklisch.
-3) Ist dim: Ob(A) --> G eine Abbildung in eine abelsche Gruppe G, die
+3) Ist dim : Ob(A) --> G eine Abbildung in eine abelsche Gruppe G, die
    auf kurzen exakten Sequenzen null ist, dann gilt:
    -- dim ist Gruppenhomo (in Ob(A) bzgl. direkte Summe).
    -- dim ist invariant auf Isoklassen.
@@ -78,6 +78,47 @@ Bew. (mit Lemmas): chi(F) ist gleich dem Bild von [Gamma(I^*)] unter der
 Dimensionsabbildung, wobei 0 --> F --> I^* eine injektive Auflösung ist. Dann
 Hufeisenlemma.
 
+
+=== Euler-Form
+
+* In K_0(D^b(A)): chi(X,Y) := sum_i (-1)^i [Hom(X,Y[i])].
+
+
+=== Elemente von K_0 als Funktionen
+
+Sei X eine Varietät über F_p. Ist F ein Komplex von Garben auf X, so können wir
+die (Super-)Spur von Fr^n auf dem Kohomologie-Null-Komplex von F am Halm x
+berechnen. So erhält man eine Zahl. Diese verträgt sich mit kurzen exakten
+Sequenzen.
+
+http://sbseminar.wordpress.com/2009/05/21/the-grothendieck-trace-formula-as-categorification-ii/
+
+
+=== Komplexe und derivierte Kategorie
+
+Sei A eine abelsche Kategorie. Dann gibt es:
+
+* K_0(A).
+* K_0(Kom^b(A)).
+* K_0(K^b(A)).
+* K_0(D^b(A)).
+
+Die letzten beiden Gruppen sind die K-Gruppen von triangulierten Kategorien.
+
+All diese Gruppen sind zueinander isomorph. Isomorphismen von den unteren drei
+zu K_0(A) sind durch die Euler-Charakteristik gegeben:
+
+    X^* |--> sum_i (-1)^i [H^i(X^*)].
+
+Für Surjektivität benötigt man die kanonische Filtrierung von Komplexen:
+
+    0 --> tau^{<= n-1} X --> tau^{<= n} X --> H^n(X)[-n] --> 0.
+
+
+=== Hall-Algebra
+
+Hall-Algebren sind Grothendieck-Gruppen:
+http://sbseminar.wordpress.com/2011/04/18/hall-algebras-are-grothendieck-groups/#more-3988
 
 == Nächste Schritte
 

@@ -98,3 +98,9 @@ Kurven.
   nicht p-te Wurzel ziehen!) bijektiv und daher gilt dann
 
       dim_k V' = dim_k V.
+
+
+=== Ein Motto
+
+Der Frobenius kommutiert mit allem.
+http://sbseminar.wordpress.com/2009/05/21/the-grothendieck-trace-formula-as-categorification-ii/

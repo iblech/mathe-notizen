@@ -99,6 +99,12 @@ Fünferlemma.
 Quelle: Beilinson, Coherent sheaves on P^n and problems in linear algebra.
 
 
+=== Semi-orthogonale Zerlegungen
+
+* Semi-orthogonale Zerlegungen implizieren Zerlegungen der Grothendieckgruppe
+  in direkte Summanden.
+
+
 === Monomorphismen in derivierten Kategorien zerfallen
 
 Siehe:
