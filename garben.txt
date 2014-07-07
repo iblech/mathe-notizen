@@ -306,6 +306,13 @@ sogar HOM(E, F)|_x ~~ Hom(E|_x, F|_x). Das ist zum Beispiel dann der Fall, wenn
 E und F frei von endlichem Rang um x sind. Vermutlich auch noch allgemeiner.
 
 
+=== Kohärenzbedingung
+
+* Von einer Modulgarbe, die nicht kohärent ist, sollte man nicht die Fasern
+  berechnen. Das zeigt sich etwa im Fall K_X: Die Fasern an (abgeschlossenen)
+  Punkten sind alle Null.
+
+
 === Lokale Systeme
 
 Ein lokales System ist eine lokal konstante Garbe (von Vektorräumen), d.h. eine
