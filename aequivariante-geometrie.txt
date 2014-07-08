@@ -1,0 +1,95 @@
+=== Invarianten und Koinvarianten
+
+* Ist V ein R-Modul mit G-Wirkung, wobei |G| in R invertierbar ist, so ist
+  V^G zu V_G isomorph, und zwar vermöge
+
+      x |--> [x]  und  [x] |--> 1/|G| * sum_g gx.
+
+
+=== Äquivariante Kohomologie
+
+* H_G(X) := H(X_G), wobei X_G := (EG x X) / G.
+
+  Hintergrund: G operiert auf X_G frei, und EG x X ist homotopieäquivalent zu X.
+
+* H_G(pt) = H(EG/G) = H(BG) = Gruppenkohomologie von G.
+  Allgemeiner ist H_G(X) = H(BG), falls X zusammenziehbar ist.
+
+* H_G(X) wird H_G(pt)-Modul.
+
+* Falls G trivial operiert: H_G(X) = H(BG) tensor H(X) (Künneth).
+
+* Falls G frei operiert: H_G(X) = H(X/G), denn dann ist
+  (EG x X)/G --> X/G ein Faserbündel mit zusammenziehbarer Faser EG.
+
+* Ein Nutzen: Berechnung von Integralen durch Betrachtung von (nur wenigen!)
+  Fixpunkten. http://www.ams.org/notices/201103/rtx110300423p.pdf
+
+* Svens Bemerkung
+
+
+=== Verbindung zwischen H_G(X) und H(X/G)
+
+* Es gibt eine Spektralsequenz, um aus H_G(X) und weiteren geometrischen Daten
+  die Kohomologie von X/G zu bestimmen.
+  http://mathoverflow.net/questions/1080/how-to-compute-the-cohomology-of-orbit-spaces-when-the-action-is-not-free
+
+* Falls X lokal kompakt und hausdorffsch ist und G endlich ist, so habe
+  einen Homo mu : H^*(X; k) --> H^*(X/G; k) mit:
+
+      mu . pi^* = |G| * id
+
+      pi^* . mu = sum_g g^*.
+
+  Folgt mit der Leray-Spektralsequenz.
+  http://www.indiana.edu/~jfdavis/seminar/Borel,Seminar_on_Transformation_Groups.pdf,
+  Seite 37.
+
+* Als Korollar erhält man: H^*(X/G; k) = H^*(X; k)^G (Invarianten),
+  falls |G| in k invertierbar ist.
+
+* Ebenfalls als Korollar erhält man:
+
+      chi(X/G) = 1/|G| sum_g chi(X^g).
+
+  Denn: chi(X/G) = dim H^*(X/G;k) = dim H^*(X;k)^G = dim im P
+            = 1/|G| sum_g tr g = 1/|G| sum_g L(G) = 1/|G| chi(X^g).
+
+  Hier geht also die Lefschetze Fixpunktformel ein.
+
+  Patrick Shanahan. The Atiyah-Singer Index Theorem. Seite 127.
+  http://www.indiana.edu/~jfdavis/teaching/m721/resources/shanahan.pdf
+
+
+=== Singularität ist zu wenig orbig
+
+In der algebraischen Kategorie:
+
+    A^1 / C_2 = Spec R[x]^C_2 = Spec R[x^2] = A^1,
+
+falls in R die Zahl 2 regulär ist.
+
+
+=== Derivierte Kategorie
+
+* Falls G diskret ist, ist D^b_G(X) := D^b(Coh_G(X)) eine gute Definition. Sonst
+  nicht.
+
+  Allgemein gilt: D^b_G(X) = { H in D^b(X_G) | exists P in D^b(X): p^*(G) =
+  q^*(H) }, wobei X <--p-- EG x X --q--> (EG x X)/G.
+
+* Falls die Wirkung von G frei ist, gilt D^b_G(X) = D^b(X/G).
+  Dann gilt auch Coh_G(X) = Coh(X/G).
+
+* D^b_G(pt) = { F in D^b(BG) | H^i(F) lokal konstant für alle i }
+
+http://www.freidok.uni-freiburg.de/volltexte/2613/pdf/Diplomarbeit.pdf
+
+
+=== Literatur
+
+* Martin Entrup: Die äquivariante derivierte Kategorie des komplex-projektiven Raumes.
+  http://www.freidok.uni-freiburg.de/volltexte/2613/pdf/Diplomarbeit.pdf
+
+* Loring Tu: What is ... Equivariant Cohomology?
+  http://www.ams.org/notices/201103/rtx110300423p.pdf

@@ -1,0 +1,1 @@
+* BS^1 = CP^infty mit ES^1 = S^infty.

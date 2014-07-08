@@ -5,3 +5,12 @@ represents a homology class [Z] of codimension r in X, and e(E) is the
 Poincaré dual of [Z].
 
 http://en.wikipedia.org/wiki/Euler_class
+
+
+=== Charakteristische Klassen von Schemata
+
+Euler-Charakteristik, Segre-Klassen, ... mit Beispielen!
+
+Paolo Aluffi.
+Characteristic classes of singular varieties.
+http://www.math.fsu.edu/~aluffi/publications/warsaw.pdf

@@ -1,0 +1,10 @@
+=== Euler-Charakteristik von Schemata
+
+* http://math.stackexchange.com/questions/58489/euler-characteristic-in-zariski-vs-classical-topology
+  Setzt mehrere Formeln in Verbindung.
+
+* http://mathoverflow.net/questions/35156/how-do-you-define-the-euler-characteristic-of-a-scheme
+  Kann étale Topologie oder algebraische de-Rham-Theorie verwenden.
+
+* chi(X, O_X) scheint ein guter Begriff zu sein:
+  Für Kurven vom Geschlecht g gilt chi(X, O_X) = 1 - g.
