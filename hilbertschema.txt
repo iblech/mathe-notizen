@@ -59,6 +59,22 @@ affine space.
 http://arxiv.org/abs/math/0506575
 
 
+=== Euler-Charakteristik
+
+* (C^2)^[n]. http://www.math.colostate.edu/~johnson/Talks/TopGHilbImperial.pdf
+
+  Habe Wirkung von (C^*)^2 auf C^2; diese steigt zu einer Wirkung von (C^2)^[n] ab.
+
+  Die Fixpunkte dieser Wirkung sind gerade die Ideale, die von Monomen erzeugt
+  werden.
+
+  Da chi(C^*) = chi((C^*)^2) = 0, tragen die nicht-einpunktigen Orbits nichts
+  zur Euler-Charakteristik bei.
+
+  Also ist chi((C^2)^[n]) = Anzahl der Ideale mit Kolänge n, die von Monomen
+  erzeugt werden = p(n).
+
+
 === Derivierte Kategorie
 
 Laut [Ploog] sagt [Haiman], dass Hilb_n(X) ~~ S_n-Hilb(X^n).
@@ -92,9 +108,15 @@ ist isomorph zu Aut(D^b(X^[n])).
   http://math.stanford.edu/~vakil/727/roy.pdf
 * http://alg.math.uni-augsburg.de/forschung/spring-school-on-algebraic-geometry-2010/Picard-Vortrag.pdf
 * Strømme. http://matwbn.icm.edu.pl/ksiazki/bcp/bcp36/bcp36111.pdf
+* http://arxiv.org/pdf/math/0304302.pdf gut!
 
 
 === Nächste Schritte
 
 * Die zwei äquivalenten Definition des Punktefunktors zum Hilbertschema
   verstehen: Unterschemata bzw. Quotienten von O_???
+
+* Kohomologiering
+
+* Bedeutung für die enumerative Geometrie von Kurven
+  http://arxiv.org/pdf/math/0304302.pdf

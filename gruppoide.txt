@@ -8,6 +8,18 @@
 * Siehe: http://golem.ph.utexas.edu/category/2008/01/geometric_representation_theor_19.html
 
 
+=== Lie-Gruppoide
+
+* Dabei sollen Objektmenge und Morphismenmenge glatte Mannigfaltigkeiten
+  und die Abbildung src, tgt : Obj --> Mor Submersionen sein.
+
+* Ist X eine glatte Mannigfaltigkeit mit der Wirkung einer Lie-Gruppe G,
+  so hat X//G X als Objektmenge und G x M als Morphismenmenge. Anschaulich ist
+  (g,x) ein Morphismus x --> gx.
+
+* http://arxiv.org/pdf/math/0203100v1.pdf
+
+
 === Nächste Schritte
 
 * Interne Sprache des Topos der G-Mengen untersuchen!

@@ -116,3 +116,18 @@ siehe http://www.algant.eu/documents/theses/habibi.pdf.
 
 Siehe erste Antwort zu
 http://mathoverflow.net/questions/55526/example-of-a-variety-with-k-x-mathbb-q-cartier-but-not-cartier.
+
+
+=== Euler-Charakteristik
+
+* sum_n chi(X^n/S_n) q^n = (1 - q)^{-chi(X)}.
+
+* sum_n chi_{S_n}(X^n) q^n = prod_{j > 0} (1 - q^j)^{-chi(X)},
+  für Flächen S (nicht Kurven!).
+
+
+=== Unglattheit
+
+* Der Fixort jeder Transposition von S_n in X^n hat Kodimension 2.
+  *Deshalb* ist S^{(n)} nicht glatt. http://arxiv.org/pdf/math/0304302.pdf,
+  Seite 2.

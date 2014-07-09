@@ -34,6 +34,9 @@
   die Kohomologie von X/G zu bestimmen.
   http://mathoverflow.net/questions/1080/how-to-compute-the-cohomology-of-orbit-spaces-when-the-action-is-not-free
 
+
+=== Kohomologie des gewöhnlichen Quotienten X/G
+
 * Falls X lokal kompakt und hausdorffsch ist und G endlich ist, so habe
   einen Homo mu : H^*(X; k) --> H^*(X/G; k) mit:
 
@@ -55,10 +58,27 @@
   Denn: chi(X/G) = dim H^*(X/G;k) = dim H^*(X;k)^G = dim im P
             = 1/|G| sum_g tr g = 1/|G| sum_g L(G) = 1/|G| chi(X^g).
 
-  Hier geht also die Lefschetze Fixpunktformel ein.
+  Hier geht also die Lefschetzschee Fixpunktformel ein.
 
   Patrick Shanahan. The Atiyah-Singer Index Theorem. Seite 127.
   http://www.indiana.edu/~jfdavis/teaching/m721/resources/shanahan.pdf
+
+* Vergleiche:
+  http://hirzebruch.mpim-bonn.mpg.de/135/1/78_On%20the%20Euler%20number%20of%20an%20orbifold.pdf
+
+      chi(X//G) = 1/|G| sum_{gh=hg} chi(X^{g,h})
+                = sum_{Konjugationsklassen [g]} chi(X^g / C(g)).
+
+  Aber irgendwas ist hier faul. Es müsste nämlich gelten:
+
+      chi(pt//G) = 1/|G|.
+
+  Mit der Formel aber folgt: chi(pt//G) = |Konjugationsklassen in G|.
+
+  Vielleicht gibt es einen Unterschied zwischen chi(X,G) und chi(X//G).
+
+* Man "erwartet", dass chi(X//G) die Euler-Charakteristik einer krepanten
+  Auflösung von X/G ist.
 
 
 === Singularität ist zu wenig orbig
