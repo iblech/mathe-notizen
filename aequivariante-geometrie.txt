@@ -58,7 +58,7 @@
   Denn: chi(X/G) = dim H^*(X/G;k) = dim H^*(X;k)^G = dim im P
             = 1/|G| sum_g tr g = 1/|G| sum_g L(G) = 1/|G| chi(X^g).
 
-  Hier geht also die Lefschetzschee Fixpunktformel ein.
+  Hier geht also die Lefschetzsche Fixpunktformel ein.
 
   Patrick Shanahan. The Atiyah-Singer Index Theorem. Seite 127.
   http://www.indiana.edu/~jfdavis/teaching/m721/resources/shanahan.pdf

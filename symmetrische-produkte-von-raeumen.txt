@@ -121,6 +121,7 @@ http://mathoverflow.net/questions/55526/example-of-a-variety-with-k-x-mathbb-q-c
 === Euler-Charakteristik
 
 * sum_n chi(X^n/S_n) q^n = (1 - q)^{-chi(X)}.
+  Beweis: symmetrische-produkte-von-raeumen-euler-charakteristik.pdf 
 
 * sum_n chi_{S_n}(X^n) q^n = prod_{j > 0} (1 - q^j)^{-chi(X)},
   für Flächen S (nicht Kurven!).
