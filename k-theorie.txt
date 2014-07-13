@@ -44,6 +44,7 @@ XXX: Wirklich O_X-Mod? Oder Coh(O_X)?
 
 1) Kann jedes Element in K_0(X) als Linearkombination von Klassen lokal
    freier Moduln schreiben (falls X glatt).
+   http://rigtriv.wordpress.com/2009/02/27/the-grothendieck-group-of-coherent-sheaves-on-a-variety/
 2) Kann dadurch Ringstruktur definieren.
 3) Die K-Konstruktion ist kontravariant, durch Rückzug von lokal freien Moduln.
 4) Außerdem kovariant, durch verallgemeinertes direktes Bild:

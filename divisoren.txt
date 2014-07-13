@@ -354,3 +354,4 @@ Schnittzahl von L mit F.
 * Erstes Kapitel Debarre
 * Bonavero: http://www-fourier.ujf-grenoble.fr/~bonavero/articles/ecoledete/lectu9.ps
 * http://www2.iag.uni-hannover.de/~kass/files/ChowRing.pdf
+* http://mathriding.wordpress.com/2012/12/06/vector-bundles-locally-free-sheaves-and-divisors-on-a-curve/
