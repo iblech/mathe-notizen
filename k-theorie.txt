@@ -36,15 +36,29 @@ herausteilen. Dann hat man folgendes Lemma:
 Lemma: [X] = [Y]  <==>  X \oplus Z ~~ Y \oplus Z für ein Z.
 
 
+=== Eilenberg-Mazur-Streich
+
+Sei M ein A-Modul. Dann gilt: oplus_{n \in N} M ~~ M + oplus_{n \in N} M.
+
+Daher folgt in der K-Theorie der abelschen Kategorie aller A-Moduln:
+[M] = 0.
+
+Die K-Theorie der Kategorie aller A-Moduln ist also trivial.
+
+Für eine interessante Theorie muss man also Endlichkeitsbedingungen aufnehmen.
+
+
 === K-Theorie eines Schemas
 
-Anwendung: Für X Schema habe D^b(X) --> K_0(X) := K_0(O_X-Mod).
+Anwendung: Für X Schema habe Ob D^b(X) --> K_0(X) := K_0(O_X-Mod).
 
 XXX: Wirklich O_X-Mod? Oder Coh(O_X)?
 
 1) Kann jedes Element in K_0(X) als Linearkombination von Klassen lokal
    freier Moduln schreiben (falls X glatt).
    http://rigtriv.wordpress.com/2009/02/27/the-grothendieck-group-of-coherent-sheaves-on-a-variety/
+   Das benötigt wirklich die Glattheit:
+   http://mathoverflow.net/questions/127482/locally-free-resolution-of-sheaves-on-finite-group-quotient
 2) Kann dadurch Ringstruktur definieren.
 3) Die K-Konstruktion ist kontravariant, durch Rückzug von lokal freien Moduln.
 4) Außerdem kovariant, durch verallgemeinertes direktes Bild:
@@ -57,6 +71,19 @@ http://mathoverflow.net/questions/30877/how-is-k-theory-defined-for-coherent-she
 Aber: Unter gewissen Umständen (Glattheit) kann man sich auf zerfallende kurze
 exakte Sequenzen von *Vektorbündeln* einschränken:
 http://mathoverflow.net/questions/30877/how-is-k-theory-defined-for-coherent-sheaves
+
+* K_0(P^1_k) = Z oplus Z mit F |-> (Dimension des generischen Halms, Euler-Char. von F).
+
+* K_0({x}) = K_0(k(x)) = Z.
+
+* Sei Y subseteq X ein abgeschlossenes Unterschema eines noetherschen Schemas.
+  Dann habe eine exakte Sequenz: K_0(Y) --> K_0(X) --> K_0(X \ Y) --> 0.
+  https://www.math.leidenuniv.nl/scripties/MasterJavanpeykar.pdf
+
+* K_0(X x A^1) = K_0(X). Kor.: K_0(A_R^n) = K_0(R).
+  https://www.math.leidenuniv.nl/scripties/MasterJavanpeykar.pdf, Abschnitt 5.
+
+* K_0(X x P^n) = K_0(X) tensor K_0(P^n).
 
 
 === Nutzen der K-Theorie eines Schemas für Schnitttheorie
