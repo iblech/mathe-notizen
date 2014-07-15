@@ -144,6 +144,18 @@ Laut http://www.math.purdue.edu/~dvb/preprints/book-chap17.pdf, Korollar 17.1.3:
     Lambda^p O(-1)^(n+1) = O(-p)^\binom{n+1}{p}.
 
 
+=== Beziehung zwischen den Twistinggarben
+
+Auf X = Proj Sym V^ gilt:
+
+    0 --> Lambda^{n+1} V^ tensor O(-n-1) --> ...
+      --> V^ tensor O(-1)
+      --> O
+      --> 0.
+
+Insbesondere impliziert das eine Beziehung der O(m) in der K-Theorie.
+
+
 === Als Extensionen von Geradenbündeln
 
 http://www.tufts.edu/~mteixido/files/vectbund.pdf

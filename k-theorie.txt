@@ -35,6 +35,32 @@ herausteilen. Dann hat man folgendes Lemma:
 
 Lemma: [X] = [Y]  <==>  X \oplus Z ~~ Y \oplus Z für ein Z.
 
+Erstaunlicherweise gilt: Sind X^* und Y^* homotopieäquivalente Komplexe in Kom(A),
+wobei A nur additiv ist, so ist chi(X^*) = chi(Y^*) in der K-Theorie von A (in der
+man nur zerfällte kurze exakte Sequenzen herausgeteilt hat). Das wird elementar
+erklärt in /A Note on the Grothendieck Group of an Additive Category/ von David
+Rose (http://arxiv.org/abs/1109.2040):
+
+1. phi : X^* --> Y^* ist eine Homotopieäquivalenz <==> Cone(phi) ~ 0.
+
+2. X^* ~ 0 ==> chi(X^*) = 0. (Kombinatorisch!)
+
+3. X^* ~ Y^* ==> chi(Cone(phi)) = 0 = chi(X^*) - chi(Y^*).
+
+(Falls A abelsch ist und man die volle K-Theorie verwendet, folgt 2. viel
+einfacher: chi(X^*) = chi(H^*(X^*)) = chi(0) = 0. In dieser Situation haben
+also sogar Komplexe mit Nullkohomologie Euler-Charakteristik Null, nicht nur
+solche, die homotopieäquivalent zum Nullkomplex sind.)
+
+Das kann man verwenden, um Wohldefiniertheit zu zeigen: Angenommen, eine
+additive Größe c(E) ist schon für spezielle Objekte E definiert, und jedes
+Objekt lässt sich durch solche auflösen. Gelte weiter, dass je zwei solcher
+Auflösungen homotopieäquivalent sind. Dann ist die Definition
+
+    c(X) := sum_i (-1)^i c(E_i) für ... -> E_1 -> E_0 -> X exakt
+
+sinnvoll.
+
 
 === Eilenberg-Mazur-Streich
 
@@ -84,6 +110,10 @@ http://mathoverflow.net/questions/30877/how-is-k-theory-defined-for-coherent-she
   https://www.math.leidenuniv.nl/scripties/MasterJavanpeykar.pdf, Abschnitt 5.
 
 * K_0(X x P^n) = K_0(X) tensor K_0(P^n).
+
+* K_0(P^n) über den dualen Zahlen:
+  http://mathoverflow.net/questions/77089/grothendieck-group-for-projective-space-over-the-dual-numbers,
+  zweite Antwort.
 
 
 === Nutzen der K-Theorie eines Schemas für Schnitttheorie
@@ -147,6 +177,7 @@ Für Surjektivität benötigt man die kanonische Filtrierung von Komplexen:
 
 Hall-Algebren sind Grothendieck-Gruppen:
 http://sbseminar.wordpress.com/2011/04/18/hall-algebras-are-grothendieck-groups/#more-3988
+
 
 == Nächste Schritte
 
