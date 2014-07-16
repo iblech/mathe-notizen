@@ -3,6 +3,22 @@
 Def.: D(X) := D^b(Coh(O_X)).
 
 
+=== Bedeutung der Diagonale
+
+1. Ausgezeichnete Dreiecke in D^b(X x Y) stiften über Fourier--Mukai
+   "ausgezeichnete Dreiecke" von Transformationen D^b(X) --> D^b(Y):
+   Setzt man ein Objekt E von D^b(X) in ein solches Dreieck von
+   Transformationen ein, so erhält man ein ausgezeichnetes Dreieck in D^b(Y).
+
+2. Wenn man speziell eine Auflösung der Diagonale O_Delta in D^b(X x X)
+   hat, so findet man damit Auflösungen von beliebigen Objekten in D^b(X)
+   durch solche, die man recht explizit angeben kann (Abhängigkeit von der
+   Auflösung der Diagonale).
+
+3. Als Korollar fällt Information über die Euler-Charakteristik ab,
+   die die verschiedenen Morphismen nicht sieht.
+
+
 === Projektiver Raum
 
 Satz: D(P^n) wird erzeugt durch die exzeptionelle Sequenz
@@ -60,6 +76,14 @@ Siehe: Christian Schnell. The fundamtenal group is not a derived invariant.
 * D^b(X) für X = Spec A? Wodurch wird D^b(X) und Aut(D^b X) dann erzeugt?
 * Was ist D(X) anschaulich?
 * Derivierte Kategorien konstruktiv? Schematheorie konstruktiv?
+
+* Sei F : D^b(X) --> D^b(Y) eine Äquivalenz. Wie kann ich dann vorgehen,
+  um einen Fourier-Mukai-Kern für F zu finden? Nutze Auflösung der Diagonale!
+
+* Wie geht in Orlovs Resultat die (Anti-)Amplizität ein?
+
+* Was bedeutet Omega^n ~~ O anschaulich? Welche Konsequenzen hat das?
+
 
 Literatur:
 * Caldararu. Derived categories of schemes: a skimming.

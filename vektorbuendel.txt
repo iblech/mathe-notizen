@@ -1,3 +1,13 @@
+=== Diskret vs. kontinuierlich
+
+Die Kategorie der Vektorbündel über einem Raum ist etwas kontinuierliches:
+Denn man kann ja verschiedene Vektorbündel über Extensionen konstruieren, und
+meistens wird es nichttriviale Ext-Gruppen geben.
+
+Geradenbündel sind dagegen oft nur etwas diskretes, etwa Pic P^n = Z
+(über Körpern).
+
+
 === Vektorbündel als Begriffe verallgemeinerter Funktionen
 
 Vektorbündel liefern verallgemeinerte Begriffe von "Funktionen" auf einem

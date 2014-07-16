@@ -50,6 +50,20 @@ Sei ferner f: A --> A/(x) die kanonische Projektion. Dann gilt f^\vee\vee = f,
 aber H^*(f^\vee) = 0.
 
 
+=== Notwendigkeit der Invertierung von Quasiisomorphismen
+
+... statt lediglich von Homotopieäquivalenzen.
+
+Sei P^* --> X --> 0 eine projektive Auflösung und E^* --> X --> 0 eine
+beliebige. Dann gibt es einen Morphismus P^* --> E^*. Dieser wird ein Quasiiso,
+aber keine Homotopieäquivalenz sein. Da wir beliebige Auflösungen eines Objekts
+betrachten möchten (und nicht nur projektive), sollten wir daher Quasiisos
+invertieren.
+
+Ferner sollte P^* --> X[0] invertierbar sein. Das ist im Allgemeinen aber auch
+keine Homotopieäquivalenz.
+
+
 === Beispiel einer Ext-Algebra
 
 Sei E die äußere Algebra über einem Körper K in Erzeugern e_1, ..., e_n.

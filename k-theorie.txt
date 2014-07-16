@@ -1,3 +1,19 @@
+=== Idee
+
+Die Klasse [X] eines Objekts X in der K-Theorie ist eine *diskrete Invariante*
+von X. Es ist die universelle additive Invariante.
+
+Variieren die Objekte einer Kategorie kontinuierlich, ist daher klar, dass aus
+Gleichheit der Klassen nicht Isomorphie der Objekte gefolgert werden kann.
+
+Eine interessante Ausnahme ist die Kategorie der endlich-dimensionalen
+C-Darstellungen einer endlichen Gruppe. In dieser zerfallen alle kurzen exakten
+Sequenzen (char C = 0), daher ist die allgemeine K-Theorie dasselbe wie die
+additive K-Theorie. Sind die Klassen zweier Objekte gleich, so sind die Objekte
+"stabil isomorph". Mit Charaktertheorie (Grundkörper C) folgt damit sofort,
+dass die beiden Objekte sogar schon wirklich isomorph sind.
+
+
 === Definition und elementare Beobachtungen
 
 Sei A abelsche Kategorie.
@@ -34,6 +50,11 @@ Sei A nur additiv. Dann kann man immerhin Elemente der Form
 herausteilen. Dann hat man folgendes Lemma:
 
 Lemma: [X] = [Y]  <==>  X \oplus Z ~~ Y \oplus Z für ein Z.
+Allgemeiner: sum_i [X_i] = sum_j [Y_j]  <==> oplus_i X_i oplus Z ~~ oplus_j Y_j oplus Z für ein Z.
+Beweis: Nach Voraussetzung ist sum_i X_i - sum_j Y_j eine Summe von Termen der
+Form (A + B - (A oplus B)), mit Vorzeichen +1 oder -1. Dann Induktion über die
+Anzahl solcher Summanden. Induktionsanfang ist klar. Induktionsschritt ist
+einfach, auf Induktionsvoraussetzung zurückführen.
 
 Erstaunlicherweise gilt: Sind X^* und Y^* homotopieäquivalente Komplexe in Kom(A),
 wobei A nur additiv ist, so ist chi(X^*) = chi(Y^*) in der K-Theorie von A (in der
