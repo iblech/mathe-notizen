@@ -88,3 +88,6 @@ Siehe: Christian Schnell. The fundamtenal group is not a derived invariant.
 Literatur:
 * Caldararu. Derived categories of schemes: a skimming.
   http://www.math.wisc.edu/~andreic/publications/lnPoland.pdf
+
+* http://www.math.lsa.umich.edu/~idolga/derived9.pdf
+  Ist sehr ausführlich!
