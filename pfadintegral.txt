@@ -1,0 +1,4 @@
+* Pfadintegrale in beliebigen rigiden Tensorkategorien:
+  http://churipo.matmor.unam.mx/~robert/docs/phd_thesis.pdf
+
+  Da kommen "braided integers" vor!

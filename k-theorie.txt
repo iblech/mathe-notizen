@@ -13,6 +13,22 @@ additive K-Theorie. Sind die Klassen zweier Objekte gleich, so sind die Objekte
 "stabil isomorph". Mit Charaktertheorie (Grundkörper C) folgt damit sofort,
 dass die beiden Objekte sogar schon wirklich isomorph sind.
 
+Der letzte Schritt benötigt etwas mehr, als dass die Kategorie der Darstellungen
+halbeinfach ist (d.h. jedes Objekt direkte Summe irreduzibler Objekte ist):
+Denn wenn oplus_i (n_i + z_i) V_i ~~ oplus_i (m_i + z_i) V_i, dann
+n_i + z_i = m_i + z_i für alle i, also n_i = m_i für alle i.
+Dafür wird verwendet: Die Vielfachheit n_j in einer Darstellung oplus_i n_i V_i
+ist dim Hom(V_j, oplus_i n_i V_i). Hier geht Schurs Lemma ein, welches
+algebraische Abgeschlossenheit des Grundkörpers benötigt.
+
+Aber geht es auch ohne? Extrahiere n_j einfach als
+
+    dim Hom(V_j, oplus_i n_i V_i) / dim Hom(V_j, V_j).
+
+Denke schon! Kurz: Auch im Fall, dass k ein nicht unbedingt algebraisch
+abgeschlossener Körper positiver Charakteristik ist, impliziert Gleichheit in
+K-Theorie schon Isomorphie. Natürlich nur, falls weiterhin char k _|_ |G|.
+
 
 === Definition und elementare Beobachtungen
 
@@ -50,7 +66,7 @@ Sei A nur additiv. Dann kann man immerhin Elemente der Form
 herausteilen. Dann hat man folgendes Lemma:
 
 Lemma: [X] = [Y]  <==>  X \oplus Z ~~ Y \oplus Z für ein Z.
-Allgemeiner: sum_i [X_i] = sum_j [Y_j]  <==> oplus_i X_i oplus Z ~~ oplus_j Y_j oplus Z für ein Z.
+Allgemeiner: sum_i [X_i] = sum_j [Y_j]  <==>  oplus_i X_i oplus Z ~~ oplus_j Y_j oplus Z für ein Z.
 Beweis: Nach Voraussetzung ist sum_i X_i - sum_j Y_j eine Summe von Termen der
 Form (A + B - (A oplus B)), mit Vorzeichen +1 oder -1. Dann Induktion über die
 Anzahl solcher Summanden. Induktionsanfang ist klar. Induktionsschritt ist
@@ -80,7 +96,8 @@ Auflösungen homotopieäquivalent sind. Dann ist die Definition
 
     c(X) := sum_i (-1)^i c(E_i) für ... -> E_1 -> E_0 -> X exakt
 
-sinnvoll.
+sinnvoll. Um zu zeigen, dass c(X) in X additiv ist, benötigt man wohl ein
+Pferdefußlemma.
 
 
 === Eilenberg-Mazur-Streich
@@ -200,7 +217,14 @@ Hall-Algebren sind Grothendieck-Gruppen:
 http://sbseminar.wordpress.com/2011/04/18/hall-algebras-are-grothendieck-groups/#more-3988
 
 
-== Nächste Schritte
+=== K-Theorie von Darstellungen (über C)
+
+* K(Rep_fin(G)) ist die Verlinde-Algebra von G.
+
+* K(Rep_fin(G)) wird frei erzeugt durch die Klassen irreduzibler Darstellungen.
+
+
+=== Nächste Schritte
 
 * Der K-Theorie welcher abelschen (oder zumindest additiven) Kategorie
   entspricht die K-Theorie von Vektorbündeln?
@@ -209,5 +233,12 @@ http://sbseminar.wordpress.com/2011/04/18/hall-algebras-are-grothendieck-groups/
   Gibt Herausteilen aller kurzen exakten Sequenzen dasselbe wie nur das
   Herausteilen zerfallende kurzer exakter Sequenzen, falls A halbeinfach ist?
   Oder sogar immmer...?
+
+* Auflösung der Diagonale X --> Auflösung der Diagonale X^n?
+
+* S_n-äquivariante K-Theorie von X^n?
+
+* Wie konkret kann man die Beilinson-Auflösung verwenden, um
+  Kohomologie von Garben auf P^n zu berechnen?
 
 Literatur: Max Karoubi, Huybrechts Fourier-Mukai S. 124.

@@ -2,3 +2,14 @@
 
 http://www.math.leidenuniv.nl/~rdejong/publications/thesis.pdf
 Seite 12ff.
+
+
+=== Tannaka-Dualität
+
+Kann kompakte Lie-Gruppen G aus ihrer Kategorie von Darstellungen (als
+monoidale Kategorie) zurückgewinnen. Das ist etwas besonderes, denn eine
+kompakte Lie-Gruppe ist etwas kontinuierliches, ihre Kategorie von
+Darstellungen aber ist etwas diskretes (zum Beispiel in dem Sinn, dass die
+Isomorphieklassen diskret sind).
+
+Siehe: http://arxiv.org/pdf/math/0512103v1.pdf, Seite 20

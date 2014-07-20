@@ -18,3 +18,7 @@
 
 * http://math.stanford.edu/~vakil/727/
   18.727: Deformation theory and moduli spaces
+
+* http://arxiv.org/pdf/math/0512103v1.pdf
+  Seite 66
+  physikalisch

@@ -13,3 +13,8 @@ http://sbseminar.wordpress.com/2009/02/25/delignes-%E2%80%9Cla-categorie-des-rep
 * Siehe Siehe http://arxiv.org/pdf/math/0512103v1.pdf, Seite 32:
   K(Rep_findim(G)) ist angeblich die Verlinde-Algebra. Was ist denn die
   Verlinde-Algebra? :-)
+
+* Verbindung zur Physik: Standardmodell und TQFT.
+  Für TQFT siehe http://arxiv.org/pdf/math/0512103v1.pdf.
+
+  Fundamentale Teilchen ^= irreduzible Darstellungen.
