@@ -38,7 +38,12 @@ b) ...I/I^2, wobei I = ker(B \otimes_A B --> B)  (zusammenmultiplizieren).
 
        d : B --> I/I^2, b |-> [b⊗1 - 1⊗b]
 
-   gegeben.
+   gegeben. Man kann elementar zeigen, dass I als B-Ideal von Termen der Form
+   (x tensor 1 - 1 tensor x), wobei x \in B, erzeugt wird: Eine Richtung ist
+   klar. Sei für die andere Richtung sum_i x_i y_i = 0. Dann gilt:
+
+      sum_i x_i tensor y_i = sum_i (x_i tensor y_i - 1 tensor x_i y_i) =
+          sum_i y_i (x_i tensor 1 - 1 tensor x_i).
 
 
 === Tangentiale Vektorfelder

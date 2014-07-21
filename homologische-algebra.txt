@@ -105,6 +105,25 @@ M→Q/Z. –  Leonid Positselski Jul 27 '12 at 17:22
 http://mathoverflow.net/questions/103252/why-are-injective-modules-more-complicated-than-projective-modules
 
 
+=== Halbeinfache abelsche Kategorien
+
+* Eine abelsche Kategorie heißt genau dann halbeinfach, wenn jedes Objekt
+  direke Summe einfacher Objekte ist.
+
+* Unter gewissen Umständen ist das dasselbe wie zu sagen, dass alle
+  höheren Ext'e (ab i >= 1) verschwinden. (Das wiederum bedeutet, dass jeder
+  Morphismus ein Pseudoinverses besitzt.)
+
+  Hinreichend dafür ist, dass es keine unendlichen Unterobjektketten gibt.
+  (Wenn man unendliche direkte Summen ebenfalls erlaubt, sollte auch etwas
+  schwächeres genügend, wie zum Beispiel: Jedes nichttriviale Objekt besitzt
+  ein einfaches Unterobjekt.)
+
+  Im Fall, dass Ext^1 = 0 ist, ist dafür hinreichend, dass die
+  Endomorphismenringe End(X) rechts-artinsch sind. Denn Unterobjektketten
+  U < V übersetzen sich dann in Gleichungen P_U P_V = P_V.
+
+
 === Potenzielle Übungsaufgaben für die HomoAlg im SS 2014
 
 www.math.ucsd.edu/~k3walsh/11Bsheet6.pdf

@@ -109,6 +109,7 @@ ist isomorph zu Aut(D^b(X^[n])).
 * http://alg.math.uni-augsburg.de/forschung/spring-school-on-algebraic-geometry-2010/Picard-Vortrag.pdf
 * Strømme. http://matwbn.icm.edu.pl/ksiazki/bcp/bcp36/bcp36111.pdf
 * http://arxiv.org/pdf/math/0304302.pdf gut!
+* Resultants and the Hilbert scheme of points on the line.
 
 
 === Nächste Schritte

@@ -315,6 +315,13 @@ extern der Menge der offenen Teilmengen von X:
       Spec_int(O_X/(f)) ~~ Ouv(V(f))
 
 
+=== Spektrum von triangulierten Tensorkategorien
+
+Paul Balmer.
+The spectrum of prime ideals in tensor triangulated categories.
+http://arxiv.org/pdf/math/0409360v2.pdf
+
+
 === Nächste Schritte
 
 * Produziere explizites Gegenbeispiel für vermutlich falsche Behauptung,

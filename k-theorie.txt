@@ -135,6 +135,9 @@ http://mathoverflow.net/questions/30877/how-is-k-theory-defined-for-coherent-she
 Aber: Unter gewissen Umständen (Glattheit) kann man sich auf zerfallende kurze
 exakte Sequenzen von *Vektorbündeln* einschränken:
 http://mathoverflow.net/questions/30877/how-is-k-theory-defined-for-coherent-sheaves
+Sosna schreibt in seiner Doktorarbeit, dass es (immer noch bei beliebigen
+kurzen exakten Sequenzen) genügt, dass X noethersch, ganz, separiert und
+regulär ist.
 
 * K_0(P^1_k) = Z oplus Z mit F |-> (Dimension des generischen Halms, Euler-Char. von F).
 
