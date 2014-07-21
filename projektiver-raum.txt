@@ -202,6 +202,43 @@ ist. Das ist aus folgendem Grund so:
 Siehe eingescanntes Blatt.
 
 
+=== K-Theorie
+
+* K_0(P^n) wird frei durch xi^l, l = 0, ..., n, erzeugt, wobei xi = [O(-1)].
+
+  Dabei gilt: (1 - xi)^(n+1) = 0.
+
+* Mit der Beilinson-Auflösung der Diagonale kann man für jede Garbe E zeigen:
+
+      [E] = sum_{i=0}^n (-1)^i * Klasse des Komplexes
+                                    O(-i) tensor_C H(E tensor Omega^i(i))
+          = sum_{i=0}^n (-1)^i chi(E tensor Omega^i(i)) [O(-i)].
+
+* Damit erhält man einen Ringiso
+
+      Z[X]/(1-X)^(n+1) --> K_0(P^n).
+                  f(X) |-> f(xi),  wobei xi = [O(-1)]
+
+  mit Umkehrung
+
+      [E] |--> sum_{i=0}^n chi(E tensor Omega^i(i)) X^i.
+
+  Diese ist wohldefiniert, da Omega^i(i) als lokal freie Modulgarbe flach ist.
+  Wegen der obigen Aussage ist klar, dass die angegebene Umkehrung die
+  Surjektivität bezeugt. Die Injektivität ist mir nicht klar.
+
+  Aber: Es ist ja allgemein bekannt, dass K_0(P^n) als abelsche Gruppe isomorph
+  zu Z^(n+1) ist. Also handelt es sich hier um eine lineare surjektive
+  Abbildung zwischen freien abelschen Gruppen desselben Rangs. Also ist sie
+  schon injektiv. Damit muss auch das angegebene Rechtsinverse schon
+  linksinvers sein.
+
+* Z[X]/(1-X)^(n+1) hat die Involution X |--> 1/X. Entsprechend gibt es
+  einen analogen Isomorphismus mit [O(1)] statt [O(-1)].
+
+* Was ist die passende Lambda-Ring-Struktur auf Z[X]/(1-X)^(n+1)?
+
+
 === Nächste Schritte
 
 * Die üblichen wichtigen Garben auf P^n verstehen.

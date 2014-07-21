@@ -153,6 +153,10 @@ http://mathoverflow.net/questions/30877/how-is-k-theory-defined-for-coherent-she
   http://mathoverflow.net/questions/77089/grothendieck-group-for-projective-space-over-the-dual-numbers,
   zweite Antwort.
 
+* Siehe /Riemann--Roch Algebra/ von Fulton und Lang, ca. Seite 115.
+
+* Für K_0(P^n) siehe projektiver-raum.txt.
+
 
 === Nutzen der K-Theorie eines Schemas für Schnitttheorie
 

@@ -200,7 +200,7 @@ Quelle: Sridhar Ramesh in
 http://mathoverflow.net/questions/3184/philosophical-meaning-of-the-yoneda-lemma/15143#15143
 
 
-=== Inneres Hom
+=== Inneres Hom in Scheibenkategorien
 
 * In Set/A ist das innere Hom gegeben durch:
 
@@ -217,6 +217,21 @@ http://mathoverflow.net/questions/3184/philosophical-meaning-of-the-yoneda-lemma
 === Limiten und Kolimiten in der 1-Kategorie Cat
 
 Cat ist vollständig und kovollständig.
+
+
+=== Beispiele für kodarstellbare Funktoren
+
+* Set --> Set, X |--> {*} wird durch die leere Menge dargestellt.
+
+* Set --> Set, X |-> Hom(A,X) x Hom(B,X) wird durch das Koprodukt und das
+  Tupel (inj_A, inj_B) dargestellt.
+
+* Vect --> Set, X |--> {*} wird durch R^0 dargestellt.
+
+* Vect --> Set, X |--> X wird durch R^1 und 1 \in R^1 dargestellt.
+
+* Quot, Tensorprodukt, äußere Algebra, Faktormodul, freier Modul,
+  Z[X], kontravarianter Potenzmengenfunktor
 
 
 === Nächste Schritte
