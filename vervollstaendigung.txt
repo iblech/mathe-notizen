@@ -75,6 +75,11 @@
 [3] http://mathoverflow.net/questions/85323/topos-associated-to-a-category
 
 
+=== Pro-Objekte, unendliche Galoistheorie als Lawvere-Theorie, ...
+
+* http://qchu.wordpress.com/2013/06/23/operations-pro-objects-and-grothendiecks-galois-theory/#more-12927
+
+
 === Vervollständigung von metrischen Räumen
 
 * "<" hat computational content (x < y <==> x#y und nicht (y < x)),

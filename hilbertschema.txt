@@ -30,6 +30,8 @@ Dann ist das Hilbertpolynom von Z definiert durch
 * Für genügend große m gilt: P_Z(m) = h^0(Z, O(m)).
   (Serres Verschwindungstheorem.)
 
+* http://rigtriv.wordpress.com/2008/10/09/the-hilbert-polynomial-explained/
+
 
 === Tangentialraum
 

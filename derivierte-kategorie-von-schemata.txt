@@ -91,3 +91,7 @@ Literatur:
 
 * http://www.math.lsa.umich.edu/~idolga/derived9.pdf
   Ist sehr ausführlich!
+
+* http://arxiv.org/abs/alg-geom/9506012
+  Die Originalliteratur von Bondal und Orlov.
+  Bemerkenswert verständlich!

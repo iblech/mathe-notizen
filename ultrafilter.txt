@@ -1,0 +1,8 @@
+* http://qchu.wordpress.com/2010/11/22/boolean-rings-ultrafilters-and-stones-representation-theorem/
+* Kompakte Hausdorffräume sind Algebren für die Monade beta:
+
+      beta(X) --> X
+
+  ordnet jedem Ultrafilter seinen eindeutigen Grenzpunkt zu.
+
+  Korollar: Tychonoff für kompakte Hausdorffräume.

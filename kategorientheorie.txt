@@ -234,6 +234,17 @@ Cat ist vollständig und kovollständig.
   Z[X], kontravarianter Potenzmengenfunktor
 
 
+=== Zusätzliche Struktur
+
+Wie kann man sicher sein, dass ein Funktor F : C --> D sich nicht upgraden
+lässt zu einem Funktor C --> D', wobei D' eine Kategorie strukturierter Objekte
+von C ist?
+
+http://qchu.wordpress.com/2013/09/08/the-homotopy-groups-are-only-groups/#more-13969
+
+Hängt mit Lawvere-Theorien zusammen.
+
+
 === Nächste Schritte
 
 * Kurz über "Cat ist vollständig und kovollständig" nachdenken.

@@ -14,3 +14,5 @@
 
 * Josts Frage: Wieso funktioniert die Lösungsformel vierten Grads,
   obwohl die Galoisgruppe evtl. viel weniger als die volle S_4 ist?
+
+* http://qchu.wordpress.com/2013/06/23/operations-pro-objects-and-grothendiecks-galois-theory/#more-12927

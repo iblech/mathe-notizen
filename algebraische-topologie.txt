@@ -83,6 +83,11 @@ Siehe:
   eine Bewertung ist (d.h. das Inklusions-/Exklusionsprinzip erfüllt).
 
 
+=== Torus
+
+http://qchu.wordpress.com/2013/10/12/the-cohomology-of-the-n-torus/
+
+
 === Hawaiianischer Ohrring
 
 Daniel K. Biss.

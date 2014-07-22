@@ -27,6 +27,14 @@
 
 * Svens Bemerkung
 
+* Lurie (http://www.math.harvard.edu/~lurie/papers/survey.pdf, Seite 10:
+  Wenn X ein Haupt-G-Bündel über Y ist, dann sollte K_G(X) = K(Y) gelten,
+  und zwar sogar für alle Vorstellungen von Kohomologietheorien.
+
+* Die Idee, über X_G zu gehen, ist nicht immer gut. Etwa stimmt
+  K(X_G) nicht mit der offensichtlich guten Definition von K_G(X) über
+  äquivariante Bündel überein.
+
 
 === Verbindung zwischen H_G(X) und H(X/G)
 
