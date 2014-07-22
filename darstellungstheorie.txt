@@ -1,6 +1,62 @@
+=== Darstellungen auf Eigenräumen
+
+Wirke G auf V. Sei A : V --> V ein Operator.
+
+Wenn dieser G-äquivariant ist, so ist auch (A - lambda Id) G-äquivariant und
+damit sind die Eigenräume von A G-Untermoduln. 
+
+Beispiel: H ist (manchmal) invariant unter Drehungen, d.h. SO(3)-äquivariant.
+Also sind Eigenräume Darstellungen von SO(3). Sollten sie eindimensional sein,
+so sind sie automatisch irreduzible Darstellungen. Nun weiß man: Diese werden
+durch zwei Zahlen klassifiziert -- genannt: Drehmoment und magnetische
+Quantenzahl.
+
+
+=== Orthogonale Zerlegungen
+
+Wirke G auf V. Besitze V ein G-invariantes Skalarprodukt. Dann zerfällt V in
+eine *orthogonale* direkte Summe aus irreduziblen Darstellungen.
+
+Ist A : V --> V ein selbstadjungierter G-äquivarianter Operator, so zerfällt in
+dieser Situation V in eine orthogonale direkte Summe von Eigenräumen, welche
+wiederum in eine orthogonale direkte Summe von irreduziblen Darstellungen
+zerfällt.
+
+Oft ist es so, dass die Eigenräume selbst schon irreduzibel sind. Wenn nicht,
+hat man vielleicht den vollen Umfang der Symmetriegruppe nicht erkannt;
+vergrößert man sie, so wird es für Darstellungen leichter, irreduzibel zu sein,
+weil es dann für Untervektorräume schwerer wird, G-invariant zu sein.
+
+
 === C[G] enthält alle irreduziblen Darstellungen
 
 http://unapologetic.wordpress.com/2010/11/17/decomposing-the-left-regular-representation/
+
+C[G] = oplus_i dim(V_i) V_i.
+
+
+=== Irreduzible Darstellungen der S_n
+
+Die irreduzible Darstellungen der S_n lassen sich aus Young-Diagrammen
+gewinnen: Der Projektionsoperator zu einem (willkürlich mit Zahlen
+beschriftetem) Young-Diagramm ist
+
+    Normalisierungsfaktor * Q * P : C[S_n] --> C[S_n],
+
+wobei P = sum_pi pi, Q = sum_sigma sgn(sigma) sigma. Dabei läuft pi über all
+die Permutationen, die nur die Zahlen in den Zeilen vertauschen, und sigma
+analog über all die Permutationen, die nur die Zahlen in den Spalten
+vertauschen.
+
+Das Bild eines solchen Projektionsoperators ist eine irreduzible Darstellung.
+Andere Zahlenbelegungen führen zu konjugierten Operatoren und isomorphen
+Darstellungen.
+
+Wenn man die Zahlen nur "standardmäßig" wählt (innerhalb jeder Zeile und Spalte
+aufsteigend), erhält man jede Kopie einer irreduziblen Darstellung genau
+einmal.
+
+http://www.th.physik.uni-bonn.de/nilles/people/luedeling/grouptheory/data/grouptheorynotes.pdf
 
 
 === Familie CRep(t) von Kategorien
@@ -18,3 +74,5 @@ http://sbseminar.wordpress.com/2009/02/25/delignes-%E2%80%9Cla-categorie-des-rep
   Für TQFT siehe http://arxiv.org/pdf/math/0512103v1.pdf.
 
   Fundamentale Teilchen ^= irreduzible Darstellungen.
+
+* http://arxiv.org/pdf/math-ph/0005032v1.pdf
