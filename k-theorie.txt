@@ -99,6 +99,10 @@ Auflösungen homotopieäquivalent sind. Dann ist die Definition
 sinnvoll. Um zu zeigen, dass c(X) in X additiv ist, benötigt man wohl ein
 Pferdefußlemma.
 
+Warnung: http://mathoverflow.net/a/61272/31233 Angeblich gilt in der nur
+additiven K-Theorie nicht: Die alternierend aufsummierte Klasse einer längeren
+exakten Sequenz ist Null.
+
 
 === Eilenberg-Mazur-Streich
 
@@ -159,6 +163,10 @@ regulär ist.
 * Siehe /Riemann--Roch Algebra/ von Fulton und Lang, ca. Seite 115.
 
 * Für K_0(P^n) siehe projektiver-raum.txt.
+
+* K(A^n) = Z. Folgt daraus, dass jeder endlich erzeugte R-Modul eine endliche
+  Auflösung durch freie Moduln zulässt. (Unter irgendwelchen Bedingungen.)
+  http://mathoverflow.net/a/172945/31233
 
 
 === Nutzen der K-Theorie eines Schemas für Schnitttheorie
