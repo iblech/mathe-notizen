@@ -243,6 +243,19 @@ Charles Siegel auf http://mathoverflow.net/questions/2414/sheaf-description-of-g
 
   http://math.ucr.edu/home/baez/calgary/BG.html
 
+* In der Topologie werden Vektorbündel durch Homotopieklassen von Abbildungen
+  nach CP^infty klassifiziert.
+
+  In der algebraischen Geometrie dagegen durch Abbildungen selbst (nicht
+  Klassen) nach ... (???).
+
+  Das liegt an der Rigidität der Isos in algebraischer Geometrie. In der
+  Topologie gibt es viel mehr Isos, daher werden mehr Bündel identifiziert,
+  daher muss es weniger klassifizierende Abbildungen geben, daher muss man sich
+  auf Klassen einschränken.
+
+  http://math.stackexchange.com/a/553881/61604
+
 
 === Nächste Schritte
 

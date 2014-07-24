@@ -239,6 +239,23 @@ Siehe eingescanntes Blatt.
 * Was ist die passende Lambda-Ring-Struktur auf Z[X]/(1-X)^(n+1)?
 
 
+=== Garbenkohomologie des P^n = Proj A[x_0,...,x_n]
+
+* Für k >= 0:
+
+      H^0(O(k)) = Sym^k(A^(n+1))
+
+      sonst Null.
+
+* Für k < 0:
+
+      H^n(O(k)) = Sym^(-k-n-1)(A^(n+1))
+
+      sonst Null.
+
+  Für -k-n-1 < 0, d.h. für -n <= k < 0, also einfach überall Null.
+
+
 === Nächste Schritte
 
 * Die üblichen wichtigen Garben auf P^n verstehen.
