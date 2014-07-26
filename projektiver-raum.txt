@@ -256,6 +256,12 @@ Siehe eingescanntes Blatt.
   Für -k-n-1 < 0, d.h. für -n <= k < 0, also einfach überall Null.
 
 
+=== Normalenbündel von P^n in P^(n+1)
+
+http://math.uoregon.edu/~ddugger/kgeom.pdf
+Seite 156, Beispiel 22.7
+
+
 === Nächste Schritte
 
 * Die üblichen wichtigen Garben auf P^n verstehen.

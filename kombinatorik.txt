@@ -1,0 +1,3 @@
+=== Interpretation von alternierenden Summen
+
+https://www.math.hmc.edu/~benjamin/papers/DIE.pdf

@@ -228,8 +228,10 @@ Für Surjektivität benötigt man die kanonische Filtrierung von Komplexen:
 
 === Hall-Algebra
 
-Hall-Algebren sind Grothendieck-Gruppen:
-http://sbseminar.wordpress.com/2011/04/18/hall-algebras-are-grothendieck-groups/#more-3988
+* Hall-Algebren sind Grothendieck-Gruppen:
+  http://sbseminar.wordpress.com/2011/04/18/hall-algebras-are-grothendieck-groups/#more-3988
+
+* http://www.math.ubc.ca/~pooya/files/sms-Reineke.pdf
 
 
 === K-Theorie von Darstellungen (über C)
@@ -256,4 +258,9 @@ http://sbseminar.wordpress.com/2011/04/18/hall-algebras-are-grothendieck-groups/
 * Wie konkret kann man die Beilinson-Auflösung verwenden, um
   Kohomologie von Garben auf P^n zu berechnen?
 
-Literatur: Max Karoubi, Huybrechts Fourier-Mukai S. 124.
+
+=== Literatur
+
+* Max Karoubi
+* Huybrechts Fourier-Mukai S. 124.
+* http://math.uoregon.edu/~ddugger/kgeom.pdf
