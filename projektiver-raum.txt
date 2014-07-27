@@ -379,21 +379,26 @@ Für n = 2:
   0  0  1
 
 
-=== Garbenkohomologie des P^n = Proj A[x_0,...,x_n]
+=== Garbenkohomologie des P^n = Proj A[x_0,...,x_n] = Proj Sym V^
 
 * Für k >= 0:
 
-      H^0(O(k)) = Sym^k(A^(n+1))
+      H^0(O(k)) = Sym^k(A^(n+1)) = Sym^k V^
 
       sonst Null.
 
 * Für k < 0:
 
       H^n(O(k)) = Sym^(-k-n-1)(A^(n+1))
+      bzw. H^n(O(-n-l-1)) = Sym^l V für l >= 0.
 
       sonst Null.
 
   Für -k-n-1 < 0, d.h. für -n <= k < 0, also einfach überall Null.
+
+* Schicke Berechnung in Shafarevich (Ed.), Algebraic Geometry II, Cohomology of
+  Algebraic Varieties, Seite 34. (Über Koszul und Spec Sym V^:
+  H^q(Proj Sym V^, oplus_{m in Z} F(m)) = H^q(V \ {0}, pi^*(F)).)
 
 
 === Normalenbündel von P^n in P^(n+1)

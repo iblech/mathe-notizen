@@ -137,6 +137,23 @@ Index "0" in "x_0" abhängt, und dass man allgemeiner sogar jede
 nicht-verschwindende Linearform nehmen kann.
 
 
+=== Halme
+
+Siehe serres-twistinggarben-uebersicht.pdf.
+
+* Sei H = V(x_0) eine Hyperebene in X = Proj Sym V^.
+  Sei x ein Punkt in X, der also einer Gerade l in V entspricht.
+  Sei l = span(u). Dann:
+
+      O(-H)|_x ~~ l  durch  g |-> g(x) * 1/x_0(u) * u.
+
+      O(H) ~~ l^  durch  g |-> g(x) * x_0(u) * theta,  wobei theta dual zu u.
+
+  Der Ausdruck "g(x) * x_0(u)" ergibt wirklich Sinn: g hat (als rationale
+  Funktion) vielleicht einen Pol bei H, aber der wird durch die Multiplikation
+  mit x_0(u) wieder ausgeglichen.
+
+
 === Äußere Potenzen
 
 Laut http://www.math.purdue.edu/~dvb/preprints/book-chap17.pdf, Korollar 17.1.3:

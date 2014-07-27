@@ -40,8 +40,16 @@ d omega = 0: Integral über omega ist unabhängig vom Weg (bei Deformationen)
 
 omega = d alpha: Integral über omega ist null auf geschlossenen Wegen
 
+0-Formen sind Funktionen; das Integral einer Funktion f über einen 0-Zykel
+sum a_i P_i ist sum a_i f(P_i). Der Satz von Stokes gilt dafür. Geschlossenheit
+von f bedeutet, dass f lokal konstant ist.
+
 omega = (-y dx + x dy) / (x^2 + y^2) ist auf R^2 \ {0} geschlossen, aber nicht
-exakt.
+exakt. Man kommt auf diese Form wie folgt:
+
+    1/z dz = 1/(x+iy) d(x+iy) = (x-iy)/(x^2+y^2) (dx + i dy)
+      = ... + i omega; da das Integral über 1/z dz 2 pi i ist, weiß man, dass
+      das Integral über omega 2 pi ist.
 
 
 === Čech-Kohomologie

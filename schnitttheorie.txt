@@ -1,3 +1,16 @@
 * http://rigtriv.wordpress.com/2009/11/05/chern-classes-part-2/
 * http://rigtriv.wordpress.com/2009/03/22/the-chow-ring-and-chern-classes/
 * http://rigtriv.wordpress.com/2009/11/02/manipulating-cycles/
+
+
+=== Schnitttheorie bei Mannigfaltigkeiten
+
+http://www2.imperial.ac.uk/~jnordstr/wrap.pdf, Seite 2.
+
+Seien A und B Untermannigfaltigkeiten einer kompakten Mannigfatigkeit M mit
+Dimensionen n-i, n-j, die sich transversal schneiden (d.h. T_xA + T_xB = T_xM
+für alle x in A cap B). Dann gilt:
+
+    Pd(A) cup Pd(B) = Pd(A cap B) in H^(i+j)(M).
+
+Dabei bezeichnet Pd : H_k --> H^{n-k} die Poincaré-Paarung.

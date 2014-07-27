@@ -1,0 +1,11 @@
+=== Euler-Charakteristik
+
+Die Euler-Charakteristik des E_2-Terms ist dieselbe wie die vom E_infty-Term.
+
+Siehe mccleary.pdf, Seite 15: Ist E_2^** lokal endlich und E_2^** ==> H^*,
+so gilt: chi(E_r^**) = chi(H^*) für alle r >= 2.
+
+
+=== Nächste Schritte
+
+* Obige Aussage genau nachvollziehen.

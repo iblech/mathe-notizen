@@ -74,6 +74,9 @@ c) in der internen Sprache: { g in K_X | D g in O_X }
 
    oder: Wenn D = [f], dann f^(-1) O_X \subseteq K_X.
 
+Übrigens: Aus der exakten Sequenz 1 --> O_X^* --> K_X^* --> Div_X --> 1
+folgt: H^1(X, O_X^*) = 0 <==> K(X)^* --> Div(X) surjektiv <==> Cl = 0.
+
 
 === Exakte Sequenz zum Träger eines effektiven Cartier-Divisors
 
@@ -330,6 +333,16 @@ Schnittzahl von L mit F.
 * (L . O_X) = chi(O) - chi(L^) = -deg(L^) = deg(L).
 * (O . F) = 0.
 * (O(m) . P^n) := (O(m) . O_{P^n}) = m.
+
+Verbindung zur K-theoretischen Schnittzahl:
+
+    (L . F)_Vakil = (O_D . F)_Manin,
+
+falls L = O(D) die Idealgarbe zu einem effektiven Divisor D ist:
+
+    (O_D . F)_Manin = chi(O_D * F) = chi(O * F - O(-D) * F)
+        = chi(X, F) - chi(L^ tensor F)
+        = (L . F)_Vakil.
 
 
 === Nächste Schritte

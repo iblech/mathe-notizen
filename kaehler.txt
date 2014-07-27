@@ -26,7 +26,7 @@ Modul der Differentialformen vom Grad 1 auf B über A.
 Konstruktion: Omega^1_B/A ist...
 
 a) ...der freie B-Modul zur Basis d(b), b in B, modulo Relationen
-   (A-Linearität und Leibnizregel)
+   (A-Linearität und Leibnizregel).
 
 b) ...I/I^2, wobei I = ker(B \otimes_A B --> B)  (zusammenmultiplizieren).
   
@@ -104,6 +104,15 @@ Der Iso in die Rückrichtung ist gegeben durch
            falls del_y F invertierbar:  h / del_y F dx.
 
 
+=== Beispiel: Unterschema durch reguläre Sequenz
+
+Sei (f_1,...,f_r) eine reguläre Sequenz in A. Sei I = (f_1,...,f_r) das
+Verschwindungsideal in A. Dann ist I/I^2 (= Omega?!) frei vom Rang r:
+
+Die Erzeuger sind die Klassen der f_i.
+Linear unabhängig sind sie wegen der Regularität.
+
+
 === Zusammenhang mit der Diagonale
 
 Laut Liu (Kap. 6.1.2, Seite 216): Die Diagonale Delta : X --> X x_Y X
@@ -139,3 +148,5 @@ separabel, dann: Omega^1_{X/S}|_x = T_{X_s,x}^.
 
   Laut einer Wikipedia-Spekulation so:
   Omega^n \ {0} modulo Wirkung von R^+ ist die Orientierungsgarbe.
+
+* Verstehen, inwieweit I/I^2 im Beispiel der regulären Sequenz Omega ist.

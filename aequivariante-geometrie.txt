@@ -111,6 +111,28 @@ falls in R die Zahl 2 regulär ist.
 
 * D^b_G(pt) = { F in D^b(BG) | H^i(F) lokal konstant für alle i }
 
+* Habe Gamma^G : Qcoh_G(X) --> Vect_G(k) --> Vect(k) (Invarianten nehmen).
+  Wenn |G| _|_ char k, ist der letzte Teilfunktor exakt. Daher gilt dann:
+
+      H^i_G(X, F) = H^i(X, F)^G  (Invarianten).
+
+  Falls die Wirkung von G auf X trivial ist, kann man Gamma^G auch verstehen
+  als Komposition
+
+      Qcoh_G(X) --> Qcoh(X) --> Vect(k)  (vorne Invarianten nehmen).
+
+  Nun ist der vordere Teilfunktor exakt; es gilt
+
+      H^i_G(X, F) = H^i(X, F)^G = H^i(X, F^G).
+
+* Analog gilt: Ext^i_G(E, F) = Ext^i(E, F)^G.
+
+* Falls |G| nicht teilerfremd zur Charakteristik ist, hat man noch
+  entsprechende Spektralsequenzen.
+
+* Evtl. gilt auch Hom_{D^b_G(X)}(E, F) = Hom_{D^b(X)}(E, F)^G,
+  aber das habe ich noch nicht genau nachvollzogen.
+
 http://www.freidok.uni-freiburg.de/volltexte/2613/pdf/Diplomarbeit.pdf
 
 
@@ -125,6 +147,20 @@ http://www.freidok.uni-freiburg.de/volltexte/2613/pdf/Diplomarbeit.pdf
   und etwa im Fall X = pt sagt das Atiyah-Singer completion theorem,
   dass K(pt_G) = K(BG) die Vervollständigung von K_G(pt) = R(G) am Ideal der
   virtuellen Darstellungen der Dimension Null ist.
+
+
+=== Ein Beispiel für die Orbifold-Euler-Charakteristik
+
+Auf A^1 und P^1 wirkt Z/m, durch Multiplikation mit einer primitiven m-ten
+Einheitswurzel. Man kann leicht nachrechnen, dass A^1/(Z/m) ~~ A^1 (vermöge
+f(X) <-> f(X^m)). Vermutlich stimmt daher auch P^1/(Z/m) ~~ P^1.
+
+Dann gilt:
+
+    e(P^1, Z/m) = e(P^1) + (n-1) e((P^1)^g/C_g) = 2 + (n-1) 2 = 2n.
+        (mit der Formel aus "On the Euler number of an orbifold"
+
+    e(P^1/(Z/m)) = e(P^1) = 2.
 
 
 === Literatur

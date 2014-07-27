@@ -9,10 +9,6 @@ Urbildexistenz. Daraus folgt aber noch nicht globale Urbildexistenz.
 Berechnung mit Čech-Methoden.
 Beispiel: Gibt gute Überdeckungen für qcoh Garben auf sep. Schemata.
 
-Beispielanwendung: Erstes und zweites cousin problem.
--- Etwa ist das erste genau dann immer lösbar, wenn H^1(O) = 0,
-wobei O die Garbe der holomorphen Funktionen bezeichnet.
-
 Literatur: http://stacks.math.columbia.edu/download/cohomology.pdf
 
 Klassisches Resultat: H^q(X, O_X(d)) für X = P_R^n,
@@ -49,6 +45,44 @@ Dann habe die kurze exakte Sequenz
 Aus der langen exakten Sequenz in Kohomologie erhält man einen Morphismus
 Gamma(F) --> H^1(K). Ein globaler Schnitt von F lässt sich genau dann zu einem
 globalen Schnitt von E liften, wenn sein Bild unter dieser Abbildung null ist.
+
+
+=== Motivation für Garbenkohomologie
+
+* Faserungen. Sei f : X --> Y eine Abbildung. Dann erwartet man eine Beziehung
+  zwischen H(X), H(Y) und H(f^(-1)[y]) für y in Y. Doch H(f^(-1)[y]) hängt
+  nicht konstant oder stetig von y ab.
+
+  Daher benötigt man die höheren direkten Bilder und die Leray-Spektralsequenz:
+
+      H^p(Y, R^q f_* E) ==> H^n(X, E).
+
+* Oft ist man an H^0(F) oder h^0(F) interessiert, etwa für Schnitte von
+  Untergarben der O(m)-Bündel, denn deren globale Schnitte sind Funktionen mit
+  vorgegebenem Null- und Polstellenverhalten.
+  
+  Einfacher zu berechnen ist aber chi(F); dafür benötigt man natürlich die
+  höhere Garbenkohomologie.
+
+* Garbenkohomologie misst fehlende Exaktheit.
+
+* Gute Invarianten. Mit Garbenkohomologie kann man etwa über H^q(Omega^p)
+  sprechen.
+
+* Klassifizierung von geometrischen Dingen.
+  H^1(X, O_X^*) = Geradenbündel auf X
+  H^1(X, T_X) = infinitesimale Deformationen von X = H^0(X, N)
+  Obstruktionen zu solchen Deformationen liegen in H^1(X, N).
+
+* Auf irreduziblen Räumen gibt es wenige lokal konstante Garben.
+
+* Anwendungen wie das Cousin-Problem, Chern-Klassen, ...
+
+  Etwa ist das erste Cousin-Problem genau dann immer lösbar, wenn H^1(O) = 0,
+  wobei O die Garbe der holomorphen Funktionen bezeichnet.
+
+Shafarevich (Ed.), Algebraic Geometry II, Cohomology of Algebraic Varieties,
+Seite 10.
 
 
 === Konkretes und einfaches Beispiel
@@ -120,6 +154,17 @@ beispielsweise Z = V(X_0^2) in P^1. Dann ist der Ring der globalen Schnitte
 durch k[eps]/eps^2 gegeben, und nicht nur ein Quotient des Rings globaler
 Schnitte auf X (welcher nur k ist).
 
+Eine Anwendung: Sei X in P^n eine Hyperfläche vom Grad d. Dann hat man die
+kurze exakte Sequenz
+
+    0 --> O(-d) --> O_{P^n} --> O_X --> 0.
+
+Mit der langen exakten Sequenz in Kohomologie folgt:
+
+    H^0(X, O_X) = k.
+    H^q(X, O_X) = 0 für 0 < q < dim X = n - 1.
+    H^{n-1}(X, O_X) = H^n(P^n, O(-d)).
+
 
 === Ableitung von vergiss : Sh --> PSh
 
@@ -132,6 +177,28 @@ R^n vergiss F = (U |--> H^n(U; F)).
 Daher vertauscht "Kohomologie nehmen" mit "Filtrierte Kolimiten nehmen".
 Siehe:
 http://math.stackexchange.com/questions/401302/does-taking-the-direct-limit-of-chain-complexes-commute-with-taking-homology
+
+
+=== Mayer--Vietoris
+
+Sei X = U_0 cup U_1 eine offene Überdeckung. Für flabby Garben F hat man kurze
+exakte Sequenzen
+
+    0 --> F(X) --> F(U_0) oplus F(U_1) --> F(U_0 cap U_1) --> 0.
+
+Da man durch flabby Garben auflösen kann, folgt eine lange exakte
+Mayer--Vietoris-Sequenz:
+
+    ... --> H^n(X,F) --> H^n(U_0,F) oplus H^n(U_1,F) --> H^n(U_0 cap U_1,F) --> ...
+
+Die impliziert übrigens chi(U_0 cup U_1, F) = chi(U_0, F) + chi(U_1, F) -
+chi(U_0 cap U_1, F).
+
+Bei allgemeinen offenen Überdeckungen (nicht speziell binären) erhält man noch
+eine Spektralsequenz:
+
+    H^q(Überdeckung U, F) = product_{i_0 < ... < i_p} H^q(U_i0 cap ... U_ip, F)
+        ==> H^{p+q}(X, F).
 
 
 === Eigentlicher Basiswechsel (proper base change)
@@ -161,6 +228,26 @@ Habe Wirkung RHom(O_X,O_X) --> RHom(O_X,F).
 
 * http://mathoverflow.net/questions/11567/what-is-the-right-version-of-partitions-of-unity-implies-vanishing-sheaf-cohomo
 
+* Eine klassische Anwendung: Seien C = V(F), D = V(G) transversale Kurven im P^2.
+  Sei E = V(H) eine Kurve, die alle Schnittpunkte von C und D enthält.
+  Dann gilt: H in (F,G).
+
+  Das kann man so zeigen: Sei I die Idealgarbe von C cap D. Die Formen H vom
+  Grad k, welche auf C cap D verschwinden, sind die globalen Schnitte von
+  I(k) = I tensor O(k). Wenn deg F = m, deg G = n, hat diese Garbe die
+  Auflösung
+
+      0 --> O(k-m-n) --> O(k-m) oplus O(k-n) --> I(k) --> 0.
+
+  (Die kommt von der Koszul-Auflösung von I = im(O(-m) oplus O(-n) --> O),
+  getwistet um k. Beachte: Lambda^2(O(-m) oplus O(-n)) ~~ O(-m) tensor O(-n).)
+
+  Nun hat man H^1(P^2, O(k-m-n)) = 0, also ist Abbildung nach I(k) hinein
+  auf globalen Schnitten surjektiv. Das ist die Behauptung.
+
+  Shafarevich (Ed.), Algebraic Geometry II, Cohomology of Algebraic Varieties,
+  Seite 20.
+
 
 === Nächste Schritte
 
@@ -175,6 +262,10 @@ Habe Wirkung RHom(O_X,O_X) --> RHom(O_X,F).
 * Verstehen: Deformations are cohomological, M. Anel.
 
 * Kokern-Beispiel oben nachrechnen.
+
+* Motivation mit Faserungen verstehen.
+
+* Verstehen: Mayer--Vietoris-Sequenz als Degeneration einer Spektralsequenz.
 
 
 === Siehe auch

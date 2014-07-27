@@ -131,6 +131,8 @@ XXX: Wirklich O_X-Mod? Oder Coh(O_X)?
 3) Die K-Konstruktion ist kontravariant, durch Rückzug von lokal freien Moduln.
 4) Außerdem kovariant, durch verallgemeinertes direktes Bild:
        f_! [F] := \sum (-1)^n [R^n f_*(F)].
+   Achtung -- f_! ist kein Ringhomo. Stattdessen gilt:
+      f_! (x . f^*(y)) = f_*(x) . y.
 
 Wenn man nur zerfallende kurze exakte Sequenzen herausteilt, erhält man nicht
 die richtige Gruppe:
@@ -183,6 +185,50 @@ In K(X) sind folgende Elemente bezüglich der Multiplikation invertierbar:
 * Mit der K-Theorie können wir Chern-Klassen definieren:
   Für Vektorbündel ist das bekannt, und darauf kann man sich (unter geeigneten
   Bedingungen) zurückziehen.
+
+* Die kanonische Z-lineare Abbildung Weil(X) --> K(X), sum a_i Y_i |->
+  sum a_i [O_{Y_i}] ist eine Surjektion. Das zeigt man etwa mit
+  Kompositionsreihen. Siehe Manin (Lectures on the K-functor in algebraic
+  geometry), Seite 9.
+
+* Seien V, W abgeschlossene Unterschema in allgemeiner Lage.
+  Dann gilt: [O_V] * [O_W] = [O_{V cap W}].
+
+  Denn: Im Fall der allgemeinen Lage gilt Tor_*(O_V, O_W) = O_V tensor_O O_W =
+  O/(I_V + I_W) = O_{V cap W}.
+
+  Im Fall der beliebigen Lage ist das sicher falsch -- das Produkt in der
+  K-Theorie ist besser als der rein schematheoretische Schnitt.
+  Bedenke: V cap V = V (schematheoretisch).
+
+* Kann die Schnittzahl zweier Unterschema im transversalen Fall als
+
+      (Y_1 . Y_2) := chi(O_{Y_1} cap O_{Y_2})
+
+  definieren. Im allgemeinen Fall sollte man
+
+      (Y_1 . Y_2) := chi(O_{Y_1} tensor^L O_{Y_2})
+
+  setzen, also (Y_1 . Y_2) = chi([O_{Y_1}] * [O_{Y_2}]).
+  (Beachte: chi : K(X) --> Z ist wohldefiniert und linear, aber kein Ringhomo.
+  dim : K(Vect) --> Z ist zwar ein Ringhomo (sogar Ringiso), aber Garben-H^* :
+  K(X) --> K(Vect) ist es nicht.)
+
+* Sei Y in X ein abgeschlossenes Unterschema, dass lokal durch reguläre
+  Sequenzen gegeben ist. Dann gilt:
+
+      Tor_*(O_Y, O_Y) = Lambda^*_{O_Y}(I/I^2).
+
+      Tor_*(F, O_Y) = F tensor Lambda^*_{O_Y}(I/I^2).
+
+  Als Konsequenz:
+
+      (Delta_X . Delta_X) = sum_{i=0}^{dim X} (-1)^i chi(Omega^i_X)
+          = sum_{p=0}^{2 dim X} (-1)^p dim(oplus_{i+j=p} H^j(X, Omega^i))
+          = chi(X_an)  (falls das Sinn ergibt).
+
+  Hier geht sowas wie Lambda^* i_* O_X = i_* Lambda^* O_X ein,
+  um zwischen der Euler-Charakteristik auf X x X und der auf X zu wechseln.
 
 
 === Eulercharakteristik einer Modulgarbe (nach Hartshorne, Ex. III.5.1):
@@ -281,6 +327,8 @@ Hauptdiagonale.
 
 * Wie konkret kann man die Beilinson-Auflösung verwenden, um
   Kohomologie von Garben auf P^n zu berechnen?
+
+* K-Theorie von V(f) in P^n verstehen.
 
 
 === Literatur

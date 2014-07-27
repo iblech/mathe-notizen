@@ -46,6 +46,11 @@ ein Iso von k-Vektorräumen ist. Das geht so:
   http://link.springer.com/article/10.1134%2FS0081543809010076
 
 
+=== Auswirkungen auf die K-Theorie
+
+K(S^n C) = S^n K(C) ist völlig falsch.
+
+
 === Nächste Schritte
 
 * Obiger Funktor ist angeblich eine Äquivalenz, falls A und B halbeinfach sind.

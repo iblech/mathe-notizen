@@ -356,11 +356,14 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   festmachen, dass Ae ein direkter Summand von A ist: A = Ae oplus A(1-e).
 
 
-=== Tensorieren ist exakt, wenn der rechteste Modul flach ist
+=== Tensorprodukt
 
-http://www.math.lsa.umich.edu/~hochster/615W10/supFlatCoker.pdf
+* Tensorieren ist exakt, wenn der rechteste Modul flach ist
+  Klar mit Tor.
 
-Klar mit Tor.
+  http://www.math.lsa.umich.edu/~hochster/615W10/supFlatCoker.pdf
+
+* R/(I + J) ~~ R/I tensor_R R/J.
 
 
 === Nakayama
