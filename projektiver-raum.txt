@@ -236,7 +236,136 @@ Siehe eingescanntes Blatt.
 * Z[X]/(1-X)^(n+1) hat die Involution X |--> 1/X. Entsprechend gibt es
   einen analogen Isomorphismus mit [O(1)] statt [O(-1)].
 
+* K(P^n) ist auch als Ring isomorph zu Z[Y]/Y^(n+1), vermöge des Isos
+
+      Z[Y]/Y^(n+1) ---> K(P^n)
+              f(Y) |--> f(1 - [O(-1)]).
+
+  Es gilt 1 - [O(-1)] = [O_{P^(n-1)}].
+
+  Die Umkehrung kann man explizit so beschreiben: Sei E eine Klasse in K(P^n).
+  Dann besitzt sie ein Hilbertpolynom. Dieses kann man in einer Basis
+  numerischer Polynome entwickeln:
+
+      Hilb(E) = d_0 \binom{u+n}{n} + d_1 \binom{u+n-1}{n-1} + ...
+      (Polynomvariable u).
+
+  Dann gilt
+
+      E = sum_{i=0}^n d_i [O_{P^(n-i)],
+
+  also ist das gesuchte Urbild sum_{i=0}^n d_i Y^i.
+
+  Das habe ich aus http://math.uoregon.edu/~ddugger/kgeom.pdf.
+
+* Damit folgt auch folgende Beziehung:
+
+      sum_{i=0}^n (-1)^{i-l} \binom{i}{l} chi(E tensor Omega^i(i))
+          = (Delta^(n-l) Hilb(E))(-n+l-1).
+
+  * chi(E tensor Omega^n(n)) = chi(E(-1)).
+  * chi(E tensor Omega^(n-1)(n-1)) = (n+1) chi(E(-1)) - chi(E(-2)).
+
+* Setze A_ji := (-1)^j \binom{i}{j}. (Das ist Null für j > i.)
+  Dann gilt:
+
+  * [O_{P^(n-i)}] = sum_{j=0}^n A_ji [O(-1)]^j = (1 - [O(-1)])^i.
+  * (A_ji) ist eine Dreiecksmatrix.
+  * (A_ji) hat Determinante (-1)^(n (n+1) / 2).
+  * (A_ji) ist über Z invertierbar.
+
+  Das folgt aus der Koszul-Auflösung von O_{P^(n-i)}:
+
+      0 --> O(-i) --> ... --> O(-k)^\binom{i}{k} --> ... --> O(-1)^i --> O --> O_{P^(n-i)} --> 0.
+
+  Der k-te Term ist dabei Lambda^k O(-1)^i, denn P^(n-i) ist ja
+  Verschwindungsschemas des Schnitts (x_0,...,x_(i-1)) von O(1)^i.
+
+  * chi(O_{P^(n-i)}) = 1.
+  * chi(O_{P^(n-i)} tensor Omega^j(j)) = \binom{i}{j}.
+
 * Was ist die passende Lambda-Ring-Struktur auf Z[X]/(1-X)^(n+1)?
+
+
+=== Fundamentalklassen in K-Theorie
+
+Ist Z ein abgeschlossenes Unterschema des P^n, so heißt die Klasse von O_Z in
+K(P^n) die Fundamentalklasse von Z. Ihre Koeffizienten in der Entwicklung
+bezüglich der [O_(P^i)]-Basis von K(P^n) sind interessant:
+
+Wenn [O_Z] = d_0 [P^n] + ... + d_n [P^0], dann:
+
+* 0 = d_0 = ... = d_(c-1), wobei c = codim Z.
+
+* d_c = deg(Z).
+
+Beispiele:
+
+* Sei Z = V(f), deg f = d. Dann gilt:
+
+      [Z] = 1 - [O(-1)]^d = 1 - (1 - (1 - O(-1)))^d
+          = 1 - (1 - y)^d
+          = dy - \binom{d}{2} y^2 + \binom{d}{3} y^3 ...,
+
+  wobei y = [P^(n-1)].
+
+* Sei Z = V(f,g), deg f = d, deg g = e. Dann:
+
+      [Z] = de y^2 + 1/2 de (2-d-e) y^3 + ...
+
+  Insbesondere kann man aus [Z] das ungeordnete Paar {d,e} zurückgewinnen.
+
+
+=== Euler-Form in K-Theorie
+
+Obige Auflösung von O_{P^(n-i)} lässt sich verwenden, um die Euler-Form auf
+K(P^n) zu berechnen.
+
+Ext^*(O_{P^(n-i)}, O_{P^j}) ist die Kohomologie des folgenden Komplexes:
+
+    ... --> Hom(O(-l)^\binom{i}{l}, O_{P^j}) --> ...
+
+Also gilt:
+
+    sum (-1)^l dim Ext^l(O_{P^(n-i)}, O_{P^j})
+  = sum (-1)^l \binom{i}{l} h^0_{P^n}(O_{P^j}(l))
+  = sum (-1)^l \binom{i}{l} h^0_{P^j}(O_{P^j}(l))
+  = sum (-1)^l \binom{i}{l} \binom{j+l}{l}.
+
+Mit anderen Indizes:
+
+    (O_{P^a}, O_{P^b})_{P^n}
+  = sum_{l=0}^{n-a} (-1)^l \binom{n-a}{l} \binom{b+l}{l}
+  = (-1)^{n+a} \binom{b}{a+b-n}.
+
+Es gilt:
+
+  (O_{P^a}, O_{P^b})_{P^n} = (O_{P^(a+1)}, O_{P^b})_{P^(n+1)}.
+
+Die Darstellungsmatrizen beüglich der Basis [P^0], [P^1], ..., [P^n] (in dieser
+Reihenfolge) sehen so aus:
+
+  n = 4:
+      0  0  0  0  1
+      0  0  0 -1 -4
+      0  0  1  3  6
+      0 -1 -2 -3 -4
+      1  1  1  1  1
+
+  n = 3:
+      0  0  0 -1
+      0  0  1  3
+      0 -1 -2 -3
+      1  1  1  1
+
+Die untere Zeile erklärt sich so:
+
+    (O_{P^n}, O_{P^b}) = dim H^*(O_{P^b}) = chi(O_{P^b}) = 1.
+
+Bei den Rechnungen habe ich verwendet, dass
+
+    i^* O(l) = O(l) für i : P^i --> P^n abgeschlossene Einbettung (wobei P^i =
+    V(x_0,...,x_??).
 
 
 === Garbenkohomologie des P^n = Proj A[x_0,...,x_n]

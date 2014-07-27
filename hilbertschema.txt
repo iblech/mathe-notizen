@@ -25,12 +25,32 @@ Dann ist das Hilbertpolynom von Z definiert durch
 
     P_Z(m) := chi(Z, O(m)).
 
+Allgemeiner ist für eine kohärente Garbe E auf P^N das Hilbertpolynom durch
+
+    P_E(m) := chi(E tensor O(m))
+
+definiert.
+
 * Wenn Z eine Kurve ist, gilt P_Z(m) = deg(O(1)) * m + chi(Z, O_Z).
 
 * Für genügend große m gilt: P_Z(m) = h^0(Z, O(m)).
   (Serres Verschwindungstheorem.)
 
 * http://rigtriv.wordpress.com/2008/10/09/the-hilbert-polynomial-explained/
+
+* Beweis, dass das Hilbertpolynom wirklich ein Polynom ist:
+  Durch Induktion über N.
+
+  Für N = 0 ist es klar, dann ist das Hilbertpolynom konstant.
+
+  Die kurze exakte Sequenz zum Unterschema P^(N-1) in P^N liefert die exakte
+  Sequenz
+
+      0 --> E(-1) --> E --> E tensor O_{P^(N-1)} --> 0
+
+  und daher chi(E(u)) - chi(E(u-1)) = chi_{P^(N-1)}(E|_{P^(N-1)}(u)).
+  Das gilt, falls E ein Vektorbündel ist. Im Allgemeinen fall kann man aber
+  auflösen und die Additivtät des Hilbertpolynoms ausnutzen.
 
 
 === Tangentialraum
