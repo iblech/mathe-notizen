@@ -14,3 +14,51 @@ für alle x in A cap B). Dann gilt:
     Pd(A) cup Pd(B) = Pd(A cap B) in H^(i+j)(M).
 
 Dabei bezeichnet Pd : H_k --> H^{n-k} die Poincaré-Paarung.
+
+
+=== Selbstschnitt
+
+* chi(X) = (Delta_X . Delta_X).
+
+  In der glatten Kategorie: Mit Normalenbündel und Tubenumgebung argumentieren.
+  http://mathoverflow.net/questions/696/euler-characteristic-of-a-manifold-and-self-intersection
+
+  In der algebraischen Kategorie: Ähnlich, nur ohne die Tubenumgebung. Siehe
+  Manin und k-theorie.txt. Idee: (A . B) ist chi(O_A tensor^L O_B). Speziell im
+  Fall A = B = Delta_X gilt H^*(O_Delta tensor^L O_Delta) =
+  Tor^*(O_Delta,O_Delta) = Omega^*. Also (Delta_X . Delta_X) = chi(Omega^*) =
+  chi(X).
+
+  Vermutung von Bhargav Bhatt: Die algebraische Argumentation funktioniert auch
+  in der glatten Kategorie.
+  http://mathoverflow.net/questions/696/euler-characteristic-of-a-manifold-and-self-intersection
+
+* http://mathoverflow.net/questions/111464/self-intersection-and-the-normal-bundle
+
+
+=== Schnitt von Untermannigfaltigkeiten
+
+* Der naive Punktschnitt ist offensichtlich schlecht.
+
+* Besser ist der schematheoretische Schnitt, etwa Parabel mit Achse =
+  dicker Punkt.
+
+* Aber bei Situationen wie Selbstschnitten versagt auch der. Benötige
+  derivierte algebraische Geometrie. Dann ist der Schnitt ein deriviertes
+  Schema mit Strukturgarbe dem derivierten Tensorprodukt der Strukturgarben der
+  beiden Unterschemata.
+
+  Wenn man das so macht, gilt in Kohomologie (K-Theorie?):
+  [X] * [Y] = [X cap Y].
+
+
+=== Geometrisches Ext und Tor
+
+* http://mathoverflow.net/questions/89683/how-to-compute-mathcalexti-x-mathcalo-y-1-mathcalo-y-2
+
+* http://mathoverflow.net/questions/90970/tor-sheaves-what-do-they-tell-us-about-geometry
+
+
+=== Grothendieck--Riemann--Roch
+
+* http://mathoverflow.net/questions/10630/why-do-todd-classes-appear-in-grothendieck-riemann-roch-formula

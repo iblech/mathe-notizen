@@ -568,6 +568,9 @@ sehr gut lesbar!
 * Liu
 * Vakil
 * A Royal Road to Algebraic Geometry
+* Eisenbud, Geometry of Schemes
+* Rational points on varieties. Bjoern Poonen.
+  http://math.mit.edu/~poonen/papers/Qpoints.pdf
 
 
 === Nächste Schritte

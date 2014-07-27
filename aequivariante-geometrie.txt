@@ -170,3 +170,8 @@ Dann gilt:
 
 * Loring Tu: What is ... Equivariant Cohomology?
   http://www.ams.org/notices/201103/rtx110300423p.pdf
+
+
+=== Sichten
+
+* http://golem.ph.utexas.edu/category/2008/12/bridge_building.html

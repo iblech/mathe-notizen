@@ -355,6 +355,12 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   Ae ein projektiver A-Links-Modul. Das kann man direkt sehen oder daran
   festmachen, dass Ae ein direkter Summand von A ist: A = Ae oplus A(1-e).
 
+* Unterschied zu reflexiven Moduln: http://mathoverflow.net/a/7588
+  As you say, a finite projective module is the same as a locally free sheaf on
+  Spec R. Similarly, a finite reflexive module is the same as the push forward
+  of a locally free sheaf from an open subset U of Spec R whose complement has
+  codimension ≥2.
+
 
 === Tensorprodukt
 
@@ -364,6 +370,9 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   http://www.math.lsa.umich.edu/~hochster/615W10/supFlatCoker.pdf
 
 * R/(I + J) ~~ R/I tensor_R R/J.
+
+* M tensor_A N ~~ A tensor_{A tensor_k A} (M tensor_k N),
+  wenn k ein Körper, A eine k-Algebra und M und N A-Moduln sind.
 
 
 === Nakayama

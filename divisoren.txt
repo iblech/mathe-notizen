@@ -266,6 +266,8 @@ Sei X glatte Kurve. Dann ist ein Divisor D auf X genau dann ampel, wenn deg(D) >
 
 Siehe Introduction to Mori Theory, Prop. 3.10.
 
+Kontraktion: http://mathoverflow.net/questions/24503/contracting-divisors-to-a-point
+
 
 === Morphismen X --> P^1
 
@@ -343,6 +345,10 @@ falls L = O(D) die Idealgarbe zu einem effektiven Divisor D ist:
     (O_D . F)_Manin = chi(O_D * F) = chi(O * F - O(-D) * F)
         = chi(X, F) - chi(L^ tensor F)
         = (L . F)_Vakil.
+
+Bemerkung: Der Homo Pic(X) --> K(X), L |--> O_X - L^, der hier offenbar
+verwendet wird, berechnet die erste Chern-Klasse. In diesem Sinn ist also die
+erste Chern-Klasse von O(D), D effektiv, die Klasse von O_D in K(X).
 
 
 === Nächste Schritte

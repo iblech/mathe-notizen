@@ -1,0 +1,3 @@
+=== Schwarzsche Ableitung
+
+http://mathoverflow.net/questions/25603/ample-line-bundles-sections-morphisms-to-projective-space

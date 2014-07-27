@@ -74,6 +74,11 @@ globalen Schnitt von E liften, wenn sein Bild unter dieser Abbildung null ist.
   H^1(X, T_X) = infinitesimale Deformationen von X = H^0(X, N)
   Obstruktionen zu solchen Deformationen liegen in H^1(X, N).
 
+  H^1(X, AUT) misst Isomorphieklassen von Objekten, welche lokal trivial sind
+  aber nicht unbedingt global. AUT ist die Automorphismengarbe.
+  Einfaches Beispiel: AUT = GL(1, O_X) = O_X^*.
+  http://mathoverflow.net/a/22921
+
 * Auf irreduziblen Räumen gibt es wenige lokal konstante Garben.
 
 * Anwendungen wie das Cousin-Problem, Chern-Klassen, ...
@@ -83,6 +88,27 @@ globalen Schnitt von E liften, wenn sein Bild unter dieser Abbildung null ist.
 
 Shafarevich (Ed.), Algebraic Geometry II, Cohomology of Algebraic Varieties,
 Seite 10.
+
+
+=== Intuition zu Garbenkohomologie
+
+* Wenn man Intuition zu H^1 hat, kann man wie folgt indirekt Intuition zu H^i,
+  i > 1, bekommen:
+
+  Sei F eine Garbe, zu der wir H^*(F) verstehen wollen. Finde eine Einbettung
+  F --> A in eine azyklische Garbe. Dann gilt:
+
+      H^(i+1)(F) ~~ H^i(A/F).
+
+  http://mathoverflow.net/questions/11289/geometry-meaning-of-higher-cohomology-of-sheaves
+
+* Messung von Nicht-Exaktheit...
+
+* Dolbeaut: H^q(X, E) = H^{0,q}(X, E), also Vorstellung über harmonische
+  (0,q)-Formen. http://mathoverflow.net/a/11314
+
+* Čech-Methode: H^1 misst, inwieweit sich Schnitte längs surjektiver
+  Garbenmorphismen nicht liften lassen. http://mathoverflow.net/a/125236
 
 
 === Konkretes und einfaches Beispiel

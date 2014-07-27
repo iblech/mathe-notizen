@@ -8,3 +8,13 @@
 
 * chi(X, O_X) scheint ein guter Begriff zu sein:
   Für Kurven vom Geschlecht g gilt chi(X, O_X) = 1 - g.
+
+
+=== Toruswirkung
+
+More generally, if a circle S1 acts on a manifold or the 1-dimensional torus
+C∗ acts on a complex algebraic variety then the Euler characteristic of the
+"whole" = the Euler characteristic of the fixed point set. This is a very
+powerful tool in topology. 
+
+Kommentar bei http://mathoverflow.net/a/24179.

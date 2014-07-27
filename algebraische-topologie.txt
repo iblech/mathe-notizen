@@ -112,6 +112,21 @@ Hutching. Introduction to higher homotopy groups and obstruction theory.
 http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf
 
 
+=== Witzige Anwendungen von Homologie
+
+* http://golem.ph.utexas.edu/category/2012/06/cohomology_in_everyday_life.html
+
+* On the Cohomology of Impossible Figures.
+  Vergleiche auch:
+  http://projecteuclid.org/euclid.ndjfl/1039540768, Peeking at the Impossible.
+  http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.2279&rep=rep1&type=pdf,
+  Machine Interpretation of Line Drawings.
+
+* http://www.math.wayne.edu/~isaksen/Expository/carrying.pdf
+
+* http://www.math.upenn.edu/~ghrist/EAT/EATchapter4.pdf
+
+
 === Nächste Schritte
 
 * Verbindender Homomorphismus in allgemeineren (Ko-)Homologietheorien
@@ -121,3 +136,7 @@ http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf
 * Grundlagen über gemeinsame Verfeinerungen, die Hauptvermutung usw.
   herausfinden. Werden Dächer in der derivierten Kategorie gestiftet?
 * Aussagen über die Orientierungsgarbe nachvollziehen.
+
+* On the Cohomology of Impossible Figures.
+  http://www.jstor.org/discover/10.2307/1575844?uid=3737864&uid=2&uid=4&sid=21104402086837
+  Verstehen!

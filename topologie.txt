@@ -228,3 +228,14 @@ gesamten Raum ist.
   Gelte X = bigcup_i U_i, U_i offen, paarweise disjunkt, alle U_i nichtleer.
   Dann gilt schon X = U_j für ein j. Also Widerspruch, falls es noch weitere
   U_i gibt!
+
+
+=== Verklebung
+
+Stimmt es, dass
+
+    X/(a ~ b)
+
+dasselbe ist wie
+
+    X mit einem Pfad von a zu b?

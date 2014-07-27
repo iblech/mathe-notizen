@@ -196,6 +196,8 @@ ist. Das ist aus folgendem Grund so:
     Globale Schnitte r_0, ..., r_n von O_X sind einfach Elemente von R; genau
     dann gilt \bigcup D(r_i) = X, wenn ein r_i invertierbar ist.
 
+http://mathoverflow.net/questions/46116/a-valued-points-of-projective-space
+
 
 === Wichtige Garben
 
@@ -405,6 +407,21 @@ Für n = 2:
 
 http://math.uoregon.edu/~ddugger/kgeom.pdf
 Seite 156, Beispiel 22.7
+
+
+=== P^n als Ziel von Einbettungen
+
+Ich habe den Eindruck, dass P^n ein gern genutztes und wichtiges Ziel von
+Einbettungen ist.
+
+* Ample Bündel induzieren solche Einbettungen.
+
+* Wenn man weiß, dass alle Objekte einer gewissen Klasse Unterschemata
+  eines P^n sind, so kann man ihren Modulraum als Unterraum des Hilbertschemas
+  konstruieren.
+  http://mathoverflow.net/questions/11289/geometry-meaning-of-higher-cohomology-of-sheaves
+
+* http://mathoverflow.net/questions/25603/ample-line-bundles-sections-morphisms-to-projective-space
 
 
 === Nächste Schritte

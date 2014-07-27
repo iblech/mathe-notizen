@@ -9,3 +9,5 @@ so gilt: chi(E_r^**) = chi(H^*) für alle r >= 2.
 === Nächste Schritte
 
 * Obige Aussage genau nachvollziehen.
+
+* http://mathoverflow.net/questions/8052/why-are-spectral-sequences-so-ubiquitous
