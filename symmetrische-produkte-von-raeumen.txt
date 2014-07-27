@@ -126,6 +126,12 @@ http://mathoverflow.net/questions/55526/example-of-a-variety-with-k-x-mathbb-q-c
 * sum_n chi_{S_n}(X^n) q^n = prod_{j > 0} (1 - q^j)^{-chi(X)},
   für Flächen S (nicht Kurven!).
 
+* "On the Euler number of an orbifold". Sagt zum Beispiel:
+
+      e(X^n, S_n) = e(X^[n]).
+
+  Das ist konsistent mit D(X^[n]) = D_{S_n}(X^n).
+
 
 === Unglattheit
 

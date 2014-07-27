@@ -114,6 +114,19 @@ falls in R die Zahl 2 regulär ist.
 http://www.freidok.uni-freiburg.de/volltexte/2613/pdf/Diplomarbeit.pdf
 
 
+=== Äquivariante K-Theorie
+
+* Die Aussage "K_G(X) ~~ K(X)^G" ist völlig falsch. Denke an den Fall X = pt:
+  K_G(pt) = K(Coh_G(pt)) = K(Rep_k(G)) = Darstellungsring von G,
+  aber K(pt)^G = Z^G = Z.
+
+* Die Aussage "K_G(X) ~~ K(X_G)" (siehe oben für X_G) ist falsch.
+  Aber zumindest hat man eine kanonische Abbildung K_G(X) --> K(X_G),
+  und etwa im Fall X = pt sagt das Atiyah-Singer completion theorem,
+  dass K(pt_G) = K(BG) die Vervollständigung von K_G(pt) = R(G) am Ideal der
+  virtuellen Darstellungen der Dimension Null ist.
+
+
 === Literatur
 
 * Martin Entrup: Die äquivariante derivierte Kategorie des komplex-projektiven Raumes.

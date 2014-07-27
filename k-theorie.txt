@@ -168,6 +168,15 @@ regulär ist.
   Auflösung durch freie Moduln zulässt. (Unter irgendwelchen Bedingungen.)
   http://mathoverflow.net/a/172945/31233
 
+In K(X) sind folgende Elemente bezüglich der Multiplikation invertierbar:
+* Klassen von Geradenbündeln, klar.
+* Negative von Klassen von Geradenbündeln.
+* Zufällige weitere Klasse, solange ihr virtueller Rang \pm 1 ist.
+  (Die Funktion rk : K(X) --> Z ist ein wohldefinierter Ringhomo.)
+  Konkretes Beispiel: In K(P^1) ist 2-[O(-1)] invertierbar.
+  (Achtung: Habe nicht ausgeschlossen, dass (das Negative einer) Klasse eines
+  Geradenbündels ist.
+
 
 === Nutzen der K-Theorie eines Schemas für Schnitttheorie
 
@@ -224,6 +233,21 @@ zu K_0(A) sind durch die Euler-Charakteristik gegeben:
 Für Surjektivität benötigt man die kanonische Filtrierung von Komplexen:
 
     0 --> tau^{<= n-1} X --> tau^{<= n} X --> H^n(X)[-n] --> 0.
+
+
+=== Semi-orthogonale Zerlegungen
+
+Sei C eine triangulierte Kategorie. Sei (A_n,...,A_0) eine exzeptionelle
+Sequenz mit C = <A_n,...,A_0>. Dann gilt:
+
+    K(C) = Z<A_n,...,A_0>.
+
+Denn: Dass die Klassen der A_i ein Erzeugendensystem bilden, ist klar. Zur
+linearen Unabhängigkeit beobachte, dass die "gramsche Matrix" ((A_i, A_j)_Euler)_ij
+regulär ist: Sie ist eine untere Dreiecksmatrix mit Einsen auf der
+Hauptdiagonale.
+
+* Wie funktioniert das für allgemeine semi-orthogonale Zerlegungen?
 
 
 === Hall-Algebra

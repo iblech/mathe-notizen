@@ -316,7 +316,7 @@ Beispiele:
   Insbesondere kann man aus [Z] das ungeordnete Paar {d,e} zurückgewinnen.
 
 
-=== Euler-Form in K-Theorie
+=== Euler-Form in K-Theorie bezüglich der P^i-Basis
 
 Obige Auflösung von O_{P^(n-i)} lässt sich verwenden, um die Euler-Form auf
 K(P^n) zu berechnen.
@@ -366,6 +366,17 @@ Bei den Rechnungen habe ich verwendet, dass
 
     i^* O(l) = O(l) für i : P^i --> P^n abgeschlossene Einbettung (wobei P^i =
     V(x_0,...,x_??).
+
+
+=== Euler-Form in K-Theorie bezüglich der O(-i)-Basis
+
+  (O(-i), O(-j)) = dim H^*(O(i-j)) = chi(O(i-j)) = \binom{n+i-j}[i-j}.
+
+Für n = 2:
+
+  1  3  6
+  0  1  3
+  0  0  1
 
 
 === Garbenkohomologie des P^n = Proj A[x_0,...,x_n]

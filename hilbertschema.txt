@@ -114,6 +114,14 @@ ist isomorph zu Aut(D^b(X^[n])).
 
 (Achtung: Benötige evtl., dass X Dimension 2 ist.)
 
+* X^[n] ist deriviert äquivalent zu X^n//S_n, wenn ich die derivierte Kategorie
+  von letzterem als D_{S^n}(X^n) definiere. Das sagt gerade BKR.
+
+* BKR schickt O_{X^[n]} auf O_{X^n} (mit kanonischer S_n-Linearisierung). Daher
+  gilt:
+  
+      H^m(X^[n], O_{X^[n]}) = H^m_{S^n}(X^n, O_{X^n}).
+
 
 === Literatur
 
