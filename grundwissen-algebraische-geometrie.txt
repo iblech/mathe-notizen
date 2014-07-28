@@ -579,7 +579,7 @@ sehr gut lesbar!
   kleinen offenen Mengen definierte Schnitte von O_X sind. Dasselbe auch für
   L[S^(-1)].
 
-* Was sind die lokalen Modelle glatter (projektiver?) Schemata?
+* Was sind die lokalen Modelle glatter Schemata?
 
 * Wann sind Bilder abgeschlossener Punkte abgeschlossen?
 

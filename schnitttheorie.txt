@@ -59,6 +59,78 @@ Dabei bezeichnet Pd : H_k --> H^{n-k} die Poincaré-Paarung.
 * http://mathoverflow.net/questions/90970/tor-sheaves-what-do-they-tell-us-about-geometry
 
 
+=== Chernklassen
+
+Shafarevich (Ed.), Algebraic Geometry II, Cohomology of Algebraic Varieties,
+Seite 44ff.
+
+* Sei E lokal frei vom Rang r auf X.
+
+  Dann gibt es pi : P(E) = Proj Sym E^ --> X mit der tautologischen Garbe O(1).
+
+  Sei xi in A(P(E)) die Divisorklasse zu O(1). Man weiß, dass A(P(E)) als
+  A(X)-Modul frei mit Basis 1, xi, ..., xi^(r-1) ist. Daher erhält man eine
+  Beziehung der Form
+
+      c_0 xi^r - c_1 xi^(r-1) +- ... + (-1)^r c_r xi^0 = 0,
+      c_0 = 1,
+      c_i in A^i(X).
+
+  Die c_i sind die Chernklassen von E. c(E) := sum_i c_i in A(X) ist die totale
+  Chernklasse.
+
+* c(f^*(E)) = f^* c(E)
+* c(E) = c(E') c(E'') für 0 --> E' --> E --> E'' --> 0
+* c(O_X(D)) = 1 + D
+* deg c_1(O(D)) = deg D.
+
+* Beispiel: Aus der Eulersequenz auf dem P^n folgt
+
+      c(Omega^1) = (1 - H)^(n+1),
+      c(T) = (1 + H)^(n+1),
+
+  wobei c(O(-1)) = 1 - H.
+
+* Sei X in P^(2n) von Dimension n. Dann (X . X) = deg c_n(N), [X] = deg(X) * [H]^n.
+
+* Der Cherncharakter von E ist
+
+      ch(E) := sum_{i=1}^r e^(alpha_i) = rk(E) + c_1(E) + 1/2 (c_1^2 - 2c_2) + ...,
+
+  wobei c(E) = prod_{i=1}^r (1 + alpha_i).
+
+* ch(E oplus  F) = ch(E) + ch(F).
+* ch(E tensor F) = ch(E) * ch(F).
+
+* td(E) := prod_{i=1}^r alpha_i/(1 - e^(-alpha_i)).
+
+* Beispiel: td(T_{P^n}) = (xi / (1 - e^(-xi)))^(n+1),
+  da td(T_{P^n}) = td(O(1))^(n+1).
+
+
+=== Riemann--Roch
+
+Shafarevich (Ed.), Algebraic Geometry II, Cohomology of Algebraic Varieties,
+Seite 44ff.
+
+* Eigentlich ist man an H^0(X, O_X(D)) interessiert. Es ist aber einfacher,
+  chi(O_X(D)) zu betrachten: Das hängt nämlich *nur von diskreten Invarianten*
+  von D ab!
+
+* Die Baby-Version von Riemann--Roch sagt:
+
+      chi(O_X(D)) = deg(D) + chi(X, O_X)
+
+  und hat einen trivialen Beweis: Für den trivialen Weil-Divisor D = 0 ist die
+  Aussage klar. Gilt zwischen zwei Divisoren D und D' die Beziehung D = D' + [P],
+  so kann man zeigen, dass die Behauptung für D äquivalent zur Behauptung für D'
+  ist (nutze dazu 0 --> O(-P) --> O --> k(P) --> 0). Dann Induktion.
+
+
 === Grothendieck--Riemann--Roch
 
 * http://mathoverflow.net/questions/10630/why-do-todd-classes-appear-in-grothendieck-riemann-roch-formula
+
+* chi(X, F) ist invariant unter Deformationen von X und F. Was genau bedeutet
+  das? Für F denke ich an flache Familien (siehe Shafarevich, Seite 42). Aber
+  in welchem Sinn geht es hier um Deformationen von X?

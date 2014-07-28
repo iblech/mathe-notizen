@@ -60,7 +60,7 @@ globalen Schnitt von E liften, wenn sein Bild unter dieser Abbildung null ist.
 * Oft ist man an H^0(F) oder h^0(F) interessiert, etwa für Schnitte von
   Untergarben der O(m)-Bündel, denn deren globale Schnitte sind Funktionen mit
   vorgegebenem Null- und Polstellenverhalten.
-  
+
   Einfacher zu berechnen ist aber chi(F); dafür benötigt man natürlich die
   höhere Garbenkohomologie.
 
@@ -241,6 +241,24 @@ liefert.
   Dann gilt: R^i f_* F = H^i(X, F)~.
   https://www.math.leidenuniv.nl/scripties/MasterJavanpeykar.pdf, Thm. 1.17.
 
+* H^q(f^(-1)(V), F) = (R^q f_* F)(V) für V in Y offen, affin,
+  f : X --> Y quasikompakt, F qcoh auf X; evtl auch noch X, Y separiert.
+
+  Korollar: R^q f_* F = 0 für q > 0, falls f affin.
+
+  Steht in Shafarevich, Seite 31.
+
+* Dort steht auch etwas zur Kohomologie von direkten Bildern längs
+  offener Immersionen.
+
+
+=== Künneth
+
+* Manchmal gilt: H^q(X x Y, E boxtensor F) = bigoplus H^i(X,E) tensor H^j(Y,F).
+
+* Ebenso: H^1(X,F) tensor_A B = H^q(X x_A Spec B, F tensor_A B),
+  falls A --> B flach.
+
 
 === Gruppenwirkung
 
@@ -273,6 +291,9 @@ Habe Wirkung RHom(O_X,O_X) --> RHom(O_X,F).
 
   Shafarevich (Ed.), Algebraic Geometry II, Cohomology of Algebraic Varieties,
   Seite 20.
+
+* Auf Seite 28f. von Shafarevich steht ein Beweis des Serresschen
+  Verschwindungssatzes.
 
 
 === Nächste Schritte

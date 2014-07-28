@@ -230,6 +230,21 @@ In K(X) sind folgende Elemente bezüglich der Multiplikation invertierbar:
   Hier geht sowas wie Lambda^* i_* O_X = i_* Lambda^* O_X ein,
   um zwischen der Euler-Charakteristik auf X x X und der auf X zu wechseln.
 
+* Manin, Seite 43: Habe lineare Abbildungen
+
+      i   : Pic(X) ---> K(X),    [L] |--> [L],
+
+      det : K(X)   ---> Pic(X),  [E] |--> [det E] (falls E lokal frei).
+
+  i ist sogar ein Ringhomo. (Aber det nicht! Es gilt det(xy) = det(x)^eps(y) *
+  det(y)^eps(x).)
+
+  Es gilt det . i = id.
+
+* Z[Pic(X)]/I^2 --> K(X)/F^2K(X) ist ein Ringiso.
+
+* Man weiß, was mit der K-Theorie unter Aufblasung geschieht.
+
 
 === Eulercharakteristik einer Modulgarbe (nach Hartshorne, Ex. III.5.1):
 

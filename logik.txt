@@ -1,6 +1,9 @@
 * http://www.dtc.ox.ac.uk/people/12/frot/CoherentTopoi.pdf
   Gödel's completeness theorem and Deligne's theorem
 
+
+=== Cantor
+
 * Sei phi : A --> P(A) eine Abbildung. Dann kann man explizit
   ein Element der Wertemenge angeben, das nicht getroffen wird, nämlich
 
@@ -20,6 +23,13 @@
       x0 \in V ==> x0 != phi(V)
 
   gilt. Also gilt doch x0 \in U. Widerspruch.
+
+
+=== Unlösbare Probleme
+
+Poonen.
+Undecidable problems: a sampler.
+http://www-math.mit.edu/~poonen/papers/sampler.pdf
 
 
 === Nächste Schritte
