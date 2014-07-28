@@ -10,6 +10,15 @@
   Für Kurven vom Geschlecht g gilt chi(X, O_X) = 1 - g.
 
 
+=== Rechenregeln
+
+* chi(X) = chi(B) chi(F), falls X --> B ein Faserbündel mit Faser F ist.
+  Beweis durch die Leray-Serre-Spektralsequenz; also sollte es keine
+  Fasermonodromie in Homologie geben.
+
+  Siehe: Seite 4 von http://faculty.tcu.edu/gfriedman/papers/specseq.pdf.
+
+
 === Toruswirkung
 
 More generally, if a circle S1 acts on a manifold or the 1-dimensional torus
