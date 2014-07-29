@@ -232,10 +232,7 @@ gesamten Raum ist.
 
 === Verklebung
 
-Stimmt es, dass
+* X/(a ~ b) ist natürlich nicht dasselbe wie X mit einem neuen Pfad von a zu b.
 
-    X/(a ~ b)
-
-dasselbe ist wie
-
-    X mit einem Pfad von a zu b?
+  Vielleicht sind die aber in guten Situationen homotopieäquivalent, vermöge
+  der offensichtlichen Abbildung von rechts nach links.

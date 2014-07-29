@@ -252,6 +252,9 @@ Proposition: Sei A ein noetherscher lokaler Ring und zugleich eine Algebra über
 einem Körper k. Sei M ein endlich erzeugter A-Modul.
 Dann gilt len_A(M) * dim_k(A/m) = dim_k(M). (Liu Ex. 7.1.6, Seite 264)
 
+Sei A --> B ein surjektiver Ringhomo. Sei M ein B-Modul. Dann ist seine Länge
+als B-Modul gleich seiner Länger als A-Modul.
+
 
 === Einfache Moduln
 

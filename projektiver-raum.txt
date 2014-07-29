@@ -360,6 +360,16 @@ Reihenfolge) sehen so aus:
       0 -1 -2 -3
       1  1  1  1
 
+  n = 2:
+      0  0  1
+      0 -1 -2
+      1  1  1
+
+  n = 1:
+      0 -1
+      1  1
+      
+
 Die untere Zeile erklärt sich so:
 
     (O_{P^n}, O_{P^b}) = dim H^*(O_{P^b}) = chi(O_{P^b}) = 1.
@@ -373,6 +383,11 @@ Bei den Rechnungen habe ich verwendet, dass
 === Euler-Form in K-Theorie bezüglich der O(-i)-Basis
 
   (O(-i), O(-j)) = dim H^*(O(i-j)) = chi(O(i-j)) = \binom{n+i-j}[i-j}.
+
+Für n = 1:
+
+  1  2
+  0  1
 
 Für n = 2:
 

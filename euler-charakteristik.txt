@@ -18,6 +18,17 @@
 
   Siehe: Seite 4 von http://faculty.tcu.edu/gfriedman/papers/specseq.pdf.
 
+* Sei F eine Garbe von k-Vektorräumen, deren Träger eine endliche Menge
+  abgeschlossener Punkte ist. Dann gilt:
+
+      chi(X, F) = sum_z dim F_z.
+
+  Denn F zerlegt sich als direkte Summe über Wolkenkratzergarben mit Wert F_z,
+  und Garben auf dem Punkt haben keine höhere Kohomologie.
+
+  Allgemein funktioniert das für Garben von A-Moduln, wenn man die
+  Euler-Charakteristik über Längen statt Dimensionen definiert.
+
 
 === Toruswirkung
 

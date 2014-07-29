@@ -58,6 +58,10 @@ Dabei bezeichnet Pd : H_k --> H^{n-k} die Poincaré-Paarung.
 
 * http://mathoverflow.net/questions/90970/tor-sheaves-what-do-they-tell-us-about-geometry
 
+* Tor_i^(O_X)(E,F)_x = Tor_i^(O_{X,x})(E_x,F_x).
+
+  Korollar: supp Tor_i(E,F) <= supp E cap supp F.
+
 
 === Chernklassen
 
