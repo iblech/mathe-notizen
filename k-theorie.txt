@@ -116,6 +116,16 @@ Die K-Theorie der Kategorie aller A-Moduln ist also trivial.
 Für eine interessante Theorie muss man also Endlichkeitsbedingungen aufnehmen.
 
 
+=== K-Theorie einer Kategorie von Endomorphismen
+
+http://chromotopy.org/k-thy-of-endomorphisms
+http://math.berkeley.edu/~aaron/xkcd/pancia-k-theory-of-endomorphisms.pdf
+
+K(End(R)) ~~ K(R) x W(R),
+wobei W(R) = multiplikative Gruppe der rationalen Funktionen mit Koeffizienten
+in R und konstantem Term in Zähler und Nenner gleich Eins.
+
+
 === K-Theorie eines Schemas
 
 Anwendung: Für X Schema habe Ob D^b(X) --> K_0(X) := K_0(O_X-Mod).

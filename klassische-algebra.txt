@@ -42,6 +42,21 @@ isomorphic to an n-by-n matrix ring over a division ring D, where both n and D
 are uniquely determined.[2]
 
 
+=== Fundamentalsatz der Algebra
+
+Beweis über den Lefschetzschen Fixpunktsatz:
+
+One cute application is to the fundamental theorem of algebra: a linear map
+f:Cn+1→Cn+1 has an eigenvector iff the induced map on projective spaces has a
+fixed point. CPn has Euler characteristic n+1 and GLn(C) is path-connected,
+so the conclusion follows by the Lefschetz fixed point theorem. The
+corresponding calculation for real projective spaces is enlightening as to
+"why" FTA fails over the reals: RPn has Euler characteristic 0 if n is odd
+and 1 if n is even..
+
+http://mathoverflow.net/a/127087
+
+
 === Nächste Schritte
 
 * Unter welchen Voraussetzungen ist eine Untergruppe einer zyklischen Gruppe

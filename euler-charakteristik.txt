@@ -30,6 +30,11 @@
   Euler-Charakteristik über Längen statt Dimensionen definiert.
 
 
+=== Lefschetzscher Fixpunktsatz
+
+http://homepages.math.uic.edu/~heitsch/HeitschBC.pdf
+
+
 === Toruswirkung
 
 More generally, if a circle S1 acts on a manifold or the 1-dimensional torus
