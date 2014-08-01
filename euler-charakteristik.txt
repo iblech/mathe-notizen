@@ -43,3 +43,28 @@ C∗ acts on a complex algebraic variety then the Euler characteristic of the
 powerful tool in topology. 
 
 Kommentar bei http://mathoverflow.net/a/24179.
+
+* http://chromotopy.org/torus-actions-maximal-tori-2
+
+
+=== Höhere Euler-Charakteristik durch nilpotente Elemente
+
+Sei Z ein abgeschlossenes Unterschema von X mit Idealgarbe J.
+
+Sei p ein Punkt aus X. Sei J --> O_p eine surjektive O_X-lineare Abbildung.
+Sei K der Kern dieser Abbildung.
+
+Dann ist V(K) ein Unterschema, das J umfasst und außerdem p (denn K_p != (1)).
+Falls p schon in Z lag, ist V(K) eine Art nilpotente Aufdickung von Z.
+
+Die Euler-Charakteristik von V(K) ist Eins höher als die von Z:
+
+    chi(V(K))
+        = chi(O_X) - chi(K)
+        = chi(O_X) - (chi(J) - chi(O_p))
+        = chi(O_X) - chi(J) + 1
+        = chi(Z) + 1.
+
+Beispiel: Sei X = Spec k[x,y] und J = (x). Sei p = Ursprung = (x,y).
+Sei die surjektive Abbildung (x) --> k, gx |-> g(0,0) * 7. Dann ist
+K = (x^2, xy) = (x) * (x,y).

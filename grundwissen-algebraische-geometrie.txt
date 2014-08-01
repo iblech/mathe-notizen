@@ -240,6 +240,12 @@ die Idealgarbe sein.
 
   Es gilt: supp(f_* O_X) = V(I) = { y in Y | I_y != (1) in O_{Y,y} }.
 
+* Es gilt: im I|_x = 0 als Ideal von k(x) <==> x in V(I).
+
+  "==>": Angenommen, I_x = (1). Dann I|_x = k(x).
+  "<==": I|_x --> k(x) faktorisiert über m_x|_x --> k(x), d.h. über die
+  Nullabbildung.
+
 * Sei etwa Y = P^1, X = Spec k und f die Inklusion des abgeschlossenen Punkts
   P = (0:1). Dann ist die Sequenz
 

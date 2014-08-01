@@ -171,6 +171,9 @@ Dann gilt:
 * Loring Tu: What is ... Equivariant Cohomology?
   http://www.ams.org/notices/201103/rtx110300423p.pdf
 
+* Loring Tu: Computing topological invariants using fixed points.
+  https://wikis.uit.tufts.edu/confluence/download/attachments/49921557/13e_integrals_v5.pdf
+
 
 === Sichten
 

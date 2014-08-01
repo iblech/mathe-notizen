@@ -140,3 +140,5 @@ http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf
 * On the Cohomology of Impossible Figures.
   http://www.jstor.org/discover/10.2307/1575844?uid=3737864&uid=2&uid=4&sid=21104402086837
   Verstehen!
+
+* Morse-Anschauung verstehen

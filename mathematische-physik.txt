@@ -1,3 +1,7 @@
 === Nächste Schritte
 
-* Lesen: http://arxiv.org/pdf/1301.2580v2.pdf
+* Lesen: A higher stacky perspective on Chern-Simons theory.
+  http://arxiv.org/pdf/1301.2580v2.pdf
+
+* Greiner, Müller. Quantum Mechanics. Symmetries.
+  http://www.dfi.uchile.cl/~paurruti/Cuantica%20II/Quantum%20Mechanics%20-%20Symmetries%202nd%20ed.%20-%20W.%20Greiner,%20B.%20Muller.pdf

@@ -2,3 +2,11 @@
 
 http://mathoverflow.net/questions/124998/was-the-early-calculus-inconsistent
 Kommentar von Toby Bartels
+
+
+=== Grenzwertbegriff
+
+Fermat, Leibniz, Euler, and the gang: The true history of the concepts of limit
+and shadow
+
+http://arxiv.org/abs/1407.0233

@@ -38,6 +38,11 @@ Mindestens Eigenschaft 2 scheint mir komisch.
 Vergleiche auch: http://wiki.heinrich-hartmann.net/index.php/Koszul_Duality
 
 
+=== Weighted projective space
+
+http://www.researchgate.net/publication/233320583_The_automorphism_group_of_the_derived_category_for_a_weighted_projective_line
+
+
 === Derivierte Kategorie von C^infty-Mannigfaltigkeiten
 
 Da Coh(X) für C^infty-Mannigfaltigkeiten halbeinfach ist, da Moduln auf

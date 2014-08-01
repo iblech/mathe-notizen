@@ -176,18 +176,18 @@ regulär ist.
 
 * Für K_0(P^n) siehe projektiver-raum.txt.
 
-* K(A^n) = Z. Folgt daraus, dass jeder endlich erzeugte R-Modul eine endliche
+* K(A^n) = Z. Folgt daraus, dass jeder endlich erzeugte k[x1,...,xn]-Modul eine endliche
   Auflösung durch freie Moduln zulässt. (Unter irgendwelchen Bedingungen.)
   http://mathoverflow.net/a/172945/31233
 
 In K(X) sind folgende Elemente bezüglich der Multiplikation invertierbar:
 * Klassen von Geradenbündeln, klar.
 * Negative von Klassen von Geradenbündeln.
-* Zufällige weitere Klasse, solange ihr virtueller Rang \pm 1 ist.
+* Zufällige weitere Klassen, solange ihr virtueller Rang \pm 1 ist.
   (Die Funktion rk : K(X) --> Z ist ein wohldefinierter Ringhomo.)
   Konkretes Beispiel: In K(P^1) ist 2-[O(-1)] invertierbar.
   (Achtung: Habe nicht ausgeschlossen, dass (das Negative einer) Klasse eines
-  Geradenbündels ist.
+  Geradenbündels ist.)
 
 
 === Nutzen der K-Theorie eines Schemas für Schnitttheorie

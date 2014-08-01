@@ -12,3 +12,5 @@ ist eine abstrakte Möglichkeit, das zu begründen, die Leray-Spektralsequenz.
 === Literatur
 
 * http://math.berkeley.edu/~teleman/math/Riemann.pdf
+
+* http://math.stanford.edu/~vakil/725/class24.pdf (Crashkurs zu Riemann--Hurwitz)

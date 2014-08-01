@@ -11,3 +11,5 @@ so gilt: chi(E_r^**) = chi(H^*) für alle r >= 2.
 * Obige Aussage genau nachvollziehen.
 
 * http://mathoverflow.net/questions/8052/why-are-spectral-sequences-so-ubiquitous
+
+* http://chromotopy.org/spectral-sequences-on-one-blackboard

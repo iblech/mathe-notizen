@@ -52,6 +52,8 @@ definiert.
   Das gilt, falls E ein Vektorbündel ist. Im Allgemeinen fall kann man aber
   auflösen und die Additivtät des Hilbertpolynoms ausnutzen.
 
+* Numerische Berechnung: http://www4.ncsu.edu/~jdhauens/Hilbert/
+
 
 === Tangentialraum
 
@@ -140,6 +142,13 @@ ist isomorph zu Aut(D^b(X^[n])).
 * Strømme. http://matwbn.icm.edu.pl/ksiazki/bcp/bcp36/bcp36111.pdf
 * http://arxiv.org/pdf/math/0304302.pdf gut!
 * Resultants and the Hilbert scheme of points on the line.
+
+
+=== Sichten
+
+* http://mathoverflow.net/questions/155383/a-question-on-the-morphism-between-hilbert-schemes?rq=1
+
+* http://mathoverflow.net/questions/152210/projective-schemes-with-a-fixed-hyperplane-section
 
 
 === Nächste Schritte
