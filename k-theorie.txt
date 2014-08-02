@@ -255,6 +255,8 @@ In K(X) sind folgende Elemente bezüglich der Multiplikation invertierbar:
 
 * Man weiß, was mit der K-Theorie unter Aufblasung geschieht.
 
+* Siehe auch Fulton (Intersection Theory), Kapitel 15.
+
 
 === Eulercharakteristik einer Modulgarbe (nach Hartshorne, Ex. III.5.1):
 

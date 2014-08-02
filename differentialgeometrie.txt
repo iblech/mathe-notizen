@@ -18,3 +18,9 @@ http://arxiv.org/abs/math/0306194v1
 === Torsion
 
 http://mathoverflow.net/questions/20493/what-is-torsion-in-differential-geometry-intuitively
+
+
+=== Nächste Schritte
+
+* Verstehen, inwieweit ein garbentheoretischer Zugang hilft.
+  Etwa: Schnittzahl sollte chi(O_A tensor O_B) sein.

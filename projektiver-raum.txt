@@ -198,6 +198,8 @@ ist. Das ist aus folgendem Grund so:
 
 http://mathoverflow.net/questions/46116/a-valued-points-of-projective-space
 
+http://mathoverflow.net/questions/41624/a-sheaf-theoretic-version-of-the-proj-construction
+
 
 === Wichtige Garben
 
