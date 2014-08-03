@@ -1,3 +1,8 @@
+=== Konkrete Beispiele
+
+* http://math.stackexchange.com/questions/193681/what-is-a-blow-up
+
+
 === Literatur
 
 * http://www.math.ntu.edu.tw/~jkchen/F03AS/F03ASL9.pdf

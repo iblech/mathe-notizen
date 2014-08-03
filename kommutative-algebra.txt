@@ -308,6 +308,9 @@ muss.
   falls W vom Rang 1. Diese Abbildung bildet die offensichtliche Basis
   auf die offensichtliche Basis ab und ist daher ein Iso.
 
+* http://www.math.uni-bielefeld.de/~hkrause/koszul.pdf über äußere Algebra,
+  symmetrische Algebra usw.
+
 
 === Verklebung von Modulkategorien
 
