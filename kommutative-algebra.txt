@@ -309,7 +309,8 @@ muss.
   auf die offensichtliche Basis ab und ist daher ein Iso.
 
 * http://www.math.uni-bielefeld.de/~hkrause/koszul.pdf über äußere Algebra,
-  symmetrische Algebra usw.
+  symmetrische Algebra usw. Außerdem wie man diese Algebren richtig definiert:
+  http://math.stanford.edu/~conrad/diffgeomPage/handouts/tensor.pdf
 
 
 === Verklebung von Modulkategorien

@@ -59,6 +59,13 @@ einmal.
 http://www.th.physik.uni-bonn.de/nilles/people/luedeling/grouptheory/data/grouptheorynotes.pdf
 
 
+=== Darstellungen der GL_n
+
+http://sbseminar.wordpress.com/2008/07/08/how-to-write-down-the-representations-of-gl_n/
+
+Hat was mit Okunkow zu tun!
+
+
 === Familie CRep(t) von Kategorien
 
 http://sbseminar.wordpress.com/2009/02/25/delignes-%E2%80%9Cla-categorie-des-representations-du-groupe-symetrique-s_t-lorsque-t-n%E2%80%99est-pas-un-entier-naturel%E2%80%9D/

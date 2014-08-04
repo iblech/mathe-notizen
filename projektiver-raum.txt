@@ -415,6 +415,11 @@ Für n = 2:
 
   Für -k-n-1 < 0, d.h. für -n <= k < 0, also einfach überall Null.
 
+  Achtung: Thomason--Trobaugh (Seite 330) haben statt Sym^l V folgendes
+  dranstehen:
+
+      (Sym^l V^)^ tensor (Lambda^(n+1) V^)^.
+
 * Schicke Berechnung in Shafarevich (Ed.), Algebraic Geometry II, Cohomology of
   Algebraic Varieties, Seite 34. (Über Koszul und Spec Sym V^:
   H^q(Proj Sym V^, oplus_{m in Z} F(m)) = H^q(V \ {0}, pi^*(F)).)

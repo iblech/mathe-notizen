@@ -10,3 +10,9 @@ Fermat, Leibniz, Euler, and the gang: The true history of the concepts of limit
 and shadow
 
 http://arxiv.org/abs/1407.0233
+
+
+=== Erzählungen, Thomason--Trobaugh
+
+Michael Harris. Do androids prove theorems in their sleep?
+https://www.imj-prg.fr/~michael.harris/androids.pdf
