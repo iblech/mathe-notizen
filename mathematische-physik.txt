@@ -1,3 +1,17 @@
+=== Quantenautomaten
+
+* Quantenautomaten lassen sich unter Bewahrung ihres klassischen Verhaltens
+  in probabilistische Automaten umwandeln.
+
+* Das geht genauso, wie man auch gewöhnliche Automaten minimiert!
+
+* Koalgebratechniken
+
+Frank Roumen.
+Coalgebraic Quantum Computation.
+http://arxiv.org/abs/1408.0050
+
+
 === Nächste Schritte
 
 * Lesen: A higher stacky perspective on Chern-Simons theory.
