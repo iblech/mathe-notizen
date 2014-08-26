@@ -150,6 +150,12 @@ ist isomorph zu Aut(D^b(X^[n])).
 
 * http://mathoverflow.net/questions/152210/projective-schemes-with-a-fixed-hyperplane-section
 
+* http://www4.ncsu.edu/~jdhauens/Hilbert/
+  http://mathoverflow.net/questions/134460/a-question-on-the-hilbert-scheme-i-nx-beta?rq=1
+  http://mathoverflow.net/questions/116993/hilbert-polynomial-of-x-times-p1
+  http://arxiv.org/abs/1407.0233
+  http://mathoverflow.net/questions/93330/why-is-the-fundamental-group-of-a-compact-riemann-surface-not-free/93340#93340
+
 
 === Nächste Schritte
 

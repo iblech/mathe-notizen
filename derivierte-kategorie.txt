@@ -148,6 +148,11 @@ http://arxiv.org/pdf/math/0509473.pdf: Beschreibt (in der ersten Proposition),
 wie sich eine derivierte Kategorie aus zwei Teilen zusammensetzt.
 
 
+=== Perfekte Komplexe und Co.
+
+* http://mathoverflow.net/questions/29442/what-is-the-opposite-category-of-the-category-of-modules-or-hopf-algebra-repres
+
+
 === Nächste Schritte
 
 * Folgendes Must-Read-Paper lesen:

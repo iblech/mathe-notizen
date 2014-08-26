@@ -325,3 +325,6 @@ Habe Wirkung RHom(O_X,O_X) --> RHom(O_X,F).
 
 * http://stacks.math.columbia.edu/download/coherent.pdf
   all-in-one result for projective space over a Noetherian ring
+
+* Unbedingt bei Gelegenheit anschauen (empfohlen von Ariyan):
+  Serre. Coherent Algebraic Sheaves.

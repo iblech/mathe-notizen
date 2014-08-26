@@ -1,3 +1,10 @@
 === Schwarzsche Ableitung
 
 http://mathoverflow.net/questions/25603/ample-line-bundles-sections-morphisms-to-projective-space
+
+
+=== Spiele
+
+https://www.dpmms.cam.ac.uk/~martin/Research/Slides/slides.html
+Sequentiality
+Constructing Categories of Abstract Games

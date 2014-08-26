@@ -1,3 +1,12 @@
 === Interpretation von alternierenden Summen
 
 https://www.math.hmc.edu/~benjamin/papers/DIE.pdf
+
+
+=== Schur-Funktoren und Young-Diagramme
+
+http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.html#c013821
+
+Tensorprodukt von Schur-Funktoren:
+http://www.combinatorics.org/ojs/index.php/eljc/article/download/v9i1n5/pdf
+Stembridge, A Concise Proof of the Littlewood-Richardson Rule.

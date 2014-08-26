@@ -312,6 +312,15 @@ muss.
   symmetrische Algebra usw. Außerdem wie man diese Algebren richtig definiert:
   http://math.stanford.edu/~conrad/diffgeomPage/handouts/tensor.pdf
 
+* Habe in jeder Charakteristik natürliche lineare Abbildungen
+
+      Lambda^n V^ --> (Lambda^n V)^
+           S^n V^ --> (S^n V)^,
+
+  gegeben durch die Determinante bzw. Permanente (d.h. durch geeignet
+  gewichtete Summen über alle Permutationen). Die erste Abbildung ist stets ein
+  Iso. Die zweite nicht.
+
 
 === Verklebung von Modulkategorien
 

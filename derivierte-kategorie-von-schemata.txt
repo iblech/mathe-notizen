@@ -100,3 +100,6 @@ Literatur:
 * http://arxiv.org/abs/alg-geom/9506012
   Die Originalliteratur von Bondal und Orlov.
   Bemerkenswert verständlich!
+
+* http://arxiv.org/pdf/1402.7364v2.pdf
+  Unbedingt sichten. Perfekte Komplexe usw.
