@@ -722,7 +722,11 @@ O_X gegeben sind, die auf offenen dichten Teilmengen definiert sind.
   auf lokal noetherschen Schemata. Vielleicht gibt es aber noch ein anderes
   Theorem. Etwa, dass Untermoduln, die von geometrischen Aussagen
   ausgeschnitten werden, stets qcoh sind (oder aber stets die Konklusion
-  erfüllen!). Das wäre sehr schön. Aber vielleicht zu sehr Wunschdenken...?
+  erfüllen!). Das wäre sehr schön. Aber vielleicht zu sehr Wunschdenken ...?
+
+* Es gilt für Ringe A, Elemente g, Ideale J:
+
+      Spec A |== g in J~   <==>   g in J.
 
 
 === Cartier-Divisoren und Geradenbündel

@@ -288,6 +288,17 @@ Der so definierte O_Y-Modul ist N_{Y/X}^vee, die Konormalgarbe.
 
 Die Normalgarbe ist der ihr O_Y-Duales.
 
+Falls Y lokal regulär ist, d.h. lokal durch reguläre Sequenzen gegeben ist,
+d.h. dass in der internen Sprache gilt, dass I durch eine reguläre Sequenz
+erzeugt wird, so ist I/I^2 auf Y lokal frei. In diesem Fall darf man daher auch
+vom (Ko-)Normal*bündel* sprechen.
+
+Intuition: Lokale Schnitte der Konormalgarbe sind die linearen Anteile von
+Funktionen auf X, welche auf Y verschwinden. Ein Tangentialvektor von X an
+y in Y kann bekanntlich als Funktion auf linearen Anteilen gesehen werden; auf
+Anteilen von Funktionen, welche auf Y verschwinden, ist ein Tangentialvektor
+Null, falls er tangential zu Y ist.
+
 Man hat eine exakte Sequenz
 
     N_{Y/X}^vee --> f^*(Omega_X) --> Omega_Y --> 0.
@@ -317,6 +328,8 @@ Sei K die Idealgarbe zur Diagonale in X x X, wobei X eine glatte Varietät ist.
 Dann ist Omega^1 der Pullback von K/K^2. Ferner hat man die exakte Sequenz
 
     0 --> K/K^2 --> Omega_{X x X} otimes O_Delta --> O_Delta --> 0.
+
+http://math.stackexchange.com/questions/194607/computation-of-normal-cones
 
 
 === Fasern

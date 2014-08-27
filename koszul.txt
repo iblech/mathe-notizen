@@ -91,9 +91,43 @@ In guten Fällen wird der zu einer Auflösung von cok phi.
 
 === Intern
 
-* f, g aus O_X(X) bilden aus interner Sicht eine reguläre Sequenz
+* Ferner sind für Ringelemente f_1, ..., f_n in A äquivalent:
 
-      <==> f, g bilden in allen O_{X,x} eine reguläre Sequenz.
+  (1) f_1, ..., f_n sind in A regulär.
+  (2) Die Keime sind in allen A_p regulär.
+  (3) Die f_i sind aus Sicht der interner Sprache als Elemente
+      von O_{Spec A} regulär.
+
+  (2) <==> (3) ist klar, da Regularität eine geometrische Implikation ist.
+
+  (1) ==> (2) ist einfach: Lokalisieren erhält reguläre Sequenzen.
+  (Achtung, manche Leute definieren regulär anders. Dann stimmt das nicht.)
+
+  (2) ==> (1) nutzt folgendes Lemma: Wenn für Ringelemente g und f_1,...,f_n
+  in der internen Sprache gilt: g in (f_1,...,f_n); dann gilt das auch extern.
+  Das liegt im Wesentlichen daran, dass (f_1,...,f_n)~ = [[ (f_1,...,f_n) ]].
+
+* Für ein beliebiges Schema X und Funktionen f_1,...,f_n in O_X(U) gilt
+  nur noch (2) <==> (3). Im Allgemeinen gibt es wohl aber keine Implikationen
+  zwischen (1) und (2)=(3). Das liegt im Wesentlichen daran, dass O_X(U) -->
+  O_X(V) oder O_X(U) --> O_{X,x} kein Lokalisierungshomo sein braucht.
+
+* Für eine Idealgarbe J auf einem beliebigen Schema X gilt:
+
+      X |== J ist regulär erzeugt
+
+  gdw.: Es existiert eine offene *affine* Überdeckung, sodass auf den einzelnen
+  Überdeckungsmengen U jeweils eine reguläre Sequenz f_1,...,f_n in O_X(U)
+  existiert, sodass U |== J = (f_1,...,f_n) gilt.
+
+  Diese Bedingung nutzt auch Manin in seinem Skript zur K-Theorie.
+
+  Achtung: Vakil nennt eine abgeschlossene Immersion V(J) --> X genau dann
+  regulär, wenn die Ideale J_x der lokalen Ringe jeweils regulär erzeugt sind.
+  Falls X lokal noethersch ist, sollte das äquivalent zur internen Bedingung
+  sein. Ansonsten stimmt nur, dass aus der internen Bedingung Vakils Bedingung
+  folgt. Das Problem ist dasselbe wie bei der Regularität einer einzelnen
+  Funktion.
 
 
 === Beispiel: RHom(k(x),k(x))
