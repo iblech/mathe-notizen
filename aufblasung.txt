@@ -1,6 +1,133 @@
+=== Grundlagen
+
+* Sei Z ein abgeschlossenes Unterschema von X mit Idealgarbe J.
+  Dann ist die Aufblasung von X in Z definiert als:
+
+      Bl_Z(X) = RelProj_X oplus_n J^n --> X.
+
+  Der exzeptionelle Divisor E ist das Urbild von Z unter dieser Abbildung.
+  Er ist stets ein effektiver Cartier-Divisor in Bl_Z(X), und die kanonische
+  Garbe O(-1) ist gleich O(E).
+
+  Falls J von endlichem Typ ist, ist Bl_Z(X) --> X ein projektiver Morphismus.
+
+* Auf X \ Z = D(J) gilt J = (1), also 
+
+      Bl_Z(X) = RelProj_X Sym(O_X) = X auf X \ Z.
+
+  Genauer ist die Einschränkung der kanonischen Abbildung Bl_Z(X) --> X
+  auf X \ Z ein Iso.
+
+* Falls J lokal durch eine reguläre Gleichung gegeben ist, gilt
+
+      Bl_Z(X) = X.
+
+  Denn lokal kann man dann Isomorphismen
+
+      Sym^n O_X = O_X --> J^n = (s^n),  f |-> f s^n
+
+  angeben. Diese Isomorphismen hängen von der Wahl des Erzeugers s von J ab,
+  aber der Iso Proj(oplus_n J^n) --> pt sollte davon unabhängig sein. Um das
+  formal zu machen, bräuchte Theorie der internen Spektra, internen Schemata
+  und internen projektiven Räume.
+
+* Tatsächlich ist Bl_Z(X) --> X die universelle (terminale) Art und Weise,
+  aus Z einen effektiven Cartier-Divisor zu machen.
+
+* Eine Warnung: Die Inklusion J --> O_X induziert eine nicht unbedingt
+  injektive Abbildung f^*(J) --> O_Y. Ihr Bild ist das von f^(-1)(J)
+  erzeugte Ideal in O_Y. Aber f^*(J) ist das im Allgemeinen nicht.
+
+* Das steht alles in http://stacks.math.columbia.edu/tag/01OF.
+
+
+=== Beziehung zur Konormalgarbe
+
+Die Garbe J/J^2 hat Träger auf Z. Also verliert man keine Information, wenn man
+auf Z zurückzieht; das ergibt die Konormalgarbe N = i^*(J/J^2), i : Z --> X.
+
+Dann gilt: Die Einschränkung von Bl_Z(X) --> X auf Z ist isomorph zu
+
+    Proj Sym N --> Z.
+
+Dieses Resultat benötigt die Voraussetzung, dass Z in X regulär eingebettet
+ist, also lokal durch eine reguläre Sequenz von Gleichungen gegeben werden
+kann. Denn zunächst erhält man, dass die gefragte Einschränkung gleich
+
+    Proj_X(oplus_n J^n) times_X Z
+      = Proj_Z(oplus_n J^n tensor_{O_X} O_X/J)
+      = Proj_Z(oplus_n J^n/J^(n+1))
+
+ist. Unter der Voraussetzung ist dann die kanonische Surjektion
+
+    Sym_{O_X/J}(J/J^2) --> oplus_n J^n/J^(n+1)
+
+ein Iso. Unter dieser Voraussetzung ist übrigens N auch lokal frei, sodass
+Proj Sym N die Projektivierung des (dann existenten) Normalenbündels ist.
+
+Außerdem weiß man: O(1) auf dem exzeptionellen Divisor ist die Konormalgarbe
+der Einbettung des exzeptionellen Divisors in die Aufblasung.
+
+Das steht zum Beispiel in http://stacks.math.columbia.edu/tag/063H und
+in Manins /Lectures on the K-functor in algebraic geometry/, Lemma 12.3.
+
+
 === Konkrete Beispiele
 
 * http://math.stackexchange.com/questions/193681/what-is-a-blow-up
+
+* Sei Z = V(x,y) in X = A^2. Dann kann man die Fasern der Aufblasung
+  explizit ausrechnen:
+
+  1. (x,y)^n tensor_{k[x,y]} k(p) = k(p) für p != Ursprung.
+     (Wie genau zeigt man das?)
+
+  2. (x,y)^n tensor_{k[x,y]} k(p) = k[u,v]_n für p = Ursprung.
+     Der Iso sieht so aus:
+     
+        sum_i f_i x^i y^(n-i) tensor [g] |--> g(0,0) * sum_i f_i(0,0) u^i v^(n-i).
+
+* Explizites Modell der Aufblasung von A^n in einem Punkt: Es ist
+  P_{k[x_1,...,x_n]}^(n-1)/(x_i y_j - x_j y_i). Siehe eine Mail an Martin Baur:
+
+  Du hattest doch die Aufgabe, zu beweisen, dass der Kern des graduierten
+  A-Algebrenhomos
+
+      A[y_1,...,y_n] ----->> bigoplus_d J^d,
+      y_i |-> x_i in J^1
+
+  wobei A = k[x_1,...,x_n] und J = (x_1,....,x_n) subseteq A, genau das
+  homogene Ideal
+
+      (x_i y_j - x_i y_i)_ij
+
+  ist, oder? Ich wünschte, ich hätte dir damals folgenden Tipp geben
+  können -- damals war ich damit aber noch nicht richtig vertraut: Mit der
+  sog. Koszul-Auflösung des Ideals J (als A-Modul) ist das eine
+  vergleichbar kurze Rechnung.
+
+  Sei etwa f ein homogenes Element vom Grad 1 im Kern. Dann sieht f so
+  aus: f = sum_i g_i y_i, wobei die g_i irgendwelche (nicht unbedingt
+  homogenen) Polynome aus A sind. Die Kernvoraussetzung ist
+  gleichbedeutend damit, dass sum_i g_i x_i = 0 in A.
+
+  Mit Hilfe der ersten Terme der Koszul-Auflösung kann man allgemein
+  Folgendes zeigen:
+
+      Sind g_1,...,g_n Polynome in A mit sum_i g_i x_i = 0 in A,
+      so gibt es Polynom c_ij in A mit
+
+          g_l = sum_{l < j} -c_lj x_j + sum_{i < l} c_il x_i.
+
+  Daraus folgt dann durch einfaches Summieren, dass
+
+      f = sum_i g_i y_i = sum_{a < b} c_ab (x_a y_b - x_b y_a),
+
+  also die Behauptung, dass f in dem von ... erzeugten Ideal liegt.
+
+  Ist der Grad von f größer als 1, benötigt man die weiteren Terme der
+  Auflösung. (Vermutlich -- das habe ich nicht bis zum Ende
+  durchgerechnet.)
 
 
 === Literatur

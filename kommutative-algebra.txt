@@ -413,6 +413,20 @@ Fred Richman. Nontrivial uses of trivial rings. 1988.
 http://www.ams.org/journals/proc/1988-103-04/S0002-9939-1988-0954974-5/S0002-9939-1988-0954974-5.pdf
 
 
+=== Matrizen über nichtkommutativen Grundringen
+
+Sei R nicht unbedingt kommutativ.
+
+* R^n (Spaltenvektoren) sollte man als Rechts-R-Modul ansehen.
+* R_n (Zeilenvektoren)  sollte man als Links-R-Modul ansehen.
+
+* R^n --> R^m, x |-> Ax ist Rechts-R-linear.
+* R_m --> R_n, y |-> yA ist Links-R-linear.
+
+* End(R^n) = R^(n x n), wie gewohnt.
+* End(R_n) = R^(n x n, op)!
+
+
 === Siehe auch
 
 * http://math.uga.edu/~pete/integral.pdf
