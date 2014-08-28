@@ -35,6 +35,22 @@ Dabei bezeichnet Pd : H_k --> H^{n-k} die Poincaré-Paarung.
 
 * http://mathoverflow.net/questions/111464/self-intersection-and-the-normal-bundle
 
+* Sei Y ein Unterschema von X. Mit "O_Y" meine ich dann oft die auf X
+  vorgedrückte Strukturgarbe. Es gilt:
+
+      Tor_*^{O_X}(O_Y, O_Y) = Lambda^*_{O_Y}(J/J^2).
+
+  wenn Y = V(J), J lokal regulär erzeugt. Der Komplex auf der rechten Seite hat
+  nur Null als Differentiale und berechnet auch das derivierte Tensorprodukt
+  von O_Y mit sich selbst.
+
+  Das folgt über die Koszul-Auflösung von O_Y = O_X/J:
+
+      Lambda^*_{O_X}(O_X^r) --> O_X/J
+
+  ist eine freie Auflösung, wenn J = (s_1,...,s_r) reguläre Sequenz.
+
+
 
 === Schnitt von Untermannigfaltigkeiten
 
@@ -61,6 +77,28 @@ Dabei bezeichnet Pd : H_k --> H^{n-k} die Poincaré-Paarung.
 * Tor_i^(O_X)(E,F)_x = Tor_i^(O_{X,x})(E_x,F_x).
 
   Korollar: supp Tor_i(E,F) <= supp E cap supp F.
+
+* Was ist der "richtige Schnitt" von V(x) mit V(x-y^2) in A^2?
+  Schematheoretisch besteht er aus einem dicken Punkt, V(x,x-y^2) = V(x,y^2).
+
+  Gesucht ist noch das derivierte Tensorprodukt
+
+      k[x,y]/(x) tensor^L k[x,y]/(x-y^2)
+
+  über k[x,y]. Den linken Modul kann man frei durch
+
+      0 --> k[x,y] --*x--> k[x,y] --> k[x,y]/(x) --> 0
+
+  auflösen. Das derivierte Tensorprodukt ist also der Komplex
+
+      0 --> k[x,y]/(x-y^2) --*x--> k[x,y]/(x-y^2) --> 0.
+
+  Speziell gilt: Tor_1 = 0, Tor_0 = k[y]/(y^2).
+
+  Hier kodiert also der schematheoretische Schnitt (d.h. das gewöhnliche
+  Tensorprodukt) alles. Ist auch zu erwarten, denn V(x) und V(x-y^2) liegen (in
+  Manins Sinn) transversal zueinander. Im transversalen Fall ist das derivierte
+  Tensorprodukt einfach durch das gewöhnliche gegeben, konzentriert im Grad 0.
 
 
 === Chernklassen

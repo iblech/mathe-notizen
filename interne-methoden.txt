@@ -1251,6 +1251,16 @@ PS: If you are into such things, here is the logical background:
   Dedekindschemata!
 
 
+=== Differentialformen zu Unterschemata
+
+* Kann man auf sinnvolle/einfache Art und Weise Omega_Y aus Sicht von X
+  (Y abgeschlossenes Unterschema von X) beschreiben?
+
+* Triviale Bemerkungen: O/J ist eine Box-Garbe, für Box = (__ v J=(1)).
+  a(O) --> O/J ist surjektiv, aber nicht injektiv. Sei K der Kern.
+  Dann ist K/K^2 die Konormalgarbe von V(J) in X!
+
+
 === Gliederung hypothetischer Notes zum Thema
 
 * Introduction
