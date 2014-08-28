@@ -176,3 +176,15 @@ Seite 44ff.
 * chi(X, F) ist invariant unter Deformationen von X und F. Was genau bedeutet
   das? Für F denke ich an flache Familien (siehe Shafarevich, Seite 42). Aber
   in welchem Sinn geht es hier um Deformationen von X?
+
+
+=== Literatur
+
+* Fulton.
+
+* Manin über K-Theorie.
+
+* Shafarevich.
+
+* Günther Trautmann, Introduction to Intersection Theory:
+  http://www.mathematik.uni-kl.de/~trm/download/IntersTh.ps
