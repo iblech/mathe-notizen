@@ -21,3 +21,8 @@ http://arxiv.org/abs/1408.6710
 === Introduction to Geometric Probability
 
 Klain, Rota.
+
+
+=== Scottish Physics and Knot Theory's Odd Origins
+
+Daniel Silver.
