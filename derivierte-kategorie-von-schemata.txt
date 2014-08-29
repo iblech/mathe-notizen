@@ -43,6 +43,16 @@ Vergleiche auch: http://wiki.heinrich-hartmann.net/index.php/Koszul_Duality
 http://www.researchgate.net/publication/233320583_The_automorphism_group_of_the_derived_category_for_a_weighted_projective_line
 
 
+=== Glattheit
+
+Sei X eine projektive Varietät über C. Dann gilt: X ist genau dann glatt, wenn
+
+    oplus_n Hom^n(A, B[i])
+
+für alle Objekte aus D^b(X) endlich-dimensional ist. Quelle: Bridgeland.
+Derived categories of coherent sheaves. Proposition 7.2.
+
+
 === Derivierte Kategorie von C^infty-Mannigfaltigkeiten
 
 Da Coh(X) für C^infty-Mannigfaltigkeiten halbeinfach ist, da Moduln auf

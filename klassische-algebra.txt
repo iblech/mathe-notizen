@@ -57,6 +57,12 @@ and 1 if n is even..
 http://mathoverflow.net/a/127087
 
 
+=== Semidirektes Produkt von Gruppen
+
+Möchte eine gegebene Wirkung H --> Aut(N) in eine Konjugationswirkung
+verwandeln.
+
+
 === Nächste Schritte
 
 * Unter welchen Voraussetzungen ist eine Untergruppe einer zyklischen Gruppe

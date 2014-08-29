@@ -8,3 +8,16 @@ http://mathoverflow.net/questions/25603/ample-line-bundles-sections-morphisms-to
 https://www.dpmms.cam.ac.uk/~martin/Research/Slides/slides.html
 Sequentiality
 Constructing Categories of Abstract Games
+
+
+=== Definitionen über Liftungseigenschaften bezüglich kleinster Gegenbeispiele
+
+Point-set topology as diagram chasing computations: Lifting property as
+negation
+
+http://arxiv.org/abs/1408.6710
+
+
+=== Introduction to Geometric Probability
+
+Klain, Rota.

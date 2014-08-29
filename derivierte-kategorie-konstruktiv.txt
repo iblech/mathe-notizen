@@ -24,7 +24,8 @@ Kann die abelsche Struktur von Modulkategorien implementieren:
 * für ... Moduln über Ringen, sodass ich die SNF habe
 * für k[X_0, ..., X_n]?
 * Allgemein: Benötige, dass der Grundring als Modul über sich selbst kohärent
-  ist. Das sind vermutlich prüfersche oder dedekindsche Ringe.
+  ist. Das sind vermutlich prüfersche oder dedekindsche Ringe. Dann ist die
+  Kategorie der endlich-präsentierten Moduln abelsch und implementierbar.
 
 Kann die abelsche Struktur von Kategorien kohärenter Modulgarben implementieren:
 * für Schemata, die eine endliche Überdeckung durch affine Unterschemata
