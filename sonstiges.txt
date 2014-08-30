@@ -3,6 +3,11 @@
 http://mathoverflow.net/questions/25603/ample-line-bundles-sections-morphisms-to-projective-space
 
 
+=== Nullstellen von Polynomen
+
+http://www.math.ucr.edu/home/baez/roots/
+
+
 === Spiele
 
 https://www.dpmms.cam.ac.uk/~martin/Research/Slides/slides.html

@@ -1,2 +1,8 @@
 * http://sbseminar.wordpress.com/2010/01/12/residues-and-integrals/
   Tr : H^1(X, Omega^1) --> k berechnet Residuen.
+
+* 0 --> Omega^1[D-p] --> Omega^1[D] --> C_p --> 0 ist exakt;
+  D Divisor, p Punkt, D(p) = 1.
+  Miranda, Algebraic curves and Riemann surfaces, Seite 286.
+  (Das war ein Tipp von Martin Brandenburg in Marcs altem Mainz-Forum zu seinen
+  riemannschen Flächen!)

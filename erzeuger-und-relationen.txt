@@ -135,6 +135,13 @@ Retrakte von darstellbaren Funktoren.
   http://amathew.wordpress.com/2011/07/30/quasi-coherent-sheaves-presentable-categories-and-a-result-of-gabber/
 
 
+=== Kategorie der Ringe
+
+Die Kategorie der kommutativen Ringe hat keine nichttrivialen Automorphismen.
+Das und mehr steht in: Clark. The automorphism class group of the category of
+rings.
+
+
 === Nächste Schritte:
 
 * Wozu ist der symmetrische Topos gut?

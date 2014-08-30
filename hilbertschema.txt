@@ -82,6 +82,9 @@ The cotangent space at a monomial ideal of the Hilbert scheme of points of an
 affine space.
 http://arxiv.org/abs/math/0506575
 
+An elementary, explicit, proof of the existence of Hilbert schemes of points.
+http://www.math.kth.se/~skjelnes/Pdffiler/elementaryhilb.pdf
+
 
 === Euler-Charakteristik
 

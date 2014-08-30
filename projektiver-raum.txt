@@ -70,6 +70,25 @@ Statt f(1,T) kann man auch f(X,TX) schreiben: Denn das X kürzt sich heraus.
 (Was gilt über Grund*ringen*?)
 
 
+=== Wieso Graduierung?
+
+Sei M ein Modul (oder Ring). Dann gilt: Z-Graduierungen von M entsprechen
+Wirkungen der multiplikativen Gruppe des Grundrings auf M. (Mehr oder weniger.)
+
+Ist M = oplus M_i eine Z-Graduierung, so definiert
+
+    lambda * sum_i x_i := sum_i lambda^i x_i
+
+eine Wirkung der multiplikativen Gruppe.
+
+Ist eine Wirkung der multiplikativen Gruppe gegeben, so setze
+
+    M_i = { f in M | lambda * f = lambda^i f für alle lambda }.
+
+Dann sollte M = oplus_i M_i gelten; sehe nicht, wieso das allgemein stimmen
+sollte. (Für k[x_0,...,x_n] stimmt es wohl (?).)
+
+
 === Beschreibung des Punktefunktors
 
 Hom_Z(X, P^n)
