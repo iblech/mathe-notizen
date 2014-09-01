@@ -82,6 +82,22 @@ Siehe: Christian Schnell. The fundamtenal group is not a derived invariant.
   aufspannende Klasse in D^b(X).
 
 
+=== Projektionsformel
+
+Sei f : X --> Y ein eigentlicher Morphismus. Dann gilt für die beschränkten
+derivierten Kategorien: Die kanonischen Morphismen
+
+    f_*(E) tensor F --> f_*(E tensor f^*(F))
+
+sind Isos.
+
+Eine Folgerung: Gilt f_* O_X = O_Y, so ist f^* volltreu:
+
+    Hom(f^*E, f^*F) = Hom(E, f_*f^*F) = Hom(E, F),
+
+da f_* f^* F = F.
+
+
 === Nächste Schritte
 
 * Grundlegende Lemmas zu D(X) notieren.

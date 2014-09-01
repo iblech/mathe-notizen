@@ -427,6 +427,12 @@ Sei R nicht unbedingt kommutativ.
 * End(R_n) = R^(n x n, op)!
 
 
+=== Krulldimension
+
+* Es gilt: dim R/(a) < dim R, falls a regulär; kann das einfach mit der
+  konstruktiven Definition von Krulldimension nachweisen.
+
+
 === Siehe auch
 
 * http://math.uga.edu/~pete/integral.pdf

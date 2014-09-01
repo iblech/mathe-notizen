@@ -17,6 +17,48 @@
   und Ext über Yoneda.
 
 
+=== Dynamische Theorie von Ext-Funktoren
+
+Desiderata:
+
+* Ext^1 = 0 ==> Sequenz zerfällt
+
+* Lokalität der Ext-Gruppen: Ext^1(M,N)_p = Ext^1(M_p,N_p).
+
+* sowieso: M_m = 0 für alle maximalen Ideale ==> M = 0.
+
+Gibt es eine Sprache, in der man wie gewohnt über Ext-Gruppen reden kann, aber
+mit der dann "konkrete Resultate", wie Zerfällungen von Sequenzen, konstruktiv
+folgen? (Konkreter Anlass: Brüning, Burban. Coherent sheaves on an elliptic
+curve. Beweis von Proposition 2.2.)
+
+* Eine Möglichkeit, Ext^1 konstruktiv zu definieren, geht so:
+  Benötige nur eine Surjektion P --> M, wobei P projektiv (zum Beispiel endlich
+  frei) ist. Dann folgt nämlich aus der kurzen exakten Sequenz
+  0 --> K --> P --> M --> 0, dass
+
+      Ext^1(M, N) := Hom(K, N) / Hom(P, N)
+
+  eine sinnvolle Definition ist (da sie klassisch genau die gewöhnliche
+  Ext-Gruppen berechnet).
+
+* Mit dieser Definition kann man explizit zeigen: Ist Ext^1(M, N) = 0,
+  so zerfällt jede kurze exakte Sequenz 0 --> N -i-> ? -j-> M --> 0.
+
+  Und zwar so: Habe 0 --> K -a-> P -b-> M --> 0. Da P projektiv ist, gibt
+  es p : P --> ? mit jp = b. Wegen der Exaktheit faktorisiert pa über i,
+  also gibt es f : P --> N mit if = pa. Da Ext^1(M, N) verschwindet, gibt es
+  zu f eine Abbildung g : P --> N mit ga = f.
+
+  Dann ist M --> ?, x |-> p(z) - ig(z), wobei z beliebig mit b(z) = x,
+  eine Zerfällung.
+
+* Die Unabhängigkeit der Definition von Ext^1 von der Wahl der Surjektion
+  P --> M sollte man elementar zeigen können.
+
+* In Mod(A)_koh kann man konstruktiv Ext-Gruppen berechnen (auch alle höheren)!
+
+
 === Konkret im Computer I
 
 Kann die abelsche Struktur von Modulkategorien implementieren:
@@ -42,6 +84,10 @@ Kann die abelsche Struktur von Kategorien von Kettenkomplexen implementieren:
 
 Kann die triangulierte Struktur der Homotopiekategorie implementieren:
 * ???
+
+Bemerkung: In einer abelschen Kategorie kann man Objekte genau dann auf
+Nullheit testen, wenn man Morphismen auf Gleichheit testen kann. (Betrachte
+Bilder.)
 
 
 === Konkret im Computer II (dg)

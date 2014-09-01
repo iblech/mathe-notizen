@@ -319,6 +319,10 @@ Die Normalgarbe ist der ihr O_Y-Duales.
 
   Das ist mir unklar.
 
+* Im Spezialfall, dass Y ein Punkt ist, sollte die Normalgarbe mit dem
+  Tangentialraum übereinstimmen. Das ist auch der Fall, denn J "ist" dann das
+  maximale Ideal.
+
 * Unbedingt verstehen:
   http://mathoverflow.net/questions/111464/self-intersection-and-the-normal-bundle
 

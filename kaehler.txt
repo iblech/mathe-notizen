@@ -53,6 +53,28 @@ Habe: (Omega^1)^vee = Hom_B(Omega^1, B) = Der_A(B, B).
 Beispiel: (Omega^1_X)^vee = Der_C(O_X, O_X).
 
 
+=== Differentiale im glatten Kontext
+
+Das glatte/richtige Omega^1 ist das Doppeldual von Omega^1_Kähler.
+
+Denn: Das Duale von Omega^1_Kähler sind die Derivationen, also Vektorfelder;
+deren Duales sind die glatten/richtigen Differentialformen (per Definition).
+
+Insbesondere ist also auf einer Mannigfaltigkeit Omega^1_Kähler nicht lokal
+frei (als C^infty-Modul)! Das kann man auch sofort einsehen: Etwa sollte
+Omega^1_Kähler auf X = R^1 ja (dx) als Basis haben. Zwar ist diese Familie noch
+linear unabhängig, da ihr Bild unter Omega^1_Kähler --> (Omega^1_Kähler)^^ =
+Omega^1_echt linear unabhängig ist, aber sie ist kein Erzeugendensystem. Dazu
+müsste man
+
+    df = f'(x) dx in Omega^1_Kähler
+
+nachweisen können, aber das kann man nicht.
+
+http://math.ucr.edu/home/baez/week287.html
+http://ncatlab.org/nlab/show/K%C3%A4hler+differential
+
+
 === Übergangsabbildungen für die Tangentialgarbe
 
 Sei X eine Mannigfaltigkeit. Sei (phi_i : U_i --> V_i) ein Atlas, V_i Teilmenge

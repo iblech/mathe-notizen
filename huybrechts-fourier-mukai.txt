@@ -35,3 +35,10 @@ Gibt es ein Analogon zur Auflösung der Diagonale?
 === Nächste Schritte
 
 * Analogie-Tabelle anlegen und -Fragen klären
+
+
+=== Literatur
+
+* Huybrechts
+* Bartocci et al, Fourier-Mukai and Nahm Transforms in Geometry and
+  Mathematical Physics

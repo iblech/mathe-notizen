@@ -61,6 +61,10 @@
 * dim X <= 1 gdw. Sh(X) |== forall a,b : O_X.
       a inv.  v  (a. inv ==> (b inv. v neg (b inv))).
 
+* F_xi = 0 ==> supp F echte Teilmenge von X ==> dim supp F < dim X.
+
+  dim F = dim O_X/Ann(F).
+
 
 === Noether
 
@@ -119,7 +123,25 @@
 
       { f : O_X | f invertierbar ==> !x0 }
 
-  gegeben werden.
+  gegeben werden. Man kann intern nachweisen, dass I ein Radikalideal ist und
+  quasikohärent ist.
+
+  Wenn x0 nicht abgeschlossen ist, kann man immer noch die exakte Sequenz
+
+      0 --> I --> O_X --> O_X/I --> 0
+
+  hinschreiben; das ist dann die exakte Sequenz zum reduzierten abgeschlossenen
+  Unterschema V(I) = clos {x0}.
+
+* Kann also intern auch die Abbildung ev_x : O_X --> i_* k(x)
+  verstehen: Das ist einfach die Projektionsabbildung O_X/{...}.
+
+  i_* k(x) ist aus interner Sicht ein Ring, schwacher Integritätsbereich,
+  Körper im Sinn von "jedes Element ist Null oder invertierbar"; aber "1 neq 0"
+  gilt nicht. (1 neq 0 ist gleichwertig zu neg(Bot false).)
+
+* Kann man modale Operatoren der Form ((__ -> !x) -> !x) intern
+  charakterisieren?
 
 * Was passiert bei anderen Aussagen phi statt "!x0"? Ideale erhält man in jedem
   Fall.
