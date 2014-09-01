@@ -367,6 +367,8 @@ erste Chern-Klasse von O(D), D effektiv, die Klasse von O_D in K(X).
   immer zurückziehen. Wurde als Schlüsselpunkt zu Cartier-Divisoren bezeichnet.
   Verstehen!
 
+* Riemann-Hurwitz: http://www.mathematik.uni-kl.de/~gathmann/class/alggeom-2002/chapter-7.pdf
+
 
 === Literatur
 

@@ -1,0 +1,11 @@
+=== Irrationalität algebraischer Zahlen
+
+Sei alpha eine algebraische Zahl vom Grad D > 1. Dann gibt es eine Konstante c,
+sodass für alle rationalen Zahlen p/q die Abschätzung
+
+    |alpha - p/q| >= c / |q|^D
+
+gilt. (Liouville's theorem (on diophantine approximation,
+http://en.wikipedia.org/wiki/Liouville%27s_theorem_(transcendence_theory))
+
+http://terrytao.wordpress.com/2014/07/07/the-subspace-theorem-approach-to-siegels-theorem-on-integral-points-on-curves-via-nonstandard-analysis/

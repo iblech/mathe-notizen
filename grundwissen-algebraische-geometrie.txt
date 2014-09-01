@@ -355,6 +355,12 @@ Die Normalgarbe ist der ihr O_Y-Duales.
   Delta^(-1)O_{XxX} --> O_X surjektiv ist und Delta^(-1)(J/J^2) schon eine
   O_X-Struktur trägt. Letzteres sollte sich intern schön bestätigen lassen.
 
+  In diesem Zusammenhang gibt es auch eine Erweiterung, die im Allgemeinen
+  nichttrivial ist: 0 --> Omega^1_X --> A --> O_X --> 0. Hinreichend für
+  Nichttrivialität ist die Nichtverschwindung der Chernklassen von T^*X.
+  Bei A handelt es sich evtl. um das erste Jet-Bündel.
+  http://mathoverflow.net/a/57689
+
 * "Was in der glatten Kategorie lokal gilt, gilt in der algebraischen Kategorie
   infinitesimal."
 
@@ -625,6 +631,7 @@ sehr gut lesbar!
 * Eisenbud, Geometry of Schemes
 * Rational points on varieties. Bjoern Poonen.
   http://math.mit.edu/~poonen/papers/Qpoints.pdf
+* http://www.mathematik.uni-kl.de/~gathmann/class/alggeom-2002/chapter-7.pdf
 
 
 === Nächste Schritte

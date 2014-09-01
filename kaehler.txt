@@ -113,6 +113,17 @@ Die Erzeuger sind die Klassen der f_i.
 Linear unabhängig sind sie wegen der Regularität.
 
 
+=== Beispiel: Unterschema durch eine Gleichung im projektiven Raum
+
+Sei X = V(f) ein glattes Unterschema in P^n. Sei deg(f) = d. Dann gibt es eine
+exakte Sequenz
+
+    0 --> O_X(-d) --> i^* Omega_{P^n} --> Omega_X --> 0.
+            g     |-> d(f g)
+
+(Bemerkung: Die Idealgarbe zu X ist O(-d).)
+
+
 === Zusammenhang mit der Diagonale
 
 Laut Liu (Kap. 6.1.2, Seite 216): Die Diagonale Delta : X --> X x_Y X

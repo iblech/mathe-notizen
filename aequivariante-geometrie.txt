@@ -84,9 +84,19 @@
   Mit der Formel aber folgt: chi(pt//G) = |Konjugationsklassen in G|.
 
   Vielleicht gibt es einen Unterschied zwischen chi(X,G) und chi(X//G).
+  Ja, gibt es; siehe Warnung unten.
 
 * Man "erwartet", dass chi(X//G) die Euler-Charakteristik einer krepanten
   Auflösung von X/G ist.
+
+
+=== Warnung vor dem Begriff "orbifold cohomology"
+
+Orbifold cohomology is not a model for the cohomology of the orbifold (or more
+generally stack) itself, but for that of its inertia stack (a.k.a. derived loop
+space), which parametrizes points of the stack together with automorphisms.
+
+http://mathoverflow.net/a/57191
 
 
 === Singularität ist zu wenig orbig
