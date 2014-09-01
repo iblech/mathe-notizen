@@ -88,6 +88,12 @@ Ist eine Wirkung der multiplikativen Gruppe gegeben, so setze
 Dann sollte M = oplus_i M_i gelten; sehe nicht, wieso das allgemein stimmen
 sollte. (Für k[x_0,...,x_n] stimmt es wohl (?).)
 
+Siehe auch
+http://mathoverflow.net/questions/124466/what-about-schemes-built-up-out-of-graded-rings:
+Schemata mit G_m-Wirkung sind dasselbe wie Schemata über BG_m; Übergang zum
+Quotienten gibt sowas ähnliches wie Proj, nur dass man das irrelevante Ideal
+nicht wegschmeisst.
+
 
 === Beschreibung des Punktefunktors
 
