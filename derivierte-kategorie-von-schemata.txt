@@ -3,6 +3,21 @@
 Def.: D(X) := D^b(Coh(O_X)).
 
 
+=== Quasikohärente Auflösungen
+
+Ist X lokal noethersch, so ist eine quasikohärente Modulgarbe genau dann
+injektiv in QCoh(X), wenn sie injektiv in Mod(O_X) ist.
+http://mathoverflow.net/a/6778/31233
+
+Daraus folgt: Garbenkohomologie von quasikohärenten Modulgarben kann sowohl in
+Mod(O_X) als auch in QCoh(X) berechnet werden. (Sowie in Ab(X).) Hier geht ein,
+dass QCoh(X) genügend Injektive besitzt.
+
+Für Projektive stimmt das aber nicht. In QCoh(P^1) gibt es kein projektives
+Objekt, das einen Epi zur Strukturgarbe hätte: William Stein. Notes for
+Algebraic Geometry II. hartnotes.pdf.
+
+
 === Bedeutung der Diagonale
 
 1. Ausgezeichnete Dreiecke in D^b(X x Y) stiften über Fourier--Mukai
@@ -91,11 +106,16 @@ derivierten Kategorien: Die kanonischen Morphismen
 
 sind Isos.
 
-Eine Folgerung: Gilt f_* O_X = O_Y, so ist f^* volltreu:
+Eine Folgerung: Gilt f_* O_X = O_Y, so ist f^* volltreu und damit D^b(Y) eine
+volle Unterkategorie von D^b(X):
 
     Hom(f^*E, f^*F) = Hom(E, f_*f^*F) = Hom(E, F),
 
 da f_* f^* F = F.
+
+Beispiel: D^b(pt) <= D^b(P^n), denn H^*(O_{P^n}) = k[0].
+
+Kein Beispiel ist V(f) <= P^n.
 
 
 === Nächste Schritte

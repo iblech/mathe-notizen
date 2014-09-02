@@ -79,6 +79,10 @@ globalen Schnitt von E liften, wenn sein Bild unter dieser Abbildung null ist.
   Einfaches Beispiel: AUT = GL(1, O_X) = O_X^*.
   http://mathoverflow.net/a/22921
 
+  Allgemein: H^1(X, E) klassifiziert E-Torsorn (bis auf Isomorphie), falls E
+  eine Garbe abelscher Gruppen ist. http://stacks.math.columbia.edu/tag/02FQ
+  Geradenbündel sind dasselbe wie O_X^*-Torsorn.
+
 * Auf irreduziblen Räumen gibt es wenige lokal konstante Garben.
 
 * Anwendungen wie das Cousin-Problem, Chern-Klassen, ...
