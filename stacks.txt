@@ -9,6 +9,12 @@ Das gilt, wenn/da pi_* exakt ist.
 http://mathoverflow.net/questions/6278/when-can-cohomology-be-calculated-on-the-coarse-moduli-space
 
 
+=== Höhere Stacks
+
+* https://www.imj-prg.fr/~gabriele.vezzosi/seminar/notes.pdf
+* http://www.math.ethz.ch/u/calaqued/DAG-school
+
+
 * Quotientstack [X/G] (immer ein glatter D-M-Stack)
 * Coh^G(X) ~ Coh([X/G]) angeblich trivialerweise
 * http://ens.math.univ-montp2.fr/~toen/m2.html

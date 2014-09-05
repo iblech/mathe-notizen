@@ -51,7 +51,6 @@ Dabei bezeichnet Pd : H_k --> H^{n-k} die Poincaré-Paarung.
   ist eine freie Auflösung, wenn J = (s_1,...,s_r) reguläre Sequenz.
 
 
-
 === Schnitt von Untermannigfaltigkeiten
 
 * Der naive Punktschnitt ist offensichtlich schlecht.
