@@ -63,6 +63,15 @@ n-Kokette: Zuordnung von Koeffizienten (Schnitten der untersuchten Garbe F) zu
 1-Korand: d phi = (phi_j - phi_i)_ij
 
 
+=== Morse-Homologie
+
+* http://people.maths.ox.ac.uk/ritter/morse/ritter-book-introduction.pdf
+
+* Wikipedia
+
+* Kann Kohomologie, Poincaré-Dualität, Künneth, Cup-Produkt darüber verstehen.
+
+
 === Verbindender Homomorphismus in relativer singulärer Homologie
 
 ...der liefert zu einer relativen Kette in C_n(X, A) tatsächlich ihren Rand als

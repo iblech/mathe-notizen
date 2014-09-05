@@ -37,3 +37,36 @@ Daniel Silver.
 
 Bjorn Poonen. Undecidability in number theory.
 http://www-math.mit.edu/~poonen/papers/h10_notices.pdf
+
+
+=== Quantorenelimination
+
+* Quantorenelimination ist bei der Theorie algebraisch abgeschlossener Körper
+  möglich. Idee: Ersetze zwei Gleichungen
+
+      f(x) = 0  und  g(x) = 0
+
+  mit f(x) = a x^n + ..., g(x) = b x^m + ..., n >= m, durch
+
+      (b  = 0 und (f(x) = 0 und g(x)-bx^m = 0)) oder
+      (b != 0 und (b*f(x) - a*x^{n-m}*g(x) = 0 und g(x) = 0)).
+
+  Die neu auftretenden Gleichungen haben geringeren Grad. Schlussendlich
+  bleiben nur Gleichungen zwischen Konstanten übrig (die Variable x wurde also
+  eliminiert) und lineare Gleichungen übrig (welche wegen der Voraussetzung der
+  algebraischen Abgeschlossenheit stets lösbar sind). Dann kann man rekursiv
+  mit den in den Konstanten versteckten weiteren Variablen weitermachen.
+
+* Quantorenelimination zieht nach sich: Bilder quantorfrei definierter Mengen
+  unter definierbaren Abbildungen sind wieder quantorfrei definierbar.
+
+* Auch die Theorie reell abgeschlossener Körper besitzt Quantorenelimination.
+  Daher sind Bilder semialgebraischer Mengen unter polynomiellen Abbildungen
+  wieder semialgebraisch.
+
+* Inwieweit ist Chevalleys Theorem eine Verallgemeinerung?
+
+* Ting Zhang. A survey of quantifier elimination: syntactic and semantic
+  approaches. http://theory.stanford.edu/~tingz/talks/qe.ps
+
+* http://homepages.math.uic.edu/~marker/orsay/orsay2.pdf

@@ -7,6 +7,17 @@ Poincaré dual of [Z].
 http://en.wikipedia.org/wiki/Euler_class
 
 
+=== Chern-Klassen
+
+* c_1(E) = Poincaré-Duales zur Untermannigfaltigkeit von (Nullschnitt) \cap
+  (generischer Schnitt) -- laut Sven.
+
+* Für Geradenbündel: c_1(L) = 0 genau dann, wenn L trivial.
+
+* c_1 : Pic(X) = H^1(X, O_X^*) --> H^2(Z) ist der verbindende Homo in
+  der kurzen exakten Sequenz zu 0 --> Z --> O_X --> O_X^* --> 0.
+
+
 === Charakteristische Klassen von Schemata
 
 Euler-Charakteristik, Segre-Klassen, ... mit Beispielen!
