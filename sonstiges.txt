@@ -31,3 +31,9 @@ Klain, Rota.
 === Scottish Physics and Knot Theory's Odd Origins
 
 Daniel Silver.
+
+
+=== Entscheidbarkeit der Lösbarkeit diophantischer Gleichungen
+
+Bjorn Poonen. Undecidability in number theory.
+http://www-math.mit.edu/~poonen/papers/h10_notices.pdf
