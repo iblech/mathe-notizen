@@ -220,6 +220,8 @@ projective curve"
 
 * deg (L tensor M) = deg L + deg M.  (Nutze rationale Schnitte.)
 
+* deg (L^) = -deg L, denn L^ tensor L ist (sogar kanonisch) isomorph zu O_C.
+
 * Wenn h^0(L) > 0, so ist deg L >= 0. (Auf glatter, eigentlicher Kurve.)
 
   Denn unter der Voraussetzung gibt es einen globalen Schnitt s von L,

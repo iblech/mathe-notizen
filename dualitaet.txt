@@ -4,6 +4,12 @@ http://www.math.leidenuniv.nl/~rdejong/publications/thesis.pdf
 Seite 12ff.
 
 
+=== Grothendieck-Dualität
+
+* http://www.math.purdue.edu/~lipman/DualityTalk.pdf
+* http://www.math.purdue.edu/~lipman/AlgecomSlides.pdf
+
+
 === Tannaka-Dualität
 
 Kann kompakte Lie-Gruppen G aus ihrer Kategorie von Darstellungen (als

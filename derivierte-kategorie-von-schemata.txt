@@ -149,3 +149,7 @@ Literatur:
 
 * http://arxiv.org/pdf/1402.7364v2.pdf
   Unbedingt sichten. Perfekte Komplexe usw.
+
+* http://www.math.purdue.edu/~lipman/Duality.pdf
+  http://www.math.purdue.edu/~lipman/Spain/
+  Wird von Bondal/Bergh zitiert. Unbedingt sichten.

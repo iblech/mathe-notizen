@@ -70,3 +70,15 @@ http://www-math.mit.edu/~poonen/papers/h10_notices.pdf
   approaches. http://theory.stanford.edu/~tingz/talks/qe.ps
 
 * http://homepages.math.uic.edu/~marker/orsay/orsay2.pdf
+
+
+=== Differentialgleichungen
+
+* http://www.ams.org/bookstore/pspdf/cbms-106-prev.pdf
+
+
+=== Kohärenzbedingungen
+
+* http://www.math.purdue.edu/~lipman/Madrid.pdf
+  Kommutieren alle Diagramme, die mit Grothendiecks sechs Funktoren gebaut
+  werden?

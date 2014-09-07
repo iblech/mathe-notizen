@@ -6,3 +6,5 @@
   Miranda, Algebraic curves and Riemann surfaces, Seite 286.
   (Das war ein Tipp von Martin Brandenburg in Marcs altem Mainz-Forum zu seinen
   riemannschen Flächen!)
+
+* http://www.math.purdue.edu/~lipman/AlgecomSlides.pdf

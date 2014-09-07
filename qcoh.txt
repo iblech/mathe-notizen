@@ -1,9 +1,9 @@
 Drei Sichtweisen auf qcoh Moduln auf affinen Schemata:
-* Modulgarben, die lokal eine Präsentation zulässt
+* Modulgarben, die lokal eine Präsentation zulassen
 * kartesische Prägarben
 * Moduln auf dem Ring der globalen Schnitte
-Siehe: Leovigildo Alonso, Ana Jeremias, Marta Perez, Maria J. Vale. A
-functorial formalism for quasi-coherent sheaves on a geometric stack.
+Siehe: Leovigildo Alonso, Ana Jeremias, Marta Perez, Maria J. Vale.
+A functorial formalism for quasi-coherent sheaves on a geometric stack.
 http://arxiv.org/abs/1304.2520
 
 David Ben-Zvi auf [1]:

@@ -1,8 +1,0 @@
-=== Symmetrische/alternierende Tensoren
-
-Habe in Charakteristik 0 Iso:
-
-    S^n(V) --> S_n(V)
-    x_1 ... x_n |--> 1/n! * sum_sigma x_sigma(1) tensor ... tensor x_sigma(n)
-
-Analog für Lambda_n und Lambda^n.
