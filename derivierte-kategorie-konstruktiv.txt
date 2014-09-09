@@ -121,6 +121,8 @@ Erfüllt Coh(X) als k-angereicherte Kategorie diese Bedingung?
 * http://arxiv.org/pdf/math/0701146v2.pdf homalg
 * http://arxiv.org/pdf/1202.3337.pdf Gabriel monad
 * http://homalg.math.rwth-aachen.de/~barakat/talks/SheafAndLocalCohomology.pdf
+* http://arxiv.org/abs/1409.2028 Gabriel morphisms and the computability of
+  Serre quotients with applications to coherent sheaves
 
 
 === Nächte Schritte

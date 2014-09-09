@@ -114,7 +114,7 @@ Es gibt auch das universelle Primideal Z, mit
 
 Es gilt in der internen Sprache:
 
-    forall f : gamma^*(A). nicht (f in Z) <==> f in F.
+    forall f : gamma^*(A). nicht (f in F) <==> f in Z.
 
 
 === Unterschema

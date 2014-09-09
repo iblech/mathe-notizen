@@ -32,6 +32,13 @@ Undecidable problems: a sampler.
 http://www-math.mit.edu/~poonen/papers/sampler.pdf
 
 
+=== Vollständigkeit
+
+Benjamin Frot.
+Gödel's Completeness Theorem and Deligne's Theorem.
+http://arxiv.org/abs/1309.0389
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?
