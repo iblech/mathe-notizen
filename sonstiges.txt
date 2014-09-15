@@ -82,3 +82,9 @@ http://www-math.mit.edu/~poonen/papers/h10_notices.pdf
 * http://www.math.purdue.edu/~lipman/Madrid.pdf
   Kommutieren alle Diagramme, die mit Grothendiecks sechs Funktoren gebaut
   werden?
+
+
+=== Kritik am Schulsystem
+
+* http://www.rzuser.uni-heidelberg.de/~hb3/publ/dida.pdf
+* http://www.rzuser.uni-heidelberg.de/~hb3/publ/tor.pdf
