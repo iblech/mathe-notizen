@@ -1,3 +1,20 @@
+=== Kanten vs. Pfade
+
+The morphisms in a category are not so much like the edges in a graph as like
+the paths in a graph. Edges do not compose, but paths do. Edges are all alike,
+but paths are not. In particular, some paths are special in a way that
+identifies them as identity morphisms: the paths of length zero. In particular,
+an identity morphism is not a loop (and edge from a vertex to itself, which a
+path of length 1, not 0.) So in identifying the identity morphisms, we do not
+pick out one loop from all of the loops at a given vertex, label it the
+identity, and then demand that this labelling be preserved. Instead, we demand
+that a path of length 0 be mapped to a path of length 0, which is very
+different.
+
+Toby Bartels in:
+http://nforum.mathforge.org/discussion/6234/why-do-functors-preserve-identity-/?Focus=49712#Comment_49712
+
+
 === Duale Kategorie
 
 Set^op ist nicht äquivalent zu Set. Denn in Set ist jeder Morphismus ins
