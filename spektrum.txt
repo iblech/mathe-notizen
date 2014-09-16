@@ -116,6 +116,43 @@ Es gilt in der internen Sprache:
 
     forall f : gamma^*(A). nicht (f in F) <==> f in Z.
 
+* Ferner: Ist M ein A-Modul, so ist gamma^*(M)[F^(-1)] gerade M~
+  (die Tilde-Konstruktion). Denn:
+
+  M[F^(-1)]_pre (dabei M konstante Prägarbe) bildet D(f) auf
+  M[Sat_f^(-1)] ab. Man weiß, dass auf den standardoffenen Teilmengen diese
+  Zuordnung die Garbenaxiome erfüllt. Also gilt:
+
+      gamma^*(M)[F^(-1)](D(f)) =
+      a(M[F^(-1)]_pre)(D(f)) =
+      M[F^(-1)]_pre(D(f)) =
+      M[f^(-1)].
+
+  Dabei nutze aus, dass die Garbifizierung einer Prägarbe, welche bzgl. einer
+  Basis B eine Garbe ist, eingeschränkt auf B die ursprüngliche Prägarbe ist.
+  Nutze außerdem aus, dass a(colim_pre E_i) = a(colim_pre a(E_i)).
+
+* Spec A |== exists f : gamma^*(A). F = { g : gamma^*(A) | f in sqrt((g)) }
+  ist völlig falsch.
+
+* Spec A |== forall x : gamma^*(A). x in P  v  x in Z
+  (P := Z) ist vermutlich falsch.
+
+* Spec A |== neg (x in F  wedge  forall y. xy - 1 in F)
+  ist für x in A vermutlich auch falsch. P ist also kein maximales Ideal, bzw.
+  F kein minimaler Filter.
+
+* D(f) |== F cap I bewohnt  ==>  D(f) |== f^N in I für ein N >= 0,
+  falls:
+
+  1. (U |== a in I) ==> (U bewohnt ==> Spec A |== a in I) für alle
+     U <= D(f) offen, a in A.
+
+     Hinreichend dafür: I = { x : AA | phi(x) }, wobei in phi nur konstante
+     Garben vorkommen.
+
+  2. D(f) |== I Ideal.
+
 
 === Unterschema
 
@@ -125,6 +162,14 @@ Es gilt in der internen Sprache:
   Daher stellt sich die Frage, ob man i_* Z intern definieren kann.
 
   Und, geht das?
+
+* Spec A |== b in Z  v  a in F
+      ==> b in sqrt((a)).
+
+  Leider gilt nicht die Umkehrung!
+
+  Sonst hätte man einfach Coquands "phi |- psi" zu "phi v neg(psi)" übersetzen
+  können, oder so ähnlich.
 
 
 === Wann ist das Spektrum einpunktig?

@@ -9,6 +9,20 @@
   Exercise 8.6.1: Habe 0 --> omega_X --> omega_X \otimes O_X(P) --> k_P --> 0.
 
 
+=== Garbifizierung
+
+* Sei phi : F --> aF die Garbifizierung einer Prägarbe. Dann gilt
+  für alle lokalen Schnitte s in (aF)(U): Es gibt eine Überdeckung
+  U = bigcup_i U_i und lokale Schnitte t_i in F(U_i) mit
+  s|_Ui = phi(t_i) für alle i.
+
+  Für die Kompatibilität der t_i untereinander gilt: Es gibt eine Überdeckung
+  U_i cap U_j = bigcup V_ijk mit t_i = t_j auf V_ijk.
+
+* Das folgt aus: M --> M^+ Box-hat Urbilder für jedes Zielmengenelement,
+  und je zwei Urbilder sind Box-gleich.
+
+
 === Wolkenkratzergarben in algebraischer Geometrie
 
 Sei X ein Schema und A ein abgeschlossenes Unterschema. Dann ist mit

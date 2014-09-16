@@ -282,6 +282,22 @@ muss.
 * Die Menge der regulären Elemente eines Rings ist immer ein saturiertes
   multiplikativ abgeschlossenes System.
 
+* M[S^(-1)] ist der filtrierte Kolimes von folgendem System:
+
+      Indexkategorie:
+
+          Objekte s \in S, Morphismen: Hom(s,t) = { u in S | t = su }.
+
+      Diagramm:
+
+          s |--> M
+          u |--> (M --> M, Multiplikation mit u).
+
+  Speziell für S = { f^0, f^1, ...} ist die Lokalisierung also der Kolimes von
+
+      M ---> M ---> M ---> ...   (jeweils Multiplikation mit f).
+
+
 
 === Äußere Algebra
 

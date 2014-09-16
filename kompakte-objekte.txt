@@ -73,6 +73,16 @@ Nächste Schritte: ???
 Was sind sie?
 
 
+=== Verträglichkeit von globalen Schnitten mit filtrierten Kolimiten
+
+* Kohärente Topoi sind stark kompakt (nLab/MV).
+
+* Sh(Spec A) ist kohärent.
+
+* Daher erhält Gamma(U, __) : Sh(X) --> Set, wenn U eine affinoffene
+  Teilmenge ist, filtrierte Kolimiten.
+
+
 === Kompakte Objekte in derivierten Kategorien
 
 Nach Bondal-van den Bergh (S. 8f):

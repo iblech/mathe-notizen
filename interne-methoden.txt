@@ -967,6 +967,40 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
   Siehe: http://math.stackexchange.com/questions/454393/does-cheap-nonstandard-analysis-take-place-in-a-topos/
 
 
+=== Transferprinzipien M vs. M~
+
+* Es gilt: M~ ist in Sh(Spec A) die Lokalisierung MM[F^(-1)], wobei
+  MM die konstante Garbe und F den universellen Filter bezeichnet.
+
+* Da first-order Eigenschaften von M dieselben wie die von MM sind,
+  gilt: Die Beziehung von M zu M~ ist die einer Lokalisierung.
+
+* Gelte, dass MM[F^(-1)] endlich erzeugt ist. Das impliziert:
+
+      Spec A |== bigvee_n exists x_1, ..., x_n : MM.
+          forall x : MM. exists u in F.
+              exists a_1, ..., a_n : AA.
+                  ux = sum_i a_i x_i.
+
+  Die ersten beiden Quantoren/Junktoren kann man zu
+
+      bigvee_{n; x_1,...,x_n in M}
+
+  zusammenfassen. Also liegt hier eine gerichtete Disjunktion vor. Somit gibt
+  es eine natürliche Zahl n und Elemente x_1,...,x_n in M mit
+
+      Spec A |== forall x : MM. exists u in F.
+          exists a_1, ..., a_n : AA.
+              ux = sum_i a_i x_i.
+
+  Das zeigt, dass M durch die x_i erzeugt wird.
+
+* Spec A |== AA[F^(-1)] reduziert  <==>  Spec A |== AA reduziert  <==>  A reduziert.
+
+* Ebenso: alpha[F^(-1)] injektiv/surjektiv, M[F^(-1)] flach über A[F^(-1)],
+  M[F^(-1)] endlich erzeugt/A[F^(-1)].
+
+
 === Nächste Schritte
 
 * "Lemma 3" oben beweisen
