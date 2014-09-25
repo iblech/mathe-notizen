@@ -1,1 +1,14 @@
 * http://www.math.purdue.edu/~dvb/preprints/abelian.pdf
+
+
+=== Elliptische Kurven
+
+Wieso gibt es auf elliptischen Kurven ein Gruppengesetzt, aber nicht zum
+Beispiel auf Kreisen? Hängt mit der Interpretation als Divisoren zusammen.
+Verstehen!
+
+Zur Transformation auf die Weierstraßnormalform benötigt man einen Punkt auf
+der Kurve.
+
+Der Koordinatenring einer elliptischen Kurve ist von Dimension 1, evtl. ein
+Dedekindring.

@@ -54,3 +54,6 @@ http://arxiv.org/pdf/math/0504590.pdf
 * http://www.math.kth.se/~skjelnes/Pdffiler/forel_impa.pdf
 
 * http://homepages.warwick.ac.uk/staff/D.Maclagan/papers/HilbertSchemesNotes.pdf
+
+* Gennaro Di Brino. The quot functor of a quasi-coherent sheaf.
+  http://arxiv.org/abs/1212.4544
