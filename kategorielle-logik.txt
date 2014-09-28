@@ -259,6 +259,15 @@ für geometrische Formeln phi über X:
 * ???: Garbe der holomorphen Funktionen. Aus interner Sicht diskret!
 
 
+=== Kohärente Topoi
+
+* Kohärente Topoi haben genügend Punkte. (Deligne)
+* Big_et(X) ist kohärent, da definierbar als Topos über dem Situs Aff/X,
+  Affine quasikompakt sind und daher Überdeckungssiebe endlich erzeugt sind.
+  (Was heißt das genau?)
+  http://mathoverflow.net/questions/145821/interaction-petit-topos-gros-topos
+
+
 === Nächste Schritte
 
 * Für den Rückzug mit f^* statt f^(-1) auf Spec k(x)

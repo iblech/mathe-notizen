@@ -63,6 +63,17 @@ wobei phi_x : A --> O_X(X) --> O_{X,x}. Umgekehrt ist phi die Komposition
 induziert durch f^# : f^(-1) O_(Spec A) --> O_X, bzw. genauer durch seinen
 Transponierten O_(Spec A) --> f_* O_X.
 
+Verwandt ist folgende Beobachtung: Die Kategorien der affinen Schemata ist eine
+reflektive Unterkategorie der Kategorie aller Schemata. Der Reflektor, d.h. der
+Linksadjungierte zur Inklusion Aff --> Sch, ist Sch --> Aff, X |-> Spec Gamma(X,O_X):
+
+    Hom_Aff(Spec Gamma(X,O_X), Spec A) =
+    Hom_Ring(A, Gamma(X,O_X)) =
+    Hom_Sch(X, Spec A).
+
+Der Reflektor ist nicht treu, man kann hier also nicht von einer
+Vervollständigung sprechen.
+
 
 === Spektren von Algebren, die endlich als Modul sind
 
@@ -624,6 +635,12 @@ http://www.jmilne.org/math/CourseNotes/LEC.pdf
 Seite 10
 
 sehr gut lesbar!
+
+
+=== Eigentlichkeit, Quasikompaktheit usw.
+
+* Universell abgeschlossene Morphismen sind quasikompakt.
+  http://mathoverflow.net/questions/23337/is-a-universally-closed-morphism-of-schemes-quasi-compact
 
 
 === Referenzen

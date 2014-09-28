@@ -125,6 +125,13 @@ Besitze C einen Limes dieses Diagramms: K := lim L_i.
 Dann wird K zu einem Limes von F.
 
 
+=== Allgemeine vs. filtrierte Kolimiten
+
+Ein Koprodukt unendlich vieler Summanden ist filtrierter Kolimes des
+gerichteten Systems der Koprodukte von je endlich vielen Summanden.
+Sagt Todd Trimble.
+
+
 === Idempotente
 
 Def.:
@@ -262,6 +269,32 @@ http://qchu.wordpress.com/2013/09/08/the-homotopy-groups-are-only-groups/#more-1
 Hängt mit Lawvere-Theorien zusammen.
 
 
+=== Reflektive Unterkategorien
+
+Eine volle Unterkategorie i : D --> C heißt genau dann reflektiv, wenn die
+Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
+
+* Die Unterkategorie D wird dann monadisch über C, d.h. D ist die Kategorie
+  der Algebren der Monade ir : C --> C.
+
+* ri = id : D --> D.
+
+* D ist abgeschlossen unter Limiten, die in C existieren.
+  (Denn die Inklusion ist monadisch.)
+
+* Kolimiten werden in D so gebildet: Den Kolimes in C bilden und dann den
+  Reflektor anwenden. Denn:
+
+      Hom_D(r(colim X_i), T) = Hom_C(colim X_i, T)
+        = lim Hom_C(X_i, T) = lim Hom_D(r(X_i), T)
+        = lim Hom_D(X_i, T).  (ri = id.)
+
+* Ein Morphismus in D ist ein Mono in D genau dann, wenn er ein Mono in C ist.
+
+
 === Nächste Schritte
 
 * Kurz über "Cat ist vollständig und kovollständig" nachdenken.
+
+* Affine Schemata sind also Algebren über der Monade Sch --> Sch,
+  X |-> Spec Gamma(X,O_X). Was hat das zu bedeuten?

@@ -198,6 +198,9 @@
 
 * D(f) \subseteq Omega ist vermutlich lokal kompakt. Hilft das was?
 
+* Bezug von meinem zu Hakims Spektrum: Vielleicht ist
+  http://mathoverflow.net/a/26471 interessant.
+
 
 === Endlichkeit
 
@@ -1315,6 +1318,16 @@ PS: If you are into such things, here is the logical background:
 * Triviale Bemerkungen: O/J ist eine Box-Garbe, für Box = (__ v J=(1)).
   a(O) --> O/J ist surjektiv, aber nicht injektiv. Sei K der Kern.
   Dann ist K/K^2 die Konormalgarbe von V(J) in X!
+
+
+=== Marcs Wunsch nach einer Sprache für Analysis
+
+* Könnte mit NSA zusammenhängen. Denn dort schreibt sich Stetigkeit von f
+  wie folgt:
+
+      x ~ x'  ==> f(x) ~ f(x').
+
+  Bin durch http://angg.twu.net/LATEX/2008filterp.pdf auf die Idee gekommen.
 
 
 === Gliederung hypothetischer Notes zum Thema
