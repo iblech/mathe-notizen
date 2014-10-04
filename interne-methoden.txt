@@ -1,3 +1,20 @@
+=== Integration
+
+Idee: Betrachte nicht fertige Integrale, sondern Riemann-Summen mit
+Intervallzerlegung, die feiner werden kann.
+
+    Z |== ...  heißt dann: Für die Zerlegung Z gilt ...
+
+Und man betrachtet nur Eigenschaften, die unter Verfeinerung erhalten bleiben.
+
+Beispiel:
+
+    Z |== Box \int delta(x) f(x) dx = f(0).
+
+Vgl. Seite 33 von /Eine Erweiterung der Infinitesimalrechnung/, Mathematische
+Zeitschrift (69).
+
+
 === Ein paar Eigenschaften
 
 * Eig. koh. Moduln kann man super intern zeigen!
