@@ -1098,6 +1098,9 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
   ¬¬-separated presheaves.
   http://nforum.mathforge.org/discussion/1955/on-quasitoposes/
 
+* M~ lokal frei <==> M projektiv und endlich erzeugt. Kann man das intern
+  zeigen?
+
 
 === math.se-Antwort
 
