@@ -9,10 +9,20 @@
 * Taos cheap nonstandard analysis.
   http://terrytao.wordpress.com/2012/04/02/a-cheap-version-of-nonstandard-analysis/
 
+* Alte Grundlagen:
+  Eine Erweiterung der Infinitesimalrechnung.
+  Laugwitz, Schmieden.
+
+  Extrem gut lesbar.
+
+* Edward Nelson, Radically elementary probability theory.
+  https://web.math.princeton.edu/~nelson/books/rept.pdf
+
 
 === Taos cheap nonstandard analysis
 
 http://terrytao.wordpress.com/2012/04/02/a-cheap-version-of-nonstandard-analysis/
+http://math.stackexchange.com/questions/454393/does-cheap-nonstandard-analysis-take-place-in-a-topos
 
 Definiere rekursiv für unendliche Teilmengen Sigma von N:
 
