@@ -8,3 +8,53 @@
 
 * Taos cheap nonstandard analysis.
   http://terrytao.wordpress.com/2012/04/02/a-cheap-version-of-nonstandard-analysis/
+
+
+=== Taos cheap nonstandard analysis
+
+http://terrytao.wordpress.com/2012/04/02/a-cheap-version-of-nonstandard-analysis/
+
+Definiere rekursiv für unendliche Teilmengen Sigma von N:
+
+    Sigma |== phi wedge/vee psi
+        :<==> Sigma |== phi   wedge/vee   Sigma |== psi.
+
+    Sigma |== x = y
+        :<==> { n | x_n = y_n } ist kofinal in Sigma,
+                  das soll heißen: Es gibt einen Index,
+                  ab dem *alle* Indizes in Sigma liegen.
+
+    Sigma |== Box phi
+        :<==> ex. Sigma' unendliche Teilmenge von Sigma mit Sigma' |== phi.
+
+    Sigma |== exists x. phi(x)
+        :<==> ex. x = (x_n)_n mit Sigma |== phi(x).
+
+    Sigma |== (phi -> psi)
+        :<==> fa. unendlichen Teilmengen Sigma': Sigma' |== phi  ==>  Sigma' |== psi.
+
+    Sigma |== bot
+        :<==> bot.
+
+* Dann erfüllt Box die Axiome an einen modalen Operator.
+
+* Außerdem ist die Relation monoton, d.h. Sigma |== phi impliziert Sigma' |== phi,
+  falls Sigma' eine unendliche Teilmenge von Sigma ist.
+
+* Es gilt ferner, dass Sigma |== phi impliziert, dass Sigma cup {n} |== phi.
+
+* Sigma |== negneg phi bedeutet: Für alle Sigma' <= Sigma
+  existiert (nicht nicht) ein Sigma'' <= Sigma' mit Sigma'' |== phi.
+
+* Frage: Zu welchem Topos ist das die interne Sprache?
+
+* Gelten alle Schlussregeln intuitionistischer Logik?
+
+* Kann man damit folgendes Vollständigkeitsprinzip beweisen?
+
+      Sigma |== Box exists x. bigwedge_{i in I} phi_i(x)
+          für alle endlichen Teilmengen I subseteq N
+
+        ==> Sigma |== Box exists x. bigwedge_{i in N} phi_i(x).
+
+  Vermutlich ja.
