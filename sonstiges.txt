@@ -84,6 +84,12 @@ http://www-math.mit.edu/~poonen/papers/h10_notices.pdf
   werden?
 
 
+=== Symplektische Topologie
+
+* http://www.math.polytechnique.fr/cmat/viterbo/Eilenberg/Eilenberg.pdf
+  Garbentheoretischer Zugang
+
+
 === Kritik am Schulsystem
 
 * http://www.rzuser.uni-heidelberg.de/~hb3/publ/dida.pdf
