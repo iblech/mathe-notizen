@@ -51,6 +51,12 @@ ein Iso von k-Vektorräumen ist. Das geht so:
 K(S^n C) = S^n K(C) ist völlig falsch.
 
 
+=== Bridgeland--Kind--Reid--Heiman (BKRH)
+
+* Übersicht über manche verwandte Resultate:
+  http://arxiv.org/pdf/1406.4409v3.pdf
+
+
 === Nächste Schritte
 
 * Obiger Funktor ist angeblich eine Äquivalenz, falls A und B halbeinfach sind.

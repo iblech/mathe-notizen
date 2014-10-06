@@ -15,6 +15,16 @@ Toby Bartels in:
 http://nforum.mathforge.org/discussion/6234/why-do-functors-preserve-identity-/?Focus=49712#Comment_49712
 
 
+=== Diskrete Kategorien
+
+Eine Kategorie ist genau dann äquivalent zu einer diskreten Kategorie,
+wenn sie dünn ist und die Relation "Hom(X,Y) ist bewohnt" eine
+Äquivalenzrelation ist, d.h. wenn sie ein dünner Gruppoid ist.
+
+Kategorien, die zu diskreten Kategorien äquivalent sind, und
+Äquivalenzrelationen sind also dasselbe.
+
+
 === Duale Kategorie
 
 Set^op ist nicht äquivalent zu Set. Denn in Set ist jeder Morphismus ins

@@ -15,6 +15,13 @@ Vgl. Seite 33 von /Eine Erweiterung der Infinitesimalrechnung/, Mathematische
 Zeitschrift (69).
 
 
+=== Entscheidbarkeit der Gleichheit reeller Zahlen
+
+In vielen Zugängen gilt "negneg (x = 0) ==> x = 0", etwa bei den dedekindschen
+reellen Zahlen oder bei Taos cheap nonstandard analysis.
+http://terrytao.wordpress.com/2012/04/02/a-cheap-version-of-nonstandard-analysis/
+
+
 === Ein paar Eigenschaften
 
 * Eig. koh. Moduln kann man super intern zeigen!
