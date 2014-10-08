@@ -20,6 +20,12 @@ http://arxiv.org/abs/math/0306194v1
 http://mathoverflow.net/questions/20493/what-is-torsion-in-differential-geometry-intuitively
 
 
+=== Schöne Definition von Differentialformen
+
+https://golem.ph.utexas.edu/category/2010/01/quasicoherent_stacks.html#c030914
+Definiere auf Testräumen, dann allgemeiner Nonsens.
+
+
 === Nächste Schritte
 
 * Verstehen, inwieweit ein garbentheoretischer Zugang hilft.

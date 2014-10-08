@@ -241,6 +241,9 @@ Auch interessant: http://math.harvard.edu/~keerthi/files/perfect_complexes.pdf
 Alle Aussagen folgen daraus, dass das höhere direkte Bild perfekte Komplexe
 liefert.
 
+Allgemeiner im Stacks Project:
+http://stacks.math.columbia.edu/tag/09V4
+
 * Sei f : X --> Y ein eigentlicher Morphismus affiner noetherscher Schemata.
   Dann gilt: R^i f_* F = H^i(X, F)~.
   https://www.math.leidenuniv.nl/scripties/MasterJavanpeykar.pdf, Thm. 1.17.

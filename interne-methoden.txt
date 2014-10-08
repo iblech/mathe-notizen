@@ -1074,6 +1074,16 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
   http://mathoverflow.net/questions/63301/when-will-the-pushforward-of-a-structure-sheaf-still-be-a-structure-sheaf.
   Kann man das verwenden, um intern Eigentlichkeit zu charakterisieren?
 
+* Geht das valuative criterion für Separiertheit und/oder Eigentlichkeit
+  auch für "relative DVRs"? Das sollen Schemamorphismen X --> Y sein,
+  sodass es eine affine Überdeckung von Y gibt, sodass die zurückgezogenen
+  Morphismen Spec B --> Spec A gerade DVR bzw. der zugehörige Quotientenkörper
+  sind.
+
+  Damit könnte man Separiertheit/Eigentlichkeit vielleicht im großen
+  Zariskitopos charakterisieren, indem man eine neue Art Allquantor einfügt,
+  die nur über relative DVRs quantifiziert.
+
 * Kripke-Joyal-Semantik auf (E,j) durch Kripke-Joyal-Semantik auf E
   ausdrücken! Siehe auch:
   http://math.stackexchange.com/questions/177484/what-is-a-lawvere-tierney-topology

@@ -74,6 +74,10 @@ Linksadjungierte zur Inklusion Aff --> Sch, ist Sch --> Aff, X |-> Spec Gamma(X,
 Der Reflektor ist nicht treu, man kann hier also nicht von einer
 Vervollständigung sprechen.
 
+Bin durch
+http://mathoverflow.net/questions/9134/arbitrary-products-of-schemes-dont-exist-do-they
+darauf gestoßen.
+
 
 === Spektren von Algebren, die endlich als Modul sind
 
