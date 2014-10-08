@@ -473,6 +473,9 @@ Sei j eine Lawvere-Tierney-Topologie.
   Accad. Sci. Lett. Rend. A 114 (1982), 50--55.
   unzugänglich!
 
+* Vergleiche auch: Repleteness and the associated sheaf.
+  Die haben einen anderen Ansatz.
+
 
 === Lokale Kripke-Joyal-Semantik
 
