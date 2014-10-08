@@ -68,3 +68,16 @@ Definiere rekursiv für unendliche Teilmengen Sigma von N:
         ==> Sigma |== Box exists x. bigwedge_{i in N} phi_i(x).
 
   Vermutlich ja.
+
+
+=== In der Stochastik
+
+Wie Tao betont: Alles sollte unter Verfeinerung des Wahrscheinlichkeitsraums
+invariant sein. Das sollte sich doch erreichen lassen, wenn man eine geeignete
+Sprache verwendet, in der sich nur invariante Aussagen formulieren lassen!
+
+Etwa würde dann Omega |== Box phi bedeuten, dass es eine Verfeinerung
+Omega' --> Omega mit Omega' |== phi gibt.
+
+Wenn man eine neue Zufallsgröße mit vorgegebener Verteilung einführen möchte,
+kann man das dann mit Box machen.
