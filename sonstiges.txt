@@ -90,6 +90,11 @@ http://www-math.mit.edu/~poonen/papers/h10_notices.pdf
   Garbentheoretischer Zugang
 
 
+=== Methode der kleinsten Quadrate
+
+Quadrate deshalb, weil das mit der Normalverteilung zusammenhängt.
+
+
 === Kritik am Schulsystem
 
 * http://www.rzuser.uni-heidelberg.de/~hb3/publ/dida.pdf

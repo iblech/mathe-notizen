@@ -18,6 +18,35 @@ Objekt, das einen Epi zur Strukturgarbe hätte: William Stein. Notes for
 Algebraic Geometry II. hartnotes.pdf.
 
 
+=== Unterschemata
+
+Sei f : A --> X eine abgeschlossene Immersion. Dann ist f_* : Coh(A) --> Coh(X)
+exakt und sogar volltreu.
+
+Ist auch f_* : D^b(A) --> D^b(X) volltreu? Würde dazu gerne Lf^* . f_* = id
+auf D^b(A) zeigen; das stimmt aber *nicht*:
+
+    Lf^* f_*(E) = E tensor^L_{f^(-1)O_X} O_A
+        = (... --> 0 --> E -0-> ... -0-> E --> 0 --> ...),
+            (so viele E's, wie die Kodimension von A in X angibt)
+
+            falls E ein in Grad 0 konzentrierter Komplex
+            und A global durch reguläre Gleichungen gegeben ist.
+            (Nutze Auflösung f^(-1)(O_X)^\binom{n}{*} --> O_A --> 0
+            und nutze aus, dass die Differentiale alle durch Elemente aus J
+            gegeben sind (wobei O_A = O_X/J), diese in E aber wie Null wirken.)
+
+Verwandt: Sei f : X --> Y eigentlich mit Rf_*(O_X) = O_Y in D^b(Y).
+Dann ist Lf^* : D^b(Y) --> D^b(X) volltreu, denn:
+
+    f_* f^* F = f_*(O tensor f^*(F)) = f_*(O) tensor F = O tensor F = F.
+      (alle Funktoren deriviert)
+
+Die Voraussetzung an f ist *nicht* erfüllt in folgenden Fällen:
+1. f : P^n --> pt.
+2. f : V(g) --> P^n.
+
+
 === Bedeutung der Diagonale
 
 1. Ausgezeichnete Dreiecke in D^b(X x Y) stiften über Fourier--Mukai
