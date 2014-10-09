@@ -78,7 +78,7 @@ abgeschlossen ist, auch in U abgeschlossen. Die Umkehrung gilt, falls U selbst
 abgeschlossen ist.
 
 Liu (S. 61): Falls X eine algebraische Varietät über einem Körper ist, gilt die
-Umkehrung auch, wenn U offen ist. (Algebraische Varietät = Strukturmorphismus
+Umkehrung auch, wenn U offen ist. (Algebraische Varietät <==> Strukturmorphismus
 zu Spec k ist von endlichem Typ.)
 
 

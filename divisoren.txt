@@ -67,6 +67,16 @@ Sei ein Divisor D durch (U_i, f_i)_i gegeben. Dann kann man ein Geradenbündel
 O(D) definieren.
 
 a) über Übergangsabbildungen: T_ij = f_j / f_i
+   Das ist wohldefiniert, denn von den f_j/f_i fordert man ja, dass sie auf
+   U_ij Elemente von O_X^* sind.
+
+   Übrigens: Falls die f_i alle regulär sind (also Schnitte von O_X <= K_X
+   [und natürlich müssen sie als Ringelemente regulär sein, sonst liegen sie
+   nicht in K_X^*]), so kann man einen globalen Schnitt durch
+
+        O|_Ui ---> O(D)|_Ui = O|_Ui,  s |--> f_i s
+
+   angeben. Diese Teilmorphismen verkleben.
 
 b) als Untermodul von K_X: O(D)|_Ui = O_X|_Ui-Erzeugnis von 1/f_i
 
