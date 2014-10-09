@@ -31,6 +31,16 @@ Das folgt sofort aus:
 * Ab_E = Mod_E(Z) erfüllt stets Grothendiecks Axiom AB5.
 
 
+=== Generische Elemente
+
+Sei X ein Objekt eines Topos E. Wir möchten einen neuen Topos E' --> E,
+in dem es ein generisches Element (des Abbilds von) X gibt.
+
+Das geht so: E' := E/X. Das Abbild von X ist dann X x X.
+(Abbild-nehmen ist X x __.) Das gesuchte generische Element ist dann
+X --> X x X über X.
+
+
 === Nächste Schritte
 
 * Sind die Garben bezüglich der kanonischen Topologie auf einem Topos E

@@ -916,7 +916,7 @@ Ordnung versehen wird.
 * Es gilt p |== neg neg phi (wobei n eine Abkürzung für Hom_{N^op}(__, n) ist)
   genau dann, wenn nicht nicht ein q >= p existiert mit q |== phi.
 
-* In E habe ein Objekt natürlicher Zahl: NN, die konstante Koprägarbe N.
+* In E habe ein Objekt natürlicher Zahlen: NN, die konstante Koprägarbe N.
 
 * Führe eine neue Termkonstante # vom Typ NN ein. Deren Interpretation im
   Kontext p soll Hom(__, p) --> NN, gegeben durch das Element p \in NN(p),
@@ -1368,6 +1368,34 @@ PS: If you are into such things, here is the logical background:
       x ~ x'  ==> f(x) ~ f(x').
 
   Bin durch http://angg.twu.net/LATEX/2008filterp.pdf auf die Idee gekommen.
+
+
+=== Baby-Version von Barrs Theorem
+
+* Barr sagt: Zu jedem Topos E gibt es einen boolschen Topos E', der sogar
+  das Auswahlaxiom erfüllt und der mit einer geometrischen Surjektion E' --> E
+  daher kommt. Daher gelten geometrische Aussagen genau dann in E, wenn sie in E'
+  gelten.
+
+  Der Beweis dieses Theorems ist (angeblich) "highly unconstructive" (nLab).
+
+* Eine konstruktiv beweisbare Abschwächung erhält man, wenn man darauf
+  verzichtet, dass in E' das Auswahlaxiom gilt. Dann kann man E' explizit als
+  E' := Sh_j(E/Omega) erhalten, wobei j(phi) = ((phi => t) => t). Dabei ist t
+  das universelle Unterobjekt 1 --> Omega, was in E/Omega dann ein Wahrheitswert
+  ist. http://mathoverflow.net/a/142230
+
+* Diese Konstruktion von E' sammelt durch Verwendung des generischen
+  Wahrheitswerts all folgende Teilresultate auf:
+
+  Sei phi eine geometrische Aussage. Sei phi klassisch beweisbar. Dann ist für
+  alle modalen Operatoren Box, sodass die Box-Übersetzung von LEM gilt,
+  phi^Box intuitionistisch beweisbar. Da phi geometrisch ist, ist das
+  äquivalent zu Box(phi). Wenn man nun Box speziell als Box(alpha) =
+  ((alpha => phi) => phi) wählt, erhält man phi.
+
+  Gewissermaßen hat man hier also einen *eigenen* boolschen Topos E'
+  für jede zu beweisende Aussage phi.
 
 
 === Gliederung hypothetischer Notes zum Thema
