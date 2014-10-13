@@ -43,6 +43,9 @@
   Aber die Freiheit des Kokerns folgt im Allgemeinen nie.
   Das sieht man etwa schon an Z_(2) --> Z_(2), z |--> 2z.
 
+* Ein Hauptideal (f) von A ist genau dann frei vom Rang 1,
+  wenn f regulär ist.
+
 
 === Kohärente Moduln
 
@@ -297,6 +300,13 @@ muss.
 
       M ---> M ---> M ---> ...   (jeweils Multiplikation mit f).
 
+
+=== Lokale Ringe
+
+* http://www.math.iitb.ac.in/atm/caag1/jayanthan.pdf
+
+* Jacobi-Kriterium impliziert Regularität, unter gewissen Voraussetzungen:
+  Computational Methods In Commutative Algebra And Algebraic Geometry, Seite 131.
 
 
 === Äußere Algebra

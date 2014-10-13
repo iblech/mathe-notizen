@@ -122,12 +122,29 @@ In guten Fällen wird der zu einer Auflösung von cok phi.
 
   Diese Bedingung nutzt auch Manin in seinem Skript zur K-Theorie.
 
+  Äquivalent zu diesen beiden Bedingungen sind auch:
+  * X |== J ist regulär erzeugt  oder  1 in J.
+  * Um jeden Punkt aus V(J) existiert eine offene affine Überdeckung, sodass ...
+
   Achtung: Vakil nennt eine abgeschlossene Immersion V(J) --> X genau dann
   regulär, wenn die Ideale J_x der lokalen Ringe jeweils regulär erzeugt sind.
   Falls X lokal noethersch ist, sollte das äquivalent zur internen Bedingung
   sein. Ansonsten stimmt nur, dass aus der internen Bedingung Vakils Bedingung
   folgt. Das Problem ist dasselbe wie bei der Regularität einer einzelnen
   Funktion.
+
+* Seien Y_1, Y_2 Unterschemata von X mit Idealgarben I_1, I_2.
+  Dann sind äquivalent:
+
+  1. Für alle x in Y_1 cap Y_2 existiert eine offene *affine* Umgebung U
+  von x und Funktionen f_1,...,f_n in I_1(U), g_1,...,g_m in I_2(U),
+  sodass diese I_1(U) bzw. I_2(U) erzeugen und sodass die f's,
+  die g's und f_1,...,f_n,g_1,...,g_m jeweils reguläre Sequenzen in O_X(U)
+  sind.
+
+  2. X |== 1 in (I_1 + I_2)  vee  exists f_1,...,f_n in I_1,
+  exists g_1,...,g_m in I_2: I_1 = (f...), I_2 = (g...),
+  f..., g..., (f...,g...) reguläre Sequenzen in O_X.
 
 
 === Beispiel: RHom(k(x),k(x))
