@@ -114,6 +114,19 @@ Seite 10.
 * Čech-Methode: H^1 misst, inwieweit sich Schnitte längs surjektiver
   Garbenmorphismen nicht liften lassen. http://mathoverflow.net/a/125236
 
+* Wenn H^1(X, O_X) = 0, dann ist Pic(X) diskret. Denn Pic(X) passt
+  in die kurze exakte Sequenz
+
+      0 --> H^1(X, O_X)/H^1(X, Z) --> Pic(X) --> NS(X) --> 0,
+
+  wobei NS(X) = ker(H^2(X, Z) --> H^2(X, O_X)). Das stimmt zumindest über C,
+  nutze die exponentielle Garbensequenz. Die vordere Gruppe ist divisibel,
+  denn Hodge-Theorie zeigt, dass H^1(X, Z) in H^1(X, O_X) ein Gitter ist,
+  weswegen die vordere Gruppe also die Struktur eines komplexen Torus hat.
+  Die hintere Gruppe ist endlich erzeugt.
+
+  Quelle: Beauville, Complex Algebraic Surfaces.
+
 
 === Konkretes und einfaches Beispiel
 

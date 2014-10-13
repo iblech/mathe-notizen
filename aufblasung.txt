@@ -72,6 +72,13 @@ Das steht zum Beispiel in http://stacks.math.columbia.edu/tag/063H und
 in Manins /Lectures on the K-functor in algebraic geometry/, Lemma 12.3.
 
 
+=== Höhere direkte Bilder
+
+Ist f : X' --> X die Aufblasung längs einer glatten Untervarietät, so ist
+R^i f_* O_X' = 0 für alle i >= 1.
+http://rigtriv.wordpress.com/2009/02/18/direct-image-sheaves-under-proper-maps/
+
+
 === Konkrete Beispiele
 
 * http://math.stackexchange.com/questions/193681/what-is-a-blow-up

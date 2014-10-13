@@ -153,6 +153,11 @@ gegeben durch folgenden Funktor:
 Siehe: Daniel Biss, Which functor is the projective line? 2003.
 
 
+=== Geradenbündel auf P^n
+
+http://www.math.harvard.edu/~gaitsgde/Schemes_2009/Daniel-notes.pdf
+
+
 === Vektorbündel auf P^1 über einem Körper
 
 Jedes lokal freie Vektorbündel vom Rang r auf P^1 ist direkte Summe gewisser

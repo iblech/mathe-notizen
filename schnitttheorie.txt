@@ -187,3 +187,8 @@ Seite 44ff.
 
 * Günther Trautmann, Introduction to Intersection Theory:
   http://www.mathematik.uni-kl.de/~trm/download/IntersTh.ps
+
+* Eisenbud, Harris. 3264 & All That. Intersection Theory in Algebraic Geometry.
+  http://isites.harvard.edu/fs/docs/icb.topic720403.files/book.pdf
+
+* http://people.math.umass.edu/~hacking/surfaces.pdf

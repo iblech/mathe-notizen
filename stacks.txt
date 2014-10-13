@@ -30,3 +30,4 @@ http://mathoverflow.net/questions/6278/when-can-cohomology-be-calculated-on-the-
 * http://www.math.uzh.ch/index.php?pr_vo_det&key1=1287&key2=580&no_cache=1
 * http://www.math.harvard.edu/~lurie/282y.html
 * http://www.uni-essen.de/~hm0002/Artikel/dalklein.dvi Diplomarbeit
+* https://www.uni-due.de/~hm0002/stacks.pdf sehr gut!
