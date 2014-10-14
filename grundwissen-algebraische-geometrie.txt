@@ -334,6 +334,10 @@ Die Normalgarbe ist der ihr O_Y-Duales.
 
   Das ist mir unklar.
 
+  Allgemeiner gilt: Sei L ein Geradenbündel und s ein Schnitt, sodass
+  Multiplikation mit s regulär. Dann ist L^ --> O, theta |-> theta(s) injektiv.
+  So wird L^ zur Idealgarbe von V(s). Es gilt dann: N_{V/X} = L|_Y.
+
 * Im Spezialfall, dass Y ein Punkt ist, sollte die Normalgarbe mit dem
   Tangentialraum übereinstimmen. Das ist auch der Fall, denn J "ist" dann das
   maximale Ideal.
