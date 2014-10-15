@@ -3,6 +3,10 @@
 http://www.math.leidenuniv.nl/~rdejong/publications/thesis.pdf
 Seite 12ff.
 
+Verbindung zu Poincaré-Dualität:
+
+http://math.stackexchange.com/questions/2403/precise-connection-between-poincare-duality-and-serre-duality
+
 
 === Grothendieck-Dualität
 
