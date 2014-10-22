@@ -15,6 +15,12 @@ Toby Bartels in:
 http://nforum.mathforge.org/discussion/6234/why-do-functors-preserve-identity-/?Focus=49712#Comment_49712
 
 
+=== Ideale
+
+Ideale von Ringen sind dasselbe wie interne Gruppoide in der Kategorie der
+Ringe. http://mathoverflow.net/a/60424/31233
+
+
 === Diskrete Kategorien
 
 Eine Kategorie ist genau dann äquivalent zu einer diskreten Kategorie,

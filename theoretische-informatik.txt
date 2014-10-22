@@ -5,3 +5,9 @@ Upper-Bounding Proof Length with the Busy Beaver.
 http://arxiv.org/abs/1406.1808
 
 Sehr einfach zu verstehen!
+
+
+=== Notions of computability at higher types
+
+http://cstheory.stackexchange.com/questions/1117/realizability-theory-difference-in-power-between-lambda-calculus-and-turing-mac
+http://homepages.inf.ed.ac.uk/jrl/Research/notions1.pdf
