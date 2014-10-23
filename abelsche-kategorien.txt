@@ -1,0 +1,26 @@
+=== Serresche Quotientenkategorien
+
+* Eine Serresche Unterkategorie B ist eine volle Unterkategorie,
+  welche das Nullobjekt enthält und abgeschlossen unter
+  Unterobjekten, Quotientenobjekten und Extensionen ist.
+
+* Definiere für feste Objekte (X,Y) auf der Menge
+
+      { (X', Y') | X/X' in B, Y' in B }
+
+  die Ordnung (X',Y') <= (X'',Y'') :<==> (X'' <= X' und Y' <= Y'').
+
+  Dann ist diese Menge gerichtet. Sie ist bewohnt durch (X,0).
+  Eine obere Schranke zu (X',Y'), (X'',Y'') ist (X' cap X'', Y' + Y'').
+
+* Sind Y' und Y'' Unterobjekte von Y, welche zu B gehören, so
+  gehört auch Y + Y'' zu B. Denn:
+
+  1. 0 --> Y' --> Y' oplus Y'' --> Y'' --> 0, also gehört Y' oplus Y'' zu B.
+  2. Y' + Y'' ist ein Quotient von Y' oplus Y''.
+
+* Sind X' und X'' Unterobjekte von X, sodass X/X' und X/X'' zu B gehören,
+  so gehört auch X/(X' cap X'') zu B. Denn:
+
+  1. X'/(X' cap X'') ist ein Unterobjekt von X/X'', gehört also zu B.
+  2. 0 --> X'/(X' cap X'') --> X/(X' cap X'') --> X/X' --> 0.
