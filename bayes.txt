@@ -13,3 +13,6 @@
 
 * http://brian.weatherson.org/conprob.pdf
   Intuitionistische Wahrscheinlichkeitstheorie
+
+* http://link.springer.com/article/10.1007%2Fs10485-013-9324-9
+  A Categorical Foundation for Bayesian Probability
