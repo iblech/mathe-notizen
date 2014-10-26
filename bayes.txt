@@ -1,3 +1,15 @@
 * http://www.ams.org/notices/200601/rev-faris.pdf
 * http://www.stat.uchicago.edu/~lekheng/courses/191f09/mumford-AMS.pdf
 * http://www.randomhacks.net/articles/2007/02/22/bayes-rule-and-drug-tests
+
+* http://www.cs.princeton.edu/courses/archive/spr06/cos598C/papers/AndrieuFreitasDoucetJordan2003.pdf
+  MCMC
+
+* Hat Gibbs-Sampling etwas mit dem randomisierten Lanczos/Krasevacz (wie hieß
+  der?) zu tun? Siehe Seite 22 von
+  http://www.cs.princeton.edu/courses/archive/spr06/cos598C/papers/AndrieuFreitasDoucetJordan2003.pdf.
+
+* http://en.wikipedia.org/wiki/Bertrand_paradox_(probability)
+
+* http://brian.weatherson.org/conprob.pdf
+  Intuitionistische Wahrscheinlichkeitstheorie
