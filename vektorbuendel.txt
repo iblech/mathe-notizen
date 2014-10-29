@@ -154,12 +154,24 @@ wobei
 * R<S> den freien R-Modul auf der Menge S bezeichnet (R = Garbe der
   stetigen Funktionen),
 * S = { links | U } \cup { rechts | V },
-* T = { links-rechts | U und V und t>1/2 } \cup { links+rechts | U und V und t <1/2 }.
+* T = { links-rechts | U und V und t>1/2 } \cup { links+rechts | U und V und t<1/2 }.
 
 Ein analoges Vorgehen ist für beliebige Moduln, die durch Übergangsabbildungen
 gegeben sind, möglich!
 
-Literatur: Ravi Vakil, Hatcher.
+O(m) auf P^n (mit Koordinaten z_0,...,z_n) kann man intern als den O_X-Modul
+
+    < u_0 auf D_0, ..., u_n auf D_n | u_i = (z_i/z_j)^m u_j auf D_i cap/wedge D_j >
+
+definieren. O(1) besitzt dann den global definierten Schnitt
+
+    (z_0/z_i) u_i  (wohldefiniert, hängt nicht von i, wo U_i gilt, ab!).
+
+O(-1) besitzt unter der Annahme U_0 den Schnitt
+
+    (z_i/z_0) u_i  (ebenfalls unabhängig von i, wobei das sogar egal wäre).
+
+Siehe auch: erzeuger-und-relationen.pdf in homologische-algebra/.
 
 
 === Trivialität von Geradenbündeln

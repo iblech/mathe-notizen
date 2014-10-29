@@ -3,6 +3,11 @@
 http://math.berkeley.edu/~mhaiman/math256/Derived-Cat-1-5.pdf
 
 
+=== Kohomologische Funktoren, zugrundeliegende Komplex, D^b-Anreicherung
+
+http://mathoverflow.net/questions/61650/cohomological-functor-from-triangulated-category
+
+
 === Struktur der derivierten Kategorie
 
 Beh.: Sei C eine abelsche Kategorie mit Ext^i(X,Y) = 0 für alle i >= 2, X, Y in C.
