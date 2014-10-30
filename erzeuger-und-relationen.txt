@@ -41,6 +41,10 @@ Außerdem äquivalent:
     oder: C besitzt kappa-Kolimiten,
     oder: C besitzt kleine Limiten.
 
+Außerdem äquivalent:
+(1) C ist äquivalent zu einer Kategorie mengen-wertiger Modelle eines
+    Limesentwurfs, dessen Limes-Diagramme alle endlich sind.
+
 Das Diagramm oben ist stets filtriert (wenn C endliche Kolimiten besitzt):
 * Denn das initiale Objekt ist kompakt.
 * Koprodukte von kompakten Objekten sind kompakt.
@@ -96,6 +100,15 @@ repräsentierbarer Prägarben.
 Bem.: Die kappa-präsentierbaren Objekte in kappa-Tors(D) sind genau die
 Retrakte von darstellbaren Funktoren.
 
+Prop.: Eine Kategorie ist genau dann zugänglich, wenn sie die Kategorie
+der mengen-wertigen Modelle eines (normalen) Entwurfs ist. (Achtung, diese
+Proposition spezialisiert nicht zu kappa-zugänglichen Kategorien und Entwürfen
+mit kappa-kleinen Limes- und Kolimes-Diagrammen!)
+
+Prop.: Ist K lokal präsentierbar und S ein Entwurf, so ist Mod(S, K)
+zugänglich. Ist S sogar ein Limesentwurf, so ist Mod(S, K) sogar lokal
+präsentierbar.
+
 
 === Lokal präsentierbare Kategorien und Topoi
 
@@ -133,6 +146,10 @@ Retrakte von darstellbaren Funktoren.
 
 * Qcoh(X) ist darstellbar. Siehe:
   http://amathew.wordpress.com/2011/07/30/quasi-coherent-sheaves-presentable-categories-and-a-result-of-gabber/
+
+* Ring(E) ist die Kategorie der Modelle des üblichen Limesentwurfs für Ringe
+  im Topos E. Ist E lokal präsentierbar -- etwa weil E ein Grothendiecktopos
+  ist -- so ist Ring(E) daher ebenfalls lokal präsentierbar.
 
 
 === Kategorie der Ringe

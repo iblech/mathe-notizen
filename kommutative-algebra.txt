@@ -1,3 +1,18 @@
+=== Grad des Nullpolynoms
+
+Der Grad des Nullpolynoms sollte -infty (und nicht +infty) sein. Denn sonst stimmt die Regel
+
+    deg(f + g) <= max { deg(f), deg(g) }
+
+nicht: Bedenke 0 = f + (-f). Mit dieser Konvention (aber auch mit +infty)
+stimmt auch die Regel
+
+    deg(f * g) <= deg(f) + deg(g).
+
+Außerdem gilt mit dieser Konvention folgende Regel für alle n aus Z:
+Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
+
+
 === Endlichkeitseigenschaften von Moduln
 
 * Sei pi : A^n --> M eine zerfallende surjektive lineare Abbildung.
