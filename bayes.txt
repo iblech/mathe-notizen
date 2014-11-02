@@ -16,3 +16,14 @@
 
 * http://link.springer.com/article/10.1007%2Fs10485-013-9324-9
   A Categorical Foundation for Bayesian Probability
+
+* http://www.mth.kcl.ac.uk/~streater/EPR.html
+  We show that the postulate of von Neumann, that on measurement the wave
+  function collapses to an eigenstate of the observable being measured, follows
+  from Bayes's rule for conditioning probabilities in classical probability.
+
+
+=== Markov-Ketten
+
+* Eine Markov-Kette ist eine Koalgebra für den Funktor X |-> D(X),
+  Menge der Wahrscheinlichkeitsverteilungen auf X.
