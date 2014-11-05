@@ -22,6 +22,10 @@
 * Das folgt aus: M --> M^+ Box-hat Urbilder für jedes Zielmengenelement,
   und je zwei Urbilder sind Box-gleich.
 
+* In einem Schritt (statt zweimal Grothendiecks Plus-Konstruktion):
+  http://mathoverflow.net/questions/90969/sheafification-via-hypercovers
+  http://cms.dm.uba.ar/academico/carreras/licenciatura/tesis/yuhjtman.pdf
+
 
 === Wolkenkratzergarben in algebraischer Geometrie
 

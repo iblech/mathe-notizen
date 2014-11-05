@@ -158,6 +158,11 @@ wie sich eine derivierte Kategorie aus zwei Teilen zusammensetzt.
 * http://mathoverflow.net/questions/29442/what-is-the-opposite-category-of-the-category-of-modules-or-hopf-algebra-repres
 
 
+=== Trivialität der derivierten Kategorie (halbeinfach usw.)
+
+http://math.stackexchange.com/questions/189769/when-is-the-derived-category-abelian
+
+
 === Nächste Schritte
 
 * Folgendes Must-Read-Paper lesen:

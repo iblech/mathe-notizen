@@ -145,6 +145,10 @@ falls in R die Zahl 2 regulär ist.
 
 http://www.freidok.uni-freiburg.de/volltexte/2613/pdf/Diplomarbeit.pdf
 
+Siehe auch: http://stanford.edu/~zwyun/Bernstein-Lunts.pdf
+http://ncatlab.org/nlab/show/equivariant+derived+category
+Warnung, dass ich evtl. eine falsche Vorstellung von äquivarianten Garben habe!
+
 
 === Äquivariante K-Theorie
 

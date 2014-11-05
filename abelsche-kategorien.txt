@@ -24,3 +24,7 @@
 
   1. X'/(X' cap X'') ist ein Unterobjekt von X/X'', gehört also zu B.
   2. 0 --> X'/(X' cap X'') --> X/(X' cap X'') --> X/X' --> 0.
+
+Literatur:
+* Quotient Categories and Localizing Functors, Carl Faith.
+  http://link.springer.com/chapter/10.1007%2F978-3-642-80634-6_17
