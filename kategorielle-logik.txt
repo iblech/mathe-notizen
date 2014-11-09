@@ -196,6 +196,9 @@ für geometrische Formeln phi über X:
   Aber vielleicht arbeitet man tatsächlich automatisch mit den assoziierten
   Garben.
 
+* http://www.pps.univ-paris-diderot.fr/~mellies/mpri/mpri-ens/articles/hyland-effective-topos.pdf
+  Evtl. ist meine j-Erkenntnis nicht neu.
+
 
 === Bemerkungen, die konsolidiert werden müssen
 

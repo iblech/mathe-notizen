@@ -115,6 +115,11 @@ Erfüllt Coh(X) als k-angereicherte Kategorie diese Bedingung?
 * Nicht ganz klar. Überlegen!
 
 
+=== Minimale Auflösungen
+
+http://mathoverflow.net/questions/162097/computing-the-minimal-free-resolution-of-a-coherent-sheaf-on-projective-space
+
+
 === Mohamed Barakat
 
 * http://arxiv.org/pdf/1003.1943v3.pdf R-fpmod

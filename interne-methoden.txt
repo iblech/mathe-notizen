@@ -1,3 +1,8 @@
+=== Topos der G-Mengen
+
+Borceux, Volume 3, Seite 391.
+
+
 === Integration
 
 Idee: Betrachte nicht fertige Integrale, sondern Riemann-Summen mit
@@ -20,6 +25,13 @@ Zeitschrift (69).
 In vielen Zugängen gilt "negneg (x = 0) ==> x = 0", etwa bei den dedekindschen
 reellen Zahlen oder bei Taos cheap nonstandard analysis.
 http://terrytao.wordpress.com/2012/04/02/a-cheap-version-of-nonstandard-analysis/
+
+
+=== Unterringe der dedekindschen reellen Zahlen in Sh(X)
+
+* Habe {lokal konstante Fkt.} <= {glatte Fkt.} <= {stetige Fkt.} = R_dedekind.
+
+* http://nforum.mathforge.org/discussion/6315/internal-definitions-of-cohesion/
 
 
 === Ein paar Eigenschaften
@@ -475,6 +487,15 @@ Sei j eine Lawvere-Tierney-Topologie.
 
 * Vergleiche auch: Repleteness and the associated sheaf.
   Die haben einen anderen Ansatz.
+
+  Ebenso: Borceux, Volume 3, Thm. 9.2.10.
+  Ich denke, dass er die Garbifizierung so definiert:
+
+      aA := { K <= A | forall x:A. Box(x in K) ==> x in K
+                wedge Box(exists x:A. K = { y:A | Box(y = x) }) }
+
+* Garbifizierung ist logisch genau dann, wenn bezüglich der Topologie
+  zu einer offenen Unterörtlichkeit (Borceux, Seite 512).
 
 
 === Lokale Kripke-Joyal-Semantik

@@ -316,6 +316,17 @@ Habe Wirkung RHom(O_X,O_X) --> RHom(O_X,F).
   Verschwindungssatzes.
 
 
+=== Čech-Methoden
+
+* http://mathoverflow.net/questions/4214/equivalence-of-grothendieck-style-versus-cech-style-sheaf-cohomology
+
+* http://math.stanford.edu/~conrad/papers/hypercover.pdf
+  http://stacks.math.columbia.edu/download/hypercovering.pdf
+
+* http://en.wikipedia.org/wiki/%C4%8Cech_cohomology
+  Unmögliche Figuren
+
+
 === Nächste Schritte
 
 * Kohomologie von Schemata

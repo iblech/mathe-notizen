@@ -292,9 +292,9 @@ http://sbseminar.wordpress.com/2009/05/21/the-grothendieck-trace-formula-as-cate
 Sei A eine abelsche Kategorie. Dann gibt es:
 
 * K_0(A).
-* K_0(Kom^b(A)).
-* K_0(K^b(A)).
-* K_0(D^b(A)).
+* K_0(Kom^b(A)).  (Hier noch X^*[1] = -X^* herausteilen!)
+* K_0(K^b(A)).  (Ebenso.)
+* K_0(D^b(A)).  (Hier geschieht das automatisch, wegen X^* --> 0 --> X^*[pm1] -->.)
 
 Die letzten beiden Gruppen sind die K-Gruppen von triangulierten Kategorien.
 
@@ -306,6 +306,12 @@ zu K_0(A) sind durch die Euler-Charakteristik gegeben:
 Für Surjektivität benötigt man die kanonische Filtrierung von Komplexen:
 
     0 --> tau^{<= n-1} X --> tau^{<= n} X --> H^n(X)[-n] --> 0.
+
+Update: Quatsch. Nimm einfach in Grad 0 konzentrierte Komplexe.
+Die Filtrierung benötigt man für die Injektivität, mit der man also zeigt, dass
+für einen Komplex X^* gilt:
+
+    X^* = sum_i (-1)^i [H^i(X^*)[0]].
 
 
 === Semi-orthogonale Zerlegungen

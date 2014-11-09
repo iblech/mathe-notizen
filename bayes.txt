@@ -5,7 +5,7 @@
 * http://www.cs.princeton.edu/courses/archive/spr06/cos598C/papers/AndrieuFreitasDoucetJordan2003.pdf
   MCMC
 
-* Hat Gibbs-Sampling etwas mit dem randomisierten Lanczos/Krasevacz (wie hieß
+* Hat Gibbs-Sampling etwas mit dem randomisierten Lanczos/Krasevacz/Kaczmarz (wie hieß
   der?) zu tun? Siehe Seite 22 von
   http://www.cs.princeton.edu/courses/archive/spr06/cos598C/papers/AndrieuFreitasDoucetJordan2003.pdf.
 
@@ -27,3 +27,19 @@
 
 * Eine Markov-Kette ist eine Koalgebra für den Funktor X |-> D(X),
   Menge der Wahrscheinlichkeitsverteilungen auf X.
+
+
+=== Grundlegung über Zufallsvariablen statt Mengen
+
+https://golem.ph.utexas.edu/category/2007/02/category_theoretic_probability.html
+http://www.stat.uchicago.edu/~lekheng/courses/191f09/mumford-AMS.pdf
+
+David Mumford (yes, that one) has an interesting paper about refounding
+mathematics using probability measures rather than sets. (Experts will surely
+complain about my phrasing there; see the paper for yourself.) Apparently it
+settles the Continuum Hypothesis and the Axiom of Choice.
+
+
+=== Bedingte Unabhängigkeit kategoriell
+
+http://homepages.inf.ed.ac.uk/als/Talks/tacl13.pdf

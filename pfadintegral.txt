@@ -2,3 +2,6 @@
   http://churipo.matmor.unam.mx/~robert/docs/phd_thesis.pdf
 
   Da kommen "braided integers" vor!
+
+* http://www.stat.uchicago.edu/~lekheng/courses/191f09/mumford-AMS.pdf
+  Sehr gute Herleitung im endlichdimensionalen Fall

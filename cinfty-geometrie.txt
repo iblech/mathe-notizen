@@ -1,0 +1,4 @@
+=== Literatur
+
+* http://arxiv.org/pdf/1001.0023.pdf
+  Dominic Joice, Algebraic Geometry over C^infty-rings

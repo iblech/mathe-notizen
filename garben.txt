@@ -330,6 +330,9 @@ E und F frei von endlichem Rang um x sind. Vermutlich auch noch allgemeiner.
   berechnen. Das zeigt sich etwa im Fall K_X: Die Fasern an (abgeschlossenen)
   Punkten sind alle Null.
 
+* O_X von einer Mannigfaltigkeit ist fast nie kohärent:
+  http://math.stackexchange.com/questions/198558/when-is-the-sheaf-corresponding-to-a-vector-bundle-on-a-smooth-manifold-coherent
+
 
 === Lokale Systeme
 
@@ -377,6 +380,11 @@ http://mathoverflow.net/questions/136516/euler-characteristic-of-coverings-via-s
   Das stimmt genau dann, wenn X |== bigvee_n F ~~ [n], also wenn X |== F endlich.
 
 * Gilt HOM(gamma*(A), gamma*(B)) ~~ gamma*(B^A), zumindest lokal?
+
+  Elephant, Seite 1025, Beispiel 4.7.12 sagt: Ja, falls X lokal
+  zusammenhängend. (Der Iso ist dann sogar global.)
+
+  Sagt auchh nLab: http://ncatlab.org/nlab/show/locally+constant+sheaf, Prop. 1.
 
 
 === Garbentheoretischer Zugang zu Mannigfaltigkeiten

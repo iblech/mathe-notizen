@@ -198,3 +198,7 @@ Siehe auch:
 * Ben-Zvi, Francis, Nadler: http://arxiv.org/pdf/0805.0157v5.pdf
 * http://www.mi.ras.ru/~akuznet/dgcat/Keller%20On%20differential%20graded%20categories.pdf
 * http://www.maths.ed.ac.uk/~eshinder/Mainz-Lecture-3.pdf
+
+* Für Vorzeichen:
+  Grothendieck Duality and Base Change, Ausgabe 1750, Brian Conrad.
+  http://books.google.de/books?id=1e4sUeGb1nIC&pg=PA10&lpg=PA10&dq=higher+direct+image+example&source=bl&ots=Qaq86ZS6sF&sig=08aH2pnyCUqyXWWncaKT9tLyrdk&hl=de&sa=X&ei=kilZVN6XNovXPI3pgMAG&ved=0CBkQ6AEwATgK

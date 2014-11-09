@@ -171,6 +171,9 @@ O(-1) besitzt unter der Annahme U_0 den Schnitt
 
     (z_i/z_0) u_i  (ebenfalls unabhängig von i, wobei das sogar egal wäre).
 
+Korrektur: Die Unabhängigkeit ist schon wichtig, denn u_i existiert ja nur auf D_i.
+Man könnte aber gleich nur schreiben: "u_0".
+
 Siehe auch: erzeuger-und-relationen.pdf in homologische-algebra/.
 
 

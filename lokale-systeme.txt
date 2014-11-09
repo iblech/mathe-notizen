@@ -6,3 +6,6 @@
 
 * Galois Groups and Fundamental Groups (Cambridge Studies in Advanced
   Mathematics 117)
+
+* http://math.stanford.edu/~conrad/papers/rhtalk.pdf
+  Siehe etwa Beispiel 1.1.
