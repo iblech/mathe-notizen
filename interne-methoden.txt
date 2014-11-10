@@ -1070,6 +1070,12 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
   konstante Garben intern erkennen? Vielleicht irgendwie, dass sie unter jedem
   phi gleich aussehen?
 
+  Relevant: Johnstone, Topos Theory, Seite 133.
+  http://books.google.de/books?id=rLrFAgAAQBAJ&pg=PA133&lpg=PA133&dq=topos+locally+constant+sheaves&source=bl&ots=J66DRhmBON&sig=UfZGh1mXCnxKQiI5Z-Mceoi3q4U&hl=de&sa=X&ei=QUNfVLzlNMeTPOXCgLAO&ved=0CBQQ6AEwADgK
+
+  Seite 285 dort: Unterkategorie der endlichen Objekte (lokal isomorph zu [n])
+  ist ein Topos.
+
 * Was hat Marc zu internen Dedekindringen gesagt?
   Sei X = Spec(Zahlkörper). Dann Sh(X) |= "O_X ist ein Hauptidealbereich". ?
 
