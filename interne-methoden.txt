@@ -497,6 +497,9 @@ Sei j eine Lawvere-Tierney-Topologie.
 * Garbifizierung ist logisch genau dann, wenn bezüglich der Topologie
   zu einer offenen Unterörtlichkeit (Borceux, Seite 512).
 
+* Die Menge { x:1 | phi } ist für eine Aussage phi genau dann eine Box-Garbe,
+  wenn phi Box-stabil ist.
+
 
 === Lokale Kripke-Joyal-Semantik
 
@@ -1062,9 +1065,6 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
 * Wie Marcs topos-theoretische Sicht auf Arbeit mit generischen Situationen
   formalisieren?
 
-* Hatte interne Garben bzg. Lawvere-Tierney-Topologien mal verstanden.
-  Wieder verstehen und aufschreiben!
-
 * Ist eine Garbe genau dann lokal konstant, wenn sie aus interner Sicht diskret
   ist? Vermutlich nicht! Gegenbeispiel? Wie kann man denn konstante oder lokal
   konstante Garben intern erkennen? Vielleicht irgendwie, dass sie unter jedem
@@ -1113,16 +1113,6 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
   Damit könnte man Separiertheit/Eigentlichkeit vielleicht im großen
   Zariskitopos charakterisieren, indem man eine neue Art Allquantor einfügt,
   die nur über relative DVRs quantifiziert.
-
-* Kripke-Joyal-Semantik auf (E,j) durch Kripke-Joyal-Semantik auf E
-  ausdrücken! Siehe auch:
-  http://math.stackexchange.com/questions/177484/what-is-a-lawvere-tierney-topology
-  Würde die Anwendbarkeit interner Methoden deutlich vergrößern, da man über
-  offene und abgeschlossene Unterschemata reden könnte.
-
-* Garbenbedingung und Garbifizierung zu Lawvere-Tierney-Topologien intern
-  verstehen. Vgl. Johnstone: The associated sheaf functor in an elementary
-  topos.
 
 * X qc, O_{X,x} reduziert für alle abgeschlossenen Punkte x ==> O_X reduziert.
   Wie intern zeigen?
@@ -1423,18 +1413,3 @@ PS: If you are into such things, here is the logical background:
 
   Gewissermaßen hat man hier also einen *eigenen* boolschen Topos E'
   für jede zu beweisende Aussage phi.
-
-
-=== Gliederung hypothetischer Notes zum Thema
-
-* Introduction
-* Kripke-Joyal-Semantik für Sh(C), C Situs
-* Modulgarben (inkl. Rang, natürliche Zahlen)
-* universelle Eigenschaft vom z.B. Tensorprodukt; intern vs. extern
-* rationale Funktionen, Divisoren
-* Aussagen an Halmen und an dichten offenen Teilmengen
-* negneg-Modalität, andere Modalitäten
-* internes Spektrum
-* großer Zariski-Topos
-* Meta-Eigenschaften
-* lokal-interne Kategorien? offene Immersionen?

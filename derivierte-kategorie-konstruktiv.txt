@@ -58,6 +58,8 @@ curve. Beweis von Proposition 2.2.)
 
 * In Mod(A)_koh kann man konstruktiv Ext-Gruppen berechnen (auch alle höheren)!
 
+* http://mathoverflow.net/questions/139874/pullback-stability-of-internally-projective-objects
+
 
 === Konkret im Computer I
 

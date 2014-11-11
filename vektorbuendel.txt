@@ -272,6 +272,11 @@ Charles Siegel auf http://mathoverflow.net/questions/2414/sheaf-description-of-g
   http://math.stackexchange.com/a/553881/61604
 
 
+=== Literatur
+
+* Vom Möbius-Bündel bis zum j-Homomorphismus. K. Knapp.
+
+
 === Nächste Schritte
 
 * Kozykelbeschreibug in und auswendig kennen

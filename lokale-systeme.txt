@@ -1,3 +1,62 @@
+=== Kochrezept
+
+Sei eine lokal konstante Garbe E und ein Weg gamma : x --> y gegeben.
+Dann bestimmt man die induzierte Abbildung E_x --> E_y so:
+
+1. Sei s in E_x gegeben.
+
+2. Finde eine Umgebung U von x mit E|_U = A_ (konstante Garbe).
+
+3. Der Keim s entspricht dann einem Element von A, das wir uns
+   auch als auf ganz U fortgesetzte konstante Funktion vorstellen können.
+
+4. Sei t der Keim dieser konstanten Funktion in einem Punkt z, aufgefasst
+   als Element von E_z.
+
+5. Mache so weiter, bis z = y erreicht.
+
+Ist E ein Vektorbündel mit Zusammenhang (statt einem lokalen System), geht es
+so: Finde zu s in E|_x (Faser) einen Schnitt phi von E mit phi|_x = s und
+Nabla phi = 0. Betrachte dann phi|_y in E|_y.
+
+Da muss aber eine Voraussetzung garantieren, dass es einen solchen Schnitt phi
+gibt und dass er eindeutig ist.
+
+Ist das die berüchtigte Flachheit des Zusammenhangs?
+
+Achtung: Wenn man sich ein Vektorbündel grafisch vorstellt, dann als Teilmenge
+des R^n. Als solches denkt man leicht immer an den Levi-Civita-Zusammenhang,
+der von R^n induziert wird.
+
+Allgemein wohl Monodromie für Vektorbündel E zusammen mit einer lokal
+konstanten Unter-C-Garbe E' sinnvoll, für die die Morphismen
+
+    E'_x --> E_x --> E|_x
+
+Isos sind. (Es folgt dann: E = E' tensor_C O_X.) Stimmt das?
+
+
+=== Ein konkretes Beispiel
+
+Sei f : S^1 --> S^1, z |-> z^3. Sei E = f_*(C_).
+
+Dann gilt: E_x = Vektorraum der an den drei Urbildern von x definierten
+Funktionen (isomorph zu C^3).
+
+Die Monodromiewirkung rotiert diese Funktionswerte zyklisch durch (in derselben
+Richtung, wie auch der Pfad geht).
+
+
+=== Klassifikation lokaler Systeme
+
+* Ein lokales System vom Rang r ist dasselbe wie ein GL_r(C)-Torsor.
+
+* Daher werden solche Systeme durch H^1(X, GL_r(C)) klassifiziert.
+
+* Im Fall r = 1 ist GL_r(C) = C^* = C/(2 pi i Z) noch eine kommutative Gruppe.
+  Daher sollte die erste Kohomologie leicht zu berechnen sein.
+
+
 === Nächste Schritte
 
 * Verstehen: Ein Vektorbündel mit einem flachen Zusammenhang ist

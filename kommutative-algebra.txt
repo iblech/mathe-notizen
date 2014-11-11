@@ -425,6 +425,8 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   of a locally free sheaf from an open subset U of Spec R whose complement has
   codimension ≥2.
 
+  http://mathoverflow.net/questions/7490/differences-between-reflexives-and-projectives-modules
+
 * Ein A-Modul M ist genau dann projektiv und endlich erzeugt, wenn
   es Elemente x_1,...,x_n aus M und eta_1,...,eta_n aus M^ mit
   x = sum_i eta_i(x) x_i für alle x aus M gibt. ("Dual basis lemma")

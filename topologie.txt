@@ -28,6 +28,12 @@ Falls U abgeschlossen sein sollte, gilt sogar
 
 * clos(M) = X \ int(X \ M).
 
+* clos(M cup N) = clos(M) cup clos(N), für "cap" gilt aber nur "<=".
+
+* Ist X = bigcup_i U_i eine offene Überdeckung und M eine Teilmenge von X,
+  so ist M genau dann in X abgeschlossen, wenn M cap U_i in den U_i
+  abgeschlossen ist.
+
 
 === Lokalität des Abschlusses
 
@@ -125,6 +131,15 @@ offene Eigenschaft.
 
 Ist X kompakt, so gilt P überall, wenn P an den abgeschlossenen Punkten gilt.
 Denn jeder Punkt enthält einen abgeschlossenen Punkt in seinem Abschluss.
+
+
+=== Dichtheit
+
+Eine Teilmenge W von X ist genau dann dicht, wenn:
+
+      Für alle offenen U <= X, beta <= U gilt:
+
+          W cap U <= beta  und  beta <= U abgeschlossen  ==>  U <= beta.
 
 
 === Irreduzibilität
@@ -236,3 +251,8 @@ gesamten Raum ist.
 
   Vielleicht sind die aber in guten Situationen homotopieäquivalent, vermöge
   der offensichtlichen Abbildung von rechts nach links.
+
+
+=== Abgeschlossene Abbildungen
+
+* Stetige Abbildungen Kompaktum --> Hausdorffraum sind stets abgeschlossen.

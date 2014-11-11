@@ -223,7 +223,7 @@ Nächste Schritte:
 
 === Yoneda-Lemma als Aussage über Termmodelle
 
-ou can think of "category" as meaning the same thing as "algebraic theory in a
+You can think of "category" as meaning the same thing as "algebraic theory in a
 multisorted language with only unary functions" (the objects of the category
 being the sorts of the language, the morphisms being the definable functions,
 and the equalities between (composites of) morphisms being the laws of the
@@ -306,6 +306,15 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
         = lim Hom_D(X_i, T).  (ri = id.)
 
 * Ein Morphismus in D ist ein Mono in D genau dann, wenn er ein Mono in C ist.
+
+
+=== Lokalisierung
+
+* Motivation:
+  http://mathoverflow.net/questions/173546/why-localize-spaces-with-respect-to-homology
+
+* Historische Quelle (zu sichten):
+  http://arxiv.org/pdf/1012.5020v3.pdf
 
 
 === Nächste Schritte

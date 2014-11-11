@@ -254,12 +254,94 @@ für geometrische Formeln phi über X:
   Somit ist U = X. Das ist ein Widerspruch.
 
 
+=== Besondere Interpretationen
+
+* Für eine Formel phi über X gilt genau dann, dass [[phi]] (nicht nur offen,
+  sondern auch) abgeschlossen ist, wenn intern "phi oder neg phi".
+
+  Die Hinrichtung ist klar: X = [[phi]] cup [[phi]]^c ist dann eine offene
+  Überdeckung. Die Rückrichtung ist auch nicht schwer.
+
+* Die Untergarbe [[ { x : 1 | phi } ]] der terminalen Garbe ist genau dann
+  lokal konstant, wenn [[phi]] clopen ist, wenn also intern "phi oder neg phi"
+  gilt.
+
+  (Zeige als Lemma: [[ { x : 1 | phi } ]] ist genau dann konstant, wenn [[phi]]
+  leer oder ganz X ist. Nutze, dass man Abgeschlossenheit lokal testen kann.)
+
+
 === Reelle Zahlen
 
 * Dedekindsche reelle Zahlen: Garbe der stetigen reellwertigen Funktionen.
 * Cauchy-Zahlen: Garbe der lokal konstanten reellwertigen Funktionen.
+  (Wenn der zugrundeliegende Raum lokal zusammenhängend ist -- siehe Elephant
+  D4.7.12.)
 * ???: Garbe der differenzierbaren/glatten Funktionen.
 * ???: Garbe der holomorphen Funktionen. Aus interner Sicht diskret!
+
+
+=== Lokal konstante Garben
+
+Im effektiven Topos ist der Untertopos der Mengen gerade der Untertopos der
+negneg-Garben. Ich wollte das für lokal konstante Garben nachbauen; das
+funktioniert aber nicht:
+
+* Angenommen, es existiert ein modaler Operator Box, sodass eine Garbe E
+  auf X genau dann lokal konstant ist, wenn sie eine Box-Garbe ist.
+
+* Dann folgt, dass eine Aussage phi genau dann Box-stabil ist, wenn
+  ihre Interpretation clopen ist, wenn also phi oder neg phi.
+
+* Wegen der Tautologie
+
+      Box alpha  <==>  forall beta. (beta Box-stabil und alpha=>beta) ==> beta
+
+  erhält man so einen Ausdruck für Box alpha. Vereinfachung zeigt aber, dass
+  dann
+
+      Box alpha  <==>  neg neg alpha
+
+  gilt. Und bekanntlich gibt es Garben, die nicht lokal konstant, aber trotzdem
+  negneg-Garben sind. (Beispiel?)
+
+* Die ausgeschriebene Tautologie führt übrigens zu folgender Interpretation von Box:
+
+  V |== Box W genau dann, wenn
+
+      für alle offenen U <= V, beta <= U gilt:
+
+          W cap U <= beta  und  beta <= U abgeschlossen  ==>  U <= beta.
+
+Vermutlich war das ganze sowieso zum Scheitern verurteilt, denn Kerne von
+Morphismen zwischen lokal konstanten Garben müssen nicht wieder lokal konstant
+sein. (Beispiel?)
+
+Ein Vorschlag, der zumindest auch für Garben der Form {x:1|phi} funktioniert,
+ist
+
+    "E lokal konstant  <==>  E diskret und (E bewohnt oder E nicht bewohnt)".
+
+Aber auch hier stimmt die Rückrichtung nicht. Vielleicht klappt folgendes, aber
+das ist nicht so schön:
+
+    "E lokal konstant  <==>  bigwedge phi",
+
+wobei das bigwedge über alle Aussagen phi läuft, die für klassische Mengen
+erfüllt sind. (Wenn man das allgemein genug interpretiert, stimmt die
+Äquivalenz trivialerweise: Wähle phi := "bigvee_{Mengen I} (E = \ul{I})".)
+
+
+=== Konstruktion von modalen Operatoren
+
+Unter welchen Voraussetzungen definiert die Setzung
+
+  Box alpha := forall beta. (phi(beta) und alpha => beta) => beta
+
+einen modalen Operator?
+
+Hinreichend dafür ist, dass für phi gilt:
+
+    phi(beta)  ==>  phi(delta => beta).
 
 
 === Kohärente Topoi

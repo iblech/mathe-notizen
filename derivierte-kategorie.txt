@@ -41,6 +41,18 @@ Quelle:
 * Shapira, Categories and Homological Algebra, Kor. 7.2.9.
 
 
+=== Zwei-Term-Komplexe in D^b(Vect)
+
+Sei in D^b(Vect) ein ausgezeichnetes Dreieck der Form
+
+    X --> Y --> Z -->
+
+gegeben. Seien X und Y H^0-Komplexe. Dann gilt:
+
+    Z = H^(-1)(Z)[1] oplus H^0(Z)[0]
+      = ker(H^0(X) --> H^0(Y)) oplus cok(H^0(X) --> H^0(Y)).
+
+
 === Notwendigkeit des Ableitens von Funktoren
 
 Sei A = Z und x eine Zahl ungleich \pm 1 und 0, oder sei A = k[X] und x das
