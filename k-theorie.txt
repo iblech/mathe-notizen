@@ -125,6 +125,10 @@ K(End(R)) ~~ K(R) x W(R),
 wobei W(R) = multiplikative Gruppe der rationalen Funktionen mit Koeffizienten
 in R und konstantem Term in Zähler und Nenner gleich Eins.
 
+XXX: Stimmt das? Oder nur W(R)?
+
+Iso ist übrigens durch phi |-> T^n chi_phi(1/T) gegeben.
+
 
 === K-Theorie eines Schemas
 

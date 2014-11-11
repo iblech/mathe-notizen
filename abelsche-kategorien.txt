@@ -1,3 +1,13 @@
+=== Kohomologie ist exakt in der Mitte
+
+Algebra, Paolo Aluffi, Seite 600.
+
+
+=== Gegenbeispiele
+
+* Epi, der kein Kokern ist: Z --> Q in der Kategorie der Ringe.
+
+
 === Serresche Quotientenkategorien
 
 * Eine Serresche Unterkategorie B ist eine volle Unterkategorie,

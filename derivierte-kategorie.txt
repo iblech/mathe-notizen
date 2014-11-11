@@ -81,6 +81,44 @@ Ferner sollte P^* --> X[0] invertierbar sein. Das ist im Allgemeinen aber auch
 keine Homotopieäquivalenz.
 
 
+=== Weitere Motivation
+
+* Im Schritt Komplexe --> Kohomologie geht viel Information verloren.
+  Kann man nur so wenig Information verlieren, dass zwar Auflösungen ein und
+  desselben Objekts identifiziert werden, aber nicht mehr?
+
+  Ja! Das ist die derivierte Kategorie.
+
+* D(A) besitzt noch einen Kohomologiefunktor nach Prod_n A (oder Kom^0(A)).
+
+  Würde man aber in D(A) noch mehr lokalisieren, dann wäre der
+  Kohomologiefunktor nicht mehr wohldefiniert!
+
+
+=== Gegenbeispiele
+
+* Ein Quasiiso, der, auch bis auf Homotopie, kein Inverses hat:
+
+  Die Augmentation von (Z --2--> Z) nach Z/(2). Denn alle Morphismen in die
+  Rückrichtung sind Null, und der Komplex Z/(2)[0] hat nicht den Nullmorphismus
+  als Identitätsmorphismus, denn er hat nichttriviale Kohomologie.
+
+* Null in D(A) aber nicht in K(A): Die Identität auf (Z --> Z --> Z/2).
+
+  Klar, dass Null in D(A), da azyklisch.
+
+  Welche Homotopien gibt es? Nur die Nullhomotopie! Das zeigt die Behauptung.
+
+* Null in Kohomologie, aber nicht in D(A):
+
+  Z ---2---> Z
+  |          |
+  |          | *2
+  |          |
+  v          v
+  Z -------> Z/(3)
+
+
 === Beispiel einer Ext-Algebra
 
 Sei E die äußere Algebra über einem Körper K in Erzeugern e_1, ..., e_n.
