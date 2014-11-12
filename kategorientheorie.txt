@@ -317,6 +317,13 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
   http://arxiv.org/pdf/1012.5020v3.pdf
 
 
+=== Grafische Notation
+
+* http://arxiv.org/abs/1401.7220
+  Category Theory Using String Diagrams
+  Daniel Marsden
+
+
 === Nächste Schritte
 
 * Kurz über "Cat ist vollständig und kovollständig" nachdenken.
