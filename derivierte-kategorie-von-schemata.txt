@@ -182,3 +182,7 @@ Literatur:
 * http://www.math.purdue.edu/~lipman/Duality.pdf
   http://www.math.purdue.edu/~lipman/Spain/
   Wird von Bondal/Bergh zitiert. Unbedingt sichten.
+
+* http://math.berkeley.edu/~qchu/Notes/256B.pdf
+  Erzeuger, Auflösung, perfekte Komplexe, dg-Kategorien.
+  Unbedingt unbedingt sichten!

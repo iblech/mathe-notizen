@@ -59,9 +59,21 @@ Richtung, wie auch der Pfad geht).
 
 === Nächste Schritte
 
+* http://webusers.imj-prg.fr/~fouad.elzein/elzein-snoussif.pdf lesen.
+  Enthält insbesondere einen Čech-Beweis der Kohomologie lokaler Systeme auf S^1.
+
 * Verstehen: Ein Vektorbündel mit einem flachen Zusammenhang ist
   dasselbe wie ein lokales System von Vektorräumen, jeweils bis auf Isomorphie.
   Siehe Claire Voisin, Prop. 9.11, Seite 229.
+
+  Das steht ausführlich erklärt in Loop Spaces, Characteristic Classes and
+  Geometric Quantization, um Seite 78.
+
+  Ein bisschen was dazu steht auch in:
+  http://mathoverflow.net/questions/144339/topological-information-via-cohomology-of-sheaves/144345#144345
+
+* Euler-Charakteristik:
+  http://math.stackexchange.com/questions/369456/euler-characteristic-of-a-covering-space/369762#369762
 
 * Galois Groups and Fundamental Groups (Cambridge Studies in Advanced
   Mathematics 117)
