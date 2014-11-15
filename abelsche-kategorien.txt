@@ -8,6 +8,17 @@ Algebra, Paolo Aluffi, Seite 600.
 * Epi, der kein Kokern ist: Z --> Q in der Kategorie der Ringe.
 
 
+=== Ringrekonstruktion
+
+* Aus Mod(R) kann man Z(R) rekonstruieren, klar: als Endomorphismenmonoid
+  des Identitätsfunktors.
+
+* Aus Mod(R) kann man nicht R rekonstruieren, denn ist P ein e.e. projektiver
+  R-Modul vom Rang 1, so ist Mod(R) --> Mod(R), M |-> M tensor P eine
+  Äquivalenz, die R auf P schickt.
+  http://math.stackexchange.com/questions/215012/whats-the-definition-of-a-free-module-in-an-abelian-category
+
+
 === Serresche Quotientenkategorien
 
 * Eine Serresche Unterkategorie B ist eine volle Unterkategorie,
@@ -35,6 +46,48 @@ Algebra, Paolo Aluffi, Seite 600.
   1. X'/(X' cap X'') ist ein Unterobjekt von X/X'', gehört also zu B.
   2. 0 --> X'/(X' cap X'') --> X/(X' cap X'') --> X/X' --> 0.
 
+* Für einen additiven exakten Funktor F : A --> C sind äquivalent:
+  1. F(X) = 0 für alle X aus B.
+  2. F(f) Iso für alle f mit ker(f), cok(f) in B.
+
+  1. ==> 2.: ker(F(f)) = F(ker(f)) = 0, genauso mit cok.
+  2. ==> 1.: Der Nullmorphismus X --> X hat Kern und Kokern X.
+
 Literatur:
 * Quotient Categories and Localizing Functors, Carl Faith.
   http://link.springer.com/chapter/10.1007%2F978-3-642-80634-6_17
+
+
+=== Vervollständigung einer additiven zu einer abelschen Kategorie
+
+* http://www.math.rwth-aachen.de/~kuenzer/bachelor_stein.pdf
+  Adelmans Konstruktion, super ausführlich.
+
+  Achtung: Er schreibt, Mod(Z) besitze nicht genügend Injektive. Ich weiß
+  nicht, was er damit meint.
+
+* Sichten:
+
+  http://books.google.de/books?id=975-OzA4YrQC&pg=PA448&lpg=PA448&dq=%22free+abelian+category%22&source=bl&ots=3Wt8073lWx&sig=_8uNFhBV2aG18jFEFyKrCuWdA7g&hl=de&sa=X&ei=isNjVLXNJdWvaaCegvgF&ved=0CCkQ6AEwBg
+  http://books.google.de/books?id=TjEeXPJmU_sC&pg=PA345&lpg=PA345&dq=%22free+abelian+category%22&source=bl&ots=Z3c2y-WCXJ&sig=Eez9dHmzqP8SA7IarevWEK7wqRM&hl=de&sa=X&ei=isNjVLXNJdWvaaCegvgF&ved=0CCcQ6AEwBQ
+
+  http://www2.math.uni-paderborn.de/fileadmin/Mathematik/AG-Krause/publications_krause/habil.pdf (Kap. 1)
+
+  http://lima.osu.edu/people/iherzog/dub.pdf
+
+  http://books.google.de/books?id=b9PTAwAAQBAJ&pg=PA15&lpg=PA15&dq=%22free+abelian+category%22&source=bl&ots=HBbjs6iT4R&sig=AmNR7WupT-hKeaU-SXxORg2nnCc&hl=de&sa=X&ei=isNjVLXNJdWvaaCegvgF&ved=0CCEQ6AEwAw
+
+  http://permalink.gmane.org/gmane.science.mathematics.categories/2857
+
+  http://users.uoi.gr/abeligia/hha.pdf
+
+  http://arxiv.org/pdf/1202.0426.pdf
+
+  http://mathoverflow.net/questions/52881/is-anything-known-about-the-closure-of-an-additive-category-by-adding-all-the
+  http://mathoverflow.net/questions/38793/classifying-functors-of-abelian-categories
+  http://mathoverflow.net/questions/91085/subcategories-of-abelian-categories-generated-by-finitely-many-objects
+
+  http://ncatlab.org/nlab/show/monadicity+theorem
+  MO, why are monads useful?
+
+  http://ncatlab.org/nlab/show/computad

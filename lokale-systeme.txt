@@ -82,3 +82,8 @@ Richtung, wie auch der Pfad geht).
   Siehe etwa Beispiel 1.1.
 
 * Konstruierbare Garben: http://www.mathematik.uni-stuttgart.de/~geckmf/skyefiles/talk10.pdf
+
+
+=== Projekt mit Meru, zu sichten
+
+* http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf

@@ -3,3 +3,7 @@
 
 * Abschätzung für die Frobenius-Norm von Kommutatoren:
   Böttcher, Wenzel, http://www.tu-chemnitz.de/mathematik/preprint/2008/PREPRINT_05.pdf
+
+* Wie geht der Adjoint Trick?
+  http://www-math.mit.edu/~stevenj//18.336/adjoint.pdf
+  http://scicomp.stackexchange.com/questions/14259/understanding-the-cost-of-adjoint-method-for-pde-constrained-optimization

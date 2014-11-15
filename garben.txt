@@ -9,6 +9,12 @@
   Exercise 8.6.1: Habe 0 --> omega_X --> omega_X \otimes O_X(P) --> k_P --> 0.
 
 
+=== Erzeuger und Relationen
+
+* Zusammenhängendheit ist hier sehr wichtig! Denn dann bewahrt gamma_*
+  Erzeuger und Relationen.
+
+
 === Garbifizierung
 
 * Sei phi : F --> aF die Garbifizierung einer Prägarbe. Dann gilt
