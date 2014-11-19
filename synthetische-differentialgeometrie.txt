@@ -1,7 +1,7 @@
 * Reyes, Wraith.
   A note on tangent bundles in a category with ring object.
 
-  Diskutiert unter anderem, das Schemata infinitesimal linear sind.
+  Diskutiert unter anderem, dass Schemata infinitesimal linear sind.
 
 * Hellman.
   Mathematical Pluralism: The Case of Smooth Infinitesimal Analysis.
@@ -14,3 +14,9 @@
 * Kostecki.
   An Introduction to Synthetic Differential Geometry.
   http://www.fuw.edu.pl/~kostecki/sdg.pdf
+
+* http://link.springer.com/book/10.1007%2F978-1-4757-4588-7
+  René Lavendhomme
+  Basic Concepts of Synthetic Differential Geometry
+
+  empfohlen von: http://arxiv.org/pdf/quant-ph/0202079v1.pdf

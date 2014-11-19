@@ -39,6 +39,7 @@ alle Ext^2 verschwinden, gibt es keinen Kleber.
 Quelle:
 * Bridgeland, http://www.mat.unimi.it/Spring_School/program2.htm
 * Shapira, Categories and Homological Algebra, Kor. 7.2.9.
+  http://webusers.imj-prg.fr/~pierre.schapira/lectnotes/HomAl.pdf
 
 
 === Zwei-Term-Komplexe in D^b(Vect)

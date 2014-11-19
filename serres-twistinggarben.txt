@@ -37,6 +37,10 @@ Damit ist etwa offensichtlich, dass:
 * Besser: p/q vom Gesamtgrad m
       |--> kompatible Familie, auf x_i != 0 (und q != 0): .../...
 
+http://webusers.imj-prg.fr/~fouad.elzein/elzein-snoussif.pdf sagt:
+oplus_{k in Z} O(k) ist der Pushforward der Strukturgarbe unter
+A^(n+1) \ {0} --> P^n.
+
 
 === Totalräume und tautologische Bündel
 
