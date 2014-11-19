@@ -256,3 +256,9 @@ gesamten Raum ist.
 === Abgeschlossene Abbildungen
 
 * Stetige Abbildungen Kompaktum --> Hausdorffraum sind stets abgeschlossen.
+
+
+=== Literatur
+
+* http://www.maths.ed.ac.uk/~tl/topology/topology_notes.pdf
+  http://www.maths.ed.ac.uk/~tl/topology/topology_sheets.pdf
