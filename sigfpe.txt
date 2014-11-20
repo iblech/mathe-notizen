@@ -8,3 +8,13 @@
   posts on “Untangling with Continued Fractions”, 0 - 5. I think the idea is
   that you convert a rational tangle into a rational number, work out its
   continued fraction, which tells you how to untwist the tangle.
+
+* http://blog.sigfpe.com/2014/05/types-and-two-approaches-to-problem.html
+  In a statically typed language you can predict the type of an expression
+  knowing the type of its parts. This means you can reason reliably about code
+  while wearing the hide-the-value filter. This means that almost any
+  programming problem can be split into two parts: a quotient problem where you
+  forget about the values, and then problem of lifting a solution to the
+  quotient problem to a solution to the full problem. Or to put that in more
+  conventional language: designing your data and function types, and then
+  implementing the code that fits those types.

@@ -4,6 +4,10 @@
 * Ein altes Paper:
   Michael Fourman, Continuous Truth I.
 
+* http://www.dtc.ox.ac.uk/people/12/frot/CoherentTopoi.pdf
+  Empfohlen von John Baez. Diskutiert den Zusammenhang zwischen Gödels
+  Unvollständigkeitssatz und Delignes Theorem.
+
 
 === Zusammenhang zwischen [[.]] und |==
 

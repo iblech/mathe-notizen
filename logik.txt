@@ -1,7 +1,3 @@
-* http://www.dtc.ox.ac.uk/people/12/frot/CoherentTopoi.pdf
-  Gödel's completeness theorem and Deligne's theorem
-
-
 === Cantor
 
 * Sei phi : A --> P(A) eine Abbildung. Dann kann man explizit
@@ -37,6 +33,28 @@ http://www-math.mit.edu/~poonen/papers/sampler.pdf
 Benjamin Frot.
 Gödel's Completeness Theorem and Deligne's Theorem.
 http://arxiv.org/abs/1309.0389
+
+Empfohlen von John Baez!
+
+
+=== Naive Mengenkomprehension
+
+* Russels Antinomie ist ja bekannt.
+
+* Aber auch ohne Negation gibt es Paradoxa:
+  http://www.logicmatters.net/resources/pdfs/gwt/GWT2f.pdf
+  Seite 99
+
+
+=== Gödel
+
+* http://quantropy.org/14/1/godel.pdf
+
+* http://rgheck.frege.org/pdf/notes/TheFixedPointTheorem.pdf
+
+* http://goodmath.scientopia.org/2013/03/12/finally-gdels-proof-of-incompleteness/
+
+* http://www.logicmatters.net/resources/pdfs/gwt/GWT2f.pdf
 
 
 === Nächste Schritte

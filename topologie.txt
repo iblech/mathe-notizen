@@ -262,3 +262,6 @@ gesamten Raum ist.
 
 * http://www.maths.ed.ac.uk/~tl/topology/topology_notes.pdf
   http://www.maths.ed.ac.uk/~tl/topology/topology_sheets.pdf
+
+  Enthält insbesondere eine tolle Motivation von Kompaktheit
+  (über Maxima stetiger Funktionen).
