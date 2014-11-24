@@ -3,3 +3,5 @@
 * Stimmt es, dass es Funktionen aus n-Typen nur in andere n-Typen gibt?
   Wird in http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf behauptet
   und leuchtet irgendwie auch ein.
+
+  Andererseits kann man doch immer konstante Abbildungen basteln.
