@@ -12,3 +12,6 @@
 
 * Rückwärts zippen:
   http://conway.rutgers.edu/~ccshan/wiki/blog/posts/WalkZip3/
+
+* http://smc2014.univ-lyon1.fr/doku.php?id=week1
+  Kurs von Olivier Danvy und Chung-Chieh Shan

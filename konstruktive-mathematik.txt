@@ -42,3 +42,10 @@ N* := { (x_n)_n | x_n in {0,1}, (x_n) monoton steigend }.
 
 * Konsequenterweise ist auch die Charakteristik eines diskreten Rings
   eine solche Zahl.
+
+
+=== Kohomologie diskreter Räume
+
+http://homotopytypetheory.org/2013/07/24/cohomology/
+Andreas Blass (_Cohomology detects failures of the axiom of choice_)
+http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology

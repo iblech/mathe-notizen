@@ -99,3 +99,9 @@ Quadrate deshalb, weil das mit der Normalverteilung zusammenhängt.
 
 * http://www.rzuser.uni-heidelberg.de/~hb3/publ/dida.pdf
 * http://www.rzuser.uni-heidelberg.de/~hb3/publ/tor.pdf
+
+
+=== To mock a mockingbird
+
+http://books.google.de/books?id=NyF1kvJhZbAC&lpg=PA1&pg=PT121&redir_esc=y#v=onepage&q&f=false
+http://math.stackexchange.com/questions/639681/how-to-represent-smullyans-mockingbird-puzzles-in-homotopy-type-theory
