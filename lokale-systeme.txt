@@ -87,3 +87,6 @@ Richtung, wie auch der Pfad geht).
 === Projekt mit Meru, zu sichten
 
 * http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf
+
+* http://arxiv.org/pdf/1303.3255.pdf
+  Cellular sheaf cohomology

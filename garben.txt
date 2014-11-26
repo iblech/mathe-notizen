@@ -1,14 +1,3 @@
-=== Nächste Schritte
-
-* Wolkenkratzergarben k(x) auf X für x abg. Punkt verstehen.
-  Was ist ihr Hom(%,%)? Sind sie kohärent? Was ergibt sie mit
-  omega tensoriert? Was hat sie mit der Faser von Moduln zu tun?
-  Solche sind indecomposable (im Sinne von Huy 123).
-
-* http://www.mathematik.uni-kl.de/~gathmann/class/alggeom-2002/chapter-8.pdf
-  Exercise 8.6.1: Habe 0 --> omega_X --> omega_X \otimes O_X(P) --> k_P --> 0.
-
-
 === Erzeuger und Relationen
 
 * Zusammenhängendheit ist hier sehr wichtig! Denn dann bewahrt gamma_*
@@ -77,6 +66,12 @@ Coh(X) rekonstruieren.
   k(f(x)) --> f_* k(x) erhalten.)
 
   [ Eigentlich muss es hier natürlich i_* k(x) bzw. j_* k(f(x)) heißen. ]
+
+* Wolkenkratzergarben k(x) auf X für x abg. Punkt sind
+  indecomposable (im Sinne von Huy 123).
+
+* http://www.mathematik.uni-kl.de/~gathmann/class/alggeom-2002/chapter-8.pdf
+  Exercise 8.6.1: Habe 0 --> omega_X --> omega_X \otimes O_X(P) --> k_P --> 0.
 
 Hier ein etwas spezielles Beispiel. Was ist die richtige Allgemeinheit?
 
@@ -456,9 +451,6 @@ erhält.
 
 
 === Nächste Schritte
-
-* Wieso sind Wolkenkratzergarben (die aus der algebraischen Geometrie) im
-  noetherschen Fall kohärent?
 
 * Was passiert mit solchen Wolkenkratzergarben unter Vorwärtsdrücken und
   Zurückziehen?

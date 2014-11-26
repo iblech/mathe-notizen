@@ -62,6 +62,13 @@ Die Voraussetzung an f ist *nicht* erfüllt in folgenden Fällen:
 3. Als Korollar fällt Information über die Euler-Charakteristik ab,
    die die verschiedenen Morphismen nicht sieht.
 
+Siehe auch:
+
+* http://www.maths.ed.ac.uk/~eshinder/Mainz-Lecture-3.pdf
+
+* http://www.math.ens.fr/~merker/CMI-ENS-Exchange/2004/saravanan.pdf
+  (weiter hinten)
+
 
 === Projektiver Raum
 

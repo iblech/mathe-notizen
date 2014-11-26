@@ -10,7 +10,8 @@ http://en.wikipedia.org/wiki/Euler_class
 === Chern-Klassen
 
 * c_1(E) = Poincaré-Duales zur Untermannigfaltigkeit von (Nullschnitt) \cap
-  (generischer Schnitt) -- laut Sven.
+  (generischer Schnitt) -- laut Sven. Ist das nicht dasselbe wie die
+  Euler-Klasse?
 
 * Für Geradenbündel: c_1(L) = 0 genau dann, wenn L trivial.
 
