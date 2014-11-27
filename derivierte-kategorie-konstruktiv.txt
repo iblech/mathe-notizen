@@ -12,9 +12,11 @@
 
 * Ext^n als Äquivalenzklassen geeigneter exakter Sequenzen
 
-* http://arxiv.org/pdf/1003.1943v3.pdf:
+* http://arxiv.org/pdf/1003.1943v3.pdf (Barakat, Seite 24):
   (L_q F)(A) := [Ext^q(A, __), F]  (Menge nat. Trafos),
   und Ext über Yoneda.
+
+  Siehe Hilton/Stammbach, Thm. IV.10.1, Seite 157.
 
 
 === Dynamische Theorie von Ext-Funktoren
