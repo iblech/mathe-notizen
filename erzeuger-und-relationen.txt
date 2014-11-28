@@ -161,6 +161,12 @@ Das und mehr steht in: Clark. The automorphism class group of the category of
 rings.
 
 
+=== Frei erzeugte Kategorien
+
+* D^b(Z) ist angeblich die freie algebraische triangulierte Kategorie
+  auf einem Erzeuger. http://personal.us.es/fmuro/htag.pdf
+
+
 === Nächste Schritte:
 
 * Wozu ist der symmetrische Topos gut?

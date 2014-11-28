@@ -1,0 +1,7 @@
+=== Rationale Kurven
+
+* Eine Kurve heißt rational, wenn sie birational zu P^1 ist.
+
+* Rationale Kurven sind isomorph zu P^1:
+
+  http://ocw.mit.edu/courses/mathematics/18-782-introduction-to-arithmetic-geometry-fall-2013/lecture-notes/MIT18_782F13_lec23.pdf

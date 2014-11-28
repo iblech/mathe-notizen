@@ -8,6 +8,12 @@ http://math.berkeley.edu/~mhaiman/math256/Derived-Cat-1-5.pdf
 http://mathoverflow.net/questions/61650/cohomological-functor-from-triangulated-category
 
 
+=== Unbeschränkte derivierte Kategorie einer exakten Kategorie
+
+Konstruktion in http://www.maths.ed.ac.uk/~aar/papers/neemder.pdf
+(von Neeman).
+
+
 === Motivation für derivierte Kategorien
 
 * http://pages.saclay.inria.fr/alban.quadrat/seminar/Barakat.pdf
@@ -24,6 +30,22 @@ http://mathoverflow.net/questions/61650/cohomological-functor-from-triangulated-
   vorgemacht.
 
   http://arxiv.org/pdf/math/0601185v5.pdf
+
+
+=== Verdier-Quotient
+
+* http://therisingsea.org/notes/TriangulatedCategories.pdf
+  Offensichtlich super Quelle.
+
+  Auch lesenswert: Die Doktorarbeit von Daniel Murfet.
+  http://www.therisingsea.org/thesis.pdf
+
+* http://personal.us.es/fmuro/htag.pdf
+
+* D(A) = K(A)/azyklische.
+
+* Morphismen im Verdier-Quotient T/S sind Dächer, wobei der
+  "falsch laufende Morphismus" so sein muss, dass sein Kegel in S liegt.
 
 
 === Struktur der derivierten Kategorie

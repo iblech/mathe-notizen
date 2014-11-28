@@ -149,6 +149,8 @@ Siehe auch: http://stanford.edu/~zwyun/Bernstein-Lunts.pdf
 http://ncatlab.org/nlab/show/equivariant+derived+category
 Warnung, dass ich evtl. eine falsche Vorstellung von äquivarianten Garben habe!
 
+http://mathoverflow.net/questions/81016/reference-for-the-derived-category-of-x-x-g-and-x-g
+
 
 === Äquivariante K-Theorie
 

@@ -82,6 +82,9 @@ Kann die abelsche Struktur von Kategorien kohärenter Modulgarben implementieren
   Das hat einen allgemeineren Grund: 2-Faserprodukte von abelschen Kategorien
   sind auf konstruktive Art und Weise wieder abelsch.
 
+  Barakat nennt diese Konstruktion das Čech-Modell. Es ist nicht sehr
+  performant.
+
 Kann die abelsche Struktur von Kategorien von Kettenkomplexen implementieren:
 * falls ich die abelsche Struktur der zugrundeliegenden abelschen Kategorie
   implementieren kann.
