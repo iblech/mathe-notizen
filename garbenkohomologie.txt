@@ -69,6 +69,9 @@ globalen Schnitt von E liften, wenn sein Bild unter dieser Abbildung null ist.
 * Gute Invarianten. Mit Garbenkohomologie kann man etwa über H^q(Omega^p)
   sprechen.
 
+* Für kompakte komplexe Mannigfaltigkeiten lassen sich die H^n(X, C)
+  noch in direkte Summanden zerlegen -- und zwar in die H^i(X, Omega^j).
+
 * Klassifizierung von geometrischen Dingen.
   H^1(X, O_X^*) = Geradenbündel auf X
   H^1(X, T_X) = infinitesimale Deformationen von X = H^0(X, N)
@@ -242,6 +245,14 @@ eine Spektralsequenz:
 
     H^q(Überdeckung U, F) = product_{i_0 < ... < i_p} H^q(U_i0 cap ... U_ip, F)
         ==> H^{p+q}(X, F).
+
+
+=== Lokale Kohomologie
+
+If X is the complement of a closed subset in an affine variety, then higher
+cohomology of any coherent sheaf is isomorphic to a shifted local cohomology
+(with supports in the complement). In other words, H^i(X,O_X) = H^{i+1}_Z(X\Z,O) for
+i>0. http://mathoverflow.net/a/53009/31233
 
 
 === Eigentlicher Basiswechsel (proper base change)

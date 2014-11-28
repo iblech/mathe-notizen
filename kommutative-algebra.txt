@@ -123,9 +123,14 @@ Sei M eine quadratische Matrix über einem Ring.
   Multiplikativität der Determinante, dass det(M) invertierbar ist; und daher
   kann man das Inverse von M explizit angeben.
 
-* Gilt die Umkehrung, zumindest über lokalen Ringen?
-  Vermutlich nicht, sonst hätte Liu seine Übungsaufgabe 5.1.13 stärker
-  formuliert.
+* Die Umkehrung gilt nicht, auch nicht über lokalen Ringen.
+
+  Betrachte etwa den lokalen Ring Z_(2) und die (1x1)-Matrix (2).
+  Da Multiplikation mit 2 injektiv ist, ist diese Matrix als Abbildung
+  injektiv. Aber Multiplikation mit 2 ist nicht invertierbar.
+
+  Das passt auch dazu, das Liu sonst seine Übungsaufgabe 5.1.13 stärker
+  formuliert hätte.
 
 
 === Quotientenmoduln
@@ -330,6 +335,25 @@ muss.
 * Jacobi-Kriterium impliziert Regularität, unter gewissen Voraussetzungen:
   Computational Methods In Commutative Algebra And Algebraic Geometry, Seite 131.
 
+* Sei M ein endlich-erzeugter A-Modul, A lokaler Ring.
+  Dann gilt: Hom_A(M, A/m) = 0 ==> M = 0.
+
+  Denn: Wähle eine (A/m)-Basis von M/mM. Dann habe die Dualbasisabbildungen
+  M/mM --> A/m. Nach Voraussetzung sind die aber alle Null (M --> M/mM ist ja
+  surjektiv). Also ist die Basis leer. Damit sind M/mM und M Null.
+
+* Sei M ein A-Modul, A lokaler Ring. Ist M frei, so ist Ext^1(M, A/m) = 0.
+  Klar, denn dann ist M projektiv.
+
+  Die Umkehrung gilt ebenfalls, falls M endlich erzeugter und A noethersch ist.
+  Denn dann folgt aus einer kurzen exakten Sequenz 0 --> K --> A^n --> M --> 0,
+  dass 0 --> Hom(M, k) --> Hom(A^n, k) --> Hom(K, k) --> 0 exakt ist.
+
+  Die Einschränkung einer Abbildung A^n --> k auf m A^n (insbesondere auf K,
+  denn K <= m A^n) ist Null. Also ist Hom(K, k) = 0. Also ist, nach dem
+  vorherigen Punkt, K = 0. Hier geht ein, dass A noethersch ist: Denn sonst
+  wüssten wir nicht, dass K wieder endlich erzeugt ist.
+
 
 === Äußere Algebra
 
@@ -485,6 +509,25 @@ Sei R nicht unbedingt kommutativ.
 
 * Es gilt: dim R/(a) < dim R, falls a regulär; kann das einfach mit der
   konstruktiven Definition von Krulldimension nachweisen.
+
+
+=== Purity filtration
+
+* eps : M --> M^^ weder injektiv noch surjektiv, im Allgemeinen.
+
+* coim(eps) ist der letzte Teil einer aufsteigenden Filtration von M.
+
+* Sei t_{-c}(M) der größte Untermodul von Kodimension >= c. Dann heißt
+
+    ... <= t_{-2}(M) <= t_{-1}(M) <= t_0(M) = M
+
+  die purity filtration von M.
+
+* Es gilt: t_{-1}(M) = ker(eps).
+
+* Die anderen Schritte kann man erhalten, wann die Abbildung von M
+  in den doppelt deriviert-dualen Modul betrachtet.
+  http://homalg.math.rwth-aachen.de/~barakat/talks/purity.pdf
 
 
 === Siehe auch

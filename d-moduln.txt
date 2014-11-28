@@ -1,1 +1,10 @@
 * http://www.math.uni-bonn.de/ag/kleineag/DModuln/DModuln-index.html
+
+* http://homalg.math.rwth-aachen.de/~barakat/talks/D-modules.pdf
+
+
+=== Lösungen als Hom
+
+* Hom(D/..., M) ist isomorph zum Lösungsraum der Gleichungen ... in M.
+
+* Vorteil: Kann beide Objekte durch isomorphe ersetzen.

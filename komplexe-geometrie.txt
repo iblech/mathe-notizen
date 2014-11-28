@@ -8,6 +8,16 @@
   Dabei del/del zbar = 1/2 (del/del x + i del/del y).
 
 
+=== Meromorphe Funktionen
+
+* Meromorphe Funktionen sind nicht ganz dasselbe wie holomorphe Funktionen
+  nach P^1. Etwa ist z_1/z_2 auf C^2 zwar meromorph, aber nicht wohldefiniert
+  als Abbildung nach P^1 (dazu müsste man die Quelle aufblasen).
+
+  Ist die Quelle aber eindimensional, so stimmt es doch.
+  http://mathoverflow.net/a/53033/31233
+
+
 === Keime von Teilmengen
 
 * Ist X ein topologischer Raum, so kann man die Garbe P mit

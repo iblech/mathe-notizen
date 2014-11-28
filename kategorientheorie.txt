@@ -324,6 +324,12 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
   Daniel Marsden
 
 
+=== Mannigfaltigkeiten als Kategorien
+
+* http://mathoverflow.net/questions/31732/folk-functorial-figuring
+  verstehen
+
+
 === Nächste Schritte
 
 * Kurz über "Cat ist vollständig und kovollständig" nachdenken.

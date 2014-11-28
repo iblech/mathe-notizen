@@ -8,6 +8,24 @@ http://math.berkeley.edu/~mhaiman/math256/Derived-Cat-1-5.pdf
 http://mathoverflow.net/questions/61650/cohomological-functor-from-triangulated-category
 
 
+=== Motivation für derivierte Kategorien
+
+* http://pages.saclay.inria.fr/alban.quadrat/seminar/Barakat.pdf
+  Unter dem Gesichtspunkt von derivierten Äquivalenzen
+
+* Einige Invarianten faktorisieren über die derivierte Kategorie:
+  K-Theorie, Hochschild-(Ko-)Homologie.
+
+  Aber: Die derivierte Kategorie alleine erlaubt noch keine Berechnung dieser
+  Invarianten (auch nicht mit ihrer triangulierten Struktur). Damit das klappt,
+  benötigt man eine dg-Anreicherung.
+
+  Angeblich ist das für K-Theorie beispielhaft in Thomason--Trobaugh
+  vorgemacht.
+
+  http://arxiv.org/pdf/math/0601185v5.pdf
+
+
 === Struktur der derivierten Kategorie
 
 Beh.: Sei C eine abelsche Kategorie mit Ext^i(X,Y) = 0 für alle i >= 2, X, Y in C.
