@@ -128,6 +128,13 @@ ist isomorph zu Aut(D^b(X^[n])).
       H^m(X^[n], O_{X^[n]}) = H^m_{S^n}(X^n, O_{X^n}).
 
 
+=== G-Hilbertschema
+
+https://publikationen.uni-tuebingen.de/xmlui/bitstream/handle/10900/49066/pdf/diss.pdf?sequence=1&isAllowed=y
+
+Dissertation von Mark Blume.
+
+
 === Literatur
 
 * Simons Masterarbeit

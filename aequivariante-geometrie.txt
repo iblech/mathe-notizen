@@ -147,8 +147,9 @@ http://www.freidok.uni-freiburg.de/volltexte/2613/pdf/Diplomarbeit.pdf
 
 Siehe auch: http://stanford.edu/~zwyun/Bernstein-Lunts.pdf
 http://ncatlab.org/nlab/show/equivariant+derived+category
-Warnung, dass ich evtl. eine falsche Vorstellung von äquivarianten Garben habe!
-
+Man muss aufpassen, ob man im topologischen Kontext oder algebraischen Kontext
+arbeitet (lokal konstante/konstruierbare Garben vs. kohärente O_X-Modulgarben).
+Algori sagt, dass die naive Definition im kohärenten Kontext völlig okay ist:
 http://mathoverflow.net/questions/81016/reference-for-the-derived-category-of-x-x-g-and-x-g
 
 

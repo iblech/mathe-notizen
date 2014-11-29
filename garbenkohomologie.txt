@@ -246,6 +246,43 @@ eine Spektralsequenz:
     H^q(Überdeckung U, F) = product_{i_0 < ... < i_p} H^q(U_i0 cap ... U_ip, F)
         ==> H^{p+q}(X, F).
 
+Die Mayer--Vietoris-Sequenz (für binäre Überdeckungen) entsteht wie folgt aus
+der Grothendieck-Spektralsequenz. Betrachte die linksexakten Funktoren
+
+    Sh(X) ---> PSh(X) ---> Ab,
+
+wobei der letzte Funktor durch HH^0 (Čech-H^0) gegeben ist. Die Komposition ist
+natürlich Gamma : Sh(X) --> Ab, die Rechtsableitungen also Garbenkohomologie.
+
+Für eine Prägarbe E sieht die Čech-Kohomologie wie folgt aus:
+
+    HH^0(E) = ker (E(A) oplus E(B) --> E(A cap B))
+    HH^1(E) = cok (E(A) oplus E(B) --> E(A cap B))
+
+Die Grothendieck-Spektralsequenz hat als E_2-Seite
+
+    E^pq = R^p HH^0 (R^q vergiss E) = HH^p (U |-> H^q(U, E)),
+
+denn R^p HH^0 = HH^p und R^q vergiss E = (U |-> H^q(U, E)). Also:
+
+    In Spalte p = 0, Zeile q:
+    ker (H^q(A) oplus H^q(B) --> H^q(A cap B))   [Garbe E unterdrückt]
+
+    In Spalte p = 1, Zeile q:
+    cok (H^q(A) oplus H^q(B) --> H^q(A cap B))
+
+Also degeneriert die Sequenz auf der 2-Seite. Die kanonische Sequenz
+
+    0 --> F^1 Z --> Z --> Z / F^1 Z --> 0
+
+sieht für Z = H^n(X) so aus:
+
+    0 --> cok(...) --> H^n(X) --> ker(...) --> 0.
+
+Fügt man all diese Sequenzen zusammen, erhält man die Mayer--Vietoris-Sequenz:
+
+    ... --> H^n(X) --> H^n(A) oplus H^n(B) --> H^n(A cap B) --> H^(n+1)(X) --> ...
+
 
 === Lokale Kohomologie
 
@@ -354,8 +391,6 @@ Habe Wirkung RHom(O_X,O_X) --> RHom(O_X,F).
 * Kokern-Beispiel oben nachrechnen.
 
 * Motivation mit Faserungen verstehen.
-
-* Verstehen: Mayer--Vietoris-Sequenz als Degeneration einer Spektralsequenz.
 
 
 === Siehe auch

@@ -28,6 +28,12 @@
 * Grundwissen über Regularität von Ringen lernen.
 
 
+=== Online
+
+* Besser beantworten:
+  http://mathoverflow.net/questions/30557/grothendieck-spectral-sequence-and-mayer-vietoris-sequence
+
+
 === Sonstiges
 
 * Projekt mit Meru

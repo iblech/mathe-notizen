@@ -36,3 +36,9 @@
 === Neue Axiome
 
 Neeman, Some new axioms for triangulated categories.
+
+
+=== Well generated triangulated categories
+
+Literaturreferenzen auf:
+http://www2.math.uni-paderborn.de/de/ags/pbrep/research-activities/triangulated-categories-and-singularities.html

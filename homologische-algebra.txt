@@ -195,3 +195,12 @@ explicitly describe the resulting elements: Namely by using a pullback
 resp. a pushforward construction. By specializing to endomorphisms of A
 (or endomorphisms of B) given by multiplication with a scalar, one
 obtains the above constructions.
+
+
+=== Spektralsequenzen
+
+* Eine Spektralsequenz mit nur zwei nichttrivialen Spalten auf der zweiten
+  Seite ist "dasselbe" wie eine lange exakte Sequenz.
+
+* sichten: http://math.berkeley.edu/~hutching/teach/215b-2011/ss.pdf
+  http://ncatlab.org/nlab/show/spectral+sequence

@@ -57,6 +57,16 @@ Empfohlen von John Baez!
 * http://www.logicmatters.net/resources/pdfs/gwt/GWT2f.pdf
 
 
+=== Inkonsistenz von PA
+
+* https://github.com/vladimirias/2010_80ies_aniversary_lecture/blob/master/notes_current.pdf?raw=true
+  
+  Problem mit üblichem "Beweis", dass PA konsistent ist: Nicht alle Teilmengen,
+  die über Formeln in PA definiert werden, haben eine "Bedeutung": Für manche
+  gilt für keine Zahl, dass beweisbar ist, dass sie in der Menge liegt, oder
+  dass beweisbar ist, dass sie nicht in der Menge liegt.
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?
