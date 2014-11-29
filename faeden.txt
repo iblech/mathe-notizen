@@ -21,12 +21,17 @@
   von S^n D(X)?
 
 
+=== Derivierte Automorphismen
+
+* Hille, Bergh sagen: Für abelsche Varietäten X ist Aut(D(X)) vollständig
+  verstanden. Außerdem die Frage, wann D(X) = D(Y).
+
+
 === Kleine Hausaufgaben
 
 * Stimmt es, dass D^-(P) = K^-(P)?
 * Welche Art von Lemma der Form "f = 0 : X --> Y  <==>  Y --> C(f) Iso" gilt?
 * Grundwissen über Regularität von Ringen lernen.
-* Ist die infty-Kategorie D(X) ein infty-Topos? Wenn ja, einer, auf den HoTT passt?
 
 
 === Online
@@ -44,3 +49,10 @@
 * Korrektur Felix
 * HoTT-Folien
 * Mathezirkel zu Zahlentheorie
+
+
+=== Ultra-Sonstiges
+
+* Die infty-Kategorie D(X) ist kein infty-Topos. Aber Sh(X) natürlich schon.
+  Man könnte also HoTT verwenden, um in Sh(X) zu arbeiten. D(X) ist darin die
+  Kategorie der O_X-Modultypen. Klappt das? Hilft das was?
