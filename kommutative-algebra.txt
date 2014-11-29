@@ -132,6 +132,11 @@ Sei M eine quadratische Matrix über einem Ring.
   Das passt auch dazu, das Liu sonst seine Übungsaufgabe 5.1.13 stärker
   formuliert hätte.
 
+* Es gilt aber (http://www2.math.uu.se/~palmgren/symposium_constructivity_computability/Coquand.pdf, Folie 22):
+  
+  Eine (n x m)-Matrix A mit n <= m ist genau dann injektiv, wenn Delta_n(A)
+  (wohl das Ideal ihrer n-Minoren) regulär ist.
+
 
 === Quotientenmoduln
 
@@ -509,6 +514,43 @@ Sei R nicht unbedingt kommutativ.
 
 * Es gilt: dim R/(a) < dim R, falls a regulär; kann das einfach mit der
   konstruktiven Definition von Krulldimension nachweisen.
+
+
+=== Reguläre Ringe
+
+* http://www2.math.uu.se/~palmgren/symposium_constructivity_computability/Coquand.pdf,
+  Folie 11
+
+* Ein Ring heißt dort genau dann regulär, wenn jedes endlich erzeugte Ideal
+  eine endliche freie Auflösung besitzt.
+
+* Idee: Lokale Ringe an glatte Punkte algebraischer Varietäten sind regulär.
+
+* R noethersch und regulär ==> R UFD.
+* R regulär ==> R hat ggT's.
+
+* Coquand zeigt, wie man aus einer Präsentation eines Ideals der Form
+
+      0 --> R^n --> R^(n+1) --> (a_0,...,a_n) --> 0
+
+  folgern kann, dass die a_i einen ggT haben, welcher zudem regulär ist.
+
+* Eine endliche freie Auflösung eines Ideals I definiert eine
+  Euler-Charakteristik als alternierende Summe der Ränge.
+
+  Laut Coquand besagt Vasconcellos Theorem, dass:
+  chi = 0 ==> I = 0.
+  chi = 1 ==> I ist regulär.
+  sonst   ==> 1 = 0 in R.
+
+
+=== Freie Moduln
+
+* Ist R ein Integritätsbereich in dem jedes Ideal ein Hauptideal ist,
+  so sind Untermoduln endlich freier Moduln über R wieder endlich frei.
+  (klassisch, vielleicht auch bei geeigneter Formulierung konstruktiv)
+
+  Beweis steht in D. Northcott, Finite Free Resolutions, Seite 96.
 
 
 === Purity filtration

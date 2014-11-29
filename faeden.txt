@@ -1,0 +1,36 @@
+=== Derivierte Kategorie konstruktiv
+
+* Dynamische Injektive: Genügt meine naive Definition, um injektive Auflösungen
+  samt ihrer Standardeigenschaften zu basteln?
+
+* Sei A eine endlich-präsentierte k-Algebra. Hilft die endliche Präsentation,
+  um in Mod(A) Ext'e zu berechnen? Ist Mod(A) vielleicht ein Kolimes über
+  einfachere Kategorien?
+
+* Hilft mir die Auflösung, die Andi verwendet hat?
+
+* Hilft D(A) = K(A)/azykl zur Implementierung?
+
+
+=== Erzeuger und Relationen
+
+* Wie kann man eine dg-Kategorie präsentieren, um ihn ihr Berechnungen
+  anstellen zu können? (Insbesondere Ext-Gruppen; was bedeutet das?)
+
+* Wie erhält man aus einer geeigneten Präsentation von D(X) eine
+  von S^n D(X)?
+
+
+=== Kleine Hausaufgaben
+
+* Stimmt es, dass D^-(P) = K^-(P)?
+* Welche Art von Lemma der Form "f = 0 : X --> Y  <==>  Y --> C(f) Iso" gilt?
+* Grundwissen über Regularität von Ringen lernen.
+
+
+=== Sonstiges
+
+* Projekt mit Meru
+* Korrektur Felix
+* HoTT-Folien
+* Mathezirkel zu Zahlentheorie

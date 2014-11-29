@@ -63,6 +63,16 @@ curve. Beweis von Proposition 2.2.)
 * http://mathoverflow.net/questions/139874/pullback-stability-of-internally-projective-objects
 
 
+=== Injektive Auflösungen
+
+* Injektive Auflösungen sind ja schlecht zugänglich. Aber vielleicht stimmt das nicht.
+
+* Cohomology of projective space seen by residual complex. I-Chiau Huang.
+  http://www.ams.org/journals/tran/2001-353-08/S0002-9947-01-02686-1/S0002-9947-01-02686-1.pdf
+
+* Siehe auch ideelle-methoden.txt für ideelle Injektive.
+
+
 === Konkret im Computer I
 
 Kann die abelsche Struktur von Modulkategorien implementieren:
@@ -90,7 +100,24 @@ Kann die abelsche Struktur von Kategorien von Kettenkomplexen implementieren:
   implementieren kann.
 
 Kann die triangulierte Struktur der Homotopiekategorie implementieren:
-* ???
+* ja, klar; Kegel und Co. kann man einfach hinschreiben. Die "dritte Abbildung"
+  kann man für Standarddreiecke vermutlich auch einfach hinschreiben.
+  Ein Dreieck muss halt wissen, auf welche Weise es isomorph zu einem
+  Standarddreick ist.
+* Nullheit von Morphismen kann ich dann entscheiden, wenn ich die Zugehörigkeit
+  zum Bild der linearen Abbildung Hom^{-1}(X,Y) --> Hom^0(X,Y) testen kann.
+  Wenn X und Y beschränkt sind, genügt dafür, dass ich Gleichungssysteme lösen
+  kann.
+* Nullheit von Objekten ist damit ebenfalls möglich: Teste, ob id_X Null ist.
+
+Kann die triangulierte Struktur der derivierten Kategorie implementieren:
+* ja, denke schon.
+* Tests auf Nullheit von Objekten und von Morphismen sind äquivalent,
+  denn es sollte gelten: f = 0 : X --> Y  <==>  Y --> C(f) Iso.
+  Achtung, so stimmt es glaube ich nicht ganz.
+* Test auf Nullheit von Objekten geht im beschränkten Fall so:
+  Finde beschränkten quasiisomorphen Komplex aus Injektiven oder Projektiven.
+  Teste dann, ob dessen Identitätsmorphismus nullhomotop ist.
 
 Bemerkung: In einer abelschen Kategorie kann man Objekte genau dann auf
 Nullheit testen, wenn man Morphismen auf Gleichheit testen kann. (Betrachte

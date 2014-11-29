@@ -3,6 +3,43 @@
 Idee: Wie Marc ideelle Oberkörper definiert hat, sind vielleicht auch ideelle
 Injektive nützlich.
 
+* Ein dynamisches Injektives I mit X ^--> I konstruiert man wie folgt:
+
+  Setze zunächst I := X. Wenn dann eine Liftung nicht klappt -- also kein F mit
+
+      0 ---> A -i-> B
+             |     /
+            f|    /F
+             |   /
+             v  /
+             I <
+
+  existiert --, ersetze I durch I' := cok ((f,i) : A --> I oplus B).
+
+  Habe dann einen Morphismus I --> I', der injektiv ist;
+  und ein F : B --> I' existiert trivialerweise (Einbettung in zweiten
+  Summanden).
+
+* Ist 0 --> I --> Y --> Z --> 0 eine kurze exakte Sequenz mit I ideelles
+  Injektives, so ist das durch die Forderung, dass I --> Y ein Koschnitt
+  besitzen soll, erhaltene I' leider isomorph zu Y und passt daher nicht mehr
+  in eine kurze exakte Sequenz der Form
+
+      0 --> I' --> Y --> Z --> 0.
+
+* Ideelle Injektive können nur funktionieren, wenn man nicht *immer*
+  eine Ersetzung vornehmen muss. Aber auch dann sind unendliche Regresse leider
+  wohl grundsätzlich möglich.
+
+* Ich hatte gedacht, dass sich ein ideelles Injektives und all seine
+  Ersetzungen in ein bestimmtes wirklich Injektives einbetten lässt. Dann
+  könnte man über Noetherianität vielleicht irgendwie argumentieren. Aber das
+  klappt nicht.
+
+* Bei ideellen Oberkörpern der Form K[X]/(f) können nur endlich viele
+  Ersetzungen passieren, da der Polynomgrad in jedem Schritt abnimmt. Das ist
+  also viel besser.
+
 
 === Ideelle Oberkörper als Kolimes?
 

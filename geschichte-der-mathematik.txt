@@ -16,3 +16,9 @@ http://arxiv.org/abs/1407.0233
 
 Michael Harris. Do androids prove theorems in their sleep?
 https://www.imj-prg.fr/~michael.harris/androids.pdf
+
+
+=== Grothendieck
+
+* http://www.thebigquestions.com/tohoku.pdf
+* Tool and Object: A History and Philosophy of Category Theory. Ralph Krömer.
