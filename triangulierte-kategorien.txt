@@ -1,3 +1,8 @@
+=== Interpretation der Axiome
+
+* Oktaederaxiom: siehe Huybrechts, F-M, Seite 13.
+
+
 === Unterkategorien
 
 * Eine volle Unterkategorie D einer triangulierten Kategorie C heißt
@@ -26,7 +31,7 @@
   bijektiv sind.
 
 * Eine Folge (L_i)_{i \in Z} von Objekten in einer k-linearen abelschen
-  Kategorie heißt ampfel, falls...
+  Kategorie heißt ampel, falls...
 
 * Sei A eine k-lineare abelsche Kategorie von endlicher homologischer
   Dimension. Sei (L_i)_i eine ample Folge. Dann bilden die L_i in

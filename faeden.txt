@@ -26,12 +26,16 @@
 * Stimmt es, dass D^-(P) = K^-(P)?
 * Welche Art von Lemma der Form "f = 0 : X --> Y  <==>  Y --> C(f) Iso" gilt?
 * Grundwissen über Regularität von Ringen lernen.
+* Ist die infty-Kategorie D(X) ein infty-Topos? Wenn ja, einer, auf den HoTT passt?
 
 
 === Online
 
 * Besser beantworten:
   http://mathoverflow.net/questions/30557/grothendieck-spectral-sequence-and-mayer-vietoris-sequence
+
+* Auf MO fragen: HoTT und Basiswechsel. Gibt es da was? Zum Beispiel:
+  Geometrische Formeln bleiben erhalten.
 
 
 === Sonstiges

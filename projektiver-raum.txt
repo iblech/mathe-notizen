@@ -409,7 +409,7 @@ Die untere Zeile erklärt sich so:
 Bei den Rechnungen habe ich verwendet, dass
 
     i^* O(l) = O(l) für i : P^i --> P^n abgeschlossene Einbettung (wobei P^i =
-    V(x_0,...,x_??).
+    V(x_0,...,x_??)).
 
 
 === Euler-Form in K-Theorie bezüglich der O(-i)-Basis
