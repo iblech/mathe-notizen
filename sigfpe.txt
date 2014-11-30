@@ -18,3 +18,8 @@
   quotient problem to a solution to the full problem. Or to put that in more
   conventional language: designing your data and function types, and then
   implementing the code that fits those types.
+
+
+Nicht sigfpe:
+
+* http://de.slideshare.net/ScottWlaschin/fp-patterns-buildstufflt

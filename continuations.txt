@@ -2,6 +2,7 @@
 
 * delimited verstehen.
   Gibt es ein logisches Pendant?
+  http://www.lix.polytechnique.fr/~danko/MSC-lyon-2014-webpage/
 
 * http://www.cs.bham.ac.uk/~hxt/research/hayo-thielecke-publications.shtml
   Kategorieller Rahmen für CPS
@@ -15,3 +16,6 @@
 
 * http://smc2014.univ-lyon1.fr/doku.php?id=week1
   Kurs von Olivier Danvy und Chung-Chieh Shan
+
+* http://smc2014.univ-lyon1.fr/lib/exe/fetch.php?media=miquel.pdf
+  Alexandre Miquel: callcc ist Peirce's law.
