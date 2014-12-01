@@ -42,6 +42,12 @@ und deren zugehörige Monade ist gerade T.
 C^T besitzt alle Limiten, die auch C besitzt, und diese werden von dem
 Vergissfunktor erzeugt.
 
+Wenn C ein Topos ist und T einen Rechtsadjungierten besitzt, so ist C^T
+ebenfalls ein Topos. Das folgt aus: Wenn C ein Topos ist und T eine
+*linksexakte Komonade* ist, so ist die Kategorie der T-Koalgebren ebenfalls ein
+Topos. (Denn Algebren für eine Monade T = Koalgebren für einen
+Rechtsadjungierten von T.)
+
 
 === Kleisli-Kategorie
 

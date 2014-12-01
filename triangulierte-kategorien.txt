@@ -22,6 +22,9 @@
   1) Hom(B[i], A) = 0 f.a. A aus Omega, i aus Z  ==>  B = 0.
   Eine der beiden Bedingungen genügt, falls C einen Serrefunktor zulässt.
 
+* Achtung: Aufspannende Klassen bilden keine Erzeuger (im Sinne, dass sich
+  jedes Objekt über Kegel und Shifts aus diesen bauen ließe).
+
 * Sei F : C --> C' ein exakter Funktor mit G -| F -| H.
   Dann ist F genau dann volltreu, wenn für alle A, B aus Omega, i aus Z
   die Abbildungen

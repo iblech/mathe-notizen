@@ -1,4 +1,61 @@
-Nächste Schritte:
+=== Darstellung durch Fourier-Mukai-Kerne
+
+* Jeder volltreue Funktor zwischen den beschränkten derivierten Kategorien
+  zusammenhängender glatter projektiver Schemata über C wird von einem bis auf
+  Isomorphie eindeutigen Fourier-Mukai-Kern induziert.  Siehe Hille, van den Bergh.
+
+* Das kann man nutzen, um die die Äquivalenzen zu klassifizieren.
+
+* Aber auch, um Äquivalenzen weitere Isos, zwischen verwandten Invarianten der
+  beteiligten Schemata, induzieren zu lassen.
+
+  Zum Beispiel kann man einen Iso H^*(X, Q) --> H^*(Y, Q) erhalten, indem man
+  mit ch'_{X x Y}(P) kernelt. Dabei ist P der Fourier-Mukai-Kern der
+  untersuchten Äquivalenz und ch' = ch(__) . Td(Y)^{1/2}.
+
+  Außerdem folgt, dass der Iso auf H^ eine etwa komische Graduierung bewahrt.
+
+  Das steht auch in Hille, van den Bergh.
+
+* Außerdem kann man eine Äquivalenz D^b(X) --> D^b(Y) auf Familien ausdehnen:
+  D^b(X_S) --> D^b(Y_S).
+
+
+=== Invarianten, die von derivierten Äquivalenzen bewahrt werden
+
+* D^b(X), d'oh.
+
+* die Euler-Form auf K(X) (mit Werten in Z).
+
+* siehe auch bei den Vorteilen der Darstellung durch Kerne.
+
+
+=== Beispiele für Kerne
+
+* FM(O_Delta) = Id. Denn:
+
+  pi2_*(O_Delta tensor pi1^*(E)) = pi2_*(Delta_*(O_X tensor Delta^*(pi1^*(E)))) =
+      id_*(O_X tensor id^*(E)) = E.
+
+  (Wieso ist Delta : X --> X eigentlich?)
+
+* FM((id & f)_* O_X) = f_*. Mit demselben Argument.
+
+  (Wieso ist (id & f) : X --> X x Y eigentlich? Und ist das eine abgeschlossene
+  Immersion, sodass man zu (id & f)_* O_X auch guten Gewissens mit "Gamma_f"
+  bezeichnen kann?)
+
+* FM(O_Delta[n]) = __[n].
+
+  Denn O_X[n] tensor E = E[n]. (Abgeleitetes Tensorprodukt vertauscht mit
+  Shifts.)
+
+  Korollar: Serre-Funktoren vertauschen mit Shifts. (Ist evtl. auch nach
+  Definition so.)
+
+
+=== Nächste Schritte
+
 * X ~~ Proj(\bigoplus_k H^0(X, omega_X^k)) für X glatt, projektiv, omega_X ampel. Wieso?
   (Stichwort: "kanonischer Ring")
 * Bondal und Orlov verstehen. Evtl. auch Verallg. von Kawamata ansehen.

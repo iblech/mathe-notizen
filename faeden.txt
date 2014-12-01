@@ -34,6 +34,12 @@
 * Grundwissen über Regularität von Ringen lernen.
 
 
+=== Interne Methoden
+
+* Tabareau, Quirin: Sheaves in Homotopy Type Theory.
+  Das zitieren, und zwar im Umfeld der Box-Übersetzung.
+
+
 === Online
 
 * Besser beantworten:
