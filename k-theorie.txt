@@ -280,6 +280,15 @@ Hufeisenlemma.
 
 * In K_0(D^b(A)): chi(X,Y) := sum_i (-1)^i [Hom(X,Y[i])].
 
+* Die Euler-Form auf der K-Theorie einer elliptischen Kurve ist
+  schiefsymmetrisch. Denn die einzig relevanten Terme sind i = 0 und i = 1,
+  und für diese liefert Serre-Dualität:
+
+      hom(E, F)    = hom(F,    E tensor omega[1]) = hom(F, E[1])
+      hom(E, F[1]) = hom(F[1], E tensor omega[1]) = hom(F, E)
+
+  Hier geht ein, dass omega auf einer elliptischen Kurve trivial ist.
+
 
 === Elemente von K_0 als Funktionen
 

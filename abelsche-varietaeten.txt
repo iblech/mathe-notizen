@@ -12,3 +12,6 @@ der Kurve.
 
 Der Koordinatenring einer elliptischen Kurve ist von Dimension 1, evtl. ein
 Dedekindring.
+
+http://www.math.rochester.edu/people/faculty/edummit/docs/talk_NTS_elliptic_curves.pdf
+ist gut!

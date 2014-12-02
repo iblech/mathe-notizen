@@ -55,6 +55,9 @@
 * Korrektur Felix
 * HoTT-Folien
 * Mathezirkel zu Zahlentheorie
+* Mathezirkel-Skript
+* LIT
+* vServer
 
 
 === Ultra-Sonstiges
