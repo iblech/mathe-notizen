@@ -57,6 +57,12 @@ Richtung, wie auch der Pfad geht).
   Daher sollte die erste Kohomologie leicht zu berechnen sein.
 
 
+=== Überlagerung aus Darstellung
+
+In HoTT:
+http://www.cs.cmu.edu/~kuenbanh/files/cover-crm-abstract.pdf
+
+
 === Nächste Schritte
 
 * http://webusers.imj-prg.fr/~fouad.elzein/elzein-snoussif.pdf lesen.

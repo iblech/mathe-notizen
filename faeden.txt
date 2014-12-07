@@ -25,6 +25,10 @@
   decompositions/. In diesem wird wohl verraten, was Erzeuger von K(X x X)
   und K_{S_2}(X x X) sind!
 
+* Sichten: http://arxiv.org/abs/1412.1615
+  On purity and applications to coderived and singularity categories
+  Jan Stovicek
+
 
 === Derivierte Automorphismen
 
@@ -40,9 +44,6 @@
 
 * http://www.math.brown.edu/~dbejleri/Hilbert%20Schemes%20-%20Grad%20Student%20Seminar.pdf
   sehr verständlich. Bitte lesen!
-
-* http://www.math.u-psud.fr/~merker/CMI-ENS-Exchange/2010/expose-bozec.pdf
-  Homological study of some Hilbert schemes.
 
 * Wie wirkt die Heisenberg-Algebra auf Kohomologie? Das könnte interessant
   sein, mit Erzeugungs- und Vernichtungsoperatoren und so.
