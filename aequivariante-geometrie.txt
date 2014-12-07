@@ -98,6 +98,10 @@ space), which parametrizes points of the stack together with automorphisms.
 
 http://mathoverflow.net/a/57191
 
+Das steht sogar in "On the Euler number of an orbifold" (zweite Seite in der
+PDF, unten): e(X, G) ist die *topologische* Euler-Charakteristik des
+Quotientenraums L(X,G)/G. Dabei ist L(X,G) eine Art Schleifenraum.
+
 
 === Singularität ist zu wenig orbig
 

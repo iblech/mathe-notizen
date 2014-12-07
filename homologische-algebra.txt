@@ -204,3 +204,10 @@ obtains the above constructions.
 
 * sichten: http://math.berkeley.edu/~hutching/teach/215b-2011/ss.pdf
   http://ncatlab.org/nlab/show/spectral+sequence
+
+
+=== Homotopiekategorie von Räumen
+
+* hTop besitzt nicht alle Kolimiten (tatsächlich besitzt sie nur ganz wenige
+  Kolimiten).
+  http://schommerpries.wordpress.com/2012/02/20/the-homotopy-category-doesnt-have-all-colimits/

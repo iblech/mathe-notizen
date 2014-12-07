@@ -1,6 +1,5 @@
 Gekommen, als ich /On autoequivalences of some Calabi--Yau and hyperkähler
 varieties/ von Ploog und Sosna gelesen habe:
-* Anschauung zu glatten Varietäten
 * Verbindung zu symplektischer Geometrie, Homological Mirror Symmetry
 * Hilbertschema X^[n] verstehen: ist eine Hyperkählervarietät
 * Kap. 2 von Sheaves in Topology
@@ -9,7 +8,6 @@ varieties/ von Ploog und Sosna gelesen habe:
 Unsortierte Fragen:
 * BGG nur für P^n oder bel. proj. Var.?
 * Hilft Topossicht, um relative Situationen einfacher zu machen?
-* Spektralsequenzen
 * Lawvere’s Reconstruction Theorem verstehen
 * Good candidates at present are A∞-categories, dg-categories and stable
   (∞,1)-categories. [...] It is known that all 3 approaches give the same
@@ -32,14 +30,10 @@ Unsortierte Fragen:
 * http://ncatlab.org/schreiber/show/master+thesis+Stel
 * two approaches to modeling the universe: sdg and framed sets
 * nicht-nicht-Übersetzung
-* Vortragsidee: Topologie ohne Punkte; HoTT
-* http://www.andrew.cmu.edu/user/awodey/students/jackson.pdf Sheaf-theoretic
-  measure theory
 * Variational bicomplex
-* Diagrammjagden
 
 Lesen:
 * Ploogs Dissertation
 * Huybrechts ICM
 * twists.pdf
-* Luries Higher Algebra für derivierte unendlich-Kategorie
+* Luries Higher Algebra für derivierte unendlich-Kategorien

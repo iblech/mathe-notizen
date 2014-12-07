@@ -14,11 +14,16 @@
 
 === Erzeuger und Relationen
 
-* Wie kann man eine dg-Kategorie präsentieren, um ihn ihr Berechnungen
+* Wie kann man eine dg-Kategorie präsentieren, um in ihr Berechnungen
   anstellen zu können? (Insbesondere Ext-Gruppen; was bedeutet das?)
 
 * Wie erhält man aus einer geeigneten Präsentation von D(X) eine
   von S^n D(X)?
+
+* In http://arxiv.org/pdf/1212.4604.pdf (Ploog und Sesna) gibt es
+  einen Literaturverweis auf Kuznetsov, /Base change for semiorthogonal
+  decompositions/. In diesem wird wohl verraten, was Erzeuger von K(X x X)
+  und K_{S_2}(X x X) sind!
 
 
 === Derivierte Automorphismen
@@ -26,9 +31,38 @@
 * Hille, Bergh sagen: Für abelsche Varietäten X ist Aut(D(X)) vollständig
   verstanden. Außerdem die Frage, wann D(X) = D(Y).
 
+  Siehe auch Einleitung in http://arxiv.org/pdf/1310.8266.pdf,
+  hat Literaturverweise zu Orlov (für abelsche Varietäten) und Broomhead/Ploog
+  (für viele rationale Flächen).
+
+
+=== Hilbertschema
+
+* http://www.math.brown.edu/~dbejleri/Hilbert%20Schemes%20-%20Grad%20Student%20Seminar.pdf
+  sehr verständlich. Bitte lesen!
+
+* http://www.math.u-psud.fr/~merker/CMI-ENS-Exchange/2010/expose-bozec.pdf
+  Homological study of some Hilbert schemes.
+
+* Wie wirkt die Heisenberg-Algebra auf Kohomologie? Das könnte interessant
+  sein, mit Erzeugungs- und Vernichtungsoperatoren und so.
+  Siehe zum Beispiel http://arxiv.org/abs/0904.1679, aber es könnte bessere
+  Quellen geben (Simons Masterarbeit)?
+
+* Lectures ansehen.
+
+* Andrejewski-Tag eintippen.
+
+
+=== Unendlich-Kategorien und Modellkategorien
+
+* http://docenti.math.unipd.it/dagnolo/Padova2014/slides/cisinski.pdf
+  durcharbeiten
+
 
 === Kleine Hausaufgaben
 
+* Wie sieht S^2(A^2) aus? Wo hat es Singularitäten? Siehe symmetrische-produkte-von-raeumen.txt.
 * Stimmt es, dass D^-(P) = K^-(P)?
 * Welche Art von Lemma der Form "f = 0 : X --> Y  <==>  Y --> C(f) Iso" gilt?
 * Grundwissen über Regularität von Ringen lernen.
@@ -45,18 +79,12 @@
 * Besser beantworten:
   http://mathoverflow.net/questions/30557/grothendieck-spectral-sequence-and-mayer-vietoris-sequence
 
-* Auf MO fragen: HoTT und Basiswechsel. Gibt es da was? Zum Beispiel:
-  Geometrische Formeln bleiben erhalten.
-
 
 === Sonstiges
 
 * Projekt mit Meru
-* Korrektur Felix
 * HoTT-Folien
 * Mathezirkel zu Zahlentheorie
-* Mathezirkel-Skript
-* LIT
 * vServer
 
 

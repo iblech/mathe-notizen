@@ -114,3 +114,11 @@ http://math.stackexchange.com/questions/639681/how-to-represent-smullyans-mockin
 * max(x,y) = (x+y + |x-y|) / 2.
 
 * Beweis: Es genügt, den Fall x >= y zu untersuchen. Dieser ist klar.
+
+
+=== Lebesgue-Integral
+
+Skript mit schönen Skizzen und mathpazo als Schrift:
+http://www.gold-saucer.org/math/lebesgue/lebesgue.pdf
+A Crash Course on the Lebesgue Integral and Measure Theory
+Steve Cheng

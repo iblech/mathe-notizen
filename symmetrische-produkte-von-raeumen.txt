@@ -128,9 +128,12 @@ http://mathoverflow.net/questions/55526/example-of-a-variety-with-k-x-mathbb-q-c
 
 * "On the Euler number of an orbifold". Sagt zum Beispiel:
 
-      e(X^n, S_n) = e(X^[n]).
+      e(X^n, S_n) = e(X^[n]).   (für X Fläche)
 
-  Das ist konsistent mit D(X^[n]) = D_{S_n}(X^n).
+  Das wäre konsistent mit D(X^[n]) = D_{S_n}(X^n).
+  Aber nur, wenn e(X^n, S_n) sowas wie die Euler-Charakteristik von X^n//S_n
+  wäre. Aber e(X^n, S_n) ist ja eher die Euler-Charakteristik eines
+  Schleifenraums. Also eigentlich etwas seltsam.
 
 
 === Unglattheit

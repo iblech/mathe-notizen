@@ -46,6 +46,11 @@ Die Voraussetzung an f ist *nicht* erfüllt in folgenden Fällen:
 1. f : P^n --> pt.
 2. f : V(g) --> P^n.
 
+In der Tat kann D(V(g)) hochgradig nichttrivial sein (D(P^n) ist "trivial").
+Kuznetsov hat eine Theorie dazu: Homological Projective Duality.
+http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_2007__105_/PMIHES_2007__105__157_0/PMIHES_2007__105__157_0.pdf
+http://www.cf.ac.uk/maths/subsites/logvinenko/talks/Alexander%20Kuznetsov%20-%20Homological%20Projective%20Duality%20[typeset].pdf
+
 
 === Bedeutung der Diagonale
 
@@ -120,7 +125,7 @@ Invarianten einer k-Algebra A (wie etwa K_0, Zentrum, K_i, HH^*, ...) werden
 nicht nur von A, nicht nur von Mod-A, sondern sogar nur von D(Mod-A) bestimmt.
 
 Die Fundamentalgruppe wird übrigens *nicht* von D^b(X) bestimmt.
-Siehe: Christian Schnell. The fundamtenal group is not a derived invariant.
+Siehe: Christian Schnell. The fundamental group is not a derived invariant.
 
 
 === Aufspannende Klassen
@@ -154,6 +159,15 @@ Beispiel: D^b(pt) <= D^b(P^n), denn H^*(O_{P^n}) = k[0].
 Kein Beispiel ist V(f) <= P^n.
 
 
+=== Automorphismen
+
+Automorphismen von D^b(X) induzieren ...
+
+* Automorphismen der K-Theorie (welche sogar mit der Euler-Form verträglich sind),
+* Automorphismen in Kohomologie (wenn durch einen Fourier-Mukai-Kern gegeben),
+* Automorphismen von Stab(X), siehe http://arxiv.org/pdf/1310.8266.pdf.
+
+
 === Nächste Schritte
 
 * Grundlegende Lemmas zu D(X) notieren.
@@ -162,7 +176,6 @@ Kein Beispiel ist V(f) <= P^n.
   verstehen: Finiteness, Riemann-Roch, Serre duality.
 * D^b(X) für X = Spec A? Wodurch wird D^b(X) und Aut(D^b X) dann erzeugt?
 * Was ist D(X) anschaulich?
-* Derivierte Kategorien konstruktiv? Schematheorie konstruktiv?
 
 * Sei F : D^b(X) --> D^b(Y) eine Äquivalenz. Wie kann ich dann vorgehen,
   um einen Fourier-Mukai-Kern für F zu finden? Nutze Auflösung der Diagonale!

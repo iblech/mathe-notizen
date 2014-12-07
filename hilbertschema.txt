@@ -86,6 +86,19 @@ An elementary, explicit, proof of the existence of Hilbert schemes of points.
 http://www.math.kth.se/~skjelnes/Pdffiler/elementaryhilb.pdf
 
 
+=== Das punktuelle Hilbertschema
+
+* http://www.math.u-psud.fr/~merker/CMI-ENS-Exchange/2010/expose-bozec.pdf
+
+  Habe eine Stratifizierung von S^[n] indiziert durch die Partitionen von n:
+  S^[n]_lambda.
+
+  Der Hilbert-Chow-Morphismus stellt dann (bzgl. der analytischen oder étalen
+  Topologie) die S^[n]_lambda als Totalräume von Faserbündeln von S^(n)_lambda
+  mit Faser H_n1 x ... H_nr dar, wenn lambda = (n1 >= ... >= nr). Die H_i sind
+  die punktuellen Hilbertschema.
+
+
 === Euler-Charakteristik
 
 * (C^2)^[n]. http://www.math.colostate.edu/~johnson/Talks/TopGHilbImperial.pdf
@@ -100,6 +113,15 @@ http://www.math.kth.se/~skjelnes/Pdffiler/elementaryhilb.pdf
 
   Also ist chi((C^2)^[n]) = Anzahl der Ideale mit Kolänge n, die von Monomen
   erzeugt werden = p(n).
+
+
+=== K-Theorie
+
+* Die äquivariante K-Theorie von Hilb^[n](A^2) (bzgl. der Toruswirkung) wird
+  ausgerechnet in:
+  http://projecteuclid.org/download/pdf_1/euclid.dmj/1359036936
+  The elliptic hall algebra and the K-theory of the Hilbert scheme of A^2
+  Olivier Schiffmann, Eric Vasserot.
 
 
 === Derivierte Kategorie
@@ -126,6 +148,8 @@ ist isomorph zu Aut(D^b(X^[n])).
   gilt:
   
       H^m(X^[n], O_{X^[n]}) = H^m_{S^n}(X^n, O_{X^n}).
+
+* Äquivalenzen: http://arxiv.org/pdf/1301.4970.pdf (Andi Krug)
 
 
 === G-Hilbertschema

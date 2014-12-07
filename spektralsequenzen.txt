@@ -6,6 +6,14 @@ Siehe mccleary.pdf, Seite 15: Ist E_2^** lokal endlich und E_2^** ==> H^*,
 so gilt: chi(E_r^**) = chi(H^*) für alle r >= 2.
 
 
+=== Ursprung aller Spektralsequenzen
+
+Jedes filtrierte Objekt in einer triangulierten Kategorie induziert eine
+Spektralsequenz.
+http://mathoverflow.net/questions/187385/what-does-an-endomorphism-in-a-triangulated-category-give-rise-to/187768#187768
+http://ncatlab.org/nlab/show/spectral+sequence+of+a+filtered+stable+homotopy+type
+
+
 === Nächste Schritte
 
 * Obige Aussage genau nachvollziehen.
