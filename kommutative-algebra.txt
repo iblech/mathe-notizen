@@ -24,6 +24,20 @@
   http://mathoverflow.net/questions/12009/is-there-a-slick-proof-of-the-classification-of-finitely-generated-abelian-group
 
 
+=== Noethersche Ringe
+
+* Polynomringe und Quotienten noetherscher Ringe sind noethersch.
+  (klassisch, konstruktiv gut formulieren)
+
+* Also sind alle endlich erzeugten Ringe (Ringe der Form Z[x_1,...,x_n],
+  wobei die x_i Ringelemente (und nicht formale Variablen) sind) noethersch.
+
+* Jeder Ring ist gerichteter Kolimes seiner endlich erzeugten Unterringe.
+  Also ist jeder Ring gerichteter Kolimes noetherscher Ringe.
+
+* Was sind die kompakten Objekte in der Kategorie der Ringe?
+
+
 === Grad des Nullpolynoms
 
 Der Grad des Nullpolynoms sollte -infty (und nicht +infty) sein. Denn sonst stimmt die Regel
