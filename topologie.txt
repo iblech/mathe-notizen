@@ -1,3 +1,12 @@
+=== Schröder-Bernstein
+
+... ist für topologische Räume falsch: [0,1] und (0,1) lassen sich gegenseitig
+stetig injektiv einbetten, sind aber nicht homöomorph.
+
+Mehr dazu:
+http://sbseminar.wordpress.com/2007/10/30/theme-and-variations-schroeder-bernstein/
+
+
 === Homöomorphie
 
 * Sind zwei Mannigfaltigkeiten diffeomorph, so lassen sie sich in einen

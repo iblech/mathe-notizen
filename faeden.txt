@@ -90,7 +90,8 @@
 * Projekt mit Meru
 * HoTT-Folien
 * Mathezirkel zu Zahlentheorie
-* vServer
+* http://sbseminar.wordpress.com/2007/10/30/theme-and-variations-schroeder-bernstein/
+  Injektion von Z*Z*Z in Z*Z
 
 
 === Ultra-Sonstiges

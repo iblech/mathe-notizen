@@ -9,7 +9,8 @@
 
 * Die SNF existiert über (konstruktiv) über allen Ringen, in denen endlich
   erzeugte Ideale Hauptideale sind und für Hauptideale die aufsteigende
-  Kettenbedingung erfüllt ist.
+  Kettenbedingung erfüllt ist. Und die außerdem (schwache/starke?)
+  Integritätsbereiche sind.
 
 * Die SNF existiert aber auch über Ringen, in denen von je zwei Elementen eines
   das andere teilt. Solche müssen nicht noethersch sein.
@@ -18,6 +19,10 @@
   existiert, existiert die SNF ebenfalls. Solche Vereinigungen können auch
   nicht noethersch sein, siehe etwa
   http://mathoverflow.net/questions/31275/does-smith-normal-form-imply-pid.
+
+* Ringe, über denen die SNF stets existiert, heißen elementary divisor rings.
+  Eine vollständige Charakterisierung gibt Theorem 6 in
+  https://www.math.hmc.edu/~henriksen/publications/1956_Gillman_Henriksen_Some_remarks_about_elementary_divisor_rings.pdf.
 
 * Es gibt schicke nichtkonstruktive Beweise der Klassifikation endlich
   präsentierter abelscher Gruppen.
