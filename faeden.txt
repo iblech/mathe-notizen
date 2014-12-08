@@ -74,6 +74,10 @@
 * Tabareau, Quirin: Sheaves in Homotopy Type Theory.
   Das zitieren, und zwar im Umfeld der Box-Übersetzung.
 
+* Habe: Wenn E |= phi, dann F |= f^*(phi), falls F --> E geometrischer Morphismus.
+
+  Kann ich das intern verstehen? Mit der Box-Übersetzungstheorie?
+
 
 === Online
 

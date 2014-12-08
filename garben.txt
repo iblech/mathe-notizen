@@ -73,6 +73,9 @@ Coh(X) rekonstruieren.
 * http://www.mathematik.uni-kl.de/~gathmann/class/alggeom-2002/chapter-8.pdf
   Exercise 8.6.1: Habe 0 --> omega_X --> omega_X \otimes O_X(P) --> k_P --> 0.
 
+* Ext-Gruppen von i_* k(x):
+  http://math.stackexchange.com/questions/79896/ext-groups-of-a-point-on-a-scheme
+
 Hier ein etwas spezielles Beispiel. Was ist die richtige Allgemeinheit?
 
 * Sei C_{0} auf X = C die Wolkenkratzergarbe mit Träger in 0 und Halm C dort.

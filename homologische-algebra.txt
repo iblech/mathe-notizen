@@ -45,6 +45,16 @@ Kann den Shift-Funktor als dg-Funktor verstehen:
         in Grad p: f |-> (-1)^np f[n].
 
 
+=== Berechnung abgeleiteter Funktoren
+
+* http://math.stackexchange.com/questions/266654/computing-left-derived-functors-from-acyclic-complexes-not-resolutions
+
+  Zur Berechnung von F(M) genügt ein Komplex (keine Auflösung!) A_* --> M --> 0
+  sodass: H^i(A_*) ist F-azyklisch und F(H^i(A_*)) = 0.
+
+  Habe ich nicht geprüft.
+
+
 === Einbettungstheorem
 
 Sei A eine kleine abelsche Kategorie. Dann faktorisiert die Yoneda-Einbettung
