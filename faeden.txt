@@ -45,6 +45,19 @@
 * http://www.math.brown.edu/~dbejleri/Hilbert%20Schemes%20-%20Grad%20Student%20Seminar.pdf
   sehr verständlich. Bitte lesen!
 
+* https://math.berkeley.edu/~mhaiman/ftp/newt-sf-2001/newt.pdf
+  sehr einladend. Lesen.
+
+* Sorger und Lehn konstruieren für einen R einen Ring R^[n]
+  und zeigen: H^*(X^[n]) = H^*(X)^[n]. Siehe [27] in Lehns lectures.
+  www.mathematik.uni-mainz.de/Members/lehn/ar/montreal.ps
+
+* X^[n] als Aufblasung.
+  http://www-fourier.ujf-grenoble.fr/sites/ifmaquette.ujf-grenoble.fr/files/bertin_rev.pdf
+
+* Modell über kommutierende Matrizen.
+  http://mathoverflow.net/questions/13305/hilbert-scheme-of-points-on-a-complex-surface
+
 * Wie wirkt die Heisenberg-Algebra auf Kohomologie? Das könnte interessant
   sein, mit Erzeugungs- und Vernichtungsoperatoren und so.
   Siehe zum Beispiel http://arxiv.org/abs/0904.1679, aber es könnte bessere

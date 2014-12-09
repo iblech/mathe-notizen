@@ -5,6 +5,11 @@
 * Kern von exp : O_X --> O_X^*.
 
 
+=== Ideale
+
+* a cap b = a * b, falls a + b = (1).
+
+
 === Smithsche Normalform
 
 * Die SNF existiert über (konstruktiv) über allen Ringen, in denen endlich
