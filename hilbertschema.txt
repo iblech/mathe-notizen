@@ -17,6 +17,21 @@
 * Abgeleitete Kategorie des Hilbertschemas
 
 
+=== Was ist die Rolle des Hilbertschemas im Vergleich zum naiven Quotienten?
+
+* Ist X eine glatte projektive Varietät und G eine endliche Gruppe,
+  die auf X wirkt, so ist X/G noch eine quasiprojektive Varietät, kann aber
+  singulär sein.
+
+* Der Hilbert-Chow-Morphismus Hilb^G(X) --> X/G soll eine Auflösung
+  von X/G sein. In gewissen Fällen stimmt das; das sagt BKR. Dann ist es sogar
+  eine krepante Auflösung und D^b(Hilb^G(X)) --> D^b_G(X) ist eine Äquivalenz.
+
+* Definiert man Coh([X/G]) als Coh_G(X), so ist Hilb^G(X) zumindest
+  deriviert äquivalent zu [X/G]. Aber soll ich mir Hilb^G(X) als gleich [X/G]
+  vorstellen?
+
+
 === Unterschemata von A^1 der Dimension 0
 
 Sei k algebraisch abgeschlossen. Dann sind die null-dimensionalen Unterschemata
