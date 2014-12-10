@@ -332,12 +332,16 @@ für einen Komplex X^* gilt:
 Sei C eine triangulierte Kategorie. Sei (A_n,...,A_0) eine exzeptionelle
 Sequenz mit C = <A_n,...,A_0>. Dann gilt:
 
-    K(C) = Z<A_n,...,A_0>.
+    K(C) = Z<A_n,...,A_0> (frei erzeugt).
 
 Denn: Dass die Klassen der A_i ein Erzeugendensystem bilden, ist klar. Zur
 linearen Unabhängigkeit beobachte, dass die "gramsche Matrix" ((A_i, A_j)_Euler)_ij
 regulär ist: Sie ist eine untere Dreiecksmatrix mit Einsen auf der
 Hauptdiagonale.
+
+* Wenn die A_i C nur erzeugen (in dem Sinn, dass jedes Objekt aus C
+  aus endlich vielen Shifts und Kegelbildungen aus den A_i entsteht), stimmt
+  immer noch, dass die Klassen der A_i K(C) erzeugen.
 
 * Wie funktioniert das für allgemeine semi-orthogonale Zerlegungen?
 

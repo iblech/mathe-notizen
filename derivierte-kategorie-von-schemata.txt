@@ -3,6 +3,19 @@
 Def.: D(X) := D^b(Coh(O_X)).
 
 
+=== Träger von Komplexen von Garben
+
+* Eine gute Definition für supp E^* ist bigcup_n supp H^n(E^*).
+
+* Denn diese respektiert Quasiisomorphismen, steigt also
+  ab zu einer Definition über Objekte aus D(X).
+
+* Hom(E^*, F^*) = 0, auch in D(X), falls supp E^* cap supp F^* leer ist.
+
+* Folgerung: Ext^i(k(x), k(y)) = 0 für alle i >= 0 und verschiedene
+  abgeschlossene Punkte x und y.
+
+
 === Quasikohärente Auflösungen
 
 Ist X lokal noethersch, so ist eine quasikohärente Modulgarbe genau dann

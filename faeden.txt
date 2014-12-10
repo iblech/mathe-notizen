@@ -11,6 +11,8 @@
 
 * Hilft D(A) = K(A)/azykl zur Implementierung?
 
+* Wie rechnet Barakat in abgeleiteten Kategorien?
+
 
 === Symmetrische Produkte
 

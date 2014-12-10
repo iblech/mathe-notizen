@@ -8,6 +8,21 @@ http://math.berkeley.edu/~mhaiman/math256/Derived-Cat-1-5.pdf
 http://mathoverflow.net/questions/61650/cohomological-functor-from-triangulated-category
 
 
+=== Dualisieren in Modulkategorien
+
+Amnon Yekutieli
+A Course on Derived Categories
+http://arxiv.org/abs/1206.6632
+
+
+=== Vergleich mit voller Unterkategorie der Komplexe mit B-Kohomologie
+
+Cohomological Theory of Crystals Over Function Fields
+Gebhard Böckle, Richard Pink
+Seite 36
+https://books.google.de/books?id=EqGqJcFhqbIC&lpg=PA31&ots=NtFkaYdH90&dq=derived%20functor%20complex%20of%20f-acyclic&hl=de&pg=PA36#v=onepage&q=derived%20functor%20complex%20of%20f-acyclic&f=false
+
+
 === Unbeschränkte derivierte Kategorie einer exakten Kategorie
 
 Konstruktion in http://www.maths.ed.ac.uk/~aar/papers/neemder.pdf

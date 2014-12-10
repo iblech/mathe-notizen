@@ -122,3 +122,11 @@ Skript mit schönen Skizzen und mathpazo als Schrift:
 http://www.gold-saucer.org/math/lebesgue/lebesgue.pdf
 A Crash Course on the Lebesgue Integral and Measure Theory
 Steve Cheng
+
+
+=== Relativer Fehler und absoluter Fehler
+
+"log(relativer Fehler) = absoluter Fehler".
+
+Wenn man also x/y --> 1 illustrieren möchte, dann kann man log(x)-log(y) --> 0
+plotten.

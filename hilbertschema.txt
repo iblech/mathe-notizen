@@ -1,3 +1,22 @@
+=== Grundwissen
+
+* Definition als Funktor
+* Anschauung der Punkte des Hilbertschemas
+* Konstruktion des Modells mit kommutierenden Matrizen
+* Überdeckung von X^[n] durch affine offene Mengen,
+  indiziert durch die Zerlegungen von n
+* Definition von X^[n]
+* Tangentialraum des Hilbertschemas (über Garbenhom
+  und über Pfeile in Young-Diagrammen)
+* Hilbert-Chow-Morphismus
+* X^[2] als Aufblasung von X^(2) (im Fall, dass X eine Fläche ist)
+* Das punktuelle Hilbertschema
+* Euler-Charakteristik des Hilbertschemas
+* Kohomologiering des Hilbertschemas
+* K-Theorie des Hilbertschemas
+* Abgeleitete Kategorie des Hilbertschemas
+
+
 === Unterschemata von A^1 der Dimension 0
 
 Sei k algebraisch abgeschlossen. Dann sind die null-dimensionalen Unterschemata

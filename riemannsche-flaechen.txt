@@ -9,6 +9,14 @@ http://mathoverflow.net/questions/136516/euler-characteristic-of-coverings-via-s
 ist eine abstrakte Möglichkeit, das zu begründen, die Leray-Spektralsequenz.
 
 
+=== Tori
+
+* Wie wird C / Gamma zu einer komplexen Kurve?
+
+* Wieso heißt die Diskriminante so, wie sie heißt? Inwiefern ist sie eine
+  Modulform?
+
+
 === Literatur
 
 * http://math.berkeley.edu/~teleman/math/Riemann.pdf

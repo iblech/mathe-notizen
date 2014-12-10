@@ -64,7 +64,7 @@
       chi(X/G) = 1/|G| sum_g chi(X^g).
 
   Denn: chi(X/G) = dim H^*(X/G;k) = dim H^*(X;k)^G = dim im P
-            = 1/|G| sum_g tr g = 1/|G| sum_g L(G) = 1/|G| chi(X^g).
+            = 1/|G| sum_g tr g = 1/|G| sum_g L(g) = 1/|G| sum_g chi(X^g).
 
   Hier geht also die Lefschetzsche Fixpunktformel ein.
 
