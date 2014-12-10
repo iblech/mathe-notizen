@@ -1,0 +1,9 @@
+* Andere Leute haben viel Mühe, Automorphismen per Hand zu bestimmen.
+  Ist es realistisch, dass ein algorithmischer Ansatz über Erzeuger und
+  Relationen funktionieren kann?
+
+* Wie allgemein kann mein Ansatz sein?
+
+Ich kann auch erwähnen, dass:
+
+* dynamische Injektive wohl nicht gut funktionieren.

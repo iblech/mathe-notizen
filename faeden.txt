@@ -12,6 +12,13 @@
 * Hilft D(A) = K(A)/azykl zur Implementierung?
 
 
+=== Symmetrische Produkte
+
+* http://math.stackexchange.com/questions/551775/pushforward-commutes-with-external-tensor-product
+
+* Hilbert--Chow auf Niveau der derivierten Kategorien?
+
+
 === Erzeuger und Relationen
 
 * Wie kann man eine dg-Kategorie präsentieren, um in ihr Berechnungen
@@ -19,6 +26,9 @@
 
 * Wie erhält man aus einer geeigneten Präsentation von D(X) eine
   von S^n D(X)?
+
+* Wieso vertauschen S^n und D? Wieso also gilt D(S^n Coh) = S^n D(Coh)?
+  Das steht natürlich in Kapranov/Ganter.
 
 * In http://arxiv.org/pdf/1212.4604.pdf (Ploog und Sesna) gibt es
   einen Literaturverweis auf Kuznetsov, /Base change for semiorthogonal
@@ -80,6 +90,8 @@
 * Stimmt es, dass D^-(P) = K^-(P)?
 * Welche Art von Lemma der Form "f = 0 : X --> Y  <==>  Y --> C(f) Iso" gilt?
 * Grundwissen über Regularität von Ringen lernen.
+* Auf Seite 9 von http://www.mathematik.uni-kl.de/~spaeth/charsheaves/PDF/mcgerty.pdf
+  steht eine Art Euler-Charakteristik, die angeblich multiplikativ ist.
 
 
 === Interne Methoden
