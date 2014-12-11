@@ -141,3 +141,37 @@ http://mathoverflow.net/questions/55526/example-of-a-variety-with-k-x-mathbb-q-c
 * Der Fixort jeder Transposition von S_n in X^n hat Kodimension 2.
   *Deshalb* ist S^{(n)} nicht glatt. http://arxiv.org/pdf/math/0304302.pdf,
   Seite 2.
+
+
+=== K-Theorie von X^[n]
+
+Ploog und Sesna implizieren, dass Erzeuger von K_{S_n}(X^n) symmetrisierte
+Ausdrücke in den Erzeugern von K(X) sind. Zumindest im Fall X = P^1 würde das
+von der Anzahl her hinkommen:
+
+Sei (a,b) ein Erzeugendensystem von K(P^1).
+
+* Vermutete Erzeuger im Fall n = 2: aa, bb und ab+ba.
+
+* Vermutete Erzeuger im Fall n = 3: aaa, bbb, aab+aba+baa, abb+bab+bba
+
+* Vermutete Erzeuger im Fall n = 4:
+
+  2 * aaaa
+  2 * aaab+aaba+abaa+baaa
+  1 * aabb+abab+baba+bbaa
+
+* Vermutete Erzeuger im Fall n = 5:
+
+  2 * aaaaa
+  2 * aaaab+...
+  2 * aaabb+...
+
+* Vermutete Erzeuger im Fall n = 6:
+
+  2 * aaaaaa
+  2 * aaaaab+...
+  2 * aaaabb+...
+  1 * aaabbb+...
+
+Frage: Wie sehen diese Erzeuger unter der Äquivalenz D(X^[n]) --> D(P^n) aus?

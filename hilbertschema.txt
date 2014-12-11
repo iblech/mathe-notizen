@@ -17,6 +17,53 @@
 * Abgeleitete Kategorie des Hilbertschemas
 
 
+=== Spezielle Punkte von X^[n], X = C^2
+
+* Ist lambda eine Partition von n, so kann man das monomiale Ideal
+
+      I_lambda := (x^i y^j | (i,j) \not\in lambda)
+
+  betrachten. Umgekehrt gehört jedes monomiale Ideal der Kodimension n zu genau
+  einer Partition von n.
+
+* C[x,y]/I_lambda ist ein dicker Punkt, der zu folgendem Grenzwertprozess
+  gehört: Zeichne lambda als Diagramm und denke es dir wirklich in C^2
+  eingebettet. Zum Beispiel:
+
+  I = (x^3, y): * * *
+
+  I = (x^2, xy, y^2): *
+                      * *
+
+  I = (x, y^2): *
+                *
+
+  In diesen Skizzen sitzt der Ursprung jeweils unten links.
+
+  Skaliere nun diese Punktwolken mit komplexen Zahlen. Der dicke Punkt ist dann
+  der Grenzwert für Skalierungsfaktor gegen Null.
+
+* Das steht in https://math.berkeley.edu/~mhaiman/ftp/newt-sf-2001/newt.pdf.
+
+
+=== Beispiele für Punkte in X^[n], X = C^2
+
+* I = (x,y) cap (x-3,y) = (x^2-3x, y) hat als Kobasis 1, x.
+
+* I = (x,y)^2 = (x^2, xy, y^2) hat als Kobasis 1, x, y.
+
+* I_t = (x,y) cap (x-t,y-alpha t) = (x^2-xt, alpha x - y).
+
+* Der Grenzwert dieser I_t: I = (x^2, xy, y^2, alpha x - y).
+  Es lässt sich auch schreiben als
+
+      I = { f | f(0,0) = 0, grad f(0,0) senkrecht auf (1,alpha) }
+        = { f | f(0,0) = 0, Df(0,0)(1,alpha) = 0 }.
+
+  Achtung: Bejleri schreibt das etwas anderes. Er hat vermutlich einen Fehler
+  von 90 Grad. http://www.math.brown.edu/~dbejleri/Hilbert%20Schemes%20-%20Grad%20Student%20Seminar.pdf
+
+
 === Was ist die Rolle des Hilbertschemas im Vergleich zum naiven Quotienten?
 
 * Ist X eine glatte projektive Varietät und G eine endliche Gruppe,
