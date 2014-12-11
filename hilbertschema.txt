@@ -64,6 +64,44 @@
   von 90 Grad. http://www.math.brown.edu/~dbejleri/Hilbert%20Schemes%20-%20Grad%20Student%20Seminar.pdf
 
 
+=== Modell mit kommutierenden Matrizen
+
+Ein Modell für (C^2)^[n] ist
+
+    { (M, N, i)
+    | M, N (nxn)-Matrizen
+    , [M,N] = 0
+    , C^n = { f(M,N) i | f aus C[x,y] }
+    } / GL_n.
+
+Dabei wirkt die GL_n so: g * (M,N,i) = (g M g^(-1), g N g^(-1), g i).
+
+Der Iso sieht so aus: Ein Ideal I aus (C^2)^[n] wird auf die Darstellung der
+linearen Abbildung "multipliziere mit x", bzw. "mit y", bzw. "1" bezüglich
+irgendeiner Basis von C[x,y]/I geschickt.
+
+Umgekehrt geht ein Tripel (M,N,i) auf das Ideal { f in C[x,y] | f(M,N)i = 0 in C^n }.
+Dieses hängt nicht von der Repräsentantenwahl ab und hat wirklich Kodimension n.
+Denn:
+
+    Nach Voraussetzung wird C^n als C-Vektorraum von den M^a N^b i, a,b >= 0,
+    erzeugt. Dabei genügen irgendwelche n Stück, wobei man sogar zeigen kann,
+    dass dabei die Indizes a,b so gewählt werden können, wie man umgekehrt aus
+    einer Partition über ein Young-Diagramm Indizes extrahiert.
+    
+    Dann wird C[x,y]/I von den x^a y^b erzeugt, wobei die Indizes über dieselbe
+    Indexmenge laufen: Ist f ein Polynom aus C[x,y], so lässt sich f(M,N)i als
+    Linearkombination sum_ab alpha_ab M^a N^b i darstellen. Dann folgt
+    f = sum_ab x^a y^b modulo I.
+
+    Außerdem sind die x^a y^b über C linear unabhängig, mit einer ähnlichen
+    Argumentation.
+
+Somit wird phi : C[x,y]/I --> C^n, x^a y^b |-> M^a N^b i zu einem
+wohldefinierten Isomorphismus von C-Vektorräumen, der auch noch mit den
+Endomorphismen (x/M und y/N) vertauscht.
+
+
 === Was ist die Rolle des Hilbertschemas im Vergleich zum naiven Quotienten?
 
 * Ist X eine glatte projektive Varietät und G eine endliche Gruppe,
