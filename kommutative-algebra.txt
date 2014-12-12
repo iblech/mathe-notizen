@@ -10,6 +10,17 @@
 * a cap b = a * b, falls a + b = (1).
 
 
+=== Dreiecksmatrizen
+
+* Eine quadratische Matrix A lässt sich genau dann auf obere Dreiecksform
+  bringen, wenn es eine A-invariante Flagge von k^n gibt.
+
+* Hinreichend und notwendig dafür ist, dass das charakteristische Polynom
+  von A über k in Linearfaktoren zerfällt. Die Notwendigkeit ist klar. Für die
+  andere Richtung startet man mit einem Eigenvektor v, lässt A auf den
+  Quotienten k^n/span(v) absteigen und macht weiter.
+
+
 === Smithsche Normalform
 
 * Die SNF existiert über (konstruktiv) über allen Ringen, in denen endlich

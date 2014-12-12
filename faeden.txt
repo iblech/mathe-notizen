@@ -54,6 +54,8 @@
 
 === Hilbertschema
 
+* Gerahmte Bündel, siehe Nakajima.
+
 * http://www.math.brown.edu/~dbejleri/Hilbert%20Schemes%20-%20Grad%20Student%20Seminar.pdf
   sehr verständlich. Bitte lesen!
 
@@ -62,10 +64,11 @@
 
 * Sorger und Lehn konstruieren für einen R einen Ring R^[n]
   und zeigen: H^*(X^[n]) = H^*(X)^[n]. Siehe [27] in Lehns lectures.
-  www.mathematik.uni-mainz.de/Members/lehn/ar/montreal.ps
+  http://www.mathematik.uni-mainz.de/Members/lehn/ar/montreal.ps
 
 * X^[n] als Aufblasung.
   http://www-fourier.ujf-grenoble.fr/sites/ifmaquette.ujf-grenoble.fr/files/bertin_rev.pdf
+  Nakajima, Seite 5.
 
 * Modell über kommutierende Matrizen.
   http://mathoverflow.net/questions/13305/hilbert-scheme-of-points-on-a-complex-surface

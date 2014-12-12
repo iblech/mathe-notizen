@@ -62,6 +62,7 @@
 
   Achtung: Bejleri schreibt das etwas anderes. Er hat vermutlich einen Fehler
   von 90 Grad. http://www.math.brown.edu/~dbejleri/Hilbert%20Schemes%20-%20Grad%20Student%20Seminar.pdf
+  Nakajima gibt mir auf Seite 5 Recht.
 
 
 === Modell mit kommutierenden Matrizen
@@ -100,6 +101,37 @@ Denn:
 Somit wird phi : C[x,y]/I --> C^n, x^a y^b |-> M^a N^b i zu einem
 wohldefinierten Isomorphismus von C-Vektorräumen, der auch noch mit den
 Endomorphismen (x/M und y/N) vertauscht.
+
+Etwas basisfreier: Ich sehe der kanonischen Abbildung C[x,y] --> C^n an,
+dass sie surjektiv ist und dass ihr Kern genau I ist.
+
+* f(M, N) i = 0 in C^n  <==>  f(M, N) = 0 in C^{n x n}.
+
+  Damit kann man etwas leichter die Ideale zu Tripeln [M,N,i] bestimmen.
+
+* Zu M = (alpha), N = (beta), i = (1) gehört das Ideal
+
+      I = { f in C[x,y] | f(alpha,beta) = 0 },
+
+  also das Ideal zum abgeschlossenen Punkt (alpha,beta).
+
+* Hilbert-Chow: Sei [M,N,i] gegeben. Wir können annehmen, dass M und N
+  beide obere Dreiecksmatrizen mit Diagonaleinträgen lambda_i, mu_i sind.
+  Dann schickt der Hilbert-Chow-Morphismus [M,N,i] auf { (lambda_i,mu_i) }_i.
+  Hier geht ein, dass der Körper algebraisch abgeschlossen ist.
+  Wenn er nicht algebraisch abgeschlossen ist, könnte aber auf S^n(k^2) eine
+  andere Darstellung haben, sodass das kein Problem ist.
+
+* Die GL_n-Wirkung ist frei: Sei g M g^(-1) = M, g N g^(-1) = N, g i = i.
+  Dann vertauscht g mit M und mit N. Für die Basisvektoren gilt:
+
+      g M^a N^b i = M^a N^b g i = M^a N^b i,
+
+  also ist g = id.
+
+* Das Differential der Abbildung (M,N,i) |-> MN-NM hat angeblichen konstanten Rang.
+  So kann man also über das Modell zeigen, dass (C^2)^[n] glatt ist.
+  (Behauptet Nakajima, Seite 12.)
 
 
 === Was ist die Rolle des Hilbertschemas im Vergleich zum naiven Quotienten?
