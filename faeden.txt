@@ -32,6 +32,9 @@
 * Wieso vertauschen S^n und D? Wieso also gilt D(S^n Coh) = S^n D(Coh)?
   Das steht natürlich in Kapranov/Ganter.
 
+* Was muss man über die Objekte in einer exzeptionellen Sequenz wissen,
+  um die derivierte Kategorie rekonstruieren zu können?
+
 * In http://arxiv.org/pdf/1212.4604.pdf (Ploog und Sesna) gibt es
   einen Literaturverweis auf Kuznetsov, /Base change for semiorthogonal
   decompositions/. In diesem wird wohl verraten, was Erzeuger von K(X x X)
@@ -53,6 +56,8 @@
 
 
 === Hilbertschema
+
+* https://math.berkeley.edu/~mhaiman/ftp/hilb-qtcat/discrete-math.pdf
 
 * Gerahmte Bündel, siehe Nakajima.
 
@@ -97,6 +102,15 @@
 * Grundwissen über Regularität von Ringen lernen.
 * Auf Seite 9 von http://www.mathematik.uni-kl.de/~spaeth/charsheaves/PDF/mcgerty.pdf
   steht eine Art Euler-Charakteristik, die angeblich multiplikativ ist.
+* L Geradenbündel: Hom(k(x), L) = 0, Ext^1(k(x), L) erzeugt durch
+  0 --> L --> L(x) --> k(x) --> 0. (Huybrechts Seite 170)
+* Ext^1(k(x), k(x)) = k (Huybrechts Seite 255).
+* E tensor E = O(1), wenn E der exzeptionelle Divisor auf der Aufblasung
+  bezeichnet. Stimmt das? Behauptet Haiman auf Seite 205 von
+  https://math.berkeley.edu/~mhaiman/ftp/hilb-qtcat/discrete-math.pdf.
+* Orthogonales Komplement von C ist Null ==> C erzeugt die derivierte Kategorie.
+  Wird etwa in Huybrechts, Seite 182 behauptet.
+* BGG-Korrespondenz modern verstehen.
 
 
 === Interne Methoden

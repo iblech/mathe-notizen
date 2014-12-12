@@ -1,1 +1,12 @@
 * Huybrechts, Lectures on K3 surfaces.
+
+
+=== Globaler Torelli
+
+Laut Huybrechts (Seite 230) wichtigstes Theorem über K3-Flächen.
+
+K3-Flächen X und Y sind genau dann isomorph, wenn es eine Hodge-Isometrie
+H^2(X, Z) --> H^2(Y, Z) gibt.
+
+Unter einer Voraussetzung hat man sogar, dass Isomorphien zwischen X und Y
+den Hodge-Isometrien genau entsprechen.

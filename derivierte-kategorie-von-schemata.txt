@@ -3,6 +3,25 @@
 Def.: D(X) := D^b(Coh(O_X)).
 
 
+=== Sphärische Objekte
+
+* Ein Objekt E heißt genau dann sphärisch, wenn
+
+      E tensor omega = E und Hom(E, E[*]) = H(S^n, k),
+
+  wobei n = dim X.
+
+* Faltung mit einem sphärischen Objekt ist ein Automorphismus.
+
+* Eine A_m-Konfiguration von sphärischen Objekten induziert eine
+  Darstellung der Zopfgruppe B_(m+1) auf D^b(X). (Huybrechts, Seite 178)
+  Unter gewissen Voraussetzungen ist der Morphismus B_(m+1) --> Aut D^b(X)
+  dabei sogar injektiv.
+
+Es gibt auch P^n-Objekte und EZ-Objekte. Huybrechts zitiert viel Literatur über
+die Konstruktion solcher Objekte auf vielen Varietäten.
+
+
 === Träger von Komplexen von Garben
 
 * Eine gute Definition für supp E^* ist bigcup_n supp H^n(E^*).
@@ -14,6 +33,35 @@ Def.: D(X) := D^b(Coh(O_X)).
 
 * Folgerung: Ext^i(k(x), k(y)) = 0 für alle i >= 0 und verschiedene
   abgeschlossene Punkte x und y.
+
+
+=== Homologische Dimension
+
+Sei X eine glatte projektive Varietät der Dimension n. Dann hat Coh(X)
+homologische Dimension n. Siehe: Huybrechts, Seite 68.
+
+* Ext^i(F, G) = Ext^{i-n}(G, F tensor omega_X)^ = 0 für i > n,
+  da dann i - n < 0.
+
+* Ext^n(O_X, omega_X) = Hom(omega_X, omega_X)^ != 0.
+
+
+=== Semi-orthogonale Zerlegungen
+
+* Eine Varietät mit Serre-Dualität durch eine Garbe omega_X und
+  mit omega_X trivial (also wohl, angeblich, Calabi-Yau-Mannigfaltigkeiten),
+  erlaubt keine nichttrivialen exzeptionellen Sequenzen.
+
+  Denn für ein Objekt E einer solchen Sequenz gilt:
+
+      hom(E, E) = hom(E, E[n]) = 0, also id_E = 0, also E = 0.
+
+  Huybrechts (Seite 169) behauptet auch, dass allgemeiner eine solche Varietät
+  keine semi-orthogonalen Zerlegungen zulässt.
+
+* Das beschränkt die Theorie der semi-orthogonalen Zerlegungen natürlich
+  deutlich. Eine allgemeine Theorie von Erzeugern und Relationen muss
+  freigiebiger sein.
 
 
 === Quasikohärente Auflösungen

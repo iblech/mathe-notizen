@@ -311,6 +311,8 @@ Die Normalgarbe ist der ihr O_Y-Duales.
   erzeugt wird, so ist I/I^2 auf Y lokal frei. In diesem Fall darf man daher auch
   vom (Ko-)Normal*bündel* sprechen.
 
+  Siehe schnitttheorie.txt für eine Auflösung von O_X/I = f_*(O_Y).
+
 * Intuition: Lokale Schnitte der Konormalgarbe sind die linearen Anteile von
   Funktionen auf X, welche auf Y verschwinden. Ein Tangentialvektor von X an
   y in Y kann bekanntlich als Funktion auf linearen Anteilen gesehen werden; auf

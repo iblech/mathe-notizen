@@ -289,6 +289,10 @@ Hufeisenlemma.
 
   Hier geht ein, dass omega auf einer elliptischen Kurve trivial ist.
 
+* Allgemeiner(?) ist die Euler-Form auf jeder Calabi-Yau-Mannigfaltigkeit
+  symmetrisch mit Vorfaktor (-1)^Dimension, denn auf diesen ist omega ebenfalls
+  trivial.
+
 
 === Elemente von K_0 als Funktionen
 

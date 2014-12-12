@@ -3,7 +3,14 @@
 http://math.berkeley.edu/~mhaiman/math256/Derived-Cat-1-5.pdf
 
 
-=== Kohomologische Funktoren, zugrundeliegende Komplex, D^b-Anreicherung
+=== Quelle von Auflösungen
+
+* Syzygien bei Moduln
+* Čech-Auflösung von Garben
+* Koszul-Auflösung von Quotienten
+
+
+=== Kohomologische Funktoren, zugrundeliegender Komplex, D^b-Anreicherung
 
 http://mathoverflow.net/questions/61650/cohomological-functor-from-triangulated-category
 
@@ -238,6 +245,21 @@ Quelle: Beilinson, Coherent sheaves on P^n and problems in linear algebra.
   Ist das wirklich stärker? (Vermutung: Ja.)
 
   Habe ich diese Art der Zerlegung bei D(P^n)?
+
+
+=== Vergleich mit einer derivierten Kategorie von Moduln
+
+Sei E_1, ..., E_m eine starke volle exzeptionelle Sequenz (stark: Hom(E_i,
+E_j[l]) = 0 für alle i, j und alle l != 0) in einer triangulierten Kategorie C.
+Dann ist C äquivalent zu
+
+    D^b(mod-A),  wobei A = End(oplus_i E_i),
+
+und zwar vermöge RHom(oplus_i E_i, __).
+
+Das stimmt zumindest, wenn C = D^b(X) für eine glatte projektive Varietät X.
+
+* Daraus folgt wohl die klassische BGG-Korrespondenz!
 
 
 === Monomorphismen in derivierten Kategorien zerfallen

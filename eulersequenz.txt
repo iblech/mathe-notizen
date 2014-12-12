@@ -52,6 +52,25 @@ O(-1)'en und hat daher nur den Nullschnitt als globalen Schnitt.
 Siehe grassmannsche.txt.
 
 
+=== Auf Punkten
+
+Betrachte X = P(V) zu einem Vektorraum V. Sei l eine Ursprungsgerade in V. Dann:
+
+* O(-1)|_l = l
+
+* O(1)|_l  = l^
+
+* Omega(1)|_l = { phi : V --> k | phi = 0 auf l } = l^perp
+
+Somit sieht die Eulersequenz
+
+    0 --> Omega(1) --> V^ tensor O --> O(1) --> 0
+
+in der Faser bei l so aus:
+
+    0 --> l^perp --> V^ --> l^ --> 0.
+
+
 === Nächte Schritte
 
 * Wie folgt, dass auch die höheren Omega^i nur den trivialen Schnitt als

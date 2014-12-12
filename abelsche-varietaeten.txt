@@ -1,5 +1,7 @@
 * http://www.math.purdue.edu/~dvb/preprints/abelian.pdf
 
+* Huybrechts gibt auf Seite 193 einen Kurzüberblick.
+
 
 === Elliptische Kurven
 
@@ -15,3 +17,101 @@ Dedekindring.
 
 http://www.math.rochester.edu/people/faculty/edummit/docs/talk_NTS_elliptic_curves.pdf
 ist gut!
+
+
+=== Kohomologie und wichtige Garben
+
+* H^i(C^g/Gamma, Z) = Lambda^i Gamma^.
+
+* Omega_A ist trivial.
+
+* c_i(A) = 0 für i > 0.
+
+
+=== Albanese-Morphismus
+
+A --> Alb(A) = H^0(A, Omega)^* / H_1(A, Z)
+a |-> int_e^a.
+
+
+=== Sägezahnprinzip
+
+Sei X eine irreduzible vollständige Varietät, T ein ganzes Schema und L ein
+Geradenbündel auf X x T. Sei für alle abgeschlossenen Punkte t aus T
+die Einschränkung L|_{X x {t}} trivial. Dann gibt es ein Geradenbündel M auf T
+mit L = p^*(M).
+
+Zutaten für den Beweis (siehe Huybrechts, Seite 194):
+
+* L_t trivial <==> H^0(X, L_t) != 0 und H^0(X, L_t^) != 0.
+
+* Halbstetigkeit von h^0(X, L_t) impliziert, dass trivial zu sein
+  eine abgeschlossene Bedingung ist.
+
+* Das direkte Bild M := p_*(L) ist, wegen Rang- und Halbstetigkeitszeugs,
+  ein Geradenbündel.
+
+* Habe p^*(M) --> L. Dieser Morphismus ist auf X x {t} jeweils ein Iso.
+  Fertig.
+
+
+=== Duale Varietät
+
+* Pic^0(A) = { L in Pic(A) | t_a^*(L) = L für alle a aus A } ist die
+  Untergruppe der translationsinvarianten Geradenbündel.
+
+* n^*(L) = L^n für L aus Pic^0(A).
+
+* Nichttriviale translationsinvariante Geradenbündel haben triviale
+  Kohomologie, sogar in Grad 0.
+
+* A^ := H^1(A,O) / H^1(A,Z) ist ein komplexer Torus (Hodge-Theorie).
+
+* A^ sitzt in der Sequenz
+
+      A^ --> Pic(A) = H^1(A, O^*) --> H^2(A, Z),
+
+  die von der exponentiellen Garbensequenz herkommt.
+
+* A^ und Pic^0(A) sind als Untergruppen gleich.
+
+* Auf A^ x A lebt das wichtige Poincaré-Bündel P. Es hat folgende Eigenschaften:
+
+  * P|_{{L} x A} = L für L aus A^ = Pic^0(A).
+
+  * P|_{A^ x {e}} ist trivial.
+
+* (A^, P) stellt den Picard-Funktor dar:
+
+    Pic^0_A(S) := { M in Pic(S x A) | M_s in Pic^0(A) für alle abgeschlossenen s aus S }/~
+
+* H^1(A^, Z) = H^1(A, Z)^.
+
+* P liegt nicht in P^0(A^ x A).
+
+
+=== Die Faltung mit dem Poincaré-Bündel
+
+* phi_P : D^b(A^) --> D^b(A).
+
+* phi_P(k(a)) = P_a.
+
+
+=== Derivierte Äquivalenzen
+
+* D^b(A) = D^b(A^).
+
+* D^b(A) ist nur für endlich viele B gleich D^b(B).
+
+* Jede Äquivalenz D^b(A) --> D^b(B) induziert einen Iso
+  H^*(A, Z) --> H^*(B, Z). Huybrechts betont mit einem Ausrufezeichen, dass es
+  hier um ganzzahlige Kohomologie geht.
+
+* D^b(A) = D^b(B) genau dann, wenn es eine Hodge-Isometrie
+  H^1(A x A^, Z) --> H^1(B x B^, Z) gibt.
+
+* Fourier-Mukai-Kerne von Äquivalenzen D^b(A) --> D^b(B) sind, bis auf Shifts,
+  einfach Garben (statt Komplexe von Garben).
+
+* Aut(D^b(A)) passt in eine recht explizite kurze exakte Sequenz, siehe
+  Huybrechts, Seite 224.

@@ -177,6 +177,11 @@ Seite 44ff.
   in welchem Sinn geht es hier um Deformationen von X?
 
 
+=== Chow-Varietäten
+
+* https://people.kth.se/~dary/Chow.pdf
+
+
 === Literatur
 
 * Fulton.

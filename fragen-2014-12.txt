@@ -7,3 +7,6 @@
 Ich kann auch erwähnen, dass:
 
 * dynamische Injektive wohl nicht gut funktionieren.
+
+* Ja, dg-Enhancement von D^b(X) stift eins von S^n D^b(X);
+  das steht sogar im Originalartikel von Kapranov und Ganter.

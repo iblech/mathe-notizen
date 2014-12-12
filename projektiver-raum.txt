@@ -236,6 +236,28 @@ http://mathoverflow.net/questions/41624/a-sheaf-theoretic-version-of-the-proj-co
 Siehe eingescanntes Blatt.
 
 
+=== Die Beilinson-Spektralsequenz
+
+Sei E eine Garbe auf P^n. Sei L^* die Beilinson-Auflösung der Diagonale (also
+ist L^* in D^b(P^n x P^n) isomorph zu O_Delta). Wenn man die
+Hyperkohomologiespektralsequenz auf A^* := pi1^*(E) tensor L^* anwendet, erhält man:
+
+    E_1^{r,s} = R^s pi2_* A^r
+        = R^s pi2_* (pi1^*(E) tensor L^r)
+        = H^s(E(r)) tensor Omega^{-r}(r)
+
+    ==> R^{r+s} pi2_* (A^*) = R^{r+s} pi2_* pi1^*(E tensor O_Delta) =
+        H^{r+s}(E[0]) = E, falls r + s = 0; Null sonst.
+
+Beachte dazu die Projektionsformel, eigentlichen Basiswechsel und
+L^r = O(r) boxtensor Omega^{-r}(-r).  (L^r = 0 für r > 0.)
+
+Es gibt auch noch eine zweite Beilinson-Spektralsequenz (Huybrechts, Seite 181).
+
+Die Beilinson-Spektralsequenz kann wie folgt eingesetzt werden: Sei E eine
+Garbe mit Hom(O(i), E[s]) = 0 für alle i = a,...,a+n und alle s. Dann ist E = 0.
+
+
 === K-Theorie
 
 * K_0(P^n) wird frei durch xi^l, l = 0, ..., n, erzeugt, wobei xi = [O(-1)].

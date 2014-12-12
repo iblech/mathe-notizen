@@ -37,7 +37,7 @@
   pi2_*(O_Delta tensor pi1^*(E)) = pi2_*(Delta_*(O_X tensor Delta^*(pi1^*(E)))) =
       id_*(O_X tensor id^*(E)) = E.
 
-  (Wieso ist Delta : X --> X eigentlich?)
+  (Wieso ist Delta : X --> X x X eigentlich?)
 
 * FM((id & f)_* O_X) = f_*. Mit demselben Argument.
 
