@@ -121,13 +121,15 @@ Für eine interessante Theorie muss man also Endlichkeitsbedingungen aufnehmen.
 http://chromotopy.org/k-thy-of-endomorphisms
 http://math.berkeley.edu/~aaron/xkcd/pancia-k-theory-of-endomorphisms.pdf
 
-K(End(R)) ~~ K(R) x W(R),
+Laut diesen Quellen gilt: K(End(R)) ~~ K(R) x W(R),
 wobei W(R) = multiplikative Gruppe der rationalen Funktionen mit Koeffizienten
 in R und konstantem Term in Zähler und Nenner gleich Eins.
+Dabei ist der Iso wohl durch phi |-> T^n chi_phi(1/T) gegeben.
 
-XXX: Stimmt das? Oder nur W(R)?
-
-Iso ist übrigens durch phi |-> T^n chi_phi(1/T) gegeben.
+Im Fall, dass R ein Körper ist, ist es einfacher. Dann ist K(Vect(k)_findim[T])
+einfach isomorph zur multiplikativen Gruppe der rationalen Funktionen mit
+normierte Zähler und Nenner. Der Isomorphismus schickt einen Endomorphismus auf
+sein charakteristisches Polynom.
 
 
 === K-Theorie eines Schemas

@@ -110,3 +110,8 @@ Dann ist (X^2+1) reduzibel in K genau dann, wenn phi.
 * Zeigt Marc, dass es nicht nicht Zerfällungskörper gibt?
   Wenn ja, wie genau funktioniert der Beweis "K funktoriell ==> K(y)
   funktoriell"?
+
+* "Wissen im Grenzwert". Hat das was mit ideellen Oberkörpern zu tun?
+  Schließlich wird der ideelle Zerfällungskörper schlussendlich mit dem
+  richtigen übereinstimmen, wenn man lange genug hinreichend geeignete
+  Operationen mit ihm ausführt.

@@ -1,12 +1,111 @@
-* Andere Leute haben viel Mühe, Automorphismen per Hand zu bestimmen.
-  Ist es realistisch, dass ein algorithmischer Ansatz über Erzeuger und
-  Relationen funktionieren kann?
+* Per Hand erfordert die Bestimmung von Automorphismen abgeleiteter Kategorien
+  ja viel Mühe und nichttriviale Mathematik. Ist es realistisch, dass ein
+  algorithmischer Ansatz über Erzeuger und Relationen funktionieren kann?
+  Wie allgemein kann ein solcher Ansatz sein? Ist es vorstellbar, dass man aus
+  einer geeigneten Präsentation einer allgemeinen Varietät X die
+  Automorphismengruppe von D^b(X) und S^n D^b(X) berechnen kann? Oder ist eher
+  nur an eine bestimmte Klasse von Varietäten X zu denken?
 
-* Wie allgemein kann mein Ansatz sein?
+* Wie eine Kategorie zu präsentieren ist, um in ihr Homs, ggf. Exte und sogar
+  ihre Automorphismen bestimmen zu können, ist mir immer noch nicht klar.
 
-Ich kann auch erwähnen, dass:
+  Bei derivierten Kategorien denkt man natürlich an semi-orthogonale
+  Zerlegungen und exzeptionelle Sequenzen. Leider existieren diese aber nicht
+  immer (etwa auf Calabi-Yau-Mannigfaltigkeiten nicht) und auch wenn, ist mir
+  nicht klar, wie man mit ihrer Hilfe zum Beispiel Ext-Gruppen berechnen kann.
 
-* dynamische Injektive wohl nicht gut funktionieren.
+  Außerdem muss eine gute Theorie von Erzeugern und Relationen ja
+  ermöglichen, aus einer Darstellung von D^b(X) eine von D^b(X)^{tensor n} und
+  dann eine von S^n D^b(X) zu konstruieren. Bei semi-orthogonalen Zerlegungen
+  war mir das bis vor Kurzem auch nicht klar, dann bin ich -- leider erst
+  letzte Woche -- auf Kuznetsovs Artikel /Base change for semiorthogonal
+  decompositions/ gestoßen.
 
-* Ja, dg-Enhancement von D^b(X) stift eins von S^n D^b(X);
+  Der wird (zum Beispiel in Ploog und Sosna, http://arxiv.org/pdf/1212.4604.pdf,
+  Prop. 2.2) so zitiert, dass man aus Erzeugern von D^b(X) Erzeuger für
+  D^b(X^n) und für S^n D^b(X) erhalten kann. (Dabei ist mit "Erzeugern" eine
+  Klasse von Objekten gemeint, sodass die kleinste triangulierte
+  Unterkategorie, die diese Erzeuger enthält und abgeschlossen unter direkten
+  Summanden ist, die volle derivierte Kategorie ist. Wie aus Kuznetsovs Arbeit
+  die Behauptung für S^n D^b(X) folgt, muss ich noch verstehen.)
+
+  Dann gibt es noch zwei ganz andere Ansätze. Unter gewissen Umständen ist
+  D^b(X) ja äquivalent zu einer derivierten Kategorie von Moduln, D^b(Mod-E).
+  Wenn eine abelsche Kategorie A in Barakats Sinn berechenbar ist, konstruktiv
+  genügend viele Projektive zulässt und ihre Hom-Mengen kohärente Moduln sind
+  (das ist zum Beispiel bei der Kategorie der kohärenten Moduln über einem
+  berechenbaren Ring der Fall), so kann man auch mit D^b(A) algorithmisch
+  umgehen: Homs berechnen, Objekte und Morphismen auf Nullheit testen, ...
+
+  Mir ist aber noch nicht klar, was gute Voraussetzungen sind, die garantieren,
+  dass der Ring E in Mohameds Sinn berechenbar ist.
+
+  Schließlich gibt es noch die schöne Theorie lokal endlich präsentierter
+  Kategorien. XXX
+
+* Ideelle Injektive (in Analogie zu den ideellen Oberkörpern aus der Algebra
+  II) -- also Objekte, die nicht wirklich injektiv sind, sich aber bei Vorlage
+  eines auszufüllenden Injektivitätsdiagramm durch Pushoutbildung durch ein
+  größeres Objekt ersetzen können, welches dieses eine Diagramm ausfüllen kann
+  -- klingen für mich weiterhin nach einem interessanten Konzept.
+
+  Etwas konkreter: Ist i : A --> B ein Monomorphismus und f : A --> I ein
+  fortzusetzender Morphismus, so ersetze I durch I', den Pushout von i längs f.
+
+  Es gibt aber zumindest drei Stolpersteine:
+
+  1. Anders als bei den ideellen Oberkörpern k[X]/(f), bei denen bei jeder
+  Ersetzung der Grad von f abnimmt, ist bei ideellen Injektiven weniger klar,
+  wie unendliche Regresse verhindert werden können. Auf jeden Fall darf man
+  nicht bei jedem vorgelegten auszufüllenden Injektivitätsdiagramm eine
+  Verfeinerung vornehmen -- nur, wenn man geprüft hat, dass die vorhandene
+  Instanz des ideellen Injektiven nicht auch das Diagramm ausfüllen kann.
+  Um das algorithmisch entscheien zu können, muss man also genügend gut mit den
+  Hom-Mengen in der betrachteten Kategorie umgehen können.
+
+  Außerdem ist nicht klar, dass die Folge der Verfeinerungen im Grenzwert ein
+  richtiges Injektives gibt.
+
+  2. Sei 0 --> I --> Y --> Z --> 0 eine kurze exakte Sequenz, wobei I ein
+  ideelles Injektives ist. Dann sollte diese Sequenz -- nach Verfeinerung von I
+  -- zerfallen. Dummerweise ist die Verfeinerung I' isomorph zu Y, es wird also
+  keine kurze exakte Sequenz der Form 0 --> I' --> Y --> Z --> 0 geben.
+  (Dieses Argument zieht natürlich nicht ganz, denn man muss ja fragen, woher
+  die Sequenz 0 --> I --> Y --> Z --> 0 stammt. Nach Verfeinerung von I durch I'
+  muss ja das Programm neugestartet werden, sodass sich vielleicht ganz andere
+  Objekte Y und Z ergeben.)
+
+  3. Angenommen, wir wollen abgeleitete Funktoren über ideelle Injektive
+  berechnen. Dann bauen wir also von einem Objekt X eine ideell-injektive
+  Auflösung. Im ersten Schritt, vor Verfeinerungen, sieht die so aus:
+
+      0 --> X --> I_0 --> I_1 --> ..., wobei I_0 = X, I_1 = 0, I_2 = 0, ...
+
+  Dann ergibt sich R^1 F(X) als 0. Nun ist nicht klar, welche Operationen mit
+  diesem Ergebnis auszuführen sind, um genügend viele Verfeinerungen von den
+  I_j's anzustoßen, damit R^1 F(X) den richtigen Wert ergibt.
+
+* Ja, dg-Enhancement von D^b(X) stiftet eins von S^n D^b(X);
   das steht sogar im Originalartikel von Kapranov und Ganter.
+
+* Interne Methoden:
+
+  * Die gesamten Notizen für Leute, die die topossprache in ihrem Alltag
+    einsetzen möchten.
+
+  * Die Box-Übersetzung, um in der Sprache von E über E_Box sprechen zu können.
+
+  * Wie man das relative Spektrum intern konstruiert. (Das benötigt noch etwas
+    Arbeit, um es mit Hakims und Gillams Ansätzen zu vergleichen.)
+
+  * Dedekindsche Schnitte = Cauchy-Prozesse
+
+Divisoren
+abgeschlossene Unterschemata
+K-Theorie, insb. von Schemata
+Aufblasung
+Normalenbündel
+äquivariante Geometrie
+Stacks (Vortrag auf der Bayerischen Kleinen AG)
+Hilbertschema, Euler-Charakteristik, ...
+Lokale Systeme

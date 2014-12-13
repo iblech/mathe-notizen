@@ -35,7 +35,7 @@
 * Was muss man über die Objekte in einer exzeptionellen Sequenz wissen,
   um die derivierte Kategorie rekonstruieren zu können?
 
-* In http://arxiv.org/pdf/1212.4604.pdf (Ploog und Sesna) gibt es
+* In http://arxiv.org/pdf/1212.4604.pdf (Ploog und Sosna) gibt es
   einen Literaturverweis auf Kuznetsov, /Base change for semiorthogonal
   decompositions/. In diesem wird wohl verraten, was Erzeuger von K(X x X)
   und K_{S_2}(X x X) sind!

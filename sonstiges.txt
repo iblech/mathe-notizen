@@ -53,9 +53,10 @@ http://www-math.mit.edu/~poonen/papers/h10_notices.pdf
 
   Die neu auftretenden Gleichungen haben geringeren Grad. Schlussendlich
   bleiben nur Gleichungen zwischen Konstanten übrig (die Variable x wurde also
-  eliminiert) und lineare Gleichungen übrig (welche wegen der Voraussetzung der
-  algebraischen Abgeschlossenheit stets lösbar sind). Dann kann man rekursiv
-  mit den in den Konstanten versteckten weiteren Variablen weitermachen.
+  eliminiert) und Gleichungssysteme bestehend aus einer einzelnen Gleichung
+  übrig (welche wegen der Voraussetzung der algebraischen Abgeschlossenheit
+  stets lösbar sind). Dann kann man rekursiv mit den in den Konstanten
+  versteckten weiteren Variablen weitermachen.
 
 * Quantorenelimination zieht nach sich: Bilder quantorfrei definierter Mengen
   unter definierbaren Abbildungen sind wieder quantorfrei definierbar.
