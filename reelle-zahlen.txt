@@ -30,3 +30,7 @@ bigcap_{y in Q, r > 0, A(B_r^Q(y)) bewohnt} B_r^R(y).
 * Vortragsfolien Johnstone anschauen
 
 * Scotts Intervalldomain (Siehe "A topos for algebraic quantum theory", Seite 16)
+
+* http://works.bepress.com/cgi/viewcontent.cgi?article=1015&context=lawrence_stout
+  sichten. Topological properties of the real numbers object in a topos,
+  Lawrence Neff Stout.

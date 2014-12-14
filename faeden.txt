@@ -54,8 +54,16 @@
   hat Literaturverweise zu Orlov (für abelsche Varietäten) und Broomhead/Ploog
   (für viele rationale Flächen).
 
+* http://www-math.sp2mi.univ-poitiers.fr/~sarti/BNWS_SmithIHS_final.pdf
+* http://www-math.sp2mi.univ-poitiers.fr/~sarti/BCNS_Hilb2K3.pdf
+
 
 === Hilbertschema
+
+* http://mathoverflow.net/questions/134690/line-bundles-on-symmetric-product-of-a-curve
+  nachvollziehen.
+
+* Andis Lecture anschauen: https://www.youtube.com/watch?v=UdZ32NPfdtk
 
 * https://math.berkeley.edu/~mhaiman/ftp/hilb-qtcat/discrete-math.pdf
 
@@ -136,6 +144,7 @@
 * Mathezirkel zu Zahlentheorie
 * http://sbseminar.wordpress.com/2007/10/30/theme-and-variations-schroeder-bernstein/
   Injektion von Z*Z*Z in Z*Z
+* http://www.sciencedirect.com/science/article/pii/0022404982900305
 
 
 === Ultra-Sonstiges

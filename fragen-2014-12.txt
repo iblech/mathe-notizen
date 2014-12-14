@@ -1,10 +1,11 @@
-* Per Hand erfordert die Bestimmung von Automorphismen abgeleiteter Kategorien
-  ja viel Mühe und nichttriviale Mathematik. Ist es realistisch, dass ein
-  algorithmischer Ansatz über Erzeuger und Relationen funktionieren kann?
-  Wie allgemein kann ein solcher Ansatz sein? Ist es vorstellbar, dass man aus
-  einer geeigneten Präsentation einer allgemeinen Varietät X die
-  Automorphismengruppe von D^b(X) und S^n D^b(X) berechnen kann? Oder ist eher
-  nur an eine bestimmte Klasse von Varietäten X zu denken?
+* Du hattest dich mal gefragt, ob BKR auch auf dg-Niveau existiert.
+  Wenn ich die Frage richtig verstanden habe, ist die Antwort trivial: Ja, denn
+  man kann den BKR-Morphismus auf dg-Niveau hinschreiben, und er ist dann auch
+  eine dg-Äquivalenz, denn das testet man auf Niveau der Homotopiekategorien.
+
+* Betrachte Y --> X = Y/G. Gilt dann Aut D(Y) = G semidirekt Aut D(X)?
+  Nein, im Allgemeinen nicht. Ein Gegenbeispiel liefert schon Y = P^1 x P^1,
+  X = (P^1 x P^1)/S_2 = S^2 P^1 = P^2.
 
 * Wie eine Kategorie zu präsentieren ist, um in ihr Homs, ggf. Exte und sogar
   ihre Automorphismen bestimmen zu können, ist mir immer noch nicht klar.
@@ -35,18 +36,24 @@
   genügend viele Projektive zulässt und ihre Hom-Mengen kohärente Moduln sind
   (das ist zum Beispiel bei der Kategorie der kohärenten Moduln über einem
   berechenbaren Ring der Fall), so kann man auch mit D^b(A) algorithmisch
-  umgehen: Homs berechnen, Objekte und Morphismen auf Nullheit testen, ...
+  umgehen: Homs berechnen, Kegel konstruieren, Objekte und Morphismen auf
+  Nullheit testen, ...
 
   Mir ist aber noch nicht klar, was gute Voraussetzungen sind, die garantieren,
   dass der Ring E in Mohameds Sinn berechenbar ist.
 
   Schließlich gibt es noch die schöne Theorie lokal endlich präsentierter
-  Kategorien. XXX
+  Kategorien, also die Theorie mengenwertiger Modell endlicher Limesentwürfe.
+  Damit kann man Kategorien durch endlich viele Daten beschreiben. Außerdem
+  kann man Homs explizit angeben (als natürliche Transformationen zwischen
+  Modellen). Man erhält allerdings keine endliche Präsentation (in irgendeinem
+  Sinn) der Homs, sodass mir dieser Ansatz für Berechnungen ungünstig
+  erscheint.
 
-* Ideelle Injektive (in Analogie zu den ideellen Oberkörpern aus der Algebra
-  II) -- also Objekte, die nicht wirklich injektiv sind, sich aber bei Vorlage
+* Ideelle Injektive (in Analogie zu den ideellen Oberkörpern aus der Algebra II)
+  -- also Objekte, die nicht wirklich injektiv sind, sich aber bei Vorlage
   eines auszufüllenden Injektivitätsdiagramm durch Pushoutbildung durch ein
-  größeres Objekt ersetzen können, welches dieses eine Diagramm ausfüllen kann
+  größeres Objekt ersetzen können, welches dieses eine Diagramm dann ausfüllt
   -- klingen für mich weiterhin nach einem interessanten Konzept.
 
   Etwas konkreter: Ist i : A --> B ein Monomorphismus und f : A --> I ein
@@ -57,14 +64,15 @@
   1. Anders als bei den ideellen Oberkörpern k[X]/(f), bei denen bei jeder
   Ersetzung der Grad von f abnimmt, ist bei ideellen Injektiven weniger klar,
   wie unendliche Regresse verhindert werden können. Auf jeden Fall darf man
-  nicht bei jedem vorgelegten auszufüllenden Injektivitätsdiagramm eine
+  nicht bei *jedem* vorgelegten auszufüllenden Injektivitätsdiagramm eine
   Verfeinerung vornehmen -- nur, wenn man geprüft hat, dass die vorhandene
   Instanz des ideellen Injektiven nicht auch das Diagramm ausfüllen kann.
-  Um das algorithmisch entscheien zu können, muss man also genügend gut mit den
+  Um das algorithmisch entscheiden zu können, muss man also genügend gut mit den
   Hom-Mengen in der betrachteten Kategorie umgehen können.
 
   Außerdem ist nicht klar, dass die Folge der Verfeinerungen im Grenzwert ein
-  richtiges Injektives gibt.
+  richtiges Injektives gibt. (Das ist nicht a priori schlimm, aber zumindest
+  ein Kontrast zu den ideellen Oberkörpern.)
 
   2. Sei 0 --> I --> Y --> Z --> 0 eine kurze exakte Sequenz, wobei I ein
   ideelles Injektives ist. Dann sollte diese Sequenz -- nach Verfeinerung von I
@@ -77,28 +85,50 @@
 
   3. Angenommen, wir wollen abgeleitete Funktoren über ideelle Injektive
   berechnen. Dann bauen wir also von einem Objekt X eine ideell-injektive
-  Auflösung. Im ersten Schritt, vor Verfeinerungen, sieht die so aus:
+  Auflösung. Im ersten Schritt, vor Verfeinerungen, sieht diese so aus:
 
       0 --> X --> I_0 --> I_1 --> ..., wobei I_0 = X, I_1 = 0, I_2 = 0, ...
 
   Dann ergibt sich R^1 F(X) als 0. Nun ist nicht klar, welche Operationen mit
   diesem Ergebnis auszuführen sind, um genügend viele Verfeinerungen von den
-  I_j's anzustoßen, damit R^1 F(X) den richtigen Wert ergibt.
+  I_j's anzustoßen, damit R^1 F(X) den richtigen Wert annimmt.
 
-* Ja, dg-Enhancement von D^b(X) stiftet eins von S^n D^b(X);
-  das steht sogar im Originalartikel von Kapranov und Ganter.
+* Interne Methoden: Aus meiner Sicht könnten folgende Auskopplungen meiner
+  Notizen für sich selbst stehen. Das sind aber alles recht kleine Dinge.
 
-* Interne Methoden:
+  * Ist j eine Lawvere--Tierney-Topologie auf einem Topos E, so stehen die
+    interne Sprache des Untertopos E_j mit der internen Sprache von E wie folgt
+    in Beziehung.
 
-  * Die gesamten Notizen für Leute, die die topossprache in ihrem Alltag
-    einsetzen möchten.
+        E_j |== phi   genau dann, wenn   E |== phi^j,
 
-  * Die Box-Übersetzung, um in der Sprache von E über E_Box sprechen zu können.
+    wobei phi^j die j-Übersetzung von phi bezeichnet: jeden Existenzquantor und
+    jede Disjunktion durch den modalen Operator j umschließen.
 
-  * Wie man das relative Spektrum intern konstruiert. (Das benötigt noch etwas
-    Arbeit, um es mit Hakims und Gillams Ansätzen zu vergleichen.)
+    Das Resultat ist natürlich so einfach, dass es sehr klassisch klingt;
+    vielleicht ist es unter interessierten Leuten allgemein bekannt. Ich habe
+    es aber noch nirgendwo schriftlich fixiert gesehen.
 
-  * Dedekindsche Schnitte = Cauchy-Prozesse
+    Anwendungen dieser Beobachtung gibt es in der algebraischen Geometrie
+    einige, unter anderem kann man damit in gewissen Grenzen voraussagen, wann
+    sich eine Eigenschaft von Punkten zu offenen Umgebungen fortsetzt. Außerdem
+    kann man damit intern über Garben auf Unterschemata sprechen. Schließlich
+    ist die Theorie der j-Garben allgemein (nicht speziell die j-Übersetzung)
+    wichtig, um ein internes Kriterium für Quasikohärenz von Moduln formulieren
+    zu können.
+
+  * Wie man das relative Spektrum intern als gewöhnliches Spektrum konstruiert.
+    (Hier muss ich noch untersuchen, was die genaue Verbindung zu Gillams
+    Ansatz zur Lokalisierung geringter Räume ist. Die Verbindung zu Hakims
+    Konstruktion aus ihrer Doktorarbeit habe ich verstanden.)
+
+  * Was man auch mal auf ein paar Seiten aufschreiben könnte, wäre die
+    Äquivalenz zwischen der Konstruktion der reellen Zahlen über dedekindsche
+    Schnitte und über Cauchy-Prozesse (statt Cauchy-Folgen). Das scheint seit
+    den 70er Jahren in Vergessenheit geraten zu sein (vielleicht auch deswegen,
+    weil Mulveys Artikel /The real numbers in a topos/ nie erschienen ist), ist
+    aber durchaus nützlich.
+
 
 Divisoren
 abgeschlossene Unterschemata
@@ -109,3 +139,11 @@ Normalenbündel
 Stacks (Vortrag auf der Bayerischen Kleinen AG)
 Hilbertschema, Euler-Charakteristik, ...
 Lokale Systeme
+
+* Per Hand erfordert die Bestimmung von Automorphismen abgeleiteter Kategorien
+  ja viel Mühe und nichttriviale Mathematik. Ist es realistisch, dass ein
+  algorithmischer Ansatz über Erzeuger und Relationen funktionieren kann?
+  Wie allgemein kann ein solcher Ansatz sein? Ist es vorstellbar, dass man aus
+  einer geeigneten Präsentation einer allgemeinen Varietät X die
+  Automorphismengruppe von D^b(X) und S^n D^b(X) berechnen kann? Oder ist eher
+  nur an eine bestimmte Klasse von Varietäten X zu denken?
