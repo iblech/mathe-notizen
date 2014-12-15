@@ -131,3 +131,22 @@ Steve Cheng
 
 Wenn man also x/y --> 1 illustrieren möchte, dann kann man log(x)-log(y) --> 0
 plotten.
+
+
+=== Polynome
+
+Sei f(x) ein Polynom mit f(0) != 0. Dann gilt:
+
+    f(x) = f(0) * prod_a (1 - x/a),
+
+wobei a die Nullstellen von f durchläuft.
+
+
+=== Asymptotische Analysis
+
+* http://www.math.uiuc.edu/~hildebr/ant/main2.pdf
+  Gut verständliche lectures notes
+
+* http://www.macs.hw.ac.uk/~simonm/ae.pdf
+
+* Erste Schritte: http://www.math.uconn.edu/~kconrad/blurbs/analysis/asymp.pdf

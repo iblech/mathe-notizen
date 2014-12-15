@@ -145,6 +145,7 @@
 * http://sbseminar.wordpress.com/2007/10/30/theme-and-variations-schroeder-bernstein/
   Injektion von Z*Z*Z in Z*Z
 * http://www.sciencedirect.com/science/article/pii/0022404982900305
+* http://nforum.mathforge.org/discussion/6376/coend-calculus/#Item_0
 
 
 === Ultra-Sonstiges
