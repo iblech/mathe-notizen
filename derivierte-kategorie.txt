@@ -157,6 +157,9 @@ keine Homotopieäquivalenz.
   Würde man aber in D(A) noch mehr lokalisieren, dann wäre der
   Kohomologiefunktor nicht mehr wohldefiniert!
 
+* Wieso nicht Kom^{>= 0}(A) (oder K, oder D)? Weil hier der Shiftfunktor
+  keine Äquivalenz ist.
+
 
 === Gegenbeispiele
 
