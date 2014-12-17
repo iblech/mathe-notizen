@@ -19,6 +19,21 @@ http://ncatlab.org/nlab/show/spectral+sequence+of+a+filtered+stable+homotopy+typ
 * E_1 : R^i F(A^j) ==> R^{i+j} F(A^*)
 
 
+=== Lokal-zu-global Ext
+
+http://mathoverflow.net/questions/23297/simple-examples-for-the-use-of-spectral-sequences
+Kommentar von BCnrd.
+
+Here's a powerful one with no acyclicity, to "localize" an isom assertion
+involving Ext's. Since Hom = global sections of sheaf-Hom, one gets spectral
+seq. for Ext whose terms are cohomology of sheaf Ext's. So to prove map of
+Ext's is isom (e.g., for analytic vs. algebraic with coherent sheaves, as in
+GAGA) when cohomologies match up nicely, by functoriality of formation of
+spectral seq. the isom problem reduces to case of sheaf-Ext's. That's awesome:
+a problem for global invariants reduces to sheaf version, which is "local".
+Used all the time (etale cohom, duality,...) to prove isoms.
+
+
 === Nächste Schritte
 
 * Obige Aussage genau nachvollziehen.
@@ -26,3 +41,5 @@ http://ncatlab.org/nlab/show/spectral+sequence+of+a+filtered+stable+homotopy+typ
 * http://mathoverflow.net/questions/8052/why-are-spectral-sequences-so-ubiquitous
 
 * http://chromotopy.org/spectral-sequences-on-one-blackboard
+
+* Bott und Tu habe ich jetzt schon oft referenziert gesehen.
