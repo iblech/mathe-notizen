@@ -95,6 +95,8 @@ http://www-math.mit.edu/~poonen/papers/h10_notices.pdf
 
 Quadrate deshalb, weil das mit der Normalverteilung zusammenhängt.
 
+Gründe für 2-Norm statt 1-Norm: http://www.benkuhn.net/squared
+
 
 === Kritik am Schulsystem
 
