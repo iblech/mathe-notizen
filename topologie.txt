@@ -261,6 +261,9 @@ gesamten Raum ist.
   Vielleicht sind die aber in guten Situationen homotopieäquivalent, vermöge
   der offensichtlichen Abbildung von rechts nach links.
 
+  Wird auch irgendwie auf Seite 8 von https://math.berkeley.edu/~qchu/Syllabus.pdf
+  behauptet.
+
 
 === Abgeschlossene Abbildungen
 

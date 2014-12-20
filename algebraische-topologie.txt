@@ -121,6 +121,13 @@ Hutching. Introduction to higher homotopy groups and obstruction theory.
 http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf
 
 
+=== Eilenberg-MacLane-Räume
+
+* K(B_n, 1) = C_n(C), der Konfigurationsraum von n verschiedenen ungeordneten Punkten in C.
+  B_n ist die braid group.
+  https://math.berkeley.edu/~qchu/Syllabus.pdf
+
+
 === Witzige Anwendungen von Homologie
 
 * http://golem.ph.utexas.edu/category/2012/06/cohomology_in_everyday_life.html
