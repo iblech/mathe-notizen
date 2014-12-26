@@ -25,6 +25,17 @@
   Seite 14.
 
 
+=== Universelle Familie
+
+Sei wie in https://math.berkeley.edu/~mhaiman/ftp/newt-sf-2001/newt.pdf
+H_n = (C^2)^[n].
+
+Habe pi : F --> H_n, die universelle Familie. F <= H_n x C^2.
+
+Sei B := pi_* O_F. B ist lokal frei vom Rang n.
+
+
+
 === Spezielle Punkte von X^[n], X = C^2
 
 * Ist lambda eine Partition von n, so kann man das monomiale Ideal
