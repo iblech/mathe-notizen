@@ -3,6 +3,17 @@
 Es gilt: e_i(x_1^(-1), ..., x_n^(-1)) = e_(n-i)(x_1,...,x_n) / e_n(x_1,...,x_n).
 
 
+=== Alternierende Polynome
+
+Es gilt:
+
+    k[x_1,...,x_n, y_1,...y_n]_alternierend =
+    Lambda^n k[x,y].
+
+Das sagt https://math.berkeley.edu/~mhaiman/ftp/newt-sf-2001/newt.pdf,
+Seite 4.
+
+
 === Aut(G) zyklisch ==> G abelsch
 
 Habe G --> Aut(G), g |-> conj_g. Der Kern besteht gerade aus den Elementen des

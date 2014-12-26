@@ -44,6 +44,18 @@
   präsentierter abelscher Gruppen.
   http://mathoverflow.net/questions/12009/is-there-a-slick-proof-of-the-classification-of-finitely-generated-abelian-group
 
+* Sei A eine (n x n)-Matrix über einem Körper. In erster Näherung legt das
+  Spektrum von A -- die Menge der Eigenwerte -- A bis auf Konjugation fest.
+  Aber das stimmt natürlich nicht wirklich, da man die Information über die
+  Feinstruktur der Jordan-/Weierstraßform verliert.
+
+  Allerdings können wir A bis auf Konjugation aus dem k[x]-Modul k^n_phi
+  zurückgewinnen. Dieser hat Träger genau auf ... dem Spektrum! Er ist also
+  eine Art verfeinertes Spektrum. Richtig interpretiert, stimmt das sogar,
+  falls das charakteristische Polynom von A über k nicht in Linearfaktoren
+  zerfällt. (Es gilt: supp k^n_phi = { (f) | f irreduzibler Faktor im
+  charakteristischen Polynom oder Minimalpolynom von f }.)
+
 
 === Noethersche Ringe
 

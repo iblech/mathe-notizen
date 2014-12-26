@@ -47,6 +47,8 @@
 
 === Derivierte Automorphismen
 
+* http://arxiv.org/pdf/1411.0824v1.pdf (Andi Krug!)
+
 * Hille, Bergh sagen: Für abelsche Varietäten X ist Aut(D(X)) vollständig
   verstanden. Außerdem die Frage, wann D(X) = D(Y).
 

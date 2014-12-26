@@ -17,6 +17,14 @@
 * Abgeleitete Kategorie des Hilbertschemas
 
 
+=== X^[n] über die Proj-Konstruktion
+
+* (C^2)^[n] lässt sich als relatives Proj über Sym^n C^2 realisieren.
+
+* Das steht in https://math.berkeley.edu/~mhaiman/ftp/newt-sf-2001/newt.pdf,
+  Seite 14.
+
+
 === Spezielle Punkte von X^[n], X = C^2
 
 * Ist lambda eine Partition von n, so kann man das monomiale Ideal

@@ -284,6 +284,12 @@ Fügt man all diese Sequenzen zusammen, erhält man die Mayer--Vietoris-Sequenz:
     ... --> H^n(X) --> H^n(A) oplus H^n(B) --> H^n(A cap B) --> H^(n+1)(X) --> ...
 
 
+=== Čech-zu-Garben
+
+http://www.math.columbia.edu/~hansen/specseq.pdf
+Seite 3
+
+
 === Lokale Kohomologie
 
 If X is the complement of a closed subset in an affine variety, then higher
