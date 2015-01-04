@@ -804,6 +804,11 @@ O_X gegeben sind, die auf offenen dichten Teilmengen definiert sind.
 
       Spec A |== g in J~   <==>   g in J.
 
+* M projektiv über A
+  ==> M_ projektiv über A_
+  ==> M_[S^(-1)] projektiv über A_[S^(-1)] = O_{Spec A}
+  ==> M~ endlich frei (da A[S^(-1)] lokal)
+
 
 === Cartier-Divisoren und Geradenbündel
 

@@ -44,6 +44,9 @@
   On purity and applications to coderived and singularity categories
   Jan Stovicek
 
+* Was muss ich von einer abelschen Kategorie wissen, um Klassen
+  in K-Theorie berechnen zu können?
+
 
 === Derivierte Automorphismen
 
@@ -121,6 +124,7 @@
 * Orthogonales Komplement von C ist Null ==> C erzeugt die derivierte Kategorie.
   Wird etwa in Huybrechts, Seite 182 behauptet.
 * BGG-Korrespondenz modern verstehen.
+* Was ist die Konormalgarbe im Fall V(xy) <= A^2?
 
 
 === Interne Methoden
@@ -132,11 +136,15 @@
 
   Kann ich das intern verstehen? Mit der Box-Übersetzungstheorie?
 
+* Versuche, das garbentheoretische Quasikohärenzkriterium herzuleiten aus
+  der internen Charakterisierung über "F qcoh <==> ex. M lokal konstant: F ~~
+  M[S^{-1}]".
 
-=== Online
+* Sh(Spec A) und M~ sind absolut klar konstruktiv formulierbar.
+  Vielleicht sollte ich daher mit lokal geringten Topoi statt lokal geringten
+  Örtlichkeiten arbeiten.
 
-* Besser beantworten:
-  http://mathoverflow.net/questions/30557/grothendieck-spectral-sequence-and-mayer-vietoris-sequence
+* Korrektur von Kapitel 11 (relatives Spektrum) abtippen.
 
 
 === Sonstiges
@@ -149,6 +157,7 @@
 * Was sind Spektralsequenzen wirklich? (Denke an infty-Kategorien und Lurie.)
 * http://www.sciencedirect.com/science/article/pii/0022404982900305
 * http://nforum.mathforge.org/discussion/6376/coend-calculus/#Item_0
+* Coherent sheaves on an elliptic curve. Brüning, Burban.
 
 
 === Ultra-Sonstiges

@@ -98,3 +98,7 @@ http://www.cs.cmu.edu/~kuenbanh/files/cover-crm-abstract.pdf
   Cellular sheaf cohomology
 
 * http://www.math.boun.edu.tr/instructors/wdgillam/sheaftheory.pdf
+
+* Godement, Topologie algebrique et theorie des faisceau.
+  Zum Beispiel enthält Theorem 4.6.1 das Lemma über lange exakte Sequenz aus
+  Spektralsequenz.

@@ -137,6 +137,42 @@ http://rigtriv.wordpress.com/2009/02/18/direct-image-sheaves-under-proper-maps/
   durchgerechnet.)
 
 
+=== Aufblasung als Mikroskop
+
+Sei f eine Funktion auf X. Sei x0 in X. Sei eps : X' --> X die Aufblasung von X in x0.
+
+Dan ist eps^#(f) eine Funktion auf X'.
+
+df(x0) ist ein Element von Omega^1_X|_x0 = (T_x0 X)^.
+
+Der exzeptionelle Divisor E ist isomorph zu P(N_x0 X) = P(T_x0 X).
+
+Also: Ist [v] in E, so ist "df(x0)v = 0" eine wohldefinierte Bedingung.
+(df(x0)v selbst ist nur bis auf Einheiten bestimmt.)
+
+df(x0) ist ein Schnitt von O(1) auf E, denn
+
+    E = P(T_x0 X) = Proj Sym (T_x0 X)^ = Proj Sym Omega^1_X|_x0,
+
+also Gamma(E, O(1)) = Omega^1_X|_x0.
+
+Durch Vordrücken erhält man: df(x0) ist ein Schnitt von i_* N_{E|X'}^
+(das ist kein Geradenbündel). (Dabei i : E --> X'.)
+
+Somit ist V(eps^#(f)) cap V(df(x0)) <= X' wohldefiniert.
+
+Hier ein anschauliches Beispiel: Betrachte in P^2 die typische Kurve V(f) mit
+einem Doppelpunkt. Dann ist V(eps^#(f)) cap V(df(x0)) die strikt transformierte
+von V(f): Denn df(x0)v ist für genau zwei verschiedene Richtungen [v] Null.
+
+
+=== Auflösung einer Kurve ist nicht ihre Aufblasung
+
+Eine triviale Bemerkung: Bläst man eine singuläre Kurve in einem ihrer
+singulären Punkte auf, erhält man genau dieselbe Kurve. Denn ein Punkt hat ja
+in einer Kurve schon Kodimension 1.
+
+
 === Literatur
 
 * http://www.math.ntu.edu.tw/~jkchen/F03AS/F03ASL9.pdf

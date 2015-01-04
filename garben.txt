@@ -4,6 +4,11 @@
   Erzeuger und Relationen.
 
 
+=== Garbenhom
+
+* HOM(F, G) ist schon dann wieder eine Garbe, wenn G eine Garbe ist.
+
+
 === Garbifizierung
 
 * Sei phi : F --> aF die Garbifizierung einer Prägarbe. Dann gilt
