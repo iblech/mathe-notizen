@@ -43,3 +43,5 @@ Used all the time (etale cohom, duality,...) to prove isoms.
 * http://chromotopy.org/spectral-sequences-on-one-blackboard
 
 * Bott und Tu habe ich jetzt schon oft referenziert gesehen.
+
+* http://win.ua.ac.be/~pbelmans/seminar/ss/examples-ag.pdf
