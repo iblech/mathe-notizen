@@ -14,6 +14,11 @@
 * Wie rechnet Barakat in abgeleiteten Kategorien?
 
 
+=== Kompakte Objekte
+
+* http://www.math.uni-bielefeld.de/~hkrause/nantes_notes.pdf
+
+
 === Symmetrische Produkte
 
 * http://math.stackexchange.com/questions/551775/pushforward-commutes-with-external-tensor-product

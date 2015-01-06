@@ -672,6 +672,8 @@ sehr gut lesbar!
 * Rational points on varieties. Bjoern Poonen.
   http://math.mit.edu/~poonen/papers/Qpoints.pdf
 * http://www.mathematik.uni-kl.de/~gathmann/class/alggeom-2002/chapter-7.pdf
+* http://www.math.purdue.edu/~dvb/preprints/book-chap17.pdf
+  http://www.springer.com/mathematics/algebra/book/978-1-4614-1808-5
 
 
 === Nächste Schritte

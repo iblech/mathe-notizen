@@ -3,6 +3,12 @@
 Def.: D(X) := D^b(Coh(O_X)).
 
 
+=== Shifts von Wolkenkratzergarben sehen die gesamte derivierte Kategorie
+
+http://win.ua.ac.be/~pbelmans/seminar/ss/examples-ag.pdf
+Seite 7
+
+
 === Sphärische Objekte
 
 * Ein Objekt E heißt genau dann sphärisch, wenn
