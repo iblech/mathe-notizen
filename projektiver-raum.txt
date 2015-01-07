@@ -194,6 +194,11 @@ und liefert auf (X --> S) daher vermutlich
 Andere Idee: Intern als Proj A^1_S[X_0,...,X_n] definieren.
 (Im kleinen Zariskitopos.)
 
+Update nach Mail von Zhen Lin: Quatsch. In Wahrheit ist das isomorph zu
+
+    { (f_1, ..., f_n) | f_i \in A^1_S, \exists i: f_i invertierbar } /
+        Reskalierung durch (A^1)^\times.
+
 
 === Projektiver Raum über Ringen
 
