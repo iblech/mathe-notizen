@@ -70,6 +70,9 @@
 
 === Hilbertschema
 
+* http://arxiv.org/pdf/math/0504590.pdf Konstruktion von Hilb und Co.,
+  evtl. auch intern nützlich.
+
 * http://mathoverflow.net/questions/134690/line-bundles-on-symmetric-product-of-a-curve
   nachvollziehen.
 

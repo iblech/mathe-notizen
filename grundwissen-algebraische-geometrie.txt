@@ -5,6 +5,16 @@ homemorophic in the Zariski topology." Laut Torsten Ekedahl auf
 http://mathoverflow.net/questions/19345/how-to-characterize-abelian-sheaves-that-are-quasi-coherent.
 
 
+=== Proj-Konstruktion
+
+* Funktorialität:
+  http://math.stackexchange.com/a/1038969/61604
+
+* http://therisingsea.org/notes/TheProjConstruction.pdf
+
+* http://mathoverflow.net/questions/41624/a-sheaf-theoretic-version-of-the-proj-construction
+
+
 === Vektorräume als affine Schemata
 
 Die kovariante Zuordnung
