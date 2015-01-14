@@ -192,6 +192,23 @@ von k, besteht also nur aus Konstanten. Siehe
 http://math.stackexchange.com/questions/154580/if-a-line-bundle-and-its-dual-both-have-a-section-on-a-projective-variety-does.]
 
 
+=== Wurzeln und höhere Wurzeln von Geradenbündeln
+
+Sei S eine komplexe Fläche mit h^1(S, O_S) != 0. Dann haben wir aus der
+Exponentialsequenz die kurze exakte Sequenz  
+
+    0 --> T --> Pic(S) --> NS(S) --> 0.  
+      
+Dabei ist T durch H^1(S, O_S) / H^1(S, Z) gegeben. H^1(S, Z) ist ein
+Gitter, also ist T ein komplexer Torus (C^r / Gamma). Insbesondere ist T  
+eine divisible Gruppe -- einfach da man in C^r teilen kann! Da T in  
+Pic(S) einbettet, müssen wir also nur noch zeigen, dass T nicht trivial
+ist.  
+  
+Das folgt aus der Voraussetzung h^1(S, O_S) != 0. Das Herausteilen
+ändert nichts an der Dimension (als Mannigfaltigkeit).  
+
+
 === Vektorbündel in der stetigen, holomorphen und algebraischen Kategorie
 
 Siehe Ulrich Krähmer, Picard Groups: Real and Complex, Algebraic and
