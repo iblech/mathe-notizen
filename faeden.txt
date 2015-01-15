@@ -158,14 +158,17 @@
 === Sonstiges
 
 * Projekt mit Meru
-* HoTT-Folien
-* Mathezirkel zu Zahlentheorie
 * http://sbseminar.wordpress.com/2007/10/30/theme-and-variations-schroeder-bernstein/
   Injektion von Z*Z*Z in Z*Z
 * Was sind Spektralsequenzen wirklich? (Denke an infty-Kategorien und Lurie.)
 * http://www.sciencedirect.com/science/article/pii/0022404982900305
 * http://nforum.mathforge.org/discussion/6376/coend-calculus/#Item_0
 * Coherent sheaves on an elliptic curve. Brüning, Burban.
+
+
+=== Online
+
+* https://github.com/KevinQuirin/sheafification/blob/master/paper/sheaf_lics.tex
 
 
 === Ultra-Sonstiges
