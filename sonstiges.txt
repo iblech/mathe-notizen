@@ -152,3 +152,10 @@ wobei a die Nullstellen von f durchläuft.
 * http://www.macs.hw.ac.uk/~simonm/ae.pdf
 
 * Erste Schritte: http://www.math.uconn.edu/~kconrad/blurbs/analysis/asymp.pdf
+
+
+=== Funktionentheorie
+
+Sei f(z) = sum_n a_n z^n eine meromorphe Funktion, die in 0 konvergiert. Dann
+gibt es Abschätzungen an a_n über das Polstellenverhalten von f: Siehe
+http://www.math.upenn.edu/~wilf/gfology2.pdf, Seite 49f.
