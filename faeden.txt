@@ -170,6 +170,18 @@
 
 * https://github.com/KevinQuirin/sheafification/blob/master/paper/sheaf_lics.tex
 
+* http://math.andrej.com/2008/08/13/intuitionistic-mathematics-for-physics/
+
+  A couple months ago, I did a course on smooth infinitesimal analysis with
+  high school students, based on this post. It is of course tricky to do logic
+  stuff with school students, since they typically have no background in
+  writing and understanding (informal, but reasonably precise) proofs. Still,
+  they liked it, were able to work with infinitesimals, and definitely got the
+  main points.
+
+  <a href="https://github.com/iblech/mathezirkel-kurs/blob/master/thema05-sdg/blatt05.pdf?raw=true">Here
+  are the notes</a> (in German only, I'm sorry).
+
 
 === Ultra-Sonstiges
 
