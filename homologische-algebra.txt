@@ -221,3 +221,12 @@ obtains the above constructions.
 * hTop besitzt nicht alle Kolimiten (tatsächlich besitzt sie nur ganz wenige
   Kolimiten).
   http://schommerpries.wordpress.com/2012/02/20/the-homotopy-category-doesnt-have-all-colimits/
+
+
+=== Subtile Fehlermöglichkeit
+
+Wenn man versucht, Lerays Azyklizitätslemma zu beweisen, kommt man vielleicht
+auf die Idee, die gute Abschneidung zu verwenden (geschrieben als
+ausgezeichnetes Dreieck). Auf diese wendet man dann RF und F an. Das führt bei
+RF zu einer langen exakten Sequenz -- bei F jedoch nicht, denn F bewahrt nur
+zerfallende Dreiecke!
