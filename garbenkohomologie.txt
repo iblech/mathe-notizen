@@ -1,23 +1,9 @@
+=== Kohomologie von Topoi
+
 Def.: Sei E Topos. Dann habe Gamma: Ab(E) -> Ab(Set), ist linksexakt. Der i-te
 rechtsabgeleitete Funktor ist H^i.
 
 Beob.: Ext^i(1, F) ~~ H^i(X, F).
-
-Intuitiver Grund für mangelnde Rechtsexaktheit: Surjektivität bedeutet lokale
-Urbildexistenz. Daraus folgt aber noch nicht globale Urbildexistenz.
-
-Berechnung mit Čech-Methoden.
-Beispiel: Gibt gute Überdeckungen für qcoh Garben auf sep. Schemata.
-
-Literatur: http://stacks.math.columbia.edu/download/cohomology.pdf
-
-Klassisches Resultat: H^q(X, O_X(d)) für X = P_R^n,
-siehe http://stacks.math.columbia.edu/download/coherent.pdf#01XS.
-
-Beispiel: Kohomologie eines irreduziblen Schemas mit Werten in der konstanten
-Garbe Z oder C ist oftmals trivial; Abhilfe: analytische Topologie verwenden
-(oder natürlich bessere Kohomologietheorien). Siehe
-http://www.math.mcgill.ca/goren/SeminarOnCohomology/Sheaf_Cohomology.pdf.
 
 
 === Kohomologie affiner Schemata
@@ -32,6 +18,9 @@ werden kann.
 
 Es ist also 0 --> F --> (I^*)^~ eine akzeptable Auflösung. Auf globalen
 Schnitten ergibt das wieder die ursprüngliche Auflösung von M.
+
+Siehe http://www.math.mcgill.ca/goren/SeminarOnCohomology/Sheaf_Cohomology.pdf
+für mehr zu Kohomologie von Schemata.
 
 
 === Motivation: Lift von Schnitten
@@ -110,6 +99,9 @@ Seite 10.
   http://mathoverflow.net/questions/11289/geometry-meaning-of-higher-cohomology-of-sheaves
 
 * Messung von Nicht-Exaktheit...
+
+  Intuitiver Grund für mangelnde Rechtsexaktheit: Surjektivität bedeutet lokale
+  Urbildexistenz. Daraus folgt aber noch nicht globale Urbildexistenz.
 
 * Dolbeaut: H^q(X, E) = H^{0,q}(X, E), also Vorstellung über harmonische
   (0,q)-Formen. http://mathoverflow.net/a/11314
@@ -384,8 +376,6 @@ Habe Wirkung RHom(O_X,O_X) --> RHom(O_X,F).
 
 === Nächste Schritte
 
-* Kohomologie von Schemata
-* Was sind interessante Moduln auf Schemata?
 * Was besagt das klassische Resultat für Ext^i auf P^n anschaulich?
 * Welche der Kategorien Mod(O_X), Qcoh(O_X), Coh(O_X) besitzen genügend
   viele Injektive und Projektive, und weshalb?
@@ -395,8 +385,6 @@ Habe Wirkung RHom(O_X,O_X) --> RHom(O_X,F).
 * Verstehen: Deformations are cohomological, M. Anel.
 
 * Kokern-Beispiel oben nachrechnen.
-
-* Motivation mit Faserungen verstehen.
 
 
 === Siehe auch

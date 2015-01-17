@@ -481,6 +481,8 @@ Für n = 2:
   Algebraic Varieties, Seite 34. (Über Koszul und Spec Sym V^:
   H^q(Proj Sym V^, oplus_{m in Z} F(m)) = H^q(V \ {0}, pi^*(F)).)
 
+* http://stacks.math.columbia.edu/download/coherent.pdf#01XS.
+
 
 === Normalenbündel von P^n in P^(n+1)
 
