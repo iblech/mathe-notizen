@@ -13,6 +13,9 @@
 
 * Wie rechnet Barakat in abgeleiteten Kategorien?
 
+* Numerically finite hereditary categories with Serre duality
+  http://arxiv.org/abs/1304.0257
+
 
 === Kompakte Objekte
 
@@ -164,6 +167,17 @@
 * http://www.sciencedirect.com/science/article/pii/0022404982900305
 * http://nforum.mathforge.org/discussion/6376/coend-calculus/#Item_0
 * Coherent sheaves on an elliptic curve. Brüning, Burban.
+
+* http://arxiv.org/abs/1408.0952
+  A Primer on Reproducing Kernel Hilbert Spaces
+
+* http://arxiv.org/abs/1407.1954
+  Calling a spade a spade: Mathematics in the new pattern of division of labour
+  Alexandre V. Borovik
+
+* http://arxiv.org/abs/1412.8692
+  General affine adjunctions, Nullstellensätze, and dualities
+  Olivia Caramello, Vincenzo Marra, Luca Spada
 
 
 === Online

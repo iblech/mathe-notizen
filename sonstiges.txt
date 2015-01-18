@@ -159,3 +159,8 @@ wobei a die Nullstellen von f durchläuft.
 Sei f(z) = sum_n a_n z^n eine meromorphe Funktion, die in 0 konvergiert. Dann
 gibt es Abschätzungen an a_n über das Polstellenverhalten von f: Siehe
 http://www.math.upenn.edu/~wilf/gfology2.pdf, Seite 49f.
+
+
+=== Quantenprogramme als Kleisli-Abbildungen
+
+http://arxiv.org/abs/1501.01020

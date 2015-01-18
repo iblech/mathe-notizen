@@ -338,6 +338,13 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
   verstehen
 
 
+=== Enden und Koenden
+
+Fosco Loregian.
+This is the (co)end, my only (co)friend.
+http://arxiv.org/abs/1501.02503
+
+
 === Nächste Schritte
 
 * Kurz über "Cat ist vollständig und kovollständig" nachdenken.
