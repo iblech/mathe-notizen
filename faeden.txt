@@ -179,10 +179,23 @@
   General affine adjunctions, Nullstellensätze, and dualities
   Olivia Caramello, Vincenzo Marra, Luca Spada
 
+* Patrick Roocks, http://www.springerlink.com/content/5lq21m6660j38412/,
+  Wolfram Kahl.
+
+* Leisure and boredom. Journal of Social and Clinical Psychology.
+* Perceptions of boredom in leisure: Conceptualization, reliability and
+  validity of the Leisure Boredom Scale. Journal of Leisure Research.
+
+* http://mathoverflow.net/questions/142217/barrs-theorem-and-constructivity
+
 
 === Online
 
 * https://github.com/KevinQuirin/sheafification/blob/master/paper/sheaf_lics.tex
+
+* http://math.stackexchange.com/questions/308302/freyds-geometric-finiteness-an-example-computation
+
+* http://math.stackexchange.com/questions/310465/is-this-thing-k-finite
 
 
 === Ultra-Sonstiges

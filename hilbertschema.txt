@@ -329,6 +329,17 @@ https://publikationen.uni-tuebingen.de/xmlui/bitstream/handle/10900/49066/pdf/di
 Dissertation von Mark Blume.
 
 
+=== Verträglichkeit mit abgeschlossenen Einbettungen
+
+"die Aussage, dass abgeschlossene Einbettungen von Schemata abgeschlossene
+Einbettungen der entsprechenden Hilbertschemata induzieren ist z.B. ein sehr
+einfaches Korollar zu dieser Konstruktion, aber das ist ja auch sonst nicht
+schwer zu zeigen..."
+
+An elementary, explicit proof of the existence of Hilbert schemes of
+points (http://arxiv.org/pdf/math/0506161v1.pdf)
+
+
 === Literatur
 
 * Simons Masterarbeit

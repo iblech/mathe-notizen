@@ -207,6 +207,29 @@ resp. a pushforward construction. By specializing to endomorphisms of A
 obtains the above constructions.
 
 
+=== Giovannis Ext-Frage
+
+* https://www.dropbox.com/s/unx8jdjy9zy3dkb/Fasci%20perversi%203-4.pdf
+  "page 3"
+
+* "Well my calculation proves that the sections of EExt2 (the sheaf) over
+  discs centered at 0 are C. Maybe I was too quick but I think that EExt2 has
+  stalk 0 on any other point. Maybe too quick?"
+
+* How do you calculate EXT^2(C_{0}, C_X) = C_{0}?
+  I assume that you consider the sheaf-Ext over the constant sheaf C_X,
+  not over O_X, because the constant sheaf C_X is not an O_X-module.
+
+  I know a resolution of C_{0} as an O_X-module, namely the Koszul
+  resolution
+
+      0 --> O_X --> O_X --> C_{0} --> 0
+
+  with first morphism given by multiplication with x, but I don't know a
+  resolution of C_{0} as a C_X-module. So how do you calculate the Ext?
+  If it's in Steffie's notes of your lectures, I can just ask her.
+
+
 === Spektralsequenzen
 
 * Eine Spektralsequenz mit nur zwei nichttrivialen Spalten auf der zweiten

@@ -885,6 +885,8 @@ O_X gegeben sind, die auf offenen dichten Teilmengen definiert sind.
   kategorielle-logik.txt). Daher ist völlig klar: Der Halm von Omega_{B/A}
   ist Omega_{B_x/A_x}.
 
+* Zeige intern: glatt <==> Omega dort frei
+
 
 === Antiklassische Prinzipien im kleinen Zariski-Topos
 
@@ -1418,3 +1420,8 @@ PS: If you are into such things, here is the logical background:
 
   Gewissermaßen hat man hier also einen *eigenen* boolschen Topos E'
   für jede zu beweisende Aussage phi.
+
+
+=== Großer Zariski-Topos
+
+* Auflösung der Unbestimmtheit rationaler Abbildungen durch Blowup -- intern verstehen!

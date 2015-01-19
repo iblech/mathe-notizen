@@ -1,3 +1,10 @@
+=== Homogene Polynome
+
+* Homogene Polynome in zwei Variablen sind "genauso gut" wie Polynome
+  in einer Variablen. Insbesondere zerfallen sie in Linearfaktoren,
+  falls der Grundkörper algebraisch abgeschlossen ist.
+
+
 === Vektorräume ohne kanonische Basis
 
 * Kerne von linearen Abbildungen

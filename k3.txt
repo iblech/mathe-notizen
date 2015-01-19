@@ -1,5 +1,8 @@
 * Huybrechts, Lectures on K3 surfaces.
 
+* Liedkte, Oberseminar-Vortrag, 24.11.2014
+  Liedtke - Rational curves on K3-surfaces.pdf
+
 
 === Globaler Torelli
 

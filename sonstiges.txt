@@ -164,3 +164,9 @@ http://www.math.upenn.edu/~wilf/gfology2.pdf, Seite 49f.
 === Quantenprogramme als Kleisli-Abbildungen
 
 http://arxiv.org/abs/1501.01020
+
+
+=== Geometric Arbitrage Theory and Market Dynamics
+
+Simone Farinelli
+http://arxiv.org/abs/0910.1671

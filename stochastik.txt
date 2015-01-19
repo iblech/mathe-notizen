@@ -1,2 +1,8 @@
 * http://stacky.net/wiki/index.php?title=Misconceptions_about_machine_learning
 * http://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm
+
+
+=== Principal Component Analysis
+
+* PCA ist nicht skalierungsinvariant!
+  Siehe http://www.seas.harvard.edu/courses/cs281/papers/mackay-2006.pdf.

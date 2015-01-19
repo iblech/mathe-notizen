@@ -102,3 +102,14 @@ http://www.cs.cmu.edu/~kuenbanh/files/cover-crm-abstract.pdf
 * Godement, Topologie algebrique et theorie des faisceau.
   Zum Beispiel enthält Theorem 4.6.1 das Lemma über lange exakte Sequenz aus
   Spektralsequenz.
+
+* Dimca, Example 2.3.5 auf Seite 33, finite bifurcation set
+
+* Bredon, The Leray sheaf of a map:
+  "Außerdem steht im Bredon Kapitel "The Leray sheaf of a map" ziemlich viele
+  Eigenschaften von höheren direkten Bildern, z.B. sind sie unter sehr
+  allgemeinen Voraussetzungen local konstant außerhalb einer offenen dichten
+  Teilmenge."
+
+* Shepard, Allen Dudley. A cellular description of the derived category of a
+  stratified space.
