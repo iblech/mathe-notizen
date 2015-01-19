@@ -188,6 +188,8 @@
 
 * http://mathoverflow.net/questions/142217/barrs-theorem-and-constructivity
 
+* http://mathoverflow.net/questions/125200/coboundaries-and-gluing-in-cech-cohomology-intuition
+
 
 === Online
 
