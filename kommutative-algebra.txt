@@ -498,13 +498,15 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   Bringe das b von der linken Seite auf die rechte. Dann steht eine
   nichttriviale Relation da (da die Anzahl b's ungerade ist).
 
+  (Körper mit Charakteristik 2 sind natürlich auch nicht frei.)
+
 * Daher ist auch kein Körper mit Char. != 2 projektiv über Z:
   Denn Untermoduln freier Z-Moduln wären frei. [Kann man das auch konstruktiv zeigen?]
 
 * Q ist flach über Z: Sei a^T m = 0, a aus Z^p, m aus Q^p. Dann finde ein u
   aus Z\{0} mit u*m in Z^p. Dann gilt a^T (u*m) = 0 und (u*m) * (1/u) = m.
 
-* Daher ist jeder Körper K flach über Z: Habe Z --> Q --> K.
+* Daher ist jeder Körper K der Charakteristik 0 flach über Z: Habe Z --> Q --> K.
   Q ist flach über Z (von oben) und K ist flach über Q, da Q ein Körper ist.
 
 * Allgemeine Bemerkung: Surjektive Ringhomos sind im Allgemeinen NICHT flach.
