@@ -165,8 +165,15 @@ http://www.math.upenn.edu/~wilf/gfology2.pdf, Seite 49f.
 
 http://arxiv.org/abs/1501.01020
 
+http://arxiv.org/abs/1303.1115
+
 
 === Geometric Arbitrage Theory and Market Dynamics
 
 Simone Farinelli
 http://arxiv.org/abs/0910.1671
+
+
+=== Galoistheorie von Algorithmen
+
+http://arxiv.org/abs/1011.0014
