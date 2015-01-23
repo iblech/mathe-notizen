@@ -26,6 +26,19 @@
   http://mathoverflow.net/questions/90969/sheafification-via-hypercovers
   http://cms.dm.uba.ar/academico/carreras/licenciatura/tesis/yuhjtman.pdf
 
+* Explizit auf topologischen Räumen:
+
+  (aF)(U) = { s in prod_{z in U} F_z |
+      für alle x in U existiert eine offene Umgebung W von x in U
+      und ein Schnitt t in F(W) mit
+      s(w) = t_w für alle w in W }.
+
+  (f^(-1) F)(U) = { s in prod_{z in U} F_{f(z)} |
+      für alle x in U existiert eine offene Umgebung W von x in U
+      und eine offene Menge V mit f[W] <= V
+      und ein Schnitt t in F(V) mit
+      s(w) = t_{f(w)} für alle w in W }.
+
 
 === Wolkenkratzergarben in algebraischer Geometrie
 

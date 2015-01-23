@@ -374,6 +374,16 @@ Habe Wirkung RHom(O_X,O_X) --> RHom(O_X,F).
   Unmögliche Figuren
 
 
+=== Französische Adjektive
+
+* flabby: Restriktionsabbildungen F(X) --> F(U), U offen, sind alle surjektiv.
+
+* Flabby Garben sind Gamma-azyklisch.
+
+* Injektive Garben in AbSh(X) sind alle flabby.
+  Iversen, Thm. 3.5, Seite 93.
+
+
 === Nächste Schritte
 
 * Was besagt das klassische Resultat für Ext^i auf P^n anschaulich?
