@@ -10,6 +10,22 @@ http://math.berkeley.edu/~mhaiman/math256/Derived-Cat-1-5.pdf
 * Koszul-Auflösung von Quotienten
 
 
+=== Einschränkung von abgeleiteten Funktoren auf D^b
+
+Siehe Huybrechts, Cor. 2.68: Ist RF(A) beschränkt für alle Objekte A,
+so ist auch RF(A^*) beschränkt für alle beschränkten Komplexe A^*,
+also steigt RF zu einem Funktor D^b --> D^b ab. (Mit "beschränkt" ist natürlich
+"beschränkt in der Kohomologie" gemeint.)
+
+Das folgt sofort aus der Spektralsequenz
+
+    R^p F (H^q(A^*))  ===>  R^n F (A^*),
+
+denn diese ist in einem gewissen endlichen Bereich konzentriert (erhalte
+q-Bereich durch Beschränktheitsvoraussetzung an A^* und p-Bereich durch
+Beschränktheitsvoraussetzung an RF(Objekt).)
+
+
 === Kohomologische Funktoren, zugrundeliegender Komplex, D^b-Anreicherung
 
 http://mathoverflow.net/questions/61650/cohomological-functor-from-triangulated-category

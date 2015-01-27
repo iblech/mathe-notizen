@@ -512,6 +512,9 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
 * Allgemeine Bemerkung: Surjektive Ringhomos sind im Allgemeinen NICHT flach.
   Gegenbeispiel: Z --> Z/(2).
 
+* Z/(n) ist nicht flach über Z, denn zum Beispiel bleibt die Injektion
+  Z --> Q unter Tensorieren mit Z/(n) nicht injektiv.
+
 
 === Projektive Moduln
 
