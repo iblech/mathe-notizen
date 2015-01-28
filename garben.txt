@@ -218,6 +218,11 @@ http://mathoverflow.net/questions/45347/why-does-the-s2-property-of-a-ring-corre
 
    wenn Z \subseteq X abgeschlossen ist.
 
+5) Zu i_*, i abgeschlosse Einbettung Z --> X, gibt es einen Rechtsadjungierten
+   i^!. Der ist so definiert: (i^! E)(U) = { s in E(V) | supp(s) <= Z },
+   falls U = V cap Z, V offen in X. Das ist wohldefiniert.
+   https://math.berkeley.edu/~amathew/verd.pdf, Seite 2.
+
 
 === Wolkenkratzergarben allgemein
 

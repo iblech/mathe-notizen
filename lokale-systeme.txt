@@ -89,6 +89,8 @@ http://www.cs.cmu.edu/~kuenbanh/files/cover-crm-abstract.pdf
 
 * Konstruierbare Garben: http://www.mathematik.uni-stuttgart.de/~geckmf/skyefiles/talk10.pdf
 
+* Was sagt denn die Fünftermsequenz zur Leray-Spektralsequenz anschaulich aus?
+
 
 === Projekt mit Meru, zu sichten
 
