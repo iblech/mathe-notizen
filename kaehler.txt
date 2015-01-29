@@ -15,6 +15,22 @@ für alle x, y in B erfüllt.
   1. d ist A-homogen (und damit eine Derivation).
   2. d(a) = 0 für alle a aus A.
 
+* Seien A --> B -phi-> C Ringhomos. Dann sind A-Derivationen B --> C dasselbe
+  wie A-Algebrenhomos B --> C[eps]/(eps^2) mit B --> C[eps]/(eps^2) -eps=0-> C
+  gleich phi. Die Korrespondenz geht so:
+
+  Sei d : B --> C eine A-Derivation. Dann definiere
+
+      f : B --> C[eps]/(eps^2), b |-> phi(b) + eps d(b).
+
+  Umgekehrt erhalte eine Derivation d aus einer solchen Abbildung f über die
+  Setzung
+
+      d(x) = eps-Anteil von f(x)
+
+  zurück. Das ist Lemma 4.5.8 auf Seite 77 von Martins Doktorarbeit
+  http://arxiv.org/pdf/1410.1716v1.pdf.
+
 
 === Omega^1_B/A
 

@@ -129,14 +129,38 @@ Dabei ist der Iso wohl durch phi |-> T^n chi_phi(1/T) gegeben.
 Im Fall, dass R ein Körper ist, ist es einfacher. Dann ist K(Vect(k)_findim[T])
 einfach isomorph zur multiplikativen Gruppe der rationalen Funktionen mit
 normierte Zähler und Nenner. Der Isomorphismus schickt einen Endomorphismus auf
-sein charakteristisches Polynom.
+sein charakteristisches Polynom. Sein Inverses schickt einen normiertes Polynom
+auf seine Begleitmatrix.
+
+Man muss dabei nachrechnen:
+
+* B(fg) = B(f) + B(g) in der K-Theorie. Das folgt aus der kurzen exakten
+  Sequenz
+
+      0 -----> k[x]/(f) --g--> k[x]/(fg) -----> k[x]/(g) -----> 0.
+
+
+* B(chi(phi)) = phi. Das folgt daraus, dass man phi auf Frobeniussche
+  Normalform bringen kann. Außerdem geht die Rechenregel für B(fg) ein.
+
+* chi(B(f)) = f, aber das ist klar.
+
+Zu Automorphismen gehören solche rationale Funktionen f/g mit f(0) und g(0)
+ungleich Null. Auch die Kategorie der Automorphismen ist abelsch, da äquivalent
+zu Mod(k[T,T^(-1)])_findim. Damit ist also auch deren K-Theorie bekannt.
+
+Eine Anwendung: Die K-Theorie der lokalen Systeme auf einem zusammenhängenden
+Raum mit pi_1 = Z ist die Gruppe der f/g mit f(0), g(0) ungleich Null. Denn
+folgende Dinge sind dieselben:
+
+* lokale Systeme auf X
+* Darstellungen pi_1(X) --> Vect^fd(k)
+* endlich-dimensionale k-Vektorräume zusammen mit einem Automorphismus
 
 
 === K-Theorie eines Schemas
 
-Anwendung: Für X Schema habe Ob D^b(X) --> K_0(X) := K_0(O_X-Mod).
-
-XXX: Wirklich O_X-Mod? Oder Coh(O_X)?
+Anwendung: Für X Schema habe Ob D^b(X) --> K_0(X) := K_0(Coh(O_X)).
 
 1) Kann jedes Element in K_0(X) als Linearkombination von Klassen lokal
    freier Moduln schreiben (falls X glatt).

@@ -64,7 +64,7 @@
 
   Allerdings können wir A bis auf Konjugation aus dem k[x]-Modul k^n_phi
   zurückgewinnen. Dieser hat Träger genau auf ... dem Spektrum! Er ist also
-  eine Art verfeinertes Spektrum. Richtig interpretiert, stimmt das sogar,
+  eine Art verfeinertes Spektrum. Richtig interpretiert, stimmt das sogar dann,
   falls das charakteristische Polynom von A über k nicht in Linearfaktoren
   zerfällt. (Es gilt: supp k^n_phi = { (f) | f irreduzibler Faktor im
   charakteristischen Polynom oder Minimalpolynom von f }.)

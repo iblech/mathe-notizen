@@ -37,6 +37,9 @@ ein Iso von k-Vektorräumen ist. Das geht so:
 * Falls M und N beide beliebig endlich präsentiert sind, macht man ein
   ähnliches Argument, wobei man die vorherige Stufe schon ausnutzt.
 
+Im nicht-affinen Fall hat Martin Brandenburg einen ausführlichen Beweis. Siehe
+Prop. 5.11.9 auf Seite 181 seiner Doktorarbeit. http://arxiv.org/pdf/1410.1716v1.pdf
+
 
 === Bridgeland-King-Reid
 
