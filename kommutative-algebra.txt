@@ -5,6 +5,28 @@
   falls der Grundkörper algebraisch abgeschlossen ist.
 
 
+=== Projektoren (Idempotente)
+
+* Sei phi : V --> V ein Projektor (ein idempotenter Morphismus) in einer
+  abelschen Kategorie. Dann ist V = ker phi oplus im phi.
+  Also cok phi = ker phi.
+
+* Nicht alle endlich präsentierbaren abelschen Gruppen können als Kokern
+  eines Projektors geschrieben werden. Denn Kerne von Z-Matrizen (also Kokerne
+  von Projektoren) sind ja stets frei. 
+
+* In Ab_fp kann jedes Objekt als Kokern einer injektiven Matrix zwischen
+  freien Moduln dargestellt werden. Aber nicht als Kokern einer surjektiven.
+  Wenn man freie Moduln kategoriell und selbstdual charakterisieren kann, zeigt
+  das, dass Ab_fp^op nicht zu Ab_fp äquivalent ist: In Ap_fp kann nicht jedes
+  Objekt als Kern einer surjektiven Abbildung zwischen freien Moduln
+  geschrieben werden, in Ab_fp^op dagegen schon.
+
+* Auf jeden Fall gibt es folgendes Unterscheidungsmerkmal: In Ab_fp gibt
+  es ein Objekt X, sodass Hom(X, __) : Ab --> Set treu ist. (Nämlich X = ZZ.)
+  In Ab_fp^op gibt es das aber nicht.
+
+
 === Vektorräume ohne kanonische Basis
 
 * Kerne von linearen Abbildungen
