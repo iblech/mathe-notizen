@@ -1,3 +1,11 @@
 === Beispiele
 
 * O_n und SO_n haben beide so (schiefsymmetrische Matrizen) als Lie-Algebra.
+
+* Aut(X) sollte als { (f,g) | f.g = id, g.f = id } definiert werden, nicht als
+  { f | f bijektiv }. Denn sonst ist die Topologie nicht die richtige: Die
+  Umkehrabbildung ist dann nicht stetig.
+
+  Im Fall von glatten Mannigfaltigkeiten (statt nur topologischen Räumen) hat
+  man es etwas einfacher, da da der lokale Umkehrsatz die Differenzierbarkeit
+  der Umkehrfunktion garantiert.

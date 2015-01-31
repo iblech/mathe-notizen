@@ -205,3 +205,6 @@
 * Die infty-Kategorie D(X) ist kein infty-Topos. Aber Sh(X) natürlich schon.
   Man könnte also HoTT verwenden, um in Sh(X) zu arbeiten. D(X) ist darin die
   Kategorie der O_X-Modultypen. Klappt das? Hilft das was?
+
+* Programmieren ist allgemeiner als Beweisen. Denn man kann Programme
+  schreiben, deren Terminierung man nur klassisch zeigen kann.
