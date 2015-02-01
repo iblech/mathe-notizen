@@ -492,8 +492,7 @@ Seite 156, Beispiel 22.7
 
 === P^n als Ziel von Einbettungen
 
-Ich habe den Eindruck, dass P^n ein gern genutztes und wichtiges Ziel von
-Einbettungen ist.
+Der P^n ist ein gern genutztes und wichtiges Ziel von Einbettungen.
 
 * Ample Bündel induzieren solche Einbettungen.
 

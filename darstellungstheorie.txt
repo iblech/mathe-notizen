@@ -58,6 +58,9 @@ einmal.
 
 http://www.th.physik.uni-bonn.de/nilles/people/luedeling/grouptheory/data/grouptheorynotes.pdf
 
+Siehe aber auch: http://ncatlab.org/nlab/show/Gram-Schmidt+process
+Eine andere Basis.
+
 
 === Darstellungen der GL_n
 
