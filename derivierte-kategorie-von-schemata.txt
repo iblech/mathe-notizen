@@ -52,6 +52,24 @@ homologische Dimension n. Siehe: Huybrechts, Seite 68.
 * Ext^n(O_X, omega_X) = Hom(omega_X, omega_X)^ != 0.
 
 
+=== Auflösungen
+
+* Sei L eine sehr ample Garbe auf einem Schema X. Dann besitzt jede
+  Garbe eine (nach links gehende und vielleicht unbeschränkte) Auflösung durch
+  direkte Summanden von (negativen) Potenzen von L.
+
+  Denn jede Garbe E erlaubt, für ein gewisses m >= 0, einen Epi
+  O^s --> E tensor L^m (Serre). Diesen kann man um L^(-m) twisten.
+
+  Aber wieso finde ich auch immer endliche Auflösungen dieser Art?
+
+* Huybrechts Prop. 3.26: Wenn X regulär von Dimension n ist,
+  besitzt jede kohärente Garbe eine lokal freie Auflösung der Länge <= n.
+  Als Folge ist auch jeder beschränkte Komplex von kohärenten Garben isomorph
+  (in der abgeleiteten Kategorie) zu einem beschränkten Komplex lokal freier
+  Garben.
+
+
 === Semi-orthogonale Zerlegungen
 
 * Eine Varietät mit Serre-Dualität durch eine Garbe omega_X und

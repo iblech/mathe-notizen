@@ -72,6 +72,8 @@ http://www-math.mit.edu/~poonen/papers/h10_notices.pdf
 
 * http://homepages.math.uic.edu/~marker/orsay/orsay2.pdf
 
+* Quantifier elimination in C*-algebras. http://arxiv.org/abs/1502.00573
+
 
 === Differentialgleichungen
 

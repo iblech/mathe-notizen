@@ -649,6 +649,9 @@ Sei R nicht unbedingt kommutativ.
   chi = 1 ==> I ist regulär.
   sonst   ==> 1 = 0 in R.
 
+* Coquand, Quitté. Constructive finite free resolutions.
+  http://link.springer.com/article/10.1007%2Fs00229-011-0466-5
+
 
 === Freie Moduln
 

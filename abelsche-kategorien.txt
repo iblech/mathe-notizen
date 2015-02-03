@@ -53,6 +53,20 @@ Algebra, Paolo Aluffi, Seite 600.
   1. ==> 2.: ker(F(f)) = F(ker(f)) = 0, genauso mit cok.
   2. ==> 1.: Der Nullmorphismus X --> X hat Kern und Kokern X.
 
+* A/B kann man wohl auch so realisieren:
+  Objekte: die von A.
+  Morphismen: Hom_{A/B}(X,Y) = Hom(X,Y) modulo Morphismen, die über ein Objekt
+  aus B faktorisieren.
+
+  Das sieht man wohl so: Man hat einen kanonischen Funktor von A in die über
+  diese Art und Weise definierte Kategorie. Dieser schickt die Objekte aus B
+  auf Null, steigt also (wenn er denn exakt ist!) zu einem Funktor von A/B ab.
+  Es ist klar, dass dieser dann voll ist. Treu ist er, da er *nur* die Objekte
+  aus B auf Null schickt. Denn faktorisiert id_X über ein Objekt Y aus B, gibt
+  es also p und i mit pi = id, so ist 0 --> ker p --> Y -p-> X --> 0 eine
+  (sogar zerfallende) kurze exakte Sequenz. Wesentliche Surjektivität ist
+  sowieso klar.
+
 Literatur:
 * Quotient Categories and Localizing Functors, Carl Faith.
   http://link.springer.com/chapter/10.1007%2F978-3-642-80634-6_17

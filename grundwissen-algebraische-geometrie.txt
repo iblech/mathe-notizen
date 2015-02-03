@@ -639,7 +639,7 @@ Sei k algebraisch abgeschlossen (oder auch nur perfekt), X Varietät über k.
 Dann gilt:
 1.) X glatt <==> X regulär
 2.) X regulär ==> X normal
-3.) X regulär <== X normel, falls dim X <= 1.
+3.) X regulär <== X normal, falls dim X <= 1.
 
 * Glattheit von Morphismen bedeutet in der algebraischen Geometrie
   etwas fundamental anderes wie in der Differentialtopologie. Dort muss man
