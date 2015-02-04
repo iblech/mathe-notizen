@@ -19,6 +19,20 @@ Algebra, Paolo Aluffi, Seite 600.
   http://math.stackexchange.com/questions/215012/whats-the-definition-of-a-free-module-in-an-abelian-category
 
 
+=== Ein allgemeiner Homomorphiesatz
+
+Sei f : X --> Y ein Morphismus in einer abelschen Kategorie. Dann stehen
+
+(1) die Unterobjekte U von X mit ker(f) <= U  und
+(2) die Unterobjekte V von Y mit V <= im(f)
+
+in kanonischer Eins-zu-Eins-Beziehung, vermöge U |-> f[U] und V |-> f^(-1)[V].
+
+* Ein Korollar ist zum Beispiel, dass die Unterobjekte von X/X'
+  genau die Unterobjekte von X, die über X' liegen, sind.
+  Wende dazu das Resultat auf die kanonische Projektion X --> X/X' an.
+
+
 === Serresche Quotientenkategorien
 
 * Eine Serresche Unterkategorie B ist eine volle Unterkategorie,
