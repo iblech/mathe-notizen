@@ -34,6 +34,11 @@ a problem for global invariants reduces to sheaf version, which is "local".
 Used all the time (etale cohom, duality,...) to prove isoms.
 
 
+=== In Homotopietheorie
+
+http://mathoverflow.net/questions/156290/origin-of-spectral-sequences-in-algebraic-topology?rq=1
+
+
 === Nächste Schritte
 
 * Obige Aussage genau nachvollziehen.
