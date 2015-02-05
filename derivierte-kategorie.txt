@@ -69,6 +69,16 @@ Konstruktion in http://www.maths.ed.ac.uk/~aar/papers/neemder.pdf
 
   http://arxiv.org/pdf/math/0601185v5.pdf
 
+* http://www.mi.ras.ru/~orlov/papers/Uspekhi2003.pdf
+  "Passing from Abelian categories to their derived categories allows us to
+  solve many problems related to difficulties arising in the study of natural
+  functors. Among the first examples, we mention the creation of the global intersection
+  theory and the proof of the Riemann-–Roch theorem. These results, achieved by
+  Grothendieck and his co-authors [41], were made possible by the introduction
+  of the triangulated category of perfect complexes."
+
+  Ebenso: Riemann--Hilbert-Korrespondenz.
+
 
 === Verdier-Quotient
 
