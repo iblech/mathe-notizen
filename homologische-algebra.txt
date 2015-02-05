@@ -144,6 +144,42 @@ www.math.ucsd.edu/~k3walsh/11Bsheet6.pdf
 http://www.math.fsu.edu/~aluffi/archive/paper306.pdf
 
 
+=== Kettenkomplexmorphismus mit azyklischem Kern und Kokern
+
+Sei f : X --> Y ein Morphismus von Kettenkomplexen. Seien ker(f) und
+cok(f) azyklische Kettenkomplexe. Dann wollen wir zeigen, dass f ein
+Quasiisomorphismus ist.
+
+Das geht elementar: Dass ker(f) azyklisch ist, bedeutet:
+
+    Gilt für alpha aus X^n, dass d(alpha) = 0 und f(alpha) = 0, so gibt
+    es beta aus X^{n-1} mit alpha = d(beta) und f(beta) = 0.
+
+Dass cok(f) azyklisch ist, bedeutet:
+
+    Gilt für alpha aus Y^n mit d(alpha) = f(beta) für ein beta aus
+    X^{n+1}, so gibt es gamma aus Y^{n-1} und delta aus X^{n-1} mit
+    alpha = d(gamma) + f(delta).
+
+Dann kann man über eine Diagrammjagd zeigen, dass H^n(X) --> H^n(Y)
+injektiv und surjektiv ist.
+
+Abstrakter geht es aber auch. Betrachte die beiden kurzen exakten
+Sequenzen
+
+    0 --> ker(f) --> X --> im(f) --> 0
+
+und
+
+    0 --> im(f) --> Y --> cok(f) --> 0.
+
+Verwende dann entweder zweimal die lange exakte Sequenz in Kohomologie,
+oder argumentiere über die abgeleitete Kategorie: Dort haben wir
+ausgezeichnete Dreiecke zu den beiden kurzen exakten Sequenzen, wobei
+das vordere bzw. das hintere Objekt Null ist. Also ist der jeweils
+andere Morphismus ein Iso in der abgeleiteten Kategorie.
+
+
 === Baer-Summe und Skalarmultiplikation auf Ext^1
 
 let R be a ring. Let A and B be R-modules. Then Ext^1(A,B) has a
