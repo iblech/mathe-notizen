@@ -179,3 +179,13 @@ http://arxiv.org/abs/0910.1671
 === Galoistheorie von Algorithmen
 
 http://arxiv.org/abs/1011.0014
+
+
+=== Curry--Howard-Korrespondenz
+
+* Programmieren ist allgemeiner als Beweisen, denn es sind ja Programme
+  sinnvoll, die keinen oder nur einen klassischen Terminierungsbeweis besitzen.
+  (Marc)
+
+* Etwas in die Richtung steht auch in:
+  http://philosophymademanifest.blogspot.de/2011/04/curry-howard-for-non-dummies-part-2.html
