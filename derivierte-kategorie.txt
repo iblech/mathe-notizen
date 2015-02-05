@@ -200,6 +200,9 @@ keine Homotopieäquivalenz.
   v          v
   Z -------> Z/(3)
 
+* R(F . G) != R(F) . R(G):
+  http://mathoverflow.net/questions/83949/the-composition-of-derived-functors-commutation-fails-hazardly
+
 
 === Beispiel einer Ext-Algebra
 
@@ -320,10 +323,8 @@ wie sich eine derivierte Kategorie aus zwei Teilen zusammensetzt.
 http://math.stackexchange.com/questions/189769/when-is-the-derived-category-abelian
 
 
-=== Nächste Schritte
+=== Die (infty,1)-Kategorie der stabilen (infty,1)-Kategorien
 
-* Folgendes Must-Read-Paper lesen:
-  Orlov, Derived categories of coherent sheaves and equivalences between them.
-  http://www.mi.ras.ru/~orlov/papers/Uspekhi2003.pdf
-
-* Recollement-Paper lesen
+... ist vermutlich nicht stabil. Denn das terminale Objekt ist vermutlich die
+(infty,1)-Kategorie mit nur einem Objekt (einem Nullobjekt), während das
+initiale Objekt vermutlich die leere Kategorie ist.

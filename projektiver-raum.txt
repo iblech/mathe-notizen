@@ -503,6 +503,12 @@ Der P^n ist ein gern genutztes und wichtiges Ziel von Einbettungen.
 
 * http://mathoverflow.net/questions/25603/ample-line-bundles-sections-morphisms-to-projective-space
 
+* Sei i : X --> P^n gegeben durch ein Geradenbündel L mit (n+1) Schnitten.
+  Dann gilt also i^* O(1) = L. Unter i_* wird dann Tensorieren mit L zu
+  Tensorieren mit O(1):
+
+      i_*(E tensor L) = i_*(E) tensor O(1).
+
 
 === Nächste Schritte
 

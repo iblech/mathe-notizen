@@ -223,7 +223,7 @@ Siehe: Christian Schnell. The fundamental group is not a derived invariant.
   aufspannende Klasse in D^b(X).
 
 
-=== Projektionsformel
+=== Projektionsformel (Push-/Pull-Formel)
 
 Sei f : X --> Y ein eigentlicher Morphismus. Dann gilt für die beschränkten
 derivierten Kategorien: Die kanonischen Morphismen
@@ -269,8 +269,15 @@ Automorphismen von D^b(X) induzieren ...
 
 * Was bedeutet Omega^n ~~ O anschaulich? Welche Konsequenzen hat das?
 
+* Folgendes Must-Read-Paper lesen:
+  Orlov, Derived categories of coherent sheaves and equivalences between them.
+  http://www.mi.ras.ru/~orlov/papers/Uspekhi2003.pdf
 
-Literatur:
+* Recollement-Paper lesen
+
+
+=== Literatur
+
 * Caldararu. Derived categories of schemes: a skimming.
   http://www.math.wisc.edu/~andreic/publications/lnPoland.pdf
 
