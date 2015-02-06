@@ -279,6 +279,20 @@ Quelle: Beilinson, Coherent sheaves on P^n and problems in linear algebra.
   Habe ich diese Art der Zerlegung bei D(P^n)?
 
 
+=== Mutation von exzeptionellen Sequenzen
+
+* Wird gut in Bondal, Representation of associative algebras and coherent
+  sheaves, Seite 25 erklärt. Es ist ganz leicht, nachzuweisen, dass die
+  Mutation einer exzeptionellen Sequenz wieder eine exzeptionelle Sequenz ist;
+  dazu Hom(E, __), Hom(__, L_E(F)) und Hom(F, __) verwenden und die induzierten
+  langen exakten Sequenzen betrachten.
+
+* Mutation von Sequenzen bewahrt Vollheit.
+
+* Mutationen erfüllen die Relationen der braid group. So erhält man also eine
+  Wirkung der braid group auf der Menge der exzeptionellen Sequenzen.
+
+
 === Vergleich mit einer derivierten Kategorie von Moduln
 
 Sei E_1, ..., E_m eine starke volle exzeptionelle Sequenz (stark: Hom(E_i,
@@ -292,6 +306,10 @@ und zwar vermöge RHom(oplus_i E_i, __).
 Das stimmt zumindest, wenn C = D^b(X) für eine glatte projektive Varietät X.
 
 * Daraus folgt wohl die klassische BGG-Korrespondenz!
+
+* Das steht in Bondal, Representation of associative algebras and coherent
+  sheaves, Thm. 6.2.
+  http://iopscience.iop.org/0025-5726/34/1/A02/pdf/0025-5726_34_1_A02.pdf
 
 
 === Monomorphismen in derivierten Kategorien zerfallen

@@ -73,6 +73,9 @@ Und eine nette Formel, für beliebige Köcherdarstellungen X und Y:
         dim Hom(X,Y) - dim Ext^1(X,Y) =
         sum_v dim(X_v) dim(Y_v) - sum_a dim(X_{Quelle a}) dim(Y_{Ziel a}).
 
+(Köcher mit Relationen können eine größere homologische Dimension als 1
+besitzen.)
+
 
 === Modulräume von Darstellungen von Köchern
 

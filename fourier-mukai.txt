@@ -2,7 +2,7 @@
 
 * Jeder volltreue Funktor zwischen den beschränkten derivierten Kategorien
   zusammenhängender glatter projektiver Schemata über C wird von einem bis auf
-  Isomorphie eindeutigen Fourier-Mukai-Kern induziert.  Siehe Hille, van den Bergh.
+  Isomorphie eindeutigen Fourier-Mukai-Kern induziert. Siehe Hille, van den Bergh.
 
 * Das kann man nutzen, um die die Äquivalenzen zu klassifizieren.
 
@@ -28,6 +28,8 @@
 * die Euler-Form auf K(X) (mit Werten in Z).
 
 * siehe auch bei den Vorteilen der Darstellung durch Kerne.
+
+* im glatten projektiven Fall: die kanonischen und antikanonischen Algebren.
 
 
 === Beispiele für Kerne
