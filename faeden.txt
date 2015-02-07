@@ -73,6 +73,8 @@
 
 === Hilbertschema
 
+* http://www.northeastern.edu/iloseu/Barbara_14_complete.pdf
+
 * http://arxiv.org/pdf/math/0504590.pdf Konstruktion von Hilb und Co.,
   evtl. auch intern nützlich.
 
