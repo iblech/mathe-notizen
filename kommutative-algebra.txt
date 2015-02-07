@@ -383,6 +383,7 @@ die Länge verhält sich additiv.
 
 Beispiel: Sei R ein Hauptidealbereich. Dann ist die Länge von R/(a)
 gleich der Gesamtzahl irreduzibler Faktoren in a.
+(Bem.: R-Untermoduln von R/(a) sind dasselbe wie Ideale des Rings R/(a).)
 
 Proposition: Sei A ein noetherscher lokaler Ring und zugleich eine Algebra über
 einem Körper k. Sei M ein endlich erzeugter A-Modul.

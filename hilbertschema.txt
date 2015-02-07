@@ -17,6 +17,27 @@
 * Abgeleitete Kategorie des Hilbertschemas
 
 
+=== Klassifikation von Matrizen modulo Konjugation
+
+* En k[X]-Modul der Länge n bis auf Isomorphie ist wohl dasselbe wie eine (n x n)-Matrix
+  modulo Konjugation. Denn eine solche Matrix induziert auf k^n eine
+  k[X]-Struktur der Länge n.
+
+  Umgekehrt ist ein solcher Modul wohl automatisch endlich präsentiert (wenn
+  das nicht automatisch folgt, sollte es vorausgesetzt werden) und daher bis
+  auf Isomorphie von der Form oplus_i k[X]/(f_i). Dessen Länge, n, ist gleich
+  der Summe der Grade der f_i (hier geht ein, dass wir k als algebraisch
+  abgeschlossen voraussetzen müssen). Also lässt sich der Modul durch eine
+  (n x n)-Matrix realisieren -- einfach eine Blockmatrix aus Begleitmatrizen
+  aufbauen.
+
+* Das Hilbertschema von n Punkten auf Spec k[X] klassifiziert nun
+  nicht Länge-n-k[X]-Moduln, sondern nur Länge-n-Quotienten von k[X].
+  Das sind wohl nur die (n x n)-Matrizen, deren Frobeniussche Normalform aus
+  einem einzigen Kästchen besteht -- also nur die Begleitmatrizen. (In der
+  Jordanform gesprochen: zu jedem Eigenwert nur ein Kästchen.)
+
+
 === X^[n] über die Proj-Konstruktion
 
 * (C^2)^[n] lässt sich als relatives Proj über Sym^n C^2 realisieren.
