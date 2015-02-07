@@ -566,6 +566,21 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
 * Ein A-Modul M ist genau dann projektiv und endlich erzeugt, wenn
   es Elemente x_1,...,x_n aus M und eta_1,...,eta_n aus M^ mit
   x = sum_i eta_i(x) x_i für alle x aus M gibt. ("Dual basis lemma")
+  (Automatisch folgt dann für eta aus M^: eta = sum_i eta_i eta(x_i).
+  Denn setzt man in die rechte Seite ein beliebiges x ein, so erhält man:
+  sum_i eta_i(x) eta(x_i) = sum_i eta(eta_i(x) x_i) = eta(sum_i eta_i(x) x_i) =
+  eta(x). Nicht folgen tut eta_i(x_j) = delta_ij. Deswegen müssen weder die x_i
+  noch die eta_i linear unabhängig sein.)
+
+  Eine Richtung zeigt man so: Gegebene Erzeuger induzieren eine surjektive
+  Abbildung A^n -pi-> M. Wegen der Projektivität besitzt die
+  Identitätsabbildung auf M einen Lift -- eine Abbildung rho : M --> A^n
+  mit pi . rho = id. Setze dann eta_i := pi_i . rho.
+
+  Als Folge ist übrigens M --> M^^ injektiv.
+
+* Ist M projektiv und endlich erzeugt, so ist auch M^ projektiv und
+  endlich erzeugt, und M --> M^^ ist sogar ein Iso.
 
 
 === Tensorprodukt
