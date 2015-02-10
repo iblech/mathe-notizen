@@ -383,6 +383,9 @@ Habe Wirkung RHom(O_X,O_X) --> RHom(O_X,F).
 * Injektive Garben in AbSh(X) sind alle flabby.
   Iversen, Thm. 3.5, Seite 93.
 
+* Auf lokal noetherschen Schemata sind wohl die Halme injektiver Modulgarben
+  wieder injektiv. Steht in Tohoku, Prop. 4.1.2, Seite 70.
+
 
 === Kohomologie mit kompaktem Träger
 
@@ -398,6 +401,29 @@ https://amathew.wordpress.com/2011/06/15/verdier-duality-on-manifolds-how-to-get
 
 * Wenn X orientierbar ist, ist omega_X die konstante Garbe k;
   so erhält man Poincaré-Dualität zurück.
+
+
+=== Dimensiontheorie
+
+* In Grothendiecks Tohoku-Artikel steht (Kor. vor Thm. 3.6.5):
+  Unter gewissen Voraussetzung genügt für dim(X) <= n, dass H^{>n}(X, Z_U) = 0
+  für alle offenen Teilmengen U.
+
+
+=== Die tolle lokal-zu-global Spektralsequenz
+
+* H^p(X, EXT^q(A, B)) ==> Ext^n(A, B).
+
+* Sei A eine lokal freie Garbe. Dann ist HOM(A, __) exact.
+  Also verschwinden die höheren EXT^n(A, __).
+  Die lokal-zu-global Spektralsequenz sagt dann:
+      Ext^p(A, B) = H^p(X, HOM(A, B)).
+
+
+=== Fixpunktformeln
+
+http://math.univ-lyon1.fr/~fu/Exposes/PointFixe.pdf
+von Lie Fu
 
 
 === Nächste Schritte

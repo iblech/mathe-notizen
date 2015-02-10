@@ -2,6 +2,14 @@
 
 http://mathoverflow.net/questions/4214/equivalence-of-grothendieck-style-versus-cech-style-sheaf-cohomology
 
+* Im Tohoku-Artikel steht (Kor. 4 auf Seite 60) eine Aussage, dass
+  Čech = Garbenkohomologie, die als Voraussetzung nur Verschwindung von
+  Čech-Kohomologie benötigt. Damit kann man wohl den Serreschen
+  Verschwindungssatz beweisen.
+
+* Außerdem steht dort (eine Seite weiter) ein Beispiel, wo Čech-H^2 Null, aber
+  das echte H^2 nicht Null ist.
+
 
 === Zusammenhang zu simplizialer Kohomologie
 

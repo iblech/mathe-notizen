@@ -81,6 +81,42 @@ in kanonischer Eins-zu-Eins-Beziehung, vermöge U |-> f[U] und V |-> f^(-1)[V].
   (sogar zerfallende) kurze exakte Sequenz. Wesentliche Surjektivität ist
   sowieso klar.
 
+* Mohamed Barakat, Markus Lange-Hegermann: Wenn Zugehörigkeit von Objekten zu B
+  entscheidbar ist, und A konstruktiv abelsch ist, so ist auch A/B konstruktiv
+  abelsch. Die Morphismen in A/B werden dabei durch dynamische Gabriel-Morphismen
+  repräsentiert, nicht über die Definition mit dem induktiven Limes.
+
+  (Die Entscheidbarkeit der Gleichheit von Morphismen in A/B ist sogar mit dem
+  naiven Modell über die Definition klar: Ein Morphismus ist Null, wenn sein
+  Bild Null ist; die vor- und nachgeschalteten Isomorphismen ändern nichts am
+  Bild, weswegen auch das Bild des tatsächlich zugrunde liegenden Morphismus
+  betrachtet werden kann; nun kann einfach geprüft werden, ob das in A
+  berechnete Bild in B liegt.
+
+* Welchen Gleichungslöser für rationale Matrizen bekommt man, wenn man in
+  Ab/Torsion statt Q-Vect rechnet?
+
+  Zum Beispiel: Sei eine rationale Matrix A gegeben. Wir wollen herausfinden,
+  ob A surjektiv ist. Dazu müssen wir prüfen, ob der Kokern von A Null ist.
+  Äquivalent ist die Frage, ob der Z-Kokern eines gewissen Vielfachen von A,
+  welches nur ganzzahlige Einträge hat, ein Torsionsmodul ist.
+  Das bedeutet: In der Smithschen Normalform dürfen keine Nuller vorkommen.
+  Okay; das ist auch ein anderweitig bekanntes Kriterium.
+
+* Bewahrt denn der Projektionsfunktor A --> A/B Injektive oder Projektive?
+  Reflektieren tut Injektive jedenfalls nicht, wie das Beispiel Ab -->
+  Ab/Torsion zeigt.
+
+* Manchmal hat der Projektionsfunktor einen Rechtsadjungierten S,
+  den "section functor". Dann gilt also Hom_{A/B}(Q(X), Q(Y)) =
+  Hom_A(X, SQ(Y)), womit man keinen Limesprozess mehr durchführen muss.
+
+* Es gibt eine natürliche Trafo colim Ext_A^n(M', N/N') --> Ext^n_{A/B}(M,N).
+  Wenn es einen Schnittfunktor gibt, ist die für n = 1 ein Iso (für n = 0
+  sowieso). Unter besseren Bedingungen erhält man für "saturierte" Objekte
+  sogar eine Isomorphie in allen Graden. Steht in Mohameds Bericht in
+  Oberwolfach2.pdf.
+
 Literatur:
 * Quotient Categories and Localizing Functors, Carl Faith.
   http://link.springer.com/chapter/10.1007%2F978-3-642-80634-6_17

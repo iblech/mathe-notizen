@@ -35,6 +35,10 @@
   K(X_G) nicht mit der offensichtlich guten Definition von K_G(X) über
   äquivariante Bündel überein.
 
+* In Grothendiecks Tohoku-Artikel steht im letzten Kapitel auch
+  einiges zu Garbenkohomologie im Kontext einer G-Wirkung. Insbesondere gibt es
+  dort eine Spektralsequenz.
+
 
 === Verbindung zwischen H_G(X) und H(X/G)
 

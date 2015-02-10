@@ -434,6 +434,20 @@ muss.
 
       M ---> M ---> M ---> ...   (jeweils Multiplikation mit f).
 
+* Sei (s_i) eine Zerlegung der Eins in einem Ring A. Dann ist A der
+  inverse Limes von A[s_i^(-1)] --> A[s_i^(-1), s_j^(-1)]. (Sagt Lombardi in
+  Oberwolfach2.pdf.)
+
+  Als Korollare erhält man: Nullheit und Invertierbarkeit von Ringelementen
+  kann man lokal testen; Elemente kann man lokal angeben; Ringhomos kann man
+  lokal konstruieren.
+
+  Außerdem kann man viele Eigenschaften lokal testen; Lombardi gibt unter
+  anderem an: Kohärenz, Normalität, Prüferität, (bei Algebren) endlich erzeugt,
+  endlich präsentiert, glatt, unverzweigt, ...
+
+  Analoges gilt für Moduln und für Rahmen/distributive Verbände.
+
 
 === Lokale Ringe
 
