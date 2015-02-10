@@ -21,6 +21,9 @@
 
 * http://www.math.uni-bielefeld.de/~hkrause/nantes_notes.pdf
 
+* http://eprints.ma.man.ac.uk/1411/01/ShfifTorsTh.pdf
+  Mod(O_X) endlich präsentiert
+
 
 === Symmetrische Produkte
 
