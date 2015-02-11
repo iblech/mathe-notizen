@@ -7,7 +7,8 @@ Exakte Funktoren vertauschen mit Kohomologie und bewahren daher insbesondere
 Azyklizität.
 
 Hat ein additiver Funktor einen linksexakten Linksadjungierten, so schickt er
-injektive Objekte auf injektive.
+injektive Objekte auf injektive. (Es genügt sogar, wenn der Linksadjungierte
+additiv ist und Monos auf Monos schickt.)
 Insbesondere bewahrt der Funktor "|_U", wobei U offen, Injektive.
 
 Eine Kettenhomotopie h zwischen f, g: X --> Y ist dasselbe wie ein Komplexmorphismus
