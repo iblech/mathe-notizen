@@ -14,6 +14,18 @@ http://mathoverflow.net/questions/187385/what-does-an-endomorphism-in-a-triangul
 http://ncatlab.org/nlab/show/spectral+sequence+of+a+filtered+stable+homotopy+type
 
 
+=== Grothendieck-Spektralsequenz
+
+Kapitel 2 in /Fourier–Mukai and Nahm Transforms in Geometry and Mathematical
+Physics/ von Bartocci et al., Seite 60 (9780817632465-c1.pdf): Wenn F, G
+triangulierte Funktoren zwischen zwei derivierten Kategorien sind, so gibt es
+angeblich eine Spektralsequenz
+
+    H^p F(H^q G(X)) ==> H^n (F . G)(X),
+
+also wie die Grothendieck-Spektralsequenz.
+
+
 === Hyperkohomologie
 
 * E_1 : R^i F(A^j) ==> R^{i+j} F(A^*)

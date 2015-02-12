@@ -2,6 +2,8 @@
 
 * Huybrechts gibt auf Seite 193 einen Kurzüberblick.
 
+* http://www.mathematik.uni-mainz.de/Members/rterpere/abelian-varieties-old-new
+
 
 === Elliptische Kurven
 

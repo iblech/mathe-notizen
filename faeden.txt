@@ -1,3 +1,32 @@
+=== dg
+
+* http://mathoverflow.net/questions/55215/what-is-the-hochschild-cohomology-of-the-dg-category-of-perfect-complexes-on-a-v
+
+* http://arxiv.org/pdf/math/0408337v7.pdf
+
+* file:///home/iblech/Downloads/9780817632465-c1%20(1).pdf
+
+* http://www.hamilton.tcd.ie/events/swisk.pdf
+
+* http://atlas.mat.ub.edu/grgta/articles/Keller.pdf
+
+* http://users2.unimi.it/stellari/Research/Papers/dgFM.pdf
+
+* http://www.math.harvard.edu/~gaitsgde/GL/textDG.pdf
+
+* http://pages.uoregon.edu/vvologod/papers/derivedfunctorsrevised.pdf
+
+* http://webusers.imj-prg.fr/~bernhard.keller/publ/dgcatX.pdf
+
+* http://smf4.emath.fr/Publications/Bulletin/135/pdf/smf_bull_135_435-474.pdf
+
+* http://www-home.math.uwo.ca/~mfrankla/HomotopySem/ToenVaquie_ModuliObjDGCats.pdf
+
+* http://mathoverflow.net/users/350/reid-barton
+
+* http://mathoverflow.net/questions/89182/why-the-concept-of-compactly-or-well-generated-in-triangulated-categories-is?rq=1
+
+
 === Derivierte Kategorie konstruktiv
 
 * Dynamische Injektive: Genügt meine naive Definition, um injektive Auflösungen
@@ -20,6 +49,10 @@
 === Kompakte Objekte
 
 * http://www.math.uni-bielefeld.de/~hkrause/nantes_notes.pdf
+
+* http://people.maths.ox.ac.uk/rouquier/papers/leeds.pdf
+  auch perfekte Komplexe, Gabriel-Rekonstruktion, Serresche Unterkategorien von
+  Coh(X), ...
 
 * http://eprints.ma.man.ac.uk/1411/01/ShfifTorsTh.pdf
   Mod(O_X) endlich präsentiert
