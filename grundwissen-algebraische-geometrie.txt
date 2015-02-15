@@ -555,6 +555,9 @@ Beweis durch folgende Kette äquivalenter Aussagen:
 * 1 \in sqrt(M)  (Zorn)
 * 1 \in (M)
 
+"Note also that one can deduce the Nullstellensatz from this result, which
+kills two birds with one stone." http://mathoverflow.net/a/28633/31233
+
 
 === Grad und Geschlecht
 

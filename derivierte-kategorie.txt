@@ -16,6 +16,15 @@ http://math.berkeley.edu/~mhaiman/math256/Derived-Cat-1-5.pdf
   Derived categories and scalar extensions, Doktorarbeit von Sosna.
 
 
+=== Serre-Funktor
+
+* Hom(A, B) = Hom(B, SA)^.
+
+* Admissible Unterkategorien von triangulierten Kategorien mit Serre-Funktor
+  besitzen auch einen Serre-Funktor, siehe Lemma 2.3 in
+  http://arxiv.org/pdf/1404.2105v1.pdf.
+
+
 === Einschränkung von abgeleiteten Funktoren auf D^b
 
 Siehe Huybrechts, Cor. 2.68: Ist RF(A) beschränkt für alle Objekte A,

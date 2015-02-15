@@ -1,5 +1,9 @@
 === dg
 
+* Quellen [16] und [44] in http://arxiv.org/pdf/1108.3787v1.pdf
+  beschreiben, wie man auf dg-Niveau Verdier-Quotienten bildet und welche
+  universelle Eigenschaft das hat.
+
 * http://mathoverflow.net/questions/55215/what-is-the-hochschild-cohomology-of-the-dg-category-of-perfect-complexes-on-a-v
 
 * http://arxiv.org/pdf/math/0408337v7.pdf
@@ -57,6 +61,9 @@
 * http://eprints.ma.man.ac.uk/1411/01/ShfifTorsTh.pdf
   Mod(O_X) endlich präsentiert
 
+* http://www.recercat.net/bitstream/handle/2072/9181/pr791?sequence=1
+  Derived categories and Grothendieck duality, Neeman.
+
 
 === Symmetrische Produkte
 
@@ -92,6 +99,13 @@
   in K-Theorie berechnen zu können?
 
 * THE HALL ALGEBRA OF A SPHERICAL OBJECT. http://arxiv.org/pdf/0810.5546.pdf
+
+* http://arxiv.org/pdf/1404.2105v1.pdf von Sosna und Andi.
+  Dort wird behauptet, dass D^b(X^[n]) "viele" semi-orthogonale Zerlegungen
+  zulässt. Und dass, wenn D^b(X) eine volle exzeptionelle Sequenz zulässt, dann
+  auch D^b(X^[n]). (Seltsam: Wenn X eine K3-Fläche ist, dann sind doch X und
+  X^[n] Calabi-Yau-Mannigfaltigkeiten. Daher sollte der Anwendungsbereich
+  dieser Aussagen sehr begrenzt sein.)
 
 
 === Derivierte Automorphismen
@@ -229,6 +243,10 @@
 * http://mathoverflow.net/questions/142217/barrs-theorem-and-constructivity
 
 * http://mathoverflow.net/questions/125200/coboundaries-and-gluing-in-cech-cohomology-intuition
+
+* "Explain that coherent sheaves are generically free, and use this to prove
+  things like generic smoothness of varieties (by applying it to the tangent
+  sheaf)." http://mathoverflow.net/a/28633/31233
 
 
 === Online

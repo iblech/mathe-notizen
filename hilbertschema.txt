@@ -17,6 +17,21 @@
 * Abgeleitete Kategorie des Hilbertschemas
 
 
+=== Kanonisches Bündel
+
+* http://mathoverflow.net/a/55870/31233:
+  omega_{X^[n]} = omega_X^[n], also das tautologische Bündel zu omega_X.
+  Steht angeblich in Göttsches Buch über Hilbertschemata von Punkten.
+
+
+=== Semi-orthogonale Zerlegung
+
+Kann aus exzeptionellen Sequenzen von D^b(X) welche von D^b(X^[n]) gewinnen.
+Siehe http://arxiv.org/pdf/1404.2105v1.pdf von Sosna und Andi.
+
+http://arxiv.org/pdf/math/0612800v1.pdf wird dabei referenziert.
+
+
 === Klassifikation von Matrizen modulo Konjugation
 
 * En k[X]-Modul der Länge n bis auf Isomorphie ist wohl dasselbe wie eine (n x n)-Matrix

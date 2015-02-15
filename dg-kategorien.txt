@@ -185,6 +185,17 @@ New enhancements of derived categories of coherent sheaves and applications.
 http://arxiv.org/abs/1406.7559
 
 
+=== Krasse Dinge in der dg-Welt
+
+* "By simply inverting the class of derived Morita equivalences,
+  Hochschild homology can be conceptually understood as the Euler
+  characteristic." http://arxiv.org/pdf/1108.3787v1.pdf, Prop. 3.3.
+
+* Es ist ja bekannt, dass das normale D(X) zwar viele Invarianten von X
+  festlegt, aber nicht erlaubt, diese aus D(X) zu berechnen. Mit dem dg-D(X)
+  ist dieser Makel behoben.
+
+
 === Nächste Schritte
 
 * Das dg-Paper von Toën zusammenfassen.

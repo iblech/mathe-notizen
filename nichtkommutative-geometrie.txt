@@ -1,0 +1,16 @@
+* Nichtkommutative Motive:
+  http://www.ihes.fr/~maxim/TEXTS/ncmotives%20(Skoda%20notes).pdf
+
+* Idee: Sehe eine dg-Kategorie als dg-Kategorie der perfekten Komplexe
+  über einem hypothetischen nichtkommutativen Schema an.
+  http://arxiv.org/pdf/1108.3787v1.pdf
+
+* Viele Schemata werden in der nichtkommutativen Sicht affin.
+  Zum Beispiel ist D^dg_perf(P^n) = D^dg_perf(B), wobei B = End(O(0) oplus ...
+  oplus O(n))^op. Dagegen ist Coh(P^n) "weit entfernt" von einer Kategorie von
+  Moduln. Example 2.2 in http://arxiv.org/pdf/1108.3787v1.pdf.
+
+* Man kann jedes Schema auch als nichtkommutatives Schema ansehen.
+  Der dadurch definierte Funktor ist aber nicht voll: Es kann Isos zwischen
+  D(X) und D(Y) geben, die man nicht auf Niveau der Schemata selbst sieht.
+  Das ist ja Gegenstand des ganzen Fourier-Mukai-Geschäfts.

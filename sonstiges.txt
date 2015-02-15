@@ -194,3 +194,11 @@ http://arxiv.org/abs/1011.0014
 === BV
 
 * https://golem.ph.utexas.edu/category/2007/10/bv_for_dummies_part_v.html
+
+
+=== Wahrscheinlichkeit, dass Gruppenelemente kommutieren
+
+Eine Gruppe, in der die Wahrscheinlichkeit, dass zwei zufällige Elemente
+miteinander kommutieren, 5/8 übersteigt, ist abelsch.
+
+http://mathoverflow.net/questions/91685/5-8-bound-in-group-theory/91686#91686

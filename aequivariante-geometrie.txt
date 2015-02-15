@@ -151,6 +151,15 @@ falls in R die Zahl 2 regulär ist.
 * Evtl. gilt auch Hom_{D^b_G(X)}(E, F) = Hom_{D^b(X)}(E, F)^G,
   aber das habe ich noch nicht genau nachvollzogen.
 
+* Krug und Sosna in http://arxiv.org/pdf/1404.2105v1.pdf#page=13: Angeblich
+  folgt aus der Künneth-Formel, dass
+
+      Ext^*_{X^n}(E^boxtensor(n), E^boxtensor(n))^{S_n} =
+          S^n Ext^*_X(E, E).
+
+  Siehe auch http://mathoverflow.net/questions/141222/k%C3%BCnneth-formula-for-ext-groups.
+  Außerdem Remark 4.2 in dem Paper.
+
 http://www.freidok.uni-freiburg.de/volltexte/2613/pdf/Diplomarbeit.pdf
 
 Siehe auch: http://stanford.edu/~zwyun/Bernstein-Lunts.pdf

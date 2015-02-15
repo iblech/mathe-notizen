@@ -166,6 +166,11 @@ rings.
 * D^b(Z) ist angeblich die freie algebraische triangulierte Kategorie
   auf einem Erzeuger. http://personal.us.es/fmuro/htag.pdf
 
+* Dass D^b(X) frei und endlich durch eine Garbe T erzeugt wird, bedeutet nach
+  /Derived categories of projective bundles/ (Costa, Miró-Roig), dass D^b(X) zu
+  D^b(Hom_X(T,T)) äquivalent ist.
+  http://www.ams.org/journals/proc/2005-133-09/S0002-9939-05-07846-9/S0002-9939-05-07846-9.pdf
+
 
 === Nächste Schritte:
 

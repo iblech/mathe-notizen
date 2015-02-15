@@ -10,12 +10,6 @@ Def.: D(X) := D^b(Coh(O_X)).
   Siehe http://www.math.uni-hamburg.de/home/sosna/diplom-online.pdf.
 
 
-=== Shifts von Wolkenkratzergarben sehen die gesamte derivierte Kategorie
-
-http://win.ua.ac.be/~pbelmans/seminar/ss/examples-ag.pdf
-Seite 7
-
-
 === Kurven
 
 Sei C eine glatte projektive Kurve (über C). Sei Y irgendeine glatte projektive
@@ -243,10 +237,22 @@ Die Fundamentalgruppe wird übrigens *nicht* von D^b(X) bestimmt.
 Siehe: Christian Schnell. The fundamental group is not a derived invariant.
 
 
+=== Wieso D^b(X) und nicht die volle derivierte Kategorie?
+
+Nicht D^+(X) oder D^-(X), weil dann die verschiedenen Funktoren teilweise aus
+der Kategorie herausführen bzw. nicht auf ihr definierbar sind.
+
+Nicht die volle Kategorie, da die wichtigen Funktoren auf ihr nicht (oder
+komplizierter) zu definieren sind.
+
+
 === Aufspannende Klassen
 
 * Sei X glatt, projektiv über k. Dann bilden die k(x), x abgeschlossener Punkt,
   eine aufspannende Klasse von D^b(X).
+
+  Motto: "Shifts von Wolkenkratzergarben sehen die gesamte derivierte
+  Kategorie", http://win.ua.ac.be/~pbelmans/seminar/ss/examples-ag.pdf, Seite 7
 
 * Sei X eine projektive Varietät über einem Körper k und L ein amples
   Geradenbündel auf X. Dann bilden die L^i eine ample Folge und somit eine
