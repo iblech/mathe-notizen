@@ -9,6 +9,16 @@ http://win.ua.ac.be/~pbelmans/seminar/ss/examples-ag.pdf
 Seite 7
 
 
+=== Kurven
+
+Sei C eine glatte projektive Kurve (über C). Sei Y irgendeine glatte projektive
+Varietät. Dann sind C und Y genau dann isomorph, wenn sie deriviert äquivalent
+sind (Huybrechts Cor. 5.46).
+
+Das ist klar im Fall g(C) = 0 (dann ist omega auf C = P^1 anti-ampel) und im
+Fall g(C) > 1 (dann ist omega ampel). Im elliptischen Fall ist es schwieriger.
+
+
 === Sphärische Objekte
 
 * Ein Objekt E heißt genau dann sphärisch, wenn
@@ -251,6 +261,17 @@ Automorphismen von D^b(X) induzieren ...
 * Automorphismen der K-Theorie (welche sogar mit der Euler-Form verträglich sind),
 * Automorphismen in Kohomologie (wenn durch einen Fourier-Mukai-Kern gegeben),
 * Automorphismen von Stab(X), siehe http://arxiv.org/pdf/1310.8266.pdf.
+
+
+=== D^b(X), K(X) und H^*(X)
+
+* Die Zuordnung von Klassen e aus K(X) zu ihren Mukai-Vektoren
+  v(e) := ch(e) sqrt(td(X)) definiert einen Homo K(X) --> H^*(X, Q)
+  abelscher Gruppen. Dieser Homo wird im Allgemeinen nicht surjektiv sein!
+
+* Ist e aus K(X x Y), so gibt es einen Fourier-Mukai-Homo
+  H^*(X,Q) --> H^*(Y,Q). Dieser erhält im Allgemeinen weder die Graduierung
+  noch die multiplikative Struktur.
 
 
 === Nächste Schritte

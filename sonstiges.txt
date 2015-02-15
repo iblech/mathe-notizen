@@ -189,3 +189,8 @@ http://arxiv.org/abs/1011.0014
 
 * Etwas in die Richtung steht auch in:
   http://philosophymademanifest.blogspot.de/2011/04/curry-howard-for-non-dummies-part-2.html
+
+
+=== BV
+
+* https://golem.ph.utexas.edu/category/2007/10/bv_for_dummies_part_v.html

@@ -59,6 +59,9 @@ Konstruktion in http://www.maths.ed.ac.uk/~aar/papers/neemder.pdf
 
 * Einige Invarianten faktorisieren über die derivierte Kategorie:
   K-Theorie, Hochschild-(Ko-)Homologie.
+  Außerdem topologische K-Theorie, und damit die Summe der geraden und die
+  Summe der ungeraden Betti-Zahlen (http://arxiv.org/pdf/math/0001043v2.pdf).
+  Außerdem geeignete direkte Summen über die Hodge-Zerlegung (Huybrechts Prop. 5.39).
 
   Aber: Die derivierte Kategorie alleine erlaubt noch keine Berechnung dieser
   Invarianten (auch nicht mit ihrer triangulierten Struktur). Damit das klappt,

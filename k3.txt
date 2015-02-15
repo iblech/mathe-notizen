@@ -4,6 +4,33 @@
   Liedtke - Rational curves on K3-surfaces.pdf
 
 
+=== Definition
+
+Eine K3-Fläche ist eine kompakte komplexe Fläche X mit omega_X = O_X und H^1(X, O_X) = 0.
+
+
+=== Beispiele
+
+* Jede glatte Quartik im P^3.
+
+* Die Kummer-Fläche einer abelschen Fläche.
+
+Jede K3-Fläche hat als Euler-Charakteristik 24. Das folgt zum Beispiel aus
+Noethers Formel.
+
+
+=== Derivierte Äquivalenzen
+
+* Ist D^b(K3) äquivalent zu D^b(glatt projektiv), so ist (glatt projektiv) auch
+  schon K3. (Huybrechts 10.1)
+
+* Mukai-Vektoren von Klassen aus K(X) liegen schon in H^*(X,Z) (statt in
+  H^*(X,Q)) (Huybrechts Lemma 10.6).
+
+* Zwei K3-Flächen sind genau dann deriviert äquivalent, wenn es eine
+  Hodge-Isometrie zwischen den H~ gibt (Huybrechts Prop. 10.10).
+
+
 === Globaler Torelli
 
 Laut Huybrechts (Seite 230) wichtigstes Theorem über K3-Flächen.

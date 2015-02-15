@@ -7,7 +7,7 @@
 
 === Elliptische Kurven
 
-Wieso gibt es auf elliptischen Kurven ein Gruppengesetzt, aber nicht zum
+Wieso gibt es auf elliptischen Kurven ein Gruppengesetz, aber nicht zum
 Beispiel auf Kreisen? Hängt mit der Interpretation als Divisoren zusammen.
 Verstehen!
 
@@ -18,7 +18,7 @@ Der Koordinatenring einer elliptischen Kurve ist von Dimension 1, evtl. ein
 Dedekindring.
 
 http://www.math.rochester.edu/people/faculty/edummit/docs/talk_NTS_elliptic_curves.pdf
-ist gut!
+ist gut! http://www.math.wisc.edu/~dummit/docs/talk_NTS_elliptic_curves.pdf
 
 
 === Kohomologie und wichtige Garben

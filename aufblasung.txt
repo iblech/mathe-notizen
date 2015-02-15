@@ -72,6 +72,16 @@ Das steht zum Beispiel in http://stacks.math.columbia.edu/tag/063H und
 in Manins /Lectures on the K-functor in algebraic geometry/, Lemma 12.3.
 
 
+=== Kohomologische Struktur der Aufblasung
+
+* Sei q : X' --> X die Aufblasung einer Fläche in einem Punkt.
+  Dann gilt:
+
+      omega_X' = q^*(omega_X) tensor O(E),
+
+  wobei E in X' den exzeptionellen Divisor bezeichnet (Huybrechts 12.1).
+
+
 === Höhere direkte Bilder
 
 Ist f : X' --> X die Aufblasung längs einer glatten Untervarietät, so ist

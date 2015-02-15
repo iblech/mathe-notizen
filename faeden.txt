@@ -91,6 +91,8 @@
 * Was muss ich von einer abelschen Kategorie wissen, um Klassen
   in K-Theorie berechnen zu können?
 
+* THE HALL ALGEBRA OF A SPHERICAL OBJECT. http://arxiv.org/pdf/0810.5546.pdf
+
 
 === Derivierte Automorphismen
 

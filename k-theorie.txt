@@ -357,6 +357,13 @@ für einen Komplex X^* gilt:
     X^* = sum_i (-1)^i [H^i(X^*)[0]].
 
 
+=== t-Strukturen
+
+Sei A eine abelsche Unterkategorie einer triangulierten Kategorie D, gegeben
+durch eine beschränkte t-Struktur. Dann ist K(A) = K(D). Das behauptet
+zumindest Huybrechts auf Seite 293 (ganz unten).
+
+
 === Semi-orthogonale Zerlegungen
 
 Sei C eine triangulierte Kategorie. Sei (A_n,...,A_0) eine exzeptionelle
