@@ -10,6 +10,12 @@ http://math.berkeley.edu/~mhaiman/math256/Derived-Cat-1-5.pdf
 * Koszul-Auflösung von Quotienten
 
 
+=== Skalarerweiterung
+
+* http://bib.math.uni-bonn.de/downloads/bms/BMS-400.pdf
+  Derived categories and scalar extensions, Doktorarbeit von Sosna.
+
+
 === Einschränkung von abgeleiteten Funktoren auf D^b
 
 Siehe Huybrechts, Cor. 2.68: Ist RF(A) beschränkt für alle Objekte A,
@@ -278,8 +284,17 @@ Quelle: Beilinson, Coherent sheaves on P^n and problems in linear algebra.
   sogar funktoriell!
 
   Ist das wirklich stärker? (Vermutung: Ja.)
+  Siehe http://www.math.harvard.edu/~lehung/PartIIIEssay.pdf, dort steht die
+  Antwort. Hängt vermutlich mit der Forderung nach Admissibility zusammen.
 
   Habe ich diese Art der Zerlegung bei D(P^n)?
+
+* Volle *orthogonale* Zerlegungen <A_0,...,A_n> implizieren eine
+  direkte-Summen-Zerlegung der triangulierten Kategorie. Denn: Die volle
+  Unterkategorie der Objekte der Form oplus_i X_i mit X_i in A_i ist stabil
+  unter Shifts und Kegelbildung (nutze: Dreiecke, deren ersten beiden Objekte
+  diese Form haben, sind direkte Summen von Dreiecken in den Kategorien A_i)
+  und umfasst die A_i.
 
 
 === Mutation von exzeptionellen Sequenzen

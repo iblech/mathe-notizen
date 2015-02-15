@@ -224,6 +224,10 @@ Sei M eine quadratische Matrix über einem Ring.
   Multiplikativität der Determinante, dass det(M) invertierbar ist; und daher
   kann man das Inverse von M explizit angeben.
 
+  Der (1x1)-Fall lautet: Invertierbare Ringelemente sind regulär.
+  (Denn Surjektivität von A --> A, Multiplikation mit x, ist gleichbedeutend
+  mit Invertierbarkeit von x.)
+
 * Die Umkehrung gilt nicht, auch nicht über lokalen Ringen.
 
   Betrachte etwa den lokalen Ring Z_(2) und die (1x1)-Matrix (2).

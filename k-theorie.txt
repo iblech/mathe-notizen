@@ -192,6 +192,17 @@ regulär ist.
 * Sei Y subseteq X ein abgeschlossenes Unterschema eines noetherschen Schemas.
   Dann habe eine exakte Sequenz: K_0(Y) --> K_0(X) --> K_0(X \ Y) --> 0.
   https://www.math.leidenuniv.nl/scripties/MasterJavanpeykar.pdf
+  Das folgt auch aus abstraktem Nonsens:
+  * Coh(Y) ist äquivalent zu Coh(X)_supp, der vollen Unterkategorie von Coh(X)
+    derjenigen Garben, die Träger in Y haben. (Vermöge Vordrücken und
+    Zurückziehen.)
+  * Coh(X)/Coh(X)_supp ist äquivalent zu Coh(X \ Y), vermöge Einschränken
+    mit j^{-1} und Vordrücken mit j_!. Zum Nachweis der Vollheit (bzw. zum
+    Nachweis, dass das Pseudoinverse wirklich ein Pseudoinverses ist) muss man
+    nachrechnen, dass Kern und Kokern von j_! j^{-1} E --> E für E aus Coh(X) in
+    Coh(X)_supp liegen. Das folgt durch Betrachtung dieser Abbildung auf Halmen.
+  * Allgemein hat man für Serresche Unterkategorien die exakte Sequenz
+    K_0(B) --> K_0(A) --> K_0(A/B) --> 0.
 
 * K_0(X x A^1) = K_0(X). Kor.: K_0(A_R^n) = K_0(R).
   https://www.math.leidenuniv.nl/scripties/MasterJavanpeykar.pdf, Abschnitt 5.

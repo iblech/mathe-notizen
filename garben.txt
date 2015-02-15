@@ -211,6 +211,10 @@ http://mathoverflow.net/questions/45347/why-does-the-s2-property-of-a-ring-corre
    -- Halme von i_!(F) gleich F_x bzw. gleich 0.
    -- Definiert als die Vergarbung der Prägarbe
           W |--> F(W), falls W \subset U; 0, sonst.
+   -- Oder intern: i_!(F) = { x : F | (x = 0) v U }.
+   -- i^{-1} . i_! = id.
+   -- Wesentliches Bild von i_! besteht aus denjenigen Garben abelscher
+      Gruppen, deren Halme auf dem Komplement von U verschwinden.
 
 4) Zurückziehen/Vorwärtsdrücken induziert ziemlich sicher eine Äquivalenz
 

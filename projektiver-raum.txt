@@ -175,6 +175,10 @@ gut verständlich!
 Ebenso schön: David Nadler. 256B algebraic geometry.
 http://math.berkeley.edu/~qchu/Notes/256B.pdf
 
+http://www.math.uni-hamburg.de/home/sosna/diplom-online.pdf behauptet in
+Example 3.2.2: Jede kohärente Garbe auf P^1 ist direkte Summe von O(m)'s und
+Wolkenkratzergarben k(x)'s.
+
 
 === Interne Sprache
 

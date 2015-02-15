@@ -3,6 +3,13 @@
 Def.: D(X) := D^b(Coh(O_X)).
 
 
+=== Tensorstruktur
+
+* Bezieht man die Tensorstruktur auf D(X) mit ein, so ändert sich alles.
+  Zum Beispiel legt D(X) mit der Tensorstruktur X schon bis auf Isomorphie fet.
+  Siehe http://www.math.uni-hamburg.de/home/sosna/diplom-online.pdf.
+
+
 === Shifts von Wolkenkratzergarben sehen die gesamte derivierte Kategorie
 
 http://win.ua.ac.be/~pbelmans/seminar/ss/examples-ag.pdf
@@ -91,7 +98,20 @@ homologische Dimension n. Siehe: Huybrechts, Seite 68.
       hom(E, E) = hom(E, E[n]) = 0, also id_E = 0, also E = 0.
 
   Huybrechts (Seite 169) behauptet auch, dass allgemeiner eine solche Varietät
-  keine semi-orthogonalen Zerlegungen zulässt.
+  keine nichttrivialen semi-orthogonalen Zerlegungen zulässt. Ein Beweis steht
+  in Lemma 3.5 von http://www.maths.ed.ac.uk/~eshinder/Mainz-Lecture-2.pdf:
+
+  * Man zeigt zunächst, dass eine semi-orthogonale Zerlegung schon orthogonal
+    ist. Das bedeutet dann, dass jedes Objekt in D^b(X) eine direkte Summe von
+    Objekten aus den A_i ist, also D^b(X) = oplus_i A_i. (Siehe
+    derivierte-kategorie.txt.)
+
+  * Da X zusammenhängend ist, besitzt O_X keine nichttrivialen direkten
+    Summanden. Somit liegt O_X in irgendeinem A_i.
+
+  * Auch die k(x) liegen in diesem A_i. Damit sind die anderen A_j
+    orthogonal zu den Wolkenkratzergarben und ihren Shifts. Also sind die
+    anderen A_j Null.
 
 * Das beschränkt die Theorie der semi-orthogonalen Zerlegungen natürlich
   deutlich. Eine allgemeine Theorie von Erzeugern und Relationen muss

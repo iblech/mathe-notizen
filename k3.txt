@@ -8,6 +8,8 @@
 
 Eine K3-Fläche ist eine kompakte komplexe Fläche X mit omega_X = O_X und H^1(X, O_X) = 0.
 
+K3-Flächen sind also insbesondere Calabi-Yau-Mannigfaltigkeiten.
+
 
 === Beispiele
 
@@ -20,6 +22,10 @@ Noethers Formel.
 
 
 === Derivierte Äquivalenzen
+
+* Der Doppelshift-Funktor __[2] ist ein Serre-Funktor. D^b(K3) besitzt keine
+  nichttrivialen semi-orthogonalen Zerlegungen (siehe
+  derivierte-kategorie-von-schemata.txt).
 
 * Ist D^b(K3) äquivalent zu D^b(glatt projektiv), so ist (glatt projektiv) auch
   schon K3. (Huybrechts 10.1)
