@@ -122,6 +122,9 @@
 * http://www-math.sp2mi.univ-poitiers.fr/~sarti/BNWS_SmithIHS_final.pdf
 * http://www-math.sp2mi.univ-poitiers.fr/~sarti/BCNS_Hilb2K3.pdf
 
+* http://www.mi.ras.ru/~akuznet/dgcat/Toen-Vaquie%20Moduli%20of%20objects%20in%20dg-categories.pdf
+  Cor 0.3: Aut(T) ist Gruppenschema, wenn T saturierte dg-Kategorie.
+
 
 === Hilbertschema
 
@@ -247,6 +250,9 @@
 * "Explain that coherent sheaves are generically free, and use this to prove
   things like generic smoothness of varieties (by applying it to the tangent
   sheaf)." http://mathoverflow.net/a/28633/31233
+
+* Was unterscheidet QCoh(X) von allen Modulkategorien?
+  Denke zum Beispiel über X = P^1 nach.
 
 
 === Online
