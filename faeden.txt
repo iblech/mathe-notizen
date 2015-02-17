@@ -107,6 +107,13 @@
   X^[n] Calabi-Yau-Mannigfaltigkeiten. Daher sollte der Anwendungsbereich
   dieser Aussagen sehr begrenzt sein.)
 
+* Freie abelsche Kategorie?
+  http://permalink.gmane.org/gmane.science.mathematics.categories/2857
+  http://www.northeastern.edu/martsinkovsky/p/rtrt/20142015/russell-1.html
+  http://mathoverflow.net/questions/52881/is-anything-known-about-the-closure-of-an-additive-category-by-adding-all-the
+  http://mathoverflow.net/questions/38793/classifying-functors-of-abelian-categories
+  http://mathoverflow.net/questions/88230/is-there-an-abelian-envelope-2-functor
+
 
 === Derivierte Automorphismen
 
