@@ -148,7 +148,7 @@
 * https://math.berkeley.edu/~mhaiman/ftp/newt-sf-2001/newt.pdf
   sehr einladend. Lesen.
 
-* Sorger und Lehn konstruieren für einen R einen Ring R^[n]
+* Sorger und Lehn konstruieren für einen Ring R einen Ring R^[n]
   und zeigen: H^*(X^[n]) = H^*(X)^[n]. Siehe [27] in Lehns lectures.
   http://www.mathematik.uni-mainz.de/Members/lehn/ar/montreal.ps
 

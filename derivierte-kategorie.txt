@@ -113,6 +113,15 @@ Konstruktion in http://www.maths.ed.ac.uk/~aar/papers/neemder.pdf
 * Morphismen im Verdier-Quotient T/S sind Dächer, wobei der
   "falsch laufende Morphismus" so sein muss, dass sein Kegel in S liegt.
 
+* Für triangulierte Funktoren F : K(A) --> C ist es äquivalent, ob
+  sie Quasiisomorphismen auf Isos schicken oder azyklische Komplexe auf Null
+  schicken.
+
+  Invertieren sie Quasiisos, so insbesondere Quasiisos der Form 0 --> X.
+
+  Schicken sie azyklische Komplexe auf Null, so insbesondere den Kegel zu einem
+  Quasiiso.
+
 
 === Struktur der derivierten Kategorie
 

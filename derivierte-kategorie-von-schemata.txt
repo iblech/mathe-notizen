@@ -288,6 +288,10 @@ Automorphismen von D^b(X) induzieren ...
 * Automorphismen in Kohomologie (wenn durch einen Fourier-Mukai-Kern gegeben),
 * Automorphismen von Stab(X), siehe http://arxiv.org/pdf/1310.8266.pdf.
 
+Aut D^b(X) ist ein algebraisches Gruppenschema (wenn X glatt projektiv).
+Dessen neutrale Komponente ist Aut^° ⋉ Pic^0.
+Siehe http://arxiv.org/abs/0907.3880 und http://arxiv.org/abs/math/0503269.
+
 
 === D^b(X), K(X) und H^*(X)
 
