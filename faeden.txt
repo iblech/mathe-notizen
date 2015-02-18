@@ -4,25 +4,9 @@
   beschreiben, wie man auf dg-Niveau Verdier-Quotienten bildet und welche
   universelle Eigenschaft das hat.
 
-* http://mathoverflow.net/questions/55215/what-is-the-hochschild-cohomology-of-the-dg-category-of-perfect-complexes-on-a-v
-
 * http://arxiv.org/pdf/math/0408337v7.pdf
 
-* file:///home/iblech/Downloads/9780817632465-c1%20(1).pdf
-
 * http://www.hamilton.tcd.ie/events/swisk.pdf
-
-* http://atlas.mat.ub.edu/grgta/articles/Keller.pdf
-
-* http://users2.unimi.it/stellari/Research/Papers/dgFM.pdf
-
-* http://www.math.harvard.edu/~gaitsgde/GL/textDG.pdf
-
-* http://pages.uoregon.edu/vvologod/papers/derivedfunctorsrevised.pdf
-
-* http://webusers.imj-prg.fr/~bernhard.keller/publ/dgcatX.pdf
-
-* http://smf4.emath.fr/Publications/Bulletin/135/pdf/smf_bull_135_435-474.pdf
 
 * http://www-home.math.uwo.ca/~mfrankla/HomotopySem/ToenVaquie_ModuliObjDGCats.pdf
 
@@ -73,6 +57,8 @@
 
 
 === Erzeuger und Relationen
+
+* Krull-Schmidt-Kategorien
 
 * Wie kann man eine dg-Kategorie präsentieren, um in ihr Berechnungen
   anstellen zu können? (Insbesondere Ext-Gruppen; was bedeutet das?)
@@ -261,6 +247,8 @@
 * Was unterscheidet QCoh(X) von allen Modulkategorien?
   Denke zum Beispiel über X = P^1 nach.
 
+* Verstehen, was K_0 und K^0 der affinen Gerade mit doppeltem Ursprung ist.
+
 
 === Online
 
@@ -279,3 +267,10 @@
 
 * Programmieren ist allgemeiner als Beweisen. Denn man kann Programme
   schreiben, deren Terminierung man nur klassisch zeigen kann.
+
+* Sichten:
+
+  http://ncatlab.org/nlab/show/monadicity+theorem
+  MO, why are monads useful?
+
+  http://ncatlab.org/nlab/show/computad

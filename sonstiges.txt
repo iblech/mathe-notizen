@@ -202,3 +202,10 @@ Eine Gruppe, in der die Wahrscheinlichkeit, dass zwei zufällige Elemente
 miteinander kommutieren, 5/8 übersteigt, ist abelsch.
 
 http://mathoverflow.net/questions/91685/5-8-bound-in-group-theory/91686#91686
+
+
+=== Spracherkennung
+
+http://arxiv.org/abs/1502.00831
+Open System Categorical Quantum Semantics in Natural Language Processing
+Robin Piedeleu, Dimitri Kartsaklis, Bob Coecke, Mehrnoosh Sadrzadeh

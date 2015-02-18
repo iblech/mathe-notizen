@@ -93,6 +93,8 @@ in kanonischer Eins-zu-Eins-Beziehung, vermöge U |-> f[U] und V |-> f^(-1)[V].
   betrachtet werden kann; nun kann einfach geprüft werden, ob das in A
   berechnete Bild in B liegt.
 
+* Ab/Torsion ist Q-Vect, vermöge Skalarerweiterung auf Q.
+
 * Welchen Gleichungslöser für rationale Matrizen bekommt man, wenn man in
   Ab/Torsion statt Q-Vect rechnet?
 
@@ -110,6 +112,13 @@ in kanonischer Eins-zu-Eins-Beziehung, vermöge U |-> f[U] und V |-> f^(-1)[V].
 * Manchmal hat der Projektionsfunktor einen Rechtsadjungierten S,
   den "section functor". Dann gilt also Hom_{A/B}(Q(X), Q(Y)) =
   Hom_A(X, SQ(Y)), womit man keinen Limesprozess mehr durchführen muss.
+
+  Für den Fall (A = Ab, B = Torsionsgruppen) ist S durch Skalareinschränkung
+  gegeben:
+
+      Hom_Q(M tensor Q, N) = Hom_Ab(M, N)
+
+  für alle abelschen Gruppen M und Q-Vektorräume N.
 
 * Es gibt eine natürliche Trafo colim Ext_A^n(M', N/N') --> Ext^n_{A/B}(M,N).
   Wenn es einen Schnittfunktor gibt, ist die für n = 1 ein Iso (für n = 0
@@ -182,37 +191,60 @@ Form f * kanonischer Richtungsvektor in Möbiusfaser mit f lokal konstant ist.
 
 === Vervollständigung einer additiven zu einer abelschen Kategorie
 
+* Ja, es gibt zu jeder additiven (oder auch nur Ab-angereicherten) Kategorie
+  eine abelsche Vervollständigung. Eine Möglichkeit, diese zu erhalten, ist wie
+  folgt:
+
+  Sei C Ab-angereichert.
+  Sei R(C) die endliche Kovervollständigung von C, d.h. die volle
+  Unterkategorie der kompakten Objekte in [C^op, Ab] -- das soll die
+  Funktorkategorie aller Ab-angereicherten Funktoren sein.
+  Sei L(C) die endliche Vervollständigung, d.h. L(C) = R(C^op)^op.
+
+  Dann gilt: RL(C) = LR(C), und das ist die freie abelsche Kategorie erzeugt
+  von C.
+
+  Das sagt Freyd in
+  http://permalink.gmane.org/gmane.science.mathematics.categories/2857.
+
+* Eine andere Konstruktion steht in
+  http://mathoverflow.net/questions/52881/is-anything-known-about-the-closure-of-an-additive-category-by-adding-all-the.
+
+* Die freie abelsche Kategorie auf einem Erzeuger ist nach Freyd
+  [Ab_fp, Ab]_fp, die volle Unterkategorie der kompakten Funktoren Ab_fp --> Ab.
+
+  Man könnte auch denken, dass Ab_fp selbst die freie abelsche Kategorie auf
+  einem Erzeuger ist. Immerhin ist es eine recht natürliche Kategorie. Aber zum
+  Beispiel ist jeder exakte Funktor Ab_fp --> F_2-Vect Null -- denn in der
+  Quellkategorie ist Multiplikation mit 2 auf Z injektiv, also muss das auch in
+  der Zielkategorie gelten.
+
+* Die freie Kovervollständigung eines Rings R, aufgefasst als
+  Ab-angereicherte Kategorie mit nur einem Objekt, ist die Kategorie der
+  (Rechts-)R-Moduln. Die endliche Kovervollständigung ist die Kategorie der
+  endlich präsentierten (Rechts-)R-Moduln.
+  http://permalink.gmane.org/gmane.science.mathematics.categories/2857
+
+* Die freie abelsche k-Kategorie auf einem Erzeuger ist k-Vect^fd, wenn
+  k ein Körper ist. Alle kurzen exakten Sequenzen zerfallen in dieser
+  Kategorie. Daher sind alle Ab-angereicherten Funktoren aus ihr heraus
+  automatisch exakt.
+
 * http://www.math.rwth-aachen.de/~kuenzer/bachelor_stein.pdf
   Adelmans Konstruktion, super ausführlich.
 
   Achtung: Er schreibt, Mod(Z) besitze nicht genügend Injektive. Ich weiß
   nicht, was er damit meint.
 
-* Sichten:
+* Weitere Aufarbeitung:
+  * http://users.uoi.gr/abeligia/hha.pdf
+  * Definable Additive Categories: Purity and Model Theory, Mike Prest.
+    http://books.google.de/books?id=b9PTAwAAQBAJ&pg=PA15&lpg=PA15&dq=%22free+abelian+category%22&source=bl&ots=HBbjs6iT4R&sig=AmNR7WupT-hKeaU-SXxORg2nnCc&hl=de&sa=X&ei=isNjVLXNJdWvaaCegvgF&ved=0CCEQ6AEwAw
+    http://books.google.de/books?id=975-OzA4YrQC&pg=PA448&lpg=PA448&dq=%22free+abelian+category%22&source=bl&ots=3Wt8073lWx&sig=_8uNFhBV2aG18jFEFyKrCuWdA7g&hl=de&sa=X&ei=isNjVLXNJdWvaaCegvgF&ved=0CCkQ6AEwBg
 
-  http://books.google.de/books?id=975-OzA4YrQC&pg=PA448&lpg=PA448&dq=%22free+abelian+category%22&source=bl&ots=3Wt8073lWx&sig=_8uNFhBV2aG18jFEFyKrCuWdA7g&hl=de&sa=X&ei=isNjVLXNJdWvaaCegvgF&ved=0CCkQ6AEwBg
-  http://books.google.de/books?id=TjEeXPJmU_sC&pg=PA345&lpg=PA345&dq=%22free+abelian+category%22&source=bl&ots=Z3c2y-WCXJ&sig=Eez9dHmzqP8SA7IarevWEK7wqRM&hl=de&sa=X&ei=isNjVLXNJdWvaaCegvgF&ved=0CCcQ6AEwBQ
-
-  http://www2.math.uni-paderborn.de/fileadmin/Mathematik/AG-Krause/publications_krause/habil.pdf (Kap. 1)
-
-  http://lima.osu.edu/people/iherzog/dub.pdf
-
-  http://books.google.de/books?id=b9PTAwAAQBAJ&pg=PA15&lpg=PA15&dq=%22free+abelian+category%22&source=bl&ots=HBbjs6iT4R&sig=AmNR7WupT-hKeaU-SXxORg2nnCc&hl=de&sa=X&ei=isNjVLXNJdWvaaCegvgF&ved=0CCEQ6AEwAw
-
-  http://permalink.gmane.org/gmane.science.mathematics.categories/2857
-
-  http://users.uoi.gr/abeligia/hha.pdf
-
-  http://arxiv.org/pdf/1202.0426.pdf
-
-  http://mathoverflow.net/questions/52881/is-anything-known-about-the-closure-of-an-additive-category-by-adding-all-the
-  http://mathoverflow.net/questions/38793/classifying-functors-of-abelian-categories
-  http://mathoverflow.net/questions/91085/subcategories-of-abelian-categories-generated-by-finitely-many-objects
-
-  http://ncatlab.org/nlab/show/monadicity+theorem
-  MO, why are monads useful?
-
-  http://ncatlab.org/nlab/show/computad
+* Krass aufgepimpt wird das in
+  http://www2.math.uni-paderborn.de/fileadmin/Mathematik/AG-Krause/publications_krause/habil.pdf
+  (Kap. 1).
 
 
 === Nächste Schritte

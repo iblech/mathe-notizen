@@ -39,7 +39,7 @@
   Objekte, die Kolimes eines B-förmigen Diagramms sind. Die Morphismen in C'
   sollen dabei nicht alle aus C sein, sondern nur diejenigen, die durch
   Kokegelmorphismen induziert werden.
-  
+
   Damit das funktioniert, müssen folgende zwei Voraussetzungen erfüllt sein:
   * A-förmige Diagramme müssen auch B-förmige Diagramme sein
     -- sonst wird die Yoneda-Einbettung A-förmige Diagramme nicht erhalten,

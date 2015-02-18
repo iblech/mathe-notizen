@@ -98,6 +98,11 @@ Gibt es ein Analogon zur Auflösung der Diagonale?
 
 === Literatur
 
-* Huybrechts
+* Huybrechts.
+
 * Bartocci et al, Fourier-Mukai and Nahm Transforms in Geometry and
-  Mathematical Physics
+  Mathematical Physics.
+
+  Enthält ausführliche Beweise der üblichen tiefen Resultate von Orlov.
+
+  file:///home/iblech/Downloads/9780817632465-c1%20(1).pdf

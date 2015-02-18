@@ -37,8 +37,35 @@ Die Kategorie der A-Modul ist lokal endlich präsentierbar.
   Modul U, stellt daher M als direkten Summanden eines endlich präsentierten
   Moduls dar und zeigt somit, dass M selbst endlich präsentiert ist.
 
+  (Gelte pi . iota = id : M -N-> M. Dann ist N isomorph zu M oplus ker(pi),
+  vermöge x |-> (pi(x), x - iota pi(x)) und (u,v) |-> (iota(u) + v).)
+
 * Zur Rekonstruktion eines A-Moduls aus einem linksexakten Funktor
   F: C_fp^op --> Set muss man F((x,y) |-> x+y) und F(x |-> ax) für a \in A wissen.
+
+* Heiße ein Objekt X tiny, wenn Hom(X, __) sogar mit allen Kolimiten
+  vertauscht. Dann glaube ich, dass in Mod(A) nur das Nullobjekt tiny ist.
+
+  Auf jeden Fall: Sollte in Mod(A) A selbst tiny sein, dann 1 = 0 in A.
+  Denn: Nach Voraussetzung ist
+
+      Hom(A, A) |_| Hom(A, A) ---> Hom(A, A oplus A),
+
+  d.h. A |_| A --> A oplus A, (links, x) |-> (x,0), (rechts, y) |-> (0,y)
+  bijektiv. Insbesondere besitzt (1,1) ein Urbild. Also 1 = 0 in A.
+
+  Den Beweis kann man aufpimpen. Sei M ein beliebiges tiny Objekt.
+  Nach Voraussetzung ist
+
+      Hom(M, M) |_| Hom(M, M) ---> Hom(M, M oplus M)
+
+  bijektiv. Damit besitzt (x |-> (x,x)) ein Urbild. Also existiert eine lineare
+  Abbildung f : M --> M sodass (x |-> (x,x)) = iota_i . f für i = 1 oder i = 2.
+  Also x = 0 für alle x aus M. Also M = 0.
+
+  Umgekehrt ist dass Nullobjekt tiny. 
+
+* Dualisierbare Moduln (im Sinne monoidaler Kategorien) sind kompakt.
 
 
 === Kompakte Objekte in Set
@@ -119,7 +146,17 @@ Ein Komplex K^* von O_X-Modulgarben ist genau dann perfekt, wenn es eine offene
 zu einem beschränkten Komplex von lokal freien Moduln ist (endlicher Rang?).
 
 Falls X glatt ist, so ist D^perf(X) äquivalent zu D^b(Coh(X)). Die Umkehrung
-gilt ebenfalls (!). Zumindest laut Sosna.
+gilt ebenfalls (!). Zumindest laut Sosna. In
+http://arxiv.org/pdf/1009.5577v2.pdf wird dagegen die Äquivalenz zur
+Regularität von X behauptet.
+
+
+=== Perfekte Komplexe
+
+* X qc qs. Dann: This means that Dqc(X)=Ind(Dperf(X)) -- the quasicompact [dg
+  enhanced throughout!!] derived category is the ind category (in the
+  ∞-categorical sense) of the perfect one.
+  http://mathoverflow.net/a/55218/31233
 
 
 === Endlichkeitsbedingungen an Schemata

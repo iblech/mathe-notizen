@@ -207,6 +207,18 @@ Insbesondere gibt es in T Torsionselemente. Diese gibt es wegen der Einbettung
 auch in Pic(S).
 
 
+=== Kürzungseigenschaft
+
+Sei Z eine normale Varietät und F ein kohärenter Modul vom Rang r auf Z.
+
+Seien L_1 und L_2 Geradenbündel auf Z.
+
+Dann folgt aus L_1 tensor F ~~ L_2 tensor F, dann L_1^r ~~ L_2^r.
+
+Das behauptet Lemma 2.45 in
+file:///home/iblech/Downloads/9780817632465-c1%20(1).pdf.
+
+
 === Vektorbündel in der stetigen, holomorphen und algebraischen Kategorie
 
 Siehe Ulrich Krähmer, Picard Groups: Real and Complex, Algebraic and

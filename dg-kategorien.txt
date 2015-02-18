@@ -185,6 +185,12 @@ New enhancements of derived categories of coherent sheaves and applications.
 http://arxiv.org/abs/1406.7559
 
 
+=== Verdier-Quotienten in der dg-Welt
+
+Idee: Um A/B zu bauen, füge für jedes Objekt U aus B einen Morphismus eps in
+Grad -1 mit d(eps) = id_U ein. http://arxiv.org/abs/math/0210114
+
+
 === Krasse Dinge in der dg-Welt
 
 * "By simply inverting the class of derived Morita equivalences,

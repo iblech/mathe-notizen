@@ -2,3 +2,6 @@
 
 * A Whirlwind Tour of the World of (∞,1)-categories
   http://www.math.harvard.edu/~oantolin/papers/infinity-survey.pdf
+
+* A short course on ∞-categories
+  http://arxiv.org/abs/1007.2925
