@@ -473,6 +473,23 @@ Allgemeinen keinen Rechtsadjungierten f^! in der Garbenkategorie besitzt.
 nicht rechtsexakt.)
 
 
+=== Homologische Eigenschaften von Coh(X)
+
+* Die homologische Dimension von Coh(X) ist <= Dimension von X.
+  Das stimmt wohl unter irgendwelchen Voraussetzungen.
+
+* Coh(X) hat im Allgemeinen nicht endliche Länge: Die einzigen
+  einfachen Objekte sind die Wolkenkratzergarben. Aber nur Garben, deren Träger
+  Dimension 0 hat, können eine Filtrierung durch solche Garben besitzen.
+  http://www.math.utah.edu/dc/tilting.pdf, Seite 6.
+
+* Trotzdem ist Coh(X) gelegentlich deriviert äquivalent zu einer
+  Kategorie von Darstellungen eines (gebundenen) Köchers! Solche haben stets
+  endliche Länge. (Und auch stets eine freie K-Theorie. Das gibt also eine
+  notwendige Bedingung dafür, dass das stimmt.
+  http://www.math.utah.edu/dc/tilting.pdf)
+
+
 === Siehe auch
 
 http://www.math.uni-kiel.de/algebra/bois/docz/sheaves_notes.pdf

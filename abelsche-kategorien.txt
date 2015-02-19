@@ -1,3 +1,16 @@
+=== Natürliche Trafos zwischen additiven Funktoren
+
+Seien F, G : A --> B additive Funktoren zwischen additiven Kategorien.
+Sei eta : F --> G eine natürliche Transformation. Dann gilt automatisch:
+
+    eta_{X oplus Y} = eta_X oplus eta_Y,
+
+unter Verwendung der Kompatibilitätsisos zwischen F, G und oplus.
+
+Das folgt aus den Natürlichkeitsdiagrammen für die Inklusionen und
+Projektionen.
+
+
 === Kohomologie ist exakt in der Mitte
 
 Algebra, Paolo Aluffi, Seite 600.

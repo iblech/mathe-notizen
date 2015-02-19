@@ -168,7 +168,7 @@ Allgemeiner ist
 
     Lambda^p O(-1)^m ---> O(-p)^\binom{m}{p}
 
-    v_1 ^ ... ^ v_m  |--> (det(v^{l_i}_j)_{ij})_{1 <= l_1 < ... < l_p <= m}
+    v_1 ^ ... ^ v_p  |--> (det(v^{l_i}_j)_{ij})_{1 <= l_1 < ... < l_p <= m}
 
 ein Iso. Das macht man sich so klar: Lokal ist O(-1) --> O, f |-> x_0 f ein
 Iso. Dieser induziert den Iso O(-p) --> O, f |-> x_0^p f. Unter diesen Isos
@@ -177,6 +177,11 @@ wird obige Abbildung zu
     Lambda^p O^m --> O^\binom{m}{p}.
 
 Es ist bekannt, dass diese ein Iso ist.
+
+Analog ist Lambda^p O(1)^(n+1) = O(p)^\binom{n+1}{p}.
+
+Und vermutlich Lambda^p O(a)^(n+1) = O(ap)^\binom{n+1}{p} (sehe kein Problem).
+Jup; wird von kommutative-algebra.txt (Äußere Potenzen) unterstützt.
 
 
 === Beziehung zwischen den Twistinggarben
@@ -188,7 +193,18 @@ Auf X = Proj Sym V^ gilt:
       --> O
       --> 0.
 
-Insbesondere impliziert das eine Beziehung der O(m) in der K-Theorie.
+Das ist einfach die Koszul-Auflösung zum leeren Unterschema,
+gegeben durch V(x_0,...,x_n). Etwas basisfreier handelt es sich um das
+Verschwindungsschema von
+
+    V^ tensor O ---> O(1).
+
+Die Abbildung V^ tensor O(-1) --> O ist das Transponierte von dieser.
+
+Insbesondere impliziert das eine Beziehung der O(m) in der K-Theorie,
+nämlich:
+
+    (1 - O(-1))^(n+1) = 0, falls dim V = n + 1.
 
 
 === Als Extensionen von Geradenbündeln
@@ -205,6 +221,8 @@ Seite 10 oben
  n = 3:  -1      0      0      0    1   4    10    20     35
 
 Allgemein: chi(O(m)) = \binom{n+m}{m} = (m+1) ... (m+n) / n!.
+
+chi(O(m)) = 0 für -n <= m <= -1.
 
 Haskell:
 

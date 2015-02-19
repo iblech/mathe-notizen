@@ -213,6 +213,18 @@ keine Homotopieäquivalenz.
 * Wieso nicht Kom^{>= 0}(A) (oder K, oder D)? Weil hier der Shiftfunktor
   keine Äquivalenz ist.
 
+* Die Motivation aus dem Thomason(?)-Artikel (oder Căldăru/skimming):
+  homotopieäquivalent genau dann, wenn ein dritter Simplizialkomplex Z und
+  simpliziale Abbildungen Z --> X und Z --> Y existieren, welche auf Niveau der
+  Kokettenkomplexe Quasiisos induzieren.
+
+  Steht in dieser Form in http://www-math.mit.edu/~auroux/18.969/mirrorsymm-lect16.pdf.
+
+* Seien alle Ext'e zwischen Erzeugern bekannt. Dann kann ich daraus noch
+  lange nicht alle Ext'e zwischen beliebigen Objekten berechnen.
+
+  Die analoge Aussage für RHom ist aber richtig!
+
 
 === Gegenbeispiele
 

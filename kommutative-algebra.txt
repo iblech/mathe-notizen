@@ -516,7 +516,7 @@ muss.
 
   gegeben durch die Determinante bzw. Permanente (d.h. durch geeignet
   gewichtete Summen über alle Permutationen). Die erste Abbildung ist stets ein
-  Iso. Die zweite nicht.
+  Iso (falls V endlich frei). Die zweite nicht.
 
 
 === Verklebung von Modulkategorien

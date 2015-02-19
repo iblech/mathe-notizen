@@ -408,6 +408,34 @@ Die Normalgarbe ist der ihr O_Y-Duales.
 * http://math.stackexchange.com/questions/194607/computation-of-normal-cones
 
 
+* Sei Y durch reguläre Schnitte eines Vektorbündels E auf X gegeben.
+  Dann hat man für O_Y eine Koszul-Auflösung Lambda^* (E^)^n.
+  Mit dieser zeigt man:
+
+      Tor_*(O_Y, O_Y) = Lambda^*_{O_Y}(N^)
+
+      EXT^*(O_Y, O_Y) = Lambda^*_{O_Y}(N),
+
+  wobei N die Normalgarbe und N^ die Konormalgarbe ist.
+  Wird bestätigt durch http://mathoverflow.net/a/108537. Ganz sicher bin ich
+  mir bei dem EXT-Resultat aber nicht.
+
+  Nutze zum Nachweis:
+  * M tensor_A B --> Hom_A(M^, B) Iso für M frei
+  * Hom_B = Hom_A für B-Moduln (wenn A --> B surjektiv)
+
+* Als Korollar: Sei pt ein abgeschlossener Punkt in einem Schema X,
+  der lokal durch reguläre Gleichungen ausgeschnitten werden kann. Dann folgt:
+
+      Tor^{O_X}_*(O_pt, O_pt) = Lambda^*(N^)  (denke N^ = Omega^1_X|_pt)
+      EXT_{O_X}^*(O_pt, O_pt) = Lambda^*(N)   (denke N = T_pt X)
+      Ext_{O_X}^*(O_pt, O_pt) = Lambda^*(N)   (nutze lokal-zu-global SS)
+
+  Insbesondere vertauscht EXT und Ext (anders als Garbenkohomologie-H) NICHT
+  mit abgeschlossenen Immersionen. Denn EXT_{O_pt} = Ext_{O_pt} sind ja trivial
+  in höheren Graden.
+
+
 === Fasern
 
 * Bsp. 9.3.3 in Vakil ("Consider the projection of the // parabola")

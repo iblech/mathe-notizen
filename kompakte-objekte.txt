@@ -44,26 +44,18 @@ Die Kategorie der A-Modul ist lokal endlich präsentierbar.
   F: C_fp^op --> Set muss man F((x,y) |-> x+y) und F(x |-> ax) für a \in A wissen.
 
 * Heiße ein Objekt X tiny, wenn Hom(X, __) sogar mit allen Kolimiten
-  vertauscht. Dann glaube ich, dass in Mod(A) nur das Nullobjekt tiny ist.
+  vertauscht. Dann gibt es in Mod(A) keinerlei tiny Objekte:
 
-  Auf jeden Fall: Sollte in Mod(A) A selbst tiny sein, dann 1 = 0 in A.
-  Denn: Nach Voraussetzung ist
-
-      Hom(A, A) |_| Hom(A, A) ---> Hom(A, A oplus A),
-
-  d.h. A |_| A --> A oplus A, (links, x) |-> (x,0), (rechts, y) |-> (0,y)
-  bijektiv. Insbesondere besitzt (1,1) ein Urbild. Also 1 = 0 in A.
-
-  Den Beweis kann man aufpimpen. Sei M ein beliebiges tiny Objekt.
-  Nach Voraussetzung ist
+  Sei M ein beliebiges tiny Objekt. Nach Voraussetzung ist
 
       Hom(M, M) |_| Hom(M, M) ---> Hom(M, M oplus M)
 
   bijektiv. Damit besitzt (x |-> (x,x)) ein Urbild. Also existiert eine lineare
   Abbildung f : M --> M sodass (x |-> (x,x)) = iota_i . f für i = 1 oder i = 2.
-  Also x = 0 für alle x aus M. Also M = 0.
+  Also x = 0 für alle x aus M. Also M = 0. Aber für M = 0 ist die Abbildung
+  nicht injektiv.
 
-  Umgekehrt ist dass Nullobjekt tiny. 
+  Natürlich ist hier die Ab-Anreicherung nicht beachtet.
 
 * Dualisierbare Moduln (im Sinne monoidaler Kategorien) sind kompakt.
 
