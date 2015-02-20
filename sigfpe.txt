@@ -19,6 +19,27 @@
   conventional language: designing your data and function types, and then
   implementing the code that fits those types.
 
+* http://blog.sigfpe.com/2007/03/curious-rotational-memory-of-electron_31.html
+  My crazy idea as a kid was this: if there were two ways to get from A to B,
+  maybe the B you reached by taking either of the two routes were actually
+  slightly different, even though they looked the same. I was actually more
+  concerned with journeys from A to A. Suppose the kitchen has a door at each
+  end and that you start in the bedroom, go down to the kitchen at one end,
+  come out the other end, and return by a different path to the bedroom. How do
+  you know this is the same bedroom? (I also admit I read a lot of science
+  fiction as a kid.)
+
+  Suppose instead you took a simpler path: you left the bedroom and went to
+  another room and then returned by the path you went. If you had taken a piece
+  of string and tied one end to the bedroom and walked this path playing out
+  the string behind you as you went then when you returned to your bedroom you
+  would have both ends of the string visible. You could then reel in the string
+  from your journey, without letting go of the ends, and see that indeed, both
+  ends were in fact the ends of the same string and so you had retuned to the
+  start of your journey. But if you'd taken the round trip through the
+  double-doored kitchen you wouldn't be able to pull the string tight and so
+  you could no longer be sure.
+
 
 Nicht sigfpe:
 

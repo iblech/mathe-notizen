@@ -90,7 +90,9 @@ Kann die abelsche Struktur von Kategorien kohärenter Modulgarben implementieren
   implementieren kann.
 
   Das hat einen allgemeineren Grund: 2-Faserprodukte von abelschen Kategorien
-  sind auf konstruktive Art und Weise wieder abelsch.
+  sind auf konstruktive Art und Weise wieder abelsch. (Aber: Kann nicht
+  genügend Projektive finden, auch, wenn das in den einzelnen Teilkategorien
+  geht!)
 
   Barakat nennt diese Konstruktion das Čech-Modell. Es ist nicht sehr
   performant.
@@ -152,6 +154,12 @@ Erfüllt Coh(X) als k-angereicherte Kategorie diese Bedingung?
 === Minimale Auflösungen
 
 http://mathoverflow.net/questions/162097/computing-the-minimal-free-resolution-of-a-coherent-sheaf-on-projective-space
+
+
+=== Ext von kohärenten Garben auf dem P^n
+
+* Greg Smith, Computing Global Extension Modules.
+  http://www.mast.queensu.ca/~ggsmith/Papers/globalExt.pdf
 
 
 === Mohamed Barakat

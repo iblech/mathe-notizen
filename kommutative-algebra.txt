@@ -1,3 +1,120 @@
+=== Fitting-Ideale
+
+* Das i-te Fitting-Ideal eines endlich präsentierten Moduls M
+  mit Präsentationsmatrix A : R^a --> R^b ist das Ideal der (b-i)-Minoren von A.
+  Es ist unabhängig von der Wahl der Präsentationsmatrix. Das sieht man so:
+  (Nach Serre, Algebra)
+
+  1. Zunächst ist klar, dass Basiswechsel hinten und vorne nichts ausmachen.
+     (Denn ist R invertierbar, so ist auch Lambda^d(R) invertierbar; und ist S
+     invertierbar, so ist das Ideal der Einträge von S, (S), das Einsideal.
+     Denn wir haben (1) = (S . S^(-1)) <= (S) * (S^(-1)) <= (S).)
+
+  2. Seien x_1,...,x_n Erzeuger mit Präsentationsmatrix A.
+     Ist dann A' irgendeine Matrix von gültigen Relationen zwischen den x_i,
+     so gibt es eine Matrix T mit AT = A'. Das impliziert:
+
+        (Lambda^(n-i) A') <= (Lambda^(n-i) A).
+
+     Somit spielt zumindest die Wahl der Präsentation bei gegebener
+     Erzeugerwahl keine Rolle (dazu dieses Argument zweimal verwenden).
+
+  3. Seien x_1,...,x_n Erzeuger mit Präsentationsmatrix A und seien y_1,...,y_m
+     irgendwelche weiteren Elemente. Dann gibt es irgendwelche Relationen
+     [ A 0 ; B I ] zwischen den x_i,y_j (hier entsprechen die Zeilen
+     Relationen, eigentlich sollte ich transponieren). Also ist
+
+        Fitt_i(M; x_1,...,x_n,y_1,...,y_m) >=
+        (Lambda^(n+m-i) [ A 0 ; B I ]) =
+        (Lambda^(n+m-i) [ A 0 ; 0 I ]) =
+        (Lambda^(n-i) A) =
+        Fitt_i(M; x_1,...,x_n).
+
+  4. Seien x_1,...,x_n Erzeuger mit Präsentationsmatrix A und seien y_1,...,y_m
+     (andere) Erzeuger mit Präsentationsmatrix C. Dann:
+
+        Fitt_i(M; x_1,...,x_n,y_1,...,y_m) =
+        (Lambda^(n+m-i) C) <=
+        (Lambda^(n+m-i) [ C; B I ]) =
+        (Lambda^(n+m-i) [ C' 0; B I ]) =
+        (Lambda^(n-i) C') <=   (C' sind Relationen der x_i)
+        Fitt_i(M; x_1,...,x_m).
+
+     Zusammen mit 3. ergibt das:
+
+        Fitt_i(M; x_1,...,x_m) = Fitt_i(M; x_1,...,x_n,y_1,...,y_m).
+
+     Das genügt.
+
+  In 3. und 4. verwendet:
+
+      (Lambda^(a+b) [ A 0 ; B I ]) = (Lambda^a A),
+
+  wenn I eine (b x b)-Einheitsmatrix ist.
+
+* Fitt_i(M) <= Fitt_(i+1)(M).
+
+* Fitt_i(M tensor R') = die Idealerweiterung von Fitt_i(M) in R'.
+
+* Wenn M durch n Erzeuger gegeben werden kann, so ist Fitt_n(M) = (1).
+  Klar, denn eine mögliche Präsentationsmatrix hat dann ja nur n Zeilen
+  und (Lambda^0) = (1).
+
+  Wenn der Grundring lokal ist, gilt auch die Umkehrung! Denn fande ich in
+  einer Präsentationsmatrix von M mit m Zeilen einen invertierbaren
+  (m-n)-Minor. Denn kann man nach oben links bringen, sodass M also durch eine
+  Präsentation der Form [ I 0 ; 0 ? ] gegeben ist. Die Restmatrix hat dabei
+  nur noch n Zeilen.
+
+* Wenn M frei vom Rang n ist, so ist Fitt_{>= n}(M) = (1) und Fitt_{< n}(M) = (0).
+  Klar, denn dann ist eine mögliche Präsentationsmatrix die eindeutig bestimmte
+  (n x 0)-Matrix.
+
+  Wenn der Grundring lokal ist, gilt auch hier die Umkehrung! Denn dann gilt
+
+      (?) = (Lambda^1(?)) = (Lambda^(1+m-n) [ I 0 ; 0 ? ])
+        = Fitt_{n-1}(M) = (0),  also ? = 0.
+
+  Folglich rk(M) <= n genau dann, wenn Fitt_n(M) = (1).
+  Dabei ist rk(M) die Minimalzahl benötigter Erzeuger (in eine
+  Vervollständigung der natürlichen Zahlen).
+
+* Fitt_0(M) <= Ann(M): Sei N ein quadratischer Ausschnitt aus der
+  Präsentationsmatrix (alle Zeilen, aber vielleicht nicht alle Spalten
+  umfassend) und det(N) der zugehörige Minor. Dann ist das Bild von
+
+      det(N) * Id = N * ad(N)
+
+  in M Null.
+
+* Ann(M) <= sqrt(Fitt_0(M)), also sqrt(Ann(M)) = sqrt(Fitt_0(M)).
+
+  Denn sei a aus Ann(M) mit M = cok(A), wobei A n Zeilen habe.
+  Dann gibt es eine Matrix U mit a I = A U. Auf der Ebene der n-Minoren erhält
+  man daher (a^n) <= (Lambda^n A) = Fitt_0(A).
+
+* Sei E ein O_X-Modul lokal von endlicher Präsentation.
+
+  Dann gilt: rk_x(E) = rk E_x <= n für alle x aus D(Fitt_n(E)).
+  Beser: rk_x(E) = rk E_x <= n genau dann, wenn x aus D(Fitt_n(E)).
+  Stimmt das?
+
+  Denn intern gilt: Fitt_n(E) = (1) ==> rk E <= n.
+
+* V(Fitt_i(M)) ist der Ort derjenigen Punkte x, wo M_x nicht durch i
+  Elemente erzeugt werden kann.
+
+* Wenn Fitt_{r-1}(M) = 0, dann ist V(Fitt_r(M)) der Ort, wo M_x nicht
+  frei vom Rang r ist.
+
+* Sei der Grundring nicht unbedingt lokal. Dann gilt für einen endlich
+  präsentierten Modul trotzdem: M = 0 <==> Fitt_0(M) = (1).
+  Ganz einfach wegen Fitt_0(M) <= Ann(M).
+
+Werbung für Fitting-Ideale macht unter anderem:
+http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
+
+
 === Homogene Polynome
 
 * Homogene Polynome in zwei Variablen sind "genauso gut" wie Polynome
@@ -599,6 +716,12 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
 
 * Ist M projektiv und endlich erzeugt, so ist auch M^ projektiv und
   endlich erzeugt, und M --> M^^ ist sogar ein Iso.
+
+* Ist M projektiv, so ist M direkter Summand eines freien Moduls.
+  Also ist M Kokern einer idempotenten linearen Abbildung (d.h. einer
+  Projektion!).
+
+  Beachte auch: cok P = ker P = im (Id - P).
 
 
 === Tensorprodukt
