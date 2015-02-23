@@ -74,6 +74,8 @@
   Bestimmt kann ich so recht explizite Erzeuger für alle möglichen von D^b(X)
   abgeleiteten Kategorien (ha!) finden. Damit reduziert sich das Problem dazu,
   mit der perfekten derivierten Kategorie einer dg-Kategorie umgehen zu können.
+  http://mathoverflow.net/a/26030/31233
+  http://mathoverflow.net/q/35863/31233
 
 * Krull-Schmidt-Kategorien
 
