@@ -15,6 +15,19 @@
   A/(eps) ~~ O_X (über C)?
 
 
+=== Flachheit über dualen Zahlen
+
+Ein k[eps]-Modul M ist genau dann flach über k[eps], wenn M/epsM --eps--> M
+injektiv ist.
+
+"==>": Klar, denn k[eps]/eps --eps--> k[eps] ist injektiv.
+
+"<==": Betrachte die exakte Sequenz 0 --> k -eps-> k[eps] -eval0-> k --> 0.
+Tensoriert mit M ergibt das 0 --> M/epsM --> M --> M/epsM --> 0, immer noch
+exakt nach der Voraussetzung. Also ???. Siehe
+https://hilbertthm90.wordpress.com/2010/09/26/first-order-deformations/.
+
+
 === Kodaira-Spencer
 
 * Konkretes Beispiel:

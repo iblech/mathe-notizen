@@ -41,6 +41,22 @@ q-Bereich durch Beschränktheitsvoraussetzung an A^* und p-Bereich durch
 Beschränktheitsvoraussetzung an RF(Objekt).)
 
 
+=== D^b, D^+ und D
+
+Mit dem Lemma III.2.10 aus Gelfand/Manin erhält man die volltreuen Einbettungen
+
+    Kom^b[qis^(-1)] --> Kom^+[qis^(-1)] --> Kom[qis^(-1)].
+
+Das wesentliche Bild der Komposition besteht gerade aus den Komplexen mit
+beschränkter Kohomologie. (Eigentlich muss man überall K statt Kom schreiben.)
+So folgt also
+
+    Kom^b[qis^(-1)] = Kom[qis^(-1)]_beschr.Koh.
+
+Dabei verwendet, dass die Qis'se auch in Kom^b ein lokalisierendes System
+bilden.
+
+
 === Kohomologische Funktoren, zugrundeliegender Komplex, D^b-Anreicherung
 
 http://mathoverflow.net/questions/61650/cohomological-functor-from-triangulated-category

@@ -19,6 +19,12 @@ derivierten Kategorie Kohomologie- oder Extgruppen. Solche sind aber nicht
 lokal: Etwa kann die Kohomologie auf einer Überdeckung jeweils null sein, ohne
 global null zu sein.
 
+"That is, already for the identity morphism, I think you have problems. For
+instance, take a short exact sequence of vector bundles that doesn't split, so
+the connecting homomorphism is non-trivial. However, the sequence splits
+locally, so the connecting homomorphism is locally trivial."
+http://mathoverflow.net/a/66193/31233
+
 Zumindest aber ist die Eigenschaft eines Morphismus f : A --> B
 in D(X), ein Isomorphismus zu sein, lokal, d.h. f ist genau dann ein Iso, wenn
 für eine Überdeckung X = \bigcup U alle f|_U: A|_U --> B|_U jeweils Isos in

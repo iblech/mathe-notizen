@@ -653,6 +653,8 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
 
 * Ist A lokal, so auch A[eps]/(eps^2). Die Umkehrung gilt auch.
 
+* Siehe deformationen.txt für Flachheit über A[eps].
+
 
 === Freiheit und Flachheit über Z
 

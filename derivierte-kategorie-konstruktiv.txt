@@ -115,8 +115,19 @@ Kann die triangulierte Struktur der Homotopiekategorie implementieren:
 Kann die triangulierte Struktur der derivierten Kategorie implementieren:
 * ja, denke schon.
 * Tests auf Nullheit von Objekten und von Morphismen sind äquivalent,
-  denn es sollte gelten: f = 0 : X --> Y  <==>  Y --> C(f) Iso.
-  Achtung, so stimmt es glaube ich nicht ganz.
+  denn ???. Ist mir noch nicht klar.
+
+  Zumindest gilt: f = 0 : X --> Y in Kohomologie  <==>  Y --> C(f) ist in Kohomologie ein Mono.
+
+  "==>": Die Kohomologiesequenz für X --> Y --> C(f) --> zeigt sofort die
+  Behauptung.
+
+  "<==": Die Komposition X --> Y --> C(f) ist auf jeden Fall 0. Nun ist Y -->
+  C(f) in Kohomologie (in jedem Grad) ein Mono. Also ist auch X --> Y in
+  Kohomologie Null.
+
+  (Bedenke: Wenn f = 0 in D, dann C(f) = X[1] oplus Y oder ähnlich.)
+  
 * Test auf Nullheit von Objekten geht im beschränkten Fall so:
   Finde beschränkten quasiisomorphen Komplex aus Injektiven oder Projektiven.
   Teste dann, ob dessen Identitätsmorphismus nullhomotop ist.

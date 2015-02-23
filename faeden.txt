@@ -64,6 +64,17 @@
 
 === Erzeuger und Relationen
 
+* Sei X projektiv von Dimension d. Sei L ein amples, global erzeugtes
+  Geradenbündel. Dann split-erzeugen O, L, L^2, ..., L^d die derivierte
+  Kategorie der perfekten Komplexe (und auch die unbeschränkte derivierte
+  Kategorie). Damit ist E = oplus L^i ein Erzeuger, der aber natürlich höhere
+  Selbst-Exte haben kann -- anders, als bei einer starken exzeptionellen
+  Sequenz. Somit ist dann Perf(X) äquivalent zu Perf(A), wobei A = RHom(E,E).
+
+  Bestimmt kann ich so recht explizite Erzeuger für alle möglichen von D^b(X)
+  abgeleiteten Kategorien (ha!) finden. Damit reduziert sich das Problem dazu,
+  mit der perfekten derivierten Kategorie einer dg-Kategorie umgehen zu können.
+
 * Krull-Schmidt-Kategorien
 
 * Wie kann man eine dg-Kategorie präsentieren, um in ihr Berechnungen
@@ -107,8 +118,6 @@
 * http://www-math.sp2mi.univ-poitiers.fr/~sarti/BNWS_SmithIHS_final.pdf
 * http://www-math.sp2mi.univ-poitiers.fr/~sarti/BCNS_Hilb2K3.pdf
 
-* http://www.mi.ras.ru/~akuznet/dgcat/Toen-Vaquie%20Moduli%20of%20objects%20in%20dg-categories.pdf
-  Cor 0.3: Aut(T) ist Gruppenschema, wenn T saturierte dg-Kategorie.
 
 
 === Hilbertschema

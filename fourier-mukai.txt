@@ -106,3 +106,9 @@ Gibt es ein Analogon zur Auflösung der Diagonale?
   Enthält ausführliche Beweise der üblichen tiefen Resultate von Orlov.
 
   file:///home/iblech/Downloads/9780817632465-c1%20(1).pdf
+
+* http://arxiv.org/abs/1004.3052
+  On adjunctions for Fourier-Mukai transforms
+
+  Da steht: Die Koeins von einer Adjunktion zwischen zwei FM-Funktoren wird von
+  Abbildungen zwischen den Kernen induziert.
