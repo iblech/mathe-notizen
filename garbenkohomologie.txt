@@ -450,5 +450,5 @@ von Lie Fu
 * http://stacks.math.columbia.edu/download/coherent.pdf
   all-in-one result for projective space over a Noetherian ring
 
-* Unbedingt bei Gelegenheit anschauen (empfohlen von Ariyan):
-  Serre. Coherent Algebraic Sheaves.
+* Von Ariyan sehr empfohlen: Serre. Coherent Algebraic Sheaves.
+  http://students.mimuw.edu.pl/~pta/fac/fac.pdf

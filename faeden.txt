@@ -99,24 +99,10 @@
   X^[n] Calabi-Yau-Mannigfaltigkeiten. Daher sollte der Anwendungsbereich
   dieser Aussagen sehr begrenzt sein.)
 
-* Freie abelsche Kategorie?
-  http://permalink.gmane.org/gmane.science.mathematics.categories/2857
-  http://www.northeastern.edu/martsinkovsky/p/rtrt/20142015/russell-1.html
-  http://mathoverflow.net/questions/52881/is-anything-known-about-the-closure-of-an-additive-category-by-adding-all-the
-  http://mathoverflow.net/questions/38793/classifying-functors-of-abelian-categories
-  http://mathoverflow.net/questions/88230/is-there-an-abelian-envelope-2-functor
-
 
 === Derivierte Automorphismen
 
 * http://arxiv.org/pdf/1411.0824v1.pdf (Andi Krug!)
-
-* Hille, Bergh sagen: Für abelsche Varietäten X ist Aut(D(X)) vollständig
-  verstanden. Außerdem die Frage, wann D(X) = D(Y).
-
-  Siehe auch Einleitung in http://arxiv.org/pdf/1310.8266.pdf,
-  hat Literaturverweise zu Orlov (für abelsche Varietäten) und Broomhead/Ploog
-  (für viele rationale Flächen).
 
 * http://www-math.sp2mi.univ-poitiers.fr/~sarti/BNWS_SmithIHS_final.pdf
 * http://www-math.sp2mi.univ-poitiers.fr/~sarti/BCNS_Hilb2K3.pdf
@@ -280,3 +266,6 @@
   MO, why are monads useful?
 
   http://ncatlab.org/nlab/show/computad
+
+* Marc sagt: Mit NSA-Methoden kann man auch algebraische Abschlüsse
+  konstruieren.

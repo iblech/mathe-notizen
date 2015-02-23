@@ -209,3 +209,14 @@ http://mathoverflow.net/questions/91685/5-8-bound-in-group-theory/91686#91686
 http://arxiv.org/abs/1502.00831
 Open System Categorical Quantum Semantics in Natural Language Processing
 Robin Piedeleu, Dimitri Kartsaklis, Bob Coecke, Mehrnoosh Sadrzadeh
+
+
+=== Monadische Dynamik
+
+http://arxiv.org/abs/1501.04921
+Stefano Gogioso
+
+
+=== Unendlich-dimensionale Mannigfaltigkeiten und Fluiddynamik
+
+https://johncarlosbaez.wordpress.com/2012/03/12/fluid-flows-and-infinite-dimensional-manifolds/
