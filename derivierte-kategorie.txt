@@ -9,6 +9,35 @@ http://math.berkeley.edu/~mhaiman/math256/Derived-Cat-1-5.pdf
 * Čech-Auflösung von Garben
 * Koszul-Auflösung von Quotienten
 
+Beweis, dass man ganze Komplexe auflösen kann, steht zum Beispiel in:
+http://math.stackexchange.com/questions/352428/does-every-complex-have-a-quasi-isomorphic-projective-complex
+
+
+=== Dimensionsshifting
+
+Sei 0 --> X --> I^0 --> ... --> I^n --> 0 exakt, wobei I^0, ..., I^{n-1}
+injektiv sind. Sei F ein linksexakter Funktor. Dann gilt:
+
+    R^m F(I^n) = R^{m+n} F(X) für m >= 1.
+
+Damit kann man zum Beispiel für eine abelsche Kategorie mit genügend vielen
+Injektiven und Projektiven zeigen, dass folgende Aussagen äquivalent sind:
+
+1. Alle Ext^{n+1} verschwinden.
+2. Alle Ext^{>= n+1} verschwinden.
+3. Jedes Objekt besitzt eine projektive Auflösung der Länge <= n.
+4. Jedes Objekt besitzt eine injektive Auflösung der Länge <= n.
+
+Es ist klar, dass 3 und 4 jeweils 1 und 2 implizieren.
+
+Gelte 1. Wir wollen 3. nachweisen. Fange dazu an, eine projektive Auflösung von
+einem beliebigen Objekt X zu bauen, nimm für P^n aber einfach den Kern. Dann
+ist Ext^1(P^n, T) = Ext^{n+1}(X, T) = 0 für alle Objekte T, also ist P^n
+projektiv.
+
+Gelte 1. Wir wollen 4. nachweisen. Dazu anfangen, injektive Auflösung zu bauen.
+Rechne Ext^1(T, I^n) = Ext^{n+1}(T, X) = 0.
+
 
 === Skalarerweiterung
 
@@ -172,6 +201,18 @@ Quelle:
 * Shapira, Categories and Homological Algebra, Kor. 7.2.9.
   http://webusers.imj-prg.fr/~pierre.schapira/lectnotes/HomAl.pdf
 
+Hier ist eine Konsequenz dieser Struktureinsicht. Seien F, G : D^b(A) --->
+D^b(B) zwei exakte Funktoren. Sei eta : F --> G eine natürliche Transformation.
+Sei eta auf Komplexen, die in Grad 0 konzentriert sind und dort ein Objekt aus
+einer gewissen Klasse A' stehen haben, ein Iso. Dann ist eta auf allen
+Komplexen, deren Kohomologie an jeder Stelle aus A' ist, ein Iso.
+
+Verwende dazu Induktion über die Komplexamplitude und das Fünferlemma.
+
+Eine verwandte Aussage erhält man, wenn an die dumme Abschneidung verwendet:
+Unter denselben Voraussetzungen ist eta auf allen Komplexen, die aus Objekten
+aus A' bestehen, ein Iso.
+
 
 === Zwei-Term-Komplexe in D^b(Vect)
 
@@ -267,6 +308,12 @@ keine Homotopieäquivalenz.
 
 * R(F . G) != R(F) . R(G):
   http://mathoverflow.net/questions/83949/the-composition-of-derived-functors-commutation-fails-hazardly
+
+* Unbeschränkte Komplexe besitzen auch bis auf Homotopieäquivalenz
+  nicht unbedingt eindeutige projektive Linksauflösungen:
+  ... --2--> Z/(4) --2--> ... ist eine projektive Linksauflösung des
+  Nullkomplexes, aber nicht zum Nullkomplex homotopieäquivalent. In der
+  Kategorie der Z/(4)-Moduln.
 
 
 === Beispiel einer Ext-Algebra

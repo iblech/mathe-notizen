@@ -13,6 +13,10 @@ http://math.stackexchange.com/questions/2403/precise-connection-between-poincare
 * http://www.math.purdue.edu/~lipman/DualityTalk.pdf
 * http://www.math.purdue.edu/~lipman/AlgecomSlides.pdf
 
+* http://www.ams.org/journals/jams/1996-9-01/S0894-0347-96-00174-9/
+  Neeman. The Grothendieck duality theorem via Bousfield's techniques and Brown
+  representability.
+
 
 === Poincaré-Verdier-Dualität
 

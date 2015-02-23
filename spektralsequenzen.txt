@@ -51,9 +51,14 @@ Used all the time (etale cohom, duality,...) to prove isoms.
 http://mathoverflow.net/questions/156290/origin-of-spectral-sequences-in-algebraic-topology?rq=1
 
 
-=== Nächste Schritte
+=== In persistenter Homologie
 
-* Obige Aussage genau nachvollziehen.
+Saugata Basu, Laxmi Parida
+Spectral Sequences, Exact Couples and Persistent Homology of filtrations
+http://arxiv.org/abs/1308.0801
+
+
+=== Nächste Schritte
 
 * http://mathoverflow.net/questions/8052/why-are-spectral-sequences-so-ubiquitous
 

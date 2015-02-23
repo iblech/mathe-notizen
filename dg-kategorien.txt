@@ -33,6 +33,10 @@ gewöhnlichen angereicherten Funktorkategoriekonstruktion (mit Hom-Objekten als
 Equalizer gewisser zweier Morphismen): Siehe etwa Seite 192
 von Borceux, Stubbe, Short introduction to enriched categories.
 
+Beachte: Auch, wenn A und B nur ein Objekt enthalten, so tut dies Funct(A,B) im
+Allgemeinen nicht. Daher ist man gezwungen, auch größere dg-Kategorien zu
+betrachten.
+
 
 === dg-Yoneda
 
@@ -192,6 +196,9 @@ Grad -1 mit d(eps) = id_U ein. http://arxiv.org/abs/math/0210114
 
 
 === Krasse Dinge in der dg-Welt
+
+* Okay, noch nicht so krass, aber: Faserprodukte und Funktorkategorien von
+  dg-Kategorien sind wieder dg-Kategorien.
 
 * "By simply inverting the class of derived Morita equivalences,
   Hochschild homology can be conceptually understood as the Euler

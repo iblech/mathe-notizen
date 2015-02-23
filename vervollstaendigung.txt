@@ -75,6 +75,16 @@
 [3] http://mathoverflow.net/questions/85323/topos-associated-to-a-category
 
 
+=== Cauchy-Vervollständigung
+
+* "The Cauchy completion of a ring R (as an Ab-enriched category) is the
+  category of finitely-generated projective right R-modules."
+  http://mathoverflow.net/a/100569
+
+* In irgendeinem Sinn sollte auch gelten: Die Cauchy-Vervollständigung von
+  Mod(A)^ff ist Mod(A)^{e.e. proj.}. Oder?
+
+
 === Pro-Objekte, unendliche Galoistheorie als Lawvere-Theorie, ...
 
 * http://qchu.wordpress.com/2013/06/23/operations-pro-objects-and-grothendiecks-galois-theory/#more-12927
