@@ -17,6 +17,14 @@
 
 === Derivierte Kategorie konstruktiv
 
+* On derived functors on categories without enough injectives
+  http://www.sciencedirect.com/science/article/pii/S0022404999000250
+
+  Nutzt die Ind-Kategorie.
+
+  Ebenso http://www.sciencedirect.com/science/article/pii/002240499390134F.
+  Callculation of derived functors via Ind-categories.
+
 * http://arxiv.org/pdf/math/0506391v2.pdf Ein explizites Verfahren, um
   direkte Bilder von Garben auf P^n_A zu berechnen (als Moduln über A).
 
@@ -260,6 +268,8 @@
 * http://math.stackexchange.com/questions/308302/freyds-geometric-finiteness-an-example-computation
 
 * http://math.stackexchange.com/questions/310465/is-this-thing-k-finite
+
+* Kaplansky auf nLab
 
 
 === Ultra-Sonstiges

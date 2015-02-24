@@ -1,3 +1,22 @@
+=== 2 aus 3
+
+* f . g Iso, f Mono ==> g Iso (und f Iso)
+
+  Das Inverse für g ist (f . g)^(-1) . f.
+
+  Probe:
+  - g^(-1) g = id
+  - f . g g^(-1) = f g (f g)^(-1) f = f = f . id.
+
+* f . g Iso, g Epi ==> f Iso (und g Iso)
+
+  Das Inverse für f ist g . (f . g)^(-1).
+
+  Probe:
+  - f f^(-1) = id.
+  - f^(-1) f . g = g (f g)^(-1) f g = g = id . g.
+
+
 === Kanten vs. Pfade
 
 The morphisms in a category are not so much like the edges in a graph as like

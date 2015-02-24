@@ -11,6 +11,12 @@ Das folgt aus den Natürlichkeitsdiagrammen für die Inklusionen und
 Projektionen.
 
 
+=== Einbettungstheorem von Freyd--Mitchell
+
+* Topostheoretischer Beweis steht im Anhang von Exact categories,
+  Theo Bühler, http://www.sciencedirect.com/science/article/pii/S0723086909000395.
+
+
 === Kohomologie ist exakt in der Mitte
 
 Algebra, Paolo Aluffi, Seite 600.
