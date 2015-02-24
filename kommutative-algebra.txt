@@ -54,6 +54,9 @@
 
 * Fitt_i(M) <= Fitt_(i+1)(M).
 
+  Außerdem Fitt_b(M) = (Lambda^(b-b) A) = (Lambda^0 A) = (1).
+  Und, wenn man so möchte, Fitt_{-1}(M) = (Lambda^(b+1) A) = () = (0).
+
 * Fitt_i(M tensor R') = die Idealerweiterung von Fitt_i(M) in R'.
 
 * Wenn M durch n Erzeuger gegeben werden kann, so ist Fitt_n(M) = (1).
@@ -469,13 +472,32 @@ kanonisch A-isomorph zu N.
 
 === Zusammenhang zu Vektorbündeln
 
-Prop. (Thm. 7.21 in http://math.uga.edu/~pete/integral.pdf):
+Prop. (Thm. 7.22 in http://math.uga.edu/~pete/integral.pdf):
     Sei M ein A-Modul. Dann sind äquivalent:
     (1) M ist endlich erzeugt und projektiv.
     (2) Es gibt eine Zerlegung 1 = \sum_i f_i der Eins, sodass
         jeder Modul M_(f_i) ein freier A_(f_i)-Modul endlichen Rangs ist.
 
 Also: M~ lokal frei <==> M erfüllt (2) <==> M erfüllt (1).
+
+Außerdem: Ein Modul mit (1) ist automatisch auch endlich präsentiert. Denn ist
+pi : A^n --> M eine Surjektion, so ist ker(pi) ein direkter Summand von A^n,
+daher ein Quotient von A^n und somit endlich erzeugt.
+
+Die Proposition stimmt auch völlig konstruktiv. Hier ist ein Beweis.
+
+(1) ==> (2). M ist Kokern einer idempotenten Matrix P. Lokal ist diese von der
+Form diag(1,...,1,0,...,0). Also ist M lokal endlich frei.
+
+(2) ==> (1). M ist lokal endlich erzeugt, also endlich erzeugt. Sei A^n --> M
+eine Surjektion. Ihr Kern ist lokal endlich erzeugt, da M lokal endlich
+präsentiert sind. Also ist ihr Kern auch global endlich erzeugt. Somit ist M
+endlich präsentiert.
+
+Damit vertauscht Hom(M, __) mit Lokalisierung.
+
+Sei nun X --> Y eine surjektive Abbildung. Wir wollen zeigen, dass
+Hom(M, X) --> Hom(M, Y) surjektiv ist. Lokal ist das klar.
 
 
 === Dualisieren
@@ -587,7 +609,7 @@ muss.
 * Sei M ein A-Modul, A lokaler Ring. Ist M frei, so ist Ext^1(M, A/m) = 0.
   Klar, denn dann ist M projektiv.
 
-  Die Umkehrung gilt ebenfalls, falls M endlich erzeugter und A noethersch ist.
+  Die Umkehrung gilt ebenfalls, falls M endlich erzeugt und A noethersch ist.
   Denn dann folgt aus einer kurzen exakten Sequenz 0 --> K --> A^n --> M --> 0,
   dass 0 --> Hom(M, k) --> Hom(A^n, k) --> Hom(K, k) --> 0 exakt ist.
 
@@ -595,6 +617,24 @@ muss.
   denn K <= m A^n) ist Null. Also ist Hom(K, k) = 0. Also ist, nach dem
   vorherigen Punkt, K = 0. Hier geht ein, dass A noethersch ist: Denn sonst
   wüssten wir nicht, dass K wieder endlich erzeugt ist.
+
+* Sei I ein endlich erzeugtes idempotentes Ideal eines lokalen Rings A.
+  Dann ist I = (0) oder I = (1). Denn nach dem Lemma von Nakayama, angewendet
+  auf den A-Modul I und das Ideal, gibt es ein a aus A mit a = 1 mod I und a I = 0.
+  Da A lokal ist, ist a invertibar oder 1-a invertierbar. Im ersten Fall ist I = (0),
+  im zweiten I = (1).
+
+* Sei M ein endlich erzeugter projektiver Modul über einem lokalen Ring A.
+  Dann ist M Kokern einer idempotenten Matrix P. Die Gleichung P^2 = P
+  überträgt sich auf Lambda^i(P). Also sind alle Fitting-Ideale von P
+  idempotent, somit jeweils (0) oder (1). Also ist M frei von einem gewissen
+  Rang.
+
+  Der Beweis zeigt auch, dass P über Zeilen- und Spaltenumformungen auf die
+  Form diag(1,...,1,0,...,0) gebracht werden kann. Eigentlich sollte doch auch
+  noch mehr drin sein, oder nicht? Ja. Finde dadurch nämlich explizit eine
+  Basis von ker(P) und im(P) und damit von A^n. Bezüglich dieser Basen im
+  Quell- *und* Zielraum hat P auch die Form diag(1,...,1,0,...,0).
 
 
 === Äußere Algebra
@@ -720,10 +760,14 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   endlich erzeugt, und M --> M^^ ist sogar ein Iso.
 
 * Ist M projektiv, so ist M direkter Summand eines freien Moduls.
-  Also ist M Kokern einer idempotenten linearen Abbildung (d.h. einer
-  Projektion!).
+  Also ist M Kokern einer idempotenten linearen Abbildung zwischen freien
+  Moduln (d.h. einer Projektion!), nämlich von (id - iota . pi), wenn
+  pi : A^(I) --> M und pi . iota = id.
 
-  Beachte auch: cok P = ker P = im (Id - P).
+  Beachte: cok P = ker P = im (Id - P).
+
+  Auch die Umkehrung stimmt: Wenn M = cok P, P^2 = P, P linear zwischen freien
+  Moduln, dann A^n = ker(1-P) oplus im(1-P) = ker(1-P) oplus cok(P).
 
 
 === Tensorprodukt
