@@ -17,14 +17,6 @@
 
 === Derivierte Kategorie konstruktiv
 
-* On derived functors on categories without enough injectives
-  http://www.sciencedirect.com/science/article/pii/S0022404999000250
-
-  Nutzt die Ind-Kategorie.
-
-  Ebenso http://www.sciencedirect.com/science/article/pii/002240499390134F.
-  Callculation of derived functors via Ind-categories.
-
 * http://arxiv.org/pdf/math/0506391v2.pdf Ein explizites Verfahren, um
   direkte Bilder von Garben auf P^n_A zu berechnen (als Moduln über A).
 
@@ -49,6 +41,9 @@
 
 
 === Kompakte Objekte
+
+* Triangulated categories, London Mathematical Society lecture note series, 375.
+  Seite 203 und Umfeld.
 
 * http://www.math.uni-bielefeld.de/~hkrause/nantes_notes.pdf
 
@@ -292,3 +287,6 @@
 
 * Marc sagt: Mit NSA-Methoden kann man auch algebraische Abschlüsse
   konstruieren.
+
+* Joel Friedman - Sheaves on Graphs, L^2 Betti Numbers, and Applications.
+  https://www.youtube.com/watch?v=qkFmcs9Kz6E

@@ -72,6 +72,31 @@ curve. Beweis von Proposition 2.2.)
 
 * Siehe auch ideelle-methoden.txt für ideelle Injektive.
 
+* So findet man Einbettungen in Injektive in Coh(Z): Sei M Kokern von
+  Z^n --> Z^m. Dann bettet M injektiv ein in den Kokern von Z^n --> Z^m --> Q^m.
+  Dieser ist divisibel, als Quotient der divisiblen Gruppe Q^m. Ganz analog
+  läuft es auch für beliebige Moduln. Dann muss man halt nicht-endlich erzeugte
+  Gruppen verwenden.
+
+* Und so läuft's in R-Mod: Sei M ein R-Modul. Bette die M zugrundeliegende
+  abelsche Gruppe U(M) in eine injektive Gruppe D ein. Dann ist Hom(U(R), U(D))
+  injektiv und wir haben eine Injektion M --> Hom(U(R), U(D)).
+
+
+=== Berechnung über Ind-Methoden
+
+* On derived functors on categories without enough injectives
+  http://www.sciencedirect.com/science/article/pii/S0022404999000250
+
+* Ebenso http://www.sciencedirect.com/science/article/pii/002240499390134F.
+  Calculation of derived functors via Ind-categories.
+
+* H. B. Stauffer in http://link.springer.com/chapter/10.1007%2FBFb0079389,
+  Derived functors without injectives: Er geht über eine Vervollständigung
+  unter gerichteten (nicht filtrierten) Kolimiten. Die Existenz genügend vieler
+  Injektive in der Vervollständigung zeigt er durch Grothendiecks Argument über
+  Erzeuger.
+
 
 === Konkret im Computer I
 

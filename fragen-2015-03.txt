@@ -1,0 +1,38 @@
+* Im konstruktiven Umgang mit abgeleiteten Kategorien gibt es zwei verwandte,
+  aber verschiedene Probleme.
+
+  Das eine Problem betrifft, in abgeleiteten Kategorien zu rechnen, also zum
+  Beispiel Kegel zu konstruieren und Morphismen oder Objekte auf Nullheit zu
+  testen.
+
+  Das andere Problem betrifft, abgeleitete Funktoren zu berechnen.
+
+  Das erste Problem ist in vielen Fällen leicht lösbar, etwa für die
+  beschränkte abgeleitete Kategorie der kohärenten Moduln über einem Ring, der
+  auch konstruktiv endliche homologische Dimension hat (wie zum Beispiel Z oder
+  k[X_1,...,X_n]). In diesen Fällen kann man (konstruktiv) zu jedem
+  beschränkten Komplex einen quasiisomorphen beschränkten Komplex bestehend aus
+  Projektiven finden.
+
+  Damit kann man auch beliebige Linksableitungen von Funktoren berechnen.
+
+  Mir ist aber unklar, wie man Rechtsableitungen berechnen kann; genügend viele
+  Injektive gibt es konstruktiv ja nicht.
+
+  In der Literatur wurde das Problem von nicht genügend vielen Injektiven
+  natürlich auch schon untersucht (in einem klassischen Kontext). Dort kann es
+  durch Übergang zu Ind-Kategorien gelöst werden, in denen ein Argument über
+  Erzeuger zeigt, dass diese genügend viele Injektive besitzen. Dieser Zugang
+  scheint aber konstruktiv (und algorithmisch) nicht praktikabel.
+
+* "Betrachte Y --> X = Y/G. Gilt dann Aut D(Y) = G semidirekt Aut D(X)?
+  Nein, im Allgemeinen nicht. Ein Gegenbeispiel liefert schon Y = P^1 x P^1,
+  X = (P^1 x P^1)/S_2 = S^2 P^1 = P^2."
+
+  "Diese Analyse ist nur für die klassische abgeleitete Kategorie korrekt.
+  Für die dg-Variante klappt das Gegenbeispiel nicht. (Behauptet Marc.)"
+
+  Das stimmt, glaube ich, nicht: Denn X und Y haben anti-amples kanonisches
+  Bündel. Also sind alle Automorphismen von FM-Typ und existieren damit auch
+  auf dg-Niveau. Außerdem legen unterschiedliche Automorphismen
+  unterschiedliche Kerne und damit unterschiedliche dg-Automorphismen fest.

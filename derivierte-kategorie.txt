@@ -467,3 +467,11 @@ http://math.stackexchange.com/questions/189769/when-is-the-derived-category-abel
 ... ist vermutlich nicht stabil. Denn das terminale Objekt ist vermutlich die
 (infty,1)-Kategorie mit nur einem Objekt (einem Nullobjekt), während das
 initiale Objekt vermutlich die leere Kategorie ist.
+
+
+=== Literatur
+
+* Klar: Gelfand/Manin und Weibel.
+
+* Aber auch: Triangulated categories, London Mathematical Society lecture note
+  series, 375.
