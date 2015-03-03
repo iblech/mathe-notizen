@@ -296,6 +296,16 @@ Außerdem Cor. 0.3 in folgendem Artikel: Aut(T) ist ein Gruppenschema, wenn T
 eine saturierte dg-Kategorie ist.
 http://www.mi.ras.ru/~akuznet/dgcat/Toen-Vaquie%20Moduli%20of%20objects%20in%20dg-categories.pdf
 
+http://mathoverflow.net/a/18014/31233:
+"I asked a similar question to Daniel Huybrechts some time ago, in the form of
+"If I have a derived equivalence between two varieties, what is this telling
+me about the relation between the two varieties?"
+His answer was that this should be crudely regarded as saying that each of
+the varieties is the moduli space for a (sufficiently interesting) moduli
+problem on the other variety. This is definitely the 'Fourier-Mukai'
+perspective, that says to understand a derived equivalence, see where the
+skyscraper sheaves of points go under the equivalence."
+
 
 === D^b(X), K(X) und H^*(X)
 
