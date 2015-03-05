@@ -250,9 +250,6 @@
   things like generic smoothness of varieties (by applying it to the tangent
   sheaf)." http://mathoverflow.net/a/28633/31233
 
-* Was unterscheidet QCoh(X) von allen Modulkategorien?
-  Denke zum Beispiel über X = P^1 nach.
-
 * Verstehen, was K_0 und K^0 der affinen Gerade mit doppeltem Ursprung ist.
 
 

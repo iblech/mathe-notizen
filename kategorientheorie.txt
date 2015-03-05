@@ -364,6 +364,20 @@ This is the (co)end, my only (co)friend.
 http://arxiv.org/abs/1501.02503
 
 
+=== Nichtäquivalente Kategorien
+
+* Coh(X), für eine vollständige Varietät über einem algebraisch abgeschlossenen
+  Körper, ist immer eine Krull--Schmidt-Kategorie.
+  http://en.wikipedia.org/wiki/Krull%E2%80%93Schmidt_category
+
+  Coh(k[X]) ist es dagegen nicht: Das Objekt k[X] ist darin irreduzibel, sein
+  Endomorphismenring ist aber nicht lokal. Die Irreduzibilität kann man so
+  sehen: Sei k[X] = A oplus B. Tensorieren mit k(X) zeigt, dass einer der
+  beiden Faktoren nach Tensorieren Null sein muss (betrachte Dimensionen als
+  k(X)-Vektorräume). Also ist A oder B ein Torsionsmodul. Aber k[X] ist
+  torsionsfrei. Also ist A oder B Null.
+
+
 === Nächste Schritte
 
 * Kurz über "Cat ist vollständig und kovollständig" nachdenken.
