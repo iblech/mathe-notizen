@@ -221,6 +221,22 @@ regulär ist.
   Auflösung durch freie Moduln zulässt. (Unter irgendwelchen Bedingungen.)
   http://mathoverflow.net/a/172945/31233
 
+* Sei X die affine Gerade mit doppeltem Ursprung. Dann ist Pic(X) isomorph zu Z.
+  Das sieht man so:
+
+      Pic(X) = { (M, N, phi) | M, N Rang-1-Moduln auf k[X],
+          phi : M tensor k[X,X^(-1)] --> N tensor k[X,X^(-1)] Iso von
+          k[X,X^(-1)]-Moduln }  (links und rechts unterschiedliche
+          Algebrenstruktur auf k[X,X^(-1)])
+
+            = GL_1(k[X]) \ GL_1(k[X,X^(-1)]) / GL_1(k[X])
+
+            = k^* \ (k^* X^Z) / k^*
+
+            = Z.
+
+  Hier geht ein, dass jedes Geradenbündel auf k[X] trivial ist.
+
 In K(X) sind folgende Elemente bezüglich der Multiplikation invertierbar:
 * Klassen von Geradenbündeln, klar.
 * Negative von Klassen von Geradenbündeln.
