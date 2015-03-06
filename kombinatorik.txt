@@ -10,3 +10,26 @@ http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.ht
 Tensorprodukt von Schur-Funktoren:
 http://www.combinatorics.org/ojs/index.php/eljc/article/download/v9i1n5/pdf
 Stembridge, A Concise Proof of the Littlewood-Richardson Rule.
+
+
+=== Ungeordnete Tupel
+
+* Anzahl der ungeordneten 2-Tupel (a,b) aus einer Menge mit n Elementen,
+  wobei a != b sein muss:
+
+      binom{n}{2} = n * (n-1) / 2
+
+* Anzahl der ungeordneten 2-Tupel (a,b) aus einer Menge X mit n Elementen,
+  wobei a = b sein darf:
+
+      binom{n+1}{2} = n * (n+1) / 2
+
+  Das kann man schnell einsehen, wenn man die Menge X mit {1,...,n}
+  identifiziert und die Gaußsche Summenformel verwendet. Es gibt aber auch
+  einen kombinatorischen Beweis:
+
+  Ein Tupel (a,b) mit a = b erlaubt und a, b aus X entspricht einem Tupel (x,y)
+  mit x != y und x, y aus X amalg {*}.
+
+  Ein Tupel (x,y) mit x != y und a, b aus X amalg {*} entspricht einem Tupel
+  (a,b) mit a = b erlaubt und a, b aus X.
