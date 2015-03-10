@@ -277,6 +277,15 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
   Alternativ: Finde Rechtsinverses. Produktformel für die Determinante sagt,
   dass die Determinante von phi invertierbar ist. Daher ist phi invertierbar.
 
+* Sei phi : M --> M ein surjektiver Endomorphismus eines endlich erzeugten
+  A-Moduls M. Dann ist phi ein Isomorphismus.
+
+  Siehe http://math.uga.edu/~pete/integral.pdf, Theorem 3.43: Fasse M als
+  A[t]-Modul auf. Sei I das Ideal (t) in A[t]. Dann gilt IM = M. Also gibt es
+  nach Nakayama ein Element f(t) aus A[t] mit f(t) = 1 modulo I und f(t) M = 0.
+  Somit gibt es ein Polyno g(t)mit 1 - f(t) = g(t) t. Sei nun x mit phi(x) = 0.
+  Dann folgt x = (1 - f(t)) x = g(t) t x = g(t) phi(x) = 0.
+
 * Sind in einer kurzen exakten Sequenz die äußeren beiden Moduln frei von
   endlichem Rang, so auch der mittlere.
 
@@ -795,6 +804,10 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
      [x_1],...,[x_n] als k-Vektorraum erzeugt.
   2. Sei M/mM erzeugt durch [x_1],...,[x_n] als k-Vektorraum.
      Dann wird M nach Nakayama durch x_1,...,x_n als A-Modul erzeugt.
+
+* In http://math.uga.edu/~pete/integral.pdf, Prop. 3.44, steht folgende
+  Verallgemeinerung von Nakayama: Sei I ein Ideal in einem Ring A und sei M ein
+  endlich erzeugter A-Modul. Dann gilt I + ann(M) = A genau dann, wenn IM = M.
 
 
 === Invariant Basis Number, Wohldefiniertheit des Rangs

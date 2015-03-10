@@ -270,6 +270,31 @@ gesamten Raum ist.
 * Stetige Abbildungen Kompaktum --> Hausdorffraum sind stets abgeschlossen.
 
 
+=== Zerlegungen der Eins
+
+Sei (U_i)_i eine offene Überdeckung eines Raums X. Dann kann man zwei
+verschiedene Anforderungen stellen:
+
+1. Es gibt eine Zerlegung der Eins, indiziert durch dieselbe Indexmenge,
+sodass supp(f_i) <= U_i.
+
+2. Es gibt eine Zerlegung der Eins, indiziert durch eine beliebige Menge,
+sodass jedes f_j kompakten Träger hat und dieser in irgendeinem der U_i
+enthalten ist.
+
+* Ist X lokal kompakt und hausdorffsch, so existiert eine stetige Zerlegung der
+  Eins im ersten Sinn für jede endliche Überdeckung. (Wikipedia)
+
+* Parakompaktheit ist eine notwendige und unter gewissen Umständen auch
+  hinreichende Bedingung dafür, dass sogar für jede offene Überdeckung eine
+  stetige Zerlegung im ersten Sinn existiert. (Wikipedia)
+
+* Jede offene Überdeckung, zu der es eine Zerlegung der Eins in einem der
+  beiden Sinne gibt, kann verfeinert werden zu einer Überdeckung der Form
+  D(f_j) = { x in X | f_j(x) != 0 }. Die Kompaktheit der Träger ist dafür nicht
+  einmal relevant.
+
+
 === Literatur
 
 * http://www.maths.ed.ac.uk/~tl/topology/topology_notes.pdf
