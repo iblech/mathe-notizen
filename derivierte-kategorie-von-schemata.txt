@@ -51,6 +51,19 @@ die Konstruktion solcher Objekte auf vielen Varietäten.
 * Folgerung: Ext^i(k(x), k(y)) = 0 für alle i >= 0 und verschiedene
   abgeschlossene Punkte x und y.
 
+* Exercise 3.30 in Huybrechts: Sei i : {x} --> X die Einbettung eines
+  abgeschlossenen Punkts. Sei E in D^b(X). Dann:
+
+      Li^* E != 0  <==>  x in supp(E).
+
+  Das kann man wohl so beweisen: Ohne Einschränkung ist E ein
+  Komplex aus lokal freien Garben. Dann ist zu zeigen:
+
+      exists n: H^n(i^* E) != 0  <==>  exists n: i^* H^n(E) != 0.
+
+  Das ist klar, da H^n und i^* in diesem Fall vertauschen (?!).
+  Ist mir nicht so klar.
+
 
 === Homologische Dimension
 
@@ -144,6 +157,9 @@ auf D^b(A) zeigen; das stimmt aber *nicht*:
             (Nutze Auflösung f^(-1)(O_X)^\binom{n}{*} --> O_A --> 0
             und nutze aus, dass die Differentiale alle durch Elemente aus J
             gegeben sind (wobei O_A = O_X/J), diese in E aber wie Null wirken.)
+
+(Daher stimmt wohl vermutlich auch nicht, dass f_* O_Z tensor^L E = f_* Lf^* E
+für Objekte E aus D^b(X).)
 
 Verwandt: Sei f : X --> Y eigentlich mit Rf_*(O_X) = O_Y in D^b(Y).
 Dann ist Lf^* : D^b(Y) --> D^b(X) volltreu, denn:

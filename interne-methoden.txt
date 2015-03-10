@@ -1425,3 +1425,13 @@ PS: If you are into such things, here is the logical background:
 === Großer Zariski-Topos
 
 * Auflösung der Unbestimmtheit rationaler Abbildungen durch Blowup -- intern verstehen!
+
+* Kann P^n im großen Zariskitopos über einem Basisschema S ganz naiv als
+
+      { (x_0,...,x_n) | exists i: x_i != 0 } / Reskalierung
+
+  realisieren. Danke an Zhen Lin, der mich (per Mail) darauf gestoßen hat.
+
+  Als Vorstufe ist { (x_0,...,x_n) | exists i: x_i invertierbar } interessant.
+  Auf X --> S ist das { (f_0,...,f_n) | f_i in O_X(X) ohne gemeinsame
+  Nullstelle }.

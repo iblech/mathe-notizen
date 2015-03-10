@@ -31,6 +31,20 @@ also wie die Grothendieck-Spektralsequenz.
 * E_1 : R^i F(A^j) ==> R^{i+j} F(A^*)
 
 
+=== Für beliebige kohomologische Funktoren
+
+Sei C eine triangulierte Kategorie und sei A eine abelsche Kategorie.
+Sei H : C --> A ein kohomologischer Funktor. Schreibe H^p(X) := H(X[p]).
+
+Sei X^* ein endlicher Komplex über C und T seine Faltung.
+
+Dann gibt es eine Spektralsequenz
+
+    E_1^pq = H^q(X^p)  ===>  H^n(T).
+
+Laut Gelfand/Manin, Seite 262.
+
+
 === Lokal-zu-global Ext
 
 http://mathoverflow.net/questions/23297/simple-examples-for-the-use-of-spectral-sequences

@@ -491,6 +491,14 @@ Für n = 2:
 
 * http://stacks.math.columbia.edu/download/coherent.pdf#01XS.
 
+* Ist phi : O(a) --> O(b) durch ein homogenes Polynom vom Grad b-a gegeben,
+  so kenne ich auch RGamma(phi), zumindest in dem Fall, dass wir den
+  projektiven Raum über einem Körper betrachten. Denn in diesem Fall ist RGamma
+  einfach der Nullkomplex der Kohomologie, und RGamma(O(k)) ist durch ein
+  einzelnes Objekt (im Grad 0, wenn k >= 0; im Grad n, wenn k < 0) gegeben, und
+  zwar durch die "homogenen Polynome" vom Grad k (evtl. negative
+  Monompotenzen).
+
 
 === Normalenbündel von P^n in P^(n+1)
 

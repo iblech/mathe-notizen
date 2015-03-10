@@ -435,6 +435,30 @@ Die Normalgarbe ist der ihr O_Y-Duales.
   mit abgeschlossenen Immersionen. Denn EXT_{O_pt} = Ext_{O_pt} sind ja trivial
   in höheren Graden.
 
+* Stets gilt auch folgendes. Sei X = Spec A und x ein Punkt von X (nicht
+  unbedingt abgeschlossen). Dann gilt
+
+      Ext^1_A(k(x), k(x)) = T_x X.
+
+  Dabei ist der Zariski-Tangentialraum definiert als
+
+      T_x X = Hom_k(x)(m_x/m_x^2, k(x)) = Hom_k(x)(m_x tensor_A k(x), k(x))
+            = Hom_A(m_x, k(x)).
+
+  Um das einzusehen, betrachtet man die kurze exakte Sequenz
+
+      0 --> m_x --> A --> k(x) --> 0
+
+  und die induzierte lange exakte Sequenz:
+
+      Hom(A, k(x)) ---> Hom(m_x, k(x)) ---> Ext^1(k(x), k(x)) ---> Ext^1(A, k(x))
+          ||                  ||                   ||                    ||
+          k(x) ----0------> T_x X ---------------> % ------------------> 0.
+
+  Wenn x ein Punkt von Kodimension 1 ist -- sodass m_x also von einem regulären
+  Element erzeugt wird und daher frei vom Rang 1 ist --, gibt es keine höheren
+  Ext-Gruppen.
+
 
 === Fasern
 

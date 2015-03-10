@@ -255,7 +255,7 @@ definiert.
       0 --> E(-1) --> E --> E tensor O_{P^(N-1)} --> 0
 
   und daher chi(E(u)) - chi(E(u-1)) = chi_{P^(N-1)}(E|_{P^(N-1)}(u)).
-  Das gilt, falls E ein Vektorbündel ist. Im Allgemeinen fall kann man aber
+  Das gilt, falls E ein Vektorbündel ist. Im Allgemeinen Fall kann man aber
   auflösen und die Additivtät des Hilbertpolynoms ausnutzen.
 
 * Numerische Berechnung: http://www4.ncsu.edu/~jdhauens/Hilbert/

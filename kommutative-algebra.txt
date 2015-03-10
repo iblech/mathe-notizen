@@ -131,6 +131,12 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   abelschen Kategorie. Dann ist V = ker phi oplus im phi.
   Also cok phi = ker phi.
 
+  Außerdem besitzt der Monomorphismus im(phi) --> V einen Koschnitt,
+  nämlich V --phi--> im(phi).
+
+  Das impliziert zum Beispiel, dass für einen Basiswechsel R --> S und eine
+  idempotente Matrix P über R gilt: im(P) tensor_R S = im(P tensor_R S).
+
 * Nicht alle endlich präsentierbaren abelschen Gruppen können als Kokern
   eines Projektors geschrieben werden. Denn Kerne von Z-Matrizen (also Kokerne
   von Projektoren) sind ja stets frei. 
@@ -297,6 +303,10 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
 
 * Ein Hauptideal (f) von A ist genau dann frei vom Rang 1,
   wenn f regulär ist.
+
+* Beachte: Familien aus mehr als einem Element in einem nichttrivialen Ring
+  können niemals linear unabhängig sein. Leicht: Seien x, y linear unabhängig.
+  Dann gilt yx - xy = 0, also y = -x = 0. Dann 1x = 0, also 1 = 0.
 
 
 === Kohärente Moduln

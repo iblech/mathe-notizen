@@ -84,6 +84,16 @@ Moduli of representations of quivers.
 http://poisson.phc.unipi.it/~maggiolo/wp-content/uploads/2008/12/GM_Reineke.pdf
 
 
+=== K-Theorie
+
+* Die K-Theorie der Darstellungen eines gebundenen Köchers ist stets frei.
+  Das ist offensichtlich eine starke Einschränkung; D^b(X) = D^b(Q) kann also
+  nicht so oft gelten.
+
+  Siehe /Explicit methods for derived categories of sheaves/,
+  www.math.utah.edu/dc/tilting.pdf.
+
+
 === Siehe auch
 
 * Keller, Derived categories and tilting.

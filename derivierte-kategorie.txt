@@ -142,6 +142,13 @@ Konstruktion in http://www.maths.ed.ac.uk/~aar/papers/neemder.pdf
 
   Ebenso: Riemann--Hilbert-Korrespondenz.
 
+* Klar, Komposition von derivierten Funktoren.
+
+  Aus R^p G und R^q F kann man nicht R^n(G . F)(X) rekonstruieren (damit das
+  geht, muss man die gesamte Spektralsequenz kennen, also noch alle
+  Differentiale). Sehr wohl aber kann man aus RG und RF den total derivierten
+  Funktor R(G . F) rekonstruieren.
+
 
 === Verdier-Quotient
 
@@ -166,6 +173,33 @@ Konstruktion in http://www.maths.ed.ac.uk/~aar/papers/neemder.pdf
 
   Schicken sie azyklische Komplexe auf Null, so insbesondere den Kegel zu einem
   Quasiiso.
+
+
+=== Hom-Mengen als filtrierte Kolimiten
+
+* In K(A), A abelsch, ist die Kategorie der Quasiisomorphismen
+  X --> X', wobei X fest ist und X' läuft, filtriert. (Genauso für Quasiisos
+  X' --> X.)
+
+  Obere Schranken werden gerade durch die Eigenschaft "lokalisierendes System"
+  gegeben. Wie Möchtegernkodifferenzkerne zustande kommen, weiß ich aber nicht.
+
+* Es gilt: Hom_{D(A)}(X, Y) = colim Hom_{K(A)}(X, Y') = colim Hom_{K(A)}(X', Y).
+
+* Injektive bzw. projektive Auflösungen sind terminale bzw. initiale Objekte
+  in diesen Indexkategorien (wenn man sich auf geeignet beschränkte Komplex
+  einschränkt).
+
+
+=== Bewahrung filtrierter Kolimiten
+
+Das nLab sagt: Sei F : A --> B ein rechtsexakter Funktor, wobei B eine
+AB5-Kategorie ist. Dann bewahrt L_n(F) filtrierte Kolimiten genau dann, wenn
+filtrierte Kolimiten von projektiven Objekten in A F-azyklische Objekte sind.
+
+Beweis: http://mathoverflow.net/questions/97658/left-derived-functors-commute-with-filtered-colimits
+
+* Als Konsequenz bewahrt zum Beispiel Tor filtrierte Kolimiten.
 
 
 === Struktur der derivierten Kategorie

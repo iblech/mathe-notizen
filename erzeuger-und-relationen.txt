@@ -172,6 +172,23 @@ rings.
   http://www.ams.org/journals/proc/2005-133-09/S0002-9939-05-07846-9/S0002-9939-05-07846-9.pdf
 
 
+=== Erzeugung von derivierten Kategorien
+
+Sei jedes Objekt in D^b(A) in endlich vielen Schritten aus Kegeln und Shifts
+aus gewissen Ausgangsobjekten X_i konstruierbar.
+
+* Dann kann man auch alle RHom's berechnen. (?)
+
+* Kann RF berechnen, wenn ich ...
+
+  * die RF(X_i) kenne UND
+  * RF auf Morphismen zwischen beliebigen Objekten (auch Kegeln von Morphismen
+    zwischen anderen Kegeln und so weiter) berechnen kann.
+
+* Für chi(RF(X)) ist es natürlich etwas einfacher. Dafür muss ich nur
+  die chi(RF(X_i)) kennen.
+
+
 === Nächste Schritte:
 
 * Wozu ist der symmetrische Topos gut?

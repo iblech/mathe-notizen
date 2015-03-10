@@ -78,6 +78,9 @@ curve. Beweis von Proposition 2.2.)
   läuft es auch für beliebige Moduln. Dann muss man halt nicht-endlich erzeugte
   Gruppen verwenden.
 
+* Q erfüllt das Tohoku-Kriterium 1.10.1 (in der Kategorie der abelschen
+  Gruppen).
+
 * Und so läuft's in R-Mod: Sei M ein R-Modul. Bette die M zugrundeliegende
   abelsche Gruppe U(M) in eine injektive Gruppe D ein. Dann ist Hom(U(R), U(D))
   injektiv und wir haben eine Injektion M --> Hom(U(R), U(D)).
@@ -96,6 +99,13 @@ curve. Beweis von Proposition 2.2.)
   unter gerichteten (nicht filtrierten) Kolimiten. Die Existenz genügend vieler
   Injektive in der Vervollständigung zeigt er durch Grothendiecks Argument über
   Erzeuger.
+
+* Sei X in K(A). Dann können wir X^+ als den formalen Kolimes
+
+      colim_{X --> X' Qis} X'
+
+  in Ind-K(A) definieren. Die so definierte Zuordnung X |-> X^+
+  schickt Quasiisos auf Isos.
 
 
 === Konkret im Computer I

@@ -75,6 +75,23 @@ Auch kann das Ideal (s,t) frei aufgelöst werden:
 * Auch ist es dann erfüllt, wenn f regulär ist und (f,g) = (1) ist.
   XXX: Stimmt das? Bedenke den Extremfall g = 0!
 
+* Eine wichtige Konsequenz: Sei I ein Ideal, das durch eine reguläre
+  Sequenz der Länge r erzeugt wird. Dann ist I/I^2 frei vom Rang r,
+  als A/I-Modul. Beweis siehe Manin über K-Theorie.
+
+* Ein lokaler Ring (A,m,k) heißt regulär, wenn dim A = dim_k m/m^2.
+  (Man hat stets (zumindest im noetherschen Fall) "<=".)
+
+  Das ist äquivalent dazu (alles klassich/noethersch), dass m durch
+  eine reguläre Sequenz erzeugt werden kann.
+
+  "==>": Lifte eine Basis von m/m^2 zu Erzeugern von m. Wikipedia sagt dann,
+  dass diese eine reguläre Sequenz bilden. http://en.wikipedia.org/wiki/Regular_sequence
+
+  "<==": Sei m durch eine reguläre Sequenz der Länge r erzeugt. Dann ist m/m^2
+  als k-Vektorraum von Dimension r. Außerdem ist dim k = dim A/m <= dim A - r.
+  Also ist dim A >= r. Fertig.
+
 
 === Allgemeiner
 
