@@ -39,6 +39,9 @@
       und ein Schnitt t in F(V) mit
       s(w) = t_{f(w)} für alle w in W }.
 
+* Sei E eine Prägarbe abelscher Gruppen. Sei E(U) = 0 für alle U
+  aus einer Basis der Topologie. Dann ist aE = 0.
+
 
 === Wolkenkratzergarben in algebraischer Geometrie
 

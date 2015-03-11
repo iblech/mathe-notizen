@@ -412,13 +412,14 @@ Die Normalgarbe ist der ihr O_Y-Duales.
   Dann hat man für O_Y eine Koszul-Auflösung Lambda^* (E^)^n.
   Mit dieser zeigt man:
 
-      Tor_*(O_Y, O_Y) = Lambda^*_{O_Y}(N^)
+      Tor_*(O_Y, O_Y) = Lambda^*_{O_Y}(N^),
 
       EXT^*(O_Y, O_Y) = Lambda^*_{O_Y}(N),
 
+      H^*(f^* f_* O_Y) = Lambda^{-*}_{O_Y} N^,
+
   wobei N die Normalgarbe und N^ die Konormalgarbe ist.
-  Wird bestätigt durch http://mathoverflow.net/a/108537. Ganz sicher bin ich
-  mir bei dem EXT-Resultat aber nicht.
+  Wird bestätigt durch http://mathoverflow.net/a/108537 und Huybrechts, Seite 251.
 
   Nutze zum Nachweis:
   * M tensor_A B --> Hom_A(M^, B) Iso für M frei

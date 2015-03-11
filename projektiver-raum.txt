@@ -353,7 +353,13 @@ Garbe mit Hom(O(i), E[s]) = 0 für alle i = a,...,a+n und alle s. Dann ist E = 0
   * chi(O_{P^(n-i)}) = 1.
   * chi(O_{P^(n-i)} tensor Omega^j(j)) = \binom{i}{j}.
 
+* Habe degdet : K(P^n) --> Z, E |-> deg det E.
+
+  Dann degdet k(x) = ??? degdet (sum_r (-1)^r O(-r)^\binom{n}{r}) = (-1)^(r+1) r
+  2^{r-1}. Meine ich r? Oder n?
+
 * Was ist die passende Lambda-Ring-Struktur auf Z[X]/(1-X)^(n+1)?
+
 
 
 === Fundamentalklassen in K-Theorie

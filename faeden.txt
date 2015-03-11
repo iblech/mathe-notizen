@@ -176,6 +176,7 @@
 
 === Kleine Hausaufgaben
 
+* Topologische Filtrierung von K(X) nachsehen.
 * Wie sieht S^2(A^2) aus? Wo hat es Singularitäten? Siehe symmetrische-produkte-von-raeumen.txt.
 * Stimmt es, dass D^-(P) = K^-(P)?
 * Welche Art von Lemma der Form "f = 0 : X --> Y  <==>  Y --> C(f) Iso" gilt?
@@ -184,7 +185,6 @@
   steht eine Art Euler-Charakteristik, die angeblich multiplikativ ist.
 * L Geradenbündel: Hom(k(x), L) = 0, Ext^1(k(x), L) erzeugt durch
   0 --> L --> L(x) --> k(x) --> 0. (Huybrechts Seite 170)
-* Ext^1(k(x), k(x)) = k (Huybrechts Seite 255).
 * E tensor E = O(1), wenn E der exzeptionelle Divisor auf der Aufblasung
   bezeichnet. Stimmt das? Behauptet Haiman auf Seite 205 von
   https://math.berkeley.edu/~mhaiman/ftp/hilb-qtcat/discrete-math.pdf.

@@ -1435,3 +1435,12 @@ PS: If you are into such things, here is the logical background:
   Als Vorstufe ist { (x_0,...,x_n) | exists i: x_i invertierbar } interessant.
   Auf X --> S ist das { (f_0,...,f_n) | f_i in O_X(X) ohne gemeinsame
   Nullstelle }.
+
+* Der Punktefunktor zu Spec Sym Omega^1_{X/S} ist einfach [Delta, X].
+
+* Kann man die Aufblasung vielleicht wie folgt konstruieren?
+
+      Bl_x0 X = { (x,v) | x in X, v in ... },
+
+  wobei "..." ein geeigneter Ausdruck ist, der im Fall x = x0 zu P(T_x0 X)
+  wird. Dabei ist T_x0 X natürlich { f : Delta --> X | f(0) = x0 }.

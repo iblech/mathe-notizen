@@ -1,3 +1,11 @@
+=== Lokale Eigenschaften
+
+Für mich bedeutet "lokal": bezüglich einer Zerlegung der Eins.
+Eine Alternative ist "halmweise".
+
+* Surjektivität ist eine lokale Eigenschaft.
+
+
 === Fitting-Ideale
 
 * Das i-te Fitting-Ideal eines endlich präsentierten Moduls M

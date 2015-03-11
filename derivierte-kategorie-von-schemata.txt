@@ -10,6 +10,15 @@ Def.: D(X) := D^b(Coh(O_X)).
   Siehe http://www.math.uni-hamburg.de/home/sosna/diplom-online.pdf.
 
 
+=== Spektralsequenz von derivierten Kategorien
+
+Ist D^b : Räume --> stabile (infty,1)-Kategorien, X |-> D^b(X) in irgendeinem
+Sinn links- oder rechtsexakt?
+
+Weiß nicht. Jedenfalls ist die Kategorie der stabilen (infty,1)-Kategorien
+nicht selbst stabil.
+
+
 === Kurven
 
 Sei C eine glatte projektive Kurve (über C). Sei Y irgendeine glatte projektive
@@ -160,6 +169,11 @@ auf D^b(A) zeigen; das stimmt aber *nicht*:
 
 (Daher stimmt wohl vermutlich auch nicht, dass f_* O_Z tensor^L E = f_* Lf^* E
 für Objekte E aus D^b(X).)
+
+Huybrechts bestätigt das auch ganz explizit, auf Seite 255.
+
+!!! Eine Ausnahme von dieser Regel gibt es, wenn man längs einer Untervarietät
+von Kodimension mindestens 2 aufgeblasen hat. Siehe Huybrechts, Seite 255.
 
 Verwandt: Sei f : X --> Y eigentlich mit Rf_*(O_X) = O_Y in D^b(Y).
 Dann ist Lf^* : D^b(Y) --> D^b(X) volltreu, denn:

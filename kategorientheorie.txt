@@ -1,3 +1,28 @@
+=== Ind-Kategorie
+
+* Ind-C :=
+
+      Objekte: Diagramme I --> C, I filtriert
+
+      Morphismen: Hom(F, G) := lim_i colim_j Hom(F(i), G(j)).
+
+  = volle Unterkategorie von [C^op, Set] der filtrierten Kolimiten von
+    darstellbaren Funktoren
+
+  = ... der flachen Funktoren
+
+  = ... der endlich kostetigen Prägarben  (diese Äquivalenz nur, falls C
+  endlich kovollständig).
+
+* C --> Ind-C ist volltreu, rechtsexakt und die Bilder sind kompakte Objekte.
+
+* Beispiel: Ind-Mod(A)^fp = Mod(A).
+
+* Ind-A ist stets eine Grothendieck-Kategorie, wenn A abelsch ist.
+
+Quelle für das alles: nLab.
+
+
 === 2 aus 3
 
 * f . g Iso, f Mono ==> g Iso (und f Iso)

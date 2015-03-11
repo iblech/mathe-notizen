@@ -49,6 +49,25 @@ geringten distributiven Verband.
   definieren. Für endliche Überdeckungen erfüllt die vermutlich das
   Verklebeaxiom, für unendliche aber vermutlich nicht.
 
+* Kurze Memo: Ein Radikalideal ist *nicht* genau dann endlich erzeugt,
+  wenn es von der Form sqrt((x_1,...,x_n)) ist. Ein Beispiel ist das
+  Radikalideal sqrt((0)) im Ring Z[X_1,...]/(X_1^1,X_2^2,...). Das ist ziemlich
+  sicher gleich (X_1,...) und nicht endlich erzeugt.
+
+* Es gibt auch den distributiven Verband der Radikalideale der Form
+  sqrt((x_1,...,x_n)). Dessen Vervollständigung zu einem Rahmen ist Rad(A).
+
+  Ist phi : Rad(A)_fg --> L ein Morphismus in einen Rahmen L, so können wir
+  eine Fortsetzung phi' : Rad(A) --> L durch
+
+      phi'(a) := bigvee_{b <= a, b in Rad(A)_fg} phi(b)
+
+  definieren. Um Verträglichkeit von phi' mit bigvee einzusehen, beobachte,
+  dass für b in Rad(A)_fg mit b <= bigvee a_i gilt: Es gibt endlich viele u_j
+  mit u_j in a_j und b = bigvee_j (b wedge sqrt((u_j))), also phi(b) =
+  bigvee_j phi(b wedge sqrt((u_j))); dann fertig mit der Beobachtung, dass
+  b wedge sqrt((u_j)) endlich erzeugt und Teilmenge von a_j ist.
+
 
 === Verklebeaxiom in einem Beispiel
 
