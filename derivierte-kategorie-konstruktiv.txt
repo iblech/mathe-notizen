@@ -78,12 +78,17 @@ curve. Beweis von Proposition 2.2.)
   läuft es auch für beliebige Moduln. Dann muss man halt nicht-endlich erzeugte
   Gruppen verwenden.
 
-* Q erfüllt das Tohoku-Kriterium 1.10.1 (in der Kategorie der abelschen
-  Gruppen).
-
 * Und so läuft's in R-Mod: Sei M ein R-Modul. Bette die M zugrundeliegende
   abelsche Gruppe U(M) in eine injektive Gruppe D ein. Dann ist Hom(U(R), U(D))
   injektiv und wir haben eine Injektion M --> Hom(U(R), U(D)).
+
+* Q erfüllt das Tohoku-Kriterium 1.10.1 (in der Kategorie der abelschen
+  Gruppen).
+
+* Q ist "injektiv bezüglich" injektiver Abbildungen Z^n --> Z^m.
+  Kann auf Smithsche Normalform reduzieren, dann ist es klar.
+
+  Q ist also injektiv bezüglich der Unterkategorie der endlich freien Z-Moduln.
 
 
 === Berechnung über Ind-Methoden

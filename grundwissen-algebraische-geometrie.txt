@@ -1,3 +1,16 @@
+=== Spec Z
+
+* Pic(Spec Z) ist trivial. Ein Beweis (nicht der beste) geht so:
+
+  Ein M ein endlich erzeugter projektiver Z-Modul (d.h. M~ sei ein beliebiges
+  Vektorbündel). Dann ist M Kokern einer idempotenten Matrix. Also ist M auch
+  Kern einer idempotenten Matrix (derselben: ker P --> cok P ist ein Iso).
+  Also ist M frei (bringe P auf Smithsche Normalform).
+
+  Auf Spec Z sind also alle Vektorbündel trivial. Geradenbündel gibt's daher
+  nur eins, das triviale.
+
+
 === Wie viel weiß der zugrundeliegende topologische Raum eines Schemas?
 
 "Note that all curves (over a fixed algebraically closed field say) are

@@ -157,6 +157,9 @@ Siehe: Daniel Biss, Which functor is the projective line? 2003.
 
 http://www.math.harvard.edu/~gaitsgde/Schemes_2009/Daniel-notes.pdf
 
+* Der projektive Raum über etwas anderem als einen Körper
+  kann noch viele andere Geradenbündel als nur die O(r) besitzen.
+
 
 === Vektorbündel auf P^1 über einem Körper
 

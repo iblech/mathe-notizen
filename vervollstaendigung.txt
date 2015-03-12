@@ -84,6 +84,13 @@
 * In irgendeinem Sinn sollte auch gelten: Die Cauchy-Vervollständigung von
   Mod(A)^ff ist Mod(A)^{e.e. proj.}. Oder?
 
+  Zumindest zerfallen in Mod(A)^{e.e. proj.} alle Idempotenten:
+  Gilt P^2 = P : M --> M, so zerlegt sich M direkt in im(P) und ker(P).
+  Somit sind im(P) und ker(P) selbst wieder projektiv (sowie endlich erzeugt;
+  für im(P) klar, für ker(P) nutze ker(P) = im(Id-P)). Damit zerfällt P
+  in Mod(A)^{e.e. proj.} in die Komposition M ->> im(P) `-> M. Tatsächlich ist
+  im(P) `-> M ->> im(P) die Identität.
+
 
 === Pro-Objekte, unendliche Galoistheorie als Lawvere-Theorie, ...
 

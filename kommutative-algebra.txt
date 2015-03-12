@@ -527,6 +527,21 @@ Sei nun X --> Y eine surjektive Abbildung. Wir wollen zeigen, dass
 Hom(M, X) --> Hom(M, Y) surjektiv ist. Lokal ist das klar.
 
 
+Es gibt auch folgende Äquivalenz:
+
+(a) Jede idempotente Matrix ist äquivalent zu einer Diagonlmatrix mit Einträgen 0 und 1.
+(b) Jede idempotente Matrix ist ähnlich zu einer Diagonlmatrix mit Einträgen 0 und 1.
+(c) Jeder lokal endlich freie Modul ist endlich frei.
+
+(a) ==> (b): Klar. Finde nämlich Basen von ker(P) und im(P).
+
+(b) ==> (c): Lokal endlich freie Moduln sind Kokerne (oder Kerne, oder Bilder)
+von idempotenten Matrizen.
+
+(c) ==> (a): Nach Voraussetzung sind ker(P) und im(P) endlich frei. Finde also
+Basen. Fertig.
+
+
 === Dualisieren
 
 * Habe stets Hom_A(M, N) --> Hom_A(N^, M^).

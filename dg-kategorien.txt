@@ -113,6 +113,13 @@ Def.:
    für Shifts ziemlich klar und vielleicht hat man folgende Eigenschaft: Sind
    F/G und G h-projektiv, so auch F.
 
+* Sei A eine dg-Algebra. Dann gibt es nur einen einzigen freien
+  A-Modul, nämlich A selbst (als Komplex).
+
+* Sei A eine gewöhnliche Algebra. Dann ist der einzige freie A-Modul
+  in Grad 0 konzentriert. Vermutlich gilt dann auch Perf(A) = Perf(A)
+  (in den beiden Sinnen).
+
 
 === Prä-triangulierte Kategorien
 
@@ -182,13 +189,6 @@ L_perf(U \cap V).
 Prop.: X, Y glatt, eigentlich/k. Dann RHom(L_perf(X), L_perf(Y)) ~ L_perf(X x Y).
 
 
-=== Neue Enhancements
-
-Valery A. Lunts, Olaf M. Schnürer.
-New enhancements of derived categories of coherent sheaves and applications.
-http://arxiv.org/abs/1406.7559
-
-
 === Verdier-Quotienten in der dg-Welt
 
 * Idee: Um A/B zu bauen, füge für jedes Objekt U aus B einen Morphismus eps in
@@ -199,6 +199,13 @@ http://arxiv.org/abs/1406.7559
 
   Die Aussage muss präzisiert werden, siehe Seite 3 von
   http://arxiv.org/abs/math/0210114.
+
+
+=== Neue Enhancements
+
+Valery A. Lunts, Olaf M. Schnürer.
+New enhancements of derived categories of coherent sheaves and applications.
+http://arxiv.org/abs/1406.7559
 
 
 === Krasse Dinge in der dg-Welt
