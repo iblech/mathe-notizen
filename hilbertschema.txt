@@ -199,9 +199,9 @@ dass sie surjektiv ist und dass ihr Kern genau I ist.
   von X/G sein. In gewissen Fällen stimmt das; das sagt BKR. Dann ist es sogar
   eine krepante Auflösung und D^b(Hilb^G(X)) --> D^b_G(X) ist eine Äquivalenz.
 
-* Definiert man Coh([X/G]) als Coh_G(X), so ist Hilb^G(X) zumindest
-  deriviert äquivalent zu [X/G]. Aber soll ich mir Hilb^G(X) als gleich [X/G]
-  vorstellen?
+* Definiert man Coh([X/G]) als Coh_G(X), so ist Hilb^G(X)
+  deriviert äquivalent zu [X/G]. Hilb^G(X) ist also nicht gleich [X/G], aber
+  zumindest deriviert äquivalent dazu.
 
 
 === Unterschemata von A^1 der Dimension 0
@@ -393,6 +393,8 @@ points (http://arxiv.org/pdf/math/0506161v1.pdf)
 * Strømme. http://matwbn.icm.edu.pl/ksiazki/bcp/bcp36/bcp36111.pdf
 * http://arxiv.org/pdf/math/0304302.pdf gut!
 * Resultants and the Hilbert scheme of points on the line.
+* https://www-fourier.ujf-grenoble.fr/sites/ifmaquette.ujf-grenoble.fr/files/bertin_rev.pdf
+  äußerst gut.
 
 
 === Sichten

@@ -67,6 +67,8 @@
 
 === Erzeuger und Relationen
 
+* Was ist Aut(R Gamma)?
+
 * Sei X projektiv von Dimension d. Sei L ein amples, global erzeugtes
   Geradenbündel. Dann split-erzeugen O, L, L^2, ..., L^d die derivierte
   Kategorie der perfekten Komplexe (und auch die unbeschränkte derivierte

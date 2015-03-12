@@ -197,6 +197,18 @@ Dann gilt:
     e(P^1/(Z/m)) = e(P^1) = 2.
 
 
+=== Tangentialraum
+
+Wirke auf X eine Gruppe G. Sei X^G der Unterraum der Fixpunkte. Sei x aus X^G.
+Dann hat man manchmal, dass der Tangentialraum von X^G an x einfach der Fixraum
+des Tangentialraums von X an x:
+
+    T_x X^G = (T_x X)^G.
+
+Steht in
+https://www-fourier.ujf-grenoble.fr/sites/ifmaquette.ujf-grenoble.fr/files/bertin_rev.pdf.
+
+
 === Literatur
 
 * Martin Entrup: Die äquivariante derivierte Kategorie des komplex-projektiven Raumes.

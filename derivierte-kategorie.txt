@@ -5,7 +5,7 @@ http://math.berkeley.edu/~mhaiman/math256/Derived-Cat-1-5.pdf
 
 === Quelle von Auflösungen
 
-* Syzygien bei Moduln
+* Syzygien bei Moduln (induziert Auflösungen der zugehörigen Modulgarben)
 * Čech-Auflösung von Garben
 * Koszul-Auflösung von Quotienten
 

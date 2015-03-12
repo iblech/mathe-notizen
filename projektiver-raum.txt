@@ -95,6 +95,21 @@ Quotienten gibt sowas ähnliches wie Proj, nur dass man das irrelevante Ideal
 nicht wegschmeisst.
 
 
+=== Moduln auf A^{n+1} \ 0
+
+Sei M ein graduierter k[x_0,...,x_n]-Modul. Dann gilt:
+
+    M~ ist auf A^{n+1} \ 0 genau dann Null, wenn M_{>= l} = 0 für ein l.
+
+"==>": Seien u_j homogene Erzeuger von M. Nach Voraussetzung sind die
+M[x_i^(-1)]_0 Null. Also werden alle u_j von irgendwelchen x_i-Potenzen
+annihiliert. Nun kann man das Maximum m der Exponenten über die i und j
+nehmen. Dann ist M_{>= l} = 0 für alle l = max_j deg(u_j) + (m+1)(n+1)+1.
+
+"<==": Klar. Kann Brüche in den M[x_i^(-1)]_0 so lange erweitern, bis der
+Zählergrad l erreicht oder überschreitet.
+
+
 === Beschreibung des Punktefunktors
 
 Hom_Z(X, P^n)

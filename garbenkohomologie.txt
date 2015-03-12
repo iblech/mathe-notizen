@@ -380,6 +380,18 @@ Habe Wirkung RHom(O_X,O_X) --> RHom(O_X,F).
   Wenn H^i(U_{i_0 ... i_p}, F) = 0 für alle p >= und i > 0, sollte die
   Komponente dieser Trafo bei F ein Quasiisomorphismus sein.
 
+  Vielleicht kann man das so zeigen: RGamma ist die Komposition der
+  abgeleiteten Funktoren zu
+
+      Mod(O_X) --vergiss--> PSh(O_X, UU) --☜^0--> Mod(O_X(X)),
+
+  wobei PSh(O_X, UU) die Kategorie der O_X-Modulprägarben ist, welche aber nur
+  auf den offenen Mengen der Überdeckung UU (und ihren Schnitten) zu definiert
+  sein müssen.
+
+  Um den Vergleich zum Stacks Project zu ziehen, hilft vielleicht, dass der
+  Funktor PSh(X) --> PSh(UU) exakt ist.
+
 
 === Französische Adjektive
 

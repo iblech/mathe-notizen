@@ -347,6 +347,17 @@ Hufeisenlemma.
   trivial.
 
 
+=== Erzeuger der triangulierten Kategorie
+
+Sei eine triangulierte Kategorie C durch Objekte X_1, ..., X_n erzeugt. Dann
+ist jedes Element aus K(C) darstellbar über:
+
+* die Klassen der X_i
+* (-1)^n (wegen Shifts)
+* x-y (wegen Kegel)
+* y = y_1 + ... + y_m (y vorher gebaut) (wegen direkten Summanden)
+
+
 === Elemente von K_0 als Funktionen
 
 Sei X eine Varietät über F_p. Ist F ein Komplex von Garben auf X, so können wir

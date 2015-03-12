@@ -113,6 +113,13 @@ curve. Beweis von Proposition 2.2.)
   schickt Quasiisos auf Isos.
 
 
+=== Erzeuger
+
+Wenn man ein gutes Modell für Hom zwischen Erzeugern, Kegeln zwischen Erzeugern
+und so weiter hat, dann kann man abgeleitete Funktoren berechnen, wenn man nur
+ihre Werte auf Erzeugern kennt. Auflösungen sind dann unnötig!
+
+
 === Konkret im Computer I
 
 Kann die abelsche Struktur von Modulkategorien implementieren:

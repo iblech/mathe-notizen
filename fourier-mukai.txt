@@ -56,6 +56,17 @@
   Definition so.)
 
 
+=== In der dg-Welt
+
+* Jedes Objekt P in D^b(X x Y) sollte auch einen Funktor zwischen den
+  dg-Kategorien D_dg(X) und D_dg(Y) induzieren.
+
+* Wenn X glatt und projektiv ist -- und daher jede derivierte Äquivalenz
+  von FM-Typ ist --, sollte die so erhaltene Abbildung Aut D^b(X) --> Aut D^b_dg(X)
+  auch surjektiv sein, dank Toëns fundamentales Resultat. Brauche dazu, dass
+  [RHom(C, D)] = Hom(C, D).
+  
+
 === Nächste Schritte
 
 * X ~~ Proj(\bigoplus_k H^0(X, omega_X^k)) für X glatt, projektiv, omega_X ampel. Wieso?

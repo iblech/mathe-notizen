@@ -39,7 +39,7 @@ Eine Alternative ist "halmweise".
         Fitt_i(M; x_1,...,x_n).
 
   4. Seien x_1,...,x_n Erzeuger mit Präsentationsmatrix A und seien y_1,...,y_m
-     (andere) Erzeuger mit Präsentationsmatrix C. Dann:
+     (andere) Erzeuger mit insgesamter Präsentationsmatrix C. Dann:
 
         Fitt_i(M; x_1,...,x_n,y_1,...,y_m) =
         (Lambda^(n+m-i) C) <=
@@ -71,9 +71,9 @@ Eine Alternative ist "halmweise".
   Klar, denn eine mögliche Präsentationsmatrix hat dann ja nur n Zeilen
   und (Lambda^0) = (1).
 
-  Wenn der Grundring lokal ist, gilt auch die Umkehrung! Denn fande ich in
+  Wenn der Grundring lokal ist, gilt auch die Umkehrung! Denn dann finde ich in
   einer Präsentationsmatrix von M mit m Zeilen einen invertierbaren
-  (m-n)-Minor. Denn kann man nach oben links bringen, sodass M also durch eine
+  (m-n)-Minor. Den kann man nach oben links bringen, sodass M also durch eine
   Präsentation der Form [ I 0 ; 0 ? ] gegeben ist. Die Restmatrix hat dabei
   nur noch n Zeilen.
 
@@ -87,7 +87,7 @@ Eine Alternative ist "halmweise".
         = Fitt_{n-1}(M) = (0),  also ? = 0.
 
   Folglich rk(M) <= n genau dann, wenn Fitt_n(M) = (1).
-  Dabei ist rk(M) die Minimalzahl benötigter Erzeuger (in eine
+  Dabei ist rk(M) die Minimalzahl benötigter Erzeuger (in einer
   Vervollständigung der natürlichen Zahlen).
 
 * Fitt_0(M) <= Ann(M): Sei N ein quadratischer Ausschnitt aus der
@@ -121,6 +121,17 @@ Eine Alternative ist "halmweise".
 * Sei der Grundring nicht unbedingt lokal. Dann gilt für einen endlich
   präsentierten Modul trotzdem: M = 0 <==> Fitt_0(M) = (1).
   Ganz einfach wegen Fitt_0(M) <= Ann(M).
+
+* In https://www-fourier.ujf-grenoble.fr/sites/ifmaquette.ujf-grenoble.fr/files/bertin_rev.pdf
+  scheint behauptet zu werden (Lemma 1.21 und 1.22): Ist Fitt_n(M) = (1), so ist
+  Fitt_(n-1)(M/M[Fitt_n(M)]) = (0). Dabei ist M[Fitt_n(M)] die Menge derjenigen
+  x aus M, sodass Fitt_n(M) x = 0.
+
+  Diese Behauptung ist aber falsch. Sei M so, dass Fitt_(n-1)(M) = 0. Das ist
+  ja durchaus möglich. Dann ist M[Fitt_n(M)] = M und damit der Quotient Null.
+  Desser Fitting-Ideale sind (für n >= 0) alle (1).
+
+  Vielleicht habe ich die Behauptung auch missverstanden.
 
 Werbung für Fitting-Ideale macht unter anderem:
 http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf

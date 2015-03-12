@@ -206,6 +206,12 @@ nämlich:
 
     (1 - O(-1))^(n+1) = 0, falls dim V = n + 1.
 
+Mit der exakten Sequenz oben kann man zum Beispiel schnell
+
+    RGamma(O(-n-1)) = k[-n]
+
+nachweisen, wenn man verwendet, dass RGamma(O(i)) = 0 für -n <= i <= -1.
+
 
 === Als Extensionen von Geradenbündeln
 

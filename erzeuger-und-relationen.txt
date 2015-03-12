@@ -189,6 +189,17 @@ aus gewissen Ausgangsobjekten X_i konstruierbar.
   die chi(RF(X_i)) kennen.
 
 
+=== Darstellung von Mod(A) als Funktorkategorie
+
+Sei A = k[X_1,...,X_n]/(f_1,...,f_m).
+
+Dann ist Mod(A) = [A, Ab]_Ab = [A, Vect_k]_k, wobei in der Mitte A als
+Ab-angereicherte und rechts A als k-lineare Kategorie interpretiert wird.
+
+Außerdem Mod(A) = { (V, x_1,...,x_n : V --> V) |
+    x_i x_j = x_j x_i, f_l(x_i) = 0 in End(V) }.
+
+
 === Nächste Schritte:
 
 * Wozu ist der symmetrische Topos gut?

@@ -1436,6 +1436,10 @@ PS: If you are into such things, here is the logical background:
   Auf X --> S ist das { (f_0,...,f_n) | f_i in O_X(X) ohne gemeinsame
   Nullstelle }.
 
+  Kann dann schön zeigen: Alle Abbildungen f : P^1 --> A^1 sind konstant.
+  Schränke dazu f auf D(x) bzw. D(y) ein. Erhalte so Abbildungen A^1 --> A^1,
+  die durch Polynome darstellbar sind.
+
 * Der Punktefunktor zu Spec Sym Omega^1_{X/S} ist einfach [Delta, X].
 
 * Kann man die Aufblasung vielleicht wie folgt konstruieren?
@@ -1444,3 +1448,44 @@ PS: If you are into such things, here is the logical background:
 
   wobei "..." ein geeigneter Ausdruck ist, der im Fall x = x0 zu P(T_x0 X)
   wird. Dabei ist T_x0 X natürlich { f : Delta --> X | f(0) = x0 }.
+
+A Sei F qcoh O_S-Modul. Dann könnte man denken, dass [F~, A^1]_A^1 = RelSpec F.
+
+B Sei X S-Schema. Dann könnte man denken, dass [X, A^1] = (mu_* O_X)^~.
+
+* Beides ist aber im Allgemeinen falsch. Allerdings:
+
+  B ist korrekt für X --> S affin.
+
+  A ist korrekt in manchen Fällen:
+
+  * [A^1, A^1]_A^1 = pt.
+  * [A^1[T_1,...,T_n], A^1]_A^1 = A^n.
+  * [A^1 x A^1, A^1]_A^1 = pt \amalg pt.
+    (Verwende: Sei A lokaler Ring. Sei phi : A x A --> A ein A-Algebrenhomo.
+    Dann ist -- auch, wenn A nicht unbedingt ein Integritätsbereich ist -- phi
+    die Projekt auf eine der beiden Komponenten. Schreibe dazu phi als Matrix.)
+  * [A[T]/(f), A^1]_A^1 = V(f) <= A^1.
+
+
+=== Garben-EXT
+
+Sei O_X kohärent. Dann kann EXT intern als Ext verstanden werden.
+(In Coh(X) jeweils.)
+
+* Um das einzusehen, sei ohne Einschränkung X affin. Sei F^* --> M --> 0
+  eine Auflösung durch endlich-freie Moduln. Dann ist bekannt:
+
+      EXT^*(M~, N~) = H^*(HOM(F~^*, N~))
+
+  Intern sieht F~^* --> M~ --> 0 wie eine projektive Auflösung aus, kann also
+  zur Berechnung von Ext verwendet werden:
+
+      Ext(M~, N~) = H^*(Hom(F~^*, N~)).
+
+  Das ist dasselbe wie oben.
+
+* Der Beweis hat noch verschiede Lücken. Zum einen zeigt das nur lokale
+  Isomorphie. Außerdem treffe ich hier keine Aussage über RHOM, wobei das wohl
+  nicht schwieriger wäre. Aber das Grundsatzproblem der Unbestimmtheit bis auf
+  Iso bzw. Quasiiso bleibt!
