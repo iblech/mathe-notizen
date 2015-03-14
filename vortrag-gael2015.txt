@@ -1,0 +1,33 @@
+Which of the senior speaker's courses are you most interested in and why?
+
+I'm most interested in Fulton's and Taelman's courses.
+
+For Fulton, this is because I'm too interested in Chern classes (of certain
+derived bundles with known Chern classes) and in the relations with equivariant
+cohomology.
+
+For Taelman, this is because I wanted to understand the trace formular for a
+long time and because I hope to gain new impulses for my research, regarding
+the interplay between a variety and its derived category.
+
+
+Which of the courses do you think you will understand the most and why?
+
+I will probably understand Taelman's course the most, as I'm familiar with
+derived categories and G-equivariant geometry. Also, his Beijing lecture notes
+on the same topic seem to be very accessible.
+
+
+Mathematical interests
+
+My main interest is in symmetric products of derived categories and
+"categorified linear algebra" (symmetric and exterior products of categories).
+The main kinds of geometric objects I work with are Hyperkähler manifolds.
+
+I'm also interested in applications of topos theory to algebraic geometry, i.e.
+gaining better understanding of relative situations by using the intuitionistic
+internal language of certain topoi, and constructive mathematics in general.
+
+Please note that I already gave a talk in 2013's GAeL. I understand that you
+might want to prefer students who had not yet the chance to talk in front of an
+international audience.
