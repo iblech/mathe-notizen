@@ -289,3 +289,6 @@
 
 * Joel Friedman - Sheaves on Graphs, L^2 Betti Numbers, and Applications.
   https://www.youtube.com/watch?v=qkFmcs9Kz6E
+
+* http://arxiv.org/abs/1503.04348
+  The reals as rational Cauchy filters

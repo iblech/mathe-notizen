@@ -9,3 +9,6 @@ Siehe auch:
   analysis.
 
 * Palmgren, Continuity on the real line and in formal spaces.
+
+* Towards an Effective Theory of Absolutely Continuous Measures.
+  http://arxiv.org/abs/1503.04743

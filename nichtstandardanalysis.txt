@@ -18,6 +18,9 @@
 * Edward Nelson, Radically elementary probability theory.
   https://web.math.princeton.edu/~nelson/books/rept.pdf
 
+* Conceptual Differential Calculus. I: First Order Local Linear Algebra
+  http://arxiv.org/abs/1503.04623
+
 
 === Taos cheap nonstandard analysis
 
