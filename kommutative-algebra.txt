@@ -1,3 +1,16 @@
+=== Dualer Vektorraum
+
+Sei V ein Vektorraum über einem Körper F und dim(V) = infty.
+Dann dim(V^) > dim(V).
+
+Das geht so (siehe http://math.stackexchange.com/a/35863/61604):
+Sei d = dim(V), d^ = dim(V^). Dann zeige d^ >= |F|.
+
+Somit |V^| = d' * |F| = max { d', |F| } = d'.
+
+Also d' = |V^| = |F|^|d| > |d|, da |F| >= 2.
+
+
 === Lokale Eigenschaften
 
 Für mich bedeutet "lokal": bezüglich einer Zerlegung der Eins.
