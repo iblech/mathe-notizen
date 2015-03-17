@@ -10,6 +10,17 @@ Somit |V^| = d' * |F| = max { d', |F| } = d'.
 
 Also d' = |V^| = |F|^|d| > |d|, da |F| >= 2.
 
+* Dabei verwendet: Ist W von Dimension a, so |W| = a * |F|.
+  
+  Das zeigt man so (wobei B eine Basis von W ist):
+
+      |W| = |bigcup_{T <= B endlich} prod_T F|
+          = sum_{T <= B endlich} |F|^|T|
+          = sum_{T <= B endlich} |F|
+          = |B| * |F| = a * |F|.
+
+  Wie geht das genau?
+
 
 === Lokale Eigenschaften
 
