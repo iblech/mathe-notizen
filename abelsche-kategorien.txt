@@ -145,6 +145,17 @@ in kanonischer Eins-zu-Eins-Beziehung, vermöge U |-> f[U] und V |-> f^(-1)[V].
   sogar eine Isomorphie in allen Graden. Steht in Mohameds Bericht in
   Oberwolfach2.pdf.
 
+* Eine exakte Sequenz von abelschen Kategorien ist ein Diagramm der Form
+  B --> A --> A/B. (Siehe Marco Schlichting, Higher Algebraic K-Theory.)
+  Achtung, eine solche induziert im Allgemeinen keine exakte Sequenz von
+  derivierten Kategorien (Seite 196), sogar nicht im noetherschen und
+  artinschen Fall.
+
+* Ein Objekt aus A, das eine endliche Filtrierung mit Quotienten aus B besitzt,
+  liegt selbst schon in B. Betrachte dazu die kurzen exakten Sequenzen
+
+      0 --> X^i --> X^{i+1} --> X^{i+1}/X^i --> 0.
+
 Literatur:
 * Quotient Categories and Localizing Functors, Carl Faith.
   http://link.springer.com/chapter/10.1007%2F978-3-642-80634-6_17

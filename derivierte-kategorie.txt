@@ -86,6 +86,14 @@ Dabei verwendet, dass die Qis'se auch in Kom^b ein lokalisierendes System
 bilden.
 
 
+=== D^* und Unterkategorien
+
+Sei A eine volle exakte Unterkategorie von B. Existiere für jede Inflation
+X --> Y in B mit X in A ein Morphismus Y --> X' mit X' in A sodass die
+Komposition X --> Y --> X' eine Inflation in A ist. Dann ist D^b(A) --> D^b(B)
+volltreu.
+
+
 === Kohomologische Funktoren, zugrundeliegender Komplex, D^b-Anreicherung
 
 http://mathoverflow.net/questions/61650/cohomological-functor-from-triangulated-category

@@ -102,6 +102,8 @@ homologische Dimension n. Siehe: Huybrechts, Seite 68.
   (in der abgeleiteten Kategorie) zu einem beschränkten Komplex lokal freier
   Garben.
 
+  Steht ausführlich in Marco Schlichting, Higher Algebraic K-Theory, Seite 199.
+
 
 === Semi-orthogonale Zerlegungen
 

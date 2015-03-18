@@ -220,6 +220,35 @@ http://terrytao.wordpress.com/2012/04/02/a-cheap-version-of-nonstandard-analysis
 
   Das ist klar.
 
+* Sei Z = V(I) <= X ein abgeschlossenes Unterschema. Sei E quasikohärent.
+  Dann supp(E) <= Z genau dann, wenn (1 in I ==> E = 0); genau dann, wenn
+
+      forall f in I: forall s in E: exists n >= 0: f^n s = 0.
+
+  Ist E endlich erzeugt, ist das genau dann der Fall, wenn
+
+      I <= sqrt(Ann E).
+
+* Sei I ein Ideal von O_X. Dann ist I genau dann nilpotent (das soll heißen:
+  jedes Element aus I ist nilpotent), wenn Sh(X) |== (1 in I ==> bot).
+
+* Sei E ein O_X-Modul. Sei Z = V(I) <= X ein abgeschlossenes Unterschema.
+  Dann liegt E genau dann im wesentlichen Bild von i_*, wenn
+  supp(E) <= Z (d.h. Sh(X) |= (1 in I ==> E = 0)) und I E = 0.
+
+  "==>": E trägt also sogar eine O/I-Modulstruktur und wird zum O-Modul durch
+  Skalareinschränkung. Dann ist I E = 0 klar.
+
+  "<==": Kann auf E eine O/I-Modulstruktur definieren.
+
+* Sei I ein Ideal mit I^n = (0). Dann ist topologisch V(I) = X, denn jedes
+  Element aus I ist nilpotent. Damit besitzt jeder O_X-Modul E die Filtrierung
+
+      0 = I^n E <= I^{n-1} E <= ... <= I E <= E,
+
+  wobei für die Quotienten Q jeweils I Q = 0 gilt, d.h. von Moduln auf V(I)
+  herkommen.
+
 
 === Internes Spektrum
 

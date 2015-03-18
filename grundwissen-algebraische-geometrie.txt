@@ -1,3 +1,19 @@
+=== Dimension
+
+* dim(X) <= n genau dann, wenn Sh(X) |== dim(O_X) <= n.
+
+* dim(V(I)) <= n genau dann, wenn Sh(X) |== dim(O_X/I) <= n.
+
+* Ist E eine Modulgarbe, so können wir das abgeschlossene Unterschema
+  supp(E) := V(Ann(E)) definieren. Topologisch stimmt das genau mit dem Träger
+  von E überein -- zumindest, wenn E von endlichem Typ ist, damit dieser
+  abgeschlossen ist. (Denn für das Innere der Komplemente gilt: Sie sind gleich
+  -- links haben wir den Wahrheitswert von "E = 0", rechts den von "1 in
+  Ann(E)".)
+
+  Dann folgt: dim supp(E) <= n genau dann, wenn Sh(X) |== dim(O_X/Ann(E)) <= n.
+
+
 === Spec Z
 
 * Pic(Spec Z) ist trivial. Ein Beweis (nicht der beste) geht so:

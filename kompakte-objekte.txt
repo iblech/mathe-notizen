@@ -150,6 +150,8 @@ Regularität von X behauptet.
   ∞-categorical sense) of the perfect one.
   http://mathoverflow.net/a/55218/31233
 
+* Marco Schlichting, Higher Algebraic K-Theory, Seite 202.
+
 
 === Endlichkeitsbedingungen an Schemata
 

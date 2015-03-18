@@ -1,3 +1,31 @@
+=== Erweiterung und Kontraktion von Idealen
+
+* Sei A --> B ein Ringhomo und I ein Ideal von A. Dann gilt:
+
+      sqrt(sqrt(I) B) = sqrt(I B).
+
+
+=== Annihilator
+
+* Ann A/I = I.
+
+* Stets gilt (in klassischer Logik natürlich):
+
+      supp(M) <= V(Ann M).
+
+  Wenn M endlich erzeugt ist, gilt auch ">=".
+
+  Zeige dazu für ein Primideal p:
+
+      M_p != 0   (<)==>   Ann(M) <= p.
+
+  "==>": Sei sM = 0. Angenommen, s nicht in p. Dann M_p = 0. Widerspruch.
+
+  "<==": Angenommen M_p = 0. Dann existiert zu jedem x aus M ein s nicht in p
+  mit sx = 0 in M. Da M endlich erzeugt ist, gibt es damit s_1 ... s_n nicht in p
+  mit s_1 ... s_n M = 0, also s_1 ... s_n in Ann(M) <= p. Widerspruch.
+
+
 === Dualer Vektorraum
 
 Sei V ein Vektorraum über einem Körper F und dim(V) = infty.
@@ -671,6 +699,24 @@ muss.
 
 === Lokale Ringe
 
+* Sei (A,m) lokal. Dann ist A --> A/m ein lokaler Homo:
+
+  Sei [x] in A/m invertierbar. Dann gibt es y in A mit xy - 1 in m.
+  Da A lokal ist, ist xy oder 1-xy invertierbar. Also Fall 1. Also ist x
+  invertierbar.
+
+* Sei (A,m) ein lokaler Ring. Sei M ein freier A-Modul vom Rang 1.
+  Sei s in M. Dann gilt:
+
+      A --s--> M ist genau dann ein Iso, wenn s != 0 in M/mM.
+
+  "==>" ist klar, tensoriere.
+  "<==" folgt durch Betrachtung der Determinante dieser Abbildung: Diese wird
+  nämlich invertierbar nach Tensorieren mit A/m.
+
+  Damit folgt: Sei s ein globaler Schnitt eines Geradenbündels L.
+  Dann s_x : O_{X,x} --> L_x genau dann ein Iso, wenn s != 0 in L|_x.
+
 * http://www.math.iitb.ac.in/atm/caag1/jayanthan.pdf
 
 * Jacobi-Kriterium impliziert Regularität, unter gewissen Voraussetzungen:
@@ -904,6 +950,21 @@ Sei R nicht unbedingt kommutativ.
 
 * Es gilt: dim R/(a) < dim R, falls a regulär; kann das einfach mit der
   konstruktiven Definition von Krulldimension nachweisen.
+
+* Sei 0 --> M' --> M --> M'' --> 0 exakt.
+
+  Dann Ann(M) <= Ann(M') cap Ann(M'') und Ann(M') * Ann(M'') <= Ann(M),
+  also sqrt(Ann(M)) = sqrt(Ann(M')) cap sqrt(Ann(M'')).
+
+* dim A/I = dim A/sqrt(I), da allgemein dim A = dim A/sqrt(0).
+
+* Ich erwarte dim(M) <= n genau dann, wenn dim(M') <= n und dim(M'') <= n.
+
+  Das würde aus dim A/(I cap J) <= n genau dann, wenn dim A/I <= n und dim A/J <= n folgen.
+
+  Hintergrund: Unterkategorie der kohärenten Garben mit Kodimension des Trägers >= i
+  ist Serresche Unterkategorie (siehe Marco Schlichting, Higher Algebraic
+  K-Theory, Seite 211).
 
 
 === Reguläre Ringe

@@ -44,3 +44,26 @@
 Nicht sigfpe:
 
 * http://de.slideshare.net/ScottWlaschin/fp-patterns-buildstufflt
+
+
+=== Freie Monaden
+
+Ist f ein Funktor, so definiert
+
+    data Free f a = Pure a | Impure (f (Free f a))
+
+eine Monade -- die von f frei erzeugte Monade.
+
+* Free Void = Maybe, wobei data Void r keine Konstruktoren hat.
+
+* Free Identity a = a x N = State N a.
+
+* Free (r,__) = a x [r].
+
+Adjunktion: Für alle Funktoren f und Monaden m stehen
+
+    Funktormorphismen f --> m
+
+        in natürlicher Bijektion zu
+
+    Monadenmorphismen Free f --> m.

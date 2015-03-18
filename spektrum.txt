@@ -35,6 +35,8 @@ geringten distributiven Verband.
 
 * Elemente der Form sqrt((x_1,...,x_n)) sind kompakt.
 
+* sqrt(a cap b) = sqrt(a) cap sqrt(b) = sqrt(a * b).
+
 * Für ein Radikalideal a ist die Menge
 
       Ja := { x | a \subseteq sqrt(x) }

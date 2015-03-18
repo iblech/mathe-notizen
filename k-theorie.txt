@@ -194,8 +194,10 @@ regulär ist.
   https://www.math.leidenuniv.nl/scripties/MasterJavanpeykar.pdf
   Das folgt auch aus abstraktem Nonsens:
   * Coh(Y) ist äquivalent zu Coh(X)_supp, der vollen Unterkategorie von Coh(X)
-    derjenigen Garben, die Träger in Y haben. (Vermöge Vordrücken und
-    Zurückziehen.)
+    derjenigen Garben, die Träger in Y haben und XXX von I, der Idealgarbe von Y,
+    annihiliert werden. (Vermöge Vordrücken und Zurückziehen.) XXX Achtung, das
+    ist dann keine Serresche Unterkategorie mehr! Sei 0 -> E' -> E -> E'' -> 0.
+    Gelte I E' = 0 und I E'' = 0. Dann folgt nur I^2 E = 0, nicht I E = 0.
   * Coh(X)/Coh(X)_supp ist äquivalent zu Coh(X \ Y), vermöge Einschränken
     mit j^{-1} und Vordrücken mit j_!. Zum Nachweis der Vollheit (bzw. zum
     Nachweis, dass das Pseudoinverse wirklich ein Pseudoinverses ist) muss man
@@ -203,6 +205,26 @@ regulär ist.
     Coh(X)_supp liegen. Das folgt durch Betrachtung dieser Abbildung auf Halmen.
   * Allgemein hat man für Serresche Unterkategorien die exakte Sequenz
     K_0(B) --> K_0(A) --> K_0(A/B) --> 0.
+
+  Richtig geht es so:
+  1. Coh_Y(X) --> Coh(X) --> Coh(X \ Y) ist eine exakte Sequenz von abelschen
+     Kategorien, wie oben beschrieben. Dabei ist Coh_Y(X) die Kategorie
+     derjenigen kohärenten Garben auf X, welche Träger auf Y haben (aber
+     vielleicht trotzdem nicht von einer kohärenten Garbe auf Y stammen).
+  2. Coh(Y) <= Coh_Y(X) erfüllt Dévissage, also K(Coh(Y)) = K(Coh_Y(X)).
+     Brauche dafür: Ist E in Coh_Y(X), so gibt es ein n mit I^n E = 0.
+     Dafür ist hinreichend, dass X quasikompakt und I endlich erzeugt ist:
+     Da E kohärent ist, ist E insbesondere quasikohärent. Zusammen mit der
+     Tatsache, dass E endlich erzeugt ist, folgt (siehe interne-methoden.txt):
+     Für alle f aus I gibt es n >= 0 mit f^n E = 0. Da I endlich erzeugt ist,
+     folgt somit I^m E = 0 für ein m >= 0. Erhalte ein global verwendbares m
+     aufgrund der Quasikompaktheit.
+
+  Details stehen in Marco Schlichting, Higher Algebraic K-Theory, Seite 179.
+
+* Sei Y <= X ein abgeschlossenes Unterschema eines kohärenten Schemas
+  mit nilpotenter Idealgarbe I (I^n = 0 für ein n). Dann K(Y) = K(X),
+  aufgrund der Filtrationssache.
 
 * K_0(X x A^1) = K_0(X). Kor.: K_0(A_R^n) = K_0(R).
   https://www.math.leidenuniv.nl/scripties/MasterJavanpeykar.pdf, Abschnitt 5.
@@ -438,6 +460,50 @@ Hauptdiagonale.
 * K(Rep_fin(G)) ist die Verlinde-Algebra von G.
 
 * K(Rep_fin(G)) wird frei erzeugt durch die Klassen irreduzibler Darstellungen.
+
+
+=== Höhere K-Theorie
+
+Sei E eine exakte Kategorie. Dann ist der K-Theorie-Raum von E der Raum
+
+    K(E) := Omega B Q E.
+
+Dabei nimmt Omega den Schleifenraum, B(QE) ist der klassifizierende Raum zur
+Kategorie QE und QE sieht so aus: die Objekte sind die von E, aber Morphismen X
+--> Y sind Diagramme der Form X <<-- W `--> Y.
+
+* K_i(E) := pi_i K(E) = pi_{i+1} B(QE).
+
+* Ist B --> A --> A/B eine exakte Sequenz von abelschen Kategorien, so ist
+  BQ(B) --> BQ(A) --> BQ(A/B) eine Homotopiefaserung. Insbesondere gibt es
+  eine lange exakte Sequenz der Form
+
+      ... --> K_1(A/B) --> K_0(B) --> K_0(A) --> K_0(A/B) --> 0.
+
+* Sei B <= A eine volle abelsche Unterkategorie (natürlich so, dass die
+  Inklusion exakt ist). Besitze jedes Objekt aus A eine endliche Filtrierung,
+  in der die Quotienten in B liegen. Dann induziert die Inklusion eine
+  Homotopieäquivalenz K(B) --> K(A). ("Dévissage")
+
+* \mathbb{K} verträgt sich gut mit offenen Überdeckungen! (Werden zu
+  Homotopiepullbacks.) Siehe Seite 205.
+
+  Auch verträgt es sich gut mit Aufblasungen (Seite 209).
+
+* Brown--Gersten--Quillen-Spektralsequenz (Seite 211):
+
+      E_1^pq = bigoplus_{x in X^p} K_{-p-q}(k(x)) ==> G_{-p-q}(X).
+
+  Dabei X^p <= X Menge der Punkte von Kodimension p in X.
+  X noethersches Schema.
+
+  Wenn X regulär und von endlichem Typ über einem Körper ist, so gilt
+
+      E_2^{p,-p} = CH^p(X)  (Chow-Gruppe).
+
+* Motivische Spektralsequenz: E_2^pq = H^{p-q}_mot(X, Z(-q)) ==> K_{-p-q}(X).
+
+Quelle: Marco Schlichting, Higher Algebraic K-Theory.
 
 
 === Nächste Schritte

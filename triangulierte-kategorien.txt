@@ -13,6 +13,27 @@
   sie abgeschlossen unter Isos und direkten Summanden ist.
   (Unter direkten Summen ist sie sowieso abgeschlossen!)
 
+* Eine exakte Sequenz von triangulierten Kategorien ist ein Diagramm
+
+      A --> B --> C
+
+  sodass die Komposition Null ist; A --> B volltreu ist und (bis auf
+  Äquivalenz) mit der Unterkategorie derjenigen Objekte aus B, die in C Null
+  sind, übereinstimmt; und der induzierte Funktor B/A --> C eine Äquivalenz
+  ist.
+
+  In diesem Fall ist dann K_0(A) --> K_0(B) --> K_0(C) --> 0 exakt.
+
+  Quelle: Marco Schlichting, Higher Algebraic K-Theory, Seite 184.
+
+* Wichtiges Beispiel ist D^b Coh_Z(X) --> D^b Coh(X) --> D^b Coh(U),
+  falls U <= X ein offenes Unterschema mit Komplement Z ist.
+  Dabei muss X noethersch sein. Seite 198. Siehe auch Seite 202.
+
+* Sei A --> B --> C eine Sequenz von triangulierten Kategorien,
+  welche "exakt bis auf Faktoren" ist. Seien A, B und C idempotent-vollständig.
+  Dann ist K_0(A) --> K_0(B) --> K_0(C) exakt (Seite 187).
+
 
 === Aufspannende Klassen
 
