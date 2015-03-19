@@ -26,8 +26,24 @@ http://math.ucr.edu/home/baez/qg-winter2001/qg16.1.html
 
 === Exaktheit
 
-Der "garbifizierte Čech-Funktor" O_X-Mod --> Kom^+(O_X-Mod) ist im Allgemeinen
+Der "garbisierte Čech-Funktor" O_X-Mod --> Kom^+(O_X-Mod) ist im Allgemeinen
 /nicht/ exakt, aber linksexakt.
+
+
+=== Garbisierte Čech-Auflösung
+
+Der garbisierte Čech-Komplex liefert stets einen Quasiisomorphismus
+
+    E --> Č^*(UU, E),
+
+unabhängig von der Tollheit der Überdeckung. Das zeigt man, indem man
+nachweist, dass der Komplex
+
+    0 --> E --> Č^*(UU, E)
+
+halmweise homotopieäquivalent zum Nullkomplex ist.
+
+Siehe http://stacks.math.columbia.edu/tag/02FU.
 
 
 === Kanonische Abbildung Ȟ^1(X; F) --> Ext^1_klassisch(O_X, F)
