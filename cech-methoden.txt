@@ -45,6 +45,21 @@ halmweise homotopieäquivalent zum Nullkomplex ist.
 
 Siehe http://stacks.math.columbia.edu/tag/02FU.
 
+* Wieso direktes Produkt statt direkte Summe?
+
+  1. Man möchte, dass für jede Überdeckung U und jede Garbe E gilt: Ȟ(U, E) =
+  E(X). Dazu benötigt man das direkte Produkt.
+
+  2. Man möchte eine Čech-zu-Garbenkohomologie-Spektralsequenz haben. In deren
+  Herleitung muss man an einer Stelle das direkte Produkt bzw. die direkte
+  Summe mit Kohomologie vertauschen. Korrekt ist das aber nur fürs direkte
+  Produkt: Siehe http://stacks.math.columbia.edu/tag/02FR.
+
+  Im Fall, dass die betrachtete Überdeckung lokal endlich ist, stimmen (beim
+  garbisierten Čech-Komplex) direktes Produkt und direkte Summe wieder überein.
+  Das steht ebenfalls im referenzierten Ausschnitt aus dem Stacks Project (ganz
+  unten).
+
 
 === Kanonische Abbildung Ȟ^1(X; F) --> Ext^1_klassisch(O_X, F)
 
