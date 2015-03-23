@@ -1,3 +1,55 @@
+=== Exaktheit von direkten Summen und Produkten
+
+* In Ab sind direkte Produkte, aber nicht direkte Summen exakt:
+  Habe zwar eine Abbildung H(oplus) --> oplus H, aber diese ist nicht
+  surjektiv.
+
+
+=== Faserprodukt
+
+* Seien A --> C und B --> C exakt. Dann ist auch A x_C B wieder abelsch.
+  Kerne und Kokerne werden komponentenweise genommen.
+
+* Aber Achtung: Auch, wenn A, B und C genügend viele Projektive besitzen,
+  ist das fürs Faserprodukt überhaupt nicht klar.
+
+
+=== Projektiver Erzeuger
+
+Sei P projektiv. Dann sind äquivalent:
+
+1. Hom(P, __) ist treu.
+2. Für alle M: Hom(P, M) = 0 ==> M = 0.
+
+1. ==> 2. ist klar: Denn allgemein reflektiert ein additiver treuer Funktor
+Nullheit.
+
+2. ==> 1. geht so: Sei f : M --> N mit Hom(P, f) = 0.
+Betrachte 0 --> ker(f) --> M --> im(f) --> 0.
+Da P projektiv ist, ist auch Hom(P, M) --> Hom(P, im(f)) surjektiv.
+Die Komposition Hom(P, M) --> Hom(P, im(f)) --> Hom(P, N) ist Null.
+Also ist der Mono Hom(P, im(f)) --> Hom(P, N) Null und somit ist Hom(P, im(f)) = 0.
+Fertig.
+
+
+=== Homologische Dimension
+
+* dim Vect(k) = 0.
+
+* dim Mod(Z) = 1.
+
+* Wie hängt die Dimension von Kom(A) von der von A ab?
+
+  Vermutung: Diese ist größer. Ich würde zum Beispiel erwarten, dass in Kom(k)
+  nicht jede kurze exakte Sequenz zerfällt.
+
+* dim Coh(k) = 0 auch konstruktiv.
+
+* dim Coh(Z) = 1 auch konstruktiv.
+
+  Genauso bei k[X], wenn k faktoriell.
+
+
 === Natürliche Trafos zwischen additiven Funktoren
 
 Seien F, G : A --> B additive Funktoren zwischen additiven Kategorien.
@@ -113,6 +165,9 @@ in kanonischer Eins-zu-Eins-Beziehung, vermöge U |-> f[U] und V |-> f^(-1)[V].
   berechnete Bild in B liegt.
 
 * Ab/Torsion ist Q-Vect, vermöge Skalarerweiterung auf Q.
+
+* Ist Ab/p-Torsion äquivalent zu Z[p^(-1)]-Mod? Habe zumindest einen treuen
+  Funktor.
 
 * Welchen Gleichungslöser für rationale Matrizen bekommt man, wenn man in
   Ab/Torsion statt Q-Vect rechnet?

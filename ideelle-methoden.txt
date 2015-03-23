@@ -40,6 +40,9 @@ Injektive nützlich.
   Ersetzungen passieren, da der Polynomgrad in jedem Schritt abnimmt. Das ist
   also viel besser.
 
+* Idee: Möchte Disjunktion "es existiert ein Lift oder eine Klasse in Ext^1"
+  haben.
+
 
 === Ideelle Oberkörper als Kolimes?
 

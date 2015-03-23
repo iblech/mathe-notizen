@@ -1,3 +1,12 @@
+=== Nullheit in ausgezeichneten Dreiecken
+
+Analog zu der Situation bei exakten Sequenzen könnte man denken: Für ein
+ausgezeichnetes Dreieck X --> Y --> Z --> gilt: Y = 0 <==> X = 0 und Z = 0.
+
+"==>" ist dabei aber völlig falsch. Bedenke zum Beispiel die Rotation eines
+Dreiecks der Form X --iso--> Y --> 0 -->.
+
+
 === Interpretation der Axiome
 
 * Oktaederaxiom: siehe Huybrechts, F-M, Seite 13.

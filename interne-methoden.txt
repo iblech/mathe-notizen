@@ -1496,6 +1496,11 @@ B Sei X S-Schema. Dann könnte man denken, dass [X, A^1] = (mu_* O_X)^~.
     die Projekt auf eine der beiden Komponenten. Schreibe dazu phi als Matrix.)
   * [A[T]/(f), A^1]_A^1 = V(f) <= A^1.
 
+* Es gilt: [X, A^1](T) = A^1(X x T) = Gamma(O_{X x T})
+  und (mu_* O_X)^~(T) = Gamma(T, eps^* mu_* O_X), wenn T -eps-> S und X -mu-> S.
+  PBTC sagt: eps^* mu_* O_X = (pi_T)_* O_{X x T}, falls mu eigentlich ist und
+  weitere Bedingungen erfüllt sind.
+
 
 === Garben-EXT
 

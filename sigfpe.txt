@@ -67,3 +67,8 @@ Adjunktion: Für alle Funktoren f und Monaden m stehen
         in natürlicher Bijektion zu
 
     Monadenmorphismen Free f --> m.
+
+
+=== Python
+
+"Python-Code ist nur _lokal_ sehr gut lesbar."

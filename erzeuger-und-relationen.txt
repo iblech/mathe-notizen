@@ -189,6 +189,26 @@ aus gewissen Ausgangsobjekten X_i konstruierbar.
   die chi(RF(X_i)) kennen.
 
 
+=== D^b(X) als D^b(Mod-A)
+
+Sei D^b(X), X glatt, von einer starken exzeptionellen Sequenz E_0,...,E_n
+erzeugt. Setze A = End(oplus_i E_i). Dann gibt es eine Äquivalenz
+
+    phi : D^b(X) --> D^b(A).
+
+Und zwar so: Wähle zu jedem Y in D^b(X) eine endlich flache Auflösung I(Y).
+Setze dann phi(Y) := RHom(E, I(Y)).
+
+Dann ist phi(E_i) = P_i, denn H^j phi(E_i) = 0 für j != 0 und dann muss man
+sich das nur noch für j = 0 überlegen.
+
+Die Volltreuheit ist klar, da sie auf der exzeptionellen Folge klar ist. (Ist
+mir jetzt gerade aber nicht mehr klar.)
+
+* Sei X = P^1. Dann ist A die Pfadalgebra zu (u ==>^a_b v), also
+  k<u, v, a, b | au = u, av = 0, ...>.
+
+
 === Darstellung von Mod(A) als Funktorkategorie
 
 Sei A = k[X_1,...,X_n]/(f_1,...,f_m).

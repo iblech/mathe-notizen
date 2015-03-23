@@ -90,6 +90,12 @@ curve. Beweis von Proposition 2.2.)
 
   Q ist also injektiv bezüglich der Unterkategorie der endlich freien Z-Moduln.
 
+* Habe mal aufgeschrieben: I injektiv in Ab <==> Ext^1(T, I) = 0 für T = Z, Q
+  und Z/(n). Stimmt das?
+
+  Dann könnte man Ergebnisse aus ideellen Injektiven extrahieren. Die wären
+  dann gültig modulo Primzahlen, die ich vorgeben kann.
+
 
 === Berechnung über Ind-Methoden
 
@@ -118,6 +124,31 @@ curve. Beweis von Proposition 2.2.)
 Wenn man ein gutes Modell für Hom zwischen Erzeugern, Kegeln zwischen Erzeugern
 und so weiter hat, dann kann man abgeleitete Funktoren berechnen, wenn man nur
 ihre Werte auf Erzeugern kennt. Auflösungen sind dann unnötig!
+
+
+=== Der Fall endlicher Dimension
+
+Sei A ein Ring, sodass Coh(A) auch konstruktiv endliche Dimension hat.
+
+Dann ist es kein Problem, D^b(Coh(A)) zu realisieren:
+* Kann immer projektive Ersetzungen finden.
+* Für einzelne Objekte sogar freie.
+* Damit sind alle LF's berechenbar: Tor, Ext (bedenke: (endlich präsentiert)
+  tensor (kohärent) ist kohärent).
+
+Bei Schemata aber gibt es weiterhin folgende Fragen:
+* Wie berechne ich lokal freie Auflösungen?
+* Was ist mit injektiven Auflösungen?
+
+Die Bemerkung in Marco Schlichting, Higher Algebraic K-Theory zur Berechnung
+von Rf_* könnte hier sehr relevant sein.
+
+
+=== Eine fixe Idee: Sukzessive Quotienten
+
+Eine fixe Idee: Löse Probleme in abelschen Kategorien in sukzessiven
+Quotienten. Entweder immer größer werdende oder chinesischer-Restsatz-mäßig in
+lauter verschiedenen.
 
 
 === Konkret im Computer I
