@@ -32,6 +32,14 @@ Also ist der Mono Hom(P, im(f)) --> Hom(P, N) Null und somit ist Hom(P, im(f)) =
 Fertig.
 
 
+=== Endomorphismen von Modulkategorien
+
+https://math.berkeley.edu/~amathew/semicontinuity.pdf, Prop. 2.1:
+Sei T : A-Mod --> A-Mod ein rechtsexakter A-linearer Funktor der mit beliebigen
+direkten Summen vertauscht. Dann ist T isomorph zu einem Funktor der Form __
+tensor N.
+
+
 === Homologische Dimension
 
 * dim Vect(k) = 0.

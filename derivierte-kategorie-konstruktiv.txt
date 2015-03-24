@@ -143,6 +143,12 @@ Bei Schemata aber gibt es weiterhin folgende Fragen:
 Die Bemerkung in Marco Schlichting, Higher Algebraic K-Theory zur Berechnung
 von Rf_* könnte hier sehr relevant sein.
 
+* Sei C ein endlicher Komplex aus flachen Moduln über einem noetherschen Ring,
+  dessen Kohomologie in jedem Grad endlich erzeugt ist. Dann gibt es einen
+  endlichen Komplex K aus endlich erzeugten flachen Moduln und einen Quasiiso K --> C.
+
+  Siehe https://math.berkeley.edu/~amathew/semicontinuity.pdf, Prop. 1.2.
+
 
 === Eine fixe Idee: Sukzessive Quotienten
 
