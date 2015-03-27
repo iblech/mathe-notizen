@@ -58,6 +58,11 @@ eine Monade -- die von f frei erzeugte Monade.
 
 * Free Identity a = a x N = State N a.
 
+* Free Pair a = Tree a, wobei data Pair a = Pair a a.
+  https://hackage.haskell.org/package/free-3.2/docs/Control-Monad-Free.html
+
+* Free Maybe ist der Partiality-Monad.
+
 * Free (r,__) = a x [r].
 
 Adjunktion: Für alle Funktoren f und Monaden m stehen
