@@ -312,6 +312,11 @@ keine Homotopieäquivalenz.
 * Wieso nicht Kom^{>= 0}(A) (oder K, oder D)? Weil hier der Shiftfunktor
   keine Äquivalenz ist.
 
+* Wieso nicht K? Das ist doch auch eine triangulierte Kategorie!
+  Aber die ausgezeichneten Dreiecke in K entsprechen nur den gradweise
+  zerfallenden kurzen exakten Sequenzen von Komplexen. (Außerdem kann man
+  natürlich noch nicht Auflösungen miteinander identifizieren.)
+
 * Die Motivation aus dem Thomason(?)-Artikel (oder Căldăru/skimming):
   homotopieäquivalent genau dann, wenn ein dritter Simplizialkomplex Z und
   simpliziale Abbildungen Z --> X und Z --> Y existieren, welche auf Niveau der
