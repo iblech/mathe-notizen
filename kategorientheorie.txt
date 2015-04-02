@@ -41,6 +41,14 @@ Quelle für das alles: nLab.
   - f f^(-1) = id.
   - f^(-1) f . g = g (f g)^(-1) f g = g = id . g.
 
+* Verwandt: Ein Morphismus f : X --> Y ist genau dann ein Iso,
+  wenn f_* : Hom(T,X) --> Hom(T,Y) für alle T ein Iso ist (und tatsächlich
+  genügt T = Y, um das Inverse g als Urbild von id_Y zu erhalten, und T = X,
+  um auch g . f = id_X nachzuweisen).
+
+  Genauer: f ist genau dann ein Iso, wenn Hom(Y,X) --> Hom(Y,Y) surjektiv und
+  Hom(X,X) --> Hom(X,Y) injektiv ist.
+
 
 === Kanten vs. Pfade
 

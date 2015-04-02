@@ -12,6 +12,17 @@ Dreiecks der Form X --iso--> Y --> 0 -->.
 * Oktaederaxiom: siehe Huybrechts, F-M, Seite 13.
 
 
+=== Eindeutigkeit des Kegels bis auf unkanonische Isomorphie
+
+* Die Eindeutigkeit des Kegels bis auf unkanonische Isomorphie
+  zeigt man *nicht* über die universelle Eigenschaft des Kegels. Die gibt es ja
+  nämlich gar nicht.
+
+* Stattdessen verwendet man TR3, um einen Morphismus zu induzieren,
+  und wendet den Funktor Hom(T,__) an, um mit dem Fünferlemma zu sehen, dass
+  dieser ein Iso ist.
+
+
 === Unterkategorien
 
 * Eine volle Unterkategorie D einer triangulierten Kategorie C heißt

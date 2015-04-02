@@ -191,6 +191,8 @@ Konstruktion in http://www.maths.ed.ac.uk/~aar/papers/neemder.pdf
 
   Obere Schranken werden gerade durch die Eigenschaft "lokalisierendes System"
   gegeben. Wie Möchtegernkodifferenzkerne zustande kommen, weiß ich aber nicht.
+  Update: Steht auf Seite 11 von
+  http://www.math.harvard.edu/~gaitsgde/Schemes_2009/BR/233bnotesIurie.pdf.
 
 * Es gilt: Hom_{D(A)}(X, Y) = colim Hom_{K(A)}(X, Y') = colim Hom_{K(A)}(X', Y).
 

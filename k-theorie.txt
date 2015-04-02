@@ -337,6 +337,21 @@ In K(X) sind folgende Elemente bezüglich der Multiplikation invertierbar:
 * Siehe auch Fulton (Intersection Theory), Kapitel 15.
 
 
+=== Filtrierung nach Trägerkodimension
+
+Sei X regulär und zusammenhängend. Sei K_i(X) von den Klassen von solchen
+Modulgarben erzeugt, deren Träger Kodimension >= i hat.
+
+* K(X) / K_2(X) ist isomorph zu Z oplus Pic(X), vermöge rk & det.
+  Die Umkehrung schickt (1,0) auf [O] und (0,L) auf [L]-[O].
+
+* Für Kurven ist K_2 natürlich Null. In diesem Fall kennt man die K-Theorie
+  also vollständig.
+
+Quelle: Seite 93 von
+http://www.math.harvard.edu/~gaitsgde/Schemes_2009/BR/233bnotesIurie.pdf.
+
+
 === Eulercharakteristik einer Modulgarbe (nach Hartshorne, Ex. III.5.1):
 
 Def.: chi(F) = \sum (-1)^i dim_k H^i(X; F).
