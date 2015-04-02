@@ -77,3 +77,11 @@ Adjunktion: Für alle Funktoren f und Monaden m stehen
 === Python
 
 "Python-Code ist nur _lokal_ sehr gut lesbar."
+
+
+=== Doktorarbeit von Brent Yorgey
+
+http://www.cis.upenn.edu/~byorgey/hosted/thesis.pdf
+Combinatorial Species and Labelled Structures
+
+mit HoTT-Bezug
