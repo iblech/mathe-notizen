@@ -96,6 +96,8 @@ Weitere Beispiele:
 3. auf Graph: Algebren zur Monade "zugrundeliegender Graph der freien Kategorie"
    sind kleine Kategorien.
 
+Siehe auch sigfpe.txt über freie Monaden!
+
 
 === Potenzmengenfunktor
 
