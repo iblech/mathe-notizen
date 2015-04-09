@@ -95,6 +95,30 @@ Beim Nachrechnen bedenke, dass F als kontravarianter Funktor die Gleichung
 für f \in Hom^i(A,X), g \in Hom^s(B,A) erfüllt. Beachte die Vorzeichen!
 
 
+=== Konzentrierte dg-Kategorien
+
+* Sei A eine dg-Kategorie, deren Hom-Komplexe nur in Grad 0 Kohomologie haben.
+  Dann ist A quasi-äquivalent zu H^0(A). Siehe Seite 10 von
+  http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts.
+
+
+=== Modellstruktur
+
+Auf der Kategorie der dg-Kategorien über einem Körper gibt es folgende
+Modellstruktur:
+
+* Die schwächen Äquivalenzen sind die Quasi-Äquivalenzen.
+
+* Faserungen sind volle Funktoren mit einer Zusatzeigenschaft.
+
+* Die Kofaserungen ergeben sich dann daraus.
+
+Siehe Seite 19f. von
+http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts.
+
+In dieser Modellstruktur sind alle Objekte fasernd.
+
+
 === dg-Moduln
 
 Die Kategorie der dg-Moduln auf einer dg-Kategorie A ist
@@ -152,6 +176,41 @@ triangulierte Kategorie.
 Beweis: Der üblichen Beweis, dass Kom(A)/Homotopie trianguliert ist, lässt sich
 in dem Kontext hier wiederholen. Habe das für TR1 bis TR3 geprüft (nur nicht
 Rückwärtsrotieren). TR4 (Oktaederaxiom) habe ich mir nicht ausgeschaut.
+Details stehen ab Seite 51 in
+http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts.
+TR4 schaut sich der aber auch nicht an. :-)
+
+* Sei A eine dg-Kategorie und B eine prä-triangulierte dg-Kategorie.
+  Dann ist Funct(A,B) auch wieder prä-trianguliert.
+
+
+=== Dumme und gute Kategorie von Morphismen
+
+* Die dumme Morphismenkategorie zu einer dg-Kategorie A hat als Objekte
+  geschlossene Grad-0-Morphismen X --> Y und Morphismenkomplexe
+
+      Hom(f, g) := { (u,v) | g u = v f }.
+
+  Hier erlauben wir aber nicht, dass gu und vf lediglich homotop zueinander
+  sind.
+
+* Die gute Morphismenkategorie hat dieselben Objekte, aber als
+  Morphismenkomplexe
+
+      Hom(f, g) := { w in A(C(f), C(g)) | p' w j = 0 }.
+
+  In dieser Formulierung muss man voraussetzen, dass A prä-trianguliert ist
+  (sonst gibt es die Kegel vielleicht nicht). Man kann das aber umschreiben,
+  sodass Kegel nicht mehr explizit eingehen.
+
+* Habe einen Funktor Mor_stupid --> Mor_gut, der treu, aber nicht voll ist.
+  In diesem Sinn ist Mor_gut also wirklich eine Verallgemeinerung.
+
+* Habe (wenn A prä-trianguliert) einen dg-Kegelfunktor Mor_gut(A) --> A.
+  Natürlich gibt es aber keinen kompatiblen Funktor Mor H^0(A) --> H^0(A).
+
+Siehe: Seite 65 und davor in
+http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts.
 
 
 === [.]
@@ -174,7 +233,7 @@ Bsp.:
 2) D(BA) := Ho(BA-Mod) ~ D(R).
 
 
-=== dg-derivierte Kategorie
+=== dg-derivierte Kategorie von Schemata
 
 Def.: X k-Schema.
 1) L(X) := L(O_X) := Int(C(O_X)).
@@ -199,6 +258,30 @@ Prop.: X, Y glatt, eigentlich/k. Dann RHom(L_perf(X), L_perf(Y)) ~ L_perf(X x Y)
 
   Die Aussage muss präzisiert werden, siehe Seite 3 von
   http://arxiv.org/abs/math/0210114.
+
+
+=== Die abgeleitete Kategorie einer dg-Kategorie
+
+* D(A) := Ho(C(A)). Das ist eine gewöhnliche 1-Kategorie, keine dg-Kategorie.
+  Dabei ist C(A) = Funct_dg(A^op, C(k)) und "Ho" muss im modelltheoretischen
+  Sinn verstanden werden. Es ist also nicht einfach H^0. H^0(C(A)) kann als
+  K(A) bezeichnet werden.
+
+* Dann hat man für kofasernde Komplexe F: K(A)(F,G) --> D(A)(F,G) ist ein Iso.
+  Siehe Seite 24 von
+  http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts.
+
+* D(A)(h_X, G) --> H^0(G(X)) ist ein Iso.
+
+* H^0(A) --> D(A) ist volltreu.
+
+
+
+=== Lifts von Funktoren in die dg-Welt
+
+* http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts
+  Angeblich ist eine hinreichende Bedingung, dass die gefragten abgeleiteten
+  Kategorien von einer starken exzeptionellen Zwei-Term-Sequenz erzeugt werden.
 
 
 === Neue Enhancements
@@ -236,6 +319,8 @@ Siehe auch:
 * http://www.mi.ras.ru/~akuznet/dgcat/Keller%20On%20differential%20graded%20categories.pdf
 * http://www.maths.ed.ac.uk/~eshinder/Mainz-Lecture-3.pdf
 * http://arxiv.org/pdf/math/0601185v5.pdf On differential graded categories, Keller.
+* http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts
+  Enthält eine schöne Einführung in dg-Kategorien.
 
 * Für Vorzeichen:
   Grothendieck Duality and Base Change, Ausgabe 1750, Brian Conrad.

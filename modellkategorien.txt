@@ -1,0 +1,21 @@
+=== Intuition und Analogien
+
+* Die kofasernden Objekte sind wie Projektive: Ein Objekt A
+  ist genau dann kofasernd, wenn jede Abbildung A --> Y längs jeder
+  trivialen Faserung X --> Y einen Kolift besitzt.
+
+  Genauso mit fasernden Objekten und Injektiven.
+
+  Andererseits ist etwas komisch, dass in vielen Modellkategorien alle Objekte
+  fasernd oder kofasernd sind! (Zum Beispiel sind in Ch(k) alle Objekte
+  fasernd.)
+
+  Siehe Seite 17 von
+  http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts.
+
+
+=== Lokalisierung
+
+Klar, das Hauptresultat lautet:
+
+    Ho(M) = M_cf/Homotopieäquivalenz.

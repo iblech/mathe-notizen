@@ -182,6 +182,13 @@ Konstruktion in http://www.maths.ed.ac.uk/~aar/papers/neemder.pdf
   Schicken sie azyklische Komplexe auf Null, so insbesondere den Kegel zu einem
   Quasiiso.
 
+* Übrigens, Achtung: In der gewöhnlichen Zickzack-Konstruktion ist die
+  Äquivalenzrelation nicht einfach die, dass komponierbare Morphismen
+  zusammengefasst werden können. Auf diese Weise würde man die Inversen nämlich
+  "frei" hinzufügen. Das soll aber nicht geschehen. Daher muss man stattdessen
+  kompliziertere Faserproduktsachen machen. Siehe Seite 14 von
+  http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts.
+
 
 === Hom-Mengen als filtrierte Kolimiten
 
@@ -268,6 +275,13 @@ gegeben. Seien X und Y H^0-Komplexe. Dann gilt:
 
     Z = H^(-1)(Z)[1] oplus H^0(Z)[0]
       = ker(H^0(X) --> H^0(Y)) oplus cok(H^0(X) --> H^0(Y)).
+
+
+=== Lustige Beispiele
+
+* Cat[Äquivalenzen^(-1)] ist "Ho(Cat)", d.h. Morphismen sind Isoklassen
+  von Funktoren. Ist nicht völlig offensichtlich, siehe Seite 14ff. von
+  http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts.
 
 
 === Notwendigkeit des Ableitens von Funktoren
@@ -470,6 +484,39 @@ Das stimmt zumindest, wenn C = D^b(X) für eine glatte projektive Varietät X.
 * Das steht in Bondal, Representation of associative algebras and coherent
   sheaves, Thm. 6.2.
   http://iopscience.iop.org/0025-5726/34/1/A02/pdf/0025-5726_34_1_A02.pdf
+
+
+=== Inwieweit bestimmen exzeptionelle Sequenzen die Kategorie?
+
+* Seien D_1 und D_2 algebraische derivierte Kategorien (d.h. solche, die
+  ein dg-Enhancement erlauben). Seien D_1 und D_2 durch volle Unterkategorien
+  E_1 bzw. E_2 erzeugt. Seien E_1 und E_2 als k-lineare Kategorien äquivalent.
+  Sei Hom_{D_i}(E, E'[n]) = 0 für alle n != 0, E, E' in E_i (i = 1 und i = 2).
+  Dann ist D_1 äquivalent zu D_2.
+
+* Seien D_1 und D_2 triangulierte Kategorien mit vollen starken exzeptionellen
+  Sequenzen (E_0,...,E_n) bzw. (F_0,...,F_n). Seien die vollen Unterkategorien
+  { E_0, ..., E_n } und { F_0, ..., F_n } äquivalent (in der Quelle steht hier
+  "isomorph", vielleicht ist das ausnahmsweise wichtig!). Dann sind D_1 und D_2
+  äquivalent.
+
+* Kor. 5.8 in der Quelle beschreibt eine hinreichende Bedingung dafür, wann
+  eine triangulierte Kategorie eine eindeutige dg-Verbesserung besitzt. Im
+  Kriterium kommt ein Vergleich mit der prototypischen exzeptionellen Sequenz
+  des P^n vor.
+
+* Sei D eine algebraische triangulierte Kategorie (klar, über k) mit einer
+  starken exzeptionellen Zwei-Term-Sequenz (E_0,E_1) mit D(E_0,E_1) = k^m.
+  
+  Dann ist D äquivalent zu H^0((Delta^m_k)^pretr). Seite 71.
+
+  Viel schwieriger für längere exzeptionelle Sequenzen!
+
+* Die Quelle schreibt auch (Seite 75), dass im Allgemeinen die Frage nach
+  dg-Lifts von Funktoren völlig offen ist, mit einer guten Begründung.
+ 
+Quelle: Seite 68 von
+http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts.
 
 
 === Monomorphismen in derivierten Kategorien zerfallen
