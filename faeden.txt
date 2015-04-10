@@ -1,5 +1,7 @@
 === dg
 
+* http://arxiv.org/pdf/1212.6170v1.pdf ab Seite ca. 37.
+
 * Quellen [16] und [44] in http://arxiv.org/pdf/1108.3787v1.pdf
   beschreiben, wie man auf dg-Niveau Verdier-Quotienten bildet und welche
   universelle Eigenschaft das hat.

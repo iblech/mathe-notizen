@@ -456,6 +456,7 @@ Hauptdiagonale.
   immer noch, dass die Klassen der A_i K(C) erzeugen.
 
 * Wie funktioniert das für allgemeine semi-orthogonale Zerlegungen?
+  Antwort steht in http://arxiv.org/pdf/1212.6170v1.pdf, Seite 8.
 
 
 === Hall-Algebra

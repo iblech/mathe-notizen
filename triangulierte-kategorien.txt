@@ -1,3 +1,10 @@
+=== Das Böse
+
+* Sei C eine Kategorie mit einer Autoäquivalenz. Dann ist C äquivalent
+  zu einer Kategorie mit einem Automorphismus.
+  http://mathoverflow.net/questions/91901/is-it-possible-to-make-an-autoequivalence-of-categories-an-automorphism/91902#91902
+
+
 === Nullheit in ausgezeichneten Dreiecken
 
 Analog zu der Situation bei exakten Sequenzen könnte man denken: Für ein
@@ -80,6 +87,29 @@ Dreiecks der Form X --iso--> Y --> 0 -->.
 * Sei A eine k-lineare abelsche Kategorie von endlicher homologischer
   Dimension. Sei (L_i)_i eine ample Folge. Dann bilden die L_i in
   D^b(A) eine aufspannende Klasse.
+
+
+=== Semi-orthogonale Zerlegungen
+
+* In http://arxiv.org/pdf/1212.6170v1.pdf steht (Seite 8): Seien C_1, C_2 <= C
+  ein semi-orthogonales Paar von vollen triangulierten Unterkategorien.
+  Besitze i_1 : C_1 --> C einen Linksadjungierten i_1^* : C --> C_1.
+  Besitze i_2 : C_2 --> C einen Rechtsadjungierten i_2^! : C --> C_2.
+  Dann gibt es die semi-orthogonale Zerlegung
+
+      C = <C_1, perp^C_1 cap C_2^perp, C_2>.
+
+  Falls der Term in der Mitte Null ist, hat man also sogar C = <C_1, C_2> mit
+  den Projektionsfunktoren p_1 = i_1 i_1^* und p_2 = i_2 i_2^!.
+
+
+=== Brown-Darstellbarkeit
+
+http://arxiv.org/pdf/1212.6170v1.pdf, Seite 11:
+
+Sei F : C --> D ein triangulierter Funktor. Sei C kovollständig und von einer
+Menge kompakter Objekte erzeugt. Dann hat F genau dann einen
+Rechtsadjungierten, wenn F mit direkten Summen vertauscht.
 
 
 === Neue Axiome

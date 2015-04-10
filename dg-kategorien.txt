@@ -259,6 +259,37 @@ Prop.: X, Y glatt, eigentlich/k. Dann RHom(L_perf(X), L_perf(Y)) ~ L_perf(X x Y)
   Die Aussage muss präzisiert werden, siehe Seite 3 von
   http://arxiv.org/abs/math/0210114.
 
+* Dieser Quotient heißt auch/besser Drinfeld-Quotient. Für die
+  Homotopiekategorien gilt (A prä-trianguliert), dass A/B wieder
+  prä-trianguliert ist mit
+
+      [A/B] = [A] / [B],
+
+  wobei auf der rechten Seite der gewöhnliche Verdier-Quotient gemeint ist.
+
+  Quelle: Thm. 3.8 in http://arxiv.org/pdf/1212.6170v1.pdf.
+
+* Sei X ein separiertes Schema von endlichem Typ über einem Körper.
+  Dann ist die unbeschränkte derivierte Kategorie definiert als
+
+      D(X) := [Kom(X)] / [Kom^acycl(X)].
+
+  Siehe http://arxiv.org/pdf/1212.6170v1.pdf, Abschnitt 3.10. Es geht aber
+  auch:
+
+      D(X) := [h-flat(X)] / [h-flat^acycl(X)].
+
+  Zur Erinnerung: Ein Komplex F heißt h-flach genau dann, wenn Tot(F tensor A)
+  azyklisch ist für alle azyklischen Komplexe A.
+
+  * Der Pullback h-flacher Komplexe ist h-flach.
+  * Der Pullback h-flacher azyklischer Komplexe ist h-flach azyklisch.
+  * Das Tensorprodukt eines h-flachen azyklischen Komplex mit irgendeinem
+    Komplex ist azyklisch.
+
+  Das ist gut, um Lf^* definieren zu können. Mit Brown-Darstellbarkeit bekommt
+  man dann ein Rf_*.
+
 
 === Die abgeleitete Kategorie einer dg-Kategorie
 
@@ -303,6 +334,20 @@ http://arxiv.org/abs/1406.7559
 * Es ist ja bekannt, dass das normale D(X) zwar viele Invarianten von X
   festlegt, aber nicht erlaubt, diese aus D(X) zu berechnen. Mit dem dg-D(X)
   ist dieser Makel behoben.
+
+* Man kann dg-Kategorien längs dg-Bimoduln verkleben.
+  http://arxiv.org/pdf/1212.6170v1.pdf
+
+
+=== Verklebung von dg-Kategorien
+
+* Sei C prä-trianguliert mit einer semi-orthogonalen Zerlegung
+
+      [C] = <D_1, D_2>.
+
+  Dann ist C quasi-äquivalent zu der Verklebung zweier dg-Kategorien C_1 und
+  C_2 mit [C_1] = D_1, [C_2] = D_2. Das ist Prop. 4.10 in
+  http://arxiv.org/pdf/1212.6170v1.pdf.
 
 
 === Nächste Schritte

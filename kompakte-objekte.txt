@@ -113,7 +113,10 @@ Nach Bondal-van den Bergh (S. 8f):
 
 Daraus entnehme ich:
 * D^b(Coh(X)) ist die Unterkategorie der kompakten Objekte von
-  D^b(Qcoh(X)). Stimmt das?
+  D^b(Qcoh(X)). Stimmt das? In http://arxiv.org/pdf/1212.6170v1.pdf steht
+  jedenfalls: D^b(Coh(X)) ist die Unterkategorie der kompakten Objekte der
+  unbeschränkten derivierten Kategorie D(QCoh(X)), falls X separiert, von
+  endlichem Typ über k und außerdem glatt ist (Seite 10).
 
 Ferner schreiben sie:
 * Q qc qs. Dann D_qcoh(X) ~ D(Lambda) für eine DG-Algebra Lambda mit

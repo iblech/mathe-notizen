@@ -85,3 +85,9 @@ http://www.cis.upenn.edu/~byorgey/hosted/thesis.pdf
 Combinatorial Species and Labelled Structures
 
 mit HoTT-Bezug
+
+
+=== Möbiusband
+
+* Wenn man ein (2n+1)-fach verdrilltes Band der Mitte nach zerschneidet,
+  erhält man ein (stark) verknotetes Band.

@@ -350,6 +350,17 @@ skyscraper sheaves of points go under the equivalence."
   noch die multiplikative Struktur.
 
 
+=== Auflösung von Singularitäten
+
+Denke an die Projektionsformel: Rpi_*(Lpi^*(E)) = E tensor^L Rpi_*(O_X).
+
+* Wenn O_Y --> Rpi_*(O_X) ein Iso ist, sagt man, Y habe rationale
+  Singularitäten. In diesem Fall ist Lpi^* : D(Y) --> D(X) volltreu.
+  Somit kann man geometrische Fragen auf Y zu solchen auf X reduzieren.
+
+Quelle: http://arxiv.org/pdf/1212.6170v1.pdf
+
+
 === Nächste Schritte
 
 * Grundlegende Lemmas zu D(X) notieren.
