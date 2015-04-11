@@ -523,11 +523,25 @@ Für n = 2:
   zwar durch die "homogenen Polynome" vom Grad k (evtl. negative
   Monompotenzen).
 
+  Ha! Das stimmt sogar, wenn wir nicht über einem Körper arbeiten. Weil ja in
+  jedem Fall RGamma(O(k)) in nur einem Grad Kohomologie hat. Für solche
+  Komplexe stimmt es, dass sie mit ihrem Kohomologiekomplex übereinstimmen.
+
+  Achtung. Fehleralarm. Denke dran, dass die Kohomologie von O(negativ) ein
+  bisschen komplizierter ist; manchmal ist sie sogar ganz Null!
+
 
 === Normalenbündel von P^n in P^(n+1)
 
-http://math.uoregon.edu/~ddugger/kgeom.pdf
-Seite 156, Beispiel 22.7
+Das ist O(1), und ist aus folgendem Grund klar: Die Idealgarbe zur Inklusion
+ist O(-1). Die Konormalgarbe ist deren Rückzug auf P^n, also wieder O(-1).
+Deren Duales ist O(1). [ Denn wie ist denn die Inklusion P^n --> P^(n+1)
+definiert? Naja, über (n+1) der (n+2) möglichen Schnitte von O(1) auf P^(n+1).
+Dann muss man noch verwenden, dass Dualisieren mit Rückzug vertauscht. Wann
+gilt das? ]
+
+Ein geometrisches Argument findet sich in http://math.uoregon.edu/~ddugger/kgeom.pdf,
+Seite 156, Beispiel 22.7.
 
 
 === P^n als Ziel von Einbettungen
@@ -562,3 +576,6 @@ Der P^n ist ein gern genutztes und wichtiges Ziel von Einbettungen.
 * Hat P^n auch eine universelle Eigenschaft bezüglich beliebiger lokal
   geringter Räume oder gar allgemeiner lokal geringter Topoi? Welche Theorie
   klassifiziert der kleine oder große Zariskitopos auf P^n?
+
+* http://math.stackexchange.com/questions/640752/sheaf-cohomology-of-projective-spaces
+  Es gibt eine Formel für h^q(P^n, Omega^p(n)).
