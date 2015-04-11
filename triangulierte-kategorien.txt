@@ -102,6 +102,11 @@ Dreiecks der Form X --iso--> Y --> 0 -->.
   Falls der Term in der Mitte Null ist, hat man also sogar C = <C_1, C_2> mit
   den Projektionsfunktoren p_1 = i_1 i_1^* und p_2 = i_2 i_2^!.
 
+* Wenn man C = <D, E> hat, ist C/D = E. Wird zum Beispiel auf Seite 63 von
+  http://arxiv.org/pdf/1212.6170v1.pdf behauptet.
+
+* Habe irgendwo glaub ich mal gelesen: K(A) = <K(A)^acycl, D(A)>.
+
 
 === Brown-Darstellbarkeit
 

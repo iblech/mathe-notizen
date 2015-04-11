@@ -358,6 +358,30 @@ Denke an die Projektionsformel: Rpi_*(Lpi^*(E)) = E tensor^L Rpi_*(O_X).
   Singularitäten. In diesem Fall ist Lpi^* : D(Y) --> D(X) volltreu.
   Somit kann man geometrische Fragen auf Y zu solchen auf X reduzieren.
 
+* Eine kategorielle Auflösung eines Schemas X ist eine glatte kovollständige
+  kompakt-erzeugte triangulierte Kategorie C mit einem adjungierten Paar
+  triangulierter Funktoren
+
+      pi^* : D(X) --> C    pi_* : C --> D(X)
+
+  sodass:
+  1. pi_* . pi^* = id.
+  2. pi^* und pi_* vertauschen mit beliebigen direkten Summen.
+  3. pi_*(C^c) <= D^b(Coh(X)).
+
+* Eine triangulierte Kategorie heißt stark geometrisch, wenn sie eine
+  semi-orthogonale Zerlegung in D(glatte alg. Var.)'s zulässt.
+
+* Jedes separierte Schema von endlichem Typ über einem Körper der
+  Charakteristik 0 besitzt eine kategorielle Auflösung durch eine stark
+  geometrische triangulierte Kategorie, welche sogar eigentlich ist, wenn das
+  Schema es ist.
+
+  Wenn das Schema generisch reduziert ist, dann ist die Auflösung "birational"
+  zum Schema: Man erhält eigentlich sogar eine Prägarbe von Auflösungen, und
+  für genügend kleine offene Mengen stimmt die Auflösung mit der abgeleiteten
+  Kategorie der offenen Menge selbst überein.
+
 Quelle: http://arxiv.org/pdf/1212.6170v1.pdf
 
 

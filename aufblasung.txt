@@ -38,6 +38,10 @@
   injektive Abbildung f^*(J) --> O_Y. Ihr Bild ist das von f^(-1)(J)
   erzeugte Ideal in O_Y. Aber f^*(J) ist das im Allgemeinen nicht.
 
+* f^{-1}(J^n) * O_Y = oplus_{k=0}^infty J^{k+n} = O(n).
+  Schreibt http://arxiv.org/pdf/1212.6170v1.pdf auf Seite 48.
+  Außerdem Rf_* O(n) = J^n.
+
 * Das steht alles in http://stacks.math.columbia.edu/tag/01OF.
 
 

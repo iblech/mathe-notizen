@@ -118,6 +118,9 @@ Daraus entnehme ich:
   unbeschränkten derivierten Kategorie D(QCoh(X)), falls X separiert, von
   endlichem Typ über k und außerdem glatt ist (Seite 10).
 
+  Falls X nicht glatt ist, gilt immer noch (wieder Seite 10):
+  D(X)^c = D^perf(X) und D(X) ist kompakt erzeugt.
+
 Ferner schreiben sie:
 * Q qc qs. Dann D_qcoh(X) ~ D(Lambda) für eine DG-Algebra Lambda mit
   beschränkter Kohomologie.
