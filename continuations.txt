@@ -19,3 +19,6 @@
 
 * http://smc2014.univ-lyon1.fr/lib/exe/fetch.php?media=miquel.pdf
   Alexandre Miquel: callcc ist Peirce's law.
+
+* http://www.ccs.neu.edu/racket/pubs/icfp05-pcmkf.pdf
+  Zeigt, wie man Continuations ohne CPS implementieren kann.
