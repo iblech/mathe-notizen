@@ -18,6 +18,8 @@
   Die Umkehrung scheint zu stimmen, siehe Ende von
   http://www.maths.ed.ac.uk/~eshinder/Mainz-Lecture-1.pdf.
 
+* http://www.cmi.univ-mrs.fr/masters/master2mf/lib/exe/fetch.php?media=local_cohomology_hypertext.pdf
+
 
 === Koszul-Auflösung I
 

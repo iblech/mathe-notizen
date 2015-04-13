@@ -60,6 +60,15 @@ Siehe http://stacks.math.columbia.edu/tag/02FU.
   Das steht ebenfalls im referenzierten Ausschnitt aus dem Stacks Project (ganz
   unten).
 
+* Im endlichen Fall kann man Č^*(UU, E) als iterierten Kegel ausdrücken:
+  Siehe Seite 2 von
+  https://math.berkeley.edu/~mhaiman/math256-fall13-spring14/cohomology-2_schemes.pdf.
+
+
+=== Totalisierung und Postnikov-Systeme
+
+* Seite 53 von http://therisingsea.org/notes/TriangulatedCategories.pdf.
+
 
 === Kanonische Abbildung Ȟ^1(X; F) --> Ext^1_klassisch(O_X, F)
 

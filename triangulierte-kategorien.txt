@@ -107,6 +107,9 @@ Dreiecks der Form X --iso--> Y --> 0 -->.
 
 * Habe irgendwo glaub ich mal gelesen: K(A) = <K(A)^acycl, D(A)>.
 
+* Eine Vielzahl von elementaren Aussagen, wie etwa "C/D = E", findet sich
+  auf Seite 12 von http://arxiv.org/pdf/0905.2621.pdf.
+
 
 === Brown-Darstellbarkeit
 
