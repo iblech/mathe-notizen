@@ -3,3 +3,6 @@
 
 * http://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction
   https://crackstation.net/hashing-security.htm
+
+* The Cryptographic Doom Principle:
+  http://www.thoughtcrime.org/blog/the-cryptographic-doom-principle/
