@@ -1,3 +1,27 @@
+=== Minimale freie Auflösungen
+
+Sei S = k[x_0,...,x_n]. Habe S --> k durch Auswertung bei (0,...,0).
+
+* Eine minimale freie Auflösung eines S-Moduls M ist eine
+  endliche freie Auflösung, in der die Differentiale tensoriert mit k
+  Null sind.
+
+* Sei 0 --> F_* --> M --> 0 eine minimale freie Auflösung mit
+  F_i = oplus_j S(-j)^{beta_ij}. Dann:
+
+      beta_ij = dim_k Tor_i^S(k, M)_j  (Grad-j-Anteil)
+
+  Um das einzusehen, einfach mit der gegebenen Auflösung die rechte Seite
+  ausrechnen. Der dazu benötigte Komplex hat verschwindende Differentiale.
+
+* Die Formel zeigt auch: F_i = 0 für i >= n + 2!
+  Denn für k gibt es die Koszul-Auflösung, welche eine entsprechende Länge hat.
+
+* https://tlovering.wordpress.com/2012/10/24/hilberts-syzygy-theorem-isnt-very-hard-to-prove/
+  sagt: Eine freie Auflösung, in der man in jedem Schritt die Minimalzahl
+  benötigter Erzeuger nimmt, ist minimal in diesem Sinn.
+
+
 === Erweiterung und Kontraktion von Idealen
 
 * Sei A --> B ein Ringhomo und I ein Ideal von A. Dann gilt:

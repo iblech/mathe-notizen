@@ -125,6 +125,16 @@ Wenn man ein gutes Modell für Hom zwischen Erzeugern, Kegeln zwischen Erzeugern
 und so weiter hat, dann kann man abgeleitete Funktoren berechnen, wenn man nur
 ihre Werte auf Erzeugern kennt. Auflösungen sind dann unnötig!
 
+Mittlerweile kann ich das präzisieren. Eine endliche Auflösung eines Objekts X
+in einer abelschen Kategorie führt dazu, dass man X in der abgeleiteten
+Kategorie als einen iterierten Kegel ausdrücken kann. *Die Morphismen sind
+dabei völlig explizit angebbar*. Selbstverständlich bewahren abgeleitete
+Funktoren RF Kegel, sodass man damit RF(X) berechnen kann. Und zwar rein
+mechanisch.
+
+Vorschlag: Vergleiche mit Ergebnissen bzw. Beispielen aus
+http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf!
+
 
 === Der Fall endlicher Dimension
 

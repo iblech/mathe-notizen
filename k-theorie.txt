@@ -548,3 +548,4 @@ Quelle: Marco Schlichting, Higher Algebraic K-Theory.
 * Huybrechts Fourier-Mukai S. 124.
 * http://math.uoregon.edu/~ddugger/kgeom.pdf
 * http://www.math.illinois.edu/K-theory/handbook/1-235-294.pdf
+* https://rigtriv.wordpress.com/2009/02/27/the-grothendieck-group-of-coherent-sheaves-on-a-variety/
