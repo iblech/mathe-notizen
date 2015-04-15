@@ -19,3 +19,16 @@
 Klar, das Hauptresultat lautet:
 
     Ho(M) = M_cf/Homotopieäquivalenz.
+
+
+=== Transfinite Komposition
+
+* Die transfinite Komposition von (N --succ--> N --succ--> N --> ...)
+  ist N --> Z, x |-> x.
+
+* Sei f : X --> X eine Abbildung mit:
+
+      forall x. exists n. f^n(x) = f^(n+1)(x).
+
+  Dann ist die transfinite Komposition von (X --f--> X --> ...) die Abbildung
+  X --> Fix(f), x |-> f^infty(x).
