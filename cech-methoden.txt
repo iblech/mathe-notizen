@@ -64,6 +64,16 @@ Siehe http://stacks.math.columbia.edu/tag/02FU.
   Siehe Seite 2 von
   https://math.berkeley.edu/~mhaiman/math256-fall13-spring14/cohomology-2_schemes.pdf.
 
+* http://therisingsea.org/notes/Section3.8-HigherDirectImageOfSheaves.pdf, Prop. 9:
+  Die Čech-Garben sind azyklisch bzgl. Pushforward! Somit kann man also höhere
+  direkte Bilder berechnen. Genauer: f : X --> Y, X qc, X und Y qs, UU endliche
+  semi-separierende Überdeckung, fragliche Garben quasikohärent.
+
+  Dabei geht ein, dass für *quasikohärente* Garben E und affine Morphismen i
+  gilt: H^n(X, E) = H^n(Y, i_* E). Genauer ist der Pushforward einer injektiven
+  Auflösung von E eine flasque Auflösung von i_* E.
+  http://therisingsea.org/notes/Section3.2-CohomologyOfSheaves.pdf, Kor. 28.
+
 
 === Totalisierung und Postnikov-Systeme
 
