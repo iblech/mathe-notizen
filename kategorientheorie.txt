@@ -121,6 +121,7 @@ decomposed our category).
 Sei die Notation wie im vorherigen Abschnitt. Dann gilt:
 
     f^T = Gf . id_FX^T.
+    T^g = T^id_FX . Fg
 
 Daraus kann man ablesen:
 
