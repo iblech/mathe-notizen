@@ -102,6 +102,15 @@ curve. Beweis von Proposition 2.2.)
 * On derived functors on categories without enough injectives
   http://www.sciencedirect.com/science/article/pii/S0022404999000250
 
+  Idee: Die Ind-Kategorie hat immer genügend viele Injektive. So kann man den
+  abgeleiteten Funktor zunächst in einem allgemeineren Kontext erhalten. Dann
+  erwendet man eine Beschränktheitsbedingung, um die Zielkategorie wieder
+  kleiner zu bekommen.
+
+  Damit könnte man auch ganz formal (wenn auch noch klassisch?) sowas wie
+  RF auf D^b(X) konstruieren, wenn man nur irgendwie weiß, dass RF in genügend
+  großen Graden verschwindet.
+
 * Ebenso http://www.sciencedirect.com/science/article/pii/002240499390134F.
   Calculation of derived functors via Ind-categories.
 

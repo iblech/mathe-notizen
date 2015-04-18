@@ -412,6 +412,25 @@ http://arxiv.org/abs/1501.02503
   torsionsfrei. Also ist A oder B Null.
 
 
+=== Enden und Tensorprodukte von Funktoren
+
+* Sei R ein Ring. Sei A ein Rechts-R-Modul, d.h. ein Ab-Funktor R^op --> Ab.
+  Sei B ein Links-R-Modul, d.h. ein Ab-Funktion R --> Ab. Dann ist
+
+      A tensor_R B = int^R A tensor_Z B.
+
+* Ko- und kontravariante Hom-Funktoren sind wie freie Moduln:
+
+      D(__, d) tensor_D F = Fd
+      G tensor_D D(d, __) = Gd
+
+* (Lan_K F)(d) = D(K(__), d) tensor_C F.  (punktweise Kan-Erweiterung)
+
+* |X| = X_* tensor_Delta Delta^*  (geometrische Realisierung).
+
+http://www.math.harvard.edu/~eriehl/cathtpy.pdf, Seite 46.
+
+
 === Nächste Schritte
 
 * Kurz über "Cat ist vollständig und kovollständig" nachdenken.

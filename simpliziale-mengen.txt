@@ -11,3 +11,10 @@ http://golem.ph.utexas.edu/category/2008/01/mark_weber_on_nerves_of_catego.html
 Jon Beck. Simplicial sets and the foundations of analysis.
 
 http://link.springer.com/chapter/10.1007/BFb0061815
+
+
+=== Geometrische Realisierung
+
+* In http://www.math.harvard.edu/~eriehl/cathtpy.pdf steht auf Seite 63 ein
+  einfaches Argument, wieso geometrische Realisierung mit Produkten vertauscht
+  (wenn man k-ifiziert).

@@ -32,3 +32,20 @@ Klar, das Hauptresultat lautet:
 
   Dann ist die transfinite Komposition von (X --f--> X --> ...) die Abbildung
   X --> Fix(f), x |-> f^infty(x).
+
+
+=== Fehlende Kolimiten
+
+* http://www.math.harvard.edu/~eriehl/cathtpy.pdf, Seite 66:
+  Die Abbildungen S^1 --> S^1, Identität und Spiegelung an irgendeiner Axis,
+  haben keinen Kodifferenzkern in Ho(Top).
+
+
+=== Adjunktionen
+
+* Klar, und wichtig: Adjungierte Funktoren induzieren (unter gewissen
+  Umständen) adjungierte abgeleitete Funktoren.
+
+* http://arxiv.org/pdf/1202.3359.pdf sagt, dass auch die Umkehrung gilt:
+  Gilt F -| G, existiert LF und besitzt LF einen Rechtsadjungierten, so
+  existiert auch RG.

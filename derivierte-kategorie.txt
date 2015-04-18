@@ -3,6 +3,15 @@
 http://math.berkeley.edu/~mhaiman/math256/Derived-Cat-1-5.pdf
 
 
+=== Abgeleitete Funktoren als Kan-Erweiterungen
+
+Zumindest in Modellkategorien oder so: Abgeleitete Funktoren sind absolute
+(insb. punktweise) Kan-Erweiterungen!
+
+Das ist die These von Emily Riehl in ihrem Buch
+http://www.math.harvard.edu/~eriehl/cathtpy.pdf.
+
+
 === Quelle von Auflösungen
 
 * Syzygien bei Moduln (induziert Auflösungen der zugehörigen Modulgarben)
@@ -157,6 +166,10 @@ Konstruktion in http://www.maths.ed.ac.uk/~aar/papers/neemder.pdf
   Differentiale). Sehr wohl aber kann man aus RG und RF den total derivierten
   Funktor R(G . F) rekonstruieren.
 
+* Berechnung von RF aus (nicht-toller) Auflösung ist einfach;
+  im klassischen Fall hat man nur sowas wie die
+  Hyperkohomologie-Spektralsequenz.
+
 
 === Verdier-Quotient
 
@@ -188,6 +201,8 @@ Konstruktion in http://www.maths.ed.ac.uk/~aar/papers/neemder.pdf
   "frei" hinzufügen. Das soll aber nicht geschehen. Daher muss man stattdessen
   kompliziertere Faserproduktsachen machen. Siehe Seite 14 von
   http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts.
+  Achtung, stimmt diese Warnung? Siehe auch Seite 15 von
+  http://www.math.harvard.edu/~eriehl/cathtpy.pdf.
 
 
 === Hom-Mengen als filtrierte Kolimiten
