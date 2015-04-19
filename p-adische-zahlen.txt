@@ -1,0 +1,11 @@
+=== Coole und leichte Anwendungen
+
+http://mathoverflow.net/questions/81342/elementary-results-with-p-adic-numbers
+
+* \binom{1/2}{n} hat nur Zweierpotenzen als Nenner. Auch allgemeiner:
+  \binom{q}{n} hat nur die Primfaktoren im Nenner, die auch q im Nenner hat.
+
+* Bestimmte Gleichungen haben nur endlich viele ganzzahlige Lösungen.
+
+* Man kann eine Quadrat nicht in n gleich große Dreiecke teilen, wenn n
+  ungerade.

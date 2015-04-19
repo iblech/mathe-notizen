@@ -33,3 +33,11 @@ Stembridge, A Concise Proof of the Littlewood-Richardson Rule.
 
   Ein Tupel (x,y) mit x != y und a, b aus X amalg {*} entspricht einem Tupel
   (a,b) mit a = b erlaubt und a, b aus X.
+
+
+=== Sperners Lemma
+
+Ein toller grafischer Beweis:
+https://people.math.osu.edu/fowler.291/teaching/talks/cutting.pdf
+
+Anzahl AB-Kanten = Anzahl ABC-Dreiecke (modulo 2).
