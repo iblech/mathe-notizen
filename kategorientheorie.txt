@@ -153,6 +153,15 @@ Ferner gilt:
   Beispiel: Abelianisierung -| Vergiss; Vergiss ist volltreu, und in der Tat
   ist Abelianisierung(A) --> A ein Iso für abelsche Gruppen A.
 
+* Sei F -| G. Dann auch F_* -| G_* auf den Funktorkategorien.
+
+  Der Iso Hom_[C,E](L . F, G) --> Hom_[C,D](F, R . G) schickt dabei
+  eine natürliche Transformation eta auf
+
+      (Reta_X . id_LFX^T)_X.
+
+  Die Umkehrung schickt mu auf (^Tid_GX . Lmu_X)_X.
+
 
 === Kofinalität
 
@@ -412,12 +421,73 @@ http://arxiv.org/abs/1501.02503
   torsionsfrei. Also ist A oder B Null.
 
 
+=== Kopotenzen
+
+* Die Kopotenz X * A, X Menge, A Objekt einer Kategorie C, ist
+  das kodarstellende Objekt für den Funktor Set(X, C(A, __)).
+  Es gilt also:
+
+      C(X * A, B) ~~ Set(X, C(A, B)), natürlich in B.
+
+* Schreibt man den Isomorphismus von links nach rechts als
+
+      phi |-> (x |-> phi_x),
+
+  so bedeutet die Natürlichkeit in B, dass
+
+      (f . phi)_x = f . phi_x für alle x aus X.
+
+* Wenn für alle Objekte A die Kopotenz X * A existiert,
+  erhält man für g : A' --> A auch induzierte Morphismen X*g : X*A' --> X*A.
+  Diese erfüllen
+
+      phi_x . g = (phi . (X*g))_x.
+
+
+=== Enden und Koenden
+
+* Ein Ende eines Funktors C^op x C --> D ist ein terminaler Keil.
+  Ein Koende ist ein initialer Kokeil.
+
+* int_c S(c,c) = lim [
+      S(b,b)
+            \
+             v
+              S(b,c)
+             ^
+            /
+      S(c,c)
+  ] = eq [ prod_c S(c,c) ===> prod_{f:b->c} S(b,c) ].
+
+* Jeder Limes ist auch ein Ende: lim F = int_i F(i).
+  Der Integrand ist also der halbkonstante Funktor
+
+      I^op x I --> C, (i,j) |-> F(j).
+
+* Sei S : C^op x C --> Set. Dann ist int_c S = Menge der S-Keile mit Spitze 1.
+
+* Das australische Ninja-Yoneda-Lemma für Funktoren K : C^op --> Set:
+
+      K = int^c Kc x Hom_C(__,c)
+
+  Der Nachweis gelingt elementar oder mit dem Ansatz Hom(Kx,y) = ...
+  Der initiale Kokeil besteht aus den natürlichen Transformationen
+
+      Kc x Hom_C(__,c) --> K, auf b: (s,phi) |-> K(phi)(s).
+
+* Nat(L, S) = int_c A(Lc, Sc) für Funktoren L, S : C --> A.
+
+
 === Enden und Tensorprodukte von Funktoren
 
 * Sei R ein Ring. Sei A ein Rechts-R-Modul, d.h. ein Ab-Funktor R^op --> Ab.
   Sei B ein Links-R-Modul, d.h. ein Ab-Funktion R --> Ab. Dann ist
 
       A tensor_R B = int^R A tensor_Z B.
+
+* Der von einer Menge X frei erzeugte R-Modul ist das Koende
+
+      int^n X^n * R^n.
 
 * Ko- und kontravariante Hom-Funktoren sind wie freie Moduln:
 
@@ -429,6 +499,112 @@ http://arxiv.org/abs/1501.02503
 * |X| = X_* tensor_Delta Delta^*  (geometrische Realisierung).
 
 http://www.math.harvard.edu/~eriehl/cathtpy.pdf, Seite 46.
+
+
+=== Kan-Erweiterungen
+
+* Lan_p -| p^* -| Ran_p.
+
+* Lokale Definition: Sei p : C --> C' und F : C --> D. Dann ist
+  Lan_p(F) ein Funktor C' --> D zusammen mit einer natürlichen Trafo
+
+      eps : F ==> Lan_p(F) . p,
+
+  wobei dieses Datum unter all solchen Daten initial ist: Ist G : C' --> D
+  ein Funktor zusammen mit einer Trafo alpha : F ==> G . p, so existiert genau
+  eine Trafo psi : Lan_p(F) ==> G mit
+
+      alpha = psi p . eps.
+
+* Eine punktweise Kan-Erweiterung ist eine, die durch die Limes- bzw. Kolimes-
+  Formel gegeben wird. Punktweise Erweiterungen sind stets auch globale, aber
+  im Allgemeinen nicht umgekehrt.
+
+      (Lan_p(F))(c') = colim[ (p/c') --> C --F--> D ].
+
+  Die Indexkategorie hat als Objekte Morphismen p(c) --> c'
+  und als Morphismen kommutative Dreiecke (gegeben durch Morphismen in C).
+
+* Sei p : C --> 1. Dann ist Lan_p = colim und Ran_p = lim.
+
+* Lan_p Hom_C(c, __) = Hom_C'(p(c), __).
+
+* Sei Y : Delta --> [Delta^op,Set] die Yoneda-Einbettung und sei
+  Delta : Delta --> Top der Simplexfunktor. Dann Lan_Y Delta = |.|.
+
+* Ind_f -| f^*.
+
+* Sei f : X --> Y ein Morphismus von Siten, gegeben durch einen
+  Funktor f^t : S_Y --> S_X. Dann habe (f^t)^* : PSh(X) --> PSh(Y),
+  den (Achtung!) Pushforward-Funktor. Dessen Linksadjungierter ist per
+  Definition der Pullback-Funktor; dieser ist also die Links-Kan-Erweiterung
+  längs f^t.
+
+* Sei p volltreu. Sei Lan_p(F) eine punktweise Links-Kan-Erweiterung.
+  Dann ist F ==> Lan_p(F) . p ein Iso.
+
+  Denn: Die Indexkategorie für Lan_p(F)(p(c)), nämlich p/p(c), hat dann ein
+  terminales Objekt, nämlich p(c) --id--> p(c). Somit ist der Kokegel drüber
+  einfach F(c).
+
+* Sei L -| R. Dann L . Lan_p(F) = Lan_p(L . F).
+
+  Für die globalen Erweiterungen beweist das folgende Rechnung:
+
+      Hom(L . Lan_p(F), G) = Hom(Lan_p(F), R . G) =
+          Hom(F, R . G . p) = Hom(L . F, G . p).
+
+* Ein Funktor R : C --> D besitzt genau dann einen Linksadjungierten,
+  wenn Ran_R(Id_C) existiert und von R bewahrt wird.
+
+  In diesem Fall gilt: Ran_R(Id_C) -| R.
+
+* Ein Funktor K ist genau dann dicht, wenn Id vermöge der kanonischen
+  Morphismen eine punktweise Links-Kan-Erweiterung von K längs K ist; etwas
+  unpräziser:
+
+      K dicht  <==>  Lan_K(K) = Id.
+
+* Die Koende-Formel liefert (wenn sie denn funktioniert, d.h. wenn die
+  fraglichen Koenden existieren) sogar eine punktweise Kan-Erweiterung.
+  Genauer:
+
+      int^m C(Km,c) * Tm = colim(Tm --> Tm').
+
+  Dabei ist die Indexkategorie für den Kolimes K/c, d.h. Objekte sind
+  Morphismen Km --> c und Morphismen sind Morphismen m --> m' derart,
+  dass (Km --> c) = (Km --> Km' --> c).
+
+  Anmerkung: Habe nur bewiesen, dass ein Kokeil für die linke Seite ein Kokegel
+  für die rechte ist.
+
+  Man kann aber auch die (schwächere Aussage) nachweisen, dass der über diese
+  Formel definiere Funktor L eine globale Kan-Erweiterung ist. Dazu mit
+  Nat(L,S) ansetzen, die Ende-Formel für die Menge der natürlichen
+  Transformationen verwenden, sukzessive weitermachen, bis schlussendlich die
+  Menge Nat(T,SK) dransteht.
+
+* Rechtsadjungierte vertauschen mit Rechts-Kan-Erweiterungen;
+  Linksadjungierte vertauschen mit Links-Kan-Erweiterungen.
+
+* Sei Hom(d,__) ein Rechtsadjungierter, d.h. existieren alle Kopotenzen
+  X*d. Dann vertauscht Hom(d,__) mit Rechts-Kan-Erweiterungen.
+
+Quellen:
+* Mac Lane, Kapitel 10
+* http://www.math.harvard.edu/theses/senior/lehner/lehner.pdf
+* Emily Riehl, http://www.math.harvard.edu/~eriehl/cathtpy.pdf
+
+
+=== Codensity-Monade
+
+* Codensity(G) = Ran_G(G) für G : B --> A.
+
+* Falls punktweise: Codensity(G)(X) = int_{Y:B} (GY)^A(X,GY).
+
+* Speziell für G den Vergissfunktor von Körpern nach Ringen:
+
+      Codensity(G)(R) = product_{p Primideal von R} Quot(R/p).
 
 
 === Nächste Schritte

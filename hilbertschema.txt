@@ -16,6 +16,11 @@
 * K-Theorie des Hilbertschemas
 * Abgeleitete Kategorie des Hilbertschemas
 
+Gute Quellen für den Vortrag im Arbeitsseminar Geometrie/Topologie:
+* http://webcache.googleusercontent.com/search?q=cache:ciVgjzoImZ4J:www.math.brown.edu/~dbejleri/Hilbert%2520Schemes%2520-%2520Grad%2520Student%2520Seminar.pdf+&cd=2&hl=de&ct=clnk&gl=de&client=ubuntu
+* https://www-fourier.ujf-grenoble.fr/sites/ifmaquette.ujf-grenoble.fr/files/bertin_rev.pdf
+* Haiman
+
 
 === Kanonisches Bündel
 
