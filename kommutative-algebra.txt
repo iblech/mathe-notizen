@@ -1,3 +1,11 @@
+=== Kommutierende Matrizen
+
+* Kommutierende Matrizen lassen im Allgemeinen *nicht* simultan
+  auf Jordanform bringen!
+
+  http://math.stackexchange.com/questions/49378/simultaneous-jordanization
+
+
 === Minimale freie Auflösungen
 
 Sei S = k[x_0,...,x_n]. Habe S --> k durch Auswertung bei (0,...,0).
