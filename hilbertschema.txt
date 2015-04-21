@@ -124,6 +124,9 @@ Sei B := pi_* O_F. B ist lokal frei vom Rang n.
   von 90 Grad. http://www.math.brown.edu/~dbejleri/Hilbert%20Schemes%20-%20Grad%20Student%20Seminar.pdf
   Nakajima gibt mir auf Seite 5 Recht.
 
+* Weitere Beispiele ab Seite 16 von
+  http://www.uio.no/studier/emner/matnat/math/MAT4230/h10/undervisningsmateriale/ALee_Hilbertschemes.pdf.
+
 
 === Modell mit kommutierenden Matrizen
 

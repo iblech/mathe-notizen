@@ -369,6 +369,12 @@ Die Normalgarbe ist der ihr O_Y-Duales.
   ker(f^{-1} O_X --> O_Y). (Nimm dazu die Unterschemasequenz auf X und ziehe sie
   zurück. Dabei bleibt sie exakt. Daher sieht man, dass J = f^{-1}(I).)
 
+* Die Konormalgarbe lässt sich auch als HOM_{O_X}(J, O_Y) ausdrücken:
+  (Bedenke O_Y = O_X/J.)
+
+      HOM_{O_X}(J, O_Y) = HOM_{O_Y}(J tensor_{O_X} O_Y, O_Y) =
+          HOM(J/J^2, O_Y) = N_{Y/X}.
+
 * Falls I = (f), f regulär, so ist I/I^2 als O/I-Modul frei mit Basis (f).
 
 * Falls Y ein effektiver Cartier-Divisor ist, also lokal durch eine reguläre
