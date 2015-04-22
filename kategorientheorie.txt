@@ -162,6 +162,80 @@ Ferner gilt:
 
   Die Umkehrung schickt mu auf (^Tid_GX . Lmu_X)_X.
 
+* Dreiecksidentitäten für eps : LR ==> Id und eta : ID ==> RL:
+
+      eps_LX . L eta_X = id_LX
+
+      R eps_Y . eta_RY = id_RY
+
+
+=== Upgrade von Quasiäquivalenzen zu adjungierten Äquivalenzen
+
+Sei L : C --> D mit Quasiinversem R : D --> C, vermöge Isomorphismen
+
+    eps : LR ==> Id  und  eta : Id ==> RL.
+
+Dann können wir eps durch eine natürliche Transformation ersetzen, sodass
+(L,R,eps',eta) ein adjungiertes Paar wird.
+
+Lemma: LR eps_Z = eps_LRZ, RL eta_Q = eta_RLQ.
+Verwende dazu einfach die Natürlichkeitsdiagramme von eps bzw. eta, angewendet
+auf eps_Z bzw. eta_Q und kürze sich ergebende Isomorphismen.
+
+Lemma: LR eps_LX . L eta_RLX = L eta_X . eps_LX.
+Wende dazu R auf diese Gleichung an (R treu), dann steht genau das
+Natürlichkeitsdiagramm für eta bzgl. R eps_LX dran. (Verwende dazu auch das
+vorherige Lemma.)
+
+Lemma: R eps_LRY . RL eta_RY = eta_RY . R eps_Y.
+Das ist das Duale von dem vorherigen Lemma.
+
+Setze dann
+
+    eps'_Y := eps_Y . L eta_RY^(-1) . eps_LRY^(-1).
+
+Dann erfüllt (eps',eta) die Dreiecksidentitäten:
+
+* eps'_LX . L eta_X =
+  eps_LX . L eta_RLX^(-1) . eps_LRLX^(-1) . L eta_X =
+  eps_LX . (eps_LRLX . L eta_RLX)^(-1) . L eta_X =
+  eps_LX . (L eta_X . eps_LX)^(-1) . L eta_X =
+  eps_LX . eps_LX^(-1) . L eta_X^(-1) . L eta_X =
+  id.
+
+* R eps'_Y . eta_RY =
+  R eps_Y . RL eta_RY^(-1) . R eps_LRY^(-1) . eta_RY =
+  R eps_Y . (R eps_LRY . RL eta_RY)^(-1) . eta_RY =
+  R eps_Y . (eta_RY . R eps_Y)^(-1) . eta_RY =
+  id.
+
+* Außerdem ist eps' immer noch komponentenweise ein Iso.
+
+* Und ganz sicher ist eps' natürlich, als Verkettung natürlicher Trafos:
+
+      eps' = eps . (L eta R)^(-1) . (eps LR)^(-1)
+
+Wie kommt man darauf? Die Dreiecksidentität gibt
+
+    eps'_LX . L eta_X = id
+
+vor. Daher muss eps'_LX = L eta_X^(-1) sein. Mit diesem Hintergrund kommt man
+auf die Definition von eps'_Y für Y nicht unbedingt von der Form LX.
+
+
+=== Eindeutigkeit von adjungierten Quasiinversen
+
+Sei F -| G und F -| G', wobei die Eins und Koeins jeweils Isomorphismen sind.
+Dann gibt es genau einen Iso psi : G ==> G' mit
+
+    eps' . F psi = eps und
+    psi F . eta = eta'.
+
+Tatsächlich sind die beiden Bedingungen wegen der Dreiecksidentitäten
+äquivalent (die sagen ja eta_FX = F eps_X^(-1); nimm die erste Gleichung;
+schalte F vor; verwende die Identität; kürze F von links; stelle um; dann steht
+die zweite Gleichung dran).
+
 
 === Kofinalität
 
