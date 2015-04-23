@@ -496,6 +496,16 @@ Die Normalgarbe ist der ihr O_Y-Duales.
   Element erzeugt wird und daher frei vom Rang 1 ist --, gibt es keine höheren
   Ext-Gruppen.
 
+* Sei Z <= X ein abgeschlossenes Unterschema der Dimension 0.
+  (Genauer benötigen wir, dass H^1(O_Z) = 0.) Dann ist
+  
+      N_{Z|X} = Hom(I_Z, O_Z) = Ext^1(O_Z, O_Z).
+
+  Nutze dazu die lange exakte Sequenz zur kurzen exakten Sequenz
+  0 --> I_Z --> O_X --> O_Z --> 0. Der Term Ext^1(O_X, O_Z) = H^1(O_Z)
+  darin verschwindet, und die Abbildung Hom(O_X, O_Z) --> Hom(I_Z, O_Z)
+  ist Null.
+
 
 === Fasern
 
