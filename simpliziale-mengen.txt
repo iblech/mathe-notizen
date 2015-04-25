@@ -18,3 +18,9 @@ http://link.springer.com/chapter/10.1007/BFb0061815
 * In http://www.math.harvard.edu/~eriehl/cathtpy.pdf steht auf Seite 63 ein
   einfaches Argument, wieso geometrische Realisierung mit Produkten vertauscht
   (wenn man k-ifiziert).
+
+
+=== Nerv von Kategorien
+
+* Cat ist äquivalent zu Fun_c(Delta[2], Set).
+  http://mathoverflow.net/questions/75610/ordinal-category-theory
