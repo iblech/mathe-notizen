@@ -162,7 +162,7 @@ Ferner gilt:
 
   Die Umkehrung schickt mu auf (^Tid_GX . Lmu_X)_X.
 
-* Dreiecksidentitäten für eps : LR ==> Id und eta : ID ==> RL:
+* Dreiecksidentitäten für eps : LR ==> Id und eta : Id ==> RL:
 
       eps_LX . L eta_X = id_LX
 

@@ -49,3 +49,9 @@ Klar, das Hauptresultat lautet:
 * http://arxiv.org/pdf/1202.3359.pdf sagt, dass auch die Umkehrung gilt:
   Gilt F -| G, existiert LF und besitzt LF einen Rechtsadjungierten, so
   existiert auch RG.
+
+
+=== In Topoi
+
+* http://arxiv.org/abs/math/0102087
+  Tibor Beke. Sheafifiable homotopy model categories.
