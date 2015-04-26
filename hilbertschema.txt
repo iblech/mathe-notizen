@@ -127,6 +127,13 @@ Sei B := pi_* O_F. B ist lokal frei vom Rang n.
 * Weitere Beispiele ab Seite 16 von
   http://www.uio.no/studier/emner/matnat/math/MAT4230/h10/undervisningsmateriale/ALee_Hilbertschemes.pdf.
 
+* Mehr zu Grenzwerten von Idealen findet sich in
+  http://math.mit.edu/~mckernan/Teaching/09-10/Spring/18.726/l_6.pdf.
+
+* Siehe auch http://www.math.rice.edu/~hassett/teaching/567spring07/567lec5.pdf.
+  Ein Morphismus X \-> P^n x B --> B ist genau dann flach, wenn die Fasern alle
+  dasselbe Hilbertpolynom haben (siehe Seite 6).
+
 
 === Modell mit kommutierenden Matrizen
 
@@ -264,7 +271,7 @@ definiert.
 
   und daher chi(E(u)) - chi(E(u-1)) = chi_{P^(N-1)}(E|_{P^(N-1)}(u)).
   Das gilt, falls E ein Vektorbündel ist. Im Allgemeinen Fall kann man aber
-  auflösen und die Additivtät des Hilbertpolynoms ausnutzen.
+  auflösen und die Additivität des Hilbertpolynoms ausnutzen.
 
 * Numerische Berechnung: http://www4.ncsu.edu/~jdhauens/Hilbert/
 
@@ -316,6 +323,7 @@ http://www.math.kth.se/~skjelnes/Pdffiler/elementaryhilb.pdf
 === Euler-Charakteristik
 
 * (C^2)^[n]. http://www.math.colostate.edu/~johnson/Talks/TopGHilbImperial.pdf
+  http://paul-johnson.staff.shef.ac.uk/Talks/TopGHilbImperial.pdf
 
   Habe Wirkung von (C^*)^2 auf C^2; diese steigt zu einer Wirkung von (C^2)^[n] ab.
 

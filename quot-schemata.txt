@@ -3,7 +3,8 @@
 * Tangentialraum an Quot_{E/X/k} bei [q] ist Hom_{O_X}(ker(q), Q).
 
 * Speziell E = O_X, um das Hilbertschema zu erhalten:
-  Tangentialraum an Hilb_{X/k} bei [Z] ist Hom_{O_X}(J_Z,O_X).
+  Tangentialraum an Hilb_{X/k} bei [Z] ist Hom_{O_X}(J_Z,O_Z).
+  Also einfach Hom_{O_Z}(J_Z/J_Z^2, O_Z) = N_{Z|X}.
 
 * Speziell im Fall Hilb = X^[n] kann man das noch weiter vereinfachen:
 
@@ -57,3 +58,7 @@ http://arxiv.org/pdf/math/0504590.pdf
 
 * Gennaro Di Brino. The quot functor of a quasi-coherent sheaf.
   http://arxiv.org/abs/1212.4544
+
+* Huybrechts und Lehn, The Geometry of Moduli Spaces of Sheaves.
+  Enthält auch die ganzen Aussagen zu stabilen Garben, torsionsfreien Garben,
+  Einbettungen usw.

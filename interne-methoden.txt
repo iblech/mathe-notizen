@@ -1501,6 +1501,8 @@ B Sei X S-Schema. Dann könnte man denken, dass [X, A^1] = (mu_* O_X)^~.
   PBTC sagt: eps^* mu_* O_X = (pi_T)_* O_{X x T}, falls mu eigentlich ist und
   weitere Bedingungen erfüllt sind.
 
+* Was ist denn der Punktefunktor des Hilbertschemas intern?
+
 
 === Garben-EXT
 

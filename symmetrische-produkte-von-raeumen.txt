@@ -124,7 +124,8 @@ http://mathoverflow.net/questions/55526/example-of-a-variety-with-k-x-mathbb-q-c
   Beweis: symmetrische-produkte-von-raeumen-euler-charakteristik.pdf 
 
 * sum_n chi_{S_n}(X^n) q^n = prod_{j > 0} (1 - q^j)^{-chi(X)},
-  für Flächen S (nicht Kurven!).
+  für Flächen S (nicht Kurven!). Das folgt zum Beispiel aus Göttsches Formel
+  (setze in ihr p = -1); diese berechnet dann sum_n chi(X^[n]) q^n.
 
 * "On the Euler number of an orbifold". Sagt zum Beispiel:
 

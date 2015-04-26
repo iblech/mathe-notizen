@@ -27,6 +27,9 @@ Tensoriert mit M ergibt das 0 --> M/epsM --> M --> M/epsM --> 0, immer noch
 exakt nach der Voraussetzung. Also ???. Siehe
 https://hilbertthm90.wordpress.com/2010/09/26/first-order-deformations/.
 
+Das sagt auch Exercise 8 in
+http://www.math.rice.edu/~hassett/teaching/567spring07/567lec5.pdf.
+
 
 === Kodaira-Spencer
 

@@ -492,7 +492,7 @@ Die Normalgarbe ist der ihr O_Y-Duales.
           ||                  ||                   ||                    ||
           k(x) ----0------> T_x X ---------------> % ------------------> 0.
 
-  Wenn x ein Punkt von Kodimension 1 ist -- sodass m_x also von einem regulären
+  Wenn x sogar ein Punkt von Kodimension 1 ist -- sodass m_x also von einem regulären
   Element erzeugt wird und daher frei vom Rang 1 ist --, gibt es keine höheren
   Ext-Gruppen.
 
@@ -505,6 +505,8 @@ Die Normalgarbe ist der ihr O_Y-Duales.
   0 --> I_Z --> O_X --> O_Z --> 0. Der Term Ext^1(O_X, O_Z) = H^1(O_Z)
   darin verschwindet, und die Abbildung Hom(O_X, O_Z) --> Hom(I_Z, O_Z)
   ist Null.
+
+  Übrigens: Hom_{O_X}(O_Z, O_Z) = O_Z (als O_X- und als O_Z-Moduln).
 
 
 === Fasern
@@ -786,6 +788,8 @@ sehr gut lesbar!
 * http://www.mathematik.uni-kl.de/~gathmann/class/alggeom-2002/chapter-7.pdf
 * http://www.math.purdue.edu/~dvb/preprints/book-chap17.pdf
   http://www.springer.com/mathematics/algebra/book/978-1-4614-1808-5
+* http://math.mit.edu/~mckernan/Teaching/09-10/Spring/18.726/l_10.pdf
+  und andere Kapitel
 
 
 === Nächste Schritte

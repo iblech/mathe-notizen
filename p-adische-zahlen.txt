@@ -9,3 +9,14 @@ http://mathoverflow.net/questions/81342/elementary-results-with-p-adic-numbers
 
 * Man kann eine Quadrat nicht in n gleich große Dreiecke teilen, wenn n
   ungerade.
+
+
+=== p-adische Physik
+
+Martin Schlichenmaier gibt in seinem Buch /An Introduction to Riemann
+Surfaces, Algebraic Curves and Moduli Spaces/ folgende Referenzen:
+ 
+* Manin, Reflections on Arithmetical Physics.
+* Brekke et al, p-adic numbers in physics.
+* Djordjević et al, p-adic and adelic minisuperspace quantum cohomology.
+* Khrennikov et al, p-adic mathematical physics.
