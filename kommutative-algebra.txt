@@ -1,6 +1,6 @@
 === Kommutierende Matrizen
 
-* Kommutierende Matrizen lassen im Allgemeinen *nicht* simultan
+* Kommutierende Matrizen lassen sich im Allgemeinen *nicht* simultan
   auf Jordanform bringen!
 
   http://math.stackexchange.com/questions/49378/simultaneous-jordanization
@@ -272,6 +272,8 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 === Ideale
 
 * a cap b = a * b, falls a + b = (1).
+
+* Hom_R(R/I, R/I) = R/I als R- und als R/I-Moduln.
 
 
 === Dreiecksmatrizen
@@ -911,6 +913,43 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
 
   Als Folge ist übrigens M --> M^^ injektiv.
 
+  Die andere Richtung geht so: Sei M mit x_i und theta_i. Sei f : T --> S
+  eine A-lineare Surjektion. Sei g : M --> S. Wähle Urbilder f(t_i) = g(x_i).
+  Dann definieren wir den Kolift
+
+      g'(x) := sum_i theta_i(x) t_i.
+
+  Dann gilt nämlich in der Tat f(g'(x)) = sum_i theta_i(x) f(t_i) =
+  g(sum_i theta_i(x) x) = g(x).
+
+* Sei M ein A-B-Modul. Dann sind folgende Aussagen äquivalent:
+  1. Für einen B-A-Modul N gilt M -| N in der 2-Kategorie der Ringe
+     (M : B -> A, N : A -> B).
+  2. Für einen B-A-Modul N gibt es
+
+          eps : N tensor_A M --> B  (B-B-linear)
+          eta : A --> M tensor_B N  (A-A-linear)
+
+     mit Meps . etaM = id_M und etaN . Neta = id_N.
+  3. Für einen B-A-Modul N gibt es
+
+          x_1, ..., x_n aus M und
+          theta_1, ..., theta_n aus N und
+          eps : N tensor_A M --> B  (B-B-linear)
+
+     mit x = sum_i x_i eps(theta_i tensor x) und
+     theta = sum_i eps(theta tensor x_i) theta_i für alle x aus M und theta aus N.
+  4. Dieselbe Aussage wie in 3., nur mit N := Hom_B(M,B) und eps = ev.
+
+  Zu 2 ==> 3: Erhalte die x_i und theta_i durch Betrachtung von eta(1).
+  Zu 3 ==> 4: Habe den Iso N --> Hom_M(M,B) mit theta |-> eps(theta tensor __)
+  und Umkehrung phi |-> sum_i phi(x_i) theta_i.
+
+  All diese Aussagen sind ferner äquivalent dazu, dass M als Rechts-B-Modul
+  endlich erzeugt und projektiv ist. Und übrigens ist die Äquivalenz 1,2,3 <==> 4
+  einfach Spezialfall des allgemeinen Lemmas, dass Rechtsadjungierte durch
+  Rechts-Kan-Erweiterung der Identität gegeben sind!
+
 * Ist M projektiv und endlich erzeugt, so ist auch M^ projektiv und
   endlich erzeugt, und M --> M^^ ist sogar ein Iso.
 
@@ -923,6 +962,19 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
 
   Auch die Umkehrung stimmt: Wenn M = cok P, P^2 = P, P linear zwischen freien
   Moduln, dann A^n = ker(1-P) oplus im(1-P) = ker(1-P) oplus cok(P).
+
+* Endlich präsentierte flache Moduln sind projektiv. (Umgekehrt sind projektive
+  Moduln stets flach.)
+  http://cupid.economics.uq.edu.au/mclennan/Algebra/fac_trans.pdf, Thm. B9.11,
+  Seite 90.
+
+=== Flache Moduln
+
+* Sei M ein endlich erzeugter flacher Modul über einem lokalen Ring.
+  Dann besitzt jedes Erzeugendensystem eine Unterfamilie, welche eine Basis
+  ist.
+  http://cupid.economics.uq.edu.au/mclennan/Algebra/fac_trans.pdf, Prop. D5.2,
+  Seite 140.
 
 
 === Tensorprodukt

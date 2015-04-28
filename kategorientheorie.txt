@@ -168,6 +168,8 @@ Ferner gilt:
 
       R eps_Y . eta_RY = id_RY
 
+* eps heißt auch Koeins, eta heißt Eins.
+
 
 === Upgrade von Quasiäquivalenzen zu adjungierten Äquivalenzen
 

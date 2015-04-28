@@ -68,6 +68,11 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 
 * int(Spec A \ {p}) = Spec A \ V(p).
 
+* (m maximales Ideal) supp A/I <= { m }  <==>  m <= sqrt(I).
+  
+  Denn supp A/I = { q | I <= q }. Dann ist "<==" klar und "==>" sollte auch
+  stimmen.
+
 
 === Standardoffene Teilmengen
 

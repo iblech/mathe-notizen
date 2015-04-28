@@ -20,6 +20,19 @@ http://link.springer.com/chapter/10.1007/BFb0061815
   (wenn man k-ifiziert).
 
 
+=== Delta-Komplexe
+
+* Hatchers Delta-Komplexe sind genau die geometrischen Realisierungen von
+  semisimplizialen Mengen.
+
+* Solche sind übrigens stets hausdorffsch.
+  http://math.stackexchange.com/questions/375366/prove-that-a-topological-space-equipped-with-a-delta-complex-structure-is-hausdo.
+
+* Quotienten von Delta-Komplexen sind im Allgemeinen keine Delta-Komplexe.
+  Deswegen muss man zu "sDelta"-Komplexen übergehen -- geometrische
+  Realisierungen von simplizialen Mengen.
+
+
 === Nerv von Kategorien
 
 * Cat ist äquivalent zu Fun_c(Delta[2], Set).

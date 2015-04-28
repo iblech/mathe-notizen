@@ -16,10 +16,8 @@
 * K-Theorie des Hilbertschemas
 * Abgeleitete Kategorie des Hilbertschemas
 
-Gute Quellen für den Vortrag im Arbeitsseminar Geometrie/Topologie:
-* http://webcache.googleusercontent.com/search?q=cache:ciVgjzoImZ4J:www.math.brown.edu/~dbejleri/Hilbert%2520Schemes%2520-%2520Grad%2520Student%2520Seminar.pdf+&cd=2&hl=de&ct=clnk&gl=de&client=ubuntu
-* https://www-fourier.ujf-grenoble.fr/sites/ifmaquette.ujf-grenoble.fr/files/bertin_rev.pdf
-* Haiman
+Vortrag im Arbeitsseminar Geometrie/Topologie:
+https://github.com/iblech/talk-hilbert-schemes
 
 
 === Kanonisches Bündel
@@ -202,6 +200,8 @@ dass sie surjektiv ist und dass ihr Kern genau I ist.
 * Das Differential der Abbildung (M,N,i) |-> MN-NM hat angeblichen konstanten Rang.
   So kann man also über das Modell zeigen, dass (C^2)^[n] glatt ist.
   (Behauptet Nakajima, Seite 12.)
+
+* Das Modell kann man leicht auf (A^m)^[n] verallgemeinern.
 
 
 === Was ist die Rolle des Hilbertschemas im Vergleich zum naiven Quotienten?
