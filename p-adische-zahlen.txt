@@ -1,3 +1,8 @@
+=== Einführungen
+
+* http://www.madore.org/~david/math/padics.pdf
+
+
 === Coole und leichte Anwendungen
 
 http://mathoverflow.net/questions/81342/elementary-results-with-p-adic-numbers
@@ -8,7 +13,14 @@ http://mathoverflow.net/questions/81342/elementary-results-with-p-adic-numbers
 * Bestimmte Gleichungen haben nur endlich viele ganzzahlige Lösungen.
 
 * Man kann eine Quadrat nicht in n gleich große Dreiecke teilen, wenn n
-  ungerade.
+  ungerade. (Monskys Theorem)
+
+
+=== Monskys Theorem
+
+* https://simpletonsymposium.wordpress.com/2013/03/04/monskys-theorem-or-the-genius-of-bizarre-thinking/
+
+* http://link.springer.com/article/10.1007%2FBF02985395
 
 
 === p-adische Physik
