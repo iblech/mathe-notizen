@@ -506,6 +506,10 @@ Kategorie QE und QE sieht so aus: die Objekte sind die von E, aber Morphismen X
 
   Auch verträgt es sich gut mit Aufblasungen (Seite 209).
 
+  Siehe dazu auch Seite 2 von http://ncatlab.org/nlab/files/cech.pdf (Daniel
+  Dugger, Sheaves and Homotopy Theory): Wenn X = bigcup U_i, denn
+  ist K(X) der Homotopielimes von prod_i K(U_i) ===> prod_{ij} ... ≡≡≡> ...
+
 * Brown--Gersten--Quillen-Spektralsequenz (Seite 211):
 
       E_1^pq = bigoplus_{x in X^p} K_{-p-q}(k(x)) ==> G_{-p-q}(X).

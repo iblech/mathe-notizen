@@ -4,6 +4,32 @@
 
       C --> [C^op, Set]
 
+  Sei F : C --> D irgendein Funktor in eine kovollständige Kategorie.
+  Dann kann man den induzierten Funktor F' [C^op, Set] --> D durch
+
+      F' : W |-> W star_C F = int^c W(c) * F(c)
+
+  abgeben. Andere Möglichkeiten:
+
+  * F'(W) = int^c Hom(Yc, W) * F(c).
+  * F'(W) = Lan_Y(F)(W).
+  * F' = Lan_Y(F).
+
+  Man zeigt, dass F' kostetig ist, indem man F' als Linksadjungierten outet.
+  Der Rechtsadjungierte ist
+
+      S : D --> PSh(C), d |-> (c |-> Hom_D(Fc, d)).
+
+  Denn:
+
+      Hom(F'(W), d) = Hom(int^c W(c) * F(c), d) =
+      int_c Hom(W(c) * F(c), d) =
+      int_c Hom(W(c), Hom(F(c), d)) =
+      Nat(W, Hom(F(__), d)) =
+      Nat(W, S(d)).
+
+  Den Trick habe ich aus http://ncatlab.org/nlab/files/cech.pdf, Seite 9.
+
 * Kovervollständigung einer Kategorie C, die vorhandene Kolimiten erhält:
 
       C --> [C^op, Set]_s
@@ -90,6 +116,11 @@
   für im(P) klar, für ker(P) nutze ker(P) = im(Id-P)). Damit zerfällt P
   in Mod(A)^{e.e. proj.} in die Komposition M ->> im(P) `-> M. Tatsächlich ist
   im(P) `-> M ->> im(P) die Identität.
+
+* Die Kategorie der glatten Mannigfaltigkeiten ist die
+  Cauchy-Vervollständigung der Kategorie der offenen Teilmengen der R^n's
+  (mit glatten Abbildungen als Morphismen).
+  http://ncatlab.org/nlab/show/Karoubi+envelope#the_category_of_smooth_manifolds
 
 
 === Pro-Objekte, unendliche Galoistheorie als Lawvere-Theorie, ...

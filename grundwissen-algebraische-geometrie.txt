@@ -122,6 +122,15 @@ Bin durch
 http://mathoverflow.net/questions/9134/arbitrary-products-of-schemes-dont-exist-do-they
 darauf gestoßen.
 
+* Spec : CRing^op --> Sch ist der Rechtsadjungierte zu
+  Gamma : Sch --> CRing^op. Folglich schickt Spec Kolimiten in Ringen
+  auf Limiten in Schemata.
+
+* Ein Beispiel für ein Kolimes, der in der Kategorie der Schemata
+  nicht existiert: Der Kodifferenzkern von Spec k(t) --> A^1 amalg A^1.
+  Dieser wäre "zu nicht-separiert".
+  http://mathoverflow.net/questions/9961/colimits-of-schemes
+
 
 === Spektren von Algebren, die endlich als Modul sind
 

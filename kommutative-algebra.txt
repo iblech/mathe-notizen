@@ -989,6 +989,12 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
 * M tensor_A N ~~ A tensor_{A tensor_k A} (M tensor_k N),
   wenn k ein Körper, A eine k-Algebra und M und N A-Moduln sind.
 
+* k[x] tensor_k k[y] = k[x,y] folgt wie folgt aus abstraktem Nonsens:
+  Der Vergissfunktor k-Alg --> Set hat einen Linksadjungierten, nämlich
+  X |-> k[X] := k[x | x aus X]. Dieser bewahrt daher Kolimiten.
+  Somit ist k[x,y] = k[{x,y}] der Kolimes von k[x] mit k[y]. Nun nutzt man noch
+  aus, dass Kolimiten durchs Tensorprodukt gegeben sind.
+
 
 === Nakayama
 

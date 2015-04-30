@@ -23,7 +23,7 @@
 Quelle für das alles: nLab.
 
 
-=== 2 aus 3
+=== 2 aus 3, Monomorphismen, und so weiter
 
 * f . g Iso, f Mono ==> g Iso (und f Iso)
 
@@ -48,6 +48,34 @@ Quelle für das alles: nLab.
 
   Genauer: f ist genau dann ein Iso, wenn Hom(Y,X) --> Hom(Y,Y) surjektiv und
   Hom(X,X) --> Hom(X,Y) injektiv ist.
+
+* Bekannt: X --> Y ist genau dann ein Monomorphismus, wenn
+
+      X ---> X
+      |      |
+      |      |
+      v      v
+      X ---> Y
+
+  ein Pullbackdiagramm ist.
+
+* Daraus folgt: Ist X --> Y ein Mono, so (existiert X x_Y X) und X --> X x_Y X
+  ist ein Epi (da sogar Iso).
+
+  Umgekehrt existiere X x_Y X und Delta : X --> X x_Y X sei ein Epi.
+  Seien außerdem Epis stabil unter Basiswechsel und existieren alle
+  Differenzkerne. Dann ist f : X --> Y ein Mono. Sind nämlich a, b : Z --> X
+  mit f . a = f . b gegeben, so erhalte Z --> X x_Y X und das
+  Faserproduktdiagramm
+
+      Eq(a,b) ---> Z
+        |          |
+        |          |
+        v          v
+        X -----> X x_Y X.
+
+  Da X --> X x_Y X ein Epi ist, ist nach Voraussetzung auch Eq(a,b) --> Z
+  ein Epi. Also ist a = b.
 
 
 === Kanten vs. Pfade
@@ -476,13 +504,6 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
   verstehen
 
 
-=== Enden und Koenden
-
-Fosco Loregian.
-This is the (co)end, my only (co)friend.
-http://arxiv.org/abs/1501.02503
-
-
 === Nichtäquivalente Kategorien
 
 * Coh(X), für eine vollständige Varietät über einem algebraisch abgeschlossenen
@@ -553,17 +574,36 @@ http://arxiv.org/abs/1501.02503
 
 * Nat(L, S) = int_c A(Lc, Sc) für Funktoren L, S : C --> A.
 
+* Fosco Loregian.
+  This is the (co)end, my only (co)friend.
+  http://arxiv.org/abs/1501.02503
+
 
 === Enden und Tensorprodukte von Funktoren
 
 * Sei R ein Ring. Sei A ein Rechts-R-Modul, d.h. ein Ab-Funktor R^op --> Ab.
-  Sei B ein Links-R-Modul, d.h. ein Ab-Funktion R --> Ab. Dann ist
+  Sei B ein Links-R-Modul, d.h. ein Ab-Funktor R --> Ab. Dann ist
 
       A tensor_R B = int^R A tensor_Z B.
 
 * Der von einer Menge X frei erzeugte R-Modul ist das Koende
 
       int^n X^n * R^n.
+
+* Sei X : J --> D und W : J^op --> Set. Dann ist das Tensorprodukt
+  das Objekt
+
+      W star_J X = int^j W(j) * X(j)
+
+  in D. Also:
+
+      Hom(W star_J X, d) = int_j Hom(W(j) * X(j), d) =
+          int_j Hom(W(j), Hom(X(j), d)) =
+          Nat(W, Hom(X(__), d)).
+
+  Das Tensorprodukt W star_J X heißt auch Kolimes von X mit Gewicht W.
+
+  Spezialfall: W = konstant 1. Dann ist W star_j X = colim X.
 
 * Ko- und kontravariante Hom-Funktoren sind wie freie Moduln:
 
@@ -640,6 +680,17 @@ http://www.math.harvard.edu/~eriehl/cathtpy.pdf, Seite 46.
   unpräziser:
 
       K dicht  <==>  Lan_K(K) = Id.
+
+  Insbesondere gilt für die Yoneda-Einbettung Y : C --> C^:
+
+      F = Lan_Y(Y)(F) für alle Prägarben F.
+
+  Noch mal anders:
+
+      F tensor_C Y = F.
+
+  So ist auch klar, wie man eine Prägarbe als Bastelanleitung für einen Kolimes
+  ansehen kann: Hat man C --> H, so definiert F den Kolimes F tensor_C H.
 
 * Die Koende-Formel liefert (wenn sie denn funktioniert, d.h. wenn die
   fraglichen Koenden existieren) sogar eine punktweise Kan-Erweiterung.
