@@ -617,6 +617,21 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
 http://www.math.harvard.edu/~eriehl/cathtpy.pdf, Seite 46.
 
 
+=== Gewichtete Limiten und Kolimiten
+
+* colim_W F = int^c W(c) * F(c).
+
+  Dabei Hom(X*A, T) = Hom(X, Hom(T,A)).
+
+  Also Hom(colim_W F, T) = Nat(W, Hom(F(__), T)).
+
+* lim_W F = int_c F(c)^W(c).
+
+  Dabei Hom(T, A^X) = Hom(X, Hom(T,A)).
+
+  Also Hom(T, lim_W F) = Nat(W, Hom(T, F(__))).
+
+
 === Kan-Erweiterungen
 
 * Lan_p -| p^* -| Ran_p.
