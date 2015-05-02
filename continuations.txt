@@ -22,3 +22,6 @@
 
 * http://www.ccs.neu.edu/racket/pubs/icfp05-pcmkf.pdf
   Zeigt, wie man Continuations ohne CPS implementieren kann.
+
+* http://www.cs.indiana.edu/pub/techreports/TR615.pdf
+  A monadic framework for delimited continuations.

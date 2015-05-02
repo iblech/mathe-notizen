@@ -1,3 +1,9 @@
+=== Monaden
+
+* Eine Monade in Span(Set) ist nichts anderes als eine kleine Kategorie.
+  http://blog.sigfpe.com/2011/07/profunctors-in-haskell.html?showComment=1312587319525#c2392343608124186667
+
+
 === Ind-Kategorie
 
 * Ind-C :=
@@ -526,6 +532,8 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
 
       C(X * A, B) ~~ Set(X, C(A, B)), natürlich in B.
 
+  Idee: X * A = coprod_{x in X} A.
+
 * Schreibt man den Isomorphismus von links nach rechts als
 
       phi |-> (x |-> phi_x),
@@ -539,6 +547,8 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
   Diese erfüllen
 
       phi_x . g = (phi . (X*g))_x.
+
+* Die Potenz A^X stellt man sich als prod_{x in X} A vor.
 
 
 === Enden und Koenden
@@ -574,17 +584,27 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
 
 * Nat(L, S) = int_c A(Lc, Sc) für Funktoren L, S : C --> A.
 
+* Sei E eine Garbe auf X. Dann Gamma(X, E) = Hom(1, E) = int_U Hom(1(U), E(U)) =
+  int_U E(U). Allerdings ist das nicht unendlich cool, da diese Ende also
+  einfach ein Limes ist, und die Indexkategorie ein initiales Objekt besitzt.
+
+* Kann tropische Integrale, insbesondere Suprema, als Enden ansehen.
+  http://mathoverflow.net/a/80719/31233
+
 * Fosco Loregian.
   This is the (co)end, my only (co)friend.
   http://arxiv.org/abs/1501.02503
 
 
-=== Enden und Tensorprodukte von Funktoren
+=== Tensorprodukte von Funktoren
 
 * Sei R ein Ring. Sei A ein Rechts-R-Modul, d.h. ein Ab-Funktor R^op --> Ab.
   Sei B ein Links-R-Modul, d.h. ein Ab-Funktor R --> Ab. Dann ist
 
       A tensor_R B = int^R A tensor_Z B.
+
+  (Ohne die Ab-Bedingung reden wir nur über abelsche Gruppen mit Wirkung des
+  multiplikativen Monoids von e.)
 
 * Der von einer Menge X frei erzeugte R-Modul ist das Koende
 
@@ -620,16 +640,27 @@ http://www.math.harvard.edu/~eriehl/cathtpy.pdf, Seite 46.
 === Gewichtete Limiten und Kolimiten
 
 * colim_W F = int^c W(c) * F(c).
+  Hier muss W kontravariant sein.
 
   Dabei Hom(X*A, T) = Hom(X, Hom(T,A)).
 
   Also Hom(colim_W F, T) = Nat(W, Hom(F(__), T)).
 
 * lim_W F = int_c F(c)^W(c).
+  Hier muss W kovariant sein.
 
   Dabei Hom(T, A^X) = Hom(X, Hom(T,A)).
 
   Also Hom(T, lim_W F) = Nat(W, Hom(T, F(__))).
+
+* Seien W, F : C --> Set. Dann lim_W F = int_c Hom(W(c),F(c)) = Nat(W,F).
+  Passt auch im Fall W = 1. Dann ist die rechte Seite die Menge der F-Kegel mit
+  Spitze 1.
+
+* Gewichtete Limiten und Kolimiten lassen sich im unangereicherten Kontext
+  einfach als gewöhnliche Limiten und Kolimiten ausdrücken. In einem
+  angereicherten Kontext aber nicht. Sagt http://arxiv.org/pdf/1501.02503v2.pdf
+  auf Seite 23.
 
 
 === Kan-Erweiterungen
@@ -747,6 +778,16 @@ Quellen:
 * Speziell für G den Vergissfunktor von Körpern nach Ringen:
 
       Codensity(G)(R) = product_{p Primideal von R} Quot(R/p).
+
+
+=== Profunktoren
+
+* Ein Profunktor A -/-> B ist ein Funktor A x B^op --> Set.
+  Andere sagen: A^op x B --> Set.
+
+* Die Komposition von F : A -/-> B mit G : B -/-> C ist
+
+      (G . F)(a,c) = int^b G(b,c) x F(a,b).
 
 
 === Nächste Schritte

@@ -30,6 +30,9 @@
 
   Den Trick habe ich aus http://ncatlab.org/nlab/files/cech.pdf, Seite 9.
 
+  Tatsächlich gilt sogar: [C, D] = RAdj(PSh(C), D), wenn D kovollständig ist,
+  siehe Seite 18 von http://arxiv.org/pdf/1501.02503v2.pdf.
+
 * Kovervollständigung einer Kategorie C, die vorhandene Kolimiten erhält:
 
       C --> [C^op, Set]_s
