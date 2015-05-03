@@ -25,3 +25,6 @@
 
 * http://www.cs.indiana.edu/pub/techreports/TR615.pdf
   A monadic framework for delimited continuations.
+
+* http://okmij.org/ftp/Haskell/ShiftResetGenuine.hs
+  einfacher als der Ansatz aus dem Pugs-Repo?

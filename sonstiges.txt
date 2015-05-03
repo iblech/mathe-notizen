@@ -220,3 +220,8 @@ Stefano Gogioso
 === Unendlich-dimensionale Mannigfaltigkeiten und Fluiddynamik
 
 https://johncarlosbaez.wordpress.com/2012/03/12/fluid-flows-and-infinite-dimensional-manifolds/
+
+
+=== Paul-Andre Mellies: "String diagrams, a topological account of proofs and programs"
+
+https://www.youtube.com/watch?v=Sr_tEm3Kxc0

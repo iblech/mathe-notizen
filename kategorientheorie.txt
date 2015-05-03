@@ -763,6 +763,21 @@ http://www.math.harvard.edu/~eriehl/cathtpy.pdf, Seite 46.
 * Sei Hom(d,__) ein Rechtsadjungierter, d.h. existieren alle Kopotenzen
   X*d. Dann vertauscht Hom(d,__) mit Rechts-Kan-Erweiterungen.
 
+* Eine Rechts-Kan-Erweiterung von T : M --> A längs K : M --> C im Fall
+  von Quasiordnungen ist
+  - eine monotone Abbildung R : C --> A
+  - sodass R(Km) <= Tm für alle m aus M
+  sodass für alle R' : C --> A mit R'(Km) <= Tm für alle m aus M gilt,
+  dass R'(c) <= Rc für alle c aus C.
+
+  Limesformel:   Rc = inf { Tm | m mit c <= Km }.
+  Kolimesformel: Lc = sup { Tm | m mit Km <= c }.
+
+  Zum Beispiel ist die RKE von Abrundung : Q --> Z längs Q --> R
+  die Abrundung auf R. (Die LKE auch.)
+
+* Kan-Erweiterungen bei Topoi: http://home.math.au.dk/kock/postulated.pdf
+
 Quellen:
 * Mac Lane, Kapitel 10
 * http://www.math.harvard.edu/theses/senior/lehner/lehner.pdf

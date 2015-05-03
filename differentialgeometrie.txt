@@ -14,6 +14,9 @@ Steven Gubkin
 David Bachman. A Geometric Approach to Differential Forms.
 http://arxiv.org/abs/math/0306194v1
 
+https://dl.dropboxusercontent.com/u/828035/Mathematics/forms.pdf
+von sigfpe!
+
 
 === Torsion
 
