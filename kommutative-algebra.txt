@@ -976,6 +976,23 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   http://cupid.economics.uq.edu.au/mclennan/Algebra/fac_trans.pdf, Prop. D5.2,
   Seite 140.
 
+* Ein Modul ist genau dann flach, wenn er filtrierter Kolimes von freien Moduln ist.
+
+  "<==": Filtrierte Kolimiten von freien (insb. flachen) Moduln sind
+  flach, da das Tensorprodukt mit beliebigen (insb. filtrierten) Kolimiten
+  verträglich ist und filtrierte Kolimiten von kurzen exakten Sequenz wieder
+  exakt sind (in Modulkategorien).
+
+  "==>": Angeblich ist M stets auf kanonische Weise der Kolimes aller endlich
+  freien Moduln F --> M; und falls M flach ist, ist dieses System filtriert.
+  Das behauptet Akhil Mathew in http://math.stackexchange.com/a/113112/61604,
+  aber ich sehe das nicht.
+
+  Das nLab führt folgenden Beweis an: Betrachte die Partialordnung aller
+  (Kuratowski-)endlichen Mengen (nicht Familien!) von Elementen in M. Diese ist
+  filtriert (d.h. gerichtet) und induziert das Diagramm (X <= M) |-> R<X>.
+  Es ist M ein Kolimes dieses Diagramms.
+
 
 === Tensorprodukt
 

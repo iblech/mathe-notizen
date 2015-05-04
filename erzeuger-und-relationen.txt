@@ -220,6 +220,18 @@ Außerdem Mod(A) = { (V, x_1,...,x_n : V --> V) |
     x_i x_j = x_j x_i, f_l(x_i) = 0 in End(V) }.
 
 
+=== In der algebraischen Geometrie
+
+* http://stacks.math.columbia.edu/download/limits.pdf, Prop. 5.1:
+  Ein Morphismus f : X --> S von Schemata ist genau dann lveP,
+  wenn Hom_S(__, X) Limiten von inversen Systemen von S-Schemata
+  mit allen Objekten affin in Kolimiten in Set überführt.
+
+* Ein Ringhomo phi : R --> S ist genau dann von endlicher Präsentation,
+  wenn Hom_R(S, __) mit gerichteten Kolimiten vertauscht.
+  Das ist Lemma 124.2 in stacks/algebra.pdf.
+
+
 === Nächste Schritte:
 
 * Wozu ist der symmetrische Topos gut?
