@@ -3,6 +3,10 @@
 * Eine Monade in Span(Set) ist nichts anderes als eine kleine Kategorie.
   http://blog.sigfpe.com/2011/07/profunctors-in-haskell.html?showComment=1312587319525#c2392343608124186667
 
+  Genauer: Die Kategorie der internen Kategorien mit Objektobjekt C_0 einer
+  Kategorie A ist dasselbe wie die Kategorie der Monoidobjekte in der Kategorie
+  Hom_Span(A)(C_0, C_0), also dasselbe wie eine Monade in Span(A).
+
 
 === Ind-Kategorie
 
@@ -623,12 +627,23 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
 
   Das Tensorprodukt W star_J X heißt auch Kolimes von X mit Gewicht W.
 
+  An der Formel erkennt man auch die übliche Tensor/Hom-Adjunktion, nur
+  aufgepimpt!
+
+      __ star X -| Hom(X(__), __)
+
+  als Adjunktion zwischen Funktoren auf [J^op, Set] und J.
+
+  Korollar: W star X ist kostetig in W.
+
   Spezialfall: W = konstant 1. Dann ist W star_j X = colim X.
 
 * Ko- und kontravariante Hom-Funktoren sind wie freie Moduln:
 
       D(__, d) tensor_D F = Fd
       G tensor_D D(d, __) = Gd
+
+  D(__, d) verhält sich also wie eine bei d konzentrierte Delta-Distribution!
 
 * (Lan_K F)(d) = D(K(__), d) tensor_C F.  (punktweise Kan-Erweiterung)
 
@@ -775,6 +790,17 @@ http://www.math.harvard.edu/~eriehl/cathtpy.pdf, Seite 46.
 
   Zum Beispiel ist die RKE von Abrundung : Q --> Z längs Q --> R
   die Abrundung auf R. (Die LKE auch.)
+
+* In einer 2-Kategorie, in der alle 2-Morphismen invertierbar sind,
+  gibt es keine Unterschiede zwischen RKE und LKE: Ist (R,eps) eine RKE,
+  so ist (R,eps^(-1)) die zugehörige LKE.
+
+  Es genügt auch schon, dass alle 2-Morphismen zwischen 1-Morphismen M --> A
+  invertierbar sind. Das ist zum Beispiel erfüllt, falls wir in der 2-Kategorie
+  der Kategorien arbeiten und A ein Gruppoid ist.
+
+  Das wiederum ist insbesondere dann der Fall, wenn wir die ganze Zeit über
+  Mengen reden.
 
 * Kan-Erweiterungen bei Topoi: http://home.math.au.dk/kock/postulated.pdf
 
