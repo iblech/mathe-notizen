@@ -1,4 +1,4 @@
-Drei Sichtweisen auf qcoh Moduln auf affinen Schemata:
+Drei Sichtweisen auf quasikohärente Moduln auf affinen Schemata:
 * Modulgarben, die lokal eine Präsentation zulassen
 * kartesische Prägarben
 * Moduln auf dem Ring der globalen Schnitte
