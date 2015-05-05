@@ -753,6 +753,10 @@ http://www.math.harvard.edu/~eriehl/cathtpy.pdf, Seite 46.
   So ist auch klar, wie man eine Prägarbe als Bastelanleitung für einen Kolimes
   ansehen kann: Hat man C --> H, so definiert F den Kolimes F tensor_C H.
 
+* Ende-Formel:
+
+      (Ran_K T)(c) = int_m (Tm)^C(c,Km)
+
 * Die Koende-Formel liefert (wenn sie denn funktioniert, d.h. wenn die
   fraglichen Koenden existieren) sogar eine punktweise Kan-Erweiterung.
   Genauer:
