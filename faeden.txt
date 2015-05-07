@@ -227,6 +227,7 @@
 * http://www.sciencedirect.com/science/article/pii/0022404982900305
 * http://nforum.mathforge.org/discussion/6376/coend-calculus/#Item_0
 * Coherent sheaves on an elliptic curve. Brüning, Burban.
+* Kleine Topoi in Punktefunktor-Sicht
 
 * http://arxiv.org/abs/1408.0952
   A Primer on Reproducing Kernel Hilbert Spaces

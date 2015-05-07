@@ -93,6 +93,22 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 
 * Spec A ist lokaler topologischer Raum <==> A ist ein lokaler Ring.
 
+* D(I) <= Spec(A) ist genau dann affin, wenn I "codisjunctable" ist.
+  http://mathoverflow.net/a/66901/31233
+
+* Spec(A) --> Spec(B) ist genau dann eine offene Immersion, wenn
+  B --> A flach, von endlicher Präsentation und in Ring ein Epi ist.
+  http://mathoverflow.net/a/20792/31233
+
+  Alternativ: Genau dann, wenn das Bild von T in A das Einsideal ist,
+  wobei T = { f in B | B[f^(-1)] --> A[f^(-1)] Iso }.
+  http://mathoverflow.net/a/20790/31233
+  (T ist stets ein Ideal.)
+
+* Auch offene *affine* Teilmengen von affinen Schemata sind nicht
+  unbedingt von der Form D(f) für ein einziges f.
+  http://mathoverflow.net/questions/7153/open-affine-subscheme-of-affine-scheme-which-is-not-principal
+
 
 === Morphismen in affine Schemata
 
@@ -788,6 +804,80 @@ sehr gut lesbar!
 
 * Universell abgeschlossene Morphismen sind quasikompakt.
   http://mathoverflow.net/questions/23337/is-a-universally-closed-morphism-of-schemes-quasi-compact
+
+
+=== Punktefunktoransatz
+
+* X' <= X heißt genau dann offen, wenn für alle Ringe A und alle eta aus X(A)
+  gilt, dass eta^{-1}(X') <= Hom(A,__) Vereinigung von Unterfunktoren der Form
+  Hom(A_a, __) ist. Das heißt fast, dass für alle Ringe R gelten soll:
+
+      Ein Ringhomo f : A --> R bildet genau dann eines der Elemente a (einer
+      Familie) auf ein invertierbares Element ab, wenn X(f)eta in X'(R) liegt.
+
+  Aber Achtung. Mit Vereinigung ist Vereinigung in der Kategorie der
+  *Garben* auf Ring gemeint. Damit ist die angegebene Charakterisierung nicht
+  richtig. Der Funktor R |-> { f : A -> R | ein f(a) ist invertierbar } ist
+  auch gar keine Zariski-Garbe.
+
+  Die richtige Charakterisierung ist folgende:
+
+      Ein Ringhomo f : A --> R hat genau dann die Eigenschaft, dass das von den
+      f(a) erzeugte Ideal das Einsideal in R ist, wenn X(f)eta in X'(R) liegt.
+
+  Im Spezialfall, dass R lokal ist, ist diese Bedingung zu obigen äquivalent.
+
+  Noch mal zum Mitschreiben: In Sh(CRing) ist die Vereinigung der
+
+      R |--> { f : A --> R | f(a) ist invertierbar }
+
+  über alle a aus irgendeiner Menge M gegeben durch
+
+      R |--> { f : A --> R | (f[M]) = (1) in R }.
+
+* Sind X_i <= X offene Unterfunktoren, so sind die Bedingungen
+
+      a) X(A) = bigcup_i X_i(A) für alle lokalen Ringe A
+
+  und
+
+      b) X(A) = bigcup_i X_i(A) für alle Körper A
+
+  gleichwertig. Beide drücken intuitiv aus, dass die X_i den Funktor X überdecken.
+  Die eine Richtung ist klar. Die andere macht Spaß:
+
+  Sei A ein lokaler Ring. Sei eta in X(A). Wir wollen zeigen, dass eta
+  schon in einem der X_i(A) liegt. Betrachte die kanonische Projektion
+  pi : A --> A/m. Da A/m ein Körper ist, liegt dann X(pi)(eta) in einem
+  X_i(A/m). Da nun X_i <= X ein offener Unterfunktor ist, gibt es eine
+  Familie a_j von Elementen aus A, sodass
+
+      für alle lokalen Ringe R gilt:
+          Ein Ringhomo g : A --> R bildet genau dann irgendeines der
+          Elemente a_j auf ein invertierbares Element ab, wenn X(g)(eta)
+          in X_i(R) liegt.
+
+  Speziell für R := A/m und g = pi erhalten wir, da X(g)(eta) in X_i(R)
+  liegt, dass für ein j g(a_j) = pi(a_j) in A/m invertierbar ist. Damit
+  ist a_j selbst schon in A invertierbar.
+
+  Speziell für R := A und g = id erhalten wir, da die Identität id_A
+  das Element a_j gezwungenermaßen auf ein invertierbares Element
+  abbildet, dass X(id)(eta) = eta in X_i(R) liegt.
+
+* Siehe auch Strømmes /Elementary Introduction to Representable Functors and
+  Hilbert Schemes/. Strømme arbeitet mit Funktoren auf Sch^op statt Ring.
+  Dadurch formuliert er eine leicht andere Bedingung für offene
+  Unterfunktoren. http://matwbn.icm.edu.pl/ksiazki/bcp/bcp36/bcp36111.pdf
+
+* Gegeben ein Punktefunktor. Wie definiert man dann seinen kleinen
+  Zariskitopos? Wie definiert man Unterschemata über Idealgarben?
+
+* "Etale means, by definition, formally etale and locally of finite
+  presentation, both of which conditions have simple formulations in terms of
+  functors of points, from Rings to Sets. Likewise, a map of schemes is a
+  monomorphism if and only if the map of underlying functors is a
+  monomorphism." http://mathoverflow.net/a/14585/31233
 
 
 === Referenzen
