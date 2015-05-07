@@ -1,6 +1,7 @@
 === Kompakte Objekte allgemein
 
-* Endliche Kolimiten kompakter Objekte sind kompakt.
+* Endliche Kolimiten kompakter Objekte sind kompakt. Liegt im Wesentlichen
+  daran, dass in Set endliche Limiten mit filtrierten Kolimiten vertauschen.
 
 * Faktorisiert die Identität M --> M über ein kompaktes Objekt U,
 
@@ -19,6 +20,9 @@
           psi pi = phi iota pi = phi.
       Außerdem war das die einzige Möglichkeit:
           Sei psi pi = phi. Dann folgt psi = psi pi iota = phi iota.
+
+* Besitzt C endliche Kolimiten, so ist für jedes Objekt X das kanonische
+  Diagramm C_fp/X --> X filtriert. (Siehe erzeuger-und-relationen.txt.)
 
 
 === Kompakte Objekte in A-Mod
