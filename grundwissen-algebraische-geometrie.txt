@@ -91,6 +91,14 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 
       f_i g nilpotent für alle i ==> g nilpotent.
 
+* Ouv(Spec A) ist isomorph zu Rad(A), vermöge
+
+      U |--> { h in A | D(h) <= U }
+
+  und
+
+      a |--> bigcup_{h in a} D(h).
+
 * Spec A ist lokaler topologischer Raum <==> A ist ein lokaler Ring.
 
 * D(I) <= Spec(A) ist genau dann affin, wenn I "codisjunctable" ist.
@@ -104,6 +112,13 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
   wobei T = { f in B | B[f^(-1)] --> A[f^(-1)] Iso }.
   http://mathoverflow.net/a/20790/31233
   (T ist stets ein Ideal.)
+
+  Damit kann man zeigen: Spec A[S^(-1)] --> Spec A ist genau dann eine offene
+  Immersion, wenn Lokalisierung weg von S dasselbe ist wie Lokalisierung weg
+  von einem einzelnen Element. Denn für diesen Fall ist T = bigcap_{s in S} sqrt((s)).
+  Also ist das von T in A[S^(-1)] erzeugte Ideal genau dann das Einsideal, wenn
+  T cap S nicht leer ist, wenn also ein u aus S mit u in T existiert.
+  Das ist die Behauptung.
 
 * Auch offene *affine* Teilmengen von affinen Schemata sind nicht
   unbedingt von der Form D(f) für ein einziges f.

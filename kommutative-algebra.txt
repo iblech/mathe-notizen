@@ -696,7 +696,13 @@ muss.
 
 * Sei iota : A --> A[S^(-1)] die Lokalisierung an einem *saturierten* multiplikativ
   abgeschlossenen System (d.h. xy in S ==> x in S und y in S). Dann ist iota(x)
-  genau dann invertierbar, wenn x in S liegt.
+  genau dann invertierbar, wenn x in S liegt. (Sonst gilt nur "<==".)
+
+* Der kanonische Morphismus iota : A --> A[S^(-1)] ist genau dann ein
+  Isomorphismus, wenn alle Elemente aus S invertierbar sind.
+
+* Ein Element x aus A ist genau dann in A[f^(-1)] invertierbar, wenn
+  f in sqrt((x)).
 
 * Die Menge der regulären Elemente eines Rings ist immer ein saturiertes
   multiplikativ abgeschlossenes System.
@@ -718,7 +724,8 @@ muss.
 
 * Sei (s_i) eine Zerlegung der Eins in einem Ring A. Dann ist A der
   inverse Limes von A[s_i^(-1)] --> A[s_i^(-1), s_j^(-1)]. (Sagt Lombardi in
-  Oberwolfach2.pdf.)
+  Oberwolfach2.pdf. Außerdem ist es recht klar, da das eigentlich nur die
+  bekannte Differenzkernbedingung an die Strukturgarbe von Spec A ist.)
 
   Als Korollare erhält man: Nullheit und Invertierbarkeit von Ringelementen
   kann man lokal testen; Elemente kann man lokal angeben; Ringhomos kann man
