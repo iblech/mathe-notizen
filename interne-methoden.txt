@@ -1478,7 +1478,7 @@ PS: If you are into such things, here is the logical background:
   wobei "..." ein geeigneter Ausdruck ist, der im Fall x = x0 zu P(T_x0 X)
   wird. Dabei ist T_x0 X natürlich { f : Delta --> X | f(0) = x0 }.
 
-A Sei F qcoh O_S-Modul. Dann könnte man denken, dass [F~, A^1]_A^1 = RelSpec F.
+A Sei F qcoh O_S-Algebra. Dann könnte man denken, dass [F~, A^1]_A^1 = RelSpec F.
 
 B Sei X S-Schema. Dann könnte man denken, dass [X, A^1] = (mu_* O_X)^~.
 
@@ -1493,8 +1493,12 @@ B Sei X S-Schema. Dann könnte man denken, dass [X, A^1] = (mu_* O_X)^~.
   * [A^1 x A^1, A^1]_A^1 = pt \amalg pt.
     (Verwende: Sei A lokaler Ring. Sei phi : A x A --> A ein A-Algebrenhomo.
     Dann ist -- auch, wenn A nicht unbedingt ein Integritätsbereich ist -- phi
-    die Projekt auf eine der beiden Komponenten. Schreibe dazu phi als Matrix.)
+    die Projektion auf eine der beiden Komponenten. Schreibe dazu phi als Matrix.)
   * [A[T]/(f), A^1]_A^1 = V(f) <= A^1.
+
+  A ist wohl allgemein dann korrekt, wenn F lokal als Algebra endlich
+  präsentiert ist. Dann sollte auch F~ lokal endlich präsentiert sein. Und für
+  endlich präsentierte F~ ist es klar.
 
 * Es gilt: [X, A^1](T) = A^1(X x T) = Gamma(O_{X x T})
   und (mu_* O_X)^~(T) = Gamma(T, eps^* mu_* O_X), wenn T -eps-> S und X -mu-> S.

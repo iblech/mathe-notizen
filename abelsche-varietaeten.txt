@@ -20,6 +20,13 @@ Dedekindring.
 http://www.math.rochester.edu/people/faculty/edummit/docs/talk_NTS_elliptic_curves.pdf
 ist gut! http://www.math.wisc.edu/~dummit/docs/talk_NTS_elliptic_curves.pdf
 
+https://www.union.ic.ac.uk/rcsu/mathsoc/ugc.html
+"Surprisingly, the theory of elliptic curves gives an extremely efficient
+algorithm. These geometric objects carry a deep algebraic structure that can be
+exploited to yield a (relatively) quick way of factorising numbers. My talk
+will be an introduction to elliptic curves and their applications to
+factorisation."
+
 
 === Kohomologie und wichtige Garben
 

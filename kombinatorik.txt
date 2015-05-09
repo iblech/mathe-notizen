@@ -37,7 +37,11 @@ Stembridge, A Concise Proof of the Littlewood-Richardson Rule.
 
 === Sperners Lemma
 
-Ein toller grafischer Beweis:
-https://people.math.osu.edu/fowler.291/teaching/talks/cutting.pdf
+* Ein toller grafischer Beweis:
+  https://people.math.osu.edu/fowler.291/teaching/talks/cutting.pdf
 
-Anzahl AB-Kanten = Anzahl ABC-Dreiecke (modulo 2).
+  Anzahl AB-Kanten = Anzahl ABC-Dreiecke (modulo 2).
+
+* https://www.union.ic.ac.uk/rcsu/mathsoc/ugc.html
+  Es gibt wohl (ko-)homologische Beweise von Sperners Lemma!
+  Das sollte interessant sein.

@@ -11,6 +11,12 @@
 * Horizont?
 
 
+=== Projektiver Raum als Kategorie
+
+* http://nforum.mathforge.org/discussion/450/projective-space-as-a-category
+* http://arxiv.org/pdf/0912.0822v1.pdf
+
+
 === Klassische Definitionen
 
 Ganz klassisch definiert man den projektiven Raum P(V) zu einem Vektorraum V

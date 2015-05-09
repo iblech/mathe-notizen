@@ -1,3 +1,22 @@
+=== Primideale
+
+* Sei a cap b <= p, wobei a und b Ideale sind und p ein Primideal ist.
+  Dann (klassisch) a <= p oder b <= p.
+
+* Prime avoidance lemma: Sei E eine additive Untergruppe, die außerdem
+  unter Multiplikation abgeschlossen ist. Also ein Unterring, der nicht
+  unbedingt die Eins enthalten muss. Seien p_1, ..., p_n Ideale, von denen
+  alle bis auf zwei Primideale sein müssen. Dann:
+
+      E <= bigcup_i p_i  ==>  E <= p_i für ein i.
+
+* Der Schnitt über alle Primideale, oder auch nur die minimalen, ist sqrt(0).
+
+* Noethersche Ringe (und auch solche, die nur die aufsteigende Kettenbedingung
+  für Radikalideale erfüllen) besitzen nur endlich viele minimale Primideale.
+  http://math.stackexchange.com/questions/47342/does-every-closed-set-of-prime-ideals-of-a-noetherian-ring-contain-a-finite-dens
+
+
 === Dimension
 
 * dim(X) <= n genau dann, wenn Sh(X) |== dim(O_X) <= n.
@@ -73,6 +92,10 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
   Denn supp A/I = { q | I <= q }. Dann ist "<==" klar und "==>" sollte auch
   stimmen.
 
+* Jedes abgeschlossene Unterschema eines affinen Schemas ist selbst
+  affin und von der Form Spec(A/I). (Liu, Prop. 2.3.20.) Also in Kontrast zu
+  der Situation bei offenen Unterschemata.
+
 
 === Standardoffene Teilmengen
 
@@ -83,6 +106,17 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 
 * D(f) ist genau dann leer, wenn f nilpotent ist.
 
+* Seien p <= q Primideale. Sei q Element einer offenen Teilmenge von U.
+  Dann ist auch p Element von U. (Schreibe U als Vereinigung standardoffener
+  Teilmengen.)
+
+* Seien p_1, ..., p_n Primideale, die alle in einer offenen Teilmenge U
+  enthalten sind. Dann gibt es eine standardoffene Teilmenge D(f)
+  mit D(f) <= U, die ebenfalls diese Primideale enthält.
+
+  Der Beweis unten überträgt sich wörtlich auf diese allgemeinere Situation.
+  Auf die Endlichkeit der Anzahl der Primideale kann nicht verzichtet werden.
+
 * D(f) ist dicht genau dann, wenn für alle g:
 
       fg nilpotent ==> g nilpotent.
@@ -90,6 +124,38 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 * \bigcup_i D(f_i) ist genau dann dicht, wenn für alle g:
 
       f_i g nilpotent für alle i ==> g nilpotent.
+
+* Eine offene Teilmenge U ist genau dann dicht, wenn
+
+      bigcap_{p in U} p = sqrt(0).
+
+* Besitze A nur endlich viele minimale Primideale (zum Beispiel, wenn
+  A noethersch ist oder auch nur, wenn A die aufsteigende Kettenbedingung für
+  Radikalideale erfüllt -- siehe Wikipedia /minimal prime ideals/). Dann gilt:
+  Eine offene Teilmenge ist genau dann dicht, wenn sie alle minimalen
+  Primideale enthält.
+  http://math.stackexchange.com/questions/970496/dense-open-subsets-of-schemes
+
+  "<==": Diese Richtung gilt sogar ohne die Endlichkeitsvoraussetzung. 
+  Denn bigcap_{p in U} p = bigcap_{p in U, p minimales PI} p = bigcap_{p min. PI} p = sqrt(0).
+
+  "==>": Habe bigcap_{p in U} p = bigcap_{p in U, p minimales PI} p = sqrt(0) = bigcap_{p min. PI} p.
+  Also gilt für jedes minimale Primideal q: bigcap_{p in U, p minimales PI} p <= q.
+  Nach Globalvoraussetzung ist der Schnitt links endlich.
+  Also p <= q für ein minimales Primideal p, welches in U liegt.
+  Wegen der Minimalität von q folgt p = q.
+
+* Besitze A nur endlich viele minimale Primideale. Sei U <= Spec A
+  eine offene dichte Teilmenge. Dann gibt es eine standardoffene Untermenge von U,
+  die immer noch dicht ist.
+
+  Schreibe dazu U = D(I). Seien p_1, ..., p_n alle minimalen Primideale.
+  Dann liegt I nicht vollständig in p_i (da p_i in U), für alle i.
+  Nach prime avoidance liegt I auch nicht vollständig in bigcup_i p_i.
+  Also existiert ein f aus I, das in keinem p_i liegt.
+
+  Für dieses f gilt dann: D(f) <= U und D(f) ist noch dicht,
+  da es alle minimalen Primideale enthält.
 
 * Ouv(Spec A) ist isomorph zu Rad(A), vermöge
 
@@ -182,9 +248,50 @@ darauf gestoßen.
 
 === Rationale Punkte
 
+* Jedes quasikompakte Schema besitzt einen abgeschlossenen Punkt.
+  http://www.math.utah.edu/~schwede/Papers/SchemeWithoutPoints.pdf, Seite 12.
+
 * Jeder Morphismus Spec K --> X faktorisiert über Spec k(x) --> X,
   wobei x der eindeutige Punkt im mengentheoretischen Bild bezeichnet.
   Insbesondere ist K also eine Körpererweiterung von k(x).
+
+* Jeder Morphismus Spec A --> X, wobei A ein lokaler Ring ist,
+  faktorisiert über Spec O_{X,x} --> X, wobei x das Bild des
+  abgeschlossenen Punkts bezeichnet. Der Ringhomo O_{X,x} --> A
+  ist dabei sogar lokal.
+
+  (Beweis: Lokal habe Spec A --> Spec R, also R --> A. Das Urbild des maximalen
+  Ideals ist irgendein Primideal p (entsprechend x). Also faktorisiert R --> A
+  über R --> R_p. Der Homo R_p --> A ist lokal, da ein Element von R genau dann
+  nicht in p liegt, wenn sein Bild in A nicht im maximalen Ideal liegt.)
+
+* So kann man also die (topologischen) Punkte eines Schemas aus seinem
+  Punktefunktor rekonstruieren: Als die Menge der Abbildungen
+  Spec K --> X modulo Verfeinerung (Spec K --> X und Spec K' --> X sollen als 
+  äquivalent zählen, wenn es Spec L --> Spec K und Spec L --> Spec K' gibt,
+  sodass die Raute kommutiert). Oder als die Menge der Abbildungen
+  Spec A --> X mit A lokal (und lokalen Verfeinerungsmorphismen).
+
+  Also: X = Lan_Spec(!)(X) -- die Links-Kan-Erweiterung von
+
+      Field^op ---> Set, K |-> {*}
+
+  längs Field^op --> Sch, K |-> Spec K.
+
+  Oder auch: X = int^K Hom_Sch(Spec K, X).
+
+  Vielleicht gilt auch sowas wie:
+
+      X = int^A Hom_Sch(Spec A, X) * Spec A,
+
+  und zwar als topologische Räume, lokal geringte Räume oder als Schemata.
+
+  Wenn ich dann a priori wüsste, dass QCoh : Sch^op --> Cat Limiten bewahrt
+  (also Kolimiten in Sch auf Limiten in Cat schickt, in einem 2-kategoriellen
+  Sinn), würde sofort folgen:
+
+      QCoh(X) = QCoh(int^A [Spec A, X] * Spec A)
+              = int_A [Spec A, X] * QCoh(Spec A).
 
 * Spec k(x) --> X ist genau dann eine abgeschlossene Immersion,
   wenn x ein abgeschlossener Punkt von X ist.
@@ -893,6 +1000,22 @@ sehr gut lesbar!
   functors of points, from Rings to Sets. Likewise, a map of schemes is a
   monomorphism if and only if the map of underlying functors is a
   monomorphism." http://mathoverflow.net/a/14585/31233
+
+
+=== Limiten und Kolimiten von Schemata und verwandten Dingen
+
+* http://www.math.utah.edu/~schwede/Papers/SchemeWithoutPoints.pdf
+
+* Punkte von X x_S Y (Faserprodukt in Schemata oder LRS) sind Tupel
+  (x,y,p), wobei x in X, y in Y mit f(x) = g(y) =: s und p ein Primideal
+  in O_{X,x} tensor_{O_{S,s}} O_{Y,y} ist. Der Halm der Strukturgarbe von X x_S Y
+  an einem solchen Punkt ist die Lokalisierung von O_{X,x} tensor_{O_{S,s}} O_{Y,y} an p.
+  http://mathoverflow.net/questions/70503/stalks-of-structure-sheaf-of-fibre-product
+
+  Mit der Beschreibung der Punkte über Morphismen von Spec(K), wobei K über
+  alle Körper läuft, kann man auf die Punkte des Faserprodukts kommen. Schaut
+  man sich Morphismen aus allen Spec(A), A lokal, an, erhält man die Halme der
+  Strukturgarbe.
 
 
 === Referenzen
