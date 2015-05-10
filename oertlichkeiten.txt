@@ -53,13 +53,18 @@ Quelle: XXX
 
   Ist die Inklusion von X_Box in X dieselbe wie die von {x0} nach X?
 
+* "Wie sieht X_negneg aus, wenn es keinen einzelnen generischen Punkt gibt?
+  Haben assoziierte Punkte etwas zu sagen?" Diese Frage ist jetzt geklärt.
+  Wenn X ein lokal noethersches und reduziertes Schema ist, so ist X_negneg
+  der Unterraum der assoziierten Punkte.
+
 
 === Kovarianter Zugang
 
 http://www.mat.uc.pt/~picado/covariant/contents.pdf
 
 
-=== Nächste Schritte
+=== Lokalische Gruppen
 
-* Wie sieht X_negneg aus, wenn es keinen einzelnen generischen Punkt gibt?
-  Haben assoziierte Punkte etwas zu sagen?
+* Jede Untergruppe einer lokalischen Gruppe ist abgeschlossen.
+  http://www.wra1th.plus.com/gcw/rants/math/closed.html

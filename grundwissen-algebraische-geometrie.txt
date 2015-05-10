@@ -1,3 +1,9 @@
+=== Fette Punkte
+
+* Vakil auf Seite 132. Spec k[x,y]/(x,y)^2 sieht wie ein Kreis aus, da
+  keine Richtung bevorzugt ist. Spec k[x,y]/(x^2,y^2) dagegen wie ein Quadrat.
+
+
 === Primideale
 
 * Sei a cap b <= p, wobei a und b Ideale sind und p ein Primideal ist.
