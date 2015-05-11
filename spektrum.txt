@@ -175,7 +175,7 @@ Es gilt in der internen Sprache:
   2. D(f) |== I Ideal.
 
 
-=== Unterschema
+=== Unterschemata
 
 * Eine interessante Aussage ist: Spec A |== b \in i_* Z,
   wobei Z das universelle Primideal auf Spec A/(a_1,...,a_n) ist.
