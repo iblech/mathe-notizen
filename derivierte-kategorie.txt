@@ -211,6 +211,9 @@ Konstruktion in http://www.maths.ed.ac.uk/~aar/papers/neemder.pdf
   http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts.
   Achtung, stimmt diese Warnung? Siehe auch Seite 15 von
   http://www.math.harvard.edu/~eriehl/cathtpy.pdf.
+  Glaube nicht, dass die Warnung stimmt. Wenn man ein Quadrat der Form ft = sg
+  hat, mit s und t Quasiisos, so folgt allein über die einfachen Beziehungen
+  schon s^(-1) f = g t^(-1): s^(-1) f = s^(-1) f t t^(-1) = s^(-1) s g t^(-1) = g t^(-1).
 
 
 === Hom-Mengen als filtrierte Kolimiten
