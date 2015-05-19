@@ -5,6 +5,56 @@
 * http://www.math.purdue.edu/~lipman/Duality.pdf
 
 
+=== 1- und 2-kategorielle Formulierungen der Lokalisierung
+ 
+Die 1-kategorielle impliziert die 2-kategorielle (siehe guide05.pdf
+aus Modellkategorien):
+ 
+* Surjektivität von q : C --> C[W^(-1)] auf Objekten (der 1-kategoriellen
+  Lokalisierung) zeigt man so: Betrachte die Kategorie D mit Ob(D) = P(1)
+  und genau einem Morphismus zwischen je zwei Objekten. Betrachte die Funktoren
+  F : C[W^(-1)] --> D, Y |-> { * | Y in im(q) } und G mit G(Y) = top für alle Y.
+  Dann F . q = G . q. Also F = G. Also Y in im(q) für alle Y in C[W^(-1)].
+ 
+* Injektivität von q zeigt man so: Betrachte die Kategorie D mit Ob(D) = Ob(C)
+  und genau einem Morphismus zwischen je zwei Objekten. Betrachte den
+  offensichtlichen Funktor F : C --> D. Dann ist F = F' . q für ein
+  F' : C[W^(-1)] --> D. Also Ob(F) = Ob(F') . Ob(q). Da Ob(F) injektiv ist
+  (sogar bijektiv), ist Ob(q) ebenfalls injektiv. 
+
+Die 2-kategorielle impliziert die 1-kategorielle, wenn man noch zusätzlich gilt, dass
+Ob(q) : Ob(C) --> Ob(C[W^(-1)]) bijektiv ist:
+
+* Sei ein Funktor F : C --> D mit W |-> Isos gegeben.
+
+  Dann gibt es einen Funktor F' : C[W^(-1)] --> D zusammen mit einem
+  natürlichen Isomorphismus eta : F ==> F' . q.
+
+  Definiere einen Funktor F^ : C[W^(-1)] --> D durch
+
+      Y |--> F(q^(-1) Y)
+      f |--> eta_{q^(-1) Y'}^(-1) . F'(f) . eta_{q^(-1) Y}.
+
+  Dann gilt F^ . q = F. (Nutze Natürlichkeit von eta.)
+
+* Seien Funktoren G, G' : C[W^(-1)] --> D mit G . q = G' . q =: F gegeben.
+
+  Dann gibt es (genau) einen natürlichen Isomorphismus alpha : G ==> G'
+  mit alpha q = id : F ==> F.
+
+  Auf jeden Fall gilt GY = G q q^(-1) Y = G' q q^(-1) Y = G'Y für alle Y aus
+  C[W^(-1)].
+
+  Damit kann man die Frage stellen, ob alpha_Y = id_{G Y} ist für alle Y.
+  Dem ist in der Tat so:
+
+      alpha_Y = alpha_{q q^(-1) Y} = (alpha q)_{q^(-1) Y} = id_{q^(-1) Y} =
+      id_{F q^(-1) Y} = id_{G Y}.
+
+  Also zeigt das Natürlichkeitsdiagramm für alpha, dass Gf = G'f für alle
+  Morphismen f.
+
+
 === Abgeleitete Funktoren als Kan-Erweiterungen
 
 Zumindest in Modellkategorien oder so: Abgeleitete Funktoren sind absolute

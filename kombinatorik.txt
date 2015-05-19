@@ -42,6 +42,9 @@ Stembridge, A Concise Proof of the Littlewood-Richardson Rule.
 
   Anzahl AB-Kanten = Anzahl ABC-Dreiecke (modulo 2).
 
+* http://en.wikipedia.org/wiki/Simmons%E2%80%93Su_protocols
+  Sperner für Kuchenzuteilung (fair division)
+
 * https://www.union.ic.ac.uk/rcsu/mathsoc/ugc.html
   Es gibt wohl (ko-)homologische Beweise von Sperners Lemma!
   Das sollte interessant sein.
