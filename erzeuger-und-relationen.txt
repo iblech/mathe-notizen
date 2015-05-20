@@ -24,7 +24,7 @@ relations.
 
 Definition: Eine Kategorie C heißt lokal endlich präsentierbar, wenn:
 (1) C besitzt kleine Kolimiten.
-(2) C_fp ist essenziell klein.
+(2) C_fp ist wesentlich klein.
 (3) Jedes Objekt X ist filtrierter Kolimes des kanonischen Diagramms
     C_fp/X --> C.
 
@@ -44,7 +44,7 @@ Außerdem äquivalent:
     oder: C besitzt kleine Limiten.
 
 Außerdem äquivalent:
-(1) C ist äquivalent zu einer Kategorie mengen-wertiger Modelle eines
+(1) C ist äquivalent zu einer Kategorie Mengen-wertiger Modelle eines
     Limesentwurfs, dessen Limes-Diagramme alle endlich sind.
 
 Das Diagramm oben ist stets filtriert (wenn C endliche Kolimiten besitzt):
