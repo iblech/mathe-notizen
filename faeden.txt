@@ -119,6 +119,10 @@
   X^[n] Calabi-Yau-Mannigfaltigkeiten. Daher sollte der Anwendungsbereich
   dieser Aussagen sehr begrenzt sein.)
 
+* Idee: dg-D(colim ...) = lim dg-D(...); das ist ja bekannt.
+  Vielleicht liefert das auf H^0 nur noch eine Art
+  Homotopielimes/Spektralsequenz.
+
 
 === Derivierte Automorphismen
 
