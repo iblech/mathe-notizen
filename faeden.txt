@@ -221,6 +221,15 @@
 
 * Korrektur von Kapitel 11 (relatives Spektrum) abtippen.
 
+* Mal klar und übersichtlich aufschreiben: Welche Voraussetzungen benötigt
+  man, damit
+
+  ... U |-> { f : A --> U | A |== f^*(phi) } ein Funktor ist?
+  ... eine Garbe ist?
+  ... darstellbar ist?
+  ... diese Zuordnung von Formeln zu Prägarben sound bezüglich
+      intuitionistischer Logik ist?
+
 
 === Sonstiges
 

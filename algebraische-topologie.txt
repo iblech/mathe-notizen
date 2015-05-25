@@ -1,3 +1,9 @@
+=== Literatur
+
+* Hatcher (aha!)
+* http://math.stackexchange.com/questions/1297513/an-introduction-to-algebraic-topology-from-the-categorical-point-of-view
+
+
 === Singuläre Homologie
 
 n-Kette: Linearkombination von n-Simplizes

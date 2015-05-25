@@ -173,6 +173,10 @@ Ferner gilt:
 
 * f Mono, F treu ==> f^T Mono
 
+* f Iso und eta = id_FX^T Iso ==> f^T Iso;
+  wenn (f Iso ==> f^T Iso) für alle f zwischen allen Objekten gilt,
+  so ist umgekehrt eta ein natürlicher Iso.
+
 
 === Noch etwas
 
@@ -207,6 +211,30 @@ Ferner gilt:
       R eps_Y . eta_RY = id_RY
 
 * eps heißt auch Koeins, eta heißt Eins.
+
+
+=== Isomorphismen unter Bijektionen von Hom-Mengen
+
+* Der Funktor "Aufrundung" : Q --> Z ist doch linksadjungiert zum
+  Funktor "als rationale Zahl ansehen" : Z --> Q.
+
+  Also gibt es für alle rationalen Zahlen q und alle ganzen Zahlen z
+  natürliche Isomorphismen
+
+      Hom_Z(Aufrundung(q), z) ~~ Hom_Q(q, z).
+
+  Sei nun speziell q = 2,7 und z = 3. Dann enthält die linke Seite genau
+  ein Element; dieses ist ein Isomorphismus. Die rechte Seite dagegen
+  enthält keinerlei Isomorphismen.
+
+* Für R-Moduln (R kommutativ) hat man doch die "Currying-Adjunktion"
+
+      Hom(M, Hom(N,T)) ~~ Hom(M tensor N, T).
+
+  Sei speziell M = R, N = R^7 und T = R^7. Dann enthält die rechte Seite
+  einen Isomorphismus, nämlich R tensor R^7 --> R^7, r tensor v |-> rv.
+  Die linke hingegen nicht, denn M = R ist nicht isomorph zu Hom(N,T) ~~
+  R^49 (außer R = 0).
 
 
 === Upgrade von Quasiäquivalenzen zu adjungierten Äquivalenzen
