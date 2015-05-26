@@ -14,6 +14,22 @@
   http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts.
 
 
+=== Retrakte von schwachen Äquivalenzen
+
+Von schwachen Äquivalenzen fordert man ja, dass sie unter Retrakten
+abgeschlossen ist. Aber eine Art Umkehrung gilt nicht:
+
+    1 ---> X ---> 1
+    |      |      |
+    |      |      |
+    v      v      v
+    1 ---> 1 ---> 1
+
+Sei X irgendein Objekt, das nicht zu 1 schwach äquivalent ist, und sodass es
+einen Morphismus 1 --> X gibt. Dann ist 1 --> 1 zwar eine schwache Äquivalenz,
+aber X --> 1 ist es nicht.
+
+
 === Lokalisierung
 
 Klar, das Hauptresultat lautet:

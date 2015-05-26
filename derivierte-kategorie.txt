@@ -54,6 +54,51 @@ Ob(q) : Ob(C) --> Ob(C[W^(-1)]) bijektiv ist:
   Also zeigt das Natürlichkeitsdiagramm für alpha, dass Gf = G'f für alle
   Morphismen f.
 
+Etwas ähnliches gibt es auch bei Kan-Erweiterungen. Die 2-kategorielle ist ja
+bekannt: (R, eps : R . K ==> T) ist genau dann RKE von K längs T, wenn für alle
+(R' : C --> A, eps' : R' . K ==> T) genau ein sigma : R' ==> R mit eps . sigma K = eps'
+existiert.
+
+Die 1-kategorielle ist folgende: Es gilt R . K = T, und für alle R' : C --> A
+mit R' . K = T gilt R = R'.
+
+* Sei K bijektiv auf Objekten. Dann impliziert die 1-kategorielle die 2-kategorielle.
+
+  Habe id : R . K ==> T.
+
+  Sei R' : C --> A mit eps' : R' . K ==> T gegeben.
+
+  Definiere R^ : C --> A durch Y |-> T K^(-1) Y und
+
+      f |--> eps'_{K^(-1) Y'} . R'(f) . eps'_{K^(-1) Y}^{-1}.
+
+  Dann ist R^ ein Funktor und es gilt R^ . K = T.
+
+  Nach Voraussetzung ist also R = R^. Somit können wir sigma : R' ==> R
+  durch sigma_Y := eps'_{K^(-1) Y} definieren. Wegen "R = R^" ist das wirklich
+  eine natürliche Transformation. Außerdem gilt trivialerweise eps . sigma K = eps'.
+
+  Ferner ist sigma eindeutig mit dieser Eigenschaft.
+
+* Sei K bijektiv auf Objekten und sei eine RKE (R, eps) im 2-kategoriellen Sinn
+  gegeben. Sei eps ein Isomorphismus. (Zum Beispiel, weil die RKE punktweise
+  und p genauso treu wie T ist.) Dann lässt sich R abändern zu einem Funktor R^,
+  sodass R^ die 1-kategorielle Eigenschaft erfüllt.
+
+  Definiere R^ dazu genau wie eben, nur mit eps statt eps'.
+  Dann gilt wieder R^ . K = T.
+
+  Sei R' : C --> A mit R' . K = T gegeben.
+
+  Dann gibt es zu (R', id : R' . K ==> T) ein sigma : R' ==> R
+  mit eps . sigma K = id. Also eps_X = sigma_{K X}^(-1) für alle X aus M
+  bzw. eps_{K^(-1) Y} = sigma_Y^(-1) für alle Y aus C.
+
+  Die Gleichung "R^ = R'" ist auf Objekten klar.
+
+  Auf Morphismen auch, wenn man ins Natürlichkeitsdiagramm für sigma und in die
+  Definition von R^ schaut.
+
 
 === Abgeleitete Funktoren als Kan-Erweiterungen
 

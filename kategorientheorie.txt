@@ -730,6 +730,11 @@ http://www.math.harvard.edu/~eriehl/cathtpy.pdf, Seite 46.
   Die Indexkategorie hat als Objekte Morphismen p(c) --> c'
   und als Morphismen kommutative Dreiecke (gegeben durch Morphismen in C).
 
+* Eine Rechts-Kan-Erweiterung ist genau dann punktweise, wenn sie von allen
+  kodarstellbaren Funktoren Hom(X, __) bewahrt wird.
+
+* Absolute Kan-Erweiterungen sind stets auch punktweise, aber nicht umgekehrt.
+
 * Sei p : C --> 1. Dann ist Lan_p = colim und Ran_p = lim.
 
 * Lan_p Hom_C(c, __) = Hom_C'(p(c), __).
@@ -751,6 +756,15 @@ http://www.math.harvard.edu/~eriehl/cathtpy.pdf, Seite 46.
   Denn: Die Indexkategorie für Lan_p(F)(p(c)), nämlich p/p(c), hat dann ein
   terminales Objekt, nämlich p(c) --id--> p(c). Somit ist der Kokegel drüber
   einfach F(c).
+
+  Es genügt schon, dass p "genauso treu wie F" ist: Wenn p(f) = p(g),
+  dann F(f) = F(g).
+
+* Sei eps bzw. eta ein Iso. Dann ist p genauso treu wie F.
+
+* Falls p bijektiv auf Objekten ist, gibt es (fast) keinen Unterschied zwischen
+  1-kategorieller und 2-kategorieller Eigenschaft. Siehe
+  derivierte-kategorien.txt.
 
 * Sei L -| R. Dann L . Lan_p(F) = Lan_p(L . F).
 
