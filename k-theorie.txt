@@ -404,6 +404,9 @@ Sequenzen.
 
 http://sbseminar.wordpress.com/2009/05/21/the-grothendieck-trace-formula-as-categorification-ii/
 
+Siehe auch Taelmans Notizen (Seite 49):
+https://staff.fnwi.uva.nl/l.d.j.taelman/beijing.pdf
+
 
 === Komplexe und derivierte Kategorie
 
