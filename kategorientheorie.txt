@@ -340,8 +340,22 @@ noch volltreu ist.
       zugehörigen darstellbaren Prägarben basteln. Die Tatsache, dass es genau
       ein Urbild dieser natürlichen Trafo gibt, zeigt die Behauptung.
 
-Nächste Schritte:
-* Sehen, dass nicht { R }, aber { R x R } dicht in R-Vect liegt.
+In Vect(R) liegt übrigens { R } nicht dicht: Sei V ein Vektorraum. Dann sieht
+die relevante Indexkategorie wie folgt aus:
+
+            0
+      +-----^-----+
+      |     |     |          (genau einen Morphismus 0 --> v
+      |     |     |          für v aus U \ {0})
+      v     v     v          
+    ###    ###   ###   ...   (für jeden eindimensionalen Unterraum U
+                             eine Ansammlung von Gruppoiden:
+                             für jeden Vektor v aus U \ {0} jeweils ein Objekt
+                             und je einen Morphismus zwischen zwei solchen
+                             Objekten)
+
+Der Kolimes ist daher dasselbe wie das Koprodukt über alle eindimensionalen
+Unterräume.
 
 
 === Limiten von Limiten
