@@ -1090,6 +1090,27 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
 * Ebenso: alpha[F^(-1)] injektiv/surjektiv, M[F^(-1)] flach über A[F^(-1)],
   M[F^(-1)] endlich erzeugt/A[F^(-1)].
 
+* Sei Spec A |== dim AA[F^(-1)] <= n. Dann dim A <= n.
+
+  Seien dazu x_0,...,x_n aus A beliebig.
+  Dann habe
+
+      Spec A |== bigvee_{y_0,...,y_n aus A} exists s:F.
+          s         in sqrt(x_0, y_0),
+          s x_0 y_0 in sqrt(x_1, y_1),
+          s x_1 y_1 in sqrt(x_2, y_2),
+          ...,
+          s x_n y_n in sqrt(0).
+
+  Diese Disjunktion ist zwar nicht gerichtet. Trotzdem kann man sich durch
+  explizite Rechnung davon überzeugen, dass dadurch die Existenz einer zu
+  (x_0,...,x_n) komplementären Sequenz folgt: Multipliziere die lokalen y_i
+  auf. XXX: Nein, das funktioniert nicht.
+
+  Die Behauptung sollte trotzdem stimmen, denn zumindest klassisch gilt
+
+      dim A <= n  <==>  dim(Spec A) <= n  <==>  Spec A |== dim O_X <= n.
+
 
 === Nächste Schritte
 
