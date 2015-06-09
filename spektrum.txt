@@ -109,6 +109,7 @@ was nämlich gleich (1) ist.
 
 
 === Spektrum als Lokalisierung an universellem Filter
+(sollte lieber "generisch" statt "universell" sagen!)
 
 Def.: Ein Filter F eines Rings A ist eine Teilmenge mit
 1) 1 in F
@@ -137,6 +138,9 @@ Es gilt in der internen Sprache:
 
     forall f : gamma^*(A). nicht (f in F) <==> f in Z.
 
+* D(f) |== g in F  <==>  f in sqrt((g))
+* D(f) |== g in P  <==>  fg nilpotent
+
 * Ferner: Ist M ein A-Modul, so ist gamma^*(M)[F^(-1)] gerade M~
   (die Tilde-Konstruktion). Denn:
 
@@ -156,8 +160,13 @@ Es gilt in der internen Sprache:
 * Spec A |== exists f : gamma^*(A). F = { g : gamma^*(A) | f in sqrt((g)) }
   ist völlig falsch.
 
-* Spec A |== forall x : gamma^*(A). x in P  v  x in Z
-  (P := Z) ist vermutlich falsch.
+* Spec A |== forall x : gamma^*(A). x in F  v  x in Z
+  ist falsch.
+
+  Betrachte A = Z, x = 2. Wenn das stimmen würde, gäbe es eine Zerlegung der
+  Eins 1 = sum_i f_i mit f_i in sqrt((2)) bzw. f_i * 2 nilpotent.
+  Mindestens eines der f_i ist ungerade. Für dieses kann keine der beiden
+  Alternativen gelten.
 
 * Spec A |== neg (x in F  wedge  forall y. xy - 1 in F)
   ist für x in A vermutlich auch falsch. P ist also kein maximales Ideal, bzw.
