@@ -1,0 +1,28 @@
+* Geschlossene 2-Mannigfaltigkeiten sind eindeutig bestimmt durch
+  "mod-2-Schnittzahlen".
+
+* Z/2-Schnittformen (endl.-dim., symm., unimodular) ~~ 2-Mannigfaltigkeiten.
+  Das ist aber keine Kategorienäquivalenz!
+
+* Möbiusband ^--> P^2_R hat Selbstschnitt 1.
+
+* Wie sieht die Welt in einem flachen 3-Torus aus?
+
+* Im Studium der 4-Mannigfaltigkeiten fixiert man immer die Fundamentalgruppe.
+  Denn man hat den Funktor e.p.Gruppen --> 4-Mannigfaltigkeiten; wenn
+  Gleichheit von 4-Mannigfaltigkeiten entscheidbar, dann auch von e.p. Gruppen.
+  Aber das ist ja falsch (Wortproblem!).
+
+  Anwendung von p-adischen Zahlen!
+
+* Die Schnittform von *glatten* 4-Mannigfaltigkeiten ist stets
+  diagonalisierbar.
+
+* E8 ist nicht glatt!
+
+* Auf R^4 gibt es überabzählbar viele exotische glatte Strukturen.
+
+* Whitney-Trick: Beseitige Paare * * (+1 bzw. -1) von Schnittpunkten auch
+  geometrisch.
+
+* RP^2 = (D^2 mit Möbiusband angepappt) cup_{S^1} D^2.

@@ -88,6 +88,12 @@ Quelle für das alles: nLab.
   ein Epi. Also ist a = b.
 
 
+=== Reguläre Epimorphismen
+
+Angeblich sind reguläre Epis in der Kategorie der Ringe genau die surjektiven
+Abbildungen. Sagt Brandenburg.
+
+
 === Kanten vs. Pfade
 
 The morphisms in a category are not so much like the edges in a graph as like
@@ -889,6 +895,17 @@ Quellen:
 * Die Komposition von F : A -/-> B mit G : B -/-> C ist
 
       (G . F)(a,c) = int^b G(b,c) x F(a,b).
+
+
+=== Grafisches Kalkül für Kategorien, Funktoren und natürliche Transformationen
+
+Habe mir mal folgendes überlegt:
+
+* Sei F treu. Dann | ... = | ::: ==> ... = :::, wenn | F bezeichnet.
+
+* Sei F wesentlich surjektiv. Dann ... | = ::: | ==> ... = :::.
+
+Natürlich ist hier die Schreibrichtung ganz entscheidend!
 
 
 === Nächste Schritte

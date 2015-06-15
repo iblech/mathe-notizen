@@ -3,6 +3,15 @@
 * http://rigtriv.wordpress.com/2009/11/02/manipulating-cycles/
 
 
+=== Vervollständigung
+
+* Marc: Die Tor-Formel ist in \hat O_p eigentlich noch schöner:
+  Kurven lassen sich in Geraden zerlegen.
+
+* Tor-Formel bleibt unter O_p --> \hat O_p invariant. "Vervollständigen ist
+  exakt".
+
+
 === Schnitttheorie bei Mannigfaltigkeiten
 
 http://www2.imperial.ac.uk/~jnordstr/wrap.pdf, Seite 2.

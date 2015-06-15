@@ -178,6 +178,8 @@ Somit ist V(eps^#(f)) cap V(df(x0)) <= X' wohldefiniert.
 Hier ein anschauliches Beispiel: Betrachte in P^2 die typische Kurve V(f) mit
 einem Doppelpunkt. Dann ist V(eps^#(f)) cap V(df(x0)) die strikt transformierte
 von V(f): Denn df(x0)v ist für genau zwei verschiedene Richtungen [v] Null.
+Anzahl Tangenten = Anzahl Schnittpunkte mit dem exzeptionellen Divisor in der
+Aufblasung.
 
 
 === Auflösung einer Kurve ist nicht ihre Aufblasung

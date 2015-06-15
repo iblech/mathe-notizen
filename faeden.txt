@@ -41,6 +41,12 @@
 * Numerically finite hereditary categories with Serre duality
   http://arxiv.org/abs/1304.0257
 
+* Kann man aus D^b(X) Garbenkohomologie zurückgewinnen?
+  Ja, wenn man O_X darin kennt: Denn H^n(X, F) = Ext^n(O_X, F).
+
+  Naiv würde man aber erwarten, Rf_* : D^b(X) --> D^b(pt) kennen zu müssen.
+  Ist dieser durch die Angabe von O_X schon eindeutig bestimmt?
+
 
 === Kompakte Objekte
 
@@ -65,6 +71,8 @@
 * http://math.stackexchange.com/questions/551775/pushforward-commutes-with-external-tensor-product
 
 * Hilbert--Chow auf Niveau der derivierten Kategorien?
+
+* Wie sieht unter D_{S_2}(P^1 x P^1) = D(P^2) die Garbe O(-1) boxtensor O(1) aus?
 
 
 === Erzeuger und Relationen
@@ -200,6 +208,12 @@
   Wird etwa in Huybrechts, Seite 182 behauptet.
 * BGG-Korrespondenz modern verstehen.
 * Was ist die Konormalgarbe im Fall V(xy) <= A^2?
+* Erzeugen die Objekte einer aufspannenden Klasse auch die K-Theorie?
+  Siehe
+  https://hilbertthm90.wordpress.com/2013/05/05/the-derived-category-4-a-nice-spanning-class/
+  für die Definition.
+  Ich glaube, dass Lenny Taelman etwas ähnliches gesagt hat. Genügt, auf
+  Wolkenkratzergarben zu testen oder so.
 
 
 === Interne Methoden

@@ -172,6 +172,18 @@ Es gilt in der internen Sprache:
   ist für x in A vermutlich auch falsch. P ist also kein maximales Ideal, bzw.
   F kein minimaler Filter.
 
+* Spec A |== forall y. xy - 1 in F
+  ist äquivalent zu xy - 1 invertierbar für alle y,
+  also zu x in Jac.
+
+  Verfeinert: D(f) |== forall y. xy - 1 in F
+  genau dann, wenn f in sqrt(xy - 1) für alle y.
+
+* Spec A |== x in F  vee  forall y. xy - 1 in F
+  ist falsch. Gegenbeispiel: A = Z, x = 2. In einer Zerlegung der Eins muss
+  mindestens eines der f_i ungerade sein. Für dieses kann weder f_i in sqrt(2)
+  noch f_i in sqrt(3), sqrt(5), sqrt(7), ... gelten.
+
 * D(f) |== F cap I bewohnt  ==>  D(f) |== f^N in I für ein N >= 0,
   falls:
 

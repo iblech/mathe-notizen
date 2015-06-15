@@ -322,6 +322,19 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   zerfällt. (Es gilt: supp k^n_phi = { (f) | f irreduzibler Faktor im
   charakteristischen Polynom oder Minimalpolynom von f }.)
 
+  Definiere den schematheoretischen Träger eines Moduls M als V(Ann M),
+  wobei Ann M = { s : A | sM = 0 }. Dann ist der schematheoretische Träger von
+  k^n_phi gleich V(mu_phi), wobei mu_phi das Minimalpolynom ist. Das folgt
+  sofort mit der Smithschen Normalform, denn
+
+      k^n_phi = oplus_i k[X]/(f_i)  mit f_1 | f_2 | ...,
+
+  also
+
+      Ann(k^n_phi) = bigcap_i Ann(k[X]/(f_i)) = bigcap_i (f_i) = (f_r) = (mu_phi),
+
+  somit V(Ann(k^n_phi)) = V(mu_phi) schematheoretisch.
+
 
 === Noethersche Ringe
 
@@ -975,6 +988,7 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   http://cupid.economics.uq.edu.au/mclennan/Algebra/fac_trans.pdf, Thm. B9.11,
   Seite 90.
 
+
 === Flache Moduln
 
 * Sei M ein endlich erzeugter flacher Modul über einem lokalen Ring.
@@ -993,12 +1007,35 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   "==>": Angeblich ist M stets auf kanonische Weise der Kolimes aller endlich
   freien Moduln F --> M; und falls M flach ist, ist dieses System filtriert.
   Das behauptet Akhil Mathew in http://math.stackexchange.com/a/113112/61604,
-  aber ich sehe das nicht.
+  ich sehe das aber nur, wenn man schon hier die Flachheit von M voraussetzt.
+  * Um die universelle Eigenschaft des Kolimes nachzuweisen, seien
+    kompatible a_phi : F_phi --> V für alle phi : F --> M gegeben.
+    Definiere psi : M --> V durch x |-> a_phi(u), wobei phi : F --> M
+    beliebig mit der Eigenschaft phi(u) = x ist. Das ist wohldefiniert.
 
   Das nLab führt folgenden Beweis an: Betrachte die Partialordnung aller
   (Kuratowski-)endlichen Mengen (nicht Familien!) von Elementen in M. Diese ist
   filtriert (d.h. gerichtet) und induziert das Diagramm (X <= M) |-> R<X>.
   Es ist M ein Kolimes dieses Diagramms.
+
+* Sei J endlich erzeugt. Dann sind äquivalent:
+
+  1. A/J ist flach über A.
+  2. J = J^2.
+  3. J = (e) für ein e aus A mit e^2 = e.
+
+  1 ==> 2 gilt sogar ohne Endlichkeitsvoraussetzung: Die exakte
+  Sequenz 0 --> J --> A --> A/J --> 0 bleibt unter Tensorieren mit A/J exakt,
+  also erhalten wir 0 --> J/J^2 --> A/J --> A/J --> 0. Die vordere Abbildung
+  ist Null. Also J/J^2 = 0.
+
+  2 ==> 3 geht mit Nakayama. J ist als A-Modul endlich erzeugt und es gilt JJ = J.
+  Also existiert x mit x = 1 mod J und xJ = 0. Dann J = (1-x), denn für y aus J
+  gilt y = y - xy = (1-x) y. Ferner (1-x)^2 = (1-x) - (1-x) x = 1-x.
+
+  3 ==> 1 folgt sofort, da A sich als A/(e) oplus A/(1-e) zerlegt und A flach
+  ist.
+
 
 
 === Tensorprodukt
@@ -1036,6 +1073,18 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
 * In http://math.uga.edu/~pete/integral.pdf, Prop. 3.44, steht folgende
   Verallgemeinerung von Nakayama: Sei I ein Ideal in einem Ring A und sei M ein
   endlich erzeugter A-Modul. Dann gilt I + ann(M) = A genau dann, wenn IM = M.
+
+* Sei M endlich erzeugt. Gelte aM = M. Dann gibt es ein normiertes Polynom f
+  mit Einträgen aus gewissen Potenzen von a, sodass f(1) M annihiliert. Es gilt
+  f(1) = 1 mod a.
+
+  Seien x_1,...,x_n Erzeuger. Schreibe x_i = sum_j a_ij x_j mit a_ij aus a.
+  Setze f als das charakteristische Polynom von A. Dann:
+
+      f(1) * [x_1;...;x_n] = det(E-A) [x_1;...;x_n] =
+          ad(E-A) (E-A) [x_1;...;x_n] = ad(E-A) * 0 = 0,
+
+  denn [x_1;...;x_n] = A [x_1;...;x_n].
 
 
 === Invariant Basis Number, Wohldefiniertheit des Rangs
@@ -1085,6 +1134,8 @@ Sei R nicht unbedingt kommutativ.
   nilpotent, also hat der Ring Krull-Dimension <= 0. Aber das Ideal
   m = (x_1, x_2, ...) ist nicht endlich erzeugt.
   http://math.stackexchange.com/a/806933/61604
+
+* A --> B surjektiv, dann dim(B) <= dim(A). Stimmt das?
 
 
 === Reguläre Ringe

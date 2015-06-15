@@ -154,6 +154,11 @@ Die muss noch garbifiziert werden. Aber moralisch sollte man folgendes haben:
 * Das generische Primideal erfüllt *nicht* die Bedingung, dass
   aus Spec A |== a in p ==> b in p folgt, dass b in sqrt(a) liegt.
 
+* Das generische Primideal (also das Komplement des generischen Filters)
+  ist auch leider gar kein Primideal: Seien x und y so, dass x und y nicht
+  nilpotent sind, auch nicht lokal, aber xy schon nilpotent ist. Dann gilt
+  Spec A |== xy in P, aber nicht Spec A |== x in P  vee  y in P.
+
 * Es wäre sehr schön, das universelle Primideal in einem Topos zu realisieren,
   da man dann die gesamte höhere Logik zur Verfügung hat!
 

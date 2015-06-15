@@ -102,6 +102,16 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
   affin und von der Form Spec(A/I). (Liu, Prop. 2.3.20.) Also in Kontrast zu
   der Situation bei offenen Unterschemata.
 
+* V(I + J) = V(I) cap V(J).
+
+* V(IJ) = V(I) cup V(J).
+
+  Rein topologisch gilt auch: V(I cap J) = V(I) cup V(J),
+  denn sqrt(I cap J) = sqrt(I * J).
+
+* Sei M ein A/I-Modul. Dann wird M vermöge A --> A/I zu einem A-Modul.
+  Dann gilt: supp(M) <= V(I) <= Spec(A).
+
 
 === Standardoffene Teilmengen
 
@@ -1007,6 +1017,8 @@ sehr gut lesbar!
   monomorphism if and only if the map of underlying functors is a
   monomorphism." http://mathoverflow.net/a/14585/31233
 
+* Ist Aff/X filtriert?
+
 
 === Limiten und Kolimiten von Schemata und verwandten Dingen
 
@@ -1062,3 +1074,8 @@ sehr gut lesbar!
 * Von Timo empfohlene Referenz für die funktorielle Sichtweise:
   Neil P. Strickland. Formal schemes and formal groups.
   http://arxiv.org/abs/math.AT/0011121
+
+* Sind Schemata nüchtern? Kann man Nüchternheit lokal testen?
+
+* Kann man ein Schema X aus Mod(O_X) rekonstruieren? Nein, oder?
+  Was ist ein Gegenbeispiel?

@@ -529,6 +529,20 @@ Sei j eine Lawvere-Tierney-Topologie.
 * Die Menge { x:1 | phi } ist für eine Aussage phi genau dann eine Box-Garbe,
   wenn phi Box-stabil ist.
 
+* Sei E auf X eine j-Garbe. Sei i : X_j --> X die Inklusion.
+  Dann gilt: (i^(-1) E)(U) = E(U) für alle U in Ouv(X_j), d.h. für alle U aus
+  Ouv(X) mit j(U) = U.
+
+  Denn: (i^{-1,pre} E)(U) = colim_{U <= jV} E(V) = colim_{U <= jV} E(jV) = E(jU) = E(U).
+  Das erste Gleichheitszeichen ist nach Definition.
+  Das zweite, da E eine j-Garbe ist. (Stimmt doch, oder? XXX)
+  Das dritte, da die Indexmenge ein kleinstes V enthält, nämlich jU.
+  Das vierte wieder, da E eine j-Garbe ist.
+
+  Also: Schreiben wir E = i_*(F), so ist i^{-1,pre}(E) = F.
+  Also ist i^{-1,pre} schon eine Garbe auf X_j. Garbifizierung ändert sie also
+  nicht mehr.
+
 
 === Lokale Kripke-Joyal-Semantik
 
@@ -1520,6 +1534,11 @@ B Sei X S-Schema. Dann könnte man denken, dass [X, A^1] = (mu_* O_X)^~.
   A ist wohl allgemein dann korrekt, wenn F lokal als Algebra endlich
   präsentiert ist. Dann sollte auch F~ lokal endlich präsentiert sein. Und für
   endlich präsentierte F~ ist es klar.
+
+  Vielleicht gilt: RelSpec A --> S lveP <==> A veP (als Algebra).
+
+  Wenn die Behauptung auch für projektive Morphismen stimmt (RelProj --> Basis),
+  stimmt sie dann auch für alle quasiprojektiven?
 
 * Es gilt: [X, A^1](T) = A^1(X x T) = Gamma(O_{X x T})
   und (mu_* O_X)^~(T) = Gamma(T, eps^* mu_* O_X), wenn T -eps-> S und X -mu-> S.

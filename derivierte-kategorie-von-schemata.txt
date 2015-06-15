@@ -385,6 +385,21 @@ Denke an die Projektionsformel: Rpi_*(Lpi^*(E)) = E tensor^L Rpi_*(O_X).
 Quelle: http://arxiv.org/pdf/1212.6170v1.pdf
 
 
+=== Garbenkohomologie aus D^b(X)
+
+Aus D^b(X) alleine kann man nicht Garbenkohomologie von den Objekten aus D^b(X)
+rekonstruieren. Aber schon, wenn man O_X in D^b(X) kennt:
+
+    H^n(X, F) = Ext^n(O_X, F).
+
+Die Kenntnis von O_X ist gleichbedeutend zur Kenntnis von Rf_* : D^b(X) -->
+D^b(pt), denn
+
+    O_X = Rf^*(k) = f^*(k)  und  Rf_*(F) = RHom(O_X, F).
+
+(Aus Kenntnis von Rf_* sollte Kenntnis von Rf^* folgen.)
+
+
 === Nächste Schritte
 
 * Grundlegende Lemmas zu D(X) notieren.

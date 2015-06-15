@@ -49,6 +49,14 @@ Klar, das Hauptresultat lautet:
   Dann ist die transfinite Komposition von (X --f--> X --> ...) die Abbildung
   X --> Fix(f), x |-> f^infty(x).
 
+* Sei I eine Menge von Morphismen. Dann ist im Allgemeinen
+
+      Cof(I) = Retrakte von relativen I-Zellkomplexen
+
+  nicht abgeschlossen unter transfiniten Kompositionen. Aber schon, wenn die
+  Kategorie lokal präsentierbar ist. Denn dann ist (Cof(I), I^boxslash) ein
+  schwaches Faktorisierungssystem, also Cof(I) = ^boxslash(I^boxslash).
+
 
 === Fehlende Kolimiten
 

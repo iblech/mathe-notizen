@@ -1,3 +1,9 @@
 * http://www.cs.amherst.edu/~dac/lectures/coxcimpa.pdf
 
   Erklärt gut!
+
+* Das Geschlecht von V(f) ist die Anzahl der Punkte in
+
+      int(Newton-Polytop von f) cap (Z x Z).
+
+  Dabei ist das Newton-Polytop die konvexe Hülle der (i,j) mit alpha_ij != 0.

@@ -108,6 +108,12 @@ Zumindest in Modellkategorien oder so: Abgeleitete Funktoren sind absolute
 Das ist die These von Emily Riehl in ihrem Buch
 http://www.math.harvard.edu/~eriehl/cathtpy.pdf.
 
+RF = Lan_Q(Q . F).
+
+Falls Q . F schwache Äquivalenzen auf Isos schickt (d.h. F schwache
+Äquivalenzen bewahrt), gibt es RF schon wegen der universellen Eigenschaft der
+Lokalisierung.
+
 
 === Quelle von Auflösungen
 

@@ -445,6 +445,14 @@ http://math.univ-lyon1.fr/~fu/Exposes/PointFixe.pdf
 von Lie Fu
 
 
+=== Normalisierung einer Kurve
+
+Sei n : C' --> C die Normalisierung einer Kurve C.
+
+Dann zeigt die Leray-Spektralsequenz, dass R^i c_* O_{C'} = 0 für i > 0.
+Also ist H^1(C, O_C) --> H^1(C, R n_* O_{C'}) surjektiv.
+
+
 === Nächste Schritte
 
 * Was besagt das klassische Resultat für Ext^i auf P^n anschaulich?
