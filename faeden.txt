@@ -41,12 +41,6 @@
 * Numerically finite hereditary categories with Serre duality
   http://arxiv.org/abs/1304.0257
 
-* Kann man aus D^b(X) Garbenkohomologie zurückgewinnen?
-  Ja, wenn man O_X darin kennt: Denn H^n(X, F) = Ext^n(O_X, F).
-
-  Naiv würde man aber erwarten, Rf_* : D^b(X) --> D^b(pt) kennen zu müssen.
-  Ist dieser durch die Angabe von O_X schon eindeutig bestimmt?
-
 
 === Kompakte Objekte
 
