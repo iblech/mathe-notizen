@@ -86,6 +86,19 @@ Die Kategorie der A-Modul ist lokal endlich präsentierbar.
 * Folglich sind kompakte Mengen endlich.
 
 
+=== Kompakte Objekte in Top
+
+* Jeder nichtdiskrete Raum ist nicht aleph_0-kompakt in Top.
+  Und ziemlich sicher auch nicht kappa-kompakt für jedes kappa.
+
+* Daher ist Top nicht lokal präsentierbar. In lokal präsentierbaren
+  Kategorien ist jedes Objekt kappa-kompakt für irgendein kappa.
+
+* Es stimmt nicht, dass jedes Objekt in Top Kolimes von diskreten
+  Räumen ist. (Egal ob filtriert oder nicht.) Denn solche sind als Quotienten
+  von diskreten Räumen stets diskret.
+
+
 === Kompakte Objekte in Topoi
 
 Nächste Schritte: ???

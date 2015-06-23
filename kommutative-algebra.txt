@@ -852,6 +852,10 @@ muss.
   gewichtete Summen über alle Permutationen). Die erste Abbildung ist stets ein
   Iso (falls V endlich frei). Die zweite nicht.
 
+* Ziemlich sicher gilt: Lambda^n_A M tensor_A A/J = Lambda^n_{A/J}(M tensor_A A/J).
+  Sogar für allgemeine Skalarerweiterungen. Siehe zum Beispiel
+  http://therisingsea.org/notes/TensorExteriorSymmetric.pdf.
+
 
 === Verklebung von Modulkategorien
 

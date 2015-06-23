@@ -35,6 +35,9 @@ Definiere auf Testräumen, dann allgemeiner Nonsens.
   Discrete Exterior Calculus
   anwendungsorientiert
 
+* https://people.math.ethz.ch/~salamon/PREPRINTS/difftop.pdf
+  Introduction to Differential Topology, Robbin und Salamon.
+
 
 === Nächste Schritte
 

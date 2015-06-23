@@ -235,6 +235,58 @@ Mindestens Eigenschaft 2 scheint mir komisch.
 Vergleiche auch: http://wiki.heinrich-hartmann.net/index.php/Koszul_Duality
 
 
+=== Projektive Varietäten
+
+Sei i : X --> P^N ein abgeschlossenes Unterschema des projektiven Raums.
+Existiere eine Zahl n, sodass Ext^{> n}(E, F) = 0 für alle kohärenten Garben E
+und F auf X. Das ist zum Beispiel erfüllt, wenn n die Dimension von X ist
+und vielleicht noch irgendwas gilt.
+
+Dann wird D^b(X) erzeugt von den O_X(k) := i^*(O(k)) für k = -n, ..., 0,
+und zwar in dem Sinn, dass die kleinste triangulierte Unterkategorie von
+D^b(X), die abgeschlossen unter direkten Summanden ist und die O_X(k) enthält,
+schon ganz D^b(X) ist.
+
+Der Beweis ist einfach! Sei C diese kleinste Unterkategorie.
+
+Schritt 1: Die O_X(k) liegen für alle k aus Z in C. Betrachte dazu die bekannte
+exakte Sequenz
+
+    0 --> Lambda^(N+1) E --> ... --> Lambda^2 E --> E --> O --> 0
+
+auf dem P^N, mit E = O(-1)^(N+1). Schränke diese Sequenz auf X ein (dabei
+bleibt sie exakt, da sie aus lauter Vektorbündeln besteht) und schneide vorne
+und hinten etwas ab:
+
+    V^* : 0 --> Lambda^(n+1) E|_X --> ... --> Lambda^2 E|_X --> E|_X --> 0.
+
+Achtung: Vorne steht n+1, nicht N+1. Sei K der Kern des ersten Morphismus.
+Dann ist V^* / K[n] quasiisomorph zu O. Also haben wir das ausgezeichnete
+Dreieck
+
+    K[n] --> V^* --> O_X[0] -->.
+
+Da Hom(O_X[0], K[n][1]) = H^(n+1)(X, K) = 0 nach Voraussetzung, zerfällt
+dieses. Somit ist O_X[0] direkter Summand von V^*. Damit ist O_X(1) direkter
+Summand von V^* tensor O(1). Dieser Komplex liegt in C. Dann immer so weiter.
+
+Für die O_X(k) mit k < 0 schaut man sich eine etwas versetzte Abschneidung an,
+siehe Seite 2 von http://www.maths.ed.ac.uk/~eshinder/Mainz-Lecture-3.pdf.
+
+Schritt 2: Sei F eine beliebige kohärente Garbe auf X. Dann besitzt F eine
+(vielleicht unendliche) Auflösung durch direkte Summen von O_X(k)'s. Wenn man
+diese Auflösung wieder wie in Schritt 1 bei Stelle -n abschneidet, erhält man
+ganz analog ein ausgezeichnetes Dreieck
+
+    K[n] --> V^* --> F[0] -->,
+
+welches auch wieder zerfällt. Nach Schritt 1 liegt V^* in C. Also liegt F[0]
+als direkter Summand auch in C.
+
+Schritt 3: Sei ein Komplex in D^b(X) gegeben. Aber der liegt dann (Induktion
+und brutale Abschneidung) im Erzeugnis seiner einzelnen Objekte.
+
+
 === Weighted projective space
 
 http://www.researchgate.net/publication/233320583_The_automorphism_group_of_the_derived_category_for_a_weighted_projective_line

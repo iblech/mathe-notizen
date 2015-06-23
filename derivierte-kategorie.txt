@@ -579,6 +579,17 @@ Quelle: Beilinson, Coherent sheaves on P^n and problems in linear algebra.
   diese Form haben, sind direkte Summen von Dreiecken in den Kategorien A_i)
   und umfasst die A_i.
 
+* Die "admissible subcategory"-Bedingung ist gelegentlich automatisch
+  erfüllt: Siehe Seite 4 von http://www.maths.ed.ac.uk/~eshinder/Mainz-Lecture-1.pdf.
+
+* Sei pi : P(E) --> X ein projektives Bündel mit rk E = n+1. Dann besitzt
+  D^b(P(E)) die semi-orthogonale Zerlegung
+
+      D^b(P(E)) = < pi^*(D^b(X)) tensor O(k) | k = 0, ..., n >.
+
+  Das geht auch noch allgemeiner für flache Morphismen. Siehe für beides Seite
+  4 von http://www.maths.ed.ac.uk/~eshinder/Mainz-Lecture-3.pdf.
+
 
 === Mutation von exzeptionellen Sequenzen
 

@@ -18,6 +18,11 @@ Dreiecks der Form X --iso--> Y --> 0 -->.
 
 * Oktaederaxiom: siehe Huybrechts, F-M, Seite 13.
 
+* Siehe auch Seite 5 von
+  http://www.maths.ed.ac.uk/~eshinder/Mainz-Lecture-1.pdf für eine wichtige
+  Anwendung des Oktaederaxioms im Kontext der mehreren äquivalenten Bedingungen
+  für admissible Unterkategorien.
+
 
 === Eindeutigkeit des Kegels bis auf unkanonische Isomorphie
 

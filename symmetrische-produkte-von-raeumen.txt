@@ -86,7 +86,8 @@ oben (sogar mit demselben Vorzeichen).
 === Überlagerung
 
 Es gibt eine natürliche 2:1 Überlagerung (P^1)^2 --> Sym^2(P^1) ~~ P^2,
-verzweigt längs der Diagonalen.
+verzweigt längs der Diagonalen. Das ist gerade die Abbildung
+(l,l') |-> Gerade, auf der Veronese(l) und Veronese(l') liegen.
 
 Quelle: Kommentar von Qfwfq bei
 http://mathoverflow.net/questions/21854/vector-bundles-on-mathbbp1-times-mathbbp1
@@ -104,6 +105,39 @@ smooth algebraic curve, its n-th symmetric power coincides with the variety of
 all degree n effective divisors on C (that is, we consider n-element subsets of
 C, and then allow points to merge). In a fancier language, we are looking at
 the Hilbert scheme of length n subschemes of C.
+
+
+=== Rückzug von Geradenbündeln
+
+Sei pi : P^1 x P^1 --> P^2 die Abbildung von oben:
+
+    ([x:y], [u:v]) |--> [yv : -(xv+yu) : xu]
+
+Dann bin ich fast sicher, dass pi^* O(m) = O(m) boxtensor O(m). Auf Pic-Niveau
+handelt es sich also um die Abbildung m |-> (m,m). (Achtung, natürlich kann
+nicht pi^*(E) = E boxtensor E für alle E gelten. Damit wäre pi^* nicht
+additiv.)
+
+* Eine grobe Beweisidee geht so. Betrachte den Schnitt s = a^m Schnitt von O(m)
+  auf P^2 (mit den homogenen Koordinaten a,b,c). Dann ist pi^*(s) ein Schnitt von
+  pi^*(O(m)). Wo verschwindet dieser? Längs pi^*(V(s)). Topologisch ist pi^*(V(s))
+  gleich pi^*(V(a)) = V(yv). Das ist vom Bigrad (1,1). Ein Schnitt mit diesem
+  Nullstellenverhalten gehört also zu O(1) boxtensor O(1). Nun noch die
+  Vielfachheit m nicht vergessen.
+
+* Ich habe auch einen expliziten Schnitt von pi^*(O(-1)), nämlich:
+
+      ([x:y], [u:v]) |--> 1/x^2 (x^2;xy;y^2) x 1/u^2 (u^2;uv;v^2)
+                        = 1/x^2 1/u^2 (xv-yu) (yv;-(xv+yu);xu).
+
+  Dabei ist "x" das gewöhnliche Kreuzprodukt im k^3.
+
+  Pole hat dieser Schnitt längs 2 V(x) und 2 V(u), Nullstellen längs V(xv-yu).
+  Der Divisor zu diesem Schnitt ist also
+
+      V(xv-yu) - 2 V(x) - 2 V(u),
+
+  hat also Bigrad (-1,-1).
 
 
 === S^2(A^2)
