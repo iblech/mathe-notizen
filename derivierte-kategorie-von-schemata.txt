@@ -287,6 +287,27 @@ Schritt 3: Sei ein Komplex in D^b(X) gegeben. Aber der liegt dann (Induktion
 und brutale Abschneidung) im Erzeugnis seiner einzelnen Objekte.
 
 
+=== Starke Erzeuger
+
+Sei T ein klassischer Erzeuger von D^b(X), d.h. die kleinste triangulierte
+Unterkategorie, die abgeschlossen unter direkten Summanden ist und T enthält,
+ist schon ganz D^b(X). Dann ist T schon ein starker Erzeuger, das heißt es
+existiert eine Zahl n, sodass jedes Objekt aus D^b(X) aus T durch direkte
+Summen, direkte Summanden, Shifts und höchstens n Kegel entsteht.
+
+Der Beweis geht in zwei Schritten:
+
+1. T boxtensor T ist klassischer Erzeuger von D^b(X x X).
+   (Wie zeigt man das?)
+
+2. O_Delta wird damit über irgendeine endliche Anzahl von Operationen
+   aus T boxtensor T gebildet.
+
+3. Dann verwende O_Delta als Fourier--Mukai-Kern.
+
+Siehe http://www.maths.ed.ac.uk/~eshinder/Mainz-Lecture-3.pdf.
+
+
 === Weighted projective space
 
 http://www.researchgate.net/publication/233320583_The_automorphism_group_of_the_derived_category_for_a_weighted_projective_line
