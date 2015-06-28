@@ -309,6 +309,9 @@ darauf gestoßen.
       X = int^A Hom_Sch(Spec A, X) * Spec A,
 
   und zwar als topologische Räume, lokal geringte Räume oder als Schemata.
+  Update: Jup, gilt in der Kategorie von Schemata und in den Oberkategorien von
+  Zariski-Garben und -Prägarben auf Aff. Dann ist das nämlich einfach die
+  übliche Dichtheitsaussage der Yoneda-Einbettung.
 
   Wenn ich dann a priori wüsste, dass QCoh : Sch^op --> Cat Limiten bewahrt
   (also Kolimiten in Sch auf Limiten in Cat schickt, in einem 2-kategoriellen
@@ -1018,6 +1021,8 @@ sehr gut lesbar!
 
 * Gegeben ein Punktefunktor. Wie definiert man dann seinen kleinen
   Zariskitopos? Wie definiert man Unterschemata über Idealgarben?
+  Das hat sich auch Marc gefragt:
+  http://mathoverflow.net/questions/20622/construction-of-the-petit-zariski-topos-out-of-the-gros-topos-of-a-scheme
 
 * "Etale means, by definition, formally etale and locally of finite
   presentation, both of which conditions have simple formulations in terms of
@@ -1026,6 +1031,9 @@ sehr gut lesbar!
   monomorphism." http://mathoverflow.net/a/14585/31233
 
 * Ist Aff/X filtriert?
+
+* http://math.jhu.edu/~banerjee/duality.pdf enthält einen schönen
+  Überblick.
 
 
 === Limiten und Kolimiten von Schemata und verwandten Dingen
@@ -1058,6 +1066,7 @@ sehr gut lesbar!
   http://www.springer.com/mathematics/algebra/book/978-1-4614-1808-5
 * http://math.mit.edu/~mckernan/Teaching/09-10/Spring/18.726/l_10.pdf
   und andere Kapitel
+* http://www.dam.brown.edu/people/mumford/alg_geom/papers/AGII.pdf
 
 
 === Nächste Schritte
@@ -1087,3 +1096,6 @@ sehr gut lesbar!
 
 * Kann man ein Schema X aus Mod(O_X) rekonstruieren? Nein, oder?
   Was ist ein Gegenbeispiel?
+  Wie es aus QCoh(X) geht -- also Gabriel--Rosenberg-Rekonstruktion --
+  steht hier:
+  http://sasharosenberg.com/wp-content/uploads/2015/03/chptr-5-Reconstruction-of-schemes_with-title.pdf

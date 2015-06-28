@@ -190,6 +190,8 @@ globale Schnitte besitzen (d.h. Schnitte, die jeweils nicht der Nullschnitt
 sind). [Denn: O_X(X) ist für solche Schemata X eine endliche Körpererweiterung
 von k, besteht also nur aus Konstanten. Siehe
 http://math.stackexchange.com/questions/154580/if-a-line-bundle-and-its-dual-both-have-a-section-on-a-projective-variety-does.]
+Laut https://www.uni-due.de/~hx0050/ss13/algg2-ex13.pdf genügt auch schon,
+dass X ganz und O_X(X) ein Körper ist.
 
 
 === Torsionsbündel

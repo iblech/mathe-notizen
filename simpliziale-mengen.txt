@@ -33,6 +33,11 @@ http://link.springer.com/chapter/10.1007/BFb0061815
   Realisierungen von simplizialen Mengen.
 
 
+=== Homotopietheorie
+
+* Modern Classical Homotopy Theory, Jeffrey Strom.
+
+
 === Nerv von Kategorien
 
 * Cat ist äquivalent zu Fun_c(Delta[2], Set).
