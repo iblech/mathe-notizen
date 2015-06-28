@@ -8,6 +8,7 @@
 * Grothendiecks Galoistheorie?
   
   http://arxiv.org/abs/math/0009145v1
+  http://webusers.imj-prg.fr/~jean-francois.dat/enseignement/memoires/M1AlexPuttick.pdf
 
 * Metatheorem: Gilt phi(x_1,...,x_n), so gilt auch phi(x_1',...,x_n'),
   wobei die x_i' zu den x_i simultan galoissch konjugiert sind.

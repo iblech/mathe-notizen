@@ -1,3 +1,4 @@
 * http://www.jmilne.org/math/CourseNotes/lec.html
+* http://math.northwestern.edu/~dwilson/pretalbot2014/elden-etale.pdf
 
 * Kummer-Sequenz ist exakt!

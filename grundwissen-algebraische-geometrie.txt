@@ -133,6 +133,14 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
   Der Beweis unten überträgt sich wörtlich auf diese allgemeinere Situation.
   Auf die Endlichkeit der Anzahl der Primideale kann nicht verzichtet werden.
 
+* Felix: "Ist X ein quasiprojektives Schema über einer Basis S (über die ich
+  jetzt nicht näher nachgedacht habe). Dann gibt es für jedes n eine endliche
+  (!) affine offene Überdeckung X=UV_i von X so dass je n beliebige Punkte auf
+  X bereits komplett in einem der V_i liegen (insbesondere ist also das
+  Hilbertschema von n Punkten quasikompakt (über S) in diesem Setting -- was
+  natürlich nur spannend wäre wenn man nicht wüsste dass es ohnehin sogar schon
+  wieder quasiprojektiv ist :)"
+
 * D(f) ist dicht genau dann, wenn für alle g:
 
       fg nilpotent ==> g nilpotent.
