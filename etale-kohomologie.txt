@@ -3,3 +3,6 @@
 * http://www-personal.umich.edu/~bhattb/math/etalestcksproj.pdf
 
 * Kummer-Sequenz ist exakt!
+
+* http://stacks.math.columbia.edu/tag/04HE: Étale coverings of a scheme can
+  be refined by Zariski coverings of finite locally free covers.

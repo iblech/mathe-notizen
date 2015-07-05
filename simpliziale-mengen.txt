@@ -13,6 +13,21 @@ Jon Beck. Simplicial sets and the foundations of analysis.
 http://link.springer.com/chapter/10.1007/BFb0061815
 
 
+=== Nichtdegenerierte Simplizes
+
+* Sei X eine simpliziale Menge derart, dass X(inj.) (nd) nd ist.
+  Dann ist X Kolimes "seiner nichtdegenerierten Simplizes", d.h. X ist Kolimes
+  des kanonischen Diagramms über folgender Indexkategorie:
+
+      Objekte: x in X_(n)
+      Morphismen: Hom(x, y) = { f : n ^--> m | X(f)y = x }.
+
+* Korollar: Sei X eine simpliziale Menge, die nur endlich viele
+  nichtdegenerierte Simplizes enthält und außerdem die oben genannte Bedingung
+  erfüllt. Dann ist X aleph_0-kompakt in sSet, als endlicher Kolimes der
+  winzigen Objekte Delta[n].
+
+
 === Geometrische Realisierung
 
 * In http://www.math.harvard.edu/~eriehl/cathtpy.pdf steht auf Seite 63 ein

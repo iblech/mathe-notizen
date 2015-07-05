@@ -118,6 +118,11 @@ Was sind sie?
 * Daher erhält Gamma(U, __) : Sh(X) --> Set, wenn U eine affinoffene
   Teilmenge ist, filtrierte Kolimiten.
 
+* http://math.stackexchange.com/a/428556/61604:
+  A right adjoint between l.f.p. categories preserves filtered colimits if and
+  only if the left adjoint sends compact (a.k.a. finitely presentable) objects
+  to compact objects. Ist leicht zu zeigen. :-)
+
 
 === Kompakte Objekte in derivierten Kategorien
 
