@@ -20,3 +20,8 @@
   Basic Concepts of Synthetic Differential Geometry
 
   empfohlen von: http://arxiv.org/pdf/quant-ph/0202079v1.pdf
+
+* Moerdijk, Reyes. A smooth version of the Zariski topos.
+  file:///home/iblech/Downloads/moerdijk_87_asmoothversion%20(2).pdf
+  Referenz [1] darin hat die Theorie der Windungszahl auf S^1 synthetisch
+  entwickelt.

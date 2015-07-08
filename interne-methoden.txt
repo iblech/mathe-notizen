@@ -1573,3 +1573,9 @@ Sei O_X kohärent. Dann kann EXT intern als Ext verstanden werden.
   Isomorphie. Außerdem treffe ich hier keine Aussage über RHOM, wobei das wohl
   nicht schwieriger wäre. Aber das Grundsatzproblem der Unbestimmtheit bis auf
   Iso bzw. Quasiiso bleibt!
+
+
+=== Relevante MO-Fragen
+
+* http://mathoverflow.net/questions/2314/several-topos-theory-questions
+* http://mathoverflow.net/questions/606/synthetic-reasoning-applied-to-algebraic-geometry
