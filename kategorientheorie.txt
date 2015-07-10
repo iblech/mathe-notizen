@@ -575,6 +575,14 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
   k(X)-Vektorräume). Also ist A oder B ein Torsionsmodul. Aber k[X] ist
   torsionsfrei. Also ist A oder B Null.
 
+* Mod(R) ist stets vollständig und kovollständig. Coh(R) dagegen im Allgemeinen
+  nicht. Das ist ein enfaches Argument dafür, dass abelsche Kategorien nicht
+  immer äquivalent zu einer Kategorie der Form Mod(R) sind.
+
+* nLab (abelian category) sagt: Sei A eine kovollständige abelsche Kategorie.
+  Sei P in A ein kompakter projektiver Erzeuger. Dann ist A äquivalent zu
+  Mod(R), wobei R = End(P)^op.
+
 
 === Kopotenzen
 
