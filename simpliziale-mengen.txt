@@ -6,6 +6,13 @@ Was sind die kuratowski-endlichen Objekte in sSet?
 http://golem.ph.utexas.edu/category/2008/01/mark_weber_on_nerves_of_catego.html
 
 
+=== Einführungen
+
+* http://arxiv.org/abs/0809.4221
+* http://www.math.harvard.edu/~eriehl/ssets.pdf
+* http://www.math.muni.cz/~koren/SimplicialSets.pdf
+
+
 === Simpliziale Mengen als Grundlagen von Analysis
 
 Jon Beck. Simplicial sets and the foundations of analysis.
