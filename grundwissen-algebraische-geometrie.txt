@@ -191,8 +191,12 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 
 * Spec A ist lokaler topologischer Raum <==> A ist ein lokaler Ring.
 
-* D(I) <= Spec(A) ist genau dann affin, wenn I "codisjunctable" ist.
+* D(I) (ein Unterschema von Spec(A)) ist genau dann affin, wenn I "codisjunctable" ist.
   http://mathoverflow.net/a/66901/31233
+
+* Sei X --> Y ein Morphismus. Sei X affin. Dann ist X --> Y nicht automatisch
+  affin. Aber schon, wenn Y (quasi-?)separiert ist.
+  http://mathoverflow.net/questions/74806/are-morphisms-from-affine-schemes-to-arbitrary-schemes-affine-morphisms
 
 * Spec(A) --> Spec(B) ist genau dann eine offene Immersion, wenn
   B --> A flach, von endlicher Präsentation und in Ring ein Epi ist.

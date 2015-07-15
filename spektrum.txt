@@ -392,6 +392,11 @@ extern der Menge der offenen Teilmengen von X:
   Radikalideale gibt, wird Rad_qcoh(O_X) zu einem internen Rahmen.
   ...aber der Reflektor ist ein *Links*adjungierter!
 
+  Update: Es passt wunderbar, dass der Reflektor ein Linksadjungierter ist:
+  a,b <= a+b <= (a+b)#.
+  Sei a,b <= i. Dann a+b <= i. Dann (a+b)# <= i. Gut!
+  Garbifizierung ist doch auch ein Linksadjungierter!
+
 * Analog könnte man Rad_qcoh(A) und so Spec_int(A) definieren.
   Erfüllt das die richtigen Eigenschaften?
 
