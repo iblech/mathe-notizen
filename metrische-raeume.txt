@@ -81,6 +81,10 @@ Die Abbildung C(X) --> C(C(X))/~ ist surjektiv:
 
         exists eps', eps'': eps' + eps'' <= eps, alpha in Lambda(eps''), x in alpha(eps').
 
+* Unter dem Namen "Cauchy-Approximation" ist etwas ähnliches bekannt:
+  siehe https://www.cs.ox.ac.uk/quantum/talksarchive/clp7/clp7-chrismulvey.pdf,
+  Folie 20.
+
 
 === Vergleich zur Dedekind-Vervollständigung
 

@@ -9,6 +9,11 @@
 * Coquand & Co. Spectral schemes as ringed lattices.
   http://hlombardi.free.fr/publis/schemas.pdf
 
+* Mit Primidealen geht es natürlich nicht, und genauso nicht mit Filtern.
+  Wurde mal von Lawvere behauptet, zum Beispiel in
+  http://www.mathunion.org/ICM/ICM1970.1/Main/icm1970.1.0329.0334.ocr.pdf,
+  später aber durch Joyal widerlegt.
+
 
 === Coquands Spektrum
 
