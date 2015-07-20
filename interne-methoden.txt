@@ -1575,6 +1575,12 @@ Sei O_X kohärent. Dann kann EXT intern als Ext verstanden werden.
   Iso bzw. Quasiiso bleibt!
 
 
+=== fppf-Topologie
+
+* http://arxiv.org/abs/1407.5446v1
+  Points in the fppf topology
+
+
 === Relevante MO-Fragen
 
 * http://mathoverflow.net/questions/2314/several-topos-theory-questions

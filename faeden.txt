@@ -66,7 +66,8 @@
 
 * Hilbert--Chow auf Niveau der derivierten Kategorien?
 
-* Wie sieht unter D_{S_2}(P^1 x P^1) = D(P^2) die Garbe O(-1) boxtensor O(1) aus?
+* Wie sieht unter D_{S_2}(P^1 x P^1) = D(P^2) die Garbe O(-1) boxtensor O(-1) aus?
+  Antwort: ziemlich sicher O(-1), siehe symmetrische-produkte-von-raeumen.txt.
 
 
 === Erzeuger und Relationen
@@ -83,6 +84,7 @@
   Bestimmt kann ich so recht explizite Erzeuger für alle möglichen von D^b(X)
   abgeleiteten Kategorien (ha!) finden. Damit reduziert sich das Problem dazu,
   mit der perfekten derivierten Kategorie einer dg-Kategorie umgehen zu können.
+  (Update: Meine vermutlich dg-Algebra.)
   http://mathoverflow.net/a/26030/31233
   http://mathoverflow.net/q/35863/31233
 

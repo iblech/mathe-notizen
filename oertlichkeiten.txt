@@ -68,3 +68,15 @@ http://www.mat.uc.pt/~picado/covariant/contents.pdf
 
 * Jede Untergruppe einer lokalischen Gruppe ist abgeschlossen.
   http://www.wra1th.plus.com/gcw/rants/math/closed.html
+
+
+=== Konstante Garben
+
+Sei A eine Menge und X eine Örtlichkeit. Dann sieht die konstante Garbe AA so aus:
+
+    AA(U) = { "stetige Funktionen U --> A" }
+          = { Rahmenhomos P(A) --> !(U) },
+
+wobei !(U) = { V | V <= U }.
+
+Man kann nachrechnen, dass AA wirklich eine Garbe ist.

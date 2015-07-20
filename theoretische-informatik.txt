@@ -41,3 +41,25 @@ our extension of Fω, that relational parametricity is enough to satisfy
 the hypotheses of Noether’s theorem, and so to derive conserved
 quantities for free, directly from the polymorphic types of Lagrangians
 expressed in our system.
+
+
+=== Fixpunktsatz von Knaster--Tarski
+
+* Sei X ein vollständiger Verband. Sei f : X --> X ein monotoner Operator.
+  Dann gilt:
+
+    (forall x. x <= y ==> f(x) <= y)  ===>  mu(f) <= y.
+
+  Beweis: Betrachte die Teilmenge T := { z | z <= y }.
+  T wird mit den gleichen Meets und Joins zu einem vollständigen Verband.
+  Nach Voraussetzung wird T von f bewahrt.
+  Also existiert ein Fixpunkt mu(f|_T). Damit:
+
+      mu(f) <= mu(f|_T) <= y.
+
+  Im Nachhinein sieht man: Da mu(f) auch in T liegt, gilt sogar mu(f) = mu(f|_T).
+
+* Habe X sogar eine Implikation (rechtsadjungiert zur Meetbildung).
+  Dann gilt:
+
+      (forall x. a wedge x <= y ==> a wedge f(x) <= y)  ===>  mu(f) <= y.

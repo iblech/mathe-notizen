@@ -189,6 +189,9 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 
       a |--> bigcup_{h in a} D(h).
 
+  Für eine offene Menge U, die einem Radikalideal I entspricht, gilt:
+  p \not\in U <==> I <= p.
+
 * Spec A ist lokaler topologischer Raum <==> A ist ein lokaler Ring.
 
 * D(I) (ein Unterschema von Spec(A)) ist genau dann affin, wenn I "codisjunctable" ist.

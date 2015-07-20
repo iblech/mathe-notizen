@@ -20,6 +20,10 @@
 * Außerdem kann man eine Äquivalenz D^b(X) --> D^b(Y) auf Familien ausdehnen:
   D^b(X_S) --> D^b(Y_S).
 
+* Achtung! Ein Morphismus zwischen Kernen kann nichttrivial sein, aber den
+  Nullmorphismus zwischen den zugehörigen Funktoren induzieren.
+  Siehe Huybrechts, Seite 120.
+
 
 === Invarianten, die von derivierten Äquivalenzen bewahrt werden
 
@@ -39,7 +43,9 @@
   pi2_*(O_Delta tensor pi1^*(E)) = pi2_*(Delta_*(O_X tensor Delta^*(pi1^*(E)))) =
       id_*(O_X tensor id^*(E)) = E.
 
-  (Wieso ist Delta : X --> X x X eigentlich?)
+  (Wieso ist Delta : X --> X x X eigentlich? Wegen Liu, Prop. 3.16, Seite 104:
+  Nachschaltung mit dem separierten (wieso?) Morphismus pr_1 : X x X --> X ist
+  eigentlich.)
 
 * FM((id & f)_* O_X) = f_*. Mit demselben Argument.
 
