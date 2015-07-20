@@ -48,7 +48,7 @@ expressed in our system.
 * Sei X ein vollständiger Verband. Sei f : X --> X ein monotoner Operator.
   Dann gilt:
 
-    (forall x. x <= y ==> f(x) <= y)  ===>  mu(f) <= y.
+      (forall x. x <= y ==> f(x) <= y)  ===>  mu(f) <= y.
 
   Beweis: Betrachte die Teilmenge T := { z | z <= y }.
   T wird mit den gleichen Meets und Joins zu einem vollständigen Verband.
@@ -63,3 +63,10 @@ expressed in our system.
   Dann gilt:
 
       (forall x. a wedge x <= y ==> a wedge f(x) <= y)  ===>  mu(f) <= y.
+
+* Analoge Prinzipien gelten auch, wenn man mu(f)_{>= u} meint, den kleinsten
+  Fixpunkt oberhalb eines Elements u mit u <= f(u).
+
+      (forall x. u <= x <= y ==> f(x) <= y)  ===>  mu(f)_{>= u} <= y.
+
+      (forall x. u <= x, a wedge x <= y ==> a wedge f(x) <= y)  ===>  mu(f)_{>= u} <= y.
