@@ -529,6 +529,9 @@ Sei j eine Lawvere-Tierney-Topologie.
 * Die Menge { x:1 | phi } ist für eine Aussage phi genau dann eine Box-Garbe,
   wenn phi Box-stabil ist.
 
+  Allgemeiner ist { x : X | phi(x) } für eine Aussage phi(x) und eine Box-Garbe X
+  genau dann wieder eine Box-Garbe, wenn phi Box-stabil ist.
+
 * Sei E auf X eine j-Garbe. Sei i : X_j --> X die Inklusion.
   Dann gilt: (i^(-1) E)(U) = E(U) für alle U in Ouv(X_j), d.h. für alle U aus
   Ouv(X) mit j(U) = U.
@@ -837,7 +840,7 @@ O_X gegeben sind, die auf offenen dichten Teilmengen definiert sind.
 * Kann mit Kompaktheitshilfe (siehe kategorielle-logik.txt) zeigen,
   dass das Ideal sqrt(0) qcoh ist.
 
-* Habe gesehen, dass qcoh Untermodul eines Moduls v.e.T. wieder v.e.T. ist,
+* Habe gesehen, dass qcoh Untermoduln eines Moduls v.e.T. wieder v.e.T. ist,
   auf lokal noetherschen Schemata. Vielleicht gibt es aber noch ein anderes
   Theorem. Etwa, dass Untermoduln, die von geometrischen Aussagen
   ausgeschnitten werden, stets qcoh sind (oder aber stets die Konklusion
@@ -933,7 +936,7 @@ O_X gegeben sind, die auf offenen dichten Teilmengen definiert sind.
 
 === Antiklassische Prinzipien im kleinen Zariski-Topos
 
-Grothendiecks "generic freeness lemma" sagt:
+Grothendiecks "generic freeness lemma" sagt (in der schwachen Version):
 
     Let A be a Noetherian integral domain, M a finitely generated A-module. Then
     there there exists f \in A, f \neq 0, with M[f^(-1)] a free A[f^(-1)]-module.
@@ -1550,6 +1553,10 @@ B Sei X S-Schema. Dann könnte man denken, dass [X, A^1] = (mu_* O_X)^~.
 
 * Kategorielle Charakterisierung von glatten Morphismen und paar anderen Sachen:
   http://www.kurims.kyoto-u.ac.jp/~motizuki/Categorical%20Representation%20of%20Locally%20Noetherian%20Log%20Schemes.pdf
+
+* Kohomologie intern?
+
+* Ist A^1 in Zar(S) noethersch, falls S lokal noethersch?
 
 
 === Garben-EXT
