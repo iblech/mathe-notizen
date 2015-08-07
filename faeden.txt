@@ -280,6 +280,10 @@
 
 * Verstehen, was K_0 und K^0 der affinen Gerade mit doppeltem Ursprung ist.
 
+* http://www.sciencedirect.com/science/article/pii/S0166864107001113?np=y
+  A constructive and functorial embedding of locally compact metric spaces into
+  locales
+
 
 === Online
 
