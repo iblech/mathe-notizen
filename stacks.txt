@@ -9,6 +9,20 @@ Das gilt, wenn/da pi_* exakt ist.
 http://mathoverflow.net/questions/6278/when-can-cohomology-be-calculated-on-the-coarse-moduli-space
 
 
+=== Kurvenfall
+
+Wirke eine Gruppe G auf einer Kurve X. Dann ist die Kurve, die zur
+Körpererweiterung K(X)^G gehört, die Normalisierung von X/G. Das ist der
+Quotient in der Kategorie der glatten Kurven und dominanten Morphismen.
+Behauptet Marc.
+
+
+=== Universeller kategorieller Quotient
+
+Der universelle kategorielle Quotient in C ist der kategorielle Quotient im
+Stack (Selbstindizierung von C).
+
+
 === Höhere Stacks
 
 * https://www.imj-prg.fr/~gabriele.vezzosi/seminar/notes.pdf

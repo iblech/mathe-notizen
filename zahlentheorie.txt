@@ -9,3 +9,11 @@ gilt. (Liouville's theorem (on diophantine approximation,
 http://en.wikipedia.org/wiki/Liouville%27s_theorem_(transcendence_theory))
 
 http://terrytao.wordpress.com/2014/07/07/the-subspace-theorem-approach-to-siegels-theorem-on-integral-points-on-curves-via-nonstandard-analysis/
+
+
+=== Kleiner Fermat/Euler
+
+* x^phi(m) = 1 mod m, gilt für (x, m) = (1).
+
+* Beweis: mit chinesischem Restsatz auf den Fall m = p^l reduzieren.
+  In dem Fall ist es klar (?).

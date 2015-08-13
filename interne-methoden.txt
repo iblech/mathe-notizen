@@ -101,6 +101,40 @@ http://terrytao.wordpress.com/2012/04/02/a-cheap-version-of-nonstandard-analysis
 
   dim F = dim O_X/Ann(F).
 
+* depth A := sup { r | es gibt eine reguläre Sequenz der Länge r in A }.
+  Damit kann man sowohl "depth A >= r" als auch "depth A <= r" formulieren:
+  * depth A >= r  <==>  es gibt eine reguläre Sequenz der Länge r in A.
+  * depth A <= r  <==>  jede reguläre Sequenz in A hat Länge <= r.
+
+* Die Ungleichung depth A <= dim A gilt stets. Man kann sie etwa so beweisen:
+
+  Sei x_1, ..., x_r eine reguläre Sequenz. Wir wollen zeigen, dass r <= dim A.
+  Wir haben dim A/(x_1,...,x_r) <= dim A - r. Also (?) dim A - r >= 0.
+  Also dim A >= r.
+
+* Ein Ring A heißt circa dann Cohen-Macauley, wenn depth A >= dim A.
+  Manchmal werden noch Noether-Bedingungen gestellt.
+
+* Schön wäre sowas wie: Sh(X) |== dim O_X <= depth O_X genau dann, wenn X
+  Cohen-Macauley.
+
+  Die linke Seite hat ausgeschrieben folgende Form:
+
+      Es gibt eine reguläre Sequenz x_1,...,x_r sodass dim O_X <= r.
+
+  Der letzte Teil ("dim O_X <= r") ist eine geometrische Implikation.
+
+  Wenn die linke Seite stimmt, dann sind alle lokalen Ringe Cohen-Macauley.
+  Wenn X durch Spektren von noetherschen Cohen-Macauley-Ringen überdeckt werden
+  kann, stimmt die linke Seite. Zumindest, wenn die für
+  http://stacks.math.columbia.edu/tag/02IP relevante Definition von
+  Cohec-Macauley zu meiner äquivalent ist.
+
+
+=== Dominanz
+
+* Siehe grundwissen-algebraische-geometrie.txt.
+
 
 === Noether
 

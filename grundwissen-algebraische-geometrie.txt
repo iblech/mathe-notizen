@@ -38,6 +38,37 @@
 
   Dann folgt: dim supp(E) <= n genau dann, wenn Sh(X) |== dim(O_X/Ann(E)) <= n.
 
+* Cohen-Macauley:
+  http://mathoverflow.net/questions/54876/geometric-meaning-of-cohen-macaulay-schemes
+
+
+=== Dominanz
+
+* Sei f : X --> Y ein Morphismus zwischen affinen integren Schemata.
+  Dann sind äquivalent:
+
+      1. f ist dominant (d.h. f[X] ist dicht in Y)
+      2. f(xi_X) = xi_Y.
+
+  1. <==> f[X] trifft alle nichtleeren offenen U in Y
+     <==> für alle f in O_Y(Y) gilt: ist f nicht nilpotent,
+          so existiert ein Primideal p in O_X(X) sodass f nicht in
+          f^#^{-1}[p] liegt
+     <==> für alle f in O_Y(Y) gilt: falls f in allen f^#^{-1}[p] liegt,
+          so ist f nilpotent
+     <==> für alle f in O_Y(Y) gilt: falls f in f^#^{-1}[sqrt(0)] liegt,
+          so liegt f in sqrt(0)
+     <==> f^# reflektiert Nilpotenz
+
+  2. bedeutet f^#^{-1}[(0)] = (0). Das ist äquivalent zur Nilpotenzreflektion.
+
+* Stimmt es, dass ein Morphismus f : X --> Y zwischen beliebigen Schemata
+  genau dann dominant ist, wenn f^# : f^{-1}(O_Y) --> O_X aus Sicht von Sh(X)
+  Nilpotenz reflektiert, wenn also O_{Y,f(x)} --> O_{X,x} für alle x aus X
+  Nilpotenz reflektiert?
+
+  Glaube nicht (schon im affinen Fall falsch).
+
 
 === Spec Z
 
