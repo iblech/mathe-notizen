@@ -992,6 +992,14 @@ sehr gut lesbar!
 * Universell abgeschlossene Morphismen sind quasikompakt.
   http://mathoverflow.net/questions/23337/is-a-universally-closed-morphism-of-schemes-quasi-compact
 
+* Habe ein Hochhebungskriterium für viele Eigenschaften.
+  "für Glattheit (und Unverzweigtheit und Étaleheit :) ) gibt! Mit
+  infinitessimalen Verdickungen affiner Schemata als Testobjekte...  Wird kurz
+  bei Vakil erwähnt, Abschnitt 25.2.5. Tatsächlich klappt das nicht ganz, die
+  entsprechende Eigenschaft heißt dann "formally smooth/unramified/étale", was
+  im Falle lokal endlicher Präsentation aber stets das selbe ist wie die
+  üblichen Begriffe glat/unverzweigt/étale..."
+
 
 === Punktefunktoransatz
 

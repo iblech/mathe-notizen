@@ -300,6 +300,16 @@ http://terrytao.wordpress.com/2012/04/02/a-cheap-version-of-nonstandard-analysis
 * Bezug von meinem zu Hakims Spektrum: Vielleicht ist
   http://mathoverflow.net/a/26471 interessant.
 
+* Ein Mittelding zwischen der richtigen Definition fürs interne Spektrum
+  und der völlig falschen ist:
+
+      R(A) = { I <= A | I Radikalideal, forall s:A. (s inv => s in I) => s in I }.
+  
+  Aber das ist Quatsch: R(A) = Ouv(pt) für beliebiges A (sofern 0 != 1 in A).
+
+  Explizit auch für X = Spec k, A = k[x]_(x)^~... Verstehe das Gegenbeispiel
+  nicht mehr.
+
 
 === Endlichkeit
 

@@ -23,6 +23,15 @@ Der universelle kategorielle Quotient in C ist der kategorielle Quotient im
 Stack (Selbstindizierung von C).
 
 
+=== Invariantenring
+
+* Angeblich: |Spec A|/G = Spec A^G (topologisch).
+
+* Sei G endlich. Dann ist die Inklusion A^G --> A ganz:
+  Sei x in X. Dann ist x Nullstelle von prod_g (X - gx).
+  Die Koeffizienten dieses Polynoms liegen alle in A^G.
+
+
 === Höhere Stacks
 
 * https://www.imj-prg.fr/~gabriele.vezzosi/seminar/notes.pdf

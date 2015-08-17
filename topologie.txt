@@ -144,11 +144,15 @@ Denn jeder Punkt enthält einen abgeschlossenen Punkt in seinem Abschluss.
 
 === Dichtheit
 
-Eine Teilmenge W von X ist genau dann dicht, wenn:
+* Eine Teilmenge W von X ist genau dann dicht, wenn:
 
       Für alle offenen U <= X, beta <= U gilt:
 
           W cap U <= beta  und  beta <= U abgeschlossen  ==>  U <= beta.
+
+* Sei X = bigcup_i U_i eine offene Überdeckung. Dann ist eine
+  Teilmenge W von X genau dann dicht in X, wenn für jedes i die Menge W cap U_i
+  in U_i dicht ist.
 
 
 === Irreduzibilität
