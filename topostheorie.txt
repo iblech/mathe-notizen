@@ -40,6 +40,11 @@ Das geht so: E' := E/X. Das Abbild von X ist dann X x X.
 (Abbild-nehmen ist X x __.) Das gesuchte generische Element ist dann
 X --> X x X über X.
 
+Der geometrische Morphismus ist
+
+       f_* : E/X -----> E    (abhängiges Produkt nehmen)
+    f^{-1} :   E -----> E/X  (mit X multiplizieren, also konstante Familie nehmen)
+
 
 === Nächste Schritte
 
