@@ -39,6 +39,8 @@ Falls U abgeschlossen sein sollte, gilt sogar
 
 * clos(M cup N) = clos(M) cup clos(N), für "cap" gilt aber nur "<=".
 
+  Für unendliche Vereinigungen gilt auch nur ">=".
+
 * Ist X = bigcup_i U_i eine offene Überdeckung und M eine Teilmenge von X,
   so ist M genau dann in X abgeschlossen, wenn M cap U_i in den U_i
   abgeschlossen ist.
