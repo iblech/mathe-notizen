@@ -68,7 +68,7 @@ Zumindest ist der Funktor R |--> R[T]/(T^n) kodarstellbar, nämlich durch Z[A_0,
   
   Das ist wichtig für Abkürzerbeweise, wie etwa folgender von Cayley-Hamilton:
   Wir zeigen, dass p_A(A) = 0 ist, wobei A die generische Matrix (im Ring
-  Z[X_11,...,X_nn]) ist.  Also müssen wir n^2 Polynomidentitäten zeigen. Es
+  Z[X_11,...,X_nn]) ist. Also müssen wir n^2 Polynomidentitäten zeigen. Es
   genügt, das für alle möglichen komplexen Werte der X_ij zu zeigen. Aus
   Stetigkeitsgründen genügt es wiederum, nur solche X_ij zu betrachten, sodass
   die zugehörige Matrix diagonalisierbar ist.
