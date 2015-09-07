@@ -19,6 +19,12 @@ auch nicht explizit angeben:
 Welcher Fall vorliegt, kann man aber nicht entscheiden.
 
 
+=== Epimorphismen in der Kategorie der Gruppen
+
+* https://golem.ph.utexas.edu/category/2015/08/wrangling_generators_for_subob.html#c049544
+* http://ncatlab.org/nlab/show/epimorphisms+of+groups+are+surjective
+
+
 === Kompaktifizierung der natürlichen Zahlen
 
 N* := { (x_n)_n | x_n in {0,1}, (x_n) monoton steigend }.
