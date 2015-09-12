@@ -312,7 +312,6 @@ Charles Siegel auf http://mathoverflow.net/questions/2414/sheaf-description-of-g
 * Kozykelbeschreibungen von direkte Summe, Tensorprodukt, Duales verstehen
 * Wieso zerfallen alle kurzen exakten Sequenzen von Vektorbündeln
   (im topologischen Sinn)?
-* Gilt? M~ lokal frei <==> M projektiv
 * Was ist der klassifizierende Raum der Vektorbündel in der algebraischen
   Kategorie?
 * Grad eines Geradenbündels
