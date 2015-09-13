@@ -315,3 +315,4 @@ Charles Siegel auf http://mathoverflow.net/questions/2414/sheaf-description-of-g
 * Was ist der klassifizierende Raum der Vektorbündel in der algebraischen
   Kategorie?
 * Grad eines Geradenbündels
+* Konstruktion des Vektorbündels zu einer lokal freien Garbe intern verstehen!
