@@ -22,6 +22,19 @@
   function collapses to an eigenstate of the observable being measured, follows
   from Bayes's rule for conditioning probabilities in classical probability.
 
+* Student von John Baez:
+  http://www.cs.ox.ac.uk/bob.coecke/Brendan_Fong.pdf
+  "My student Brendan Fong wrote a masters' thesis about Bayesian networks,
+  which he's trying to polish up and publish.
+
+  In the new improved version, he'll associate to any Bayesian network a
+  category with finite products, say T.   This plays the role of a "theory".
+  An assignment of probabilities to random variables consistent with this
+  theory is a symmetric monoidal functor from T to C, where C is some
+  symmetric monoidal category - but not cartesian! - category of probability
+  measure spaces and stochastic maps.  So, [T,C] plays the role of the
+  "category of models of T in C"."
+
 
 === Markov-Ketten
 
