@@ -591,6 +591,65 @@ Sei j eine Lawvere-Tierney-Topologie.
   nicht mehr.
 
 
+=== Modale Operatoren
+
+* Sei P(psi) irgendeine Aussageform. Dann definiert Box mit
+
+      Box(phi) := forall psi. P(psi) wedge (phi ==> psi) ==> psi
+
+  einen modalen Operator. So zeigt man
+  
+      Box(phi) wedge Box(phi') ==> Box(phi wedge phi'):
+
+  Sei psi mit P(psi) und (phi wedge phi' ==> psi) gegeben. Zeige psi.
+  Hypothetisch gelte phi. Dann phi' ==> psi. Also (da Box(phi')): psi.
+  Somit: phi ==> psi.
+  Da Box(phi): psi.
+
+  Der so definierter Operator Box ist der größte Operator ("wenn BOX(phi), so
+  Box(phi)") mit der Eigenschaft, dass P(phi) ==> (Box(phi) ==> phi), dass also
+  Aussagen phi mit P(phi) Box-stabil sind.
+
+  Denn sei BOX ein Operator mit dieser Eigenschaft. Gelte BOX(phi). Wir zeigen
+  Box(phi). Sei dazu psi mit P(psi) und phi ==> psi gegeben. Wir zeigen psi.
+  Da P(psi) gilt nach Voraussetzung BOX(psi) ==> psi. Außerdem glt natürlich
+  BX(phi) ==> BOX(psi). Das genügt schon.
+
+* Speziell könnte P(psi) folgende Aussage sein: "Das Ideal { f | f nilpotent
+  oder psi } ist pseudokohärent." Dann kann man sich zum Beispiel fragen, ob
+  ein Radikalideal einer Algebra A genau dann pseudokohärent ist, wenn es eine
+  Box-Garbe ist, wobei Box wie oben definiert. Klar ist mir die Antwort nicht.
+
+* Folgende Setzungen definieren *keine* modalen Operatoren:
+
+  1. Box(phi) := ({ f | f nilpotent oder phi } ist pseudokohärent).
+
+  2. Box(phi) := ({ f | f invertierbar ==> phi } ist pseudokohärent).
+
+  Sind jeweils nicht monoton.
+
+* Sei (a -| i) : Sh_j(E) --> E ein Untertopos. Wie kann man daraus j
+  rekonstruieren? Jup, denn:
+
+  1. j(phi) <==> forall psi:Omega. ((j(psi) ==> psi) wedge (phi ==> psi)) ==> psi.
+  2. (j(psi) ==> psi) <==> { x : 1 | psi } ist eine j-Garbe, d.h. liegt im
+  wesentlichen Bild von i.
+
+
+=== Gillams Lokalisierung
+
+* Ausgangspunkt bei Gillam ist ein Primsystem, d.h. die Angabe einer
+  Teilmenge M_x von Spec O_{X,x} für jedes x in X. Wichtige Beispiele sind das
+  lokale Primsystem (x |-> { m_x }) und das terminale (x |-> Spec O_{X,x}).
+  Außerdem Pullbacks von Primsystemen.
+
+* Mögliche Globalisierung wäre also die Angabe einer internen Menge
+  von Filtern von O_X. Im Fall vom lokalen Primsystem etwa { O_X^\times }.
+
+  Ist phi : O_X --> A ein Ringhomo und ist M eine Menge von Filtern von O_X, so
+  ist phi_*(M) := { Filter F in A | phi^(-1)[F] in M } eine Filtermenge von A.
+
+
 === Lokale Kripke-Joyal-Semantik
 
 * Kann definieren: U |==_negneg phi genau dann,
