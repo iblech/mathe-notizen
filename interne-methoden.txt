@@ -287,7 +287,8 @@ http://terrytao.wordpress.com/2012/04/02/a-cheap-version-of-nonstandard-analysis
 === Internes Spektrum
 
 * O_X in Sh(X), also dem kleinen Zariski-Topos, hat im Allgemeinen noch viele
-  maximale Ideale: die Idealgarben zu abgeschlossenen Punkten.
+  maximale Ideale: die Idealgarben zu abgeschlossenen Punkten. Jein, so
+  wirklich maximal sind die nicht.
 
 * Etwa im Fall X = Spec Z besitzt O_X aber keine interessanten Primelemente:
   Die Bedingung "p|xy ==> p|x oder p|y" ist eine geometrische Sequenz und gilt
