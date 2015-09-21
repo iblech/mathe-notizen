@@ -884,6 +884,28 @@ Quellen:
 * Emily Riehl, http://www.math.harvard.edu/~eriehl/cathtpy.pdf
 
 
+=== Freie Funktoren
+
+Sei F : Ob(C) --> Ob(Set), wobei C eine kleine Kategorie ist. Daraus kann man
+einen Funktor machen:
+
+    Fbar : C --> Set
+           X |-> Sum_{f:Y->X} F(Y)
+
+Dies liefert einen Linksadjungierten zum Vergissfunktor
+
+    (Funktoren von C nach Set) --> (nur auf Objekten gegebene Funktoren von C nach Set).
+
+Statt Set kann man wohl jede kovollständige Kategorie nehmen.
+
+In Haskell geht das auch:
+
+    data Free f a = forall b. MkFree (b -> a) (f b)
+
+    instance Functor (Free f) where
+        fmap phi (MkFree f x) = MkFree (phi . f) x
+
+
 === Codensity-Monade
 
 * Codensity(G) = Ran_G(G) für G : B --> A.
