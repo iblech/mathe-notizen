@@ -41,6 +41,19 @@
 * Cohen-Macauley:
   http://mathoverflow.net/questions/54876/geometric-meaning-of-cohen-macaulay-schemes
 
+* Genau dann gilt für einen Ring R, dass alle Lokalisierungsmorphismen
+
+      R --> R_p  (p Primideal)
+
+  lokal sind, wenn für alle Primideale p
+
+      R \ p <= R^x,
+
+  also wenn jedes Element nilpotent oder invertierbar ist.
+
+  Im Fall, dass R selbst lokal ist, ist das gleichbedeutend damit, dass die
+  Dimension von R <= 0 ist.
+
 
 === Dominanz
 
