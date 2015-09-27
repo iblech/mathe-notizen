@@ -220,7 +220,7 @@ http://terrytao.wordpress.com/2012/04/02/a-cheap-version-of-nonstandard-analysis
 
 * Kann man die Ideale der obigen Form irgendwie charakterisieren?
 
-* J ist eine Art maximales Ideal -- aber leider nicht ganz:
+* J ist eine Art maximales Ideal -- aber nicht ganz:
 
   * X |== 1 \in J ist gleichbedeutend mit X |== !x0.
     Das ist genau dann richtig, wenn X = {x0}.
