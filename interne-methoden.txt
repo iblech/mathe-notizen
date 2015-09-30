@@ -78,11 +78,6 @@ http://terrytao.wordpress.com/2012/04/02/a-cheap-version-of-nonstandard-analysis
   Dann gilt: Sh(X) |== F ist nicht nicht frei (von endlichem Rang),
   also ist F lokal frei auf einer dichten Teilmenge!
 
-* Die Bedigungen "F_x ist endlich erzeugt" und "F ist auf einer
-  offenen Umgebung von x endlich erzeugt" haben wenig miteinander zu tun. Denn
-  die Aussage, endlich erzeugt zu sein, ist (sogar, wenn man die Erzeuger
-  vorgibt), keine geometrische Formel.
-
 
 === Kategorien intern in Sch/S
 
