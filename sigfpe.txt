@@ -74,6 +74,11 @@ Adjunktion: Für alle Funktoren f und Monaden m stehen
     Monadenmorphismen Free f --> m.
 
 
+=== Lenses sind Koalgebren für die Kostate-Komonade
+
+https://patternsinfp.wordpress.com/2011/01/31/lenses-are-the-coalgebras-for-the-costate-comonad/
+
+
 === Python
 
 "Python-Code ist nur _lokal_ sehr gut lesbar."

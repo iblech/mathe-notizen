@@ -46,12 +46,50 @@ expressed in our system.
 === Fixpunktsatz von Knaster--Tarski
 
 * Sei X ein vollständiger Verband. Sei f : X --> X ein monotoner Operator.
-  Dann gilt:
+  Dann besitzt f einen größten Fixpunkt, und diesen kann man konstruieren als
+
+      u := sup M  mit  M := { v | v <= f(v) }.
+
+  Zunächst ist klar, dass u existiert.
+  Ferner M <= f(u), denn für v in M (also v <= u) gilt v <= f(v) <= f(u).
+  Also auch u <= f(u). Somit u in M.
+  Dann auch f(u) in M. Also f(u) <= u.
+  Also ist u ein Fixpunkt.
+
+  Ferner ist u der größte Fixpunkt. Sei v irgendein Fixpunkt von f.
+  Dann v in M. Also v <= u.
+
+* Den kleinsten Fixpunkt bekommt man so:
+
+      u := inf M  mit  M := { v | f(v) <= v }.
+
+  Zunächst ist klar, dass u existiert.
+  Ferner f(u) <= M, denn für v in M (also v >= u) gilt f(u) <= f(v) <= v.
+  Also auch f(u) <= u. Somit u in M.
+  Dann auch f(u) in M. Also f(u) >= u.
+  Also ist u ein Fixpunkt.
+
+  Ferner ist u der kleinste Fixpunkt. Sei v irgendein Fixpunkt von f.
+  Dann v in M. Also u <= v.
+
+* Und hier noch eine Konstruktionsmöglichkeit für den kleinsten Fixpunkt,
+  wenn f Suprema von aufsteigenden Folgen bewahrt:
+
+      u := sup M  mit  M := { bot, f(bot), f^2(bot), ... }.
+
+  Dann f(u) =Vor= sup { f(bot), f^2(bot), ... } = sup M = u.
+
+  Ferner ist u kleinster Fixpunkt, denn ist v irgendein Fixpunkt, so zeigt man
+  durch Induktion, dass M <= v. Also auch u <= v.
+
+* Sei X ein vollständiger Verband. Sei f : X --> X ein monotoner Operator.
+  Dann gilt für alle y in X:
 
       (forall x. x <= y ==> f(x) <= y)  ===>  mu(f) <= y.
 
   Beweis: Betrachte die Teilmenge T := { z | z <= y }.
-  T wird mit den gleichen Meets und Joins zu einem vollständigen Verband.
+  T wird mit den gleichen binären Joins und Meets zu einem vollständigen Verband.
+  (Achtung, aufpassen bei beliebigen Meets.)
   Nach Voraussetzung wird T von f bewahrt.
   Also existiert ein Fixpunkt mu(f|_T). Damit:
 
@@ -70,3 +108,17 @@ expressed in our system.
       (forall x. u <= x <= y ==> f(x) <= y)  ===>  mu(f)_{>= u} <= y.
 
       (forall x. u <= x, a wedge x <= y ==> a wedge f(x) <= y)  ===>  mu(f)_{>= u} <= y.
+
+* Sei phi : X --> Y ein monotoner Operator, der Suprema erhält.
+
+  Dann gibt es ein phi_* : Y --> X mit
+
+      x <= phi_*(y)  <==>  phi(x) <= y,
+
+  nämlich
+
+      phi_*(y) := sup { x' | phi(x') <= y }.
+
+  Dann gilt für alle y in Y:
+
+      (forall x. phi(x) <= y ==> phi(f(x)) <= y)  ===>  phi(mu(f)) <= y.
