@@ -100,14 +100,14 @@ expressed in our system.
 * Habe X sogar eine Implikation (rechtsadjungiert zur Meetbildung).
   Dann gilt:
 
-      (forall x. a wedge x <= y ==> a wedge f(x) <= y)  ===>  mu(f) <= y.
+      (forall x. a wedge x <= y ==> a wedge f(x) <= y)  ===>  a wedge mu(f) <= y.
 
 * Analoge Prinzipien gelten auch, wenn man mu(f)_{>= u} meint, den kleinsten
   Fixpunkt oberhalb eines Elements u mit u <= f(u).
 
       (forall x. u <= x <= y ==> f(x) <= y)  ===>  mu(f)_{>= u} <= y.
 
-      (forall x. u <= x, a wedge x <= y ==> a wedge f(x) <= y)  ===>  mu(f)_{>= u} <= y.
+      (forall x. u <= x, a wedge x <= y ==> a wedge f(x) <= y)  ===>  a wedge mu(f)_{>= u} <= y.
 
 * Sei phi : X --> Y ein monotoner Operator, der Suprema erhält.
 
