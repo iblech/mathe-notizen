@@ -109,6 +109,9 @@ Es gilt zumindest für alle s aus X(U): chi_U(s) = U <==> U |== phi[s/x].
   verbunden }. Die beiden Morphismen aus Rel sind die beiden
   Projektionsmorphismen. Denn Koequalizer, Rel und L sind alle geometrisch.
 
+* Auch die Konstruktion "Menge der (Kuratowski-)endlichen Teilmengen"
+  ist geometrisch. Siehe http://www.cs.bham.ac.uk/~sjv/GLiCS.pdf, Seite 10.
+
 * Auch die Konstruktion "Kählerdifferentiale" ist geometrisch.
 
 * Rückzug von Örtlichkeiten funktioniert, ist aber nicht ganz trivial:
