@@ -1040,6 +1040,17 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   3 ==> 1 folgt sofort, da A sich als A/(e) oplus A/(1-e) zerlegt und A flach
   ist.
 
+* Sei phi : A --> B flach. Dann sind äquivalent (Qing Liu):
+
+  1. phi ist treuflach.
+  2. Spec(phi) ist surjektiv.
+  3. Jedes maximale Ideal von A ist Rückzug eines maximalen Ideals von B.
+
+  Wegen 3. sind insbesondere flache lokale Ringhomos zwischen lokalen Ringen
+  stets treuflach.
+
+  Anders: Spec(phi) ist flach und surjektiv genau dann, wenn phi (flach und)
+  treuflach ist.
 
 
 === Tensorprodukt

@@ -1311,6 +1311,13 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
 * M~ lokal frei <==> M projektiv und endlich erzeugt. Kann man das intern
   zeigen?
 
+* If A is not noetherian but has a finite number of minimal prime ideals (i.e.,
+  the spectrum has a finite number of irreducible components), then it still
+  holds that A/*I* is flat iff Spec(A/I)->Spec(A) is open and closed. Indeed,
+  there is a result due to Lazard [Laz, Cor. 5.9] which states that the
+  flatness of A/*I* implies that I is of finite type in this case.
+  http://mathoverflow.net/questions/208/can-a-quotient-ring-r-j-ever-be-flat-over-r
+
 
 === math.se-Antwort
 

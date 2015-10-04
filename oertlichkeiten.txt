@@ -80,3 +80,15 @@ Sei A eine Menge und X eine Örtlichkeit. Dann sieht die konstante Garbe AA so a
 wobei !(U) = { V | V <= U }.
 
 Man kann nachrechnen, dass AA wirklich eine Garbe ist.
+
+
+=== Literatur
+
+* Klar: Johnstone (zwei Einführungsartikel, Stone Spaces, Elephant)
+
+* http://www.mat.uc.pt/~picado/publicat/Chapter2.pdf
+
+* Non-Hausdorff Topology and Domain Theory: Selected Topics in Point-Set
+  Topology
+
+* Lesen: http://www.degruyter.com/view/j/ms.2015.65.issue-2/ms-2015-0020/ms-2015-0020.xml?format=INT

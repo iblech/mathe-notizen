@@ -8,6 +8,9 @@
   Empfohlen von John Baez. Diskutiert den Zusammenhang zwischen Gödels
   Unvollständigkeitssatz und Delignes Theorem.
 
+* http://www.cs.bham.ac.uk/~sjv/GeoAspects.pdf
+  Ist eine schöne Einführung.
+
 
 === Zusammenhang zwischen [[.]] und |==
 
