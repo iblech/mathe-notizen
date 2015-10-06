@@ -1266,7 +1266,8 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
 
 * Endlich relatives Spektrum als internes Spektrum verstehen.
   Spec(O_X) ist vielleicht nicht unbedingt der Punkt (sollte er aber sein!),
-  aber zumindest ein lokaler Raum.
+  aber zumindest ein lokaler Raum. Juhu! Verstanden! Spec(O_X) ist nicht und
+  soll nicht der Punkt sein.
 
 * Sei E --> X ein topologisches Vektorbündel.
   Dann kann man seine Projektivierung konstruieren: P(E) --> X.
@@ -1288,7 +1289,7 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
   die nur über relative DVRs quantifiziert.
 
 * X qc, O_{X,x} reduziert für alle abgeschlossenen Punkte x ==> O_X reduziert.
-  Wie intern zeigen?
+  Wie intern zeigen? Welche Modalität fasst "für alle abgeschlossenen Punkte"?
 
 * Was ist ein Geradenbündel "mit einer Trivialisierung beim generischen Punkt",
   und wie schlägt sich das intern nieder?
@@ -1317,6 +1318,9 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
   there is a result due to Lazard [Laz, Cor. 5.9] which states that the
   flatness of A/*I* implies that I is of finite type in this case.
   http://mathoverflow.net/questions/208/can-a-quotient-ring-r-j-ever-be-flat-over-r
+
+* In kohärenten Topoi sind die kohärenten Objekte genau die lokal endlichen.
+  Oder so ähnlich. Siehe Moerdijk/Vermeulen, Seite 81.
 
 
 === math.se-Antwort

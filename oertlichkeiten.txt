@@ -82,6 +82,15 @@ wobei !(U) = { V | V <= U }.
 Man kann nachrechnen, dass AA wirklich eine Garbe ist.
 
 
+=== Garben auf Örtlichkeiten
+
+http://arxiv.org/pdf/1310.0705.pdf, Seite 101, nach Verweis auf Quelle [49]:
+The sheaves are, first of all, finitary sheaves over the distributive lattice L,
+i.e. those presheaves F that satisfy finite instances of the sheaf pasting
+condition. In addition, they must satisfy a continuity condition that F(a) ∼=
+colim_{a <= a'} F(a').
+
+
 === Literatur
 
 * Klar: Johnstone (zwei Einführungsartikel, Stone Spaces, Elephant)
