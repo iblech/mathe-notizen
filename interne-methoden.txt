@@ -625,7 +625,7 @@ Sei j eine Lawvere-Tierney-Topologie.
   Sind jeweils nicht monoton.
 
 * Sei (a -| i) : Sh_j(E) --> E ein Untertopos. Wie kann man daraus j
-  rekonstruieren? Jup, denn:
+  rekonstruieren? So:
 
   1. j(phi) <==> forall psi:Omega. ((j(psi) ==> psi) wedge (phi ==> psi)) ==> psi.
   2. (j(psi) ==> psi) <==> { x : 1 | psi } ist eine j-Garbe, d.h. liegt im

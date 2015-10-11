@@ -750,6 +750,15 @@ muss.
 
   Analoges gilt für Moduln und für Rahmen/distributive Verbände.
 
+* Sei S eine multiplikativ abgeschlossene Menge in einem Ring A. Dann ist
+
+      Sat(S) := { x in A | XXX }
+
+  ihre Saturierung, d.h. die kleinste multiplikativ abgeschlossene und
+  saturierte Menge, welche S umfasst.
+
+  Im Spezialfall S = { f^0, f^1, ... } ist Sat(S) = { x | f in sqrt(x) }.
+
 
 === Lokale Ringe
 

@@ -56,7 +56,7 @@ eine Monade -- die von f frei erzeugte Monade.
 
 * Free Void = Maybe, wobei data Void r = MkVoid.
 
-* Free Identity a = a x N.
+* Free Identity a = a x N. (Writer-Monade)
 
 * Free Pair a = Tree a, wobei data Pair a = Pair a a.
   https://hackage.haskell.org/package/free-3.2/docs/Control-Monad-Free.html
@@ -64,6 +64,43 @@ eine Monade -- die von f frei erzeugte Monade.
 * Free Maybe ist der Partiality-Monad.
 
 * Free (r,__) a = a x [r].
+
+* Algebren für die (endliche-)Listen-Monade sind genau Monoide.
+  Es gibt auch den Funktor F mit F(a) = 1 + a^2.
+  F-Algebren sind dasselbe wie Monoide, nur dass keinerlei Axiome gelten
+  müssen. Wird F sogar zu einer Monade? Nein.
+
+      data F a = Nil | Fork a a
+
+      return x = Fork x x
+      join Nil = Nil
+      join (Fork Nil v)   = v
+      join (Fork u   Nil) = u
+      join (Fork (Fork x y) (Fork a b)) = Fork x b
+
+      1. join (return Nil) = join (Fork Nil Nil) = Nil
+         join (return (Fork x y)) = join (Fork (Fork x y) (Fork x y)) = Fork x y
+      2. join (fmap return Nil) = join Nil = Nil
+         join (fmap return (Fork x y)) = join (Fork (return x) (return y)) = Fork x y
+      3. join . join = join . fmap join? Nein:
+         Unterschied auf Fork (Fork Nil Nil) (Fork (Fork 0 0) Nil).
+         linke  Seite: Nil
+         rechte Seite: Fork 0 0
+
+  Aber ohne das "1 +" passt es natürlich (Reader-Monade). Sei also G(a) = a^2.
+  Dann sind G-Monadenalgebren dasselbe wie Mengen mit einer binären Operation (*)
+  sodass x*x = x und (x*y)*(a*b) = x*b.
+
+  Sei phi :: forall a. [a] -> Free f a ein hypothetischer
+  Monaden-Isomorphismus (also phi . return = return und phi . join = join . phi . map phi).
+  Dann muss gelten:
+
+  * phi [x] = Pure x (denn phi muss mit return verträglich sein).
+  * Wenn phi [] = e, dann:
+    e = phi [] = phi (join []) = join (phi []). (Achtung, ist nicht gleich join e,
+    da phi auf einem anderen Typ aufgerufen wird.)
+    e = phi [] = phi (join [[]]) = join (phi [e]) = join (return e) = e. (Bringt nichts.)
+  * phi [x,y] = phi (join [[x],[y]]) = join (phi [Pure x, Pure y])
 
 Adjunktion: Für alle Funktoren f und Monaden m stehen
 

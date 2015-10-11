@@ -56,6 +56,9 @@ geringten distributiven Verband.
   definieren. Für endliche Überdeckungen erfüllt die vermutlich das
   Verklebeaxiom, für unendliche aber vermutlich nicht.
 
+  Auf jeden Fall kann man intern in Sh(Rad(A)) einfach die konstante Garbe A
+  an J lokalisieren. Das gibt die Strukturgarbe.
+
 * Kurze Memo: Ein Radikalideal ist *nicht* genau dann endlich erzeugt,
   wenn es von der Form sqrt((x_1,...,x_n)) ist. Ein Beispiel ist das
   Radikalideal sqrt((0)) im Ring Z[X_1,...]/(X_1^1,X_2^2,...). Das ist ziemlich
@@ -74,6 +77,25 @@ geringten distributiven Verband.
   mit u_j in a_j und b = bigvee_j (b wedge sqrt((u_j))), also phi(b) =
   bigvee_j phi(b wedge sqrt((u_j))); dann fertig mit der Beobachtung, dass
   b wedge sqrt((u_j)) endlich erzeugt und Teilmenge von a_j ist.
+
+* Die örtlichkeitstheoretischen Punkte von Rad(A) stehen in
+  Eins-zu-Eins-Korrespondenz zu den Filtern in A. Das hat einen tieferen Grund,
+  denn Rad(A) ist die Örtlichkeit zur geometrischen Theorie eines Filters in A;
+  Punkte sind daher Modelle in Set, d.h. tatsächliche Filter in A.
+
+  Explizit sieht die Korrespondenz wie folgt aus:
+
+  Sei F ein Filter in A. Dann ist M := { I | I cap F bewohnt } ein vollständig
+  primer Filter in Rad(A), d.h. ein Punkt von Rad(A).
+
+  Sei umgekehrt M ein vollständig primer Filter in Rad(A). Dann ist
+  F := { x | sqrt(x) in M } ein Filter in A.
+
+  In Primidealsprache gibt es also folgende Korrespondenz:
+
+                Primideale von A  ~~~  Punkte von Rad(A)
+                               p  |->  { I | I cap p^c bewohnt }
+        { x | sqrt(x) \not\in M } <-|  M
 
 
 === Verklebeaxiom in einem Beispiel
@@ -179,7 +201,7 @@ Es gilt in der internen Sprache:
 
 * Spec A |== forall y. xy - 1 in F
   ist äquivalent zu xy - 1 invertierbar für alle y,
-  also zu x in Jac.
+  also zu x in Jac, dem Jacobson-Radikal.
 
   Verfeinert: D(f) |== forall y. xy - 1 in F
   genau dann, wenn f in sqrt(xy - 1) für alle y.
@@ -410,6 +432,33 @@ extern der Menge der offenen Teilmengen von X:
       Spec_int(O_X[f^(-1)]) ~~ Ouv(D(f))
 
       Spec_int(O_X/(f)) ~~ Ouv(V(f))
+
+
+=== Spektrum als universelle Lokalisierung
+
+* Universelle Eigenschaft von Spec(A): A --> O_{Spec(A)} ist
+  die universelle Lokalisierung von A. (Diese Eigenschaft spielt sich in LRL^op
+  oder LRT^op ab.)
+
+* Universelle Eigenschaft von RelSpec_{O_X}(A): A --> O_{RelSpec}
+  ist die universelle Lokalisierung von A mit der Nebenbedingung, dass
+  O_X --> A --> O_RelSpec lokal ist.
+
+* Achtung: Sei B ein lokaler Ring in Spec(A) zusammen mit einem Homo
+  AA --> B. Dann stimmt es im Allgemeinen *nicht*, dass es einen lokalen Homo
+  O_{Spec A} --> B in Spec(A) gibt. Im Allgemein muss man noch mit einer
+  geeigneter topologischen Abbildung zurückziehen.
+
+
+=== Pseudokohärenz
+
+Sei k ein Ring. Ein Radikalideal I in einer k-Algebra A heißt genau dann
+pseudokohärent, wenn
+
+    forall f:k. forall s:A. (f inv. in k ==> s in I) ==> fs in I.
+
+* Sei I ein pseudokohärentes Radikalideal in einer k-Algebra A.
+  Dann ist auch das Urbild von A in k pseudokohärent.
 
 
 === Spektrum von triangulierten Tensorkategorien
