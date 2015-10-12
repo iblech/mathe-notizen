@@ -26,6 +26,9 @@ Heyting-Algebren (CAHA).
 
 * Eine solche Algebra kommt mit einem Positivitätsbegriff.
 
+* Ein Element a in einer Algebra heißt genau dann Atom, wenn: Für jedes
+  Element p mit p <= a ist p genau dann positiv, wenn a <= p.
+
 * Atomisch bedeutet, dass jedes Element Supremum von Atomen, oder äquivalent
   Supremum der Menge aller unterhalb liegenden Atome, ist.
 

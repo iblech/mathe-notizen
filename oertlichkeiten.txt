@@ -9,6 +9,28 @@ Dann ist der zugehörige Kern gegeben durch
 Quelle: XXX
 
 
+=== Offene Unterörtlichkeiten
+
+Sei L der Rahmen einer Örtlichkeit. Sei U in L. Dann ist der Rahmen der offenen
+Unterörtlichkeit zu U zunächst
+
+    { V in L | (U -> V) = V }.
+
+Dieser ist aber isomorph zu
+
+    { W in L | W <= U },
+
+vermöge
+
+    V      |--> V wedge U  und
+    (U->W) <--| W.
+
+Man beachte, dass V |-> V wedge U *kein* Kern auf L ist.
+
+Siehe auch http://www.emis.de/journals/AM/06-4/pultr.pdf für ein paar
+(offensichtliche) Rechenregeln zur Heyting-Implikation.
+
+
 === Kleinste dichte Unterörtlichkeit
 
 * Sh(X_negneg) sollte isomorph sein zu Sh_negneg(X).

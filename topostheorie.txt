@@ -53,6 +53,26 @@ Der geometrische Morphismus ist
   http://ncatlab.org/nlab/show/canonical+topology.)
 
 
+=== Automatische Kovollständigkeit
+
+http://math.stackexchange.com/questions/1474142/finite-limits-exponentiation-and-sub-object-classifiers-imply-finite-co-limits
+
+The idea of Paré's proof, specialized to the case of the topos Set, is the
+following. First, show that Set^op is equivalent to the category of complete
+atomic Heyting algebras (using the contravariant power set functor). (In
+classical logic, you can also say "complete atomic Boolean algebras".)
+
+Then observe that for any index category I, if Set possesses all I-shaped
+limits, then so does the category of complete atomic Heyting algebras.
+Transporting this observation along the equivalence of categories, we see that
+Set possesses all I^op-shaped colimits.
+
+For the general case of an arbitrary topos E, one can mimic these arguments
+using diagrammatic instead of element-based notation. One could also employ the
+internal language (if one makes sure that the reasoning in justifying its use
+is not circular).
+
+
 === Nächste Schritte
 
 * Sind die Garben bezüglich der kanonischen Topologie auf einem Topos E
