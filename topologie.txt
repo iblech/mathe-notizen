@@ -301,6 +301,12 @@ enthalten ist.
   einmal relevant.
 
 
+=== Der Raum der irrationalen Zahlen in [0,1]
+
+... ist homöomorph zu N^N, vermöge unendlicher Kettenbrüche.
+https://topologicalmusings.wordpress.com/2008/08/04/continued-fraction-for-e/
+
+
 === Literatur
 
 * http://www.maths.ed.ac.uk/~tl/topology/topology_notes.pdf
