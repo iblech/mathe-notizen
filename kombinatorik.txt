@@ -48,3 +48,12 @@ Stembridge, A Concise Proof of the Littlewood-Richardson Rule.
 * https://www.union.ic.ac.uk/rcsu/mathsoc/ugc.html
   Es gibt wohl (ko-)homologische Beweise von Sperners Lemma!
   Das sollte interessant sein.
+
+
+=== Auswertung von Determinanten
+
+Evaluating determinants may not be difficult.
+
+Christian Krattenthaler
+Advanced Determinant Calculus
+http://arxiv.org/abs/math/9902004
