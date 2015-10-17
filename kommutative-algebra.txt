@@ -419,8 +419,7 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
   Aber die Freiheit des Kokerns folgt im Allgemeinen nie.
   Das sieht man etwa schon an Z_(2) --> Z_(2), z |--> 2z.
 
-* Ein Hauptideal (f) von A ist genau dann frei vom Rang 1,
-  wenn f regulär ist.
+* Ein Hauptideal (f) von A ist genau dann frei vom Rang 1, wenn f regulär ist.
 
 * Beachte: Familien aus mehr als einem Element in einem nichttrivialen Ring
   können niemals linear unabhängig sein. Leicht: Seien x, y linear unabhängig.
@@ -734,6 +733,14 @@ muss.
   Speziell für S = { f^0, f^1, ...} ist die Lokalisierung also der Kolimes von
 
       M ---> M ---> M ---> ...   (jeweils Multiplikation mit f).
+
+  Insbesondere:
+
+      Hom_A(A[f^(-1)], M) ~~ { (x_0,x_1,...) | x_i in M, x_n = f x_{n+1} }.
+
+* Gehört hier nicht hin, aber trotzdem:
+
+      Hom_A((f), M) ~~ { u in M | forall h:A. hf = 0 ==> hu = 0 }
 
 * Sei (s_i) eine Zerlegung der Eins in einem Ring A. Dann ist A der
   inverse Limes von A[s_i^(-1)] --> A[s_i^(-1), s_j^(-1)]. (Sagt Lombardi in

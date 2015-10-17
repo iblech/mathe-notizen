@@ -460,6 +460,25 @@ pseudokohärent, wenn
 * Sei I ein pseudokohärentes Radikalideal in einer k-Algebra A.
   Dann ist auch das Urbild von A in k pseudokohärent.
 
+* Gibt es eine Klasse von Morphismen, sodass ein Ideal I <= A genau dann
+  pseudokohärent ist, wenn
+
+      Hom(?, I) --> Hom(?, I) ==> Hom(?, I)
+
+  für alle Morphismen aus der Klasse ein Differenzkerndiagramm ist?
+
+  Oder vielleicht mit "? tensor I" statt "Hom(?, I)"?
+
+* Sei A eine quasikohärente O_X-Algebrengarbe in dem kleinen Zariski-Topos
+  eines Schema. Dann ist sqrt(0) <= A schon pseudokohärent.
+
+  Folgerung: Man könnte denken, dass die Äquivalenz
+  
+      I <= A pseudokohärent  <==>  Coh(sqrt(0)) <= I
+
+  gilt. Die Richtung "==>" ist auch sicher erfüllt. Aber "<==" ist im
+  Allgemeinen falsch, wie schon das Beispiel A = O_X (in einem Schema) zeigt.
+
 
 === Spektrum von triangulierten Tensorkategorien
 

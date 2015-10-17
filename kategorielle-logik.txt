@@ -290,6 +290,11 @@ für geometrische Formeln phi über X:
 * ???: Garbe der holomorphen Funktionen. Aus interner Sicht diskret!
 
 
+=== Eigenschaften konstanter Garben
+
+XXX
+
+
 === Lokal konstante Garben
 
 Im effektiven Topos ist der Untertopos der Mengen gerade der Untertopos der
