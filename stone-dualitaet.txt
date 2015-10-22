@@ -19,6 +19,51 @@ Ein Element a \in A induziert die offenabgeschlossene Teilmenge
     { phi \in St(A) | phi(a) = 1 }.
 
 
+=== Boolsche Ringe
+
+* Ein Ring heißt genau dann boolsch, wenn x^2 = x für alle x.
+
+* Sei U ein "Körper von Teilmengen einer Menge X". Das heißt, dass
+  U eine Teilmenge von P(X) ist, die abgeschlossen unter Vereinigung,
+  Schnitt- und Komplementbildung ist. Dann ist U mit der symmetrischen
+  Differenz als Addition und dem Schnitt als Multiplikation ein boolscher Ring.
+
+* Sei A ein boolscher Ring. Dann gibt es einen injektiven Homo
+
+      A ---> P(Spec A)
+      x |--> { p | x nicht in p }.
+
+  Verträglichkeit mit der Addition sieht man so: Genau dann gilt x+y nicht in
+  p, wenn entweder x nicht in p oder y nicht in p. Denn:
+
+  "==>": Wenn x und y in p lägen, dann läge auch x+y in p. Wenn x und y nicht
+  in p lägen, so läge auch xy nicht in p und somit auch 0 (ein Widerspruch),
+  denn 0 = (x + y) * xy.
+
+  "<==": Ohne Einschränkung liege x nicht in p und y schon in p. Dann liegt x+y
+  nicht in p (wenn doch, so liegt x auch in p, ein Widerspruch).
+
+* Teilmengen der Formen { p | x nicht in p } sind abgeschlossen unter
+  Komplementbildung (betrachte "1-x"), Schnitten (betrachte "xy") und
+  Vereinigungen (folgt aus den ersten beiden, aber explizit: betrachte
+  "1-(1-x)(1-y) = x+y+xy").
+
+  Somit sehen wir: Jeder boolsche Ring ist isomorph zu einem Körper von
+  Teilmengen.
+
+* Inwieweit folgt das aus der abstrakten Stone-Dualität? Vermutlich so:
+  Zunächst sind ja boolsche Ringe und boolsche Algebren dasselbe. Ist A ein
+  boolscher Ring, so liefert Stone-Dualität, dass A isomorph ist zur
+
+      boolschen Algebra der offenabgeschlossenen Teilmengen von
+      Hom_Bool(A, {0,1}).
+
+  Nach den grundlegenden Eigenschaften von boolschen Ringen ist
+  Hom_Bool(A, {0,1}) = Hom_Ring(A, F_2) = Spec(A). Und die offenabgeschlossenen
+  Teilmengen darin sind wohl genau die von der Form D(f) (mit f eindeutig
+  bestimmt!).
+
+
 === Konstruktiv
 
 Die Kategorie Set^op ist äquivalent zur Kategorie der vollständigen atomischen

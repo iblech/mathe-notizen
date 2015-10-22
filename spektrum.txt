@@ -42,6 +42,10 @@ geringten distributiven Verband.
 
 * sqrt(a cap b) = sqrt(a) cap sqrt(b) = sqrt(a * b).
 
+* (a --> b) = (b : a) = { x | xa <= b }.
+  (Für beliebige Ideale, nicht unbedingt Radikalideale, gilt:
+  c <= (sqrt(a) : b)  <==>  c cap b <= sqrt(a).
+
 * Für ein Radikalideal a ist die Menge
 
       Ja := { x | a \subseteq sqrt(x) }

@@ -133,3 +133,9 @@ mit HoTT-Bezug
 
 * Wenn man ein (2n+1)-fach verdrilltes Band der Mitte nach zerschneidet,
   erhält man ein (stark) verknotetes Band.
+
+
+=== Operaden und Tic Tac Toe
+
+http://blog.sigfpe.com/2008/10/operads-and-their-monads.html
+http://bartoszmilewski.com/2015/10/07/operads-type-level-nats-and-tic-tac-toe/
