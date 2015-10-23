@@ -60,8 +60,11 @@ Ein Element a \in A induziert die offenabgeschlossene Teilmenge
 
   Nach den grundlegenden Eigenschaften von boolschen Ringen ist
   Hom_Bool(A, {0,1}) = Hom_Ring(A, F_2) = Spec(A). Und die offenabgeschlossenen
-  Teilmengen darin sind wohl genau die von der Form D(f) (mit f eindeutig
+  Teilmengen darin sind genau die von der Form D(f) (mit f eindeutig
   bestimmt!).
+
+  (Habe nicht geprüft, dass die sich ergebende Topologie auf Spec(A) die
+  vertraute Zariski-Topologie ist.)
 
 
 === Konstruktiv

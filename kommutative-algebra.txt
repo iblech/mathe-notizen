@@ -228,6 +228,64 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   falls der Grundkörper algebraisch abgeschlossen ist.
 
 
+=== Polynomringe
+
+* Sei A ein Ring. Sei A[X] ein bézoutscher Ring (endlich erzeugte Ideale
+  sind Hauptideale). Dann hat A folgende Eigenschaft: Aus regulär folgt
+  invertierbar.
+
+  Denn sei a in A regulär. Da (a,X) ein Hauptideal ist, gibt es Polynome d, f,
+  g, h, p mit
+
+      d = f a + g X,
+      X = h d,
+      a = p d.
+
+  Setzt man für X 0, so erhält man
+
+      d(0) = f(0) a,
+      0    = h(0) d(0),
+      a    = p(0) d(0).
+
+  Da a regulär ist, ist auch d(0) regulär. Somit ist h(0) = 0.
+  Also ist h = X h' für ein h', und aus der Gleichung X = h d folgt
+  1 = h' d. Setzt man wieder 0 für X ein, so erhält man 1 = h'(0) d(0).
+  Also ist d(0) invertierbar. Damit ist auch a invertierbar.
+
+* Allgemein gilt wohl: Genau dann ist A[X] ein Hauptidealring, wenn
+  A ein Produkt von Körpern ist.
+  http://math.stackexchange.com/questions/91587/ring-of-polynomials-is-a-principal-ideal-ring-implies-coefficient-ring-is-a-fiel
+  http://math.stackexchange.com/questions/361258/in-a-principal-ideal-ring-is-every-nonzero-prime-ideal-maximal
+
+  Die Hinrichtung geht so. Wir zeigen, dass A --> prod_m A/m ein Iso ist.
+  Zur Injektivität sei ein a aus A gegeben, welches in allen maximalen Idealen
+  liegt. Sei also 1-ab für alle b aus A invertierbar. Wir zeigen, dass a = 0.
+  Das können wir halmweise testen. Wir dürfen also annehmen, dass A lokal ist.
+  ...???
+
+  Zumindest ist klar: Sei A ein lokaler Ring, sodass A[X] bézoutsch ist.
+  Dann ist A ein Körper in dem Sinn, als dass nicht-invertierbare Elemente
+  schon Null sind. Denn:
+
+  Sei a in A nicht invertierbar. Da (a,X) ein Hauptideal ist, gibt es Polynome
+  d, f, g, h, p mit
+
+      d = f a + g X,
+      X = h d,
+      a = p d.
+
+  Aus 1 = h_0 d_1 + h_1 d_0 folgt, da A lokal ist, dass h_0 d_1 oder h_1 d_0
+  invertierbar ist. Im letzten Fall folgt, dass a invertierbar ist; das kann
+  nicht sein. Im ersten Fall folgt, dass d_0 = 0 und somit a = 0.
+
+* Ferner gilt: Genau dann ist A[X] ein bézoutscher *Bereich*, wenn A ein
+  Körper ist.
+
+  Die Rückrichtung ist klar (Polynomdivision).
+  Bei der Hinrichtung folgt zunächst, dass A ebenfalls ein Integritätsbereich
+  ist. Außerdem sind reguläre Elemente invertierbar. Somit ist A ein Körper.
+
+
 === Projektoren (Idempotente)
 
 * Sei phi : V --> V ein Projektor (ein idempotenter Morphismus) in einer
