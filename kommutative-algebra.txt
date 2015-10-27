@@ -285,6 +285,14 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   Bei der Hinrichtung folgt zunächst, dass A ebenfalls ein Integritätsbereich
   ist. Außerdem sind reguläre Elemente invertierbar. Somit ist A ein Körper.
 
+* Über dem Ring Z[A_0,...]/(A_0^2,...) hat die Potenzreihe f = sum_i A_i X^i
+  zwar nilpotente Koeffizienten, sie ist aber selbst nicht nilpotent. Denn
+  der Koeffizient von X^(n*(n+1)/2) in f^(n+1) ist
+
+      (n+1)! * A_0 ... A_n,
+
+  also nicht Null. (Von Matthias Schlüter.)
+
 
 === Projektoren (Idempotente)
 
