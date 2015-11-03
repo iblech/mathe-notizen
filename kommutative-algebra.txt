@@ -293,6 +293,23 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 
   also nicht Null. (Von Matthias Schlüter.)
 
+* Der Wurzelinhalt eines Polynoms f = sum_i a_i X^i ist c(f) := sqrt((a_i)_i).
+  Man kann auch für Teilmengen M von A[X] definieren: c(M) := sqrt(sum_{f in M} c(f)).
+
+  Dann kann man zeigen:
+  * c(fg) = c(f) * c(g).
+  * c(f + g) <= sqrt(c(f) + c(g)).
+  * c(M) = c((M))  (erzeugtes Ideal).
+  * c(sqrt(I)) = c(I).
+  * c(I * J) = c(I cap J) = c(I) cap c(J) = c(I) * c(J).
+
+  So wird also ein Rahmenhomo Rad(A[X]) --> Rad(A) bzw. eine stetige Abbildung
+  Spec(A) --> Spec(A[X]) definiert. Auf Punkten schickt diese ein Primideal p
+  auf p[X].
+
+  Steht auch in Banaschewski, Polynomials and radical ideals,
+  http://www.sciencedirect.com/science/article/pii/0022404995001492 (Prop. 2).
+
 
 === Projektoren (Idempotente)
 
