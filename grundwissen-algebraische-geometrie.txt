@@ -395,8 +395,8 @@ darauf gestoßen.
   und x ein Punkt von X.
   Ist x abgeschlossen, so ist k --> k(x) ein Iso.
   (Denn k(x) ist dann ein Quotient von O_X(U) (für eine geeignete affinoffene
-  Teilmenge U) modulo einem maximalen Ideal und daher eine endliche Erweiterung
-  von k.)
+  Teilmenge U) modulo einem maximalen Ideal ("A/m") und daher eine endliche Erweiterung
+  von k. Das "daher" wird im Liu, Kor. 2.1.12 auf Seite 30 begründet.)
 
   [Gegenbeispiel, falls k nicht algebraisch abgeschlossen: (X^2 + 1) in A^1_R.]
 
