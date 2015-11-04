@@ -227,6 +227,29 @@ Es gilt in der internen Sprache:
   2. D(f) |== I Ideal.
 
 
+=== Spektrum als Lindenbaum-Algebra einer propositionalen geometrischen Theorie
+
+Atomare Propositionen sind: "x in F" für x in A.
+
+Axiome (eigentlich Axiomschemata):
+
+1. top        |- 1 in F.
+2. ab in F  -||- a in F und b in F.
+3. a+b in F   |- a in F oder b in F.
+4. 0 in F     |- bot.
+
+Gibt es eine Möglichkeit, Minimalität des Filters F als geometrische
+Implikation zu formulierenn? Ein Vorschlag:
+
+    x in F und bigwedge_u (ux-1 in F) |- bot.
+
+Wenn die Konjunktion endlich ist, ist das eine geometrische Implikation.
+
+Komische Situation: Ich weiß ja, dass MaxSpec A ein Teilraum von Spec A ist.
+Also muss es auch einen Kern auf dem Rahmen von Spec A geben, sodass die
+zugehörige Unterörtlichkeit MaxSpec A ist.
+
+
 === Unterschemata
 
 * Eine interessante Aussage ist: Spec A |== b \in i_* Z,
