@@ -58,6 +58,12 @@ Sei S = k[x_0,...,x_n]. Habe S --> k durch Auswertung bei (0,...,0).
   mit s_1 ... s_n M = 0, also s_1 ... s_n in Ann(M) <= p. Widerspruch.
 
 
+=== Ein Primidealprinzip
+
+Lam, Reyes. A prime ideal principle in commutative algebra.
+https://math.berkeley.edu/~lam/html/JAlg-PIP.pdf
+
+
 === Dualer Vektorraum
 
 Sei V ein Vektorraum über einem Körper F und dim(V) = infty.
@@ -355,6 +361,11 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 === Ideale
 
 * a cap b = a * b, falls a + b = (1).
+
+* a cap b = sqrt(a * b), falls a und b Radikalideale sind.
+  ">=" ist klar. "<=" auch.
+
+* (a + b)^n = sum_{i+j=n} a^i b^j.
 
 * Hom_R(R/I, R/I) = R/I als R- und als R/I-Moduln.
 
