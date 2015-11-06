@@ -64,6 +64,19 @@ Lam, Reyes. A prime ideal principle in commutative algebra.
 https://math.berkeley.edu/~lam/html/JAlg-PIP.pdf
 
 
+=== Jacobsonsches Radikal
+
+* Das jacobsonsche Radikal j ist der Schnitt über alle maximale Ideale.
+  Klassisch gilt: j = { x | 1 - xy inv. für alle y }.
+
+* Ein Ring heißt genau dann jacobsonsch, wenn jedes Primideal Schnitt
+  von maximalen Idealen ist.
+
+* Jede endlich erzeugte Algebra über einem (nicht notwendermaßen algebraisch
+  abgeschlossenen) Körper ist jacobsonsch. Das sagt Hilberts Nullstellensatz.
+  Siehe Götz/Wedhorn, Thm. 1.7, Seite 10.
+
+
 === Dualer Vektorraum
 
 Sei V ein Vektorraum über einem Körper F und dim(V) = infty.
