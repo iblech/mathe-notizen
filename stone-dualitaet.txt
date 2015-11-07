@@ -51,6 +51,16 @@ Ein Element a \in A induziert die offenabgeschlossene Teilmenge
   Somit sehen wir: Jeder boolsche Ring ist isomorph zu einem Körper von
   Teilmengen.
 
+* Die Homos A --> P(Spec A) setzen sich zu einer natürlichen Transformation
+  Id ==> P . Spec zusammen (von BoolRing nach BoolRing), und zwar zu der
+  einzigen von diesem Typ.
+
+  Das kann man so beweisen: Sei x aus A beliebig. Sei p ein beliebiges
+  Primideal. Dann haben wir einen Homo pi : A --> A/p ~~ F_2. Das
+  Natürlichkeitsdiagramm bezüglich pi zeigt:
+
+      x in p  <==>  p nicht in eta_A(x).
+
 * Inwieweit folgt das aus der abstrakten Stone-Dualität? Vermutlich so:
   Zunächst sind ja boolsche Ringe und boolsche Algebren dasselbe. Ist A ein
   boolscher Ring, so liefert Stone-Dualität, dass A isomorph ist zur
