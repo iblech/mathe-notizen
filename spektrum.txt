@@ -250,6 +250,84 @@ Also muss es auch einen Kern auf dem Rahmen von Spec A geben, sodass die
 zugehörige Unterörtlichkeit MaxSpec A ist.
 
 
+=== MaxSpec (das Spektrum bestehend aus maximalen Idealen)
+
+* MaxSpec(A) ist im Allgemeinen nicht nüchtern. Man denke etwa in
+  MaxSpec(Z) an den vollständig primen Filter { U | U bewohnt },
+  der nicht von der Form { U | m in U } für ein maximales Ideal m ist.
+
+* Der Raum der fast maximalen Primideale, AlmostMaxSpec(A), ist schon
+  nüchtern. Er ist der Raum der Punkte von Jad(A) (siehe unten).
+
+* Die Nüchternifizierung von MaxSpec(A) ist AlmostMaxSpec(A).
+  Denn wenn man den Kern für MaxSpec(A) herleitet, erhält man den von
+  AlmostMaxSpec(A).
+
+* Ein Ideal I heißt genau dann "fast maximal", wenn es Schnitt
+  von maximalen Idealen ist. Das ist genau dann der Fall, wenn in A/I das
+  jacobsonsche Radikal Null ist. Oder äquivalent:
+
+      (forall h. exists u. (1 - xh)u - 1 in I) ==> x in I.
+
+* Die Zuordnung I |-> I^ mit
+
+      I^ := { x | forall h. exists u. (1 - xh)u - 1 in I }
+          = { x | forall h. 1 - xh invertierbar in A/I }
+          = { x | x liegt im jacobsonschen Radikal von A/I }
+          = bigcap_{m maximal, I <= m} I
+
+  ist ein Kern auf Rad(A). Die entstehende Unterörtlichkeit nenne ich Jad(A).
+
+  (Zum Vergleich: sqrt(I) = bigcap_{p prim, I <= p} I.)
+
+  Aus Johnstone (Almost maximal ideals) kann man herauslesen:
+
+      I^ = { x | forall h. (x,h) = (1) ==> exists u. (h,u) = (1) }
+
+  Speziell:
+
+      jac = (0)^ = { x | forall h. (x,h) = (1) ==> h inv. }.
+
+* Der Raum der Punkte von Jad(A) ist der Raum der fast maximalen Primideale.
+
+  Sei F ein vollständiger primer Filter in Jad(A).
+  Dann ist p := { x | (x)^ nicht in F } ein fast maximales Primideal.
+  Die Fast-Maximalität zeigt man so: Sei x in p^. Angenommen x nicht in p.
+  Dann (x)^ in F. Somit:
+
+      (x)^ = (x)^ cap p^ = ((x) * p)^ = bigvee_{(a)^ nicht in F} (ax)^ in F.
+
+  Das bigvee ist in Jad. Da F vollständig prim ist, gibt es ein (a)^ nicht in F
+  mit (ax)^ in F. Das kann nicht sein.
+
+  Sei p ein fast maximales Primideal.
+  Dann ist F := { J | J cap p^c bewohnt } ein vollständig primer Filter.
+
+* Kann man Fast-Maximalität als geometrische Implikation formulieren?
+  "Ja." Man muss für jedes x in A und jede Funktion u : A --> A
+  folgendes Axiom hinzufügen:
+
+      x in p^c |- bigvee_{h in A} ((1 - hx) u(h) - 1) in p^c.
+
+  Dann kann man klassisch (!) zeigen, dass die Örtlichkeit der entstehenden
+  Theorie gleich Jad(A) ist. Aber konstruktiv geht es nicht.
+
+* In MaxSpec(A) und AlmostMaxSpec(A) gilt: D(f) <= D(g) genau dann, wenn
+  f in (g)^. Denn:
+
+         D(f) <= D(g)
+    <==> forall m. f nicht in m ==> g nicht in m
+    <==> forall m. g in m ==> f in m
+    <==> f in bigcap_{m, g in m} m
+    <==> f in (g)^.
+
+  Es spielt keine Rolle, ob die Quantifikation über alle maximalen Ideale geht,
+  über alle fast maximalen Primideale oder sogar über alle fast maximalen
+  Ideale.
+
+* AlmostMaxSpec(A) ist kompakt. (Denn I^ = (1) nur dann, wenn schon I = (1).)
+
+
 === Unterschemata
 
 * Eine interessante Aussage ist: Spec A |== b \in i_* Z,
