@@ -170,9 +170,10 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 
 * D(f) ist genau dann leer, wenn f nilpotent ist.
 
-* Seien p <= q Primideale. Sei q Element einer offenen Teilmenge von U.
+* Seien p <= q Primideale. Sei q Element einer offenen Teilmenge U.
   Dann ist auch p Element von U. (Schreibe U als Vereinigung standardoffener
-  Teilmengen.)
+  Teilmengen. Oder so: Angenommen nicht. Dann p in U^c. Also auch cl{p} <= U^c.
+  Also q in U^c. Widerspruch.)
 
 * Seien p_1, ..., p_n Primideale, die alle in einer offenen Teilmenge U
   enthalten sind. Dann gibt es eine standardoffene Teilmenge D(f)
