@@ -26,6 +26,13 @@ In vielen Zugängen gilt "negneg (x = 0) ==> x = 0", etwa bei den dedekindschen
 reellen Zahlen oder bei Taos cheap nonstandard analysis.
 http://terrytao.wordpress.com/2012/04/02/a-cheap-version-of-nonstandard-analysis/
 
+Bei den dedekindschen Zahlen sieht man das so: Sei alpha ein Cauchy-Prozess.
+Sei x eine epsilon-Näherung. Wir wollen zeigen, dass |x| <= 2 epsilon --
+unter der Voraussetzung, dass nicht nicht alpha gleich Null ist.
+
+Wäre |x| > 2 epsilon, so wäre nicht alpha gleich Null. Widerspruch.
+Also |x| <= 2 epsilon.
+
 
 === Unterringe der dedekindschen reellen Zahlen in Sh(X)
 

@@ -565,6 +565,14 @@ pseudokohärent, wenn
 * Sei I ein pseudokohärentes Radikalideal in einer k-Algebra A.
   Dann ist auch das Urbild von A in k pseudokohärent.
 
+  Allgemeiner: Sei phi : A --> B ein Morphismus von k-Algebren.
+  Sei I <= B ein pseudokohärentes Radikalideal. Dann ist auch phi^(-1)[I]
+  pseudokohärent. Denn:
+
+      Sei f : k. Sei s : A. Gelte (f inv. ==> phi(s) in I).
+      Dann folgt f^n phi(s) in I, also phi(f^n s) in I.
+      Also f^n s in phi^(-1)[I].
+
 * Gibt es eine Klasse von Morphismen, sodass ein Ideal I <= A genau dann
   pseudokohärent ist, wenn
 
