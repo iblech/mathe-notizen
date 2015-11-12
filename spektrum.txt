@@ -538,6 +538,17 @@ extern der Menge der offenen Teilmengen von X:
 
       Spec_int(O_X/(f)) ~~ Ouv(V(f))
 
+  Jup, tut's.
+
+* Sei A eine k-Algebra. Sei k ein lokaler Ring. (Zum Beispiel die Strukturgarbe
+  eines Schemas.) In Spec(A) gibt es ja einen modalen Operator Box, der
+  Spec(A|k) ausschneidet (also das richtige relative Spektrum). Kann man den
+  in der internen Sprache von Spec(A) charakterisieren?
+
+  Ein Vorschlag lautet:
+
+      Box(phi)  <==>  1 in Coh{1|phi} <= A_. (Oder k_?)
+
 
 === Spektrum als universelle Lokalisierung
 
@@ -591,6 +602,28 @@ pseudokohärent, wenn
 
   gilt. Die Richtung "==>" ist auch sicher erfüllt. Aber "<==" ist im
   Allgemeinen falsch, wie schon das Beispiel A = O_X (in einem Schema) zeigt.
+
+* Sei A quasikohärent auf einem Schema (vielleicht geht's auch allgemeiner).
+  Dann ist A Box-separiert, wobei
+
+      Box phi = (1 in Coh { 1 | phi } <= A).
+
+  Zeige dazu für s:A mit Induktion:
+
+      forall n. forall x:A. x in J_n ==> exists m. x^m s = 0.
+
+  Dabei ist J_n aus der Konstruktion von Coh { 1 | s = 0 }. Der Beweis geht so:
+
+  * Induktionsanfang n = 0: x ist nilpotent oder s = 0.
+  * Induktionsschritt: Sei x^l = sum_i f_i s_i mit (f_i inv ==> s_i in
+    (vorher)). Also (f_i inv ==> bigvee_{l_i} s_i^{l_i} s = 0).
+    Diese Vereinigung ist gerichtet, also können wir das bigvee nach vorne
+    ziehen. Da außerdem A quasikohärent ist, folgt: f_i^{m_i} s_i^{l_i} s = 0.
+    Sei N das Maximum aller m_i und l_i. Eine hinreichend hohe Potenz von x ist
+    dann von der Form sum_i ??_i (f_i s_i)^N. Diese annihiliert s.
+
+  Vielleicht ist ein Modul genau dann quasikohärent, wenn er eine Box-Garbe
+  ist. Das habe ich nicht mehr weiter untersucht.
 
 
 === Spektrum von triangulierten Tensorkategorien
