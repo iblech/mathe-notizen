@@ -601,9 +601,35 @@ Sei M eine quadratische Matrix über einem Ring.
   formuliert hätte.
 
 * Es gilt aber (http://www2.math.uu.se/~palmgren/symposium_constructivity_computability/Coquand.pdf, Folie 22):
-  
+
   Eine (n x m)-Matrix A mit n <= m ist genau dann injektiv, wenn Delta_n(A)
   (wohl das Ideal ihrer n-Minoren) regulär ist.
+
+  Insbesondere: Eine quadratische Matrix ist genau dann injektiv, wenn ihre
+  Determinante regulär ist.
+
+  "<==": Sei Ax = 0. Dann auch ad(A) A x = 0, also det(A) x = 0, also x = 0.
+
+  "==>": Sei det(A) a = 0. Dann auch det(A) [a,...,a] = 0. Damit ad(A) A [a,...,a] = 0.
+  Und jetzt? Hilft (1) >= (Lambda^1 A) >= ... >= (Lambda^n A) >= (0)?
+
+  Schick geht es so: Die Matrix A ist genau dann injektiv, wenn ihre Spalten
+  (u_i)_i linear unabhängig sind. Das ist genau dann der Fall [*], wenn in
+  Lambda^n(A) aus a * (u_1 wedge ... wedge u_n) = 0 schon a = 0 folgt.
+  Da Lambda^n(A) von e_1 wedge ... wedge e_n frei erzeugt wird, ist das
+  äquivalent zur Regularität von det(A).
+
+  Zu [*], "<==": Sei sum_i a_i u_i = 0. Dann gilt:
+  
+      0 = u_1 wedge ... wedge sum_i a_i u_i wedge ... wedge u_n,
+
+  also a_i (u_1 wedge ... wedge u_n). Also a_i = 0.
+
+  Zu [*], "==>": Siehe Bourbaki, Algebra I, Chapters 1 bis 3, Seite 519.
+
+  Siehe auch
+  http://math.stackexchange.com/questions/71740/necessary-and-sufficient-condition-for-trivial-kernel-of-a-matrix-over-a-commuta und
+  http://math.stackexchange.com/questions/161523/does-an-injective-endomorphism-of-a-finitely-generated-free-r-module-have-nonzer.
 
 
 === Quotientenmoduln
@@ -1139,11 +1165,24 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
     kompatible a_phi : F_phi --> V für alle phi : F --> M gegeben.
     Definiere psi : M --> V durch x |-> a_phi(u), wobei phi : F --> M
     beliebig mit der Eigenschaft phi(u) = x ist. Das ist wohldefiniert.
+  * Die Filtriertheit des Diagramms sieht man so.
+    Obere Schranke für (A^n --> M) und (A^m --> M) ist (A^{n+m} --> M).
+    Ein Möchtegernkokern für
+
+        A ---a---> A^m
+         \      /
+          \    / x^T
+           d  v
+             M
+
+    ist (A^m --B^T--> A^r) mit (A^r --n^T--> M), wobei B und n so, dass
+    a^T B = 0 und x = B n.
 
   Das nLab führt folgenden Beweis an: Betrachte die Partialordnung aller
   (Kuratowski-)endlichen Mengen (nicht Familien!) von Elementen in M. Diese ist
   filtriert (d.h. gerichtet) und induziert das Diagramm (X <= M) |-> R<X>.
-  Es ist M ein Kolimes dieses Diagramms.
+  Es ist M ein Kolimes dieses Diagramms. Ich sehe aber nicht, wie das klappen
+  soll (wie man die universelle Eigenschaft nachweisen soll).
 
 * Sei J endlich erzeugt. Dann sind äquivalent:
 

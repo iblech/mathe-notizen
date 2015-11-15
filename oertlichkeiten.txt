@@ -14,11 +14,11 @@ Quelle: XXX
 Sei L der Rahmen einer Örtlichkeit. Sei U in L. Dann ist der Rahmen der offenen
 Unterörtlichkeit zu U zunächst
 
-    { V in L | (U -> V) = V }.
+    { V in L | (U -> V) = V }  (mit bot, top, wedge, "U --> bigvee").
 
 Dieser ist aber isomorph zu
 
-    { W in L | W <= U },
+    { W in L | W <= U }  (mit bot, U, wedge, bigvee),
 
 vermöge
 

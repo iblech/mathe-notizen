@@ -1122,6 +1122,12 @@ sehr gut lesbar!
   man sich Morphismen aus allen Spec(A), A lokal, an, erhält man die Halme der
   Strukturgarbe.
 
+* Produkte in RS sind für Schemata dieselben wie die in RL.
+
+  Das folgt mit II 2.13 aus Johnstones Stone spaces. Das sagt:
+  Seien X und Y nüchterne topologische Räume. Sei X sogar lokal kompakt.
+  Dann ist O(X x Y) = O(X) x O(Y).
+
 
 === Referenzen
 

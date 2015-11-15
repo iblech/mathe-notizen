@@ -59,6 +59,9 @@ geringten distributiven Verband.
 
   definieren. Für endliche Überdeckungen erfüllt die vermutlich das
   Verklebeaxiom, für unendliche aber vermutlich nicht.
+  Update: Für standardoffene Überdeckungen (auch unendliche) ist das
+  Verklebeaxiom erfüllt. Aber dann nicht für beliebige. Man sollte man explizit
+  ein Gegenbeispiel mit A^2 \ {0} vorführen!
 
   Auf jeden Fall kann man intern in Sh(Rad(A)) einfach die konstante Garbe A
   an J lokalisieren. Das gibt die Strukturgarbe.
@@ -532,13 +535,82 @@ extern der Menge der offenen Teilmengen von X:
 * Analog könnte man Rad_qcoh(A) und so Spec_int(A) definieren.
   Erfüllt das die richtigen Eigenschaften?
 
-* Prüfe, ob für das so definierte interne Spektrum gilt:
+* Für das so definierte interne Spektrum gilt:
 
-      Spec_int(O_X[f^(-1)]) ~~ Ouv(D(f))
+      Spec_int(O_X[f^(-1)]) ~~
+          Ouv(D(f)) = { phi : Omega | (f inv. ==> phi) ==> phi }
 
-      Spec_int(O_X/(f)) ~~ Ouv(V(f))
+      Spec_int(O_X/(f)) ~~
+          Ouv(V(f)) = { phi : Omega | (f inv. vee phi) <==> phi }
+                    = { phi : Omega | f inv. ==> phi }
 
-  Jup, tut's.
+  Die Isos sehen jeweils so aus: J |-> (1 in J), phi |-> bigvee { (1) | phi }.
+  Konkret ist das zugehörige pseudokohärente Radikalideal zu einem
+  Wahrheitswert phi im ersten Fall
+
+      J = { x in O_X[f^(-1)] | x inv. ==> phi }
+
+  und im zweiten Fall
+
+      J = { x in O_X/(f) | x inv. ==> (f inv. vee phi) }.
+
+  Da ([h] inv. <==> h inv. vee f inv.), spielt es keine Rolle, ob hier "x inv."
+  in O_X/(f) oder in O_X gelesen wird.
+
+* Das pseudokohärente Spektrum ist nicht im Allgemeinen kompakt. (Es ist
+  auch Spec_X(A) --> X im Allgemeinen nicht topologisch eigentlich. Das
+  würde das ja bedeuten.)
+
+  Aber es gilt: Sei I eine (externe) gerichtete Menge. Sei A eine O_X-Algebra
+  über einem Schema. Wird dann durch Spec_rel(A) durch eine I-indizierte
+  Familie von Offenen überdeckt, so genügt schon ein einzelnes Offenes.
+
+  Das zeigt man mit einem Induktionsbeweis der Behauptung
+
+      forall m. forall h:O. forall s:A.
+          (h inv. ==> s in J^m) ==> hs in J_alpha für ein alpha.
+
+  Dabei Coh(bigcup_alpha J_alpha) =: bigcup_{m >= 0} J^m.
+
+* Hier eine völlig explizite Begründung, dass Spec^rel im Allgemeinen nicht
+  kompakt ist.
+
+  1. Kompakte Örtlichkeiten haben auch die Frobeniusreziprozitätseigenschaft.
+  2. Spec^rel(O_X[f^(-1)]) ist isomorph zu { phi : Omega | phi ==> f inv. }.
+  3. Diese Örtlichkeit besitzt die Frobeniusreziprozitätseigenschaft genau dann,
+     wenn f nilpotent oder invertierbar ist.
+
+  Die Frobeniusreziprozitätsbedingung für { phi : Omega | phi ==> f inv. }
+  besagt:
+
+      forall phi mit (phi ==> f inv.). forall psi.
+          (f inv. ==> phi v psi) ==> ((f inv. ==> phi) v psi).
+
+  Dazu äquivalent ist:
+
+      forall phi, psi.
+          (f inv. ==> (phi wedge f inv.) v psi) ==> ((f inv. ==> (phi wedge f inv.)) v psi).
+
+  Das wiederum ist äquivalent zu:
+
+      forall phi, psi.
+          (f inv. ==> phi v psi) ==> ((f inv. ==> phi) v psi).
+
+  Falls f nilpotent oder invertierbar ist, gilt das (hier geht 0 != 1 in O_X
+  ein). Umgekehrt erhält man gerade diese Bedingung durch die Instanz
+
+      phi := bot,  psi := (f inv.)
+
+  (hier geht die Beinahe-Körpereigenschaft von O_X ein). (Über beliebigen LRL
+  kann es also noch allgemeinere Möglichkeiten geben, dass dieses Spektrum die
+  Frobeniusreziprozitätseigenschaft hat.)
+
+* Da das pseudokohärente Spektrum im Allgemeinen nicht kompakt ist, ist klar:
+  Es gibt keine Möglichkeit, dass pseudokohärente Spektrum als ein gewöhnliches
+  anzusehen.
+
+
+=== Interne Charakterisierung des modalen Operators fürs pseudokohärente Spektrum
 
 * Sei A eine k-Algebra. Sei k ein lokaler Ring. (Zum Beispiel die Strukturgarbe
   eines Schemas.) In Spec(A) gibt es ja einen modalen Operator Box, der
@@ -633,6 +705,34 @@ The spectrum of prime ideals in tensor triangulated categories.
 http://arxiv.org/pdf/math/0409360v2.pdf
 
 
+=== Sichtpunkt von klassifizierendenden Topoi
+
+* Die Angabe eines Filters in A ist gleichbedeutend zur Angabe
+  einer Lokalisierung von A bis auf Isomorphie.
+
+* Sei f : Zar(A) --> Spec(A) durch die Lokalisierung O_{Spec A}~ von A
+  (also T -mu-> Spec(A) |-> Gamma(mu^(-1) O_{Spec A})) gegeben.
+
+* Sei g : Spec(A) --> Zar(A) durch die lokale A-Algebra O_{Spec A} gegeben.
+
+* Dann ist (f^* . g^*)(A^1) = f^*(O_{Spec A}) = O_{Spec A}~.
+
+
+=== Pseudokohärentes Spektrum als gewöhnliches Spektrum
+
+* Es kann (im Allgemeinen) kein Ideal J_0 geben, sodass für alle
+  Radikalideale J <= A gilt: J ist genau dann pseudokohärent, wenn J_0 <= J.
+
+  Denn: Wenn es ein solches Ideal J_0 gibt, dann tut's sqrt(J_0) auch. Also
+  können wir ohne Einschränkung davon ausgehen, dass J_0 ein Radikalideal ist;
+  somit sqrt(0) <= J_0. Andererseits folgt J_0 <= Coh(0).
+
+  Im Spezialfall, dass A eine quasikohärente O_X-Algebra auf einem Schema ist,
+  ist Coh(0) = sqrt(0), also J_0 = sqrt(0). Von diesem J_0 wissen wir aber,
+  dass es die gewünschte Bedingung nicht erfüllt (denke A = O_X, X nicht
+  nulldimensional).
+
+
 === Nächste Schritte
 
 * Produziere explizites Gegenbeispiel für vermutlich falsche Behauptung,
@@ -643,3 +743,32 @@ http://arxiv.org/pdf/math/0409360v2.pdf
   irgendwas interessantes sein. Was?
 
 * Universelle Eigenschaft über Örtlichkeiten formulieren!
+
+* Naive Definition der Strukturgarbe, welche ja falsch ist, durch ein
+  explizites Beispiel ein für alle Mal erledigen.
+
+* Was passiert, wenn man zusätzlich zu den D(x) noch V(x) als offene
+  Erzeuger dazu nimmt? (Und die Primidealaxiome fordert.) Vielleicht sogar mit
+  dem Axiom
+
+        top |- V(x) vee bigvee_y V(xy-1)?
+
+  Erhält man dann die konstruierbare Topologie? (Auf Spec(A) oder MaxSpec(A).)
+  Zumindest erfüllt die konstruierbare Topologie diese Relationen ebenfalls.
+  Und jede Formel ist äquivalent zu einer der Form
+
+      bigvee_i (D(x_i) wedge bigwedge_{j=1}^{n_i} V(y_ij)).
+
+  Und FAST auch zu einer der Form
+
+      bigwedge_{j=1}^n (bigvee_i D(x_ji) vee V(y_j)).
+
+  FAST, da für Abgeschlossenheit dieser Formeln unter bigvee unendliche Stränge
+  von bigwedge's erlaubt sein müssten.
+
+  * D(x) cap V(y_1) cap ... cap V(y_n) <=
+      bigcap_j (bigvee_i D(a_ji) cup V(b_j))  genau dann, wenn
+        für alle j: x b_j in sqrt((y_k)_k + (a_ji)_i).
+
+* Ist Caramellos Bedingung für Zugehörigkeit eines Primideals
+  zu AlmostMaxSpec(A) äquivalent zu meiner? Müsste ja so sein.
