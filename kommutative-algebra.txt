@@ -382,6 +382,23 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 
 * Hom_R(R/I, R/I) = R/I als R- und als R/I-Moduln.
 
+* Eine allgemeine Version des chinesischen Restsatzes: Seien I und J
+  Ideale. Dann haben wir eine kurze exakte Sequenz
+
+      0 --> A/(I cap J) --> A/I oplus A/J --> A/(I + J) --> 0.
+                      f |-> (f,f)   (f,g) |-> f-g
+
+  Injektivität vorne ist klar. Surjektivität hinten auch. Exaktheit in der
+  Mitte so: Seien (f,g) mit f - g in I + J, d.h. f - g = u + v mit u in I und v in J.
+  Dann ist g + v = g + u + v = g + (f - g) = f mod I und g + v = g mod J.
+
+* Beispiel, wo "naive Isomorphie-Regeln" das falsche Ergebnis liefern:
+
+      "Z[sqrt(5)]/(sqrt(5)-1) = Z[1] = Z" ist Quatsch. Richtig:
+
+      Z[sqrt(5)]/(sqrt(5)-1) = Z[X]/(X^2-5, X-1) = Z[X]/(1-5, X-1) =
+        (Z/(6))[X]/(X-1) = Z/(6).
+
 
 === Dreiecksmatrizen
 

@@ -229,6 +229,33 @@ Es gilt in der internen Sprache:
 
   2. D(f) |== I Ideal.
 
+* Der Filter F ist zwar "generisch". Das heißt aber nicht, dass jeder
+  Filter von AA in Sh(Spec A) eine Obermenge von F wäre. "Man muss noch
+  zurückziehen."
+
+  Konkretes Gegenbeispiel: Sei A lokal. Dann umfasst der Filter AA^x der
+  invertierbaren Elemente nicht den generischen Filter. Denn
+
+      D(f) |== f in F,
+
+  aber
+
+      D(f) |== f in AA^x
+
+  bedeutet: Ist D(f) bewohnt, so ist f in A invertierbar; also: f ist nilpotent
+  oder invertierbar. Das ist im Allgemeinen falsch (zum Beispiel A = Z_(2), f = 2).
+
+
+=== Initialer lokaler Ring
+
+Einen initialen lokalen Ring kann es nicht geben. Denn sei A dieser Ring. Wähle
+eine Primzahl p. Da es einen lokalen Ringhomo A --> Q gibt, ist p in A
+invertierbar. Andererseits gibt es einen (lokalen, aber egal) Ringhomo A --> F_p.
+Also ist p in F_p invertierbar. Das stimmt nicht.
+
+Wenn man bereit ist, den initialen lokalen Ring in beliebigen Topoi zu suchen,
+dann gibt es ihn natürlich schon: Er ist die Strukturgarbe von Spec(Z).
+
 
 === Spektrum als Lindenbaum-Algebra einer propositionalen geometrischen Theorie
 
@@ -282,6 +309,18 @@ zugehörige Unterörtlichkeit MaxSpec A ist.
   ist ein Kern auf Rad(A). Die entstehende Unterörtlichkeit nenne ich Jad(A).
 
   (Zum Vergleich: sqrt(I) = bigcap_{p prim, I <= p} I.)
+
+  [ Manueller Nachweis, direkt anhand der konstruktiv sinnvollen Definition,
+  dass I |-> I^ ein Kern ist: I <= I^ ist klar. Sei x in I^^. Um x in I^
+  nachzuweisen, sei h beliebig. Dann gibt es ein u mit (1 - xh)u - 1 in I^.
+  Somit existiert ein v mit (1 - ((1 - xh)u - 1) (-1))v - 1 in I. Der lange
+  Ausdruck vereinfacht sich zu (1 - xh)uv - 1 in I. Das war zu zeigen.
+  Um I^ cap J^ <= (I cap J)^ nachzuweisen, sei x aus I^ cap J^ und sei h
+  beliebig. Dann gibt es u und v mit (1 - xh)u - 1 in I und (1 - xh)v - 1 in J.
+  Somit (1 - xh) (u - (1-xh)uv + v) - 1 = ((1 - xh)u - 1) * (1 + (1-xh)v) =
+  ((1 - xh)v - 1) * (1 + (1-xh)u) in I cap J. Um zu zeigen, dass I^ überhaupt
+  abgeschlossen unter Addition ist, betrachte (1-(x+y)h)uv-1, wobei (1-xh)u-1
+  in I und (1-yuh)v-1 in I. ]
 
   Aus Johnstone (Almost maximal ideals) kann man herauslesen:
 
@@ -636,6 +675,9 @@ extern der Menge der offenen Teilmengen von X:
   AA --> B. Dann stimmt es im Allgemeinen *nicht*, dass es einen lokalen Homo
   O_{Spec A} --> B in Spec(A) gibt. Im Allgemein muss man noch mit einer
   geeigneter topologischen Abbildung zurückziehen.
+
+* Witzig: A --> O_{Spec(A)} ist sogar eine Lokalisierung (nämlich Invertierung
+  der Elemente im generischen Filter), obwohl man das nicht vorab gefordert hat.
 
 
 === Pseudokohärenz

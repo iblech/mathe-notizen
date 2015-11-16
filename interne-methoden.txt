@@ -961,6 +961,11 @@ O_X gegeben sind, die auf offenen dichten Teilmengen definiert sind.
   ==> M_[S^(-1)] projektiv über A_[S^(-1)] = O_{Spec A}
   ==> M~ endlich frei (da A[S^(-1)] lokal)
 
+* Sei A eine quasikohärente O_X-Algebra auf einem Schema. Dann:
+
+      forall f : O_X. forall s : A.
+          (f inv. in O_X ==> s inv. in A) ==> s inv. in A[f^(-1)].
+
 
 === Cartier-Divisoren und Geradenbündel
 
