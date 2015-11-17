@@ -31,6 +31,43 @@ Siehe auch http://www.emis.de/journals/AM/06-4/pultr.pdf für ein paar
 (offensichtliche) Rechenregeln zur Heyting-Implikation.
 
 
+=== Genügend viele Punkte
+
+Wollte ich mal explizit sehen: Sei X eine Örtlichkeit sodass Sh(X) genügend
+viele Punkte besitzt. Seien U und V offene Dinge von X. Gelte für alle Punkte F
+von X (also vollständig prime Filter): U in F genau dann, wenn V in F. Zeige U = V.
+
+Betrachte dazu die Injektion (U wedge V)_ --> V_ von darstellbaren Garben auf X.
+(Es gilt: V_(W) = { * | W <= V }.) Wir zeigen, dass diese halmweise auch
+surjektiv ist. Sei dazu F ein Punkt. Sei [<W,s>] in (V_)_F. Also W in F und s in V_(W),
+also s = * und W <= V. Somit V in F und damit auch U in F. Somit ist [<W',*>]
+mit W' := W wedge U das gesuchte Urbild (W' in F, W' <= U wedge V).
+
+
+=== Lokale Kompaktheit
+
+* Wir schreiben genau dann a << b, wenn für alle gerichteten Mengen S mit
+  b <= sup S schon ein s aus S mit a <= s existiert.
+
+* Aus a << b folgt a <= b. (Wähle S := { b }.)
+
+* Aus a << b folgt a << c für jedes c >= b.
+
+* Eine Örtlichkeit ist genau dann kompakt, wenn top << top.
+
+* Eine Örtlichkeit heißt genau dann lokal kompakt, wenn für jedes a
+  gilt: a = sup { b | b << a }.
+
+* Sei top = sup_i U_i und seien die Downarrow(U_i) alle lokal kompakt.
+  Dann ist auch die Örtlichkeit selbst lokal kompakt.
+
+  Nutze dazu folgendes Lemma: Sei V <= U_i mit V <<^{U_i} U_i wedge U.
+  Dann V << U_i wedge U.
+
+* Eine Konsequenz: Schemata sind lokal kompakt und damit (zumindest in
+  klassischer Logik, konstruktiv natürlich nicht) räumlich.
+
+
 === Kleinste dichte Unterörtlichkeit
 
 * Sh(X_negneg) sollte isomorph sein zu Sh_negneg(X).

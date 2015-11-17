@@ -104,6 +104,15 @@ geringten distributiven Verband.
                                p  |->  { I | I cap p^c bewohnt }
         { x | sqrt(x) \not\in M } <-|  M
 
+* Spec(A) ist lokal kompakt. Sei dazu ein Radikalideal J gegeben.
+  Wir zeigen: J <= bigvee { K | K << J }. Das ist leicht, denn ist f aus J,
+  so ist f Element von sqrt(f), und das ist << J.
+
+  Denn: Sei S gerichtet mit J <= bigvee S. Dann sqrt(f) <= bigvee S.
+  Also existiert ein Ideal L aus S mit sqrt(f) <= L.
+
+* Spec^pcoh(A) ist vermutlich nicht lokal kompakt.
+
 
 === Verklebeaxiom in einem Beispiel
 
@@ -596,9 +605,11 @@ extern der Menge der offenen Teilmengen von X:
   Da ([h] inv. <==> h inv. vee f inv.), spielt es keine Rolle, ob hier "x inv."
   in O_X/(f) oder in O_X gelesen wird.
 
-* Das pseudokohärente Spektrum ist nicht im Allgemeinen kompakt. (Es ist
+* Das pseudokohärente Spektrum ist im Allgemeinen nicht kompakt. Es ist
   auch Spec_X(A) --> X im Allgemeinen nicht topologisch eigentlich. Das
-  würde das ja bedeuten.)
+  würde das ja bedeuten. (Das grundlegende Problem ist: Die gerichtete
+  Vereinigung von pseudokohärenten Radikalidealen ist zwar wieder ein
+  Radikalideal, aber nicht unbedingt gerichtet.)
 
   Aber es gilt: Sei I eine (externe) gerichtete Menge. Sei A eine O_X-Algebra
   über einem Schema. Wird dann durch Spec_rel(A) durch eine I-indizierte
