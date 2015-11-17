@@ -546,6 +546,17 @@ Es stimmt im Allgemeinen aber nicht, dass IntSpec O_X ~~ (pt, O_X).
   Ob damit die Abbildung Omega --> Rad' surjektiv wird, ist auch nicht ganz
   klar.
 
+* Hakims Spec-Konstruktion RL --> LRL ist zwar ein Adjungierter zum
+  Vergissfunktor, aber nicht volltreu. Es gilt zwar
+
+      Hom_{LRT/E}(Spec B, Spec A) = Hom_{RT/E}(Spec B, A) = Hom(A, B)
+
+  für Ringe in einem Topos E; aber Hom_LRT(Spec B, Spec A) könnte viel größer
+  als Hom(A, B) sein. Treu ist der Funktor wohl schon.
+
+  Siehe Kommentar von Zhen Lin bei
+  http://math.stackexchange.com/questions/1532244/joyals-construction-of-the-spectrum-of-a-commutative-ring?noredirect=1#comment3122269_1532244.
+
 
 === Spektrum nichtkommutativer Ringe
 
