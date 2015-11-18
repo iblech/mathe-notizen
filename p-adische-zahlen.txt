@@ -34,3 +34,10 @@ Surfaces, Algebraic Curves and Moduli Spaces/ folgende Referenzen:
 * Brekke et al, p-adic numbers in physics.
 * Djordjević et al, p-adic and adelic minisuperspace quantum cohomology.
 * Khrennikov et al, p-adic mathematical physics.
+
+
+=== Anordnenbarkeit
+
+* http://math.uga.edu/~pete/realspectrum.pdf: Wenn p = 1 mod 4, ist -1
+  eine Quadratzahl in Q_p. Wenn p eine ungerade Primzahl ist, so ist -1
+  Summe zweier Quadratzahlen. In Q_2 ist -1 eine Summe von vier Quadratzahlen.

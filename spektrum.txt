@@ -682,6 +682,23 @@ extern der Menge der offenen Teilmengen von X:
 
       Box(phi)  <==>  1 in Coh{1|phi} <= A_. (Oder k_?)
 
+* Eine verwandte Frage ist: Sei A eine k-Algebra. Gibt es einen modalen
+  Operator Box, sodass für Radikalideale J von A gilt:?
+
+      1 in Coh(J)   <==>   Box(1 in J).
+
+  Die Antwort lautet "nein". Denn: Durch Betrachtung von
+
+      J := { x | x nilpotent oder phi }
+
+  erhält man, dass Box(phi) äquivalent zu (1 in sup { (1) | phi }) ist
+  (mit dem Supremum in Rad(A)). Nun gilt zwar
+
+      1 in Coh(J)  <==  (1) = sup { (1) | 1 in J },
+
+  aber die Rückrichtung gilt wohl nicht. Eine wichtige Ausnahme ist der
+  Fall A = k, bei dem genau dann 1 in Coh(J), wenn 1 in J.
+
 
 === Spektrum als universelle Lokalisierung
 

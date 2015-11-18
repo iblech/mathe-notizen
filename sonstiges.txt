@@ -231,3 +231,9 @@ https://www.youtube.com/watch?v=Sr_tEm3Kxc0
 === Funktionalkalkül kategoriell
 
 http://mathoverflow.net/questions/132802/defining-holomorphic-functions-in-terms-of-banach-algebras-and-similarly-for-c
+
+
+=== Schön typographisierte Vorlagen
+
+Doktorarbeit von Antti-Juhani Kaijanaho:
+https://jyx.jyu.fi/dspace/bitstream/handle/123456789/47698/978-951-39-6388-0_vaitos04122015.pdf?sequence=1
