@@ -107,6 +107,66 @@ topologischen Raum) vollständig zurückgewinnen -- als Menge der
 offenabgeschlossenen Teilmengen. Stichwort Stone-Dualität.
 
 
+=== Morphismen zwischen den Zariski-Topoi
+
+* Sei f : T --> S ein Morphismus von Schemata. Dann gibt eseinen geometrischen
+  Morphismus
+
+      i_f : Sh(T) --> Zar(S)
+
+  mit i_f^{-1} = (Einschränken auf T) und i_f_* durch:
+
+      (i_f_*(E))(P/S) = lim_{P -> U} E(U)  (ziemlich sicher; beachte lim statt colim!)
+                                              evtl. auch U -> P
+
+  Der Funktor i_f^{-1} hat noch einen Linksadjungierten i_f_!, der mit
+  Faserprodukten und Equalizern kommutiert.
+
+  Das ist Tag 020Y im Stacks Project.
+
+  Es ist i_f^{-1}(A^1) = O_T.
+
+  (i_f_*(E))(P/S) = Hom(y(P/S), i_f_*(E)) = Hom(i_f^{-1} y(P/S), E) =
+      Hom(y(P/S)|_Sh(T), E) = lim_{U <= T offen, U --> P} E(U).
+
+  Insbesondere sollte für P <= T offen gelten:
+
+      i_f_*(E)(P/S) = lim_{U <= P offen} E(U) = E(P).
+
+  Also i_f^{-1} . i_f_* = id. (Ist konsistent mit pi_* . i_* = id unten.)
+
+* Außerdem habe geometrische Morphismen
+
+      pi : Zar(S) --> Sh(S)
+      i  : Sh(S)  --> Zar(S)
+
+  mit pi . i = id.
+
+  * pi_* = i^{-1} = (Einschränken auf den kleinen Zariski-Topos).
+
+  * i_* = i_{id_S} = die Sache mit dem lim oben.
+
+  * pi^{-1}(E) = Vergarbung von (T/S |-> colim_{T -> U} E(U))  (ziemlich sicher).
+
+  * (pi^{-1} E)|_Sh(T) = (i_f^{-1} . pi^{-1})(E) = (pi . i_f)^{-1}(E) =
+        f_small^{-1}(E) = f^{-1}(E)  (Tag 0211, Teil (4)).
+
+  * pi^{-1} E ist also das, was ich gelegentlich E~ genannt habe:
+      (pi^{-1} E)(T --mu--> S) = Gamma(T, mu^{-1} E).
+
+  * pi^{-1} ist volltreu (Tag 00XU).
+  
+  * i^{-1} A^1 = O_S, pi^{-1} O_S = O_S^~.
+
+  * pi^{-1} -| pi_* = i^{-1} -| i_*.
+
+  * Der Morphismus pi : Zar(S) --> Sh(S) ist ein lokaler geometrischer
+    Morphismus, denn pi_* besitzt einen weiteren Rechtsadjungierten, nämlich i_*,
+    und pi ist zusammenhängend (d.h. pi^{-1} ist volltreu).
+
+  Das ist Tag 020Z.
+
+
 === Proj-Konstruktion
 
 * Funktorialität:

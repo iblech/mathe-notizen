@@ -1307,6 +1307,13 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
   und wie schlägt sich das intern nieder?
 
 * Zar(A) --> Sh(Spec A) ist lokal, laut dem nLab! Konsequenzen?
+  Vielleicht große. Habe damit jedenfalls einen modalen Operator in Zar(A),
+  dessen Garbenkategorie gerade die Basiskategorie Sh(Spec A) ist.
+
+  Habe versucht, den Garbifizierungsfunktor herzuleiten. Der sieht (in der
+  Notation von grundwissen-algebraische-geometrie.txt) so aus:
+
+      i_* pi_*(E) = i_*(E|_Sh) = (T |-> lim_{U <= Spec A, U --> T} E(U)).
 
 * "G --> F, G veT, F koh., phi_x inj ==> phi|_U inj"
 
