@@ -194,6 +194,28 @@ Dialogues for proof search.
 http://arxiv.org/abs/1405.1864
 
 
+=== Seemingly impossible programs
+
+Sei f : Omega --> 2 eine beliebige Abbildung. Dann gibt es ein Element phi : Omega
+mit
+
+    f(phi)  <==>  exists psi. f(psi).
+
+Und zwar gilt doch f(bot) oder neg f(bot).
+
+Im ersten Fall können wir phi := bot wählen.
+
+Im zweiten Fall können wir phi := top wählen. Damit ist "==>" klar und "<=="
+geht so: Sei psi mit f(psi) gegeben. Wir wollen f(top) nachweisen. Das können
+wir mit Widerspruch. Gelte also neg f(top). Sollte psi gelten, dann gilt auch
+f(top), das kann nicht sein. Also gilt neg psi. Damit ist aber f(psi)
+äquivalent zu f(bot), was nicht gilt. Das ist ein Widerspruch dazu, dass f(psi)
+schon gilt.
+
+(Post von Martin Escardo an constructivenews@googlegroups.com, 2015-11-19
+23:52.)
+
+
 === Literatur
 
 * The Age of Alternative Logics.
