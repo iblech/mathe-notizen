@@ -544,6 +544,10 @@ Sei j eine Lawvere-Tierney-Topologie.
     jeder Schnitt, der auf einer offenen dichten Teilmenge definiert ist,
     genau eine Fortsetzung besitzt.
 
+* Sei f : F --> E ein geometrischer Morphismus. Sei j ein lokaler Operator in E.
+  Dann faktorisiert f genau dann über E_j --> E, wenn für alle X aus F das
+  Objekt f_*(X) eine j-Garbe ist.
+
 * Literatur:
 
   Vladimir Lifschitz.
@@ -1315,6 +1319,9 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
 
       i_* pi_*(E) = i_*(E|_Sh) = (T |-> lim_{U <= Spec A, U --> T} E(U)).
 
+  Sieht Zar(S) aus Sicht von Sh(S) aus wie Zar(Spec O_S)? Oder wie
+  Zar(Spec^pcoh O_S), also Zar((pt, O_S))?
+
 * "G --> F, G veT, F koh., phi_x inj ==> phi|_U inj"
 
 * Lesen: http://sbseminar.wordpress.com/2009/08/06/algebraic-geometry-without-prime-ideals
@@ -1340,6 +1347,12 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
 
 * In kohärenten Topoi sind die kohärenten Objekte genau die lokal endlichen.
   Oder so ähnlich. Siehe Moerdijk/Vermeulen, Seite 81.
+
+* Allgemeines Motto: Wenn man eine Aussage der Form "forall x in X: ..." hat,
+  kann man sie vielleicht als "für alle Punkte x des Topos E gilt:
+  ...x^{-1}(...)..." erkennen. Dann kann man sie einfach uminterpretieren als
+  "in E gilt: ...". Falls E (konstruktiv) nicht genügend viele Punkte hat, ist
+  das möglicherweise eine geeignete Verstärkung.
 
 
 === math.se-Antwort

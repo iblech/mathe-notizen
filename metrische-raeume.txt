@@ -136,6 +136,19 @@ Wenn man auf den dedekindschen reellen Zahlen die Metrik
 definiert, erhält die Abbildung auch noch die Metrik.
 
 
+=== Stolzenbergs Modell
+
+Nach Stolzenberg kann eine reelle Zahl durch Teilmenge Sigma von Q x Q^+
+mit folgenden Eigenschaften repräsentiert werden:
+
+    forall eps. exists x. (x,eps) in Sigma  und
+    forall (x,eps) in Sigma. forall (y,delta) in Sigma. |x - y| <= eps + delta.
+
+Die erste Bedingung kann man sogar noch abschwächen zu
+
+    forall eps. exists eps'. exists x. (x,eps') in Sigma.
+
+
 === Topologisch
 
 Sei X topologischer Raum. Sei f : X --> R eine stetige Funktion.

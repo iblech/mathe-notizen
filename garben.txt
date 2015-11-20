@@ -426,7 +426,16 @@ http://mathoverflow.net/questions/136516/euler-characteristic-of-coverings-via-s
   Elephant, Seite 1025, Beispiel 4.7.12 sagt: Ja, falls X lokal
   zusammenhängend. (Der Iso ist dann sogar global.)
 
-  Sagt auchh nLab: http://ncatlab.org/nlab/show/locally+constant+sheaf, Prop. 1.
+  Sagt auch nLab: http://ncatlab.org/nlab/show/locally+constant+sheaf, Prop. 1.
+
+* Falls X lokal ist, so besitzt der Funktor "globale Schnitte nehmen" nicht
+  nur wie immer einen Linksadjungierten ("konstante Garbe nehmen", auch
+  "Disc" genannt), sondern dann auch einen Rechtsadjungierten:
+
+      CoDisc : Set --> Sh(X)
+                 M |-> (auf U: M^{*|U=X})
+
+  Wenn X nicht lokal ist, ist CoDisc(M) im Allgemeinen keine Garbe.
 
 
 === Garbentheoretischer Zugang zu Mannigfaltigkeiten

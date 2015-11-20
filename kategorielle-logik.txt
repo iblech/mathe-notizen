@@ -199,7 +199,6 @@ für geometrische Formeln phi über X:
 
   Diese Sequenz ist tatsächlich j-exakt.
 
-
 * Welche Bedeutung hat es, mit (__)^j zu arbeiten, aber über Objekte
   von E zu sprechen? Klingt erstmal so, als ob man Garbensprache verwenden
   würde, um über Prägarben zu sprechen. Das wäre ja nicht sound.
@@ -292,7 +291,13 @@ für geometrische Formeln phi über X:
 
 === Eigenschaften konstanter Garben
 
-XXX
+* Sei phi eine Formel, in der nur konstante Garben vorkommen. Dann gilt
+  (konstruktiv!):
+
+      U |== phi  genau dann, wenn  U <= sup { T | phi }.
+
+  Beweis durch Induktion; klar für top, bot. Für wedge wegen der
+  in Rahmen geforderten Distributivität.
 
 
 === Lokal konstante Garben

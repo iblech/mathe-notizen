@@ -331,7 +331,8 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
   von einem einzelnen Element. Denn für diesen Fall ist T = bigcap_{s in S} sqrt((s)).
   Also ist das von T in A[S^(-1)] erzeugte Ideal genau dann das Einsideal, wenn
   T cap S nicht leer ist, wenn also ein u aus S mit u in T existiert.
-  Das ist die Behauptung.
+  Das ist die Behauptung. (Genauer noch kann man zeigen, dass die Saturierung
+  von S mit { x | u in sqrt((x)) } übereinstimmt.)
 
 * Auch offene *affine* Teilmengen von affinen Schemata sind nicht
   unbedingt von der Form D(f) für ein einziges f.
@@ -826,6 +827,20 @@ Die Normalgarbe ist der ihr O_Y-Duales.
   wobei x' Urbild von x unter X x_Y Spec O_{Y,y} --> X ist.
 
 
+=== Oberhalbstetigkeit der Faserdimension
+
+* http://mathoverflow.net/questions/193/when-is-fiber-dimension-upper-semi-continuous
+  Demzufolge gilt: Sei f : X --> Y ein l.v.e.T. Morphismus von Schemata. Dann ist
+  die Funktion
+
+      x |-> dim_x(X_{f(x)})
+
+  schwach oberhalbstetig.
+
+* Die Projektion des Kegels auf die z-Achse ist kein Gegenbeispiel.
+  Denn R[X]/(X^2 + Y^2) hat immer noch Krull-Dimension 1.
+
+
 === Flache Familien
 
 * As others have stated above, flatness of a family should mean that the fibres
@@ -1204,6 +1219,7 @@ sehr gut lesbar!
 * http://math.mit.edu/~mckernan/Teaching/09-10/Spring/18.726/l_10.pdf
   und andere Kapitel
 * http://www.dam.brown.edu/people/mumford/alg_geom/papers/AGII.pdf
+* http://math.stackexchange.com/questions/666113/examples-of-morphisms-of-schemes-to-keep-in-mind
 
 
 === Nächste Schritte
@@ -1236,3 +1252,11 @@ sehr gut lesbar!
   Wie es aus QCoh(X) geht -- also Gabriel--Rosenberg-Rekonstruktion --
   steht hier:
   http://sasharosenberg.com/wp-content/uploads/2015/03/chptr-5-Reconstruction-of-schemes_with-title.pdf
+
+* Angeblich ist für quasikompakte offene Immersionen topologische Dichtheit
+  gleichbedeutend mit schematheoretischer. Kann man das intern verstehen?
+  Kommentar von Zhen Lin bei http://math.stackexchange.com/a/667148/61604.
+
+* "Flache Morphismen von endlicher Präsentation sind offen."
+  (in einem gewissen Sinn Verallgemeinerung des Open Mapping Theorems.)
+  Intern zeigen?

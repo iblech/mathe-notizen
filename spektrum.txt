@@ -737,6 +737,10 @@ pseudokohärent, wenn
       Dann folgt f^n phi(s) in I, also phi(f^n s) in I.
       Also f^n s in phi^(-1)[I].
 
+* Sei k --> A ein lokaler Morphismus lokaler Ringe. Sei A *quasikohärent*
+  über A. Dann ist A auch quasikohärent über k. (Dabei geht ein, dass
+  A[f^(-1)] ~~ A[phi(f)^{-1}] für f aus k.)
+
 * Gibt es eine Klasse von Morphismen, sodass ein Ideal I <= A genau dann
   pseudokohärent ist, wenn
 
