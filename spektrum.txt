@@ -855,5 +855,9 @@ http://arxiv.org/pdf/math/0409360v2.pdf
       bigcap_j (bigvee_i D(a_ji) cup V(b_j))  genau dann, wenn
         für alle j: x b_j in sqrt((y_k)_k + (a_ji)_i).
 
+  Es ist übrigens Sh(Spec(A) mit konstruierbarer Topologie) wohl boolsch.
+  Zumindest ist D(f) nur dann dicht, wenn D(f) schon ganz Spec(A) ist.
+  Genauso mit V(f). (Das genügt natürlich noch nicht.)
+
 * Ist Caramellos Bedingung für Zugehörigkeit eines Primideals
   zu AlmostMaxSpec(A) äquivalent zu meiner? Müsste ja so sein.
