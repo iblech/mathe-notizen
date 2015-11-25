@@ -1354,6 +1354,11 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
   "in E gilt: ...". Falls E (konstruktiv) nicht genügend viele Punkte hat, ist
   das möglicherweise eine geeignete Verstärkung.
 
+* Habe ein Spektrum an Klassizitätsaussagen in Sh(X), X ein Schema:
+
+    dim O_X <= 0  ==>  dim O_X <= 1  ==> ...
+   voll klassisch
+
 
 === math.se-Antwort
 
