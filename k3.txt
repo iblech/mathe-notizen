@@ -20,6 +20,9 @@ K3-Flächen sind also insbesondere Calabi-Yau-Mannigfaltigkeiten.
 Jede K3-Fläche hat als Euler-Charakteristik 24. Das folgt zum Beispiel aus
 Noethers Formel.
 
+Jede K3-Fläche hat H^0(X, T_X) = 0. Also gibt es keine nichttrivialen globalen
+Vektorfelder. (Huybrechts Seite 15)
+
 
 === Derivierte Äquivalenzen
 

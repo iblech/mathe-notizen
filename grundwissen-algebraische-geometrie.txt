@@ -290,6 +290,31 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
   Für dieses f gilt dann: D(f) <= U und D(f) ist noch dicht,
   da es alle minimalen Primideale enthält.
 
+* Sei q ein Primideal, das nicht minimal ist. (Sei q' echt kleiner als q.)
+  Dann gibt es eine offene dichte Menge, die q nicht enthält, und zwar U :=
+  Spec A \ V(q). Um das nachzuweisen, müssen wir zeigen, dass
+
+      x liegt in allen Primidealen p, welche q nicht umfassen ==>
+      x liegt in allen Primidealen p.
+
+  Sei dazu ein solches x gegeben. Sei außerdem ein Primideal p gegeben.
+  Falls p q nicht umfasst, sind wir fertig.
+  Andernfalls gilt also q' <= q <= p. Da q' nicht q umfasst, liegt x in q' und
+  damit in q.
+
+* Als Korollar: Der Schnitt über alle offenen dichten Teilmengen liegt in der
+  Menge der minimalen Primideale.
+
+  Falls der Ring nur endlich viele Primideale enthält, gilt die Verstärkung:
+
+      bigcap_{U offen, dicht} U = Menge der minimalen Primideale.
+
+* Sei A eine abgeschlossene Teilmenge. Sei U eine offene Teilmenge. Dann gilt:
+
+      U <= A  <==>  { p in U | p minimales Primideal } <= A.
+
+  Folglich: cl U = cl { p in U | p minimales Primideal }.
+
 * Ouv(Spec A) ist isomorph zu Rad(A), vermöge
 
       U |--> { h in A | D(h) <= U }

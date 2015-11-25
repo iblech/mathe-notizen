@@ -58,7 +58,7 @@ Fundamentale Aussage: Gilt phi |- psi klassisch, so gilt phi^0 |- psi^0 in
 minimaler Logik. Insbesondere gilt phi^negneg |- psi^negneg, falls ich "bot"
 habe. In klassischer Logik ist phi^r äquivalent zu (phi v r).
 
-In folgendem Artikel steht, welche übersetzten Aussage von ihren
+In folgendem Artikel steht, welche übersetzten Aussagen von ihren
 Originalfassungen intuitionistisch impliziert werden:
 
     Hajime Ishihara. A note on the Gödel-Gentzen translation.
