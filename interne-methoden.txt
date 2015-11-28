@@ -38,7 +38,50 @@ Also |x| <= 2 epsilon.
 
 * Habe {lokal konstante Fkt.} <= {glatte Fkt.} <= {stetige Fkt.} = R_dedekind.
 
+* Habe auf R_glatt eine Endoabbildung d und eine Endoabbildung \int, zumindest
+  im Fall X = R. Für d gilt: ker(R_glatt --d--> R_glatt) = R_lc = R_Cauchy.
+  Sollte das auf Vektorbündel mit flachem Zusammenhang verallgemeinern können.
+
 * http://nforum.mathforge.org/discussion/6315/internal-definitions-of-cohesion/
+
+
+=== Gruppenobjekte
+
+Mike Shulman in
+https://mathematicswithoutapologies.wordpress.com/2015/05/23/language-about-language/:
+
+A nice example of the usefulness of this is that it is quite easy to prove that
+the inverse of an element in a group is unique. Therefore, it follows
+automatically that the inverse morphism of a group object in a category is
+unique. In particular, since (commutative) Hopf algebras are the same as group
+objects in the opposite category of (commutative) rings, it follows that the
+antipode of a Hopf algebra is unique. This can, of course, be proven by hand,
+but it’s surprisingly tricky to figure out what you have to do if you attack it
+directly. Probably the easiest way to do it is to take the usual proof for
+groups, translate it into commutative diagrams, and dualize it. The point of
+the internal language is that you don’t have to do all that at all; there’s a
+machine that does it for you automatically.
+
+
+=== Verklebung
+
+Mike Shulman in
+https://mathematicswithoutapologies.wordpress.com/2015/05/23/language-about-language/:
+
+Even very small relationships between a few “little toposes” can be captured
+internally to an auxiliary topos. For instance, if we have a geometric morphism
+f:X->Y, then by gluing along the functor f^* we obtain a new topos, inside
+which X and Y sit as open and closed subtoposes, and in which both parts of the
+morphism f are visible by composing the relevant reflectors. The internal logic
+of this glued topos can then be used to reason about the geometric morphism f.
+In particular, the relationship between a topos X and the standard ∞-topos
+∞Gpd, which is described by the unique geometric morphism X -> ∞Gpd and encodes
+information about X such as its local connectedness, compactness, and
+cohomology, can be discussed internally by gluing along that geometric
+morphism. More complicated gluing constructions for more complicated diagrams
+of toposes and morphisms are also possible. In one direction, this leads to
+Urs’s work on cohesive ∞-toposes and cohesive HoTT; but other than that, this
+avenue seems to be largely unexplored to date.
 
 
 === Ein paar Eigenschaften
@@ -1358,6 +1401,11 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
 
     dim O_X <= 0  ==>  dim O_X <= 1  ==> ...
    voll klassisch
+
+* Christiane Rousseau. Topos theory and complex analysis. 1976.
+
+* Christiane Rousseau. Spectral decomposition theorem for real symmetric
+  matrices in topoi and applications. 1985.
 
 
 === math.se-Antwort

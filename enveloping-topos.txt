@@ -10,6 +10,11 @@ ConstructibleSheaves(X) \--> Sh(X)
 \--> Sh(X') \--> Sh(X)
 \--> Sh(R_{pt})
 
+* Caramello und Co. in http://arxiv.org/pdf/1506.06113v1.pdf:
+  Jede abelsche Kategorie kann in einen Grothendiecktopos eingebettet werden,
+  nämlich den der regulären Garben auf ihr. Sie kann dann als volle
+  Unterkategorie der superkohärenten Objekte wiedererkannt werden.
+
 
 === Nächste Schritte
 

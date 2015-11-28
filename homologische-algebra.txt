@@ -75,6 +75,9 @@ vermutlich nicht rechtsexakt, sodass das noch nicht so viel hilft.
 Quelle: John Barwise, Handbook of Mathematical Logic, Abschnitt über
 Toposlogik (von Fourman), ganz am Ende (Seite 1088).
 
+Besser: Bette in Kategorie der regulären Garben ein! Dann sollte es eine exakte
+Einbettung sein.
+
 
 === Filtrierung
 
