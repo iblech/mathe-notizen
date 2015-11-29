@@ -55,17 +55,29 @@ are uniquely determined.[2]
 
 === Fundamentalsatz der Algebra
 
-Beweis über den Lefschetzschen Fixpunktsatz:
+* Beweis über den Lefschetzschen Fixpunktsatz:
 
-One cute application is to the fundamental theorem of algebra: a linear map
-f:Cn+1→Cn+1 has an eigenvector iff the induced map on projective spaces has a
-fixed point. CPn has Euler characteristic n+1 and GLn(C) is path-connected,
-so the conclusion follows by the Lefschetz fixed point theorem. The
-corresponding calculation for real projective spaces is enlightening as to
-"why" FTA fails over the reals: RPn has Euler characteristic 0 if n is odd
-and 1 if n is even..
+  One cute application is to the fundamental theorem of algebra: a linear map
+  f:Cn+1→Cn+1 has an eigenvector iff the induced map on projective spaces has a
+  fixed point. CPn has Euler characteristic n+1 and GLn(C) is path-connected,
+  so the conclusion follows by the Lefschetz fixed point theorem. The
+  corresponding calculation for real projective spaces is enlightening as to
+  "why" FTA fails over the reals: RPn has Euler characteristic 0 if n is odd
+  and 1 if n is even..
 
-http://mathoverflow.net/a/127087
+  http://mathoverflow.net/a/127087
+
+* Beweis über eine witzige Induktion:
+
+  To show that every real polynomial p(x)=xn+an−1xn−1+⋯+a0 has n roots in the
+  complex numbers C, write n=2k⋅u with u odd, and induct on k. For k=0, the
+  degree is odd, and you have a root in R. For k>0, let (a1,…,an) be the roots
+  of p in some extension field; prove that the polynomial with roots bij=ai+aj
+  has real coefficients and use the induction hypothesis on (n2) to show that
+  the bij are in C. Do the same for cij=aiaj, and then compute ai and aj from
+  bij, cij using square roots only.
+
+  http://mathoverflow.net/a/166014/31233
 
 
 === Semidirektes Produkt von Gruppen
