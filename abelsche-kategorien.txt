@@ -1,3 +1,10 @@
+=== Projektivität in Mod(O_X) versus QCoh(X)
+
+http://mathoverflow.net/questions/200251/is-a-locally-free-sheaf-projective-in-the-category-of-mathcal
+o-x-modules-wh
+projektiv in QCoh(X) impliziert nicht projektiv in Mod(O_X)
+
+
 === Exaktheit von direkten Summen und Produkten
 
 * In Ab sind direkte Produkte, aber nicht direkte Summen exakt:

@@ -549,6 +549,13 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
   können niemals linear unabhängig sein. Leicht: Seien x, y linear unabhängig.
   Dann gilt yx - xy = 0, also y = -x = 0. Dann 1x = 0, also 1 = 0.
 
+* Es stimmt *nicht*, dass ein Modul, der halmweise endlich erzeugt ist, schon
+  selbst endlich erzeugt ist. Ein Gegenbeispiel ist über A = Z der Modul
+  oplus_{p prim} F_p^p, dessen Halme (F_p^p bzw. 0) alle endlich erzeugt sind.
+
+  Etwas kurioserweise impliziert ein konstruktiver Beweis von "M[F^(-1)] ist
+  endlich erzeugt" eben schon, dass M endlich erzeugt ist.
+
 
 === Kohärente Moduln
 
