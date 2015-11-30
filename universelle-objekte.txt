@@ -74,3 +74,16 @@ Zumindest ist der Funktor R |--> R[T]/(T^n) kodarstellbar, nämlich durch Z[A_0,
   die zugehörige Matrix diagonalisierbar ist.
 
 * Gibt es ein universelles nilpotentes Element in einem anderen Topos?
+  Ja, zumindest sowas ähnliches! In Set/N habe die generische natürliche Zahl mu
+  und den Ring Z[X]/(X^mu). Dieser stellt den Funktor
+
+      Ring R in einem Topos E |-->
+          (globale natürliche Zahl n, globales Element von R mit x^n = 0)
+
+  dar. Verwende zum Nachweis, dass Set/N = Sh(N) die Örtlichkeit zur
+  geometrischen Theorie
+
+      propositionale Symbole: M_n für n >= 0
+      Axiome: top |- bigvee_{n >= 0} M_n, M_n wedge M_m |- bot (für n != m)
+
+  ist.
