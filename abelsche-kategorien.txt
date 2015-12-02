@@ -5,6 +5,22 @@ o-x-modules-wh
 projektiv in QCoh(X) impliziert nicht projektiv in Mod(O_X)
 
 
+=== Aufsteigende und absteigende Kettenbedingung
+
+* Sei X ein Objekt in einer abelschen Kategorie A. Dann gilt
+
+      Sub(X in A^op) ~~ Sub(X in A)^op
+
+  vermöge (U "^-->" X) |--> ker(X -->> U).
+
+* Beim Übergang von A zu A^op vertauscht sich also die aufsteigende
+  Kettenbedingung für Unterobjekte in eine absteigende.
+
+* Wenn man möchte, kann man noch Quotientenobjekte ins Spiel bringen;
+  aber ich kenne die Konvention nicht: Möchte man Quot(X) ~~ Sub(X)
+  oder Quot(X) ~~ Sub(X)^op haben?
+
+
 === Exaktheit von direkten Summen und Produkten
 
 * In Ab sind direkte Produkte, aber nicht direkte Summen exakt:

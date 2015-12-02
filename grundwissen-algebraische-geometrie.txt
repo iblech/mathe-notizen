@@ -971,6 +971,9 @@ definieren, wobei S(U) = { f | f_x ist kein Nullteiler in allen O_x, x \in U }.
   http://www.dam.brown.edu/people/mumford/beyond/papers/2014b--Recollections-AGroth.pdf.
   Redet auch über das Picard-Schema und die Geradenbündel auf Spec k[eps].
 
+* Siehe auch die Antwort von Allen Knutsen auf
+  http://mathoverflow.net/questions/28496/what-should-be-learned-in-a-first-serious-schemes-course.
+
 * http://math.mit.edu/~mckernan/Teaching/07-08/Spring/18.726/l_1.pdf:
   Möchte keine Einbettung in projektiven Raum vorschreiben.
   Quotienten nach Gruppenwirkungen.
