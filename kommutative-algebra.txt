@@ -60,8 +60,12 @@ Sei S = k[x_0,...,x_n]. Habe S --> k durch Auswertung bei (0,...,0).
 
 === Ein Primidealprinzip
 
-Lam, Reyes. A prime ideal principle in commutative algebra.
-https://math.berkeley.edu/~lam/html/JAlg-PIP.pdf
+* Lam, Reyes. A prime ideal principle in commutative algebra.
+  https://math.berkeley.edu/~lam/html/JAlg-PIP.pdf
+
+* Insbesondere ist ein Ideal, das maximal mit der Eigenschaft ist, nicht
+  endlich erzeugt zu sein, prim. Direkter Beweis hier:
+  http://math.stackexchange.com/questions/146884/an-ideal-that-is-maximal-among-non-finitely-generated-ideals-is-prime
 
 
 === Jacobsonsches Radikal
