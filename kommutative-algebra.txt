@@ -403,6 +403,20 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
       Z[sqrt(5)]/(sqrt(5)-1) = Z[X]/(X^2-5, X-1) = Z[X]/(1-5, X-1) =
         (Z/(6))[X]/(X-1) = Z/(6).
 
+* Sei a + b endlich erzeugt. Dann gibt es endlich erzeugte Ideale a_0 <= a
+  und b_0 <= b mit a + b = a_0 + b_0.
+
+  Denn: Die Erzeuger von a + b können wir in der Form u_i + v_i mit u_i
+  in a und v_i in b schreiben. Dann setzen wir a_0 := (u_i)_i <= a und
+  b_0 := (v_i)_i <= b.
+
+  Im Fall, dass b selbst schon endlich erzeugt ist, können wir b_0 := b
+  wählen. Denn a_0 + b_0 = a_0 + b.
+
+* Sei a + (x) = a_0 + (x). Dann gilt
+
+      a = a_0 + (x) * (a : x_0).
+
 
 === Dreiecksmatrizen
 
