@@ -5,6 +5,22 @@ Für mich ungewohnte Aspekte von Topostheorie:
 * Homotopie, siehe http://www.math.washington.edu/~warner/HTT_Warner.pdf.
 
 
+=== Darstellung von Topoi
+
+* Sei E eine präsentierbare Kategorie (damit meint Joyal "lokal präsentierbare
+  Kategorie"). Dann gibt es eine kleine Kategorie A, sodass PSh(A) --> E
+  eine Lokalisierung ist.
+
+* Wenn E sogar ein Topos ist, kann man A so wählen, dass es endlich vollständig
+  ist.
+
+
+=== Lawvere--Tierney-Topologien
+
+* Joyal (Topos à l'IHES): Topologien in der Topostheorie sind wie Serresche
+  Quotienten in der Theorie der abelschen Kategorien.
+
+
 === Degeneration von Topoi
 
 http://deepblue.lib.umich.edu/bitstream/handle/2027.42/99993/sjhenry_1.pdf?sequence=1
@@ -84,3 +100,7 @@ is not circular).
 
 * http://www.oliviacaramello.com/Unification/ColeBicategoryTopoiSpectra.pdf
   Laut Olivia Caramello ein Juwel.
+
+* Nachvollziehen: Angeblich ist es ein wichtiges Resultat in der Topostheorie,
+  dss die Punkte eines lokalischen Gruppoids gerade die étalen Punkte sind.
+  (Hat das Townsend gesagt?)

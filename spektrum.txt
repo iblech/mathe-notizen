@@ -670,6 +670,55 @@ extern der Menge der offenen Teilmengen von X:
   Es gibt keine Möglichkeit, dass pseudokohärente Spektrum als ein gewöhnliches
   anzusehen.
 
+* Spec^rel ist eine Unterörtlichkeit von Spec. Und zwar die, wo die Abbildung
+  \underline{O_X} --> O_{Spec^rel A} lokal ist. Denn an einem Halm F (der zu
+  einem Filter von A gehört) ist ja O_X --> A[F^(-1)]. Und diese Abbildung ist
+  halt genau dann lokal, wenn für F gilt: Sollte phi(f) in F liegen, so ist f
+  in O_X invertierbar.
+
+* Kann wohl zeigen:
+
+      Hom_LRT(X, Spec A) = Hom_RT(X, (Set,A))
+
+  für alle lokal geringten Grothendiecktopoi X.
+
+  Denn:
+
+      Hom_LRT(X, Spec A) = 
+      { (X --f--> Spec A, f^{-1}(O_{Spec A}) --> O_X lokal) } =
+      { (F <= AA auf X Filter, AA[F^(-1)] --> O_X lokal) } =
+      { AA --> O_X beliebiger Ringhomo }.
+
+  Genauso für eine k-Algebra A:
+
+      Hom_{LRT/(Set,k)}(X, Spec(A|k)) = Hom_{RT/(Set,k)}(X, (Set,A)}
+
+  für alle lokal geringten Grothendiecktopoi X, für die k --> O_X lokal ist.
+  Die Notation "LRT/(Set,k)" ist abuse of notation, da ich nicht unbedingt
+  voraussetzen möchte, dass k selbst ein lokaler Ring ist. Aber ist er's nicht,
+  so sind beide Seiten nur für X = {} nicht leer, oder?
+
+  Kann das alles pimpen zu einer relativen Situation. Nutze
+
+      Hom_{LRT/(E,O_E)}(X, Spec(A|O_E)) =
+        Hom_{LRT(E)/(pt,O_E)}(XX, Spec(A|O_E))
+
+  und
+
+      Hom_{RT/(E,O_E)}(X, (E,A)) =
+        Hom_{RT(E)/(pt,O_E)}(XX, Spec(A|O_E)).
+
+  Dabei ist XX die Auffassung von X als lokal-interne Kategorie in E.
+
+  Als Korollar von dem ganzen sieht man, dass Monique Hakims Spektrum lokalisch
+  ist.
+
+  Außerdem: Sei F : I --> LRL ein Diagramm. Dann gilt
+
+      lim F = Spec(O_{lim^RL F} | F(i), i in I).
+
+  Was bedeutet das kategoriell?
+
 
 === Interne Charakterisierung des modalen Operators fürs pseudokohärente Spektrum
 

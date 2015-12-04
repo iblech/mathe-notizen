@@ -363,6 +363,19 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
   unbedingt von der Form D(f) für ein einziges f.
   http://mathoverflow.net/questions/7153/open-affine-subscheme-of-affine-scheme-which-is-not-principal
 
+* Man könnte denken: Eine Teilmenge A ist genau dann abgeschlossen,
+  wenn für p <= q aus p in A folgt, dass q in A. Und dual könnte man denken,
+  dass eine Teilmenge U genau dann offen ist, wenn für p <= q aus q in U folgt,
+  dass p in U.
+  
+  Die triviale Richtung ist jeweils wahr, die umgekehrte aber nicht.
+
+  Ein Gegenbeispiel ist die Menge Spec Z \ { (0) } von Spec Z, die nicht
+  abgeschlossen, aber trotzdem stabil unter Spezialisierung ist.
+
+  In einem gewissen Sinn stimmt es aber "fast". Stichwort konstruierbare
+  Mengen.
+
 
 === Morphismen in affine Schemata
 

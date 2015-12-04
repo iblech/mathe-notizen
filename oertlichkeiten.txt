@@ -1,3 +1,40 @@
+=== Rahmen als Ringe
+
+"Frames are rings. Really! FRAMES ARE RINGS." (Joyal, Topos à l'IHES)
+
+* Joins sind wie Summen, Meets wie Produkte.
+
+* Habe das Distributivgesetz. Und dieses hat eine zentrale Rolle in der
+  Theorie. "From the idea of distributivity emergs the concept of a topos."
+
+* Die Kategorie der Topoi (mit logischen Morphismen) "ist wie" Ring.
+
+Mengen       abelsche Grupen    kommutative Ring
+
+Posets        sup-lattices         Rahmen
+
+Kategorien    präs'bare Kat.        Topoi
+
+(Mit "präsentierbar" meint Joyal das, was früher "lokal präsentierbar" hieß.)
+
+* Übrigens: Die kommutativen Monoid-Objekte in der Kategorie der präsentierbaren
+  Kategorien sind gerade die Quantale.
+
+* Die Kategorie der sup-lattices ist sehr schön, schöner noch als die Kategorie
+  der abelschen Gruppen: *Jedes* Koprodukt ist auch ein Produkt.
+
+* Die Inklusion der Rahmen in die kommutativen Quantale besitzt sowohl
+  einen Links- wie einen Rechtsadjungierten. "makes life very nice"
+
+* "PSh(A) ist die Linearisierung von A"
+
+
+=== 2-kategorielle Struktur
+
+* Darf man Morphismen von Örtlichkeiten auf Gleichheit testen?
+  Sollte das eigentlich wissen.
+
+
 === Topologischer Unterraum als Unterörtlichkeit
 
 Sei Y \subseteq X ein Unterraum eines topologischen Raums.

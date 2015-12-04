@@ -5,11 +5,11 @@
       C --> [C^op, Set]
 
   Sei F : C --> D irgendein Funktor in eine kovollständige Kategorie.
-  Dann kann man den induzierten Funktor F' [C^op, Set] --> D durch
+  Dann kann man den induzierten Funktor F' : [C^op, Set] --> D durch
 
       F' : W |-> W star_C F = int^c W(c) * F(c)
 
-  abgeben. Andere Möglichkeiten:
+  angeben. Andere Möglichkeiten:
 
   * F'(W) = int^c Hom(Yc, W) * F(c).
   * F'(W) = Lan_Y(F)(W).
@@ -35,6 +35,9 @@
 
   Ist die freie Kovervollständigung stets ein Topos, auch, wenn die Kategorie,
   mit der man startet, nicht (wesentlich) klein ist?
+
+  Joyal (Topos à l'IHES): Wenn D ein Topos ist (kann man das abschwächen?) und
+  F endliche Limiten erhält, dann erhält F' auch endliche Limiten.
 
 * Kovervollständigung einer Kategorie C, die vorhandene Kolimiten erhält:
 

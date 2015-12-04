@@ -1407,6 +1407,13 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
 * Christiane Rousseau. Spectral decomposition theorem for real symmetric
   matrices in topoi and applications. 1985.
 
+* Sei F --> E ein surjektiver geometrischer Morphismus. Dann sieht F aus
+  Sicht von E aus wie ein Topos, dessen geometrischer Morphismus nach "Set"
+  surjektiv ist. Kann man das nutzen? Zum Beispiel für
+  Konservativitätsresultate?
+
+* Ist Zar(S) --> Sh(S) essenziell?
+
 
 === math.se-Antwort
 

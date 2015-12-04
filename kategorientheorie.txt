@@ -8,6 +8,32 @@
   Hom_Span(A)(C_0, C_0), also dasselbe wie eine Monade in Span(A).
 
 
+=== Zweiseitige Ideale von Morphismen ...
+
+... sind dasselbe wie Unterfunktoren von Hom.
+
+
+=== Angereicherte Kategorien
+
+* Kategorien, die gut zum anreichern drüber sind, sind oft nicht gut,
+  um Monoid-Objekte in ihr zu betrachten, und umgekehrt.
+
+  Hat Georg oder Yuri auf Topos à l'IHES gesagt.
+
+
+=== Was macht die Yoneda-Einbettung, wenn keine Limiten existieren?
+
+Sei y : C --> C^ die Yoneda-Einbettung.
+
+Dann ist allgemein bekannt: y bewahrt Produkte. Also gilt y(A x B) = y(A) x y(B).
+
+Aber was, wenn es in C keine Produkte gibt? Dann gilt immer noch:
+
+    y(A) x y(B) = colim_{X --> A, X --> B} y(X).
+
+(Joyal, Topos à l'IHES)
+
+
 === Ind-Kategorie
 
 * Ind-C :=
@@ -906,7 +932,7 @@ In Haskell geht das auch:
         fmap phi (MkFree f x) = MkFree (phi . f) x
 
 
-=== Codensity-Monade
+=== Codensity-Monade (Kodichtemonade)
 
 * Codensity(G) = Ran_G(G) für G : B --> A.
 
@@ -915,6 +941,9 @@ In Haskell geht das auch:
 * Speziell für G den Vergissfunktor von Körpern nach Ringen:
 
       Codensity(G)(R) = product_{p Primideal von R} Quot(R/p).
+
+* Was ist die Kodichtemonade des Vergissfunktors von lokalen Ringen
+  nach Ringen?
 
 
 === Profunktoren

@@ -12,6 +12,12 @@
   Ist eine schöne Einführung.
 
 
+=== Bedeutung der Identität
+
+"=" ist \exists längs der Diagonale. (Das kam eventuell in Jonas Freys Vortrag
+im IHES vor.)
+
+
 === Zusammenhang zwischen [[.]] und |==
 
 Siehe Shulmans Stack-Paper. Sei phi eine Aussage über einem Topos E mit einer
