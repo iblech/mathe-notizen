@@ -867,6 +867,19 @@ http://arxiv.org/pdf/math/0409360v2.pdf
   nulldimensional).
 
 
+=== Allgemeiner
+
+* Coste. Localisation, spectra and sheaf representation.
+  Theorem 4.4.1 besagt in etwa: Sei (T, Lambda, T') ein Lokalisierungstripel.
+  Gelte, dass die existenziell geforderten Elemente eindeutig sind und dass T'
+  eine finitäre kohärente Theorie ist. Denn ist das Spektrum als topologischer
+  Raum (gemeint wohl: Örtlichkeit) realisierbar.
+
+* Lesen:
+  Mulvey. A syntactic construction of the spectrum of a commutative ring. 1975.
+  Raynaud. Anneaux locaux henséliens. LNM 169.
+
+
 === Nächste Schritte
 
 * Produziere explizites Gegenbeispiel für vermutlich falsche Behauptung,
