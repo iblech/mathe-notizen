@@ -453,6 +453,21 @@ Dann zeigt die Leray-Spektralsequenz, dass R^i c_* O_{C'} = 0 für i > 0.
 Also ist H^1(C, O_C) --> H^1(C, R n_* O_{C'}) surjektiv.
 
 
+=== Kohomologiegarbe (Felix)
+
+Sei E^* ein Komplex von (o.E.) injektiven Garben.
+
+Dann gibt es H^n(E^*) = ker/im.
+
+Auch gibt es die Garbifizierung der Prägarbe
+
+    U |--> HH^n(U, E^*).
+
+Diese beiden sind gleich.
+
+Funktioniert dann natürlich auch für allgemeine Komplexe.
+
+
 === Nächste Schritte
 
 * Was besagt das klassische Resultat für Ext^i auf P^n anschaulich?
