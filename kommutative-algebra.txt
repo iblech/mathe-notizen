@@ -333,6 +333,26 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   Steht auch in Banaschewski, Polynomials and radical ideals,
   http://www.sciencedirect.com/science/article/pii/0022404995001492 (Prop. 2).
 
+* http://math.stackexchange.com/a/53229/61604:
+
+      I cap J = (t I + (1-t) J) cap k[x_1,...,x_n]
+
+  für Ideale I und J von k[x_1,...,x_n]. (Der Schnitt findet in
+  k[x_1,...,x_n,t] statt.)
+
+  Allgemeiner gilt das für Ideale I und J eines Rings A, wobei der Schnitt dann
+  in A[t] stattfindet.
+
+* Gröbner-Basen:
+  http://people.math.gatech.edu/~aleykin3/math4803spr13/BOOK/chapter3.pdf
+
+* Im Allgemeinen gilt bekanntlich nicht I cap (J + K) = (I cap J) + (I cap K).
+  Ein Beispiel lautet:
+
+      I = (x), J = (x+y), K = (y) in Q[X,Y].
+
+  Dann ist die linke Seite gleich (x) und die rechte gleich (x) * (x,y).
+
 
 === Projektoren (Idempotente)
 
