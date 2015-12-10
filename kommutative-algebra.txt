@@ -353,6 +353,22 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 
   Dann ist die linke Seite gleich (x) und die rechte gleich (x) * (x,y).
 
+* Hinreichend für a cap (b + c) = (a cap b) + (a cap c) ist b <= a oder c <= a.
+  (Das heißt auch "modular law".)
+
+* Sei phi : A --> B ein surjektiver Ringhomo. Seo p ein Primideal von A.
+  Wenn ker(phi) <= p, dann ist phi[p] ein Primideal von B.
+
+* Man könnte denken, dass zum Beispiel in K[X,Y] gilt:
+
+      (f_i)_i cap (g_j)_j = (kgV(f_i,g_j))_ij.
+
+  Aber das ist falsch, wie das Beispiel
+
+      (x+y) = (x,y) cap (x+y) != (x,y) * (x+y) = (kgV(x,x+y), kgV(y,x+y))
+
+  demonstriert.
+
 
 === Projektoren (Idempotente)
 
