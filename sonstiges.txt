@@ -235,8 +235,18 @@ http://mathoverflow.net/questions/132802/defining-holomorphic-functions-in-terms
 
 === Schön typographisierte Vorlagen
 
-Doktorarbeit von Antti-Juhani Kaijanaho:
-https://jyx.jyu.fi/dspace/bitstream/handle/123456789/47698/978-951-39-6388-0_vaitos04122015.pdf?sequence=1
+* Doktorarbeit von Antti-Juhani Kaijanaho:
+  https://jyx.jyu.fi/dspace/bitstream/handle/123456789/47698/978-951-39-6388-0_vaitos04122015.pdf?sequence=1
 
-Vortrag von Zhen Lin:
-http://ct2015.web.ua.pt/slides/Low.pdf
+* Vortrag von Zhen Lin:
+  http://ct2015.web.ua.pt/slides/Low.pdf
+
+* Gut gelayoutet ist: https://www.math.leidenuniv.nl/scripties/MasterJavanpeykar.pdf
+
+* http://arxiv.org/pdf/1107.6032v2.pdf mit schönen grünen/blauen Linkfarben
+
+
+=== Prinzip der kleinsten Wirkung
+
+* Kommt in /Story of your life/ von Ted Chiang vor.
+* Kausalität?
