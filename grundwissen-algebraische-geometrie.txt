@@ -23,6 +23,20 @@
   http://math.stackexchange.com/questions/47342/does-every-closed-set-of-prime-ideals-of-a-noetherian-ring-contain-a-finite-dens
 
 
+=== Wozu sind noethersche Schemata gut?
+
+"As far as I can see, we want to consider Noetherian schemes since they will
+allow for a Mayer–Vietoris sequence in the Nisnevich topology. The key
+ingredient for that is the fact that if S is a Noetherian scheme, then |S| is a
+Noetherian topological space: every decreasing chain of closed subsets
+stabalises.
+
+The converse is not true: there exist non-Noetherian schemes S, such that
+|S| is a Noetherian topological space. You can even choose S affine."
+
+http://www.math.ru.nl/~jcommelin/files/schintro.pdf
+
+
 === Dimension
 
 * dim(X) <= n genau dann, wenn Sh(X) |== dim(O_X) <= n.
