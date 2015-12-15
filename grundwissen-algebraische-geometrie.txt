@@ -208,10 +208,17 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
 * Sei f \in A. Dann gilt:
     { x \in Spec A | f = 0 \in k(x) } = V((f)) = { p | f \in p }.
 
-* clos M = V(\bigcap M)  (nochmal prüfen!)
+* clos M = V(I(M)) = V(\bigcap M).
 
-* Falls V(I(W)) = W und V eine beliebige Teilmenge des affinen Raums ist,
-  so gilt I(V) : I(W) = I(V \ W) (Idealquotient).
+* Falls V(I(W)) = W (d.h. W abgeschlossen) und V eine beliebige Teilmenge des
+  affinen Raums ist, so gilt I(V) : I(W) = I(V \ W) (Idealquotient).
+
+  Insbesondere I(X \ W) = sqrt(0) : I(W).
+
+* Der Rand von V(a) im topologischen Sinn ist V(a + sqrt(0):a).
+  (Beachte: Das ist nicht unbedingt ein Radikalideal.)
+
+  Allgemeiner ist der Rand von M die Menge V(I(M) + I(X \ M)).
 
 * int(Spec A \ {p}) = Spec A \ V(p).
 

@@ -420,6 +420,30 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 
 * (a + b)^n = sum_{i+j=n} a^i b^j.
 
+* Stets gilt sqrt(0 : a) <= sqrt(0) : a. Die andere Richtung gilt im
+  Allgemeinen nicht.
+
+* Minimale Primideale bestehen stets nur aus Nullteilern.
+
+  Denn: Sei p ein minimales Primideal. Dann besitzt A_p nur ein einziges
+  Primideal. Ist also x in p, so ist x in A_p nicht invertierbar und somit
+  nilpotent. Also gibt es ein u nicht aus p und ein n >= 1 mit x^n u = 0.
+  Wählt man n minimal, so sieht man, dass x ein Nullteiler ist.
+
+  In reduzierten Ringen gilt auch die Umkehrung, das heißt: Jeder Nullteiler
+  liegt in einem minimalen Primideal.
+
+  Denn: Sei x ein Nullteiler. Gelte also x u = 0 mit u != 0.
+  Dann ist u nicht nilpotent. Also gibt es ein minimales Primideal p
+  mit u nicht in p. Somit x in p.
+
+  Die Umkehrung gilt aber auch in manchen nicht-reduzierten Ringen.
+  Zum Beispiel in k[eps]/(eps^2): Da sind die Nullteiler gerade alle Vielfachen
+  von eps. Es gibt nur ein Primideal, nämlich (eps). Also gilt Gleichheit.
+
+  Vielleicht gilt: Die Vereinigung aller minimalen Primideale ist die Menge
+  derjenigen Elemente x, sodass ein nicht-nilpotentes u mit xu = 0 existiert.
+
 * Hom_R(R/I, R/I) = R/I als R- und als R/I-Moduln.
 
 * Eine allgemeine Version des chinesischen Restsatzes: Seien I und J
