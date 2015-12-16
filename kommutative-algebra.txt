@@ -356,7 +356,7 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 * Hinreichend für a cap (b + c) = (a cap b) + (a cap c) ist b <= a oder c <= a.
   (Das heißt auch "modular law".)
 
-* Sei phi : A --> B ein surjektiver Ringhomo. Seo p ein Primideal von A.
+* Sei phi : A --> B ein surjektiver Ringhomo. Sei p ein Primideal von A.
   Wenn ker(phi) <= p, dann ist phi[p] ein Primideal von B.
 
 * Man könnte denken, dass zum Beispiel in K[X,Y] gilt:
