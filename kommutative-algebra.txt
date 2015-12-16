@@ -441,8 +441,9 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   Zum Beispiel in k[eps]/(eps^2): Da sind die Nullteiler gerade alle Vielfachen
   von eps. Es gibt nur ein Primideal, nämlich (eps). Also gilt Gleichheit.
 
-  Vielleicht gilt: Die Vereinigung aller minimalen Primideale ist die Menge
-  derjenigen Elemente x, sodass ein nicht-nilpotentes u mit xu = 0 existiert.
+  Allgemein gilt: Die Vereinigung aller minimalen Primideale ist die Menge
+  derjenigen Elemente x, sodass ein nicht-nilpotentes u derart existiert, dass
+  xu nilpotent ist.
 
 * Hom_R(R/I, R/I) = R/I als R- und als R/I-Moduln.
 
@@ -1417,6 +1418,16 @@ Sei R nicht unbedingt kommutativ.
   http://math.stackexchange.com/a/806933/61604
 
 * A --> B surjektiv, dann dim(B) <= dim(A). Stimmt das?
+
+* Sei p ein minimales Primideal. Sei I_x = (x) + (sqrt(0):x).
+  Dann ist I_x keine Teilmenge von p.
+
+  Denn angenommen doch. Dann liegt x in p. Also (A_p besitzt nur ein Primideal)
+  gibt es ein u mit x^n u = 0 und u nicht in p. Es liegt u in (sqrt(0):x).
+  Also liegt u doch in p.
+
+  Sei p < q eine echte Inklusion von Primidealen mit x als Zeuge.
+  Dann I_x <= q.
 
 
 === Reguläre Ringe
