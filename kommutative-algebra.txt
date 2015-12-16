@@ -477,6 +477,8 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 
       a = a_0 + (x) * (a : x_0).
 
+* Sei sqrt(a) endlich erzeugt. Dann sqrt(a)^n <= a für ein n.
+
 
 === Dreiecksmatrizen
 
