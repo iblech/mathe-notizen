@@ -1,0 +1,31 @@
+=== Vortrag von Jörg
+
+Jörg Lehmann. Vortrag im Lehrstuhlseminar Theoretische Physik I. 17.12.2015.
+Structure of complex networks - A cutting-edge perspective
+
+After an introduction to the basics of power flows in high-voltage transmission
+networks, the talk will focus on the effects of line-outages in such power
+grids. It will be shown that the post-failure redistribution of the power flows
+across the lines provides an edge-centric perspective on power grids and other
+complex networks. Such an approach yields information complementary to the
+usually adapted node-based view, in particular, on non-local interactions
+present in such networks. It will be argued that far-range interactions also
+lead to heavy tails in the statistics of the flow redistributions. Finally, a
+generalized branching-process model for failure cascades will be presented.
+
+http://www.physik.uni-augsburg.de/events/tp1/817
+
+Zufällige Stichworte:
+
+* Kuramoto-Modell
+
+* synchronous machines
+
+* active power, reactive power
+
+* Computing communities using random walks: Sophia Yaliraki, Mauricio Barahona,
+  Michael Schaub, ...
+
+* traffic networks
+
+* Idee für Schülerakadamie: komplexe Netzwerke, Schaltungen, Blackouts.
