@@ -1,4 +1,4 @@
-=== Nächste Schritte
+=== Funktionen aus n-Typen heraus
 
 * Stimmt es, dass es Funktionen aus n-Typen nur in andere n-Typen gibt?
   Wird in http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf behauptet
@@ -10,3 +10,8 @@
 
   Allerdings liefert das Induktionsprinzip eines n-abgeschnittenen Typs nur
   eine Konstruktionsmöglichkeit für Funktionen in andere n-Typen.
+
+
+=== Typen sind Homotopietypen, nicht Räume
+
+https://groups.google.com/forum/#!topic/HomotopyTypeTheory/Wf-H6rH155g
