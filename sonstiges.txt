@@ -252,6 +252,13 @@ http://mathoverflow.net/questions/132802/defining-holomorphic-functions-in-terms
 * Kausalität?
 
 
+=== Deep Learning
+
+Ian Goodfellow, Jonathon Shlens, Christian Szegedy.
+Explaining and Harnessing Adversarial Examples.
+http://arxiv.org/abs/1412.6572.
+
+
 === Geheimnis der Zahl 5
 
 * Drehung um a/b Teile des Vollkreises (gekürzter Bruch) führt zu b vielen

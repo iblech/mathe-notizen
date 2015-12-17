@@ -28,4 +28,6 @@ Zufällige Stichworte:
 
 * traffic networks
 
+* synthetic inertia
+
 * Idee für Schülerakadamie: komplexe Netzwerke, Schaltungen, Blackouts.
