@@ -1,3 +1,20 @@
+=== Irrationalität von sqrt(m) nach Estermann
+
+http://fermatslibrary.com/s/irrationality-of-square-root-of-m
+
+Sei n < sqrt(m) < n + 1. Wir zeigen, dass alpha := sqrt(m) - n irrational ist.
+Sei alpha = p/q mit 0 < p < q und q minimal. Wir haben
+
+    q/p = 1/(sqrt(m) - n) = (sqrt(m) + n) / (m - n^2) =
+        (alpha + 2n) / (m - n^2),
+
+also
+
+    alpha = (m - n^2) q / p - 2n = ... / p,
+
+Widerspruch (da p ein noch kleinerer Nenner ist).
+
+
 === Irrationalität algebraischer Zahlen
 
 Sei alpha eine algebraische Zahl vom Grad D > 1. Dann gibt es eine Konstante c,
