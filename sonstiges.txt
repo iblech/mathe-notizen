@@ -250,3 +250,28 @@ http://mathoverflow.net/questions/132802/defining-holomorphic-functions-in-terms
 
 * Kommt in /Story of your life/ von Ted Chiang vor.
 * Kausalität?
+
+
+=== Geheimnis der Zahl 5
+
+* Drehung um a/b Teile des Vollkreises (gekürzter Bruch) führt zu b vielen
+  Spiralen. (Tipp: Bézout-Darstellung.)
+
+* Sei der n-te Punkte bei nh * e^(i phi n) platziert. Dann ist der Abstand
+  zwischen zwei aufeinanderfolgenden Punkten
+
+      |nh e^(i phi n) - (n+1) h e^(i phi (n+1))| =
+      h |n - (n+1) e^(i phi)| =
+      h n |1 - e^(i phi) - 1/n e^(i phi)|
+
+  und der Abstand zwischen zwei Spiralpunkten (sei dazu phi = a/b und 1 = pa +
+  qb eine Bézout-Darstellung)
+
+      |nh e^(i phi n) - (n + p) h e^(i phi (n+p))| =
+      h |n - (n + p) e^(i phi p)| =
+      h n |1 - e^(i phi p) - p/n e^(i phi p)|.
+
+  Der Quotient der beiden Abstände (Spiralpunkte / Folgepunkte) geht gegen
+  Null. Stimmt das?
+
+* Es gibt eigentlich sogar viele Spiralen: nimm jeden Punkt, jeden zweiten, ...
