@@ -175,6 +175,10 @@ avenue seems to be largely unexplored to date.
   http://stacks.math.columbia.edu/tag/02IP relevante Definition von
   Cohec-Macauley zu meiner äquivalent ist.
 
+* Man könnte denken, dass sowas wie "dim O_X = dim_{O_X/m} m/m^2" gelten würde
+  (Georg L.). Aber das stimmt nicht. Denn m = sqrt(0); ist X reduziert,
+  vereinfacht sich die rechte Seite also zu (0)/(0) = (0).
+
 
 === Dominanz
 
