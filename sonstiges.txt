@@ -275,3 +275,14 @@ http://mathoverflow.net/questions/132802/defining-holomorphic-functions-in-terms
   Null. Stimmt das?
 
 * Es gibt eigentlich sogar viele Spiralen: nimm jeden Punkt, jeden zweiten, ...
+
+
+=== Qualia
+
+Roses are red
+Violets are blue
+But qualia don't exist
+And neither do "you".
+
+// Another night alone for Daniel Dennett.
+// http://smbc-comics.com/index.php?id=3968
