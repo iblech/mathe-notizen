@@ -379,6 +379,37 @@ Hinreichend dafür ist, dass für phi gilt:
   http://mathoverflow.net/questions/145821/interaction-petit-topos-gros-topos
 
 
+=== Platonismus vs. Formalismus
+
+Lambek, Scott. Reflections on a categorical foundations of mathematics.
+
+Für einen Intuitionisten ist Platonismus wunderbar mit Formalismus vereinbar:
+durch Arbeit im initialen (Elementar-)Topos. Denn:
+
+* Eine Aussage besitzt genau dann einen intuitionistischen Beweis, wenn
+  sie im initialen Topos gilt.
+
+* Der initiale Topos befriedigt Platonisten, denn als ein initiales Objekt
+  ist er eindeutig (in einem 2-kategoriellen Sinn).
+
+* Er befriedigt Formalisten, da er rein syntaktisch/linguistisch konstruiert
+  werden kann.
+
+Außerdem:
+
+* Er befriedigt Logizisten, weil die interne Sprache des initialen Topos
+  eine Form von Logik höherer Ordnung ist.
+
+* Er befriedigt Konstruktivisten, da der initiale Topos die
+  Disjunktionseigenschaft und die Existenzeigenschaft hat.
+
+Dieser Standpunkt heißt wohl "constructive nominalism".
+
+Nur Achtung: Der Beweis, dass der initiale Topos wirklich ein Modell mit den
+gewünschten Eigenschaften ist, setzt die metamathematische Annahme, dass es ein
+Modell von Mengenlehre gibt, voraus. (Letzter Satz des Artikels)
+
+
 === Nächste Schritte
 
 * Für den Rückzug mit f^* statt f^(-1) auf Spec k(x)
