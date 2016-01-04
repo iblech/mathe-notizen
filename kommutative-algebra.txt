@@ -445,6 +445,26 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   derjenigen Elemente x, sodass ein nicht-nilpotentes u derart existiert, dass
   xu nilpotent ist.
 
+* In einem reduzierten Hauptidealring gilt: Jedes Primideal, das nicht
+  minimal ist, ist maximal.
+
+  Denn: Sei p = (x) ein nicht-minimales Primideal. Dann enthält p ein reguläres
+  Element. Denn angenommen p würde nur Nullteiler enthalten. Dann ist p
+  die Vereinigung aller minimalen Primideale. Das Element x liegt also in einem
+  bestimmten minimalen Primideal q. Also p <= q. Da q minimal ist, ist p = q.
+  Das ist ein Widerspruch zur Nicht-Minimalität von p.
+
+  Somit enthält p ein reguläres Element tx. Damit ist auch x selbst regulär.
+
+  Sei nun ein Ideal a = (y) mit p <= a gegeben. Dann x = sy für ein Element s.
+  Also s in p oder y in p. Im zweiten Fall folgt a <= p, also fertig.
+
+  im ersten Fall gibt es u mit s = ux. Also x = sy = uxy. Da x regulär ist,
+  folgt 1 = uy. Damit ist a das Einsideal.
+
+* In einem beliebigen Hauptidealring, der nicht unbedingt reduziert ist,
+  gilt ebenfalls: Jedes Primideal, das nicht minimal ist, ist maximal.
+
 * Hom_R(R/I, R/I) = R/I als R- und als R/I-Moduln.
 
 * Eine allgemeine Version des chinesischen Restsatzes: Seien I und J
