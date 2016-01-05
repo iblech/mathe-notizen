@@ -72,6 +72,9 @@
 
 === Erzeuger und Relationen
 
+* Beschreibe abelsche Kategorien oder triangulierte Kategorien als
+  klassifizierende Kategorien von geeigneten Theorien!
+
 * Was ist Aut(R Gamma)?
 
 * Sei X projektiv von Dimension d. Sei L ein amples, global erzeugtes

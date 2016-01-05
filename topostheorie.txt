@@ -61,6 +61,78 @@ Der geometrische Morphismus ist
        f_* : E/X -----> E    (abhängiges Produkt nehmen)
     f^{-1} :   E -----> E/X  (mit X multiplizieren, also konstante Familie nehmen)
 
+* Im Übrigen ist E/X --> E eine geometrische Einbettung, falls X ein
+  Subsingleton ist. In diesem Fall ist f_*(E --> X) = [X, E] (gewöhnliches
+  inneres Hom). Die zugehörige Lawvere--Tierney-Topologie ist (X bewohnt ==> __).
+
+* Im Fall, dass X ein Subsingleton ist, gilt:
+
+      Hom_{Top^op}(E/X, F) =
+          Hom_Top(F, E/X) =
+          Hom_Top(F, E)_{mit Bild Garben} =
+          Hom_Top(F, E)_{mit Urbild von A bewohnt} =
+          Hom_{Top^op}(E, F)_{wobei A auf 1 geschickt wird}
+
+
+=== Faktorisierung über Untertopoi
+
+Sei j eine Lawvere--Tierney-Topologie in einem Topos E. Für einen geometrischen
+Morphismus f : F --> E sind dann äquivalent:
+
+1. f faktorisiert über E_j ^--> E.
+
+2. Die Bilder von f_* sind j-Garben.
+
+3. f^{-1} schickt die Morphismen aus W auf Isomorphismen. Dabei ist W die
+   Klasse derjenigen Morphismen aus E, welche nach Vergarbung Isos sind.
+
+1. ==> 2.: klar.
+
+2. ==> 1.: Setze Bild- und Urbildteil des gesuchten Morphismus F --> E_j ganz
+naiv, d.h. objektweise so, wie auch f operiert.
+
+1. ==> 3.: klar.
+
+3. ==> 2.: Es genügt zu zeigen, dass die f_*(X) W-lokale Objekte sind. Das ist
+über die Adjunktion und die Voraussetzung klar.
+
+
+=== Klassifizierender Topos
+
+Sei T eine geometrische Theorie. Dann können wir Set[T], den klassifizierenden
+Topos, wohl so konstruieren:
+
+    Set[T] := Set[ |T| ] / Konjunktion der Axiome.
+
+Dabei steht |T| für die zugrundeliegende Sprache und die Konjunktion der Axiome
+soll als Subsingleton in Set[ |T| ] aufgefasst werden.
+
+Damit kann man Set[T] verstehen als den von |T| frei erzeugten Topos modulo den
+Axiomen von T. (Natürlich arbeitet man hier in Top^op, nicht in Top.)
+
+* Sei X ein Subsingleton in einem Topos E. Dann ist E/X der klassifizierende
+  E-Topos derjenigen E-geometrischen Theorie, die keine Sorten und genau ein
+  Axiom enthält, nämlich
+
+      top |- bigvee { top | X ist bewohnt }.
+                (äquivalent: bigvee_{x : X} top)
+
+  Kommt mir etwas komisch vor, sollte aber richtig sein. Verwende zum Nachweis
+  sowas wie "externes-bigvee_{x : X} = internes-bigvee_{x : konstante Garbe X}".
+
+* Sei X ein beliebiges Objekt in einem Topos E. Dann ist E/X der
+  klassifizierende E-Topos der folgenden E-geometrischen Theorie:
+
+      Sorten: je eine Sorte S_x für jedes Element x von X
+      Axiome: alle Sorten S_x sind Subsingletons,
+              eine Sorte S_x ist bewohnt: top |- bigvee_{x in X} (exists u : S_x. top),
+              nur eine Sorte ist bewohnt:
+                  (exists u : S_x. top) wedge (exists v : S_y. top) |- bigvee { top | x = y }.
+
+  Kommt mir auch etwas komisch vor; passt aber topologisch. Denn Set/X =
+  Sh(X_diskret) und stetige Abbildungen Y --> X_diskret sind gerade durch
+  X-indizierte offene paarweise disjunkte Überdeckungen von Y gegeben.
+
 
 === Siten
 
