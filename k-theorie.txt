@@ -101,12 +101,13 @@ Pferdefußlemma.
 
 Warnung: http://mathoverflow.net/a/61272/31233 Angeblich gilt in der nur
 additiven K-Theorie nicht: Die alternierend aufsummierte Klasse einer längeren
-exakten Sequenz ist Null.
+exakten Sequenz ist Null. Klar, stimmt ja schon für kurze exakte
+(nicht-zerfallende) Sequenzen nicht.
 
 
-=== Eilenberg-Mazur-Streich
+=== Eilenberg--Mazur-Streich
 
-Sei M ein A-Modul. Dann gilt: oplus_{n \in N} M ~~ M + oplus_{n \in N} M.
+Sei M ein A-Modul. Dann gilt: oplus_{n \in N} M ~~ M oplus oplus_{n \in N} M.
 
 Daher folgt in der K-Theorie der abelschen Kategorie aller A-Moduln:
 [M] = 0.

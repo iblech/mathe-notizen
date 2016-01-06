@@ -11,6 +11,12 @@ injektive Objekte auf injektive. (Es genügt sogar, wenn der Linksadjungierte
 additiv ist und Monos auf Monos schickt.)
 Insbesondere bewahrt der Funktor "|_U", wobei U offen, Injektive.
 
+Ein additiver Funktor kann Monomorphismen bewahren ohne linksexakt zu sein.
+http://math.stackexchange.com/questions/406570/is-every-additive-monofunctor-between-abelian-categories-left-exact
+
+Aber es stimmt schon, dass ein rechtsexakter Funktor genau dann exakt ist, wenn
+er Monomorphismen bewahrt.
+
 Eine Kettenhomotopie h zwischen f, g: X --> Y ist dasselbe wie ein Komplexmorphismus
 H: I \otimes X --> Y mit H(s \otimes x) = f(x), H(t \otimes x) = g(x), H(H
 \otimes x) = h(x). Dabei sei I Z<s,t> in Grad 0 und Z<H> in Grad 1.

@@ -193,7 +193,7 @@ in kanonischer Eins-zu-Eins-Beziehung, vermöge U |-> f[U] und V |-> f^(-1)[V].
   Bild Null ist; die vor- und nachgeschalteten Isomorphismen ändern nichts am
   Bild, weswegen auch das Bild des tatsächlich zugrunde liegenden Morphismus
   betrachtet werden kann; nun kann einfach geprüft werden, ob das in A
-  berechnete Bild in B liegt.
+  berechnete Bild in B liegt.)
 
 * Ab/Torsion ist Q-Vect, vermöge Skalarerweiterung auf Q.
 

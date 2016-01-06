@@ -387,7 +387,7 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   von Projektoren) sind ja stets frei. 
 
 * In Ab_fp kann jedes Objekt als Kokern einer injektiven Matrix zwischen
-  freien Moduln dargestellt werden. Aber nicht als Kokern einer surjektiven.
+  freien Moduln dargestellt werden. Aber nicht als Kern einer surjektiven.
   Wenn man freie Moduln kategoriell und selbstdual charakterisieren kann, zeigt
   das, dass Ab_fp^op nicht zu Ab_fp äquivalent ist: In Ap_fp kann nicht jedes
   Objekt als Kern einer surjektiven Abbildung zwischen freien Moduln
@@ -674,6 +674,86 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
   die kleinste abelsche Unterkategorie aller Moduln, welche
   die freien Moduln endlichen Rangs (und beliebige Abbildungen zwischen ihnen)
   umfasst.
+
+* Jeder endlich präsentierte A-Modul ist Kokern eines Monomorphismus
+  (nutze Epi-/Mono-Faktorisierung).
+
+* Bilder von Z-Matrizen sind stets Z-frei. (Nutze Smithsche Normalform.)
+  Als Konsequenz sind endlich erzeugte Untermoduln von Z^n frei.
+
+  In klassischer Logik ist freilich jeder Untermodul von Z^n endlich erzeugt,
+  da Z und somit Z^n noethersch sind.
+
+* Ein Lemma zum Vergleich von Präsentationen. Seien Präsentationen
+
+      0 --> P_1 --> P_0 --> M --> 0
+      0 --> Q_1 --> Q_0 --> M --> 0
+
+  gegeben. Sei P_0 projektiv. Dann können wir ein Diagramm der Form
+
+                    i         p
+      0 ----> P_1 ----> P_0 ----> M ----> 0
+               |         |        |
+               | beta    | alpha  | id
+               v         v        v
+      0 ----> Q_1 ----> Q_0 ----> M ----> 0
+                    j        q
+
+  bauen. Dann gibt es eine kurze exakte Sequenz der Form
+
+      0 ----> P_1 ----> P_0 oplus Q_1 ----> Q_0 ----> 0.
+                x |---> (i(x),beta(x))
+                                (x,y) |---> alpha(x)-j(y)
+
+  Bei der Exaktheit an der mittleren Stelle geht die Monomorphie von j ein.
+  Die Monomorphie von i geht für die Exaktheit vorne ein.
+  Sonst geht Monomorphie nirgendwo ein.
+
+* Umkehrung: Sei ein Diagramm
+
+                    i
+              P_1 ----> P_0
+               |         |
+          beta |         | alpha
+               v         v
+              Q_1 ----> Q_0
+                    j
+
+  gegeben. Sei ferner die Sequenz
+
+              P_1 ----> P_0 oplus Q_1 ----> Q_0 ----> 0.
+                x |---> (i(x),beta(x))
+                                (x,y) |---> alpha(x)-j(y)
+
+  exakt. Dann sind die Kokerne von i und von j zueinander isomorph.
+  Dabei müssen i und j nicht unbedingt Monos sein.
+
+  Ein expliziter Iso sieht so aus:
+
+      cok(i) ---> cok(j)
+         [x] |--> [alpha(x)]
+
+  Er ist wohldefiniert wegen der Kommutativität des Diagramms,
+  ist surjektiv wegen der Exaktheit bei Q_0 und ist injektiv wegen der
+  Exaktheit an der mittleren Stelle.
+
+* Als Konsequenz hat man folgendes. Sei ein Objekt X einer abelschen Kategorie A
+  gegeben. Wir möchten einen additiven Funktor F : Ab^fp --> A mit F(Z) = X
+  konstruieren.
+
+  Es ist klar, dass wir einfach F(Z^n) := X^n setzen können. Auf den freien
+  Moduln ist F dann additiv.
+
+  Ist M ein beliebiger endlich präsentierter Z-Modul, ist die Definition von F(M)
+  aber schwieriger. Dazu nehmen wir eine Präsentation (mit injektiver
+  Präsentationsmatrix P) und setzen F(M) := cok F(P). Andere Wahlen einer
+  Präsentation führen zu einem isomorphen Kokern, denn wir haben obige
+  Vergleichssequenz, und diese bleibt auch nach Anwendung von F exakt,
+  da sie zerfällt.
+
+  Zusatz: Wenn F(n * id_Z) : X --> X für alle n != 0 ein Monomorphismus ist,
+  so ist auch das Bild einer jeden injektiven Matrix unter F injektiv (nutze
+  dazu mal wieder die Smithsche Normalform).
 
 
 === Endlichkeitseigenschaften von Algebren
