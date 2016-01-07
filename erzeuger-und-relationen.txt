@@ -220,6 +220,49 @@ Außerdem Mod(A) = { (V, x_1,...,x_n : V --> V) |
     x_i x_j = x_j x_i, f_l(x_i) = 0 in End(V) }.
 
 
+=== Darstellung von abelschen Kategorien
+
+* Sei ein Objekt X einer abelschen Kategorie A gegeben. Wir möchten einen
+  additiven Funktor F : Ab^fp --> A mit F(Z) = X konstruieren.
+
+  Es ist klar, dass wir einfach F(Z^n) := X^n setzen können. Auf den freien
+  Moduln ist F dann additiv.
+
+  Ist M ein beliebiger endlich präsentierter Z-Modul, ist die Definition von F(M)
+  aber schwieriger. Dazu nehmen wir eine Präsentation (mit injektiver
+  Präsentationsmatrix P) und setzen F(M) := cok F(P). Andere Wahlen einer
+  Präsentation führen zu einem isomorphen Kokern, denn wir haben die
+  Vergleichssequenz aus kommutative-algebra.txt, und diese bleibt auch nach
+  Anwendung von F exakt, da sie zerfällt.
+
+  Zusatz: Wenn n * id_X : X --> X für alle n != 0 ein Monomorphismus ist,
+  so ist auch das Bild einer jeden injektiven Matrix unter F injektiv (nutze
+  dazu mal wieder die Smithsche Normalform).
+
+  Mit einem Stück aus kommutative-algebra.txt folgt: F bewahrt nicht nur
+  Kokerne zwischen freien Moduln (das macht F nach Konstruktion), sondern auch
+  zwischen beliebigen Moduln. Somit ist F rechtsexakt. Unter der
+  Zusatzbedingung bewahrt F auch Monomorphismen und ist somit exakt.
+
+  Fazit: Exakte Funktoren Ab^fp --> A stehen in Eins-zu-Eins-Korrespondenz
+  mit Objekten X von A, für die n * id_X für alle n != 0 ein Monomorphismus ist.
+
+  Damit könnte Ab^fp die syntaktische Kategorie zu folgender "abelschen
+  Theorie" sein:
+
+      Sorten: eine, X.
+      Axiome: n x = 0 |- x = 0 (im Kontext x : X, ein Axiom für jedes n != 0)
+
+  Uns rechtsexakte Funktoren Ab^fp --> A stehen in Eins-zu-Eins-Korrespondenz
+  mit beliebigen Objekten X von A. Damit ist Ab^fp die "von einem Objekt frei
+  erzeugte abelsche Kategorie (wenn man rechtsexakte Funktoren als Morphismen
+  verwendet)".
+
+* Hom_exact(Mod(Q)^fp, A) = { X in A | n : X --> X Iso für alle n != 0 }.
+
+* Wie steht's um Mod(Z/(n))^fp?
+
+
 === In der algebraischen Geometrie
 
 * http://stacks.math.columbia.edu/download/limits.pdf, Prop. 5.1:

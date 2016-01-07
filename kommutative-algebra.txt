@@ -737,23 +737,23 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
   ist surjektiv wegen der Exaktheit bei Q_0 und ist injektiv wegen der
   Exaktheit an der mittleren Stelle.
 
-* Als Konsequenz hat man folgendes. Sei ein Objekt X einer abelschen Kategorie A
-  gegeben. Wir möchten einen additiven Funktor F : Ab^fp --> A mit F(Z) = X
-  konstruieren.
+* Einen Kokern eines Morphismus der Form
 
-  Es ist klar, dass wir einfach F(Z^n) := X^n setzen können. Auf den freien
-  Moduln ist F dann additiv.
+      cok(P' --> P) ----> cok(Q' --> Q)
 
-  Ist M ein beliebiger endlich präsentierter Z-Modul, ist die Definition von F(M)
-  aber schwieriger. Dazu nehmen wir eine Präsentation (mit injektiver
-  Präsentationsmatrix P) und setzen F(M) := cok F(P). Andere Wahlen einer
-  Präsentation führen zu einem isomorphen Kokern, denn wir haben obige
-  Vergleichssequenz, und diese bleibt auch nach Anwendung von F exakt,
-  da sie zerfällt.
+  kann man umschreiben als Kokern eines Morphismus der Form
 
-  Zusatz: Wenn F(n * id_Z) : X --> X für alle n != 0 ein Monomorphismus ist,
-  so ist auch das Bild einer jeden injektiven Matrix unter F injektiv (nutze
-  dazu mal wieder die Smithsche Normalform).
+      P oplus Q' --> Q,
+
+  wenn P projektiv ist. Und zwar so: Zunächst ändert sich der Kokern nicht,
+  wenn man den Kokern von
+
+      P ----> cok(Q' --> Q)
+
+  betrachtet, denn P --> cok(P' --> P) ist ein Epi. Da P projektiv ist,
+  liftet der Morphismus P ----> cok(Q' --> Q) zu einem Morphismus P --> Q.
+
+  Dann kann man explizit einen Iso der betreffenden Kokerne angeben.
 
 
 === Endlichkeitseigenschaften von Algebren
