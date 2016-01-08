@@ -35,3 +35,12 @@ Darstellungen aber ist etwas diskretes (zum Beispiel in dem Sinn, dass die
 Isomorphieklassen diskret sind).
 
 Siehe: http://arxiv.org/pdf/math/0512103v1.pdf, Seite 20
+
+* Caramello in ihrem Programm (S. 10): Jede k-lineare abelsche Kategorie
+  A zusammen mit einem treuen Funktor U : A --> Vect(k)_fin ist äquivalent
+  zur Kategorie Comod(End^(U))_fin der endlich dimensionalen Komoduln über der
+  Koalgebra der Endomorphismen von U.
+
+* Jeder atomische Topos mit einem Punkt p ist äquivalent zum Topos
+  Cont(Aut_l(p)) der stetigen Wirkungen der lokalischen Automorphismengruppe
+  von p. (Dubuc, Localic Galois Theory.)

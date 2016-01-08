@@ -64,6 +64,27 @@ Die Kategorie der A-Modul ist lokal endlich präsentierbar.
 * Dualisierbare Moduln (im Sinne monoidaler Kategorien) sind kompakt.
 
 
+=== Logische Definition
+
+Sei T eine geometrische Theorie über einer Signatur Sigma und M ein Modell von T
+in Set. Dann kann man definieren (Caramello in ihrem Programm, Seite 11):
+
+* M heißt genau dann endlich präsentierbar, wenn Hom(M, __) : T-mod(Set) --> Set
+  filtrierte Kolimiten bewahrt.
+
+* M heißt genau dann endlich präsentiert, wenn es eine geometrische Formel
+  {vec x. phi} über Sigma und Elemente xi_i in MA_i (wobei die A_i die Sorten
+  der vec x = (x_i)_i sind) gibt, sodass:
+
+      Hom(M, N) ~~ { (b_1,...,b_n) in NA_1 x ... NA_n |
+          (b_1,...,b_n) in [[vec x. phi]]_N }.
+
+Ist T vom Prägarbentyp, so stimmen die beiden Definitionen überein.
+
+Ferner ist in diesem Fall der klassifizierende Topos darstellbar als
+[T-mod(Set)_fp, Set].
+
+
 === Kompakte Objekte in Set
 
 * Endliche Mengen sind kompakt.
