@@ -282,6 +282,9 @@ Außerdem Mod(A) = { (V, x_1,...,x_n : V --> V) |
         * top |-_x exists y. x = ny  (für n > 0)
         * p(t)(x) = 0 |-_x x = 0     (für p(T) ganzzahliges Polynom != 0)
 
+* Die Idee mit "abelschen Theorien" steckt auch in Caramellos (et al)
+  Behandlung von Nori-Motiven! Ist also vielleicht nicht zu schlecht.
+
 
 === In der algebraischen Geometrie
 

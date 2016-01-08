@@ -64,6 +64,10 @@ F : C --> D derart besitzt, dass der kanonische Vergleichsfunktor
 
 eine Äquivalenz ist. In diesem Fall heißt D auch monadisch über C.
 
+* Monadische Funktoren bewahren und reflektieren endliche Limiten
+  sowie Kodifferenzkerne von Äquivalenzrelationen. Behaupten Caremello et al.
+  in http://arxiv.org/pdf/1506.06113v1.pdf (mit Quelle Borceux II, Prop. 3.5.2).
+
 
 === Beispiele für Monaden und ihre Algebren
 
