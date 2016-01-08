@@ -262,6 +262,26 @@ Außerdem Mod(A) = { (V, x_1,...,x_n : V --> V) |
 
 * Wie steht's um Mod(Z/(n))^fp?
 
+* Hom_exact(Mod(Z/(p))^fp, A) =
+      { X in A | n : X --> X Iso für 1 <= n < p und n : X --> X gleich 0 für n = p } =
+      { X in A | n : X --> X gleich 0 für n = p }.
+
+  Der erste Teil der Bedingung folgt aus der zweiten. Denn ist 1 <= n < p,
+  so gibt es a und b mit 1 = na + pb. Also id = n . a = a . n : X --> X.
+
+* Hom_exact(Mod(Q[X])^fp, A) =
+      { (X in A, t : X --> X) | n : X --> X Iso für alle n != 0,
+          p(t) : X --> X Mono für alle Polynome p != 0 }.
+
+  Das zeigt man wie bei Ab^fp. Als "abelsche Theorie" ist Mod(Q[X])^fp also:
+
+      Sorten: eine, X.
+      Funktionen: eine, t : X --> X.
+
+      Axiome:
+        * top |-_x exists y. x = ny  (für n > 0)
+        * p(t)(x) = 0 |-_x x = 0     (für p(T) ganzzahliges Polynom != 0)
+
 
 === In der algebraischen Geometrie
 

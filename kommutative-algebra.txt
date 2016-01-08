@@ -678,8 +678,14 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
 * Jeder endlich präsentierte A-Modul ist Kokern eines Monomorphismus
   (nutze Epi-/Mono-Faktorisierung).
 
+* Jeder endlich präsentierte Z-Modul ist Kokern einer injektiven Matrix.
+  Genauso mit Q[X] statt Z. Nutze Smithsche Normalform.
+
 * Bilder von Z-Matrizen sind stets Z-frei. (Nutze Smithsche Normalform.)
   Als Konsequenz sind endlich erzeugte Untermoduln von Z^n frei.
+
+  Für Z/(4) statt Z ist das falsch, wie die Matrix (2) oder der Untermodul
+  2 Z/(4) von Z/(4) zeigt.
 
   In klassischer Logik ist freilich jeder Untermodul von Z^n endlich erzeugt,
   da Z und somit Z^n noethersch sind.
