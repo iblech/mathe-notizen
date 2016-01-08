@@ -15,6 +15,9 @@ http://mathoverflow.net/questions/81342/elementary-results-with-p-adic-numbers
 * Man kann eine Quadrat nicht in n gleich große Dreiecke teilen, wenn n
   ungerade. (Monskys Theorem)
 
+* Besitze eine rationale Zahl eine Wurzel in allen Q_p und in R.
+  Dann besitzt sie eine in Q. (Princeton Companion, S. 246.)
+
 
 === Monskys Theorem
 
