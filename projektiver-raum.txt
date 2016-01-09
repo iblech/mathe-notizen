@@ -385,7 +385,6 @@ Garbe mit Hom(O(i), E[s]) = 0 für alle i = a,...,a+n und alle s. Dann ist E = 0
 * Was ist die passende Lambda-Ring-Struktur auf Z[X]/(1-X)^(n+1)?
 
 
-
 === Fundamentalklassen in K-Theorie
 
 Ist Z ein abgeschlossenes Unterschema des P^n, so heißt die Klasse von O_Z in
@@ -465,7 +464,6 @@ Reihenfolge) sehen so aus:
   n = 1:
       0 -1
       1  1
-      
 
 Die untere Zeile erklärt sich so:
 

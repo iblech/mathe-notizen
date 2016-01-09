@@ -104,7 +104,7 @@ curve. Beweis von Proposition 2.2.)
 
   Idee: Die Ind-Kategorie hat immer genügend viele Injektive. So kann man den
   abgeleiteten Funktor zunächst in einem allgemeineren Kontext erhalten. Dann
-  erwendet man eine Beschränktheitsbedingung, um die Zielkategorie wieder
+  verwendet man eine Beschränktheitsbedingung, um die Zielkategorie wieder
   kleiner zu bekommen.
 
   Damit könnte man auch ganz formal (wenn auch noch klassisch?) sowas wie
@@ -137,12 +137,44 @@ ihre Werte auf Erzeugern kennt. Auflösungen sind dann unnötig!
 Mittlerweile kann ich das präzisieren. Eine endliche Auflösung eines Objekts X
 in einer abelschen Kategorie führt dazu, dass man X in der abgeleiteten
 Kategorie als einen iterierten Kegel ausdrücken kann. *Die Morphismen sind
-dabei völlig explizit angebbar*. Selbstverständlich bewahren abgeleitete
+dabei völlig explizit angebbar.* Selbstverständlich bewahren abgeleitete
 Funktoren RF Kegel, sodass man damit RF(X) berechnen kann. Und zwar rein
 mechanisch.
 
+Auch die Wirkung von RF auf Morphismen ist damit berechenbar.
+
 Vorschlag: Vergleiche mit Ergebnissen bzw. Beispielen aus
 http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf!
+
+Es geht sogar noch mehr. Lass lieber über LF sprechen. Sei eine *unendliche*
+Auflösung U^* --> X --> 0 gegeben. Seien die LF(U^i) in nichtpositiven Graden
+konzentriert (durch die gute Abschneidung kann man das immer erreichen). Dann
+kann man LF(X) angeben. Denn:
+
+Für LF(X)^0 benötigt man nur LF(U^0)^0 und LF(J)^1, wobei J ein eingeschobenes
+Bild ist, aber LF(J)^1 ist Null.
+
+Für LF(X)^{-1} benötigt man nur LF(U^0)^{-1} und LF(J)^0. Um LF(J)^0 zu
+berechnen, benötigt man nur LF(U^{-1})^0 und LF(U^{-2})^1, wobei letzteres
+wieder Null ist.
+
+Und so weiter.
+
+Kann auch alles übertragen auf Auflösungen nach rechts, also 0 --> X --> U^*.
+Wenn man dann vom Funktor weiß, dass er Objekte auf >=0-Komplexe abbildet (zum
+Beispiel bei RF der Fall), dann geht das sogar auch wieder im Fall, dass die
+Auflösung unendlich lang ist.
+
+Nur der Vollständigkeit halber: Sei 0 --> X --> A --> B --> C --> 0.
+Füge dann die Bildfaktorisierung A --> J --> B ein. Dann habe folgende
+ausgezeichnete Dreiecke:
+
+    A --> J --> X[1] -->
+    B --> C --> J[1] -->   (obacht Vorzeichenwechsel!)
+
+Übrigens: Statt Endlichkeit der Auflösung kann man auch fordern, dass die
+Kohomologie der Bildkomplexe nach oben (im Fall RF) bzw. nach unten (im Fall LF)
+beschränkt ist.
 
 
 === Der Fall endlicher Dimension
@@ -154,6 +186,9 @@ Dann ist es kein Problem, D^b(Coh(A)) zu realisieren:
 * Für einzelne Objekte sogar freie.
 * Damit sind alle LF's berechenbar: Tor, Ext (bedenke: (endlich präsentiert)
   tensor (kohärent) ist kohärent).
+
+Update: Geht auch ohne endliche Dimension! Siehe oben. :-)
+Fazit: Wenn LF(A^1) bekannt, dann LF für alle kohärenten A-Moduln berechenbar.
 
 Bei Schemata aber gibt es weiterhin folgende Fragen:
 * Wie berechne ich lokal freie Auflösungen?

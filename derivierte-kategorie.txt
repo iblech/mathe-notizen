@@ -203,6 +203,12 @@ So folgt also
 Dabei verwendet, dass die Qis'se auch in Kom^b ein lokalisierendes System
 bilden.
 
+* Sei in einem ausgezeichneten Dreieck die Kohomologie der ersten beiden
+  Objekte in Grad <= 0 konzentriert. Dann ist es auch die des dritten Objekts.
+
+* Sei in einem ausgezeichneten Dreieck die Kohomologie der zweiten beiden
+  Objekte in Grad >= 0 konzentriert. Dann ist es auch die des ersten Objekts.
+
 
 === D^* und Unterkategorien
 

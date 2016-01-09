@@ -17,6 +17,15 @@
   Hat in der Einleitung viele Literaturverweise!
 
 
+=== Konvexe Mengen
+
+Konvexe Mengen können ja über ihre extremalen Punkte erzeugt werden.
+
+Das besitzt eine kategorielle Interpretation. Stichwörter "canonical subset of
+generators", "cConv -> cHaus ist monadisch", ... Siehe /Algebraic categories
+whose projectives are explicitly free/ von Matías Menni.
+
+
 === Lokal endlich präsentierbare Kategorien
 
 Motto: Large categories whose objects arise from small generators under small
@@ -187,6 +196,20 @@ aus gewissen Ausgangsobjekten X_i konstruierbar.
 
 * Für chi(RF(X)) ist es natürlich etwas einfacher. Dafür muss ich nur
   die chi(RF(X_i)) kennen.
+
+
+=== Berechnung von triangulierten Funktoren
+
+Sei F : D^b(A) --> D^b(B) ein triangulierter Funktor.
+
+Sei eine endliche Auflösung eines Objekts X durch irgendwelche Objekte A_i
+gegeben. Wenn ich die Komplexe F(A_i) sowie die Morphismen F(A_i --> A_{i+1})
+kenne, dann kenne ich auch F(X).
+
+Ferner: Wenn ein Morphismus von Auflösungen A_i --> A_i' gegeben ist
+und ich die F(A_i --> A_i') kenne, so kenne ich auch F(X --> X').
+
+Mehr steht in derivierte-kategorie-konstruktiv.txt.
 
 
 === D^b(X) als D^b(Mod-A)
