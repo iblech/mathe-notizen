@@ -1216,6 +1216,8 @@ muss.
   Sogar für allgemeine Skalarerweiterungen. Siehe zum Beispiel
   http://therisingsea.org/notes/TensorExteriorSymmetric.pdf.
 
+* Jeder Vektor in Lambda^2(R^3) ist rein.
+
 
 === Verklebung von Modulkategorien
 
