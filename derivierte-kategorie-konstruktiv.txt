@@ -44,6 +44,8 @@ curve. Beweis von Proposition 2.2.)
   eine sinnvolle Definition ist (da sie klassisch genau die gewöhnliche
   Ext-Gruppen berechnet).
 
+* Das ist klasisch bekannt. Siehe nLab "satellite".
+
 * Mit dieser Definition kann man explizit zeigen: Ist Ext^1(M, N) = 0,
   so zerfällt jede kurze exakte Sequenz 0 --> N -i-> ? -j-> M --> 0.
 
@@ -176,6 +178,51 @@ ausgezeichnete Dreiecke:
 Kohomologie der Bildkomplexe nach oben (im Fall RF) bzw. nach unten (im Fall LF)
 beschränkt ist.
 
+Für eine abelsche Kategorie, in der jedes Objekt eine endliche Auflösung (nach
+links oder rechts) durch gewisse Objekte A_i zulässt, gilt: Wenn die
+RHom(A_i,A_j) bekannt sind (auch auf Morphismen), dann kann man RHom(X[0],Y[0])
+für alle Objekte der abelschen Kategorie berechnen.
+
+Bemerkung: Den Komplex K := (X -alpha-> Y) mit X in Grad 0 und Y in Grad 1 kann
+man als Kegel darstellen: von X[-1] --> Y[-1].
+
+Der Komplex (X -alpha-> Y -beta-> Z) mit X in Grad 0, Y in Grad 1 und Z in Grad 2
+ist wie als Kegel von
+
+   K[-1] --beta[-2]--> Z[-2]
+
+realisierbar. Und so weiter. Kann also jeden beschränkten Komplex als
+iterierten Kegel seiner Komponenten (geeignet verschoben) darstellen.
+
+Fazit: Sind die RHom(A_i,A_j) bekannt (auch auf Morphismen), so kann man auch
+alle RHom(K,L) für beliebige beschränkte Komplexe berechnen.
+
+Frage: Setze E := oplus_i A_i. Haben dann diese Beobachtungen etwas damit zu
+tun, dass D^b(A) = D^b(REnd(E))?
+
+*** F(beta . pi) = F(beta) . pi'
+
+Sei 0 -> A -alpha-> B -beta-> X -> 0 exakt. Seien LF(A), LF(B) und LF(alpha)
+bekannt. Seien ferner die Isos sigma : H^0LF(A) --> F(A) und mu : H^0LF(B) --> F(B)
+bekannt. Nach den obigen Überlegungen kann ich dann LF(X) als Kegel K von LF(A) -> LF(B)
+berechnen. Ferner kann ich aber auch den Iso H^0(K) -> F(X) angeben. Nämlich:
+
+    [(u,v)] |--> F(beta)(mu([v])).
+
+In der Prüfung der Wohldefiniertheit geht ein, dass F(alpha) . sigma = mu .
+H^0LF(alpha).
+
+In der Prüfung der Injektivität geht ein, dass F rechtsexakt ist und dass mu
+und sigma bijektiv sind.
+
+In der Prüfung der Surjektivität geht ein, dass F rechtsexakt ist und dass mu
+bijektiv ist.
+
+"Induktiv" kann man daher LF(X) *zusammen mit* H^0LF(X) --> F(X) für alle X
+berechnen (auch, wenn X nicht nur durch zwei Objekte nach links auflösbar ist).
+Aber die Kombination LF + Auflösungen nach rechts scheint nicht zu
+funktionieren.
+
 
 === Der Fall endlicher Dimension
 
@@ -188,7 +235,8 @@ Dann ist es kein Problem, D^b(Coh(A)) zu realisieren:
   tensor (kohärent) ist kohärent).
 
 Update: Geht auch ohne endliche Dimension! Siehe oben. :-)
-Fazit: Wenn LF(A^1) bekannt, dann LF für alle kohärenten A-Moduln berechenbar.
+Fazit: Wenn LF(A^1) = F(A^1)[0] bekannt, dann LF für alle kohärenten A-Moduln berechenbar.
+(Die Stärke liegt aber darin, dass man auch andere Erzeuger verwenden kann.)
 
 Bei Schemata aber gibt es weiterhin folgende Fragen:
 * Wie berechne ich lokal freie Auflösungen?

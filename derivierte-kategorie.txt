@@ -114,6 +114,12 @@ Falls Q . F schwache Äquivalenzen auf Isos schickt (d.h. F schwache
 Äquivalenzen bewahrt), gibt es RF schon wegen der universellen Eigenschaft der
 Lokalisierung.
 
+* Beatriz González thematisiert das in ihrem Artikel /A derivability criterion
+  based on the existence of adjunctions/.
+
+* Eine "lokale Definition" findet sich im Stacks Project, derived.pdf,
+  Abschnitte 15 und 16.
+
 
 === Quelle von Auflösungen
 

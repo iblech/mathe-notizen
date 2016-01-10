@@ -5,6 +5,15 @@
   http://mathoverflow.net/questions/91901/is-it-possible-to-make-an-autoequivalence-of-categories-an-automorphism/91902#91902
 
 
+=== Anschauung für Kegel, Zylinder & Co.
+
+Behrang Noohi. Lectures on derived and triangulated categories.
+http://arxiv.org/pdf/0704.1009v1.pdf.
+Seite 16.
+
+Empfohlen von Peter Arndt: http://mathoverflow.net/a/43112/31233
+
+
 === Nullheit in ausgezeichneten Dreiecken
 
 Analog zu der Situation bei exakten Sequenzen könnte man denken: Für ein
