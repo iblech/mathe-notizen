@@ -1571,6 +1571,17 @@ Sei R nicht unbedingt kommutativ.
   Sei p < q eine echte Inklusion von Primidealen mit x als Zeuge.
   Dann I_x <= q.
 
+  Besserer ("konstruktiverer") Beweis so: Es besitzt A_p nur ein Primideal.
+  Also ist jedes Element von A_p invertierbar oder nilpotent. Wir betrachten
+  speziell x/1.
+
+  Im ersten Fall folgt, dass x nicht in p liegt. Somit liegt in I_x, aber nicht p.
+  Also ist I_x keine Teilmenge von p.
+
+  Im zweiten Fall folgt, dass es ein u gibt, das nicht in p liegt und eine
+  Identität der Form u x^n = 0 erfüllt. Somit liegt u in I_x, aber nicht in p.
+  Also ist I_x keine Teilmenge von p.
+
 
 === Reguläre Ringe
 
