@@ -1,3 +1,37 @@
+=== Diskrete Bewertungsbereiche
+
+* Jedes Ideal in einem diskreten Bewertungsbereich ist von der Form
+
+      m_k = { x in A | nu(x) >= k }
+
+  für ein k >= 0 (k = infty erlaubt).
+
+* m_{k+1} <= m_k.
+
+* Wenn m_l <= m_k, dann l >= k. Denn: Wir können m_l = (x^l) und
+  m_k = (x^k) schreiben. Somit x^l in m_k. Somit nu(x^l) = l >= k.
+
+* Genau dann (a_i)_i = m_k, wenn min_i nu(a_i) = k.
+
+  "<==": Habe (a_i)_i = m_l. Da alle a_i in m_k liegen, gilt somit m_l <= m_k.
+  Also l >= k. Habe außerdem i0 mit nu(a_i0) = k. Trotzdem k >= l. Also k = l.
+
+  "==>": Habe nu(a_i) >= k für alle i. Wenn für alle i ">" gelten würde, dann
+  wäre (a_i)_i <= m_{k+1}. Aber das kann nicht sein.
+
+  Direkt so: Sei (a_i)_i = (u). Wir wollen zeigen, dass nu(u) = min_i nu(a_i).
+  Da u = sum_i f_i a_i, gilt nu(u) >= min_i nu(a_i). Da a_i = t_i u für jedes i,
+  gilt nu(a_i) >= nu(u) für jedes i und damit insbesondere min_i nu(a_i) >= nu(u).
+
+* Sei nu(a) >= n + 1 und nu(b) = n. Dann nu(a + b) = n.
+
+  Dabei ist ">=" klar, wegen der Rechenregel von nu mit dem Minimum.
+
+  Wenn ">" gelten würde, dann wäre
+
+      nu(b) = nu((a + b) + (-a)) >= min { nu(a+b), nu(a) } >= n + 1.
+
+
 === Kommutierende Matrizen
 
 * Kommutierende Matrizen lassen sich im Allgemeinen *nicht* simultan
