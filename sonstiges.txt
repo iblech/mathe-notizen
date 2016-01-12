@@ -245,6 +245,8 @@ http://mathoverflow.net/questions/132802/defining-holomorphic-functions-in-terms
 
 * http://arxiv.org/pdf/1107.6032v2.pdf mit schönen grünen/blauen Linkfarben
 
+* http://home.sandiego.edu/~shulman/papers/nlabhott.pdf
+
 
 === Prinzip der kleinsten Wirkung
 
