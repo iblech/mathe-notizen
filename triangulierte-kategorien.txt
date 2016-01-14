@@ -1,3 +1,9 @@
+=== Duale Kategorie
+
+* Die duale Kategorie einer triangulierten Kategorie wird wieder
+  trianguliert, mit dem Inversen des Shift-Funktors als neuen Shift-Funktor.
+
+
 === Das Böse
 
 * Sei C eine Kategorie mit einer Autoäquivalenz. Dann ist C äquivalent

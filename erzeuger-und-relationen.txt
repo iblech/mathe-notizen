@@ -281,6 +281,9 @@ Außerdem Mod(A) = { (V, x_1,...,x_n : V --> V) |
   erzeugte abelsche Kategorie (wenn man rechtsexakte Funktoren als Morphismen
   verwendet)".
 
+  Achtung: Vergesse nicht Kokerne. Muss also sowas machen wie eine reguläre
+  Kategorie zu effektivisieren.
+
 * Hom_exact(Mod(Q)^fp, A) = { X in A | n : X --> X Iso für alle n != 0 }.
 
 * Wie steht's um Mod(Z/(n))^fp?

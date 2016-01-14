@@ -129,7 +129,7 @@ Dabei ist der Iso wohl durch phi |-> T^n chi_phi(1/T) gegeben.
 
 Im Fall, dass R ein Körper ist, ist es einfacher. Dann ist K(Vect(k)_findim[T])
 einfach isomorph zur multiplikativen Gruppe der rationalen Funktionen mit
-normierte Zähler und Nenner. Der Isomorphismus schickt einen Endomorphismus auf
+normierten Zähler und Nenner. Der Isomorphismus schickt einen Endomorphismus auf
 sein charakteristisches Polynom. Sein Inverses schickt einen normiertes Polynom
 auf seine Begleitmatrix.
 
@@ -139,7 +139,6 @@ Man muss dabei nachrechnen:
   Sequenz
 
       0 -----> k[x]/(f) --g--> k[x]/(fg) -----> k[x]/(g) -----> 0.
-
 
 * B(chi(phi)) = phi. Das folgt daraus, dass man phi auf Frobeniussche
   Normalform bringen kann. Außerdem geht die Rechenregel für B(fg) ein.
@@ -537,8 +536,11 @@ Quelle: Marco Schlichting, Higher Algebraic K-Theory.
 
 * Siehe http://arxiv.org/pdf/math/0512103v1.pdf, Seite 30 unten:
   Gibt Herausteilen aller kurzen exakten Sequenzen dasselbe wie nur das
-  Herausteilen zerfallende kurzer exakter Sequenzen, falls A halbeinfach ist?
+  Herausteilen zerfallender kurzer exakter Sequenzen, falls A halbeinfach ist?
   Oder sogar immmer...?
+
+  Die Antwort ist klar: Falls A halbeinfach ist, gibt es dasselbe. Da dann eh
+  alle kurzen exakten Sequenzen zerfallen. Sonst nicht.
 
 * Auflösung der Diagonale X --> Auflösung der Diagonale X^n?
 

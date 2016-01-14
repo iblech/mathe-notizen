@@ -255,6 +255,12 @@ Konstruktion in http://www.maths.ed.ac.uk/~aar/papers/neemder.pdf
 * http://pages.saclay.inria.fr/alban.quadrat/seminar/Barakat.pdf
   Unter dem Gesichtspunkt von derivierten Äquivalenzen
 
+  Auch: "The ability of derived equivalences to relate two completely different
+  ABELian categories is an invitation for computer algebra to change worlds;
+  abandoning data structures with an unnecessary overhead in favor of more
+  compact representations which speed up computations considerably."
+  http://www.fachgruppe-computeralgebra.de/symbolicdata/projekte/
+
 * Einige Invarianten faktorisieren über die derivierte Kategorie:
   K-Theorie, Hochschild-(Ko-)Homologie.
   Außerdem topologische K-Theorie, und damit die Summe der geraden und die

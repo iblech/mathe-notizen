@@ -44,3 +44,10 @@ Siehe: http://arxiv.org/pdf/math/0512103v1.pdf, Seite 20
 * Jeder atomische Topos mit einem Punkt p ist äquivalent zum Topos
   Cont(Aut_l(p)) der stetigen Wirkungen der lokalischen Automorphismengruppe
   von p. (Dubuc, Localic Galois Theory.)
+
+
+=== Pontryagin-Dualität
+
+Z^ (die proendliche Vervollständigung von Z, der Prüferring, lim_n Z/(n))
+korrespondiert unter Pontryagin-Dualität zu Q/Z.
+https://ncatlab.org/nlab/show/profinite+completion+of+the+integers

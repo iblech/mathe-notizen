@@ -252,6 +252,7 @@ Prop.: X, Y glatt, eigentlich/k. Dann RHom(L_perf(X), L_perf(Y)) ~ L_perf(X x Y)
 
 * Idee: Um A/B zu bauen, füge für jedes Objekt U aus B einen Morphismus eps in
   Grad -1 mit d(eps) = id_U ein. http://arxiv.org/abs/math/0210114
+  http://arxiv.org/pdf/1212.6170v1.pdf (S. 18)
 
 * Hom_{A/B}(X, Y) = cone(h_Y tensor_B^L tilde h_X --> Hom(X,Y)),
   als Objekte in der abgeleiteten Kategorie der k-Moduln.
