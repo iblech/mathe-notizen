@@ -565,6 +565,9 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
 
 * Ein Morphismus in D ist ein Mono in D genau dann, wenn er ein Mono in C ist.
 
+* Wichtiges Beispiel ist natürlich die Einbettung Sh(X) --> PSh(X)
+  oder allgemeiner Sh_j(E) --> E. Der Reflektor ist Garbifizierung.
+
 
 === Lokalisierung
 
