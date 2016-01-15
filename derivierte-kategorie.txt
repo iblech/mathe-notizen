@@ -297,6 +297,12 @@ Konstruktion in http://www.maths.ed.ac.uk/~aar/papers/neemder.pdf
   im klassischen Fall hat man nur sowas wie die
   Hyperkohomologie-Spektralsequenz.
 
+* "The point, I guess, is that applying a functor F is certainly a thing that
+  inverts F-isomorphisms, but there's no guarantee that it's the universal such
+  thing. You want the universal such thing because you're a category theorist
+  and universal constructions are intrinsically important to you."
+  http://mathoverflow.net/a/173569/31233
+
 
 === Verdier-Quotient
 
