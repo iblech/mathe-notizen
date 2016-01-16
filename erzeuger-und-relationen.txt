@@ -311,6 +311,14 @@ Außerdem Mod(A) = { (V, x_1,...,x_n : V --> V) |
 * Die Idee mit "abelschen Theorien" steckt auch in Caramellos (et al)
   Behandlung von Nori-Motiven! Ist also vielleicht nicht zu schlecht.
 
+* Hom_exact(Ab^fp, Ab^fp) = N. Denn Z muss auf ein Z^n gehen, denn das sind
+  die einzigen Moduln, für die Multiplikation mit jedem positiven natürlichen
+  Zahl injektiv ist.
+
+  Aut_exact(Ab^fp) = Aut(Ab^fp) = { id }.
+
+* Hom_exact(Mod(Q)^fp, Mod(Q)^fp) = Aut(Mod(Q)^fp) = { id }.
+
 
 === In der algebraischen Geometrie
 

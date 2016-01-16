@@ -12,6 +12,30 @@
       |(psi, psi_i)|^2.
 
 
+=== Operatoren
+
+* (hat x)(psi) = x psi.
+
+* hat p = -i hbar del/del x.
+
+* Eigenfunktion von hat p: e^(i p0/hbar x - c)
+
+* Eigenfunktion von hat x: delta(__ - a)
+
+* Inwieweit sollte hat x den Typ H --> H tensor Meter haben oder nicht haben?
+
+
+=== Kollaps der Wellenfunktion
+
+* Oder: Wechselwirkung mit einem Messgerät oder sogar der ganzen Umgebung;
+  diese Dekohärenz reproduziert die Erwartungen des Kollapses für interne
+  Beobachter.
+
+* Vielleicht ist die Beobachtung der "Wellenfunktion des Universums" nicht so
+  wichtig, genau wie in Greg Adams /Permutation City/ es nicht so wichtig ist,
+  ob eine Gehirnsimulation tatsächlich ausgeführt wird.
+
+
 === Welle/Teilchen-Dualismus auf makroskopischer Ebene
 
 * Walking Droplets
