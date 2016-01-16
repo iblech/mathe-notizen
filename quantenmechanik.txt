@@ -1,0 +1,18 @@
+=== Borns Regel
+
+* Wahrscheinlichkeit für einen Quantensprung von Zustand psi in Zustand phi:
+
+      |(psi, phi)|^2.
+
+  [ Was hat die Symmetrie zu bedeuten? ]
+
+* Insbesondere ist die Wahrscheinlichkeit dafür, nach Messung durch einen
+  Operator A in den Eigenzustand psi_i zu gelangen,
+
+      |(psi, psi_i)|^2.
+
+
+=== Welle/Teilchen-Dualismus auf makroskopischer Ebene
+
+* Walking Droplets
+  http://users.df.uba.ar/dasso/fis4_2do_cuat_2010/walker.pdf
