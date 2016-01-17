@@ -133,6 +133,20 @@ Heyting-Algebren (CAHA).
   Aussagen der Form "die Zahl endet auf ...23".
 
 
+=== Wahrscheinlichkeitstheoretische Deutung
+
+Greg Kuperberg. An introduction to quantum probability, quantum mechanics, and
+quantum computation. (Empfohlen von sigfpe.)
+
+https://www.math.ucdavis.edu/~greg/intro.pdf
+
+* Elemente von A sind Ereignisse.
+
+* Ein Zustand ist eine nichtnegative Funktion rho : A --> [0,infty]
+  mit rho(sum_j x_j) = sum_j rho(x_j) falls x_i x_j = 0 für alle j != k.
+  Man sollte wohl noch rho(top) = 1 fordern.
+
+
 === Punktfreie Wahrscheinlichkeitstheorie
 
 * http://math.stackexchange.com/questions/163630/point-free-random-variable-what-does-the-functor-preserve-and-reflect

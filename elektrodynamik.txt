@@ -1,0 +1,9 @@
+=== Formulierung mit Differentialformen
+
+Siehe Edwards, Seite 345.
+
+* Feld F = E dt + B
+* bewegende Ladung = J = rho dx dy dz - j_1 dy dz dt - j_2 dz dx dt - j_3 dx dy dt
+
+* d F = 0, dj = 0
+* d (eps E - B/mu dt) = J
