@@ -36,6 +36,26 @@
   ob eine Gehirnsimulation tatsächlich ausgeführt wird.
 
 
+=== Quantenfehlerkorrektur
+
+* http://blog.sigfpe.com/2007/03/shor-quantum-error-correcting-code-and.html
+  "A minor miracle has taken place. The Shor code is robust against just about
+  anything you can throw at a single qubit. In fact, any code that can survive
+  flips and phase flips of a single qubit can survive any kind of corruption,
+  including entanglement with the environment."
+
+
+=== Wärmetausch
+
+"The key requirement is that if a particle can go from region A to region B,
+the probability of the particle being found in region A must always be nearly
+equal to the probability for it being found in region B (this requirement is
+also stated by t'Hooft, which made me wonder why I can't recognize duck-feet
+quantum mechanics in his papers)."
+
+http://physics.stackexchange.com/a/17225/103105
+
+
 === Welle/Teilchen-Dualismus auf makroskopischer Ebene
 
 * Walking Droplets
