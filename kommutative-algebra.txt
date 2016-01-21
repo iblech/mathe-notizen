@@ -1653,6 +1653,7 @@ Sei R nicht unbedingt kommutativ.
 * Lokalisieren an S = 1 + m ist dasselbe wie Lokalisieren an T = A \ m,
   wenn m ein maximales Ideal ist. Denn S <= T und T <= Sat(S).
 
+
 === Siehe auch
 
 * http://math.uga.edu/~pete/integral.pdf
