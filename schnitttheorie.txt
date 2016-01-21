@@ -9,7 +9,7 @@
   Kurven lassen sich in Geraden zerlegen.
 
 * Tor-Formel bleibt unter O_p --> \hat O_p invariant. "Vervollständigen ist
-  exakt".
+  exakt". Tensorieren ist sogar treuflach!
 
 
 === Schnitttheorie bei Mannigfaltigkeiten

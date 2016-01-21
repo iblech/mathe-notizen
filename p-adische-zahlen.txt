@@ -2,6 +2,8 @@
 
 * http://www.madore.org/~david/math/padics.pdf
 
+* Fernando Q. Gouvea. p-adic Numbers: An Introduction.
+
 
 === Coole und leichte Anwendungen
 
@@ -12,7 +14,7 @@ http://mathoverflow.net/questions/81342/elementary-results-with-p-adic-numbers
 
 * Bestimmte Gleichungen haben nur endlich viele ganzzahlige Lösungen.
 
-* Man kann eine Quadrat nicht in n gleich große Dreiecke teilen, wenn n
+* Man kann ein Quadrat nicht in n gleich große Dreiecke teilen, wenn n
   ungerade. (Monskys Theorem)
 
 * Besitze eine rationale Zahl eine Wurzel in allen Q_p und in R.

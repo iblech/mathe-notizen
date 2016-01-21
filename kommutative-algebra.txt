@@ -1643,6 +1643,13 @@ Sei R nicht unbedingt kommutativ.
   http://homalg.math.rwth-aachen.de/~barakat/talks/purity.pdf
 
 
+=== Vervollständigung
+
+* http://www.northeastern.edu/castravet/MATH840/hmw7.pdf
+  k[[x,y]]/(f_r + f_{r+1} + ... + f_d) ~~ k[[x]] genau dann, wenn r = 1.
+  (Dabei deg f_n = n.)
+
+
 === Siehe auch
 
 * http://math.uga.edu/~pete/integral.pdf

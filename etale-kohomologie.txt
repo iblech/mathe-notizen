@@ -6,3 +6,13 @@
 
 * http://stacks.math.columbia.edu/tag/04HE: Étale coverings of a scheme can
   be refined by Zariski coverings of finite locally free covers.
+
+* "One-dimensional singularities in general can be really nasty. A good fact to
+  always keep in mind is a beautiful theorem of Artin (coming out of his
+  approximation theorem): if a pair of finite type schemes over a field kk have
+  kk-isomorphic completions at a pair of closed points then (over kk) they even
+  share a common (residually trivial) etale neighborhood around those points.
+  So working "formally" over kk is tantamount to working "etale-locally" over
+  kk, which is pretty amazing. This is in arbitrary dimension."
+
+  Brian Conrad bei http://mathoverflow.net/questions/18665/what-does-being-analytically-isomorphic-imply-for-classification-of-singularitie.
