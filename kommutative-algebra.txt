@@ -1138,7 +1138,8 @@ muss.
 
 * Sei S eine multiplikativ abgeschlossene Menge in einem Ring A. Dann ist
 
-      Sat(S) := { x in A | XXX }
+      Sat(S) := { x in A | ex. f in S: f in sqrt(x) }
+              = { x in A | ex. y in A: xy in S }
 
   ihre Saturierung, d.h. die kleinste multiplikativ abgeschlossene und
   saturierte Menge, welche S umfasst.
@@ -1649,6 +1650,8 @@ Sei R nicht unbedingt kommutativ.
   k[[x,y]]/(f_r + f_{r+1} + ... + f_d) ~~ k[[x]] genau dann, wenn r = 1.
   (Dabei deg f_n = n.)
 
+* Lokalisieren an S = 1 + m ist dasselbe wie Lokalisieren an T = A \ m,
+  wenn m ein maximales Ideal ist. Denn S <= T und T <= Sat(S).
 
 === Siehe auch
 

@@ -191,6 +191,10 @@ http://arxiv.org/abs/1011.0014
 * Etwas in die Richtung steht auch in:
   http://philosophymademanifest.blogspot.de/2011/04/curry-howard-for-non-dummies-part-2.html
 
+* Beweise sind wie Experimente in der Physik. In beiden Fällen geht es um
+  Beobachtungen, die aufwendige Konstruktionen benötigen, um sie nachzuweisen
+  (Urs: "to take place"). https://nforum.ncatlab.org/discussion/6895/proof-and-observation
+
 
 === BV
 
