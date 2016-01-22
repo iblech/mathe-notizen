@@ -20,6 +20,9 @@ http://mathoverflow.net/questions/81342/elementary-results-with-p-adic-numbers
 * Besitze eine rationale Zahl eine Wurzel in allen Q_p und in R.
   Dann besitzt sie eine in Q. (Princeton Companion, S. 246.)
 
+* https://terrytao.wordpress.com/2007/05/25/open-question-effective-skolem-mahler-lech-theorem
+  http://www.jstor.org/stable/2974639
+
 
 === Monskys Theorem
 

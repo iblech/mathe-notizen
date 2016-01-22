@@ -1081,6 +1081,9 @@ muss.
 
 === Lokalisierung
 
+* Sei A ein Integritätsbereich. Genau dann ist A[S^(-1)] ein Integritätsbereich,
+  wenn 0 nicht in S liegt.
+
 * Sei A ein Ring, p ein Primideal und x in A. Dann:
 
       x regulär in A_p <==> [xy = 0 in A ==> ex. z \not\in p: zy = 0] f.a. y
