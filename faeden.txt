@@ -78,6 +78,17 @@
 * Lese Caramellos Konstruktion einer syntaktischen triangulierten Kategorie:
   http://arxiv.org/abs/1507.06271.
 
+* D^b(Vect_k^fd) sollte freie k-lineare triangulierte Kategorie auf einem
+  Objekt sein.
+
+  Für volle starke exzeptionelle Sequenzen habe Äquivalenz zur derivierten
+  Kategorie des Endomorphismenrings.
+
+  Ohne Starkheit habe immer noch eine dg-Algebra.
+
+  Und ganz allgemein? Bette die ersten drei, bekannten, Fälle in das Framework
+  von Caramello ein!
+
 * Was ist Aut(R Gamma)?
 
 * Sei X projektiv von Dimension d. Sei L ein amples, global erzeugtes

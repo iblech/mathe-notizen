@@ -74,7 +74,6 @@ Habe pi : F --> H_n, die universelle Familie. F <= H_n x C^2.
 Sei B := pi_* O_F. B ist lokal frei vom Rang n.
 
 
-
 === Spezielle Punkte von X^[n], X = C^2
 
 * Ist lambda eine Partition von n, so kann man das monomiale Ideal
@@ -118,7 +117,7 @@ Sei B := pi_* O_F. B ist lokal frei vom Rang n.
       I = { f | f(0,0) = 0, grad f(0,0) senkrecht auf (1,alpha) }
         = { f | f(0,0) = 0, Df(0,0)(1,alpha) = 0 }.
 
-  Achtung: Bejleri schreibt das etwas anderes. Er hat vermutlich einen Fehler
+  Achtung: Bejleri schreibt das etwas anders. Er hat vermutlich einen Fehler
   von 90 Grad. http://www.math.brown.edu/~dbejleri/Hilbert%20Schemes%20-%20Grad%20Student%20Seminar.pdf
   Nakajima gibt mir auf Seite 5 Recht.
 
@@ -197,7 +196,7 @@ dass sie surjektiv ist und dass ihr Kern genau I ist.
 
   also ist g = id.
 
-* Das Differential der Abbildung (M,N,i) |-> MN-NM hat angeblichen konstanten Rang.
+* Das Differential der Abbildung (M,N,i) |-> MN-NM hat angeblich konstanten Rang.
   So kann man also über das Modell zeigen, dass (C^2)^[n] glatt ist.
   (Behauptet Nakajima, Seite 12.)
 
@@ -361,14 +360,14 @@ Box-Faktoren). Daher induziert es eine S_n-äquivariante derivierte
 Autoäquivalenz von X^n, also ein Element von Aut(D^b_(S^n)(X^n)). Diese Gruppe
 ist isomorph zu Aut(D^b(X^[n])).
 
-(Achtung: Benötige evtl., dass X Dimension 2 ist.)
+(Achtung: Benötige evtl., dass X von Dimension 2 ist.)
 
 * X^[n] ist deriviert äquivalent zu X^n//S_n, wenn ich die derivierte Kategorie
   von letzterem als D_{S^n}(X^n) definiere. Das sagt gerade BKR.
 
 * BKR schickt O_{X^[n]} auf O_{X^n} (mit kanonischer S_n-Linearisierung). Daher
   gilt:
-  
+
       H^m(X^[n], O_{X^[n]}) = H^m_{S^n}(X^n, O_{X^n}).
 
 * Äquivalenzen: http://arxiv.org/pdf/1301.4970.pdf (Andi Krug)
