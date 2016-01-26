@@ -89,6 +89,11 @@
   Und ganz allgemein? Bette die ersten drei, bekannten, Fälle in das Framework
   von Caramello ein!
 
+  Auch "localisation sequences" sollten eine Rolle spielen. Siehe zum Beispiel
+  http://arxiv.org/pdf/1409.7051v3.pdf. Ebenso die "starken Erzeuger
+  triangulierter Kategorien" (siehe letzter Absatz in
+  http://arxiv.org/pdf/1111.2220v1.pdf).
+
 * Was ist Aut(R Gamma)?
 
 * Sei X projektiv von Dimension d. Sei L ein amples, global erzeugtes

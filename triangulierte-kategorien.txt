@@ -1,3 +1,9 @@
+=== Kohomologische Funktoren und N-wertige Invarianten
+
+Henning Krause. Cohomological length functions.
+http://arxiv.org/abs/1209.0540
+
+
 === Duale Kategorie
 
 * Die duale Kategorie einer triangulierten Kategorie wird wieder
@@ -107,6 +113,12 @@ Dreiecks der Form X --iso--> Y --> 0 -->.
 * Sei A eine k-lineare abelsche Kategorie von endlicher homologischer
   Dimension. Sei (L_i)_i eine ample Folge. Dann bilden die L_i in
   D^b(A) eine aufspannende Klasse.
+
+
+=== Serre-Funktor
+
+* http://arxiv.org/pdf/1110.5625v1.pdf
+  Morphisms determined by objects in triangulated categories
 
 
 === Semi-orthogonale Zerlegungen

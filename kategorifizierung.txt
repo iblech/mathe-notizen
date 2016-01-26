@@ -18,3 +18,18 @@ Die Euler-Charakteristik ist daher gleich
 Das kategorifiziert die Beobachtung (1-t) sum_i t^i = 1.
 
 Quelle: http://mathoverflow.net/questions/1465/can-we-categorify-the-equation-1-t1-t-t2-1
+
+
+=== Nichtnegative rationale Zahlen
+
+Jeder endliche Gruppoid besitzt eine nichtnegative Kardinalität.
+Äquivalente Gruppoide haben dieselbe Kardinalität. (Die Umkehrung gilt aber
+nicht.)
+
+http://mathoverflow.net/a/22879/31233
+
+
+=== Weyl-Charakterformel (oder Kostant multiplicity formel)
+
+... ist Dekategorifizierung der BGG-Auflösung.
+http://mathoverflow.net/a/43607/31233

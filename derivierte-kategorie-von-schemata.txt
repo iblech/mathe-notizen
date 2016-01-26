@@ -363,6 +363,11 @@ komplizierter) zu definieren sind.
   Geradenbündel auf X. Dann bilden die L^i eine ample Folge und somit eine
   aufspannende Klasse in D^b(X).
 
+  Allgemeiner, allerdings nicht deriviert!, für separierte noethersche Schemata
+  (auch singuläre): http://arxiv.org/pdf/1111.2220v1.pdf, Seite 5. Ample
+  Geradenbündel tensoriert mit den Wolkenkratzergarben von singulären Punkten
+  erzeugen die Kategorie der noetherschen O_X-Moduln.
+
 
 === Projektionsformel (Push-/Pull-Formel)
 

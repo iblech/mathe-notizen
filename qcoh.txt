@@ -1,18 +1,26 @@
-Drei Sichtweisen auf quasikohärente Moduln auf affinen Schemata:
+=== Drei Sichtweisen auf quasikohärente Moduln auf affinen Schemata
+
 * Modulgarben, die lokal eine Präsentation zulassen
 * kartesische Prägarben
 * Moduln auf dem Ring der globalen Schnitte
+
 Siehe: Leovigildo Alonso, Ana Jeremias, Marta Perez, Maria J. Vale.
 A functorial formalism for quasi-coherent sheaves on a geometric stack.
 http://arxiv.org/abs/1304.2520
 
-David Ben-Zvi auf [1]:
+
+=== Im Punktefunktorbild
+
+David Ben-Zvi auf http://mathoverflow.net/questions/16427/quasi-coherent-sheaves-in-the-functor-of-points-approach:
 "You can define the category of quasicoherent sheaves on a scheme or stack (or
 an arbitrary functor) as the limit over all affines Spec R mapping to the stack
 of the categories R-Mod. You will need some descent theorem however to compare
 this with a more usual definition. The same definition works for the
 (∞-categorical refinement of) the derived category of quasicoherent sheaves. (I
 learned this from Toen's survey on Higher and Derived Stacks)."
+
+
+=== Unsortiert
 
 Gute Literatur: Appendix B: Modules vs. Quasi-coherent modules (in particular
 B.2, B.3 and B.12) on pages 409ff of Thomason-Trobaugh, Higher Algebraic
@@ -36,7 +44,13 @@ Vol. III, 247–435, Progress in Mathematics, 88, Birkhäuser Boston, Boston, MA
   kostetigen Tensorfunktoren Qcoh(Y) --> Qcoh(X), falls X qc qs und Y ein
   beliebiges Schema ist.
 
-Nächste Schritte:
+* A functorial formalism for quasi-coherent sheaves on a geometric stack.
+  http://arxiv.org/abs/1304.2520
+  Enthält auch eine Wiederholung des Schemafalls.
+
+
+=== Nächste Schritte
+
 * Schicke toposlogische Begründung dafür finden, dass (q)coh Moduln stabil
   unter Rückzug sind.
 * Gibt es Erzeuger und Relationen für Mod(O_X), Qcoh(O_X), Coh(O_X), D(O_X)?
@@ -53,5 +67,3 @@ Nächste Schritte:
   object" l equipped with a "good embedding" e : l -> v.
   http://notebook361.wordpress.com/2012/05/21/hello-world/
 * Moduln in Punktefunktorsicht
-
-[1] http://mathoverflow.net/questions/16427/quasi-coherent-sheaves-in-the-functor-of-points-approach

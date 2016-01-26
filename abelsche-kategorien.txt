@@ -242,6 +242,24 @@ in kanonischer Eins-zu-Eins-Beziehung, vermöge U |-> f[U] und V |-> f^(-1)[V].
 
       0 --> X^i --> X^{i+1} --> X^{i+1}/X^i --> 0.
 
+* http://arxiv.org/pdf/1409.7051v3.pdf, Seite 4:
+  mod-C/eff-C =~ C. Dabei ist C eine abelsche Kategorie, mod-C die Kategorie
+  der endlich präsentierten additiven Funktoren (Kokerne von darstellbaren
+  Funktoren) C^op --> Ab und eff-C die volle Unterkategorie der effacablen
+  Funktoren.
+
+  Es gilt auch: Mod-C/Eff-C =~ Ind-C.
+
+  Und eine abgeleitete Version gibt es auch: D^b(mod-C)/Thick(eff-C) =~ D^b(C).
+
+* Sei B eine Serresche Unterkategorie in einer abelschen Kategorie A.
+  Sei D_B(A) = { X in D(A) | H^n(X) in B für alle n }.
+
+  Dann ist D(A) / D_B(A) --> D(A/B) ist eine Äquivalenz triangulierter
+  Kategorien, falls A --> A/B einen Rechtsadjungierten besitzt. (So einen
+  Rechtsadjungierten nennt Barakat ja einen Schnittfunktor.) Seite 14 in
+  http://arxiv.org/pdf/1409.7051v3.pdf.
+
 Literatur:
 * Quotient Categories and Localizing Functors, Carl Faith.
   http://link.springer.com/chapter/10.1007%2F978-3-642-80634-6_17
