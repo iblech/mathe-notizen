@@ -498,6 +498,22 @@ Quelle: Sridhar Ramesh in
 http://mathoverflow.net/questions/3184/philosophical-meaning-of-the-yoneda-lemma/15143#15143
 
 
+=== Yoneda-Lemma als Aussage über Beziehungen
+
+Barry Mazur, Thinking about Grothendieck, January 6, 2016.
+
+Yoneda’s Lemma asserts that an object X of a category is determined (up to
+unique isomorphism) by the functor that records morphisms from X to each of the
+objects of that category. Or, in more evocative terms, a mathematical object X
+is best thought of in the context of a category surrounding it, and is
+determined by the network of relations it enjoys with all the objects of that
+category. Moreover, to understand X it might be more germane to deal directly
+with the functor representing it. This is reminiscent of Wittgenstein’s
+‘language game’; i.e., that the meaning of a word is–in essence–determined by,
+in fact is nothing more than, its relations to all the utterances in a
+language.
+
+
 === Inneres Hom in Scheibenkategorien
 
 * In Set/A ist das innere Hom gegeben durch:
