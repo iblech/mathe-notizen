@@ -60,3 +60,8 @@ http://physics.stackexchange.com/a/17225/103105
 
 * Walking Droplets
   http://users.df.uba.ar/dasso/fis4_2do_cuat_2010/walker.pdf
+
+
+=== Herleitungen der Schrödinger-Gleichung
+
+* http://fermatslibrary.com/s/feynmans-derivation-of-the-schrodinger-equation
