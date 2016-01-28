@@ -70,6 +70,10 @@ Sei S = k[x_0,...,x_n]. Habe S --> k durch Auswertung bei (0,...,0).
 
       sqrt(sqrt(I) B) = sqrt(I B).
 
+* Sei I ein Ideal von A und J ein Ideal von B. Dann gilt:
+
+      I B <= J    <===>    I <= A cap J.
+
 
 === Annihilator
 
