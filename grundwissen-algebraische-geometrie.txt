@@ -452,6 +452,18 @@ darauf gestoßen.
   zeigt man das? Siehe:
   http://math.stackexchange.com/questions/112345/the-fibers-of-a-finite-morphism-of-affine-varieties-are-all-finite
 
+  Sei A --> B ein endlicher Ringhomo. Dann besitzen alle Fasern nur endlich
+  viele Primideale.
+
+  Durch Übergang zur Faser können wir davon ausgehen, dass A ein Körper ist.
+  Da B als A-Algebra endlich erzeugt ist, ist Algebra II, Blatt 10, Aufgabe 3d)
+  anwendbar. Somit ist B als Ring artinsch.
+
+  Da artinsche Ringe von Dimension 0 sind, sind alle Primideale in B schon
+  maximal. Von solchen gibt es nur endlich viele, wie die Betrachtung eines
+  minimalen Elements in der Menge der endlichen Schnitte von maximalen Idealen
+  zeigt.
+
 
 === Rationale Punkte
 
@@ -1264,6 +1276,25 @@ sehr gut lesbar!
   Das folgt mit II 2.13 aus Johnstones Stone spaces. Das sagt:
   Seien X und Y nüchterne topologische Räume. Sei X sogar lokal kompakt.
   Dann ist O(X x Y) = O(X) x O(Y).
+
+* http://math.stackexchange.com/a/294754/61604
+
+
+=== Noethersche Approximation
+
+* http://math.stackexchange.com/a/294754/61604
+  More generally, for an arbitrary base scheme SS, the functor
+  Spec : qcAlg(S)^op -- Sch/S, which sends a quasi-coherent algebra on SS to
+  its relative spectrum, is left adjoint to the functor which sends p : T --> S
+  to p_*(O_T) and induces an anti-equivalence of categories between
+  quasi-coherent algebras on SS and the category of affine SS-schemes. Hence,
+  limits of affine SS-schemes exist in the category of all SS-schemes, are
+  affine, and correspond to the colimit of the corresponding quasi-coherent
+  algebras. This is quite useful and used often in conjunction with the
+  Noetherian Approximation Theorem: If SS is noetherian, every quasi-compact
+  quasi-separated SS-scheme is a directed limit of noetherian SS-schemes with
+  affine transition morphisms. These directed limits are preserved by the
+  forgetful functor to topological spaces. Details can be found in EGA.
 
 
 === Referenzen
