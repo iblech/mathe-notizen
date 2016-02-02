@@ -354,6 +354,11 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 
   also nicht Null. (Von Matthias Schlüter.)
 
+* A[[X]]/(X) ist isomorph zu A, vermöge f |-> f(0).
+
+  Aber A[[X]]/(X-a) ist nicht unbedingt isomorph zu A. Tatsächlich ist
+  A[[X]]/(X-a) der Nullring, wenn a invertierbar ist.
+
 * Der Wurzelinhalt eines Polynoms f = sum_i a_i X^i ist c(f) := sqrt((a_i)_i).
   Man kann auch für Teilmengen M von A[X] definieren: c(M) := sqrt(sum_{f in M} c(f)).
 
@@ -1662,6 +1667,10 @@ Sei R nicht unbedingt kommutativ.
 
 * Lokalisieren an S = 1 + m ist dasselbe wie Lokalisieren an T = A \ m,
   wenn m ein maximales Ideal ist. Denn S <= T und T <= Sat(S).
+
+* Die m-adische Vervollständigung von C^infty(R), wobei m = { f | f(0) = 0 },
+  ist der formale Potenzreihenring R[[X]]. Zum Beweis benötigt man nur
+  Hadamards Lemma.
 
 
 === Siehe auch

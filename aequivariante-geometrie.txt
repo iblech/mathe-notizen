@@ -39,6 +39,9 @@
   einiges zu Garbenkohomologie im Kontext einer G-Wirkung. Insbesondere gibt es
   dort eine Spektralsequenz.
 
+* K(X_G) ist die Vervollständigung der G-äquivarianten K-Theorie von X.
+  https://ncatlab.org/nlab/show/completion+of+a+ring
+
 
 === Verbindung zwischen H_G(X) und H(X/G)
 

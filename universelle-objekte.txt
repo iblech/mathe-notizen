@@ -26,6 +26,9 @@ Laut Anton Geraschenko ist dieser Funktor auch nicht durch einen algebraischen
 Raum darstellbar:
 http://mathoverflow.net/questions/11164/what-does-the-nilpotent-cone-represent
 
+Aber: Der Punktefunktor von \hat A^1, dem formalen Schema lim_n Spec Z[X]/(X^n),
+schickt einen Ring R auf Nil(R). https://ncatlab.org/nlab/show/formal+scheme
+
 Im Übrigen erhält R nicht Limiten: Im unendlichen Produkt
 
     R[X]/(X^n), n >= 0,
