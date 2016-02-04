@@ -94,6 +94,10 @@
   triangulierter Kategorien" (siehe letzter Absatz in
   http://arxiv.org/pdf/1111.2220v1.pdf).
 
+  Ein Problem gibt es: D^b(Coh(A)) hat einen super expliziten Erzeuger, nämlich A.
+  Und man kennt alles über End(A). Trotzdem kann K(Coh(A)) sehr kompliziert
+  sein! Vielleicht gibt es das Problem im K-linearen Fall aber weniger.
+
 * Was ist Aut(R Gamma)?
 
 * Sei X projektiv von Dimension d. Sei L ein amples, global erzeugtes
