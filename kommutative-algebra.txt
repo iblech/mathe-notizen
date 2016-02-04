@@ -1672,6 +1672,13 @@ Sei R nicht unbedingt kommutativ.
   ist der formale Potenzreihenring R[[X]]. Zum Beweis benötigt man nur
   Hadamards Lemma.
 
+* Z^, der Prüferring: lim_n Z/(n) (bezüglich der Teilbarkeitsordnung).
+
+  Alternativ lim_n Z/(n!), diesmal mit der gewöhnlichen Ordnung.
+
+  Das führt zum faktoriellen Ziffernsystem.
+  http://arxiv.org/pdf/1304.6532v1.pdf, Seite 13
+
 
 === Siehe auch
 

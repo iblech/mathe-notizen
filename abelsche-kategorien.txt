@@ -141,6 +141,12 @@ in kanonischer Eins-zu-Eins-Beziehung, vermöge U |-> f[U] und V |-> f^(-1)[V].
   welche das Nullobjekt enthält und abgeschlossen unter
   Unterobjekten, Quotientenobjekten und Extensionen ist.
 
+* Man erhält eine falsche Definition, wenn man für exakte Sequenzen
+  X --> Y --> Z (ohne äußere Nuller) fordert, dass genau dann Y in B liegt,
+  wenn es X und Z tun. Dann sind zum Beispiel die endlichen Gruppen keine
+  Serresche Unterkategorie von Ab, wie die Sequenz 0 --> Z/(2) --> Z oplus Z/(2)
+  zeigt.
+
 * Definiere für feste Objekte (X,Y) auf der Menge
 
       { (X', Y') | X/X' in B, Y' in B }

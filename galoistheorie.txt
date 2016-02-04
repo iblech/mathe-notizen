@@ -1,3 +1,27 @@
+=== Unendliche Galoistheorie
+
+* Gal(F_p-bar | F_p) = Z^.
+
+* Gal(Q_ab | Q) = Einheitengruppen von Z^.
+  Dabei ist Q_ab = Q(alle Einheitswurzeln).
+
+* Gal(C(X)(alle Wurzeln von X) | C(X)) = Z^.
+
+* Vermutung: Gal(Q-bar | Q_ab) ist die freie proendliche Gruppe auf abzählbar
+  vielen Erzeugern.
+
+* Gal(K(X)-ab | K(X)) ist die freie proendliche Gruppe auf K, wenn K
+  ein algebraisch abgeschlossener Körper ist.
+
+Siehe http://faculty.ycp.edu/~fbutler/MastersThesis.pdf.
+
+
+=== Inverse Galois problem
+
+* Jede endliche Gruppe ist die Galoisgruppe einer endlichen Galoiserweiterung
+  von C(X). http://faculty.ycp.edu/~fbutler/MastersThesis.pdf, Seite 22.
+
+
 === Nächste Schritte
 
 * Unendliche Galoistheorie konstruktiv?

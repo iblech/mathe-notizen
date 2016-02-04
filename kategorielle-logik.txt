@@ -15,7 +15,7 @@
 === Bedeutung der Identität
 
 "=" ist \exists längs der Diagonale. (Das kam eventuell in Jonas Freys Vortrag
-im IHES vor.)
+im IHÉS vor.)
 
 
 === Zusammenhang zwischen [[.]] und |==
@@ -408,6 +408,36 @@ Dieser Standpunkt heißt wohl "constructive nominalism".
 Nur Achtung: Der Beweis, dass der initiale Topos wirklich ein Modell mit den
 gewünschten Eigenschaften ist, setzt die metamathematische Annahme, dass es ein
 Modell von Mengenlehre gibt, voraus. (Letzter Satz des Artikels)
+
+
+=== Kommutative Theorien
+
+http://www.wra1th.plus.com/gcw/rants/math/MathPhant.html
+
+Suppose we have two operations huey and dewey in an algebraic theory. We say
+that they commute if for any rectangular array of elements, with rows the right
+size for huey and columns the right size for dewey, the application of huey to
+each row and dewey to the resulting column yields the same as applying dewey to
+each column and then huey to the resulting row. This can be expressed in a way
+that makes no mention of elements. An algebraic theory is commutative if any
+pair of its operations commute. This generalizes the notion of a commutative
+ring.
+
+Commutative algebraic theories have very nice properties. Every operation is a
+homomorphism. So the set of homorphisms from one model to another has a
+canonical structure as a model itself. This makes the category of models
+closed. Furthermore, the resulting internal Hom functor has a left adjoint
+which generalizes the tensor-product construction for modules. A free model on
+one generator is a unit for this tensor-product.
+
+Beispiele:
+
+* Theorie der R-Moduln, wobei R ein kommutativer Ring ist
+* Theorie von F_1
+* Theorie der vollständigen Verbände (mit Suprema bewahrenden Morphismen)
+* Theorie, die für jedes n-Tupel von nichtnegativen reellen Zahlen mit Summe 1
+  eine n-stellige Operation haben. Modelle sind unter anderem konvexe Mengen in
+  euklidischen Räumen.
 
 
 === Nächste Schritte

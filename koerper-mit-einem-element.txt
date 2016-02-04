@@ -29,3 +29,9 @@ numbers, negative numbers, imaginary numbers, and quaternions. At one
 point all these were considered highly dubious entities. Now they're
 widely accepted. They 'exist'. Someday the field with one element will
 exist too!"
+
+
+=== Modellansatz
+
+F_1, aufgefasst als kommutative algebraische Theorie, hat als Modelle
+("Moduln") punktierte Mengen.
