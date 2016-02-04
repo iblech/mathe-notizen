@@ -1,2 +1,31 @@
 * http://journals.cambridge.org/download.php?file=%2FCOM%2FCOM143_03%2FS0010437X06002624a.pdf&code=fab3b10933d327629f1f376d4cb1ef35
   M. J. Shai Haran. Non-additive geometry.
+
+* https://en.wikipedia.org/wiki/Field_with_one_element
+* http://math.ucr.edu/home/baez/week259.html
+* https://golem.ph.utexas.edu/category/2007/04/the_field_with_one_element.html
+* http://www.neverendingbooks.org/looking-for-f_un
+* https://sbseminar.wordpress.com/2007/08/14/the-field-with-one-element/
+* http://mathoverflow.net/questions/69389/riemann-hypothesis-via-absolute-geometry
+* http://www.neverendingbooks.org/DATA3/ncg.pdf
+* http://www.alainconnes.org/docs/rhfinal.pdf
+
+Die Wikipedia gibt mehrere Gründe, wieso ein Körper mit einem Element so
+interessant wäre. Einer ist der folgende: Seit langer Zeit ist die
+Riemannsche Vermutung für Kurven über endlichen Körpern bewiesen (Weil,
+Carens Bachelor-Arbeit). Die Riemannsche Vermutung für den Ring der
+ganzen Zahlen ist natürlich noch offen. Aber die Krull-Dimension von Z
+ist ebenfalls 1! Die ganzen Zahlen sind also eine Kurve im geometrischen
+Sinn. Wenn nun Z eine Algebra über einem Körper wäre, hätte man einen
+Beweis der Riemannschen Vermutung für Z.
+
+John Baez, der berühmte theoretische Physiker und Erfinder des Blogs,
+schreibt über den Körper mit einem Element:
+
+"Like a genie that talks its way out of a bottle, a sufficiently powerful
+mathematical phantom can talk us into letting it exist by promising to
+work wonders for us. Great examples include the number zero, irrational
+numbers, negative numbers, imaginary numbers, and quaternions. At one
+point all these were considered highly dubious entities. Now they're
+widely accepted. They 'exist'. Someday the field with one element will
+exist too!"
