@@ -35,3 +35,14 @@ exist too!"
 
 F_1, aufgefasst als kommutative algebraische Theorie, hat als Modelle
 ("Moduln") punktierte Mengen.
+
+
+=== Sammelsurium von Aussagen
+
+* F_{1^n} tensor_{F_1} Z = Z[T]/(T^n - 1)
+
+  http://www.ihes.fr/~soule/f1-soule.pdf, Seite 2
+
+* Die Zeta-Funktion von Z hat unendlich viele Nullstellen. Daher ist F_1 --> Z
+  möglicherweise nicht vom endlichen Typ. Somit ist fraglich, wie sehr
+  Spec(Z) x_{Spec(F_1)} Spec(Z) tatsächlich als Varietät angesehen werden kann.

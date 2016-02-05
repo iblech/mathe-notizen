@@ -158,6 +158,26 @@ folgende Dinge sind dieselben:
 * endlich-dimensionale k-Vektorräume zusammen mit einem Automorphismus
 
 
+=== Graduierte K-Theorie eines graduierten Rings
+
+Die Poincarésche Reihe stiftet einen Homomorphismus
+
+    K_gr(A) --> K(A_0)[[t]],
+
+falls A ein noetherscher N-graduierter Ring ist. Dieser Homo landet ziemlich
+sicher sogar in der Teilmenge derjenigen Potenzreihen, die sich als
+
+    f(t) / prod_i (1 - t^{k_i})
+
+schreiben lassen, wobei f(t) ein Polynom über K(A_0) ist und die k_i die Grade
+von Erzeugern von A als A_0-Algebra sind.
+
+Das sollte eine Konsequenz aus dem Beweis vom Hilbert--Serreschen Satz
+(Satz 44.3 im Algebra-II-Skript) sein.
+
+http://math.stackexchange.com/questions/217612/exercise-11-5-from-atiyah-macdonald-hilbert-serre-theorem-and-grothendieck-grou
+
+
 === K-Theorie eines Schemas
 
 Anwendung: Für X Schema habe Ob D^b(X) --> K_0(X) := K_0(Coh(O_X)).

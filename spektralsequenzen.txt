@@ -65,6 +65,25 @@ Used all the time (etale cohom, duality,...) to prove isoms.
 http://mathoverflow.net/questions/156290/origin-of-spectral-sequences-in-algebraic-topology?rq=1
 
 
+=== Einhängung als eine Art Inverse
+
+Die Einhängung Omega(B) ist sowas wie ein Inverses von B. Das sieht man zum
+Beispiel daran, dass moralisch sowas wie
+
+    p_{Omega(B)}(t) * p_B(t) = 1
+
+gilt. (Das gilt nicht wirklich.) Dabei ist p_X(t) = sum_n dim H^n(X) t^n.
+
+Zum anderen sieht man es bei Omega(G) = BG, das ja bekanntermaßen sowas wie 1/G
+ist.
+
+Man kann das aber formalisieren. Dann lautet die Aussage in etwa: Ist H^*(B)
+eine äußere Algebra, so ist H^*(Omega(B)) eine symmetrische Algebra; und ist
+H^*(Omega(B)) eine äußere Algebra, so ist H^*(B) eine symmetrische Algebra.
+
+http://mathoverflow.net/a/148846/31233
+
+
 === In persistenter Homologie
 
 Saugata Basu, Laxmi Parida
