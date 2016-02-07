@@ -16,6 +16,40 @@ Sei X ein Verklebedatum und X~ die zugehörige simpliziale Menge. Dann gilt:
     |X~_m| = sum_{k=0}^m binom{m}{k} |X_m|.
 
 
+=== Wichtiges zum Moore-Komplex
+
+Sei A ein simpliziales Objekt in einer abelschen Kategorie und CA der
+zugehörige Komplex mit (CA)_n = A_n und Differential sum_i (-1)^i A(partial^i).
+
+Sei DA der Unterkomplex von CA der degenerierten Ketten.
+Sei NA der Moore-Komplex (Kern über alle bis aufs letzte Differential).
+
+* Der kanonische Morphismus NA --> CA/DA ist ein Isomorphismus.
+  (Durch Induktion.)
+
+* Die Einbettung e : NA --> CA besitzt ein Linksinverses f : CA --> NA.
+  (Durch komplizierte Induktion.)
+
+* Damit sieht man, dass die Sequenz
+
+      0 --> DA --> CA --> CA/DA --> 0
+
+  zerfällt: Eine Zerfällung ist durch e . iso^(-1) : CA/DA --> CA gegeben.
+
+  CA ist also auf kanonische Art und Weise die direkte Summe aus DA und CA/DA,
+  also aus DA und NA.
+
+* Die Komposition e . f ist homotop zur Identität. Somit sind NA und CA
+  homotopieäquivalent. Insbesondere haben NA und CA dieselbe Homologie.
+
+  Ein Quasiiso ist e : NA --> CA, ein anderer ist f : CA --> NA.
+
+  Ein weiterer ist pi : CA --> CA/DA. Insbesondere (lange exakte Sequenz) hat
+  DA keine Homologie.
+
+Siehe Blatt 7 von HAI und Goerss/Jardine (Seiten 145ff.).
+
+
 === Siehe auch
 
 * http://www.math.uchicago.edu/~may/IMA/Joyal.pdf, Seite 163f.

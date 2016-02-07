@@ -38,6 +38,9 @@
   mit d(I) = x - y ist. (Wenn man M tensor I verwendet, erhält man andere
   Vorzeichen.)
 
+  Der Komplex I wird auf dem nLab auch Intervallobjekt genannt. Er ist der
+  normalisierte Kettenkomplex von Delta[1].
+
 
 === Retrakte von schwachen Äquivalenzen
 
