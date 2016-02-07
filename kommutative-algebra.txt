@@ -1069,13 +1069,33 @@ Beispiel: Sei R ein Hauptidealbereich. Dann ist die Länge von R/(a)
 gleich der Gesamtzahl irreduzibler Faktoren in a.
 (Bem.: R-Untermoduln von R/(a) sind dasselbe wie Ideale des Rings R/(a).)
 
-Proposition: Sei A ein noetherscher lokaler Ring und zugleich eine Algebra über
-einem Körper k. Sei M ein endlich erzeugter A-Modul.
-Dann gilt len_A(M) * dim_k(A/m) = dim_k(M). (Liu Ex. 7.1.6, Seite 264; oder
-letzte Algebra II, Blatt 10.)
+* Sei A ein noetherscher lokaler Ring und zugleich eine Algebra über
+  einem Körper k. Sei M ein endlich erzeugter A-Modul.
+  Dann gilt len_A(M) * dim_k(A/m) = dim_k(M). (Liu Ex. 7.1.6, Seite 264; oder
+  letzte Algebra II, Blatt 10. Es ist A/m endlich dimensional als
+  k-Vektorraum, wenn A von endlichem Typ über k ist.)
 
-Sei A --> B ein surjektiver Ringhomo. Sei M ein B-Modul. Dann ist seine Länge
-als B-Modul gleich seiner Länge als A-Modul.
+* Präzisere Formulierung: Sei A eine endlich erzeugte lokale Algebra über einem
+  Körper k. Sei M ein A-Modul. Genau dann ist M noethersch und artinsch
+  (d.h. besitzt endliche Länge), wenn M als k-Vektorraum endlich dimensional
+  ist. In diesem Fall gilt dim_k(M) = l_A(M) * dim_k(A/m), und die Dimension
+  von A/m ist endlich wegen Noether-Normalisierung.
+
+* Sei A eine endlich erzeugte Algebra über einem Körper k. Genau dann ist A
+  als Ring artinsch, wenn A als k-Vektorraum endlich dimensional ist. (Zeigt
+  man mit dem Struktursatz für artinsche Ringe.)
+
+* Sei auf dem K^n eine lineare Abbildung mit Jordanbasis a_1,...,a_n gegeben.
+  Dann bilden die Untermoduln <a_1,...,a_i> eine Kompositionsreihe von K^n als
+  K[X]-Modul. Es spielt dabei keine Rolle, ob der K-Spann oder der K[X]-Spann
+  genommen wird. Die Jordaneinser müssen oberhalb der Diagonale stehen.
+  Insbesondere ist die Länge von K^n als K[X]-Modul in diesem Fall n.
+
+  Falls es nur eine Weierstraßbasis gibt, fällt die Länge entsprechend kürzer
+  aus.
+
+* Sei A --> B ein surjektiver Ringhomo. Sei M ein B-Modul. Dann ist seine Länge
+  als B-Modul gleich seiner Länge als A-Modul.
 
 
 === Einfache Moduln
