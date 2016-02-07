@@ -71,8 +71,8 @@ tensor N.
 
 * Wie hängt die Dimension von Kom(A) von der von A ab?
 
-  Vermutung: Diese ist größer. Ich würde zum Beispiel erwarten, dass in Kom(k)
-  nicht jede kurze exakte Sequenz zerfällt.
+  Diese ist größer. Zum Beispiel zerfällt in Kom(k) nicht jede kurze exakte
+  Sequenz.
 
 * dim Coh(k) = 0 auch konstruktiv.
 
