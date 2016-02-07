@@ -49,6 +49,11 @@ Sei NA der Moore-Komplex (Kern über alle bis aufs letzte Differential).
 
 Siehe Blatt 7 von HAI und Goerss/Jardine (Seiten 145ff.).
 
+Eine Folgerung aus dem Ganzen ist: Sei X eine simpliziale Menge, sodass Ränder
+nichtdegenerierter Simplizes wieder nichtdegeneriert sind. Dann ist R<X> ein
+simplizialer R-Modul und R<X_nichtdegen> ist ein semisimplizialer R-Modul. Ihre
+Homologien sind kanonisch isomorph.
+
 
 === Siehe auch
 
