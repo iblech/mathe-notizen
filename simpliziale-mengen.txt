@@ -42,6 +42,11 @@ http://link.springer.com/chapter/10.1007/BFb0061815
   (wenn man k-ifiziert).
 
 
+=== Adjunktionen, deren Linksadjungierte in sSet beginnen
+
+http://www.math.jhu.edu/~eriehl/ssets.pdf, Abschnitt 4, ab Seite 6
+
+
 === Delta-Komplexe
 
 * Hatchers Delta-Komplexe sind genau die geometrischen Realisierungen von
