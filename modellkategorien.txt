@@ -14,6 +14,31 @@
   http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts.
 
 
+=== Wieso beschränkt man sich nicht auf sehr gute Homotopien?
+
+* Man findet zwar zu jedem Objekt ein sehr gutes Zylinderobjekt. Und man kann
+  aus jeder Homotopie eine gute machen -- aber nicht unbedingt eine
+  sehr gute. (Matthias)
+
+* Wenn man sich auf bifasernde Objekte einschränkt, geht es aber doch wieder.
+  Ein weiteres Argument wäre also wünschenswert.
+
+* Vielleicht ist X x Delta[1] im Allgemeinen kein sehr gutes Zylinderobjekt.
+
+* Jedenfalls ist Cyl(M) in der Kategorie der Kettenkomplexe mit der projektiven
+  Modellstruktur kein gutes Zylinderobjekt. Es ist zwar Cyl(M) --> M eine
+  azyklische Faserung, aber M oplus M --> Cyl(M) ist keine Kofaserung.
+  http://math.stackexchange.com/a/326963/61604
+
+  Cyl(M) kann man übrigens als I tensor M schreiben, wobei I der Komplex
+
+      R<x,y> <-------- R<I>
+        0               1
+
+  mit d(I) = x - y ist. (Wenn man M tensor I verwendet, erhält man andere
+  Vorzeichen.)
+
+
 === Retrakte von schwachen Äquivalenzen
 
 Von schwachen Äquivalenzen fordert man ja, dass sie unter Retrakten
