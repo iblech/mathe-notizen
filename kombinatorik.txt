@@ -35,6 +35,23 @@ Stembridge, A Concise Proof of the Littlewood-Richardson Rule.
   (a,b) mit a = b erlaubt und a, b aus X.
 
 
+=== Wege zählen ("die Transfermatrixmethode")
+
+Sei ein Graph durch eine Adjazenzmatrix A gegeben.
+
+* Die Anzahl der Wege von i nach j der Länge k ist dann der (i,j)-Eintrag von A^k,
+  oder witziger ausgedrückt: der (i,j)-Eintrag des Koeffizienten von t^k in der
+  Potenzreihe (I - tA)^(-1).
+
+* Die Anzahl der geschlossenen Wege der Länge k ist der Koeffizient von t^k
+  in der Potenzreihe tr((I - tA)^(-1)).
+
+* Damit kann man zum Beispiel zählen, wie viele Wörter einer gewissen Länge
+  zu der Sprache eines deterministischen endlichen Automaten gehören.
+
+http://www.uwyo.edu/moorhouse/slides/transfer.pdf
+
+
 === Sperners Lemma
 
 * Ein toller grafischer Beweis:

@@ -147,6 +147,9 @@ in kanonischer Eins-zu-Eins-Beziehung, vermöge U |-> f[U] und V |-> f^(-1)[V].
   Serresche Unterkategorie von Ab, wie die Sequenz 0 --> Z/(2) --> Z oplus Z/(2)
   zeigt.
 
+  Wenn man nur fordert, dass für solche exakten Sequenzen "<==" gilt, wird die
+  Definition wieder richtig.
+
 * Definiere für feste Objekte (X,Y) auf der Menge
 
       { (X', Y') | X/X' in B, Y' in B }
@@ -217,7 +220,7 @@ in kanonischer Eins-zu-Eins-Beziehung, vermöge U |-> f[U] und V |-> f^(-1)[V].
   Okay; das ist auch ein anderweitig bekanntes Kriterium.
 
 * Bewahrt denn der Projektionsfunktor A --> A/B Injektive oder Projektive?
-  Reflektieren tut Injektive jedenfalls nicht, wie das Beispiel Ab -->
+  Reflektieren tut er Injektive jedenfalls nicht, wie das Beispiel Ab -->
   Ab/Torsion zeigt.
 
 * Manchmal hat der Projektionsfunktor einen Rechtsadjungierten S,
@@ -265,6 +268,21 @@ in kanonischer Eins-zu-Eins-Beziehung, vermöge U |-> f[U] und V |-> f^(-1)[V].
   Kategorien, falls A --> A/B einen Rechtsadjungierten besitzt. (So einen
   Rechtsadjungierten nennt Barakat ja einen Schnittfunktor.) Seite 14 in
   http://arxiv.org/pdf/1409.7051v3.pdf.
+
+* Jede Klasse B von Objekten kann man zu einer Serreschen Unterkategorie
+  abschließen, indem man die gerichtete Vereinigung über die B_n, n in N,
+  mit
+
+      B_0     := B
+      B_(n+1) := alle Objekte Y die in einer exakten Sequenz X --> Y --> Z
+                   mit X und Z in B_n vorkommen sowie das Nullobjekt
+
+  bildet.
+
+  Insbesondere kann man die Klasse der endlich erzeugten abelschen Gruppen auf
+  diese Weise abschließen. So erhält man auch konstruktiv eine Serresche
+  Unterkategorie, die klassisch mit der Klasse der endlich erzeugten abelschen
+  Gruppen übereinstimmt. http://mathoverflow.net/questions/132280/constructive-serre-classes
 
 Literatur:
 * Quotient Categories and Localizing Functors, Carl Faith.

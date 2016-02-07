@@ -399,6 +399,8 @@ Euler characteristic with coefficients in a rank n local system equals n times
 ordinary Euler characteristic.
 http://mathoverflow.net/questions/136516/euler-characteristic-of-coverings-via-sheaf-theory?rq=1
 
+http://mathoverflow.net/questions/17786/why-are-local-systems-and-representations-of-the-fundamental-group-equivalent
+
 
 === Konstante Garben
 
@@ -515,6 +517,14 @@ nicht rechtsexakt.)
 http://www.math.uni-kiel.de/algebra/bois/docz/sheaves_notes.pdf
 Nette Einführung mit Bildern. Sagt auch etwas, wie man Coh(X) aus Coh(U_i)
 erhält.
+
+
+=== Devissage
+
+Tag 01YF im Stacks Project: Jede kohärente Garbe auf einem noetherschen Schema
+besitzt eine endliche Filtrierung durch kohärente Untergarben sodass die
+Quotienten Pushforwards von Idealgarben auf gewissen integren abgeschlossenen
+Unterschemata sind.
 
 
 === Nächste Schritte
