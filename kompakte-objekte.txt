@@ -164,6 +164,9 @@ Daraus entnehme ich:
   Falls X nicht glatt ist, gilt immer noch (wieder Seite 10):
   D(X)^c = D^perf(X) und D(X) ist kompakt erzeugt.
 
+  Genau dann ist X glatt, wenn D^perf(X) = D^b(Coh(X)).
+  http://www.math.uni-hamburg.de/home/sosna/diplom-online.pdf, Seite 14.
+
 Ferner schreiben sie:
 * Q qc qs. Dann D_qcoh(X) ~ D(Lambda) für eine DG-Algebra Lambda mit
   beschränkter Kohomologie.

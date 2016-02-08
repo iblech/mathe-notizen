@@ -87,6 +87,14 @@ Dreiecks der Form X --iso--> Y --> 0 -->.
   welche "exakt bis auf Faktoren" ist. Seien A, B und C idempotent-vollständig.
   Dann ist K_0(A) --> K_0(B) --> K_0(C) exakt (Seite 187).
 
+* Es gibt eine Eins-zu-Eins-Korrespondenz zwischen dichten triangulierten
+  Unterkategorien von T und Untergruppen von K_0(T).
+  http://www.math.uni-hamburg.de/home/sosna/diplom-online.pdf, Seite 19.
+
+  Diese kann man verfeinern zu einer Korrespondenz zwischen den dichten
+  tensor-triangulierten Unterkategorien und den Unterringen von K_0(T), wenn T
+  eine tensor-triangulierte Kategorie ist.
+
 
 === Aufspannende Klassen
 

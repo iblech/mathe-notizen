@@ -17,8 +17,11 @@ Für mich ungewohnte Aspekte von Topostheorie:
 
 === Lawvere--Tierney-Topologien
 
-* Joyal (Topos à l'IHES): Topologien in der Topostheorie sind wie Serresche
+* Joyal (Topos à l'IHÉS): Topologien in der Topostheorie sind wie Serresche
   Quotienten in der Theorie der abelschen Kategorien.
+
+* Etwas zum Zusammenhang mit Ringen steht in oertlichkeiten.txt und in
+  http://arxiv.org/abs/1107.6032 (Beispiel 3.13).
 
 
 === Degeneration von Topoi

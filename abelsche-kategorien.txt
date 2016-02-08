@@ -80,6 +80,9 @@ tensor N.
 
   Genauso bei k[X], wenn k faktoriell.
 
+* Die derivierte Kategorie erinnert sich übrigens nicht mehr an die Dimension.
+  Siehe derivierte-kategorie.txt.
+
 
 === Natürliche Trafos zwischen additiven Funktoren
 
@@ -207,7 +210,8 @@ in kanonischer Eins-zu-Eins-Beziehung, vermöge U |-> f[U] und V |-> f^(-1)[V].
 * Ab/Torsion ist Q-Vect, vermöge Skalarerweiterung auf Q.
 
 * Ist Ab/p-Torsion äquivalent zu Z[p^(-1)]-Mod? Habe zumindest einen treuen
-  Funktor.
+  Funktor. Wird von Mike Prest im Fall p = 2 bestätigt (Seite 465). (Denke
+  dran, nur die Annihilierung durch Potenzen zu fordern!)
 
 * Welchen Gleichungslöser für rationale Matrizen bekommt man, wenn man in
   Ab/Torsion statt Q-Vect rechnet?
@@ -283,6 +287,15 @@ in kanonischer Eins-zu-Eins-Beziehung, vermöge U |-> f[U] und V |-> f^(-1)[V].
   diese Weise abschließen. So erhält man auch konstruktiv eine Serresche
   Unterkategorie, die klassisch mit der Klasse der endlich erzeugten abelschen
   Gruppen übereinstimmt. http://mathoverflow.net/questions/132280/constructive-serre-classes
+
+* Mike Prest (Purity, Spectra and Localisation): Die Kolimesformel
+  für die Hom-Mengen in A/B ist analog zur Doppelpluskonstruktion bei der
+  Vergarbung (Fußnote 1 auf Seite 464).
+
+* Seien A und A' abelsche Kategorie. Sei A sogar grothendiecksch.
+  Sei Q : A --> A' ein exakter Funktor, der einen volltreuen Rechtsadjungierten
+  besitzt. Dann induziert dieser Rechtsadjungierte eine Äquivalenz A' --> A/T,
+  wobei T = ker(Q).
 
 Literatur:
 * Quotient Categories and Localizing Functors, Carl Faith.
@@ -382,6 +395,10 @@ Form f * kanonischer Richtungsvektor in Möbiusfaser mit f lokal konstant ist.
   (Rechts-)R-Moduln. Die endliche Kovervollständigung ist die Kategorie der
   endlich präsentierten (Rechts-)R-Moduln.
   http://permalink.gmane.org/gmane.science.mathematics.categories/2857
+
+* Mike Prest: Die freie abelsche Kategorie auf einer kleinen Ab-angereicherten
+  Kategorie A ist [A-mod, Ab]^fp. Die Einbettung von A in diese Kategorie ist
+  durch die doppelte Yoneda-Einbettung gegeben. (Prests Buch ist super gut!)
 
 * Die freie abelsche k-Kategorie auf einem Erzeuger ist k-Vect^fd, wenn
   k ein Körper ist. Alle kurzen exakten Sequenzen zerfallen in dieser

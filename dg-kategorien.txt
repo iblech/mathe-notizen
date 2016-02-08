@@ -149,7 +149,7 @@ Def.:
 
 Def.: Ein Shift X[r] eines Objekts X einer dg-Kategorie A besteht aus einem
 Objekt X[r] zusammen mit geschlossenen Morphismen
-    alpha : X --> X[r] vom Grad -r,  beta: X[r] --> X vom Grad r,
+    alpha : X --> X[r] vom Grad -r,  beta : X[r] --> X vom Grad r,
 die zueinander invers sind.
 
 Def.: Ein Kegel C eines geschlossenen Grad-0-Morphismus f besteht aus einem
@@ -306,7 +306,6 @@ Prop.: X, Y glatt, eigentlich/k. Dann RHom(L_perf(X), L_perf(Y)) ~ L_perf(X x Y)
 * D(A)(h_X, G) --> H^0(G(X)) ist ein Iso.
 
 * H^0(A) --> D(A) ist volltreu.
-
 
 
 === Lifts von Funktoren in die dg-Welt

@@ -9,6 +9,7 @@
 * http://mathoverflow.net/questions/69389/riemann-hypothesis-via-absolute-geometry
 * http://www.neverendingbooks.org/DATA3/ncg.pdf
 * http://www.alainconnes.org/docs/rhfinal.pdf
+* http://arxiv.org/abs/math/0407093
 
 Die Wikipedia gibt mehrere Gründe, wieso ein Körper mit einem Element so
 interessant wäre. Einer ist der folgende: Seit langer Zeit ist die
@@ -46,3 +47,7 @@ F_1, aufgefasst als kommutative algebraische Theorie, hat als Modelle
 * Die Zeta-Funktion von Z hat unendlich viele Nullstellen. Daher ist F_1 --> Z
   möglicherweise nicht vom endlichen Typ. Somit ist fraglich, wie sehr
   Spec(Z) x_{Spec(F_1)} Spec(Z) tatsächlich als Varietät angesehen werden kann.
+
+* GL_n(F_1) = S_n. http://math.stackexchange.com/a/568738/61604
+
+  PSL_n(F_1) könnte A_n sein. http://arxiv.org/abs/math/0407093

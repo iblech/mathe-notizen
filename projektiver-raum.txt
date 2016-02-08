@@ -384,6 +384,11 @@ Garbe mit Hom(O(i), E[s]) = 0 für alle i = a,...,a+n und alle s. Dann ist E = 0
 
 * Was ist die passende Lambda-Ring-Struktur auf Z[X]/(1-X)^(n+1)?
 
+* Die Isomorphie K_0(P^n) ~~ Z[X]/(X^(n+1)) hat man sogar in dem Fall, dass der
+  Grundkörper der Körper mit einem Element ist.
+  Stella Anevski, Algebra K-theory of generalized schemes,
+  http://www.math.ku.dk/noter/filer/phd13sa.pdf.
+
 
 === Fundamentalklassen in K-Theorie
 

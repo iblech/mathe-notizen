@@ -22,7 +22,7 @@ aus Modellkategorien):
   F' : C[W^(-1)] --> D. Also Ob(F) = Ob(F') . Ob(q). Da Ob(F) injektiv ist
   (sogar bijektiv), ist Ob(q) ebenfalls injektiv. 
 
-Die 2-kategorielle impliziert die 1-kategorielle, wenn man noch zusätzlich gilt, dass
+Die 2-kategorielle impliziert die 1-kategorielle, wenn man noch zusätzlich fordert, dass
 Ob(q) : Ob(C) --> Ob(C[W^(-1)]) bijektiv ist:
 
 * Sei ein Funktor F : C --> D mit W |-> Isos gegeben.
@@ -131,6 +131,21 @@ Beweis, dass man ganze Komplexe auflösen kann, steht zum Beispiel in:
 http://math.stackexchange.com/questions/352428/does-every-complex-have-a-quasi-isomorphic-projective-complex
 
 
+=== Homologische Dimension
+
+* D^*(A) erinnert sich nicht an die homologische Dimension von A. Zum Beispiel
+  besagt ja die BGG-Korrespondenz, dass
+
+      D^b(Mod(S(V))) =~ D^b(Mod(Lambda(V^)))  (jeweils graduierte Moduln),
+
+  aber dim Mod(S(V)) = dim(V) während dim Mod(Lambda(V^)) = infty.
+
+* Einzig Nulldimensionalität bleibt erinnert: Denn A ist genau dann
+  nulldimensional, wenn A halbeinfach ist, wenn D^*(A) halbeinfach ist.
+
+http://mathoverflow.net/a/57445/31233
+
+
 === Dimensionsshifting
 
 Sei 0 --> X --> I^0 --> ... --> I^n --> 0 exakt, wobei I^0, ..., I^{n-1}
@@ -218,10 +233,10 @@ bilden.
 
 === D^* und Unterkategorien
 
-Sei A eine volle exakte Unterkategorie von B. Existiere für jede Inflation
-X --> Y in B mit X in A ein Morphismus Y --> X' mit X' in A sodass die
-Komposition X --> Y --> X' eine Inflation in A ist. Dann ist D^b(A) --> D^b(B)
-volltreu.
+* Sei A eine volle exakte Unterkategorie von B. Existiere für jede Inflation
+  X --> Y in B mit X in A ein Morphismus Y --> X' mit X' in A sodass die
+  Komposition X --> Y --> X' eine Inflation in A ist. Dann ist D^b(A) --> D^b(B)
+  volltreu.
 
 
 === Kohomologische Funktoren, zugrundeliegender Komplex, D^b-Anreicherung
@@ -434,6 +449,15 @@ gegeben. Seien X und Y H^0-Komplexe. Dann gilt:
   von Funktoren. Ist nicht völlig offensichtlich, siehe Seite 14ff. von
   http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts.
 
+* PSh[(lokale Isos)^(-1)] ist Sh.
+
+* Met[(Bilipschitzabbildungen mit dichtem Bild)^(-1)] ist ComplMet.
+  Dabei ist Met die Kategorie der metrischen Räume mit lipschitzstetigen
+  Abbildungen.
+
+* Grp[S^(-1)] ist Ab, wobei S = { f : G --> H | G/[G,G] --> H/[H,H] ist ein Iso }.
+  http://arxiv.org/pdf/1108.2001.pdf
+
 
 === Notwendigkeit des Ableitens von Funktoren
 
@@ -588,7 +612,8 @@ Quelle: Beilinson, Coherent sheaves on P^n and problems in linear algebra.
   http://arxiv.org/abs/0711.1734 etwas stärker: So, dass jedes Objekt eine
   endliche Filtrierung besitzt, sodass die Kegel der "Inklusionen" in der
   jeweiligen Unterkategorie liegen. Die Diagramme, die dadurch entstehen, sind
-  sogar funktoriell!
+  sogar funktoriell! Auch in http://arxiv.org/pdf/1212.6170v1.pdf wird das so
+  gemacht. Erhalte Projektionsfunktoren.
 
   Ist das wirklich stärker? (Vermutung: Ja.)
   Siehe http://www.math.harvard.edu/~lehung/PartIIIEssay.pdf, dort steht die
@@ -611,8 +636,8 @@ Quelle: Beilinson, Coherent sheaves on P^n and problems in linear algebra.
 
       D^b(P(E)) = < pi^*(D^b(X)) tensor O(k) | k = 0, ..., n >.
 
-  Das geht auch noch allgemeiner für flache Morphismen. Siehe für beides Seite
-  4 von http://www.maths.ed.ac.uk/~eshinder/Mainz-Lecture-3.pdf.
+  Das geht auch noch allgemeiner für flache Morphismen. Siehe für beides
+  Seite 4 von http://www.maths.ed.ac.uk/~eshinder/Mainz-Lecture-3.pdf.
 
 
 === Grundlagen zu exzeptionellen Sequenzen
@@ -688,6 +713,11 @@ Das stimmt zumindest, wenn C = D^b(X) für eine glatte projektive Varietät X.
  
 Quelle: Seite 68 von
 http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts.
+
+* Sei C = <C_1, C_2> mit einem Verklebefunktor phi. Dann ist die Angabe
+  eines Objekts von C äquivalent zur Angabe eines Objekts X von C_1, eines
+  Objekts Y von C_2 und eines Morphismus X --> phi(Y) in C_1.
+  http://arxiv.org/pdf/1212.6170v1.pdf, Seite 9.
 
 
 === Monomorphismen in derivierten Kategorien zerfallen

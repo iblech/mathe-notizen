@@ -55,3 +55,38 @@ N* := { (x_n)_n | x_n in {0,1}, (x_n) monoton steigend }.
 http://homotopytypetheory.org/2013/07/24/cohomology/
 Andreas Blass (_Cohomology detects failures of the axiom of choice_)
 http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
+
+
+=== Noetherianität
+
+* Coquand und Lombardi (Foliensatz /Krull's Principal Ideal Theorem/)
+  definieren die Noetherianität eines Rings wie folgt.
+
+  Bedeute G(x_0,...,x_{n-1}), dass ein i < n mit x_i in (x_0,...,x_{i-1})
+  existiert. G() ist falsch.
+
+  Ein Ring ist genau dann noethersch, wenn für jedes Prädikat P über endliche
+  Folgen von Ringelementen mit
+
+      1. G(sigma) ==> P(sigma)
+      2. P(sigma) ==> P(sigma,x)
+      3. (forall x. P(sigma,x)) ==> P(sigma)
+
+  gilt: P(sigma) für alle sigma.
+
+* Wenn (x_1,...,x_n) = (1), so gilt P(x_1,...,x_n) für solch ein Prädikat.
+
+* G(x_1,...,x_n) bedeutet, dass (x_1) <= (x_1,x_2) <= ... <= (x_1,...,x_n)
+  eine echt aufsteigende Kette von Idealen ist.
+
+* In diesem Sinn ist Z noethersch. Es genügt, P(x) für alle x in Z
+  nachzuweisen. Der Fall P(0) ist klar, da G(0). Sei N die Gesamtzahl
+  Primfaktoren (mit Vielfachheiten gezählt) in x. Dann gilt für alle
+  k <= N und alle a_1,...,a_k: G(x,a_1,...,a_k) oder (x,a_1,...,a_k) = (1).
+  Somit folgt P(x).
+
+* Angeblich ist mit dieser Definition R[X] noethersch, falls R noethersch ist.
+
+* Oft definiert man P(sigma) als (G(sigma) vee phi).
+
+* http://www.mittag-leffler.se/sites/default/files/IML-0001-30.pdf
