@@ -1702,6 +1702,46 @@ Sei R nicht unbedingt kommutativ.
   http://arxiv.org/pdf/1304.6532v1.pdf, Seite 13
 
 
+=== Nichtkommutative Besonderheiten
+
+Wenn man "M tensor_A N" schreibt, so muss M ein Rechts-A-Modul und N ein
+Links-A-Modul sein. Das Ergebnis ist dann kein A-Modul mehr, nur noch
+eine abelsche Gruppe. Die fundamentale Rechenregel fürs Tensorprodukt
+ist xa tensor y = x tensor ay für a aus A, x aus M und y aus N.
+
+Das Tensorprodukt frisst also die Skalarwirkung auf, über die tensoriert
+wird. Nur wenn die Faktoren noch zusätzliche Modulstrukturen auf anderen
+Seiten hat, überlebt eine Skalarmultiplikation das Tensorieren:
+
+Wenn M sogar ein B-A-Bimodul ist (also Links-B-Modul und Rechts-A-Modul
+auf kompatible Art und Weise), so wird M tensor_A N zu einem
+Links-B-Modul.
+
+Wenn analog N A-C-Bimodul ist, so wird M tensor_A N zu einem
+Rechts-C-Modul.
+
+Zu guter Letzt: Wenn M sogar ein B-A-Bimodul und N ein A-C-Bimodul ist,
+so wird M tensor_A N zu einem B-C-Bimodul.
+
+Die universelle Eigenschaft betrifft bilineare Abbildungen f : M x N --> P
+in beliebige abelsche Gruppen P, wobei die Bilinearität meint:
+
+1. f(x+x',y) = f(x,y) + f(x',y)
+2. f(x,y+y') = f(x,y) + f(x,y')
+3. f(xa,y) = f(x,ay)
+
+Beim Hom ist es übrigens ähnlich. "Hom_A(M, N)" kann man nur dann
+schreiben, wenn M und N entweder beides Rechts-A-Moduln oder beides
+Links-A-Moduln sind. Das Ergebnis ist kein A-Modul mehr, nur noch eine
+abelsche Gruppe. Nur falls M und N sogar Bimoduln sind, ist die
+Hom-Menge wieder ein Modul.
+
+* Hom_A(B-A-Bimodul, Rechts-A-Modul) ist ein Rechts-B-Modul.
+* Hom_A(A-B-Bimodul, Links -A-Modul) ist ein Links-B-Modul.
+* Hom_A(Links-A-Modul,  A-B-Bimodul) ist ein Rechts-B-Modul.
+* Hom_A(Rechts-A-Modul, B-A-Bimodul) ist ein Links-B-Modul.
+
+
 === Siehe auch
 
 * http://math.uga.edu/~pete/integral.pdf
