@@ -1742,6 +1742,28 @@ Hom-Menge wieder ein Modul.
 * Hom_A(Rechts-A-Modul, B-A-Bimodul) ist ein Links-B-Modul.
 
 
+=== Primärzerlegung
+
+* Sei a = q_1 cap ... cap q_n eine minimale Primärzerlegung.
+
+  Dann umfasst jedes Primideal, das a umfasst, schon eines der sqrt(q_i).
+
+  Die isolierten Primideale haben sogar die Eigenschaft, Primideale zu sein,
+  die minimal über a sitzen.
+
+  Denn: Sei a <= p <= sqrt(q_j). Dann gibt es i mit sqrt(q_i) <= p <= sqrt(q_j).
+  Da sqrt(q_j) isoliert ist, folgt sqrt(q_i) = p = sqrt(q_j).
+
+* Sei p ein Primideal, das minimal mit der Eigenschaft ist, ein gegebenes
+  zerlegbares Ideal a zu umfassen. Dass ist p ein isoliertes Primideal zu a.
+
+  Denn: Schreibe a wie oben. Zunächst erhält man, dass p eines der sqrt(q_i)
+  umfasst. Da sqrt(q_i) ein Primideal über a ist, folgt p = sqrt(q_i). Damit
+  ist q zu a assoziiert. Ist nun p' irgendein assoziiertes Primideal zu a
+  mit p >= p', so folgt wieder wegen der Minimalität p = p'. Also ist p sogar
+  isoliert.
+
+
 === Siehe auch
 
 * http://math.uga.edu/~pete/integral.pdf

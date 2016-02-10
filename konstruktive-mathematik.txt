@@ -90,3 +90,10 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
 * Oft definiert man P(sigma) als (G(sigma) vee phi).
 
 * http://www.mittag-leffler.se/sites/default/files/IML-0001-30.pdf
+
+* Es gibt auch die Noether-Bedingung von Richman und Seidenberg:
+  aufsteigende Folgen von endlich erzeugten Idealen stoppen.
+
+  Hervé Perdry schreibt in /Strongly Noetherian rings and constructive ideal
+  theory/: Ist R kohärent und RS-noethersch, so ist auch R[X] kohärent und
+  RS-noethersch. Außerdem hat R[X] herauslösbare Ideale, falls R sie hat.
