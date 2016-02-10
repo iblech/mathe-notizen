@@ -77,7 +77,7 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
 * Wenn (x_1,...,x_n) = (1), so gilt P(x_1,...,x_n) für solch ein Prädikat.
 
 * G(x_1,...,x_n) bedeutet, dass (x_1) <= (x_1,x_2) <= ... <= (x_1,...,x_n)
-  eine echt aufsteigende Kette von Idealen ist.
+  *keine* echt aufsteigende Kette von Idealen ist.
 
 * In diesem Sinn ist Z noethersch. Es genügt, P(x) für alle x in Z
   nachzuweisen. Der Fall P(0) ist klar, da G(0). Sei N die Gesamtzahl

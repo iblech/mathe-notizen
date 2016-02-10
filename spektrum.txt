@@ -921,5 +921,17 @@ http://arxiv.org/pdf/math/0409360v2.pdf
   Zumindest ist D(f) nur dann dicht, wenn D(f) schon ganz Spec(A) ist.
   Genauso mit V(f). (Das genügt natürlich noch nicht.)
 
+  Coquand und Lombardi schreiben in
+  http://www.mittag-leffler.se/sites/default/files/IML-0001-30.pdf:
+  Um die konstruierbare Topologie zu bekommen, muss man nur Prädikate V(a) mit
+  den Axiomen
+
+      top |- D(a) v V(a)
+      D(a) wedge V(a) |- bot
+
+  hinzufügen.
+
 * Ist Caramellos Bedingung für Zugehörigkeit eines Primideals
   zu AlmostMaxSpec(A) äquivalent zu meiner? Müsste ja so sein.
+
+* Coquand und Lombardi definieren auch eine "Theorie der Primidealketten"!
