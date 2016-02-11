@@ -1621,6 +1621,13 @@ Sei R nicht unbedingt kommutativ.
   Identität der Form u x^n = 0 erfüllt. Somit liegt u in I_x, aber nicht in p.
   Also ist I_x keine Teilmenge von p.
 
+* In http://math.fau.edu/richman/Docs/paperlatex.pdf steht: Ein Ring ist
+  genau dann nulldimensional, wenn für alle x das Ideal
+
+      (x) + bigcup_n (0 : x^n)
+
+  das Einsideal ist.
+
 
 === Reguläre Ringe
 

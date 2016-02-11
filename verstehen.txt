@@ -25,6 +25,8 @@ Unsortierte Fragen:
   For example, a group object in the category of rings (to pick two algebraic
   theories out of a hat) is “the same thing” as a ring object in the category
   of groups.
+  Siehe auch
+  http://mathoverflow.net/questions/212081/generalized-theory-of-polynomials-for-a-given-commutative-lawvere-theory.
 * Finite-Difference Approach to the Hodge Theory of Harmonic Forms
   Lieblingspaper von Eric Forgy (?)
 * http://ncatlab.org/schreiber/show/master+thesis+Stel

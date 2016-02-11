@@ -97,3 +97,65 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
   Hervé Perdry schreibt in /Strongly Noetherian rings and constructive ideal
   theory/: Ist R kohärent und RS-noethersch, so ist auch R[X] kohärent und
   RS-noethersch. Außerdem hat R[X] herauslösbare Ideale, falls R sie hat.
+
+* Meine alte Definition von "processly Noetherian" war Quatsch. Zur Erinnerung:
+  Ein Prozess in einer partiell geordneten Menge X war eine Funktion f : N --> P(X)
+  sodass f(0) bewohnt ist und sodass für alle n und x aus f(n) ein y aus f(n+1)
+  mit x <= y existiert. So ein Prozess heißt haltend, wenn es ein n und ein x
+  gibt, sodass x in f(n) und in f(n+1) liegt.
+
+  Das Problem dabei ist, dass die Zugehörigkeit von x zu f(n) und f(n+1) nicht
+  ausdrückt, dass x ist ein möglicher Fixpunkt des f zugrundeliegenden
+  (gedachten) iterativen Entstehungsprozesses ist.
+
+* Richman spricht ja in http://math.fau.edu/richman/Docs/new-acc.pdf über die
+  ascending tree condition. Die ist super! Und identisch mit der Bedingung, die
+  ich eigentlich im Sinn hatte. Nämlich:
+
+  Ein Prozess in X ist ein Tupel (x0, phi) mit x0 in X und phi : X --> P(X).
+  Dabei muss phi erfüllen:
+
+      0. Für alle y aus phi(x) ist x <= y.
+      1. phi(x0) ist bewohnt.
+      2. Für alle x1 aus phi(x0) ist phi(x1) bewohnt.
+      3. Für alle x1 aus phi(x0) und x2 aus phi(x1) ist phi(x2) bewohnt.
+      4. Und so weiter.
+
+  Dabei könnte oder sollte man 0. so abschwächen, dass es nur noch über die
+  von x0 aus erreichbaren Ergebnisse spricht.
+
+  Ein solcher Prozess hält, wenn es eine Abfolge x1, x2, ..., xn mit
+
+      x_(i+1) in f(x_i) für i = 0, ..., n-1  und  x_n in f(x_n)
+
+  gibt.
+
+  Die Äquivalenz zu Richmans Definition sieht wie folgt aus.
+
+  Sei (x0, phi) ein Prozess. Betrachte die durch Erweiterung geordnete
+  Partialordnung aller endlichen Abläufe dieses Prozesses. Diese Partialordnung
+  ist ein Baum. Definiere eine Familie J auf diesem Baum durch J_[x0,...,xn] := xn.
+  Nach Voraussetzung hält J. Also gibt es [x0,...,xn] < [y0,...,ym] mit xn = ym.
+  Nach Definition der Ordnung ist [y0,...,ym] = [x0,...,xn,x_(n+1),...,x_m].
+  Also xn = x_(n+1).
+
+  Sei J ein auf einem Baum I definierte Familie. Definiere den Prozess
+  (bot in I, phi) mit
+
+      phi(x) := { y | exists i < j: x = J_i, y = J_j }.
+
+  Der so definierte Prozess hält. Also gibt es i < j mit J_i = J_j. Also hält J.
+
+* Man könnte sich bei Richmans und der neuen Prozessdefinition fragen:
+  Ist es nicht komisch, dass man nur fordert, dass *irgendein* Ablauf hält?
+  Sollte man das nicht für Abläufe tun?
+
+  Tatsächlich aber halten auch alle Abläufe. Schließlich ist ein Teilbaum eines
+  Baums wieder ein Baum, der ebenfalls halten muss.
+
+  Bisschen komisch ist es trotzdem.
+
+* Wie sieht's im Computer aus? Soll ein Zeuge der Noetherianität alle möglichen
+  Abläufe eines Algorithmus durchgehen? Natürlich nicht. Er beschränkt sich auf
+  irgendeinen. Dieser muss ja ebenfalls halten. Hat wohl damit etwas zu tun,
+  dass "im Computer das abhängige Auswahlaxiom gilt".
