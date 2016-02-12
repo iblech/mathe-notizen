@@ -46,6 +46,10 @@ http://link.springer.com/chapter/10.1007/BFb0061815
 
 http://www.math.jhu.edu/~eriehl/ssets.pdf, Abschnitt 4, ab Seite 6
 
+http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/SimplicialModelCategories.pdf
+Prop. 2.0.A: Die Kategorie der kostetigen Funktoren sSet --> C ist äquivalent
+zur Kategorie der kosimplizialen Objekte in C, wenn C kovollständig ist.
+
 
 === Delta-Komplexe
 

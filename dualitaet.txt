@@ -51,3 +51,6 @@ Siehe: http://arxiv.org/pdf/math/0512103v1.pdf, Seite 20
 Z^ (die proendliche Vervollständigung von Z, der Prüferring, lim_n Z/(n))
 korrespondiert unter Pontryagin-Dualität zu Q/Z.
 https://ncatlab.org/nlab/show/profinite+completion+of+the+integers
+
+Ab^op ist vermöge Pontryagin-Dualität äquivalent zur Kategorie der kompakten
+topologischen abelschen Gruppen.

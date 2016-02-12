@@ -414,6 +414,7 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   demonstriert.
 
 * Eisenstein funktioniert über beliebigen Integritätsbereichen.
+  Aber man muss aufpassen, was dann Primelemente sind.
   https://en.wikipedia.org/wiki/Eisenstein%27s_criterion
 
 

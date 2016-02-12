@@ -51,3 +51,8 @@ F_1, aufgefasst als kommutative algebraische Theorie, hat als Modelle
 * GL_n(F_1) = S_n. http://math.stackexchange.com/a/568738/61604
 
   PSL_n(F_1) könnte A_n sein. http://arxiv.org/abs/math/0407093
+
+* "Letting A = Z and k F_1 (yeah, that sounds right), I think the analogy is
+  that finite abelian groups are closed under Pontrjagin duality. Hm, now I
+  wonder what other "F_1-algebras" have interesting finite representation
+  theory." http://mathoverflow.net/a/39770/31233

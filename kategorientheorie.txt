@@ -155,11 +155,42 @@ Kategorien, die zu diskreten Kategorien äquivalent sind, und
 
 === Duale Kategorie
 
-Set^op ist nicht äquivalent zu Set. Denn in Set ist jeder Morphismus ins
-initiale Objekt ein Isomorphismus, in Set^op aber nicht.
+* Set^op ist nicht äquivalent zu Set. Denn in Set ist jeder Morphismus ins
+  initiale Objekt ein Isomorphismus, in Set^op aber nicht.
 
-Siehe auch:
-* http://mathoverflow.net/questions/29442/what-is-the-opposite-category-of-the-category-of-modules-or-hopf-algebra-represe/39975#39975
+  Siehe auch:
+  http://mathoverflow.net/questions/29442/what-is-the-opposite-category-of-the-category-of-modules-or-hopf-algebra-represe/39975#39975
+
+* Delta^op ist nicht äquivalent zu Delta. Gleiche Begründung.
+
+  Für die Buchhaltungskategorie für zyklische Mengen aber meine ich mich zu
+  erinnern, dass es schon stimmt! Das ist etwas Besonderes.
+
+* [C^op, D] = [C, D^op]^op.
+
+* Ab^op ist nicht äquivalent zu Ab.
+
+  Denn sonst würden Kolimiten und Limiten zusammenfallen. Tun sie aber nicht.
+  Genauer:
+
+  Die kanonische Abbildung
+
+      bigoplus_{n >= 0} M --> prod_{n >= 0} M
+
+  ist für M != 0 ein Mono, aber kein Epi. Das genügt schon.
+
+  Verwandt: Schnitte distribuieren über beliebige gerichtete Vereinigungen,
+  aber nicht umgekehrt.
+
+  Tatsächlich ist Ab^op äquivalent zur Kategorie der kompakten topologischen
+  abelschen Gruppen, vermöge Pontryagin-Dualität.
+
+* Ab_fg ist äquivalent zu ihrer dualen Kategorie, vermöge Hom(__, Q/Z).
+  Geht auch allgemeiner für Hauptidealbereiche, die keine Körper sind.
+  Aber ich verstehe nicht, wieso dieser Funktor wieder in Ab_fp landet!
+  http://mathoverflow.net/a/39718/31233
+
+* Wieso ist Ch_{>=0} im Allgemeinen nicht äquivalent zu Ch_{<=0}?
 
 
 === Rechenregel adjungierte Funktoren
