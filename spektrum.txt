@@ -935,3 +935,6 @@ http://arxiv.org/pdf/math/0409360v2.pdf
   zu AlmostMaxSpec(A) äquivalent zu meiner? Müsste ja so sein.
 
 * Coquand und Lombardi definieren auch eine "Theorie der Primidealketten"!
+
+* In http://www.mathematik.uni-muenchen.de/~pschust/vorlsem/MunichSlide.pdf
+  wird ganz klar die Theorie für maximale und minimale Primideale angegeben.

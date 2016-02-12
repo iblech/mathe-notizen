@@ -210,3 +210,21 @@ Sei (a,b) ein Erzeugendensystem von K(P^1).
   1 * aaabbb+...
 
 Frage: Wie sehen diese Erzeuger unter der Äquivalenz D(X^[n]) --> D(P^n) aus?
+
+
+=== Im Grothendieck-Ring der Varietäten
+
+Daniel Litt. Symmetric powers do not stabilize. http://arxiv.org/abs/1209.4708.
+
+* Sei C eine glatte eigentliche Kurve vom Geschlecht g über einem Körper k,
+  mit einem k-rationalen Punkt. Dann ist für n >> 0 das symmetrische Produkt
+  Sym^n(C) ein Zariski-P^(n-g)-Bündel über Jac(C).
+
+* In K_0(Var_k) gilt daher [Sym^n C] = (1 + L + ... + L^(n-g)) [Jac(C)].
+
+* In K_0(Var_k) gilt (Göttsche) für glatte projektive Flächen S über k:
+
+      [Hilb^n(S)] = sum_{n = alpha_1 * 1 + ... + alpha_n * n}
+          L^(n-|alpha|) prod_{i=1}^n [Sym^{alpha_i}(S)].
+
+  Insbesondere [Hilb^n(S)] = [Sym^n(S)] mod L.

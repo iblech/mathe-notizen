@@ -387,7 +387,8 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   in A[t] stattfindet.
 
 * Gröbner-Basen:
-  http://people.math.gatech.edu/~aleykin3/math4803spr13/BOOK/chapter3.pdf
+  * http://people.math.gatech.edu/~aleykin3/math4803spr13/BOOK/chapter3.pdf
+  * Hervé Perdry. Strongly Noetherian rings and constructive ideal theory.
 
 * Im Allgemeinen gilt bekanntlich nicht I cap (J + K) = (I cap J) + (I cap K).
   Ein Beispiel lautet:
@@ -808,6 +809,10 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
   liftet der Morphismus P ----> cok(Q' --> Q) zu einem Morphismus P --> Q.
 
   Dann kann man explizit einen Iso der betreffenden Kokerne angeben.
+
+* Ein Beispiel für einen Ring, über dem nur der Nullmodul kohärent ist:
+  k[X_1,...]/(X_i X_j)_ij.
+  http://mathoverflow.net/questions/159836/coherent-modules/159841#159841
 
 
 === Endlichkeitseigenschaften von Algebren
@@ -1769,6 +1774,15 @@ Hom-Menge wieder ein Modul.
   ist q zu a assoziiert. Ist nun p' irgendein assoziiertes Primideal zu a
   mit p >= p', so folgt wieder wegen der Minimalität p = p'. Also ist p sogar
   isoliert.
+
+
+=== Satz von Artin--Schreier
+
+http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/artinschreier.pdf
+
+Besitze ein Körper F einen algebraischen Abschluss C, der endlich über F ist.
+Dann "verhält sich F wie die reellen Zahlen". Insbesondere ist char F = 0 und
+C = F(i).
 
 
 === Siehe auch

@@ -8,7 +8,7 @@
 * Definition von X^[n]
 * Tangentialraum des Hilbertschemas (über Garbenhom
   und über Pfeile in Young-Diagrammen)
-* Hilbert-Chow-Morphismus
+* Hilbert-Chow-Morphismus (bezeugt Birationalität)
 * X^[2] als Aufblasung von X^(2) (im Fall, dass X eine Fläche ist)
 * Das punktuelle Hilbertschema
 * Euler-Charakteristik des Hilbertschemas

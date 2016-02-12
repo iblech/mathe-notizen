@@ -57,10 +57,19 @@ Andreas Blass (_Cohomology detects failures of the axiom of choice_)
 http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
 
 
+=== Eindeutigkeit impliziert Existenz
+
+* Wenn eine Funktion näherungsweise Nullstellen hat (forall eps. exists x. |f(x)| < eps)
+  und gleichförmig höchstens eine Nullstelle hat, so hat sie wirklich eine.
+
+  Peter Schuster. Problems, Solutions, and Completions.
+
+
 === Noetherianität
 
 * Coquand und Lombardi (Foliensatz /Krull's Principal Ideal Theorem/)
   definieren die Noetherianität eines Rings wie folgt.
+  http://www.mittag-leffler.se/sites/default/files/IML-0001-30.pdf
 
   Bedeute G(x_0,...,x_{n-1}), dass ein i < n mit x_i in (x_0,...,x_{i-1})
   existiert. G() ist falsch.
@@ -88,8 +97,6 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
 * Angeblich ist mit dieser Definition R[X] noethersch, falls R noethersch ist.
 
 * Oft definiert man P(sigma) als (G(sigma) vee phi).
-
-* http://www.mittag-leffler.se/sites/default/files/IML-0001-30.pdf
 
 * Es gibt auch die Noether-Bedingung von Richman und Seidenberg:
   aufsteigende Folgen von endlich erzeugten Idealen stoppen.

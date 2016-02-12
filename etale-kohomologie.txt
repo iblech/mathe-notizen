@@ -16,3 +16,25 @@
   kk, which is pretty amazing. This is in arbitrary dimension."
 
   Brian Conrad bei http://mathoverflow.net/questions/18665/what-does-being-analytically-isomorphic-imply-for-classification-of-singularitie.
+
+* Sei tau eine feinere Topologie als die Zariski-Topologie. Dann gibt es
+  bekanntlich einen geometrischen Morphismus X_tau --> X_Zar. Daniel Litt
+  vergleicht das mit der Situation X(C)^an --> X_Zar.
+  http://mathoverflow.net/a/220730/31233
+
+* Wieso hat X_et Kohomologie bis 2*n, wobei n die Dimension von ist?
+  http://mathoverflow.net/a/220730/31233
+
+  Antwort: Habe f : X_et --> X_Zar. Dieser hat kohomologische Dimension n,
+  im Sinn dass Rf_* Garben auf Komplexe in den Graden 0 bis n schickt. Nun hat
+  X_Zar selbst noch Dimension n. 2n = n + n.
+
+  http://mathoverflow.net/questions/30583/cohomological-dimension-doubling
+  Ben Wieland: "étale = Zariski + Galois."
+
+  Theorem von Tsen: Galoiskohomologische Dimension eines Körpers ist sein
+  Transzendenzgrad.
+
+* Die Kummer-Sequenz für mu_p ist in Charakteristik p nicht in der étalen
+  Topologie kompakt. Wohl aber in der flachen Topologie.
+  http://mathoverflow.net/questions/195165/what-is-the-purpose-of-the-flat-fppf-fpqc-topologies
