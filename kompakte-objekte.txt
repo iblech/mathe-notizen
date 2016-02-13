@@ -25,6 +25,29 @@
   Diagramm C_fp/X --> X filtriert. (Siehe erzeuger-und-relationen.txt.)
 
 
+=== Tiny Objekte
+
+* Ein Objekt X heißt genau dann tiny, wenn Hom(X, __) mit beliebigen
+  kleinen Kolimiten vertauscht.
+
+* Retrakte von winzigen Objekten sind winzig.
+
+* In PSh(C) ist jedes winzige Objekte Retrakt einer darstellbaren Prägarbe.
+  Und umgekehrt sind Retrakte darstellbarer Prägarben winzig.
+
+  Ist C Karoubi-vollständig, so sind die darstellbaren Prägarben genau die
+  winzigen Objekte (siehe kategorientheorie.txt). In diesem Fall kann man also
+  C aus PSh(C) rekonstruieren.
+
+* In einer abelschen Kategorie ist ein Objekt genau dann winzig im
+  Ab-angereicherten Sinn, wenn es kompakt und projektiv ist.
+  https://qchu.wordpress.com/2015/05/07/tiny-objects/
+
+* Für eine Ab-angereicherten Kategorie C sind die winzigen Objekte in [C^op, Ab]_Ab
+  im Ab-angereicherten Sinn genau die Retrakte von endlichen Biprodukten von
+  darstellbaren Prägarben.
+
+
 === Kompakte Objekte in A-Mod
 
 Die Kategorie der A-Modul ist lokal endlich präsentierbar.
@@ -60,6 +83,12 @@ Die Kategorie der A-Modul ist lokal endlich präsentierbar.
   nicht injektiv.
 
   Natürlich ist hier die Ab-Anreicherung nicht beachtet.
+
+  Geht viel allgemeiner: In jeder Kategorie mit Nullobjekt gibt es keine
+  winzigen Objekte. Denn Hom(X, __) schickt das Nullobjekt (als leeren Kolimes)
+  auf die leere Menge. Da nun jedes Objekt ein Morphismus ins Nullobjekt
+  zulässt, ist also Hom(X, Y) für alle Y die leere Menge. Für Y = X ist das ein
+  Widerspruch.
 
 * Dualisierbare Moduln (im Sinne monoidaler Kategorien) sind kompakt.
 

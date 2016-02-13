@@ -4,6 +4,20 @@
 * http://math.stackexchange.com/questions/1297513/an-introduction-to-algebraic-topology-from-the-categorical-point-of-view
 
 
+=== Simpliziales Standard-n-Simplex
+
+Der augmentierte simpliziale Kettenkomplex zu Delta[n] ist gegeben durch
+
+    0 <-- Z <-- Lambda^{>= 1} Z^(n+1).
+
+Das Differential sieht so aus:
+
+    Lambda^(m+1) Z^(n+1) --> Lambda^m Z^(n+1),
+        v_0 wedge ... wedge v_m |-> sum_i (-1)^i theta(v_i) v_0 ... v_m ohne v_i gewedged,
+
+wobei theta : Z^(n+1) --> Z die Koeffizienten addiert.
+
+
 === Singuläre Homologie
 
 n-Kette: Linearkombination von n-Simplizes

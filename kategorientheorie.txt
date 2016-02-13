@@ -179,6 +179,8 @@ Kategorien, die zu diskreten Kategorien äquivalent sind, und
 
   ist für M != 0 ein Mono, aber kein Epi. Das genügt schon.
 
+  Das gleiche Argument funktioniert für R-Moduln (wenn R nicht der Nullring ist).
+
   Verwandt: Schnitte distribuieren über beliebige gerichtete Vereinigungen,
   aber nicht umgekehrt.
 
@@ -190,7 +192,56 @@ Kategorien, die zu diskreten Kategorien äquivalent sind, und
   Aber ich verstehe nicht, wieso dieser Funktor wieder in Ab_fp landet!
   http://mathoverflow.net/a/39718/31233
 
+* Ch_*(Mod(R)) und Ch^*(Mod(R)) können (für jeden Ring R != 0) nicht äquivalent
+  zu einer Kategorie von Moduln sein. Dabei kann "*" keine Beschränkung bedeuten
+  oder eine der folgenden: >=0, <=0, +, -. ("b" geht nicht.)
+
+  Denn: Sei R[n] der in Grad n konzentrierte Komplex mit Wert R dort.
+  Dann ist der kanonische Morphismus coprod_n R[n] --> prod_n R[n] ein Iso.
+  In Modulkategorien passiert das nicht (außer im Fall des Nullrings).
+  (Dabei geht das Koprodukt und das Produkt über ein von der Beschränkung
+  erlaubter abzählbarer Teilbereich von Z.)
+  http://math.stackexchange.com/a/1585274/61604
+
+* Man weiß, wie sich Modulkategorien unter abelschen Kategorien auszeichnen.
+  Insbesondere haben sie einen winzigen Erzeuger.
+  http://math.stackexchange.com/a/1585258/61604
+  https://qchu.wordpress.com/2015/05/07/tiny-objects/
+
+  Eine abelsche Kategorie ist genau dann äquivalent zu einer Modulkategorie,
+  falls sie kovollständig ist und einen kompakten projektiven Erzeuger besitzt,
+  sodass jedes Objekt Kolimes von endlichen Biprodukten von Kopien des
+  Erzeugers ist.
+
+  Eine Ab-angereicherte Kategorie ist genau dann äquivalent zu einer
+  Modulkategorie, falls sie kovollständig ist und einen winzigen Erzeuger
+  besitzt, sodass jedes Objekt Kolimes von endlichen Biprodukten von Kopien des
+  Erzeugers ist.
+
+  Moduln können hier immer über nichtkommutativen Ringen sein. Kommutativität
+  ist äquivalent zur Forderung, dass der Endomorphismenring des Erzeugers
+  kommutativ ist.
+
 * Wieso ist Ch_{>=0} im Allgemeinen nicht äquivalent zu Ch_{<=0}?
+
+  Ch_{>=0} = [N^op, Ab]_Ab = Ch^{<=0}, Ch_{<=0} = [N, Ab]_Ab = Ch^{>=0}.
+
+  Dabei ist N die Ab-angereicherte Kategorie
+
+      0 --> 1 --> 2 --> ...   mit   d^2 = 0.
+
+  Leider ist N nicht Karoubi-vollständig: -id zerfällt nicht!
+  Sonst wäre klar die Nichtäquivalenz klar.
+
+* PSh(C) ist genau dann zu PSh(D) äquivalent, wenn die Karoubi-Abschlüsse
+  von C und D äquivalent sind.
+
+* sSet = [Delta^op, Set] und cosSet = [Delta, Set] sind also nicht zueinander
+  äquivalent. Denn Delta und Delta^op sind schon Karoubi-vollständig, aber
+  nicht zueinander äquivalent.
+
+* [Delta^op, Mod(R)] = [Z<Delta^op>, Mod(R)]_Ab =
+    [R<Delta^op>, Mod(R)]_{Mod(R)-angereichert}
 
 
 === Rechenregel adjungierte Funktoren
@@ -598,7 +649,7 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
 * Die Unterkategorie D wird dann monadisch über C, d.h. D ist die Kategorie
   der Algebren der Monade ir : C --> C.
 
-* ri = id : D --> D.
+* ri = id : D --> D. Gewissermaßen ist D also ein Retrakt von C.
 
 * D ist abgeschlossen unter Limiten, die in C existieren.
   (Denn die Inklusion ist monadisch.)

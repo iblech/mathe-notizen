@@ -132,6 +132,29 @@
   http://ncatlab.org/nlab/show/Karoubi+envelope#the_category_of_smooth_manifolds
 
 
+=== Karoubi-Hülle (idempotent-splitting completion)
+
+* Ein Funktor C --> D heißt genau dann Karoubi-Hülle, wenn in D jeder
+  Idempotente zerfällt, wenn der Funktor volltreu ist und wenn jedes Objekt in D
+  Retrakt eines Objekts in C ist (unter der durch den Funktor gegebenen
+  Einbettung).
+
+* Wenn C klein ist, kann die Karoubi-Hülle als die volle Unterkategorie
+  der Retrakte der darstellbaren Prägarben in PSh(C) realisiert werden.
+
+* Die Kategorie der Mannigfaltigkeiten (secound-countable, hausdorffsch, ohne
+  Rand) ist die Karoubi-Hülle ihrer vollen Unterkategorie der offenen
+  Teilmengen der R^n.
+
+* In abelschen Kategorien zerfallen schon alle Idempotenten:
+  Schreibe X = ker(p) oplus ker(1-p). Viel allgemeiner: In Kategorien mit
+  Epi-/Mono-Faktorisierung. Denn wenn f = iota . pi mit f^2 = f, dann
+  iota . (pi . iota) . pi = iota . id . pi, also pi . iota = id.
+
+* PSh(C) ist genau dann zu PSh(D) äquivalent, wenn die Karoubi-Abschlüsse
+  von C und D äquivalent sind.
+
+
 === Pro-Objekte, unendliche Galoistheorie als Lawvere-Theorie, ...
 
 * http://qchu.wordpress.com/2013/06/23/operations-pro-objects-and-grothendiecks-galois-theory/#more-12927
