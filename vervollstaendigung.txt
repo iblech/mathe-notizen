@@ -201,6 +201,10 @@
   Aber man kann nicht erwarten, dass F' mit dieser Eigenschaft eindeutig ist.
   Das ist ein Unterschied zur, zum Beispiel, Lokalisierung.
 
+* Wenn man in einer Kategorie ein Retrakt eines Objekts entfernt, so verhält
+  sich die verkleinerte Kategorie bezüglich Funktoren in Karoubi-vollständige
+  Kategorien ganz genauso wie die ursprüngliche.
+
 
 === Pro-Objekte, unendliche Galoistheorie als Lawvere-Theorie, ...
 

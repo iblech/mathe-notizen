@@ -525,6 +525,18 @@ muss p i = id sein.
 Es gilt auch die Umkehrung! Jede kleine Kategorie, in der alle Idempotenten
 zerfallen, ist erreichbar, siehe Adámek, Rosicky, Prop. 2.6.
 
+Prop.: Ein Idempotenter zerfällt genau dann, wenn er eine
+Epi-/Mono-Faktorisierung besitzt.
+
+Bew.: Sei e = iota . pi mit pi . iota = id. Dann ist pi ein Epi, iota ein Mono
+und e = iota . pi ist eine Epi-/Mono-Faktorisierung. Ist umgekehrt e = iota . pi
+eine Epi-/Mono-Faktorisierung, so gilt pi . iota = id, denn es genügt,
+iota . (pi . iota) . pi = iota . id . pi zu prüfen, und das meint gerade e^2 = e.
+
+Bem.: Zerfällt ein Idempotenter e : X --> X über ein Objekt Y, so ist Y ein
+Retrakt von X. Umgekehrt ist ein Retrakt stets die Zerfällung eines
+Idempotenten.
+
 Prop.: Wenn in einer Kategorie C alle Idempotenten zerfallen, so sind Retrakte
 darstellbarer Prägarben auf C schon selbst darstellbar.
 
