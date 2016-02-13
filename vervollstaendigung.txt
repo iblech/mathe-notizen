@@ -134,8 +134,8 @@
 
 === Karoubi-Hülle (idempotent-splitting completion)
 
-* Ein Funktor C --> D heißt genau dann Karoubi-Hülle, wenn in D jeder
-  Idempotente zerfällt, wenn der Funktor volltreu ist und wenn jedes Objekt in D
+* Ein Funktor C --> C' heißt genau dann Karoubi-Hülle, wenn in C' jeder
+  Idempotente zerfällt, wenn der Funktor volltreu ist und wenn jedes Objekt in C'
   Retrakt eines Objekts in C ist (unter der durch den Funktor gegebenen
   Einbettung).
 
@@ -146,6 +146,12 @@
   Rand) ist die Karoubi-Hülle ihrer vollen Unterkategorie der offenen
   Teilmengen der R^n.
 
+  Voll krass: Dank der universellen Eigenschaft genügt es, um einen Funktor aus
+  Man in eine Karoubi-vollständige Kategorie anzugeben, ihn auf der Kategorie
+  der offenen Teilmengen der R^n anzugeben. Dabei muss man auf keinerlei
+  Kompatibilitätsbedingungen achten, Funktorialität genügt.
+  Beispielanwendungen: Tangentialbündel, Kohomologie.
+
 * In abelschen Kategorien zerfallen schon alle Idempotenten:
   Schreibe X = ker(p) oplus ker(1-p). Viel allgemeiner: In Kategorien mit
   Epi-/Mono-Faktorisierung. Denn wenn f = iota . pi mit f^2 = f, dann
@@ -153,6 +159,47 @@
 
 * PSh(C) ist genau dann zu PSh(D) äquivalent, wenn die Karoubi-Abschlüsse
   von C und D äquivalent sind.
+
+* Die Karoubi-Vervollständigung Y : C --> C' erfüllt folgende 2-universelle
+  Eigenschaft: Für jede Karoubi-vollständige Kategorie D ist
+
+      [C', D] ---> [C, D]  (Vorkomponieren mit Y)
+
+  eine Äquivalenz.
+
+  Wesentliche Surjektivität zeigt man so: Wähle zunächst für alle X in C'
+  eine Faktorisierung id_X = pi_X . iota_X über ein Objekt Y(A_X).
+  Setze s_X := Y^(-1) (iota_X . pi_X).
+
+  Sei nun F : C --> D ein Funktor. Um F' : C' --> D auf X in C' zu definieren,
+  wähle eine Faktorisierung F(s_X) = iota'_X . pi'_X über ein neues Objekt.
+  Dieses Objekt soll F'(X) sein.
+
+  Ist f : X --> X' in C', so definiere F(f) := pi'_X' . FY^(-1)(iota_X' . f . pi_X)) . iota'_X.
+
+  Dann ist F' ein Funktor.
+
+  Der Iso F' . Y ~~ F : C --> E ist auf P in C gegeben durch
+
+      pi'_YP . FY^(-1)(iota_YP)
+
+  mit Inversem
+
+      FY^(-1) pi_YP . iota'_YP.
+
+  Zur Treuheit beachte, dass für eine natürliche Trafo omega : G ==> H : C' --> E
+  gilt, dass
+
+      omega_X = H(pi_X) . omega_{YA_X} . G(iota_X).
+
+  Zur Vollheit definiere omega durch diese Formel.
+
+  Man kann auch erreichen, dass F' . Y = F, indem man für X von der Form YP
+  A_X als P und s_X als Identität wählt und außerdem darauf achtet, die Bilder
+  dieser s_X'e unter F trivial zu zerfällen (id . id).
+
+  Aber man kann nicht erwarten, dass F' mit dieser Eigenschaft eindeutig ist.
+  Das ist ein Unterschied zur, zum Beispiel, Lokalisierung.
 
 
 === Pro-Objekte, unendliche Galoistheorie als Lawvere-Theorie, ...
