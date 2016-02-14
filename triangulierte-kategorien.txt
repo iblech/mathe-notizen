@@ -19,11 +19,31 @@ http://arxiv.org/abs/1209.0540
 
 === Anschauung für Kegel, Zylinder & Co.
 
-Behrang Noohi. Lectures on derived and triangulated categories.
-http://arxiv.org/pdf/0704.1009v1.pdf.
-Seite 16.
+* Behrang Noohi. Lectures on derived and triangulated categories.
+  http://arxiv.org/pdf/0704.1009v1.pdf.
+  Seite 16.
 
-Empfohlen von Peter Arndt: http://mathoverflow.net/a/43112/31233
+* Empfohlen von Peter Arndt: http://mathoverflow.net/a/43112/31233
+
+* In der Kategorie der Kettenkomplexe ist der Kegel C(f) eines
+  Morphismus f : A --> B der Kolimes des folgenden Diagramms:
+
+                           f
+                      A -------> B
+                      |
+                      | p_1
+                      v
+        A ------> I tensor A
+        |   p_0
+        |
+        v
+        0
+
+  Also sind Morphismen C(f) --> K dasselbe wie Morphismen B -g-> K
+  zusammen mit einer Homotopie zwischen g . f und der Nullhomotopie.
+
+  Eine Folgerung daraus ist: C(f tensor E) = C(f) tensor E für beliebige
+  Komplexe E.
 
 
 === Nullheit in ausgezeichneten Dreiecken
