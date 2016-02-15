@@ -1088,6 +1088,20 @@ Natürlich ist hier die Schreibrichtung ganz entscheidend!
   und /Monades et descente/ werden zitiert.
 
 
+=== Kategorien von Räumen
+
+* Townsend: Kategorien von Örtlichkeiten.
+
+* https://qchu.wordpress.com/2015/11/27/distributive-categories
+  Ein Anzeichen dafür, dass man eine Kategorie als eine Kategorie von Räumen
+  interpretieren kann, ist, dass X x (Y + Z) <-- XxY + XxZ ein Iso ist.
+
+  Das stimmt zum Beispiel in Set, Top, jedem Topos und Aff = Ring^op.
+  Es ist falsch in Grp und jeder nichttrivialen Kategorie mit einem Nullobjekt.
+  Es stimmt wieder in der Kategorie der Gruppoide! Das ist wohl also der
+  eigentliche Untersuchungsgegenstand geometrischer Gruppentheorie.
+
+
 === Nächste Schritte
 
 * Kurz über "Cat ist vollständig und kovollständig" nachdenken.

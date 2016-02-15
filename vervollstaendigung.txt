@@ -1,6 +1,6 @@
 === Vervollständigung von Kategorien
 
-* /Freie/ Kovervollständigung einer Kategorie C:
+* /Freie/ Kovervollständigung einer kleinen Kategorie C:
 
       C --> [C^op, Set]
 
@@ -36,8 +36,23 @@
   Ist die freie Kovervollständigung stets ein Topos, auch, wenn die Kategorie,
   mit der man startet, nicht (wesentlich) klein ist?
 
-  Joyal (Topos à l'IHES): Wenn D ein Topos ist (kann man das abschwächen?) und
+  Joyal (Topos à l'IHÉS): Wenn D ein Topos ist (kann man das abschwächen?) und
   F endliche Limiten erhält, dann erhält F' auch endliche Limiten.
+
+* Die freie Kovervollständigung einer lokal kleinen Kategorie ist wieder lokal
+  klein. Sie ist die volle Unterkategorie der (großen) Prägarbenkategorie
+  erzeugt durch kleine Kolimiten darstellbarer Prägarben.
+
+  "If we start with an accessible category C, then the small presheaves on C^op
+  are precisely the functors C → Set that preserve κ-filtered colimits for some
+  κ (i.e. accessible functors C → Set). This is good enough to recognise small
+  presheaves on the category of affine schemes, for example; but I don’t know
+  of many categories whose opposite is accessible."
+  https://qchu.wordpress.com/2014/04/01/the-free-cocompletion-i/
+
+* Jede symmetrische monoidale kovollständige Kategorie ist ein Linksmodul
+  über der Kategorie der Spezies.
+  https://qchu.wordpress.com/2015/11/05/a-monad-is-just-a-monoid-in-the-category-of-endofunctors-whats-the-problem/
 
 * Kovervollständigung einer Kategorie C, die vorhandene Kolimiten erhält:
 

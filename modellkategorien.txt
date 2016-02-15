@@ -1,3 +1,20 @@
+=== Beispiele
+
+* Modellstrukturen auf Top:
+  http://mathoverflow.net/questions/97350/how-many-model-category-structures-are-there-on-top
+
+* Modellstrukturen auf Set (neun Stück!):
+  http://www.math.ubc.ca/~oantolin/notes/modelcatsets.html
+  Manche von denen sind Quillen-äquivalent.
+
+* Modellstrukturen auf Cat: es gibt genau eine, in der die schwachen
+  Äquivalenzen die Äquivalenzen von Kategorien sind.
+  https://sbseminar.wordpress.com/2012/11/16/the-canonical-model-structure-on-cat/
+
+* Modellstruktur auf dem Topos der gerichteten Graphen:
+  http://mathoverflow.net/questions/18336/what-are-surprising-examples-of-model-categories
+
+
 === Intuition und Analogien
 
 * Die kofasernden Objekte sind wie Projektive: Ein Objekt A
@@ -7,8 +24,8 @@
   Genauso mit fasernden Objekten und Injektiven.
 
   Andererseits ist etwas komisch, dass in vielen Modellkategorien alle Objekte
-  fasernd oder kofasernd sind! (Zum Beispiel sind in Ch(k) alle Objekte
-  fasernd.)
+  fasernd oder kofasernd sind! (Zum Beispiel sind in Ch(R) mit der projektiven
+  Modellstruktur alle Objekte fasernd.)
 
   Siehe Seite 17 von
   http://www.academia.edu/3992110/Dg-enhancements_of_triangulated_categories_and_the_uniqueness_problem_of_dg-lifts.
@@ -41,6 +58,13 @@
   Der Komplex I wird auf dem nLab auch Intervallobjekt genannt. Er ist der
   normalisierte Kettenkomplex von Delta[1].
 
+* Übrigens: Homotopie in Ch(R) und Kettenhomotopie sind nicht äquivalent.
+  http://math.stackexchange.com/questions/649851/right-homotopic-maps-iff-chain-homotopic
+
+* Der Wechsel zwischen Links- und Rechtshomotopie wird beschrieben in:
+  http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf
+  Seite 219, Thm. 14.3.11
+
 
 === Retrakte von schwachen Äquivalenzen
 
@@ -56,6 +80,34 @@ abgeschlossen ist. Aber eine Art Umkehrung gilt nicht:
 Sei X irgendein Objekt, das nicht zu 1 schwach äquivalent ist, und sodass es
 einen Morphismus 1 --> X gibt. Dann ist 1 --> 1 zwar eine schwache Äquivalenz,
 aber X --> 1 ist es nicht.
+
+
+=== Leben mit und ohne das Kleine-Objekt-Argument
+
+* Ohne: http://math.stackexchange.com/a/846202/61604
+
+* Mit: http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf, Seite 228f.
+  http://www.math.jhu.edu/~eriehl/factorization.pdf, Seite 16.
+
+
+=== Satz von Whitehead für Modellkategorien
+
+http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf
+Seite 220, Thm. 14.3.15
+
+
+=== Kombinatorische Modellkategorien
+
+* "Alle relevanten Modellkategorien sind kombinatorisch." Das für konkrete
+  Beispiele nachzuweisen ist aber mitunter gar nicht einfach.
+
+* Das Duale einer kombinatorischen Modellkategorie ist im Allgemeinen nicht
+  kombinatorisch.
+
+* In einer kombinatorischen Modellkategorie sind transfinite Kompositionen von
+  Retrakten von Zellenkomplexe wieder Retrakte von Zellenkomplexen. Denn dann
+  ist ja Cof(I), die Klasse der Retrakte von I-Zellenkomplexen, ein schwaches
+  Faktorisierungssystem.
 
 
 === Lokalisierung

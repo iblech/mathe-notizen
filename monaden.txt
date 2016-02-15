@@ -13,6 +13,24 @@ Then monoids are special cases of monads, though this isn't terribly
 interesting.
 
 
+=== Zusammenhang zu Abstiegsdaten (descent data)
+
+http://mathoverflow.net/questions/225391/why-are-monadicity-and-descent-related
+
+
+=== Monaden als kategorifizierte Idempotente
+
+* Ein Idempotenter e möchte in ein Paar e = iota . pi mit pi . iota = id
+  zerfallen.
+
+* Eine Monade M möchte in ein adjungiertes Paar L -| R mit M = R . L zerfallen.
+
+* Die Fixpunkte eines Idempotenten entsprechen der Kategorie der Algebren einer
+  Monade. Oder der Kleisli-Kategorie?
+
+https://qchu.wordpress.com/2015/12/15/monads-are-idempotents/
+
+
 === Monaden aus Adjunktionen
 
 Sei F -| U eine Adjunktion mit F : C --> D und
@@ -110,7 +128,13 @@ er präsentiert Set^op als die Kategorie der vollständigen atomischen boolschen
 Algebren, zumindest in klassischer Logik.
 
 
-=== Nächste Schritte:
+=== Operaden
+
+Monoide in der Kategorie der Spezies sind Operaden.
+https://qchu.wordpress.com/2015/11/05/a-monad-is-just-a-monoid-in-the-category-of-endofunctors-whats-the-problem/
+
+
+=== Nächste Schritte
 
 * Verstehen, wieso die T-Algebren zum Potenzmengenfunktor die sind, die sie sind.
 * Monade für Subsingletonmengen aufschreiben.
