@@ -1297,6 +1297,18 @@ sehr gut lesbar!
   forgetful functor to topological spaces. Details can be found in EGA.
 
 
+=== Konkretisierbarkeit der Kategorie der Schemata
+
+Einfach:
+
+    Sch ---> Set x Set^op ---> Set x Set ---> Set,
+
+vermöge (Punkte des zugrundeliegenden topologischen Raums, Koprodukt der Halme
+der Strukturgarbe), (Id, Potenzmenge), Koprodukt.
+
+http://mathoverflow.net/a/160768/31233
+
+
 === Referenzen
 
 * Hartshorne
