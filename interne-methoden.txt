@@ -990,6 +990,10 @@ O_X gegeben sind, die auf offenen dichten Teilmengen definiert sind.
   zwischen qcoh Moduln wieder qcoh sind. Kokerne haben nicht auf Anhieb
   funktioniert.
 
+  Bilder funktionieren auch nicht so leicht: Dazu wäre das Lemma, dass das
+  Prägarben-Bild schon das Garben-Bild ist, hinreichend. Dieses Lemma ist aber
+  falsch.
+
 * Ich bekomme es nicht hin, zu zeigen, dass das endlich erzeugte Ideal
   (h) von O_X wieder qcoh ist. Es ist dann trivial, wenn h regulär ist, denn
   dann ist (h) isomorph zu O_X; aber das ist ja ein langweiliger Fall. (Oder?)

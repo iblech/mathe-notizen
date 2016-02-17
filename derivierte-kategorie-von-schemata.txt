@@ -359,6 +359,8 @@ komplizierter) zu definieren sind.
   Motto: "Shifts von Wolkenkratzergarben sehen die gesamte derivierte
   Kategorie", http://win.ua.ac.be/~pbelmans/seminar/ss/examples-ag.pdf, Seite 7
 
+  Siehe auch: https://hilbertthm90.wordpress.com/2013/05/05/the-derived-category-4-a-nice-spanning-class/
+
 * Sei X eine projektive Varietät über einem Körper k und L ein amples
   Geradenbündel auf X. Dann bilden die L^i eine ample Folge und somit eine
   aufspannende Klasse in D^b(X).

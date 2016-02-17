@@ -54,3 +54,11 @@ https://ncatlab.org/nlab/show/profinite+completion+of+the+integers
 
 Ab^op ist vermöge Pontryagin-Dualität äquivalent zur Kategorie der kompakten
 topologischen abelschen Gruppen.
+
+
+=== Koszul-Dualität
+
+http://mathoverflow.net/questions/140520/koszul-exterior-symmetric-duality-for-a-1-dim-vector-space
+
+The category of graded representations of A^! is the same as the
+(abelian!) category of linear projective complexes over A.

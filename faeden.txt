@@ -162,7 +162,6 @@
 * http://www-math.sp2mi.univ-poitiers.fr/~sarti/BCNS_Hilb2K3.pdf
 
 
-
 === Hilbertschema
 
 * http://www.northeastern.edu/iloseu/Barbara_14_complete.pdf
@@ -192,9 +191,6 @@
 * X^[n] als Aufblasung.
   http://www-fourier.ujf-grenoble.fr/sites/ifmaquette.ujf-grenoble.fr/files/bertin_rev.pdf
   Nakajima, Seite 5.
-
-* Modell über kommutierende Matrizen.
-  http://mathoverflow.net/questions/13305/hilbert-scheme-of-points-on-a-complex-surface
 
 * Wie wirkt die Heisenberg-Algebra auf Kohomologie? Das könnte interessant
   sein, mit Erzeugungs- und Vernichtungsoperatoren und so.

@@ -292,6 +292,10 @@ http://arxiv.org/abs/1412.6572.
 * Lesenswert:
   http://www.spektrum.de/magazin/die-unscheinbare-schwester-der-goldenen-zahl/824251
 
+* http://math.stackexchange.com/questions/1653979/is-there-any-integral-for-the-golden-ratio
+  
+  int_0^infty sqrt(x)/(x^2+2x+5) dx = pi / (2 sqrt(Phi)).
+
 
 === Qualia
 
@@ -302,3 +306,18 @@ And neither do "you".
 
 // Another night alone for Daniel Dennett.
 // http://smbc-comics.com/index.php?id=3968
+
+
+=== Beispiele für katastrophale Fehler mit Fließkommazahlen
+
+https://perso.ens-lyon.fr/jean-michel.muller/chapitre1.pdf
+
+
+=== Trigonometrische Identitäten
+
+https://qchu.wordpress.com/2009/07/17/imo-2009-and-proof-systems/
+
+* Schreibe t = tan(theta/2). Dann cos(theta) = (1-t^2)/(1+t^2)
+  und sin(theta) = 2t/(1+t^2). So kann man die Verifizierung einer
+  trigonometrischen Identität auf die Verifizierung einer Polynomidentität
+  zurückführen.
