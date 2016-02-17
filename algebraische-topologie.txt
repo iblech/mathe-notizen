@@ -171,6 +171,7 @@ http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf
 * Wieso ist Integrieren ein Algebra-Homomorphismus Omega^*(M) --> C^*(M)?
 * Grundlagen über gemeinsame Verfeinerungen, die Hauptvermutung usw.
   herausfinden. Werden Dächer in der derivierten Kategorie gestiftet?
+  https://www.quantamagazine.org/20150113-a-proof-that-some-spaces-cant-be-cut/
 * Aussagen über die Orientierungsgarbe nachvollziehen.
 
 * On the Cohomology of Impossible Figures.
