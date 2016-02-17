@@ -18,6 +18,9 @@ http://en.wikipedia.org/wiki/Euler_class
 * c_1 : Pic(X) = H^1(X, O_X^*) --> H^2(Z) ist der verbindende Homo in
   der kurzen exakten Sequenz zu 0 --> Z --> O_X --> O_X^* --> 0.
 
+Schöne geometrische Erklärung:
+https://www.quora.com/Algebraic-Geometry/Why-are-there-exactly-27-straight-lines-on-a-smooth-cubic-surface/answer/Jack-Huizenga
+
 
 === Charakteristische Klassen von Schemata
 

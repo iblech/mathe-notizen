@@ -1309,6 +1309,14 @@ der Strukturgarbe), (Id, Potenzmenge), Koprodukt.
 http://mathoverflow.net/a/160768/31233
 
 
+=== 27 Geraden auf jeder glatten kubischen Fläche
+
+https://www.quora.com/Algebraic-Geometry/Why-are-there-exactly-27-straight-lines-on-a-smooth-cubic-surface/answer/Jack-Huizenga
+
+Enthält auch eine schöne geometrische Erklärung zu Schubert-Zellen und zu
+Chern-Klassen.
+
+
 === Referenzen
 
 * Hartshorne
