@@ -317,7 +317,7 @@ Garbe mit Hom(O(i), E[s]) = 0 für alle i = a,...,a+n und alle s. Dann ist E = 0
   Surjektivität bezeugt. Die Injektivität ist mir nicht klar.
 
   Aber: Es ist ja allgemein bekannt, dass K_0(P^n) als abelsche Gruppe isomorph
-  zu Z^(n+1) ist  (die lineare Unabhängigkeit der O(-i) folgt zum Beispiel
+  zu Z^(n+1) ist (die lineare Unabhängigkeit der O(-i) folgt zum Beispiel
   durch Betrachtung der Euler-Form). Also handelt es sich hier um eine lineare
   surjektive Abbildung zwischen freien abelschen Gruppen desselben Rangs. Also
   ist sie schon injektiv. Damit muss auch das angegebene Rechtsinverse schon

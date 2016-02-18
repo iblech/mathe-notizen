@@ -462,6 +462,15 @@ Denke an die Projektionsformel: Rpi_*(Lpi^*(E)) = E tensor^L Rpi_*(O_X).
   für genügend kleine offene Mengen stimmt die Auflösung mit der abgeleiteten
   Kategorie der offenen Menge selbst überein.
 
+* Sei X eine Varietät, die nur rationale Singularitäten besitzt.
+  Das heißt, wenn f : Y --> X eine Auflösung der Singularitäten ist, so gilt
+  Rf_*(O_Y) = O_X. Sei L ein Geradenbündel auf Y. Genau dann ist L der Rückzug
+  eines Geradenbündels auf X, wenn die Einschränkung von L auf alle formalen
+  Fasern von f trivial ist. In diesem Fall gilt außerdem L = f^* f_* L.
+
+  http://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf
+  Seite 542, Lemma 3.2.
+
 Quelle: http://arxiv.org/pdf/1212.6170v1.pdf
 
 

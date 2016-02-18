@@ -142,6 +142,17 @@ Dreiecks der Form X --iso--> Y --> 0 -->.
   Dimension. Sei (L_i)_i eine ample Folge. Dann bilden die L_i in
   D^b(A) eine aufspannende Klasse.
 
+* Die Objekte einer aufspannenden Klasse erzeugen nicht die K-Theorie,
+  zumindest nicht als abelsche Gruppe. Denn im Fall A = Coh(P^1)
+  sind die Wolkenkratzergarben eine aufspannende Klasse. Aber ihre Klassen in
+  K-Theorie sind jeweils 1 - O(-1). Diese einzelne Klasse erzeugt die K-Theorie
+  als abelsche Gruppe nicht (dafür bräuchte man zum Beispiel die zwei Erzeuger
+  1 und O(-1)). Es stimmt aber schon, dass 1 - O(-1) ein Erzeuger der K-Theorie
+  als Z-Algebra ist.
+
+  Nun glaube ich aber, dass Lenny Taelman mal etwas ähnliches gesagt hat.
+  "Genügt, auf Wolkenkratzergarben zu testen" oder so. Hm.
+
 
 === Serre-Funktor
 
@@ -178,6 +189,29 @@ http://arxiv.org/pdf/1212.6170v1.pdf, Seite 11:
 Sei F : C --> D ein triangulierter Funktor. Sei C kovollständig und von einer
 Menge kompakter Objekte erzeugt. Dann hat F genau dann einen
 Rechtsadjungierten, wenn F mit direkten Summen vertauscht.
+
+
+=== Kriterien für Äquivalenzen
+
+* Sei F : A --> B ein volltreuer exakter Funktor zwischen triangulierten
+  Kategorien mit Rechtsadjungierten H : B --> A. Genau dann ist F eine
+  Äquivalenz, wenn Hc = 0 schon c = 0 impliziert, für alle c aus B.
+
+  Sei nämlich ein beliebiges Objekt b in B gegeben. Dann können wir ein
+  ausgezeichnete Dreieck
+
+      c ---> FHb ---> b --->
+
+  betrachten, in dem eps_b : FHb --> b vorkommt. Es ist H(eps_b) ein Iso,
+  denn H(eps_b) . eta_Hb = id. Also ist Hc = 0 und somit c = 0.
+
+  Abstrakter: Wir erhalten die semi-orthogonale Zerlegung B = (Im(F), Ker(H)).
+  Da Ker(H) = 0, folgt B = Im(F).
+
+  http://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf
+  Seite 539
+
+* Außerdem gibt es Kriterien, die aufspannende Klassen involvieren.
 
 
 === Neue Axiome

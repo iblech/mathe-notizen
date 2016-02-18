@@ -226,12 +226,6 @@
   Wird etwa in Huybrechts, Seite 182 behauptet.
 * BGG-Korrespondenz modern verstehen.
 * Was ist die Konormalgarbe im Fall V(xy) <= A^2?
-* Erzeugen die Objekte einer aufspannenden Klasse auch die K-Theorie?
-  Siehe
-  https://hilbertthm90.wordpress.com/2013/05/05/the-derived-category-4-a-nice-spanning-class/
-  für die Definition.
-  Ich glaube, dass Lenny Taelman etwas ähnliches gesagt hat. Genügt, auf
-  Wolkenkratzergarben zu testen oder so.
 
 
 === Interne Methoden

@@ -205,6 +205,10 @@ Sosna schreibt in seiner Doktorarbeit, dass es (immer noch bei beliebigen
 kurzen exakten Sequenzen) genügt, dass X noethersch, ganz, separiert und
 regulär ist.
 
+Schön erklärt ist das in http://d-nb.info/98519670X/34 (Mark Blume, McKay
+correspondence and G-Hilbert schemes) auf Seite 24. Auch mit Blick auf
+G-Äquivarianz.
+
 * K_0(P^1_k) = Z oplus Z mit F |-> (Dimension des generischen Halms, Euler-Char. von F).
 
 * K_0({x}) = K_0(k(x)) = Z.
@@ -298,7 +302,8 @@ In K(X) sind folgende Elemente bezüglich der Multiplikation invertierbar:
 * Die kanonische Z-lineare Abbildung Weil(X) --> K(X), sum a_i Y_i |->
   sum a_i [O_{Y_i}] ist eine Surjektion. Das zeigt man etwa mit
   Kompositionsreihen. Siehe Manin (Lectures on the K-functor in algebraic
-  geometry), Seite 9.
+  geometry), Seite 9. Achtung: Die Bezeichnung "Weil(X)" ist hier irreführend,
+  weil man NICHT fordert, dass die Y_i alle Kodimension 1 haben.
 
 * Seien V, W abgeschlossene Unterschema in allgemeiner Lage.
   Dann gilt: [O_V] * [O_W] = [O_{V cap W}].
@@ -360,7 +365,7 @@ In K(X) sind folgende Elemente bezüglich der Multiplikation invertierbar:
 === Filtrierung nach Trägerkodimension
 
 Sei X regulär und zusammenhängend. Sei K_i(X) von den Klassen von solchen
-Modulgarben erzeugt, deren Träger Kodimension >= i hat.
+Modulgarben erzeugt, deren Träger Kodimension >= i haben.
 
 * K(X) / K_2(X) ist isomorph zu Z oplus Pic(X), vermöge rk & det.
   Die Umkehrung schickt (1,0) auf [O] und (0,L) auf [L]-[O].
