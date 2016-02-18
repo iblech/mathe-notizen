@@ -237,6 +237,10 @@
 
   Kann ich das intern verstehen? Mit der Box-Übersetzungstheorie?
 
+  Klar: Das ist doch nur die Internalisierung von "Wenn phi, dann gilt auch phi
+  in Sh(X), wenn man phi auf die induzierten konstanten Garben beziehen lässt".
+  Aber wo geht da die Geometrizität von phi ein?
+
 * Versuche, das garbentheoretische Quasikohärenzkriterium herzuleiten aus
   der internen Charakterisierung über "F qcoh <==> ex. M lokal konstant: F ~~
   M[S^{-1}]".
