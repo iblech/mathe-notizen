@@ -321,3 +321,8 @@ https://qchu.wordpress.com/2009/07/17/imo-2009-and-proof-systems/
   und sin(theta) = 2t/(1+t^2). So kann man die Verifizierung einer
   trigonometrischen Identität auf die Verifizierung einer Polynomidentität
   zurückführen.
+
+
+=== Klassische Algorithmen, dynamische Programmierung
+
+https://www8.cs.umu.se/kurser/TDBA77/VT06/algorithms/BOOK/BOOK/NODE4.HTM
