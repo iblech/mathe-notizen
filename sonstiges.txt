@@ -326,3 +326,9 @@ https://qchu.wordpress.com/2009/07/17/imo-2009-and-proof-systems/
 === Klassische Algorithmen, dynamische Programmierung
 
 https://www8.cs.umu.se/kurser/TDBA77/VT06/algorithms/BOOK/BOOK/NODE4.HTM
+
+
+=== Komische Konstanten
+
+* Exponenten 145/121 und 19/9 bei Gravitationswellen
+  https://www.youtube.com/watch?v=qYong_D4VUI, etwa Minute 24.

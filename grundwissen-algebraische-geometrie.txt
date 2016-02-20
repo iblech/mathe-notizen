@@ -1030,6 +1030,20 @@ definieren, wobei S(U) = { f | f_x ist kein Nullteiler in allen O_x, x \in U }.
 * Aufblasung
 
 
+=== Quotienten
+
+* Wenn man den Quotient als Spektrum des Invariantenrings konstruiert, so
+  ist C^n / C^* = C. Das ist nicht, was man möchte.
+  http://www.northeastern.edu/iloseu/Barbara_14_complete.pdf, Seite 4.
+
+* Abhile liefert natürlich GIT.
+
+
+=== Flacher Basiswechsel
+
+* http://arxiv.org/pdf/math/0504590.pdf
+
+
 === Nullstellensatz
 
 Sei k algebraisch abgeschlossen und M eine Menge von Polynomen aus

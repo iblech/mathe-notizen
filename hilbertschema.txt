@@ -202,6 +202,17 @@ dass sie surjektiv ist und dass ihr Kern genau I ist.
 
 * Das Modell kann man leicht auf (A^m)^[n] verallgemeinern.
 
+* Das Modell kann man auch als GIT-Quotient interpretieren. So erhält man
+  dann das Hilbertschema mit seiner Schemastruktur. Auch das symmetrische
+  Produkt kann man als GIT-Quotienten realisieren.
+  http://www.northeastern.edu/iloseu/Barbara_14_complete.pdf
+
+
+=== Glattheit
+
+* Schöner grafischer Beweis in
+  http://www.math.brown.edu/~dbejleri/Hilbert%20Schemes%20-%20Grad%20Student%20Seminar.pdf.
+
 
 === Was ist die Rolle des Hilbertschemas im Vergleich zum naiven Quotienten?
 
@@ -334,6 +345,26 @@ http://www.math.kth.se/~skjelnes/Pdffiler/elementaryhilb.pdf
 
   Also ist chi((C^2)^[n]) = Anzahl der Ideale mit Kolänge n, die von Monomen
   erzeugt werden = p(n).
+
+
+=== Kohomologie
+
+* Erzeugungs- und Vernichtungsoperatoren
+
+* In /The cup product of Hilbert schemes for K3 surfaces/ von Lehn und Sorger
+  wird zu Beginn erwähnt, dass es einen Iso folgender Form gibt:
+
+      bigoplus_n H^*(X^[n]; Q) ---> S^*(t^{-1} Q[t^{-1}] tensor H^*(X; Q))
+
+  Ihr Hauptresultat ist eine Verfeinerung davon, nämlich ein Iso graduierter
+  Ringe:
+
+      (H^*(X; Q)[2])^[n] ---> H^*(X^[n]; Q)[2n]
+
+  Kürzer und unpräziser: H^*(X^[n]) = H^*(X)^[n].
+
+* Dieser Artikel wird in http://www.mathematik.uni-mainz.de/Members/lehn/ar/montreal.ps
+  als [27] referenziert.
 
 
 === K-Theorie

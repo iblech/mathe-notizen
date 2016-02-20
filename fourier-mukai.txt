@@ -35,6 +35,13 @@
 
 * im glatten projektiven Fall: die kanonischen und antikanonischen Algebren.
 
+* Man definiert Aut^0(D^b(X)) als diejenige Untergruppe von Aut(D^b(X)),
+  die auf der Kohomologie trivial wirkt (unter Berücksichtigung der
+  Hodge-Struktur). http://www.math.uni-hamburg.de/home/pumperla/LucidiHamburg.pdf
+
+  So erhält man eine kurze exakte Sequenz, in die Aut(D^b(X)) hereinpasst.
+  (Seite 41 dieses Foliensatzes.)
+
 
 === Beispiele für Kerne
 
@@ -60,6 +67,12 @@
 
   Korollar: Serre-Funktoren vertauschen mit Shifts. (Ist evtl. auch nach
   Definition so.)
+
+
+=== String-Notation fürs Rechnen mit Kernen
+
+* The Mukai pairing, I: a categorical approach.
+  http://arxiv.org/pdf/0707.2052.pdf
 
 
 === In der dg-Welt

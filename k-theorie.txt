@@ -408,6 +408,28 @@ Hufeisenlemma.
   symmetrisch mit Vorfaktor (-1)^Dimension, denn auf diesen ist omega ebenfalls
   trivial.
 
+* Wenn es einen Serre-Funktor S gibt, so gilt
+
+      (E, F) = (F, S(E)).
+
+  Ist speziell S(E) = E tensor omega[n], so gilt
+
+      (E, F) = (-1)^n (F, E tensor omega).
+
+  (Ableiten des Tensorprodukts nicht vergessen.)
+
+  Noch spezieller gilt für Wolkenkratzergarben:
+
+      (k(x), F) = (-1)^n (F, k(x)).
+
+* The Mukai pairing, I: a categorical approach.
+  http://arxiv.org/pdf/0707.2052.pdf
+
+* Wenn man den Kern der Euler-Form herausteilt, erhält man die "numerische
+  Grothendieck-Gruppe". Die ist angeblich laut Riemann--Roch immer von
+  endlichem Rang. (Fourier-Mukai and Nahm Transforms in Geometry and
+  Mathematical Physics, Seite 367.)
+
 
 === Erzeuger der triangulierten Kategorie
 
@@ -552,6 +574,51 @@ Kategorie QE und QE sieht so aus: die Objekte sind die von E, aber Morphismen X
 * Motivische Spektralsequenz: E_2^pq = H^{p-q}_mot(X, Z(-q)) ==> K_{-p-q}(X).
 
 Quelle: Marco Schlichting, Higher Algebraic K-Theory.
+
+
+=== Endliche Präsentierung der K-Theorie
+
+* Oft ist die K-Theorie als abelsche Gruppe endlich erzeugt. In klassischer
+  Logik also auch endlich präsentiert. Natürlich machen sich daher Leute nicht
+  unbedingt Mühe, endliche Präsentiertheit zu zeigen.
+
+* Sei auf einer abelschen Gruppe A eine Bilinearform A x A --> Z gegeben.
+  Seien Erzeuger e_1, ..., e_n von A gegeben. Sei M die Darstellungsmatrix von (__,__).
+  Wenn M regulär ist, so sind die e_i schon linear unabhängig:
+
+  Gelte sum_i alpha_i e_i = 0. Dann e_j^T M (alpha_i)_i = 0 für alle j.
+  Also M (alpha_i)_i = 0. Somit (alpha_i)_i = 0.
+
+* Sei auf einer abelschen Gruppe A eine nicht-entartete Bilinearform A x A --> Z
+  gegeben, in dem Sinn, dass (x,y) = 0 für alle y schon x = 0 impliziert.
+
+  Seien Erzeuger e_1, ..., e_n von A gegeben. Sei M die Darstellungsmatrix von (__,__),
+  also M_ij = (e_i,e_j).
+
+  Sei v^T M = 0. Dann kann man daraus eine Relation zwischen den e_i ableiten:
+  Es ist sum_i v_i e_i = 0, denn (sum_i v_i e_i, e_j) = sum_i v_i M_ij = (v^T M)_j = 0
+  für alle j.
+
+  Genauer gilt:
+
+      { v | v^T M = 0 } = { v | sum_i v_i e_i = 0 }.
+
+  Kennt man also Erzeuger des Linkskerns von M, so kennt man Erzeuger des
+  Relationenmoduls von A!
+
+* Sei auf einer abelschen Gruppe A eine Bilinearform A x A --> Z gegeben.
+  Sei diese symmetrisch oder schiefsymmetrisch. Dann steigt sie nämlich auf A/U ab,
+  wobei
+
+      U = { x | (x, y) = 0 für alle y }.
+
+  Auf A/U ist sie dann im obigen Sinn nicht-entartet. Somit kann man aus
+  Erzeugern von A dann eine endliche Präsentation von A/U konstruieren.
+
+* Insbesondere kann ich somit eine Präsentation der numerischen
+  Grothendieck-Gruppe einer K3-Fläche (oder sonst eines Schemas mit
+  Serre-Funktor durch Tensorieren und trivialem kanonischen Bündel) berechnen,
+  wenn ich nur Erzeuger der Gruppe kenne.
 
 
 === Nächste Schritte

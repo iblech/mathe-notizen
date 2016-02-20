@@ -4,6 +4,8 @@
 
 * http://www.math.purdue.edu/~lipman/Duality.pdf
 
+* Stabilitätsbedingungen: http://www.math.utah.edu/dc/dc-lecture-notes.pdf
+
 
 === 1- und 2-kategorielle Formulierungen der Lokalisierung
  
