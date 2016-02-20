@@ -332,3 +332,8 @@ https://www8.cs.umu.se/kurser/TDBA77/VT06/algorithms/BOOK/BOOK/NODE4.HTM
 
 * Exponenten 145/121 und 19/9 bei Gravitationswellen
   https://www.youtube.com/watch?v=qYong_D4VUI, etwa Minute 24.
+
+
+=== Falsche Beweise
+
+* http://math.stackexchange.com/questions/1662509/cant-find-the-flaw-in-the-reasoning-for-this-proof-by-induction

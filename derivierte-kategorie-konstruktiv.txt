@@ -19,6 +19,32 @@
   Siehe Hilton/Stammbach, Thm. IV.10.1, Seite 157.
 
 
+=== Möglichkeiten zur Definition abgeleiteter Funktoren
+
+* Delignes Definition (nach
+  https://webusers.imj-prg.fr/~bernhard.keller/ictp2006/lecturenotes/keller.pdf) ist:
+
+  Sei F : A --> B ein additiver Funktor. Dann definieren wir für X in D(A)
+  eine Prägarbe H : D(B)^op --> Ab, die ein Objekt L in D(B)^op auf die "Menge"
+  der Äquivalenzklassen von "Links-F-Brüchen" schickt, also Diagrammen der Form
+
+          FX'  X'
+         ^      ^
+      f /        \ s
+       /          \
+      L            X
+
+  mit s ein Quasiisomorphismus und f in D(B).
+
+
+=== Äquivalenz zur derivierten Kategorie von Köchern
+
+In Coh(P^1) gibt es ja keine projektiven Objekte (bis aufs Nullobjekt).
+Aber D^b(Coh(P^1)) ist äquivalent zu D^b(mod-k[* ==> *]). Und in der abelschen
+Kategorie der Darstellungen dieses Köchers gibt es durchaus nichttriviale
+Projektive. Außerdem hat in ihr jedes Objekt endlich Länge.
+
+
 === Dynamische Theorie von Ext-Funktoren
 
 Desiderata:

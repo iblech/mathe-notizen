@@ -408,6 +408,11 @@ Aber es stimmt nicht, dass die Kategorie D^b(C) äquivalent zur unendlichen
 direkten Summe von C's ist -- das ist genau dann der Fall, wenn C halbeinfach
 ist, d.h. wenn schon alle Ext^i mit i >= 1 verschwinden.
 
+[ In /A Computer Algebra Approach to sheaves over Weighted Projective
+Lines/ wird behauptet, dass D^b(C) äquivalent ist zur vollen Unterkategorie
+add bigcup_n C[n], also zur kleinsten additiven Unterkategorie von D^b(C),
+welche alle C[n] umfasst. Update: Jup, das ist ja dieselbe Aussage. ]
+
 Bem.: Gelfand-Manin diskutiert das "genau dann" nur für die volle (statt
 beschränkte) derivierte Kategorie. Sollte aber trotzdem stimmen.
 
@@ -682,6 +687,9 @@ Das stimmt zumindest, wenn C = D^b(X) für eine glatte projektive Varietät X.
 * Das steht in Bondal, Representation of associative algebras and coherent
   sheaves, Thm. 6.2.
   http://iopscience.iop.org/0025-5726/34/1/A02/pdf/0025-5726_34_1_A02.pdf
+
+* Auch https://webusers.imj-prg.fr/~bernhard.keller/ictp2006/lecturenotes/lenzing1.pdf
+  ist eine gute Referenz.
 
 
 === Inwieweit bestimmen exzeptionelle Sequenzen die Kategorie?

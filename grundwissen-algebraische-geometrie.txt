@@ -1291,7 +1291,10 @@ sehr gut lesbar!
   Seien X und Y nüchterne topologische Räume. Sei X sogar lokal kompakt.
   Dann ist O(X x Y) = O(X) x O(Y).
 
-* http://math.stackexchange.com/a/294754/61604
+* Verschiedenes: http://math.stackexchange.com/a/294754/61604
+
+* Beispiel für einen Koequalizer von Schemata, der nicht surjektiv ist:
+  http://mathoverflow.net/questions/63/can-a-coequalizer-of-schemes-fail-to-be-surjective/60477#60477
 
 
 === Noethersche Approximation

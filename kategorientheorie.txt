@@ -701,12 +701,37 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
   verstehen
 
 
+=== Krull--Schmidt-Kategorien
+
+* Eine additive Kategorie heißt genau dann Krull--Schmidt-Kategorie, wenn
+  der Endomorphismenring eines jeden unzerlegbaren Objekts ein lokaler Ring ist
+  und jedes Objekt endliche direkte Summe unzerlegbarer Objekte ist.
+
+* Das Krull--Schmidt-Theorem besagt: Die Zerlegung in unzerlegbare Objekte ist
+  eindeutig bis auf Reihenfolge und Isomorphie.
+
+* Beispiele sind abelsche Kategorien, in denen jedes Objekt endliche Länge hat,
+  wie zum Beispiel Kategorien von endlich-dimensionalen Moduln über einer
+  Algebra.
+
+* Außerdem die Kategorie kohärenter Garben auf einer vollständigen Varietät
+  über einem algebraisch abgeschlossenen Körper.
+
+* Ein Gegenbeispiel ist die Kategorie der endlich erzeugten projektiven
+  Z-Moduln.
+
+* Einer Krull--Schmidt-Kategorie kann man ihren Auslander--Reiten-Köcher
+  zuordnen.
+
+
 === Nichtäquivalente Kategorien
 
 * Coh(X), für eine vollständige Varietät über einem algebraisch abgeschlossenen
-  Körper, ist immer eine Krull--Schmidt-Kategorie.
+  Körper, ist immer eine Krull--Schmidt-Kategorie. Allgemeiner sind es kleine
+  Hom-endliche abelsche Kategorien.
   http://en.wikipedia.org/wiki/Krull%E2%80%93Schmidt_category
   http://arxiv.org/abs/1410.2822 (Henning Krause)
+  https://webusers.imj-prg.fr/~bernhard.keller/ictp2006/lecturenotes/lenzing1.pdf
 
   Coh(k[X]) ist es dagegen nicht: Das Objekt k[X] ist darin irreduzibel, sein
   Endomorphismenring ist aber nicht lokal. Die Irreduzibilität kann man so

@@ -430,6 +430,15 @@ Hufeisenlemma.
   endlichem Rang. (Fourier-Mukai and Nahm Transforms in Geometry and
   Mathematical Physics, Seite 367.)
 
+  Klar ist zumindest: Wenn die numerische Grothendieck-Gruppe endlich erzeugt
+  ist, so ist sie frei von endlichem Rang. Denn in jedem Fall ist sie
+  torsionsfrei: Sei n [x] = 0. Dann ist (nx,y) = 0 für alle y. Also (x,y) = 0
+  für alle y. Somit [x] = 0.
+
+  Wenn die Euler-Form selbst schon nicht-entartet ist (im unten beschriebenen
+  Sinn), so folgt auch schon für die gewöhnliche Grothendieck-Gruppe
+  Torsionsfreiheit.
+
 
 === Erzeuger der triangulierten Kategorie
 
@@ -507,6 +516,13 @@ Hauptdiagonale.
 
 * Wie funktioniert das für allgemeine semi-orthogonale Zerlegungen?
   Antwort steht in http://arxiv.org/pdf/1212.6170v1.pdf, Seite 8.
+
+* Übrigens: Unter gewissen Bedingungen impliziert die Existenz eines
+  Tilting-Objekts die Freiheit der K-Theorie. (Basiselemente sind dann die
+  Klassen der Summanden in einer Zerlegung des Tilting-Objekts in unzerlegbare
+  Objekte.)
+  https://webusers.imj-prg.fr/~bernhard.keller/ictp2006/lecturenotes/lenzing2.pdf,
+  Seite 13.
 
 
 === Hall-Algebra

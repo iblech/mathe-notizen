@@ -5,6 +5,20 @@ o-x-modules-wh
 projektiv in QCoh(X) impliziert nicht projektiv in Mod(O_X)
 
 
+=== Hereditäre abelsche Kategorien
+
+* Eine abelsche Kategorie A heißt genau dann hereditär, wenn alle Ext^{>=2}
+  verschwinden.
+
+* Sei A eine hereditäre abelsche Kategorie und lambda : K_0(A) --> Z eine
+  lineare Abbildung. Dann ist die Unterkategorie B derjenigen X mit
+
+      lambda(X) = 0  und  lambda(X') <= 0 für alle Unterobjekte X' von X
+
+  abgeschlossen unter Kernen, Kokernen, direkten Summen und Erweiterungen.
+  Ext^1'e werden in ihr genauso berechnet wie in A.
+
+
 === Aufsteigende und absteigende Kettenbedingung
 
 * Sei X ein Objekt in einer abelschen Kategorie A. Dann gilt
