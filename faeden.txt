@@ -345,3 +345,5 @@
 
 * http://arxiv.org/abs/1503.04348
   The reals as rational Cauchy filters
+
+* Ist in der Masterarbeit die Möglichkeit des Zorn-Verzichts dokumentiert?

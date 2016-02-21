@@ -440,6 +440,11 @@ Beispiele:
   euklidischen Räumen.
 
 
+=== Gleichheit von Beweisen
+
+Von Peter Arndt empfohlen: Lambek.
+
+
 === Nächste Schritte
 
 * Für den Rückzug mit f^* statt f^(-1) auf Spec k(x)

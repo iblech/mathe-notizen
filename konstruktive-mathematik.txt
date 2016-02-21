@@ -153,6 +153,10 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
 
   Der so definierte Prozess hält. Also gibt es i < j mit J_i = J_j. Also hält J.
 
+* Die alte komische Prozessbedingung wird von der neuen guten impliziert.
+  Aber umgekehrt nicht. Komisches Halten aller komischen Prozesse impliziert
+  nicht richtiges Halten aller richtigen Prozesse.
+
 * Man könnte sich bei Richmans und der neuen Prozessdefinition fragen:
   Ist es nicht komisch, dass man nur fordert, dass *irgendein* Ablauf hält?
   Sollte man das nicht für Abläufe tun?
@@ -166,3 +170,25 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
   Abläufe eines Algorithmus durchgehen? Natürlich nicht. Er beschränkt sich auf
   irgendeinen. Dieser muss ja ebenfalls halten. Hat wohl damit etwas zu tun,
   dass "im Computer das abhängige Auswahlaxiom gilt".
+
+* Ist X ein lokal noethersches Schema, so ist O_X kohärent. Denn:
+
+  1. Klassisch folgt aus Noetherianität Kohärenz.
+  2. Ist M kohärent, so auch M~.
+
+  Als Korollar hat man auf lokal noetherschen Schemata: Endlich erzeugte
+  Untermoduln von O_X sind schon quasikohärent. Denn da O_X kohärent ist, sind
+  endlich erzeugte Untermoduln von O_X schon endlich präsentiert. Und endlich
+  präsentierte Moduln sind quasikohärent. (Hier geht der einfache Fakt ein,
+  dass endlich erzeugte Untermoduln von kohärenten Moduln kohärent sind.)
+
+* "Witzig": O_X erfüllt genau dann eine "schlechte Noetherianitätsbedingung",
+  wnn es eine "gute Noetherianitätsbedingung" erfüllt. Denn man hat Äquivalenz
+  zur klassischen Welt und dort sind alle Bedingungen gleich.
+
+  Intern hat man auch: Ist O_X noethersch, so ist O_X kohärent. Obwohl diese
+  Folgerung konstruktiv nicht zulässig ist.
+
+  Was gilt in einer konstruktiven Meta-Theorie? Vielleicht sowas: Ist A
+  kohärent und noethersch so ist O_{Spec A} kohärent und noethersch. Wobei der
+  Verzicht auf Kohärenz jeweils nicht möglich ist.
