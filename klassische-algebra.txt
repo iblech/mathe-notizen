@@ -29,6 +29,12 @@ beliebig. Dann gilt:
     also gh = v^n u v^m w = v^n v^m uw = v^m v^n uw = v^m w v^n u = hg.
 
 
+=== Der Fixpunktsatz für p-Gruppen
+
+https://qchu.wordpress.com/2013/07/09/the-p-group-fixed-point-theorem/
+mit erstaunlichen Korollaren
+
+
 === Kreisteilungspolynome
 
 For the factorization of xn−1, the first n where an irreducible factor has a

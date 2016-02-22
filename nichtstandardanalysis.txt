@@ -9,6 +9,9 @@
 * Taos cheap nonstandard analysis.
   http://terrytao.wordpress.com/2012/04/02/a-cheap-version-of-nonstandard-analysis/
 
+  Natural infinitesimals in filter-powers.
+  http://angg.twu.net/LATEX/2008filterp.pdf
+
 * Alte Grundlagen:
   Eine Erweiterung der Infinitesimalrechnung.
   Laugwitz, Schmieden.

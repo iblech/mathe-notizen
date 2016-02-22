@@ -216,6 +216,13 @@ schon gilt.
 23:52.)
 
 
+=== Intuitionistische Logik für Kinder
+
+Eduardo Ochs
+http://angg.twu.net/math-b.html#zhas-for-children
+http://angg.twu.net/dednat6/tests/4.pdf
+
+
 === Literatur
 
 * The Age of Alternative Logics.

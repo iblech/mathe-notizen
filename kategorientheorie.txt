@@ -326,6 +326,17 @@ Ferner gilt:
 
 * eps heißt auch Koeins, eta heißt Eins.
 
+* Sei (f -| g) : N --> N eine Galois-Verbindung, also
+
+      f(x) <= y  <==>  x <= g(y)
+
+  für alle x, y aus N. Dann zerlegt sich N disjunkt in
+
+      { f(x) + x | x aus N }  und  { g(y) + y + 1 | y aus N }.
+
+  Umgekehrt ist jede Zerlegung von N von dieser Art.
+  http://www.math.mcgill.ca/barr/lambek/pdffiles/galois.pdf
+
 
 === Isomorphismen unter Bijektionen von Hom-Mengen
 
