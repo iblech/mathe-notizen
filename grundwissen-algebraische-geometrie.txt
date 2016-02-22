@@ -1188,6 +1188,18 @@ sehr gut lesbar!
   im Falle lokal endlicher Präsentation aber stets das selbe ist wie die
   üblichen Begriffe glat/unverzweigt/étale..."
 
+* Interessante Aussagen in Form von Übungsaufgaben zu étalen Abbildungen
+  stehen in http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex2.pdf.
+
+* Sh(Sch/{X,ét}) = Sh(Sch/{X,sm}). Kann man daraus Konsequenzen ziehen?
+  Also die interne Sprache auf zwei Weisen präsentieren.
+  http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex3.pdf
+
+
+=== Zeta-Funktion und Weil-Vermutungen
+
+http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
+
 
 === Punktefunktoransatz
 

@@ -266,6 +266,8 @@
 
 === Sonstiges
 
+* http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex3.pdf
+  und weitere Übungsblätter sichten
 * Projekt mit Meru
 * http://sbseminar.wordpress.com/2007/10/30/theme-and-variations-schroeder-bernstein/
   Injektion von Z*Z*Z in Z*Z
