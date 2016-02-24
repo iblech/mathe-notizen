@@ -428,7 +428,8 @@ darauf gestoßen.
 
 * Spec : CRing^op --> Sch ist der Rechtsadjungierte zu
   Gamma : Sch --> CRing^op. Folglich schickt Spec Kolimiten in Ringen
-  auf Limiten in Schemata.
+  auf Limiten in Schemata. Und Gamma schickt Kolimiten in Schemata auf Limiten
+  in Ringen.
 
 * Ein Beispiel für ein Kolimes, der in der Kategorie der Schemata
   nicht existiert: Der Kodifferenzkern von Spec k(t) --> A^1 amalg A^1.
@@ -1344,6 +1345,17 @@ https://www.quora.com/Algebraic-Geometry/Why-are-there-exactly-27-straight-lines
 
 Enthält auch eine schöne geometrische Erklärung zu Schubert-Zellen und zu
 Chern-Klassen.
+
+
+=== Normalisierung
+
+* https://qchu.wordpress.com/2012/11/02/zsqrt-3-is-the-eisenstein-integers-glued-together-at-two-points/
+  Spec Z[sqrt(-3)] als Kodifferenzkern zweier Morphismen Spec F_4 --> Spec Z[omega]
+  in der Kategorie der affinen Schemata
+
+* Ein Schema, das "zu nicht-separiert" ist, um zu existieren: die Verklebung
+  von A^1 und A^1 an den generischen Punkten.
+  http://mathoverflow.net/questions/9961/colimits-of-schemes
 
 
 === Referenzen
