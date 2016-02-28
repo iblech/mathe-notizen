@@ -8,9 +8,40 @@
   Hom_Span(A)(C_0, C_0), also dasselbe wie eine Monade in Span(A).
 
 
+=== Flache Funktoren
+
+https://ncatlab.org/nlab/show/flat+functor
+
+* Ein Funktor F : C --> Set heißt genau dann flach, wenn el(C)^op eine
+  filtrierte Kategore ist.
+
+* Ein Funktor F : C --> E in einen kovollständigen Topos heißt genau dann
+  flach, wenn er aus Sicht von E ein flacher mengenwertiger Funktor ist.
+
+* Sei C klein. Ein Funktor F : C --> Set ist genau dann flach, wenn
+  seine Yoneda-Erweiterung C^ --> Set endliche Limiten bewahrt.
+
+* Satz von Diaconescu: Geometrische Morphismen E --> PSh(C) stehen in
+  Eins-zu-Eins-Korrespondenz zu flachen Funktoren C --> E. Die Korrespondenz
+  schickt f : E --> PSh(C) auf C --> PSh(C) --f^*--> E.
+
+
 === Zweiseitige Ideale von Morphismen ...
 
 ... sind dasselbe wie Unterfunktoren von Hom.
+
+
+=== Endomorphismen von Vergissfunktoren
+
+* Sei U : Alg(A) --> Set der Vergissfunktor. Dann ist End(U) = A[X].
+
+* Aber im Fall U : Top --> Set gilt nur End(U) = { id }. Die Kategorie Top
+  besitzt also viel weniger "algebraische Operationen" als Alg(A).
+
+* Interessanter wird es wieder im Fall CHaus.
+  https://qchu.wordpress.com/2013/06/09/operations-and-lawvere-theories/
+
+* Im Fall U = FinGrp ist End(U) = Z^ (die proendliche Vervollständigung von Z).
 
 
 === Angereicherte Kategorien

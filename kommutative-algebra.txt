@@ -291,6 +291,10 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 
 === Polynomringe
 
+* Der Polynomring A[X] ist der Ring der natürlichen Trafos U ==> U,
+  wobei U : Alg(A) --> Set der Vergissfunktor ist. Dabei wird ein Polynom f
+  auf die Trafo (x in R |-> f(x))_R und eine Trafo eta auf eta_{A[X]}(X) geschickt.
+
 * Sei A ein Ring. Sei A[X] ein bézoutscher Ring (endlich erzeugte Ideale
   sind Hauptideale). Dann hat A folgende Eigenschaft: Aus regulär folgt
   invertierbar.
@@ -1775,6 +1779,17 @@ Hom-Menge wieder ein Modul.
   ist q zu a assoziiert. Ist nun p' irgendein assoziiertes Primideal zu a
   mit p >= p', so folgt wieder wegen der Minimalität p = p'. Also ist p sogar
   isoliert.
+
+* Ein Ideal, das nicht primär ist, aber die abgeschwächte Definition
+
+      1 \not\in q und
+      xy in q ==> x in sqrt(q) oder y in sqrt(q)
+
+  erfüllt, ist q := (x^2, xy) in K[x,y]. Es ist nicht primär, denn das Element xy
+  liegt in q, aber x liegt nicht in q und y liegt nicht in sqrt(q). Es erfüllt
+  aber die schwächere Definition. Denn ist fg ein Element von q, so ist fg ein
+  Vielfaches von x, also ist f ein Vielfaches von x oder g; im ersten Fall ist
+  f^2 in q, im zweiten g^2.
 
 
 === Satz von Artin--Schreier

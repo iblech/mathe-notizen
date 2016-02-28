@@ -1,4 +1,4 @@
-=== Schröder-Bernstein
+=== Schröder--Bernstein
 
 ... ist für topologische Räume falsch: [0,1] und (0,1) lassen sich gegenseitig
 stetig injektiv einbetten, sind aber nicht homöomorph.
@@ -305,6 +305,14 @@ enthalten ist.
 
 ... ist homöomorph zu N^N, vermöge unendlicher Kettenbrüche.
 https://topologicalmusings.wordpress.com/2008/08/04/continued-fraction-for-e/
+
+
+=== Kompakt erzeugte Räume
+
+A topological space is the directed colimit of its compact subspaces if and
+only if it is compactly generated. In particular, locally compact spaces have
+this property.
+https://qchu.wordpress.com/2013/06/23/operations-pro-objects-and-grothendiecks-galois-theory/
 
 
 === Literatur
