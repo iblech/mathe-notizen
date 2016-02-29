@@ -1707,6 +1707,12 @@ Sei R nicht unbedingt kommutativ.
 * Lokalisieren an S = 1 + m ist dasselbe wie Lokalisieren an T = A \ m,
   wenn m ein maximales Ideal ist. Denn S <= T und T <= Sat(S).
 
+* Die m-adische Vervollständigung ist lokal, wenn m ein maximales Ideal ist.
+
+  Allgemeiner: Die a-adische Vervollständigung eines Rings ist genau dann
+  lokal, wenn A/a lokal ist.
+  http://math.stackexchange.com/questions/263468/completion-of-a-polynomial-ring-w-r-t-a-maximal-ideal
+
 * Die m-adische Vervollständigung von C^infty(R), wobei m = { f | f(0) = 0 },
   ist der formale Potenzreihenring R[[X]]. Zum Beweis benötigt man nur
   Hadamards Lemma.

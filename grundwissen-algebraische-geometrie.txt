@@ -1011,6 +1011,10 @@ definieren, wobei S(U) = { f | f_x ist kein Nullteiler in allen O_x, x \in U }.
   Dimensionsbedingung diskret (jedes D(f) hat ein offenes Komplement). Ein
   Raum, der lokal diskret ist, ist es auch global.
 
+* Angeblich: Spec(A) ist genau dann diskret, wenn A artinsch ist. In diesem Fall
+  ist Spec(A) sogar endlich.
+  http://www.math.cmu.edu/users/jcumming/teaching/commalg05/homeworks/commalg05_final.pdf
+
 
 === Motivation für Schemata
 
