@@ -475,6 +475,9 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 * Stets gilt sqrt(0 : a) <= sqrt(0) : a. Die andere Richtung gilt im
   Allgemeinen nicht.
 
+* Die Menge der Nullteiler eines Rings ist stets die Vereinigung all
+  derjenigen Primideale, die nur aus Nullteilern bestehen. (B2, A5)
+
 * Minimale Primideale bestehen stets nur aus Nullteilern.
 
   Denn: Sei p ein minimales Primideal. Dann besitzt A_p nur ein einziges
