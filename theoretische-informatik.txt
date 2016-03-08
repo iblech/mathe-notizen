@@ -122,3 +122,24 @@ expressed in our system.
   Dann gilt für alle y in Y:
 
       (forall x. phi(x) <= y ==> phi(f(x)) <= y)  ===>  phi(mu(f)) <= y.
+
+
+=== Komplexität der Schrödinger-Gleichung
+
+http://arxiv.org/abs/1403.7686
+
+
+=== Morphismenzoo
+
+* Catamorphismus: eindeutiger Morphismus aus einer initialen Algebra heraus.
+  mu(F) --> A
+
+* Anamorphismus: eindeutiger Morphismus in eine finale Koalgebra hinein.
+  A --> mu(F)
+
+* Sei psi : A --> FA eine Koalgebra und phi : FB --> B eine Algebra. Dann
+  ist hylo(phi, psi) = cata(phi) . ana(psi) : A --> B.
+
+* Dann gibt es Histomorphismen und als aufgepimpte Version Dynamorphismen.
+  Mit letzteren fängt man das Muster der dynamischen Programmierung ein.
+  http://kodu.ut.ee/~eugene/jkmpc06.pdf

@@ -1,0 +1,35 @@
+=== Literatur
+
+* https://www.tu-braunschweig.de/Medien-DB/iti/survey_full.pdf
+
+
+=== Dualität
+
+Seite 7 von Adámek/Milius:
+
+algebra for a functor                      coalgebra for a functor
+initial algebra                            terminal coalgebra
+least fixed point                          greatest fixed point
+congruence relation                        bisimulation equivalence relation
+equational logic                           modal logic
+recursion: map out of an initial algebra   corecursion: map into a terminal coalgebra
+Foundation Axiom                           Anti-Foundation Axiom
+iterative conception of set                coiterative conception of set
+set with operations                        set with transitions and observations
+useful in syntax                           useful in semantics
+bottom-up                                  top-down
+
+
+=== Analytische Funktor
+
+Ein analytischer Funktor ist einer von der Form
+
+    X |--> endliches Koprodukt über X^k/G,
+
+wobei k irgendwelche natürliche Zahlen und G irgendwelche Untergruppen der
+jeweiligen S_k durchläuft.
+
+* Der (kovariante) Potenzmengenfunktor (auch nicht P_fin) ist nicht analytisch,
+  der Multimengenfunktor aber schon.
+
+* Analytische Funktoren auf Set haben stets initiale Algebren.

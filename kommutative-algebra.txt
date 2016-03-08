@@ -971,6 +971,10 @@ Sei M eine quadratische Matrix über einem Ring.
   Insbesondere sind also die Quotientenkörper von Ganzheitsringen von endlichen
   Erweiterungen K von Q wieder gleich K.
 
+* Sei A ein Integritätsbereich. Sei A <= B <= A-quer (ganzer Abschluss von A).
+  Sei B ganz abgeschlossen (absolut oder in A-quer, das ist äquivalent, da
+  Quot(B) = Quot(A-quer)). Dann ist schon A-quer = B.
+
 
 === Torsion
 

@@ -10,6 +10,12 @@ http://arxiv.org/abs/1209.0540
   trianguliert, mit dem Inversen des Shift-Funktors als neuen Shift-Funktor.
 
 
+=== Minimale Axiome
+
+Vielleicht muss man von einer triangulierten Kategorie gar nicht fordern, dass
+sie additiv ist. Denn direkte Summen kann man ja auch als Kegel konstruieren.
+
+
 === Das Böse
 
 * Sei C eine Kategorie mit einer Autoäquivalenz. Dann ist C äquivalent

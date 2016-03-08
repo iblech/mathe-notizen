@@ -591,8 +591,14 @@ extern der Menge der offenen Teilmengen von X:
   Sei a,b <= i. Dann a+b <= i. Dann (a+b)# <= i. Gut!
   Garbifizierung ist doch auch ein Linksadjungierter!
 
+  Update: Verwechsle nicht die Quasikohärentierung von Moduln mit der von
+  Idealen.
+
 * Analog könnte man Rad_qcoh(A) und so Spec_int(A) definieren.
   Erfüllt das die richtigen Eigenschaften?
+
+* RelSpec(A|O_X) ist die Unterörtlichkeit von Spec(A), wo
+  Spec(A) --> (pt,O_X) lokal ist.
 
 * Für das so definierte interne Spektrum gilt:
 
@@ -615,6 +621,18 @@ extern der Menge der offenen Teilmengen von X:
 
   Da ([h] inv. <==> h inv. vee f inv.), spielt es keine Rolle, ob hier "x inv."
   in O_X/(f) oder in O_X gelesen wird.
+
+* Rad_pcoh(O_X/sqrt(0)) ~~ Rad_pcoh(O_X). Genauer gibt es einen Iso
+  Rad(O_X/sqrt(0)) ~~ Rad(O_X), der Pseudokohärenz (über O_X) reflektiert und
+  bewahrt. Der Iso ist der Offensichtliche:
+
+      J |---> pi^(-1)[J]
+      sqrt(([x] | x in I)) <---| I
+
+  Somit ist RelSpec(O_X/sqrt(0) | O_X) topologisch nur der Punkt. So soll's ja
+  auch sein.
+
+  Ist O_X/sqrt(0) auch quasikohärent, wenn O_X es ist?
 
 * Das pseudokohärente Spektrum ist im Allgemeinen nicht kompakt. Es ist
   auch Spec_X(A) --> X im Allgemeinen nicht topologisch eigentlich. Das
