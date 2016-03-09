@@ -1,3 +1,8 @@
 === Hackenbush
 
-http://www.geometer.org/mathcircles/hackenbush.pdf
+* http://www.geometer.org/mathcircles/hackenbush.pdf
+
+
+=== Chomp
+
+* http://www.sas.upenn.edu/~htowsner/Chomp.pdf

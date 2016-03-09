@@ -1,0 +1,27 @@
+=== Gradientbestimmung
+
+Sei J(x) = f(x,y), wobei y durch g(x,y) = 0 eindeutig bestimmt ist. Wir wollen
+das Differential von J bestimmen. Dabei sind f : V x W --> R und g : V x W --> Z
+stetig differenzierbare Abbildungen zwischen Banachräumen.
+
+* Sei D_y g(x,y) : W --> Z bijektiv für alle (x,y) mit g(x,y) = 0.
+  Dann liefert das IFT, dass es eine stetig differenzierbare Abbildung h : V --> W
+  mit g(x,h(x)) = 0 für alle x aus V gibt. (Das IFT liefert lokale
+  Umkehrfunktionen, die mit der globalen mengentheoretischen übereinstimmen
+  müssen.)
+
+  Dabei gilt Dh(x) = -(D_y g(x,y))^(-1) . D_x g(x,y), wobei wir y := h(x)
+  schreiben.
+
+  Das Differential ist somit DJ(x) = D_x f(x,y) - D_y f(x,y) (D_y g(x,y))^(-1) D_x g(x,y).
+
+* Das Lagrange-Kalkül liefert folgende Berechnungsmethode.
+
+  Das Differential ist DJ(x) = D_x f(x,y) + lambda . D_x g(x,y), wobei lambda
+  aus der Gleichung D_y f(x,y) + lambda . D_y g(x,y) = 0 bestimmt ist.
+
+Offensichtlich liefern beide Methoden dasselbe Ergebnis.
+
+Zu bemerken ist, dass die Surjektivität von Dg *nicht* ausreicht, um die
+Existenz von lambda in beliebigen Punkten (im Gegensatz zu Optimalpunkten) zu
+sichern. Dazu benötigt man schon die Invertierbarkeit von D_y g.

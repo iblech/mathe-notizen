@@ -1,0 +1,14 @@
+=== Räume stetiger Funktionen
+
+* Wikipedia (/Banachraum/) sagt: Genau dann sind C^0(K) und C^0(L) zueinander
+  isomorph, wenn K und L zueinander homöomorph sind. Dabei müssen K und L
+  kompakte Hausdorffräume sein. Es stimmt nicht mehr, wenn sie es nicht sind.
+
+  Stimmt das? Das Theorem von Milutin scheint dem zu widersprechen.
+
+
+=== Isomorphie zwischen unendlichdimensionalen Banachräumen
+
+C^1 ~~ C^0 x R^n, vermöge f |--> (f', f(0)).
+
+Genauso mit H^1 und H^0 = L^2.
