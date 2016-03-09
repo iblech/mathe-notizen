@@ -1798,6 +1798,12 @@ Sei O_X kohärent. Dann kann EXT intern als Ext verstanden werden.
   Points in the fppf topology
 
 
+=== Étale Morphismen
+
+* Wie hängen étale Morphismen von Schemata mit étalen geometrischen Morphismen
+  von Topoi zusammen?
+
+
 === Relevante MO-Fragen
 
 * http://mathoverflow.net/questions/2314/several-topos-theory-questions
