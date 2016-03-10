@@ -12,3 +12,13 @@
 C^1 ~~ C^0 x R^n, vermöge f |--> (f', f(0)).
 
 Genauso mit H^1 und H^0 = L^2.
+
+Philipp: "Von daher ist es also sehr anschaulich, dass C^1 und C^0 sehr "ähnlich
+groß" sind: Jede C^1 Funktion besteht zwar aus zwei C^0-Funktionen (sich
+selbst und ihre Ableitung), aber die geteilte Information ist größtenteils
+redundant."
+
+
+=== Distributionen
+
+Bernd Schmidt: "Man kann jede Funktion ableiten."
