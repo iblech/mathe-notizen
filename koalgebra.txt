@@ -20,7 +20,7 @@ useful in syntax                           useful in semantics
 bottom-up                                  top-down
 
 
-=== Analytische Funktor
+=== Analytische Funktoren
 
 Ein analytischer Funktor ist einer von der Form
 

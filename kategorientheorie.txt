@@ -48,6 +48,39 @@ https://ncatlab.org/nlab/show/flat+functor
   schickt f : E --> PSh(C) auf C --> PSh(C) --f^*--> E.
 
 
+=== Zentrum und Kozentrum
+
+* Das Kozentrum einer Kategorie C ist die Menge
+
+      int^{X in C} Hom(X,X) = End(C)/~,
+
+  wobei End(C) die Menge aller Endomorphismen in C und (~) die kleinste
+  Äquivalenzrelation mit fg ~ gf für alle komponierbaren Morphismen (nicht
+  unbedingt Endomorphismen) f und g ist.
+
+  Es kann als Spur der Identität in der symmetrisch monoidalen 2-Kategorie der
+  Kategorien, Bimoduln und Morphismen von Bimoduln angesehen werden, also als
+  eine Art Dimension.
+  https://golem.ph.utexas.edu/category/2015/09/where_does_the_spectrum_come_f.html#c049611
+
+* Das Kozentrum von Vect^fd(k) ist die Menge der "möglichen Weierstraßformen
+  ohne Blöcke zum Eigenwert 0", etwas präziser die Menge der Isomorphieklassen
+  von Darstellungen von k[X,X^(-1)]-Moduln (welche als k-Vektorräume
+  endlich-dimensional sind).
+
+* Qiaochu behauptet: Man macht das vorherige Beispiel Vect-angereichert,
+  so erhält man einfach die gewöhnliche Spur.
+
+* Das Kozentrum von FinSet ist dasselbe wie das ihres Kerns (nur Bijektionen
+  betrachten), und zwar die Menge der Konjugationsklassen von Permutationen.
+  https://golem.ph.utexas.edu/category/2015/09/where_does_the_spectrum_come_f.html#c049614
+
+  Nutze dafür, dass der Konjugationstyp invariant unter zyklischen
+  Vertauschungen ist (beobachte g . fg . g^(-1) = fg) und (für FinSet statt
+  ihren Kern) dass f : im^infty(f) --> im^infty(f) wohldefiniert und
+  surjektiv, also bijektiv ist.
+
+
 === Zweiseitige Ideale von Morphismen ...
 
 ... sind dasselbe wie Unterfunktoren von Hom.
@@ -361,6 +394,10 @@ Ferner gilt:
 
   Beispiel: Abelianisierung -| Vergiss; Vergiss ist volltreu, und in der Tat
   ist Abelianisierung(A) --> A ein Iso für abelsche Gruppen A.
+
+  Genauer: Ist eps : FG --> Id komponentenweise ein Epi, so ist R treu.
+  (Wenn Rf = Rg, dann auch eps_Y . LRf = eps_Y . LRg, also f . eps_X = g . eps_X,
+  also f = g.)
 
 * Sei F -| G. Dann auch F_* -| G_* auf den Funktorkategorien.
 
@@ -788,6 +825,13 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
   zuordnen.
 
 
+=== Endomorphismenmonoid
+
+* Sei X ein Objekt einer kartesisch abgeschlossenen Kategorie, dessen
+  interner Endomorphismenmonoid kommutativ ist. Dann ist X ein Unterobjekt des
+  terminalen Objekts. http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf
+
+
 === Nichtäquivalente Kategorien
 
 * Coh(X), für eine vollständige Varietät über einem algebraisch abgeschlossenen
@@ -1152,11 +1196,17 @@ In Haskell geht das auch:
 === Profunktoren
 
 * Ein Profunktor A -/-> B ist ein Funktor A x B^op --> Set.
-  Andere sagen: A^op x B --> Set.
+  Andere sagen: A^op x B --> Set. nLab sagt: B^op x A.
 
 * Die Komposition von F : A -/-> B mit G : B -/-> C ist
 
       (G . F)(a,c) = int^b G(b,c) x F(a,b).
+
+* Profunktoren A --> B sind dasselbe wie kostetige Funktoren PSh(A) --> PSh(B).
+  (Currying und universelle Eigenschaft von PSh(A) als freie
+  Kovervollständigung.)
+
+* Tolle Quelle: http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf
 
 
 === Grafisches Kalkül für Kategorien, Funktoren und natürliche Transformationen
@@ -1189,6 +1239,8 @@ Natürlich ist hier die Schreibrichtung ganz entscheidend!
   Es ist falsch in Grp und jeder nichttrivialen Kategorie mit einem Nullobjekt.
   Es stimmt wieder in der Kategorie der Gruppoide! Das ist wohl also der
   eigentliche Untersuchungsgegenstand geometrischer Gruppentheorie.
+
+* http://www.math.jhu.edu/~eriehl/727/context.pdf bewerben
 
 
 === Nächste Schritte

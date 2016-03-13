@@ -615,6 +615,21 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 
   somit V(Ann(k^n_phi)) = V(mu_phi) schematheoretisch.
 
+* Die charakteristischen Polynome von AB und BA stimmen miteinander überein,
+  wenn A und B quadratische Matrizen gleicher Größe sind. Im Fall, dass eine
+  der beiden Matrizen invertierbar ist, ist das klar (Ähnlichkeit), und der
+  allgemeine Fall folgt mit abstraktem Nonsens (Polynomidentität und so -- gehe
+  von Z[a_11,...,a_nn,b_11,...,b_nn] zu Q(a_11,...,b_nn) über).
+  https://mymathadventure.wordpress.com/2009/05/17/characteristic-polynomials-commute/
+
+* Die Isomorphietypen von V_AB und V_BA in Coh(k[X])/X-Torsion = Coh(k[X,X^(-1)])
+  stimmen miteinander überein (vermöge Iso [v] |-> [Av] und [w] |-> [1/X Bw]).
+  Dabei ist unerheblich, ob A und B quadratisch und von der gleichen Größe
+  sind. Sie müssen nur in beide Richtungen komponierbar sein.
+
+  Als Korollar sieht man: Die Weierstraßnormalform (ohne Blöcke zu k[X]/(X^n))
+  stimmen überein.
+
 
 === Noethersche Ringe
 
