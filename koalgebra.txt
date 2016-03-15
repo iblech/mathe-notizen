@@ -33,3 +33,21 @@ jeweiligen S_k durchläuft.
   der Multimengenfunktor aber schon.
 
 * Analytische Funktoren auf Set haben stets initiale Algebren.
+
+
+=== Kartesisch monoidalen Kategorien vs. symmetrisch monoidale Kategorien
+
+Der Vergissfunktor von kartesisch monoidalen Kategorien zu symmetrisch
+monoidalen Kategorien is koreflektiv. Sein Rechtsadjungierter ist
+V |--> Kategorie der Komonoide.
+
+
+=== Wirkung von Koalgebren auf Algebren
+
+Ist C eine Koalgebra und A eine Algebra (in Ab), so ist {C,A} := Hom(C,A)
+wieder eine Algebra (Hom in Ab). Für f, g in {C,A} ist ihr Produkt als
+
+    C ---> C tensor C ---> A tensor A ---> A
+     Komult.       f tensor g         Mult.
+
+definiert.
