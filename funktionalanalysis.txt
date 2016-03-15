@@ -21,4 +21,54 @@ redundant."
 
 === Distributionen
 
-Bernd Schmidt: "Man kann jede Funktion ableiten."
+* Bernd Schmidt: "Man kann jede Funktion ableiten."
+
+* Distributionen bilden tendenziell Koalgebren:
+  https://qchu.wordpress.com/2016/03/19/coalgebras-of-distributions/
+
+
+=== Absolutstetige Funktionen
+
+Nach Wikipedia ist eine Funktion f : [a,b] --> R genau dann absolutstetig, wenn
+eine Lebesgue-integrierbare Funktion g : [a,b] --> R mit
+
+    f(x) = f(a) + int_a^x g(t) dt
+
+für alle x in [a,b] existiert. Das ist genau dann der Fall, wenn f fast überall
+ableitbar ist, die Ableitung f' Lebesgue-integrierbar ist und
+
+    f(x) = f(a) + int_a^x f'(t) dt
+
+für alle x in [a,b] gilt.
+
+Damit zeigt man: AC([a,b]) ist (nicht-isometrisch) isomorph zu W^{1,1}([0,1]):
+
+    Sei f : [a,b] --> R absolutstetig. Dann ist f stetig und daher
+    Lebesgue-integrierbar (das Intervall hat beschränktes Maß). Ferner ist f
+    schwach differenzierbar, mit schwacher Ableitung gleich der (fast überall
+    existenten) klassischen Ableitung (Thm. 6 in
+    http://people.hss.caltech.edu/~kcb/Notes/IntegrationbyParts.pdf). Diese ist
+    wieder Lebesgue-integrierbar, also L^1.
+
+    Umgekehrt ist eine W^{1,1}-Funktion stetig (nach Abänderung) und die
+    schwache Ableitung ist als "g" in der Charakterisierung oben tauglich.
+
+
+=== Schwache Lösungen von gewöhnlichen Differentialgleichungen
+
+Wikipedia (Carathéodory's existence theorem):
+
+    Wir betrachten die DGL y'(t) = f(t, y(t)), y(t0) = y0,
+    wobei f auf einem Rechteck { (t,y) | |t-t0| <= a, |y-y0| <= b }
+    definiert sein muss. Wenn f folgende drei Bedingungen erfüllt,
+    dann gibt es in einer Umgebung von (t0,y0) eine absolutstetige Funktion y,
+    die die Anfangsbedingung erfüllt und die Differentialgleichung fast überall
+    erfüllt.
+
+    1. f(t,y) ist stetig in y für jedes fixe t.
+    2. f(t,y) ist messbar in t für jedes fixe y.
+    3. Es gibt eine Lebesgue-integrierbare Funktion m(t), |t-t0| <= a, mit
+       |f(t,y)| <= m(t) für alle (t,y) im Rechteck.
+
+Die Lösung y ist dann also auch eine W^{1,1}-Funktion. Und die schwache
+Ableitung erfüllt fast überall die Differentialgleichung.
