@@ -66,6 +66,10 @@ Originalfassungen intuitionistisch impliziert werden:
 
 Angeblich gilt: --phi <==> phi^r, falls in phi nicht forall, ==> vorkommen.
 
+* Im PPL-Artikel von Fairtlough und Mendler wird auf Johannson "Der
+  Minimalkalkül, ein reduzierter intuitionistischer Formalismus" (1936) für den
+  "oder f"-Trick verwiesen.
+
 
 === Friedmans Trick
 
@@ -221,6 +225,27 @@ schon gilt.
 Eduardo Ochs
 http://angg.twu.net/math-b.html#zhas-for-children
 http://angg.twu.net/dednat6/tests/4.pdf
+
+
+=== Modale Operatoren
+
+Äquivalent sind:
+
+    1. phi ==> Box phi
+    2. Box Box phi ==> Box phi
+    3. Box phi  wedge  Box psi  <==>  Box (phi wedge psi)
+
+und:
+
+    (phi ==> Box psi)  <==>  (Box phi ==> Box psi).
+
+"<==": 1. und 2. sind klar. Die Rückrichtung von 3. ebenfalls.
+Zur Hinrichtung überlege zunächst, dass
+
+    Box phi  wedge  Box psi  ==>  Box (phi wedge Box psi).
+          ????
+
+"==>": Klar. Sogar ohne die 3.?
 
 
 === Literatur

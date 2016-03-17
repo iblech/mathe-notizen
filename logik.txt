@@ -67,6 +67,11 @@ Empfohlen von John Baez!
   dass beweisbar ist, dass sie nicht in der Menge liegt.
 
 
+=== Temporale Logik
+
+* Diodoreanische Modalität in Minkowski-Raumzeit (in Goldblatts Buch)
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?

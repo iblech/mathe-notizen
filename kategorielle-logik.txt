@@ -215,6 +215,17 @@ für geometrische Formeln phi über X:
   Evtl. ist meine j-Erkenntnis nicht neu.
 
 
+=== Modale Logik
+
+* Sei J intuitionistische Logik ergänzt um einen modalen Operator (der
+  dieselben Axiome erfüllt wie eine Lawvere--Tierney-Topologie). Dann gilt:
+
+      J |== phi  genau dann, wenn  E_j |== phi für alle Topoi E und LT j.
+
+  Das steht in Goldblatt, Grothendieck Topology and Geometric Modality, Seite 164, (7.14).
+  (Danke an Tadeusz Litak von PSSL 99.)
+
+
 === Bemerkungen, die konsolidiert werden müssen
 
 * "Set |== x^* phi   <==>   ex. x \in V subseteq U: V |== phi."
@@ -455,3 +466,5 @@ Von Peter Arndt empfohlen: Lambek.
 * Halm vs. kleine Umgebung kategoriell verstehen.
 
 * Assoziierte Punkte?
+
+* Wie konstruiert man eigentlich den freien Topos?
