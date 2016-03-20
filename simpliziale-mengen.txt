@@ -41,6 +41,11 @@ http://link.springer.com/chapter/10.1007/BFb0061815
   einfaches Argument, wieso geometrische Realisierung mit Produkten vertauscht
   (wenn man k-ifiziert).
 
+* Es gibt einen kanonischen geometrischen Morphismus f : E --> sSet, wobei E
+  Johnstones topologischen Topos bezeichnet. Dabei ist f^{-1} geometrische
+  Realisierung und f_* bildet den singulären Komplex.
+  https://golem.ph.utexas.edu/category/2014/04/on_a_topological_topos.html
+
 
 === Adjunktionen, deren Linksadjungierte in sSet beginnen
 

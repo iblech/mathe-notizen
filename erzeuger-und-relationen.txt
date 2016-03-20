@@ -101,6 +101,9 @@ Bem.:
 
 Prop.: Eine Kategorie ist genau dann kappa-zugänglich, wenn sie äquivalent ist
 zur Kategorie der kappa-Torsoren auf einer gewissen kleinen Kategorie.
+(Also wenn sie die freie Kovervollständigung ihrer Unterkategorie der
+kappa-kompakten Objekte unter kappa-filtrierten Kolimiten ist.
+https://golem.ph.utexas.edu/category/2014/04/on_a_topological_topos.html#c046299)
 
 Bew.: Wenn C kappa-zugänglich ist, erhält die eingeschränkte Yoneda-Einbettung
 in die Prägarbenkategorie auf einem kleinen Skelett der vollen Unterkategorie
@@ -340,6 +343,8 @@ Außerdem Mod(A) = { (V, x_1,...,x_n : V --> V) |
   lokal präsentierbar?
 * Ist die Kategorie der quasikohärenten Garben lokal präsentierbar?
   Vielleicht nicht über Set, aber über Sh(X)?
+* Die Kategorie der A-Algebren ist als Scheibenkategorie der Kategorie der
+  Ringe lokal endlich präsentierbar. Was ist der zugehörige Limesentwurf?
 
 * Vergleiche:
   http://wiki.heinrich-hartmann.net/index.php/Compact_Objects

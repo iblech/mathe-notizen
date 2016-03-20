@@ -9,6 +9,13 @@
 * HOM(F, G) ist schon dann wieder eine Garbe, wenn G eine Garbe ist.
 
 
+=== Naiver Rückzug
+
+* Wenn man beim Zurückziehen die Vergarbung vergisst, kommt tatsächlich
+  keine Garbe heraus. Schönes Beispiel hier:
+  http://mathoverflow.net/a/45218/31233
+
+
 === Garbifizierung
 
 * Sei phi : F --> aF die Garbifizierung einer Prägarbe. Dann gilt
@@ -38,6 +45,10 @@
       und eine offene Menge V mit f[W] <= V
       und ein Schnitt t in F(V) mit
       s(w) = t_{f(w)} für alle w in W }.
+
+* Sei U eine Teilmenge von X, welche als topologischer Raum lokal ist.
+  (Das heißt, dass in jeder Überdeckung von U schon U selbst vorkommt.) Dann
+  ist (aF)(U) = F(U) (kanonisch).
 
 * Sei E eine Prägarbe abelscher Gruppen. Sei E(U) = 0 für alle U
   aus einer Basis der Topologie. Dann ist aE = 0.
@@ -436,6 +447,8 @@ http://mathoverflow.net/questions/17786/why-are-local-systems-and-representation
 
       CoDisc : Set --> Sh(X)
                  M |-> (auf U: M^{*|U=X})
+
+  Das entlarvt Sh(X) als lokalen Topos.
 
   Wenn X nicht lokal ist, ist CoDisc(M) im Allgemeinen keine Garbe.
 

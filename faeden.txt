@@ -233,6 +233,9 @@
 
 === Interne Methoden
 
+* Dass "oft" auf Affinen einfach, könnte damit zusammenhängen, dass Affine
+  kohomologisch trivial sind (-- für quasikohärente Modulgarben).
+
 * Tabareau, Quirin: Sheaves in Homotopy Type Theory.
   Das zitieren, und zwar im Umfeld der Box-Übersetzung.
 

@@ -24,6 +24,33 @@ Für mich ungewohnte Aspekte von Topostheorie:
   http://arxiv.org/abs/1107.6032 (Beispiel 3.13).
 
 
+=== Lokale Topoi
+
+* Ein Topos E --> Set ist genau dann lokal (über Set), wenn gamma_* (globale
+  Schnitte) noch einen weiteren Rechtsadjungierten gamma^! besitzt.
+
+  Ein geometrischer Morphismus F --> E ist genau dann lokal, wenn f_* einen
+  weiteren Rechtsadjungierten f^! besitzt und dieser sogar E-indiziert ist
+  (äquivalent: und f zusammenhängend ist (d.h. dass f^* volltreu ist)).
+
+* Im Fall Sh(X) --> Set schickt gamma^! eine Menge M auf die Garbe
+
+      U |--> Hom({ * | U = X}, M).
+
+* Ist C eine kleine Kategorie mit einem terminalen Objekt, so ist PSh(C)
+  ein lokaler Topos.
+
+* Der geometrische Morphismus E/X --> E ist genau dann lokal, wenn X tiny ist.
+  (E ein Grothendiecktopos.)
+
+* Lokale geometrische Morphismen besitzen Rechtsinverse.
+
+* Lokale Topoi besitzen stets einen initialen Punkt (nämlich gamma^!).
+
+* Ist F --> E ein lokaler geometrischer Morphismus, wo wird E zu einer
+  Kategorie von Garben bezüglich einer Lawvere--Tierney-Topologie in F.
+
+
 === Degeneration von Topoi
 
 http://deepblue.lib.umich.edu/bitstream/handle/2027.42/99993/sjhenry_1.pdf?sequence=1
@@ -179,3 +206,5 @@ is not circular).
 * Nachvollziehen: Angeblich ist es ein wichtiges Resultat in der Topostheorie,
   dss die Punkte eines lokalischen Gruppoids gerade die étalen Punkte sind.
   (Hat das Townsend gesagt?)
+
+* http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf lesen

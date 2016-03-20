@@ -123,7 +123,7 @@ offenabgeschlossenen Teilmengen. Stichwort Stone-Dualität.
 
 === Morphismen zwischen den Zariski-Topoi
 
-* Sei f : T --> S ein Morphismus von Schemata. Dann gibt eseinen geometrischen
+* Sei f : T --> S ein Morphismus von Schemata. Dann gibt es einen geometrischen
   Morphismus
 
       i_f : Sh(T) --> Zar(S)
@@ -149,6 +149,11 @@ offenabgeschlossenen Teilmengen. Stichwort Stone-Dualität.
 
   Also i_f^{-1} . i_f_* = id. (Ist konsistent mit pi_* . i_* = id unten.)
 
+* Dank i_f_! ist i_f^{-1} also stetig und kostetig. Somit weiß ich, wie in
+  Zar(S) Kolimiten berechnet werden: eingeschränkt auf Sh(T) so, wie in Sh(T).
+
+  Ist T sogar lokal, so ist die Auswertung bei T schon (stetig und) kostetig.
+
 * Außerdem habe geometrische Morphismen
 
       pi : Zar(S) --> Sh(S)
@@ -158,7 +163,7 @@ offenabgeschlossenen Teilmengen. Stichwort Stone-Dualität.
 
   * pi_* = i^{-1} = (Einschränken auf den kleinen Zariski-Topos).
 
-  * i_* = i_{id_S} = die Sache mit dem lim oben.
+  * i_* = i_{id_S}_* = die Sache mit dem lim oben.
 
   * pi^{-1}(E) = Vergarbung von (T/S |-> colim_{T -> U} E(U))  (ziemlich sicher).
 
@@ -169,7 +174,7 @@ offenabgeschlossenen Teilmengen. Stichwort Stone-Dualität.
       (pi^{-1} E)(T --mu--> S) = Gamma(T, mu^{-1} E).
 
   * pi^{-1} ist volltreu (Tag 00XU).
-  
+
   * i^{-1} A^1 = O_S, pi^{-1} O_S = O_S^~.
 
   * pi^{-1} -| pi_* = i^{-1} -| i_*.
@@ -179,6 +184,23 @@ offenabgeschlossenen Teilmengen. Stichwort Stone-Dualität.
     und pi ist zusammenhängend (d.h. pi^{-1} ist volltreu).
 
   Das ist Tag 020Z.
+
+  Ein expliziter Nachweis, dass
+
+      Hom_Zar(S)(E~, F) = Hom_Sh(S)(E, F|_Sh(S)),
+
+  sieht so aus: Ein Morphismus phi aus der linken Menge wird einfach auf
+  phi|_Sh(S) geschickt. Umgekehrt wird ein Morphismus psi auf der rechten Menge
+  auf den Morphismus geschickt, dessen Einschränkung auf die Sh(T) (für mu : T --> S)
+  so aussieht:
+
+      mu^(-1)(E) ----> mu^(-1)(F|_Sh(S)) ----> F|_Sh(T).
+
+  Um die Inversität nachzurechnen, muss man die Natürlichkeit von phi
+  ausnutzen. Diese besagt nämlich insbesondere, dass
+
+      (F|_Sh(S) --> mu_*(F|_Sh(T))) . phi|_Sh(S) =
+          mu_*(phi|_Sh(T)) . (E --> mu_* mu^(-1) E).
 
 
 === Proj-Konstruktion
@@ -348,6 +370,9 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
   p \not\in U <==> I <= p.
 
 * Spec A ist lokaler topologischer Raum <==> A ist ein lokaler Ring.
+
+  Es gilt sogar: Ein Schema ist genau dann als topologischer Raum lokal, wenn
+  es das Spektrum eines lokalen Rings ist.
 
 * D(I) (ein Unterschema von Spec(A)) ist genau dann affin, wenn I "codisjunctable" ist.
   http://mathoverflow.net/a/66901/31233
