@@ -776,6 +776,30 @@ http://math.stackexchange.com/questions/189769/when-is-the-derived-category-abel
 initiale Objekt vermutlich die leere Kategorie ist.
 
 
+=== Eindeutigkeit abgeleiteter Funktoren
+
+* Sei R^n F(X) über injektive Auflösungen definiert. Betrachtet man zwei
+  injektive Auflösungen, hat man folgende Aussage: Bis auf Homotopie gibt es
+  genau einen Morphismus zwischen den Auflösungen, der mit den Augmentierungen
+  verträglich ist. Dieser ist eine Homotopieäquivalenz und induziert damit
+  insbesondere eine Homotopieäquivalenz zwischen den beiden Komplexen zur
+  Berechnung von R^n F(X).
+
+* Sei R^n F(X) über beliebige Auflösungen definiert. Dann sollte man noch
+  folgende Aussage haben: Zwischen je zwei Auflösungen (aufgefasst als Komplexe
+  in der derivierten Kategorie) gibt es genau einen Morphismus (in der
+  derivierten Kategorie), der mit den Augmentierungen verträglich ist. Dieser
+  ist ein Isomorphismus und induziert einen Isomorphismus der Komplexe zur
+  Berechnung von R^n F(X) (in der derivierten Kategorie).
+
+  (Mein Beweis bezieht sich auf D^+ und benötigt, dass es genügend viele
+  Injektive gibt. Die Existenz ist klar (schiebe eine injektive Auflösung ein
+  und erhalte dann ein Dach aus Quasiisomorphismen). Zur Eindeutigkeit behandle
+  erst den Fall, dass beide Komplexe aus Injektiven bestehen. Dann folgt die
+  Eindeutigkeit wegen D^+(A) = K^+(I). Zur Behandlung des allgemeinen Falls
+  schalte Isos in bzw. aus injektive Ersätze vor bzw. nach.)
+
+
 === Literatur
 
 * Klar: Gelfand/Manin und Weibel.

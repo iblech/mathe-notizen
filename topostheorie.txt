@@ -1,8 +1,21 @@
-Für mich ungewohnte Aspekte von Topostheorie:
+=== Kohomologie und Homotopie von Topoi
 
-* Kohomologie
+* Homotopie: siehe http://www.math.washington.edu/~warner/HTT_Warner.pdf.
 
-* Homotopie, siehe http://www.math.washington.edu/~warner/HTT_Warner.pdf.
+* Ist f : E --> Set ein Topos, so kann man natürlich H^n(E; A) = R^n f_*(A) für
+  abelsche Gruppenobjekte A von E definieren. Wenn aber f_* exakt ist (zum
+  Beispiel, wie bei gros Topoi oft der Fall, weil f_* einen Linksadjungierten
+  besitzt), gibt das immer Null. Doof!
+
+  Abhilfe: End_{Top/Set}(E)/Id_E betrachten.
+
+  http://www.rmi.ge/~jib/pubs/thesis.pdf
+
+* Sei f : X --> Y. Aus Sicht von Sh(Y) sieht das wie Sh(X) --> Set aus.
+  So wird aus den höheren direkten Bildern einfach gewöhnliche Kohomologie!
+  Kann man das ausnutzen? Gibt es "relative Čech-Kohomologie"?
+
+*
 
 
 === Darstellung von Topoi
@@ -13,6 +26,13 @@ Für mich ungewohnte Aspekte von Topostheorie:
 
 * Wenn E sogar ein Topos ist, kann man A so wählen, dass es endlich vollständig
   ist.
+
+* Zu jedem Topos E mit genügend vielen Punkten gibt es einen topologischen Raum X
+  zusammen mit einem geometrischen Morphismus E --> Sh(X) (der noch tolle
+  Eigenschaften hat, wie zum Beispiel, dass der Urbildfunktor noch einen
+  Linksadjungierten besitzt), sodass Kohomologie von abelschen Gruppen in E
+  zu gewöhnlicher Garbenkohomologie von X wird.
+  http://www.academia.edu/9139781/Logical_and_Cohomological_Aspects_of_the_Space_of_Points_of_a_Topos
 
 
 === Lawvere--Tierney-Topologien

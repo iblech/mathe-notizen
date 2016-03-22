@@ -1804,6 +1804,83 @@ Sei O_X kohärent. Dann kann EXT intern als Ext verstanden werden.
   von Topoi zusammen?
 
 
+=== Derivierte Kategorie
+
+* Wenn man die totale Ableitung eines Funktors intern definieren möchte
+  (so, dass sie mit der externen Bedeutung übereinstimmt), gibt es folgende
+  Probleme.
+
+  * Man muss irgendwie formulieren, "richtige" (externe) injektive Objekte
+    zu verwenden, nicht nur solche, die aus interner Sicht injektiv aussehen.
+    (Bei projektiven Objekten sind die Sache noch schlimmer aus: Zum Beispiel
+    ist ja O_X aus interner Sicht projektiv, da endlich frei; aus externer
+    Sicht aber nicht.)
+
+  * Man hat Eindeutigkeit des Komplexes entweder in der Homotopiekategorie oder
+    in der derivierten Kategorie bis auf eindeutigen Isomorphismus. Wenn also
+    die Homotopiekategorie oder die derivierte Kategorie (aufgefasst als
+    lokal-interne Kategorien) Descent erfüllen, so wird durch die entsprechende
+    interne Formel auch extern ein Komplex definiert.
+
+    Insbesondere bei der derivierten Kategorie ist sehr zweifelhaft, ob die
+    Descent erfüllt: Sind verklebbare Objekte in den D(AbSh(U_i)) gegeben, so
+    geben die doch nicht unbedingt ein Objekt in D(AbSh(U)) für U = bigcup_i U_i,
+    oder?
+
+    Natürlich könnte hier die Betrachtung von dg-Kategorien Abhilfe schaffen.
+
+  Wenn man sich mit dem klassischen abgeleiteten Funktor zufrieden gibt, fällt
+  die zweite Problematik weg: Denn sowas wie die lokal-interne Kategorie der
+  abelschen Gruppenobjekte erfüllt Descent. Man muss R^n F(X) aus interner
+  Sicht dann so definieren:
+
+      "iota" Y. exists injektive Auflösung X --> I^*: Y = H^n(F(I^*)),
+
+  wobei "iota" sich auf folgende Eindeutigkeitsaussage bezieht:
+
+      forall X --> I^*, X --> I'^*: exists! psi : Y --> Y'.
+          psi ist ein Iso und exists f : I^* --> I'^*:
+              f ist mit den Augmentierungen verträglich und H^n(f) = psi.
+
+  (Ohne den langen Zusatz ist das "exists!" nicht gerechtfertigt. Dann gibt es
+  keine Chance auf die Kozykelbedingung.)
+
+  Zur ersten Problematik: Leider ist ein Objekt nicht genau dann injektiv, wenn
+  es lokal injektiv ist. Die eine Richtung gilt bekanntlich. Aber nicht die
+  andere, wie das Beispiel O_X in QCoh(X) zeigt (affin ist O_X gleich A, das
+  ist projektiv). Gut, das war jetzt ein Beispiel für Projektivität. Aber ist
+  es bei Injektivität anders? Ich kann nicht erwarten, dass die lokalen Lifts
+  zusammenpassen!
+
+  Die erste Problematik könnte man auch so lösen oder umgehen, indem man eine
+  Spracherweiterung durchführt: Für einen internen Ausdruck A, der eine
+  abelsche Gruppe beschreibt, ist I^*(A) eine Auflösung aus (extern-)injektiven
+  Objekten.
+
+  Interessant: Um die Eindeutigkeit bis auf eindeutige Isomorphie zu zeigen,
+  benötigt man gar nicht, dass die auflösenden Objekte aus externer Sicht
+  injektiv sind. Es genügt, dass sie das aus interner Sicht sind.
+
+  Genügt vielleich tatsächlich Auflösung durch Objekte I, für die nicht
+  Hom(I, __) exakt ist, sondern HOM(I, __) (Garbenhom)?!
+
+  JA!!!?! Scheint so: Sei eine Auflösung durch echte Injektive gegeben und eine
+  zweite aus Intern-Injektiven. Aus interner Sicht sind beide Arten von
+  Objekten einfach injektiv. Die interne Sprache zeigt dann, dass es zwischen
+  H^n(F(I^*)) und H^n(F(I'^*)) genau einen Iso (mit einer gewissen Eigenschaft)
+  gibt. Also gibt es auch aus externer Sicht einen Iso.
+
+  Beispiel: Möchte das Tensorprodukt von Garben ableiten. Genügend viele
+  Projektive habe ich nicht. Die klassische Vorgehensweise weicht daher auf
+  flache Modulgarben aus. Ich kann aber auch einfach aus interner Sicht
+  projektive Moduln verwenden. Also zum Beispiel endlich freie! Und so kann ich
+  das abgeleitete Tensorprodukt von kohärenten Modulgarben definieren.
+
+  Anwendung: Höhere direkte Bilder sind aus interner Sicht einfach gewöhnliche
+  Garbenkohomologiegruppen. Könnte also "interne Čech-Kohomologie" zur
+  Berechnung verwenden (wenn alles konstruktiv durchgeht). Bringt das was?
+
+
 === Relevante MO-Fragen
 
 * http://mathoverflow.net/questions/2314/several-topos-theory-questions

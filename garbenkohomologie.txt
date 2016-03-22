@@ -6,6 +6,36 @@ rechtsabgeleitete Funktor ist H^i.
 Beob.: Ext^i(1, F) ~~ H^i(X, F).
 
 
+=== Höhere direkte Bilder als Vergarbung von faserweiser Kohomologie
+
+Es ist bekanntlich R^n f_*(E) = a(U <= Y |-> H^n(f^{-1}U, E)). Hier ein kurzer
+Beweis:
+
+Sei 0 --> E --> I^* eine injektive Auflösung. Dann gilt:
+
+    R^n f_*(E) = H^n(f_* I^*) =  ("ker/im")
+        a H^{n,pre}(f_* I^*) =
+        a (U |-> H^n(Gamma(f^{-1}U, I^*))) =
+        a (U |-> H^n(f^{-1}U, E)).
+
+Im letzten Schritt geht ein, dass 0 --> E|_{f^{-1}U} --> I^*|_{f^{-1}U} eine
+injektive Auflösung ist. Das weiß man, da der Rückzug längs offener
+Einbettungen noch einen exakten Linksadjungierten besitzt, nämlich (__)_!.
+
+Geht auch intern. Und zwar habe ich ja folgende Situation:
+
+    Sh(X) --> Sh(Y) --> PSh(Y).
+
+Nun kann man zunächst intern in PSh(Y) arbeiten und dort die Ableitung von
+Ab(Sh(X)) --> Ab(Set_Box) --> Ab(Set) bestimmen. Diese existiert (wenn man
+voraussetzt, dass es in Ab(Sh(X)) Injektive gibt). Nun zeigt man, dass auch die
+Box-Übersetzung von "das berechnete Objekt ist die n-te Garbenkohomologie"
+stimmt. Dazu ist nur zu zeigen, dass ein Objekt aus Ab(Sh(X)), welches aus
+Sicht von PSh(Y) injektiv ist, auch aus Sicht von Sh(Y) injektiv ist. Das ist
+klar, denn stimmen zwei Schnitte von Garben in X auf einer von einer
+Überdeckung in Y zurückgezogenen Überdeckung überein, so sind sie schon gleich.
+
+
 === Kohomologie affiner Schemata
 
 Sei X = Spec A ein noethersches affines Schema und F = M~ ein *quasikohärenter* O_X-Modul.

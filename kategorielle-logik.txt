@@ -70,6 +70,29 @@ Abbildung einer Teilmenge von X(U) lesen.
 Es gilt zumindest für alle s aus X(U): chi_U(s) = U <==> U |== phi[s/x].
 
 
+=== Eindeutige Existenz impliziert externe Existenz
+
+* Klar: Gelte E |== exists! x : X. phi(x). Dann gibt gibt es auch genau
+  ein globales Element x von X mit E |== phi(x).
+
+* Gelte E |== exists X. phi(X) und
+
+      E |== forall X,Y. phi(X) wedge phi(Y) ==> exists! f : X --> Y. f Iso.
+
+  Dann gibt es in E ein Objekt X mit E |== phi(X).
+
+  Das ist mir zumindest im Fall, dass E ein Garbentopos ist klar. Denn die
+  Eindeutigkeitsbedingung liefert Isomorphismen der eingeschränkten Garben, die
+  die Kozykelbedingung erfüllen.
+
+  Im allgemeinen Fall heißt das "descent theorem for Grothendieck toposes"
+  (Moerdijk) und gilt für geometrische Morphismen F --> E, welche offen (oder
+  laut
+  http://mathoverflow.net/questions/233219/descent-of-higher-categorical-structures-along-geometric-morphisms
+  eigentlich) und surjektiv sind. Ich vermute, dass (klassisch) jeder Topos
+  über Set offen ist. Dann muss er nur noch surjektiv sein.
+
+
 === Geometrische Formeln und Konstruktionen
 
 * Geometrische Formeln vertragen sich gut mit dem Zurückziehen längs
