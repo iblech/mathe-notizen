@@ -212,6 +212,7 @@ Kellers Überblicksartikel:
 Vergleiche http://stacks.math.columbia.edu/tag/08CL
 zu perfekten Komplexen. Stimmt es, dass ein Komplex genau dann perfekt ist,
 wenn er dualisierbar ist? Siehe auch: http://math.harvard.edu/~keerthi/files/perfect_complexes.pdf ]
+Mehr zu perfekten Komplexen steht auch in Kashiwara/Schapira, Exercise I.30.
 
 Sosna schreibt (http://www.math.uni-hamburg.de/home/sosna/diplom-online.pdf):
 Ein Komplex K^* von O_X-Modulgarben ist genau dann perfekt, wenn es eine offene

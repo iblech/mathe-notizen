@@ -8,6 +8,28 @@
   Hom_Span(A)(C_0, C_0), also dasselbe wie eine Monade in Span(A).
 
 
+=== Extra-Eigenschaften universeller Objekte
+
+Die freie V-Algebra ist immer auch eine Ko-V-Algebra und sogar ein
+Tall-Wraith-V-Monoid, wenn die Basismenge eine Monoidstruktur hatte.
+http://mathoverflow.net/a/6715/31233
+
+
+=== Injektivmachung
+
+* Klar: Ist pi : X --> Y ein Epimorphismus (zum Beispiel in einer abelschen
+  Kategorie), so kann man den Kern herausteilen, um einen Iso zu erhalten.
+
+* Falls pi aber sogar einen Schnitt s zulässt, kann man pi wie folgt
+  zu einem Isomorphismus machen:
+
+      X ---> Y oplus ker(pi)
+      x |--> (pi(x), x - s(pi(x))).
+
+  Hier kommt die Injektivität also durch Hinzufügen der für die Wahl des
+  richtigen Urbilds nötigen Information.
+
+
 === Flache Funktoren
 
 https://ncatlab.org/nlab/show/flat+functor
