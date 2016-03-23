@@ -1387,6 +1387,19 @@ Chern-Klassen.
   http://mathoverflow.net/questions/9961/colimits-of-schemes
 
 
+=== Affinität
+
+* Ein Schemamorphismus f : X --> Y ist affin, wenn f_* : QCoh(X) --> QCoh(Y)
+  einen Rechtsadjungierten f^! besitzt.
+
+  Ist f quasikompakt und X separiert, so ist f genau dann affin, wenn f
+  kohomologisch affin ist, d.h. wenn f_* exakt ist. Da die relevanten
+  Kategorien ja wohl lokal präsentierbar sind, ist das äquivalent zur Existenz
+  eines Rechtsadjungierten.
+
+  http://mathoverflow.net/questions/15291/affine-morphisms-in-different-settings-coincide/58486
+
+
 === Referenzen
 
 * Hartshorne
@@ -1403,6 +1416,9 @@ Chern-Klassen.
   und andere Kapitel
 * http://www.dam.brown.edu/people/mumford/alg_geom/papers/AGII.pdf
 * http://math.stackexchange.com/questions/666113/examples-of-morphisms-of-schemes-to-keep-in-mind
+
+* Auf MO empfohlen: http://www.math.univ-toulouse.fr/~btoen/m2.html
+  Lesen!
 
 
 === Nächste Schritte
