@@ -637,6 +637,11 @@ Quelle: Marco Schlichting, Higher Algebraic K-Theory.
   wenn ich nur Erzeuger der Gruppe kenne.
 
 
+=== K-Theorie als universelle Kohomologietheorie
+
+http://arxiv.org/abs/1603.06740
+
+
 === Nächste Schritte
 
 * Der K-Theorie welcher abelschen (oder zumindest additiven) Kategorie
