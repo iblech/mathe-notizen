@@ -206,6 +206,17 @@ Angeblich sind reguläre Epis in der Kategorie der Ringe genau die surjektiven
 Abbildungen. Sagt Brandenburg.
 
 
+=== Surjektiv vs. epimorph
+
+* Klar, im Kontext eines treuen Funktors nach Set gilt: Morphismen, deren
+  zugrundeliegende Abbildung surjektiv ist, sind Epimorphismen.
+
+* Scheibenkategorien von Set liefern einfache Beispiele für wo das nicht
+  gilt. Dabei in Set/A ein Morphismus ein Epi ist, müssen die induzierten
+  Morphismen auf allen Fasern surjektiv sein. Dafür ist nicht hinreichend, dass
+  die Abbildung zwischen den Totalräumen surjektiv ist.
+
+
 === Kanten vs. Pfade
 
 The morphisms in a category are not so much like the edges in a graph as like
@@ -397,7 +408,13 @@ Ferner gilt:
 
   Genauer: Ist eps : FG --> Id komponentenweise ein Epi, so ist R treu.
   (Wenn Rf = Rg, dann auch eps_Y . LRf = eps_Y . LRg, also f . eps_X = g . eps_X,
-  also f = g.)
+  also f = g.) Umgekehrt auch: Sei f . eps_X = g . eps_X. Dann T^(Rf) = T^(Rg),
+  also Rf = Rg, also f = g. Schneller geht's mit Yoneda.
+
+  Mehr solcher Eigenschaften stehen auf
+  http://mathoverflow.net/questions/100808/properties-of-functors-and-their-adjoints.
+
+* Sei F -| G -| H. Dann ist F genau dann volltreu, wenn H es ist.
 
 * Sei F -| G. Dann auch F_* -| G_* auf den Funktorkategorien.
 
@@ -415,6 +432,12 @@ Ferner gilt:
       R eps_Y . eta_RY = id_RY
 
 * eps heißt auch Koeins, eta heißt Eins.
+
+* Sei L volltreu. Dann ist eta : Id ==> RL ein Iso. Somit sind auch eps L
+  und R eps Isos.
+
+  Sei R volltreu. Dann ist eps : LR ==> Id ein Iso. Somit sind auch L eta
+  und eta R Isos.
 
 * Sei (f -| g) : N --> N eine Galois-Verbindung, also
 

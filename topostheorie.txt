@@ -97,6 +97,156 @@ Das folgt sofort aus:
 * Ab_E = Mod_E(Z) erfüllt stets Grothendiecks Axiom AB5.
 
 
+=== Begriffe von Injektivität
+
+Roswitha Harting untersucht in
+http://www.tandfonline.com/doi/pdf/10.1080/00927878308822853 diverse
+Injektivitätsbegriffe in einem Topos E. Unter anderem folgende:
+
+  (II)_1 <==> (II)_2: Der Funktor [__, X] : E^op --> E schickt
+  Monomorphismen auf Epimorphismen.
+
+  (LI)_1 <==> (LI)_2: Der Funktor [__, X] schickt Monomorphismen auf solche
+  Morphismen, die für jedes globale Element des Zielobjekts lokal Urbilder
+  zulassen.
+
+  (III): Alle p^*(X) haben die Eigenschaft (II).
+
+  (ILI): Alle p^*(X) haben die Eigenschaft (LI).
+
+Wir können auch noch ergänzen:
+
+  (SI): Aus Sicht der internen Sprache ist X injektiv.
+
+All diese Eigenschaften sind äquivalent.
+
+  (II) =====> (LI) =====> (ILI) =====> (III) =====> (II)
+        triv                             ^^   triv
+                                     triv||
+                                         vv
+                                        (SI)
+
+Der Beweis von (LI) ==> (ILI) nutzt den Linksadjungierten p_!. Er geht etwa so:
+
+    Sei ein Mono S --> T in E/A gegeben. Sei ein Morphismus S --> p^*(X) in E/A
+    gegeben. Da X Eigenschaft (LI) hat, hat der Morphismus p_!(S) --> p_!(T)
+    bezüglich p_!(S) --> p_!(p^*(X)) --> X lokal einen Kolift. Es gibt also
+    einen Epi q : B -->> 1 und einen Morphismus g : q^*(p_!(T)) --> q^*(X)
+    mit g . (q^*(p_!(S)) --> q^*(p_!(T))) = (q^*(p_!(S)) --> q*(X)).
+    Den Morphismus g kann man längs p' zurückziehen. Dann noch T --> p^*(p_!(T))
+    einschieben, fertig.
+
+    Dabei sind p' und q' die durch Rückzug entstehenden Morphismen aus p bzw. q
+    (die dann in A x B starten).
+
+Das kann man auch noch einfacher formulieren:
+
+    Wir wissen, dass p_* . [__, p^*(X)]_{E/A} = [__, X]_E . p_!.
+    Der Funktor p_! bewahrt Monomorphismen. Also ist nur noch zu zeigen,
+    dass p_* "Pseudo-Epis" (solche, die für globale Elemente lokal Urbilder
+    besitzen) reflektiert. Das geht so:
+
+    Sei f : X --> Y ein Morphismus in E/A derart, dass p_*(f) in E ein
+    Pseudo-Epi ist. Sei y : 1 --> Y ein globales Element in E/A.
+    Das entspricht einem globalen Element y von p_*(Y). Somit existiert
+    ein Epi q : B -->> 1 in E und ein Element x : B --> p_*(X) sodass
+    p_*(f) . x = y . q. Dann ist T^x : p^*(B) --> X das gesuchte lokale Urbild,
+    denn f . T^x = q' . y.
+
+Der Beweis von (ILI) ==> (III) ist wieder recht einfach (wie bei der
+Vereinfachungsregel für die interne Sprache im Fall "forall forall").
+
+Das ganze funktioniert gleichermaßen für reine Objekte und für Objekte
+abelscher Gruppen.
+
+Nun kann man in Sh(X) auch von Injektiven bezüglich des externen Hom-Funktors
+sprechen. (Allgemeiner geht das für jeden Set-Topos E. Und natürlich kann man
+auch relativieren.) Da gibt es folgende Aussagen:
+
+* Eine Garbe I ist genau dann (extern-)injektiv, wenn sie auf einer Überdeckung
+  (extern-)injektiv ist. Dabei ist die Richtung "==>" trivial (nutze
+  Extra-Linksadjungierten zur Einschränkung). Die Richtung "<==" geht so:
+
+      Zunächst ist eine Garbe genau dann welk (Einschränkungsabbildungen alle
+      surjektiv), wenn sie auf einer Überdeckung welk ist. (Das zeigt man mit
+      Zorn.) Außerdem bewahrt der globale-Schnitte-Funktor Gamma kurze exakte
+      Sequenzen, wenn die vorderste Garbe welk ist.
+
+      Für (extern-)injektive Garben J ist HOM(??, J) welk (siehe garben.txt).
+      Also ist HOM(??, I) welk (nach Voraussetzung ist sie es lokal).
+
+      Der Funktor HOM(__, I) bewahrt kurze exakte Sequenzen. Dafür würde schon
+      genügen (das ist nach Harting tatsächlich äquivalent dazu), dass I nur
+      aus Sicht der internen Sprache injektiv ist.
+
+      Somit bewahrt Hom(__, I) = Gamma . HOM(__, I) kurze exakte Sequenzen.
+
+* Schon die triviale Richtung zeigt, dass injektive Garben aus interner Sicht
+  injektiv sind.
+
+* Ich glaube, dass auch die Umkehrung gilt -- mit demselben Argument:
+  Denn ich glaube, dass auch für Garben I, die nur aus lokaler Sicht injektiv
+  sind, Garben der Form HOM(??, I) welk sind. Ferner ist HOM(__, I) exakt,
+  da I aus interner Sicht injektiv ist. Somit bewahrt Hom(__, I) = Gamma . HOM(__, I)
+  kurze exakte Sequenzen.
+
+  Das war jetzt für den Fall von Garben abelscher Gruppen. Es stimmt aber auch
+  für Garben von Mengen. Das geht zum Beispiel von Hand:
+
+      Sei I aus interner Sicht injektiv. Wir wollen zeigen, dass I
+      (extern-)injektiv ist. Sei dazu ein Monomorphismus iota : E --> F
+      und ein beliebiger Morphismus f : E --> I gegeben.
+
+      Mit dem Zornschen Lemma finden wir einen maximalen Kolift f' : F|_U --> I|_U.
+
+      Wir betrachten jetzt das Injektivitätsdiagramm
+
+          E cup j_!(F|_U) -----> F
+               |
+               | (gegeben durch f bzw. f')
+               v
+               I.
+
+      Die Vereinigung findet dabei als Unterobjekte von F statt (E ist ein
+      solches vermöge iota, j_!(F|_U) ist es vermöge der Koeins). Der
+      Morphismus nach I hinein ist wohldefiniert, da f und f' auf E|_U
+      übereinstimmen. Nach Voraussetzung gibt es jetzt für einen beliebigen
+      Punkt x von X eine offene Umgebung V und einen Kolift f'' : F|_V --> I|_V
+      dieses Diagramms. Dieser Kolift stimmt auf U cap V mit f' überein.
+      Außerdem ist er auch ein Kolift von E --> I.
+
+      Somit können wir f' und f'' zu einem größeren Kolift (auf U cup V
+      definiert) verkleben. Wegen der Maximalität von f' ist U cup V <= U,
+      also V <= U.
+
+      Das zeigt U = X.
+
+  Cooler so: Sei I wieder aus interner Sicht injektiv, iota : E --> F
+  ein Mono und f : E --> I. Wir betrachten die durch die interne Formel
+  definierte Garbe
+
+      G := { f' : [F,I] | f' . iota = f }.
+
+  Wir möchten zeigen, dass diese Garbe einen globalen Schnitt besitzt.
+  Dazu müssen wir nur ihre Welkheit nachweisen. Aber das können wir intern:
+
+      Sei K <= G ein Subsingleton. Wir betrachten das Injektivitätsdiagramm
+
+         iota[E] cup F' --> F   mit F' = { s : F | K bewohnt }
+                |
+                |
+                v
+                I,
+
+      wobei die vertikale Abbildung ein s aus F' auf f'(s) schickt, wobei f'
+      irgendeine Abbildung in K ist, und ein iota(e) auf f(e) schickt (das ist
+      wohldefiniert). Somit existiert ein Kolift f' : [F,I]. Dieser liegt schon
+      in G. Außerdem liegt er in K, wenn K bewohnt wäre.
+
+  Der gleiche Beweis kann auch im linearen Fall verwendet werden; betrachte
+  dann iota[E] + F' mit F' = { s : F | s = 0 oder K bewohnt }.
+
+
 === Generische Elemente
 
 Sei X ein Objekt eines Topos E. Wir möchten einen neuen Topos E' --> E,

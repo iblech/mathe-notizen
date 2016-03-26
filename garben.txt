@@ -8,6 +8,45 @@
 
 * HOM(F, G) ist schon dann wieder eine Garbe, wenn G eine Garbe ist.
 
+* Es ist HOM(F, J) welk, falls J injektiv ist (alles für Garben abelscher
+  Gruppen oder für allgemeine Garben). Denn: Sei ein Garbenmorphismus
+  F|_U --> J|_U gegeben. Nach Voraussetzung existiert für das
+  Injektivitätsdiagramm
+
+      j_! F|_U -----> F    (ist wirklich ein Mono)
+         |
+         |
+         v
+      j_! J|_U
+         |
+         |
+         v
+         J
+
+  ein Kolift F --> J. Der setzt F|_U --> J|_U fort.
+
+* Meiner Meinung nach ist HOM(F, J) auch dann welk, wenn J nur aus interner
+  Sicht injektiv ist. (Das steht aber nicht in Kashiwara/Schapira.)
+
+  Nutze dazu die offensichtlich lokale Charakterisierung von Welkheit und
+  übertrage den obigen Beweis: Da gab es, da J (extern-)injektiv war, einen
+  Kolift F --> J. Nun gibt es einen solchen Kolift nur lokal.
+
+  Oder in der internen Sprache: Sei I injektiv. Sei F beliebig. Wir wollen
+  zeigen, dass [F,J] welk ist. Sei dazu ein Subsingleton K <= [F,J] gegeben.
+  Dann ist E' := { s : E | K bewohnt } eine Teilmenge von E und wir können eine
+  Abbildung g : E' --> J definieren: Schicke ein s aus E' auf f(s), wobei f
+  irgendein (existentes!) Element aus K ist. Diese Zuordnung ist wohldefiniert.
+  Da J injektiv ist, gibt es einen Kolift h : E --> J. Somit haben wir ein
+  Element aus [E,J] gefunden, welches, falls K bewohnt ist, in K liegt.
+  (In diesem Fall ist es nämlich punktweise gleich g gleich f.)
+
+  Wenn es um Garben abelscher Gruppen geht, betrachte
+
+      E' := { s : E | s = 0 oder K bewohnt }.
+
+  Der Rest geht genauso durch.
+
 
 === Naiver Rückzug
 

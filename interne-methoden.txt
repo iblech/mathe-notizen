@@ -1881,6 +1881,15 @@ Sei O_X kohärent. Dann kann EXT intern als Ext verstanden werden.
   Berechnung verwenden (wenn alles konstruktiv durchgeht). Bringt das was?
 
 
+=== Injektive und welke Garben
+
+* Habe interne Charaktierisierung von Welkheit, siehe garben.txt.
+
+* Außerdem glaube ich, dass eine Garbe (von Mengen) genau dann
+  extern-injektiv ist, wenn sie es aus interner Sicht ist. Siehe
+  topostheorie.txt.
+
+
 === Relevante MO-Fragen
 
 * http://mathoverflow.net/questions/2314/several-topos-theory-questions
