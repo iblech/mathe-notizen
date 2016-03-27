@@ -1171,6 +1171,12 @@ Denn man hat die étale Überlagerung X^p - X. Ihre Ableitung ist -1 und
 verschwindet daher nirgendwo.
 
 
+=== Zusammenhängende Schemata
+
+* Ein Schema S ist genau dann zusammenhängend, wenn Hom(S, __) binäre (oder
+  beliebige) Koprodukte erhält. http://gausyu.github.io/2016/02/13/Connectedness-of-Schemes/
+
+
 === glatt, normal, regulär
 
 Sei k algebraisch abgeschlossen (oder auch nur perfekt), X Varietät über k.

@@ -1804,6 +1804,12 @@ Sei O_X kohärent. Dann kann EXT intern als Ext verstanden werden.
   von Topoi zusammen?
 
 
+=== Zusammenhängende Schemata
+
+* Siehe grundwissen-algebraische-geometrie.txt; ist das eine Möglichkeit der
+  Internalisierung im großen Zariski-Topos?
+
+
 === Derivierte Kategorie
 
 * Wenn man die totale Ableitung eines Funktors intern definieren möchte

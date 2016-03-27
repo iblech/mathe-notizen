@@ -379,4 +379,16 @@ is not circular).
   dss die Punkte eines lokalischen Gruppoids gerade die étalen Punkte sind.
   (Hat das Townsend gesagt?)
 
+  Außerdem siehe die Bemerkung bei https://ncatlab.org/nlab/show/localic+topos:
+  Then, using methods of descent theory, Joyal and Tierney deduce that every
+  Grothendieck topos is equivalent to the category $B G$ of continuous discrete
+  representations of a [[localic groupoid]] $G$. (Their result is relativized
+  so as to hold internally over any Grothendieck topos $S$ as base.) This
+  should be regarded as a major extrapolation of Grothendieck's [[Galois
+  theory]] (as in [[SGA]] 1), where it is shown that the [[etale topos]] of a
+  field $k$ is equivalent to the category of continuous discrete
+  representations of the fundamental [[pro-group]] $Gal(\bar{k}/k)$, where
+  $\bar{k}$ denotes the separable closure of $k$. It was a watershed event for
+  the penetration of localic methods in topos theory.
+
 * http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf lesen
