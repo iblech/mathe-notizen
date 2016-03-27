@@ -54,3 +54,8 @@ https://news.ycombinator.com/item?id=10888893
 
 http://win.ua.ac.be/~lebruyn/LeBruyn2010d.pdf
 http://mathoverflow.net/questions/50879/what-is-the-knot-associated-to-a-prime/50995#50995
+
+
+=== Zeta-Funktionen
+
+* https://ncatlab.org/johnbaez/show/Zeta+functions

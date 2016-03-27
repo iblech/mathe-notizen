@@ -745,6 +745,26 @@ language.
 
   wobei (gf)(x) = g . f(g^(-1) . x).
 
+* [p_!(1), X] = p_*(p^*(X)). Das zeigt ein Yoneda-Style-Argument:
+
+      Hom(T, p_* p^* X) = Hom(p^* T, p^* X) = Hom(p_! p^* T, X) =
+          Hom(T x A, X) = Hom(T, [A,X]) = Hom(T, [p_!(1), X]).
+
+* Allgemeiner gilt p_* [T, p^*(X)]_{E/A} = [p_!(T), X]_E, denn:
+
+      Hom_E(Q, p_* [T, p^*(X)]_{E/A}) =
+      Hom_{E/A}(p^*(Q), [T, p^*(X)]) =
+      Hom_{E/A}(p^*(Q) x T, p^*(X)) =
+      Hom_E(p_!(p^*(Q) x T), X) =
+      Hom_E(p_!(Q x A) x_A T), X) =
+      Hom_E(Q x T, X) =
+      Hom_E(Q x p_!(T), X) =
+      Hom_E(Q, [p_!(T), X]_E)
+
+* Beschreibung von Alex Simpson in
+  http://mathoverflow.net/questions/139874/pullback-stability-of-internally-projective-objects/140262#140262
+  verstehen.
+
 
 === Limiten und Kolimiten in der 1-Kategorie Cat
 
@@ -801,6 +821,12 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
 
 * Wichtiges Beispiel ist natürlich die Einbettung Sh(X) --> PSh(X)
   oder allgemeiner Sh_j(E) --> E. Der Reflektor ist Garbifizierung.
+
+
+=== Konservative Funktoren
+
+* Sei F : C --> D ein konservativer Funktor. Besitze C I-förmige Limiten.
+  Bewahre F I-förmige Liiten. Dann reflektiert F auch I-förmige Limiten.
 
 
 === Lokalisierung
@@ -1264,6 +1290,21 @@ Natürlich ist hier die Schreibrichtung ganz entscheidend!
   eigentliche Untersuchungsgegenstand geometrischer Gruppentheorie.
 
 * http://www.math.jhu.edu/~eriehl/727/context.pdf bewerben
+
+
+=== Kategorientheorie in der Optimierungstheorie
+
+* John Gray, Intrinsic Linear Programmierung. Er entwickelt einen kategoriellen
+  Zugang zum fundamentalen Dualitätssatz.
+
+
+=== Extensive Kategorien
+
+* Schanuel, Objective number theory and the retract chain condition.
+  In an extensive category satisfying a mild chain condition, the arithmetic of
+  multiplication and addition (cartesian product and coproduct) of objects is
+  shown to be very close to that of natural numbers. Examples of such
+  categories abound, e.g. in algebraic geometry.
 
 
 === Nächste Schritte

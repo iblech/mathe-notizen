@@ -4,6 +4,73 @@
   Erzeuger und Relationen.
 
 
+=== Welke Garben
+
+* Eine Garbe E heißt genau dann welk, wenn alle Restriktionsabbildungen
+  surjektiv sind. Aber vielleicht sollte man besser die folgende
+  Charakterisierung als Definition hernehmen, da sie sich konstruktiv besser
+  verhält und den lokalen Charakter von Welkheit manifest macht.
+
+* Eine Garbe E ist genau dann welk, wenn:
+
+      forall U. forall s in E(U). forall x in X.
+          exists V. x in V und s besitzt Fortsetzung von U cup V.
+
+  Dabei ist "==>" klar. Die Rückrichtung benötigt Zorn.
+
+* Eine Garbe E ist genau dann welk, wenn aus interner Sicht gilt:
+
+      forall K <= E. K Subsingleton ==> exists s:E. (K bewohnt ==> s in K)
+
+  Oder so: forall K : P_{<=1}(E). exists s:E. K <= {s}.
+
+  Der hintere Teil der zuerst gegebenen Bedingung sieht genauso aus wie das
+  zweite Garbenaxiom für die Modalität (K bewohnt ==> __).
+  (Denn: (K bewohnt ==> K Singleton) <==> (K Subsingleton).)
+
+* Eine Garbe E ist genau dann welk, wenn Hom(__, E) Monos L --> L' --> 1
+  auf Surjektionen schickt. (Das ist die ursprüngliche Definition.)
+
+  Gilt das auch in allgemeineren Topoi?
+
+* Welke Garben besitzen globale Schnitte. Das ist gelegentlich auch wichtig,
+  zum Beispiel im Beweis in topostheorie.txt, dass interne Injektive schon
+  extern injektiv sind.
+
+* HOM(beliebig, injektiv) ist welk. HOM_{O_X}(flach, injektiv) ist injektiv.
+
+* Sei E eine Garbe, deren Halme alle bewohnt sind. Dann ist die von Godemont
+  untersuchte Garbe
+
+      U |--> prod_{x in U} E_x
+
+  welk. Sie lässt sich als i_* i^(-1) E verstehen, wobei i die Inklusion
+  X_diskr --> X ist. So erhält man eine funktorielle Einbettung.
+
+  Das lässt sich intern nachbauen, wenn man sich erlaubt, X_diskret als interne
+  Örtlichkeit in Sh(X) zu kennen. Ich weiß nicht, wie das intrinsisch gehen
+  soll; vermutlich geht es auch nicht, denn örtlichkeitstheoretisch vergesse
+  ich ja, welche Punkte X enthält.
+
+  Die Komposition i_* i^(-1) E könnte trotzdem intern beschreibbar sein.
+
+* Jedenfalls auch stets welk, aber nicht wieder eine abelsche Gruppe (falls das
+  wichtig sein sollte), ist P_{<=1}(E), die Garbe der Subsingletons von E.
+  U-Schnitte dieser Garbe sind Paare (V <= U, s in E(V)). Diese Garbe ist sogar
+  injektiv.
+
+* Vermutlich ist die Konstruktion von injektiven Garben echt schwieriger als
+  die von welken Garben. Gibt es stets, auch in nicht Grothendiecktopoi,
+  genügend viele welke Garben?
+
+* Angeblich ist K_X, die Garbe rationaler Funktionen, welk (unter welchen
+  Voraussetzungen?). Kann man das intern zeigen?
+
+* Welke Garben sind unter Zusatzvoraussetzungen an den Situs unter
+  irgendwelchen Arten von gerichteten Kolimiten abgeschlossen. Siehe zum
+  Beispiel Seite 113 von Milne, Étale Cohomology.
+
+
 === Garbenhom
 
 * HOM(F, G) ist schon dann wieder eine Garbe, wenn G eine Garbe ist.

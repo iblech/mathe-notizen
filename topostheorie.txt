@@ -246,6 +246,8 @@ auch relativieren.) Da gibt es folgende Aussagen:
   Der gleiche Beweis kann auch im linearen Fall verwendet werden; betrachte
   dann iota[E] + F' mit F' = { s : F | s = 0 oder K bewohnt }.
 
+* Lässt sich das auf allgemeinere Topoi als lokalische übertragen?
+
 
 === Generische Elemente
 

@@ -233,6 +233,16 @@
 
 === Interne Methoden
 
+* Kann man konstruktiv eine nichttriviale injektive Gruppe hinschreiben?
+  Wie sieht's mit Welkheit aus?
+
+* Die internen Charakterisierungen von Quasikohärenz und Welkheit sind sich so
+  ähnlich! Kann man damit etwas anstellen?
+
+* Woher weiß man denn, wie Limiten und Kolimiten in QCoh(X) (im Vergleich zu
+  Mod(O_X)) berechnet werden? Natürlich spielt da der Kohärator eine Rolle. Das
+  intern verstehen!
+
 * Dass "oft" auf Affinen einfach, könnte damit zusammenhängen, dass Affine
   kohomologisch trivial sind (-- für quasikohärente Modulgarben).
 
@@ -327,6 +337,10 @@
 
 
 === Ultra-Sonstiges
+
+* Was ist End(Omega)^ab?
+
+* Symmetric monad (Elephant); Elphant S. 1000 (Charakterisierung von de Morgan).
 
 * Die infty-Kategorie D(X) ist kein infty-Topos. Aber Sh(X) natürlich schon.
   Man könnte also HoTT verwenden, um in Sh(X) zu arbeiten. D(X) ist darin die
