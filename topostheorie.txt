@@ -363,11 +363,32 @@ internal language (if one makes sure that the reasoning in justifying its use
 is not circular).
 
 
+=== Analogie zu Relativitätstheorie
+
+Mike in
+https://golem.ph.utexas.edu/category/2011/06/flat_functors_and_morphisms_of.html#c038686:
+
+Similarly, to say that the internal logic of a topos is constructive, but that
+this fact is just another piece of mathematics formulated in set theory and
+good old classical logic, misses the point. Even the conclusion that because of
+this, it is better to formulate mathematical arguments constructively so that
+they can be applied inside any topos, is not the whole story. The point is that
+any topos is really as good as any other, including what we like to think of as
+the “good old” topos of sets that satisfy classical logic and (maybe) the axiom
+of choice.
+
+In fact, there is also a nice anology to be drawn between LEM+AC and the
+property of being an inertial reference frame, so that the inclusion of
+non-classical toposes corresponds to the theory of general relativity. (And, of
+course, it’s worth noting that the reference frame we live in is not inertial!)
+
+
 === Nächste Schritte
 
 * Sind die Garben bezüglich der kanonischen Topologie auf einem Topos E
   GENAU die repräsentierbaren Funktoren? Oder kann es mehr Garben als
-  repräsentierbare Funktoren geben?
+  repräsentierbare Funktoren geben? (Antwort: Nein, siehe nLab canonical
+  topology.)
 
 * Verstehen: http://facultypages.ecc.edu/alsani/ct01(5-8)/msg00075.html
   Clarifying the classifier
