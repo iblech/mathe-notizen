@@ -15,7 +15,10 @@ interesting.
 
 === Zusammenhang zu Abstiegsdaten (descent data)
 
-http://mathoverflow.net/questions/225391/why-are-monadicity-and-descent-related
+* http://mathoverflow.net/questions/225391/why-are-monadicity-and-descent-related
+* Paul Balmer, Descent in triangulated categories.
+* http://zll22.user.srcf.net/2.1.pdf (Zhen Lin)
+* https://mathoverflow.net/questions/150547/how-is-a-descent-datum-the-same-as-a-comodule-structure
 
 
 === Monaden als kategorifizierte Idempotente
@@ -85,6 +88,9 @@ eine Äquivalenz ist. In diesem Fall heißt D auch monadisch über C.
 * Monadische Funktoren bewahren und reflektieren endliche Limiten
   sowie Kodifferenzkerne von Äquivalenzrelationen. Behaupten Caremello et al.
   in http://arxiv.org/pdf/1506.06113v1.pdf (mit Quelle Borceux II, Prop. 3.5.2).
+
+* Es gibt Charakterisierungen von Monadizität: Barr--Beck & Co.
+  https://ncatlab.org/nlab/show/monadicity+theorem
 
 
 === Beispiele für Monaden und ihre Algebren
