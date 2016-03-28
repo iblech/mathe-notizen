@@ -368,6 +368,13 @@ is not circular).
 Mike in
 https://golem.ph.utexas.edu/category/2011/06/flat_functors_and_morphisms_of.html#c038686:
 
+1. In Topoi kann man Mathe machen, in Bezugssystemen kann man Physik machen.
+Wie bei Bezugssystemen ist a priori kein Topos besonders ausgezeichnet.
+
+2. Nicht alle Bezugssysteme sind gleich gut (man denke an beschleunigte
+Systeme). Ebenso sind nicht alle Topoi gleich gut (in manchen gilt LEM, in
+anderen nicht).
+
 Similarly, to say that the internal logic of a topos is constructive, but that
 this fact is just another piece of mathematics formulated in set theory and
 good old classical logic, misses the point. Even the conclusion that because of
