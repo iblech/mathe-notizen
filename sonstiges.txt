@@ -348,3 +348,9 @@ http://math.ucr.edu/home/baez/gr/gr.html
 === Chaostheorie
 
 * Es gibt Bücher über "benign weather modification".
+
+
+=== Finanzsystem
+
+* http://www.bankofengland.co.uk/publications/Documents/quarterlybulletin/2014/qb14q102.pdf
+* Bitcoin-Einführung von Nielsen: http://www.michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/

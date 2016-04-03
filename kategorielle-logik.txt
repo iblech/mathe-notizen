@@ -481,6 +481,31 @@ Beispiele:
 Von Peter Arndt empfohlen: Lambek.
 
 
+=== Adjunktive Behandlung von Existenz- und Allquantifikation
+
+* Klar: exists -| Pullback -| forall.
+
+* Im Kontext von Teilmengen und einer Abbildung f : X --> Y:
+
+      exists_f : (M <= X) |--> f[M] = { y | exists x. y = f(x) und x in M }
+
+          ist linksadjungiert zu
+
+      f^{-1} : (N <= Y) |--> f^{-1}[N] = { x | f(x) in N }
+
+          ist linksadjungiert zu
+
+      forall_f : (M <= X) |--> { y | forall x. y = f(x) ==> x in M } =
+                               { y | f^{-1}[y] <= M }
+
+* Beispiel: forall_f(Menge der regulären Punkte) = Menge der regulären Werte.
+
+* Wieso gibt es bei der Produkt-/Hom-Adjunktion keinen dritten beteiligten
+  Funktor, hier aber schon? Das wird in /A bifibrational reconstruction of
+  Lawvere’s presheaf hyperdoctrine/ von Paul-André Melliès und Noam Zeilberger
+  aufgelöst.
+
+
 === Nächste Schritte
 
 * Für den Rückzug mit f^* statt f^(-1) auf Spec k(x)

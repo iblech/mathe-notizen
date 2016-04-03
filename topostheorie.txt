@@ -420,3 +420,8 @@ course, it’s worth noting that the reference frame we live in is not inertial!
   the penetration of localic methods in topos theory.
 
 * http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf lesen
+
+* Jeder (Grothendieck-)Topos hat ja eine boolsche Überdeckung.
+  Wie äußerst sich das aus interner Sicht? Muss doch eine tolle Sache sein (aus
+  interner Sicht), einen Raum (Topos) zu haben, der boolsch ist und sodass eine
+  Aussage genau dann gilt, wenn sie zurückgezogen auf diesen Raum gilt.
