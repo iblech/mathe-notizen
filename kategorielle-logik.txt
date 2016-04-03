@@ -505,6 +505,14 @@ Von Peter Arndt empfohlen: Lambek.
   Lawvere’s presheaf hyperdoctrine/ von Paul-André Melliès und Noam Zeilberger
   aufgelöst.
 
+  Mike formuliert es so: (A x __) und (__)^A sind Kompositionen von
+  adjungierten Funktoren:
+
+      (A x __) = p_! . p^{-1}
+      (__)^A   = p_* . p^{-1}
+
+  https://nforum.ncatlab.org/discussion/7026/focusing/?Focus=56775#Comment_56775
+
 
 === Nächste Schritte
 

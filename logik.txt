@@ -21,6 +21,14 @@
   gilt. Also gilt doch x0 \in U. Widerspruch.
 
 
+=== Chaitin
+
+* http://math.ucr.edu/home/baez/surprises.html
+
+  There exists a constant L such that no string of bits has Kolmogorov
+  complexity that provably exceeds L.
+
+
 === Unlösbare Probleme
 
 Poonen.
