@@ -51,3 +51,6 @@ wieder eine Algebra (Hom in Ab). Für f, g in {C,A} ist ihr Produkt als
      Komult.       f tensor g         Mult.
 
 definiert.
+
+* Ist C die Koalgebra der (n x n)-Komatrizen, ist ist {C,A} die Algebra
+  der (n x n)-Matrizen mit Einträgen aus A.
