@@ -905,6 +905,13 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
   Sei P in A ein kompakter projektiver Erzeuger. Dann ist A äquivalent zu
   Mod(R), wobei R = End(P)^op.
 
+* Die (1-)Kategorie der Partialordnungen ist nicht zu Set äquivalent. Denn
+  sie ist nicht balanciert. Etwa ist der Morphismus
+
+      { 0, 1} ---> { 0 < 1 }
+
+  injektiv und surjektiv (somit ein Bimorphismus), aber kein Isomorphismus.
+
 
 === Kopotenzen
 

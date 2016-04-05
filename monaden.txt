@@ -48,10 +48,10 @@ Dann wird
 mit der Multiplikation U eps F zu einer Monade.
 
 
-=== Eilenberg-Moore-Kategorie
+=== Eilenberg--Moore-Kategorie
 
 Ist T eine Monade, so heißt die Kategorie C^T der T-Algebren (oder T-Moduln)
-auch Eilenberg-Moore-Kategorie.
+auch Eilenberg--Moore-Kategorie.
 
 Das besondere an ihr: Man hat die Adjunktion
 
@@ -72,7 +72,12 @@ Rechtsadjungierten von T.)
 
 === Kleisli-Kategorie
 
-XXX
+Die Kleisli-Kategorie C_T einer Monade T : C --> C hat als Objekte die von C und
+als Morphismen "X --> T(Y)" mit der aus Haskell vertrauten Komposition.
+
+* Sie ist die volle Unterkategorie der Eilenberg--Moore-Kategorie auf den
+  freien T-Algebren. Genauer ist der Funktor C_T --> C^T, X |--> T(X)
+  volltreu.
 
 
 === Monadische Funktoren und Kategorien
@@ -91,6 +96,44 @@ eine Äquivalenz ist. In diesem Fall heißt D auch monadisch über C.
 
 * Es gibt Charakterisierungen von Monadizität: Barr--Beck & Co.
   https://ncatlab.org/nlab/show/monadicity+theorem
+
+* Die Kategorie der Partialordnungen ist nicht monadisch über Set
+  (zumindest nicht vermöge des vertrauten Vergissfunktors). Denn der
+  Linksadjungierte zum Vergissfunktor ist der "diskrete
+  Partialordnung"-Funktor. Die induzierte Monade ist also die Identitätsmonade.
+  Die Kategorie ihrer Algebren ist einfach wieder die Kategorie der Mengen.
+  Diese ist nicht äquivalent zur Kategorie der Partialordnungen.
+
+  Ist keine Überraschung, denn die Theorie der Partialordnungen ist ja nicht
+  "algebraisch".
+
+* Die Kategorie der vollständigen atomischen Heyting-Algebren (CAHA)
+  ist monadisch über Set. Die zugehörige Monade ist die doppelte
+  Potenzmengenmonade.
+
+* Auch die Kategorie der vollständigen Partialordnungen (mit
+  Suprema-bewahrenden Abbildungen) ist monadisch über Set. Die zugehörige
+  Monade ist die (einfache, kovariante) Potenzmengenmonade.
+
+  Ganz explizit kann man das so sehen: Eine vollständige Partialordnung A
+  induziert die Algebra (PA --sup--> A). Ist umgekehrt eine Algebra (PA --a--> A)
+  gegeben, so können wir auf A die Struktur einer Partialordnung einführen,
+  durch
+
+      x <= y  :<==>  x v y = y, wobei
+
+          x v y = a({x,y}).
+
+  Diese Partialordnung ist auch wirklich vollständig, denn sup U wird durch
+  a(U) gegeben. Um die universelle Eigenschaft nachzuweisen (z mit x <= z für
+  alle x aus U sei gegeben), muss man eine Rechnung der Form
+
+      a(U) v z = a({ a(U), z }) = a(U cup {z}) =
+          a(bigcup_{x in U} {x,z} cup {z}) =
+          a({ x v z | x in U } cup {z}) =
+          a({z | x in U} cup {z}) = a({z}) = z
+
+  führen.
 
 
 === Beispiele für Monaden und ihre Algebren
