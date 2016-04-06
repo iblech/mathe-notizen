@@ -109,7 +109,9 @@ eine Äquivalenz ist. In diesem Fall heißt D auch monadisch über C.
 
 * Die Kategorie der vollständigen atomischen Heyting-Algebren (CAHA)
   ist monadisch über Set. Die zugehörige Monade ist die doppelte
-  Potenzmengenmonade.
+  Potenzmengenmonade (genauer: die Komposition des kontravarianten
+  Potenzmengenfunktors mit sich selbst; das ist was anderes als die Komposition
+  des kovarianten Potenzmengenfunktors mit sich selbst).
 
 * Auch die Kategorie der vollständigen Partialordnungen (mit
   Suprema-bewahrenden Abbildungen) ist monadisch über Set. Die zugehörige

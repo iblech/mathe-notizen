@@ -359,3 +359,11 @@ http://www.ams.org/notices/201110/rtx111001410p.pdf
 
 * http://www.bankofengland.co.uk/publications/Documents/quarterlybulletin/2014/qb14q102.pdf
 * Bitcoin-Einführung von Nielsen: http://www.michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/
+
+
+=== Karlsruher Physik-Kurs
+
+Er ist cool.
+
+http://www.physik.uni-regensburg.de/forschung/strunk/docs/stellungnahme_online_strunk_rincke.pdf
+http://www.physik.hu-berlin.de/de/top/dpg-stellungnahme-zum-kpk_erklaerung-von-theorieprofessoren-1.pdf
