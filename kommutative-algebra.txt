@@ -1029,6 +1029,15 @@ Sei M ein B-Modul. Dann ist M \otimes_A B kanonisch B-isomorph zu M.
 Folgendes stimmt aber nicht: Sei N ein A-Modul. Dann ist N \otimes_A B
 kanonisch A-isomorph zu N.
 
+* Skalarerweiterung längs phi -| Skalareinschränkung -| Hom_A(B, __).
+
+* Übrigens: Habe nicht nur Z --> Z[G], sondern auch Z[G] --> Z.
+  (Kann mir Z[G] als Z[X^g | g in G]/(X^g X^h - X^gh, X^1 - 1) denken.)
+
+  Somit habe Koinvarianten -| mit trivialer G-Wirkung ausstatten -|
+  Invarianten. (Koinvarianten nehmen ist Tensorieren mit Z über Z[G]. Finde die
+  Koendeformel dazu sehr schön. :-))
+
 
 === Zusammenhang zu Vektorbündeln
 

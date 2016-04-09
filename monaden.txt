@@ -136,6 +136,26 @@ eine Äquivalenz ist. In diesem Fall heißt D auch monadisch über C.
   führen.
 
 
+=== Lifting von Adjunktionen
+
+Sei ein kommutatives Diagramm von Funktoren gegeben:
+
+    A ----> B
+    |       |
+    |       |
+    v       v
+    C ----> D
+
+Seien die beiden vertikalen Funktoren monadisch und besitze A Kodifferenzkerne
+von reflexiven Paaren.
+
+Dann: Wenn der untere horizontale Funktor einen Linksadjungierten besitzt,
+dann besitzt auch der obere horizontale Funktor einen Linksadjungierten.
+
+* Hat interessante Korollare zur Monadizität und zur Existenz von Limiten.
+  Siehe nLab https://ncatlab.org/nlab/show/adjoint+lifting+theorem.
+
+
 === Beispiele für Monaden und ihre Algebren
 
 Auf Set:
@@ -152,7 +172,7 @@ Auf Set:
    T-Algebren sind Rechts-M-Mengen.
 
 4. TX := 1.
-   T-Algebren sind Singletonmengen.
+   T-Algebren sind Singletonmengen. [oder punktierte Mengen?]
 
 5. TX := (X x S)^S.
    T-Algebren sind ???.

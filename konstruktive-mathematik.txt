@@ -65,6 +65,31 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
   Peter Schuster. Problems, Solutions, and Completions.
 
 
+=== Type-2 Theory of Effectivity
+
+* Ziegler, Brattka: A computable spectral theorem.
+  https://pdfs.semanticscholar.org/a669/d482836f92827fd98d4c266489b54b9f0183.pdf
+
+  Hier wird wiederholt, welche Operationen aus der linearen Algebra alle
+  berechenbar (oder zumindest von unten oder oben approximierbar) sind:
+  Kern, Spann, ...
+
+* Die stetige Familie exp(-1/eps^2) [cos(2/eps), sin(2/eps); sin(2/eps), -cos(2/eps)]
+  von reellen symmetrischen Matrizen (mit der Nullmatrix im Fall eps = 0)
+  zeigt, dass die Berechnung von Eigenbasen nicht stetig ist.
+
+  Für eps != 0 erhält man nämlich die Basen
+
+      (cos(1/eps), sin(1/eps)), (sin(1/eps), -cos(1/eps))
+
+  (bis auf Reihenfolge und Orientierung).
+
+  Das Beispiel stammt von Rellich. Siehe Proposition 12 in Ziegler/Brattka für
+  Details.
+
+* Weihrauch, Computable Analysis.
+
+
 === Noetherianität
 
 * Coquand und Lombardi (Foliensatz /Krull's Principal Ideal Theorem/)

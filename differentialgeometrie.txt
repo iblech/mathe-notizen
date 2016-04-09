@@ -29,6 +29,14 @@ https://golem.ph.utexas.edu/category/2010/01/quasicoherent_stacks.html#c030914
 Definiere auf Testräumen, dann allgemeiner Nonsens.
 
 
+=== Theorem von Peetre
+
+Jeder "Operator" Gamma^infty(E) --> Gamma^infty(F) (linear auf Schnitten,
+Träger vergrößernd) ist ein Differentialoperator.
+
+https://en.wikipedia.org/wiki/Peetre_theorem
+
+
 === Literatur
 
 * http://www.cs.columbia.edu/~keenan/Projects/DGPDEC/paper.pdf
