@@ -790,6 +790,48 @@ language.
   http://mathoverflow.net/questions/139874/pullback-stability-of-internally-projective-objects/140262#140262
   verstehen.
 
+* Sei U ein Objekt in einem Situs C. Dann ist Sh(C/U) zu Sh(C)/yU äquivalent.
+  (Dabei meine ich mit yU die Garbifizierung von Hom(__,U), falls das nötig
+  sein sollte.)
+
+  Der Funktor Sh(C/U) --> Sh(C)/yU ist dabei durch j_! gegeben, der berechnet
+  die Garbifizierung der Prägarbe
+
+      V |--> coprod_{phi in Hom(V,U)} G(V -phi-> U).
+
+  (Ich glaube, dass die Garbifizierung überflüssig ist, wenn Hom(__,U) eine
+  Garbe ist.)
+
+  Der Funktor in die Rückrichtung schickt eine Garbe (F -phi-> yU) auf die Garbe
+
+      (V -a-> U) |--> { s in F(V) | phi_V(s) = a }.
+
+  Wenn man Sh(C)/yU mit Sh(C/U) identifiziert, sehen die drei üblichen
+  Funktoren so aus:
+
+      j^* : Sh(C) --> Sh(C/U), F |--> (V -a-> U |-> F(V))
+
+      j_! : Sh(C/U) --> Sh(C), G |--> Garbifizierung wie oben
+
+      j_* : Sh(C/U) --> Sh(C), G |--> HOM_U(U, Garbifizierung wie oben)
+
+  Im Spezialfall, dass C die Kategorie offener Teilmengen einer Örtlichkeit
+  ist, hat j_!(G) einfach die Beschreibung
+
+      V |--> { G(V) | V <= U }
+
+  und der Funktor in die Rückrichtung die Beschreibung
+
+      (V <= U) |--> F(V),
+
+  also einfach nur Einschränkung. Dann sehen die drei Funktoren so aus:
+
+      j^* : F |--> F|_U
+
+      j_! : G |--> die bekannte Fortsetzung durch die leere Menge von G
+
+      j_* : G |--> der bekannte Pushforward j_*(G)
+
 
 === Limiten und Kolimiten in der 1-Kategorie Cat
 

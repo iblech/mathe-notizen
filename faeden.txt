@@ -233,6 +233,9 @@
 
 === Interne Methoden
 
+* http://www.math.lsa.umich.edu/~ablass/eatcs.pdf: Geometrische Morphismen
+  bewahren "existenzielle Fixpunktlogik"!
+
 * Überlege, was man konstruktiv wirklich benötigt, um zu zeigen, dass
   der Pushforward einer welken Garbe welk ist. Vielleicht benötigt man, dass
   die Abbildung, längs der man vordrückt, abgeschlossen ist?
