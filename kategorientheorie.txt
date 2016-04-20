@@ -749,7 +749,7 @@ language.
 
     HOM(X, Y) = { <a, X|_a --> Y|_a> }.
 
-* In G-Set/A ist das innere Hom gegebe durch dieselbe Konstruktion,
+* In G-Set/A ist das innere Hom gegeben durch dieselbe Konstruktion,
   mit G-Wirkung durch
 
       g . <a,f> := <ga, gf>,
@@ -761,6 +761,8 @@ language.
       Hom(T, p_* p^* X) = Hom(p^* T, p^* X) = Hom(p_! p^* T, X) =
           Hom(T x A, X) = Hom(T, [A,X]) = Hom(T, [p_!(1), X]).
 
+  Dabei ist p : E/A --> E.
+
 * Allgemeiner gilt p_* [T, p^*(X)]_{E/A} = [p_!(T), X]_E, denn:
 
       Hom_E(Q, p_* [T, p^*(X)]_{E/A}) =
@@ -771,6 +773,18 @@ language.
       Hom_E(Q x T, X) =
       Hom_E(Q x p_!(T), X) =
       Hom_E(Q, [p_!(T), X]_E)
+
+* Sei p : E/A --> A, wobei A --> 1 ein Mono ist. Dann p_*(X) = [A, X], denn
+
+      Hom(T, p_*(X)) = Hom_A(T x A, X) = Hom(T x A, X) = Hom(T, [A, X]).
+
+  Ferner gilt in diesem Fall p^*(p_*(X)) = X, denn
+
+      Hom_A(T, p^*(p_*(X))) = Hom(T, p_*(X)) = Hom_A(T x A, X) = Hom_A(T, X),
+
+  denn in E/A sind T und T x A (Produkt in E) isomorph. Ebenso gilt p^*(p_!(X)) = X, denn
+
+      Hom_A(T, p^*(p_!(X))) = Hom(T, X) = Hom_A(T, X).
 
 * Beschreibung von Alex Simpson in
   http://mathoverflow.net/questions/139874/pullback-stability-of-internally-projective-objects/140262#140262

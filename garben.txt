@@ -122,6 +122,46 @@
   http://mathoverflow.net/a/45218/31233
 
 
+=== Beispiele von Zurückziehen und Vordrücken
+
+* Sei i : {x} --> X die Inklusion eines Punkts. Dann kann Zurückziehen längs i
+  mit Halm nehmen bei x identifiziert werden. (Der Rückzug einer Garbe längs i
+  ist eine Garbe auf {x}. Eine solche Garbe ist schon durch ihren Halm an dem
+  eindeutigen Punkt gegeben.)
+
+  Vordrücken von Garben i produziert Wolkenkratzergarben.
+
+* Sei j : U --> X die Inklusion einer offenen Teilmenge. Dann ist Zurückziehen
+  längs j dasselbe wie Einschränken auf U.
+
+  Achtung: Drückt man eine Garbe auf U längs j vor, so erhält man eine
+  Garbe, die nicht notwendigerweise nur auf U Träger hat. Die vorgedrückte
+  Garbe ist also *nicht* eine Art "Fortsetzung durch Null" der gegebenen
+  Garbe.
+
+  Wenn man das möchte, darf man nicht j^{-1} nehmen, sondern man muss
+  dessen Extra-Linksadjungierten j_! verwenden. j_! -| j^{-1} -| j_*.
+  (In der internen Sprache hat der eine wunderbar einfache Beschreibung.)
+
+* Sei ! : X --> pt die eindeutige Abbildung in den einpunktigen Raum.
+  Dann ist Vordrücken längs ! dasselbe wie globale Schnitte nehmen.
+
+  Zurückziehen längs ! konstruiert konstante Garben.
+
+* Sei f : X --> Y eine abgeschlossene Abbildung. Dann kann man die
+  Halme von vorgedrückten Garben einfach berechnen:
+
+      (f_*(F))_y = Gamma(f^{-1}[y], F) := colim F(U),
+
+  wobei der Kolimes über alle offenen Mengen U, welche die Faser f^{-1}[y]
+  umfassen, läuft.
+
+* Sei f : S^1 --> S^1 die Quadrierungsabbildung (S^1 als Teilmengen von C
+  aufgefasst). Sei ZZ die konstante Garbe mit Wert Z auf S^1. Dann ist
+  f_*(ZZ) eine Garbe auf S^1, welche lokal konstant ist, aber nicht global
+  konstant ist. Ihre Halme sind alle isomorph zu Z^2.
+
+
 === Garbifizierung
 
 * Sei phi : F --> aF die Garbifizierung einer Prägarbe. Dann gilt
