@@ -275,6 +275,17 @@ gesamten Raum ist.
 
 * Stetige Abbildungen Kompaktum --> Hausdorffraum sind stets abgeschlossen.
 
+* Eine stetige Abbildung f : X --> Y ist genau dann abgeschlossen, wenn für
+  alle y in Y und alle offenen Umgebungen U von f^{-1}[y] in X eine offene
+  Umgebung V von y in X mit f^{-1}[V] <= U existiert. Siehe Wedhorn, Manifolds,
+  sheaves and cohomology, Seite 86.
+
+  "==>": Wähle zu gegebenem y und U die offene Menge V := f[U^c]^c.
+
+  "<==": Sei A <= X abgeschlossen. Wir wollen zeigen, dass f[A]^c offen ist.
+  Sei dazu y aus f[A]^c beliebig. Dann liefert die Voraussetzung zu y und U := A^c
+  eine offene Menge V <= Y. Diese enthält y und liegt ganz in f[A]^c.
+
 
 === Zerlegungen der Eins
 

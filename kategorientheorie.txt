@@ -425,6 +425,8 @@ Ferner gilt:
 
   Die Umkehrung schickt mu auf (^Tid_GX . Lmu_X)_X.
 
+* Sei F -| G. Dann G^op -| F^op.
+
 * Dreiecksidentitäten für eps : LR ==> Id und eta : Id ==> RL:
 
       eps_LX . L eta_X = id_LX
@@ -438,6 +440,15 @@ Ferner gilt:
 
   Sei R volltreu. Dann ist eps : LR ==> Id ein Iso. Somit sind auch L eta
   und eta R Isos.
+
+* Sei L -| R. Gelte, dass der Funktor LR vermöge irgendeiner natürlichen
+  Trafo isomorph zum Identitätsfunktor ist. Dann ist LR schon vermöge der
+  Koeins der Adjunktion (eps : LR ==> Id) isomorph zum Identitätsfunktor.
+  https://ncatlab.org/nlab/show/adjoint+functor#ReflectionRecognizedByIdempotency
+
+  Es stimmt aber nicht, dass wenn LR(X) für ein bestimmtes X isomorph zu X ist,
+  dass LR(X) dann auch schon vermöge der Koeins bei X isomorph zu X ist.
+  (Gegenbeispiel?)
 
 * Sei (f -| g) : N --> N eine Galois-Verbindung, also
 

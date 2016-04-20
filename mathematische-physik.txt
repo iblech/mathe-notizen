@@ -12,6 +12,15 @@ Coalgebraic Quantum Computation.
 http://arxiv.org/abs/1408.0050
 
 
+=== Urs
+
+* http://arxiv.org/abs/1402.7041
+  Quantization via Linear homotopy types
+  "For the reader inclined to the interpretation of quantum mechanics we
+  exhibit quantum superposition and interference as existential quantification
+  in linear homotopy-type theory."
+
+
 === Nächste Schritte
 
 * Lesen: A higher stacky perspective on Chern-Simons theory.
