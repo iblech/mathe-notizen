@@ -50,6 +50,27 @@
   http://mathoverflow.net/questions/1080/how-to-compute-the-cohomology-of-orbit-spaces-when-the-action-is-not-free
 
 
+=== Leider kein Topos-Kodifferenzkern
+
+Wirke eine diskrete Gruppe G auf einem Raum X. Dann hat man
+
+    die Wirkung     rho : G x X --> X  und
+    die Projektion   pi : G x X --> X.
+
+Man könnte daher denken, dass die Kategorie der G-äquivarianten Garben auf X
+(also Garben auf X zusammen mit G-Linearisierung) der Kodifferenzkern
+
+    Sh(G x X) ===> Sh(X) ---> Sh(X)_G
+
+ist. Aber das ist leider nicht der Fall, wie die Betrachtung des Spezialfalls X = pt
+zeigt: Denn dann sieht dieses Diagramm so aus,
+
+    Set^G ===> Set ---> G-Set,
+
+und ist gewiss kein Kodifferenzkerndiagramm, denn die beiden parallelen
+Morphismen vorne sind gleich. Der Kodifferenzkern ist also einfach wieder Set.
+
+
 === Kohomologie des gewöhnlichen Quotienten X/G
 
 * Falls X lokal kompakt und hausdorffsch ist und G endlich ist, so habe
