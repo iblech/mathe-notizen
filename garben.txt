@@ -196,6 +196,25 @@
   (Das heißt, dass in jeder Überdeckung von U schon U selbst vorkommt.) Dann
   ist (aF)(U) = F(U) (kanonisch).
 
+* Damit kann man eine schöne Begründung dafür angeben, wieso die Halme
+  sich beim Garbifizieren nicht ändern. Ist f : Y --> X eine stetige Abbildung,
+  so hat man ein kommutatives Diagramm:
+
+        Sh(X) ^----> PSh(X)
+          ^            ^
+          |            |
+          |            |
+        Sh(Y) ^----> PSh(Y)
+
+  Es ist nämlich klar, dass das Diagramm auf Niveau der Vordrückfunktoren
+  kommutiert. Da Adjungierte eindeutig sind, also auch auf Niveau der
+  Rückziehfunktoren.
+
+  Also ergibt es dasselbe, ob man eine Prägarbe erst garbifiziert und dann auf
+  den Punkt zurückzieht, oder ob man sie erst auf den Punkt zurückzieht (also
+  ihren Halm berechnet) und dann garbifiziert (auf dem Punkt). Letzteres ändert
+  aber nicht die globalen Schnitte.
+
 * Sei E eine Prägarbe abelscher Gruppen. Sei E(U) = 0 für alle U
   aus einer Basis der Topologie. Dann ist aE = 0.
 
