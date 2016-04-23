@@ -374,3 +374,8 @@ http://www.physik.hu-berlin.de/de/top/dpg-stellungnahme-zum-kpk_erklaerung-von-t
 * sin(omega_1 t + phi_1) * sin(omega_2 t + phi_2) bleibt im Integral zeitlich
   beschränkt, wenn omega_1 != omega_2. (Im Fall, dass phi_1 = phi_2, gibt es
   einen Vorfaktor der Form 1/(omega_1 - omega_2).)
+
+
+=== Konzept der kognitiven Kontrolle
+
+http://d-scholarship.pitt.edu/9529/

@@ -202,6 +202,10 @@ offenabgeschlossenen Teilmengen. Stichwort Stone-Dualität.
       (F|_Sh(S) --> mu_*(F|_Sh(T))) . phi|_Sh(S) =
           mu_*(phi|_Sh(T)) . (E --> mu_* mu^(-1) E).
 
+* Der laxe 2-Kolimes von Sch/S --> Topoi (dem Pseudofunktor, der einem S-Schema
+  seinen kleinen Zariski-Topos zuordnet) ist der große Zariski-Topos von S.
+  https://golem.ph.utexas.edu/category/2009/01/petit_topos_gros_topos.html#c021550
+
 
 === Proj-Konstruktion
 

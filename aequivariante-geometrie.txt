@@ -221,6 +221,21 @@ Dann gilt:
     e(P^1/(Z/m)) = e(P^1) = 2.
 
 
+=== Affine Gerade modulo multiplikative Gruppe
+
+https://golem.ph.utexas.edu/category/2009/06/algebraic_geometry_for_categor.html#c025044
+
+One of the nicest important examples of an Artin stack is even simpler, namely
+the quotient of just the affine line by the multiplicative group. It has the
+nice feature that coherent sheaves on it are the same as filtered vector
+spaces. Simpson has used this picture to define what it means to have a
+filtration on all kinds of things, like on schemes or stacks or categories or
+higher categories or… - it just means that you have a scheme/category/etc. over
+this quotient stack, or equivalently you have one over the affine line,
+equivariantly for the action of the multiplicative group. This is how one
+defines eg the Hodge filtration on nonabelian cohomology.
+
+
 === Tangentialraum
 
 Wirke auf X eine Gruppe G. Sei X^G der Unterraum der Fixpunkte. Sei x aus X^G.

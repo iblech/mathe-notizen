@@ -165,6 +165,13 @@ präsentierbar.
   im Topos E. Ist E lokal präsentierbar -- etwa weil E ein Grothendiecktopos
   ist -- so ist Ring(E) daher ebenfalls lokal präsentierbar.
 
+* Die Kategorie der Örtlichkeiten ist nicht zugänglich.
+  https://golem.ph.utexas.edu/category/2009/01/petit_topos_gros_topos.html#c021641
+
+* Die Kategorie der affinen Schemata auch nicht (denn ihr formal Duales
+  ist die Kategorie der Ringe).
+  https://golem.ph.utexas.edu/category/2009/01/petit_topos_gros_topos.html#c021641
+
 
 === Kategorie der Ringe
 
