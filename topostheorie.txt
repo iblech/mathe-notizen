@@ -15,7 +15,12 @@
   So wird aus den höheren direkten Bildern einfach gewöhnliche Kohomologie!
   Kann man das ausnutzen? Gibt es "relative Čech-Kohomologie"?
 
-*
+* H^i(T/X, F) = H^i(X, F|_X). http://arxiv.org/pdf/math/0306176v1.pdf
+  Wenn das auch für den großen Zariski-Topos stimmt, so kann ich
+  Garbenkohomologie auch in ihm berechnen! Wäre gut!
+
+  Jup, sollte stimmen. Liegt im Wesentlichen daran, dass pi_* (Einschränken)
+  exakt ist und einen linksexakten Linksadjungierten besitzt.
 
 
 === Darstellung von Topoi
@@ -33,6 +38,18 @@
   Linksadjungierten besitzt), sodass Kohomologie von abelschen Gruppen in E
   zu gewöhnlicher Garbenkohomologie von X wird.
   http://www.academia.edu/9139781/Logical_and_Cohomological_Aspects_of_the_Space_of_Points_of_a_Topos
+
+
+=== Kleine und große Topoi
+
+* Große Topoi sehen wie eine Art dicker Punkt aus (unabhängig davon, wie viel
+  Punkte sie haben). Damit ist "dick" nicht im algebro-geometrischen Sinn
+  gemeint.
+
+  Denn: Scheibentopoi sind Topoi, die lokal wie der Basistopos aussehen. Aber
+  ein S-Schema X sieht lokal ganz und gar nicht wie S aus. Es passt alles
+  zusammen, da Zar(S) nur eine Art Punkt ist und Zar(S)/X durchaus lokal wie
+  ein Punkt aussieht.
 
 
 === Lawvere--Tierney-Topologien
