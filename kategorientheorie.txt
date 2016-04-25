@@ -30,6 +30,37 @@ http://mathoverflow.net/a/6715/31233
   richtigen Urbilds nötigen Information.
 
 
+=== Graph und Kograph von Abbildungen
+
+* Der Graph einer Abbildung f : X --> Y ist der Differenzkern von
+
+      (pi_2, f . pi_1) : X x Y =====> Y.
+
+* Ihr Kograph sollte also der Kodifferenzkern von
+
+      (iota_1, iota_2 . f) : X =====> X amalg Y
+
+  sein.
+
+* Es ist mehr oder weniger dieser Kograph, den wir malen, wenn wir
+  Abbildungen mit Mengen, Pünktchen und Abbildungspfeilen visualisieren.
+
+http://mathoverflow.net/a/154846/31233
+
+
+=== Lustige (Ko-)Limiten
+
+* Als Gruppoid lässt sich Z als Pushout
+
+    { 0, 1 } ----> { 0 }
+       |
+       |
+       v
+    { 0->1 }
+
+  charakterisieren. http://mathoverflow.net/a/154938/31233
+
+
 === Flache Funktoren
 
 https://ncatlab.org/nlab/show/flat+functor
