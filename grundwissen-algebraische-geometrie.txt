@@ -68,6 +68,19 @@ http://www.math.ru.nl/~jcommelin/files/schintro.pdf
   Im Fall, dass R selbst lokal ist, ist das gleichbedeutend damit, dass die
   Dimension von R <= 0 ist.
 
+* Ein Ring A ist genau dann nicht der Nullring (zumindest in klassischer
+  Logik), wenn es einen Morphismus A --> B in einen lokalen Ring gibt, der
+  keine Lokalisierung ist.
+
+  Die Richtung "<==" ist klar. Zur Richtung "==>" wähle ein maximales Ideal m
+  und betrachte dann A --> A/m --> Quot (A/m)[X]. Dieser Morphismus kann keine
+  Lokalisierung sein.
+
+  Konsequenz daraus ist: Sei A nicht der Nullring. Dann gibt es ein A-Schema X
+  und einen Punkt x von X, sodass der induzierte Morphismus A --> O_{X,x} keine
+  Lokalisierung ist. (Nimm nämlich X = Spec B und x der eindeutige
+  abgeschlossene Punkt, dann O_{X,x} = B_m = B.)
+
 
 === Dominanz
 

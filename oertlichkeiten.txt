@@ -187,6 +187,24 @@ condition. In addition, they must satisfy a continuity condition that F(a) ∼=
 colim_{a <= a'} F(a').
 
 
+=== Interne Örtlichkeiten
+
+* Hom_Loc(A_diskret, X) = Hom_Set(A, Pt(X)), durch
+
+      (phi : A_diskret --> X) |---> (a |-> { U | a in phi(U) })
+
+  und
+
+      (psi : A --> Pt(X)) |---> (U |-> { a | U in psi(a) }).
+
+* Als Konsequenz hat man für eine interne Örtlichkeit X in einem Topos E:
+
+      Hom_{Loc(E)}(E/A, X) = Hom_E(A, Pt(X)).
+
+* Um die offenen Dinge zu rekonstruieren, muss man Abbildungen in (Varianten
+  des) Sierpinski-Raums betrachten.
+
+
 === Literatur
 
 * Klar: Johnstone (zwei Einführungsartikel, Stone Spaces, Elephant)
