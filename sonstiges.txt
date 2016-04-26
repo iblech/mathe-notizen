@@ -379,3 +379,12 @@ http://www.physik.hu-berlin.de/de/top/dpg-stellungnahme-zum-kpk_erklaerung-von-t
 === Konzept der kognitiven Kontrolle
 
 http://d-scholarship.pitt.edu/9529/
+
+
+=== Heuristik über raumfüllende Kurven
+
+Eine Heuristik, um eine akzeptable Lösung fürs TSP zu erhalten: Bilde das
+Problem durch eine raumfüllende Kurve auf ein eindimensionales Problem ab.
+Sortiere die Städte dort. Bilde zurück ab.
+
+http://pubsonline.informs.org/doi/pdf/10.1287/mnsc.34.3.291
