@@ -1726,6 +1726,17 @@ PS: If you are into such things, here is the logical background:
   wobei "..." ein geeigneter Ausdruck ist, der im Fall x = x0 zu P(T_x0 X)
   wird. Dabei ist T_x0 X natürlich { f : Delta --> X | f(0) = x0 }.
 
+* Genau dann gilt Zar(A) |== (AA --> A^1 ist eine Lokalisierung), wenn A der
+  Nullring ist.
+
+  Trotzdem ist AA --> A^1 an manchen Punkten eine Lokalisierung! Etwas komisch.
+
+* Aus sicht von Zar(A) gilt: Hom(E, Spec(A)) = [[ AA --> A^1 ist eine
+  Lokalisierung in E ]], für alle Topoi E (wie gesagt, aus Sicht von Zar(A);
+  und vielleicht sollte ich mich auf Grothendieck-Topoi beschränken, um
+  sicherzustellen, dass die universelle Eigenschaft von Spec(A) verwendbar
+  ist).
+
 A Sei F qcoh O_S-Algebra. Dann könnte man denken, dass [F~, A^1]_A^1 = RelSpec F.
   Dabei F~(mu : T --> S) = Gamma(T, mu^* F).
 

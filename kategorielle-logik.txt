@@ -154,6 +154,15 @@ Es gilt zumindest für alle s aus X(U): chi_U(s) = U <==> U |== phi[s/x].
   der vordere Modul von endlicher Präsentation ist. Siehe meine Antwort auf
   StackExchange: http://math.stackexchange.com/questions/16203/why-doesnt-hom-commute-with-taking-stalks/645385#645385
 
+* Die Aussage "der Ringhomo phi : A --> B ist eine Lokalisierung" ist eine
+  geometrische Implikation, denn sie ist äquivalent zu "der kanonische Homo
+  A[S^(-1)] --> B ist bijektiv (wobei S = phi^{-1}[B^x])" und das wiederum
+  bedeutet ausgeschrieben:
+
+      forall y : B. exists x, s : A. phi(s) invertierbar und phi(s) y = b.
+          wedge
+      forall x : A. phi(x) = 0 ==> exists s : A. phi(s) invertierbar und sx = 0.
+
 
 === Generischer Halm
 
