@@ -105,6 +105,14 @@ mit W' := W wedge U das gesuchte Urbild (W' in F, W' <= U wedge V).
   klassischer Logik, konstruktiv natürlich nicht) räumlich.
 
 
+=== Lokale Örtlichkeiten
+
+* Lokale Örtlichkeiten besitzen stets einen örtlichkeitstheoretischen
+  Punkt, nämlich den vollständig primen Filter
+
+      { U in Ouv(X) | U = top }.
+
+
 === Kleinste dichte Unterörtlichkeit
 
 * Sh(X_negneg) sollte isomorph sein zu Sh_negneg(X).

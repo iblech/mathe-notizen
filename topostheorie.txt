@@ -87,6 +87,14 @@
 * Ist F --> E ein lokaler geometrischer Morphismus, wo wird E zu einer
   Kategorie von Garben bezüglich einer Lawvere--Tierney-Topologie in F.
 
+* Lokale geometrische Morphismen bewahren Objekte von dedekindschen reellen
+  Zahlen.
+
+* Sei f : X --> Y eine stetige surjektive Abbildung von nüchternen
+  Räumen, sodass jede Faser f^{-1}[y] einen Brennpunkt c_y besitzt
+  und sodass y |--> c_y als Abbildung Y --> X stetig ist. Dann ist
+  f : Sh(X) --> Sh(Y) ein lokaler geometrischer Morphismus.
+
 
 === Degeneration von Topoi
 
