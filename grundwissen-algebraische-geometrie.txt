@@ -756,7 +756,7 @@ die Idealgarbe sein.
 Sei f : Y --> X eine abgeschlossene Immersion. Sei I die zugehörige Idealgarbe.
 Dann hat I/I^2 Träger auf Y, kann also als Modul auf Y angesehen werden.
 Der so definierte O_Y-Modul ist N_{Y/X}^vee, die Konormalgarbe.
-[ Kurz: Die Konormalgarbe ist f^*(I). Ist es wirklich so einfach? ]
+[ Kurz: Die Konormalgarbe ist f^*(I). Ist es wirklich so einfach? Jup. ]
 
 Die Normalgarbe ist der ihr O_Y-Duales.
 
