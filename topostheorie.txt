@@ -415,6 +415,13 @@ non-classical toposes corresponds to the theory of general relativity. (And, of
 course, it’s worth noting that the reference frame we live in is not inertial!)
 
 
+=== Domänentheorie (domain theory) toposophisch
+
+* https://www.cs.bham.ac.uk/~sjv/TopCat.pdf
+
+* Außerdem natürlich Andrej Bauers Notizen.
+
+
 === Nächste Schritte
 
 * Sind die Garben bezüglich der kanonischen Topologie auf einem Topos E
