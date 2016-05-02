@@ -537,7 +537,7 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
       "Z[sqrt(5)]/(sqrt(5)-1) = Z[1] = Z" ist Quatsch. Richtig:
 
       Z[sqrt(5)]/(sqrt(5)-1) = Z[X]/(X^2-5, X-1) = Z[X]/(1-5, X-1) =
-        (Z/(6))[X]/(X-1) = Z/(6).
+        (Z/(4))[X]/(X-1) = Z/(4).
 
 * Sei a + b endlich erzeugt. Dann gibt es endlich erzeugte Ideale a_0 <= a
   und b_0 <= b mit a + b = a_0 + b_0.
@@ -989,6 +989,11 @@ Sei M eine quadratische Matrix über einem Ring.
 * Sei A ein Integritätsbereich. Sei A <= B <= A-quer (ganzer Abschluss von A).
   Sei B ganz abgeschlossen (absolut oder in A-quer, das ist äquivalent, da
   Quot(B) = Quot(A-quer)). Dann ist schon A-quer = B.
+
+* Sei K | Q ein Zahlkörper. Dann gilt auch konstruktiv: Eine K-Basis von O_K,
+  welche ganz ist, ist genau dann eine Ganzheitsbasis, wenn der Betrag ihrer
+  Diskriminante kleinst ist unter allen Beträgen von Diskriminanten von ganzen
+  Q-Basen.
 
 
 === Torsion
