@@ -422,6 +422,40 @@ course, it’s worth noting that the reference frame we live in is not inertial!
 * Außerdem natürlich Andrej Bauers Notizen.
 
 
+=== Generische Primzahl
+
+Der Topos, der eine generische natürliche Zahl enthält, ist einfach
+Set/N oder äquivalent Sh(N). (Das Objekt natürlicher Zahlen in Sh(N) ist
+die Garbe der N-wertigen Funktionen auf N und die generische natürliche
+Zahl in Sh(N) ist ein bestimmter globaler Schnitt dieser Garbe, nämlich
+die Identitätsfunktion.)
+
+Da die Bedingung an eine natürliche Zahl, Primzahl zu sein, eine
+geometrische Sequenz ist, ist der Untertopos, wo die generische
+natürliche Zahl prim ist, einfach Set/P bzw. Sh(P). Dabei ist P
+die Menge der Primzahlen.
+
+(Als abstrakte Topoi sind Set/P und Set/N äquivalent, aber die
+kanonische geometrische Einbettung Set/P --> Set/N ist keine
+Äquivalenz.)
+
+Heiße wie beim Mittagessen die generische Primzahl in Set/P "p0".
+
+Dann gibt es, für eine gewöhnliche Primzahl p, keinen Ringhomo
+(Set, F_p) --> (Set/P, F_p0): So ein Morphismus wäre topologisch durch
+den eindeutigen Morphismus Set/P --> Set gegeben und ringtheoretisch
+durch F_p --> F_p0 (in Set/P); so einen Morphismus gibt es aber nicht,
+da in Set/P nicht die Aussage stimmt, dass p ein Vielfaches von p0 ist.
+
+Es gibt aber, für jede gewöhnliche Primzahl p, einen Ringhomo
+(Set/P, F_p0) --> (Set, F_p): topologisch ist dieser durch Halmbildung
+bei p gegeben und ringtheoretisch durch die Identität (denn der Keim der
+generischen Primzahl bei p ist einfach p).
+
+Unser Körper F_p0 besitzt also durchaus Morphismen in alle F_p; aber
+leider nicht nach Z.
+
+
 === Nächste Schritte
 
 * Sind die Garben bezüglich der kanonischen Topologie auf einem Topos E
