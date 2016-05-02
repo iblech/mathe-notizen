@@ -1337,6 +1337,10 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
 
 === Limiten und Kolimiten von Schemata und verwandten Dingen
 
+* Kolimiten in Aff sind bekanntermaßen schlecht. Deswegen wurden ja
+  Schemata erfunden. Die Einbettung Aff --> Sch bewahrt also *nicht* beliebige
+  Kolimiten (Koprodukte aber wohl schon).
+
 * http://www.math.utah.edu/~schwede/Papers/SchemeWithoutPoints.pdf
 
 * Punkte von X x_S Y (Faserprodukt in Schemata oder LRS) sind Tupel
@@ -1360,6 +1364,22 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
 
 * Beispiel für einen Koequalizer von Schemata, der nicht surjektiv ist:
   http://mathoverflow.net/questions/63/can-a-coequalizer-of-schemes-fail-to-be-surjective/60477#60477
+
+* In LRS und RS existieren alle kleinen Kolimiten. Und zwar einfach durch die
+  naive Konstruktion. Koequalizer bildet man dadurch, indem man topologisch den
+  Koequalizer und ringtheoretisch den Equalizer bildet.
+  https://webusers.imj-prg.fr/~alberto.vezzani/Files/Research/tesi_vezzani.pdf
+
+* Limiten in RS bildet man einfach naiv. Limiten in LRS bildet man durch
+  "Neulokalisierung" des naiven Limes aus RS. http://arxiv.org/abs/1103.2139
+  Das kann man super intern verstehen :-).
+
+  Der Vergissfunktor LRS --> RS hat einen Linksadjungierten, nämlich Monique
+  Hakims bzw. Chevalleys Spec.
+
+* Sch hat alle endlichen Limiten und die Inklusion Sch --> LRS bewahrt sie.
+
+* Der Funktor RelSpec_X : Alg(O_X)^op --> LRS/X bewahrt endliche Limiten.
 
 
 === Noethersche Approximation
