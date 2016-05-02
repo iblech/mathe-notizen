@@ -1381,6 +1381,23 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
 
 * Der Funktor RelSpec_X : Alg(O_X)^op --> LRS/X bewahrt endliche Limiten.
 
+* Ein Morphismus in Sch ist genau dann eine offene Immersion, wenn er
+  ein Mono ist, flach ist und lokal von endlicher Präsentation ist.
+  https://webusers.imj-prg.fr/~alberto.vezzani/Files/Research/tesi_vezzani.pdf, Seite 5.
+
+* Jedes Schema ist Verklebung (Kolimes) der affinen Schemata, die es
+  überdecken:
+
+            U_i
+           ^   \
+          /     v
+      U_ijk      X    (U_i cap U_j = bigcup_k U_ijk affine Überdeckung)
+          \     ^
+           v   /
+            U_j
+
+  https://webusers.imj-prg.fr/~alberto.vezzani/Files/Research/tesi_vezzani.pdf, Seite 10.
+
 
 === Noethersche Approximation
 

@@ -10,6 +10,10 @@
 * http://www.neverendingbooks.org/DATA3/ncg.pdf
 * http://www.alainconnes.org/docs/rhfinal.pdf
 * http://arxiv.org/abs/math/0407093
+* http://arxiv.org/abs/0909.0069 (Mapping F_1-land: An overview of geometries
+  over the field with one element), gelobt von
+  https://webusers.imj-prg.fr/~alberto.vezzani/Files/Research/tesi_vezzani.pdf
+* http://de.arxiv.org/pdf/0906.3146v1
 
 Die Wikipedia gibt mehrere Gründe, wieso ein Körper mit einem Element so
 interessant wäre. Einer ist der folgende: Seit langer Zeit ist die
@@ -36,6 +40,17 @@ exist too!"
 
 F_1, aufgefasst als kommutative algebraische Theorie, hat als Modelle
 ("Moduln") punktierte Mengen.
+
+
+=== Lambda-Ring-Ansatz
+
+* Eine F_1-Algebra ist ein Lambda-Ring.
+
+* F_1 selbst ist Z versehen mit der kanonischen Lambda-Ring-Struktur (alle
+  lambda_p Identitäten).
+
+* Die Idee ist, dass ein Ring mit Lambda-Struktur ein Abstiegsdatum
+  auf F_1 angibt.
 
 
 === Sammelsurium von Aussagen
