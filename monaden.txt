@@ -13,6 +13,23 @@ Then monoids are special cases of monads, though this isn't terribly
 interesting.
 
 
+=== Algebren über Monaden
+
+Ein Monoid M in einer monoidalen Kategorie C kann nicht nur auf Objekte dieser
+Kategorie selbst wirken ("M tensor A --> A"), sondern auch auf Objekte aus
+Kategorien D, welche C-Moduln sind ("C x D --> D").
+
+* Im Fall, dass ein mengentheoretischer Monoid auf einer Menge wirkt, ist
+  C = D = Set.
+
+* Im Fall, dass ein mengentheoretischer Monoid auf einem Vektorraum wirkt,
+  ist C = Set und D = Vect.
+
+* Im Fall einer Algebra über einer Monade ("M(A) --> A") ist D eine
+  beliebige Basiskategorie und C = End(D). Die Basiskategorie D wird auf
+  offensichtliche Art und Weise zu einem C-Modul.
+
+
 === Zusammenhang zu Abstiegsdaten (descent data)
 
 * http://mathoverflow.net/questions/225391/why-are-monadicity-and-descent-related
