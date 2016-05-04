@@ -219,6 +219,9 @@ offenabgeschlossenen Teilmengen. Stichwort Stone-Dualität.
   seinen kleinen Zariski-Topos zuordnet) ist der große Zariski-Topos von S.
   https://golem.ph.utexas.edu/category/2009/01/petit_topos_gros_topos.html#c021550
 
+* Punkte des fppf-Topos:
+  http://reh.math.uni-duesseldorf.de/~schroeer/publications_pdf/points_fppf.pdf
+
 
 === Proj-Konstruktion
 
