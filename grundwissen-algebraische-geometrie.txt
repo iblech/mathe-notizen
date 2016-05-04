@@ -1388,6 +1388,10 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
   ein Mono ist, flach ist und lokal von endlicher Präsentation ist.
   https://webusers.imj-prg.fr/~alberto.vezzani/Files/Research/tesi_vezzani.pdf, Seite 5.
 
+  Zhen Lin sagt: In CRing^op sind die offenen Immersionen genau die
+  Monomorphismen, die als Pseudokomplemente von regulären Monos auftreten.
+  https://www.dpmms.cam.ac.uk/~zll22/slides/2015-06-16-ChartedSpaces.pdf
+
 * Jedes Schema ist Verklebung (Kolimes) der affinen Schemata, die es
   überdecken:
 

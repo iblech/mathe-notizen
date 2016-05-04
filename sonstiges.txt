@@ -296,6 +296,9 @@ http://arxiv.org/abs/1412.6572.
   
   int_0^infty sqrt(x)/(x^2+2x+5) dx = pi / (2 sqrt(Phi)).
 
+* http://arxiv.org/pdf/0809.4324v2.pdf: unendliche Bäume, die mit
+  Fibonacci-Zahlen und pythagoräischen Tripeln zu tun haben.
+
 
 === Qualia
 
