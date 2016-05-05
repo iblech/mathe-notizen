@@ -170,3 +170,8 @@ Klar, das Hauptresultat lautet:
 
 * http://arxiv.org/abs/math/0102087
   Tibor Beke. Sheafifiable homotopy model categories.
+
+
+=== Spektra
+
+* http://math.uiuc.edu/~cmalkiew/stable.pdf

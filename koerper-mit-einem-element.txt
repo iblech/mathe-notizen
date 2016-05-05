@@ -52,6 +52,8 @@ F_1, aufgefasst als kommutative algebraische Theorie, hat als Modelle
 * Die Idee ist, dass ein Ring mit Lambda-Struktur ein Abstiegsdatum
   auf F_1 angibt.
 
+* https://ncatlab.org/nlab/show/Borger%27s+absolute+geometry
+
 
 === Sammelsurium von Aussagen
 
