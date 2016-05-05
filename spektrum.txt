@@ -60,7 +60,7 @@ geringten distributiven Verband.
   definieren. Für endliche Überdeckungen erfüllt die vermutlich das
   Verklebeaxiom, für unendliche aber vermutlich nicht.
   Update: Für standardoffene Überdeckungen (auch unendliche) ist das
-  Verklebeaxiom erfüllt. Aber dann nicht für beliebige. Man sollte man explizit
+  Verklebeaxiom erfüllt. Aber dann nicht für beliebige. Man sollte explizit
   ein Gegenbeispiel mit A^2 \ {0} vorführen!
 
   Auf jeden Fall kann man intern in Sh(Rad(A)) einfach die konstante Garbe A
@@ -286,7 +286,9 @@ Wenn die Konjunktion endlich ist, ist das eine geometrische Implikation.
 
 Komische Situation: Ich weiß ja, dass MaxSpec A ein Teilraum von Spec A ist.
 Also muss es auch einen Kern auf dem Rahmen von Spec A geben, sodass die
-zugehörige Unterörtlichkeit MaxSpec A ist.
+zugehörige Unterörtlichkeit MaxSpec A ist. (Update: Ja, gibt's auch; aber
+MaxSpec ist im Allgemeinen nicht nüchtern. Seine Nüchternifizierung ist
+AlmostMaxSpec, oder, im Fall, dass A ein Jacobsonscher Ring ist, ganz Spec.)
 
 
 === MaxSpec (das Spektrum bestehend aus maximalen Idealen)
@@ -641,7 +643,7 @@ extern der Menge der offenen Teilmengen von X:
   auch Spec_X(A) --> X im Allgemeinen nicht topologisch eigentlich. Das
   würde das ja bedeuten. (Das grundlegende Problem ist: Die gerichtete
   Vereinigung von pseudokohärenten Radikalidealen ist zwar wieder ein
-  Radikalideal, aber nicht unbedingt gerichtet.)
+  Radikalideal, aber nicht unbedingt pseudokohärent.)
 
   Aber es gilt: Sei I eine (externe) gerichtete Menge. Sei A eine O_X-Algebra
   über einem Schema. Wird dann durch Spec_rel(A) durch eine I-indizierte
@@ -688,7 +690,7 @@ extern der Menge der offenen Teilmengen von X:
   Frobeniusreziprozitätseigenschaft hat.)
 
 * Da das pseudokohärente Spektrum im Allgemeinen nicht kompakt ist, ist klar:
-  Es gibt keine Möglichkeit, dass pseudokohärente Spektrum als ein gewöhnliches
+  Es gibt keine Möglichkeit, das pseudokohärente Spektrum als ein gewöhnliches
   anzusehen.
 
 * Spec^rel ist eine Unterörtlichkeit von Spec. Und zwar die, wo die Abbildung
