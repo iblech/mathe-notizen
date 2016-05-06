@@ -1344,6 +1344,17 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
   Schemata erfunden. Die Einbettung Aff --> Sch bewahrt also *nicht* beliebige
   Kolimiten (Koprodukte aber wohl schon).
 
+* Spec : CRing^op --> LRS bewahrt als Rechtsadjungierter zu
+  Gamma : LRS --> CRing^op Limiten, d.h. schickt Kolimiten von Ringen auf
+  Limiten von lokal geringten Räumen. Diese sind insbesondere Limiten von
+  Schemata.
+
+  Anders gesagt: Die Inklusionen Aff --> LRS und Aff --> Sch bewahren Limiten.
+
+* Spec erhält nicht unendliche Koprodukte: Spec(prod_{i in I} F_2) ist der
+  Raum der Ultrafilter auf I, während coprod_i Spec(F_2) nur der Raum der
+  principal Ultrafilter ist.
+
 * http://www.math.utah.edu/~schwede/Papers/SchemeWithoutPoints.pdf
 
 * Punkte von X x_S Y (Faserprodukt in Schemata oder LRS) sind Tupel
