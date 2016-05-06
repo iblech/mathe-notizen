@@ -1292,6 +1292,26 @@ muss.
   Basis von ker(P) und im(P) und damit von A^n. Bezüglich dieser Basen im
   Quell- *und* Zielraum hat P auch die Form diag(1,...,1,0,...,0).
 
+* Sei phi : A --> R ein Ringhomo. Dann faktorisiert phi auf genau eine Weise
+  (bis auf Isomorphie) in eine Lokalisierung gefolgt von einem lokalen
+  Ringhomo. Anders gesagt: Es gibt genau ein saturiertes multiplikatives System
+  in A (nämlich S = { x in A | phi(x) invertierbar }), sodass phi über
+  A --> A[S^(-1)] faktorisiert und der entstehende Ringhomo A[S^(-1)] --> R
+  lokal ist.
+
+  Beweis: Zunächst ist klar, dass die angegebene Setzung von S das erfüllt.
+  Sei zum Nachweis der Eindeutigkeit ein beliebiges saturiertes System S,
+  das die Anforderungen erfüllt, gegeben.
+
+  Dann sind die Elemente aus S alle in R invertierbar, einfach trivialerweise,
+  weil phi über A[S^(-1)] faktorisiert. Umgekehrt ist auch jedes Element x aus A,
+  sodass phi(x) invertierbar ist, ein Element von S. Denn x/1 ist wegen der
+  Lokalität der Faktorisierung in A[S^(-1)] invertierbar.
+
+  Zusatz: Ist R lokal, so ist S ein Filter, erfüllt also noch die Axiome
+  1 \not\in S und (x + y in S ==> x in S oder y in S) erfüllt. Die Umkehrung
+  gilt nicht.
+
 
 === Äußere Algebra
 

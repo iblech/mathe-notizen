@@ -47,6 +47,34 @@ Die Monodromiewirkung rotiert diese Funktionswerte zyklisch durch (in derselben
 Richtung, wie auch der Pfad geht).
 
 
+=== Ein anderes Beispiel
+
+Sei E = (U |-> { f in O(U) | f' = f/z * lambda }) das zur DGL "f' = f/z *
+lambda" gehörige lokale System auf C \ {0}. Dann ist die Monodromie e^(2 pi i lambda).
+
+Beachte, dass man nicht fragen sollte: Welchen Zweig habe ich zum Schluss? Denn
+die Definitionsmenge ändert sich auch. Die erste Lösung ist
+
+    r e^(i phi) |---> sqrt(r) e^(i phi lambda)
+        mit phi auf der rechten Seite zwischen [0,2pi),
+
+die zweite ist
+
+    r e^(i phi) |---> sqrt(r) e^(i phi lambda)
+        mit phi auf der rechten Seite zwischen [2pi-eps,4pi-eps).
+
+Allgemeiner ist die Monodromie der DGL "f'(z) = g(z) * f(z)" gleich
+e^(2pi * Res_0 g).
+
+Man kann die Monodromie wohl immer so ausrechnen, wenn f eine "globale Lösung"
+der DGL bezeichnet (immer geeignet fortsetzen):
+
+    exp(int_gamma f'/f dz)
+
+"Erklärung": Wenn das Integral sowas wie ln(f(gamma(1))) - ln(f(gamma(0)))
+gibt, dann gibt das Exponential gerade sowas wie f(gamma(1)) / f(gamma(0)).
+
+
 === Klassifikation lokaler Systeme
 
 * Ein lokales System vom Rang r ist dasselbe wie ein GL_r(C)-Torsor.

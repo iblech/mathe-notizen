@@ -50,7 +50,7 @@
 
 === Kompakte Objekte in A-Mod
 
-Die Kategorie der A-Modul ist lokal endlich präsentierbar.
+Die Kategorie der A-Moduln ist lokal endlich präsentierbar.
 
 * Sei M ein A-Modul. Nachweis, dass M Kolimes das kanonischen Diagramms ist:
   Sei (phi_U : U --> Z) ein Kokegel des kanonischen Diagramms.
@@ -91,6 +91,14 @@ Die Kategorie der A-Modul ist lokal endlich präsentierbar.
   Widerspruch.
 
 * Dualisierbare Moduln (im Sinne monoidaler Kategorien) sind kompakt.
+
+
+=== Kompakte Objekte in A-Alg
+
+Die kompakten Objekte in der Kategorie der A-Algebren sind gerade die endlich
+präsentierten A-Algebren. (Der bekannte Beweis für A-Moduln funktioniert
+genauso; nur nimm zum Nachweis der Wohldefiniertheit das Tensorprodukt statt
+die direkte Summe.)
 
 
 === Logische Definition

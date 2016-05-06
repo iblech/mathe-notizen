@@ -1701,6 +1701,16 @@ PS: If you are into such things, here is the logical background:
 
 === Großer Zariski-Topos
 
+* Aus Sicht von Sh(S) ist Zar(S) vermutlich (im affinen Fall stimmt's)
+  gleich "Zar(O_S|O_S)", also der klassifizierende Topos der geometrischen
+  Theorie der lokalen O_S-Algebren, für die der Strukturmorphismus lokal ist.
+
+  Allgemeiner sollte Zar(Spec_S A) aus Sh(S)-Sicht der klassifizierende Topos der
+  geometrischen Theorie derjenigen lokalen A-Algebren R, für die der Morphismus
+  O_S --> A --> R lokal ist, sein; in Übereinstimmung mit der Charakterisierung
+  des kleinen Zariski-Topos. Ich denke, dass das aus der Erkenntnis Zar(S) =
+  [| Zar(O_S|O_S) |] folgt.
+
 * Auflösung der Unbestimmtheit rationaler Abbildungen durch Blowup -- intern verstehen!
 
 * Kann P^n im großen Zariskitopos über einem Basisschema S ganz naiv als
@@ -1731,7 +1741,7 @@ PS: If you are into such things, here is the logical background:
 
   Trotzdem ist AA --> A^1 an manchen Punkten eine Lokalisierung! Etwas komisch.
 
-* Aus sicht von Zar(A) gilt: Hom(E, Spec(A)) = [[ AA --> A^1 ist eine
+* Aus Sicht von Zar(A) gilt: Hom(E, Spec(A)) = [[ AA --> A^1 ist eine
   Lokalisierung in E ]], für alle Topoi E (wie gesagt, aus Sicht von Zar(A);
   und vielleicht sollte ich mich auf Grothendieck-Topoi beschränken, um
   sicherzustellen, dass die universelle Eigenschaft von Spec(A) verwendbar
