@@ -12,6 +12,11 @@
   exakt". Tensorieren ist sogar treuflach!
 
 
+=== Wieso Tor-Formel statt nur naiver erster Summand?
+
+http://math.stackexchange.com/questions/82802/why-to-use-such-a-complex-definition-of-intersection-multiplicity
+
+
 === Schnitttheorie bei Mannigfaltigkeiten
 
 http://www2.imperial.ac.uk/~jnordstr/wrap.pdf, Seite 2.
