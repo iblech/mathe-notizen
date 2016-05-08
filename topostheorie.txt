@@ -86,6 +86,59 @@
 
 * Ist F --> E ein lokaler geometrischer Morphismus, wo wird E zu einer
   Kategorie von Garben bezüglich einer Lawvere--Tierney-Topologie in F.
+  Und zwar vermöge (f_* -| f^!).
+
+  Diese Situation haben Awodey und Birkedal axiomatisiert. Die
+  Abschlussoperationen Sub(X) --> Sub(X), die von der Topologie induziert
+  werden, erlauben in diesem Fall Linksadjungierte. nLab schreibt für den
+  Linksadjungierten U |-> bU und für den gegebenen Rechtsadjungierten U |-> #U.
+
+  Das Unterobjekt bU kann man als das kleinste #-dichte Unterobjekt von U
+  charakterisieren. Es ist auch das Bild der Koeins von (f^* -| f_*), also
+
+      f^* (f_* U) -->> bU ^--> U.
+
+  Im Fall Zar(S) --> Sh(S) ist das (U|_Sh(S))^~ --> bU --> U.
+
+  Achtung: Die Koabschlussoperation U |-> bU ist *nicht* stabil unter Rückzug.
+  Gibt also nicht Anlass zu einem internen modalen Operator.
+
+  In F kann man eine volle Unterkategorie der "diskreten Objekte" definieren:
+  Ein Objekt X von F heißt genau dann diskret, wenn für alle g : A --> B,
+  welche nach Anwenden von f_* (Garbifizieren bezüglich #) zu Isos werden,
+  und für alle b : X --> B das Diagramm
+
+       + - - -> A
+       |        | g
+       ^        v
+      X ------> B
+
+  genau auf eine Art und Weise mit einem Morphismus X --> A gefüllt werden
+  kann.
+
+  Dann kann man zeigen: Ein Objekt ist genau dann diskret, wenn es im
+  wesentlichen Bild von f^* liegt.
+
+  "<==": Hier zeigen wir, dass f^*(X) diskret ist. In diesem Fall setzen wir
+  g := T^(f_*(g)^(-1) . b^T).
+
+  "==>": Hier zeigen wir, dass für diskretes X die Eins eps_X : f^*f_*(X) --> X
+  ein Iso ist. Da f_*(eps_X) ein Iso ist (mit Inversem eta_(f_*X), hier geht
+  die Volltreuheit ein), gibt es nach Voraussetzung einen Morphismus
+  psi : X --> f^*f_*(X) mit eps_X . psi = id.
+
+  Dann rechnet man: (psi . eps_X)^T = f_*(psi) = f_*(eps_X)^(-1) = eta_(f_*X) =
+  id^T, also psi . eps_X = id.
+
+  Fazit: f^* : E --> F ist äquivalent zur Inklusion der diskreten Objekte.
+  Die Äquivalenz ist durch f^* gegeben.
+
+  Wenn man in der internen Sprache von F die Aussage formuliert, dass ein
+  Objekt X diskret ist, bedeutet das wohl, dass X in allen F/T diskret ist.
+  Mir ist nicht ganz klar, ob das gleichbedeutend damit ist, dass X schon in F
+  diskret ist. Es könnte stimmen. Es könnte aber auch nicht stimmen, denn man
+  muss hier vorsichtig sein: Sind die entsprechenden Funktoren auf richtige Art
+  und Weise indiziert?
 
 * Lokale geometrische Morphismen bewahren Objekte von dedekindschen reellen
   Zahlen.

@@ -28,6 +28,12 @@ H: I \otimes X --> Y mit H(s \otimes x) = f(x), H(t \otimes x) = g(x), H(H
 http://mathoverflow.net/questions/59357/why-chain-homotopy-when-there-is-no-topology-in-the-background/59387#59387
 
 
+=== Hom und Tensorprodukt in zwei Variablen
+
+* Ein schöner und sehr kurzer Beweis steht in:
+  Kelly. A lemma in homological algebra.
+
+
 === Monoidale Struktur auf Kom(R-Mod)
 
 Hom^p(X, Y) := \prod_i Hom(X^i, Y^(p+i))

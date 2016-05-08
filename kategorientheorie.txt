@@ -466,6 +466,8 @@ Ferner gilt:
 
 * eps heißt auch Koeins, eta heißt Eins.
 
+  eps_X = T^(id_RX), eta_X = (id_LX)^T.
+
 * Sei L volltreu. Dann ist eta : Id ==> RL ein Iso. Somit sind auch eps L
   und R eps Isos.
 
