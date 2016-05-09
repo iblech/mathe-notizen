@@ -213,6 +213,99 @@ colim_{a <= a'} F(a').
   des) Sierpinski-Raums betrachten.
 
 
+=== Ouvertheit
+
+* Eine Örtlichkeit X ist genau dann ouvert, wenn der eindeutige Morphismus
+  X --> 1 offen ist, wenn also Omega --> Ouv(X) einen (automatisch monotonen)
+  Linksadjungierten f_! besitzt, der die Frobenius-Bedingung erfüllt:
+
+      f_!(U wedge sup{T|phi}) <==> (f_!(U) wedge phi)
+
+  für alle U in Ouv(X) und alle phi in Omega.
+
+  Tatsächlich aber ist die Frobenius-Bedingung automatisch erfüllt. Es geht
+  also nur um die Existenz eines Linksadjungierten.
+
+  Genau dann ist X ouvert, wenn auf Ouv(X) ein Positivitätsprädikat (im Sinne
+  von nLab, Def. 3) existiert. Ist f_! gegeben, so definiert
+
+      U > 0  :<==>  f_!(U)
+
+  ein Positivitätsprädikat. Umgekehrt definiert diese Setzung f_!.
+
+* Sei X ouvert. Dann gilt für U in Ouv(X) und phi in Omega:
+
+      U = sup { U | phi }  <==>  (U > 0 ==> phi).
+
+  Das folgt unmittelbar aus der Adjunktionsbeziehung.
+
+
+=== Schnitt von Örtlichkeiten
+
+Sei (Box_i)_i eine Folge modaler Operatoren. Der modale Operator Box, der
+zum Schnitt der zugehörigen Unterörtlichkeiten gehört, lässt sich explizit so
+angeben:
+
+    Box(alpha) := forall phi.
+        ((forall i. Box_i(phi) ==> phi) wedge (alpha ==> phi)) ==> phi.
+
+* Dieser Operator ist der kleinste mit der Eigenschaft, dass für alle phi
+  und alle i Box_i(phi) Box(phi) impliziert.
+
+* Eine Aussage ist genau dann Box-stabil, wenn sie für alle i Box_i-stabil ist.
+
+* Eine Menge ist genau dann Box-separiert bzw. eine Box-Garbe, wenn sie es für
+  alle i bezüglich Box_i ist.
+
+  Für Separiertheit ist das klar; für das volle Garbenaxiom schreibe die
+  Garbenbedingung so um:
+
+      (X separiert und)
+      forall K <= X mit K Subsingleton und Zugehörigkeit ist Box-stabil.
+          Box(K bewohnt) ==> K bewohnt.
+
+
+=== Kerne vs. Fixmengen
+
+Es gibt eine kanonische ordnungsumkehrende Bijektion zwischen Kernen und
+Fixmengen. Eine Fixmenge ist dabei eine Teilmenge von Ouv(X), die unter
+beliebigen Infima abgeschlossen ist und außerdem ein exponentielles Ideal ist
+(wenn b drinliegt, dann auch (a -> b)).
+
+* Ein Kern j gibt Anlass zur Fixmenge A := { u | ju <= u }.
+
+* Eine Fixmenge A gibt Anlass zum Kern j : u |-> inf { v in A | u <= v }.
+
+* Schnitt von Unterörtlichkeiten ist äquivalent gegeben durch das Supremum
+  von Kernen oder den (naiven) Schnitt von Fixmengen.
+
+* Wie kann man Wesentlichkeit über die zugehörige Fixmenge charakterisieren?
+
+  Wilde Vermutungen: Zu einem wesentlichen Kern können wir die "Kofixmenge"
+  B := { u | u <= bu } definieren. Diese ist abgeschlossen unter beliebigen
+  Infima. Vielleicht ist die Kofixmenge zum Schnitt von wesentlichen
+  Unterörtlichkeiten der Schnitt der einzelnen Kofixmengen. Vielleicht ist die
+  Überlegung aber auch Quatsch, da Wesentlichkeit nicht unter Schnittbildung
+  stabil ist. Kelly und Lawvere wissen es!
+
+
+=== Wesentliche Unterörtlichkeiten
+
+* Eine Unterörtlichkeit, gegeben durch einen Kern j, heißt genau dann
+  wesentlich, wenn j einen (als monotone Abbildung) Linksadjungierten b
+  besitzt.
+
+* Das ist genau dann der Fall, wenn j verträglich mit beliebigen Infima ist.
+  In diesem Fall lässt sich b konstruieren als
+
+      b(U) := inf { V | U <= j(V) }.
+
+* Ferner ist das genau dann der Fall, wenn es zu jedem U ein kleinstes V
+  gibt mit U <= j(V). (Ein kleinstes dichtes Unterobjekt.)
+
+* b <= id <= j, b = bb
+
+
 === Literatur
 
 * Klar: Johnstone (zwei Einführungsartikel, Stone Spaces, Elephant)

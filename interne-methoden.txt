@@ -1711,6 +1711,12 @@ PS: If you are into such things, here is the logical background:
   des kleinen Zariski-Topos. Ich denke, dass das aus der Erkenntnis Zar(S) =
   [| Zar(O_S|O_S) |] folgt.
 
+* Definiere Omega^1 als Modul der Kählerdifferentiale von O_S~ --> A^1.
+  (Dabei ist O_S~ die Garbe T |--> Gamma(T, mu^(-1) O_S).)
+
+  Da die Kählerdifferentialkonstruktion geometrisch ist, gilt Omega^1|_X =
+  Omega^1_{X|S}.
+
 * Auflösung der Unbestimmtheit rationaler Abbildungen durch Blowup -- intern verstehen!
 
 * Kann P^n im großen Zariskitopos über einem Basisschema S ganz naiv als

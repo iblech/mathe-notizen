@@ -1416,6 +1416,9 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
 
   https://webusers.imj-prg.fr/~alberto.vezzani/Files/Research/tesi_vezzani.pdf, Seite 10.
 
+* Übersicht über viele Topologien auf Sch/S:
+  http://win.ua.ac.be/~pbelmans/topologies-comparison/index.html
+
 
 === Noethersche Approximation
 

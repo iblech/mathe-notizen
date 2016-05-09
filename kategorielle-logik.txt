@@ -272,7 +272,7 @@ für geometrische Formeln phi über X:
   Das stimmt, für geometrische phi, psi.
 
 * Sei X mit folgender Eigenschaft: Jede offene Teilmenge lässt sich durch
-  komapkte offene Teilmengen überdecken. Das ist etwa für Schemata erfüllt!
+  kompakte offene Teilmengen überdecken. Das ist etwa für Schemata erfüllt!
 
   Sei phi eine solche Aussage, sodass für jede kompaktoffene Teilmenge U
   gilt: U cap [phi] ist wieder kompakt.
@@ -347,6 +347,17 @@ für geometrische Formeln phi über X:
 
   Beweis durch Induktion; klar für top, bot. Für wedge wegen der
   in Rahmen geforderten Distributivität.
+
+* Es gilt: U <= sup { T | phi }  <==>  U = sup { U | phi }.
+
+* Ist die Örtlichkeit ouvert, so ist das ferner äquivalent zu:
+
+      (U > 0  ==>  phi).
+
+* Sei phi eine Formel, in der nur konstante Garben vorkommen, und sei psi
+  eine beliebige Formel. Dann ist U |== (phi ==> psi) äquivalent zu:
+
+      U = sup { U | phi }  ==>  U |== psi.
 
 
 === Lokal konstante Garben
