@@ -922,6 +922,15 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
 * Wichtiges Beispiel ist natürlich die Einbettung Sh(X) --> PSh(X)
   oder allgemeiner Sh_j(E) --> E. Der Reflektor ist Garbifizierung.
 
+* In klassischer Logik besitzt Set genau drei reflektive Unterkategorien:
+  die einobjektige {*}; ganz Set; und die volle Unterkategorie auf den
+  Subsingletons. (Kelly und Lawvere behaupten in ihrem Artikel zum
+  vollständigen Verband der wesentlichen Lokalisierungen, dass es keine
+  weiteren gibt. Vielleicht geht das so: Sei D eine reflektive Unterkategorie
+  von Set, die eine Menge X enthält, die mindestens zwei Elemente enthält. Mit
+  einer Equalizer-Konstruktion zeigt man dann, dass D auch eine Menge enthält,
+  die genau zwei Elemente enthält. Von da an weiter.)
+
 
 === Konservative Funktoren
 
