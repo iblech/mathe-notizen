@@ -1079,6 +1079,9 @@ definieren, wobei S(U) = { f | f_x ist kein Nullteiler in allen O_x, x \in U }.
 
 * Aufblasung
 
+* Generische Punkte; oder präziser ausgedrückt: Möchte das klassische Spektrum
+  nüchternifizieren! Dann kommt das schematheoretische Spektrum raus.
+
 
 === Quotienten
 

@@ -330,6 +330,18 @@ beliebigen Infima abgeschlossen ist und außerdem ein exponentielles Ideal ist
   wenn sie offen ist. Die Frobenius-Relation ist nämlich automatisch erfüllt
   (wie im Abschnitt über Ouvertheit beschrieben).
 
+* Genau dann gilt b(u wedge w) = u wedge b(w) für alle u und w, wenn
+  j die Heyting-Implikation bewahrt:
+
+       b(u wedge w) <= z
+  <==> u wedge w    <= j(z)
+  <==> w            <= (u --> j(z))
+  <==> w            <= (j(u) --> j(z))
+
+       u wedge b(w) <= z
+  <==> b(w)         <= (u --> z)
+  <==> w            <= j(u --> z)
+
 * Zu X_j ^-> X gehört in Sh(X) ein modaler Operator Box. Folgende Aussagen sind
   äquivalent:
 
@@ -337,11 +349,38 @@ beliebigen Infima abgeschlossen ist und außerdem ein exponentielles Ideal ist
   (2) Sh(X) |== Box ist offen.
   (3) X_j ^-> X ist offen.
 
+  Die Äquivalenz von (1) und (2) ist klar, denn Unterörtlichkeiten der
+  einpunktigen Örtlichkeit sind genau dann wesentlich, wenn sie offen sind.
+  Aussage (2) lautet ausgeschrieben:
+
+      Sh(X) |== exists(!) alpha : Omega.
+          forall phi : Omega. Box(phi) <==> (alpha ==> phi).
+
+  Wenn also Aussage (2) gilt, dann gibt es ein Offenes a von X, sodass
+  der Kern j (der ja Box auf globalen Schnitten ist) gleich (a -->) ist.
+
+  Umgekehrt ist es sogar so klar, dass man eigentlich nicht drüber nachdenkt.
+
 * Kann man auch Wesentlichkeit (statt Offenheit) intern charakterisieren?
 
-  Zumindest sind ja Vereinigungen wesentlicher Unterörtlichkeiten wieder
-  wesentlich. Sind auch Schnitte mit einer Unterörtlichkeit wesentlich (in der
-  neuen Unterörtlichkeit)?
+  Zumindest ist Wesentlichkeit eine lokale Eigenschaft:
+
+  Sei A eine Unterörtlichkeit von X. Sei X durch offene (X_i)_i überdeckt. Der
+  Kern, der zu A cap X_i ^--> X_i gehört, ist dann j(__) wedge X_i (dabei sehen
+  wir O(X_i) als Downarrow(X_i) an).
+
+  Dann gilt: Genau dann ist A wesentlich in X, wenn für alle i A cap X_i
+  wesentlich in X_i ist.
+
+  "==>": Setze b_i(u) := b(u).
+
+  "<==":      u <= j(v)
+         <==> u wedge X_i <= j(v) wedge X_i für alle i
+         <==> u wedge X_i <= j(v wedge X_i) wedge X_i für alle i
+         <==> u wedge X_i <= j_i(v wedge X_i) für alle i
+         <==> b_i(u wedge X_i) <= v wedge X_i für alle i
+         <==> b_i(u wedge X_i) <= v für alle i
+         <==> bigvee_i b_i(u wedge X_i) <= v.
 
 
 === Literatur

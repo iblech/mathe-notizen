@@ -302,6 +302,9 @@ zugehörige Unterörtlichkeit MaxSpec A ist.
   Denn wenn man den Kern für MaxSpec(A) herleitet, erhält man den von
   AlmostMaxSpec(A).
 
+  Im Fall, dass A ein Jacobsonscher Ring ist (etwa im Fall von endlich
+  erzeugten Algebren über Körpern), ist AlmostMaxSpec(A) = Spec(A).
+
 * Ein Ideal I heißt genau dann "fast maximal", wenn es Schnitt
   von maximalen Idealen ist. Das ist genau dann der Fall, wenn in A/I das
   jacobsonsche Radikal Null ist. Oder äquivalent:

@@ -233,6 +233,9 @@
 
 === Interne Methoden
 
+* http://mathoverflow.net/questions/20622/construction-of-the-petit-zariski-topos-out-of-the-gros-topos-of-a-scheme
+  korrigieren (insb. allg. fall ergänzen)
+
 * http://www.math.lsa.umich.edu/~ablass/eatcs.pdf: Geometrische Morphismen
   bewahren "existenzielle Fixpunktlogik"!
 
