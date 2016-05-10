@@ -265,6 +265,18 @@ angeben:
           Box(K bewohnt) ==> K bewohnt.
 
 
+=== Vereinigung von Örtlichkeiten
+
+Geht einfach durch den naiven Schnitt der zugehörigen Kerne, also
+
+    Box(alpha) := forall i. Box_i(alpha).
+
+* Sind alle Box_i wesentlich, so auch Box. Der Linksadjungierte zu Box
+  ist
+
+      b(alpha) := exists i. b_i(alpha).
+
+
 === Kerne vs. Fixmengen
 
 Es gibt eine kanonische ordnungsumkehrende Bijektion zwischen Kernen und
@@ -303,7 +315,24 @@ beliebigen Infima abgeschlossen ist und außerdem ein exponentielles Ideal ist
 * Ferner ist das genau dann der Fall, wenn es zu jedem U ein kleinstes V
   gibt mit U <= j(V). (Ein kleinstes dichtes Unterobjekt.)
 
-* b <= id <= j, b = bb
+* b <= id <= j, b = bb, bj = b, jb = j.
+
+* Eine Unterörtlichkeit der einpunktigen Örtlichkeit ist genau dann wesentlich,
+  wenn sie offen ist. Die Frobenius-Relation ist nämlich automatisch erfüllt
+  (wie im Abschnitt über Ouvertheit beschrieben).
+
+* Zu X_j ^-> X gehört in Sh(X) ein modaler Operator Box. Folgende Aussagen sind
+  äquivalent:
+
+  (1) Sh(X) |== Box ist wesentlich.
+  (2) Sh(X) |== Box ist offen.
+  (3) X_j ^-> X ist offen.
+
+* Kann man auch Wesentlichkeit (statt Offenheit) intern charakterisieren?
+
+  Zumindest sind ja Vereinigungen wesentlicher Unterörtlichkeiten wieder
+  wesentlich. Sind auch Schnitte mit einer Unterörtlichkeit wesentlich (in der
+  neuen Unterörtlichkeit)?
 
 
 === Literatur
