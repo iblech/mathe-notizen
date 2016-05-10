@@ -67,6 +67,15 @@ Man beachte, dass V |-> V wedge U *kein* Kern auf L ist.
 Siehe auch http://www.emis.de/journals/AM/06-4/pultr.pdf für ein paar
 (offensichtliche) Rechenregeln zur Heyting-Implikation.
 
+Ist j der Kern zu einer offenen Unterörtlichkeit (das heißt nach Definition,
+dass j beliebige Infima und die Heyting-Implikation erhält), so kann man j
+in die Form (U -->) bringen durch die Konstruktion
+
+    U := inf { V | j(V) = top }.
+
+Es ist klar, dass j(V) <= (U --> V). Für die andere Richtung gehen die
+Voraussetzungen ein.
+
 
 === Genügend viele Punkte
 
