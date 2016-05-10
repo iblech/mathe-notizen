@@ -1786,6 +1786,9 @@ B Sei X S-Schema. Dann könnte man denken, dass [X, A^1] = (mu_* O_X)^~.
   PBCT sagt: eps^* mu_* O_X = (pi_T)_* O_{X x T}, falls mu eigentlich ist und
   weitere Bedingungen erfüllt sind.
 
+* Was hat die interne Konstruktion des relativen Spektrums mit Isbell-Dualität
+  zu tun?
+
 * Was ist denn der Punktefunktor des Hilbertschemas intern?
 
 * Kategorielle Charakterisierung von glatten Morphismen und paar anderen Sachen:
