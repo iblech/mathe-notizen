@@ -377,3 +377,7 @@
   The reals as rational Cauchy filters
 
 * Ist in der Masterarbeit die Möglichkeit des Zorn-Verzichts dokumentiert?
+
+* http://www.ams.org/journals/mcom/2000-69-229/S0025-5718-99-01116-3/S0025-5718-99-01116-3.pdf
+  7 373 170 279 850
+  Sollte man die Studie mit modernen Computern wiederholen?
