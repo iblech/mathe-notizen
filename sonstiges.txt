@@ -391,3 +391,8 @@ Problem durch eine raumfüllende Kurve auf ein eindimensionales Problem ab.
 Sortiere die Städte dort. Bilde zurück ab.
 
 http://pubsonline.informs.org/doi/pdf/10.1287/mnsc.34.3.291
+
+
+=== Tipps zu einem C-Kurs
+
+http://blog.regehr.org/archives/1393
