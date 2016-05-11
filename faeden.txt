@@ -289,6 +289,7 @@
 
 === Sonstiges
 
+* Chinesischen Restsatz als Garbenbedingung auf abgeschlossenen Mengen verstehen
 * http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex3.pdf
   und weitere Übungsblätter sichten
 * Projekt mit Meru
