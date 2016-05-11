@@ -7,3 +7,53 @@
 * Wie geht der Adjoint Trick?
   http://www-math.mit.edu/~stevenj//18.336/adjoint.pdf
   http://scicomp.stackexchange.com/questions/14259/understanding-the-cost-of-adjoint-method-for-pde-constrained-optimization
+
+
+=== Wieso man Matrizen nicht invertieren sollte
+
+* A^(-1) kann dicht besetzt sein, auch wenn A dünn besetzt ist.
+
+* A^(-1) zu berechnen ist viel mehr Aufwand, wenn man das Gleichungssystem mit nur
+  einer rechten Seite lösen möchte. Und ist man an vielen Lösungen interessiert
+  (auch n vielen), so ist das Lösen zumindest noch gleich effizient wie das
+  Invertieren, da man die zum Lösen benötigte Faktorisierung ja speichern kann.
+  http://www.johndcook.com/blog/2010/01/19/dont-invert-that-matrix/
+
+* Alle sagen: Ein Gleichungssystem über die Inverse zu lösen ist viel
+  ungenauer, als einfach nur das System selbst zu lösen. Aber das ist wohl ein
+  (ultra weit!) verbreiteter Irrglaube: Siehe http://arxiv.org/pdf/1201.6035.pdf.
+
+  Der Irrglaube rührte wohl daher, dass eine Abschätzung, die man leicht führen
+  kann, eine schlechte Kondition vorhersagt. Aber tatsächlich ist nur die
+  Abschätzung zu konservativ. Es gibt eine (schwerer herleitbare) bessere
+  Abschätzung.
+
+  Auch, wenn es von der Genauigkeit (unter gewissen Umständen) wohl etwa aufs
+  Gleiche hinausläuft: Invertieren ist wegen der ersten beiden Gründe trotzdem
+  keine gute Idee. Ich will nicht mehrere Gigabyte einer dicht besetzten
+  Inversen speichern. (Und ich will auch nicht über Gauß das Gleichungssystem
+  direkt lösen, denn dabei geht die Dünnbesiedelung auch verloren.) Stattdessen
+  will ich einfach ein iteratives Verfahren zur direkten Lösung verwenden. Dann
+  brauche ich A^(-1) nicht.
+
+* Ein Beispiel für eine Matrix, deren numerisch berechnete Inverse um 47
+  Größenordnungen von der wahren Lösung abweicht, steht auf Seite 2 von
+  http://www.ti3.tuhh.de/paper/rump/Ru08a.pdf.
+
+* Sei A = [1+eps, 1; 1, 1-eps]. Diese Matrix hat als Inverse
+
+      A^(-1) = -[1-eps, -1; -1, 1+eps] / eps^2.
+
+  Die Determinante von A ist mit -eps^2 extrem klein.
+
+  In Scilab kann man schon für eps = 1e-5 nicht mehr die Matrix invertieren und
+  auch nicht das Gleichungssystem Ax = e_1 lösen. Für eps = 1e-4 geht es noch,
+  aber das Ergebnis ist völlig falsch. (Interessanterweise ist die berechnete
+  inverse Matrix noch recht gut, aber die berechnete Gleichungssystemlösung hat
+  sogar falsche Vorzeichen.)
+
+  Diese Matrix zeigt also, dass das Lösen von Gleichungssystemen extrem
+  schwierig sein kann. (In manchen Fällen hilft Vorkonditionierung.) Das
+  Beispiel zeigt aber nicht (zumindest bei Scilab mit den Standardalgorithmen),
+  dass die Inverse zu berechnen von der Genauigkeit her schlechter ist als das
+  System direkt zu lösen.
