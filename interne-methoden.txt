@@ -1021,6 +1021,15 @@ O_X gegeben sind, die auf offenen dichten Teilmengen definiert sind.
       forall f : O_X. forall s : A.
           (f inv. in O_X ==> s inv. in A) ==> s inv. in A[f^(-1)].
 
+* Muss noch mal die Details prüfen, aber es scheint folgendes zu gelten:
+
+  Genau dann ist ein O_X-Modul E quasikohärent, wenn E[F^(-1)] in Spec(O_X) eine
+  Garbe bezüglich der Topologie ist, die Spec(O_X|O_X) in Spec(O_X) ausschneidet.
+
+  Und eine O_X-Algebra A ist genau dann quasikohärent, wenn A[F^(-1)] in
+  Spec(A) eine Garbe bezüglich der Topologie ist, die Spec(A|O_X) in Spec(A)
+  ausschneidet.
+
 
 === Cartier-Divisoren und Geradenbündel
 

@@ -359,6 +359,16 @@ für geometrische Formeln phi über X:
 
       U = sup { U | phi }  ==>  U |== psi.
 
+  Das kann man noch vereinfachen zu:
+
+      phi  ==>  U |== psi.
+
+  (Das heißt aber nicht, dass U = sup { U | phi } zu phi äquivalent ist!)
+
+* Speziell im Rahmen der Radikalideale gilt:
+
+      sqrt(f) = sup { sqrt(f) | phi }  <==>  f nilpotent oder phi.
+
 
 === Lokal konstante Garben
 
