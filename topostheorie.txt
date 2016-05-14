@@ -509,6 +509,14 @@ Unser Körper F_p0 besitzt also durchaus Morphismen in alle F_p; aber
 leider nicht nach Z.
 
 
+=== Abhängiges Auswahlaxiom
+
+Natürlich gilt nicht in jedem Topos das abhängige Auswahlaxiom. Allerdings
+schon, wenn man den Übergang zu einer offenen Überlagerung gestattet.
+
+http://www.ams.org/journals/tran/1986-295-02/S0002-9947-1986-0833712-3/S0002-9947-1986-0833712-3.pdf
+
+
 === Nächste Schritte
 
 * Sind die Garben bezüglich der kanonischen Topologie auf einem Topos E
