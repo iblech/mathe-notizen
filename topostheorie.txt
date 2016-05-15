@@ -149,6 +149,28 @@
   f : Sh(X) --> Sh(Y) ein lokaler geometrischer Morphismus.
 
 
+=== Surjektive geometrische Morphismen
+
+* Ein geometrischer Morphismus f : F --> E heißt genau dann surjektiv, wenn
+  f^* treu ist (äquivalent: konservativ ist).
+
+* Set/X --> Set ist genau dann surjektiv, wenn X bewohnt ist.
+
+  Die Rückrichtung sieht man so: Zunächst sieht man, dass der Rückzug zwei
+  Abbildungen f und g genau dann miteinander identifiziert, wenn (X bewohnt ==> f = g).
+  Der Morphismus ist also genau dann surjektiv, wenn aus (X bewohnt ==> f = g)
+  schon f = g folgt. Fertig mit f, g : 1 --> Omega, f(*) = top, g(*) = [| X bewohnt |].
+
+* Als Korollar ist E/X --> E genau dann surjektiv, wenn X bewohnt ist,
+  denn in meiner Masterarbeit habe ich ja gezeigt, dass interne Surjektivität
+  äquivalent zu externer Surjektivität ist.
+
+* Es gibt eine Charaktieriserung der Örtlichkeiten, die surjektiv über dem
+  Punkt liegen: Es sind genau die, für die es einen Situs gibt, in dem jede
+  Überdeckung bewohnt ist und in der es ein terminales Objekt gibt.
+  http://www.ams.org/journals/tran/1986-295-02/S0002-9947-1986-0833712-3/S0002-9947-1986-0833712-3.pd
+
+
 === Degeneration von Topoi
 
 http://deepblue.lib.umich.edu/bitstream/handle/2027.42/99993/sjhenry_1.pdf?sequence=1
@@ -515,6 +537,35 @@ Natürlich gilt nicht in jedem Topos das abhängige Auswahlaxiom. Allerdings
 schon, wenn man den Übergang zu einer offenen Überlagerung gestattet.
 
 http://www.ams.org/journals/tran/1986-295-02/S0002-9947-1986-0833712-3/S0002-9947-1986-0833712-3.pdf
+Seite 5
+
+Und zwar sollte das so gehen: Sei X die Menge, aus der wir auswählen wollen.
+Sei T ein "Baum mit unendlichen Zweigen": eine Menge von endlichen Folgen von
+Elementen aus X mit folgenden Eigenschaften:
+
+    (1) <> in T  (leere Folge)
+    (2) u <= v und v in T  ==>  u in T  (Präfixe liegen wieder in T)
+    (3) u in T  ==>  exists x:X. (u,x) in T
+
+Dann sollte man die Örtlichkeit der Zweige von T betrachten können:
+
+    Propositionen: "f(n) = x" für x:X und n >= 0
+
+    Axiome:
+    * top |-_n bigvee_{x:X} (f(n) = x)  (für alle n >= 0)
+    * f(n) = x wedge f(n) = x' |-_n bigvee { top | x = x' }  (für alle x, x' : X und n >= 0)
+    * f(0) = x0 wedge ... f(n) = xn |-_n bigvee { top | <x0,...,xn> in T }
+          (für alle n >= 0 und x0, ..., xn : X)
+
+Der Rahmen der Offenen dieser Örtlichkeit sollte einfach gegeben sein durch
+den Rahmen derjenigen nach-oben-abgeschlossenen Teilmengen S von T mit:
+
+    forall <x1,...,xn>.
+        [forall x. <x1,...,xn,x> in S] ==> <x1,...,xn> in S
+
+Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
+
+    S |--> j(S) = { xs | forall x. <xs,x> in S }
 
 
 === Nächste Schritte

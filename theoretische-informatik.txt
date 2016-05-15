@@ -123,6 +123,9 @@ expressed in our system.
 
       (forall x. phi(x) <= y ==> phi(f(x)) <= y)  ===>  phi(mu(f)) <= y.
 
+* Bessere Prinzipien für den größten Fixpunkt: POPL'13, The power of parameterization in
+  coinductive proof. http://plv.mpi-sws.org/paco/
+
 
 === Komplexität der Schrödinger-Gleichung
 
@@ -143,3 +146,10 @@ http://arxiv.org/abs/1403.7686
 * Dann gibt es Histomorphismen und als aufgepimpte Version Dynamorphismen.
   Mit letzteren fängt man das Muster der dynamischen Programmierung ein.
   http://kodu.ut.ee/~eugene/jkmpc06.pdf
+
+
+=== Minimalzahl Erzeuger und Relationen über homologische Methoden
+
+Philippe Malbos, Samuel Mimram.
+Homological Computations for Term Rewriting Systems.
+http://math.univ-lyon1.fr/homes-www/malbos/Art/hcTRS.pdf

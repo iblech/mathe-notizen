@@ -113,6 +113,9 @@ geringten distributiven Verband.
 
 * Spec^pcoh(A) ist vermutlich nicht lokal kompakt.
 
+* Rad(A) --> pt ist genau dann surjektiv (d.h. dass Omega --> Rad(A) injektiv
+  ist), wenn 1 != 0 in A.
+
 
 === Verklebeaxiom in einem Beispiel
 
