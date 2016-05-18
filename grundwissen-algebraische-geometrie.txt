@@ -958,6 +958,20 @@ Die Normalgarbe ist der ihr O_Y-Duales.
   Denn R[X]/(X^2 + Y^2) hat immer noch Krull-Dimension 1.
 
 
+=== Beispiele für Modulgarben gewisser Art
+
+* Sei E eine Modulgarbe. Sei x0 ein Punkt derart, dass jeder von x0
+  verschiedene Punkt eine offene Umgebung besitzt, die x0 nicht enthält. (Zum
+  Beispiel könnte x0 ein abgeschlossener Punkt sein.)
+
+  Definiere E'(U) = { s in E(U) | x0 in U ==> s = 0 in E_x0 }.
+
+  Es ist E' eine Garbe mit E'_x = E_x für x != x0 und E'_x0 = 0.
+
+  In den meisten Fällen sollte E' ein Beispiel dafür sein, dass sich Nullheit
+  des Halms nicht immer auf Nullheit in einer Umgebung überträgt.
+
+
 === Flache Familien
 
 * As others have stated above, flatness of a family should mean that the fibres

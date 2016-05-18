@@ -1355,6 +1355,40 @@ Beispiel:
 
   also sqrt(0)|_U = (sqrt(0) von A)~.
 
+* Noch ein Beispiel. Sei F eine Untermodulgarbe von E. Seien beide
+  quasikohärent. Dann gilt für affinoffene U:
+
+      (E/F)(U) = E(U) / F(U).
+
+  Denn auf U gilt, wenn wir E = M~ und F = N~ schreiben:
+
+      E/F = MM[F^(-1)] / NN[F^(-1)] = (MM / NN)[F^(-1)] =
+          (konstante Garbe zu M/N)[F^(-1)].
+
+  Beim zweiten Schritt geht ein, dass Lokalisieren exakt ist. Beim dritten
+  Schritt geht ein, dass konstante Garben bilden Kolimiten bewahrt.
+
+* Seien E und F quasikohärent. Dann ist auch E tensor F quasikohärent:
+
+      E tensor F = MM[F^(-1)] tensor NN[F^(-1)] =
+          (MM tensor NN)[F^(-1)] = (konstante Garbe zu (M tensor N))[F^(-1)].
+
+* So zeigt man, dass (f) <= O_X für f in O_X(X) quasikohärent ist:
+  Ohne Einschränkung sei X = Spec(A) und somit f in A. Dann:
+
+      (f) in O_X = ((f) in AA)[F^(-1)] = (konst. Garbe zu (f) in A)[F^(-1)].
+
+  Der erste Schritt ist wegen der allgemeinen Regel "(S^(-1) A) a = S^(-1) a".
+
+* Interessante Aufgabe: Zeige, dass Kerne zwischen quasikohärenten Modulgarben
+  wieder quasikohärent sind. Noch interessanter: Zeige, dass die mittlere
+  Modulgarbe in einer kurzen exakten Sequenz, in denen die anderen beiden
+  Modulgarben quasikohärent sind, quasikohärent ist.
+
+* Untermodulgarben von quasikohärenten Modulgarben, welche von endlichen Typ
+  sind, sind quasikohärent. Denn der zugehörige Quotient ist es (einfach
+  weitere Relationen).
+
 
 === Nächste Schritte
 
