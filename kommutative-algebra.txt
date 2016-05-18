@@ -1023,6 +1023,19 @@ Sei M eine quadratische Matrix über einem Ring.
 * Angeblich: Kerne von linearen Abbildungen zwischen endlich freien Moduln sind
   reflexiv.
 
+* Sei M ein A-Modul. Sei S eine multiplikative Teilmenge von A. Dann gilt:
+
+      Ist S <= Reg, so S^(-1) M_tors = (S^(-1) M)_tors.
+
+  Ist x/s aus der linken Seite gegeben, so ist x/s auch als Element der rechten
+  Seite ein Torsionselement, denn das reguläre Element von A, das als Zeuge
+  dient, ist auch als Bruch mit Nenner 1 in S^(-1) A regulär.
+
+  Ist umgekehrt x/s aus der rechten Seite gegeben, so gibt es ein Element a von A,
+  das als Einsbruch regulär ist. Nach Voraussetzung an S ist es damit auch als
+  Element von A regulär. Es gilt ax = 0 als Einsbrüche, also uax = 0 in M.
+  Somit können wir x/s auf ux/us schicken.
+
 
 === Skalareinschränkung und Skalarerweiterung
 
@@ -1167,6 +1180,19 @@ muss.
 * Sei A ein Ring, p ein Primideal und x in A. Dann:
 
       x regulär in A_p <==> [xy = 0 in A ==> ex. z \not\in p: zy = 0] f.a. y
+
+* Äquivalent sind:
+
+  1. Spec(A) |== AA --> AA[F^(-1)] ist injektiv
+  2. Für alle a, b aus A gilt: ab = 0  ==>  a = 0 oder b nilpotent.
+  3. (klassisch) Alle A --> A_p sind injektiv.
+  4. (klassisch) Jeder Nullteiler ist schon nilpotent.
+
+  Folglich ist das Nullideal von A genau dann ein Primärideal, wenn diese
+  Aussagen gelten und wenn zusätzlich 1 != 0 ist.
+
+  Insbesondere sind diese Aussagen für (starke und auch schwache)
+  Integritätsbereiche erfüllt.
 
 * Sei iota : A --> A[S^(-1)] die Lokalisierung an einem *saturierten* multiplikativ
   abgeschlossenen System (d.h. xy in S ==> x in S und y in S). Dann ist iota(x)

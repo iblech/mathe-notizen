@@ -267,6 +267,11 @@ für geometrische Formeln phi über X:
 
   Es sei denn, man schränkt sich auf lokal konstante Garben ein.
 
+  XXX: Weiß nicht mehr, was ich damit gemeint habe. Zum einen muss man sich
+  sicher auf geometrische Formeln phi einschränken. Zum anderen passt es doch
+  auf für das "große E": In der Hinrichtung kann man die konstante Garbe
+  nehmen, in der Rückrichtung den Halm.
+
 * "X |== forall A. (phi --> psi)  <==>  f.a. x \in X, Mengen A: phi_x --> psi_x."
 
   Das stimmt, für geometrische phi, psi.
@@ -345,6 +350,11 @@ für geometrische Formeln phi über X:
 
       U |== phi  genau dann, wenn  U <= sup { T | phi }.
 
+  (Wenn das auch für solche Formeln gelten soll, in denen unendliche
+  Konjunktion oder Allquantifikation über unendliche Mengen vorkommen, dann
+  muss U ouvert sein. U könnte also zum Beispiel einfach die Örtlichkeit zu
+  einem topologischen Raum sein.)
+
   Beweis durch Induktion; klar für top, bot. Für wedge wegen der
   in Rahmen geforderten Distributivität.
 
@@ -368,6 +378,17 @@ für geometrische Formeln phi über X:
 * Speziell im Rahmen der Radikalideale gilt:
 
       sqrt(f) = sup { sqrt(f) | phi }  <==>  f nilpotent oder phi.
+
+* Sei phi eine Formel mit einem freien Parameter und in der nur Mengen
+  vorkommen. Dann gilt:
+
+      [| { x : XX | phi(x) } |] = konstante Garbe zu { x in X | phi(x) }.
+
+  Dabei ist XX die konstante Garbe zur Menge X.
+
+* Das heißt jetzt nicht, dass der Funktor "konstante Garbe bilden" stets
+  beliebige Limiten bewahrt. Denn [| ... |] bewahrt nicht beliebige Limiten.
+  Das bräuchte man aber, damit das aus der vorherigen Beobachtung folgen würde.
 
 
 === Lokal konstante Garben

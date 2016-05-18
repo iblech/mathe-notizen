@@ -1304,6 +1304,58 @@ gegeben durch die Identitätsfunktion als globalen Schnitt von C.
       dim A <= n  <==>  dim(Spec A) <= n  <==>  Spec A |== dim O_X <= n.
 
 
+=== Sonderstellung der Auswertung auf affinoffenen Teilmengen
+
+Oft hat man doch folgende Situation: Man macht irgendwas mit Modulgarben, und
+ausgewertet auf affinoffenen Teilmengen gibt das dasselbe, wie wenn man das mit
+den entsprechenden Schnitten der Modulgarben gemacht hätte.
+
+Das hat einen tieferen Grund.
+
+Beispiel:
+
+    Sei X ein ganzes Schema. Sei E eine quasikohärente Modulgarbe. Wir
+    definieren intern:
+
+        E_tors := { s : E | exists a : O_X. a regulär und as = 0 }.
+
+    Dann gilt für affinoffene Teilmengen U: E_tors(U) = E(U)_tors.
+
+    Denn, da E quasikohärent ist, gilt E|_U = M~ für einen A-Modul M
+    (U = Spec A). Somit:
+
+        E_tors = MM[F^(-1)]_tors = MM_tors[F^(-1)] = (konst. Garbe zu M_tors)[F^(-1)]
+               1                 2                 3
+
+    Das zeigt, dass E_tors selbst wieder quasikohärent ist, und zwar auf U
+    gleich (M_tors)~. Insbesondere ist E_tors(U) = M_tors = E(U)_tors.
+
+    Schritt 1 ist nach Definition.
+
+    Schritt 2 ist, weil Lokalisieren mit Torsionsuntermodul bilden vertauscht.
+    Das stimmt aber nur, wenn das multiplikative System, nach dem man
+    lokalisiert, eine Teilmenge der regulären Elemente ist. Das ist unter der
+    Voraussetzung, dass X ganz ist, der Fall. Denn dann ist A ein
+    Integritätsbereich, und das ist dafür hinreichend. Siehe
+    kommutative-algebra.txt.
+
+    Schritt 3 ist allgemein, denn die Torsionsbedingung bezieht sich nur auf
+    konstante Garben. Denk dran, dass MM_tors so gegeben ist:
+
+        MM_tors = { s : MM | exists a : AA. a regulär und as = 0 }.
+
+* Anderes Beispiel: sqrt(0) <= O_X. Für affinoffene U gilt
+
+      sqrt(0)(U) = { f in O_X(U) | f nilpotent }.
+
+  Denn, wenn wir U = Spec A schreiben, haben wir auf U:
+
+      sqrt(0) = sqrt(0) von AA[F^(-1)] = (sqrt(0) von AA)[F^(-1)] =
+          (konstante Garbe zu (sqrt(0) von A))[F^(-1)],
+
+  also sqrt(0)|_U = (sqrt(0) von A)~.
+
+
 === Nächste Schritte
 
 * "Lemma 3" oben beweisen

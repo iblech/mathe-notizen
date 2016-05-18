@@ -589,6 +589,18 @@ http://mathoverflow.net/questions/17786/why-are-local-systems-and-representation
   und A hausdorffsch ist, konstant. Insbesondere ist die Garbe der stetigen
   Funktionen auf solchen Räumen X also die konstante Garbe R.
 
+* Untergarben konstanter Garben sind nicht immer wieder konstant und auch nicht
+  lokal konstant.
+
+  Beispiel: Sei E folgende Garbe auf R:
+
+      E(U) = { f : U --> R lokal konstant | 0 in U ==> f(0) = 0 }.
+
+  Diese Garbe ist eine Untergabre der konstanten Garbe R. Sie ist allerdings
+  nicht lokal konstant. Ihr Halm bei x != 0 ist isomorph zu R (vermöge [f] |-> f(0)),
+  aber ihr Halm bei x = 0 ist Null (jeder Keim um 0 ist, nach Übergang zu einer
+  kleineren offenen Definitionsmenge, Null).
+
 * Untergarben lokal konstanter Garben sind nicht immer wieder lokal konstant.
 
   Beispiel: A --> NN (konstante Garbe) mit A = { n:N | ex. EZS von F mit n

@@ -153,3 +153,29 @@ http://arxiv.org/abs/1403.7686
 Philippe Malbos, Samuel Mimram.
 Homological Computations for Term Rewriting Systems.
 http://math.univ-lyon1.fr/homes-www/malbos/Art/hcTRS.pdf
+
+
+=== Durchbruch in der Erzeugung von Zufallszahlen
+
+http://eccc.hpi-web.de/report/2015/119/
+
+
+=== Kein Durchbruch in der Erzeugung von Zufallszahlen, aber trotzdem cool
+
+http://web.eecs.umich.edu/~qstout/abs/AnnProb84.html
+
+Suppose you have a coin and want to flip it to generate a random bit. However,
+it may not be a fair coin, i.e., it may be that "heads" and "tails" are not
+equally likely. How can you use this potentially biased coin to generate an
+unbiased result? In particular, how can you do this when you don't know what,
+if any, the coin's bias is?
+
+Von Neumann gave a simple solution: flip the coin twice. If it comes up heads
+followed by tails, then call the outcome HEAD. If it comes up tails followed by
+heads, then call the outcome TAIL. Otherwise (i.e., two heads or two tails
+occured) repeat the process. Throughout we assume that the flips are
+independent, and in this case it is easy to show that von Neumann's procedure
+simulates an unbiased coin, in that one is exactly as likely to get a HEAD
+outcome as a TAIL outcome, no matter what the coin's bias is. Further, no
+matter what the bias is (as long as it is not 0 nor 1), in finite expected time
+an unbiased outcome will be achieved.

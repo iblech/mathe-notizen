@@ -248,6 +248,11 @@ colim_{a <= a'} F(a').
 
   Das folgt unmittelbar aus der Adjunktionsbeziehung.
 
+* Örtlichkeiten zu topologischen Räumen sind stets ouvert (konstruktiv).
+  Das Positivitätsprädikat kann man direkt angeben, es lautet:
+
+      U > 0  :<==>  U bewohnt.
+
 
 === Schnitt von Örtlichkeiten
 
