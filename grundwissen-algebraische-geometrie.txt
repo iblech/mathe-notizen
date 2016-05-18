@@ -971,6 +971,14 @@ Die Normalgarbe ist der ihr O_Y-Duales.
   In den meisten Fällen sollte E' ein Beispiel dafür sein, dass sich Nullheit
   des Halms nicht immer auf Nullheit in einer Umgebung überträgt.
 
+* Beispiel für (E tensor F)(U) != E(U) tensor F(U):
+
+  Sei X = Spec k[X]. Sei F die Wolkenkratzergarbe bei einem Punkt (X-a)
+  und E die '-Version von O_X bezüglich eines anderen Punkts (X-b).
+
+  Da E(X) = 0 (ich kenne die regulären Elemente in k[X]), also ist die rechte
+  Seite Null. Aber E tensor F = F. Also ist die linke Seite nicht Null.
+
 
 === Flache Familien
 
