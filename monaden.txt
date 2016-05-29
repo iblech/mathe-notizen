@@ -154,6 +154,9 @@ eine Äquivalenz ist. In diesem Fall heißt D auch monadisch über C.
 
   führen.
 
+* Die Kategorie der Rahmen (frames) ist monadisch über Set, ja sogar
+  durch Gleichungen repräsentiert. http://mathoverflow.net/a/10745/31233
+
 
 === Lifting von Adjunktionen
 

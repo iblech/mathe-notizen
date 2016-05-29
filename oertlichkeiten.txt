@@ -1,3 +1,101 @@
+=== Motivation für Örtlichkeiten
+
+1. Firstly, to still possible fears, they are not too dissimilar from
+topological spaces: The full subcategory of sober topological spaces is
+canonically equivalent to the full subcategory of "spatial" locales.
+
+2. Locales feel more "algebraic" than topological spaces. Many proofs in
+locale theory proceed by algebraic calculations. (Incidentally, this
+item gives some reason that the translation "Örtlichkeit" (as opposed to
+"Lokal") doesn't capture all nuances of the original English term.
+"Örtlichkeit" doesn't sound very algebraic, whereas "Lokal" does (cf.
+"Monade", "Monoid", "Quantal", ...).)
+
+3. Locales are a convenient intermediate concept between topological
+spaces and fully-fledged toposes: The canonical functor from topological
+spaces to toposes, which associates to a topological space X its sheaf
+topos Sh(X), is not quite an embedding -- one has to restrict to sober
+topological spaces. It factors over the functor Top --> Loc which
+associates to a topological space the locale with frame of opens given
+by the frame of open subsets; the functor from locales to toposes, which
+again constructs sheaf toposes, is an embedding.
+
+4. Locales enjoy better properties than topological spaces: For
+instance, arbitrary intersections of dense sublocales are again dense
+(in stark contrast to the situation with topological spaces, think Q and
+R \ Q in R), and products of paracompact locales are again paracompact
+(without any further hypotheses).
+
+5. Because locales needn't be determined by their points, locales can be
+nontrivial while possessing no points. This is particularly important in
+an intuitionistic context, where one might need some choice principles
+to construct points. Curious examples, which are even interesting in
+classical logic, are the locale of random binary sequences (capturing
+certain plausible, but contradicting demands on when a binary sequences
+should be deemed "random"), the locale of surjections N --> R, and the
+smallest dense sublocale of any given locale.
+
+6. Locales work better in an intuitionistic/constructive context such
+as in the internal universe of a topos. For instance, the topological
+space of the prime ideals of a ring cannot intuitionistically be shown
+to have the expected universal property of the spectrum. The locale of
+prime ideals works just fine[*]. Also the Gelfand--Naimark
+correspondence between commutative C*-algebras and locally compact
+Hausdorff spaces fails intuitionistically, unless "spaces" is taken to
+be "locales". (At some point in the proof, one appeals to the axiom of
+choice to construct a point satisfying certain requirements. One cannot
+do that intuitionistically. But everything is fine on the level of
+opens. [**]) One also doesn't any fancy set-theoretical axioms to verify
+that arbitrary products of compact locals are compact.
+
+7. To any "geometric theory" T (collection of axioms having a specific
+form) there is a "classifying locale" Set[T] whose points are the models
+of that theory in Set and whose locale maps X --> Set[T] are the models
+of T in Sh(X). This classifying locale is very easy to describe and
+quite useful (for instance, the spectrum of a ring is an classifying
+locale, namely of the theory of the ring's prime filters); however,
+the classifying locale not always spatial, so not always given by a
+topological space.
+
+8. Let X be a topological space. Then there is the slice category Top/X
+of continuous maps Y --> X. One can also define a category Top(Sh(X)) of
+"topological spaces internal to Sh(X)" (roughly similar to how one can
+talk about group objects internal to categories). These two categories
+are not equivalent. In contrast, for locales, it works: Loc(Sh(X)) is
+equivalent to Loc/X, by a simple construction. This is quite useful,
+because one can thereby reduce certain relative questions (about locale
+maps Y --> X) to (internal) absolute ones (about locale maps Y --> 1).
+
+9. "Frames are rings. Really! FRAMES ARE RINGS." (André Joyal, Topos à
+l'IHÉS 2015)
+
+Some very accessible references are:
+
+* Johnstone, The point of pointless topology, 1983.
+  http://pointlesstopology.com/the-point-of-pointless-topology.pdf
+
+* Johnstone, The art of pointless thinking: a student's guide to the category of
+  locales, 1990. http://www.heldermann.de/R&E/RAE18/ctw06.pdf
+
+* Simpson, The locale of random sequences, 2009.
+  http://homepages.inf.ed.ac.uk/als/Talks/ccc09.pdf
+
+* Vickers, Locales and toposes as spaces, 2007.
+  http://www.cs.bham.ac.uk/~sjv/LocTopSpaces.pdf
+
+[*] To be precise, the locale of prime ideals doesn't work either. But
+the locale of prime filters does. (The concept of a prime filter is a
+direct axiomatization of what classically is the complement of a prime
+ideal.)
+
+[**] This is quite important to the Bohr topos approach to quantum
+mechanics, where Gelfand--Naimark is applied in an internal setting to
+construct a kind of (ordinary, i.e. commutative!) phase space for a
+quantum mechanical system. See
+https://pizzaseminar.speicherleck.de/skript2/konstruktive-mathematik.pdf
+beginning on page 46 or the nLab for details.
+
+
 === Rahmen als Ringe
 
 "Frames are rings. Really! FRAMES ARE RINGS." (Joyal, Topos à l'IHES)
