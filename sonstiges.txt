@@ -396,3 +396,9 @@ http://pubsonline.informs.org/doi/pdf/10.1287/mnsc.34.3.291
 === Tipps zu einem C-Kurs
 
 http://blog.regehr.org/archives/1393
+
+
+=== Guter Stil
+
+* McIntyre. Lucidity and Science: Writing skills and the pattern perception hypothesis.
+  http://www.atm.damtp.cam.ac.uk/mcintyre/papers/LHCE/lucidity-science-I.pdf

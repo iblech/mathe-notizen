@@ -179,3 +179,8 @@ simulates an unbiased coin, in that one is exactly as likely to get a HEAD
 outcome as a TAIL outcome, no matter what the coin's bias is. Further, no
 matter what the bias is (as long as it is not 0 nor 1), in finite expected time
 an unbiased outcome will be achieved.
+
+
+=== Makros, die besser komponierbar sind
+
+http://okmij.org/ftp/Scheme/macros.html#ck-macros
