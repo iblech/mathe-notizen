@@ -1,0 +1,69 @@
+=== Automatische Abgeschlossenheit
+
+* Untergruppen H von topologischen Gruppen G, welche als Teilmengen offen sind,
+  sind stets abgeschlossen:
+
+      G \ H = bigcup_{g in G \ H} (g H).
+
+  Für topologische Monoide stimmt das nicht
+
+* Diskrete Untergruppen von R^n sind abgeschlossen (obwohl sie nicht unbedingt
+  offen sind): Sei (x_n)_n eine gegen x konvergente Folge, wobei die x_n alle
+  aus der diskreten Untergruppe H stammen. Dann ist (x_n - x)_n eine gegen Null
+  konvergente Folge. Da H diskret ist, gibt es ein eps > 0, sodass B_eps(0) cap H
+  nur die Null enthält. Ab einer gewissen Stelle N liegen alle Differenzen
+  (x_N - x) - (x_n - x) in diesem Ball (Cauchyfolge!). Diese Differenzen sind
+  Elemente aus H, also Null. Somit ist x_n = x_N für n >= N und somit ist x =
+  x_N in H.
+
+
+=== Diskrete Untergruppen von R^n sind Gitter (und umgekehrt)
+
+Sei Gamma <= R^n eine Untergruppe, welche als Teilmenge diskret ist.
+(Ist damit automatisch eine topologische Untergruppe.)
+
+Dann ist Gamma ein Gitter, also Z-Spann einer Familie von über R linear
+unabhängigen Vektoren. Das zeigt man über folgendes "Verfahren":
+
+Ist bereits eine Familie (gamma_1, ..., gamma_n) von über R linear unabhängigen
+Vektoren aus Gamma mit Gamma cap span_R(gamma_i)_i <= span_Z(gamma_i)_i
+gegeben, so gilt entweder Gamma = span_Z(gamma_i)_i oder die Familie lässt sich
+zu einer längeren solchen Familie erweitern. (Dieses Verfahren terminiert wegen
+der endlichen Dimension von R^n.)
+
+Im ersten Fall sind wir natürlich fertig. Im zweiten Fall ist die Menge
+Gamma \ span_R(gamma_i)_i (= Gamma \ span_Z(gamma_i)_i) nicht leer. Mit einem
+Lemma zeigt man, dass diese Menge daher einen Punkt gamma' enthält, dessen
+Abstand zu span_R(gamma_i)_i minimal ist.
+
+Dann ist die um gamma' verlängerte Familie über R linear unabhängig. Und zur
+zweiten Bedingung: Sei x = sum_i lambda_i gamma_i + lambda' gamma' mit reellen
+Koeffizienten aus Gamma. Falls lambda' in Z liegt, liegen nach Voraussetzung
+auch die weiteren Koeffizienten in Z. Ansonsten können wir den Punkt
+x - floor(lambda') gamma' betrachten. Dieser liegt wieder in Gamma, hat aber
+geringeren Abstand zu span_R(gamma_i)_i als gamma', nämlich höchstens so viel
+wie der Abstand zu sum_i lambda_i gamma_i, und der ist frac(lamda') ||gamma'|| <
+||gamma'||.
+
+Zum Lemma: Zunächst beobachtet man nach einem allgemeinen Lemma, dass Gamma
+abgeschlossen ist. Alle Teilmengen von Gamma sind somit ebenfalls abgeschlossen
+und diskret. Die Funktion, die einem Punkt seinen Abstand zu einer
+abgeschlossenen Menge zuordnet, ist stetig (sogar lipschitz mit Konstante 1,
+oder?). Daher sollte das Minimum zu span_R(gamma_i)_i existieren.
+
+Siehe auch:
+http://disopt.epfl.ch/webdav/site/disopt/shared/IntPoints2009/minkowski.pdf
+
+
+=== Minkowskischer Gittersatz
+
+* Eine Anwendung ist der Vier-Quadrate-Satz von Lagrange.
+  http://disopt.epfl.ch/webdav/site/disopt/shared/IntPoints2009/minkowski.pdf
+
+* Minkowski--Hermite-Theorem: Es gibt nur endlich viele Zahlkörper
+  mit Diskriminante im Betrag unter einer gegebenen Schranke.
+  http://math.stackexchange.com/questions/920447/proof-of-hermite-minkowskis-theorem-regarding-finite-number-fields-for-a-given/1362196
+
+* Ein paar Bemerkungen zu Diskriminanten und Endlichkeitsaussagen
+  in der Zahlentheorie:
+  http://www2.math.kyushu-u.ac.jp/~taguchi/bib/taegu-var.pdf
