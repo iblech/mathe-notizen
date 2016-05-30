@@ -42,14 +42,15 @@ Koeffizienten aus Gamma. Falls lambda' in Z liegt, liegen nach Voraussetzung
 auch die weiteren Koeffizienten in Z. Ansonsten können wir den Punkt
 x - floor(lambda') gamma' betrachten. Dieser liegt wieder in Gamma, hat aber
 geringeren Abstand zu span_R(gamma_i)_i als gamma', nämlich höchstens so viel
-wie der Abstand zu sum_i lambda_i gamma_i, und der ist frac(lamda') ||gamma'|| <
+wie der Abstand zu sum_i lambda_i gamma_i, und der ist frac(lambda') ||gamma'|| <
 ||gamma'||.
 
 Zum Lemma: Zunächst beobachtet man nach einem allgemeinen Lemma, dass Gamma
 abgeschlossen ist. Alle Teilmengen von Gamma sind somit ebenfalls abgeschlossen
 und diskret. Die Funktion, die einem Punkt seinen Abstand zu einer
-abgeschlossenen Menge zuordnet, ist stetig (sogar lipschitz mit Konstante 1,
-oder?). Daher sollte das Minimum zu span_R(gamma_i)_i existieren.
+(nichtleeren) Menge zuordnet, ist stetig (sogar lipschitz mit Konstante 1).
+Das sollten wichtige Zutaten sein, um zu zeigen, dass das das Minimum zu
+span_R(gamma_i)_i existiert.
 
 Siehe auch:
 http://disopt.epfl.ch/webdav/site/disopt/shared/IntPoints2009/minkowski.pdf
