@@ -248,6 +248,16 @@ Steht in
 https://www-fourier.ujf-grenoble.fr/sites/ifmaquette.ujf-grenoble.fr/files/bertin_rev.pdf.
 
 
+=== Coh([X/G]) = Coh_G(X)
+
+https://qchu.wordpress.com/2016/05/31/higher-linear-algebra/
+
+If the stacky quotient X/G happens to be an ordinary scheme (so X --> X/G is a
+G-torsor in schemes), this is a generalization of Galois descent, to which it
+reduces in the case when k --> L is a finite extension, X = Spec L, and G is
+the Galois group.
+
+
 === Literatur
 
 * Martin Entrup: Die äquivariante derivierte Kategorie des komplex-projektiven Raumes.
