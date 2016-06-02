@@ -122,6 +122,38 @@
   http://mathoverflow.net/a/45218/31233
 
 
+=== Ausschneiden von Untergarben über Halmvorgaben
+
+Sei eine Garbe E auf einem topologischen Raum X gegeben.
+
+Sei für jeden Punkt x aus X eine Teilmenge M_x vom Halm E_x gegeben.
+
+Dann definiert folgende Setzung durchaus eine Untergarbe von E:
+
+    F(U) := { s in E(U) | s_x in M_x für alle x aus U }.
+
+Allerdings müssen die Halme von F nicht unbedingt mit den Mengen M_x
+übereinstimmen. Wir haben für jeden Punkt x eine injektive Abbildung
+
+    F_x ---> M_x
+    [s] |--> [s],
+
+diese ist im Allgemeinen aber nicht surjektiv. Hinreichend und notwendig dazu
+wäre eine Offenheitsbedingung: Wenn der Keim eines Schnitts s bei x in M_x
+liegt, dann liegen auch all seine Keime bei Punkten y einer offenen Umgebung
+von x jeweils in M_y. (Schließt natürlich nicht aus, dass eine ganz anders
+konstruierte Garbe die richtigen Halme hat.)
+
+* Ein Beispiel, wo diese Bedingung erfüllt ist: X ein Schema, E = O_X,
+  M_x = Menge der invertierbaren Elemente von E_x.
+
+* Ein Beispiel, wo diese Bedingung nicht erfüllt ist: X ein Schema, E = O_X,
+  M_x = maximales Ideal von O_{X,x} = Menge derjenigen Elemente von E_x, die im
+  Restklassenkörper Null geben. Dann ist F aus interner Sicht O_X \ O_X^x, also sqrt(0).
+  Im Fall, dass X reduziert ist, ist F also die Nullgarbe. Ihre Halme sind
+  also jeweils Null. Aber die M_x sind nicht unbedingt alle Null.
+
+
 === Beispiele von Zurückziehen und Vordrücken
 
 * Sei i : {x} --> X die Inklusion eines Punkts. Dann kann Zurückziehen längs i
