@@ -283,6 +283,9 @@ G-Äquivarianz.
 
   Hier geht ein, dass jedes Geradenbündel auf k[X] trivial ist.
 
+* Ist A der Ganzheitsring eines Zahlkörpers K, so gilt K(A) = Z oplus Cl_K.
+  https://de.wikipedia.org/wiki/Idealklassengruppe
+
 In K(X) sind folgende Elemente bezüglich der Multiplikation invertierbar:
 * Klassen von Geradenbündeln, klar.
 * Negative von Klassen von Geradenbündeln.
