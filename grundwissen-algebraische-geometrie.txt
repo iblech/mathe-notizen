@@ -1019,6 +1019,36 @@ Genauer zum Punkt universelle Lokalisierung:
   zwei Primideale von A sind gleich.
 
 
+=== Graduierung
+
+Sei A ein Ring. Dann stehen Z-Graduierungen auf A (Familien von Untergruppen
+(A_n)_n mit bigoplus_n A_n --> A Iso, sodass A_n A_m <= A_(n+m) und 1 in A_0)
+und G_m-Wirkungen auf Spec A in kanonischer Eins-zu-Eins-Korrespondenz.
+
+* Ist eine Z-Graduierung auf A gegeben, so definiere eine Wirkung
+  rho : G_m x Spec A --> Spec A durch
+
+      rho^#(a) = sum_n a_n t^n,
+
+  wobei a = sum_n a_n die Zerlegung in homogene Komponenten ist.
+
+* Ist rho : G_m x Spec A --> Spec A eine Wirkung, so definiere A_n durch
+
+      A_n = { a in A | exists b in A: rho^#(a) = b t^n }.
+
+  Die Forderungen A_n A_m <= A_(n+m) und 1 in A_n folgen dann einfach daraus,
+  dass rho^# ein Ringhomo ist.
+
+  Die Injektivität von bigoplus_n A_n --> A_n verwendet die Injektivität von
+  rho^#. Die ist gegeben, denn rho besitzt ein Rechtsinverses (folgt aus dem
+  Wirkungsaxiom zur Neutralität).
+
+  Die Surjektivität folgt aus dem Neutralitätsaxiom und dem Assoziativitätsaxiom.
+  Ersteres garantiert, dass wir jedes a aus A als Summe a = rho^#(a)|_{t=1}
+  schreiben können. Das Assoziativitätsaxiom garantiert, dass die einzelnen
+  Summanden wirklich in A_n liegen.
+
+
 === Garbe meromorpher Funktionen
 
 Siehe: Steven Kleiman, Misconceptions about K_X.
