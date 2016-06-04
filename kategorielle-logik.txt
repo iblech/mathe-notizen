@@ -131,6 +131,16 @@ Es gilt zumindest für alle s aus X(U): chi_U(s) = U <==> U |== phi[s/x].
 
 * Objekte natürlicher Zahlen und Listenobjekte kommutieren mit Rückzug.
 
+* Auch die Konstruktion der Menge der Kuratowski-endlichen Teilmengen
+  ist geometrisch. Eine Möglichkeit, das einzusehen, besteht darin, K(X)
+  als Kodifferenzkern zu realisieren:
+
+      R ===> List(X) ---> K(X),
+
+  wobei R <= List(X) x List(X) die Teilmenge bestehend aus folgenden Paaren ist:
+
+      { (xs,ys) | bigwedge_i bigvee_j (xs[i] = ys[j]) & umgekehrt }.
+
 * Die Konstruktion "freier R-Modul auf" kommutiert ebenfalls. Das ist NICHT
   klar, wenn man dazu die feinste Äquivalenzrelation mit ... verwendet,
   aber SCHON, wenn man ihn einfach als Koequalizer definiert:

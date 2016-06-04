@@ -486,6 +486,25 @@ beliebigen Infima abgeschlossen ist und außerdem ein exponentielles Ideal ist
          <==> bigvee_i b_i(u wedge X_i) <= v.
 
 
+=== Rückzug (Pullback) von Örtlichkeiten
+
+http://www.tac.mta.ca/tac/volumes/12/13/12-13.pdf
+
+* Ein GRD-System besteht aus drei Mengen G, R und D sowie Abbildungen
+
+      lambda : R --> F(G)   (Menge der Kuratowski-endlichen Teilmengen)
+      rho    : D --> F(G)
+      pi     : D --> R.
+
+* Ein GRD-System gibt Anlass zu einem Rahmen, nämlich dem von den Elementen
+  aus G erzeugten modulo den Relationen
+
+      bigwedge lambda(r) <= bigvee_{pi(d)=r} bigwedge rho(d).
+
+* Der Rückzug von derart definierten Örtlichkeiten geschieht durch Rückzug
+  der zugehörigen Präsentationen.
+
+
 === Literatur
 
 * Klar: Johnstone (zwei Einführungsartikel, Stone Spaces, Elephant)
