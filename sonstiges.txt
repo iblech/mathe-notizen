@@ -258,6 +258,51 @@ http://mathoverflow.net/questions/132802/defining-holomorphic-functions-in-terms
 * Kausalität?
 
 
+=== Dust Theory & Co.
+
+* Die übliche Frage geht so: Sei ein Computerprogramm gegeben, dass ein
+  menschliches Gehirn simuliert. Inwieweit ist es wichtig, dass dieses Programm
+  ausgeführt wird, damit das simulierte Gehirn Bewusstsein empfindet?
+
+* "The test of such a theory is whether it can produce results agreeing with
+  “commonsense intuition”: for example, whether it can affirm, from first
+  principles, that (most) humans are conscious; that dogs and horses are also
+  conscious but less so; that rocks, livers, bacteria colonies, and existing
+  digital computers are not conscious (or are hardly conscious); and that a
+  room full of people has no “mega-consciousness” over and above the
+  consciousnesses of the individuals."
+  http://www.scottaaronson.com/blog/?p=1799
+
+  Den letzten Punkt kann man aber kritisieren: Wenn Menschen Teil einer
+  Menschenansammlung sind, haben sie nicht das Gefühl, dass die
+  Menschenansammlung ein eigenes Bewusstsein entwickelt. Die einzelnen
+  Körperzellen des Menschen haben wohl aber auch nicht das Gefühl, dass ihre
+  Gesamtheit ein Bewusstsein entwickle.
+
+  Man könnte einwenden: Ja, aber ein Mensch kann auch handeln (statt nur
+  erfahren). Wie könnte eine Menschenansammlung handeln? Aber auch das ist kein
+  korrekter Schluss: Denn "wirklich" handeln tut ja nicht der Mensch, sondern
+  die einzelnen Zellen. Es entsteht nur der Eindruck, dass der Mensch mit
+  seinem Bewusstsein handele.
+
+  Ein paar interessante Unterschiede zwischen Körperzellen--Mensch und
+  Mensch--Menschenansammlungen sind:
+
+  * Die einzelnen Bestandteile haben kein bzw. haben ein Bewusstsein.
+  * ...
+
+  Die Zeitskala für das zusammengesetzte System scheint deutlich größer sein
+  als die der Bestandteile. Vielleicht ist das auch bei Menschenansammlungen
+  so. Das wäre ein Faktor, wieso wir diese nicht offenkundig als Organismen
+  wahrnehmen.
+
+* "As humans, we seem to have the intuition that global integration of
+  information is such a powerful property that no “simple” or “mundane”
+  computational process could possibly achieve it.  But our intuition is wrong.
+  If it were right, then we wouldn’t have linear-size superconcentrators or
+  LDPC codes."
+
+
 === Deep Learning
 
 Ian Goodfellow, Jonathon Shlens, Christian Szegedy.
