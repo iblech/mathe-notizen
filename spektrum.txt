@@ -566,6 +566,26 @@ Es stimmt im Allgemeinen aber nicht, dass IntSpec O_X ~~ (pt, O_X).
   http://math.stackexchange.com/questions/1532244/joyals-construction-of-the-spectrum-of-a-commutative-ring?noredirect=1#comment3122269_1532244.
 
 
+=== Basiswechsel
+
+Sei f : Y --> X ein Morphismus lokal geringter Räume. Sei A eine O_X-Algebra.
+Dann gilt bekanntlich: f^*(RelSpec_X(A)) = RelSpec_Y(f^*A). Das kann man in
+zwei Schritten beweisen:
+
+* Aus ganz allgemeinen Gründen ist der Rückzug (in LRL) von RelSpec_X(A), also
+  Spec(A|X), längs (Y, f^{-1}(O_X)) --> X gleich Spec(f^{-1}(A)|f^{-1}(O_X)).
+  Siehe Lemma in oertlichkeiten.txt.
+
+* Nun gilt für T in LRL/(Y,f^(-1)O_X):
+
+      Hom_{LRL/(Y,f^(-1)O_X)}(T, Spec(f^*A|O_Y)) =
+          coprod_{mu : T --> (Y,O_Y) LRL} Hom_{LRL/Y}(T, Spec(f^*A|O_Y)) =
+          coprod_{mu : T --> (Y,O_Y) LRL} Hom_{O_Y-Alg}(f^*A, mu_*(O_T)) =
+          coprod_{mu : T --> (Y,O_Y) LRL} Hom_{f^(-1)O_X-Alg}(f^(-1)A, mu_*(O_T)) =
+          coprod_{mu : T --> (Y,O_Y) LRL} Hom_{LRL/(Y,f^(-1)O_X}(T, Spec(f^(-1)A|f^(-1)O_X)) =
+          Hom(T, Y) x Hom(T, ___)
+
+
 === Spektrum nichtkommutativer Ringe
 
 * Manuel Reyes. Sheaves that fail to represent matrix rings.
