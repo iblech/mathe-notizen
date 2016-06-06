@@ -1,3 +1,38 @@
+=== Ringe mit eindeutiger Primidealzerlegung
+
+* Sei A ein Dedekindring. (Oder nur ein Integritätsbereich der Dimension <= 1,
+  in dem jedes von Null verschiedene Ideal eine eindeutige Zerlegung in
+  Primideale zulässt. Man kann das noch weiter abschwächen.)
+
+  Seien p_1, ..., p_n von Null verschiedene und paarweise verschiedene Primideale.
+
+  Gelte: prod_i p_i^(a_i) <= prod_i p_i^(b_i).
+
+  Dann folgt a_i >= b_i für alle i.
+
+  Denn angenommen, für ein solches i gilt a_i < b_i. Wegen der Eindeutigkeit
+  der Primidealzerlegung finden wir dann ein Elemente pi aus p_i^(a_i) \ p_i^(b_i).
+
+  Da die p_i paarweise koprim sind, sind auch beliebige Potenzen dieser Ideale
+  paarweise koprim. Nach dem chinesischen Restsatz finden wir daher ein Element x mit
+
+      x = pi modulo p_i^(b_i)
+      x = 0  modulo p_j^(a_j) für j != i.
+
+  Dieses x ist modulo allen p_j^(a_j) Null. Es liegt also im Schnitt dieser
+  Ideale und, wegen der Koprimalität, auch im Produkt dieser Ideale. Nach
+  Voraussetzung liegt es also im Produkt der p_j^(b_j) und insbesondere in
+  p_i^(b_i). Also ist x gleich Null modulo p_i^(b_i). Aber das ist ein
+  Widerspruch, denn x ist pi modulo p_i^(b_i) und pi ist nicht Null modulo
+  p_i^(b_i).
+
+* Konsequenzen daraus sind:
+
+  1. a <= b  <==>  a^m <= b^m.
+  2. Die erwarteten Rechenregeln für Summe und Schnitt von Produkten von
+     Primidealen (wie bei ggT und kgV von Zahlen).
+
+
 === Diskrete Bewertungsbereiche
 
 * Jedes Ideal in einem diskreten Bewertungsbereich ist von der Form
