@@ -25,3 +25,8 @@ Offensichtlich liefern beide Methoden dasselbe Ergebnis.
 Zu bemerken ist, dass die Surjektivität von Dg *nicht* ausreicht, um die
 Existenz von lambda in beliebigen Punkten (im Gegensatz zu Optimalpunkten) zu
 sichern. Dazu benötigt man schon die Invertierbarkeit von D_y g.
+
+
+=== Optimierung und Sozialismus
+
+http://crookedtimber.org/2012/05/30/in-soviet-union-optimization-problem-solves-you/
