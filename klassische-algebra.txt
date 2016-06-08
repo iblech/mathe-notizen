@@ -86,6 +86,51 @@ are uniquely determined.[2]
   http://mathoverflow.net/a/166014/31233
 
 
+=== Grade von Realteil und Imaginärteil
+
+* Ist |z|^2 rational, so ist der Grad von Re(z) höchstens der von z.
+  Denn Re(z) = 1/2 (z + |z|^2/z) liegt in Q(z).
+
+* Für den Imaginärteil y stimmt es auch (danke an Felix!):
+
+  Schritt 1:
+
+            Q(z,i)
+     1oder2/      \ also hier n/2 oder n
+          /        \
+         Q(z)       Q(i)
+           \      /
+          n \   / 2
+              Q
+
+  Schritt 2:
+
+            Q(y,i)
+         2 /      \ also hier auch ?
+          /        \
+        Q(y)        Q(i)
+          \       /
+          ? \   / 2
+              Q
+
+  Schritt 3:
+
+           Q(z,i)
+          /   | \ diese Inklusion hier besteht, da y = (z - |z|^2/z) / (2i)
+         /    |  \
+      Q(x,i)  |   Q(y,i)
+          \   |  /
+           \  | / ? (nach Schritt 2)
+            Q(i)
+
+      Der Gesamtgrad hier ist (nach Schritt 1) n/2 oder n.
+      Damit ist ? ein Faktor von n/2 oder n.
+      Insbesondere ist ? kleiner oder gleich n.
+
+* Ohne die Rationalitätsvoraussetzung ist es falsch:
+  Sei z = sqrt[3](2). Dann hat z Grad 3. Aber Im(z) hat Grad 6.
+
+
 === Semidirektes Produkt von Gruppen
 
 Möchte eine gegebene Wirkung H --> Aut(N) in eine Konjugationswirkung
