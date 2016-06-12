@@ -302,6 +302,41 @@ http://mathoverflow.net/questions/132802/defining-holomorphic-functions-in-terms
   If it were right, then we wouldn’t have linear-size superconcentrators or
   LDPC codes."
 
+* Attention Schema Theory (AST): Um etwas steuern zu können, muss man es
+  modellieren. Eine Instanz davon ist: Um verborgene Aufmerksamkeit (covert
+  attention, wie zum Beispiel auf Dinge, die nicht im Mittelpunkt des Sehfelds
+  sind; entfernte Geräusche; Erinnerungen; Gedanken) zu lenken, muss diese
+  daher modelliert werden. Das ist Bewusstsein.
+
+  http://www.theatlantic.com/science/archive/2016/06/how-consciousness-evolved/485558/?single_page=true
+
+  "One's own awareness is a schematized model of one's own attention."
+  https://www.princeton.edu/~graziano/research.html
+
+  In the attention schema theory, awareness is an internal model of attention.
+  But internal models, or schemas, are rarely entirely accurate. They are
+  simplifications. Sometimes they are in error and diverge from reality.
+  Usually, awareness and attention track each other. If you attend to
+  something, you are usually aware of it. But numerous experiments suggest that
+  it is sometimes possible to attend to something and yet be unaware of it.
+  (e.g. Kentridge et al., 2004; Koch and Tsuchiya, 2007; Lamme, 2004). The
+  attention schema theory predicts this dissociation between awareness and
+  attention. In the same manner, the brain contains a body schema, an internal
+  model of the physical body. The body schema usually tracks the body, but is
+  not always accurate, and in laboratory conditions can be dissociated from the
+  actual state of the body.
+
+  Human cultures are replete with myths and illusions regarding consciousness:
+  the out-of-body experience, the belief that the center of awareness can leave
+  the body and float through space as a spirit or ghost, the feeling of being
+  stared at, the belief that an invisible force comes out of the eyes when we
+  look at something. Why are such physically impossible notions so prevalent?
+  The attention schema theory may provide one explanation. These myths may
+  reflect intrsinsic inaccuracies in the brain's own internal model of
+  attention. The brain models attention schematically, not as a competitive
+  interaction between neurons that enhances information processing, but as an
+  ethereal, plasma-like substance that is privy to experience.
+
 
 === Deep Learning
 
