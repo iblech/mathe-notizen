@@ -247,6 +247,7 @@
   die Abbildung, längs der man vordrückt, abgeschlossen ist?
 
 * Kann man konstruktiv eine nichttriviale injektive Gruppe hinschreiben?
+  Update: Nein! Andreas Blass, https://www.jstor.org/stable/1998165.
   Wie sieht's mit Welkheit aus?
 
 * Die internen Charakterisierungen von Quasikohärenz und Welkheit sind sich so
