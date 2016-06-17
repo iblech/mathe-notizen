@@ -442,6 +442,10 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
   In einem gewissen Sinn stimmt es aber "fast". Stichwort konstruierbare
   Mengen.
 
+* Besitzt ein Schema eine Überdeckung durch "standardoffene" Mengen
+  (von der Form D(f), wobei die f globale Funktionen sind), welche affin sind,
+  so ist das Schema selbst schon affin.
+
 
 === Morphismen in affine Schemata
 
