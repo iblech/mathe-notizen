@@ -247,6 +247,9 @@ Abbildungen. Sagt Brandenburg.
   Morphismen auf allen Fasern surjektiv sein. Dafür ist nicht hinreichend, dass
   die Abbildung zwischen den Totalräumen surjektiv ist.
 
+* Epis in der Kategorie der Ringe sind auch nicht immer surjektiv.
+  Zum Beispiel ist stets R --> R[S^(-1)] ein Epi.
+
 
 === Kanten vs. Pfade
 

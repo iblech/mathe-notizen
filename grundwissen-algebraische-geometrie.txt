@@ -1384,6 +1384,7 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
   Zariskitopos? Wie definiert man Unterschemata über Idealgarben?
   Das hat sich auch Marc gefragt:
   http://mathoverflow.net/questions/20622/construction-of-the-petit-zariski-topos-out-of-the-gros-topos-of-a-scheme
+  Update: Die erste Frage ist geklärt, siehe interne-methoden.txt.
 
 * "Etale means, by definition, formally etale and locally of finite
   presentation, both of which conditions have simple formulations in terms of
@@ -1395,6 +1396,32 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
 
 * http://math.jhu.edu/~banerjee/duality.pdf enthält einen schönen
   Überblick.
+
+
+=== Quasikohärente Moduln im Punktefunktoransatz
+
+* Folgende Setzung definiert eine A^1-Modulgarbe in Zar(Spec Z),
+  welche die Bedingung
+
+      "E(A) tensor_A B  --->  E(B)  ist ein Iso"
+
+  zwar für Lokalisierungen A --> A[f^(-1)] erfüllt, nicht aber für beliebige
+  Ringhomos A --> B.
+
+  E(R) := prod_{p in Spec R} k(p)
+
+* Eine Modulprägarbe E in PZar(S) = Sh(Sch/S) (oder lveP/S oder so) ist
+  genau dann quasikohärent, wenn in PZar(S) gilt:
+
+      Für alle endlich präsentierten A^1-Algebren A ist der kanonische
+      Morphismus
+
+          E tensor A ---> [ [A,A^1]_{A^1}, E ]
+
+      ein Isomorphismus.
+
+* Was ist eine Charakterisierung in Zar(S)? Und was bedeutet es, wenn
+  der analoge Morphismus in Zar(S) ein Iso ist?
 
 
 === Limiten und Kolimiten von Schemata und verwandten Dingen
