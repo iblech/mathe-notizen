@@ -45,7 +45,7 @@ a) ...der freie B-Modul zur Basis d(b), b in B, modulo Relationen
    (A-Linearität und Leibnizregel).
 
 b) ...I/I^2, wobei I = ker(B \otimes_A B --> B)  (zusammenmultiplizieren).
-  
+
    Dabei kann man B \otimes_A B durch Multiplikation im rechten Tensorfaktor
    auch als B-Modul ansehen; die Abbildung ist dann B-linear und I daher ein
    B-Untermodul. So wird auch I/I^2 zu einem B-Modul.

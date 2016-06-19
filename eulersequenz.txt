@@ -70,6 +70,12 @@ in der Faser bei l so aus:
 
     0 --> l^perp --> V^ --> l^ --> 0.
 
+Ungetwistet haben wir wohl sowas:
+
+    0 --> Hom(V/l, l) --> Hom(V, l) = V^ tensor l --> Hom(l, l) = k --> 0.
+
+Kann man auch sehr schön intern bestätigen (im großen Zariski-Topos).
+
 
 === Nächte Schritte
 

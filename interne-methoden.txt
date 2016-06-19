@@ -2021,7 +2021,44 @@ Sei O_X kohärent. Dann kann EXT intern als Ext verstanden werden.
   topostheorie.txt.
 
 
+=== Projektiver Raum
+
+Sei P(V) die Menge der Ursprungsgeraden in V. Dann kann ich zeigen:
+
+    T(P(V)) := [Delta, P(V)] = { (l : P(V), alpha : l -> V/l linear) }
+
+Die Isomorphie sieht wie folgt aus. Ist ein gamma : Delta --> P(V) gegeben, so
+finden wir (!) einen Lift v : Delta --> V mit gamma(eps) = span(v(eps)) für
+alle eps. Wir definieren dann das Tupel (gamma(0), alpha) mit
+
+    alpha(x) = [x/v(0) * v'(0)].
+
+Bezüglich konstanter Reskalierungen ist schon der Ausdruck x/v(0) * v'(0)
+wohldefiniert. Aber wenn w(eps) = f(eps) v(eps) eine anderer Lift ist, so gilt:
+
+    x/w(0) * w'(0) = x/(f(0) v(0)) * (f(0) v'(0) + f'(0) v(0)) =
+        x/v(0) * v'(0) + f'(0)/f(0) x
+
+Also benötigt man schon den Übergang zum Quotienten V/l.
+
+Ist umgekehrt ein Tupel (l, alpha) gegeben, so schreiben wir l = span(x0)
+und alpha(x0) = [z] und definieren so den Weg
+
+    gamma(eps) = span(x0 + eps z).
+
+Das ist wohldefiniert unter Skalierung von x0 (klar) und auch unter Änderung
+von z zu z + f x0:
+
+    span(x0 + eps (z + f x0)) = span((1 + eps f) x0 + eps z) =
+        span(x0 + eps / (1 + eps f) z) = span(x0 + eps z),
+
+denn eps / (1 + eps f) = eps (1 - eps f) = eps.
+
+Schön!
+
+
 === Relevante MO-Fragen
 
 * http://mathoverflow.net/questions/2314/several-topos-theory-questions
 * http://mathoverflow.net/questions/606/synthetic-reasoning-applied-to-algebraic-geometry
+* http://mathoverflow.net/questions/5211/geometric-meaning-of-the-euler-sequence-on-mathbbpn-example-8-20-1-in-ch-ii
