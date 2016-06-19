@@ -1410,6 +1410,54 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
 
   E(R) := prod_{p in Spec R} k(p)
 
+* Man könnte denken: Modulgarben F über Ring^op (der großen Kategorie aller
+  Ringe) bewahrten filtrierte Kolimiten. Dass also insbesondere gilt:
+
+      F(R) = colim_{R' --> R, R' e.p.} F(R').
+
+  Das ist aber falsch. Ein Gegenbeispiel ist die Modulgarbe E vom vorherigen
+  Punkt (colim_n E(Z[1/n]) --> E(Q) ist nicht injektiv).
+
+* Der Halm eines Objekts E aus PZar(A) an einem Punkt R (also einem Ring R,
+  nicht notwendigerweise endlich präsentiert) ist wohl
+
+      E_R = colim_{R' --> R, R' e.p.} E(R').
+
+  Im Fall, dass R endlich präsentiert ist, vereinfacht sich das zu E(R).
+  Punkte, die zu endlich präsentierten Ringen gehören, sind also besonders, da
+  der zugehörige Pullbackfunktor nicht nur endliche, sondern beliebige Limiten
+  bewahrt. Vielleicht sind sie sogar essenzielle geometrische Morphismen.
+
+  Man kann die Behauptung, dass der Halm im endlich präsentierten Fall durch
+  Auswertung gegeben ist, wie folgt zeigen. Für A^1 weiß man, dass Auswertung
+  und Halm nehmen übereinstimmen. Jedes Objekt in PZar(A) setzt sich mit
+  "geometrischen Operationen" (kleinen Kolimiten und endlichen Limiten) aus A^1
+  zusammen. Denn jede Prägarbe ist kanonischer Kolimes von darstellbaren
+  Prägarben und diese wiederum sind gewisse gleichungsdefinierte Unterobjekte
+  von A^n. Hier geht zwei Mal ein, dass wir als Situs wirklich nur A-Alg^fp
+  verwenden. Sonst wäre das kanonische Diagramm groß [so ist es wesentlich
+  klein] und sonst würde der letzte Schritt fehlschlagen.
+
+* Sei E eine Zariskigarbe in Zar(Z). Sei A endlich präsentiert (oder sei
+  Zar(Z) ohne Größeneinschränkung definiert). Dann gilt:
+
+      E(A) = { (s_p)_p |
+          alle s_p in E_{A_p},
+          es ex. Zerlegung der Eins 1 = sum_i f_i von A, sodass für alle i gilt:
+              es ex. s in E(A[f_i^(-1)]) mit
+                  s = s_p in E_{A_p} für alle p mit f_i nicht in p }.
+
+  Zum Nachweis kann man verwenden, dass zwei Schnitte s und t von E(A) genau
+  dann gleich sind, wenn s = t in E_{A_p} für alle Primideale p. (Um das zu
+  zeigen, verwendet man zum einen, dass Zar(Z) genügend viele Punkte hat und
+  zum anderen ein lustiges Argument: Jeder Ringhomo A --> R in einen lokalen
+  Ring R faktorisiert über einen Halm von A.)
+
+  Mit dieser expliziten Formel kann man nachweisen, aus abstrakten Gründen
+  sowieso klar ist: Ist ein Morphismus von Garben in Zar(Z) ausgewertet an
+  allen lokalen Ringen bijektiv, so ist er (halmweise ein Iso und daher) ein
+  Iso.
+
 * Eine Modulprägarbe E in PZar(S) = Sh(Sch/S) (oder lveP/S oder so) ist
   genau dann quasikohärent, wenn in PZar(S) gilt:
 
@@ -1420,8 +1468,42 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
 
       ein Isomorphismus.
 
+  Die Auswertung von E tensor A bei R ist E(R) tensor_R R[...]/(...).
+  Die der rechten Seite ist E(R[...]/(...)). (Wenn wir mal global definierte
+  A^1-Algebren betrachten.)
+
+  Die Richtung "==>" ist klar.
+
+  Die Richtung "<==" zeigt die Quasikohärenzbedingung aber nur für Ringwechsel
+  R --> S, für die R und S endlich präsentiert sind! Genügt das?!
+
+  (Tag 00F4: Sei A --> R --> S. Sind R und S jeweils über A endlich
+  präsentiert, so ist S auch über R endlich präsentiert. [Dazu muss R glaub ich
+  nur endlich erzeugt über A sein.] Umgekehrt ist S über A endlich präsentiert,
+  wenn S über R und R über A endlich präsentiert sind.)
+
+* Sei E eine A^1-Modulgarbe. Dann ist E[X], berechnet in PZar, auch wieder
+  eine Garbe. Leider ist es E/fE vermutlich im Allgemeinen nicht. Sonst könnte
+  man die interne Quasikohärenzbedingung oben auch in Zar statt PZar
+  formulieren.
+
 * Was ist eine Charakterisierung in Zar(S)? Und was bedeutet es, wenn
   der analoge Morphismus in Zar(S) ein Iso ist?
+
+* Sei F ^--> E eine Inklusion eines Untermoduls. Seien F und E quasikohärent.
+  Dann bleibt, für jeden Ring A, die Inklusion F(A) --> E(A) unter Tensorieren
+  mit beliebigen A-Algebren injektiv. Denn:
+
+      F(A) tensor B ---> F(B)
+            |       Iso   |
+            |             | injektiv
+            |             |
+            v       Iso   v
+      E(A) tensor B ---> E(B)
+
+* A^1 ist aus interner Sicht übrigens nicht (im Allgemeinen) kuratowskiendlich.
+  Kann (bei hinreichend großem Grundkörper) unendlich viele paarweise
+  verschiedene globale Elemente hinschreiben.
 
 
 === Limiten und Kolimiten von Schemata und verwandten Dingen
