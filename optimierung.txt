@@ -30,3 +30,8 @@ sichern. Dazu benötigt man schon die Invertierbarkeit von D_y g.
 === Optimierung und Sozialismus
 
 http://crookedtimber.org/2012/05/30/in-soviet-union-optimization-problem-solves-you/
+
+
+=== Varianten des Gradientenabstiegverfahrens
+
+http://sebastianruder.com/optimizing-gradient-descent/

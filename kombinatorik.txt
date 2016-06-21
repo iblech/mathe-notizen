@@ -74,3 +74,9 @@ Evaluating determinants may not be difficult.
 Christian Krattenthaler
 Advanced Determinant Calculus
 http://arxiv.org/abs/math/9902004
+
+
+=== Spezies
+
+* https://byorgey.wordpress.com/2016/06/20/any-clues-about-this-newton-iteration-formula-with-jacobian-matrix/
+* https://arxiv.org/abs/1109.2688 (Newton-Verfahren!)
