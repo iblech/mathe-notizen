@@ -137,6 +137,20 @@ Möchte eine gegebene Wirkung H --> Aut(N) in eine Konjugationswirkung
 verwandeln.
 
 
+=== Irreduzible Polynome
+
+* Phi_90 ist modulo jeder Primzahl reduzibel.
+  https://www2.warwick.ac.uk/fac/sci/maths/people/staff/mascot/ma3a6/sol3.pdf
+
+
+=== Eisenstein
+
+* Ist f(X) eisensteinsch bei p, so ist p in Q(alpha), wobei alpha eine
+  der Nullstellen von f(X) ist, rein verzweigt (d.h. r = 1, f = 1).
+
+* Insbesondere ist p Teiler der Diskriminante von f(X).
+
+
 === Nächste Schritte
 
 * Unter welchen Voraussetzungen ist eine Untergruppe einer zyklischen Gruppe
