@@ -1030,6 +1030,46 @@ Sei M eine quadratische Matrix über einem Ring.
   Diskriminante kleinst ist unter allen Beträgen von Diskriminanten von ganzen
   Q-Basen.
 
+* Sei phi : R --> S ein injektiver Ringhomo. Sei x aus R. Sei phi(x)
+  ganz über etwas. Dann ist auch x ganz darüber.
+
+* Sei f(X) ein normiertes Polynom vom Grad mindestens 1. Dann ist der Ringhomo
+  R --> R[X]/(f) injektiv.
+
+* Sei p(X) ein normiertes Polynom, das ein weiteres normiertes Polynom f(X)
+  teilt. Seien alle Koeffizienten von f(X) über irgendeinem Ring ganz. Dann
+  sind auch alle Koeffizienten von p(X) ganz, und zwar bezeugt von universellen
+  Ganzheitsgleichungen (deren Koeffizienten universelle Polynome in den
+  Koeffizienten von f(X), p(X) und den Koeffizienten der gegebenen
+  Ganzheitsgleichungen sind). (mit Matthias erarbeitet)
+
+  Der Beweis geht über das folgende Lemma, welches man auch auf die "generische
+  Situation" anwenden kann: Z[A_i, B_j, D_k]/(Ganzheitsgleichungen) über Z[D_k].
+  Dann ist p(X) = sum_i A_i X^i und f(X) = (sum_i A_i X^i) (sum_j B_j X^j).
+
+* Sei f(X) ein Polynom aus R[X]. Genau dann sind alle Koeffizienten von f(X)
+  ganz über irgendeinem Ring, wenn alle Nullstellen von f(X) (in irgendeinem
+  Oberring Omega von R, über dem f(X) in Linearfaktoren zerfällt) ganz sind.
+  (mit Matthias erarbeitet)
+
+  "==>": Klar. Wäre sogar richtig für "Oberringe", in die R nicht injektiv
+  einbettet.
+
+  "<==": Die Linearfaktoren haben ganze Koeffizienten. Damit sind die Bilder
+  der Koeffizienten von f(X) in dem Oberring jeweils ganz. Wegen der
+  Injektivität sind auch schon die Koeffizienten selbst ganz.
+
+  Auch dieses Lemma liefert universelle Formeln: Die Koeffizienten der
+  Ganzheitsgleichungen der Koeffizienten von f(X) sind universelle Polynome in
+  den Koeffizienten der gegebenen Ganzheitsgleichungen.
+
+  Das zeigt man wohl durch Betrachtung des folgenden "Spezialfalls":
+
+      S     = Z[D_jk]
+      R     = Z[A_i, D_jk]
+      Omega = (Zerfällungsalgebra von sum_i A_i X^i)/(die D_jk sind
+      Koeffizienten von Ganzheitsgleichungen für die Nullstellen von sum_i A_i X^i)
+
 
 === Torsion
 

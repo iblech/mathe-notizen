@@ -97,6 +97,14 @@ Literatur:
 * Richman. Van der Waerden's construction of a splitting field.
 * Cohen, Coquand. A constructive version of Laplace's proof on the existence of complex roots.
 
+Inwieweit gibt das dasselbe, wie mehrmals die Kronecker-Konstruktion zu
+verwenden? Die gibt jedenfalls auch einen injektiven Morphismus. Der Grundring K
+muss kein Körper sein, beliebiger Ring genügt.
+
+Es stimmt jedenfalls im Fall, dass deg(f) = 2, und ich glaube eigentlich, dass
+es auch im Allgemeinen stimmt. Denn ich glaube, Ringhomos in beide Richtungen
+zu sehen.
+
 
 === Beispiel: Diskreter Körper, der nicht als faktoriell erkannt werden kann
 
