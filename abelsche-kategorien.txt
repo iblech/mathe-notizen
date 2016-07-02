@@ -374,6 +374,15 @@ Form f * kanonischer Richtungsvektor in Möbiusfaser mit f lokal konstant ist.
   Siehe kommutative-algebra.txt.
 
 
+=== Fehlende Projektive
+
+http://math.stackexchange.com/a/1225695/61604
+As a module category, Rep(Q) has enough projectives, while Coh(P1)) does not
+have any nonzero projective objects at all: By Serre duality we have
+Ext^1_{Coh(P1)}(F,G) = Hom_{Coh(P1)}(G(2),F)^, so if F is projective, then
+Hom(-, F) = 0 hence F = 0 by considering id_F in Hom(F,F).
+
+
 === Vervollständigung einer additiven zu einer abelschen Kategorie
 
 * Ja, es gibt zu jeder additiven (oder auch nur Ab-angereicherten) Kategorie
