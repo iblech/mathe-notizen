@@ -1458,7 +1458,7 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
   allen lokalen Ringen bijektiv, so ist er (halmweise ein Iso und daher) ein
   Iso.
 
-* Eine Modulprägarbe E in PZar(S) = Sh(Sch/S) (oder lveP/S oder so) ist
+* Eine Modulprägarbe E in PZar(S) = PSh(Sch/S) (oder lveP/S oder so) ist
   genau dann quasikohärent, wenn in PZar(S) gilt:
 
       Für alle endlich präsentierten A^1-Algebren A ist der kanonische

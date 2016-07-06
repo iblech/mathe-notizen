@@ -6,3 +6,14 @@
 
 * PCA ist nicht skalierungsinvariant!
   Siehe http://www.seas.harvard.edu/courses/cs281/papers/mackay-2006.pdf.
+
+
+=== Regression to the mean
+
+Kahneman: "This was a joyous moment, in which I understood an important truth
+about the world: because we tend to reward others when they do well and punish
+them when they do badly, and because there is regression to the mean, it is
+part of the human condition that we are statistically punished for rewarding
+others and rewarded for punishing them."
+
+https://en.wikipedia.org/wiki/Regression_toward_the_mean

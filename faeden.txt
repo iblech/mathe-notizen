@@ -233,6 +233,10 @@
 
 === Interne Methoden
 
+* "More generally, in EGA IV, 17.9.1 it is proven that a morphism of schemes is
+  an open immersion if and only if it is flat, a (categorical) monomorphism and
+  locally of finite presentation." http://mathoverflow.net/a/20792/31233
+
 * Surjektivität von Schemamorphismen vs. Epimorphie der zugehörigen Morphismen
   zwischen den Punktefunktoren; vgl. Marcs Skript.
 
