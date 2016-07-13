@@ -17,3 +17,39 @@ part of the human condition that we are statistically punished for rewarding
 others and rewarded for punishing them."
 
 https://en.wikipedia.org/wiki/Regression_toward_the_mean
+
+
+=== Erstellung von Plots von Verteilungen, denen man vertrauen kann
+
+Sei X eine Zufallsvariable. Sei p die Wahrscheinlichkeit, dass X einen
+bestimmten Wert x0 annimmt. Wir möchten p bestimmen, indem wir X mehrmals
+samplen und zählen, wie oft x0 vorkommt; indem wir also den Durchschnitt Z_n
+der Zufallsgröße Z = [X = x_0] ziehen.
+
+Dann sagt uns Tschebyscheff:
+
+    P(|Z_n - p| >= eps)
+        <= Var(Z) / (n eps^2)
+         = p (1-p) / (n eps^2)
+        <= 1 / (4 n eps^2).
+
+Wenn wir also sicher gehen möchten, dass die Wahrscheinlichkeit für eine
+größere Abweichung als eps höchstens alpha ist, so muss
+
+    n >= 1 / (4 alpha eps^2)
+
+sein.
+
+Beispiele:
+* eps = 0.01, alpha = 0.01 liefert n >= 250000.
+* eps = 0.01, alpha = 0.05 liefert n >= 50000.
+* eps = 0.05, alpha = 0.05 liefert n >= 2000.
+
+Wenn man sogar mehrere Wertewahrscheinlichkeiten von X bestimmen möchte, sagen
+wir m viele, und sicher gehen möchte, dass die Wahrscheinlichkeit, dass
+mindestens eines der Messergebnisse um mindestens eps abweicht, höchstens alpha
+ist, so muss (bei dieser Analyse) n >= m / (4 alpha eps^2) sein.
+
+Beobachte, dass die Ereignisse "|Z_n - p| >= eps" für verschiedene Wahlen von
+x0 vermutlich nicht unabhängig sind. Trotzdem sollten bessere Abschätzungen
+möglich sein.
