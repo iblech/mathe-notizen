@@ -199,3 +199,9 @@ http://okmij.org/ftp/Scheme/macros.html#ck-macros
   polynomial-time computability is an extremely natural notion: a “wide target
   in conceptual space” that one hits even while aiming in purely logical
   directions."
+
+
+=== Unmöglichkeit
+
+* If a language can interpret itself then it is not total.
+  http://cstheory.stackexchange.com/a/24994/32151
