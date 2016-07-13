@@ -70,6 +70,15 @@
   irgendwelchen Arten von gerichteten Kolimiten abgeschlossen. Siehe zum
   Beispiel Seite 113 von Milne, Étale Cohomology.
 
+* Sei F eine welke Garbe im klassischen Sinn. Sei 0 --> F --> G --> H --> 0
+  eine kurze exakte Sequenz von Garben. Sei U eine offene kompakte Teilmenge.
+  Dann ist die Sequenz auch ausgewertet auf U exakt, und zwar konstruktiv:
+
+  Modifiziere schrittweise gefundene lokale Urbilder.
+
+  Mir ist nicht klar, ob das auch mit der anderen (konstruktiv vielleicht
+  besseren) Definition von Welkheit funktioniert.
+
 
 === Garbenhom
 

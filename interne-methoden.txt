@@ -2057,6 +2057,27 @@ denn eps / (1 + eps f) = eps (1 - eps f) = eps.
 Schön!
 
 
+=== K-Theorie
+
+* Kann intern die K-Theorie von Coh(O_X) definieren. Aus externer Sicht
+  ist K(Coh(O_X)) eine Garbe von abelschen Gruppen.
+
+* Ist X ein überall ganzes dedekindsches Schema, so ist der kanonische
+  interne Homo Z --> K(Coh(O_X)) mit n |-> n * O_X ein Iso.
+
+  Zur Surjektivität nutze, dass jeder kohärente O_X-Modul aus interner Sicht
+  direkte Summe von O_X/(d)'s ist; dabei ist d Null oder regulär. Im letzten
+  Fall ist [O_X/(d)] = 0.
+
+  Zur Injektivität nutze die Rangabbildung K(Coh(O_X)) --> Z, welche
+  wohldefiniert ist. Definiere den Rang eines kohärenten Moduls E etwa als den
+  Rang des freien K_X-Moduls E tensor_O K_X. Der ist additiv in kurzen exakten
+  Sequenzen.
+
+* Dabei ist klar, dass die interne K-Theorie keinesfalls übereinstimmt
+  mit der externen: K(P^1) = Z^2, aber aus interner Sicht ist es nur Z.
+
+
 === Relevante MO-Fragen
 
 * http://mathoverflow.net/questions/2314/several-topos-theory-questions

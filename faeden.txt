@@ -281,7 +281,7 @@
 
 * Sh(Spec A) und M~ sind absolut klar konstruktiv formulierbar.
   Vielleicht sollte ich daher mit lokal geringten Topoi statt lokal geringten
-  Örtlichkeiten arbeiten.
+  Örtlichkeiten arbeiten. Jup, sollte man. Logisch.
 
 * Korrektur von Kapitel 11 (relatives Spektrum) abtippen.
 
