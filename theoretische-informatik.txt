@@ -192,7 +192,7 @@ http://okmij.org/ftp/Scheme/macros.html#ck-macros
 
 * Eine Funktion f : N --> N liegt genau dann in FP, wenn f von einem
   Programm berechnet werden kann, dessen Korrektheit in Logik zweiter Ordnung
-  (mit Komprehension auf positive quantorenfreie Formuln beschränkt) bewiesen
+  (mit Komprehension auf positive quantorenfreie Formeln beschränkt) bewiesen
   werden kann.
 
 * "Results like these provide further evidence—if any was needed—that
