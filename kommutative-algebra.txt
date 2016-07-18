@@ -1969,6 +1969,21 @@ Dann "verhält sich F wie die reellen Zahlen". Insbesondere ist char F = 0 und
 C = F(i).
 
 
+=== Morita-Äquivalenz
+
+* R ist Morita-äquivalent zu R^{n x n}.
+
+  Ist M ein R-Modul, so ist M^n ein R^{n x n}-Modul.
+
+  Ist N ein R^{n x n}-Modul, so ist { es | s in N } ein R-Modul,
+  wobei e die (n x n)-Matrix mit einer 1 oben links und sonst Nullen
+  bezeichnet.
+
+  Details: http://planetmath.org/moritaequivalence
+
+* R^{n x n} ist "nicht ernsthaft" nichtkommutativ.
+
+
 === Siehe auch
 
 * http://math.uga.edu/~pete/integral.pdf
