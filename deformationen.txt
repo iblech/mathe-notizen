@@ -44,7 +44,19 @@ http://www.math.rice.edu/~hassett/teaching/567spring07/567lec5.pdf.
   http://users.ictp.it/~pub_off/lectures/lns001/Looijenga/Looijenga.pdf
 
 
+=== Infinitesimale Deformationen
+
+Sei X ein Raum. Dann entsprechen infinitesimale Deformationen von X gerade
+Elementen von H^1(X, T_X).
+
+* Wir haben den Morphismus T_X = Der_k(O_X) --> Aut(O_X[eps]/(eps^2)).
+  Damit kann man aus einem 1-Zykel mit Werten in T_X ein Verklebedatum für eine
+  Garbe auf X, welche lokal isomorph zu O_X[eps]/(eps^2) ist, konstruieren. Das
+  wird die Strukturgarbe des deformieten Raums.
+
+
 === Referenzen
 
 * Manetti: http://www1.mat.uniroma1.it/people/manetti/dispense/defomanifold.pdf
 * Gross, Huybrechts, Joyce: Calabi-Yau manifolds and related geometries.
+* http://thales.math.uqam.ca/~anelm/mat/doc/deformation.pdf
