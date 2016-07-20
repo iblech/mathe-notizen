@@ -86,6 +86,12 @@ are uniquely determined.[2]
   http://mathoverflow.net/a/166014/31233
 
 
+=== Descartes Vorzeichenregel
+
+https://arxiv.org/pdf/1309.6664v3.pdf
+ausführliche historische Diskussion und Analyse mehrerer Beweise
+
+
 === Grade von Realteil und Imaginärteil
 
 * Ist |z|^2 rational, so ist der Grad von Re(z) höchstens der von z.
