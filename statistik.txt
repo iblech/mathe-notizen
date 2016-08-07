@@ -11,3 +11,10 @@ The James–Stein estimator is a biased estimator of the mean of Gaussian random
 vectors. It can be shown that the James–Stein estimator dominates the
 "ordinary" least squares approach, i.e., it has lower mean squared error on
 average. It is the best-known example of Stein's phenomenon.
+
+
+=== Geometrischer Median
+
+* Der geometrische Median einer Ansammlung von Punkten ist derjenige
+  Punkt, der die Summe der Abstände zu den Datenpunkte minimiert.
+  (Nicht die Quadratsumme! Die gibt nämlich den Schwerpunkt.)

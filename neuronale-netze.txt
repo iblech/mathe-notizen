@@ -3,6 +3,23 @@
 http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
 
+=== Wieso waren neuronale Netze nicht schon Anfang 2000 eine große Sache?
+
+* Rechenkapazität
+* Convolutional Neuronal Network
+* RELU-Aktivierungsfunktion
+* Batch-Normalisierung
+* Zufällige Initialisierung
+* Mehr und bessere Testdaten
+
+https://plus.google.com/+DanPiponi/posts/fguCASnATcD
+
+
+=== Wie man die Strassensche Regel für Matrixmultiplikation findet
+
+http://arxiv.org/pdf/1601.07227.pdf
+
+
 === Bücher
 
 * klar, Nielsen
