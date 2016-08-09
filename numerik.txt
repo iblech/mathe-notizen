@@ -9,6 +9,17 @@
   http://scicomp.stackexchange.com/questions/14259/understanding-the-cost-of-adjoint-method-for-pde-constrained-optimization
 
 
+=== Navier--Stokes
+
+* http://hplgit.github.io/INF5620/doc/pub/main_ns.html
+* http://www.mathematik.tu-darmstadt.de/~bruhn/Dissipation.HTM
+
+
+=== Symplektische Integratoren
+
+* http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=92F5183CF15E18A39B53E79759936229?doi=10.1.1.7.7106&rep=rep1&type=pdf
+
+
 === Wieso man Matrizen nicht invertieren sollte
 
 * A^(-1) kann dicht besetzt sein, auch wenn A dünn besetzt ist.
