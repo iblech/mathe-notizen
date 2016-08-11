@@ -68,3 +68,10 @@ Die Euler-Charakteristik von V(K) ist Eins höher als die von Z:
 Beispiel: Sei X = Spec k[x,y] und J = (x). Sei p = Ursprung = (x,y).
 Sei die surjektive Abbildung (x) --> k, gx |-> g(0,0) * 7. Dann ist
 K = (x^2, xy) = (x) * (x,y).
+
+
+=== Euler-Charakteristik als Verallgemeinerung des Zählens
+
+http://www.maths.ed.ac.uk/~tl/docs/Schanuel_Length_of_potato.pdf
+
+und natürlich John Baez.

@@ -43,6 +43,11 @@ A --> Alb(A) = H^0(A, Omega)^* / H_1(A, Z)
 a |-> int_e^a.
 
 
+=== Kategorieller Hintergrund zur Albanese-Varietät
+
+https://golem.ph.utexas.edu/category/2016/08/the_magic_of_algebraic_geometr.html
+
+
 === Sägezahnprinzip
 
 Sei X eine irreduzible vollständige Varietät, T ein ganzes Schema und L ein
