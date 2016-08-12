@@ -75,3 +75,9 @@ K = (x^2, xy) = (x) * (x,y).
 http://www.maths.ed.ac.uk/~tl/docs/Schanuel_Length_of_potato.pdf
 
 und natürlich John Baez.
+
+
+=== -1/z^2
+
+Dass die Euler-Charakteristik der Sphäre 2 ist, hat was damit zu tun, dass die
+Ableitung von 1/z -1/z^2 ist. http://mathoverflow.net/a/58348/31233
