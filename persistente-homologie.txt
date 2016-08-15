@@ -5,3 +5,6 @@
   persistenter Homologie.
 
 * http://math.stanford.edu/~yuany/course/2011_Summer_Fudan/lecture03.pdf
+
+* Viel zu Garben und Kogarben, insbesondere auch aus berechenbarer Sicht:
+  https://arxiv.org/pdf/1303.3255.pdf

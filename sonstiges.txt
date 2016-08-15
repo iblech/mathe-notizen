@@ -487,3 +487,32 @@ http://blog.regehr.org/archives/1393
 === Subzelluläre Lebewesen
 
 * http://math.ucr.edu/home/baez/subcellular.html
+
+
+=== Elementarer Beweis der Wallis-Produktformel
+
+http://fermatslibrary.com/s/an-elementary-proof-of-wallis-product-formula-for-pi
+
+
+=== Drei peinliche Physikgrundwissenssachen
+
+* Der Mond dreht sich mit etwa einer Umdrehung pro Monat um seine eigene Achse.
+  So sehen wir (fast) nur eine Seite des Monds.
+
+* Wieso ist der Himmel blau?
+
+  1. Das Spektrum der Sonne hat ihren Peak eigentlich bei etwa 500 nm.
+
+  2. Aber Rayleigh-Streuung ist wichtig! Sie führt zum Peak bei 250 nm.
+
+  3. Diesen Peak bemerken wir aber gar nicht, denn für diese Wellenlänge
+     sind wir nicht empfindlich. Rechnet man unsere Empfindlichkeit ein,
+     ergibt sich ein Peak bei 450 nm. Es ist mehr violett als blau im Spektrum
+     (nach Streuung), aber die geringere Empfindlichkeit für violett führt zum
+     Blaueindruck.
+
+  https://www.physik.uni-augsburg.de/~ferdi/fragen/frage1.html
+
+* Wärmeleitung durch Austausch kinetischer Energie ohne Materialaustausch;
+  Konvektion durch Masseaustausch; Wärmestrahlung durch Beschleunigung von
+  Ladungen.
