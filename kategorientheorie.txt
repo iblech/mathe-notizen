@@ -910,6 +910,10 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
 
 * ri = id : D --> D. Gewissermaßen ist D also ein Retrakt von C.
 
+* Zweimalige Anwendung des Reflektors ändert nichts mehr, genauer:
+
+      r i r = r.
+
 * D ist abgeschlossen unter Limiten, die in C existieren.
   (Denn die Inklusion ist monadisch.)
 
@@ -938,7 +942,7 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
 === Konservative Funktoren
 
 * Sei F : C --> D ein konservativer Funktor. Besitze C I-förmige Limiten.
-  Bewahre F I-förmige Liiten. Dann reflektiert F auch I-förmige Limiten.
+  Bewahre F I-förmige Limiten. Dann reflektiert F auch I-förmige Limiten.
 
 
 === Lokalisierung
