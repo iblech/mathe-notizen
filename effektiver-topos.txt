@@ -1,0 +1,102 @@
+=== Assemblies
+
+* Sei A eine PCA. Eine A-Assembly ist dann eine Menge X zusammen mit je einer
+  bewohnten Teilmenge R_x <= A für jedes Element x aus X. Wir schreiben genau
+  dann
+
+      a |== x,  wenn  a in R_x.
+
+* Ein Morphismus von Assemblies ist eine Abbildung der zugrundeliegenden
+  Mengen für den es einen Realisierer e gibt: ein Element aus A mit der
+  Eigenschaft, dass
+
+      für alle x aus X und alle a mit a |== x gilt:
+          ea |== f(x).
+
+* Eine Assembly heißt genau dann modest (anständig), wenn:
+
+      e |== x  und  e |== y   ===>   x = y.
+
+  Eine anständige Assembly ist also dasselbe wie eine Menge X zusammen mit
+  einer partiellen Surjektion A --> X.
+
+* Die volle Unterkategorie der anständigen Assemblies ist reflektiv.
+
+* Ebenso ist Set eine reflektive volle Unterkategorie. (Dabei nehmen wir
+  als Realisierer einfach alle Elemente aus A.)
+
+* Die Kategorie der Assemblies ist kartesisch abgeschlossen und regulär.
+  Außerdem besitzt sie (wie auch die Kategorie der anständigen Assemblies)
+  endliche Kolimiten. Die Einbettung Mod --> Asm bewahrt diese. Auch Mod ist
+  regulär.
+
+  Das Exponential Y^X ist als Menge gegeben durch die Menge der
+  Assembly-Morphismen X --> Y. Genau dann schreiben wir e |== f,
+  falls e ein Realisierer für f wie in der Definition eines Assembly-Morphismus
+  ist.
+
+  Ist Y anständig, so ist es auch Y^X.
+
+* Ein Morphismus in Asm oder Mod ist genau dann ein Mono/Epi, wenn die
+  zugrundeliegende Abbildung injektiv/surjektiv ist.
+
+* Ein Morphismus in Asm oder Mod ist genau dann ein regulärer Epi,
+  wenn es auch einen Realisierer für die Urbilder gibt, wenn also die interne
+  Aussage "die Abbildung ist surjektiv" wahr ist.
+
+* Ein Morphismus f in Asm ist genau dann ein regulärer Mono, wenn
+  er ein Mono ist und wenn es einen Realisierer e gibt sodass,
+  falls a |== f(x), dann ea |== x.
+
+  Letzteres ist genau dann der Fall, wenn in der internen Sprache Zugehörigkeit
+  zum Unterobjekt negneg-stabil ist. (Stimmt die Äquivalenz?)
+
+* Schon in Asm (und Mod?) kann man Logik erster Ordnung interpretieren.
+  Details stehen in Streicher.
+
+
+=== Beispiele für Realisierbarkeitsübersetzungen
+
+* "Es gibt eine Injektion phi : N^N --> N" bedeutet, dass es eine Injektion
+  (Menge der berechenbaren Funktionen N --> N) --> N gibt, welche berechenbar
+  ist: Gegeben ein Realisierer einer berechenbaren Funktion f : N --> N, soll
+  die natürliche Zahl phi(f) produzieren.
+
+  Das ist nicht möglich bei gewöhnlichen Turingmaschinen, wohl aber bei ITTMs.
+  Definiere dabei phi(f) := min { n | die n-te ITTM berechnet f }.
+
+* Genau dann gibt es einen Realisierer für "Jede Funktion N --> N ist entweder
+  konstant Null oder an einer Stelle ungleich Null", wenn es ein Halteorakel
+  gibt (genauer: ein Orakel, welches entscheidet, ob eine gegebene Maschine in
+  endlich vielen Schritten hält). Die Aussage ist also nicht realisierbar im
+  Fall gewöhnlicher Turingmaschinen, aber durchaus realisierbar bei ITTMs.
+
+  Denn sei ein solcher Realisierer gegeben. Ist eine Maschine gegeben, welche
+  auf Terminierung untersucht werden soll, dann befragen wir den Realisierer
+  nach dem Konstantheitsstatus derjenigen Funktion, welche n schickt auf den
+  Wahrheitswert, ob die Maschine nach n Schritten bereits angehalten hat.
+
+  Umgekehrt können wir mit einem Halteorakel den Realisierer für die gegebene
+  Funktion einfach nacheinander auf allen Eingaben laufen lassen.
+
+* "Jede 0/1-Folge, welche nicht nur aus Nullen besteht, enthält eine Eins."
+  (Markov) Das stimmt bei gewöhnlichen Turingmaschinen und bei ITTMs. Der
+  Realisierer führt einfach eine unbeschränkte Suche durch.
+
+* Auswahlaxiom: Man kann recht einfach zeigen, dass eine Assembly X genau
+  dann projektiv ist, wenn es einen Realisierer r gibt, der kanonische
+  Realisierer für die Elemente aus X berechnet: Ist a ein Realisierer eines
+  Elements von X, so soll auch ra einer sein; und sind a und b Realisierer
+  desselben Elements, so soll ra = rb sein.
+
+
+=== Effektiver Topos
+
+Muss aus Asm(A) noch einen Tripos machen und daraus einen Topos.
+Dabei wird Gleichheit dann nicht mehr trivial realisiert.
+
+
+=== Quellen
+
+* http://math.andrej.com/data/c2c.pdf
+* http://www.mathematik.tu-darmstadt.de/~streicher/REAL/REAL.pdf
