@@ -100,3 +100,4 @@ Dabei wird Gleichheit dann nicht mehr trivial realisiert.
 
 * http://math.andrej.com/data/c2c.pdf
 * http://www.mathematik.tu-darmstadt.de/~streicher/REAL/REAL.pdf
+* http://math.andrej.com/wp-content/uploads/2014/03/real-world-realizability.pdf
