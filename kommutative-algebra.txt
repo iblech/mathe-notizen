@@ -402,7 +402,7 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   Man kann auch für Teilmengen M von A[X] definieren: c(M) := sqrt(sum_{f in M} c(f)).
 
   Dann kann man zeigen:
-  * c(fg) = c(f) * c(g).
+  * c(fg) = c(f) cap c(g).
   * c(f + g) <= sqrt(c(f) + c(g)).
   * c(M) = c((M))  (erzeugtes Ideal).
   * c(sqrt(I)) = c(I).
@@ -414,6 +414,36 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 
   Steht auch in Banaschewski, Polynomials and radical ideals,
   http://www.sciencedirect.com/science/article/pii/0022404995001492 (Prop. 2).
+
+* Die nichttriviale Inklusion c(fg) >= c(f) cap c(g) kann man explizit
+  und konstruktiv durch Induktion so zeigen. Die rechte Seite ist
+  sqrt((a_i b_j)_ij), die linke sqrt((sum a_i b_j)_n).
+
+  Der Erzeuger a_0 b_0 der rechten Seite liegt auch in der linken.
+
+  Nun betrachten wir a_i b_j. Dann gilt:
+
+      (a_i b_j)^2 = a_i b_j (sum_{k+l=n} a_k b_l) -
+          sum_{k+l=n, k<i oder l<j} a_i b_j a_k b_l.
+
+  Wenn k < i ist, dann liegt a_k b_j nach Induktionsvoraussetzung in der linken
+  Seite. Analog liegt a_i b_l in der linken Seite, falls l < j ist. Also
+  liegen alle Summanden in der linken Seite.
+
+* Die Sache mit dem Wurzelinhalt zeigt, dass in lokalen Ringen gilt:
+
+      Genau dann gibt es ein n, sodass sum_{i+j=n} a_i b_j invertierbar ist,
+      wenn es ein i gibt, sodass a_i, und wenn es ein j gibt, sodass b_j
+      invertierbar ist.
+
+  Die Hinrichtung ist trivial, aber die Rückrichtung nicht.
+
+  Die Aussage stimmt auch in N-graduierten Ringen, welche nur graduiert-lokal
+  sind (ist eine Summe homogener Elemente gleichen Grads invertierbar, so schon
+  ein Summand), wenn die a_i und b_j jeweils homogen von dem Grad sind, wie ihr
+  Index angibt. Das zeigt obige explizite Rechnung, die keinen Unsinn mit den
+  Graden treibt. Vielleicht folgt das auch schon abstrakt direkt aus der
+  Aussage statt dem Beweis.
 
 * http://math.stackexchange.com/a/53229/61604:
 
@@ -455,6 +485,63 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 * Eisenstein funktioniert über beliebigen Integritätsbereichen.
   Aber man muss aufpassen, was dann Primelemente sind.
   https://en.wikipedia.org/wiki/Eisenstein%27s_criterion
+
+
+=== Graduierte Ringe
+
+* Ein N-graduierter Ring, welche eine homogene Einheit u vom Grad 1 enthält,
+  ist nicht viel spannender als sein Grad-0-Anteil. Denn es gilt:
+
+  * S_n = u^n S_0.
+
+  * xy = u^{i+j} (u^{-i} x) (u^{-1} y), wenn x in S_i und y in S_j liegt.
+    Die hintere Multiplikation findet dabei in S_0 statt.
+
+  * 0 --> (u-1) --> S --> S_0 --> 0 ist eine exakte Sequenz.
+                    x |-> u^{-i} x, falls x homogen vom Grad i
+
+* Es ist S_p, also die Lokalisierung eines N-graduierten Rings S an
+  den homogenen Elementen aus S \ p (wobei p ein homogenes Primideal ist, in
+  dem ein Element aus S_1 nicht enthalten ist), ein solcher Ring. Deswegen ist
+  es okay, nur S_(p) zu betrachten, den Grad-0-Anteil.
+
+
+=== Homogene Ideale
+
+* Ein Ideal I in einem graduierten Ring S ist genau dann homogen, wenn für
+  alle Elemente a = sum_i a_i (Zerlegung in homogene Komponenten) von S gilt:
+
+      Liegt a in I, so liegen schon alle a_i in I.
+
+  Das ist genau dann der Fall, wenn es ein Erzeugendensystem für I gibt,
+  welches nur aus homogenen Elementen besteht.
+
+* Der Idealquotient (a : b) ist homogen, falls a und b es sind.
+
+* Das Wurzelideal eines homogenen Ideals ist homogen, falls wir etwa über einen
+  N-graduierten Ring sprechen. Der Beweis geht über Induktion über den höchsten
+  vorkommenden Grad:
+
+      Sei f = sum_{i=0}^n f_i in sqrt(a), also f^m in a für ein m >= 0. Wir
+      wollen zeigen, dass alle f_i in sqrt(a) liegen. Der größte (potenziell)
+      vorkommende Grad in f^m ist nm mit Koeffizient f_n^m. Da a homogen ist,
+      liegt also f_n^m in a. Somit liegt f_n in sqrt(a). Nun machen wir weiter
+      mit f - f_n.
+
+* Es gibt zwei Möglichkeiten, aus einem beliebigen Ideal ein homogenes zu
+  machen.
+
+  I^h := { f | forall i. exists g in I. f_i = g_i }
+       = (g_i | g in I, i >= 0)
+
+* Es gilt: a^h cap b^h = sqrt((a * b)^h). Dabei ist ">=" trivial (nur
+  Monotonie).
+
+  Für die nichttriviale Richtung benötigt man folgendes Lemma:
+
+      Ist f in a und g in b, so liegt f_i g_j in sqrt((a * b)^h).
+
+  Das zeigt man durch Induktion über n := i + j, genau wie beim Radikalinhalt.
 
 
 === Projektoren (Idempotente)
@@ -1334,6 +1421,17 @@ muss.
   saturierte Menge, welche S umfasst.
 
   Im Spezialfall S = { f^0, f^1, ... } ist Sat(S) = { x | f in sqrt(x) }.
+
+* Sei A ein graduierter Ring und S ein multiplikativ abgeschlossenes
+  System, das nur aus homogenen Elementen besteht. Dann ist der lokalisierte
+  Ring A[S^(-1)] auf kanonische Art und Weise wieder ein graduierter Ring.
+
+  Dabei heißt ein Element z genau dann homogen vom Grad n, wenn es als Bruch
+  geschrieben werden kann, dessen Zähler homogen ist und um n höheren Grad hat
+  als der Nenner.
+
+  Obacht: Auch wenn A N-graduiert ist, ist A[S^(-1)] im Allgemeinen
+  Z-graduiert!
 
 
 === Lokale Ringe

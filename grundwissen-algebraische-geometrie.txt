@@ -447,6 +447,35 @@ k-rationale Punkte in kanonischer Bijektion zu den Elementen von V stehen:
   so ist das Schema selbst schon affin.
 
 
+=== Standardoffene Teilmengen in Proj S
+
+Kann für beliebige Elemente f von S die offene Teilmenge
+
+    D_+(f) := { p in Proj S | f nicht in p }
+
+betrachten. Üblicherweise wird das nur für homogene Elemente f gemacht, oft
+auch nur für solche vom Grad >= 1. Aber es gilt
+
+    D_+(f) = bigcup_i D_+(f_i),
+
+wenn f = sum_i f_i die Zerlegung in homogene Komponenten ist.
+
+Für f aus S_+ und homogene Elemente g^i (beliebigen Grads) gilt:
+
+    D_+(f) <= bigcup_i D_+(g^i) genau dann, wenn
+        f in sqrt((g^i)_i).
+
+Hier geht ein, dass bigcap { p | p homogenes Primideal mit a <= p } = sqrt(a)
+ist, wenn a ein homogenes Ideal ist.
+
+Für beliebige f und g^i gilt:
+
+    D_+(f) <= bigcup_i D_+(g^i) genau dann, wenn
+        f in (sqrt(((g^i)_i)^h) : S_+).
+
+Dabei ist (__)^h die Homogenisierung (siehe kommutative-algebra.txt).
+
+
 === Morphismen in affine Schemata
 
 Sei f : X --> Spec A gehörig zu phi : A --> O_X(X). Dann gilt für alle x aus X:

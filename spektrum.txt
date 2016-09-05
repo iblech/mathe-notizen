@@ -294,6 +294,17 @@ MaxSpec ist im Allgemeinen nicht nüchtern. Seine Nüchternifizierung ist
 AlmostMaxSpec, oder, im Fall, dass A ein Jacobsonscher Ring ist, ganz Spec.)
 
 
+=== Wie man die universelle Eigenschaft von Spec A beweist, ...
+
+... wenn Spec A als klassifizierende Örtlichkeit definiert ist:
+
+Sei phi : AA --> O_X ein Ringhomo in einen lokalen Ring. Dann definieren wir
+den Filter F := { s in A | phi(s) in O_X invertierbar }. Zu diesem gibt es eine
+Örtlichkeitsabbildung f : X --> Spec A, die den universellen Filter auf F
+zurückzieht. Nun ist noch f^(-1)(O_{Spec A}) --> O_X zu definieren. Die Quelle
+ist aber einfach AA[F^(-1)]. Also ist das klar.
+
+
 === MaxSpec (das Spektrum bestehend aus maximalen Idealen)
 
 * MaxSpec(A) ist im Allgemeinen nicht nüchtern. Man denke etwa in
@@ -924,6 +935,90 @@ http://arxiv.org/pdf/math/0409360v2.pdf
 * Lesen:
   Mulvey. A syntactic construction of the spectrum of a commutative ring. 1975.
   Raynaud. Anneaux locaux henséliens. LNM 169.
+
+
+=== Proj-Konstruktion
+
+Die Örtlichkeit Proj S kann auf mindestens drei Weisen als klassifizierende
+Örtlichkeit realisiert werden:
+
+1. Dieselben Filteraxiome wie beim Spektrum, aber zusätzlich:
+
+        bigvee_i (a_i in F) |- sum_i a_i in F,
+            falls die a_i homogen vom Grad i sind
+
+        top |- bigvee_{a in S_+} (a in F),
+            wobei S_+ das irrelevante Ideal (oplus_{d >= 1} S_d) ist.
+
+2. Dieselben Filteraxiome wie beim Spektrum, aber mit der Einschränkung,
+   dass man nur "a in F" schreibt, wenn a homogen ist. (Man sollte also eher
+   von einer Familie F_0, F_1, ... sprechen.) Und mit folgendem zusätzlichen
+   Axiom:
+
+        top |- bigvee_{a in S_{>=1}} (a in F).
+
+   Dieses Axiom ist wichtig, damit die induzierte Abbildung Ouv(Proj wie hier
+   definiert) --> Ouv(Proj wie klassisch definiert) die Inklusionsbeziehung
+   reflektiert.
+
+3. Dieselben Filteraxiome wie beim Spektrum, aber mit der Einschränkung,
+   dass man nur "a in F" schreibt, wenn a homogen vom Grad >= 1 ist, und
+   demselben Zusatzaxiom wie bei 2. Hier ist das Zusatzaxiom aber aus einem
+   anderen Grund wichtig, nämlich, um alle Formeln auf die einfache Normalform
+   (Disjunktion von Filterzugehörigkeitsaussagen) bringen zu können.
+
+In jeder der drei Axiomatisierungen ist das erste Filteraxiom, "top |- 1 in F",
+überflüssig, da es aus dem jeweiligen Zusatzaxiom folgt. Das Axiom "0 in F |- bot"
+darf man nicht vergessen, man braucht es wieder für die Normalform.
+
+Man kann wie folgt zwischen den Axiomatisierungen vermitteln.
+
+* Ein F wie in 1. ist insbesondere ein F wie in 2. und 3.
+
+* Ein F wie in 2. definiert ein F' wie in 1. durch die Setzung
+
+      a in F'  :<==>  bigvee_i (a_i in F),
+
+  wobei a = sum_i a_i die Zerlegung in homogene Komponenten meint.
+
+  Dabei ist das Axiom "a in F' wedge b in F' |- ab in F'" gar nicht klar.
+  Aber es stimmt; Stichwort Radikalinhalt.
+
+* Ein F wie in 2. definiert ein F wie in 3.
+
+* Ein F wie in 3. definiert ein F' wie in 2. durch die Setzung
+
+     a in F'   :<==>  bigvee_{h in S_{>=1}} (ha in F).
+
+Konstruktiv kann man Proj S als Rahmen derjenigen homogenen Radikalideale,
+welche schon dann ein gewisses Element enthalten, wenn es multipliziert mit
+allen Elementen aus S_+ enthalten ist, konstruieren:
+
+    Ouv(Proj S) = { J in S |
+        J Radikalideal,
+        J homogen,
+        für alle x aus S: x S_+ <= J ==> x in J }
+
+Das ist eine Unterörtlichkeit von Spec S. Der Kern lautet:
+
+    j : Rad(S) --> Rad(S), J |--> (sqrt(J^h) : S_+).
+
+Dabei ist J^h >= J die Homogenisierung von J (siehe kommutative-algebra.txt).
+Nichtkonstruktiv kann man j(J) auch als
+
+    bigcap { p | p homogenes Primideal mit J <= p und S_+ \not\subseteq p }
+
+schreiben.
+
+Jedenfalls gibt es dann in Proj S, als klassifizierende Örtlichkeit definiert,
+den universellen "homogenen relevanten Filter" F. Man kann etwa sagen, dass
+diese Garbe von formalen Elementen "a" auf den offenen Mengen (a in F) erzeugt
+wird, oder man kann sie explizit angeben:
+
+    F(U) = { f : U --> S lokal konstant | f^{-1}[a] <= (a in F) für alle a in S }
+
+Die Strukturgarbe ist dann der Grad-0-Teil der Lokalisierung von SS an den
+homogenen Elementen von F.
 
 
 === Nächste Schritte
