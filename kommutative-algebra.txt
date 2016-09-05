@@ -505,6 +505,22 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   dem ein Element aus S_1 nicht enthalten ist), ein solcher Ring. Deswegen ist
   es okay, nur S_(p) zu betrachten, den Grad-0-Anteil.
 
+* Seien M und N graduierte S-Moduln. Sei F ein multiplikatives System von S
+  bestehend nur aus homogenen Elementen. Dann gibt es eine kanonische lineare
+  Abbildung
+
+      M[F^(-1)]_0 tensor_{S[F^(-1)]_0} N[F^(-1)]_0 --> (M tensor_S N)[F^(-1)]_0
+      x/s tensor y/t |--> (xy)/(st).
+
+  Diese ist im Allgemeinen jedoch kein Iso.
+
+  Aber schon, wenn F ein Element u vom Grad 1 enthält: Dann ist ein Urbild für
+  (x tensor y) / s nämlich ((u^m x) / s) tensor (y / u^m), wenn y Grad m hat.
+  Eine andere Wahl von u führt übrigens zum gleichen Tensor.
+
+* Was bitte ist die universelle Eigenschaft des Grad-0-Teils der Lokalisierung?
+  Es muss doch besser gehen als wie von mir spekuliert: http://mathoverflow.net/questions/142234/is-there-a-universal-property-for-graded-localization/249110#249110
+
 
 === Homogene Ideale
 
@@ -531,8 +547,22 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 * Es gibt zwei Möglichkeiten, aus einem beliebigen Ideal ein homogenes zu
   machen.
 
-  I^h := { f | forall i. exists g in I. f_i = g_i }
-       = (g_i | g in I, i >= 0)
+      I^h := { f | forall i. exists g in I. f_i = g_i }
+           = (g_i | g in I, i >= 0) >= I
+
+      I^k := { f | f_i in I für alle i } <= I
+           = oplus_{d >= 0} (I cap S_d)
+
+  Es gilt: (__)^h -| Homogenität vergessen -| (__)^k.
+
+  Die erste Adjunktion sagt aus: Um I^h <= J zu zeigen, wobei J homogen ist,
+  genügt es, I <= J nachzuweisen. Die zweite sagt aus: Um J <= I^k zu zeigen,
+  wobei J homogen ist, genügt es, J <= I nachzuweisen.
+
+  I^h ist der Schnitt über alle homogenen Ideale, welche I umfassen.
+  I^k ist die Summe über alle homogenen Ideale, welche in I enthalten sind.
+
+* Ich sehe nicht, dass (__)^h und (__)^k Radikalität erhalten.
 
 * Es gilt: a^h cap b^h = sqrt((a * b)^h). Dabei ist ">=" trivial (nur
   Monotonie).

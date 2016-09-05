@@ -1008,7 +1008,8 @@ Nichtkonstruktiv kann man j(J) auch als
 
     bigcap { p | p homogenes Primideal mit J <= p und S_+ \not\subseteq p }
 
-schreiben.
+schreiben. (Nimmt man nur das Homogenitätsaxiom hinzu und nicht das mit S_+, so
+lautet der zugehörige Kern wohl J |--> sqrt(J^h).)
 
 Jedenfalls gibt es dann in Proj S, als klassifizierende Örtlichkeit definiert,
 den universellen "homogenen relevanten Filter" F. Man kann etwa sagen, dass
