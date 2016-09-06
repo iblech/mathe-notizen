@@ -65,3 +65,8 @@ http://physics.stackexchange.com/a/17225/103105
 === Herleitungen der Schrödinger-Gleichung
 
 * http://fermatslibrary.com/s/feynmans-derivation-of-the-schrodinger-equation
+
+
+=== Kategorielle Sprache
+
+* Bob Coecke, Kindergarten Quantum Mechanics. https://arxiv.org/abs/quant-ph/0510032
