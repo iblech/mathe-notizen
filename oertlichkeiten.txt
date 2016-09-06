@@ -505,6 +505,14 @@ http://www.tac.mta.ca/tac/volumes/12/13/12-13.pdf
   der zugehörigen Präsentationen.
 
 
+=== Funktionalanalysis
+
+Joan Pelletier, Locales in functional analysis.
+
+Eine Idee ist zum Beispiel, den Dualraum durch eine Dualörtlichkeit zu
+ersetzen. Dann funktioniert Hahn--Banach.
+
+
 === Literatur
 
 * Klar: Johnstone (zwei Einführungsartikel, Stone Spaces, Elephant)
