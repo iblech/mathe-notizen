@@ -435,7 +435,7 @@ Ferner gilt:
 * Sei weiterhin F -| G. Dann ist G genau dann volltreu, wenn
   FG --> Id ein Iso ist. F ist genau dann volltreu, wenn Id --> GF ein Iso ist.
 
-  Das sagt Huybrechts, F-M, Seite 8.
+  Das sagt Huybrechts, F-M, Seite 8. Es ist auch einfach allgemein bekannt.
 
   Beispiel: Abelianisierung -| Vergiss; Vergiss ist volltreu, und in der Tat
   ist Abelianisierung(A) --> A ein Iso für abelsche Gruppen A.
