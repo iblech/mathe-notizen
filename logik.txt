@@ -75,6 +75,15 @@ Empfohlen von John Baez!
   dass beweisbar ist, dass sie nicht in der Menge liegt.
 
 
+=== Finitistisch akzeptables Schließen
+
+... wird laut manchen Leuten formalisiert durch PRA (primitiv-rekursive
+Arithmetik). Manchmal genügt sogar ERA, das ist wie Peano-Arithmetik, aber mit
+dem Induktionsprinzip eingeschränkt auf elementar berechenbare Prädikate.
+
+http://www.icm2006.org/proceedings/Vol_II/contents/ICM_Vol_2_03.pdf
+
+
 === Temporale Logik
 
 * Diodoreanische Modalität in Minkowski-Raumzeit (in Goldblatts Buch)

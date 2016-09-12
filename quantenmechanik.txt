@@ -67,6 +67,11 @@ http://physics.stackexchange.com/a/17225/103105
 * http://fermatslibrary.com/s/feynmans-derivation-of-the-schrodinger-equation
 
 
+=== Feynman-Diagramme
+
+* https://www.physicsforums.com/insights/struggles-continuum-part-5/ (John Baez)
+
+
 === Kategorielle Sprache
 
 * Bob Coecke, Kindergarten Quantum Mechanics. https://arxiv.org/abs/quant-ph/0510032
