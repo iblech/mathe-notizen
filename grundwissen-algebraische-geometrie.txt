@@ -222,6 +222,47 @@ offenabgeschlossenen Teilmengen. Stichwort Stone-Dualität.
 * Punkte des fppf-Topos:
   http://reh.math.uni-duesseldorf.de/~schroeer/publications_pdf/points_fppf.pdf
 
+* Sei f : X --> S ein Morphismus von Schemata. Dann sollten wir folgende
+  Funktoren haben:
+
+      f_! -| f^{-1} -| f_*.
+
+  Also ist (f^{-1} -| f_*) : Zar(X) --> Zar(S) ein wesentlicher geometrischer
+  Morphismus.
+
+  * f_*(F)    : T/S |--> F(T x_S X)
+  * f^{-1}(E) : T/X |--> F(T/X/S)
+  * f_!(F)    : T/S |--> coprod_{mu : T --> X über S} F(T/X)
+
+  Es ist Zar(X) zu Zar(S)/yX vermöge dieser Funktoren äquivalent:
+
+      Zar(X) --> Zar(S)/yX durch F |--> (f_!(F) --> f_!(1))
+
+      Zar(S)/yX --> Zar(X) durch (E --> yX) |-->
+          auf T/X: { s in f^{-1}(E) | s wird unter E --> yX auf den
+          Strukturmorphismus von T/X abgebildet }
+
+  Sei A eine O_S-Algebra. Dann gibt es ja die A^1_S-Algebra A~. Unter dieser
+  Äquivalenz korrespondiert (A~ x yX --> yX), die Algebra in Zar(S)/yX, zu
+  (f^* A)~.
+
+* Mit den universellen Eigenschaften kann man eigentlich sehr schnell zeigen,
+  dass
+
+      X x_S Spec_S(A) = Spec_X(f^*(A)),
+
+  und zwar für beliebige (nicht notwendigerweise quasikohärente) O_S-Algebren A.
+
+  Auch im großen Zariski-Topos ist es schön, denn die linke Seite ist
+
+      yX x [A~, A^1]_{A^1-Alg}   (in Zar(S))
+
+  und die rechte
+
+      [\underline{A~}, A^1_X]_{A^1_X-Alg}  (in Zar(S)/yX).
+
+  Diese sind offensichtlich gleich.
+
 
 === Proj-Konstruktion
 
