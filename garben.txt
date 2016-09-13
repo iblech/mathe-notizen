@@ -124,11 +124,16 @@
   Der Rest geht genauso durch.
 
 
-=== Naiver Rückzug
+=== Zurückziehen
 
 * Wenn man beim Zurückziehen die Vergarbung vergisst, kommt tatsächlich
   keine Garbe heraus. Schönes Beispiel hier:
   http://mathoverflow.net/a/45218/31233
+
+* Sei f : X --> Y stetig. Sei E eine Garbe auf Y. Sei s ein Schnitt von f^(-1)(E)
+  auf U <= X. Dann gibt es eine Überdeckung U = bigcup_i U_i sodass s|_{U_i}
+  unter Garbifizierung von [V_i, t_i] mit U_i <= f^{-1}[V_i], t_i in E(V_i)
+  herkommt.
 
 
 === Ausschneiden von Untergarben über Halmvorgaben
@@ -258,14 +263,6 @@ konstruierte Garbe die richtigen Halme hat.)
 
 * Sei E eine Prägarbe abelscher Gruppen. Sei E(U) = 0 für alle U
   aus einer Basis der Topologie. Dann ist aE = 0.
-
-
-=== Zurückziehen
-
-Sei f : X --> Y stetig. Sei E eine Garbe auf Y. Sei s ein Schnitt von f^(-1)(E)
-auf U <= X. Dann gibt es eine Überdeckung U = bigcup_i U_i sodass s|_{U_i}
-unter Garbifizierung von [V_i, t_i] mit U_i <= f^{-1}[V_i], t_i in E(V_i)
-herkommt.
 
 
 === Wolkenkratzergarben in algebraischer Geometrie
