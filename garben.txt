@@ -130,6 +130,18 @@
   keine Garbe heraus. Schönes Beispiel hier:
   http://mathoverflow.net/a/45218/31233
 
+* Es ist aber okay, wenn man auf eine Unterörtlichkeit zurückzieht!
+
+  Ist also X_j ^--> X eine Unterörtlichkeit, so ist der Rückzug einer Garbe E
+  gegeben durch
+
+      V <= O(X_j)  |-->  colim_{V <= jU} E(U).
+
+  Das ist auch einfach einzusehen. Es ist zu überprüfen, dass diese Zuordnung
+  eine Garbe festlegt. Dazu muss der Einschränkungsmorphismus zu V --> jV
+  bijektiv sein. Das ist trivialerweise der Fall, da V <= jU gleichbedeutend zu
+  jV <= jU ist.
+
 * Sei f : X --> Y stetig. Sei E eine Garbe auf Y. Sei s ein Schnitt von f^(-1)(E)
   auf U <= X. Dann gibt es eine Überdeckung U = bigcup_i U_i sodass s|_{U_i}
   unter Garbifizierung von [V_i, t_i] mit U_i <= f^{-1}[V_i], t_i in E(V_i)

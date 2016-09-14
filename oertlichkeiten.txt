@@ -505,6 +505,26 @@ http://www.tac.mta.ca/tac/volumes/12/13/12-13.pdf
   der zugehörigen Präsentationen.
 
 
+=== Logische Sicht auf Örtlichkeiten
+
+Jede Örtlichkeit klassifiziert eine gewisse geometrische propositionale
+Theorie, nämlich "die Theorie ihrer Punkte".
+
+* Sei eine propositionale geometrische Theorie T (also die Ansammlung
+  von Axiomen) über einer Signatur Sigma gegeben. Dann gibt es folgende
+  Korrespondenz.
+
+      Pt(Örtlichkeit zu T) ~~ { alpha : Sigma --> Omega | alpha erfüllt die Axiome von T }
+
+  Dabei geht ein Punkt (ein vollständig primer Filter) F auf die Zuordnung
+  alpha mit alpha(a) = [| [a] in F |].
+
+  Eine Zuordnung alpha geht auf den Punkt { [phi] | phi stimmt in der Zuweisung
+  alpha }.
+
+  (Habe nicht alle Details geprüft, aber ist völlig sinnvoll.)
+
+
 === Funktionalanalysis
 
 Joan Pelletier, Locales in functional analysis.

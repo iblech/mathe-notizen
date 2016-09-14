@@ -13,6 +13,55 @@ http://cstheory.stackexchange.com/questions/1117/realizability-theory-difference
 http://homepages.inf.ed.ac.uk/jrl/Research/notions1.pdf
 
 
+=== Der Kleene-Baum
+
+* Es gibt eine berechenbare partielle Funktion d : N --` {0,1} sodass für
+  jede berechenbare totale Funktion f : N --> N eine natürliche Zahl n
+  existiert, sodass d(n) definiert ist und ungleich f(n) ist.
+
+  Dazu definiere d(n) so: Simuliere die n-te Turingmaschine mit Eingabe n.
+  Falls das nicht terminiert, ist der Wert von d(n) undefiniert. Ansonsten ist
+  er 0, falls das Ergebnis nicht 0 war, und 1 sonst.
+
+  Ist nun eine berechenbare totale Funktion f gegeben, so gibt es ein n,
+  sodass f durch die n-te Turingmaschine realisiert wird. Folglich ist d(n)
+  definiert und gleich f(n).
+
+* Ein Wort a in 2^* liegt genau dann im Kleene-Baum, wenn a "die Folge d
+  sein könnte". Damit ist folgendes gemeint.
+
+  Sei D eine Funktion, die d berechnet, etwa die oben skizzierte.
+  Ein Wort a der Länge l liegt genau dann im Kleene-Baum, wenn für
+  alle 1 <= i <= l, für die D(i) nach höchstens l Schritten terminiert hat,
+  gilt, dass der i-te Buchstabe von a gleich d(i) ist.
+
+* Der Kleene-Baum enthält (berechenbar) unendlich viele Elemente.
+
+  Denn sei n eine beliebige Zahl. Dann definieren wir die Buchstabenfolge
+  a_1...a_n durch
+
+      a_k := d(k), falls D(k) nach <= n Schritten gehalten hat;
+             0,    sonst.
+
+* Nach Königs Lemma enthält der Kleene-Baum daher einen unendlichen Pfad.
+  Aber er enthält keinen berechenbaren unendlichen Pfad.
+  
+  Denn sei ein beliebiger berechenbarer Pfad in 2^* gegeben. Dann können wir
+  eine totale berechenbare Funktion f : N --> {0,1} durch f(n) := der n-te
+  Buchstabe des n-ten Worts auf dem Pfad definieren. Dank der Magie von d
+  gibt es eine natürliche Zahl n für die d(n) definiert und ungleich f(n) ist.
+  Sei m die Anzahl Schritte, die D(n) bis zur Terminierung benötigt. Ohne
+  Einschränkung m >= n. Dann liegt das m-te Wort des Pfads nicht im Kleene-Baum.
+
+* Andrej erklärt das in Realizability for the Physical World so: "To understand how
+  strange such a tree is, contemplate the following situation. A master machine
+  has built a system of underground tunnels, beginning with a hole at the
+  surface. The tunnels always go down, they may split into two, or lead to dead
+  ends. We are told that there is no limit to the depth of the tunnels. Yet,
+  even if the master machine is known to us we cannot build a machine that
+  would enter the hole and always go down without ever hitting a dead end."
+
+
 === Noethers Theorem aus "Theorems for free"
 
 http://lambda-the-ultimate.org/node/5078

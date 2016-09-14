@@ -55,6 +55,20 @@
   Details stehen in Streicher.
 
 
+=== Realisierbarkeitslogik
+
+* r |== neg(phi) bedeutet: Es gibt keinen Realisierer für phi.
+  Dabei geht r auf der rechten Seite gar nicht ein!
+
+* r |== neg(neg(phi)) bedeutet: Es gibt nicht nicht einen Realisierer
+  für phi. In klassischer Logik ist das natürlich äquivalent dazu, dass es
+  einen Realisierer für phi gibt. Wieder geht r gar nicht ein.
+
+* Ein Realisierer a realisiert genau dann (neg neg phi --> phi),
+  wenn aus der (nicht nicht) Realisierbarkeit von phi folgt, dass für alle
+  Realisierer r gilt, dass ar |== phi.
+
+
 === Beispiele für Realisierbarkeitsübersetzungen
 
 * "Es gibt eine Injektion phi : N^N --> N" bedeutet, dass es eine Injektion
@@ -88,6 +102,19 @@
   Realisierer für die Elemente aus X berechnet: Ist a ein Realisierer eines
   Elements von X, so soll auch ra einer sein; und sind a und b Realisierer
   desselben Elements, so soll ra = rb sein.
+
+* Die formale Church--Turing-These besagt: Jede Funktion N --> N ist
+  durch eine Turingmaschine (äquivalent: einen λ-Term) gegeben. Im
+  Realisierbarkeitsmodell durch Turingmaschinen ist sie trivialerweise erfüllt.
+  Im Modell durchs λ-Kalkül dagegen nicht, da ein Realisierer nicht in gegebene
+  λ-Terme hineinschauen kann.
+
+  Als Konsequenz ist die Funktion N^N --> N/~, welche einer Funktion die
+  Äquivalenzklasse von sie berechnenden Turingmaschinen zuordnet, nicht
+  realisierbar im λ-Kalkül-Modell, wohl aber im TM-Modell.
+
+* Was sind Beispiele für Aussagen, die im λ-Kalkül-Modell, aber nicht im
+  TM-Modell realisierbar sind?
 
 
 === Effektiver Topos
