@@ -139,6 +139,15 @@ avenue seems to be largely unexplored to date.
 
 * dim X <= n gdw. Sh(X) |== krulldim O_X <= n.
 
+  Schön wäre es, wenn man für Affine das mit Hilfe des generischen Filters
+  zeigen könnte:
+
+      dim A <= n  gdw.  Sh(Spec(A)) |== dim AA[F^(-1)] <= n.
+
+  Die Hinrichtung ist trivial, die Rückrichtung ist mir nicht klar. Ich will
+  ein geeignetes Ideal aufstellen, dass dann von F getroffen wird und daher das
+  Einsideal ist.
+
 * dim X <= 1 gdw. Sh(X) |== forall a,b : O_X.
       a inv.  v  (a. inv ==> (b inv. v neg (b inv))).
 

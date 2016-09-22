@@ -924,6 +924,26 @@ http://arxiv.org/pdf/math/0409360v2.pdf
   nulldimensional).
 
 
+=== Globale Funktionen
+
+* Die globalen Funktionen auf dem gewöhnlichen/"naiven" X = Spec(A) sind
+  einfach durch A gegeben. Das zeigt man konstruktiv wie folgt. Wir haben die
+  kanonische Abbildung A --> O_X(X).
+
+  Zur Injektivität: Sei s in A mit X |== s = 0 in AA[F^(-1)].
+  Also X |== exists u : F. us = 0.
+  Also existiert eine Zerlegung der Eins 1 = sum_i f_i mit f_i in sqrt((u_i))
+  und D(f_i) |== u_i s = 0, also f_i nilpotent oder u_i s = 0.
+  Wir finden ein gemeinsames l, sodass für alle i gilt: f_i^l = a_i u_i
+  für gewisse a_i und sodass l größer als die gegebenen Schranken für die
+  Nilpotenzindizes ist. Es gilt dann s = sum_i ??_i f_i^l s = 0.
+
+  Zur Surjektivität: Sei s ein globaler Schnitt von O_X.
+  Dann X |== exists x : AA, u : F. s = x/u.
+  Also gibt es eine Zerlegung der Eins mit ...; fertig mit dem Standardlemma
+  übers eindeutige Verkleben.
+
+
 === Allgemeiner
 
 * Coste. Localisation, spectra and sheaf representation.

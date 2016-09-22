@@ -33,6 +33,51 @@
      Primidealen (wie bei ggT und kgV von Zahlen).
 
 
+=== Ringe mit eindeutiger Zerlegung in Irreduzible & Co.
+
+* Sei c regulär. Existiere ggT(ac,bc). Dann ggT(a,b) = ggT(ac,bc) / c.
+
+* Sei c regulär. Existiere ggT(ac,bc). Dann gilt Euklids Lemma:
+
+      Wenn a | bc und ggT(a,b) = 1, dann a | c.
+
+  Beweis: a | ac und a | bc, also a | ggT(ac,bc) = ggT(a,b) c = c.
+
+  http://math.stackexchange.com/questions/313345/does-euclid-lemma-hold-for-gcd-domains
+
+* Euklids Lemma gilt ohne ggT-Existenz-Voraussetzung in folgender Form:
+
+    Sei b regulär. Wenn a | bc und kgV(a,b) = ab, dann a | c.
+
+  Beweis: a | bc und b | bc, also ab = kgV(a,b) | bc, also a | c.
+
+* In ggT-Ringen sind dank Euklids Lemma irreduzible Elemente schon prim:
+
+  Zunächst überlegt man sich, dass die einzigen Teiler eines irreduziblen
+  Elements 1 und das Element selbst sind. Sei dann d | xy. Es ist ggT(d,x)
+  ein Teiler von d, also gleich d oder gleich 1. Im ersten Fall folgt d | x.
+  Im zweiten sind die Voraussetzungen von Euklids Lemma erfüllt, womit d | y
+  folgt.
+
+* Wenn wir einen UFD-Bereich als einen ggT-Bereich, in dem jedes reguläre
+  Element eine Zerlegung in irreduzible Elemente zulässt, definieren dann haben
+  wir:
+
+  1. UFD-Bereich ==> ggT-Bereich (trivial)
+  2. Jedes reguläre Element in einem UFD-Bereich besitzt eine eindeutige
+     Zerlegung in irreduzible Elemente.
+  3. Und falls wir prüfen können, ob gegebene irreduzible Elemente zueinander
+     assoziiert sind (etwa in klassischer Logik): Dann ist ein
+     Integritätsbereich, in dem jedes reguläre Element eine eindeutige
+     Zerlegung in irreduzible Elemente besitzt, schon ein UFD-Bereich in
+     unserem Sinn.
+  4. Ein Integritätsbereich ist genau dann ein UFD-Bereich, wenn jedes
+     reguläre Element eine eindeutige Zerlegung in irreduzible Elemente
+     besitzt und die Assoziiertheit irreduzibler Elemente entscheidbar ist.
+
+ http://mathoverflow.net/questions/151973/constructively-correct-notion-of-unique-factorization-domain
+
+
 === Diskrete Bewertungsbereiche
 
 * Jedes Ideal in einem diskreten Bewertungsbereich ist von der Form
@@ -600,6 +645,10 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 * Auf jeden Fall gibt es folgendes Unterscheidungsmerkmal: In Ab_fp gibt
   es ein Objekt X, sodass Hom(X, __) : Ab --> Set treu ist. (Nämlich X = ZZ.)
   In Ab_fp^op gibt es das aber nicht.
+
+* Sei e ein idempotentes Element in einem Ring. Dann gilt Ann(e) = (1-e).
+  Dabei ist ">=" klar. Die andere Richtung gilt sogar ganz ohne
+  Voraussetzungen: Wenn xe = 0, dann x = x (e + (1-e)) = x (1-e).
 
 
 === Vektorräume ohne kanonische Basis
@@ -1462,6 +1511,25 @@ muss.
 
   Obacht: Auch wenn A N-graduiert ist, ist A[S^(-1)] im Allgemeinen
   Z-graduiert!
+
+* Sei m ein maximales Ideal in einem Ring A. Dann gilt:
+
+      A \ m = 1 + m.
+
+  "<=": Sei x nicht in m. Dann ist m + (x) = (1), also gibt es
+  ein Element u aus m mit u + x = 1. Also gilt x = 1 + (-u).
+
+  ">=": Klar.
+
+  Umgekehrt ist ein Ideal m, für das A \ m = 1 + m ist, schon maximal.
+  Denn sei y nicht in m. Dann gibt es ein u aus m mit y = 1 + u,
+  also 1 = u + (-y), also m + (y) = (1).
+
+  Also ist A[(1+m)^{-1}] ein schöner Ersatz für A_m, wenn ich von m nur
+  klassisch weiß, dass es ein maximales Ideal ist!
+
+  Könnte auch ein Indiz dafür liefern, wie die Örtlichkeit der minimalen Filter
+  zu definieren sei.
 
 
 === Lokale Ringe

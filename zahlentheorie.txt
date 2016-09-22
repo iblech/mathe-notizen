@@ -50,6 +50,11 @@ http://fermatslibrary.com/s/a-new-proof-of-euclids-theorem
 https://news.ycombinator.com/item?id=10888893
 
 
+=== Endlichkeit der Fermatschen Primzahlen
+
+https://arxiv.org/abs/1605.01371
+
+
 === Primzahlen als Knoten
 
 http://win.ua.ac.be/~lebruyn/LeBruyn2010d.pdf
