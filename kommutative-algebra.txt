@@ -1705,6 +1705,11 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
 * Z/(n) ist nicht flach über Z, denn zum Beispiel bleibt die Injektion
   Z --> Q unter Tensorieren mit Z/(n) nicht injektiv.
 
+* Untermoduln flacher Moduln sind im Allgemeinen nicht wieder flach
+  (außer, der Faktormodul ist es auch). Beispielsweise sind Ideale eines Rings
+  im Allgemeinen nicht flach über dem Ring. (Das gilt natürlich nicht für
+  Hauptideale, die von einem regulären Element erzeugt werden.)
+
 
 === Projektive Moduln
 
