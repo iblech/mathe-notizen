@@ -61,3 +61,8 @@ http://homepages.inf.ed.ac.uk/als/Talks/tacl13.pdf
 === Verteilte Bayessche Interferenz
 
 http://arxiv.org/abs/1608.01987
+
+
+=== Logische Induktion
+
+https://arxiv.org/abs/1609.03543
