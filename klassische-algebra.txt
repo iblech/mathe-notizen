@@ -29,6 +29,20 @@ beliebig. Dann gilt:
     also gh = v^n u v^m w = v^n v^m uw = v^m v^n uw = v^m w v^n u = hg.
 
 
+=== Untergruppen vom Index 2
+
+Enthalte G/H zwei Elemente im starken Sinn, also G/H = { A, B } mit A != B.
+Sei ohne Einschränkung A = [1]. Also A = H. Dann kann man zeigen:
+
+* B = G \ H.
+* Jedes Element aus G liegt in H oder nicht in H.
+* Für g aus H gilt gH = H = Hg.
+* Für g nicht aus H gilt gH = G \ H = Hg. Für die letzte Identität
+  muss man das Argument "gH = G \ H" für Rechtsnebenklassen wiederholen.
+  Von denen gibt es auch genau zwei, wie die Bijektion G/H --> H\G, gH |->
+  Hg^(-1) zeigt.
+
+
 === Der Fixpunktsatz für p-Gruppen
 
 https://qchu.wordpress.com/2013/07/09/the-p-group-fixed-point-theorem/
