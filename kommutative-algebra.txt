@@ -1705,11 +1705,6 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
 * Z/(n) ist nicht flach über Z, denn zum Beispiel bleibt die Injektion
   Z --> Q unter Tensorieren mit Z/(n) nicht injektiv.
 
-* Untermoduln flacher Moduln sind im Allgemeinen nicht wieder flach
-  (außer, der Faktormodul ist es auch). Beispielsweise sind Ideale eines Rings
-  im Allgemeinen nicht flach über dem Ring. (Das gilt natürlich nicht für
-  Hauptideale, die von einem regulären Element erzeugt werden.)
-
 
 === Projektive Moduln
 
@@ -1873,6 +1868,11 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   Anders: Spec(phi) ist flach und surjektiv genau dann, wenn phi (flach und)
   treuflach ist.
 
+* Untermoduln flacher Moduln sind im Allgemeinen nicht wieder flach
+  (außer, der Faktormodul ist es auch). Beispielsweise sind Ideale eines Rings
+  im Allgemeinen nicht flach über dem Ring. (Das gilt natürlich nicht für
+  Hauptideale, die von einem regulären Element erzeugt werden.)
+
 
 === Tensorprodukt
 
@@ -1899,6 +1899,24 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   X |-> k[X] := k[x | x aus X]. Dieser bewahrt daher Kolimiten.
   Somit ist k[x,y] = k[{x,y}] der Kolimes von k[x] mit k[y]. Nun nutzt man noch
   aus, dass Kolimiten durchs Tensorprodukt gegeben sind.
+
+* Sei A = span(a_1,...,a_m) ein endlich erzeugter R-Modul. Sei B ein beliebiger
+  R-Modul. Dann ist ein Tensor der Form sum_i a_i tensor b_i genau dann Null in
+  A tensor B, wenn es eine Matrix (r_ij) und einen Vektor (c_j) (mit Einträgen
+  aus B) gibt sodass
+
+      b_i = sum_j r_ij c_j  und  sum_i a_i r_ij = 0.
+
+  Symbolisch: b = R c und a^T R = 0.
+
+  Die Rückrichtung ist klar.
+
+  Zur Hinrichtung baue die Surjektion R^m --> A, e_i |-> a_i und betrachte dann
+  die wegen Merus Lieblingswitz exakte Sequenz
+
+      ker(R^m --> A) tensor B ---> B^m ---> A tensor B ---> 0.
+
+  Das Element (b_i)_i geht dann auf Null und besitzt daher ein Urbild.
 
 
 === Nakayama
@@ -2048,6 +2066,24 @@ Sei R nicht unbedingt kommutativ.
   (klassisch, vielleicht auch bei geeigneter Formulierung konstruktiv)
 
   Beweis steht in D. Northcott, Finite Free Resolutions, Seite 96.
+
+* Klassisch gilt: Endlich erzeugte freie Moduln sind "endlich frei",
+  also von der Form A^n.
+
+  Konstruktiv gilt nur: Ist ein Modul frei über eine Menge I und endlich
+  erzeugt, so ist I kuratowskiendlich. Eine Aufzählung der Elemente von I
+  erhält man nämlich, indem man die vorkommenden Basiselemente der gegebenen
+  Erzeuger zusammensetzt. Zum Nachweis, dass das alle sind, benötigt man
+  folgendes Lemma.
+
+* Genau dann sind in einem freien Modul zwei Linearkombinationen
+  sum_i a_i e_i und sum_j b_j e'_j gleich, wenn:
+
+  Für alle x aus der Basismenge und
+  für alle K <= {1, ..., n} und J <= {1, ..., m}
+  sodass alle e_i und e'_j mit i aus K und j aus J jeweils gleich x sind
+  gibt es Obermengen K' und J' mit derselben Eigenschaft
+  sodass sum_{i in K'} a_i = sum_{j in J'} b_j.
 
 
 === Purity filtration
