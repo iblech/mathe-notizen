@@ -1484,6 +1484,8 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
   Ringe) bewahrten filtrierte Kolimiten. Dass also insbesondere gilt:
 
       F(R) = colim_{R' --> R, R' e.p.} F(R').
+      (Dass also F die Links-Kan-Erweiterung seiner Einschränkung auf endlich
+      präsentierte Ringe ist.)
 
   Das ist aber falsch. Ein Gegenbeispiel ist die Modulgarbe E vom vorherigen
   Punkt (colim_n E(Z[1/n]) --> E(Q) ist nicht injektiv).
