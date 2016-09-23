@@ -1,3 +1,9 @@
+=== Duale Kategorie
+
+* Wenn C und C^op Topoi sind, dann ist C äquivalent zum trivialen Topos.
+  http://math.stackexchange.com/questions/1217933/examples-of-certain-types-of-toposes
+
+
 === Kohomologie und Homotopie von Topoi
 
 * Homotopie: siehe http://www.math.washington.edu/~warner/HTT_Warner.pdf.
