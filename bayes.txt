@@ -66,3 +66,8 @@ http://arxiv.org/abs/1608.01987
 === Logische Induktion
 
 https://arxiv.org/abs/1609.03543
+
+
+=== Vortrag, der gut sein könnte
+
+http://videolectures.net/site/normal_dl/tag=50814/mlss09uk_jordan_bfway.pdf
