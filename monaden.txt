@@ -157,6 +157,10 @@ eine Äquivalenz ist. In diesem Fall heißt D auch monadisch über C.
 * Die Kategorie der Rahmen (frames) ist monadisch über Set, ja sogar
   durch Gleichungen repräsentiert. http://mathoverflow.net/a/10745/31233
 
+* Ist E ein Topos, so ist der Vergissfunktor E/X --> E komonadisch mit
+  dem Rückzugsfunktor als Rechtsadjungiertem. Die Kategorie der Koalgebren des
+  Rückzugsfunktors (aufgefasst als Funktor E --> E) ist E/X.
+
 
 === Lifting von Adjunktionen
 

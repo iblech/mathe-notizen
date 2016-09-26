@@ -1,3 +1,5 @@
+=== Quellen
+
 * http://ljk.imag.fr/membres/Dominique.Duval/Slides/capp10.pdf
 * A categorical semantics of quantum protocols: http://arxiv.org/abs/quant-ph/0402130
 
@@ -10,6 +12,8 @@
 
 * http://www.cs.bham.ac.uk/~sjv/GeoAspects.pdf
   Ist eine schöne Einführung.
+
+* https://ncatlab.org/toddtrimble/published/An+elementary+approach+to+elementary+topos+theory
 
 
 === Bedeutung der Identität

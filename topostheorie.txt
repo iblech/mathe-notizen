@@ -4,6 +4,13 @@
   http://math.stackexchange.com/questions/1217933/examples-of-certain-types-of-toposes
 
 
+=== Definitionsmöglichkeiten
+
+* Todd Trimble: Ein Topos ist eine reguläre Kategorie E sodass E --> Rel(E)
+  einen Rechtsadjungierten besitzt.
+  https://ncatlab.org/toddtrimble/published/An+elementary+approach+to+elementary+topos+theory
+
+
 === Kohomologie und Homotopie von Topoi
 
 * Homotopie: siehe http://www.math.washington.edu/~warner/HTT_Warner.pdf.
@@ -440,6 +447,7 @@ Axiomen von T. (Natürlich arbeitet man hier in Top^op, nicht in Top.)
   Kommt mir auch etwas komisch vor; passt aber topologisch. Denn Set/X =
   Sh(X_diskret) und stetige Abbildungen Y --> X_diskret sind gerade durch
   X-indizierte offene paarweise disjunkte Überdeckungen von Y gegeben.
+
 
 
 === Siten
