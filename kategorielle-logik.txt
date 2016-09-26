@@ -16,6 +16,12 @@
 * https://ncatlab.org/toddtrimble/published/An+elementary+approach+to+elementary+topos+theory
 
 
+=== Grafische Anschauung
+
+* https://xorshammer.com/2016/07/24/the-cgp-grey-topos-of-continents/
+  über die subendliche Garbe der Kontinente
+
+
 === Bedeutung der Identität
 
 "=" ist \exists längs der Diagonale. (Das kam eventuell in Jonas Freys Vortrag

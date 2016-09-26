@@ -374,6 +374,10 @@ Kategorien, die zu diskreten Kategorien äquivalent sind, und
 * [Delta^op, Mod(R)] = [Z<Delta^op>, Mod(R)]_Ab =
     [R<Delta^op>, Mod(R)]_{Mod(R)-angereichert}
 
+* Wenn die Yoneda-Einbettung Y einer Kategorie in eine Adjunktionskette
+  U -| V -| W -| X -| Y passt, dann ist die Kategorie äquivalent zu Set.
+  http://www.personal.psu.edu/t20/fom/postings/9802/msg00144.html
+
 
 === Rechenregel adjungierte Funktoren
 

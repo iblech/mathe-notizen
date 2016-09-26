@@ -516,3 +516,15 @@ http://fermatslibrary.com/s/an-elementary-proof-of-wallis-product-formula-for-pi
 * Wärmeleitung durch Austausch kinetischer Energie ohne Materialaustausch;
   Konvektion durch Masseaustausch; Wärmestrahlung durch Beschleunigung von
   Ladungen.
+
+
+=== Die arithmetische Hierarchie in den Naturwissenschaften
+
+https://xorshammer.com/2016/05/14/the-arithmetic-hierarchy-meets-the-real-world/
+
+"For example, the Pi_1 case is basically the scientific method as learned in
+elementary school: a hypothesis is generated, and by repeated experiments we
+either reject it, or gradually come to correctly accept the truth of it.
+
+The fact that science is not so simple is seen by just recognizing that there
+are scientific hypotheses that are not in Pi_1 form."

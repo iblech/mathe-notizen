@@ -1659,6 +1659,11 @@ muss.
 
 * Jeder Vektor in Lambda^2(R^3) ist rein.
 
+* https://xorshammer.com/2016/05/09/youtube-physics-explanations-shouldnt-use-the-right-hand-rule/
+  Statt vec(r) x vec(p) zu nehmen, kann man auch einfach vec(r) wedge vec(p)
+  betrachten. Addition durch Aneinanderhängen von Parallelogrammen längs zweier
+  gleich langer Kanten.
+
 
 === Verklebung von Modulkategorien
 

@@ -129,3 +129,5 @@ Dabei wird Gleichheit dann nicht mehr trivial realisiert.
 * http://www.mathematik.tu-darmstadt.de/~streicher/REAL/REAL.pdf
 * http://math.andrej.com/wp-content/uploads/2014/03/real-world-realizability.pdf
 * https://arxiv.org/abs/1401.7867
+* http://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-208/ von Wesley Phoa
+  (sehr empfohlen von Michael O'Connor, Todd Trimble und Tom Leinster)
