@@ -919,6 +919,17 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
 
 * Ein Hauptideal (f) von A ist genau dann frei vom Rang 1, wenn f regulär ist.
 
+* Genau dann ist A/(f) über A endlich frei, wenn f Null oder invertierbar ist.
+
+  Denn falls A/(f) frei vom Rang 0 ist, so ist f invertierbar.
+
+  Falls A/(f) frei von einem Rang >= 1 ist, so gibt es eine A-lineare
+  Injektion A --> A/(f). Unter der wird f = f * 1 auf f * ??, also auf Null,
+  abgebildet, womit f selbst schon Null ist.
+
+  Gilt sogar, wenn man von A/(f) nur weiß, dass es über A frei ist.
+  (Damit ist es ja dann frei über eine kuratowskiendlichen Menge.)
+
 * Beachte: Familien aus mehr als einem Element in einem nichttrivialen Ring
   können niemals linear unabhängig sein. Leicht: Seien x, y linear unabhängig.
   Dann gilt yx - xy = 0, also y = -x = 0. Dann 1x = 0, also 1 = 0.
