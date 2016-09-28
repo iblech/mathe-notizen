@@ -249,6 +249,12 @@ http://okmij.org/ftp/Scheme/macros.html#ck-macros
   in conceptual space” that one hits even while aiming in purely logical
   directions."
 
+* "Theorem (Girard '98): there is a consistent refinement of the sequent
+  calculus with unrestricted comprehension but restricted contraction in which
+  the provably total functions are precisely the polynomial time functions."
+
+  http://therisingsea.org/notes/talk-twothings.pdf
+
 
 === Unmöglichkeit
 
