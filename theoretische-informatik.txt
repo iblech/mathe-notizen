@@ -256,6 +256,13 @@ http://okmij.org/ftp/Scheme/macros.html#ck-macros
   http://therisingsea.org/notes/talk-twothings.pdf
 
 
+=== Verbindungen zwischen Berechenbarkeit und Logik
+
+* Die Sigma_1-Mengen natürlicher Zahlen sind genau die rekursiv aufzählbaren.
+  Und auch genau die Mengen der n's, sodass eine diophantische Gleichung
+  f(n, x_1,...,x_m) = 0 lösbar ist.
+
+
 === Unmöglichkeit
 
 * If a language can interpret itself then it is not total.
