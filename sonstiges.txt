@@ -528,3 +528,13 @@ either reject it, or gradually come to correctly accept the truth of it.
 
 The fact that science is not so simple is seen by just recognizing that there
 are scientific hypotheses that are not in Pi_1 form."
+
+
+=== Pascalsches Dreieck
+
+* Klar, modulo einer Primzahl ist das pascalsche Dreieck das
+  Sierpinski-Dreieck.
+
+* Klar, mit dem Chaosspiel erhält man das Sierpinski-Dreieck.
+
+* Der Zustandsgraph von Türme von Hanoi ist das Sierpinski-Dreieck.
