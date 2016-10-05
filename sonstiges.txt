@@ -538,3 +538,30 @@ are scientific hypotheses that are not in Pi_1 form."
 * Klar, mit dem Chaosspiel erhält man das Sierpinski-Dreieck.
 
 * Der Zustandsgraph von Türme von Hanoi ist das Sierpinski-Dreieck.
+
+
+=== Das Alien-Problem
+
+Am Anfang gibt es X_0 = 1 Aliens. In jedem Schritt wird aus einem Alien mit
+gleicher Wahrscheinlichkeit eine Anzahl zwischen 0 und 3 Aliens. Was ist die
+Aussterbewahrscheinlichkeit?
+
+* Sei f_n(T) = sum_a P(X_n = a) T^a. Dann ist f_(n+1)(T) = f_n((T^4-1)/(T-1) / 4),
+  denn
+
+      P(X_(n+1) = a | X_n = b) = sum_{i_1+...+i_b=a} (1/4)^b =
+          Koeffizient vor X^a in (1/4 + 1/4 X + 1/4 X^2 + 1/4 X^3)^b.
+
+* Es ist f_0(T) = T.
+
+* Also geht es um den Grenzwert der Folge (a_n) mit
+
+    a_0     = 0
+    a_(n+1) = 1/4 (a_n^4 - 1) / (a_n - 1).
+
+  Dieser ist sqrt(2) - 1. Auf die Fixpunktgleichung kann man auch direkt
+  kommen.
+
+  Der Grenzwert existiert, da die Folge schwach monoton steigend und durch 1
+  nach oben beschränkt ist. (Wie einfach kann man eigentlich Argumente dieser
+  Art konstruktiv machen?)
