@@ -30,7 +30,7 @@ http://homepages.inf.ed.ac.uk/jrl/Research/notions1.pdf
 * Ein Wort a in 2^* liegt genau dann im Kleene-Baum, wenn a "die Folge d
   sein könnte". Damit ist folgendes gemeint.
 
-  Sei D eine Funktion, die d berechnet, etwa die oben skizzierte.
+  Fixiere eine Maschine D, die d berechnet, etwa die oben skizzierte.
   Ein Wort a der Länge l liegt genau dann im Kleene-Baum, wenn für
   alle 1 <= i <= l, für die D(i) nach höchstens l Schritten terminiert hat,
   gilt, dass der i-te Buchstabe von a gleich d(i) ist.
@@ -60,6 +60,15 @@ http://homepages.inf.ed.ac.uk/jrl/Research/notions1.pdf
   ends. We are told that there is no limit to the depth of the tunnels. Yet,
   even if the master machine is known to us we cannot build a machine that
   would enter the hole and always go down without ever hitting a dead end."
+
+* Der Kleene-Baum liefert eine Funktion psi : 2^N --> N (das Exponential soll nur
+  die berechenbaren Funktionen enthalten), die nicht gleichmäßig stetig ist:
+  Bilde f ab auf die kleinste natürliche Zahl n, sodass das Wort
+  [f(0),...,f(n-1)] nicht im Kleene-Baum liegt.
+
+  Stetig ist diese Funktion aber schon: Sei eine Funktion f mit psi(f) = n
+  gegeben. Dann gilt psi(f) = psi(g) für alle berechenbaren Funktionen g
+  mit f = g auf { 0, ..., n - 1 }.
 
 
 === Noethers Theorem aus "Theorems for free"
