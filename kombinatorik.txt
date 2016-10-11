@@ -76,6 +76,16 @@ Advanced Determinant Calculus
 http://arxiv.org/abs/math/9902004
 
 
+=== Teilbarkeitseigenschaft von Binomialkoeffizienten
+
+* Dass \binom{p}{k} ein Vielfaches von p ist, kann man so einsehen: Wir haben
+
+      p! = \binom{p}{k} k! (p-k)!.
+
+  Links kommt der Primfaktor p vor. Also auch rechts. Aber für 1 <= k <= p-1
+  kommt er nicht in k! und nicht in (p-k)! vor.
+
+
 === Spezies
 
 * https://byorgey.wordpress.com/2016/06/20/any-clues-about-this-newton-iteration-formula-with-jacobian-matrix/
