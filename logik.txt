@@ -84,6 +84,49 @@ dem Induktionsprinzip eingeschränkt auf elementar berechenbare Prädikate.
 http://www.icm2006.org/proceedings/Vol_II/contents/ICM_Vol_2_03.pdf
 
 
+=== Analytische Hierarchie
+
+Achtung, hier klassische Logik benutzt!
+
+* Jede Pi_1^1-Aussage ist äquivalent zu einer Aussage der Form
+
+      forall f : N --> N. exists m : N. R(n, f^(m)).
+
+  Dabei ist f^ die "course of values"-Funktion, also f^(n) = (f(0),...,f(n-1)).
+
+  Siehe: Cor. IV.2.10 in /Classical Recursion Theory/ von Odifreddi.
+
+  (Wenn man Mengenquantoren statt Funktionsquantoren verwendet, muss man zwei
+  Zahlquantoren verwenden. Stimmt das?)
+
+* Eine Menge X natürlicher Zahlen ist genau dann eine Pi_1^1-Menge,
+  wenn es eine rekursive Folge (T_n)_n rekursiver Bäume mit
+
+      n in A  <==>  T_n ist fundiert
+
+  gibt.
+
+  Die Richtung "<==" ist klar, denn die Bedingung, dass T_n fundiert ist, ist
+  eine Pi_1^1-Bedingung.
+
+  Zur Richtung "==>" nutzen wir aus, dass die Menge X von der Form
+  X = { n | forall f. exists m. R(n, f^(m)) } ist und definieren den Baum T_n
+  so: Eine Folge xs von natürlichen Zahlen soll genau dann zum Baum gehören,
+  wenn für jede echte Teilfolge ys von xs die Aussage R(n, ys) falsch ist.
+
+  Die Blätter des Baums geben also Plätze an, bei denen R(n, __) das erste Mal
+  gilt.
+
+* Eine analoge Aussage gibt es mit fundierten Ordnungen statt fundierten
+  Bäumen.
+
+* Mehr steht zur arithmetischen und analytischen Hierarchie in:
+
+  * Beklemishev: Provability, Computability and Reflection
+  * Grzegorczyk: An Outline of Mathematical Logic: Fundamental Results and
+    Notions Explained
+
+
 === Temporale Logik
 
 * Diodoreanische Modalität in Minkowski-Raumzeit (in Goldblatts Buch)
