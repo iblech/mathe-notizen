@@ -582,6 +582,14 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
     S |--> j(S) = { xs | forall x. <xs,x> in S }
 
 
+=== Forcing
+
+* http://www.math.lsa.umich.edu/~ablass/interact.pdf
+* https://golem.ph.utexas.edu/category/2011/08/the_settheoretic_multiverse.html
+* https://arxiv.org/pdf/1111.5854.pdf
+* http://mathoverflow.net/questions/51187/what-is-the-generic-poset-used-in-forcing-really
+
+
 === Nächste Schritte
 
 * Sind die Garben bezüglich der kanonischen Topologie auf einem Topos E

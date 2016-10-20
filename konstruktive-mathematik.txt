@@ -217,3 +217,102 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
   Was gilt in einer konstruktiven Meta-Theorie? Vielleicht sowas: Ist A
   kohärent und noethersch so ist O_{Spec A} kohärent und noethersch. Wobei der
   Verzicht auf Kohärenz jeweils nicht möglich ist.
+
+
+=== Generische Freiheit
+
+* Generische Freiheit für Moduln:
+
+  Let R be a reduced ring. Let A be a finitely generated R-module. Assume
+  that the only f in R such that A[f^(−1)] is a finitely free R[f^(−1)]-module
+  is f = 0. Then R = 0.
+
+  http://mathoverflow.net/questions/250040/constructive-proof-that-a-kernel-consists-of-nilpotent-elements
+
+* Und für Algebren:
+
+  Lemma 1: Sei R ein Ring. Sei M ein R-Modul mit Erzeugendensystem
+  (x_i)_{i in I}. Sei I total geordnet. Gelte für alle g in R:
+  Ist in M[g^{-1}] einer der Erzeuger R[g^{-1}]-Linearkombination von
+  anderen Erzeugern mit kleinerem Index, so ist g = 0. Dann ist M frei mit
+  (x_i)_i als Basis.
+
+  Beweis: Sukzessive von höheren zu niedrigeren Indizes den Beweis von
+  Lemma 1 in der MO-Antwort anwenden.
+
+  Lemma 2:
+      Sei R ein reduzierter Ring. Sei S eine R-Algebra von endlichem Typ.
+      Sei M ein endlich erzeugter S-Modul.
+
+      Gelte für alle f aus R: Sollte M[f^{-1}] (nicht notwendigerweise
+      endlich) frei über R[f^{-1}] sein, so ist f = 0.
+
+      Dann ist R = 0.
+
+  Beweis: Sei S als R-Algebra durch x_1, ..., x_m erzeugt. Sei M als S-Modul
+  durch v_1, ..., v_l erzeugt. Dann ist das System aller Vektoren der Form
+  x_1^{i_1} ... x_m^{i_m} v_j ein Erzeugendensystem von M als R-Modul. Wir ordnen
+  die Menge aller Indizes (j, i_1,...,i_m) lexikographisch.
+
+  Wir führen nun eine Induktion über die Struktur eines "schönen
+  Erzeugendensystems" von M als R-Modul. Wir möchten sukzessive
+  überflüssige Elemente aus einem solchen System entfernen, bis wir bei
+  einer Basis landen.
+
+  Ein schönes Erzeugendensystem soll ein Untersystem des trivialen
+  Erzeugendensystems bestehend aus allen Vektoren der Form
+  x_1^{i_1} ... x_m^{i_m} v_j sein, das folgende kritische Eigenschaften hat:
+
+  a) Wenn einer dieser Vektoren nicht Teil des Systems ist, dann sind
+     auch alle Vektoren mit noch größeren x_i-Potenzen nicht Teil des
+     Systems.
+
+  b) Jeder Vektor der Form x_1^{i_1} ... x_m^{i_m} v_j ist
+     Linearkombination von Vektoren aus dem System, deren Index jeweils
+     kleiner als (j, i_1,...,i_m) ist.
+
+  Eigenschaft a) stellt sicher, dass ein Induktionsbeweis zulässig ist.
+  Wenn man beliebige Erzeugendensysteme erlaubt, kann es nämlich sein,
+  dass man unendlich oft überflüssige Vektoren aus dem System entfernen
+  muss und danach immer noch nicht bei einer Basis landet. Dagegen gibt es
+  keine unendlichen absteigenden Ketten in der Menge aller schönen
+  Erzeugendensysteme.
+
+  Eigenschaft b) ist nötig, damit der Induktionsschritt durchgeht.
+
+  Der Induktionsanfang, bei dem das gegebene schöne Erzeugendensystem das
+  leere System ist, ist schnell erledigt: Dann ist M = 0. Indem wir die
+  Voraussetzung für f := 1 verwenden, sind wir fertig.
+
+  Im Induktionsschritt sei ein schönes Erzeugendensystem gegeben.
+  Wir möchten die Voraussetzungen von Lemma 1 überprüfen (dann können wir,
+  indem wir die Voraussetzung für f := 1 verwenden, den Beweis
+  abschließen).
+
+  Sei also ein beliebiges Element g in R gegeben, sodass über R[g^{-1}]
+  einer der Vektoren aus dem gegebenen schönen Erzeugendensystem
+  Linearkombination von Vektoren mit kleinerem Index ist. Dann lässt sich
+  M[g^{-1}] über R[g^{-1}] durch ein echt kleineres schönes
+  Erzeugendensystem erzeugen (einfach den überflüssigen Vektor sowie all
+  seine x_i-Vielfache streichen und nachprüfen, dass das entstehende
+  Erzeugendensystem wieder schön ist). Nach Induktionsvoraussetzung ist
+  R[g^{-1}] = 0. Also ist g = 0.
+
+* Aus interner Sicht ist das alles etwas einfacher. Im kleinen Zariskitopos
+  von Spec(R) gilt für alle Elemente f der Strukturgarbe:
+
+      neg neg (f = 0  vee  f invertierbar).
+
+  Dann eine Induktion über die Struktur eines "schönes Erzeugendensystems",
+  um nachzuweisen, dass M~ nicht nicht frei ist. Wir haben:
+
+      neg neg (ein Erzeuger ist Linearkombination von kleineren  oder  nicht).
+
+  Da wir eine doppelt negierte Aussage beweisen möchten, können wir davon
+  ausgehen, dass die Aussage in Klammern stimmt. Im zweiten Fall ist das
+  Erzeugendensystem linear unabhängig. Im zweiten Fall können wir die
+  Induktionsvoraussetzung auf das verkleinerte System anwenden.
+
+  Genauer geht es hier immer um "Freiheit über einer endlichen Menge oder einer,
+  die bijektiv zu N ist". Das ist auch wichtig, denn sonst können wir nicht
+  folgern, dass die Modulgarbe lokal frei ist.
