@@ -123,6 +123,17 @@ Muss aus Asm(A) noch einen Tripos machen und daraus einen Topos.
 Dabei wird Gleichheit dann nicht mehr trivial realisiert.
 
 
+=== Untertopoi des effektiven Topos
+
+* Sei A <= N. Sei k_A der kleinste modale Operator im effektiven Topos,
+  der Entscheidbarkeit von A erzwingt.
+
+  Dann ist k_A <= k_B genau dann, wenn A Turing-reduzierbar zu B ist.
+
+  https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/hyland-effectivetopos.pdf,
+  Seite 36.
+
+
 === Quellen
 
 * http://math.andrej.com/data/c2c.pdf
@@ -131,3 +142,4 @@ Dabei wird Gleichheit dann nicht mehr trivial realisiert.
 * https://arxiv.org/abs/1401.7867
 * http://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-208/ von Wesley Phoa
   (sehr empfohlen von Michael O'Connor, Todd Trimble und Tom Leinster)
+* https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/hyland-effectivetopos.pdf
