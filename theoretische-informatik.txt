@@ -276,3 +276,23 @@ http://okmij.org/ftp/Scheme/macros.html#ck-macros
 
 * If a language can interpret itself then it is not total.
   http://cstheory.stackexchange.com/a/24994/32151
+
+
+=== Turing-Grade
+
+https://en.wikipedia.org/wiki/Turing_degree
+
+Turinggrade messen, wie schwer genau unschaffbar schwere Probleme sind.
+
+* Ein Problem ist genau dann lösbar, wenn es Turinggrad 0 hat.
+  Es ist genau dann äquivalent zum Halteproblem, wenn es Turinggrad 0' hat.
+
+* Es gibt 2^{aleph_0} viele verschiedene Turinggrade. Es gibt mindestens
+  eine Menge von Turinggraden derselben Größe, deren Elemente paarweise
+  unvergleichbar sind.
+
+* Es gibt minimale Grade über 0. Der Grad 0' ist aber nicht minimal.
+  (Sozusagen ist die Kontinuumshypothese für Turinggrade falsch.)
+
+* Jede abzählbare Partialordnung lässt sich in Ordnung der Turinggrade
+  einbetten.

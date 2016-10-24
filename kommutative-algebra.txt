@@ -1275,6 +1275,10 @@ Sei M eine quadratische Matrix über einem Ring.
 * Eine direkte Summe ist genau dann torsionsfrei, wenn alle Summanden
   torsionsfrei sind. Genauso mit Torsionsmoduln.
 
+* Sei 0 --> M' --> M --> M'' --> 0 eine kurze exakte Sequenz,
+  wobei die vorderen beiden Moduln frei vom Rang 1 sind. Dann ist M'' ein
+  Torsionsmodul.
+
 * Angeblich: M endlich präsentiert ==> M^ reflexiv.
 
 * Angeblich: Kerne von linearen Abbildungen zwischen endlich freien Moduln sind
