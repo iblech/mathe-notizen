@@ -1729,7 +1729,14 @@ PS: If you are into such things, here is the logical background:
   keine f-Garbe. Betrachte den Fall M = R und die Funktion e^(1/x) auf D(x).
   Keine Funktion der Form x^n e^(1/x) ist im Ursprung stetig.
 
+  Etwas genauer: Erfülle eine topologische Mannigfaltigkeit die interne
+  Bedingung, dass C[f^{-1}] für alle f eine f-Garbe ist. Dann ist die
+  Mannigfaltigkeit leer. Dazu muss man nur den Fall M = R^n betrachten.
+  Und dort funktioniert das Gegenbeispiel.
+
 * Dasselbe Beispiel funktioniert auch für (C, O_C) komplexe Mannigfaltigkeit.
+
+* Wie steht's um formale Schemata?
 
 * Wie steht es um folgende Bedingung? "Ex. Ring A lok.konst., sodass O_X
   die Lokalisierung von A an einer saturierten Menge S, die sogar ein Filter
