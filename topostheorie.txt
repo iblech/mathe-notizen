@@ -9,6 +9,7 @@
 * Todd Trimble: Ein Topos ist eine reguläre Kategorie E sodass E --> Rel(E)
   einen Rechtsadjungierten besitzt.
   https://ncatlab.org/toddtrimble/published/An+elementary+approach+to+elementary+topos+theory
+  http://mathoverflow.net/a/234516/31233
 
 
 === Kohomologie und Homotopie von Topoi

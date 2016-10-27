@@ -85,6 +85,9 @@ http://arxiv.org/abs/math/9902004
   Links kommt der Primfaktor p vor. Also auch rechts. Aber für 1 <= k <= p-1
   kommt er nicht in k! und nicht in (p-k)! vor.
 
+* Das Produkt von n aufeinanderfolgenden Zahlen ist stets durch n! teilbar.
+  Denn (a+1) ... (a+n) / n! = \binom{a+n}{n}.
+
 
 === Spezies
 

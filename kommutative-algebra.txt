@@ -1546,6 +1546,14 @@ muss.
   Könnte auch ein Indiz dafür liefern, wie die Örtlichkeit der minimalen Filter
   zu definieren sei.
 
+* Lokalisieren vertauscht nicht mit Vervollständigung. Im Allgemeinen
+  ist der kanonische Morphismus
+
+      A^_a[f^{-1}] ---> A[f^{-1}]^_a
+
+  kein Iso. Zum Beispiel sei A = k[X], a = (X) und f = X. Dann ist die linke
+  Seite k[X,X^{-1}], aber die rechte Null.
+
 
 === Lokale Ringe
 

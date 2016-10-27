@@ -1736,7 +1736,9 @@ PS: If you are into such things, here is the logical background:
 
 * Dasselbe Beispiel funktioniert auch für (C, O_C) komplexe Mannigfaltigkeit.
 
-* Wie steht's um formale Schemata?
+* Wie steht's um formale Schemata? Da stimmt es vermutlich nicht.
+  Man bräuchte sowas wie, dass Vervollständigen und Lokalisierung vertauschen.
+  Aber das ist im Allgemeinen falsch. Die Separiertheit ist noch erfüllt.
 
 * Wie steht es um folgende Bedingung? "Ex. Ring A lok.konst., sodass O_X
   die Lokalisierung von A an einer saturierten Menge S, die sogar ein Filter
@@ -1780,6 +1782,23 @@ PS: If you are into such things, here is the logical background:
       x ~ x'  ==> f(x) ~ f(x').
 
   Bin durch http://angg.twu.net/LATEX/2008filterp.pdf auf die Idee gekommen.
+
+
+=== Stetigkeit
+
+* Sei f_0 : R --> R eine stetige Funktion. Sei X ein metrischer Raum.
+  Sei f : C_X --> C_X die von f durch Postkomposition induzierte Abbildung.
+
+  Dann ist aus Sicht der internen Sprache f punktweise stetig. Für gleichmäßige
+  Stetigkeit müsste aber glaub ich f_0 selbst gleichmäßig stetig sein. (Ja,
+  klar, nimm X = pt.) Es ist f aber wohl gleichmäßig stetig auf jedem
+  abgeschlossenen Intervall (wenn man von f_0 weiß, dass es auf abgeschlossenen
+  Intervallen gleichmäßig stetig ist).
+
+  Wenn man den Zwischenwertsatz für R hat, hat man ihn auch für f im Topos
+  Sh(X).
+
+  http://mathoverflow.net/questions/253059/approximate-intermediate-value-theorem-in-pure-constructive-mathematics
 
 
 === Baby-Version von Barrs Theorem
