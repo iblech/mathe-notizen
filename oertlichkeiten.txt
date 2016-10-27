@@ -351,6 +351,16 @@ colim_{a <= a'} F(a').
 
       U > 0  :<==>  U bewohnt.
 
+* Spec(A), als Örtlichkeit, ist in konstruktiver Logik nicht ouvert.
+
+  Denn bei ouverten Örtlichkeiten gilt:
+
+      forall i: X <= sup { T | phi_i }   <==>   X <= sup { T | forall i: phi_i }.
+
+  Bei Spec(A) gilt aber nur "<==". Die Aussage sieht dann nämlich so aus:
+
+      forall i: 1 = 0 oder phi_i   <==>   1 = 0 oder forall i: phi_i.
+
 
 === Schnitt von Örtlichkeiten
 

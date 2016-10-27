@@ -75,3 +75,8 @@ http://physics.stackexchange.com/a/17225/103105
 === Kategorielle Sprache
 
 * Bob Coecke, Kindergarten Quantum Mechanics. https://arxiv.org/abs/quant-ph/0510032
+
+
+=== Quantenalgorithmen
+
+* Shor gut erklärt: http://www.scottaaronson.com/blog/?p=208
