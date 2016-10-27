@@ -591,6 +591,11 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
 * http://mathoverflow.net/questions/51187/what-is-the-generic-poset-used-in-forcing-really
 
 
+=== Topos der M-Mengen (M ein Monoid)
+
+* http://176.58.104.245/NOTES/categories/M-Set.pdf (Ebrahimi, Mahmoudi)
+
+
 === Nächste Schritte
 
 * Sind die Garben bezüglich der kanonischen Topologie auf einem Topos E
