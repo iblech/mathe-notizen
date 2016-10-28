@@ -181,6 +181,8 @@ Seite 44ff.
   so kann man zeigen, dass die Behauptung für D äquivalent zur Behauptung für D'
   ist (nutze dazu 0 --> O(-P) --> O --> k(P) --> 0). Dann Induktion.
 
+* http://mathoverflow.net/questions/253090/elementary-proof-of-riemann-roch-for-compact-riemann-surfaces
+
 
 === Grothendieck--Riemann--Roch
 

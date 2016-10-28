@@ -105,6 +105,9 @@ globalen Schnitt von E liften, wenn sein Bild unter dieser Abbildung null ist.
   eine Garbe abelscher Gruppen ist. http://stacks.math.columbia.edu/tag/02FQ
   Geradenbündel sind dasselbe wie O_X^*-Torsorn.
 
+  Die höheren Gruppen klassifizieren "(n-1)-gerbes". Siehe Kommentar von Marc
+  Hoyuis bei http://mathoverflow.net/a/253261/31233.
+
 * Auf irreduziblen Räumen gibt es wenige lokal konstante Garben.
 
 * Anwendungen wie das Cousin-Problem, Chern-Klassen, ...

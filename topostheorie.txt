@@ -12,6 +12,27 @@
   http://mathoverflow.net/a/234516/31233
 
 
+=== Separabler Abschluss
+
+* Klar, Wraith, Generic Galois theory of local rings.
+
+* Kennison: Galois theory and theaters of action in a topos
+
+* Der separable Abschluss eines Körpers k existiert in dem Topos
+  Sep(k), dem Topos der Garben über C(k)^op mit der atomischen Topologie. Dabei
+  ist C(k) die Kategorie der endlichen separablen Körpererweiterungen von k.
+  Der Topos ist äquivalent zum Topos der stetigen G-Mengen, wobei G die
+  absolute Galoisgruppe von k ist. Das ist auch einfach der kleine étale Topos
+  von Spec(k): Ein étales k-Schema X schicken wir auf die G-Menge seiner
+  kquer-rationalen Punkte.
+
+  https://books.google.de/books?id=lDHUCQAAQBAJ&pg=PA33&lpg=PA33
+
+* Wenn man damit mal den separablen Abschluss von R konstruiert, erhält man
+  den Topos der Paare von Mengen zusammen mit einer Bijektion zwischen ihnen.
+  Siehe Seiten 162f. im Kennison-Artikel.
+
+
 === Kohomologie und Homotopie von Topoi
 
 * Homotopie: siehe http://www.math.washington.edu/~warner/HTT_Warner.pdf.

@@ -70,6 +70,45 @@ http://homepages.inf.ed.ac.uk/jrl/Research/notions1.pdf
   gegeben. Dann gilt psi(f) = psi(g) für alle berechenbaren Funktionen g
   mit f = g auf { 0, ..., n - 1 }.
 
+  Zudem ist diese Funktion nicht beschränkt.
+
+  https://books.google.de/books?id=j6f9CAAAQBAJ&pg=PA70&lpg=PA70
+  (Beeson, Foundations of Constructive Mathematics: Metamathematical Studies)
+
+* In PCF ist eine Funktion
+
+      max :: (2^N --> N) --> N
+
+  definierbar. Aber im Modell mit Turingmaschinen (welche im Falle von
+  Funktionen höherer Ordnungen passende Kodierungen von sie berechnenden
+  Turingmaschinen als Argumente nehmen) funktioniert die Funktion nicht:
+  Wegen der nicht beschränkten Funktion aus dem Kleene-Baum.
+
+  Wenn man das Modell so ändert, dass Funktionen durch ihren Graph übergeben
+  werden, funktioniert sie wieder. Angeblich, ist mir noch nicht ganz klar.
+  Zumindest nicht im Realisierbarkeitsmodell. Hm.
+
+* Sei s : X --> Y eine Surjektion. Existiere eine Funktion
+
+      all : 2^X --> 2
+
+  mit all(p) genau dann, wenn p(x) für alle x in X. Dann gibt es auch die
+  analoge Funktion für Y.
+
+* Existiere der Kleene-Baum T. Dann gibt es eine Surjektion 2^N --> N,
+  nämlich diejenige Abbildung, die einem unendlichen Pfad die Blattnummer des
+  letzten in T befindlichen Knotens des Pfads zuordnet.
+
+  Es gibt auch eine passende rechtsinverse Injektion: Die ordnet einer Zahl n
+  einen Pfad zu, der zum n-ten Blatt läuft (und dann immer links abbiegt).
+
+  Ferner ist 2^N isomorph (als metrische Räume, vermöge einer stetigen
+  Bijektion mit stetiger Inversem) zu N^N.
+
+* Angenommen, es gibt "all" für X = 2^N. Existiere weiterhin der Kleene-Baum.
+  Dann gibt es "all" auch für Y = N. Das ist aber falsch, weil damit das
+  Halteproblem lösbar ist.
+
 
 === Noethers Theorem aus "Theorems for free"
 

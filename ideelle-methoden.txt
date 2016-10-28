@@ -81,6 +81,9 @@ Idempotenzlemma.)
 
 * Siehe auch: http://arxiv.org/abs/1404.4549 von Mannaa und Coquand.
 
+* http://www.sciencedirect.com/science/article/pii/0022404980901267
+  Kennison: Galois theory and theaters of action in a topos
+
 
 === Zerfällungsalgebra
 

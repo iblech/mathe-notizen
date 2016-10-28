@@ -27,3 +27,12 @@ https://www.imj-prg.fr/~michael.harris/androids.pdf
 === Matrixtheorie
 
 http://andrescaicedo.files.wordpress.com/2014/03/olga-taussky-how-i-became-a-torchbearer-for-matrix-theory.pdf
+
+
+=== Abbildungsbegriff
+
+* Ein möglicher Grund, wieso wir heute stark zwischen total und partiell
+  definierten Funktionen unterscheiden und Definitions- und Zielmengen ernst
+  nehmen: Abbildungen, die als Funktionsterm wie die Identität aussehen, können
+  auf Homologie ganz andere Abbildungen induzieren.
+  http://mathoverflow.net/a/131106/31233

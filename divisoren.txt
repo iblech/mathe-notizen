@@ -363,6 +363,52 @@ verwendet wird, berechnet die erste Chern-Klasse. In diesem Sinn ist also die
 erste Chern-Klasse von O(D), D effektiv, die Klasse von O_D in K(X).
 
 
+=== Linearsysteme
+
+* Sei D ein Divisor. Dann ist |D| die Menge aller zu D linear äquivalenten
+  effektiven Divisoren. Sie heißt "vollständiges Linearsystem zu D" und trägt
+  auf kanonische Art und Weise die Struktur eines projektiven Raums:
+
+      P_klassisch(H^0(X, O_X(D))) ---> |D|
+      [f]                         |--> D + div(f)
+
+  Beauville sagt: D + div(f) ist der Divisor der Nullstellen von f.
+  Stimmt das?
+
+* Sei D ein Divisor. Dann gibt es eine rationale Abbildung
+
+      f : X -.-.-.-> |D|^ (Dualraum)
+
+  mit x |--> Hyperebene derjenigen Divisoren D' aus |D| mit x in D'.
+
+  Es gilt wohl D = f^* |H|.
+
+* Es gibt eine Bijektion zwischen:
+
+  1. Linearsystemen der Dimension n ohne fixe Komponenten.
+     (Die fixe Komponente eines Linearsystems L ist der größte Divisor D_0 mit
+     D >= D_0 für alle D aus L. Genau dann, wenn D_0 = 0, sagen wir, dass das
+     System ohne fixe Komponente sei.)
+
+  2. Morphismen X --> P^n, deren Bild nicht in einer Hyperebene enthalten ist,
+     bis auf projektive Automorphismen.
+
+* Sei D ein Divisor, dessen vollständiges Linearsystem keine fixe Komponente
+  hat. Sei f : X --> P^n die induzierte Abbildung. Dann gilt vielleicht sowas
+  wie:
+
+      "Genau dann gilt für n + 1 Divisoren aus X, dass ihre Bilder unter f in
+      einer gemeinsamen Hyperebene liegen, wenn ihre Summe äquivalent zu D
+      ist."
+
+  Zum Beispiel gilt im Fall, dass X eine Kurve ist, wohl das Folgende:
+
+      Die Bilder von drei Punkten P, Q und R unter f liegen genau dann auf
+      einer gemeinsamen Gerade, wenn P + Q + R ~ D.
+
+  Für "==>" kann man f^* |H| = D nutzen. Hm.
+
+
 === Nächste Schritte
 
 * Wieso ergeben div(s) & Co. immer eine endliche Linearkombination?

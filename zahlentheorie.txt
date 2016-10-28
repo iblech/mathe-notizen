@@ -64,3 +64,11 @@ http://mathoverflow.net/questions/50879/what-is-the-knot-associated-to-a-prime/5
 === Zeta-Funktionen
 
 * https://ncatlab.org/johnbaez/show/Zeta+functions
+
+
+=== Wo es immer Primzahlen gibt
+
+* Zwischen n und 2n.
+
+* Es gibt immer eine Primzahl in [x-x^theta, x], wobei etwa theta = 0.525
+  möglich ist. http://mathoverflow.net/a/253281/31233
