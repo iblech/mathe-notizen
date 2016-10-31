@@ -129,6 +129,16 @@ avenue seems to be largely unexplored to date.
   also ist F lokal frei auf einer dichten Teilmenge!
 
 
+=== Offenheit
+
+* Eine Idee ist: Eine Teilmenge U <= X heißt genau dann offen,
+  wenn für jede Abbildung f : Delta --> X mit f(0) in U schon
+  im(f) <= U ist.
+
+  Mit dieser Definition sind aber alle Teilmengen von pt
+  offen.
+
+
 === Kategorien intern in Sch/S
 
 * Akhil Mathew. Categories parametrized by schemes and representation theory in

@@ -72,3 +72,13 @@ http://mathoverflow.net/questions/50879/what-is-the-knot-associated-to-a-prime/5
 
 * Es gibt immer eine Primzahl in [x-x^theta, x], wobei etwa theta = 0.525
   möglich ist. http://mathoverflow.net/a/253281/31233
+
+
+=== Kettenbruchentwicklung
+
+* Der Teilraum von R bestehend aus den irrationalen Zahlen zwischen 0
+  und 1 ist, vermöge der Kettenbruchentwicklung, homöomorph zum 
+  Funktionenraum N^N mit der Produkttopologie. (Hierbei sollen
+  ausnahmsweise die natürlichen Zahlen erst bei 1 beginnen.)
+
+  http://math.stackexchange.com/questions/352547/baire-space-homeomorphic-to-irrationals

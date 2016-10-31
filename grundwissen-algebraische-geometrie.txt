@@ -937,6 +937,19 @@ Die Normalgarbe ist der ihr O_Y-Duales.
 
 * http://math.stackexchange.com/questions/194607/computation-of-normal-cones
 
+* Der Tangentenbündelfunktor Sch/S --> Sch/S ist rechtsadjungiert zum
+  Aufdickungsfunktor (Martin Brandenburg, Lemma 5.12.1):
+
+  Hom_S(T, Spec_X Sym Omega^1_{X|S}) =
+  coprod_{f : T --> X über S} Hom_X(T, Spec_X Sym Omega^1) =
+  coprod_{f : T --> X über S} Hom_{O_X-Mod}(Omega^1, f_*(O_T)) =
+  coprod_{f : T --> X über S} Der_{mu^{-1}(O_S)}(O_X, f_*(O_T)) =
+  coprod_{f : T --> X über S} Hom_S(T[eps], X)_{eingeschränkt auf T gleich f} =
+  Hom_S(T[eps], X).
+
+  Für den nichttrivialen Schritt siehe kaehler.txt; der Schemamorphismus muss
+  nur noch auf Ringniveau angegeben werden, da er topologisch die Identität
+  sein muss.
 
 * Sei Y durch reguläre Schnitte eines Vektorbündels E auf X gegeben.
   Dann hat man für O_Y eine Koszul-Auflösung Lambda^* (E^)^n.

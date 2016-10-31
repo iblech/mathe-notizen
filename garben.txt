@@ -4,6 +4,11 @@
   Erzeuger und Relationen.
 
 
+=== Anschauung
+
+* https://xorshammer.com/2016/07/24/the-cgp-grey-topos-of-continents/
+
+
 === Welke Garben
 
 * Eine Garbe E heißt genau dann welk, wenn alle Restriktionsabbildungen

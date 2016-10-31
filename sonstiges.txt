@@ -39,42 +39,6 @@ Bjorn Poonen. Undecidability in number theory.
 http://www-math.mit.edu/~poonen/papers/h10_notices.pdf
 
 
-=== Quantorenelimination
-
-* Quantorenelimination ist bei der Theorie algebraisch abgeschlossener Körper
-  möglich. Idee: Ersetze zwei Gleichungen
-
-      f(x) = 0  und  g(x) = 0
-
-  mit f(x) = a x^n + ..., g(x) = b x^m + ..., n >= m, durch
-
-      (b  = 0 und (f(x) = 0 und g(x)-bx^m = 0)) oder
-      (b != 0 und (b*f(x) - a*x^{n-m}*g(x) = 0 und g(x) = 0)).
-
-  Die neu auftretenden Gleichungen haben geringeren Grad. Schlussendlich
-  bleiben nur Gleichungen zwischen Konstanten übrig (die Variable x wurde also
-  eliminiert) und Gleichungssysteme bestehend aus einer einzelnen Gleichung
-  übrig (welche wegen der Voraussetzung der algebraischen Abgeschlossenheit
-  stets lösbar sind). Dann kann man rekursiv mit den in den Konstanten
-  versteckten weiteren Variablen weitermachen.
-
-* Quantorenelimination zieht nach sich: Bilder quantorfrei definierter Mengen
-  unter definierbaren Abbildungen sind wieder quantorfrei definierbar.
-
-* Auch die Theorie reell abgeschlossener Körper besitzt Quantorenelimination.
-  Daher sind Bilder semialgebraischer Mengen unter polynomiellen Abbildungen
-  wieder semialgebraisch.
-
-* Inwieweit ist Chevalleys Theorem eine Verallgemeinerung?
-
-* Ting Zhang. A survey of quantifier elimination: syntactic and semantic
-  approaches. http://theory.stanford.edu/~tingz/talks/qe.ps
-
-* http://homepages.math.uic.edu/~marker/orsay/orsay2.pdf
-
-* Quantifier elimination in C*-algebras. http://arxiv.org/abs/1502.00573
-
-
 === Differentialgleichungen
 
 * http://www.ams.org/bookstore/pspdf/cbms-106-prev.pdf
@@ -565,3 +529,17 @@ Aussterbewahrscheinlichkeit?
   Der Grenzwert existiert, da die Folge schwach monoton steigend und durch 1
   nach oben beschränkt ist. (Wie einfach kann man eigentlich Argumente dieser
   Art konstruktiv machen?)
+
+
+=== Transfinites Chomp
+
+https://xorshammer.com/2008/09/29/playing-games-in-the-transfinite-an-introduction-to-ordinal-chomp/
+
+Für jede Ordinalzahl alpha gibt es genau eine Ordinalzahl beta sodass der
+zweite Spieler für das (alpha x beta)-Chomp-Spiel eine Gewinnstrategie
+besitzt.
+
+
+=== Thermodynamik
+
+https://xorshammer.com/2016/05/19/thermodynamics-is-easier-than-i-thought/
