@@ -566,6 +566,9 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 * Was bitte ist die universelle Eigenschaft des Grad-0-Teils der Lokalisierung?
   Es muss doch besser gehen als wie von mir spekuliert: http://mathoverflow.net/questions/142234/is-there-a-universal-property-for-graded-localization/249110#249110
 
+* Sei f : R --> S ein Morphismus graduierter Ringe. Dann ist f genau dann
+  surjektiv, wenn alle f_n surjektiv sind.
+
 
 === Homogene Ideale
 

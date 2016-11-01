@@ -1,0 +1,17 @@
+=== Vortrag von Edward Belbruno am 31.10.2016
+
+* "That's a definition I gave in 1986. And it still holds."
+
+* "We call it [the set of troublemaker points] a set of measure zero ... It's a
+  small set."
+
+* Lyapunov orbits, Hill's regions
+
+
+=== Referenzen
+
+* Belbrunos Buch
+
+* http://www2.esm.vt.edu/~sdross/papers/AmericanScientist2006.pdf
+
+* http://www.agi.com/downloads/support/productSupport/literature/pdfs/whitePapers/0800_wsb.pdf
