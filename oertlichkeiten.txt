@@ -127,6 +127,12 @@ Kategorien    präs'bare Kat.        Topoi
 * "PSh(A) ist die Linearisierung von A"
 
 
+=== Örtlichkeit der Surjektionen von N nach R
+
+* Relevant für Forcing. Der Garbentopos drüber enthält eine Surjektion von N
+  in die (konstante Garbe) R.
+
+
 === 2-kategorielle Struktur
 
 * Darf man Morphismen von Örtlichkeiten auf Gleichheit testen?

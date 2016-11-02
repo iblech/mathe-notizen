@@ -1873,7 +1873,8 @@ PS: If you are into such things, here is the logical background:
   Schränke dazu f auf D(x) bzw. D(y) ein. Erhalte so Abbildungen A^1 --> A^1,
   die durch Polynome darstellbar sind.
 
-* Der Punktefunktor zu Spec Sym Omega^1_{X/S} ist einfach [Delta, X].
+* Der Punktefunktor zu Spec Sym Omega^1_{X/S} (als S-Schema, nicht als X-Schema)
+  ist einfach [Delta, X].
 
 * Kann man die Aufblasung vielleicht wie folgt konstruieren?
 
@@ -1881,6 +1882,94 @@ PS: If you are into such things, here is the logical background:
 
   wobei "..." ein geeigneter Ausdruck ist, der im Fall x = x0 zu P(T_x0 X)
   wird. Dabei ist T_x0 X natürlich { f : Delta --> X | f(0) = x0 }.
+
+* Sei J <= O_S eine Idealgarbe. Dann gibt es J~ --> O_S~ und J~~ --> O_S~~.
+  Dabei ist J~(T) = Gamma(T, f^{-1} J) und J~~(T) = Gamma(T, f^* J). Der erste
+  Morphismus ist weiterhin ein Mono, der zweite aber nicht.
+
+  Das S-Schema V(J) ist intern nicht
+
+      { * | J~~ = (0) },
+
+  sondern
+
+      { * | J~~ --> A^1 ist die Nullabbildung }
+
+  oder äquivalent
+
+      { * | J~ --> A^1 ist die Nullabbildung }.
+
+  Die Konormalgarbe ist gegeben durch (x : V(J) |- J~~).
+
+* Allgemein gilt für f : X --> S:
+
+      (f^* E)~~ = (x:X |- E~~).
+
+* Die Konormalgarbe eines abgeschlossenen Unterschemas zu einer O_S-Modulgarbe E
+  ist gegeben durch (x : V(E) |- ann_{O_S~}(E~) tensor_{O_S~} A^1).
+
+  (Ich solte noch prüfen, ob ann_{O_S~}(E~) gleich (ann_{O_S}(E))~ ist.)
+
+  Leider gibt es wohl keine Möglichkeit, den Annulator irgendwie als Annulator
+  von E~~ auszudrücken.
+
+* E~ tensor_{O_S~} A^1 = E~~. Schnell kann man das einsehen, wenn man
+  die Einschränkung auf Sh(X) betrachtet. Tensorprodukt vertauscht mit
+  Einschränkung, da die Tensorproduktkonstruktion geometrisch ist und da
+  Einschränkung der Urbildteil eines geometrischen Morphismus ist. Die
+  Einschränkung lautet also:
+
+      E~|_Sh(X) tensor_{O_S~|_Sh(X)} A^1|_Sh(X) =
+          f^{-1}(E) tensor_{f^{-1}(O_S)} O_X = f^*(E).
+
+  Man muss zwischen Auswertung auf X und Einschränkung auf Sh(X) unterscheiden.
+  Letzteres ist sogar bistetig. Ersteres ist die Komposition von einem
+  Urbildteil gefolgt von einem Pushforwardteil geometrischer Morphismen.
+
+* Sei f : X --> S. Dann ist Omega^1_{X|S} intern durch
+
+      (Kählerdifferentiale zu \ul{O_S~} --> O_X~) tensor_{O_X~} A^1
+
+  definierbar. Diese Garbe ist gleich (Omega^1_{X|S,klassisch definiert})~~.
+
+  Das zeigt, wie wichtig es ist, O_X~ zu kennen. Als Motto: "Zar(S) ist nichts
+  ohne seinen Strukturmorphismus nach Sh(S)! Und O_S~ kontrolliert diesen."
+
+  Es gilt ja, dass Spec_X(Sym Omega^1_{X|S}) = [Delta, X] ist. Vollständig
+  intern ausgeschrieben heißt das, dass
+
+      Sigma_{x:X} [Omega_{O_S~ --> O_X~(x)}, A^1]_{O_X~(x)-Mod} =
+      Sigma_{x:X} Der_{O_S~}(O_X~(x), A^1) =
+      Sigma_{x:X} [Delta, X]_{0 |-> x} =
+      [Delta, X]
+
+  ist. Das zweite Gleichheitszeichen ist dabei nichttrivial. Vielleicht könnte
+  man es irgendwie zur Charakterisierung von O_X~ verwenden. Noch mal
+  übersichtlich ausgeschrieben:
+
+      Hom_{A^1-Mod}(Omega(x), A^1) = [Delta, X]_{0 |-> x}.
+
+  Wenn man in Zar(S) ein neues Schema angibt (also eine Menge), sollte man
+  auch immer eine Faktorisierung von \ul{O_S~} --> \ul{A^1} angeben (in der
+  Kategorie der lokalen Ringe).
+
+  Fürs relative Spektrum X := [E, A^1]_{A^1-Alg} ist diese wohl folgende:
+
+      (wenn E = R tensor_{O_S~} A^1)
+      (im Kontext x : X, also x : E --> A^1 oder transponiert x : R --> A^1)
+
+          O_S~ ---> R[(x^{-1}[Einheiten])^{-1}] ---> A^1.
+
+  Zumindest gilt:
+
+      [Delta, [E, A^1]_{A^1}]_{0 |-> x} =
+      [Delta x R, A^1]_{im zweiten Argument O_S~-Alg-Homo, (0,?) |-> x(?)} =
+      [R, [Delta, A^1]]_{nach Einsetzung von 0 gleich x, O_S~-Alg-Homo} =
+      [R, A^1[eps]/(eps^2)]_{...} =
+      [R[(...)^{-1}], A^1[eps]/(eps^2)]_{...} =
+      Der_{O_S~}(R[(...)^(-1)], A^1)
+
+  Im letzten Schritt geht ein, dass A^1 vermöge x eine R[...]-Algebra ist.
 
 * Genau dann gilt Zar(A) |== (AA --> A^1 ist eine Lokalisierung), wenn A der
   Nullring ist.

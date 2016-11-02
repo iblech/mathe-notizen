@@ -73,3 +73,67 @@ F_1, aufgefasst als kommutative algebraische Theorie, hat als Modelle
   that finite abelian groups are closed under Pontrjagin duality. Hm, now I
   wonder what other "F_1-algebras" have interesting finite representation
   theory." http://mathoverflow.net/a/39770/31233
+
+
+=== Was macht Z komplizierter als k[X]?
+
+Kai hat eben zum Essen eine spannende Frage mitgebracht: Was macht Z
+eigentlich komplizierter als k[X]? Wo doch beides eindimensionale
+noethersche euklidische Ringe sind und sich daher ihre geometrischen
+Theorien in vielen Aspekten ähneln? Wieso ist Fermats letzter Satz für k[X]
+eine einfache Übungsaufgabe, während er für Z nichttrivial ist?
+
+* Die Restklassenkörper von k[X] sind, zumindest wenn man k als
+  algebraisch abgeschlossen voraussetzt, alle zueinander isomorph. Die
+  von Z sind es dagegen nicht.
+
+* Die affine Gerade Spec(k[X]) kann man bekanntlich zur projektiven
+  Gerade kompaktifizieren. Das geht mit Spec(Z) grundsätzlich schon
+  auch; allerdings ist die Konstruktion komplizierter, und, noch
+  wichtiger: Der Anteil über dem Punkt im Unendlichen einer Modulgarbe
+  über der Kompaktifizierung ist ein analytisches Objekt.
+
+* Der Polynomring k[X] trägt bekanntlich eine Kogruppenstruktur,
+  die Spec(k[X]) zu einem Gruppenobjekt in der Kategorie der k-Schemata
+  macht: (Rationale) Punkte von A^1 kann man miteinander addieren.
+
+  Der Ring Z besitzt keine solche Kogruppenstruktur; entsprechend ist
+  Spec(Z) kein Gruppenschema. Wegen des nächsten Punkts sollte man
+  diesen Mangel aber nicht zu sehr Z selbst anlasten.
+
+* Der Polynomring k[X] ist eine Algebra über einem Körper. Der Ring der
+  ganzen Zahlen ist es auch -- er ist eine Algebra über F_1, dem Körper
+  mit einem Element -- die Theorie dazu ist aber noch nicht hinreichend
+  leistungsfähig.
+
+  Der Vergleich im letzten Punkt war deswegen nicht ganz fair: Wir haben
+  Spec(k[X]) als Objekt in der Kategorie der k-Schemata angesehen,
+  Spec(Z) dagegen als Objekt in der Kategorie der Z-Schemata. In der
+  Welt der F_1-Schemata wäre die Antwort möglicherweise eine andere.
+
+* Das Produkt von Spec(k[X]) mit sich selbst in der Kategorie der
+  k-Schemata gibt Spec(k[X,Y]), wie man es auch von der Dimensionszahl
+  erwartet: A^1 x A^1 ~~ A^2. Dagegen ist das Produkt von Spec(Z) mit
+  sich selbst in der Kategorie der Schemata lediglich wieder Spec(Z).
+
+  Das ist wieder ein unfairer Vergleich, weil man das Produkt in der
+  Kategorie der F_1-Schemata nehmen sollte. Alexander Smirnov berichtete
+  in seinem Vortrag im April, dass bisher bei jedem der mehreren
+  Zugänge zum Körper mit einem Element das Produkt von Spec(Z) mit sich
+  selbst entweder nicht bekannt oder kein interessantes zweidimensionales
+  Objekt ist.
+
+  [ Möglicherweise gibt es auch einen tieferen Grund für dieses
+  Scheitern. Es gibt Indizien dafür, dass der Strukturmorphismus F_1 --> Z
+  (anders als k --> k[X]) nicht vom endlichen Typ ist. Das hängt damit
+  zusammen, dass die ζ-Funktion unendlich viele Nullstellen hat. ]
+
+* Über k[X] gibt es eine schöne Schnitttheorie. Über Z nicht. Hier
+  müssen wir wieder auf das Eintreffen von F_1 warten.
+
+Übrigens relativiert sich der zuerst genannte Punkt im Hinblick auf F_1
+etwas: Nur dann sind alle Restklassenkörper von k[X] isomorph, wenn k
+algebraisch abgeschlossen ist. Der Umstand, dass die Restklassenkörper
+von Z alle paarweise nicht isomorph sind, könnte man also F_1 in die
+Schuhe schieben: Der Körper mit einem Element ist nicht algebraisch
+abgeschlossen. Vielleicht sollte man über seinem Abschluss arbeiten.
