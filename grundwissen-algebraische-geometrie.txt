@@ -1380,7 +1380,7 @@ sehr gut lesbar!
 
 * Habe ein Hochhebungskriterium für viele Eigenschaften.
   "für Glattheit (und Unverzweigtheit und Étaleheit :) ) gibt! Mit
-  infinitessimalen Verdickungen affiner Schemata als Testobjekte...  Wird kurz
+  infinitesimalen Verdickungen affiner Schemata als Testobjekte...  Wird kurz
   bei Vakil erwähnt, Abschnitt 25.2.5. Tatsächlich klappt das nicht ganz, die
   entsprechende Eigenschaft heißt dann "formally smooth/unramified/étale", was
   im Falle lokal endlicher Präsentation aber stets das selbe ist wie die
@@ -1732,6 +1732,24 @@ Chern-Klassen.
   eines Rechtsadjungierten.
 
   http://mathoverflow.net/questions/15291/affine-morphisms-in-different-settings-coincide/58486
+
+* Sei f : X --> Y ein Morphismus von Schemata, wobei X affin und Y separiert
+  ist. Dann ist f schon ein affiner Morphismus.
+
+  Denn sei V <= Y offen affin. Dann ist, da Y separiert ist, der kanonische
+  Morphismus
+
+      f^{-1}(V) = X x_Y V  --->  X x V
+
+  eine abgeschlossene Immersion (schreibe ihn als
+
+      X x_Y V = X x_Y Y x_Y V --> X x_Y (Y x Y) x_Y V = X x V
+
+  und nutze aus, dass Y --> Y x Y auch nach Rückzug noch eine abgeschlossene
+  Immersion ist). Somit ist f^{-1}(V) als abgeschlossenes Unterschema eines
+  affinen Schemas selbst affin.
+
+* Natürlich sind Morphismen zwischen affinen Schemata affin.
 
 
 === Referenzen
