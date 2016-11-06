@@ -64,6 +64,10 @@ Empfohlen von John Baez!
 
 * http://www.logicmatters.net/resources/pdfs/gwt/GWT2f.pdf
 
+* http://jdh.hamkins.org/are-all-godel-sentences-equivalent/
+  In einem gewissen Sinn sind alle Gödelsätze zueinander beweisbar äquivalent,
+  da sie alle äquivalent sie zu Con(PA).
+
 
 === Inkonsistenz von PA
 
