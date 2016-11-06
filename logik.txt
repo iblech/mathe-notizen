@@ -7,18 +7,30 @@
 
   Also gibt es keine surjektive Abbildung A --> P(A).
 
-  Auch kann man zeigen, dass es keine injektive Abbildung phi : P(A) --> A
+* Auch kann man zeigen, dass es keine injektive Abbildung phi : P(A) --> A
   geben kann: Definiere
 
       U := { x \in A | \forall V \subseteq A: x \in V ==> x != phi(V) }
       x0 := phi(U).
 
-  Dann folgt x0 \not\in U. Andererseits kann man (unter Benutzung der
-  Injektivität) zeigen, dass für alle V \subseteq A die Implikation
+  Dann folgt x0 \not\in U:
+  
+      Sei x0 in U. Speziell für V := U folgt dann, da x0 in U, dass x0 !=
+      phi(U) ist. Das ist falsch.
+
+  Andererseits kann man (unter Benutzung der Injektivität) zeigen, dass für
+  alle V \subseteq A die Implikation
 
       x0 \in V ==> x0 != phi(V)
 
-  gilt. Also gilt doch x0 \in U. Widerspruch.
+  gilt:
+  
+      Sei x0 in V. Sei x0 = phi(V). Dann folgt, genau wie oben, dass x0 !=
+      phi(V). Das ist ein Widerspruch. Also x0 != phi(V).
+
+  Also gilt doch x0 \in U. Widerspruch.
+
+* Eine Injektion N^N --> N kann es schon geben: etwa in Eff(STM).
 
 
 === Chaitin
