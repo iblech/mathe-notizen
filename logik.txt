@@ -25,8 +25,9 @@
 
   gilt:
   
-      Sei x0 in V. Sei x0 = phi(V). Dann folgt, genau wie oben, dass x0 !=
-      phi(V). Das ist ein Widerspruch. Also x0 != phi(V).
+      Sei x0 in V. Angenommen x0 = phi(V). Dann folgt, da phi injektiv ist,
+      dass U = V. Also liegt x0 in U. Das ist ein Widerspruch. Also x0 !=
+      phi(V).
 
   Also gilt doch x0 \in U. Widerspruch.
 
