@@ -1300,6 +1300,18 @@ Sei M eine quadratische Matrix über einem Ring.
   Element von A regulär. Es gilt ax = 0 als Einsbrüche, also uax = 0 in M.
   Somit können wir x/s auf ux/us schicken.
 
+* Sei E so, dass E_tors endlich erzeugt ist. Dann gilt:
+
+      dim E_tors := dim A/ann(E_tors) <= dim A - 1.
+
+  Denn: Ich finde ein reguläres Element s aus A mit s E_tors = 0.
+  Somit (s) <= ann(E_tors). Die Behauptung folgt, da dim A/(s) <= dim A - 1
+  und dim E_tors <= dim A/(s), da wir die Surjektion O_X/(s) -->
+  O_X/ann(E_tors) haben.
+
+  Angeblich ist E_tors maximal mit dieser Eigenschaft. (Huybrechts/Lehn über
+  Modulräume von Garben, Seite 4 oben.)
+
 
 === Skalareinschränkung und Skalarerweiterung
 
@@ -2028,7 +2040,8 @@ Sei R nicht unbedingt kommutativ.
   m = (x_1, x_2, ...) ist nicht endlich erzeugt.
   http://math.stackexchange.com/a/806933/61604
 
-* A --> B surjektiv, dann dim(B) <= dim(A). Stimmt das?
+* A --> B surjektiv, dann dim(B) <= dim(A). Stimmt das? Ja, logo.
+  Klar über Primidealketten oder über die konstruktive Definition.
 
 * Sei p ein minimales Primideal. Sei I_x = (x) + (sqrt(0):x).
   Dann ist I_x keine Teilmenge von p.
@@ -2057,6 +2070,11 @@ Sei R nicht unbedingt kommutativ.
       (x) + bigcup_n (0 : x^n)
 
   das Einsideal ist.
+
+* Sei A ein lokaler Ring. Genau dann ist dim(A/J) <= 0, wenn für alle x aus A
+  gilt:
+
+      x ist invertierbar modulo J  oder  x ist nilpotent modulo J.
 
 
 === Reguläre Ringe

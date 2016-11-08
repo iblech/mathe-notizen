@@ -1,0 +1,28 @@
+=== Harder--Narasimhan auf projektiven Kurven
+
+* Sei E' <= E eine (kohärente) Untergarbe. Dann folgt mit Riemann--Roch:
+
+      deg(E') = chi(E') - chi(O) <= h^0(E') - chi(O) <= h^0(E) - chi(O).
+
+  Der Grad ist also nach oben beschränkt. Das ist zumindest ein Argument für
+  Geradenbündel. Wie geht es allgemein? So geht es, wenn E' ein Vektorbündel
+  vom Rang r' ist:
+
+      deg(E') = chi(E') - r' chi(O) <= h^0(E') - r' chi(O) <= h^0(E) - r' chi(O).
+
+* Sei Z(E) = i rk(E) - deg(E). Das ist stets ein Element in der oberen
+  Halbebene. Es ist additiv in kurzen exakten Sequenzen.
+
+* Die Menge { Z(E') | E' <= E } ist daher nach links, oben und sowie nach
+  unten beschränkt. Über die Eckpunkte ihrer konvexen Hülle findet man die
+  Harder--Narasimhan-Filtrierung.
+
+
+=== Beispiele für stabile Garben
+
+* Sei E ein Geradenbündel auf einer projektiven Kurve (was brauche ich noch,
+  um den Grad definieren zu können?). Dann ist E stabil.
+
+  Denn sei E' --> E eine Untergarbe. Als Untergarbe einer torsionsfreien Garbe
+  ist E' selbst torsionsfrei und daher lokal frei. Damit ist E' entweder null
+  oder schon ganz E.

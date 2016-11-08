@@ -400,3 +400,7 @@ http://mathoverflow.net/questions/162097/computing-the-minimal-free-resolution-o
 * Unbedingt http://www.mfo.de/document/1320b/OWR_2013_25.pdf
   durcharbeiten: Mini-Workshop: Constructive Homological Algebra with
   Applications to Coherent Sheaves and Control Theory
+
+* https://arxiv.org/abs/0905.2212
+  Castelnuovo-Mumford Regularity and Computing the de Rham Cohomology of Smooth
+  Projective Varieties
