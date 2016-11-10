@@ -471,7 +471,6 @@ Axiomen von T. (Natürlich arbeitet man hier in Top^op, nicht in Top.)
   X-indizierte offene paarweise disjunkte Überdeckungen von Y gegeben.
 
 
-
 === Siten
 
 * Verstehen, wieso Sh(E) äquivalent zu E ist, wenn E ein Grothendiecktopos ist.

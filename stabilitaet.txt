@@ -26,3 +26,19 @@
   Denn sei E' --> E eine Untergarbe. Als Untergarbe einer torsionsfreien Garbe
   ist E' selbst torsionsfrei und daher lokal frei. Damit ist E' entweder null
   oder schon ganz E.
+
+
+=== Castelnuovo--Mumford-Regularität
+
+* Sei F m-regulär. Dann H^{>= 1}(F(>= m)) = 0.
+
+* Gelte H^{>= 1}(F(>= m)) = 0. Dann ist F (m+d)-regulär, wobei d = dim(X).
+
+* reg(F(a)) = reg(F) - a
+
+
+=== Literatur
+
+* Huybrecht/Lehn
+
+* http://www.northeastern.edu/iloseu/Tudor_S16.pdf

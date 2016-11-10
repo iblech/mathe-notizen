@@ -237,3 +237,13 @@ Haskell:
     let binom n m = if n >= m && m >= 0 then fac n `div` (fac m * fac (n-m)) else 0
 
 http://math.stanford.edu/~vakil/0708-216/216class37.pdf
+
+
+=== Verschwindungssätze
+
+* Sei F eine kohärente Garbe auf P^n über einem algebraisch abgeschlossenen
+  Körper. Genau dann besitzt F keine assoziierten abgeschlossenen Punkte,
+  wenn F(n) für hinreichend negatives n keine globalen Schnitte besitzt.
+  http://math.stackexchange.com/questions/667750/vanishing-of-global-sections-with-very-negative-twists
+
+

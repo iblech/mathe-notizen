@@ -233,6 +233,13 @@ Denn jeder Punkt enthält einen abgeschlossenen Punkt in seinem Abschluss.
 
   Mit Abbildungen X --> N cup {infty} funktioniert das natürlich auch!
 
+* Sei f : X --> N eine oberhalbstetige Abbildung auf einem kompakten Raum X.
+  Dann ist f nach oben beschränkt.
+
+  Wir finden nämlich, dank der Kompaktheit, endlich viele Paare (x, U) von
+  Punkten x aus X und offenen Umgebungen von x, sodass f <= f(x) auf U.
+  Folglich ist f beschränkt durch das Maximum dieser f(x)'e.
+
 
 === Lokale Räume
 

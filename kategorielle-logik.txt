@@ -516,6 +516,9 @@ Modell von Mengenlehre gibt, voraus. (Letzter Satz des Artikels)
 
 Siehe auch: http://www.math.mcgill.ca/barr/lambek/pdffiles/WorldMath.pdf
 
+Marc: Der initiale Topos sollte der Topos der Garben über dem Situs der Topoi
+sein. Stimmt das?
+
 
 === Kommutative Theorien
 
