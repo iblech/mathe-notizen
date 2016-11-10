@@ -488,24 +488,24 @@ Hinreichend dafür ist, dass für phi gilt:
 
 Lambek, Scott. Reflections on a categorical foundations of mathematics.
 
-Für einen Intuitionisten ist Platonismus wunderbar mit Formalismus vereinbar:
+Für eine Intuitionistin ist Platonismus wunderbar mit Formalismus vereinbar:
 durch Arbeit im initialen (Elementar-)Topos. Denn:
 
 * Eine Aussage besitzt genau dann einen intuitionistischen Beweis, wenn
   sie im initialen Topos gilt.
 
-* Der initiale Topos befriedigt Platonisten, denn als ein initiales Objekt
+* Der initiale Topos befriedigt Platonistinnen, denn als ein initiales Objekt
   ist er eindeutig (in einem 2-kategoriellen Sinn).
 
-* Er befriedigt Formalisten, da er rein syntaktisch/linguistisch konstruiert
+* Er befriedigt Formalistinnen, da er rein syntaktisch/linguistisch konstruiert
   werden kann.
 
 Außerdem:
 
-* Er befriedigt Logizisten, weil die interne Sprache des initialen Topos
+* Er befriedigt Logizistinnen, weil die interne Sprache des initialen Topos
   eine Form von Logik höherer Ordnung ist.
 
-* Er befriedigt Konstruktivisten, da der initiale Topos die
+* Er befriedigt Konstruktivistinnen, da der initiale Topos die
   Disjunktionseigenschaft und die Existenzeigenschaft hat.
 
 Dieser Standpunkt heißt wohl "constructive nominalism".
