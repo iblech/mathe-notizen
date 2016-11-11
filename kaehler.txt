@@ -64,9 +64,13 @@ b) ...I/I^2, wobei I = ker(B \otimes_A B --> B)  (zusammenmultiplizieren).
 
 === Tangentiale Vektorfelder
 
-Habe: (Omega^1)^vee = Hom_B(Omega^1, B) = Der_A(B, B).
+* Habe: (Omega^1)^vee = Hom_B(Omega^1, B) = Der_A(B, B).
 
-Beispiel: (Omega^1_X)^vee = Der_C(O_X, O_X).
+* Beispiel: (Omega^1_X)^vee = Der_C(O_X, O_X).
+
+* Gamma(X, T_X) = Hom_{unter X und über k}(X[eps], X) =   # nicht über X!
+      Hom_k(X[eps], X)_{vorgeschaltet mit der Inklusion X --> X[eps] ergibt sich id} =
+      { phi : O_X --> O_X[eps]/(eps^2) k-Algebrenhomo | mod eps ist phi die Identität }
 
 
 === Differentiale im glatten Kontext

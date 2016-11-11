@@ -134,6 +134,13 @@ Dabei wird Gleichheit dann nicht mehr trivial realisiert.
   Seite 36.
 
 
+=== Berechenbarkeit von Lösungen von Differentialgleichungen
+
+* Pour-el, Richards. A computable ordinary differential equation which
+  possesses no computable solution.
+  http://www.sciencedirect.com/science/article/pii/0003484379900214
+
+
 === Quellen
 
 * http://math.andrej.com/data/c2c.pdf

@@ -2043,6 +2043,17 @@ Sei R nicht unbedingt kommutativ.
 * A --> B surjektiv, dann dim(B) <= dim(A). Stimmt das? Ja, logo.
   Klar über Primidealketten oder über die konstruktive Definition.
 
+  Es gilt auch eine Art Umkehrung: Sei (A --> B_i)_i eine endliche Familie
+  aus surjektiven Ringhomos, die gemeinsam injektiv ist. (Es genügt schon, dass
+  Elemente aus dem gemeinsamen Kern nilpotent sind.) Dann ist dim A = sup_i dim B_i.
+
+  Die Endlichkeit ist wichtig: Sonst betrachte (Z --> Z/(p))_p.
+
+  Ich denke, habe aber nicht geprüft, dass es für den endlichen Fall ein
+  einfaches konstruktives Argument gibt. (Klassisch nutze aus, dass ein
+  Primideal, das einen endlichen Schnitt von Idealen umfasst, schon eines der
+  Ideale umfasst.)
+
 * Sei p ein minimales Primideal. Sei I_x = (x) + (sqrt(0):x).
   Dann ist I_x keine Teilmenge von p.
 

@@ -42,3 +42,13 @@
 * Huybrecht/Lehn
 
 * http://www.northeastern.edu/iloseu/Tudor_S16.pdf
+
+* http://www.phys.vt.edu/mp10/lect-notes/bayer/dc-lecture-notes.pdf
+  (von Maxim empfohlen für den grafischen Beweis der Existenz der
+  Harder--Narasimhan-Filtrierung)
+
+
+=== Nächste Schritte
+
+* Genau den Zusammenhang der beiden Serre-Sätze verstehen.
+  http://math.stanford.edu/~vakil/0708-216/216class30.pdf

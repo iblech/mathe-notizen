@@ -1001,6 +1001,49 @@ O_X gegeben sind, die auf offenen dichten Teilmengen definiert sind.
 * Falls X integer: j(phi) <==> negneg phi.
 
 
+=== Assoziierte Punkte
+
+* Sei E ein Modul. Dann können wir den modalen Operator Box mit
+
+      Box(phi) = (E ist (phi => __)-separiert)
+
+  definieren. Manchmal schneidet dieser Operator genau die Unterörtlichkeit der
+  assoziierten Punkte von E aus. Das stimmt zumindest im Fall E = O_X auf einem
+  Schema, welches eine offene Überdeckung durch affine Teilmengen mit
+  Eigenschaft (**) (jede offene schematheoretisch dichte Teilmenge umfasst eine
+  standardoffene schematheoretisch dichte Teilmenge) zulässt.
+
+* Ich bezeichne mal die von Box ausgeschnittene Unterörtlichkeit trotzdem als
+  Ass(E). Dann gilt:
+
+         Ass(E) cap V(J) = emptyset
+    <==> Ass(E) <= D(J)
+    <==> forall phi. (1 in J ==> phi) ==> Box(phi)
+    <==> Box(1 in J)
+    <==> forall x:E. (1 in J ==> x = 0) ==> x = 0
+    <AA> forall x:E. J <= sqrt(ann(x)) ==> x = 0
+    <BB> forall x:E. J <= ann(x) ==> x = 0
+    <CC> forall x:E. fx = 0 ==> x = 0
+
+  Zu <CC> ist zu sagen: Gilt, falls J = (f).
+
+  Zu <AA> ist zu sagen: "==>" gilt. "<==" gilt, falls E das interne
+  Quasikohärenzkriterium erfüllt.
+
+  Zu <BB> ist zu sagen: "==>" gilt, da ann(x) <= sqrt(ann(x)).
+  Für die Umkehrung muss J endlich erzeugt sein. Denn sei J = (f_1,...,f_n).
+  Ohne Einschränkung n >= 1. Dann zeigen wir mit Induktion über m:
+
+      forall a_1, ..., a_n mit sum a_i <= m:
+          forall x.
+              [forall i. f_i^{a_i} x = 0] ==> x = 0.
+
+  Der Induktionsschritt ist trivial. Im Induktionsschritt schreibe f_i^{a_i}
+  als f_i^{a_i - 1} f_i um (ohne Einschränkung alle a_i >= 1) und erhalte nach
+  Induktionsvoraussetzung, dass alle f_i x Null sind. Mit der Voraussetzung
+  folgt, dass x selbst Null ist.
+
+
 === Quasikohärenz
 
 * Kann ich Vakil p. 368, 13.3.H hard exercise intern lösen?
