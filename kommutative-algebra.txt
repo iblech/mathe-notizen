@@ -329,6 +329,9 @@ Eine Alternative ist "halmweise".
   Dann gibt es eine Matrix U mit a I = A U. Auf der Ebene der n-Minoren erhält
   man daher (a^n) <= (Lambda^n A) = Fitt_0(A).
 
+* Fitt_{k-1}(M) <= Ann(Lambda^k M) und Gleichheit nach Radikalbildung.
+  https://www.msri.org/~de/papers/pdfs/1977-003.pdf
+
 * Sei E ein O_X-Modul lokal von endlicher Präsentation.
 
   Dann gilt: rk_x(E) = rk E_x <= n für alle x aus D(Fitt_n(E)).

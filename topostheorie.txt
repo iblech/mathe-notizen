@@ -87,6 +87,12 @@
   ein Punkt aussieht.
 
 
+=== Scheibentopoi
+
+* Sei E eine Garbe auf X. Dann ist Sh(X)/E äquivalent zu Sh(Ét(E)).
+  http://mathoverflow.net/a/96270/31233
+
+
 === Lawvere--Tierney-Topologien
 
 * Joyal (Topos à l'IHÉS): Topologien in der Topostheorie sind wie Serresche
@@ -401,6 +407,25 @@ Der geometrische Morphismus ist
 * Im Übrigen ist E/X --> E eine geometrische Einbettung, falls X ein
   Subsingleton ist. In diesem Fall ist f_*(E --> X) = [X, E] (gewöhnliches
   inneres Hom). Die zugehörige Lawvere--Tierney-Topologie ist (X bewohnt ==> __).
+
+  Und E/X --> E ist auch nur dann eine Einbettung, falls X ein Subsingleton
+  ist: Prüfe das am besten mit dem Kriterium, dass die Koeins
+
+      X x [X, A]_{nur Schnitte} ---> A   (Morphismus in E/X)
+
+  für alle Objekte A aus E/X ein Iso ist. Speziell für A = (X x X --> X)
+  wird die nämlich zu
+
+      X x [X, X] ---> X x X, (x,f) |--> f(x)
+
+  und zeigt, wenn sie ein Iso ist, dass X ein Subsingleton ist: Seien x, x' : X.
+  Dann sind die Bilder von (x, id_X) und (x, konstant_x) gleich. Also id_X =
+  konstant_x. Einsetzen von x' zeigt: x' = x.
+
+  Übrigens sind die offenen Untertopoi von E genau diejenigen von der Form
+  E/X --> E mit E einem Subsingleton. Das ist mehr oder weniger unmittelbar
+  klar, denn ein offener Untertopos ist von der Form E_Box mit Box = (U ==> __),
+  wobei U ein Subsingleton ist. So ein Topos ist aber gleich E/U.
 
 * Im Fall, dass X ein Subsingleton ist, gilt:
 

@@ -2015,9 +2015,16 @@ PS: If you are into such things, here is the logical background:
   Im letzten Schritt geht ein, dass A^1 vermöge x eine R[...]-Algebra ist.
 
 * Genau dann gilt Zar(A) |== (AA --> A^1 ist eine Lokalisierung), wenn A der
-  Nullring ist.
+  Nullring ist. Statt "AA --> A^1 ist eine Lokalisierung" kann man auch sagen:
+  "O_{Spec A}~ --> A^1 ist bijektiv". Sei nun p ein Primideal in A. Dann
+  betrachte das A-Schema Spec k(p)[eps]/(eps^2). Der Morphismus ist dann
+  A_p --> k(p)[eps]/(eps^2). Dieser ist nur surjektiv, falls 1 = 0 in A.
 
   Trotzdem ist AA --> A^1 an manchen Punkten eine Lokalisierung! Etwas komisch.
+
+  (Es ist ja O_{Spec A} eine Lokalisierung von AA in Sh(Spec A). Da
+  Lokalisierung eine geometrische Konstruktion ist, ist auch der Rückzug von
+  O_{Spec A} auf Zar(A) eine Lokalisierung -- am zurückgezogenen Filter.)
 
 * Aus Sicht von Zar(A) gilt: Hom(E, Spec(A)) = [[ AA --> A^1 ist eine
   Lokalisierung in E ]], für alle Topoi E (wie gesagt, aus Sicht von Zar(A);

@@ -186,7 +186,10 @@ offenabgeschlossenen Teilmengen. Stichwort Stone-Dualität.
   * pi^{-1} E ist also das, was ich gelegentlich E~ genannt habe:
       (pi^{-1} E)(T --mu--> S) = Gamma(T, mu^{-1} E).
 
-  * pi^{-1} ist volltreu (Tag 00XU).
+  * pi^{-1} ist volltreu (Tag 00XU), d.h. pi ist zusammenhängend, d.h.
+    F --> (F~)|_Sh(S) ist ein Iso für alle F aus Sh(S).
+    (Somit ist, wegen einer der Dreicksidentitäten, auch
+    R eps : (E|_Sh)~|_Sh --> E|_Sh ein Iso.)
 
   * i^{-1} A^1 = O_S, pi^{-1} O_S = O_S^~.
 
