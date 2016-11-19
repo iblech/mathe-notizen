@@ -141,8 +141,9 @@ Kategorien    präs'bare Kat.        Topoi
 
 === Isomorphismen
 
-* Ein Rahmenhomo ist genau dann ein Iso, wenn er bijektiv ist
-  und die Ordnung reflektiert.
+* Ein Rahmenhomo ist genau dann ein Iso, wenn er surjektiv ist
+  und die Ordnung reflektiert. (Durch die Ordnungsreflektion ist er automatisch
+  auch injektiv.)
 
 
 === Topologischer Unterraum als Unterörtlichkeit
