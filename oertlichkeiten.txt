@@ -139,6 +139,12 @@ Kategorien    präs'bare Kat.        Topoi
   Sollte das eigentlich wissen.
 
 
+=== Isomorphismen
+
+* Ein Rahmenhomo ist genau dann ein Iso, wenn er bijektiv ist
+  und die Ordnung reflektiert.
+
+
 === Topologischer Unterraum als Unterörtlichkeit
 
 Sei Y \subseteq X ein Unterraum eines topologischen Raums.
