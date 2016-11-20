@@ -315,6 +315,9 @@ Eine Alternative ist "halmweise".
   Dabei ist rk(M) die Minimalzahl benötigter Erzeuger (in einer
   Vervollständigung der natürlichen Zahlen).
 
+* Es gilt auch (jetzt auf einem Schema oder lokal geringten Raum): Die Menge
+  V(Fitt_(b-1)) enthält genau die Punkte, wo M frei vom Rang b ist.
+
 * Fitt_0(M) <= Ann(M): Sei N ein quadratischer Ausschnitt aus der
   Präsentationsmatrix (alle Zeilen, aber vielleicht nicht alle Spalten
   umfassend) und det(N) der zugehörige Minor. Dann ist das Bild von
@@ -1963,6 +1966,9 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
       ker(R^m --> A) tensor B ---> B^m ---> A tensor B ---> 0.
 
   Das Element (b_i)_i geht dann auf Null und besitzt daher ein Urbild.
+
+* V^ tensor W^ --> (V tensor W)^ ist ein Iso, falls einer der beiden Moduln
+  endlich frei ist.
 
 
 === Nakayama

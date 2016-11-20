@@ -786,7 +786,7 @@ die Idealgarbe sein.
 
   Der Modul vorne heißt auch /Idealgarbe von f/.
 
-  Höchstwahrscheinlich gilt f^* f_* O_X ~~ O_X (kanonisch).
+  Höchstwahrscheinlich gilt f^* f_* O_X ~~ O_X (kanonisch). Jup, gilt.
   (Tensorieren mit Algebra, deren Strukturmorphismus surjektiv ist.)
 
   Es gilt: supp(f_* O_X) = V(I) = { y in Y | I_y != (1) in O_{Y,y} }.
@@ -796,6 +796,9 @@ die Idealgarbe sein.
   "==>": Angenommen, I_x = (1). Dann I|_x = k(x).
   "<==": I|_x --> k(x) faktorisiert über m_x|_x --> k(x), d.h. über die
   Nullabbildung.
+
+* Genau dann ist V(I) wieder ein Schema (statt nur ein lokal geringter Raum),
+  wenn I quasikohärent ist, wenn I lokal von Schnitten erzeugt wird.
 
 * Sei etwa Y = P^1, X = Spec k und f die Inklusion des abgeschlossenen Punkts
   P = (0:1). Dann ist die Sequenz
@@ -1482,6 +1485,16 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
 
 * http://math.jhu.edu/~banerjee/duality.pdf enthält einen schönen
   Überblick.
+
+
+=== Quasikohärenz
+
+* Genau dann ist ein Untermodulgarbe U quasikohärent, wenn sie lokal von Schnitten
+  erzeugt wird. Die Richtung "==>" ist klar (lokal sogar durch Schnitte
+  präsentiert). Die Richtung "<==" folgt, da der Kern einer lokalen Surjektion
+  O_X^(oplus M) --> U derselbe ist wie der der verlängerten Abbildung
+  O_X^(oplus M) --> E, somit selbst quasikohärent ist und daher von Schnitten
+  erzeugt wird.
 
 
 === Quasikohärente Moduln im Punktefunktoransatz

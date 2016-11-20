@@ -324,7 +324,7 @@ Garbe mit Hom(O(i), E[s]) = 0 für alle i = a,...,a+n und alle s. Dann ist E = 0
   linksinvers sein.
 
   Die Dualbasis zu O(-0),...,O(-n) ist also ((-1)^i chi(__ tensor Omega^i(i)))_i.
-  Die Dualbasis zu O(0),...,O(n)) ist ((-1)^(n-i) chi(__ tensor Omega^(n-i)(-i)))_i.
+  Die Dualbasis zu O(0),...,O(n) ist ((-1)^(n-i) chi(__ tensor Omega^(n-i)(-i)))_i.
 
 * Z[X]/(1-X)^(n+1) hat die Involution X |--> 1/X. Entsprechend gibt es
   einen analogen Isomorphismus mit [O(1)] statt [O(-1)].
@@ -350,6 +350,14 @@ Garbe mit Hom(O(i), E[s]) = 0 für alle i = a,...,a+n und alle s. Dann ist E = 0
   also ist das gesuchte Urbild sum_{i=0}^n d_i Y^i.
 
   Das habe ich aus http://math.uoregon.edu/~ddugger/kgeom.pdf.
+
+* Ein paar Beispiele:
+
+      1 - O(-1) = O_H = O_{P^(n-1)}
+
+      1 - O(-2) = 2 O_H - O_H^2   (O_H^2 = O_{P^(n-2)}, falls n >= 2; sonst Null)
+
+      1 - O(-3) = 3 O_H - 3 O_H^2 + O_H^3
 
 * Damit folgt auch folgende Beziehung:
 
