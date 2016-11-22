@@ -1795,6 +1795,10 @@ Chern-Klassen.
 * Auf MO empfohlen: http://www.math.univ-toulouse.fr/~btoen/m2.html
   Lesen!
 
+* https://www.math.ucdavis.edu/~osserman/classes/256A/notes/sep-prop.pdf
+  Wie man präzise Verbindungen zwischen Eigenschaften in algebraischer und
+  komplexer Geometrie schafft.
+
 
 === Nächste Schritte
 

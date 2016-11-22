@@ -19,6 +19,32 @@ auch nicht explizit angeben:
 Welcher Fall vorliegt, kann man aber nicht entscheiden.
 
 
+=== Ein Lemma über viele Aussagen
+
+Seien Aussagen phi_ij mit i = 1, ..., n und j = 1, ..., m_i gegeben;
+dabei n >= 1 und alle m_i >= 1.
+
+Gelte: forall j_1. ... forall j_n. exists i. phi_{i, j_i}.
+
+Dann: exists i. alle phi_{i, *} gelten.
+
+Beweis durch Induktion über n; Induktionsanfang n = 1 klar. Der
+Induktionsschritt n --> n + 1 geht so: Definiere Aussagen
+
+    psi_ij := (phi_ij  oder  alle phi_{n+1, *} gelten)
+        für i = 1, ..., n.
+
+Diese Aussagen erfüllen die Voraussetzung:
+
+    Seien j_1, ..., j_n beliebig. Nach Voraussetzung an die phi_ij
+    erhalte dann für jeden Index j_{n+1} = 1, ..., m_{n+1} einen Index i
+    mit phi_{i, j_i}. Falls dieser Index i immer n + 1 sein sollte, dann habe
+    psi_{1, j_1}. Falls er auch nur einmal <= n sein sollte, dann habe psi_{i, j_i}.
+
+Nach Induktionsvoraussetzung gibt es also ein i <= n sodass alle psi_{i, *}
+gelten. Bin damit fertig.
+
+
 === Epimorphismen in der Kategorie der Gruppen
 
 * https://golem.ph.utexas.edu/category/2015/08/wrangling_generators_for_subob.html#c049544

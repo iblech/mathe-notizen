@@ -1093,6 +1093,9 @@ homogenen Elementen von F.
 
   hinzufügen.
 
+* Infos zur konstruierbaren Topologie ("patch topology") und flachen Topologie:
+  https://arxiv.org/pdf/1503.04299v9.pdf
+
 * Ist Caramellos Bedingung für Zugehörigkeit eines Primideals
   zu AlmostMaxSpec(A) äquivalent zu meiner? Müsste ja so sein.
 

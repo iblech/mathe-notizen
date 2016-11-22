@@ -8,6 +8,12 @@
 * Siehe: http://golem.ph.utexas.edu/category/2008/01/geometric_representation_theor_19.html
 
 
+=== Orbitraum und Fixpunktmenge
+
+* Sei X eine G-Menge, also ein Funktor G --> Set. Dann ist sein Kolimes
+  der Orbitraum X/G. Und sein Limes die Fixpunktmenge X^G.
+
+
 === Lie-Gruppoide
 
 * Dabei sollen Objektmenge und Morphismenmenge glatte Mannigfaltigkeiten

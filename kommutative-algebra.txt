@@ -1067,7 +1067,8 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
 === Endlichkeitseigenschaften von Algebren
 
 * Sei eine R-Algebra S als R-Modul endlich erzeugt.
-  Dann ist S auch als R-Algebra endlich erzeugt. (Klar.
+  Dann ist S auch als R-Algebra endlich erzeugt. (Klar. Kann dieselben Erzeuger
+  nehmen.)
 
 * Sei eine R-Algebra S als R-Modul frei von endlichem Rang.
   Dann ist S auch als R-Algebra von endlicher Präsentation.
@@ -1080,6 +1081,20 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
 
   Dann R[X_1,...,X_n]/(X_i X_j - sum a^ij_k X_k, 1 - sum b_k X_k)
   kanonisch isomorph zu S.
+
+* Sei eine R-Algebra S als R-Algebra endlich erzeugt und
+  als R-Modul frei (aber nicht unbedingt endlich frei).
+  Existiere sogar ein ???
+  Dann ist S als R-Algebra von endlicher Präsentation.
+
+  Sei (x_l)_l eine R-Modul-Basis und (a_i)_i ein endliches Erzeugendensystem
+  als R-Algebra. Schreibe
+
+      a_i     = sum_l gamma^i_l x_l,
+      a_i a_j = sum_l lambda^ij_l x_l,
+      1       = sum_l mu_l x_l.
+
+  Dann ist R[A_i, X_l sodass x_l vorkommt]/(...) kanonisch isomorph zu S.
 
 
 === Endlichkeitseigenschaften von Körpern
