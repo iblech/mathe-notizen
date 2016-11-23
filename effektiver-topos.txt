@@ -141,6 +141,14 @@ Dabei wird Gleichheit dann nicht mehr trivial realisiert.
   http://www.sciencedirect.com/science/article/pii/0003484379900214
 
 
+=== 2-kategorielle Aspekte der Tripos-zur-Topos-Konstruktion
+
+* https://www.lama.univ-savoie.fr/~hyvernat/Realisabilite2009/Files/Jonas_Frey.pdf
+  https://arxiv.org/abs/1104.2776
+
+* https://arxiv.org/abs/1401.7867
+
+
 === Quellen
 
 * http://math.andrej.com/data/c2c.pdf

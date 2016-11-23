@@ -1060,6 +1060,11 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
 
 * Z x Z = Z[X,Y]/(XY, 1 - X - Y) = Z[T]/(T (1-T)).
 
+  Allgemeiner: A[X]/(f) x A[Y]/(g) =
+      A[X,Y,T]/(T(1-T), TX, (1-T)f, (1-T)Y, Tg).
+
+  Genauso für noch allgemeinere Produkte endlich präsentierter A-Algebren.
+
 * Tag 00F4: Sei A --> R --> S. Ist A --> S von endlicher Präsentation
   und ist A --> R von endlichem Typ, so ist R --> S von endlicher Präsentation.
 

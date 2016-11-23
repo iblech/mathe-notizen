@@ -1042,6 +1042,163 @@ Die Strukturgarbe ist dann der Grad-0-Teil der Lokalisierung von SS an den
 homogenen Elementen von F.
 
 
+=== Konstruierbare und flache Topologie
+
+* Die konstruierbare Topologie auf Spec(A) hat als Basis die
+  endlichen Schnitte quasikompakter offener Teilmengen und ihrer Komplemente,
+  äquivalent die endlichen Schnitte von D(f)'s und V(g)'s.
+
+  Eine Menge ist genau dann konstruierbar-abgeschlossen, wenn sie von der Form
+  im(Spec(B) --> Spec(A)) für eine A-Algebra B ist.
+
+  * V(f) = im für B = A/(f).
+  * D(f) = im für B = A[f^{-1}].
+  * bigcap_i im(Spec(B_i) --> Spec(A)) = im(Spec(bigtensor_i B_i) --> Spec A).
+  * im(Spec(B_1) --> Spec(A)) cup im(Spec(B_2) --> Spec(A)) = im(Spec(B_1 x B_2) --> Spec(A)).
+
+  Das dritte Faktum zeigt man so: Sei p ein Primideal von A. Dann:
+
+       p liegt nicht in im(Spec(bigtensor_i B_i) --> Spec A)
+  <==> (bigtensor_i B_i) tensor_A k(p) = 0
+  <==> (bigtensor_j B_j) tensor_A k(p) = 0 für eine endliche Indexmenge J <= I
+  <==> bigtensor_j (B_j tensor_A k(p)) = 0 (jetzt über k(p) tensoriert)
+  <==> B_j tensor_A k(p) = 0 für ein j
+  <==> p liegt nicht in im(Spec(B_j) --> Spec(A)) für ein j
+
+* Eine Menge ist genau dann in der flachen Topologie abgeschlossen, wenn sie
+  von der Form im für eine *flache* A-Algebra B ist. Eine Basis für die flache
+  Topologie besteht aus den endlichen Schnitten von V(g)'s.
+
+* Ziemlich sicher ist die lokal geringte Örtlichkeit Spec(A) mit der
+  konstruierbaren Topologie (und der Lokalisierung von AA am generischen Filter
+  als Strukturgarbe) die universelle Art und Weise, A derart zu lokalisieren,
+  dass das Ergebnis ein lokaler Ring ist, in dem Invertierbarkeit entscheidbar
+  ist.
+
+  Man kann Spec(A) aber auch mit der Strukturgarbe AA/p, wobei p das Komplement
+  des generischen Filters ist, ausstatten. Dann ist es die universelle
+  Möglichkeit, A zu einem starken Integritätsbereich zu machen, in folgendem
+  Sinn: Zu jedem starken Integritätsbereich R über A (in jedem Topos) gibt es
+  genau einen Monomorphismus AA/p --> R, sodass das Diagramm
+
+      A ----------> R
+       \         ^
+        \       /
+         > AA/p
+
+  kommutiert.
+
+  Man kann sogar Spec(A) (mit der konstruierbaren Topologie) noch mit der
+  Strukturgarbe Quot(AA/p) ausstatten. Das ist ein geometrischer Körper. Und
+  zwar der universelle geometrische Körper über A.
+
+  Eine Frage ist natürlich, welche externen Beschreibungen der universelle
+  Filter und Co. zulassen.
+
+* Die Örtlichkeit zur konstruierbaren Topologie ist durch folgende
+  propositionale geometrische Theorie gegeben:
+
+  1. Die Axiome für D.
+  2. Die Axiome für V.
+  3. Die Forderung, dass D und V komplementär sein sollen:
+     top |- D(f) vee V(f)  und  D(f) wedge V(f) |- bot.
+
+  Man kann entweder die Axiomengruppe 1 oder die Axiomengruppe 2 weglassen.
+
+  Jede Formel kann man auf die Form
+
+      bigvee_i (D(f_i) wedge V(g_i1) wedge ... wedge V(g_{i,m_i}))
+
+  bringen.
+
+  Coquand und Lombardi sagen ebenfalls, dass das stimmt (in
+  http://www.mittag-leffler.se/sites/default/files/IML-0001-30.pdf), geben aber
+  keinen Beweis an.
+
+  Es ist klar, dass der Rahmen der konstruierbaren Topologie diese Axiome
+  erfüllt. Um die Umkehrung zu beweisen, macht man sich klar:
+
+  * Es genügt, den Fall "D(f) wedge V(...) wedge ... V(...) |- bigvee_j ..."
+    zu untersuchen. Die Disjunktion vorne kann man sich sparen.
+
+  * Ferner genügt es, den Fall "top |- bigvee_j ..." zu untersuchen.
+    (Sowohl mit den wirklichen offenen Mengen als auch mit den Formeln kann man
+    D(f) und V(f) von der linken auf die rechte Seite bringen.)
+
+  * Gelte eine solche Aussage also topologisch. Dann stimmt sie auch schon
+    mit einer gewissen endlichen Teilüberdeckung. Ihr Komplement ist leer.
+    Also weiß man:
+
+        Für alle b_1 = 0, ..., m_1; ...; b_n = 0, ..., m_n gilt:
+        Der Schnitt von i = 1, ..., n über folgende Dinge ist leer:
+
+            V(f_i),       falls b_i = 0;
+            D(g_{i,b_i}), falls b_i > 0.
+
+    Das kann man auch wieder komplementär formulieren. Und zwar so, dass nur noch
+    D(f)'s vorkommen, keine V(f)'s. Man erhält also, dass folgende Formel
+    ableitbar ist:
+
+        Konjunktion über b_1 = 0, ..., m_1; ...; b_n = 0, ..., m_n:
+        Disjunktion von i = 1, ..., n über folgende Formeln:
+
+            D(f_i),       falls b_i = 0;
+            V(g_{i,b_i}), falls b_i > 0.
+
+    Mit einem Lemma aus der Kombinatorik folgt, dass auch folgende Formel
+    ableitbar ist:
+
+        Disjunktion von i = 1, ..., n über folgende Formeln:
+        D(f_i) wedge V(g_i1) wedge ... V(g_{i,m_i}).
+
+    Insbesondere ist die unendliche Disjunktion ableitbar.
+
+* Die flache Topologie erhält man, wenn man nur die Axiomengruppe 2
+  verwendet (also nur die Axiome für ein Primideal kodiert).
+
+  Gelte V(a) <= bigcup_i V(b_i)  (endlich erzeugte Ideale).
+  Es genügen endlich viele Indizes. Es folgt:
+
+      bigcup_{k_1} ... bigcup_{k_n} bigcap_i D(b_{i,k_i}) <= D(A),
+          wobei b_i = (b_{i,k})_k.
+
+  Also kann man für alle k_1, ..., k_n ableiten:
+
+      V(a) |- bigwedge_{k_1} ... bigwedge_{k_n} bigvee_i V(b_{i,k_i}).
+
+  Mit dem Lemma aus der Kombinatorik folgt
+
+      V(a) |- bigvee_i bigwedge_k V(b_{j,k}),
+
+  also V(a) |- bigvee_i V(b_i).
+
+  Geht auch direkter, weil V(a) <= bigcup_i V(b_i) (endliche Vereinigung) zu
+  prod_i b_i <= sqrt(a) äquivalent ist.
+
+* Was passiert, wenn man noch das Axiom
+
+        top |- V(x) vee bigvee_y V(xy-1)
+
+  dazunimmt?
+
+* D(x) cap V(y_1) cap ... cap V(y_n) <=
+    bigcap_j (bigvee_i D(a_ji) cup V(b_j))  genau dann, wenn
+      für alle j: x b_j in sqrt((y_k)_k + (a_ji)_i).
+
+* Krass: Die Theorie mit D+V+Komplement ist konservativ über der Theorie mit D.
+  In folgendem Sinn: Eine Sequenz der Theorie mit D lässt sich genau dann in
+  dieser Theorie ableiten, wenn sie sich in der stärkeren
+  D+V+Komplement-Theorie ableiten lässt. Zumindest weiß ich das in klassischer
+  Logik.
+
+* Es ist übrigens Sh(Spec(A) mit konstruierbarer Topologie) wohl boolsch.
+  Zumindest ist D(f) nur dann dicht, wenn D(f) schon ganz Spec(A) ist.
+  Genauso mit V(f). (Das genügt natürlich noch nicht.)
+
+  Update: Glaube das nicht. Insbesondere nicht in einer konstruktiven
+  Metatheorie.
+
+
 === Nächste Schritte
 
 * Produziere explizites Gegenbeispiel für vermutlich falsche Behauptung,
@@ -1055,46 +1212,6 @@ homogenen Elementen von F.
 
 * Naive Definition der Strukturgarbe, welche ja falsch ist, durch ein
   explizites Beispiel ein für alle Mal erledigen.
-
-* Was passiert, wenn man zusätzlich zu den D(x) noch V(x) als offene
-  Erzeuger dazu nimmt? (Und die Primidealaxiome fordert.) Vielleicht sogar mit
-  dem Axiom
-
-        top |- V(x) vee bigvee_y V(xy-1)?
-
-  Erhält man dann die konstruierbare Topologie? (Auf Spec(A) oder MaxSpec(A).)
-  Zumindest erfüllt die konstruierbare Topologie diese Relationen ebenfalls.
-  Und jede Formel ist äquivalent zu einer der Form
-
-      bigvee_i (D(x_i) wedge bigwedge_{j=1}^{n_i} V(y_ij)).
-
-  Und FAST auch zu einer der Form
-
-      bigwedge_{j=1}^n (bigvee_i D(x_ji) vee V(y_j)).
-
-  FAST, da für Abgeschlossenheit dieser Formeln unter bigvee unendliche Stränge
-  von bigwedge's erlaubt sein müssten.
-
-  * D(x) cap V(y_1) cap ... cap V(y_n) <=
-      bigcap_j (bigvee_i D(a_ji) cup V(b_j))  genau dann, wenn
-        für alle j: x b_j in sqrt((y_k)_k + (a_ji)_i).
-
-  Es ist übrigens Sh(Spec(A) mit konstruierbarer Topologie) wohl boolsch.
-  Zumindest ist D(f) nur dann dicht, wenn D(f) schon ganz Spec(A) ist.
-  Genauso mit V(f). (Das genügt natürlich noch nicht.)
-
-  Coquand und Lombardi schreiben in
-  http://www.mittag-leffler.se/sites/default/files/IML-0001-30.pdf:
-  Um die konstruierbare Topologie zu bekommen, muss man nur Prädikate V(a) mit
-  den Axiomen
-
-      top |- D(a) v V(a)
-      D(a) wedge V(a) |- bot
-
-  hinzufügen.
-
-* Infos zur konstruierbaren Topologie ("patch topology") und flachen Topologie:
-  https://arxiv.org/pdf/1503.04299v9.pdf
 
 * Ist Caramellos Bedingung für Zugehörigkeit eines Primideals
   zu AlmostMaxSpec(A) äquivalent zu meiner? Müsste ja so sein.

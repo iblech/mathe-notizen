@@ -1576,12 +1576,14 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
   Die Richtung "==>" ist klar.
 
   Die Richtung "<==" zeigt die Quasikohärenzbedingung aber nur für Ringwechsel
-  R --> S, für die R und S endlich präsentiert sind! Genügt das?!
+  R --> S, für die R endlich präsentiert ist und R --> S endlich präsentiert
+  ist! Genügt das?! Jo, chill. Statt Sch/S nimmt man ja sowieso nur { Spec(R)
+  --> S lveP }. Dann ist noch Tag 00F4 wichtig:
 
-  (Tag 00F4: Sei A --> R --> S. Sind R und S jeweils über A endlich
-  präsentiert, so ist S auch über R endlich präsentiert. [Dazu muss R glaub ich
-  nur endlich erzeugt über A sein.] Umgekehrt ist S über A endlich präsentiert,
-  wenn S über R und R über A endlich präsentiert sind.)
+  Sei A --> R --> S. Sind R und S jeweils über A endlich präsentiert, so ist S
+  auch über R endlich präsentiert. [Dazu muss R glaub ich nur endlich erzeugt
+  über A sein.] Umgekehrt ist S über A endlich präsentiert, wenn S über R und R
+  über A endlich präsentiert sind.
 
 * Sei E eine A^1-Modulgarbe. Dann ist E[X], berechnet in PZar, auch wieder
   eine Garbe. Leider ist es E/fE vermutlich im Allgemeinen nicht. Sonst könnte

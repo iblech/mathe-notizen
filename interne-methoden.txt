@@ -1447,7 +1447,7 @@ Beispiel:
   Modulgarbe in einer kurzen exakten Sequenz, in denen die anderen beiden
   Modulgarben quasikohärent sind, quasikohärent ist.
 
-* Untermodulgarben von quasikohärenten Modulgarben, welche von endlichen Typ
+* Untermodulgarben von quasikohärenten Modulgarben, welche von endlichem Typ
   sind, sind quasikohärent. Denn der zugehörige Quotient ist es (einfach
   weitere Relationen).
 
