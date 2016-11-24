@@ -81,6 +81,14 @@ http://www.math.ru.nl/~jcommelin/files/schintro.pdf
   Lokalisierung ist. (Nimm nämlich X = Spec B und x der eindeutige
   abgeschlossene Punkt, dann O_{X,x} = B_m = B.)
 
+* Sei A ein lokaler Ring. Dann ist die Dimension von Spec(A) \ { m } strikt
+  kleiner als die von Spec(A). (Dabei ist Spec(A) \ { m } nicht
+  notwendigerweise affin.) Klar, da der Endpunkt einer jeden maximalen Kette
+  von Primidealen entfernt wurde!
+
+  Ist nützlich für induktive Argumente über die Dimension.
+  http://mathoverflow.net/questions/92275/punctured-spectrums-of-local-rings
+
 
 === Dominanz
 

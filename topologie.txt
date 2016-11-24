@@ -333,6 +333,18 @@ this property.
 https://qchu.wordpress.com/2013/06/23/operations-pro-objects-and-grothendiecks-galois-theory/
 
 
+=== Fundamentalgruppe von SO_3
+
+Mit dem Gürteltrick sieht man: Die Fundamentalgruppe der SO_3 enthält ein
+Element -- nämlich den offensichtlichen Weg, der die Drehung um 0 Grad über die
+Drehung um 180 Grad bis weiter zur Drehung um 360 Grad verbindet, -- dessen
+Doppeltes Null ist.
+
+Dabei wird der Weg durch die Verdrehung des Gürtels an jeder Stelle gegeben.
+Die beiden Gürtelenden müssen unverdreht sein, denn es geht um Schleifen beim
+Identitätselement.
+
+
 === Literatur
 
 * http://www.maths.ed.ac.uk/~tl/topology/topology_notes.pdf

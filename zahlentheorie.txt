@@ -38,16 +38,19 @@ http://terrytao.wordpress.com/2014/07/07/the-subspace-theorem-approach-to-siegel
 
 === Unendlichkeit der Primzahlen
 
-Die Zahlen n und n + 1 sind teilerfremd, also muss die Zahl n(n+1) mindestens
-zwei verschiedene Primfaktoren enthalten.
+* Die Zahlen n und n + 1 sind teilerfremd, also muss die Zahl n(n+1) mindestens
+  zwei verschiedene Primfaktoren enthalten.
 
-Auch sind die Zahlen n(n+1) und n(n+1) + 1 teilerfremd, also enthält die Zahl
-n(n+1)(n(n+1)+1) mindestens drei verschiedene Primfaktoren.
+  Auch sind die Zahlen n(n+1) und n(n+1) + 1 teilerfremd, also enthält die Zahl
+  n(n+1)(n(n+1)+1) mindestens drei verschiedene Primfaktoren.
 
-Und so weiter.
+  Und so weiter.
 
-http://fermatslibrary.com/s/a-new-proof-of-euclids-theorem
-https://news.ycombinator.com/item?id=10888893
+  http://fermatslibrary.com/s/a-new-proof-of-euclids-theorem
+  https://news.ycombinator.com/item?id=10888893
+
+* Fürstenbergs Beweis ist nicht wirklich topologisch:
+  http://www.idmercer.com/monthly355-356-mercer.pdf
 
 
 === Endlichkeit der Fermatschen Primzahlen

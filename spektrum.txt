@@ -1093,7 +1093,12 @@ homogenen Elementen von F.
   zwar der universelle geometrische Körper über A.
 
   Eine Frage ist natürlich, welche externen Beschreibungen der universelle
-  Filter und Co. zulassen.
+  Filter und Co. zulassen. Erste Schritte in diese Richtung:
+
+  * D(f) |== s in F  <==>  f in sqrt((s)).
+  * D(f) |== s in p  <==>  s in sqrt(0):f  <==>  fs nilpotent.
+  * V(f) |== s in F  <==>  (s,f) = (1).
+  * V(f) |== s in p  <==>  s in sqrt((f)).
 
 * Die Örtlichkeit zur konstruierbaren Topologie ist durch folgende
   propositionale geometrische Theorie gegeben:
