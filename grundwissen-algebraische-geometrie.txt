@@ -1044,6 +1044,22 @@ Die Normalgarbe ist der ihr O_Y-Duales.
   X x_Y Spec O_{Y,y} --> Spec O_{Y,y} flach bei x' ist,
   wobei x' Urbild von x unter X x_Y Spec O_{Y,y} --> X ist.
 
+* Sei f : X --> S ein Morphismus von lokal geringten Räumen.
+  Sei F eine Garbe auf X, welche über S flach ist (also flach als
+  f^{-1}(O_S)-Modul ist). (Es genügt schon, dass F_x flach über O_{S,f(x)}
+  ist.) Sei x in X. Dann gilt:
+
+      F_x ist frei  <===>  (F|_s)_x ist frei.
+
+  Dabei ist F|_s der Rückzug von F längs X_s --> X.
+  Und X_s ist die Faser von X über Spec k(s).
+
+  "==>": Klar, sogar ohne Endlichkeitsvoraussetzungen, denn
+  (F|_s)_x = F_x tensor_{O_{X,x}} O_{X_s,x}.
+
+  "<==": Braucht Endlichkeitsvoraussetzungen. Motto: "In horizontaler Richtung
+  flach und in vertikaler Richtung frei bedeutet, insgesamt frei zu sein."
+
 
 === Oberhalbstetigkeit der Faserdimension
 

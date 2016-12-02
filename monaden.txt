@@ -13,6 +13,28 @@ Then monoids are special cases of monads, though this isn't terribly
 interesting.
 
 
+=== Monaden in der 2-Kategorie Rel
+
+https://bosker.wordpress.com/2006/06/14/fun-with-rel/
+
+* Adjunktionen in Rel sind dasselbe wie Abbildungen.
+  Monaden sind Quasiordnungen. Komonaden sind Teilmengen.
+
+* Die von einer Abbildung f : X --> Y induzierte Monade auf X
+  ist die Äquivalenzrelation für den Differenzkern.
+
+  Die induzierte Komonade ist ihr Bild.
+
+* Nicht jede Monade in Rel kommt von einer Adjunktion.
+  Denn die von Adjunktionen induzierten Monaden sind stets symmetrisch
+  (Äquivalenzrelationen). Das ist ein Unterschied zur 2-Kategorie Cat.
+
+* Das Eilenberg--Moore-Objekt einer Äquivalenzrelation ist die Menge
+  ihrer Äquivalenzklassen.
+
+  Das Ko-Eilenberg--Moore-Objekt einer Teilmenge ist die Teilmenge.
+
+
 === Algebren über Monaden
 
 Ein Monoid M in einer monoidalen Kategorie C kann nicht nur auf Objekte dieser
@@ -160,6 +182,11 @@ eine Äquivalenz ist. In diesem Fall heißt D auch monadisch über C.
 * Ist E ein Topos, so ist der Vergissfunktor E/X --> E komonadisch mit
   dem Rückzugsfunktor als Rechtsadjungiertem. Die Kategorie der Koalgebren des
   Rückzugsfunktors (aufgefasst als Funktor E --> E) ist E/X.
+
+* Die Kategorie der kompakten Hausdorffräume ist monadisch über Set
+  (in klassischer Logik mit Auswahlaxiom). Die Monade ist die
+  Ultrafiltermonade.
+  https://topologicalmusings.wordpress.com/2008/07/18/ultrafilter-convergence-compactness-and-the-spectrum-of-a-boolean-algebra/
 
 
 === Lifting von Adjunktionen

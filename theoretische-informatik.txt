@@ -335,3 +335,54 @@ Turinggrade messen, wie schwer genau unschaffbar schwere Probleme sind.
 
 * Jede abzählbare Partialordnung lässt sich in Ordnung der Turinggrade
   einbetten.
+
+
+=== Monotone Setzungen (Idee von Marc)
+
+* Wie stark ist konstruktive Logik, wenn wir sie um den epsilon-Operator
+  ergänzen? Wenn wir ihn auch bei Funktionsdefinitionen erlauben, kann
+  man offensichtlich das Auswahlaxiom folgern.
+
+* Kann man mit monotonen Setzungen schon einen sinnvollen Term
+
+        lem :: Either a (a -> r)
+
+  angeben? (Vermutung: Nein.)
+
+Tim: Marc, Matthias und ich haben vorhin über eine mögliche
+Spracherweiterung von Haskell diskutiert: Monotone Setzungen. Anders als
+bei vollen veränderlichen Variablen soll dabei jede Variable nur
+höchstens einmal gesetzt werden können.
+
+Ein möglicher Primitivoperator zum Umgang damit könnte zum Beispiel wie
+
+    set var val
+
+aussehen. Sofern die Variable noch nicht gesetzt war, wird ihr Wert auf
+val festgesetzt. In jedem Fall wird der (möglicherweise erstmal
+gesetzte) Wert der Variablen zurückgegeben.
+
+Mit monotonen Setzungen sollte man eine "zufällige Funktion"
+
+    random :: Nat -> Float
+
+implementieren können. Bei der ersten Auswertung von random n wird
+(irgendwie) eine Zufallszahl bestimmt. Weitere Auswertungen von random n
+sollen dieselbe Zufallszahl zurückliefern.
+
+Erlaubt man monotone Setzungen, so ist die Addition nicht mehr
+kommutativ: Denn
+
+    set var 0 + set var 1
+
+wird zu 0 + 0 = 0 evaluieren, während
+
+    set var 1 + set var 0
+
+zu 1 + 1 = 2 evaluieren wird. Allerdings lässt sich das intern nicht
+feststellen! Der Bool
+
+    set var 0 + set var 1 == set var 1 + set var 0
+
+ist True (unabhängig davon, in welcher Reihenfolge die vier Setzungen
+ausgewertet werden).

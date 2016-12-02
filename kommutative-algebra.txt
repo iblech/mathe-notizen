@@ -364,6 +364,15 @@ Eine Alternative ist "halmweise".
 
   Vielleicht habe ich die Behauptung auch missverstanden.
 
+* Sei A^m --> A^n --> M --> 0 exakt. Dann ist M genau dann frei vom Rang n,
+  wenn im(A^m --> A^n) = 0. Die Rückrichtung ist klar. Die Hinrichtung folgt,
+  weil dann A^n --> M durch eine quadratische surjektive Matrix darstellbar
+  ist. Solche sind schon bijektiv (denke an die Determinante).
+
+  Sei n minimal mit der Eigenschaft, dass es eine kurze exakte Sequenz
+  A^m --> A^n --> M --> 0 gibt. Dann ist M genau dann endlich frei, wenn
+  im(A^m --> A^n) = 0.
+
 Werbung für Fitting-Ideale macht unter anderem:
 http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 

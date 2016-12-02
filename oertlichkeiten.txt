@@ -399,6 +399,9 @@ angeben:
       forall K <= X mit K Subsingleton und Zugehörigkeit ist Box-stabil.
           Box(K bewohnt) ==> K bewohnt.
 
+* Habe das alles selbst gefunden, aber Quellen stehen in
+  https://www.cs.bham.ac.uk/~mhe/papers/hmj.pdf.
+
 
 === Vereinigung von Örtlichkeiten
 
@@ -410,6 +413,30 @@ Geht einfach durch den naiven Schnitt der zugehörigen Kerne, also
   ist
 
       b(alpha) := exists i. b_i(alpha).
+
+* Sei U ein Offenes in einer Örtlichkeit X.
+
+  Dann ist die induzierte offene Unterörtlichkeit durch den Kern
+
+      j(V) := (U --> V)
+
+  und die induzierte abgeschlossene Unterörtlichkeit (anschaulich das
+  Komplement von U) definiert durch den Kern
+
+      k(V) := U vee V.
+
+  Der Vereinigung dieser beiden Unterörtlichkeit ist durch das punktweise
+  Infimum der beiden Kerne gegeben:
+
+      h(V) := j(V) wedge k(V) = (U --> V) wedge (U vee V).
+
+  Man beobachtet: h(V) = V. Die Unterörtlichkeit zu diesem Kern ist ganz X.
+  Also hat die Vereinigung von Unterörtlichkeiten die schöne Eigenschaft, dass
+
+      X = U cup U^c,
+
+  obwohl diese Gleichung natürlich nicht für die Punkte von topologischen
+  Räumen gilt.
 
 
 === Kerne vs. Fixmengen

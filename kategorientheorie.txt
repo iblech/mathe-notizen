@@ -132,10 +132,23 @@ https://ncatlab.org/nlab/show/flat+functor
 
 === Angereicherte Kategorien
 
-* Kategorien, die gut zum anreichern drüber sind, sind oft nicht gut,
+* Kategorien, die gut zum Anreichern drüber sind, sind oft nicht gut,
   um Monoid-Objekte in ihr zu betrachten, und umgekehrt.
 
   Hat Georg oder Yuri auf Topos à l'IHES gesagt.
+
+
+=== Banachräume l^1 und l^infty
+
+* l^infty(X) ist das Produkt von X vielen Kopien von R in der Kategorie
+  der Banachräume und "short maps".
+
+* l^1(X) ist das entsprechende Koprodukt.
+
+* Das erklärt sofort, wieso l^1(X)^ = l^infty(X) und wieso l^infty(X)^
+  so kompliziert ist.
+
+http://mathoverflow.net/a/255403/31233
 
 
 === Was macht die Yoneda-Einbettung, wenn keine Limiten existieren?
@@ -377,6 +390,7 @@ Kategorien, die zu diskreten Kategorien äquivalent sind, und
 * Wenn die Yoneda-Einbettung Y einer Kategorie in eine Adjunktionskette
   U -| V -| W -| X -| Y passt, dann ist die Kategorie äquivalent zu Set.
   http://www.personal.psu.edu/t20/fom/postings/9802/msg00144.html
+  http://mathoverflow.net/a/107090/31233
 
 
 === Rechenregel adjungierte Funktoren
@@ -1432,6 +1446,11 @@ Natürlich ist hier die Schreibrichtung ganz entscheidend!
   multiplication and addition (cartesian product and coproduct) of objects is
   shown to be very close to that of natural numbers. Examples of such
   categories abound, e.g. in algebraic geometry.
+
+
+=== Trinitarismus
+
+* http://www.hedonisticlearning.com/posts/category-theory-syntactically.html
 
 
 === Nächste Schritte
