@@ -1,3 +1,17 @@
 === Gleichmäßigkeit
 
 * https://www.jstor.org/stable/2589492
+
+* http://paultaylor.eu/ASD/lamcra/lamcra.pdf, Remark 10.8, Seite 50:
+  Ein schnelles Argument, um zu zeigen, dass stetige Abbildungen K --> Y (wobei K
+  eine kompakte Teilmenge eines metrischen Raums X und Y ein beliebiger
+  metrischer Raum ist) schon gleichmäßig stetig sind, geht so.
+
+  Sei epsilon > 0. Wir betrachten die offene Menge
+
+      U := { (x,y) | d(f(x), f(y)) < eps } <= K x K.
+
+  Diese Menge ist eine Umgebung der Diagonale. Jeder Punkt der Diagonale liegt
+  in einem Ball, der noch ganz in U enthalten ist. Da die Diagonale kompakt
+  ist, genügen endlich viele dieser Bälle. Ihr minimaler Radius ist das
+  gesuchte delta.

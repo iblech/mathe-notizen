@@ -2065,6 +2065,22 @@ B Sei X S-Schema. Dann könnte man denken, dass [X, A^1] = (mu_* O_X)^~.
   PBCT sagt: eps^* mu_* O_X = (pi_T)_* O_{X x T}, falls mu eigentlich ist und
   weitere Bedingungen erfüllt sind.
 
+* Man könnte denken: X --> S ist genau dann abgeschlossen, wenn Zar(S)/X -->
+  Zar(S) ein abgeschlossener geometrischer Morphismus ist. Das stimmt aber
+  nicht. Denn das ist genau dann der Fall, wenn aus Zar(S)-Sicht gilt:
+
+      forall M <= X. forall phi.
+          X <= M cup { x:X | phi }  ===>  (X <= M) vee phi.
+
+  Es sollte ja X = V(f) abgeschlossen sein. Aber setzt man M := {}
+  und phi := (f = 0), so erhält man, dass f invertierbar oder Null ist.
+
+* Penon definiert ja: Eine Teilmenge U <= X heißt genau dann offen,
+  wenn für alle x aus U und alle y aus X gilt: x != y oder y in U.
+  Auf dem nLab steht, dass das nur für Hausdorffräume Sinn ergibt.
+  Ist aber jedenfalls falsch für X = 1, denn nach Penons Definition ist jede
+  Teilmenge offen.
+
 * Was hat die interne Konstruktion des relativen Spektrums mit Isbell-Dualität
   zu tun?
 

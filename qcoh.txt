@@ -20,6 +20,39 @@ this with a more usual definition. The same definition works for the
 learned this from Toen's survey on Higher and Derived Stacks)."
 
 
+=== Moduln als abelsche Gruppenobjekte
+
+* Die Kategorie der A-Moduln ist äquivalent zur Kategorie der
+  abelschen Gruppenobjekte in der Scheibenkategorie Ring/A.
+
+  Ein Modul M wird auf "A oplus epsilon M", das ist Sym(M)/Sym^{>=2}(M),
+  geschickt. Ich schreibe das kurz als "A[epsM]".
+
+* A[epsM] ist eine A-Algebra und kommt aber auch mit einem kanonischen
+  A-wertigen Punkt (gegeben durch f |--> f(0)). Die Faser von
+  Omega^1_{A[epsM]|A} an diesem Punkt ist M:
+
+      Omega^1_{A[epsM]|A} tensor_{A[epsM]} A ---> M
+      d(f) tensor a |---> a f'(0)
+
+  Für Sym(M) stimmt das gleiche.
+
+* Aus dem Ring Sym(M), zusammen mit seinen Ringhomos von und nach A,
+  kann man M rekonstruieren: Denn
+
+      M ---> (Urbild des Nullideals unter ev_0) / (Urbild des Nullideals unter ev_0)^2
+
+  ist ein Iso. Mit A[epsM] geht das auch.
+
+* Der Ringhomo ev_0 : Sym(M) --> A ist mit seiner Eigenschaft, linksinvers
+  zum Strukturmorphismus A --> Sym(M) zu sein, noch nicht eindeutig bestimmt.
+  (Es gibt ja noch die Auswertungen an weiteren Punkten.)
+
+  Für A[epsM] statt Sym(M) stimmt es aber, zumindest, wenn A reduziert ist.
+  Denn A-Algebrenhomos A[epsM] --> A sind gegeben durch Linearformen phi : M --> A
+  mit im(phi)^2 = 0. Im reduzierten Fall folgt also schon im(phi) = 0.
+
+
 === Unsortiert
 
 Gute Literatur: Appendix B: Modules vs. Quasi-coherent modules (in particular
