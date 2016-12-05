@@ -102,6 +102,30 @@
   http://arxiv.org/abs/1107.6032 (Beispiel 3.13).
 
 
+=== Punkte
+
+* Die Punkte von PSh(C), wobei C eine kleine Kategorie ist, sind genau
+  die flachen Funktoren C --> Set. Der Pullbackteil des zu einem solchen
+  flachen Funktor F gehörenden geometrischen Morphismus ist
+
+      PSh(C) --> Set,  E |--> E tensor_C F.
+
+  Im Fall, dass C endlich vollständig ist, ist ein Funktor C --> Set genau dann
+  flach, wenn er endliche Limiten bewahrt.
+
+  Allgemeiner sind die E-wertigen Punkte von PSh(C) genau die intern-flachen
+  Funktoren C --> E.
+
+* Jedes Objekt X von C führt also zum Punkt "Auswertung bei X" von PSh(C),
+  wenn man F := Hom(X, __) nimmt. (Es gilt E tensor_C Hom(X, __) = E(X).)
+  Zumindest, wenn C endlich vollständig ist.
+
+  Solche Punkte sind sogar wesentlich.
+
+  Die wesentlichen Punkte von PSh(C) sind genau die winzigen Objekte von
+  PSh(C), also die Retrakte von darstellbaren Funktoren.
+
+
 === Lokale Topoi
 
 * Ein Topos E --> Set ist genau dann lokal (über Set), wenn gamma_* (globale

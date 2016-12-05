@@ -776,6 +776,14 @@ extern der Menge der offenen Teilmengen von X:
 
   Was bedeutet das kategoriell?
 
+* Sei O_X --> A eine lokale O_X-Algebra, die lokal über O_X ist.
+
+  Dann ist Spec(A|O_X) lokal. Nutze, dass aus 1 in Coh(a) schon folgt, dass 1
+  in a.
+
+* Sei umgekehrt Spec(A|O_X) lokal. Dann ist 1 != 0 in A. Außerdem ist
+  O_X --> A lokal. Und ist A selbst lokal?
+
 
 === Interne Charakterisierung des modalen Operators fürs pseudokohärente Spektrum
 
@@ -896,7 +904,7 @@ The spectrum of prime ideals in tensor triangulated categories.
 http://arxiv.org/pdf/math/0409360v2.pdf
 
 
-=== Sichtpunkt von klassifizierendenden Topoi
+=== Sichtpunkt von klassifizierenden Topoi
 
 * Die Angabe eines Filters in A ist gleichbedeutend zur Angabe
   einer Lokalisierung von A bis auf Isomorphie.

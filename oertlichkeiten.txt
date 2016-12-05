@@ -139,11 +139,25 @@ Kategorien    präs'bare Kat.        Topoi
   Sollte das eigentlich wissen.
 
 
-=== Isomorphismen
+=== Kategorielle Grundtatsachen
 
 * Ein Rahmenhomo ist genau dann ein Iso, wenn er surjektiv ist
   und die Ordnung reflektiert. (Durch die Ordnungsreflektion ist er automatisch
   auch injektiv.)
+
+  Eine Abbildung ist genau dann ein Rahmeniso, wenn sie monoton ist, surjektiv
+  ist und die Ordnung reflektiert. (Sie ist dann automatisch injektiv und
+  beahrt automatisch Suprema.)
+
+* Einbettungen von Unterörtlichkeiten sind genau die extremalen Monos.
+  http://www.mat.uc.pt/preprints/ps/p0622.pdf
+
+* https://books.google.de/books?id=WHudOFwuMn8C&pg=PA60&lpg=PA60
+
+  In Loc lässt sich jeder Morphismus faktorisieren in einen Epi gefolgt
+  von einem extremalen Mono. (Wie man's erwarten würde: Bild nehmen!)
+  Diese beiden Klassen von Morphismen bilden sogar ein
+  Faktorisierungssystem.
 
 
 === Topologischer Unterraum als Unterörtlichkeit
@@ -573,6 +587,28 @@ Theorie, nämlich "die Theorie ihrer Punkte".
   alpha }.
 
   (Habe nicht alle Details geprüft, aber ist völlig sinnvoll.)
+
+* Sei T eine geometrische propositionale Theorie. Sei T' eine Ansammlung
+  von Zusatzaxiomen. Dann ist Set[T'] eine Unterörtlichkeit von Set[T],
+  ausgeschnitten durch den Kern
+
+      j([phi]) = [bigvee { psi | psi |- phi in T cup T' }].
+
+  Genau dann gilt chi |- j([phi]) in T, wenn chi |- phi in T cup T'.
+  In T cup T' gilt j(phi) -||- phi.
+
+* Im Fall T' = { top |- phi0 } gilt wohl j([phi]) = ([phi0] --> [phi]).
+  Zeige dazu, dass chi |- phi in T cup T' genau dann, wenn chi wedge phi0 |- phi
+  in T.
+
+  Im Fall T' = { phi0 |- bot } gilt wohl j(phi) -||- (phi0 vee phi).
+  Zeige dazu, dass chi |- phi in T cup T' genau dann, wenn chi |- phi0 vee phi
+  in T.  
+
+' T' = { top |- phi_i | i aus I } ist etwas anderes als
+  T'' = { top |- bigvee_{psi mit psi |- phi_i für alle i} psi }!
+
+  T'' beweist die Axiome von T'. Also Thm(T') <= Thm(T'').
 
 
 === Funktionalanalysis

@@ -1092,6 +1092,16 @@ O_X gegeben sind, die auf offenen dichten Teilmengen definiert sind.
   Spec(A) eine Garbe bezüglich der Topologie ist, die Spec(A|O_X) in Spec(A)
   ausschneidet.
 
+* Sei O_X --> A eine lokale O_X-Algebra, die lokal über O_X ist.
+
+  Sei a <= A ein Radikalideal. Dann gilt: Wenn 1 in Coh(a), dann 1 in a.
+  Dabei ist mit Coh der Reflektor der Radikalideale in die pseudokohärenten
+  Radikalideale gemeint.
+
+  Denn mit Knaster--Tarski-Induktion kann man zeigen:
+
+      Coh(a) <= { s : A | s inv. ==> (1 in a) }.
+
 
 === Cartier-Divisoren und Geradenbündel
 

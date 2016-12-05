@@ -52,6 +52,11 @@ learned this from Toen's survey on Higher and Derived Stacks)."
   Denn A-Algebrenhomos A[epsM] --> A sind gegeben durch Linearformen phi : M --> A
   mit im(phi)^2 = 0. Im reduzierten Fall folgt also schon im(phi) = 0.
 
+* Der Ringhomo A --> A[epsM] ist stets lokal, denn ein Element a + eps x
+  in A[epsM] ist genau dann invertierbar, wenn a in A invertierbar ist.
+
+  Insbesondere ist A[epsM] genau dann lokal, wenn A es ist.
+
 
 === Unsortiert
 
