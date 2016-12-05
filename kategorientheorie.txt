@@ -1453,6 +1453,23 @@ Natürlich ist hier die Schreibrichtung ganz entscheidend!
 * http://www.hedonisticlearning.com/posts/category-theory-syntactically.html
 
 
+=== Grothendieckkonstruktion
+
+Sei F : C^op --> Set ein Funktor. Dann gibt es eine Kategorie \int F,
+die mit einem Funktor nach C kommt.
+
+    Objekte: <X in C, s in F(X)>
+
+    Morphismen: Hom(<X,s>, <Y,t>) = { f : X --> Y | F(f)(t) =: t * f = s }
+
+* \int Hom(__, X) = C/X.
+
+* Man kann \int F als eine Art Kolimes von F verstehen (strikt oplax glaub
+  ich).
+
+* PSh(C)/E = PSh(\int E). Und auch für "Sh" statt "PSh".
+
+
 === Nächste Schritte
 
 * Kurz über "Cat ist vollständig und kovollständig" nachdenken.
