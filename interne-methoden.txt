@@ -2244,7 +2244,7 @@ alle eps. Wir definieren dann das Tupel (gamma(0), alpha) mit
     alpha(x) = [x/v(0) * v'(0)].
 
 Bezüglich konstanter Reskalierungen ist schon der Ausdruck x/v(0) * v'(0)
-wohldefiniert. Aber wenn w(eps) = f(eps) v(eps) eine anderer Lift ist, so gilt:
+wohldefiniert. Aber wenn w(eps) = f(eps) v(eps) ein anderer Lift ist, so gilt:
 
     x/w(0) * w'(0) = x/(f(0) v(0)) * (f(0) v'(0) + f'(0) v(0)) =
         x/v(0) * v'(0) + f'(0)/f(0) x
