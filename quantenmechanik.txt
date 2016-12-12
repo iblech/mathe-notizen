@@ -35,6 +35,9 @@
   wichtig, genau wie in Greg Adams /Permutation City/ es nicht so wichtig ist,
   ob eine Gehirnsimulation tatsächlich ausgeführt wird.
 
+* Ein Problem mit Kollaps: Man kann ja auch nur Teile eines Systems beobachten.
+  Dabei kollabiert nicht die gesamte Wellenfunktion.
+
 
 === Quantenfehlerkorrektur
 
