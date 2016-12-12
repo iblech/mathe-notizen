@@ -779,10 +779,28 @@ extern der Menge der offenen Teilmengen von X:
 * Sei O_X --> A eine lokale O_X-Algebra, die lokal über O_X ist.
 
   Dann ist Spec(A|O_X) lokal. Nutze, dass aus 1 in Coh(a) schon folgt, dass 1
-  in a.
+  in a. Das zeigt man so: Für ein Radikalideal J <= A ist
+
+      J' := { s : A | s inv. ==> 1 in J }
+
+  wieder ein Ideal (hier geht die Lokalität von A ein!), wieder ein
+  Radikalideal und sogar pseudokohärent (hier geht die Lokalität von O --> A
+  ein). Zudem umfasst es J. Also Coh(J) <= J'.
 
 * Sei umgekehrt Spec(A|O_X) lokal. Dann ist 1 != 0 in A. Außerdem ist
   O_X --> A lokal. Und ist A selbst lokal?
+
+* Sei s in A. Dann:
+
+      Spec(A|O_X) |== s/1 = 0 : O  genau dann, wenn
+          1 in Coh { v in | v^n s = 0 für ein n >= 0 }.
+
+  Achtung: Das ist *nicht* äquivalent zu 1 in sup { T | s = 0 }.
+
+  Allgemeiner:
+
+      Coh(sqrt((h))) |== s/1 = 0 : O  genau dann, wenn
+          h in Coh { ... }.
 
 
 === Interne Charakterisierung des modalen Operators fürs pseudokohärente Spektrum

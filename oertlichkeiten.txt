@@ -611,6 +611,23 @@ Theorie, nämlich "die Theorie ihrer Punkte".
   T'' beweist die Axiome von T'. Also Thm(T') <= Thm(T'').
 
 
+=== Bewohntheitsunterraum
+
+Sei X eine Örtlichkeit. Dann induziert diese den modalen Operator Box mit
+
+    Box(phi) := (T = sup { T | phi } <= O(X)).
+
+Dieser schneidet eine Unterörtlichkeit des Punkts aus.
+
+* Wenn X = Spec(A), dann ist Box(phi) äquivalent zu (1 = 0 in A oder phi).
+  Dann ist also Box der modale Operator, der die abgeschlossene Menge
+  "Komplement des Wahrheitswerts von '1 = 0 in A'" ausschneidet.
+  Also den Träger von A (der stets eine abgeschlossene Menge ist).
+
+* Wenn X = Spec(A|O) mit A lokal und O --> A lokal, dann ist Box(phi)
+  äquivalent zur selben Formel.
+
+
 === Funktionalanalysis
 
 Joan Pelletier, Locales in functional analysis.
