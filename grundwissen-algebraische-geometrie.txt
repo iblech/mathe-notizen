@@ -1135,6 +1135,11 @@ Genauer zum Punkt universelle Lokalisierung:
   in A_q ist, d.h. nicht in q enthalten ist. Damit folgt zusammengenommen: Je
   zwei Primideale von A sind gleich.
 
+"One must, of course, understand that the space Grothendieck associated with an
+algebraic variety is not the set of its own points, but the set of its
+irreducible subvarieties."
+Cartier in http://library.msri.org/books/sga/from_grothendieck.pdf, Seite 398.
+
 
 === Graduierung
 
@@ -1433,7 +1438,7 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
 
 * X' <= X heißt genau dann offen, wenn für alle Ringe A und alle eta aus X(A)
   gilt, dass eta^{-1}(X') <= Hom(A,__) Vereinigung von Unterfunktoren der Form
-  Hom(A_a, __) ist. Das heißt fast, dass für alle Ringe R gelten soll:
+  Hom(A_a, __) ist. Das heißt *fast*, dass für alle Ringe R gelten soll:
 
       Ein Ringhomo f : A --> R bildet genau dann eines der Elemente a (einer
       Familie) auf ein invertierbares Element ab, wenn X(f)eta in X'(R) liegt.
@@ -1457,6 +1462,30 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
   über alle a aus irgendeiner Menge M gegeben durch
 
       R |--> { f : A --> R | (f[M]) = (1) in R }.
+
+* Man kann Offenheit noch etwas anders charakterisieren. Nämlich so:
+  Ein Unterfunktor X' <= X ist genau dann offen, wenn für alle Ringe A
+  und alle Elemente eta in X(A) eine offene Teilmenge U <= Spec(A) existiert,
+  sodass gilt:
+
+      Für alle Ringe R und Ringhomos phi : A --> R: Spec(phi) faktorisiert
+      genau dann über U, wenn X(phi)(eta) in X'(R) liegt.
+
+  Das Stacks Project (Tag 01JI) nennt diese Eigenschaft auch "Darstellbarkeit
+  durch offene Immersionen".
+
+  "==>": Sei X' <= X offen. Sei A ein Ring und sei ein Element eta in X(A)
+  gegeben. Dann gibt es ja eine Menge M sodass eta^{-1}(X') der Funktor
+
+      R |--> { f : A --> R | (f[M]) = (1) in R }
+
+  ist. Die gesuchte offene Teilmenge ist dann U := bigcup_{a in M} D(a).
+  Denn ist f : A --> R irgendein Ringhomo, so faktorisiert Spec(f) genau dann
+  über U, wenn (f[M]) = (1) in R.
+
+  "<==": Erfülle X' <= X die genannte Bedingung. Sei A ein Ring und sei eta in X(A).
+  Nach Voraussetzung gibt es eine tolle offene Teilmenge U = bigcup_{a in M} D(a).
+  Dann ist eta^{-1}(X') die Vereinigung der Hom(A[a^{-1}], __) über a aus M.
 
 * Sind X_i <= X offene Unterfunktoren, so sind die Bedingungen
 
@@ -1487,6 +1516,24 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
   Speziell für R := A und g = id erhalten wir, da die Identität id_A
   das Element a_j gezwungenermaßen auf ein invertierbares Element
   abbildet, dass X(id)(eta) = eta in X_i(R) liegt.
+
+  Die Äquivalenz gilt auch konstruktiv, wenn man m als Menge der Nichteinheiten
+  definiert. Und Körper in folgendem Sinne: lokaler Ring und inv. ==> ungleich Null.
+
+  Ferner sind die Bedingungen gleichwertig zu:
+
+      c) Für jeden Ring A und jedes Element eta in X(A) gibt es eine offene
+      Überdeckung Spec(A) = bigcup_j D(f_j) sodass für jedes j die
+      Einschränkung von eta in einem X_i(A[f_j^{-1}]) liegt.
+
+  Auch ohne die Voraussetzung, dass die X_i offene Unterfunktoren von X sind,
+  ist Bedingung c) gleichwertig zu:
+
+      d) bigcup_i X_i = X als Garben, d.h. in der internen Sprache des großen
+      Zariski-Topos gilt: forall x:X. bigvee_i exists y:X_i. iota_i(y) = x.
+
+  Das ist nämlich die wörtliche Übersetzung von c) mit der
+  Kripke--Joyal-Semantik.
 
 * Siehe auch Strømmes /Elementary Introduction to Representable Functors and
   Hilbert Schemes/. Strømme arbeitet mit Funktoren auf Sch^op statt Ring.

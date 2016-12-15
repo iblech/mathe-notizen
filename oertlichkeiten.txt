@@ -388,6 +388,15 @@ colim_{a <= a'} F(a').
 
       forall i: 1 = 0 oder phi_i   <==>   1 = 0 oder forall i: phi_i.
 
+* Ein Raum ist genau dann positiv, wenn für alle Wahrheitswerte phi gilt:
+
+      top <= sup { top | phi }  ===>  phi.
+
+  Zum Beispiel ist Spec(A) mit A != 0 positiv. Denn die Voraussetzung ist
+  gleichbedeutend mit "1 nilpotent oder phi".
+
+  http://www.math.unipd.it/~sambin/txt/CSSS.pdf
+
 
 === Schnitt von Örtlichkeiten
 
