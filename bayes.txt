@@ -41,6 +41,10 @@
 * Eine Markov-Kette ist eine Koalgebra für den Funktor X |-> D(X),
   Menge der Wahrscheinlichkeitsverteilungen auf X.
 
+* Wenn man die Größe einer Menge Omega kennt und auf ihr eine Dichte
+  kennt, die man auswerten und aus der man ziehen kann, dann kann man die Größe
+  von Teilmengen als geeigneten Erwartungswert schreiben.
+
 
 === Grundlegung über Zufallsvariablen statt Mengen
 

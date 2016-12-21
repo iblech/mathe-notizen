@@ -141,6 +141,13 @@ Länge 0 oder eine positive Länge. Im ersten Fall würde phi folgen, im zweiten
 nicht phi.
 
 
+=== Diagonalisierbarkeit von Matrizen
+
+http://www.sciencedirect.com/science/article/pii/0168007286900060
+Andre Scedrov. Diagonalization of continuous matrices as a representation of intuitionistic
+reals.
+
+
 === Limit Computable Mathematics
 
 * Michael Toftdal, Calibration of Ineffective Theorems of Analysis

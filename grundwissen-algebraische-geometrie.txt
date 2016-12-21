@@ -799,6 +799,11 @@ die Idealgarbe sein.
 
   Es gilt: supp(f_* O_X) = V(I) = { y in Y | I_y != (1) in O_{Y,y} }.
 
+* Einschränken auf abgeschlossene Unterschemata (vermöge i^*) ist nicht exakt.
+  Beispiel: Multiplikation mit T (als Morphismus O_X --> O_X) auf X = Spec k[T]
+  ist ein Mono, aber nach Einschränken auf V(T) nicht mehr (ist dann die
+  Nullabbildung).
+
 * Es gilt: im I|_x = 0 als Ideal von k(x) <==> x in V(I).
 
   "==>": Angenommen, I_x = (1). Dann I|_x = k(x).
