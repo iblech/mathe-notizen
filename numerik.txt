@@ -68,3 +68,18 @@
   Beispiel zeigt aber nicht (zumindest bei Scilab mit den Standardalgorithmen),
   dass die Inverse zu berechnen von der Genauigkeit her schlechter ist als das
   System direkt zu lösen.
+
+
+=== de Rham in der Numerik
+
+* Unterscheide zwischen punkt-, linien- und flächenartigen Größen.
+  Zum Beispiel Divergenz von etwas liefert eine volumenartige Größe.
+  Nimm dann immer die richtigen Funktionenräume zur Diskretisierung!
+  Sonst bekommst du spurious modes (zum Beispiel bei Maxwell-Numerik).
+
+* epsilon in E = epsilon H ist keine skalare Größe. Sondern sie konvertiert
+  zwischen Größen verschiedenen Typs.
+
+* femtable.org!
+
+* Fettes Dankeschön an Christian Lehmann.
