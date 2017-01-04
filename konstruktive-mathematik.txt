@@ -245,6 +245,13 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
   Verzicht auf Kohärenz jeweils nicht möglich ist.
 
 
+=== Analysis
+
+http://www.phil.pku.edu.cn/cllc/people/fengye/finitismAndTheLogicOfMathematicalApplications.pdf
+
+Hochgelobt von David Roberts auf MO.
+
+
 === Generische Freiheit
 
 * Generische Freiheit für Moduln:
