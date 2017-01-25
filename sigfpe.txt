@@ -65,6 +65,19 @@ eine Monade -- die von f frei erzeugte Monade.
 
 * Free (r,__) a = a x [r].
 
+* Die Mengenmonade ist nicht frei. Denn sind x und y verschiedene Elemente,
+  so gilt {x,y} >> {a} = {a}. Wäre die Mengenmonade frei, müsste die vordere
+  Aktion aber von der Form (Roll _) sein, denn von der Form (Pure a) sind ja
+  nur die Elemente {a}. In freien Monaden ist (Roll _ >> _) aber stets wieder
+  von der Form (Roll _).
+
+* Aus mehr oder weniger dem gleichen Grund ist auch die Listenmonade nicht
+  frei, denn
+
+      [x,y] >>= \z -> if z == x then [a] else []
+
+  ergibt [a] (mit x != y), aber (Roll _ >>= _) ist von der Form (Roll _).
+
 * Algebren für die (endliche-)Listen-Monade sind genau Monoide.
   Es gibt auch den Funktor F mit F(a) = 1 + a^2.
   F-Algebren sind dasselbe wie Monoide, nur dass keinerlei Axiome gelten

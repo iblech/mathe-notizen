@@ -548,3 +548,9 @@ https://xorshammer.com/2016/05/19/thermodynamics-is-easier-than-i-thought/
 === Gendertheorie
 
 * http://www.denisdutton.com/baumeister.htm
+
+
+=== Lizenzen
+
+* Wieso die NC-Varianten von CC schlecht sind:
+  http://freedomdefined.org/Licenses/NC

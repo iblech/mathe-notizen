@@ -1458,7 +1458,7 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
       Ein Ringhomo f : A --> R hat genau dann die Eigenschaft, dass das von den
       f(a) erzeugte Ideal das Einsideal in R ist, wenn X(f)eta in X'(R) liegt.
 
-  Im Spezialfall, dass R lokal ist, ist diese Bedingung zu obigen äquivalent.
+  Im Spezialfall, dass R lokal ist, ist diese Bedingung zu obiger äquivalent.
 
   Noch mal zum Mitschreiben: In Sh(CRing) ist die Vereinigung der
 
@@ -1491,6 +1491,14 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
   "<==": Erfülle X' <= X die genannte Bedingung. Sei A ein Ring und sei eta in X(A).
   Nach Voraussetzung gibt es eine tolle offene Teilmenge U = bigcup_{a in M} D(a).
   Dann ist eta^{-1}(X') die Vereinigung der Hom(A[a^{-1}], __) über a aus M.
+
+  Übrigens: Die offenen Mengen U aus der Charakterisierung sind eindeutig
+  bestimmt. Denn:
+
+      Sei p in U. Dann faktorisiert Spec(phi), wobei phi : A --> k(p),
+      natürlich über U, denn sein Bild ist genau { p }. Somit liegt
+      X(phi)(eta) in X'(R). Und rückwärts folgt damit, dass phi über
+      U' faktorisiert, also p in U' liegt.
 
 * Sind X_i <= X offene Unterfunktoren, so sind die Bedingungen
 

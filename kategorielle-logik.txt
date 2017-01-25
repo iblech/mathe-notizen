@@ -151,6 +151,11 @@ Es gilt zumindest für alle s aus X(U): chi_U(s) = U <==> U |== phi[s/x].
 
       { (xs,ys) | bigwedge_i bigvee_j (xs[i] = ys[j]) & umgekehrt }.
 
+* "Idealerweiterung bilden" ist eine geometrische Konstruktion:
+
+      J B = { b:B | bigvee_n exists b_1,...,b_n:B. exists j_1,...,j_n:J.
+                        b = sum_i phi(j_i) b_i }.
+
 * Die Konstruktion "freier R-Modul auf" kommutiert ebenfalls. Das ist NICHT
   klar, wenn man dazu die feinste Äquivalenzrelation mit ... verwendet,
   aber SCHON, wenn man ihn einfach als Koequalizer definiert:

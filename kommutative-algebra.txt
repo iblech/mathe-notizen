@@ -154,6 +154,11 @@ Sei S = k[x_0,...,x_n]. Habe S --> k durch Auswertung bei (0,...,0).
 
       I B <= J    <===>    I <= A cap J.
 
+* Die Idealerweiterung eines Radikalideals ist im Allgemeinen kein
+  Radikalideal. Betrachte etwa die Erweiterung von (2), dem Ideal von Z,
+  in Z[sqrt(2)]. In der Erweiterung liegt sqrt(2)^2 = 2, nicht aber sqrt(2)
+  selbst (in der Erweiterung sind die Koeffizienten im gerade).
+
 
 === Annihilator
 
