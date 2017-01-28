@@ -14,7 +14,7 @@
       x0 := phi(U).
 
   Dann folgt x0 \not\in U:
-  
+
       Sei x0 in U. Speziell für V := U folgt dann, da x0 in U, dass x0 !=
       phi(U) ist. Das ist falsch.
 
@@ -24,7 +24,7 @@
       x0 \in V ==> x0 != phi(V)
 
   gilt:
-  
+
       Sei x0 in V. Angenommen x0 = phi(V). Dann folgt, da phi injektiv ist,
       dass U = V. Also liegt x0 in U. Das ist ein Widerspruch. Also x0 !=
       phi(V).
@@ -32,6 +32,8 @@
   Also gilt doch x0 \in U. Widerspruch.
 
 * Eine Injektion N^N --> N kann es schon geben: etwa in Eff(STM).
+  Damit gibt es in Eff(STM) auch eine Injektion 2^N --> N. Das ist kein
+  Widerspruch zum Vorherigen, weil 2 != Omega.
 
 
 === Chaitin
