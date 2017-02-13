@@ -2130,6 +2130,51 @@ Sei R nicht unbedingt kommutativ.
 
       x ist invertierbar modulo J  oder  x ist nilpotent modulo J.
 
+* Sei A eine Algebra über einem Körper k, welche als k-Vektorraum von Dimension n
+  ist. Sei x ein nilpotentes Element in A. Dann könnte man glauben, dass schon
+  x^n = 0 ist.
+
+  Das würde (durch Betrachtung des charakteristischen Polynoms) dadurch folgen,
+  dass nilpotente Matrizen spurfrei sind.
+
+  Wenn Körper aber nur meint "nicht Null ==> invertierbar", so kann es keinen
+  konstruktiven Beweis dieser Aussage geben. Denn im großen Zariski-Topos zum
+  Basisschema Spec(k[eps]/(eps^2)) ist die 1x1-Matrix (eps) nilpotent. Trotzdem
+  gilt in dem Topos nicht, dass eps^1 = 0.
+
+
+=== Weil-Algebren
+
+* Kock definiert eine Weil-Algebra über k als eine k-Algebra, die von der
+  Form k^n ist, wobei (1,0,...0) die Eins angibt und die Menge I := { (0,*,...,*) }
+  ein Ideal mit I^n = 0 ist. (Für mich ist nicht klar, ob man auch I^m = 0 für
+  ein m >= 0 fordern kann.)
+
+* Eine basisfreie Definition ist folgende: Eine k-Algebra A ist genau dann
+  eine Weil-Algebra, wenn es einen k-Algebren-Homo pi : A --> k und eine Zahl n
+  gibt, sodass A als k-Vektorraum frei vom Rang n ist und ker(pi)^n = 0 ist.
+
+* Eine Weil-Algebra lässt sich stets über die Darstellungsmatrix der bilinearen
+  Multiplikationsabbildung beschreiben, also durch eine (n x n^2)-Matrix.
+  Die Bedingung, dass I^n = 0 sein muss, ist dann lediglich eine Ansammlung von
+  Gleichungsbedingungen an die Koeffizienten dieser Matrix.
+
+* Weil-Algebren sind als k-Algebren damit stets endlich präsentiert:
+
+      k[X_1,...,X_n]/(X_1 - 1, X_i X_j - sum_k gamma_ijk X_k),
+
+  wenn e_i e_j = sum_k gamma_ijk e_k in A.
+
+  Habe nämlich einen kanonischen Homo von dieser Algebra in A hinein
+  (schicke X_i auf e_i), welcher offensichtlich surjektiv ist (Urbild von e_i
+  ist X_i) und auch injektiv ist. Nutze dazu, dass jedes Element in dieser
+  Polynomalgebra durch ein homogenes Polynom vom Grad 1 dargestellt werden
+  kann.
+
+* Aber nicht alle endlich präsentierten und als k-Vektorraum
+  endlich dimensionalen Algebren sind Weil-Algebren. Etwa ist k x k
+  es wohl nicht.
+
 
 === Reguläre Ringe
 
