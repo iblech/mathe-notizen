@@ -180,7 +180,7 @@ Denn jeder Punkt enthält einen abgeschlossenen Punkt in seinem Abschluss.
   Außerdem ist W ebenfalls von Kodimension 1 [stimmt das?].
   Da W in Y und in Y' liegt, muss W schon gleich Y und Y' sein.
 
-* Sei xi ein Punkt eines topologischen Raums X, sodass {xi} abgeschlossen ist.
+* Sei xi ein Punkt eines topologischen Raums X, sodass cl {xi} = X ist.
   Dann enthält jede nichtleere offene Teilmenge von X xi, und damit ist X
   irreduzibel. Gilt die Umkehrung?
 

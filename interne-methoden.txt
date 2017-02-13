@@ -2231,6 +2231,51 @@ Sei O_X kohärent. Dann kann EXT intern als Ext verstanden werden.
   topostheorie.txt.
 
 
+=== Mikrolinearität (microlinearity, infinitesimal linearity)
+
+* Sei X = Spec(A). Dann ist X mikrolinear.
+
+  Damit ist in voller Allgemeinheit gemeint, dass [__, X] "geeignete"
+  Kokegeldiagramme von infinitesimalen Objekten auf Kolimesdiagramme schickt.
+  Genauer ist folgendes gemeint.
+
+  Sei F ein endliches Diagramm in der Kategorie der A^1-Algebren, dessen
+  Objekte alle Weilalgebren sind. Dann gibt es in die Kategorie der
+  A^1-Algebren das Limesdiagramm
+
+      F(i) --> lim(F).
+      (zum Beispiel: A^1 --------------------> A^1[eps]/(eps^2)
+                      |                             |
+                      v                             v
+                    A^1[delta]/(delta^2) --> A^1[eps,delta]/(eps^2,delta^2,eps*delta))
+
+  Nach Anwendung von Spec erhält man ein Kokegeldiagramm
+
+      Spec(F(i)) <-- Spec(lim(F)),
+      (im Beispiel: 1 <----------- Delta
+                    ^                ^
+                    |                |
+                  Delta <--------- Delta(2) = { (x,y) | x^2 = y^2 = xy = 0 })
+
+  das im Allgemeinen kein Kolimesdiagramm sein wird. (Im Beispiel wäre der
+  echte Kolimes nämlich ein Objekt, für das jedes Element von einem der beiden
+  Deltas herkommt.)
+
+  Nach Anwendung von [__, X] erhält man wieder ein Kegeldiagramm:
+
+      [Spec(F(i)), X] ---> [Spec(lim(F)), X].
+
+  Die Forderung ist, dass dieses Diagramm ein Limesdiagramm ist.
+
+  Kurz: [Spec(__), X] soll Limiten in der Kategorie der Weilalgebren
+  auf Limiten in "Set" abbilden.
+
+  Im großen Zariski-Topos gilt: Ist X das Spektrum einer nicht unbedingt
+  quasikohärenten A^1-Algebra, so bewahrt [Spec(__), X] Limiten, und zwar von
+  quasikohärenten A^1-Algebren, deren in der Kategorie aller A^1-Algebren
+  berechneter Limes wieder quasikohärent ist.
+
+
 === Projektiver Raum
 
 Sei P(V) die Menge der Ursprungsgeraden in V. Dann kann ich zeigen:
