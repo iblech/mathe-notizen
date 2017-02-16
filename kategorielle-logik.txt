@@ -103,6 +103,31 @@ Es gilt zumindest für alle s aus X(U): chi_U(s) = U <==> U |== phi[s/x].
   über Set offen ist. Dann muss er nur noch surjektiv sein.
 
 
+=== Interne Sprache von Scheibentopoi
+
+* Auch konstruktiv gilt, dass folgende Aussagen äquivalent sind:
+
+  1. forall x in X. phi(x)
+  2. Set |== forall x in X. phi(x)
+  3. X |== phi
+  4. Set/X |== phi
+
+* Seien M und N Objekte aus Set/X. Dann ist die Aussage
+
+      "M und N sind in Set/X isomorph"
+
+  stärker als
+
+      "Set/X |== M und N sind isomorph".
+
+  Letzteres bedeutet nämlich nur, dass alle Fasern isomorph sind.
+  Mit dem Auswahlaxiom kann man diese Aussage freilich verbessern.
+
+  Wie sonst bei Garbentopoi auch bedeutet die zweite Aussage halt nur, dass die
+  Garben M und N lokal isomorph sind. Daraus folgt nicht unbedingt globale
+  Isomorphie.
+
+
 === Geometrische Formeln und Konstruktionen
 
 * Geometrische Formeln vertragen sich gut mit dem Zurückziehen längs
