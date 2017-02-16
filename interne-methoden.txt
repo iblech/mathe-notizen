@@ -2275,6 +2275,23 @@ Sei O_X kohärent. Dann kann EXT intern als Ext verstanden werden.
   quasikohärenten A^1-Algebren, deren in der Kategorie aller A^1-Algebren
   berechneter Limes wieder quasikohärent ist.
 
+* Ein Korollar: Besitzt X eine offene Überdeckung durch Affine (in dem Sinn,
+  dass für jeder Punkt x in X eine offene affine Teilmenge U <= X mit x in U
+  existiert), so ist X in genau demselben Sinn mikrolinear.
+
+  Zumindest was die Eigenschaft "X empfindet Delta x_0 ... x_0 Delta --> D(n)
+  als surjektiv" angeht. Denn sind Abbildungen f_1, ..., f_n : Delta --> X
+  mit x := f_1(0) = ... = f_n(0) gegeben, so finde ein Affinoffenes U mit x in U.
+  Dann verwende die schon gewonnene Einsicht über Affine, um eine Abbildung
+  g : D(n) --> U zu finden. Diese lässt sich natürlich zu einer Abbildung
+  D(n) --> X kofortsetzen (richtiger Begriff?).
+
+  Die Eindeutigkeit ist auch klar.
+
+  In beiden Teilen geht das Lemma ein, dass die f_i bzw. g schon über U
+  faktorisieren. Dazu nutze die negneg-Stabilität von U und die Tatsache, dass
+  in Delta und D(n) alle Elemente nicht nicht gleich Null sind.
+
 
 === Projektiver Raum
 
