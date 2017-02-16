@@ -142,6 +142,33 @@ topologischen Raum) vollständig zurückgewinnen -- als Menge der
 offenabgeschlossenen Teilmengen. Stichwort Stone-Dualität.
 
 
+=== Über die Wahl des richtigen Topos
+
+* Die Siten Sch/S und Aff/S führen zum selben Topos. Ebenso deren volle
+  Unterkategorien derjenigen Schemata, die über S lokal von endlicher
+  Präsentation sind.
+
+  Wieso schränken wir uns nicht auf die Schemata, die sogar global von
+  endlicher Präsentation sind, ein? Das hat einen ganz einfachen Grund.
+  Offene Immersionen sind stets lveP, aber nicht immer veP. Wir wollen
+  aber, dass offene Unterschemata im Situs enthalten sind (etwa, damit
+  wir einen einfachen Vergleich zum kleinen Topos ziehen können).
+  Außerdem besitzt jedes lveP/S-Schema trivialerweise eine offene
+  Überdeckung durch affine Schemata, welche lveP/S sind. Für "veP/S" ist
+  mir das nicht klar.
+
+* Die Kategorie (Aff /^lveP S) ist wesentlich klein. Denn: Ist X --> S
+  ein Objekt aus dieser Kategorie, so wissen wir: Es gibt eine
+  Überdeckung X = bigcup_i V_i und Überdeckung f^{-1}[V_i] = bigcup_j
+  U_ij sodass die Ringhomos O_S(V_i) --> O_X(U_ij) alle von endlicher
+  Präsentation sind. Für die O_X(U_ij) gibt es also nur Mengen-viele
+  Möglichkeiten. Der Ring O_X(X) hat also die Eigenschaft, eine
+  Überdeckung durch Ringe zu besitzen, die durch eine Menge durchlaufen.
+  Mit der expliziten Konstruktion als Menge kompatibler Familien von
+  Schnitten durchläuft O_X(X) also auch nur eine Menge von
+  Möglichkeiten. Morphismen X --> S gibt es dann auch nur Mengen-viele.
+
+
 === Morphismen zwischen den Zariski-Topoi
 
 * Sei f : T --> S ein Morphismus von Schemata. Dann gibt es einen geometrischen
