@@ -203,6 +203,11 @@ Sei S = k[x_0,...,x_n]. Habe S --> k durch Auswertung bei (0,...,0).
   abgeschlossenen) Körper ist jacobsonsch. Das sagt Hilberts Nullstellensatz.
   Siehe Götz/Wedhorn, Thm. 1.7, Seite 10.
 
+* Ist S eine endlich erzeugte Algebra über einem jacobsonschen Ring R,
+  so ist auch S jacobsonsch, Urbilder von maximalen Idealen sind wieder
+  maximal und die zugehörigen Restklassenkörpererweiterungen sind endlich.
+  http://stacks.math.columbia.edu/tag/00GB
+
 
 === Dualer Vektorraum
 
