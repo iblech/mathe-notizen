@@ -2227,7 +2227,33 @@ Sei R nicht unbedingt kommutativ.
   erzeugt, so ist I kuratowskiendlich. Eine Aufzählung der Elemente von I
   erhält man nämlich, indem man die vorkommenden Basiselemente der gegebenen
   Erzeuger zusammensetzt. Zum Nachweis, dass das alle sind, benötigt man
-  folgendes Lemma.
+  unten stehendes Lemma.
+
+  Man kann aber noch etwas mehr zeigen: Wenn der Modul ein Erzeugendensystem
+  der Länge n besitzt, so besitzt I auch eine Aufzählung der Länge höchstens n
+  (falls 1 != 0 im Ring). Das geht so: Drücke die Erzeuger (v_1,...,v_m) über
+  die Basisvektoren (aufgezählt durch (e_1,...,e_n)) und umgekehrt aus.
+  Das führt zu zwei Matrizen A und B:
+
+      e_i = sum_j A_ji v_j
+      v_j = sum_i B_ij e_i
+
+  Wenn man die zweite Gleichung in die erste einsetzt, erhält man
+
+      e_i = sum_l (BA)_li e_l.
+
+  Die kann man nun sukzessive mit unten stehendem Lemma bearbeiten. So erhält
+  man in jedem Schritt entweder die Information, dass zwei Basisvektoren der
+  Aufzählung schon gleich sind, in welchem Fall man dann induktiv von vorne
+  beginnt, oder dass der entsprechende Eintrag von BA gleich delta_li ist.
+
+  Wenn man damit fertig ist, folgt also BA = 1. Somit ist B surjektiv.
+  Da B m Spalten und n Zeilen hat, und 1 != 0 vorausgesetzt ist, folgt m >= n.
+
+  Bonusaussage: Wenn der Modul kein Erzeugendensystem der Länge <= m-1 besitzt,
+  und weiterhin 1 != 0 ist, so ist die Menge I schon endlich. Denn in der
+  gekürzten Aufzählung sind Elemente mit unterschiedlichem Index auch
+  verschieden.
 
 * Genau dann sind in einem freien Modul zwei Linearkombinationen
   sum_i a_i e_i und sum_j b_j e'_j gleich, wenn:
