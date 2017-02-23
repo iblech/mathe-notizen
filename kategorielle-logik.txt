@@ -618,6 +618,14 @@ Von Peter Arndt empfohlen: Lambek.
   https://nforum.ncatlab.org/discussion/7026/focusing/?Focus=56775#Comment_56775
 
 
+=== Produkt von Topoi
+
+Sei E = Set[T] der klassifizierende Topos einer geometrischen Theorie T.
+Dann erscheint es mir plausibel, dass E x E der klassifizierende Topos der
+Theorie T + T ist, und außerdem dass aus E-Sicht E x E der klassifizierende
+Topos von T ist.
+
+
 === Nächste Schritte
 
 * Für den Rückzug mit f^* statt f^(-1) auf Spec k(x)
