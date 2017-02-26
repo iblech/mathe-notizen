@@ -156,6 +156,48 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
 
 * Oft definiert man P(sigma) als (G(sigma) vee phi).
 
+* In klassischer Logik kann man wie folgt einsehen, dass CL-Noetherianität
+  dasselbe wie die übliche Bedingung ist.
+
+  "==>": Definiere P(a_0,...,a_{n-1}) als "jede aufsteigende Kette von endlich
+  erzeugten Idealen, die mit (a_0) <= (a_0,a_1) <= ... <= (a_0,...,a_{n-1})
+  beginnt, hält".
+
+  "<==": Wenn P() nicht gilt, kann man sukzessive eine Folge (a_0,...)
+  konstruieren, sodass für kein n P(a_0,...,a_{n-1}) gilt. Aber irgendwann ist
+  G(a_0,...,a_{n-1}) erfüllt.
+
+* Die CL-Bedingung impliziert meine Prozessbedingung -- allerdings nicht für
+  Prozesse, die Ideale ausgeben, sondern für Prozesse, die Folgen von
+  Ringelementen ausgeben. Wobei die Folge im nächsten Schritt immer eine um
+  genau ein Element ergänzte Folge sein muss.
+
+  Definiere dafür P(a_0,...,a_{n-1}) als "jeder Prozess in diesem Sinn,
+  für den es einen initialen Ablauf der Form () <= (a_0) <= ... <=
+  (a_0,...,a_{n-1}) gibt, hält".
+
+  Man kann die CL-Bedingung auch abändern, sodass die sigma's nicht mehr Folgen
+  von Elementen, sondern Folgen von endlich erzeugten Idealen sind. Das
+  Prädikat G definiert man dann als
+
+      G(I_0,...,I_{n-1}) :<==> exists i < n. I_0 + ... + I_{i-1} = I_0 + ... + I_i.
+
+  Die veränderte CL-Bedingung impliziert meine Prozessbedingung in ihrer
+  unveränderten Form.
+
+  Man kann die CL-Bedingung auch durch eine negative Variante ersetzen:
+
+      1. Q(sigma) ==> neg G(sigma)
+      2. Q(sigma a) ==> Q(sigma)
+      3. Q(sigma) ==> exists a. Q(sigma a)
+
+      Ring noethersch genau dann, wenn für all solchen Prädikat gilt: neg Q().
+
+  Ein Ring, der diese Bedingung erfüllt, hat dann die Eigenschaft, dass kein
+  Prozess nicht hält. (Definiere Q(sigma) :<=> "es gibt einen Prozess, für den
+  ein Anfangsablauf wie von sigma vorgeschrieben existiert, der nicht hält".)
+  (Bis auf Ideal/Element-Unterschied.)
+
 * Es gibt auch die Noether-Bedingung von Richman und Seidenberg:
   aufsteigende Folgen von endlich erzeugten Idealen stoppen.
 
@@ -239,6 +281,9 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
   endlich erzeugte Untermoduln von O_X schon endlich präsentiert. Und endlich
   präsentierte Moduln sind quasikohärent. (Hier geht der einfache Fakt ein,
   dass endlich erzeugte Untermoduln von kohärenten Moduln kohärent sind.)
+
+  Dieses Korollar gilt auch völlig allgemein. Ein endlich erzeugter Untermodul
+  von O_X ist das Bild eines Morphismus der Form O_X^n --> O_X.
 
 * "Witzig": O_X erfüllt genau dann eine "schlechte Noetherianitätsbedingung",
   wnn es eine "gute Noetherianitätsbedingung" erfüllt. Denn man hat Äquivalenz
