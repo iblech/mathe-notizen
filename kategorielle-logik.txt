@@ -22,6 +22,13 @@
   über die subendliche Garbe der Kontinente
 
 
+=== Klassische Logik in kartesisch abgeschlossenen Kategorien
+
+* Sei C eine kartesisch abgeschlossene Kategorie mit einem initialen Objekt 0.
+  Falls 0^(0^A) isomorph zu A ist, für alle A [auch natürlich?], dann ist die
+  Kategorie eine Quasiordnung. http://www.paultaylor.eu/stable/prot.pdf, Seite 151.
+
+
 === Bedeutung der Identität
 
 "=" ist \exists längs der Diagonale. (Das kam eventuell in Jonas Freys Vortrag
