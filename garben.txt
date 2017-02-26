@@ -663,6 +663,12 @@ http://mathoverflow.net/questions/17786/why-are-local-systems-and-representation
   derselbe; insbesondere wäre x |--> rk_x F lokal konstant. Das muss ja aber im
   Allgemeinen nicht der Fall sein.
 
+  Einfacheres Beispiel: Die terminale Garbe ist lokal konstant (sogar konstant).
+  Die Untergarbe Hom(__, U) = j_!(1) für eine offene Menge U ist aber meist
+  nicht lokal konstant. Zumindest dann nicht, wenn es einen Punkt gibt, sodass
+  jede offene Umgebung des Punkts mindestens ein Punkt aus U und einen Punkt
+  aus dem Komplement von U enthält. Kurz, wenn es einen Punkt aus dem Rand von U gibt.
+
 * Lokale Konstanz mit endlichen Werten kann man leicht intern charakterisieren:
   Das stimmt genau dann, wenn X |== bigvee_n F ~~ [n], also wenn X |== F endlich.
 

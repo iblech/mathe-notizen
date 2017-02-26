@@ -116,6 +116,13 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
 * Weihrauch, Computable Analysis.
 
 
+=== Reelle Zahlen
+
+* Was ich im Softwareprojekt gemacht habe, steht teilweise auch in (aber mit
+  Cauchyfolgen statt Cauchyprozessen): Real Numbers, Generalizations of the
+  Reals, and Theories of Continua herausgegeben von P. Ehrlich
+
+
 === Noetherianität
 
 * Coquand und Lombardi (Foliensatz /Krull's Principal Ideal Theorem/)

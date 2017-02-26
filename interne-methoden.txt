@@ -2099,6 +2099,17 @@ B Sei X S-Schema. Dann könnte man denken, dass [X, A^1] = (mu_* O_X)^~.
 * Kategorielle Charakterisierung von glatten Morphismen und paar anderen Sachen:
   http://www.kurims.kyoto-u.ac.jp/~motizuki/Categorical%20Representation%20of%20Locally%20Noetherian%20Log%20Schemes.pdf
 
+* A^1 erfüllt den Hilbertschen Nullstellensatz: Seien f_1, ..., f_r Polynome
+  aus A^1[X_1,...,X_n] ohne gemeinsame Nullstelle. Dann ist das von den f_i
+  erzeugte Ideal das Einsideal. Das folgt sofort aus der Quasikohärenz von
+  A^1[X_1,...,X_n]/(f_1,...,f_r).
+
+  Allgemeiner: Seien f_1, ..., f_r Elemente einer quasikohärenten Algebra A.
+  Gelte für alle x aus Spec(A), dass die f_i(x) (= x(f_i)) nicht alle Null sind.
+  Dann ist das von den f_i erzeugte Ideal das Einsideal. Das folgt sofort aus
+  der Quasikohärenz von A/(f_1,...,f_r). Diese Algebra ist etwa als Kokern von
+  A^r --> A wirklich quasikohärent.
+
 * Kohomologie intern?
 
 * Ist A^1 in Zar(S) noethersch, falls S lokal noethersch?

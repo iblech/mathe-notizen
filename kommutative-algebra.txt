@@ -1183,6 +1183,11 @@ Sei M eine quadratische Matrix über einem Ring.
   http://math.stackexchange.com/questions/71740/necessary-and-sufficient-condition-for-trivial-kernel-of-a-matrix-over-a-commuta und
   http://math.stackexchange.com/questions/161523/does-an-injective-endomorphism-of-a-finitely-generated-free-r-module-have-nonzer.
 
+* Richmans schöner Beweis dass Injektionen A^n --> A^m schon n <= m oder 1 = 0
+  haben müssen hat Konkurrenz:
+  http://mathoverflow.net/questions/136/atiyah-macdonald-exercise-2-11/47846#47846
+  http://math.stackexchange.com/questions/20178/given-a-commutative-ring-r-and-an-epimorphism-rm-to-rn-is-then-m-geq-n
+
 
 === Quotientenmoduln
 
@@ -2254,6 +2259,20 @@ Sei R nicht unbedingt kommutativ.
   und weiterhin 1 != 0 ist, so ist die Menge I schon endlich. Denn in der
   gekürzten Aufzählung sind Elemente mit unterschiedlichem Index auch
   verschieden.
+
+  Bonusaussage: In A<X> mit X = { x_1, ..., x_n } (der Fall A = 0 ist zugelassen)
+  ist die Familie (x_1,...,x_n) linear unabhängig in folgendem Sinn:
+
+      Ist sum_i a_i x_i = 0, so sind alle a_i = 0 oder es gibt i != j mit x_i = x_j.
+
+  Mit dieser Bonusaussage kann man zeigen: Ist A<X> endlich präsentiert, so ist X
+  endlich und A<X> endlich frei.
+
+  Genau dann ist ein A-Modul frei (auf irgendeiner Menge), wenn es eine Familie
+  von Vektoren gibt (durch irgendeine Menge indiziert), sodass jeder Vektor
+  Linearkombination von Vektoren aus der Familie ist und sodass jede endliche
+  Aufzählung von Vektoren aus der Familie linear unabhängig in dem
+  allgemeineren Sinn ist.
 
 * Genau dann sind in einem freien Modul zwei Linearkombinationen
   sum_i a_i e_i und sum_j b_j e'_j gleich, wenn:

@@ -116,6 +116,14 @@ geringten distributiven Verband.
 * Rad(A) --> pt ist genau dann surjektiv (d.h. dass Omega --> Rad(A) injektiv
   ist), wenn 1 != 0 in A.
 
+* Tag 01PM im Stacks Project: Sei I <= A ein endlich erzeugtes Ideal.
+  Sei M ein A-Modul. Dann sind die D(I)-Schnitte von M gegeben durch
+
+      colim_n Hom_A(I^n, M/M_n),
+
+  wobei M_n = { x in M | I^n x = 0 }. Der Beweis sieht auf den ersten Blick
+  konstruktiv aus.
+
 
 === Verklebeaxiom in einem Beispiel
 
