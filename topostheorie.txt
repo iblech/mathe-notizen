@@ -126,6 +126,33 @@
   PSh(C), also die Retrakte von darstellbaren Funktoren.
 
 
+=== Vollständigkeit und Kovollständigkeit
+
+* Klar: Das Argument mit Monaden oder CAHA zeigt, dass I-förmige Limiten
+  die Existenz von I-förmigen Kolimiten zeigen. (E^op = CAHA(E).)
+
+* Es funktioniert auch umgekehrt: http://mathoverflow.net/a/201749/31233
+
+  The gist of the construction is the following. Let E be an elementary
+  topos which has I-indexed coproducts. Then it also has I-indexed
+  products. To verify this, let an I-indexed collection (X_i)_i of objects
+  in E be given. By the existence of I-indexed coproducts, we can form
+  the object (coprod_i X_i) and consider the morphism
+
+      coprod_i X_i ---> coprod_i 1.
+
+  The codomain consists of |I| copies of the terminal object 1.
+
+  In an elementary topos, one can always construct the object of sections
+  of a given morphism A --> B, by carving out a suitable subobject of the
+  internal Hom(B,A).
+
+  One can now verify that the object of sections of (coprod_i X_i -->
+  coprod_i 1) enjoys the universal property of the product of the X_i's.
+  (Naively, such a section associates to any element i of I an element of X_i,
+  so it's given by an element of the product of the X_i's.)
+
+
 === Lokale Topoi
 
 * Ein Topos E --> Set ist genau dann lokal (über Set), wenn gamma_* (globale
