@@ -32,6 +32,13 @@ Stack (Selbstindizierung von C).
   Die Koeffizienten dieses Polynoms liegen alle in A^G.
 
 
+=== Algebraische Stacks
+
+http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Sept15-17%28stacks%29.pdf
+
+Tolle Diskussion von algebraischen Räumen und algebraischen Stacks.
+
+
 === Höhere Stacks
 
 * https://www.imj-prg.fr/~gabriele.vezzosi/seminar/notes.pdf
