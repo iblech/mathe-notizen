@@ -399,6 +399,11 @@ für geometrische Formeln phi über X:
 * ???: Garbe der differenzierbaren/glatten Funktionen.
 * ???: Garbe der holomorphen Funktionen. Aus interner Sicht diskret!
 
+* Mehr zu den glatten Funktionen:
+  http://www.numdam.org/article/CTGDC_1975__16_3_217_0.pdf
+  Fourman, Comparaison des reels d'un topos structures lisses sur un topos
+  elementaire
+
 
 === Eigenschaften konstanter Garben
 

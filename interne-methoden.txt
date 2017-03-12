@@ -663,6 +663,13 @@ Sei j eine Lawvere-Tierney-Topologie.
   Also ist i^{-1,pre} schon eine Garbe auf X_j. Garbifizierung ändert sie also
   nicht mehr.
 
+* Mike Shulman auf Seite 29 von https://arxiv.org/pdf/1703.03007.pdf:
+  Eine Menge A ist genau dann eine negneg-Garbe, falls die kanonische Abbildung
+
+      A ---> ([|phi|] --> A)
+
+  für alle negneg-stabilen Aussagen phi bijektiv ist.
+
 
 === Modale Operatoren
 
