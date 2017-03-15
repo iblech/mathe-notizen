@@ -4,3 +4,10 @@
 * Inwieweit verhält sich omega_1 ähnlich wie omega_1^CK?
 * Finde man heraus, was es mit ordinal strength und so zu tun hat.
   http://www.icm2006.org/proceedings/Vol_II/contents/ICM_Vol_2_03.pdf
+
+
+=== New Foundations
+
+* Die Kategorie Set in NF ist leider nicht kartesisch abgeschlossen.
+  Wow. Sonst hätte man vielleicht fragen können, ob NF ein guter Rahmen ist, um
+  ohne Grothendieckuniversen & Co. Garbenkohomologie betreiben zu können.
