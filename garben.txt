@@ -49,8 +49,9 @@
 
       U |--> prod_{x in U} E_x
 
-  welk. Sie lässt sich als i_* i^(-1) E verstehen, wobei i die Inklusion
-  X_diskr --> X ist. So erhält man eine funktorielle Einbettung.
+  welk (und sogar injektiv als Garbe von Mengen). Sie lässt sich als i_* i^(-1)
+  E verstehen, wobei i die Inklusion X_diskr --> X ist. So erhält man eine
+  funktorielle Einbettung.
 
   Das lässt sich intern nachbauen, wenn man sich erlaubt, X_diskret als interne
   Örtlichkeit in Sh(X) zu kennen. Ich weiß nicht, wie das intrinsisch gehen
