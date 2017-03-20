@@ -85,6 +85,16 @@
   Mir ist nicht klar, ob das auch mit der anderen (konstruktiv vielleicht
   besseren) Definition von Welkheit funktioniert.
 
+  Mit der besseren Definition kann ich zeigen: Die Garbe der Urbilder eines
+  gegebenen Schnitts aus H(X) ist welk.
+
+  Geht sogar intern: Sei z : H. Definiere A := { y : G | beta(y) = z }.
+  Sei K <= A ein Subsingleton. Da beta surjektiv ist, gibt es ein y_0 : G
+  mit beta(y_0) = z. Es ist K - y_0 ein Subsingleton. Da alpha injektiv ist,
+  ist auch alpha^{-1}(K - y_0) ein Subsingleton. Somit existiert x : F
+  mit alpha^{-1}(K - y_0) <= { x }. Damit lässt sich zeigen, dass
+  K <= { y_0 + alpha(x) }.
+
 
 === Garbenhom
 
