@@ -349,7 +349,7 @@ colim_{a <= a'} F(a').
 
 === Ouvertheit
 
-* Eine Örtlichkeit X ist genau dann ouvert, wenn der eindeutige Morphismus
+* Eine Örtlichkeit X ist genau dann ouvert/overt, wenn der eindeutige Morphismus
   X --> 1 offen ist, wenn also Omega --> Ouv(X) einen (automatisch monotonen)
   Linksadjungierten f_! besitzt, der die Frobenius-Bedingung erfüllt:
 
@@ -387,6 +387,29 @@ colim_{a <= a'} F(a').
   Bei Spec(A) gilt aber nur "<==". Die Aussage sieht dann nämlich so aus:
 
       forall i: 1 = 0 oder phi_i   <==>   1 = 0 oder forall i: phi_i.
+
+  Genauer: Es ist Spec(A) genau dann ouvert, wenn Nilpotenz in Spec(A)
+  entscheidbar ist.
+
+  "<==": Wir definieren: Ein Radikalideal ist genau dann positiv, wenn
+  es ein nicht-nilpotentes Element enthält. Dann die Bedingungen nachprüfen.
+
+  "<==": Wenn sqrt((f)) > 0, dann ist f nicht nilpotent. (Denn falls f
+  nilpotent ist, ist sqrt((f)) Supremum der leeren Menge.) Somit:
+
+      sqrt((f)) <= sup { T | sqrt((f)) > 0 }
+          <= sup { T | f ist nicht nilpotent }
+           = { x | x nilpotent oder f nicht nilpotent }.
+
+  Also ist f nilpotent oder nicht nilpotent.
+
+  Falls Spec(A) ouvert ist, gilt:
+
+      bigwedge_i (f nilpotent oder phi_i)
+          ==> (f nilpotent oder bigwedge_i phi_i).
+
+  Diese Bedingung wird von der Entscheidbarkeit der Nilpotenz impliziert,
+  und impliziert umgekehrt diese, falls zumindest Gleichheit entscheidbar ist.
 
 * Ein Raum ist genau dann positiv, wenn für alle Wahrheitswerte phi gilt:
 
