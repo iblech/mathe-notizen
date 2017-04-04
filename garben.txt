@@ -139,6 +139,19 @@
 
   Der Rest geht genauso durch.
 
+* Sei 0 --> E' --> E --> E'' --> 0 eine kurze exakte Sequenz.
+  Sei E' welk. Dann ist für z : E'' die Garbe der Urbilder von z
+  welk (insbesondere besitzt sie einen globalen Schnitt, wenn das Auswahlaxiom
+  zur Verfügung steht).
+
+* Der Pushforward einer welken Garbe ist welk. Ist mir nicht klar, wie
+  man das intern zeigen sollte. Unter Verwendung von Teilmengen wie
+  { x in X | K ist bewohnt } kann man schon die Voraussetzung nutzen.
+  Aber nicht auf eine Art und Weise, die zu helfen scheint.
+
+* Darstellbare Garben wie Hom(__, U) sind tendenziell nicht injektiv oder
+  welk (haben keine globalen Schnitte).
+
 
 === Zurückziehen
 

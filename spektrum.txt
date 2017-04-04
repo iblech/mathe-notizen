@@ -853,7 +853,7 @@ extern der Menge der offenen Teilmengen von X:
 * Achtung: Sei B ein lokaler Ring in Spec(A) zusammen mit einem Homo
   AA --> B. Dann stimmt es im Allgemeinen *nicht*, dass es einen lokalen Homo
   O_{Spec A} --> B in Spec(A) gibt. Im Allgemein muss man noch mit einer
-  geeigneter topologischen Abbildung zurückziehen.
+  geeigneten topologischen Abbildung zurückziehen.
 
 * Witzig: A --> O_{Spec(A)} ist sogar eine Lokalisierung (nämlich Invertierung
   der Elemente im generischen Filter), obwohl man das nicht vorab gefordert hat.
