@@ -159,7 +159,7 @@ offenabgeschlossenen Teilmengen. Stichwort Stone-Dualität.
 
 * Die Kategorie (Aff /^lveP S) ist wesentlich klein. Denn: Ist X --> S
   ein Objekt aus dieser Kategorie, so wissen wir: Es gibt eine
-  Überdeckung X = bigcup_i V_i und Überdeckung f^{-1}[V_i] = bigcup_j
+  Überdeckung S = bigcup_i V_i und Überdeckung f^{-1}[V_i] = bigcup_j
   U_ij sodass die Ringhomos O_S(V_i) --> O_X(U_ij) alle von endlicher
   Präsentation sind. Für die O_X(U_ij) gibt es also nur Mengen-viele
   Möglichkeiten. Der Ring O_X(X) hat also die Eigenschaft, eine

@@ -1247,8 +1247,6 @@ homogenen Elementen von F.
   Spec A_groß bauen (als Örtlichkeit). Die Einschränkung auf Sh(S) könnte
   irgendwas interessantes sein. Was?
 
-* Universelle Eigenschaft über Örtlichkeiten formulieren!
-
 * Naive Definition der Strukturgarbe, welche ja falsch ist, durch ein
   explizites Beispiel ein für alle Mal erledigen.
 
