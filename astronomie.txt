@@ -1,0 +1,12 @@
+=== Navigation
+
+"And this gave the first practical method of determining longitude, one of the
+most pressing scientific problems of 17th century. Jupiter satellites made
+possible determination of longitude only on land, because you need a telescope
+to see them, and a telescope cannot be installed on a ship. Solution of
+longitude problem at sea had to wait for another century, and was obtained in
+two ways: a) mathematicians managed to predict Moon's motion, using Newton's
+laws and advances in mathematics, and b) chronometer was invented. (A lot of
+mathematics was used in both cases, especially for the Moon motion)."
+
+http://hsm.stackexchange.com/a/5811/3902

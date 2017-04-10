@@ -208,6 +208,13 @@ Achtung, hier klassische Logik benutzt!
 * Diodoreanische Modalität in Minkowski-Raumzeit (in Goldblatts Buch)
 
 
+=== Induktive Logik
+
+https://books.google.it/books?id=oxxaRUjhD_QC&printsec=frontcover#v=onepage&q&f=false
+Handbook of the History of Logic: Inductive logic
+herausgegeben von Dov M. Gabbay, John Hayden
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?
