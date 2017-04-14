@@ -191,6 +191,7 @@ Man beachte, dass V |-> V wedge U *kein* Kern auf L ist.
 
 Siehe auch http://www.emis.de/journals/AM/06-4/pultr.pdf für ein paar
 (offensichtliche) Rechenregeln zur Heyting-Implikation.
+(Übrigens: (a --> b) = sup { u | u wedge a <= b }.)
 
 Ist j der Kern zu einer offenen Unterörtlichkeit (das heißt nach Definition,
 dass j beliebige Infima und die Heyting-Implikation erhält), so kann man j
@@ -423,12 +424,15 @@ colim_{a <= a'} F(a').
 
 === Schnitt von Örtlichkeiten
 
-Sei (Box_i)_i eine Folge modaler Operatoren. Der modale Operator Box, der
+Sei (Box_i)_i eine Familie modaler Operatoren. Der modale Operator Box, der
 zum Schnitt der zugehörigen Unterörtlichkeiten gehört, lässt sich explizit so
 angeben:
 
     Box(alpha) := forall phi.
         ((forall i. Box_i(phi) ==> phi) wedge (alpha ==> phi)) ==> phi.
+    (Das ist mehr oder weniger dieselbe Formel, die der Fixpunktsatz von
+    Knaster--Tarski liefert, angewendet auf die Operation (phi |--> phi vee
+    bigvee_i Box_i(phi)).)
 
 * Dieser Operator ist der kleinste mit der Eigenschaft, dass für alle phi
   und alle i Box_i(phi) Box(phi) impliziert.
@@ -641,6 +645,50 @@ Theorie, nämlich "die Theorie ihrer Punkte".
   T'' = { top |- bigvee_{psi mit psi |- phi_i für alle i} psi }!
 
   T'' beweist die Axiome von T'. Also Thm(T') <= Thm(T'').
+
+* Sei T' = { alpha_i |- beta_i }_i.
+
+  Dann j([phi]) =
+      mu_{>= phi}(psi |-->
+          psi  vee  bigvee_i bigvee_{chi mit beta_i wedge chi |- psi} (chi wedge alpha_i)) =
+      mu_{>= phi}(psi |-->
+          psi  vee  bigvee_i (alpha_i wedge (beta_i --> psi))) =
+      -- falls I = 1
+      (psi vee alpha) wedge (beta --> psi)
+      -- diese Formel ergibt auch Sinn: (alpha --> beta) = alpha^c vereinigt beta
+
+  Dann: omega |-_{T cup T'} phi  gdw.  omega |-_T j(phi).
+
+  "<==": Definiere h : L(T) --> L(T cup T'), [eps] |--> [eps].
+  Dann folgt die Behauptung über das Beweisprinzip des kleinsten Fixpunkts
+  (theoretische-informatik.txt), sobald man sich klargemacht hat, dass:
+
+      psi  vee  bigvee_i (...)  |-_{T cup T'}  psi.
+
+  "==>": Weil j ein Kern ist (das sollte man noch nachweisen), macht
+  "*** |-_T j(***)" die Schlussregeln geometrischer Logik mit. Die Axiome von T
+  macht das auch mit. Und die Axiome von T' auch! Damit ist alles gezeigt.
+
+  Man kann j auch ohne mu beschreiben, denn j ist der modale Operator, der zum
+  Schnitt von all den Örtlichkeiten, die zu Box_i mit
+
+      Box_i(phi) = (alpha_i vee phi) wedge (beta_i --> phi)
+
+  gehört.
+
+* Im Übrigen in die Lindenbaum-Algebra einer propositionalen geometrischen
+  Theorie T auch ohne das Auswahlaxiom wirklich ein Rahmen. Mit Auswahlaxiom
+  kann man schick sagen:
+
+      sup_i x_i = [bigvee_i phi_i], wobei x_i = [phi_i].
+
+  Ohne geht es so:
+
+      sup_i x_i = [bigvee { phi | exists i: x_i = [phi_i] }].
+
+  Im Übrigen hat man eine kanonische Form:
+
+      x = [bigvee { phi | x -||- phi }].
 
 
 === Bewohntheitsunterraum

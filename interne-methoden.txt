@@ -1466,6 +1466,8 @@ Beispiel:
   Modulgarbe in einer kurzen exakten Sequenz, in denen die anderen beiden
   Modulgarben quasikohärent sind, quasikohärent ist.
 
+  Ganz einfach für Kerne und Kokerne: Lokalisieren ist exakt.
+
 * Untermodulgarben von quasikohärenten Modulgarben, welche von endlichem Typ
   sind, sind quasikohärent. Denn der zugehörige Quotient ist es (einfach
   weitere Relationen).

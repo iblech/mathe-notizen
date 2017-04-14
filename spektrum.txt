@@ -42,9 +42,9 @@ geringten distributiven Verband.
 
 * sqrt(a cap b) = sqrt(a) cap sqrt(b) = sqrt(a * b).
 
-* (a --> b) = (b : a) = { x | xa <= b }.
+* (a --> b) = (b : a) = { x | xa <= b }.  (Idealquotient)
   (Für beliebige Ideale, nicht unbedingt Radikalideale, gilt:
-  c <= (sqrt(a) : b)  <==>  c cap b <= sqrt(a).
+  c <= (sqrt(a) : b)  <==>  c cap b <= sqrt(a).)
 
 * Für ein Radikalideal a ist die Menge
 
@@ -921,6 +921,21 @@ pseudokohärent, wenn
 
   Vielleicht ist ein Modul genau dann quasikohärent, wenn er eine Box-Garbe
   ist. Das habe ich nicht mehr weiter untersucht.
+
+* Kann den Pseudokohärator auch ohne Rückgriff auf kleinste Fixpunkte
+  beschreiben. Nämlich so:
+
+      Coh(J) = bigcap_K
+          (K : ((K : J) cap bigcap_f (K : Box_f(J)))),
+
+  wobei Box_f(J) = das von den Elementen aus J und den Elementen der Form
+  fs, wobei (f inv ==> s in J), erzeugte Wurzelideal.
+
+  Das folgt aus der Darstellung von Coh als modaler Operator zum Schnitt von
+  Örtlichkeiten. Man kann sogar noch den Faktor "(K : J)" weglassen, denn der
+  ist schon bei f = 1 enthalten. Also:
+
+      Coh(J) = bigcap_K (K : bigcap_f (K : Box_f(J))).
 
 
 === Spektrum von triangulierten Tensorkategorien
