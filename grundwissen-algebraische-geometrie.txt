@@ -1592,6 +1592,10 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
   monomorphism if and only if the map of underlying functors is a
   monomorphism." http://mathoverflow.net/a/14585/31233
 
+* Ein Morphismus in Aff ist genau dann ein Mono, wenn er in Sch ein Mono ist.
+  Die Rückrichtung ist klar. Die Hinrichtung passt, weil Aff eine reflektive
+  Unterkategorie von Sch ist.
+
 * Ist Aff/X filtriert?
 
 * http://math.jhu.edu/~banerjee/duality.pdf enthält einen schönen

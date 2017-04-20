@@ -125,6 +125,29 @@ sein.
 
 * Sei a ein Punkt im Abschluss von x.
   Dann enthält jede offene Teilmenge, die a enthält, auch x.
+  Außerdem enthält jede abgeschlossene Menge, die x enthält, auch a.
+
+* Sei f : X --> Y eine stetige Abbildung.
+  Seien a, x in X mit a in cl{x}.
+  Dann gilt auch: f(x) in cl{f(x)}.
+  Das sieht man mit der Beschreibung des Abschlusses als Schnitt.
+
+* Sei f : Spec(A) --> S mit A lokal. Sei U eine offene Umgebung von f(m).
+  Dann faktorisiert f über U. Das sieht man mit der vorherigen Beobachtung.
+  Zudem faktorisiert f sogar über Spec(O_{S,f(m)}). Das sieht man durch
+  Reduktion auf den affinen Fall.
+
+  Ist S nur ein LRS, so gibt es immer noch einen Morphismus Spec(A) -->
+  Spec(O_{S,{f(m)}), von f^# induziert. Aber im Allgemeinen gibt es keinen
+  Morphismus Spec(O_{S,{f(m)}) --> S, etwa wenn S = C. Dann enthält das
+  Spektrum mindestens zwei Punkte, von denen einer komisch ist.
+
+  Der Ringmorphismus O_{S,f(m)} --> A ist lokal.
+
+  Übrigens ist Spec(O_{S,f(m)}) --> S, oder allgemeiner Spec(B_p) --> Spec(B),
+  ein Mono in Sch, weil B --> B_p ein Epi in Ring ist.
+
+  Folglich faktorisiert f eindeutig über Spec(O_{S,f(m)}) --> S.
 
 * Sei X ein Schema lokal von endlichem Typ über einem Körper k und U eine
   offene Umgebung eines Punkts x. Dann gibt es eine affinoffene Umgebung V von x,
