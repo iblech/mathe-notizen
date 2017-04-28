@@ -225,6 +225,13 @@ expressed in our system.
 
       (forall x. (u <= x und (phi(x) <= y)) ==> phi(f(x)) <= y)  ===>  phi(mu_{>= u}(f)) <= y.
 
+* Ein Spezialfall: Sei P(x) eine Aussagefamilie über x in X.
+  Gelte P(x) ==> P(x') für x <= x' und P(sup_i x_i) <==> bigvee_i P(x_i).
+  (Die Monotonie folgt schon aus der Supremumsbewahrung.) Dann:
+
+      (forall x. (u <= x und P(x) ==> Q) ==> (P(f(x)) ==> Q))  ===>
+          (P(mu_{>= u}(f)) ==> Q).
+
 * Bessere Prinzipien für den größten Fixpunkt: POPL'13, The power of parameterization in
   coinductive proof. http://plv.mpi-sws.org/paco/
 

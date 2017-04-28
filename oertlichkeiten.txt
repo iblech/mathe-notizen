@@ -716,6 +716,36 @@ Eine Idee ist zum Beispiel, den Dualraum durch eine Dualörtlichkeit zu
 ersetzen. Dann funktioniert Hahn--Banach.
 
 
+=== Lindenbaum-Algebra einer geometrischen Theorie
+
+* Die Lindenbaumalgebra der leeren Theorie ist isomorph zu Omega.
+  Der Iso schickt [phi] auf den Wahrheitswert [[ top |- phi ]].
+  Seine Umkehrung schickt einen Wahrheitswert psi auf die Äquivalenzklasse
+  [bigvee { top | top |- psi }].
+
+  Um das zu beweisen, geht man wie folgt vor:
+
+  * Eine Induktion über den Formelaufbau zeigt:
+
+        phi -||- bigvee { top | top |- phi }.
+
+    Dabei ist "-|" trivial.
+
+  * Eine Induktion über den Beweisaufbau zeigt:
+
+        alpha |- beta  genau dann, wenn  (top |- alpha) ==> (top |- beta).
+
+  * Dann zeigt man noch folgende verwandte Aussage:
+
+        bigvee { top | phi } |- bigvee { top | psi }  gdw.  phi ==> psi.
+
+    Genauer: Für jede Sequenz gibt es eine Möglichkeit, linke und rechte Seite
+    bis auf ableitbare Äquivalenz in obige Form zu bringen, sodass dann phi psi
+    impliziert.
+
+    Damit folgt insbesondere die Disjunction Property.
+
+
 === Literatur
 
 * Klar: Johnstone (zwei Einführungsartikel, Stone Spaces, Elephant)
