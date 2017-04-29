@@ -139,6 +139,12 @@ Kategorien    präs'bare Kat.        Topoi
   Sollte das eigentlich wissen.
 
 
+=== Geometrische Morphismen über Örtlichkeiten
+
+* Christopher Townsend. Representing Geometric Morphisms Using Power
+  Locale Monads.
+
+
 === Kategorielle Grundtatsachen
 
 * Ein Rahmenhomo ist genau dann ein Iso, wenn er surjektiv ist
