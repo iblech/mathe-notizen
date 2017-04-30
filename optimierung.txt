@@ -35,3 +35,8 @@ http://crookedtimber.org/2012/05/30/in-soviet-union-optimization-problem-solves-
 === Varianten des Gradientenabstiegverfahrens
 
 http://sebastianruder.com/optimizing-gradient-descent/
+
+
+=== Compressed Sensing
+
+https://mathoverflow.net/a/178210/31233

@@ -215,6 +215,11 @@ Handbook of the History of Logic: Inductive logic
 herausgegeben von Dov M. Gabbay, John Hayden
 
 
+=== Prädikative Zahlentheorie
+
+https://web.math.princeton.edu/~nelson/books/pa.pdf
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?

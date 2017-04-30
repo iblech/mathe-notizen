@@ -18,6 +18,11 @@ Michael Harris. Do androids prove theorems in their sleep?
 https://www.imj-prg.fr/~michael.harris/androids.pdf
 
 
+=== Euler: xyz(x+y+z) = a
+
+http://www.math.harvard.edu/~elkies/euler_14t.pdf
+
+
 === Grothendieck
 
 * http://www.thebigquestions.com/tohoku.pdf
@@ -36,3 +41,8 @@ http://andrescaicedo.files.wordpress.com/2014/03/olga-taussky-how-i-became-a-tor
   nehmen: Abbildungen, die als Funktionsterm wie die Identität aussehen, können
   auf Homologie ganz andere Abbildungen induzieren.
   http://mathoverflow.net/a/131106/31233
+
+
+=== Überraschungen
+
+https://rjlipton.wordpress.com/2009/09/27/surprises-in-mathematics-and-theory/
