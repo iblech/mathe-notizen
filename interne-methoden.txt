@@ -2372,6 +2372,14 @@ Schön!
   mit der externen: K(P^1) = Z^2, aber aus interner Sicht ist es nur Z.
 
 
+=== Kategorie der Schemata als volle Unterkategorie der Topoi
+
+* Keine Ahnung.
+
+* Aber: Kann sowas sagen wie "F --> E muss von der Form E/A --> E sein,
+  wobei A aus interner Sicht ein qcqs Schema ist".
+
+
 === Relevante MO-Fragen
 
 * http://mathoverflow.net/questions/2314/several-topos-theory-questions
