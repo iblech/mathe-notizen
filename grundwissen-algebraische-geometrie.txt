@@ -625,7 +625,7 @@ darauf gestoßen.
 
 === Rationale Punkte
 
-* Jedes quasikompakte Schema besitzt einen abgeschlossenen Punkt.
+* Jedes nichtleere quasikompakte Schema besitzt einen abgeschlossenen Punkt.
   http://www.math.utah.edu/~schwede/Papers/SchemeWithoutPoints.pdf, Seite 12.
 
 * Jeder Morphismus Spec K --> X faktorisiert über Spec k(x) --> X,
