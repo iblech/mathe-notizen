@@ -1253,6 +1253,16 @@ homogenen Elementen von F.
   Metatheorie.
 
 
+=== Ringe ohne Filter
+
+* In E := [Ring^fp, Set], oder auch in [Alg(k)^fp, Set], hat A^1 keine
+  Filter. Genauer gilt:
+
+  * E |== neg (A^1 besitzt einen Filter)
+  * E |== neg neg (1 = 0)
+  * E |== neg neg (Spec(A^1) ist trivial)
+
+
 === Nächste Schritte
 
 * Produziere explizites Gegenbeispiel für vermutlich falsche Behauptung,
