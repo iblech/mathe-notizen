@@ -398,3 +398,13 @@ feststellen! Der Bool
 
 ist True (unabhängig davon, in welcher Reihenfolge die vier Setzungen
 ausgewertet werden).
+
+
+=== Universelle Maschine
+
+http://jdh.hamkins.org/a-program-that-accepts-any-desired-finite-set-in-the-right-universe/
+
+Es gibt eine Turingmaschine M, sodass für jede Funktion f : N --> N (auch für
+die unberechenbaren) ein Modell von PA (oder ZFC) existiert, sodass für alle
+natürlichen Zahlen n gilt, dass in U die Maschine M bei Eingabe von n hält und
+das Ergebnis f(n) liefert.

@@ -83,3 +83,8 @@
 * femtable.org!
 
 * Fettes Dankeschön an Christian Lehmann.
+
+
+=== Newtonsche Dynamik
+
+* http://gminton.org/#gravity
