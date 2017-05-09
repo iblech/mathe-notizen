@@ -244,6 +244,24 @@ Quelle für das alles: nLab.
   ein Epi. Also ist a = b.
 
 
+=== Ein Lemma über Faserprodukte
+
+In der Situation
+
+    E
+    |
+    |
+    v
+   A x_O k ----> A
+    |            |^
+    |            | \  mit (k --> A --> k) = id
+    |            | /
+    v            v/
+    O ---------> k
+
+gilt: E x_{O x_k A} O = E x_A k.
+
+
 === Reguläre Epimorphismen
 
 Angeblich sind reguläre Epis in der Kategorie der Ringe genau die surjektiven
