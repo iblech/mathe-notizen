@@ -4,6 +4,9 @@
 * Berechenbare Mathematik = Realisierbarkeitsinterpretation konstruktiver Mathematik
   http://math.andrej.com/data/c2c.pdf
 
+* Mal lesen: https://arxiv.org/pdf/1511.01113.pdf
+  "Unreliability of the logical principles"
+
 
 === Lustige Situation in Ringen
 
