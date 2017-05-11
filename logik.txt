@@ -220,6 +220,11 @@ herausgegeben von Dov M. Gabbay, John Hayden
 https://web.math.princeton.edu/~nelson/books/pa.pdf
 
 
+=== Russel konstruktiv statt imprädikativ
+
+http://staff.math.su.se/palmgren/CERRTT.pdf
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?
