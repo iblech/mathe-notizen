@@ -11,3 +11,9 @@
 * Die Kategorie Set in NF ist leider nicht kartesisch abgeschlossen.
   Wow. Sonst hätte man vielleicht fragen können, ob NF ein guter Rahmen ist, um
   ohne Grothendieckuniversen & Co. Garbenkohomologie betreiben zu können.
+
+
+=== Ein einfaches Maximalitätsprinzip
+
+"Alles, was erzwingbar ist und nicht nachträglich antierzwingbar ist, ist
+wahr." Joel David Hamkins, A Simple Maximum Principle.
