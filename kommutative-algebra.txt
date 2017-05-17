@@ -2014,6 +2014,11 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
 
   Das Element (b_i)_i geht dann auf Null und besitzt daher ein Urbild.
 
+  Die ursprüngliche Quelle dafür ist
+  http://archive.numdam.org/item/SAC_1967-1968__2__A2_0, verlinkt von Martin
+  Brandenburg bei
+  https://mathoverflow.net/questions/86923/elements-in-a-localization-category-theoretic-approach.
+
 * V^ tensor W^ --> (V tensor W)^ ist ein Iso, falls einer der beiden Moduln
   endlich frei ist.
 
