@@ -1213,7 +1213,7 @@ homogenen Elementen von F.
   Gelte V(a) <= bigcup_i V(b_i)  (endlich erzeugte Ideale).
   Es genügen endlich viele Indizes. Es folgt:
 
-      bigcup_{k_1} ... bigcup_{k_n} bigcap_i D(b_{i,k_i}) <= D(A),
+      bigcup_{k_1} ... bigcup_{k_n} bigcap_i D(b_{i,k_i}) <= D(a),
           wobei b_i = (b_{i,k})_k.
 
   Also kann man für alle k_1, ..., k_n ableiten:
@@ -1238,6 +1238,13 @@ homogenen Elementen von F.
 * D(x) cap V(y_1) cap ... cap V(y_n) <=
     bigcap_j (bigvee_i D(a_ji) cup V(b_j))  genau dann, wenn
       für alle j: x b_j in sqrt((y_k)_k + (a_ji)_i).
+
+* bigcup_{i=1}^n (D(a_i) cap V(b_i)) = Spec(A)
+    <==> für alle I <= {1,...,n}: bigcup_{i in I} D(a_i) cup V(bigcap_{j nicht in I} b_j) = Spec(A)
+    <==> für alle I <= {1,...,n}: D(bigcap_{j nicht in I} b_j) <= bigcup_{i in I} D(a_i)
+    <==> für alle I <= {1,...,n}: bigcap_{j nicht in I} b_j <= sqrt(sum_{i in I} a_i)
+    <==> für alle I <= {1,...,n}:
+              Die Erzeuger von prod_{j nicht in I} b_j liegen alle in sqrt(sum_{i in I} a_i).
 
 * Krass: Die Theorie mit D+V+Komplement ist konservativ über der Theorie mit D.
   In folgendem Sinn: Eine Sequenz der Theorie mit D lässt sich genau dann in
