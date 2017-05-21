@@ -1090,6 +1090,25 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
 * Tag 00F4: Sei A --> R --> S. Ist A --> S von endlicher Präsentation
   und ist A --> R von endlichem Typ, so ist R --> S von endlicher Präsentation.
 
+* Sei (x_1,...,x_n) ein Erzeugendensystem für einen Modul M mit
+  Präsentationsmatrix P. Sei (y_1,...,y_m) ein weiteres Erzeugendensystem.
+  [ Dass P Präsentationsmatrix ist, bedeutet: P^T x = 0 und [v^T x = 0 ==> v in im(P)]. ]
+
+  Dann gibt es eine (n x m)-Matrix B mit By = x. (Diese Bedingung stellt auch
+  schon sicher, dass (y_1,...,y_m) ein Erzeugendensystem ist.) Analog gibt es
+  eine (m x n)-Matrix C mit Cx = y.
+
+  Eine Präsentationsmatrix für (y_1,...,y_m) ist dann
+
+        Q := (B^T P | 1 - B^T C^T).
+
+  Denn: Q^T y = (P^T B y, y - CBy) = (0, 0), und ist w mit w^T y = 0 beliebig,
+  so gilt:
+
+      0 = w^T y = w^T C x = (C^T w)^T x = 0,
+          also C^T w = P u für ein u,
+          somit w = (1 - B^T C^T) w + B^T P u.
+
 
 === Endlichkeitseigenschaften von Algebren
 
@@ -1229,9 +1248,18 @@ Sei M eine quadratische Matrix über einem Ring.
   (2) B ganz und als Algebra endlich erzeugt über A.
 
   Beweis:
-  (1) ==> (2): Ganzheit folgt aus Cayley-Hamilton.
+  (1) ==> (2): Ganzheit folgt aus Cayley--Hamilton.
   (2) ==> (1): Brauche wegen Ganzheitsgleichungen nicht beliebige Potenzen der
   Erzeuger.
+
+  Es gilt auch: Ist B als A-Modul endlich präsentiert, so ist B als A-Algebra
+  endlich präsentiert und ganz. (Nimm ein Erzeugendensystem (x_1,...,x_n) von B
+  als A-Modul. Sei der Relationenmodul von sum_i a_ij x_i = 0 erzeugt. Finde
+  Koeffizienten 1 = sum_i b_i x_i und x_i x_j = sum_k c_ijk x_k. Dann ist B
+  als A-Algebra isomorph zu A[X_1,...,X_n]/(...alle aufgeführten Dinge mit
+  Großbuchstaben...).
+
+  Gilt auch die Rückrichtung? Glaube eher nicht.
 
 * Sei B als Modul endlich über A. Sei A in B ganz abgeschlossen. Dann ist B = A:
   Sei z in B. Dann ist z Nullstelle des charakteristischen Polynoms einer
@@ -1890,6 +1918,33 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   Moduln stets flach.)
   http://cupid.economics.uq.edu.au/mclennan/Algebra/fac_trans.pdf, Thm. B9.11,
   Seite 90.
+
+  Ein konstruktiver Beweis funktioniert so.
+
+  Sei (x_1,...,x_n) ein Erzeugendensystem mit Präsentationsmatrix P.
+  Da (P e_1)^T x = 0, finden wir B und y mit (P e_1)^T B = 0 und B y = x.
+  Es ist also y ein neues Erzeugendensystem mit Präsentationsmatrix
+  (B^T P | 1 - B^T C^T), wobei C eine Matrix mit C x = y ist. Die erste Spalte
+  von B^T P ist Null.
+
+  Dann verwenden wir die Flachheit für die Relation (B^T P e_2)^T y = 0.
+  So finden wir ein neues Erzeugendensystem mit Präsentationsmatrix
+  (B'^T B^T P | 1 - B'^T B^T C^T C'^T). Die ersten beiden Spalten von B'^T B^T P
+  sind Null.
+
+  Auf diese Weise können wir immer weiter machen. Schlussendlich erhalten wir
+  ein Erzeugendensystem mit Präsentationsmatrix (B^T P | 1 - B^T C^T) (nach
+  Umbenennung) und B^T P = 0. Da B C x = x, ist C^T B^T - 1 von der Form P V
+  für eine Matrix V. Somit ist 1 - B^T C^T eine Projektionsmatrix:
+
+      (1 - B^T C^T)^2 = 1 - B^T C^T - B^T C^T + B^T C^T B^T C^T = 1 - B^T C^T.
+                                                \   \-----/
+                                                 \    PV+1
+                                                  ----/
+                                                    0
+
+  Somit wird der Modul durch die idempotente Matrix (1 - B^T C^T) präsentiert.
+  Also ist der Modul projektiv.
 
 
 === Flache Moduln
