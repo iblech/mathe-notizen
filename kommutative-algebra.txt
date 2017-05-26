@@ -1142,6 +1142,16 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
 
   Dann ist R[A_i, X_l sodass x_l vorkommt]/(...) kanonisch isomorph zu S.
 
+* Sei eine A-Algebra B durch (x_1,...,x_n) erzeugt mit Relationenideal
+  (f_1,...,f_l). Sei B auch durch (y_1,...,y_m) erzeugt.
+
+  Dann gibt es Polygnome g_j in A[X_1,...,X_n] mit g_j(vec x) = y_j.
+  Umgekehrt gibt es Polynome h_i in A[Y_1,...,Y_m] mit h_i(vec y) = x_i.
+
+  Das Relationenideal für das EZS (y_1,...,y_m) ist dann
+
+      (f_k(h_*(vec Y)), Y_j - g_j(h_*(vec Y))).
+
 
 === Endlichkeitseigenschaften von Körpern
 
@@ -1335,6 +1345,14 @@ Sei M eine quadratische Matrix über einem Ring.
       R     = Z[A_i, D_jk]
       Omega = (Zerfällungsalgebra von sum_i A_i X^i)/(die D_jk sind
       Koeffizienten von Ganzheitsgleichungen für die Nullstellen von sum_i A_i X^i)
+
+
+=== Noether-Normalisierung konstruktiv
+
+* Ist f ein Polynom in mehreren Variablen, kann man durch einen
+  Automorphismus erreichen, dass der Leitkoeffizient des Polynoms, aufgefasst
+  als Polynom in der letzten Variable, ein Element des Grundrings ist (statt
+  ein Element des um eine Variable verkürzten Polynomrings).
 
 
 === Torsion
