@@ -2351,6 +2351,21 @@ denn eps / (1 + eps f) = eps (1 - eps f) = eps.
 Schön!
 
 
+=== ph-Topologie
+
+* Vielleicht gilt für A^1 in der ph-Topologie:
+
+      Für alle Polynome f_1, ..., f_m:
+
+          alle X_i liegen in sqrt((f_j)_j)
+              oder
+          es gibt eine "nichttriviale" Lösung (damit ist gemeint, dass
+          mindestens eine Koordinate invertierbar ist).
+
+* Dieses Prinzip impliziert zumindest, dass a|b oder b|a für alle
+  a, b aus A^1. Und dass A^1 ein schwacher Integritätsbereich ist.
+
+
 === K-Theorie
 
 * Kann intern die K-Theorie von Coh(O_X) definieren. Aus externer Sicht
