@@ -113,6 +113,9 @@ haben: Sie sind initial unter allen Ringhomos K --> R zusammen mit Tupeln
 (x1,...,xn) in R, sodass f in R in das Produt der xi zerfällt. Morphismen von
 solchen Dingen müssen die Nullstellen erhalten.
 
+Habe noch mal drüber nachgedacht und bin immer noch der Meinung, dass das
+stimmt. :-)
+
 
 === Beispiel: Diskreter Körper, der nicht als faktoriell erkannt werden kann
 
