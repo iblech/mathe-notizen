@@ -697,6 +697,74 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
 * http://www.normalesup.org/~zoghaib/math/points-tt.pdf
 
 
+=== Flache Funktoren
+
+* Vor flachen Funktoren muss man echt keine Angst haben.
+
+* Geometrische Morphismen E --> Sh(C) stehen in kanonischer
+  Eins-zu-Eins-Korrespondenz zu Modellen der folgenden geometrischen Theorie.
+  
+  Sorten: je eine, F(X), für jedes Objekt X aus C
+
+  Funktionssymbole: je eins, F(f), für jeden Morphismus f in C
+
+  Axiome:
+
+  1. Funktoraxiome
+  2. Flachheit:
+     * top |- bigvee_X (F(X) bewohnt)
+     * top |-{u : F(X), v : F(Y)} bigvee_{Z, f : Z --> X, g : Z --> Y}
+                    exists w : F(Z).
+                        F(f)w = u  wedge  F(g)w = v
+     * F(f)u = F(g)u |-_{u : F(X)} bigvee_{Z, h : Z --> X, f . h = g . h}
+                    exists w : F(Z).
+                        F(h)w = u
+  3. Überdeckungsbewahrung:
+     * top |-_{u : F(X)} bigvee_i exists v : F(X_i). F(X_i --> X)v = u
+          für jede Überdeckung (X_i --> X)_i
+
+  Siehe etwa http://www.tac.mta.ca/tac/volumes/12/5/12-05.pdf.
+
+* Flache Funktoren bewahren endliche Limiten. Kann man schnell einsehen.
+  Die Voraussetzung der Freiheit (letztes Flachheitsaxiom) muss man mehrere
+  Male einsetzen.
+
+* In manchen Fällen sind flache Funktoren durch weniger Daten gegeben,
+  als es auf den ersten Blick aussieht. Etwa sind flache Funktoren F auf
+  Ring_fp^op einfach durch F(Z[X]) (zusammen mit der Ringstruktur auf dieser
+  Menge) gegeben. Das liegt daran, dass jedes Objekt aus Ring_fp^op endlicher
+  Limes von Z[X]'en ist und dass sich Morphismen nur aus polynomiellen
+  Ausdrücken zusammensetzen.
+
+
+=== Dedekindsche reelle Zahlen
+
+* Die Örtlichkeit der dedekindschen reellen Zahlen zieht sich unter
+  geometrischen Morphismen immer auf sich selbst zurück.
+
+* In einem Grothendiecktopos Sh(C) ist die Menge R der dedekindschen reellen
+  Zahlen gegeben durch die Garbe
+
+      F : A |--> Hom_Loc(LA, RR),
+
+  wobei mit "RR" die Örtlichkeit der reellen Zahlen und mit "LA" die Örtlichkeit,
+  deren Rahmen Sub(ayA) ist, wobei y die Yoneda-Einbettung C --> Sh(C)
+  und a der Garbifizierungsfunktor ist, gemeint ist.
+
+  Das kann man easy so zeigen:
+
+      R(A) = Hom_{Sh(C)}(ayA, R) = Hom_{Topoi}(Sh(C)/ayA, RR)
+           = Hom_Loc(lokalische Reflektion von Sh(C)/ayA, RR)
+           = Hom_Loc(LA, RR).
+
+
+=== Cauchysche reelle Zahlen
+
+* In lokal zusammenhängenden Topoi sind die cauchyschen reellen Zahlen
+  einfach durch Rückzug der caucyschen reellen Zahlen des Basistopos gegeben.
+  Im Elephant wird auch noch eine leicht allgemeinere Bedingung aufgeführt.
+
+
 === Nächste Schritte
 
 * Sind die Garben bezüglich der kanonischen Topologie auf einem Topos E

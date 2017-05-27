@@ -404,3 +404,16 @@ Hochgelobt von David Roberts auf MO.
   Genauer geht es hier immer um "Freiheit über einer endlichen Menge oder einer,
   die bijektiv zu N ist". Das ist auch wichtig, denn sonst können wir nicht
   folgern, dass die Modulgarbe lokal frei ist.
+
+
+=== Algebraische Abgeschlossenheit
+
+* Die dedekindschen komplexen Zahlen sind im Allgemeinen nicht algebraisch
+  abgeschlossen. Etwa nicht im Garbentopos über [0,1]. Dort sind sie gegeben
+  durch die Garbe der stetigen komplexwertigen Funktionen. Aber das Polynom
+  X^2 - w, wobei w die Funktion ist, die immer schneller und immer kleiner um 0
+  herum kreist, hat in der internen Sprache keine Nullstelle.
+
+* Die cauchyschen komplexen Zahlen sind algebraisch abgeschlossen.
+  Wim Ruitenburg. Constructing roots of polynomials over the complex numbers.
+  http://www.mscs.mu.edu/~wimr/publica/roots_new.pdf
