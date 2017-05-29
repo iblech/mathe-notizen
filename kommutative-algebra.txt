@@ -120,6 +120,20 @@
   http://math.stackexchange.com/questions/49378/simultaneous-jordanization
 
 
+=== Klassifikation von Matrizen über Z
+
+* Sei f(X) in Z[X] irreduzibel vom Grad n.
+
+  Dann ist die Menge der (n x n)-Matrizen über Z mit charakteristischem Polynom
+  gleich f(X) bis auf Ähnlichkeit isomorph zur Idealklassengruppe von Z[theta].
+
+  Die Richtung "|-->" geht so: Finde zu so einer Matrix A einen Eigenvektor in
+  Z[theta]^n zum Eigenwert theta (die Nullstellen von f(X) sind paarweise
+  verschieden, finde den Eigenvektor zunächst in Q(theta)). Dann haben wir die
+  Idealklasse [(Ideal, das von den Einträgen des Eigenvektors über Z erzeugt
+  wird)].
+
+
 === Minimale freie Auflösungen
 
 Sei S = k[x_0,...,x_n]. Habe S --> k durch Auswertung bei (0,...,0).
@@ -1296,7 +1310,12 @@ Sei M eine quadratische Matrix über einem Ring.
   als A-Algebra isomorph zu A[X_1,...,X_n]/(...alle aufgeführten Dinge mit
   Großbuchstaben...).
 
-  Gilt auch die Rückrichtung? Glaube eher nicht.
+  Auch die Rückrichtung gilt: Ist B als A-Algebra endlich präsentiert und ganz,
+  so ist B auch als A-Modul endlich präsentiert. Das ist nicht völlig trivial.
+  Tag 0564.
+
+* Sei B eine A-Algebra, die als A-Modul endlich frei ist. Sei A lokal.
+  Dann finden wir immer eine Basis, die das Einselement von B enthält.
 
 * Sei B als Modul endlich über A. Sei A in B ganz abgeschlossen. Dann ist B = A:
   Sei z in B. Dann ist z Nullstelle des charakteristischen Polynoms einer

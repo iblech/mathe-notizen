@@ -220,6 +220,9 @@ Es gilt zumindest für alle s aus X(U): chi_U(s) = U <==> U |== phi[s/x].
           wedge
       forall x : A. phi(x) = 0 ==> exists s : A. phi(s) invertierbar und sx = 0.
 
+* Für zwei endlich präsentierte Moduln/Algebren ist die Eigenschaft,
+  zueinander isomorph zu sein, geometrisch.
+
 
 === Generischer Halm
 

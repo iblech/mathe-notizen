@@ -55,6 +55,12 @@ Elementen von H^1(X, T_X).
   wird die Strukturgarbe des deformieten Raums.
 
 
+=== Obstruktionstheorie
+
+* Motto: Ersetze F erst durch injektive Auflösung. Injektive Garben sind starr.
+  So spielt sich die Deformation dann nur noch im Differential ab.
+
+
 === Referenzen
 
 * Manetti: http://www1.mat.uniroma1.it/people/manetti/dispense/defomanifold.pdf

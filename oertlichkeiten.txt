@@ -303,6 +303,8 @@ mit W' := W wedge U das gesuchte Urbild (W' in F, W' <= U wedge V).
   Wenn X ein lokal noethersches und reduziertes Schema ist, so ist X_negneg
   der Unterraum der assoziierten Punkte.
 
+* Genau dann ist eine Unterörtlichkeit X_Box dicht, wenn neg(Box(bot)).
+
 
 === Kovarianter Zugang
 

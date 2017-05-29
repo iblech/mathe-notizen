@@ -569,6 +569,11 @@ Für beliebige f und g^i gilt:
 Dabei ist (__)^h die Homogenisierung (siehe kommutative-algebra.txt).
 
 
+=== Formale Schemata
+
+* Ist sowas wie Spec(O_{X,x}) --> X ein formales Unterschema?
+
+
 === Morphismen in affine Schemata
 
 Sei f : X --> Spec A gehörig zu phi : A --> O_X(X). Dann gilt für alle x aus X:

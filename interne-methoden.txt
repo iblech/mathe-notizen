@@ -2400,6 +2400,20 @@ Schön!
   ist). Dann die Surjektivität über die Resultante charakterisieren. Fertig.
 
 
+=== Quasikohärenz im großen Topos
+
+* Sei K ein quasikohärentes Ideal in folgendem starken Sinn:
+
+      A^1/K ---> [ Spec(A^1/K), A^1 ]
+
+  ist ein Iso.
+
+  Sei J ein beliebiges Ideal. Gelte: K = (0) ==> J = (0).
+  Dann J <= K.
+
+  Denn für f aus J geht [f] auf Null.
+
+
 === K-Theorie
 
 * Kann intern die K-Theorie von Coh(O_X) definieren. Aus externer Sicht

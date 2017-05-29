@@ -29,3 +29,81 @@
 
 * Lie-Algebren als infinitesimale Lie-Gruppen.
   https://qchu.wordpress.com/2015/11/30/lie-algebras-are-groups
+
+
+=== Mail an Martin
+
+* Ich habe mal einen Kurs für OberstufenschülerInnen zu SDG gehalten.
+  Ein etwa dreißig Seiten langes Skript ist online:
+  https://rawgit.com/iblech/mathezirkel-kurs/master/thema05-sdg/blatt05.pdf
+  (Andere Unterlagen für SchülerInnen findest du unter
+  https://github.com/iblech/mathezirkel-kurs.)
+
+* Der Vortrag war inspiriert von Andrej Bauers Blogpost
+  http://math.andrej.com/2008/08/13/intuitionistic-mathematics-for-physics/
+  und seinem IAS-Vortrag https://video.ias.edu/members/1213/0318-AndrejBauer.
+
+* Die Gliederung des Vortrags hänge ich dir unten an.
+
+* Eine Berechnung des Tangentialbündels des projektiven Raums im
+  synthetischen Kontext findest du unter
+  https://pizzaseminar.speicherleck.de/grassmannsche-intern/tangent-bundle-projective-space.pdf.
+
+
+=== Motivation
+
+We want to have infinitesimals in order to ...
+
+* ... simplify calculations
+* ... be closer to intuition (for instance be able to read Sophus Lie's
+  works literally)
+* ... avoid epsilon/delta management
+
+
+=== Basic theory
+
+* Axiom of microaffinity
+* Corollary: microcancellability
+* Corollary: not (Delta = { 0 }), where Delta = { eps in R | eps^2 = 0 }
+* Definition of the derivative
+* Examples: x^2, f*g, f.g
+* Remark: eps^2 = 0 ==> not (eps invertible)
+
+
+=== Resolution of apparent paradoxes
+
+* Insight: Paradoxes ("there are obviously discontinuous maps!") rely
+  on the law of excluded middle (LEM), for instance to ensure that the domain
+  of proposed counterexamples is all of R (instead of only the subset
+  { x in R | x < 0 or x = 0 or x > 0 }).
+
+* Without LEM, it's consistent to assume the axiom of microaffinity:
+  There are models (toposes) in which the axiom of microaffinity holds
+  and in which the category of manifolds embeds into.
+
+* Illustration that derivatives as calculated by a model of SDG
+  agree with the usual, external derivatives: using Hadamard's lemma.
+
+* Well-known introspection principle: "If the formula for a function
+  contains only polynomial expressions and other functions already known
+  to be smooth, then the defined function is smooth as well."
+
+  Not so well-known introspection principle: "If a function can be
+  defined in intuitionistic mathematics (without using the law of
+  excluded middle, the law of double negation, and the axiom of choice),
+  then it is smooth."
+
+
+=== Geometry
+
+* Tangent bundle
+* Vector fields and Infinitesimal flows
+* Differential forms
+
+
+=== Literature
+
+* Kock: Synthetic Differential Geometry.
+* Bell: A Primer to Synthetic Differential Geometry.
+* Tao: A cheap version of nonstandard analysis.
+  https://terrytao.wordpress.com/2012/04/02/a-cheap-version-of-nonstandard-analysis/
