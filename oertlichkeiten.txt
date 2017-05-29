@@ -428,6 +428,18 @@ colim_{a <= a'} F(a').
   http://www.math.unipd.it/~sambin/txt/CSSS.pdf
 
 
+=== Bewohntheit von Örtlichkeiten
+
+* Wir können für eine Örtlichkeit X definieren: X > 0 genau dann,
+  wenn jede Überdeckung von top bewohnt ist.
+
+* Dann kann man recht leicht zeigen, dass Sh(X) --> Set genau dann
+  surjektiv ist, wenn X > 0 ist.
+
+* Spec(A) > 0 genau dann, wenn 1 != 0 in A.
+  (Mit dem lokalen Spektrum sieht's vielleicht anders aus.)
+
+
 === Schnitt von Örtlichkeiten
 
 Sei (Box_i)_i eine Familie modaler Operatoren. Der modale Operator Box, der

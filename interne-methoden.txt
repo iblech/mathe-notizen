@@ -2365,6 +2365,40 @@ Schön!
 * Dieses Prinzip impliziert zumindest, dass a|b oder b|a für alle
   a, b aus A^1. Und dass A^1 ein schwacher Integritätsbereich ist.
 
+* Genau dann ist Proj O_S[...]/(...) --> S surjektiv, wenn in der
+  internen Sprache von Zar(S) (oder von Sh(S), egal) gilt:
+
+      neg (1 in (f_...(1,X_2,...,X_n)) wedge 1 in (f_...(X_1,2,X_3,...,X_n)) wedge ...)
+
+  Das beruht darauf, dass Spec_S(A) --> S genau dann surjektiv ist, wenn
+  Sh(S) |== neg (1 = 0 : A). Die Richtung "==>" gilt ohne Voraussetzungen. Die
+  Richtung "<==" gilt, falls A von endlichem Typ und quasikohärent ist.
+  Zumindest werden diese Voraussetzungen für folgenden Beweis benötigt:
+
+  Angenommen, zu s in S gibt's kein Urbild. Dann ist die Faser A(s) = A_s
+  tensor_{O_{S,s}} k(s) = 0 (hier geht ein, dass Spec_S(A) ein Schema ist).
+  Somit A_s <= m_s A_s. Mit Nakayama folgt A_s = 0.
+
+* Als Korollar fällt ab: Spec_S(A) --> S ist treuflach genau dann (unter den
+  obigen Voraussetzungen), wenn 1 != 0 in A aus Sicht von Sh(S) und wenn
+  const(O_S) --> const(A)[F^(-1)] flach ist.
+
+* Die ph-Topologie ist wohl die gröbste Topologie mit:
+
+  * a|b v b|a für alle Elemente von A^1
+  * A^1 ist ein schwacher Integritätsbereich
+  * Wenn die Resultante nilpotent ist, so hat das homogene Gleichungssystem
+    "f_1 = ... = f_l = 0" eine nichttriviale Lösung (das heißt, dass mindestens
+    eine Komponente invertierbar ist).
+
+  Muss man noch fordern, dass A^1 algebraisch abgeschlossen ist? Das wäre
+  jedenfalls richtig.
+
+  Beweisidee: Mit Chows Lemma auf Überdeckungen der Form
+  (Proj_S(O_S[...]/(...) --> S) reduzieren. Dafür benötige S lokal noethersch
+  (sonst kann ich nicht garantieren, dass das Relationenideal endlich erzeugt
+  ist). Dann die Surjektivität über die Resultante charakterisieren. Fertig.
+
 
 === K-Theorie
 

@@ -396,6 +396,33 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   in einer Variablen. Insbesondere zerfallen sie in Linearfaktoren,
   falls der Grundkörper algebraisch abgeschlossen ist.
 
+* Seien f_1, ..., f_l homogene Polynome (vom selben Grad?).
+
+  Genau dann gilt 1 in (f_1(1,X_2,...,X_n), ...), wenn X_1 in sqrt((f_1,...))
+  liegt.
+
+
+=== Resultante
+
+* Über Ringen mit 1 != 0 und != 0 ==> inv und a|b v b|a gilt:
+  Ist eine quadratische Matrix injektiv, so ist ihre Determinante invertierbar.
+  Denn man kann die Matrix auf Smithsche Normalform bringen.
+
+* Falls zusätzlich der Ring reduziert ist, folgt: Die Matrix [a b; c d]
+  ist injektiv, falls X^n in (aX+bY,cX+dY) und Y^m in (aX+bY,cX+dY).
+
+* Die Sache mit der Resultante geht in etwa so.
+
+  Seien f und g homogene Polynome in X und Y von Graden n bzw. m.
+  Gelte X^n in (f,g) und Y^m in (f,g).
+
+  Sei f(X) p(X) + g(X) q(X) = 0, wobei deg(p) <= m-1 und deg(q) <= n-1.
+  Wir wollen zeigen, dass alle Koeffizienten von p und q nilpotent sind. Das
+  ist eine negneg-stabile Behauptung. Wir dürfen also voraussetzen, dass g in
+  Linearfaktoren zerfällt. Jede der Nullstellen ist auch Nullstelle von f(X) p(X).
+  Wir dürfen voraussetzen, dass f(x_i) = 0 oder p(x_i) = 0. Im ersten Fall
+  haben wir einen Widerspruch.
+
 
 === Polynomringe
 
