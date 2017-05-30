@@ -62,3 +62,5 @@ Tolle Diskussion von algebraischen Räumen und algebraischen Stacks.
 * http://www.uni-essen.de/~hm0002/Artikel/dalklein.dvi Diplomarbeit
 * https://www.uni-due.de/~hm0002/stacks.pdf sehr gut!
 * http://stacky.net/files/written/Stacks/Stacks.pdf
+* https://perso.univ-rennes1.fr/matthieu.romagny/notes/stacks.pdf
+  (A straight way to algebraic stacks)

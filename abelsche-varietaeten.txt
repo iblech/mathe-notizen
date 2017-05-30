@@ -4,6 +4,10 @@
 
 * http://www.mathematik.uni-mainz.de/Members/rterpere/abelian-varieties-old-new
 
+* http://www.mi.fu-berlin.de/users/elenalavanda/BMoonen.pdf
+  sieht super aus! Diskuttiert auch Quotienten: kategorielle Quotienten,
+  geometrische Quotienten, fppf-Quotienten, ...
+
 
 === Elliptische Kurven
 
