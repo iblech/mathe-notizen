@@ -2071,11 +2071,13 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   3 ==> 1 folgt sofort, da A sich als A/(e) oplus A/(1-e) zerlegt und A flach
   ist.
 
-* Sei phi : A --> B flach. Dann sind äquivalent (Qing Liu):
+* Sei phi : A --> B flach. Dann sind äquivalent (Qing Liu,
+  http://zll22.user.srcf.net/dpmms/thesis.pdf, Seite 175):
 
   1. phi ist treuflach.
   2. Spec(phi) ist surjektiv.
   3. Jedes maximale Ideal von A ist Rückzug eines maximalen Ideals von B.
+  4. Jeder Basiswechsel von phi ist injektiv.
 
   Wegen 3. sind insbesondere flache lokale Ringhomos zwischen lokalen Ringen
   stets treuflach.

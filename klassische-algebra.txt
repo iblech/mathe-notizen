@@ -171,6 +171,18 @@ verwandeln.
 * Insbesondere ist p Teiler der Diskriminante von f(X).
 
 
+=== Polarisationsformel
+
+https://math.stackexchange.com/questions/1951228/how-is-a-quadratic-form-and-symmetric-bi-linear-form-determine-each-other
+
+Sei Q : R^2 --> R, (x,y) |--> (x^3/y, falls y != 0; 0, sonst).
+
+Für B(u,v) := (Q(u+v) - Q(u-v)) / 4 gilt dann
+B(e_1, e_1 + e_2) = 2, aber B(e_1, e_1) + B(e_1, e_2) = 1/2.
+
+Die Funktion B ist also nicht bilinear.
+
+
 === Nächste Schritte
 
 * Unter welchen Voraussetzungen ist eine Untergruppe einer zyklischen Gruppe
