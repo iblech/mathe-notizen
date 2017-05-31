@@ -529,6 +529,16 @@ Hinreichend dafür ist, dass für phi gilt:
   http://mathoverflow.net/questions/145821/interaction-petit-topos-gros-topos
 
 
+=== Interne Sprache eines klassifizierenden Topos
+
+* Die interne Sprache von Set[T] ist lustig, denn die Stages, die man
+  für die Kripke--Joyal-Semantik verwendet, sind einfach die Objekte der
+  syntaktischen Kategorie zu T, also Formeln-in-Kontexten {vec x. phi}.
+  Zu Beginn arbeitet man mit {x. top}, dem völlig generischen Modell, das sich
+  noch in alle Richtungen entfalten kann. Durch Stagewechsel spezialisiert es
+  sich dann.
+
+
 === Platonismus vs. Formalismus
 
 Lambek, Scott. Reflections on a categorical foundations of mathematics.

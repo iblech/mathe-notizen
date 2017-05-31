@@ -758,6 +758,32 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
            = Hom_Loc(LA, RR).
 
 
+=== Lokalische Reflektion
+
+* Die lokalische Reflektion eines Topos E (über Set) ist die Örtlichkeit
+  mit Rahmen Sub_E(1).
+
+* Die lokalische Reflektion von [FinSet,Set] sollte pt sein.
+  (Ist der Wert eines Unterfunktor des terminalen Objekts an irgendeiner Menge
+  bewohnt, so schon überall.)
+
+* Welche Theorie klassifiziert die lokalische Reflektion?
+  https://mathoverflow.net/questions/271096/what-does-the-localic-reflection-of-a-classifying-topos-classify
+
+  Ein Vorschlag: Nimm als atomare Propositionen alles, was du über die
+  Relationen und Terme im leeren Kontext zusammenbasteln kannst. Nimm als
+  Axiome alle Sequenzen, die diese Dinge im leeren Kontext erfüllen. Das klingt
+  aber für mich "nicht besonders Morita-invariant".
+
+
+=== Delignes Vollständigkeitsresultat
+
+* http://stacks.math.columbia.edu/tag/06VX#comment-2585
+
+* https://arxiv.org/abs/1309.0389
+  Gödel's completeness theorem and Deligne's theorem
+
+
 === Cauchysche reelle Zahlen
 
 * In lokal zusammenhängenden Topoi sind die cauchyschen reellen Zahlen
