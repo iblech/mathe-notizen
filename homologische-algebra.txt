@@ -298,6 +298,9 @@ obtains the above constructions.
 * sichten: http://math.berkeley.edu/~hutching/teach/215b-2011/ss.pdf
   http://ncatlab.org/nlab/show/spectral+sequence
 
+* http://www.mathb.rwth-aachen.de/~barakat/habil/habil.pdf
+  "Verallgemeinerte Abbildungen", Algorithmen
+
 
 === Homotopiekategorie von Räumen
 

@@ -417,7 +417,7 @@ für geometrische Formeln phi über X:
 
   (Wenn das auch für solche Formeln gelten soll, in denen unendliche
   Konjunktion oder Allquantifikation über unendliche Mengen vorkommen, dann
-  muss U ouvert sein. U könnte also zum Beispiel einfach die Örtlichkeit zu
+  muss U overt sein. U könnte also zum Beispiel einfach die Örtlichkeit zu
   einem topologischen Raum sein.)
 
   Beweis durch Induktion; klar für top, bot. Für wedge wegen der
@@ -425,7 +425,7 @@ für geometrische Formeln phi über X:
 
 * Es gilt: U <= sup { T | phi }  <==>  U = sup { U | phi }.
 
-* Ist die Örtlichkeit ouvert, so ist das ferner äquivalent zu:
+* Ist die Örtlichkeit overt, so ist das ferner äquivalent zu:
 
       (U > 0  ==>  phi).
 

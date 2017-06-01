@@ -356,7 +356,7 @@ colim_{a <= a'} F(a').
   des) Sierpinski-Raums betrachten.
 
 
-=== Ouvertheit
+=== Overtheit
 
 * Eine Örtlichkeit X ist genau dann ouvert/overt, wenn der eindeutige Morphismus
   X --> 1 offen ist, wenn also Omega --> Ouv(X) einen (automatisch monotonen)
@@ -369,27 +369,27 @@ colim_{a <= a'} F(a').
   Tatsächlich aber ist die Frobenius-Bedingung automatisch erfüllt. Es geht
   also nur um die Existenz eines Linksadjungierten.
 
-  Genau dann ist X ouvert, wenn auf Ouv(X) ein Positivitätsprädikat (im Sinne
+  Genau dann ist X overt, wenn auf Ouv(X) ein Positivitätsprädikat (im Sinne
   von nLab, Def. 3) existiert. Ist f_! gegeben, so definiert
 
       U > 0  :<==>  f_!(U)
 
   ein Positivitätsprädikat. Umgekehrt definiert diese Setzung f_!.
 
-* Sei X ouvert. Dann gilt für U in Ouv(X) und phi in Omega:
+* Sei X overt. Dann gilt für U in Ouv(X) und phi in Omega:
 
       U = sup { U | phi }  <==>  (U > 0 ==> phi).
 
   Das folgt unmittelbar aus der Adjunktionsbeziehung.
 
-* Örtlichkeiten zu topologischen Räumen sind stets ouvert (konstruktiv).
+* Örtlichkeiten zu topologischen Räumen sind stets overt (konstruktiv).
   Das Positivitätsprädikat kann man direkt angeben, es lautet:
 
       U > 0  :<==>  U bewohnt.
 
-* Spec(A), als Örtlichkeit, ist in konstruktiver Logik nicht ouvert.
+* Spec(A), als Örtlichkeit, ist in konstruktiver Logik nicht overt.
 
-  Denn bei ouverten Örtlichkeiten gilt:
+  Denn bei overten Örtlichkeiten gilt:
 
       forall i: X <= sup { T | phi_i }   <==>   X <= sup { T | forall i: phi_i }.
 
@@ -397,13 +397,13 @@ colim_{a <= a'} F(a').
 
       forall i: 1 = 0 oder phi_i   <==>   1 = 0 oder forall i: phi_i.
 
-  Genauer: Es ist Spec(A) genau dann ouvert, wenn Nilpotenz in Spec(A)
+  Genauer: Es ist Spec(A) genau dann overt, wenn Nilpotenz in Spec(A)
   entscheidbar ist.
 
   "<==": Wir definieren: Ein Radikalideal ist genau dann positiv, wenn
   es ein nicht-nilpotentes Element enthält. Dann die Bedingungen nachprüfen.
 
-  "<==": Wenn sqrt((f)) > 0, dann ist f nicht nilpotent. (Denn falls f
+  "==>": Wenn sqrt((f)) > 0, dann ist f nicht nilpotent. (Denn falls f
   nilpotent ist, ist sqrt((f)) Supremum der leeren Menge.) Somit:
 
       sqrt((f)) <= sup { T | sqrt((f)) > 0 }
@@ -412,7 +412,7 @@ colim_{a <= a'} F(a').
 
   Also ist f nilpotent oder nicht nilpotent.
 
-  Falls Spec(A) ouvert ist, gilt:
+  Falls Spec(A) overt ist, gilt:
 
       bigwedge_i (f nilpotent oder phi_i)
           ==> (f nilpotent oder bigwedge_i phi_i).

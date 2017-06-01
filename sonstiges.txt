@@ -216,6 +216,17 @@ http://mathoverflow.net/questions/132802/defining-holomorphic-functions-in-terms
 * http://home.sandiego.edu/~shulman/papers/nlabhott.pdf
 
 
+=== Vorträge halten
+
+* http://hintjens.com/blog:107
+
+
+=== Zufall und Berechenbarkeit
+
+* Buch von Andre Nies. Empfohlen von Andrej:
+  https://mathoverflow.net/a/82530/31233
+
+
 === Prinzip der kleinsten Wirkung
 
 * Kommt in /Story of your life/ von Ted Chiang vor.

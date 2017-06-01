@@ -1901,6 +1901,38 @@ Chern-Klassen.
   Immersion ist). Somit ist f^{-1}(V) als abgeschlossenes Unterschema eines
   affinen Schemas selbst affin.
 
+* Es genügt schon weniger: Es genügt, dass die Diagonale affin ist.
+  https://mathoverflow.net/a/74813/31233
+
+* Sei P eine Eigenschaft von Morphismen, die unter Rückzug und Verkettung
+  stabil ist. Besitze die Diagonale X --> X x_S X Eigenschaft P.
+
+  Seien U --> X und V --> X Morphismen, sodass U --> X --> S und V --> X --> S
+  Eigenschaft P haben. Dann hat nach dem obigen Argument auch der Morphismus
+  U --> U x_S X --> X die Eigenschaft P. Dann hat auch der Morphismus
+  U x_X V --> V Eigenschaft P. Somit hat auch U x_X V --> S Eigenschaft P.
+
+  Beispiele:
+  a) Sei P die Eigenschaft, affin zu sein. Das Argument zeigt dann,
+     dass Schnitte von offenen Unterschemata, die über der Basis S affin sind,
+     selbst wieder über der Basis S affin sind.
+  b) Sei P die Eigenschaft, quasikompakt zu sein. Das Argument zeigt dann,
+     dass Schnitte von offenen Unterschemata, die über der Basis S quasikompakt
+     sind, selbst wieder über der Basis S quasikompakt sind.
+
+* Besitze X eine offene Überdeckung durch U_i's, welche affin über
+  der Basis S sind. Seien auch die U_i cap U_j affin über S. Dann ist
+  X --> X x_S X affin.
+
+  Das kann ich nämlich auf der offenen Überdeckung U_i x_S U_j testen.
+  Das Urbild ist dann U_i cap U_j. Ich weiß, dass U_i cap U_j --> S
+  affin ist und dass U_i x_S U_j --> S separiert ist, denn U_i --> S
+  und U_j --> S sind separiert, da sie sogar affin sind. Mit Tag 01SG(b)
+  folgt, dass U_i cap U_j --> U_i x_S U_j affin ist.
+
+  Analog gilt: Wenn die U_i cap U_j endliche Überdeckungen durch Offene, welche
+  über S affin sind, besitzen, dann ist X --> X x_S X quasikompakt.
+
 * Natürlich sind Morphismen zwischen affinen Schemata affin.
 
 
