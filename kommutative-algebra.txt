@@ -905,6 +905,36 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   stimmen überein.
 
 
+=== Eigenwerte und Eigenvektoren
+
+* Sei A eine quadratische Matrix. Zerfalle ihr charakteristisches
+  Polynom f(X) in Linearfaktoren (X - x_i). Gelte zudem für alle i, j:
+  x_i = x_j oder x_i - x_j ist invertierbar.
+
+  Dann sollte es möglich sein, eine Bézoutdarstellung
+
+      a(X) (X - lambda)^m + b(X) (X - ...) ... (X - ...) = 1
+
+  zu finden. Dann kann man nachrechnen, dass
+
+      P := (zweiter Summand)(A)
+      Q := (erster Summand)(A)
+
+  komplementäre Projektoren sind, denn P + Q = I und P Q = 0.
+  Außerdem folgt:
+
+      im(P) <= ker((A - lambda)^m) <= ker(Q) = im(P),
+
+  also im(P) = ker((A - lambda)^m).
+
+  Ist nun der Grundring lokal, so ist im(P) endlich frei.
+  Der Rang kann nicht null sein, sonst wäre (A - lambda)^m injektiv, somit wäre
+  auch (A - lambda) injektiv, somit wäre det(A - lambda) regulär.
+  Aber det(A - lambda) = \pm f(lambda) = 0. Da 1 != 0, ist das ein Widerspruch.
+
+  http://math.mit.edu/~dav/generalized.pdf
+
+
 === Noethersche Ringe
 
 * Polynomringe und Quotienten noetherscher Ringe sind noethersch.
@@ -1249,13 +1279,62 @@ Sei M eine quadratische Matrix über einem Ring.
   
       0 = u_1 wedge ... wedge sum_i a_i u_i wedge ... wedge u_n,
 
-  also a_i (u_1 wedge ... wedge u_n). Also a_i = 0.
+  also a_i (u_1 wedge ... wedge u_n) = 0. Also a_i = 0.
 
   Zu [*], "==>": Siehe Bourbaki, Algebra I, Chapters 1 bis 3, Seite 519.
 
   Siehe auch
   http://math.stackexchange.com/questions/71740/necessary-and-sufficient-condition-for-trivial-kernel-of-a-matrix-over-a-commuta und
   http://math.stackexchange.com/questions/161523/does-an-injective-endomorphism-of-a-finitely-generated-free-r-module-have-nonzer.
+
+* McCoys Theorem: Sei A eine injektive (n x m)-Matrix über einem beliebigen
+  Ring. Dann ist das Ideal (Lambda^m A) regulär.
+  (Insbesondere: Falls n < m, so ist 0 = 1 in A.)
+  http://www2.im.uj.edu.pl/actamath/PDF/30-215-218.pdf
+
+  Sei a (Lambda^m A) = (0). Wir möchten zeigen, dass a = 0.
+  Dazu zeigen wir rückwärts-induktiv, dass a (Lambda^k A) = (0)
+  für alle k = 0, ..., m. Sobald wir den Fall k = 0 bewiesen haben, sind wir
+  fertig. Der Fall k = m ist Voraussetzung.
+
+  Sei also 0 <= k <= m - 1 und gelte a (Lambda^(k+1) A) = (0).
+  Sei M ein k-Minor von A, ohne Einschränkung der der ersten k Zeilen und
+  Spalten von A. Es gibt dann noch eine weitere Spalte in A, da m >= k + 1.
+  Sei für j = 1, ..., k+1 die Zahl M_j der Minor der ersten (k+1) Spalten von A
+  ohne die j-te. Insbesondere ist M_(k+1) = M.
+
+  Dann ist a A (M_1 | -M_2 | ... | (-1)^(k+1) M_(k+1) | 0 | ... | 0)^T = 0.
+  Denn wenn man das ausmultipliziert, stehen lautet Determinanten da.
+  Die ersten k Stück verschwinden, weil sie zwei gleich Zeilen enthalten. Die
+  anderen verschwinden nach Induktionsvoraussetzung.
+
+  Da A injektiv ist, folgt somit a M_i = 0 für alle i = 1, ..., k+1,
+  insbesondere also a M = 0.
+
+* Korollar: Sei A eine quadratische injektive Matrix. Dann ist ihre
+  Determinante regulär.
+
+* Korollar: Sei M ein Modul, der ein Erzeugendensystem der Länge n
+  und eine linear unabhängige Familie der Länge n enthält. Dann ist
+  das Erzeugendensystem schon eine Basis. (Die linear unabhängige Familie nicht
+  unbedingt.)
+
+  Schreibe pi : A^n --> M für das Erzeugendensystem und iota : A^n --> M
+  für die linear unabhängige Familie. Wir finden dann eine Abbildung
+  alpha : A^n --> A^n mit pi . alpha = iota. Da iota injektiv ist,
+  ist auch alpha injektiv. Somist ist det(alpha) regulär. Wenn wir det(alpha)
+  invertieren, ist alpha also bijektiv. Somit ist pi dann injektiv.
+  Da det(alpha) regulär ist, ist pi auch wirklich injektiv. Somit ist pi
+  bijektiv, also eine Basis.
+
+* Korollar: Seien v_1, ..., v_m Spaltenvektoren. Genau dann ist diese
+  Familie linear unabhängig, wenn das Element v := (v_1 ^ ... ^ v_m) aus
+  Lambda^m(A^n) regulär ist.
+
+  "<==": Sei sum_i a_i v_i = 0. Dann ist a_i v = 0. Also a_i = 0. Geht für alle i.
+
+  "==>": Das Element v gibt im Wesentlichen nur die m-Minoren der Matrix
+  (v_1|...|v_m) wieder. Also folgt das aus McCoys Theorem.
 
 * Richmans schöner Beweis dass Injektionen A^n --> A^m schon n <= m oder 1 = 0
   haben müssen hat Konkurrenz:
