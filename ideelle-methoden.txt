@@ -84,6 +84,9 @@ Idempotenzlemma.)
 * http://www.sciencedirect.com/science/article/pii/0022404980901267
   Kennison: Galois theory and theaters of action in a topos
 
+* Nun sollte E[f] --> E surjektiv sein, damit es erlaubt ist,
+  geometrische Implikationen in E "oBdA in E[f] zu beweisen".
+
 
 === Zerfällungsalgebra
 

@@ -523,6 +523,10 @@ soll als Subsingleton in Set[ |T| ] aufgefasst werden.
 Damit kann man Set[T] verstehen als den von |T| frei erzeugten Topos modulo den
 Axiomen von T. (Natürlich arbeitet man hier in Top^op, nicht in Top.)
 
+Update: Bin mir nicht mehr so sicher, dass das stimmt. Ich glaube, dass man
+sich beim Herausteilen mehr Mühe geben muss. Schließlich ist Set[|T|]/Axiome
+immer ein offener Untertopos von Set[|T|], oder?
+
 * Sei X ein Subsingleton in einem Topos E. Dann ist E/X der klassifizierende
   E-Topos derjenigen E-geometrischen Theorie, die keine Sorten und genau ein
   Axiom enthält, nämlich

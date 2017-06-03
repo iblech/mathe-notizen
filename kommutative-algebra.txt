@@ -572,6 +572,7 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 * Gröbner-Basen:
   * http://people.math.gatech.edu/~aleykin3/math4803spr13/BOOK/chapter3.pdf
   * Hervé Perdry. Strongly Noetherian rings and constructive ideal theory.
+  * http://people.csail.mit.edu/madhu/ST12/scribe/lect15.pdf
 
 * Im Allgemeinen gilt bekanntlich nicht I cap (J + K) = (I cap J) + (I cap K).
   Ein Beispiel lautet:
