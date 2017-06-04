@@ -1480,6 +1480,12 @@ Sei M eine quadratische Matrix über einem Ring.
   als Polynom in der letzten Variable, ein Element des Grundrings ist (statt
   ein Element des um eine Variable verkürzten Polynomrings).
 
+* http://www.math.lsa.umich.edu/~hochster/615W10/supNoeth.pdf
+  Noether-Normaliserung für Integritätsbereiche
+
+* http://math.uchicago.edu/~keerthi/files/CA.pdf
+  Kapitel 8, empfohlen von Pete Clark
+
 
 === Torsion
 
