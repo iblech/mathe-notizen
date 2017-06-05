@@ -376,6 +376,18 @@ colim_{a <= a'} F(a').
 
   ein Positivitätsprädikat. Umgekehrt definiert diese Setzung f_!.
 
+* Die Sache mit dem Positivitätsprädikat ist schon delikat. Ich denke,
+  es ist möglich, konstruktiv ein Prädikat zu definieren, das folgende
+  Eigenschaft hat:
+
+      U > 0 und U <= sup M  ==>  ex. V in M mit V > 0.
+
+  Nämlich: U > 0  :<==>  bigwedge_{n >= 0} (...)
+
+  Aber dieses Prädikat erfüllt dann noch nicht die zweite Anforderung,
+
+      (U > 0 ==> U <= sup M) ==> U <= sup M.
+
 * Sei X overt. Dann gilt für U in Ouv(X) und phi in Omega:
 
       U = sup { U | phi }  <==>  (U > 0 ==> phi).

@@ -1314,7 +1314,39 @@ definieren, wobei S(U) = { f | f_x ist kein Nullteiler in allen O_x, x \in U }.
   ist C^n / C^* = C. Das ist nicht, was man möchte.
   http://www.northeastern.edu/iloseu/Barbara_14_complete.pdf, Seite 4.
 
-* Abhile liefert natürlich GIT.
+* Abhilfe liefert natürlich GIT.
+
+* Sei G x X --> X eine Gruppenwirkung in Sch. Dann existiert in der
+  Kategorie der geringten Räume stets ein Differenzkokern der beiden
+  kanonischen Schemamorphismen G x X --> X. Dieser Quotient heißt auch
+  "geometrischer Quotient". Er ist gelegentlich kein Schema.
+  https://www.math.ru.nl/~bmoonen/BookAV/Quotients.pdf
+
+  Er wird trivial konstruiert: topologisch wie man's denkt und dann mit der
+  Garbe der Invarianten ausgestattet.
+
+  Falls der geometrische Quotient ein Schema ist und der kanonische
+  Projektionsmorphismus ein Morphismus von Schemata ist, so ist der Quotient
+  auch ein kategorieller Quotient. Letzteres bedeutet, dass er das universelle
+  Schema mit einer G-invarianten Abbildung aus X heraus ist.
+
+* Wenn G eine endliche Gruppe ist, so ist Spec(A) --> Spec(A^G)
+  ein geometrischer Quotient. Er ist im Allgemeinen aber kein universeller
+  geometrischer Quotient.
+
+  Ebenso stimmt es, wenn G ein endlich lokal freies Gruppenschema ist und für
+  jeden abgeschlossenen Punkt von X seine G-Äquivalenzklasse in einer offenen
+  affinen Teilmenge enthalten ist. Theorem 4.16 in
+  https://www.math.ru.nl/~bmoonen/BookAV/Quotients.pdf. Falls G sogar frei
+  wirkt, so ist der Quotient ein universeller geometrischer Quotient. Außerdem
+  ist er dann ein fppf-Quotient.
+
+* Dann gibt's noch den fppf-Quotienten. Der ist super easy. Einfach
+  der Quotienten im großen fppf-Topos. Man sagt, "der fppf-Quotient existiere",
+  wenn er durch ein Schema dargestellt werden kann. In diesem Fall ist er auch
+  ein kategorieller Quotient (wenn man unterstellt, dass die Yoneda-Einbettung
+  in den fppf-Topos volltreu ist); das ist nur Nonsens. Er ist aber auch ein
+  geometrischer Quotient (Theorem 4.35), das ist nicht ganz trivial.
 
 
 === Flacher Basiswechsel

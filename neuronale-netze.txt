@@ -20,6 +20,11 @@ https://plus.google.com/+DanPiponi/posts/fguCASnATcD
 http://arxiv.org/pdf/1601.07227.pdf
 
 
+=== Über die Wahl der richtigen Aktivierungsfunktion
+
+http://cs231n.github.io/neural-networks-1/#actfun
+
+
 === Bücher
 
 * klar, Nielsen
