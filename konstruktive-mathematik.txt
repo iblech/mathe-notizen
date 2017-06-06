@@ -92,6 +92,31 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
   und gleichförmig höchstens eine Nullstelle hat, so hat sie wirklich eine.
 
   Peter Schuster. Problems, Solutions, and Completions.
+  http://www.sciencedirect.com/science/article/pii/S1567832609000137
+
+
+=== Nullstellensatz konstruktiv
+
+* Es geht um folgende Behauptung: Sei k ein algebraisch abgeschlossener
+  geometrischer Körper. Seien f_1, ..., f_m Polynome über k. Dann besitzen die
+  f_j eine gemeinsame Nullstelle oder 1 in (f_1, ..., f_m).
+
+  Ich glaube, dass man diesen Satz wie folgt konstruktiv zeigen kann.
+  Zunächst zeigt Theorem VII.1.8 (Seite 386) von Lombardi/Quitté, dass
+  1 in (f_1, ..., f_m) oder dass es eine gemeinsame Nullstelle in einer
+  reduzierten endlichen k-Algebra A mit 1 != 0 gibt.
+
+  Da k ein algebraisch abgeschlossener geometrischer Körper ist, ist k
+  auch fppf-lokal. Trivialerweise ist A flach über k. Ich denke, man kann auch
+  zeigen, dass A treuflach über k ist. Somit liftet die Nullstelle in A zu
+  einer in k.
+
+  Allerdings nutzt das jetzt aus, dass k in einem starken Sinn fppf-lokal ist.
+  Klassisch auf jeden Fall okay. Konstruktiv weiß ich's nicht.
+
+* Theorem VII.1.9 nutzt Gröbnerbasen. Braucht man dann nicht sowas wie LPO
+  oder Markov oder das abhängige Auswahlaxiom? Lombardi/Quitté haben keine
+  Angst vor ihm!
 
 
 === Type-2 Theory of Effectivity
