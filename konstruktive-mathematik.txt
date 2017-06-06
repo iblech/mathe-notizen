@@ -94,6 +94,15 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
   Peter Schuster. Problems, Solutions, and Completions.
   http://www.sciencedirect.com/science/article/pii/S1567832609000137
 
+* Anders sieht es aus, wenn wir nicht mit "nicht nicht" die Aussage
+  abschwächen, sondern mit der propositionalen Abschneidung ("merely",
+  "anonymously")! Siehe Seite 2 von https://arxiv.org/pdf/1610.03346.pdf:
+
+      On the other hand, should A have only one inhabitant up to the internal
+      equality, this inhabitant can be constructed from an inhabitant of ||A||.
+      This is a crucial difference between propositional truncation and double
+      negation.
+
 
 === Nullstellensatz konstruktiv
 
@@ -117,6 +126,9 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
 * Theorem VII.1.9 nutzt Gröbnerbasen. Braucht man dann nicht sowas wie LPO
   oder Markov oder das abhängige Auswahlaxiom? Lombardi/Quitté haben keine
   Angst vor ihm!
+
+* Jedenfalls muss es einen konstruktiven Beweis geben. Weil die Behauptung
+  eine geometrische Implikation ist.
 
 
 === Type-2 Theory of Effectivity
