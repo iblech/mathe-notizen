@@ -538,6 +538,8 @@ Hinreichend dafür ist, dass für phi gilt:
   noch in alle Richtungen entfalten kann. Durch Stagewechsel spezialisiert es
   sich dann.
 
+* Hat sich auch Coquand gedacht: http://www.cse.chalmers.se/~coquand/site.pdf
+
 
 === Platonismus vs. Formalismus
 

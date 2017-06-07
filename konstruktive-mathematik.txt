@@ -88,11 +88,15 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
 
 === Eindeutigkeit impliziert Existenz
 
-* Wenn eine Funktion näherungsweise Nullstellen hat (forall eps. exists x. |f(x)| < eps)
-  und gleichförmig höchstens eine Nullstelle hat, so hat sie wirklich eine.
+* Wenn eine Funktion näherungsweise Nullstellen hat (forall eps. exists x.
+  |f(x)| < eps) und gleichförmig höchstens eine Nullstelle hat, so hat sie
+  wirklich eine.
 
   Peter Schuster. Problems, Solutions, and Completions.
   http://www.sciencedirect.com/science/article/pii/S1567832609000137
+
+* Es stimmt nicht: Wenn eine Menge höchstens ein Element enthält
+  und nicht nicht ein Element enthält, dann enthält sie ein Element.
 
 * Anders sieht es aus, wenn wir nicht mit "nicht nicht" die Aussage
   abschwächen, sondern mit der propositionalen Abschneidung ("merely",
@@ -102,6 +106,9 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
       equality, this inhabitant can be constructed from an inhabitant of ||A||.
       This is a crucial difference between propositional truncation and double
       negation.
+
+* Dann gibt es natürlich noch: Eindeutige lokale Existenz impliziert
+  (eindeutige) globale Existenz.
 
 
 === Nullstellensatz konstruktiv
