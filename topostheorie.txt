@@ -809,7 +809,7 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
   Laut Olivia Caramello ein Juwel.
 
 * Nachvollziehen: Angeblich ist es ein wichtiges Resultat in der Topostheorie,
-  dss die Punkte eines lokalischen Gruppoids gerade die étalen Punkte sind.
+  dass die Punkte eines lokalischen Gruppoids gerade die étalen Punkte sind.
   (Hat das Townsend gesagt?)
 
   Außerdem siehe die Bemerkung bei https://ncatlab.org/nlab/show/localic+topos:
@@ -830,3 +830,9 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
   Wie äußerst sich das aus interner Sicht? Muss doch eine tolle Sache sein (aus
   interner Sicht), einen Raum (Topos) zu haben, der boolsch ist und sodass eine
   Aussage genau dann gilt, wenn sie zurückgezogen auf diesen Raum gilt.
+
+
+=== Nächste Schritte
+
+* von Peter Arndt empfohlen: John Bell, Toposes and local set theories.
+consequantially

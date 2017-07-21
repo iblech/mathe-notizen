@@ -2448,3 +2448,8 @@ Schön!
 * http://mathoverflow.net/questions/2314/several-topos-theory-questions
 * http://mathoverflow.net/questions/606/synthetic-reasoning-applied-to-algebraic-geometry
 * http://mathoverflow.net/questions/5211/geometric-meaning-of-the-euler-sequence-on-mathbbpn-example-8-20-1-in-ch-ii
+
+
+=== Nächste Schritte
+
+* von Yuri empfohlen: Yves Diers: Categories of commutative algebras

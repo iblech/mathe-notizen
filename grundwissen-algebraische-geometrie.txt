@@ -612,6 +612,12 @@ darauf gestoßen.
   Dieser wäre "zu nicht-separiert".
   http://mathoverflow.net/questions/9961/colimits-of-schemes
 
+* Mir kommt es so vor, als bewahre der Inklusionsfunktor von affinen
+  S-Schemata nach LRL/S Limesdiagramme, die aus Spec-Bildung von
+  Limesdiagrammen in Alg(O_S) entstehen, wobei alle vorkommenden Objekte (und
+  der Limes) Weilalgebren sind und das Diagramm endlich, bewohnt und
+  zusammenhängend ist.
+
 
 === Spektren von Algebren, die endlich als Modul sind
 

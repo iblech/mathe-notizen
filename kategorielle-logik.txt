@@ -663,3 +663,5 @@ Topos von T ist.
 * Assoziierte Punkte?
 
 * Wie konstruiert man eigentlich den freien Topos?
+
+* https://arxiv.org/abs/1603.03374 Über Missverständnisse von Barrs Theorem
