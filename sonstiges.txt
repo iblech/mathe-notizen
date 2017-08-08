@@ -584,3 +584,8 @@ speed of light!
 === Circles in the sky (Topologie des Universums)
 
 https://arxiv.org/abs/0808.1572
+
+
+=== Zum Fermi-Paradoxon
+
+* https://arxiv.org/pdf/1705.03394.pdf aestivation hypothesis

@@ -3,3 +3,8 @@
 * Jede Markovkette, die die detailed balance condition erfüllt, lässt sich als
   Instanz des Metropolis--Hastings-Algorithmus formulieren. Dazu muss man
   g(y,x) := T_xy setzen.
+
+
+=== Literatur
+
+* http://videolectures.net/mlss09uk_murray_mcmc/

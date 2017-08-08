@@ -22,7 +22,7 @@
 
 * Eigenfunktion von hat x: delta(__ - a)
 
-* Inwieweit sollte hat x den Typ H --> H tensor Meter haben oder nicht haben?
+* Inwieweit sollte (hat x) den Typ H --> H tensor Meter haben oder nicht haben?
 
 
 === Kollaps der Wellenfunktion
@@ -37,6 +37,8 @@
 
 * Ein Problem mit Kollaps: Man kann ja auch nur Teile eines Systems beobachten.
   Dabei kollabiert nicht die gesamte Wellenfunktion.
+
+* https://arxiv.org/pdf/quant-ph/9805065.pdf "existential interpretation"
 
 
 === Quantenfehlerkorrektur
