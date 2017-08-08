@@ -76,6 +76,15 @@ http://physics.stackexchange.com/a/17225/103105
 
 * https://www.physicsforums.com/insights/struggles-continuum-part-5/ (John Baez)
 
+* Herleitung der Schrödingergleichung aus dem Pfadintegralansatz:
+  http://www.physics.utah.edu/~starykh/phys7640/Lectures/FeynmansDerivation.pdf
+
+* Anders herum geht es angeblich auch:
+  http://lesswrong.com/lw/pk/feynman_paths/jiq
+
+* Steht wohl auch hier:
+  http://www.fysik.su.se/~emma/PathIntegrals.pdf
+
 
 === Kategorielle Sprache
 
