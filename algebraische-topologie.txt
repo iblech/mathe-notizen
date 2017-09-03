@@ -2,6 +2,8 @@
 
 * Hatcher (aha!)
 * http://math.stackexchange.com/questions/1297513/an-introduction-to-algebraic-topology-from-the-categorical-point-of-view
+* https://mathoverflow.net/questions/277069/what-is-homology-anyway (über das
+  Wesen von Homologie)
 
 
 === Simpliziales Standard-n-Simplex

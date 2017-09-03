@@ -8,6 +8,12 @@ http://mathoverflow.net/questions/25603/ample-line-bundles-sections-morphisms-to
 http://www.math.ucr.edu/home/baez/roots/
 
 
+=== Dualraum
+
+* Der Dualraum eines R-Vektorraums enthält niemals abzählbar unendlich
+  viele Elemente. https://mathoverflow.net/a/277071/31233
+
+
 === Spiele
 
 https://www.dpmms.cam.ac.uk/~martin/Research/Slides/slides.html
