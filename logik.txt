@@ -243,6 +243,10 @@ Empfohlen von John Baez!
   geprüft, dass es wieder für HA durchgeht. Dazu benötigt man oben
   angesprochene Verfeinerung (*).
 
+* Was passiert, wenn man in einer intuitionistischen Metatheorie mit
+  antiklassischen Axiomen arbeitet? McCarty weiß Antwort:
+  https://projecteuclid.org/download/pdf_1/euclid.ndjfl/1093635833
+
 
 === Parikh
 
@@ -265,6 +269,8 @@ Empfohlen von John Baez!
   Siehe etwa http://www.math.ucla.edu/~asl/bsl/0903/0903-004.ps,
   Yanofsky: A Universal Approach to Self-Referential Paradoxes,
   Incompleteness and Fixed Points.
+
+  Originalartikel: https://www.jstor.org/stable/pdf/2269958.pdf.
 
 
 === Inkonsistenz von PA
@@ -400,7 +406,9 @@ herausgegeben von Dov M. Gabbay, John Hayden
 
 === Prädikative Zahlentheorie
 
-https://web.math.princeton.edu/~nelson/books/pa.pdf
+* https://web.math.princeton.edu/~nelson/books/pa.pdf
+
+* https://www.math.ucsd.edu/~sbuss/ResearchWeb/nelson/talk.pdf
 
 
 === Russel konstruktiv statt imprädikativ
