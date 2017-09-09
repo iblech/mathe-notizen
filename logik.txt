@@ -81,13 +81,196 @@ Empfohlen von John Baez!
 
 * http://jdh.hamkins.org/are-all-godel-sentences-equivalent/
   In einem gewissen Sinn sind alle Gödelsätze zueinander beweisbar äquivalent,
-  da sie alle äquivalent sie zu Con(PA).
+  da sie alle äquivalent sind zu Con(PA).
+
+* Gödels Erster sagt: Ist PA konsistent, so ist G nicht beweisbar.
+
+  Der Beweis von Gödels Erstem lässt sich formalisieren. So folgt:
+  PA beweist Con(PA) --> neg Prov(G). Die Umkehrung ist sowieso beweisbar.
+  Zudem ist G beweisbar äquivalent zu neg(Prov(G)). Also beweist PA,
+  dass Con(PA) zu G äquivalent ist.
+
+  Damit kann man Gödels Zweiten zeigen: Falls PA |- Con(PA), so PA |- G,
+  aber dem ist nicht so.
+
+  Das ganze gilt auch analog für HA.
+
+  Fazit: PA |- (Con(PA) <-> neg Prov(#(Con(PA)))).
+
+  In PA folgt automatisch, dass Prov(#(1=0)) und Prov(#(Con(PA))) äquivalent sind.
+  Die analoge Aussage für HA folgt nicht automatisch. Stimmt sie trotzdem?
+
+* Ein Beweis von Gödels Zweitem übers unexpected hanging paradox:
+  http://www.ams.org/notices/201011/rtx101101454p.pdf
+
+* Falls PA konsistent ist, so gibt es Theorien, die ihre Inkonsistenz beweisen,
+  obwohl sie konsistent sind. (Sie sind dann nicht omega-konsistent.)
+
+  Etwa ist PA + neg(Con(PA)) eine solche:
+  https://golem.ph.utexas.edu/category/2011/09/the_inconsistency_of_arithmeti.html#c039574
+
+* Auch in schwachen Metatheorien gibt es insofern sowas wie NN, als dass es
+  sinnvoll ist, von NN |== A zu sprechen. Aber NN |== PA gilt eventuell nicht,
+  wegen des in PA enthaltenen Induktionsaxioms oder wegen der in PA enthaltenen
+  klassischen Logik.
+
+* Das Diagonallemma besagt: Sei F(n) eine Aussageform. Dann gibt es
+  eine Aussage A mit PA |- (A <-> F(#A)).
+
+  Ein Beweis geht so. Definiere zunächst diag : NN --> NN durch
+  diag(m) = #(B(m)), falls m die Kodierung einer Aussageform B(n) ist,
+  und beliebig sonst. Es diag darstellbar durch eine Formel Diag(n,m)
+  in PA, d.h. für alle natürlichen Zahlen n gilt
+
+        PA |- forall y. Diag(n,y) <-> y = diag(n).
+
+  Definiere die Aussageform B(n) := (exists y. Diag(n,y) wedge F(y)).
+  Sei m = #(B(n)).
+
+  Dann setze A := B(m). Es gilt diag(m) = #(B(m)) = #A.
+  Dann: A -||- (exists y. Diag(m,y) wedge F(y)) -||- F(diag(m)) -||- F(#A).
+
+  Geht alles konstruktiv und für HA statt PA. Einziger Punkt, bei dem ich mir
+  nicht sicher bin, ist die Darstellung von diag durch eine Formel.
+
+  Etwas einfacher schreibt sich das ganze so.
+
+  Setze B(n) := F(diag(n)). Dabei ist nun "diag" das Funktionssymbol für die
+  Funktion diag von oben.
+
+  Dann m := #(B(n)) und A := B(m). Dann A -||- F(diag(m)) -||- F(#(B(m))) -||- F(#A).
+
+  Auf deutsch lässt sich A so definieren: A = F(Gödelnummer derjenigen
+  Zeichenkette, die man erhält, wenn man in der Zeichenkette "F(Gödelnummer, die
+  man erhält, wenn man in derjenigen Zeichenkette, die durch n kodiert ist, die
+  vorkommende Variable durch n ersetzt)" die vorkommende Variable durch die
+  Gödelnummer dieser Zeichenkette ersetzt). https://mathoverflow.net/a/66405/31233
+
+  Die Gödel-Aussage lautet: "Die Aussage, die man erhält, wenn man in der
+  Aussage 'Die Aussage, die man erhält, wenn man in der Aussage x die
+  vorkommende Variable durch die Gödelnummer dieser Aussage ersetzt, ist nicht
+  beweisbar.' die vorkommende Variable durch die Gödelnummer dieser Aussage
+  ersetzt, ist nicht beweisbar."
+
+* Definiere Gödelnummerierung. Erhalte Aussageform Prov(n) mit
+  
+      NN |== Prov(#A)  genau dann, wenn  PA |- A
+
+  für alle Aussagen A. Finde mit Diagonallemma Aussage A mit
+
+      PA |- (A <-> neg Prov(#A)).
+
+  Dann ist es nicht der Fall, dass PA A zeigt, sofern PA konsistent ist. Denn
+  angenommen schon. Sei p ein Beweis. Dann auch PA |- Proof(p, #A).
+  Insbesondere PA |- Prov(#A). Da auch PA |- Prov(A), folgt PA |- bot.
+
+  Sofern PA sogar omega-konsistent ist, folgt auch, dass PA nicht neg(A) zeigt.
+
+  In jedem Fall gilt NN |== A.
+
+* Was gibt's konstruktiv zu sagen? Es sollte auch eine Aussageform Prov(n)
+  mit
+
+      NN |== ProvI(#A)  genau dann, wenn  HA |- A
+
+  für alle Aussagen A geben. Diagonallemma sollte auch Bestand haben, es gibt
+  also eine Aussage A wie oben. Auch der Rest lässt sich so wiederholen.
+
+* Definiere Aussageform Prov^R(n) durch
+
+      Prov^R(n) := (exists p. Proof(p,n) wedge (forall q. q <= p --> neg Proof(q, neg(n)))).
+
+  Es gilt: Lässt sich A in PA beweisen, so zeigt PA auch Prov^R(#A), sofern PA
+  konsistent ist. Denn sei p ein Beweis von A. Dann auch PA |- Proof(p, #A).
+  Sei ferner q <= p. Dann ist q kein Beweis von neg(A), denn neg(A) ist unter
+  der Konsistenzannahme nicht beweisbar. Es gilt dann auch PA |- neg Proof(q, #(neg(A))).
+  Ganz sauber geht das wohl so:
+
+      Es gibt eine primitiv-rekursive Funktion Beh, die die Gödelnummer der
+      gezeigten Behauptung zurückliefert, falls sie mit der Gödelnummer eines
+      korrekten Beweises aufgerufen wird, und die andernfalls eine designierte
+      andere Zahl zurückliefert.
+
+      Proof(r,n) ist definiert als Beh(r) = n.
+
+      In unserem Kontext gilt Beh(q) != neg(#A).
+
+      neg(Proof(q,neg(#A))) ist beweisbar äquivalent zu neg(Beh(q) = neg(#A)).
+      Es sind Beh(q) und neg(#A) zwei konkrete verschiedene Zahlen. PA kann
+      daher zeigen, dass sie nicht gleich sind.
+
+  Insgesamt folgt PA |- forall q. q <= p --> neg Proof(q, neg(#A)), denn es
+  das gilt das Lemma PA |- forall q. q <= p --> bigvee_{i=0}^p (q = i).
+
+  Es gilt sogar ohne die Konsistenzannahme, dass aus PA |- A schon
+  PA |- Prov^R(#A) folgt. Denn sei p ein Beweis von A. Dann auch PA |- Proof(p,#A).
+  Sei nun q <= p. Es ist q ein Beweis von neg(A) oder nicht. Im ersten Fall
+  zeigt PA also A und neg(A), somit bot, somit auch Prov^R(#A). Im zweiten Fall
+  kann wie oben argumentiert werden.
+
+  Das war alles konstruktiv. Außerdem gilt das alles konstruktiv auch für HA
+  statt PA.
+
+  Für die weitere Anwendung in HA muss man auch Folgendes nachweisen (*):
+  Gelte HA |- neg(A). Dann nicht nur HA |- ProvI^R(#(neg(A))), sondern auch
+
+      HA |- exists p. ProofI(p,neg(#A)) wedge (forall q. q <= p --> neg ProofI(q,#A)).
+                                (schon klar wäre es mit neg(neg(#A)) hinten)
+
+  Denn sei p die Nummer eines Beweises von neg(A). Dann HA |- ProofI(p,neg(#A)).
+  Sei nun q <= p. Dann BehI(q) = A oder nicht. Im ersten Fall folgt also HA |- A,
+  also HA |- bot, also HA |- neg(ProofI(q,#A)). Im zweiten Fall folgt das
+  ebenfalls.
+
+* Sei nun A eine Aussage mit PA |- (A <-> neg Prov^R(#A)).
+
+  Dann lässt sich A nicht beweisen, sofern PA konsistent ist. Denn angenommen
+  schon. Dann folgt PA |- Prov^R(#A). Andererseits PA |- neg(Prov^R(#A)). Also
+  PA |- bot.
+
+  Auch dies gilt alles auch für HA. Man muss dann natürlich ProvI^R verwenden.
+
+  Im Übrigen gilt NN |== A. Denn das bedeutet einfach, dass Prov^R(#A) nicht
+  stimmt. Angenommen Prov^R(#A). Dann insbesondere Proof(#A). Also PA |- A.
+  Aber das stimmt ja nicht.
+
+* Nun wollen wir zeigen, dass PA auch nicht neg(A) zeigt. Wenn NN ein Modell
+  von PA ist, ist das klar: Denn angenommen PA |- neg(A). Dann auch NN |== neg(A).
+  Das ist ein Widerspruch zu NN |== A.
+
+  Rein syntaktisch geht es auch, nur unter der Annahme der Konsistenz, der
+  Beweis auf https://en.wikipedia.org/wiki/Rosser%27s_trick ist gut. Habe auch
+  geprüft, dass es wieder für HA durchgeht. Dazu benötigt man oben
+  angesprochene Verfeinerung (*).
+
+
+=== Parikh
+
+* Es gibt Aussagen, die nur einen langen Beweis haben, aber einen kurzen Beweis,
+  dass sie einen Beweis haben.
+
+  Nämlich "Diese Aussage besitzt keinen Beweis von weniger als n Zeichen",
+  wobei n eine natürliche Zahl ist, die wir so hochschrauben können, wie wir
+  möchten.
+
+  Unter der Annahme, dass PA konsistent ist, kann es nicht sein, dass diese
+  Aussage einen Beweis von weniger als n Zeichen besitzt. Denn wenn schon, dann
+  beweist PA einen Widerspruch.
+
+  Wir können alle Beweise von weniger als n Zeichen durchgehen. Dabei werden
+  wir unter der Konsistenzannahme keinen Beweis der Aussage finden. Diese
+  Überlegung kann PA auch beweisen. Damit hat sie die Beweisbarkeit der Aussage
+  bewiesen.
+
+  Siehe etwa http://www.math.ucla.edu/~asl/bsl/0903/0903-004.ps,
+  Yanofsky: A Universal Approach to Self-Referential Paradoxes,
+  Incompleteness and Fixed Points.
 
 
 === Inkonsistenz von PA
 
-* https://github.com/vladimirias/2010_80ies_aniversary_lecture/blob/master/notes_current.pdf?raw=true
-  
+* https://www.math.ias.edu/vladimir/sites/math.ias.edu.vladimir/files/2010_09_25_slides.pdf
+
   Problem mit üblichem "Beweis", dass PA konsistent ist: Nicht alle Teilmengen,
   die über Formeln in PA definiert werden, haben eine "Bedeutung": Für manche
   gilt für keine Zahl, dass beweisbar ist, dass sie in der Menge liegt, oder

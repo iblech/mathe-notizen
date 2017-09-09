@@ -243,6 +243,25 @@ expressed in our system.
   coinductive proof. http://plv.mpi-sws.org/paco/
 
 
+=== Rekursionssatz
+
+* Sei f : N --> N berechenbar. Dann gibt es n mit ev_n ~ ev_{f(n)}.
+
+  Dabei meint p ~ q, dass die Programme p und q dasselbe Verhalten zeigen: Bei
+  jeder Eingabe x folgt aus der Terminierung von p(x), dass auch q(x)
+  terminiert und zwar mit demselben Ergebnis, und umgekehrt.
+
+  Slogan: Jede berechenbare Quelltextmanipulation hat einen semantischen
+  Fixpunkt.
+
+  Der Beweis geht so. Wir definieren zunächst eine berechenbare Funktion h : N -> N
+  durch h(x) = Index des Programms "berechne bei eine Eingabe von y zunächst
+  e := ev_x(x) und gib dann ev_e(y) zurück".
+
+  Sei nun e = Index des Programms (f . h). Dann ev_{h(e)} ~ ev_{ev_e(e)} = ev_{F(h(e))}.
+  Wir sind also fertig mit n := h(e).
+
+
 === Komplexität der Schrödinger-Gleichung
 
 http://arxiv.org/abs/1403.7686

@@ -28,3 +28,6 @@
 
 * http://okmij.org/ftp/Haskell/ShiftResetGenuine.hs
   einfacher als der Ansatz aus dem Pugs-Repo?
+
+* Originalarbeit von Chetan Murphy zur Extraktion von algorithmischen
+  Inhalt aus klassischen Beweisen: http://www.cs.cmu.edu/~crary/819-f09/Murthy91.pdf
