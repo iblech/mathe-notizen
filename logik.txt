@@ -152,6 +152,12 @@ Empfohlen von John Baez!
   beweisbar.' die vorkommende Variable durch die Gödelnummer dieser Aussage
   ersetzt, ist nicht beweisbar."
 
+  Der Beweis zeigt noch etwas mehr: Nämlich, dass nicht zu PA zeigt,
+  dass A zu Prov(#A) äquivalent ist, sondern auch, dass A tatsächlich zu
+  Prov(#A) äquivalent ist. Das ist gut zu wissen, falls man nicht unterstellen
+  möchte, dass PA sound ist. Denn damit unterstellt man ja gleich die
+  Konsistenz von PA.
+
 * Definiere Gödelnummerierung. Erhalte Aussageform Prov(n) mit
   
       NN |== Prov(#A)  genau dann, wenn  PA |- A
@@ -246,6 +252,84 @@ Empfohlen von John Baez!
 * Was passiert, wenn man in einer intuitionistischen Metatheorie mit
   antiklassischen Axiomen arbeitet? McCarty weiß Antwort:
   https://projecteuclid.org/download/pdf_1/euclid.ndjfl/1093635833
+
+* Löbs Theorem: Genau dann ist Prov(#A) --> A ableitbar, wenn A es ist.
+
+  Die Rückrichtung ist klar.
+
+  Die Hinrichtung geht so: Finde mit dem Diagonallemma eine Aussage B
+  mit PA |- (B <-> (Prov(#B) --> A)). Dann kann man einsehen, dass
+  PA |- (Prov(#B) --> Prov(#A)). Insgesamt also PA |- B. Somit auch
+  PA |- Prov(#B). Und damit PA |- A.
+
+  Siehe
+  http://www.michaelbeeson.com/teaching/StanfordLogic/Lecture15Slides.pdf,
+  Folie 16. Geht alles auch konstruktiv für HA durch.
+
+  Mit Kontraposition kann man das auch aus Gödels zweitem
+  Unvollständigkeitssatz ableiten, aber das geht dann wohl nicht konstruktiv.
+  http://web.mit.edu/24.242/www/2ndIncompleteness.pdf, Seite 11.
+
+  Gödel 1 und 2 verallgemeinert "auf A statt bottom":
+
+  Sei B eine Aussage mit PA |- (B <-> (Prov(#B) --> A)).
+
+  Dann sehen wir: (PA |- A  ==>  A)  ===>  B.
+  Denn B ist ja äquivalent zu (PA |- B) ==> A. (Hier geht ein, dass die
+  Diagonalität nicht nur beweisbar ist, sondern auch stimmt!)
+  Gelte also PA |- B. Wir wollen A zeigen. Da PA |- B, auch
+  PA |- Prov(#B). Also PA |- A. Nach Voraussetzung somit A.
+
+  Wenn wir das Argument formalisieren, sehen wir:
+
+      PA |- (Prov(#A) --> A) --> B.
+
+  Falls nun PA |- Prov(#A) --> A, so folgt PA |- B, also PA |- Prov(#B),
+  also PA |- A.
+
+* Ein Henkin-Satz behauptet seine eigene Beweisbarkeit:
+
+      PA |- (H <-> Prov(#H)).
+
+  Ein solcher ist nach Löbs Theorem beweisbar.
+
+* http://gdz.sub.uni-goettingen.de/pdfcache/PPN379931524_0022/PPN379931524_0022___LOG_0008.pdf
+
+* Man kann ja eigentliche alle Argumentationen in PA oder meinetwegen ZFC
+  formalisieren. Aber es gibt eine große Klasse an wichtigen Ausnahmen:
+  Argumente, die das Prinzip "Prov(#A) --> A" verwenden. Solche kann man nicht
+  formalisieren, denn (vorausgesetzt PA ist konsistent), so ist das Prinzip
+  nicht beweisbar (der Fall A = bottom ist Gödels zweiter
+  Unvollständigkeitssatz).
+
+  Sind Spezialfälle beweisbar? Für gewisse Arten von Aussagen? Aber eher nicht,
+  oder?
+
+  Die Umkehrung, A --> Prov(#A), ist (denke ich) für manche Aussagen beweisbar:
+  Für Sigma-Aussagen (geometrische).
+
+* Sei L vom Diagonallemma geliefert mit
+
+      PA |- (L <-> (forall p. len(p) < f(n) --> neg Proof(p, #L))),
+
+  wobei f eine rasch steigende Funktion ist.
+
+  Dann gilt L, unter Annahme der Konsistenz von PA:
+
+      L ist ja (auch, wenn PA nicht sound ist) äquivalent zu der genannten
+      allquantifizierten Aussage. Sei also p eine Zahl mit len(p) < f(n).
+      Angenommen, p ist ein Beweis von L. Dann weiß PA das auch, also folgt
+      PA |- Proof(p, #L). Da PA |- L, folgt damit PA |- neg Proof(p, #L).
+      Das ist ein Widerspruch zur Konsistenz.
+
+  Internalisiert folgt: PA |- (Con(PA) --> L). Der das bezeugende Beweis ist
+  kurz! (Er enthält n, und vielleicht die Beschreibung von f, aber er ist auf
+  jeden Fall kürzer als f(n).)
+
+* Warnung vor "die Axiome sind offensichtlich wahr": Hat man beim naiven
+  Mengenkomprehensionsaxiom auch gedacht.
+
+* Logical Dreams: https://arxiv.org/pdf/math/0211398.pdf
 
 
 === Parikh
