@@ -461,3 +461,38 @@ Hochgelobt von David Roberts auf MO.
 * Die cauchyschen komplexen Zahlen sind algebraisch abgeschlossen.
   Wim Ruitenburg. Constructing roots of polynomials over the complex numbers.
   http://www.mscs.mu.edu/~wimr/publica/roots_new.pdf
+
+
+=== Fan-Theorem & Co.
+
+* FAN: Für jeden herauslösbaren Baum (herauslösbare Teilmenge von {0,1}^*
+  die unter Verkürzung von Wörtern abgeschlossen ist), aus dem jede 0/1-Folge
+  herausläuft, ist endlich.
+
+* WKL: Jeder unendliche herauslösbare Baum hat einen unendlichen Pfad
+  (0/1-Folge, sodass jede Abschneidung im Baum enthalten ist).
+
+* Kontraposition von WKL:
+
+  Sei T ein herauslösbarer Baum. Falls T keinen unendlichen Pfad besitzt,
+  so ist T nicht unendlich.
+
+  Jede 0/1-Folge läuft heraus ==> T besitzt keinen unendlichen Pfad.
+
+  T nicht unendlich <== T endlich.
+
+  Kontraposition-von-WKL =/=> FAN.
+
+  FAN =/=> Kontraposition-von-WKL.
+
+* Kontraposition von FAN:
+
+  Sei T ein herauslösbarer Baum. Falls T unendlich ist, so ist es nicht der
+  Fall, dass jede 0/1-Folge herausläuft.
+
+  Kontraposition-von-FAN =/=> WKL (auch nicht mit Markov).
+  WKL ==> Kontraposition-von-FAN.
+
+* Mit Markovs Prinzip gilt: FAN <==> Kontraposition-von-WKL.
+
+* LEM ==> FAN (ohne Auswahlprinzipien).

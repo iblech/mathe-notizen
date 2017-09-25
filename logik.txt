@@ -500,6 +500,24 @@ herausgegeben von Dov M. Gabbay, John Hayden
 http://staff.math.su.se/palmgren/CERRTT.pdf
 
 
+=== Funktionssymbole
+
+Folgende zwei Theorien zeigen dieselben Formeln, die in der Sprache von HA
+formuliert werden können:
+
+1. HA
+
+2. HA ergänzt um je ein Funktionssymbol für jeden Aufbau einer
+primitiv-rekursiven Funktion, ergänzt um Axiome für das Funktionssymbol, welche
+sich aus dem Aufbau der primitiv-rekursiven Funktion ergeben.
+
+3. HA ergänzt um je ein Funktionssymbol für jede primitiv-rekursive Funktion,
+ergänzt um Axiome für das Funktionssymbol, welche sich aus allen möglichen
+Aufbauten der primitiv-rekursiven Funktion ergeben. Hier geht ein Lemma ein,
+nämlich dass HA die Äquivalenz von Funktionen darstellenden Formeln zeigen
+kann, sofern die Funktionen gleich sind.
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?
