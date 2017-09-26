@@ -502,7 +502,7 @@ http://staff.math.su.se/palmgren/CERRTT.pdf
 
 === Funktionssymbole
 
-Folgende zwei Theorien zeigen dieselben Formeln, die in der Sprache von HA
+Folgende drei Theorien zeigen dieselben Formeln, die in der Sprache von HA
 formuliert werden können:
 
 1. HA
@@ -516,6 +516,42 @@ ergänzt um Axiome für das Funktionssymbol, welche sich aus allen möglichen
 Aufbauten der primitiv-rekursiven Funktion ergeben. Hier geht ein Lemma ein,
 nämlich dass HA die Äquivalenz von Funktionen darstellenden Formeln zeigen
 kann, sofern die Funktionen gleich sind.
+
+Hier ein paar Details zu primitiv-rekursiven Funktionen und Co.
+
+* Die Klasse der rekursiven Funktionen ist die kleinste Klasse von Funktionen
+  N^k --> N, die die konstante Nullfunktion, die Nachfolgerfunktion und die
+  Projektionsfunktionen enthält und abgeschlossen unter Komposition, primitiver
+  Rekursion und regulärer Minimierung ist (unbeschränkte Minimierung über eine
+  Relation, von der in der Metatheorie bekannt ist, dass sie erfüllt ist).
+
+  Man kann aber auf die Zutat der primitiven Rekursion verzichten, sofern man
+  im Gegenzug Addition, Multiplikation und (x,y) |-> delta_{x,y} aufnimmt.
+
+* Jede rekursive Funktion f ist in Q (und wohl auch sowas wie IQ,
+  intuitionistische Q-Arithmetik) darstellbar. Das bedeutet, dass es eine
+  Formel A(x, y) gibt, sodass für jedes x
+
+      Q |-- forall y. A(x,y) <--> y = f(x)
+
+  gilt. (Dabei kann x auch Abkürzung für "x_1, ..., x_n" sein.)
+
+* Es gilt auch die Umkehrung: Ist f in Q (oder IQ) durch eine Formel A
+  darstellbar, so ist f berechenbar. Denn f(n) kann man wie folgt berechnen:
+  Gehe alle Beweise von Q durch, bis ein Beweis einer Aussage der Form A(n,y)
+  auftritt. Gib dann y zurück. Dieses Verfahren terminiert nach Voraussetzung.
+  Sofern man unterstellt, dass Q konsistent ist, ist der Rückgabewert auch
+  gerade f(n).
+
+* Es gibt eine Funktion beta : N^2 --> N, sodass für jede Folge (a_0,...,a_n)
+  eine Zahl d existiert, sodass beta(d,i) = a_i für i <= n, und sodass beta
+  aus den Grundfunktionen und regulärer Minimierung (aber nicht primitiver
+  Rekursion) hervorgeht. (Nutze chinesischen Restsatz für hinreichend große
+  Moduli und eine Paarungsfunktion, um neben der so erhaltenen Zahl auch eine
+  weitere Zahl zu kodieren, aus der die Moduli extrahiert werden können.)
+
+Siehe: Um Seite 85 von
+http://people.ucalgary.ca/~rzach/static/open-logic/courses/phil479/phil479-screen.pdf.
 
 
 === Nächste Schritte
