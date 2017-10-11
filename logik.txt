@@ -331,6 +331,50 @@ Empfohlen von John Baez!
 
 * Logical Dreams: https://arxiv.org/pdf/math/0211398.pdf
 
+* Es gibt ein Polynom mit ganzzahligen (nicht nur natürlichzahligen)
+  Koeffizienten, das genau dann eine Nullstelle in N^r (äquivalent: Z^r)
+  besitzt, wenn PA inkonsistent ist.
+
+  Denn die Menge X = { n >= 0 | n kodiert einen Beweis von bottom } ist
+  rekursiv aufzählbar. Daher gibt es ein Polynom f(n,x_1,...,x_k) mit
+  ganzzahligen Koeffizienten, sodass für alle n >= 0 gilt:
+
+      n in X  <==>  exists x_1,...,x_k >= 0: f(n,x_1,...,x_k) = 0.
+
+  Somit:
+
+      PA inkonsistent  <==>  exists n: n in X  <==>  f besitzt Lösung in N^{k+1}.
+
+  Ich weiß nicht, wie konstruktiv der Beweis des MRDP-Problems ist. Vermutlich
+  kann man f schon hinschreiben. Damit man aus einer Lösung einen
+  Inkonsistenzbeweis gewinnen könnte, würde schon
+
+      neg neg (n in X)  <==  neg neg (exists x...)
+
+  genügen. Ich weiß aber leider auch nicht, wie viel Konsistenzannahmen im
+  Beweis des MRDP-Problems drinstecken.
+
+* Sei P folgendes Programm:
+
+      Suche systematisch alle HA-Beweise nach einem Beweis der Form "Programm P
+      gibt nicht die Liste x_1,...,x_k aus" ab. Sobald ein solcher Beweis
+      gefunden wurde, gib die Liste x_1,...,x_k aus.
+
+  Ist HA konsistent, so gilt für jede Liste xs: HA beweist nicht, dass P nicht
+  die Liste xs ausgibt. Denn angenommen schon. Dann gibt es auch irgendeine
+  erste Liste ys, für die HA beweist, dass P nicht die Liste ys ausgibt. Also
+  gibt P ys aus. Das kann HA auch beweisen. Also zeigt HA bottom.
+
+  (Alternativer Beweis: Denn angenommen schon. Dann hält P. Somit gibt es eine
+  Liste ys, sodass HA beweist, dass P nicht ys ausgibt, und sodass P trotzdem ys
+  ausgibt. HA beweist dann auch, dass P ys ausgibt. Also zeigt HA bottom.)
+
+  Somit ist HA + (P gibt Liste xs aus) konsistent, falls HA es ist.
+
+  "Somit" gibt es ein Modell von HA + (P gibt Liste xs aus). In diesem gibt P
+  natürlich die Liste xs aus (nach Axiom). Innerhalb dieses Modells gibt es
+  also einen HA-Beweis (mit Nichtstandardlänge), dass P nicht xs ausgibt.
+
 
 === Parikh
 

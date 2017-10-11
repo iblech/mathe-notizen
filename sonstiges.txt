@@ -44,6 +44,17 @@ Daniel Silver.
 Bjorn Poonen. Undecidability in number theory.
 http://www-math.mit.edu/~poonen/papers/h10_notices.pdf
 
+Im Übrigen gibt es zu jeder diophantischen Gleichung (mit ganzzahligen
+Koeffizienten) und der Eigenschaft
+
+    n in X  <==>  exists x_1,...,x_k in Z: f(n,x_1,...,x_k) = 0
+
+eine Gleichung f' (mit ganzzahligen Koeffizienten) und der Eigenschaft
+
+    n in X  <==>  exists x_1,...,x_k in N: f'(n,x_1,...,x_k) = 0.
+
+Im Fall k = 1 kann man nämlich f'(n,x) := f(n,x) f(n,-x) wählen.
+
 
 === Differentialgleichungen
 
