@@ -37,6 +37,16 @@ Träger vergrößernd) ist ein Differentialoperator.
 https://en.wikipedia.org/wiki/Peetre_theorem
 
 
+=== Integration holomorpher Funktionen
+
+* Das Integral von 1/z dz über den Einkeitskreis ist tau i, nicht Null.
+  Das könnte man aber erwarten, wenn man den Einheitskreis auf der riemannschen
+  Zahlenkugel zusammenzieht. Augenscheinlich ist das okay, denn 1/z ist bei
+  z = infty definiert und holomorph (mit Funktionswert Null). Dabei hat man
+  aber nicht beachtet, dass der volle Integrand, die Differentialform 1/z dz,
+  bei z = infty einen Pol hat (erster Ordnung).
+
+
 === Literatur
 
 * http://www.cs.columbia.edu/~keenan/Projects/DGPDEC/paper.pdf
