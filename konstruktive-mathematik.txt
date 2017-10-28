@@ -496,3 +496,9 @@ Hochgelobt von David Roberts auf MO.
 * Mit Markovs Prinzip gilt: FAN <==> Kontraposition-von-WKL.
 
 * LEM ==> FAN (ohne Auswahlprinzipien).
+
+
+=== Lokale und globale Lipschitzstetigkeit
+
+* Der Beweis, dass lokale Lipschitzstetigkeit auf Kompakte globale impliziert,
+  ist nicht völlig uninteressant. Was sagt proof mining dazu?
