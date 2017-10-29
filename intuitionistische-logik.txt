@@ -255,6 +255,15 @@ Zur Hinrichtung überlege zunächst, dass
 "==>": Klar. Sogar ohne die 3.?
 
 
+=== Nabla-Übersetzung (ehemals Box-Übersetzung)
+
+* Vermutlich stimmt folgendes in Minimallogik:
+
+  Falls phi |- psi in A-Logik und die Nabla-Übersetzungen aller über
+  Minimallogik hinausgehenden Axiome von A-Logik in B-Logik ableitbar sind, so
+  folgt phi^Nabla |- psi^Nabla in B-Logik.
+
+
 === Literatur
 
 * The Age of Alternative Logics.
