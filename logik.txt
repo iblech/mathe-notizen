@@ -571,6 +571,23 @@ Hier ein paar Details zu primitiv-rekursiven Funktionen und Co.
 
   Man kann aber auf die Zutat der primitiven Rekursion verzichten, sofern man
   im Gegenzug Addition, Multiplikation und (x,y) |-> delta_{x,y} aufnimmt.
+  Das zeigt man mit der unten beschriebenen beta-Funktion:
+
+  Sei h durch primitive Rekursion definiert:
+
+      h(0,    zvec) = f(zvec)
+      h(s(n), zvec) = g(n, h(n,zvec), zvec),
+
+  wobei wir von f und g schon wissen, dass sie nur aus den genannten Zutaten
+  aufgebaut sind.
+
+  Dann definieren wir:
+
+      H(n, zvec) = mu d.
+          beta(d,0) = f(zvec) wedge
+              forall i < n: beta(d,i+1) = g(i, beta(d,i), zvec).
+
+  Dann h(n, zvec) = beta(H(n,zvec), n).
 
 * Jede rekursive Funktion f ist in Q (und wohl auch sowas wie IQ,
   intuitionistische Q-Arithmetik) darstellbar. Das bedeutet, dass es eine
@@ -579,6 +596,45 @@ Hier ein paar Details zu primitiv-rekursiven Funktionen und Co.
       Q |-- forall y. A(x,y) <--> y = f(x)
 
   gilt. (Dabei kann x auch Abkürzung für "x_1, ..., x_n" sein.)
+
+  Das folgt, da die Zutaten auf der zweiten Zutatenliste oben alle darstellbar
+  sind.
+
+  Ich glaube, dass HA noch etwas mehr kann: Zeigen, dass die so definierten
+  Formeln zu primitiv-rekursiven Funktionen wirklich funktional sind, d.h.
+  zeigen:
+
+      HA |- forall x. exists! y. A(x,y).
+
+  Für beliebige Funktionen gilt das sicher nicht. Zum Beispiel nicht für
+  diejenige Funktion, die einer Zahl n die Länge von Goodstein(n) zuordnet.
+  Das ist eine berechenbare Funktion!
+
+  Das sollte so gehen: Ist für die Grundfunktionen klar. Bleibt nur primitive
+  Rekursion. Sei also h über primitive Rekursion gegeben:
+
+      h(0,    zvec) = f(zvec)
+      h(s(n), zvec) = g(n, h(n,zvec), zvec),
+
+  Dann zeigen wir jetzt die Funktionalität mittels Induktion über n.
+
+  Der Induktionsanfang ist klar. Wir wissen ja schon, dass h dargestellt werden
+  kann, und für das Numeral 0 haben wir Funktionalität.
+
+  Nun der Induktionsschritt. Wir wissen
+
+      exists! y. n h y
+
+  und wollen zeigen:
+
+      exists! v. (n+1) h v.
+
+  Dabei jeweils die Parameter zvec unterdrückt.
+
+  Zur Existenz: Finde y mit n h y. Finde v mit (n,y) g v. Dann (n+1) h v.
+  Hier muss man sich etwas in die beta-Funktion einwühlen!
+
+  Zur Eindeutigkeit: ...
 
 * Es gilt auch die Umkehrung: Ist f in Q (oder IQ) durch eine Formel A
   darstellbar, so ist f berechenbar. Denn f(n) kann man wie folgt berechnen:
@@ -590,9 +646,43 @@ Hier ein paar Details zu primitiv-rekursiven Funktionen und Co.
 * Es gibt eine Funktion beta : N^2 --> N, sodass für jede Folge (a_0,...,a_n)
   eine Zahl d existiert, sodass beta(d,i) = a_i für i <= n, und sodass beta
   aus den Grundfunktionen und regulärer Minimierung (aber nicht primitiver
-  Rekursion) hervorgeht. (Nutze chinesischen Restsatz für hinreichend große
-  Moduli und eine Paarungsfunktion, um neben der so erhaltenen Zahl auch eine
-  weitere Zahl zu kodieren, aus der die Moduli extrahiert werden können.)
+  Rekursion) hervorgeht.
+
+  Nutze chinesischen Restsatz für hinreichend große Moduli und eine
+  Paarungsfunktion, um neben der so erhaltenen Zahl auch eine weitere Zahl zu
+  kodieren, aus der die Moduli extrahiert werden können.
+
+  Genauer geht das so.
+
+  Zunächst können wir die Paarungsfunktion J(x,y) = (x+y) (x+y+1) / 2 + x
+  definieren. Dazu braucht's nur reguläre Minimierung: J(x,y) ist das kleinste z,
+  sodass (x+y)*(x+y+1) + 2*x = 2z ist.
+
+  Die Projektionen gehen auch:
+
+      K(z) = mu x. exists y <= z. z = J(x,y),
+      L(z) = mu y. exists x <= z. z = J(x,y).
+
+  Es gilt dann K(J(x,y)) = x, L(J(x,y)) = y für alle x, y.
+
+      Prelude> mapM_ print [ [ j x y | x <- [0..5] ] | y <- [0..5] ]
+      [0,2,5,9,14,20]
+      [1,4,8,13,19,26]
+      [3,7,12,18,25,33]
+      [6,11,17,24,32,41]
+      [10,16,23,31,40,50]
+      [15,22,30,39,49,60]
+
+  Dann definieren wir:
+
+      beta*(d0, d1, i) = rem(1 + (i+1) d1, d0)  und
+      beta(d, i) = beta*(K(d), L(d), i).
+
+  Sind nun Zahlen a_0, ..., a_n gegeben, so setzen wir
+
+      j  := max { n, a_0, ..., a_n } + 1,
+      d1 := j!,
+      d0 so, dass d0 = a_i mod (1 + (i+1) d1) (existiert eindeutig).
 
 Siehe: Um Seite 85 von
 http://people.ucalgary.ca/~rzach/static/open-logic/courses/phil479/phil479-screen.pdf.
