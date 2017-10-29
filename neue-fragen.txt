@@ -1,0 +1,16 @@
+=== Topossprache
+
+* Inwieweit ist (phi |--> (E |== phi)) ein modaler Operator?
+
+  Können wir das Phänomen, dass die Gültigkeit geometrischer Sequenzen unter
+  Rückzug bewahrt wird, damit erklären?
+
+  Möglicherweise schon: Sei Set ein Basistopos. Sei E --> Set ein geometrischer
+  Morphismus. Gelte phi ==> psi in Set. Dann phi^E ==> psi^E. Also E(phi) ==>
+  E(psi).
+
+
+=== Konstruktive Algebra
+
+* Gibt es eine Noetherbedingung, die sich als geometrische Sequenz formulieren
+  lässt? Prozessische Noetherianität sieht ein bisschen so aus!
