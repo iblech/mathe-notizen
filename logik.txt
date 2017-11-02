@@ -591,11 +591,18 @@ Hier ein paar Details zu primitiv-rekursiven Funktionen und Co.
 
 * Jede rekursive Funktion f ist in Q (und wohl auch sowas wie IQ,
   intuitionistische Q-Arithmetik) darstellbar. Das bedeutet, dass es eine
-  Formel A(x, y) gibt, sodass für jedes x
+  Formel A(x,y) gibt, sodass für jedes x
 
-      Q |-- forall y. A(x,y) <--> y = f(x)
+      Q |- forall y. A(x,y) <--> y = f(x)
 
-  gilt. (Dabei kann x auch Abkürzung für "x_1, ..., x_n" sein.)
+  gilt. (Dabei kann x auch Abkürzung für "x_1, ..., x_n" sein. Je zwei solche
+  Formeln sind zueinander beweisbar äquivalent. Oder nicht? Zumindest hat man
+  für jedes x, dass Q |- forall y. A(x,y) <--> A'(x,y). Das genügt aber nicht.
+  Betrachte etwa die Formeln (beide im Kontext n:N) "n ist kein Beweis von
+  bottom und "top". Für jedes Numeral n sind die beiden Formeln beweisbar
+  äquivalent (infinitistische Metalogik vorausgesetzt). Aber sie sind nicht
+  selbst beweisbar äquivalent. Das würde nämlich heißen, dass Q (oder was auch
+  immer) seine Konsistenz zeigt.)
 
   Das folgt, da die Zutaten auf der zweiten Zutatenliste oben alle darstellbar
   sind.
