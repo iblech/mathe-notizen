@@ -695,6 +695,12 @@ Siehe: Um Seite 85 von
 http://people.ucalgary.ca/~rzach/static/open-logic/courses/phil479/phil479-screen.pdf.
 
 
+=== Lineare Logik
+
+* Ein Grund "wieso": Weil automatisches Beweisen praktikabel wird.
+  https://blog.plover.com/math/logic/cut-rule.html
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?

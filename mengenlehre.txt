@@ -6,6 +6,14 @@
   http://www.icm2006.org/proceedings/Vol_II/contents/ICM_Vol_2_03.pdf
 
 
+=== Visualisierungen von Ordinalzahlen
+
+* Busse
+* Teilmengen von N
+* Striche
+* http://stephenbrooks.org/archive/ordinals/
+
+
 === New Foundations
 
 * Die Kategorie Set in NF ist leider nicht kartesisch abgeschlossen.
