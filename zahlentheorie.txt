@@ -53,6 +53,51 @@ http://terrytao.wordpress.com/2014/07/07/the-subspace-theorem-approach-to-siegel
   http://www.idmercer.com/monthly355-356-mercer.pdf
 
 
+=== Euklids Lemma
+
+* Gelte a | bc und a _|_ b. Dann folgt a | c.
+
+  Sei dazu 1 = ua + vb eine Bézoutdarstellung.
+  Dann ist c = uac + vbc ein Vielfaches von a.
+
+* Sei a eine Zahl mit m | a für alle 1 <= m <= n.
+
+  Seien i, j mit 1 <= i < j <= n + 1. Dann sind ia + 1 und ja + 1 teilerfremd.
+
+  Ein Argument geht so: Sei p ein Primteiler von ia + 1 und ja + 1.
+  Dann p | (j-i)a. Also p | j-i oder p | a. Im ersten Fall folgt p <= j-i <= n,
+  also p | a, also liegt der zweite Fall vor. Dann folgt p | ia und somit p | 1.
+  Das ist ein Widerspruch.
+
+  Ohne die Verwendung der Existenz von Primfaktoren geht es so:
+  Sei p irgendein Teiler von ia + 1 und ja + 1. Sei d der ggT von p und (j-i).
+  Schreibe p = d p', j-i = d k'. Aus p | (j-i)a folgt dann p' | k' a.
+  Da p' _|_ k' folgt mit Euklids Lemma p' | a. Wegen p' | p | ia + 1
+  folgt p' | 1. Also p = d. Also p <= j-i <= n, also p | a, also p | 1.
+
+  Aber auch dieses Argument liefert noch nicht direkt eine Bézoutdarstellung
+  des größten gemeinsamen Teilers von ia + 1 und ja + 1.
+
+  Gefunden: Da 1 <= |i - j| <= n, gibt es b mit a = (i - j) * b.
+  Dann 1 = (1 - i*(i-j)*b + i^2*b) * (i*a + 1) - i^2*b * (j*a + 1).
+
+  Bin wie folgt darauf gekommen. Zunächst sieht man, dass ia + 1 _|_ ja + 1
+  äquivalent ist zu ia + 1 _|_ (i-j)a. Mit der Voraussetzung an a
+  können wir das umschreiben zu i(i-j)b + 1 _|_ (i-j)^2 b. Übersichtlicher
+  wird's mit k := i-j, dann steht da ikb + 1 _|_ k^2 b.
+
+  Dann sehen wir folgende Identitäten:
+
+      k = k (ikb + 1) - i * k^2 b.
+      1 = (ikb + 1) - ib * k.
+
+* Frage: In der konstruktiven Algebra lernt man, wie man Argumente mit
+  Primidealen umformuliert. Gibt es eine ähnliche Technik auch in der
+  Zahlentheorie? Freilich ist die Existenz von Primfaktoren konstruktiv völlig
+  unstrittig, aber möglicherweise gibt es schwache Systeme, in denen sie
+  fraglich ist(?).
+
+
 === Endlichkeit der Fermatschen Primzahlen
 
 https://arxiv.org/abs/1605.01371
