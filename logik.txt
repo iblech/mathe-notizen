@@ -420,6 +420,55 @@ dem Induktionsprinzip eingeschränkt auf elementar berechenbare Prädikate.
 http://www.icm2006.org/proceedings/Vol_II/contents/ICM_Vol_2_03.pdf
 
 
+=== Definierbarkeit
+
+* Klar, es gibt Tarskis Resultat.
+
+* Man kann aber in Mengenlehre, für jede Menge U, definieren, wann
+  eine Formel (der Mengenlehre), kodiert als natürliche Zahl, U-relativiert
+  gilt. Dazu muss man halt einen Interpreter schreiben. Dessen Typ ist sowas
+  wie
+
+      N --> Omega^Env,
+
+  wobei Env die Menge der endlichen Listen von Elementen aus U ist. In ZF kann
+  man ja bekanntlich rekursive Definitionen treffen.
+
+* Wenn man dieses Verfahren auch für das Universum U, die Klasse aller Mengen,
+  durchführen möchte, so gibt es natürlich ein Problem (wie von Tarski
+  vorhergesehen). Zunächst gibt es keine passende Menge Env. Das ist aber noch
+  nicht an sich ein Problem, denn man muss ja in ZF nicht Zielmengen von
+  Abbildungen angeben. Allerdings muss ja f(#top) sowas sein wie
+
+      const {*}, d.h.
+          { <e, {*}> | e aus Env },
+
+  und das existiert auch nicht.
+
+* Eine Menge M heißt genau dann definierbar rel X, wenn es eine Formel phi
+  von Mengenlehre gibt, sodass M = { z in X | phi gilt rel X für z }.
+  (Man kann die Definition nicht derart ausweiten, dass auch nicht-Teilmengen
+  von X eine Chance hätten, definierbar rel X zu sein.)
+
+* Def(X) ist die Menge aller rel X definierbaren Teilmengen von X.
+
+  Damit dieses Konzept nicht sehr pervers ist, muss X zumindest sowas wie
+  transitiv sein. Zum Beispiel sollte ja die Teilmenge der positiven
+  natürlichen Zahlen rel N definierbar sein. Das stimmt schon auch, ist aber
+  nicht völlig trivial. Denn die rel-U-Extension von "n ist positiv",
+  ausgeschrieben "0 in n" bzw. "exists z. z in n wedge forall y. neg (y in z)"
+  lautet:
+
+      exists z in N.
+          z in n  wedge
+              forall y in N. neg (y in z).
+
+  Das besagt also nicht, dass 0 (die leere Menge) ein Element von n ist. Nur,
+  dass eine Menge z ein Element von n ist, welche keine natürlichen Zahlen
+  enthält. Wegen der Transitivität von N folgt dann aber, dass z die leere
+  Menge ist. Denn sei y in z. Dann y in z in N. Also y in N. Also Widerspruch.
+
+
 === Wahrheit vs. Beweisbarkeit
 
 * "Because it’s the case that if a number-theoretic statement is true, then its

@@ -62,7 +62,7 @@ vom inneren Kern.
 
 === Konstruktion von Funktionen durch Rekursion über N
 
-Ziel: Wollen zeigen, dass eine Funktion f : N --> X gibt mit
+Ziel: Wollen zeigen, dass es eine Funktion f : N --> X gibt mit
 
     f(0) = a
     f(n+1) = g(n, f(n)) für alle n >= 0.
