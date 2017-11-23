@@ -112,7 +112,7 @@ Empfohlen von John Baez!
 * Auch in schwachen Metatheorien gibt es insofern sowas wie NN, als dass es
   sinnvoll ist, von NN |== A zu sprechen. Aber NN |== PA gilt eventuell nicht,
   wegen des in PA enthaltenen Induktionsaxioms oder wegen der in PA enthaltenen
-  klassischen Logik.
+  klassischen Logik. (Achtung, bedenke Tarski!)
 
 * Das Diagonallemma besagt: Sei F(n) eine Aussageform. Dann gibt es
   eine Aussage A mit PA |- (A <-> F(#A)).
@@ -159,7 +159,7 @@ Empfohlen von John Baez!
   Konsistenz von PA.
 
 * Definiere Gödelnummerierung. Erhalte Aussageform Prov(n) mit
-  
+
       NN |== Prov(#A)  genau dann, wenn  PA |- A
 
   für alle Aussagen A. Finde mit Diagonallemma Aussage A mit
@@ -354,7 +354,7 @@ Empfohlen von John Baez!
   genügen. Ich weiß aber leider auch nicht, wie viel Konsistenzannahmen im
   Beweis des MRDP-Problems drinstecken.
 
-* Sei P folgendes Programm:
+* Sei P folgendes Programm ("das universelle Programm"):
 
       Suche systematisch alle HA-Beweise nach einem Beweis der Form "Programm P
       gibt nicht die Liste x_1,...,x_k aus" ab. Sobald ein solcher Beweis
