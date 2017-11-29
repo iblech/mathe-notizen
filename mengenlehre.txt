@@ -137,3 +137,13 @@ Dann wird f durch folgende Formel psi realisiert:
     psi(n,k) :=
         (k < n wedge phi(n,k,0) wedge forall k' < k. not phi(n,k',0)) vee
         (k = n wedge forall k' < n. not phi(n,k',0)).
+
+
+=== Klein-Definierbarkeit & Co.
+
+* Sei phi eine Formel von ZFC. Sei A := { x in S | phi(x) } in S.
+
+  Für x in S gilt dann phi(x) <==> phi_S(x) mit Reflektion.
+
+  Noch mal mit Reflektion (fasse A als freie Variable auf) folgt:
+  forall x. (phi(x) <==> x in A).
