@@ -1276,7 +1276,7 @@ Sei M eine quadratische Matrix über einem Ring.
   äquivalent zur Regularität von det(A).
 
   Zu [*], "<==": Sei sum_i a_i u_i = 0. Dann gilt:
-  
+
       0 = u_1 wedge ... wedge sum_i a_i u_i wedge ... wedge u_n,
 
   also a_i (u_1 wedge ... wedge u_n) = 0. Also a_i = 0.

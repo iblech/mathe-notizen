@@ -613,3 +613,8 @@ https://arxiv.org/abs/0808.1572
 * http://www.sciencedirect.com/science/article/pii/0167278995002685
 
 * http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.47.6223&rep=rep1&type=pdf
+
+
+=== Matrixkochbuch
+
+* https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf
