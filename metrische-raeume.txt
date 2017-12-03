@@ -48,7 +48,7 @@ Auf der Menge C(X) der Cauchy-Prozesse kann man eine Äquivalenzrelation durch
 und eine Metrik durch
 
     d(alpha,alpha') <= q gdw.
-        f.a. eps,eps' > 0, f.a. x \in alpha(eps), x' \in alpha(eps'):
+        f.a. eps,eps' > 0, f.a. x \in alpha(eps), x' \in alpha'(eps'):
             d(x,x') <= eps + eps' + q
 
 definieren. Es gilt:
