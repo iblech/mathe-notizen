@@ -32,7 +32,7 @@ https://mathoverflow.net/a/277515/31233
 
   Ist nun eine berechenbare totale Funktion f gegeben, so gibt es ein n,
   sodass f durch die n-te Turingmaschine realisiert wird. Folglich ist d(n)
-  definiert und gleich f(n).
+  definiert und ungleich f(n).
 
 * Ein Wort a in 2^* liegt genau dann im Kleene-Baum, wenn a "die Folge d
   sein könnte". Damit ist folgendes gemeint.
@@ -52,7 +52,7 @@ https://mathoverflow.net/a/277515/31233
 
 * Nach Königs Lemma enthält der Kleene-Baum daher einen unendlichen Pfad.
   Aber er enthält keinen berechenbaren unendlichen Pfad.
-  
+
   Denn sei ein beliebiger berechenbarer Pfad in 2^* gegeben. Dann können wir
   eine totale berechenbare Funktion f : N --> {0,1} durch f(n) := der n-te
   Buchstabe des n-ten Worts auf dem Pfad definieren. Dank der Magie von d
