@@ -542,7 +542,7 @@ Achtung, hier klassische Logik benutzt!
 * Eine Menge X natürlicher Zahlen ist genau dann eine Pi_1^1-Menge,
   wenn es eine rekursive Folge (T_n)_n rekursiver Bäume mit
 
-      n in A  <==>  T_n ist fundiert
+      n in X  <==>  T_n ist fundiert
 
   gibt.
 
