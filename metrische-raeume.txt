@@ -149,6 +149,35 @@ Die erste Bedingung kann man sogar noch abschwächen zu
     forall eps. exists eps'. exists x. (x,eps') in Sigma.
 
 
+=== Ordnung auf R
+
+Sei R über Cauchyprozesse definiert.
+
+* Für einen Cauchyprozess alpha sind äquivalent:
+  (1) exists eps > 0. exists x in alpha(eps). |x| > eps.
+  (2) exists eps. forall delta <= eps. forall x in alpha(delta). |x| > delta.
+
+  (2) ==> (1) ist klar.
+  (1) ==> (2) geht so. Gelte |x0| > eps0. Definiere eps' := (|x0| - eps0) / 2.
+  Wähle eps < eps'. Sei delta <= eps. Sei x aus alpha(delta) beliebig. Dann:
+
+      |x| >= |x0| - delta - eps0 = 2eps' - delta > 2eps - delta >= delta.
+
+  Und übrigens: |alpha| >= |x0| - eps0.
+
+  Sei beta zu alpha äquivalent. Dann überträgt sich (1) von alpha auf beta.
+  Gelte wieder |x0| > eps0 und definiere eps wie oben. Finde dann ein y aus
+  beta(eps). Dann gilt:
+
+      |y| >= |x0| - eps - eps0 = 2eps' - eps > eps.
+
+* Für zwei Prozesse alpha, beta sind äquivalent:
+  (1) exists eps > 0. exists x in alpha(eps), y in beta(eps). |x-y| > 2eps.
+  (2) exists eps > 0. forall delta <= eps. forall x in alpha(eps), y in beta(eps). |x-y| > 2delta.
+
+  Zeige das genauso wie oben, definiere aber eps' := (|x0-y0| - 2eps0) / 4.
+
+
 === Topologisch
 
 Sei X topologischer Raum. Sei f : X --> R eine stetige Funktion.
