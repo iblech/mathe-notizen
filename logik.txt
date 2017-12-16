@@ -530,8 +530,9 @@ Achtung, hier klassische Logik benutzt!
 
 * Jede Pi_1^1-Aussage ist äquivalent zu einer Aussage der Form
 
-      forall f : N --> N. exists m : N. R(n, f^(m)).
+      forall f : N --> N. exists m : N. R(n, f^(m)),
 
+  wobei R ein rekursives Prädikat ist.
   Dabei ist f^ die "course of values"-Funktion, also f^(n) = (f(0),...,f(n-1)).
 
   Siehe: Cor. IV.2.10 in /Classical Recursion Theory/ von Odifreddi.
