@@ -1884,6 +1884,8 @@ PS: If you are into such things, here is the logical background:
 
   Der Beweis dieses Theorems ist (angeblich) "highly unconstructive" (nLab).
 
+  (Siehe https://arxiv.org/abs/1603.03374 für eine Kritik!)
+
 * Eine konstruktiv beweisbare Abschwächung erhält man, wenn man darauf
   verzichtet, dass in E' das Auswahlaxiom gilt. Dann kann man E' explizit als
   E' := Sh_j(E/Omega) erhalten, wobei j(phi) = ((phi => t) => t). Dabei ist t
