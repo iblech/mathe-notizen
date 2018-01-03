@@ -832,6 +832,13 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
   Aussage genau dann gilt, wenn sie zurückgezogen auf diesen Raum gilt.
 
 
+=== Philosophie zu Olivias Brückenbauprogramm
+
+Daniel Luckhardt: "Auf den Kopf gestelltes Vorgehen: Die Brückentechnik
+entwickelt ein allgemeines Konzept in einem a priori vorgegebenen Rahmen,
+anstatt induktiv vorzugehen, wie es sonst in der Mathematik der Fall ist."
+
+
 === Nächste Schritte
 
 * von Peter Arndt empfohlen: John Bell, Toposes and local set theories.

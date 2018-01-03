@@ -1207,6 +1207,26 @@ homogenen Elementen von F.
 
     Insbesondere ist die unendliche Disjunktion ableitbar.
 
+* In meiner Arbeit steht: Im Topos über der konstruierbaren Topologie
+  gibt es A[F^(-1)] und A/P. Ersteres ist die universelle Möglichkeit, A
+  in einen lokalen Ring mit entscheidbarer Invertierbarkeitsrelation zu machen.
+  Zweiteres ist die universelle Möglichkeit, A in einen starken
+  Integritätsbereich abzubilden.
+
+  Man könnte auch noch A[F^(-1)]/(P A[F^(-1)]) betrachten. Das sollte die
+  universelle Möglichkeit sein, A in einen geometrischen Körper (sodass jedes
+  Körperelement von einem Bruch herkommt) abzubilden.
+
+  Zumindest stehen die Punktmengen
+
+      { (f,p) | f Filter, p Primideal, forall x: x in f \dot\vee x in p }
+
+  und
+
+      { A --> k | k geometrischer Körper mit Bruchbedingung } / Isomorphie
+
+  in kanonischer Bijektion.
+
 * Die flache Topologie erhält man, wenn man nur die Axiomengruppe 2
   verwendet (also nur die Axiome für ein Primideal kodiert).
 
