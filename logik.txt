@@ -553,7 +553,7 @@ Achtung, hier klassische Logik benutzt!
   Zur Richtung "==>" nutzen wir aus, dass die Menge X von der Form
   X = { n | forall f. exists m. R(n, f^(m)) } ist und definieren den Baum T_n
   so: Eine Folge xs von natürlichen Zahlen soll genau dann zum Baum gehören,
-  wenn für jede echte Teilfolge ys von xs die Aussage R(n, ys) falsch ist.
+  wenn für jedes echte Suffix ys von xs die Aussage R(n, ys) falsch ist.
 
   Die Blätter des Baums geben also Plätze an, bei denen R(n, __) das erste Mal
   gilt.
@@ -749,6 +749,13 @@ http://people.ucalgary.ca/~rzach/static/open-logic/courses/phil479/phil479-scree
 
 * Ein Grund "wieso": Weil automatisches Beweisen praktikabel wird.
   https://blog.plover.com/math/logic/cut-rule.html
+
+
+=== Beweisprädikate, die die HBL-Bedingungen nicht erfüllen
+
+* "x besitzt einen schnittregelfreien Beweis"
+
+* https://mathoverflow.net/a/231011/31233
 
 
 === Nächste Schritte

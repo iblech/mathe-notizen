@@ -260,7 +260,10 @@
 * Es gibt eine Charaktieriserung der Örtlichkeiten, die surjektiv über dem
   Punkt liegen: Es sind genau die, für die es einen Situs gibt, in dem jede
   Überdeckung bewohnt ist und in der es ein terminales Objekt gibt.
-  http://www.ams.org/journals/tran/1986-295-02/S0002-9947-1986-0833712-3/S0002-9947-1986-0833712-3.pd
+  http://www.ams.org/journals/tran/1986-295-02/S0002-9947-1986-0833712-3/S0002-9947-1986-0833712-3.pdf
+  (Connected locally connected toposes are path-connected)
+  (Update: Finde diese Aussage in der Form gerade nicht wieder in diesem
+  Artikel. Ist also vielleicht falsch.)
 
 
 === Degeneration von Topoi
@@ -705,7 +708,7 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
 
 * Vor flachen Funktoren muss man echt keine Angst haben.
 
-* Geometrische Morphismen E --> Sh(C) stehen in kanonischer
+* Geometrische Morphismen E --> PSh(C) stehen in kanonischer
   Eins-zu-Eins-Korrespondenz zu Modellen der folgenden geometrischen Theorie.
   
   Sorten: je eine, F(X), für jedes Objekt X aus C
@@ -791,7 +794,7 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
 === Cauchysche reelle Zahlen
 
 * In lokal zusammenhängenden Topoi sind die cauchyschen reellen Zahlen
-  einfach durch Rückzug der caucyschen reellen Zahlen des Basistopos gegeben.
+  einfach durch Rückzug der cauchyschen reellen Zahlen des Basistopos gegeben.
   Im Elephant wird auch noch eine leicht allgemeinere Bedingung aufgeführt.
 
 
