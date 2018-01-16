@@ -673,7 +673,7 @@ Theorie, nämlich "die Theorie ihrer Punkte".
   Zeige dazu, dass chi |- phi in T cup T' genau dann, wenn chi |- phi0 vee phi
   in T.  
 
-' T' = { top |- phi_i | i aus I } ist etwas anderes als
+* T' = { top |- phi_i | i aus I } ist etwas anderes als
   T'' = { top |- bigvee_{psi mit psi |- phi_i für alle i} psi }!
 
   T'' beweist die Axiome von T'. Also Thm(T') <= Thm(T'').

@@ -710,7 +710,7 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
 
 * Geometrische Morphismen E --> PSh(C) stehen in kanonischer
   Eins-zu-Eins-Korrespondenz zu Modellen der folgenden geometrischen Theorie.
-  
+
   Sorten: je eine, F(X), für jedes Objekt X aus C
 
   Funktionssymbole: je eins, F(f), für jeden Morphismus f in C
