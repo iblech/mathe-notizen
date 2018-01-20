@@ -103,11 +103,11 @@ beginning on page 46 or the nLab for details.
 * Joins sind wie Summen, Meets wie Produkte.
 
 * Habe das Distributivgesetz. Und dieses hat eine zentrale Rolle in der
-  Theorie. "From the idea of distributivity emergs the concept of a topos."
+  Theorie. "From the idea of distributivity emerges the concept of a topos."
 
 * Die Kategorie der Topoi (mit logischen Morphismen) "ist wie" Ring.
 
-Mengen       abelsche Grupen    kommutative Ring
+Mengen       abelsche Gruppen    kommutative Ringe
 
 Posets        sup-lattices         Rahmen
 
@@ -686,7 +686,7 @@ Theorie, nämlich "die Theorie ihrer Punkte".
       mu_{>= phi}(psi |-->
           psi  vee  bigvee_i (alpha_i wedge (beta_i --> psi))) =
       -- falls I = 1
-      (psi vee alpha) wedge (beta --> psi)
+      (phi vee alpha) wedge (beta --> phi)
       -- diese Formel ergibt auch Sinn: (alpha --> beta) = alpha^c vereinigt beta
 
   Dann: omega |-_{T cup T'} phi  gdw.  omega |-_T j(phi).
