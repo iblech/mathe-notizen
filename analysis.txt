@@ -15,3 +15,14 @@
   in einem Ball, der noch ganz in U enthalten ist. Da die Diagonale kompakt
   ist, genügen endlich viele dieser Bälle. Ihr minimaler Radius ist das
   gesuchte delta.
+
+
+=== Ecken
+
+* Es gibt eine differenzierbare Kurve gamma mit Bild in { (x,y) | y = |x| }
+  udn gamma(0) = (0,0) und x(gamma(>0)) > 0 und x(gamma(<0)) < 0.
+
+  Nämlich gamma(t) = t^2 * (1,1) für t >= 0 und t^2 * (-1,1) für t <= 0.
+
+* Jede solche Kurve hat Ableitung Null bei Null, ist also kein
+  Diffeomorphismus.
