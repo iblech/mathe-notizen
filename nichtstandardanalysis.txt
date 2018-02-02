@@ -24,6 +24,10 @@
 * Conceptual Differential Calculus. I: First Order Local Linear Algebra
   http://arxiv.org/abs/1503.04623
 
+* Konstruktiv: Real numbers in the topos of sheaves over the category of
+  filters, Erik Palmgren; ebenso A sheaf-theoretic foundation for nonstandard
+  analysis.
+
 
 === Taos cheap nonstandard analysis
 

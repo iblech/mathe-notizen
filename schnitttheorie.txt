@@ -29,6 +29,10 @@ für alle x in A cap B). Dann gilt:
 
 Dabei bezeichnet Pd : H_k --> H^{n-k} die Poincaré-Paarung.
 
+Folgendes ist ein Beispiel für zwei Untermannigfaltigkeiten des R^3, deren
+topologischer Schnitt keine Mannigfaltigkeit ist: der aufgedickte Kegel
+(x^2 + y^2 - z^2 = 1) mit der Ebene x = 1.
+
 
 === Selbstschnitt
 
