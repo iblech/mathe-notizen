@@ -434,3 +434,10 @@ Es gibt eine Turingmaschine M, sodass für jede Funktion f : N --> N (auch für
 die unberechenbaren) ein Modell von PA (oder ZFC) existiert, sodass für alle
 natürlichen Zahlen n gilt, dass in U die Maschine M bei Eingabe von n hält und
 das Ergebnis f(n) liefert.
+
+
+=== Obfuscation
+
+https://www.quantamagazine.org/in-cryptography-advances-in-program-obfuscation-20140130
+http://eprint.iacr.org/2013/451.pdf
+http://eprint.iacr.org/2013/454.pdf

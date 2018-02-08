@@ -499,6 +499,9 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   Bei der Hinrichtung folgt zunächst, dass A ebenfalls ein Integritätsbereich
   ist. Außerdem sind reguläre Elemente invertierbar. Somit ist A ein Körper.
 
+* A[X] ist genau dann ein strikter Bézoutscher Bereich, wenn A regulär ist.
+  https://arxiv.org/pdf/1404.4549.pdf, Seite 3.
+
 * Über dem Ring Z[A_0,...]/(A_0^2,...) hat die Potenzreihe f = sum_i A_i X^i
   zwar nilpotente Koeffizienten, sie ist aber selbst nicht nilpotent. Denn
   der Koeffizient von X^(n*(n+1)/2) in f^(n+1) ist

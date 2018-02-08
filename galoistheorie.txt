@@ -16,18 +16,96 @@
 Siehe http://faculty.ycp.edu/~fbutler/MastersThesis.pdf.
 
 
-=== Inverse Galois problem
+=== Das inverse Problem der Galoistheorie
 
 * Jede endliche Gruppe ist die Galoisgruppe einer endlichen Galoiserweiterung
   von C(X). http://faculty.ycp.edu/~fbutler/MastersThesis.pdf, Seite 22.
 
 
-=== Nächste Schritte
+=== Endliche und unendliche Galoistheorie konstruktiv
 
-* Unendliche Galoistheorie konstruktiv?
-  Gal(L|K) als Locale statt topologischen Raum?
+* Der Hauptsatz der endlichen Galoistheorie, so wie in jedem Lehrbuch
+  formuliert (beliebige Untergruppen und beliebige Zwischenerweiterungen
+  betreffend), lässt sich nicht konstruktiv zeigen.
+
+* Aber schon, wenn man ihn lokalisch umformuliert. Dann ist es auch
+  gleich egal, ob die Erweiterung endlich ist. Die Erweiterung muss normal und
+  separabel sein, was man so formulieren kann: Jedes Element von L ist
+  Nullstelle eines normierten separablen Polynoms über K, das über L in
+  Linearfaktoren zerfällt. (Die Nullstellen eines solchen Polynoms sind
+  voneinander entfernt in dem Sinn, dass ihre paarweisen Differenzen
+  invertierbar sind.) Das ganze bezieht sich auf geometrische Körper.
+
+* Die lokalische Galoisgruppe wird nur über geometrische Klauseln
+  definiert, ihre Konstruktion ist also geometrisch und zieht sich daher
+  wunderbar zurück.
+
+* Das wird alles schön erklärt in Wraiths /Galois theory in a topos/.
+  Ist ein schönes Beispiel für das Motto, dass man konstruktiv Topologie früher
+  beachten muss als klassisch. Siehe auch /Localic groups/.
+
   Vgl. http://arxiv.org/abs/1301.0300.
-* Was sind Punkte von Gal(L|K)?
+
+* Sei G eine lokalische Gruppe (im Deutschen sollten wir wohl "stetige Gruppe"
+  sagen, so ähnlich wie bei "differenzierbare Mannigfaltigkeit"). Sei A eine
+  Menge. Eine Wirkung von G auf A ist dann ein Morphismus von Gruppenobjekten
+
+      G --> Perm(A),
+
+  wobei Perm(A) die Örtlichkeit der Bijektionen von A ist. Es ist Perm(A) wohl
+  auch das Exponentialobjekt A^A, wobei hier A als diskrete Örtlichkeit
+  aufgefasst wird, sodass ein solcher Morphismus einen Morphismus G x A --> A
+  induziert (wobei A weiterhin diskret aufgefasst wird).
+
+  Eine solche G-Wirkung ist also gegeben durch Offene U_{x,y} für x, y aus A,
+  sodass folgende grundlegenden Axiome erfüllt sind:
+
+      0. Totalität:     top = bigvee_y U_xy
+      1. Eindeutigkeit: U_xy wedge U_xy' <= bigvee { top | y = y' }
+      2. Injektivität:  U_xy wedge U_x'y <= bigvee { top | x = x' }
+      3. Surjektivität: top = bigvee_x U_xy
+
+  Dann brauchen wir noch die Axiome für einen Gruppenhomomorphismus.
+
+      G x G ---> Perm(A) x Perm(A)
+        |                |
+        | mu             |
+        v                v
+        G ----------> Perm(A)
+
+  Also:
+
+      4. mu^(-1)(U_xy) = bigvee_z (U_xy wedge U'_zy)
+      5. eta^(-1)(U_xy) = bigvee { top | x = y }
+      6. iota^(-1)(U_xy) = U_yx
+
+  Nur Axiom 4 ist wirklich nötig, die anderen ergeben sich zwangsläufig.
+
+  Der Fixort kann wie folgt definiert werden:
+
+      Fix = { a aus A | (G --> Perm(A) --ev_a--> A) = (G --> pt --konst_a--> A) }
+          = { a aus A | U_xx = top }.
+
+  Die Menge der Orbits ist A/~ mit folgender Äquivalenzrelation:
+
+      a ~ b  :<==>  U_ab != bot.
+
+  (Klingt gefährlich, aber macht Wraith so in /Localic groups/.)
+
+  Mit dieser Definition wirkt etwa Perm(A) auf A transitiv (egal, wie groß A
+  ist, und ohne Auswahlaxiom!). (Wobei ehrlich gesagt nicht völlig klar ist,
+  wieso phi_ab != bot ist.)
+
+
+=== Algebraischer Abschluss
+
+* Kennison schreibt, dass man aus dem separablen Abschluss leicht einen
+  algebraischen machen kann, mittels Wraith-Gluing. Siehe letzter Absatz von
+  https://core.ac.uk/download/pdf/82351288.pdf ("Separable algebraic closure in
+  a topos"). Verstehe das!
+
+
+=== Nächste Schritte
 
 * Grothendiecks Galoistheorie?
   
@@ -41,3 +119,5 @@ Siehe http://faculty.ycp.edu/~fbutler/MastersThesis.pdf.
   obwohl die Galoisgruppe evtl. viel weniger als die volle S_4 ist?
 
 * http://qchu.wordpress.com/2013/06/23/operations-pro-objects-and-grothendiecks-galois-theory/#more-12927
+
+* Algebraischer Abschluss

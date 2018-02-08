@@ -410,6 +410,15 @@ Empfohlen von John Baez!
   gilt für keine Zahl, dass beweisbar ist, dass sie in der Menge liegt, oder
   dass beweisbar ist, dass sie nicht in der Menge liegt.
 
+* McLarty in
+  https://artscimedia.case.edu/wp-content/uploads/2013/07/14182256/General-talk.pdf:
+
+  "I point I owe to John Mayberry: we have only ever applied
+  induction for conditions φ that make sense.
+
+  If the formalism conceals an inconsistency we should expect it to
+  lie in conditions φ with no apparent sense."
+
 
 === Finitistisch akzeptables Schließen
 
