@@ -553,6 +553,13 @@ immer ein offener Untertopos von Set[|T|], oder?
   Sh(X_diskret) und stetige Abbildungen Y --> X_diskret sind gerade durch
   X-indizierte offene paarweise disjunkte Überdeckungen von Y gegeben.
 
+* Hakim hat Folgendes gemacht: Sie hat eine Definition von lokalem (strikt
+  lokalem, fppf-lokalem) Ring gegeben, die in jedem Topos funktioniert, aber
+  nicht über Axiome formuliert ist. (Sondern über eine Stetigkeitsbedingung,
+  die glaube ich äquivalent ist zu einer Hochhebungseigenschaft.) Dann hat sie
+  gezeigt, dass es einen generischen lokalen (strikt lokalen, fppf-lokalen)
+  Ring gibt.
+
 
 === Siten
 
