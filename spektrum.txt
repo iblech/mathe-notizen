@@ -1290,6 +1290,29 @@ homogenen Elementen von F.
   * E |== neg neg (Spec(A^1) ist trivial)
 
 
+=== Ringe mit Getrenntheitsrelation (apartness relation)
+
+* Ist A ein lokaler Ring, so kann ich A zu einem Ring mit Getrenntheitsrelation
+  durch die Setzung (a # b :<==> a - b invertierbar) machen. Dieser nimmt dann
+  die Rolle des Quotientenkörpers A/m ein. Er ist ein Körper im Sinne von:
+  a # 0 <==> a invertierbar.
+
+* Eine Teilmenge M eines Rings mit Getrenntheitsrelation ist genau dann *offen*,
+  wenn (x in M ==> y in M oder x # y). Diese Setzung definiert tatsächlich eine
+  Topologie im üblichen Sinn.
+
+* Sei phi : R --> A eine Algebra über einem lokalen Ring. Dann kann ich in Analogie
+  definieren: Eine Teilmenge M von A ist genau dann *offen*, wenn:
+
+      phi(x) in M  ==>  phi(y) in M  oder  x - y invertierbar.
+
+  Kurz: M ist genau dann offen, wenn phi^(-1)[M] in R offen ist. Wie oben
+  definiert diese Setzung tatsächlich eine Topologie auf A im üblichen Sinn.
+
+  Die klassifizierende Örtlichkeit der offenen Filter von A ist dann das, was
+  ich in der Doktorarbeit "Spec(A|R)" genannt habe.
+
+
 === Nächste Schritte
 
 * Produziere explizites Gegenbeispiel für vermutlich falsche Behauptung,

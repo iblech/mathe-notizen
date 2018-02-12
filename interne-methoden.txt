@@ -732,7 +732,16 @@ Sei j eine Lawvere-Tierney-Topologie.
   ist phi_*(M) := { Filter F in A | phi^(-1)[F] in M } eine Filtermenge von A.
 
 
-=== Lokale Kripke-Joyal-Semantik
+=== Subtilitäten bei der Definition der Kripke--Joyal-Semantik
+
+* Bei vee/bigvee/exists kann man entweder definieren: Auf einer Überdeckung
+  stimmt's. Oder: Die Menge derjenigen Stages, wo es stimmt, ist eine
+  Überdeckung.
+
+  Wenn der Situs hinreichend gesättigt ist, sind die Definitionen äquivalent.
+
+
+=== Lokale Kripke--Joyal-Semantik
 
 * Kann definieren: U |==_negneg phi genau dann,
   wenn auf einer offenen dichten Teilmenge V von U gilt: V |== phi.

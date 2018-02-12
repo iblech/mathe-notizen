@@ -158,6 +158,9 @@ Kategorien    präs'bare Kat.        Topoi
 * Einbettungen von Unterörtlichkeiten sind genau die extremalen Monos.
   http://www.mat.uc.pt/preprints/ps/p0622.pdf
 
+  Borceaux (Volume 3, Sheaf Theory) schreibt auf Seite 31 (Prop. 1.5.4):
+  Einbettungen von Unterörtlichkeiten sind genau die regulären Monos.
+
 * https://books.google.de/books?id=WHudOFwuMn8C&pg=PA60&lpg=PA60
 
   In Loc lässt sich jeder Morphismus faktorisieren in einen Epi gefolgt
@@ -225,16 +228,44 @@ mit W' := W wedge U das gesuchte Urbild (W' in F, W' <= U wedge V).
 === Lokale Kompaktheit
 
 * Wir schreiben genau dann a << b, wenn für alle gerichteten Mengen S mit
-  b <= sup S schon ein s aus S mit a <= s existiert.
+  b <= sup S schon ein s aus S mit a <= s existiert. Äquivalent: Wenn für alle
+  Mengen S mit b <= sup S schon s_1, ..., s_n aus S mit a <= sup { s_1, ..., s_n }
+  existieren.
 
 * Aus a << b folgt a <= b. (Wähle S := { b }.)
 
-* Aus a << b folgt a << c für jedes c >= b.
+* Aus a' <= a << b <= b' folgt a' << b'.
+
+* Aus b << a und c << a folgt b vee c << a:  Denn sei a <= sup S mit S
+  gerichtet. Dann gibt es s, t aus S mit b <= s und c <= t. Da S gerichtet
+  ist, finden wir u aus S mit s <= u und t <= u. Somit b vee c <= s vee t <= u.
 
 * Eine Örtlichkeit ist genau dann kompakt, wenn top << top.
 
 * Eine Örtlichkeit heißt genau dann lokal kompakt, wenn für jedes a
   gilt: a = sup { b | b << a }.
+
+  Die Menge, über die dabei das Supremum gebildet wird, ist gerichtet, da sie
+  durch bot bewohnt ist und unter binären Joins abgeschlossen ist.
+
+* In einer lokal kompakten Örtlichkeit ist die <<-Relation dicht/interpolierend
+  in folgendem Sinn: Ist a << b, so gibt es c mit a << c << b.
+
+  Denn b <= sup { c | c << b } <= sup { sup { d | d << c } | c << b } =
+  sup { d | exists c. d << c << b }, und das Supremum ist gerichtet.
+  Also gibt es c, d mit a <= d << c << b. Somit a << c << b.
+
+* Eine Örtlichkeit ist genau dann exponentierbar (d.h., dass HOM(X,__)
+  existiert), wenn sie lokal kompakt ist.
+
+* Sei X ein topologischer Raum. Seien U und V offene Teilmengen, sodass
+  ein Kompaktum K mit U <= K <= V existiert. Dann U << V in Ouv(X).
+
+* Rahmen von lokal kompakten Örtlichkeiten heißen auch "continuous lattice".
+
+* Der Funktor Top --> Loc bewahrt endliche Produkte nüchterner vollständig
+  regulärer lokal kompakter topologischer Räume.
+  https://www.mat.uc.pt/~picado/publicat/Chapter2.pdf
 
 * Sei top = sup_i U_i und seien die Downarrow(U_i) alle lokal kompakt.
   Dann ist auch die Örtlichkeit selbst lokal kompakt.
