@@ -618,3 +618,9 @@ https://arxiv.org/abs/0808.1572
 === Matrixkochbuch
 
 * https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf
+
+
+=== Buddhismus in Typentheorie
+
+https://www.math.ias.edu/~favonia/files/thesis.pdf
+Anhang B

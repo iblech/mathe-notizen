@@ -275,8 +275,6 @@ Zur Hinrichtung überlege zunächst, dass
 
 === Nächste Schritte
 
-* Doppelnegationsübersetzung verstehen
-
 * Verstehen, wie Olegs Sum-Vorschlag die Doppelnegationsübersetzung
   ersetzen kann
 

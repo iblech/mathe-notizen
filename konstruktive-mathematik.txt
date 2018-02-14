@@ -47,6 +47,8 @@ Diese Aussagen erfüllen die Voraussetzung:
 Nach Induktionsvoraussetzung gibt es also ein i <= n sodass alle psi_{i, *}
 gelten. Bin damit fertig.
 
+Coquand beobachtete: Das ist einfach das Distributivgesetz!
+
 
 === Epimorphismen in der Kategorie der Gruppen
 
@@ -168,6 +170,19 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
 * Was ich im Softwareprojekt gemacht habe, steht teilweise auch in (aber mit
   Cauchyfolgen statt Cauchyprozessen): Real Numbers, Generalizations of the
   Reals, and Theories of Continua herausgegeben von P. Ehrlich
+
+* In Garbentopoi über lokal zusammenhängenden topologischen Räumen gilt
+  (in klassischer Metalogik):
+
+      Es gibt keine Surjektion NN --> RR.
+      Es gibt keine Surjektion NN --> C.
+
+  Dabei meint RR die Garbe der lokal konstanten reellwertigen Funktionen
+  und C die Garbe der stetigen reellwertigen Funktionen. (Diese sind aus
+  interner Sicht einfach die Mengen der Cauchy- bzw. Dedekind-Zahlen.)
+
+  Sogar über beliebigen Garbentopoi über topologischen Räumen gilt, dass es
+  keine Surjektion NN --> RR gibt (betrachte Halme!).
 
 
 === Noetherianität
@@ -333,7 +348,7 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
   von O_X ist das Bild eines Morphismus der Form O_X^n --> O_X.
 
 * "Witzig": O_X erfüllt genau dann eine "schlechte Noetherianitätsbedingung",
-  wnn es eine "gute Noetherianitätsbedingung" erfüllt. Denn man hat Äquivalenz
+  wenn es eine "gute Noetherianitätsbedingung" erfüllt. Denn man hat Äquivalenz
   zur klassischen Welt und dort sind alle Bedingungen gleich.
 
   Intern hat man auch: Ist O_X noethersch, so ist O_X kohärent. Obwohl diese
@@ -457,6 +472,8 @@ Hochgelobt von David Roberts auf MO.
   durch die Garbe der stetigen komplexwertigen Funktionen. Aber das Polynom
   X^2 - w, wobei w die Funktion ist, die immer schneller und immer kleiner um 0
   herum kreist, hat in der internen Sprache keine Nullstelle.
+
+  Oder auch einfach X^2 - w über C, wobei w die generische komplexe Zahl ist.
 
 * Die cauchyschen komplexen Zahlen sind algebraisch abgeschlossen.
   Wim Ruitenburg. Constructing roots of polynomials over the complex numbers.

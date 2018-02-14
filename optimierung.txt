@@ -40,3 +40,8 @@ http://sebastianruder.com/optimizing-gradient-descent/
 === Compressed Sensing
 
 https://mathoverflow.net/a/178210/31233
+
+
+=== Übersicht
+
+* https://arxiv.org/abs/1712.07897

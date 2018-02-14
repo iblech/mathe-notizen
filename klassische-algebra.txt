@@ -60,6 +60,11 @@ possible n to be a counterexample would be n=3⋅5⋅7=105, and that is a
 counterexample. 
 http://math.stackexchange.com/questions/48301/examples-of-results-failing-in-higher-dimensions#comment322324_48349
 
+* Das Kreisteilungspolynom Phi_{p^k - 1} besitzt einen (sogar mehrere)
+  über F_p irreduzible Faktoren vom Grad k. All diese können zur Konstruktion
+  von F_{p^k} verwendet werden. Gibt es genau k von diesen? So viele
+  Automorphismen haben ja die F_{p^k}.
+
 
 === Artin--Wedderburn-Theorem
 

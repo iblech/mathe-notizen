@@ -53,3 +53,8 @@ ist, so muss (bei dieser Analyse) n >= m / (4 alpha eps^2) sein.
 Beobachte, dass die Ereignisse "|Z_n - p| >= eps" für verschiedene Wahlen von
 x0 vermutlich nicht unabhängig sind. Trotzdem sollten bessere Abschätzungen
 möglich sein.
+
+
+=== Uniformes Ziehen aus einer Liste unbekannter Länge
+
+https://blog.plover.com/prog/weighted-reservoir-sampling.html
