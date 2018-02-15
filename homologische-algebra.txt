@@ -138,6 +138,10 @@ http://mathoverflow.net/questions/103252/why-are-injective-modules-more-complica
   Ab genügend viele Injektive besitzt, schon dass alle Modulkategorien genügend
   viele Injektive besitzen. https://ncatlab.org/nlab/show/injective+object
 
+* Für noethersche Ringe gilt: Die Tilde-Konstruktion eines injektiven Moduls
+  liefert eine injektive Garbe. Ohne die Noether-Voraussetzung scheint das
+  nicht zu gelten. https://mathoverflow.net/a/256775/31233
+
 
 === Halbeinfache abelsche Kategorien
 
