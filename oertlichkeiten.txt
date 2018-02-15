@@ -136,7 +136,7 @@ Kategorien    präs'bare Kat.        Topoi
 === 2-kategorielle Struktur
 
 * Darf man Morphismen von Örtlichkeiten auf Gleichheit testen?
-  Sollte das eigentlich wissen.
+  Jo, die Hom-Mengen sind nämlich Partialordnungen (nicht nur Quasiordnungen).
 
 
 === Geometrische Morphismen über Örtlichkeiten
@@ -210,6 +210,15 @@ in die Form (U -->) bringen durch die Konstruktion
 
 Es ist klar, dass j(V) <= (U --> V). Für die andere Richtung gehen die
 Voraussetzungen ein.
+
+
+=== Heyting-Implikation in Unterörtlichkeiten
+
+* Ist v j-stabil, so ist auch (u -> v) j-stabil.
+
+* Die Heyting-Implikation in L_j ist daher einfach durch die in L gegeben.
+
+* Es gilt (u -> jv) = (ju -> jv) für alle u, v.
 
 
 === Genügend viele Punkte
