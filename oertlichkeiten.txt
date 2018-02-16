@@ -132,6 +132,10 @@ Kategorien    präs'bare Kat.        Topoi
 * Relevant für Forcing. Der Garbentopos drüber enthält eine Surjektion von N
   in die (konstante Garbe) R.
 
+* Wird verwendet in /Connected locally connected toposes are path-connected/
+  von Moerdijk und Wraith. Ebenso in /An extension of the Galois theory of
+  Grothendieck/.
+
 
 === 2-kategorielle Struktur
 

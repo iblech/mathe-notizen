@@ -184,6 +184,17 @@ http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
   Sogar über beliebigen Garbentopoi über topologischen Räumen gilt, dass es
   keine Surjektion NN --> RR gibt (betrachte Halme!).
 
+* Ich kann glaub ich zeigen, dass die Aussage "Es gibt eine Surjektion NN ->
+  R_Cauchy" in Topoi von Garben über Örtlichkeiten, die mindestens einen Punkt
+  besitzen, nicht stimmt.
+
+* Jeder Grothendiecktopos besitzt einen zusammenhängenden und lokal
+  zusammenhängenden geometrischen Morphismus aus einem Topos von Garben über
+  einer Örtlichkeit. Wenn daher f : NN --> R_Cauchy ein Epimorphismus in E ist,
+  so gibt es einen solchen Epi auch in einem lokalischen Topos. Es folgt, dass
+  dieser keine Punkte hat. Aber ich glaube leider, dass das nicht einmal etwas
+  über das Fehlen von Punkten von E aussagt.
+
 
 === Noetherianität
 

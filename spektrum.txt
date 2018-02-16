@@ -481,6 +481,15 @@ Sei A ein lokaler Ring.
   ist 2 aber auch nicht. [Kürzer: Die Aussage ist geometrisch. Im Halm zum
   Primideal (2) ist 2 weder nilpotent noch invertierbar.]
 
+* Fazit. Genau dann besitzt A eine Lokalisierung, die für alle lokalen Ringe
+  in allen (Grothendieck-)Topoi gut ist, wenn jedes Element aus A entweder
+  invertierbar oder nilpotent ist. Das ist genau dann der Fall, wenn Spec(A)
+  einpunktig ist. Hinreichend dafür, dass A eine Lokalisierung besitzt, die nur
+  für alle lokalen Ringe in Set gut ist, ist "nicht nilpotent ==>
+  invertierbar". Ich kann wohl konstruktiv nicht zeigen, dass diese Bedingung
+  notwendig ist. Sehr sicher genügt diese Bedingung konstruktiv nicht, dass A
+  eine Lokalisierung besitzt, die für alle lokalen Ringen aus allen Topoi gut ist.
+
 
 === Wann ist das (volle Radikalideal-)Spektrum boolsch?
 

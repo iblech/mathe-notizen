@@ -74,6 +74,12 @@
   zu gewöhnlicher Garbenkohomologie von X wird.
   http://www.academia.edu/9139781/Logical_and_Cohomological_Aspects_of_the_Space_of_Points_of_a_Topos
 
+* Wie allgemein sind Topoi wirklich? Johnstone zeigt in /How general is
+  a generalized space?/ (aufbauend auf Barr/Diaconescu/Coste/Joyal--Tierney),
+  dass jeder Grothendiecktopos einen zusammenhängenden und lokal
+  zusammenhängenden geometrischen Morphismus aus einem Topos von Garben über
+  einer Örtlichkeit zulässt.
+
 
 === Kleine und große Topoi
 
