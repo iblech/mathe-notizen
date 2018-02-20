@@ -707,6 +707,17 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
 * http://mathoverflow.net/questions/51187/what-is-the-generic-poset-used-in-forcing-really
 
 
+=== Topos der G-Mengen
+
+* Der Topos der G-Mengen, im Fall dass G eine gewöhnliche Gruppe ist,
+  klassifiziert G-Torsorn. Er lässt sich schreiben als die Kategorie der
+  G-Mengen (im gewöhnlichen Sinn, ganz ohne Topologie).
+
+* Die Scheibenkategorie G-Set / G ist kanonisch äquivalent zu Set (schreibt
+  Simon Henry auf https://mathoverflow.net/a/278745/31233), vermutlich durch
+  (f : X --> G) |--> f^(-1)[e] und M |--> (G x M --> G).
+
+
 === Topos der M-Mengen (M ein Monoid)
 
 * http://176.58.104.245/NOTES/categories/M-Set.pdf (Ebrahimi, Mahmoudi)

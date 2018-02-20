@@ -506,6 +506,12 @@ wobei das bigwedge über alle Aussagen phi läuft, die für klassische Mengen
 erfüllt sind. (Wenn man das allgemein genug interpretiert, stimmt die
 Äquivalenz trivialerweise: Wähle phi := "bigvee_{Mengen I} (E = \ul{I})".)
 
+Mike erinnert in https://mathoverflow.net/a/277844/31233 daran, dass die
+interne Sprache, wenn man nur ihr endliches Fragment betrachtet, keine Chance
+haben kann, Konstanz zu erkennen. Denn das Konzept von Konstanz hängt vom
+gewählten geometrischen Morphismus nach Set ab. Dabei kann man sich Set
+aussuchen!
+
 
 === Konstruktion von modalen Operatoren
 
