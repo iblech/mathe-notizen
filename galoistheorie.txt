@@ -21,6 +21,11 @@ Siehe http://faculty.ycp.edu/~fbutler/MastersThesis.pdf.
 * Jede endliche Gruppe ist die Galoisgruppe einer endlichen Galoiserweiterung
   von C(X). http://faculty.ycp.edu/~fbutler/MastersThesis.pdf, Seite 22.
 
+* Jede endliche Gruppe ist die Galoisgruppe einer endlichen Galoiserweiterung
+  mit Q(x_1,...,x_n) als Oberkörper: Mit Cayley in S_n einbetten. Die
+  Galoisgruppe von Q(x_1,...,x_n) über Q(s_1,...,s_n) (elementarsymmetrische
+  Funktionen) ist S_n. Dann fertig mit Hauptsatz.
+
 
 === Endliche und unendliche Galoistheorie konstruktiv
 

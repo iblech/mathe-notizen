@@ -777,6 +777,17 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   derjenigen Elemente x, sodass ein nicht-nilpotentes u derart existiert, dass
   xu nilpotent ist.
 
+* Jeder reduzierte Ring bettet in ein Produkt von Körpern ein:
+
+      A ----> prod_{minimale Primideale p} Quot(A/p).
+
+  Hier geht ein, dass der Schnitt über alle minimalen Primideale gleich dem
+  Nilradikal und daher gleich dem Nullideal ist.
+
+  Übrigens ist Quot(A/p) = A_p.
+
+  Siehe auch Tag 02LV im Stacks Project.
+
 * In einem reduzierten Hauptidealring gilt: Jedes Primideal, das nicht
   minimal ist, ist maximal.
 
