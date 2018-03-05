@@ -17,6 +17,9 @@ http://arxiv.org/abs/math/0306194v1
 https://dl.dropboxusercontent.com/u/828035/Mathematics/forms.pdf
 von sigfpe!
 
+Lillian Rosanoff Lieber: Tensors, the facts of the Universe.
+(via Daniel Fleisch: A Student's Guide to Vectors and Tensors)
+
 
 === Torsion
 

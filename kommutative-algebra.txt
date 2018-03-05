@@ -784,9 +784,12 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   Hier geht ein, dass der Schnitt über alle minimalen Primideale gleich dem
   Nilradikal und daher gleich dem Nullideal ist.
 
-  Übrigens ist Quot(A/p) = A_p.
+  Übrigens ist Quot(A/p) = A_p = A_p / pA_p = k(p).
+  (Das gilt allgemein für minimale Primideale von reduzierten Ringen.)
 
   Siehe auch Tag 02LV im Stacks Project.
+
+* Ist m ein maximales Ideal, so gilt: Quot(A/m) = A/m = A_m / mA_m = k(m).
 
 * In einem reduzierten Hauptidealring gilt: Jedes Primideal, das nicht
   minimal ist, ist maximal.

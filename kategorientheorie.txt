@@ -182,7 +182,7 @@ Aber was, wenn es in C keine Produkte gibt? Dann gilt immer noch:
 
 * C --> Ind-C ist volltreu, rechtsexakt und die Bilder sind kompakte Objekte.
 
-* Beispiel: Ind-Mod(A)^fp = Mod(A).
+* Beispiel: Ind-(Mod(A)^fp) = Mod(A).
 
 * Ind-A ist stets eine Grothendieck-Kategorie, wenn A abelsch ist.
 
@@ -1063,6 +1063,43 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
       { 0, 1} ---> { 0 < 1 }
 
   injektiv und surjektiv (somit ein Bimorphismus), aber kein Isomorphismus.
+
+
+=== Elementare Äquivalenz äquivalenter Kategorien
+
+Referenzen von Mike zu "äquivalent als Kategorien ==> elementar äquivalent":
+
+@ARTICLE{blanc:eqv-log,
+  author = {Blanc, Georges},
+  title = {\'{E}quivalence naturelle et formules logiques en th\'eorie des cat\'egories},
+  journal = {Arch. Math. Logik Grundlag.},
+  year = {1978/79},
+  volume = {19},
+  pages = {131--137},
+  number = {3-4},
+  coden = {AMLGAN},
+  doi = {10.1007/BF02011874},
+  fjournal = {Archiv f\"ur Mathematische Logik und Grundlagenforschung},
+  issn = {0003-9268},
+  url = {http://dx.doi.org/10.1007/BF02011874}
+}
+
+@INCOLLECTION{freyd:invar-eqv,
+  author = {Freyd, Peter},
+  title = {Properties invariant within equivalence types of categories},
+  booktitle = {Algebra, topology, and category theory (a collection of papers in honor of {S}amuel {E}ilenberg)},
+  publisher = {Academic Press},
+  year = {1976},
+  pages = {55--61},
+  address = {New York},
+}
+
+@UNPUBLISHED{makkai:folds,
+  author = {Michael Makkai},
+  title = {First order logic with dependent sorts, with applications to category theory},
+  note = {Available at \url{http://www.math.mcgill.ca/makkai/folds/}},
+  year = {1995}
+}
 
 
 === Kopotenzen
