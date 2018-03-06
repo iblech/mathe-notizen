@@ -66,6 +66,12 @@ http://math.stackexchange.com/questions/48301/examples-of-results-failing-in-hig
   Automorphismen haben ja die F_{p^k}.
 
 
+=== Anwendungen der Sylow-Sätze
+
+* Mit Sylow I kann man FTA zeigen: https://mathoverflow.net/a/10626/31233
+  (via Felix)
+
+
 === Artin--Wedderburn-Theorem
 
 http://en.wikipedia.org/wiki/Artin%E2%80%93Wedderburn_theorem

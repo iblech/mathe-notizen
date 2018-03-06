@@ -767,6 +767,14 @@ http://people.ucalgary.ca/~rzach/static/open-logic/courses/phil479/phil479-scree
 * https://mathoverflow.net/a/231011/31233
 
 
+=== Wie viele Beweise besitzt eine Aussage?
+
+* Jost: Wenn die Behauptung hinreichend weit von den Voraussetzungen
+  entfernt ist, dann kann sie verschiedene Beweise zulassen.
+
+* FTA ist wohl ein Beispiel.
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?
