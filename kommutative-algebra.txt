@@ -2305,6 +2305,21 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
 
   denn [x_1;...;x_n] = A [x_1;...;x_n].
 
+* Aus M_m = 0 für alle maximalen Ideale m folgt bekanntlich M = 0,
+  auch, wenn M nicht endlich erzeugt ist.
+
+  Die analoge Behauptung mit den Fasern M(m) = M_m/mM_m statt den Halmen stimmt
+  im Allgemeinen nicht. Hinreichend ist, dass M endlich erzeugt ist; denn dann
+  folgt aus M(m) = 0 schon M_m = 0. Ein Gegenbeispiel ist durch M = Q und A =
+  Z_(p) gegeben. Die Basis A hat genau ein Primideal. Die Faser von M über
+  diesem Primideal ist der Nullmodul, M selbst aber ist es nicht.
+
+  Ein anderes Gegenbeispiel ist M = Q/Z und A = Z. Alle Fasern sind Null.
+
+  Aber: Wenn der Grundring noethersch ist und alle derivierten Fasern
+  verschwinden, so stimmt es, dass der Modul Null ist!
+  https://mathoverflow.net/questions/12992/when-does-a-quasicoherent-sheaf-vanish
+
 
 === Invariant Basis Number, Wohldefiniertheit des Rangs
 

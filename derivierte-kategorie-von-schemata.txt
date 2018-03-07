@@ -104,6 +104,12 @@ homologische Dimension n. Siehe: Huybrechts, Seite 68.
 
   Steht ausführlich in Marco Schlichting, Higher Algebraic K-Theory, Seite 199.
 
+* Kann jede Modulgarbe durch den Garben-Čech-Komplex auflösen, sogar ohne
+  Voraussetzungen an die Überdeckung: https://stacks.math.columbia.edu/tag/02FU
+
+  Im Fall einer hinreichend guten Überdeckung ist RGamma durch den
+  (alternierenden) Čech-Komplex gegeben: https://stacks.math.columbia.edu/tag/08C2
+
 
 === Semi-orthogonale Zerlegungen
 
