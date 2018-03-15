@@ -774,6 +774,9 @@ http://people.ucalgary.ca/~rzach/static/open-logic/courses/phil479/phil479-scree
 
 * FTA ist wohl ein Beispiel.
 
+* Einfachheit und Länge von Beweisen:
+  http://www.phil.uu.nl/~iemhoff/Mijn/Papers/simplicity.pdf
+
 
 === Nächste Schritte
 
