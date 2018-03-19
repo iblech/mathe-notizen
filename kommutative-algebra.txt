@@ -2272,6 +2272,9 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   gemeinsam treuflach, wenn es einen Index gibt, sodass der entsprechende
   Strukturmorphismus injektiv ist.
 
+  Konstruktiv gilt noch: Eine endliche Familie von k-Algebren ist genau dann
+  gemeinsam treuflach, wenn nicht alle Algebren der Familie Null sind.
+
 
 === Nakayama
 
