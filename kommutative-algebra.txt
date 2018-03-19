@@ -2252,8 +2252,21 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   irgendein Element v in A gibt, sodass die Familie (v) linear unabhängig ist,
   d.h. wenn 1 != 0 in A.
 
-  Ist eine Familie von k-Algebren A_i gemeinsam treuflach, so sind die
-  Strukturmorphismen gemeinsam injektiv.
+  Seien A und B k-Algebren. Genau dann ist A tensor_k B = 0, wenn A = 0 oder B = 0.
+  Die Rückrichtung ist ja klar. Die Hinrichtung geht so: Sei A tensor B = 0.
+  Dann ist insbesondere 1 tensor 1 Null in A tensor B. Da A flach ist,
+  bleibt die Injektion span_k(1) --> B nach Tensorieren mit A injektiv.
+  Somit ist schon 1 tensor 1 aus A tensor span_k(1) Null. Damit gibt es
+  Körperlemente r_i und Elemente a_i aus A mit
+
+      1 = sum_i r_i a_i in A  und  r_i = 0 in B.
+
+  Da k ein geometrischer Körper ist, folgt: 1 = 0 in A oder 1 = 0 in B.
+
+  Eine Familie von k-Algebren A_i ist genau dann gemeinsam treuflach, wenn für
+  alle endlich präsentierten k-Algebren T gilt:
+
+      Gilt für alle i jeweils T = 0 oder A_i = 0, so ist schon T = 0.
 
   In klassischer Logik gilt: Eine Familie von k-Algebren ist genau dann
   gemeinsam treuflach, wenn es einen Index gibt, sodass der entsprechende
