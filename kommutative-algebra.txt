@@ -2246,6 +2246,19 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
 * V^ tensor W^ --> (V tensor W)^ ist ein Iso, falls einer der beiden Moduln
   endlich frei ist.
 
+* Sei k ein geometrischer Körper. Genau dann ist eine k-Algebra A
+  treuflach über k (flach ist sie automatisch), wenn der Strukturmorphismus k --> A
+  injektiv ist, d.h. wenn die Familie (1) linear unabhängig ist, d.h. wenn es
+  irgendein Element v in A gibt, sodass die Familie (v) linear unabhängig ist,
+  d.h. wenn 1 != 0 in A.
+
+  Ist eine Familie von k-Algebren A_i gemeinsam treuflach, so sind die
+  Strukturmorphismen gemeinsam injektiv.
+
+  In klassischer Logik gilt: Eine Familie von k-Algebren ist genau dann
+  gemeinsam treuflach, wenn es einen Index gibt, sodass der entsprechende
+  Strukturmorphismus injektiv ist.
+
 
 === Nakayama
 
