@@ -2354,6 +2354,11 @@ Sei R nicht unbedingt kommutativ.
   m = (x_1, x_2, ...) ist nicht endlich erzeugt.
   http://math.stackexchange.com/a/806933/61604
 
+* Noetherizität impliziert nicht endliche Krull-Dimension:
+  Es gibt ein Gegenbeispiel von Nagata. :D
+  https://mathoverflow.net/questions/21067/noetherian-rings-of-infinite-krull-dimension
+  https://math.stackexchange.com/questions/1109732/noetherian-ring-with-infinite-krull-dimension
+
 * A --> B surjektiv, dann dim(B) <= dim(A). Stimmt das? Ja, logo.
   Klar über Primidealketten oder über die konstruktive Definition.
 
