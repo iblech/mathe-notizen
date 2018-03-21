@@ -58,3 +58,21 @@ möglich sein.
 === Uniformes Ziehen aus einer Liste unbekannter Länge
 
 https://blog.plover.com/prog/weighted-reservoir-sampling.html
+
+
+=== Ungültigkeit des p-Wert-Schlusses
+
+Nullhypothese: Die zufällig gezogene Person ist Amerikaner.
+
+Überlegung: Falls die Nullhypothese stimmt, ist die Wahrscheinlichkeit,
+dass die Person Kongressabgeordneter ist, extrem klein (die wenigsten
+Amerikaner sind Kongressabgeordnete).
+
+Beobachtung: Die Person ist tatsächlich ein Kongressabgeordneter.
+
+Schlussfolgerung: Unter der Nullhypothese ist die Wahrscheinlichkeit
+dafür extrem gering, sicher kleiner als 0.05. Daher lehnen wir die
+Nullhypothese ab. Die Person ist also kein Amerikaner.
+
+Tatsächlich aber können nur Amerikaner Kongressabgeordnete sein. Die
+Person ist also ganz sicher ein Amerikaner.

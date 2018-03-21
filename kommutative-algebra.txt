@@ -1422,9 +1422,20 @@ Sei M eine quadratische Matrix über einem Ring.
   Sei phi(x) invertierbar und sei phi(x)^(-1) ganz über A.
   Dann ist x auch invertierbar in A.
 
+  Also: Injektive ganze Ringhomos sind lokal (reflektieren Invertierbarkeit).
+
+  Und: Sei R --> S ein injektiver ganzer Ringhomo. Ist S ein Körper, so auch R.
+  (In jedem der drei üblichen konstruktiven Sinne von "Körper".)
+
+  Sowie: Sei R ein Integritätsbereich. Ist R --> Quot(R) ganz, so ist R schon
+  ein Körper und der kanonische Morphismus ein Iso.
+
 * Mit Noether-Normalisierung folgt: Sei A endlich erzeugte Algebra über einem
   Körper k und m ein maximales Ideal in A. Dann ist A/m eine endliche (!)
   Erweiterung von k.
+
+  Somit: Eine Körpererweiterung ist genau dann endlich, wenn sie endlich
+  erzeugt ist.
 
 * Sei Z ein Ring und S ein multiplikatives System.
   Sei Q := Z[S^(-1)].
