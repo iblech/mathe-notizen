@@ -50,6 +50,14 @@ https://en.wikipedia.org/wiki/Peetre_theorem
   bei z = infty einen Pol hat (erster Ordnung).
 
 
+=== Faserprodukt von Mannigfaltigkeiten
+
+https://mathoverflow.net/questions/296619/existence-of-fiber-product-of-manifolds-with-one-given-morphism
+
+* Faserprodukte längs Submersionen existieren.
+* Faserprodukte von transversalen Morphismen existieren.
+
+
 === Literatur
 
 * http://www.cs.columbia.edu/~keenan/Projects/DGPDEC/paper.pdf

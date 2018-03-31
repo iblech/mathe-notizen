@@ -1306,6 +1306,9 @@ http://www.math.harvard.edu/~eriehl/cathtpy.pdf, Seite 46.
   Es genügt schon, dass p "genauso treu wie F" ist: Wenn p(f) = p(g),
   dann F(f) = F(g).
 
+  Die Behauptung ist im Allgemeinen falsch für LKE, die nicht punktweise sind:
+  https://mathoverflow.net/a/221298/31233
+
 * Sei eps bzw. eta ein Iso. Dann ist p genauso treu wie F.
 
 * Falls p bijektiv auf Objekten ist, gibt es (fast) keinen Unterschied zwischen

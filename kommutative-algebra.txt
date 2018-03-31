@@ -2376,8 +2376,8 @@ Sei R nicht unbedingt kommutativ.
 
 * Krull-Dimension 0 impliziert nicht Noetherizität: Betrachte
   R = k[x_1,...]/(x_1, x_2^2, x_3^3, ...). In diesem Ring ist jedes Element
-  nilpotent, also hat der Ring Krull-Dimension <= 0. Aber das Ideal
-  m = (x_1, x_2, ...) ist nicht endlich erzeugt.
+  aus m = (x_1,x_2,...) nilpotent, also hat der Ring Krull-Dimension <= 0.
+  Aber m ist nicht endlich erzeugt.
   http://math.stackexchange.com/a/806933/61604
 
 * Noetherizität impliziert nicht endliche Krull-Dimension:
