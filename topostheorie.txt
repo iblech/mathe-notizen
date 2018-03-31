@@ -768,7 +768,7 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
   Ausdrücken zusammensetzen.
 
 
-=== Dedekindsche reelle Zahlen
+=== Dedekindsche reelle Zahlen und Cauchy-Zahlen
 
 * Die Örtlichkeit der dedekindschen reellen Zahlen zieht sich unter
   geometrischen Morphismen immer auf sich selbst zurück.
@@ -787,6 +787,16 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
       R(A) = Hom_{Sh(C)}(ayA, R) = Hom_{Topoi}(Sh(C)/ayA, RR)
            = Hom_Loc(lokalische Reflektion von Sh(C)/ayA, RR)
            = Hom_Loc(LA, RR).
+
+* In Sh(Q) ist das Objekt der Cauchy-Zahlen die Garbe der stetigen(!)
+  reellwertigen Funktionen.
+  http://www.cs.ox.ac.uk/quantum/slides/clap2-peterjohnstone.pdf
+
+* https://github.com/mattearnshaw/lawvere/blob/master/pdfs/2011-euler's-continuum-functorially-vindicated.pdf
+
+* Reflective oracles könnten zur Klärung der Frage, ob es Surjektionen N --> R
+  gibt, relevant sein.
+  https://mathoverflow.net/questions/286269/can-we-internalize-topological-fixed-point-theorems-in-an-effective-topos
 
 
 === Lokalische Reflektion
