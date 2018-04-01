@@ -57,6 +57,12 @@ complain about my phrasing there; see the paper for yourself.) Apparently it
 settles the Continuum Hypothesis and the Axiom of Choice.
 
 
+=== Bayes-Update
+
+* Es gibt einen subtilen Unterschied zwischen "X" und "Ich beobachte X".
+  https://www.lesswrong.com/posts/CvKnhXTu9BPcdKE4W/an-untrollable-mathematician-illustrated
+
+
 === Bedingte Unabhängigkeit kategoriell
 
 http://homepages.inf.ed.ac.uk/als/Talks/tacl13.pdf
