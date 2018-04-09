@@ -354,6 +354,17 @@ Empfohlen von John Baez!
   genügen. Ich weiß aber leider auch nicht, wie viel Konsistenzannahmen im
   Beweis des MRDP-Problems drinstecken.
 
+* http://www.maths.ed.ac.uk/~mbooth/mrdp.pdf. Putnams Trick:
+
+  Sei eine rekursiv aufzählbare Menge X mit 0 nicht in X gegeben. Nach MRDP
+  gibt es ein Polynom f(n,x_1,...,x_k) mit (n in X <==> exists x: f(n,x) = 0).
+  Indem wir f durch f^2 ersetzen, können wir davon ausgehen, dass alle
+  Funktionswerte von f (an Tupeln natürlicher Zahlen) nichtnegativ sind. Das
+  Polynom Q(n,x) = x * (1 - f(n,x)) hat nun folgende Eigenschaft:
+
+      Die nichtnegativen Funktionswerte von Q(n,x), wobei n und x alle
+      natürliche Zahlen ablaufen, sind genau die Elemente aus X.
+
 * Sei P folgendes Programm ("das universelle Programm"):
 
       Suche systematisch alle HA-Beweise nach einem Beweis der Form "Programm P
