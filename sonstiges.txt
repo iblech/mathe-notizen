@@ -329,6 +329,23 @@ http://mathoverflow.net/questions/132802/defining-holomorphic-functions-in-terms
   interaction between neurons that enhances information processing, but as an
   ethereal, plasma-like substance that is privy to experience.
 
+* https://arxiv.org/pdf/1712.01816.pdf
+
+* http://people.idsia.ch/~juergen/computeruniverse.html
+
+* Wie man den schnellsten Algorithmus verwendet, ohne ihn zu kennen,
+  wenn man schnell prüfen kann, ob eine angebliche Lösung korrekt ist:
+
+  Simuliere in verzahnter Art und Weise alle Programme. Nimm das n-te Programm
+  alle 2^n Schritte dran. Höre auf, sobald ein Programm mit einer korrekten
+  Lösung terminiert.
+
+  Die Laufzeit dieses Algorithmus ist nur um einen konstanten Faktor (nämlich 2
+  hoch dem Index des schnellsten Programms) schlechter als die des wirklich
+  besten. Natürlich ist der Algorithmus in der Realität nicht zu gebrauchen.
+
+  http://people.idsia.ch/~juergen/speedprior/sld008.htm
+
 
 === Deep Learning
 
@@ -629,3 +646,13 @@ Anhang B
 === Cognitive biases
 
 https://sivers.org/book/NotSoSmart
+
+
+=== Rahmen in Gimp hinzufügen
+
+1. Mit "Bildgröße anpassen" weißen Platz hinzufügen (zum Beispiel 30 Pixel
+   an jeder Seite).
+
+2. Mit "Filter > Dekoration > Rand ausblenden" den eigentlichen Rahmen
+   hinzufügen. Als Farbe "weiß" auswählen! "Schatten hinzufügen" aktivieren.
+   Breite zum Beispiel 15 Pixel.

@@ -26,3 +26,16 @@
 
 * Jede solche Kurve hat Ableitung Null bei Null, ist also kein
   Diffeomorphismus.
+
+
+=== Eichintegral (gauge integral)
+
+* Ist geil.
+
+* https://math.vanderbilt.edu/schectex/ccc/gauge/
+  http://www.tjsullivan.org.uk/pdf/2011-08-12-gauge.pdf
+
+* Benötigt HBU.
+
+* Hat Anwendungen fürs Pfadintegral in der Physik?!
+  http://www.heldermann-verlag.de/jaa/jaa06/jaa06001.pdf

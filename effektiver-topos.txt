@@ -117,6 +117,20 @@
   TM-Modell realisierbar sind?
 
 
+=== Gleichmäßige Stetigkeit
+
+In folgenden Topoi gilt, dass alle Funktionen vom Typ 2^N --> N gleichmäßig
+stetig sind:
+
+* Der Realisierbarkeitstopos zu Kleenes modifizierter Algebra.
+  Zum Nachweis benötigt man aber ein Stückchen klassische Prinzipien in
+  der Metatheorie.
+
+* Der Topos der C-Räume von Chuangjie Xu (einem Schüler von Escardó):
+  https://cj-xu.github.io/talks/xu-tlca2013.pdf
+  https://cj-xu.github.io/talks/xu-kleene-kreisel.pdf
+
+
 === Effektiver Topos
 
 Muss aus Asm(A) noch einen Tripos machen und daraus einen Topos.

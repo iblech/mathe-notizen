@@ -116,6 +116,18 @@ https://mathoverflow.net/a/277515/31233
   Dann gibt es "all" auch für Y = N. Das ist aber falsch, weil damit das
   Halteproblem lösbar ist.
 
+* Es gibt noch eine Variante des Kleene-Baums von Lacombe, in dem
+  die Menge der unendlichen Pfade Maß > 1/2 hat. Siehe Thm. 9.1.17 in
+  /Higher-Order Computability/ von Longley und Normann.
+
+
+=== Modelle von Berechenbarkeit
+
+* Sequentially realizable functions, thematisiert von John Longley in /When is
+  a functional program not a functional program?/. Sind in unpurem ML
+  implementierbar und funktional, aber nicht in purem ML oder PCF
+  implementierbar, da nicht monoton.
+
 
 === Noethers Theorem aus "Theorems for free"
 
@@ -353,6 +365,7 @@ http://okmij.org/ftp/Scheme/macros.html#ck-macros
 
 * If a language can interpret itself then it is not total.
   http://cstheory.stackexchange.com/a/24994/32151
+  (Wurde aber etwas relativiert.)
 
 
 === Turing-Grade
