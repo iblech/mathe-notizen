@@ -131,6 +131,35 @@
   Die wesentlichen Punkte von PSh(C) sind genau die winzigen Objekte von
   PSh(C), also die Retrakte von darstellbaren Funktoren.
 
+* Sei Set --> E ein Punkt. Dann ist dieser geometrische Morphismus sogar eine
+  Einbettung: Wenn E eine Theorie T klassifiziert und der Punkt durch ein
+  Modell M gegeben ist, so klassifiziert dieser Untertopos wohl folgende
+  Theorie T_M:
+
+  * T
+  * Je ein Konstantensymbol für jedes Element von M
+  * Axiome, die regeln, dass sich die Funktionssymbole und Relationssymbole von T
+    auf den neuen Konstantensymbolen genauso verhalten wie in M
+  * top |-_x bigvee_{a in M} x = \ul{a}
+  * \ul{a} = \ul{b} |- bigvee { top | a = b }
+  * (Man könnte wohl auch noch Funktionssymbole für jede Funktion M --> M
+    hinzunehmen, genauso mit höherer Arität und mit Relationen. Ändert aber
+    nichts.)
+
+  Denn der Topos, der T_M klassifiziert, ist ziemlich sicher äquivalent zu Set;
+  und das Diagramm
+
+      Set ----> E
+        \     ^
+         v   /
+          E_j
+
+  von geometrischen Morphismen kommutiert. (Der Morphismus Set --> E ist durch
+  das T-Modell M und der Morphismus Set --> E_j ist durch das T_M-Modell M
+  gegeben.) Wir wissen, dass Set --> E_j eine Äquivalenz ist, da E_j abstrakt
+  äquivalent zu Set ist und es nur einen geometrischen Morphismus Set --> Set
+  gibt.
+
 
 === Vollständigkeit und Kovollständigkeit
 
@@ -830,6 +859,28 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
 * In lokal zusammenhängenden Topoi sind die cauchyschen reellen Zahlen
   einfach durch Rückzug der cauchyschen reellen Zahlen des Basistopos gegeben.
   Im Elephant wird auch noch eine leicht allgemeinere Bedingung aufgeführt.
+
+
+=== Theorien vom Prägarbentyp
+
+* Kartesische Theorien sind vom Prägarbentyp (TST, Thm. 2.1.8).
+
+* Sei C eine kleine Kategorie. Sei C' eine volle Unterkategorie.
+  Dann ist PSh(C') ein Untertopos von PSh(C). Der Linksadjungierte ist
+  Funktoreinschränkung und sein Rechtsadjungierter ist Rechts-Kan-Erweiterung.
+  Erst erweitern und dann einschränken ist kanonisch isomorph zu nichts machen
+  (weil wir längs einem volltreuen Funktor erweitern), deswegen ist dieser
+  geometrische Morphismus eine Inklusion.
+
+* Sei T eine Theorie von Prägarbentyp. Sei Ax ein Zusatzaxiom.
+  Dann ist PSh(Mod_fp(T)_Ax^op) ein Untertopos von PSh(Mod_fp(T)^op), also dem
+  klassifizierenden Topos von T. Wenn das Zusatzaxiom von der Form
+
+      forall... (phi ==> psi)  mit  phi, psi bestehend aus top bot wedge bigvee exists =
+
+  ist, dann gilt in diesem Untertopos wohl Ax. (Zumindest glaube ich das, wenn T
+  algebraisch ist.) In diesem Fall ist dieser Untertopos also ein Untertopos
+  des echten klassifizierenden Topos von T+Ax. Kann man sagen, welcher?
 
 
 === Nächste Schritte
