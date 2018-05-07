@@ -249,7 +249,7 @@ mit W' := W wedge U das gesuchte Urbild (W' in F, W' <= U wedge V).
 
 * Aus a' <= a << b <= b' folgt a' << b'.
 
-* Aus b << a und c << a folgt b vee c << a:  Denn sei a <= sup S mit S
+* Aus b << a und c << a folgt b vee c << a: Denn sei a <= sup S mit S
   gerichtet. Dann gibt es s, t aus S mit b <= s und c <= t. Da S gerichtet
   ist, finden wir u aus S mit s <= u und t <= u. Somit b vee c <= s vee t <= u.
 
@@ -268,8 +268,31 @@ mit W' := W wedge U das gesuchte Urbild (W' in F, W' <= U wedge V).
   sup { d | exists c. d << c << b }, und das Supremum ist gerichtet.
   Also gibt es c, d mit a <= d << c << b. Somit a << c << b.
 
+  Siehe auch https://www.cs.bham.ac.uk/~mhe/papers/interpolation.pdf.
+
+* Wenn a << b und a << c, dann gilt a' << b wedge c für alle a' << a.
+  Stimmt das? Zumindest im lokal kompakten Fall? Entnehme ich indirekt aus
+  Hylands /Function spaces in the category of locales/ (Seite 270).
+  Hylands /Function spaces in the category of locales/ (Seite 270).
+
 * Eine Örtlichkeit ist genau dann exponentierbar (d.h., dass HOM(X,__)
-  existiert), wenn sie lokal kompakt ist.
+  existiert), wenn sie lokal kompakt ist. In diesem Fall ist HOM(X,Y) die
+  klassifizierende Örtlichkeit zu folgender Theorie:
+
+      Atomare Propositionen: a << f*(b) für a in Ouv(X), b in Ouv(Y)
+
+      Axiome:
+
+      * a << f*(b) |- a' << f*(b')  für a' <= a, b <= b'
+      * top |- bot << f*(b)
+      * a << f*(b) wedge a' << f*(b) |- (a vee a') << f*(b)
+      * top |- a' << f*(top)  für a' << top
+      * a << f*(b) wedge a << f*(b') |- a' << f*(b wedge b')  für a' << a
+      * a << f*(b) |- bigvee_{a << a'} a' << f*(b)
+      * a << f*(b) |- bigvee_{J <= I endliche Teilmenge} bigwedge_{j in J} (a << f*(b_j))
+          für b = bigvee b_i
+
+  Quelle: Hyland, /Function spaces in the category of locales/ (Seite 270).
 
 * Sei X ein topologischer Raum. Seien U und V offene Teilmengen, sodass
   ein Kompaktum K mit U <= K <= V existiert. Dann U << V in Ouv(X).
@@ -527,6 +550,16 @@ angeben:
 
 * Habe das alles selbst gefunden, aber Quellen stehen in
   https://www.cs.bham.ac.uk/~mhe/papers/hmj.pdf.
+
+* Siehe Jaap van Oosten: Two Remarks on the Lifschitz Realizability Topos.
+  https://www.projecteuclid.org/euclid.jsl/1183744927, Seite 5.
+
+  Dort wird angegeben, wie man den größten Untertopos, in dem ein gegebener
+  Mono f : A --> B dicht ist, konstruiert: Definiere
+
+      ∇(alpha) :<=>
+          forall phi.
+              ((forall x in B. ((x in A ==> phi) ==> phi)) wedge (alpha ==> phi)) ==> phi.
 
 
 === Vereinigung von Örtlichkeiten
