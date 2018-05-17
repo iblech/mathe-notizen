@@ -88,6 +88,12 @@ Andreas Blass (_Cohomology detects failures of the axiom of choice_)
 http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
 
 
+=== Konstruktive reverse Mathematik
+
+Tolle Übersicht im Fall von BISH (mit abhängiger Auswahl):
+http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1381-10.pdf
+
+
 === Eindeutigkeit impliziert Existenz
 
 * Wenn eine Funktion näherungsweise Nullstellen hat (forall eps. exists x.

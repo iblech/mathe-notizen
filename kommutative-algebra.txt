@@ -400,6 +400,10 @@ Eine Alternative ist "halmweise".
   A^m --> A^n --> M --> 0 gibt. Dann ist M genau dann endlich frei, wenn
   im(A^m --> A^n) = 0.
 
+* Northcott definiert in seinem Buch zu endlichen freien Auflösungen
+  Fitting-Ideale auch für Moduln, die nur endlich erzeugt sind. Diese sind dann
+  möglicherweise nicht endlich erzeugt.
+
 Werbung für Fitting-Ideale macht unter anderem:
 http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 
@@ -1358,6 +1362,45 @@ Sei M eine quadratische Matrix über einem Ring.
   http://mathoverflow.net/questions/136/atiyah-macdonald-exercise-2-11/47846#47846
   http://math.stackexchange.com/questions/20178/given-a-commutative-ring-r-and-an-epimorphism-rm-to-rn-is-then-m-geq-n
 
+* Sei A eine (p x q)-Matrix über einem Ring R. Sei E ein R-Modul. Dann gibt es
+  folgende Ergebnisse (Northcott, Thm. 6, Seite 63f.) über die Lösbarkeit von
+  "A w = 0 in E" (wobei w ein Vektor der Länge q aus Elementen von E ist).
+
+  * Sei Aw = 0. Dann gilt (Lambda^q A) w_i = 0 für alle i.
+
+    Insbesondere: Ist ein Element w_i nicht Null, so gibt es in dem Untermodul
+    (0 : (Lambda^q A)) ein nicht-Null-Element. Genauso mit "linear unabhängig"
+    oder "invertierbar" (im Fall E = R).
+
+    Außerdem folgt: Ist das Ideal der q-Minoren für E regulär (d.h. folgt aus
+    (Lambda^q A) v = 0 schon v = 0 für Elemente v von E), so ist A als
+    Abbildung E^q --> E^p injektiv.
+
+  * Existiere ein Modulelement v und eine Zahl nu <= q - 1, sodass:
+    1. ein nu-Minor Delta mit Delta e != 0 existiert und
+    2. (Lambda^(nu+1) A) v = 0.
+    Dann gibt es einen Vektor v, der eine Komponente besitzt, die bis auf
+    Vorzeichen mit Delta e übereinstimmt, und für den Av = 0 gilt.
+
+  Spezialfall E = R, R diskret: Genau dann gibt es einen Vektor z mit Az = 0,
+  der mindestens eine Nicht-Null-Komponente enthält, wenn es ein Ringelement e
+  und eine natürliche Zahl i <= q - 1 gibt, sodass mindestens ein i-Minor mit e
+  multipliziert nicht Null ist und e * (Lambda^(i+1) A) = (0) ist. Die
+  Rückrichtung geht auch ohne Diskretheit.
+
+  Unter der Annahme, dass jedes Element invertierbar oder nicht invertierbar
+  ist und nicht-invertierbare Elemente Null sind, gilt auch: Genau dann
+  gibt es einen Vektor z mit Az = 0, der mindestens eine invertierbare Komponente
+  enthält, wenn es eine Zahl i <= q - 1 gibt, sodass mindestens ein i-Minor
+  invertierbar ist und (Lambda^(i+1) A) = (0) ist. Die Rückrichtung geht auch ohne
+  Voraussetzungen.
+
+  In Minimallogik gilt für beliebige Ringe mit 1 != 0:
+  Genau dann existiert nicht nicht ein Vektor z mit Az = 0, der mindestens eine
+  Nicht-Null-Komponente hat, wenn nicht nicht eine Zahl i <= q - 1 und ein
+  Ringelement e existiert, sodass  mindestens ein i-Minor mit e multipliziert
+  nicht Null ist und e * (Lambda^(i+1) A) = (0) ist.
+
 
 === Quotientenmoduln
 
@@ -2123,6 +2166,11 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
 
   Somit wird der Modul durch die idempotente Matrix (1 - B^T C^T) präsentiert.
   Also ist der Modul projektiv.
+
+* Beispiel für einen nichtfreien Modul, der mit einem endlichen freien Modul
+  addiert einen endlich freien Modul gibt: Northcott, Appendix A.
+  Lässt sich etwa über dem Ring der stetigen Funktionen auf S^2 oder
+  Z[X,Y,Z]/(X^2+Y^2+Z^2-1) finden.
 
 
 === Flache Moduln
