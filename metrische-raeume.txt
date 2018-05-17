@@ -85,6 +85,9 @@ Die Abbildung C(X) --> C(C(X))/~ ist surjektiv:
   siehe https://www.cs.ox.ac.uk/quantum/talksarchive/clp7/clp7-chrismulvey.pdf,
   Folie 20.
 
+  Wurde unter diesem Namen zuvor von Banaschweski und Mulvey studiert (siehe
+  etwa /Banach spaces over a compact space/).
+
 
 === Vergleich zur Dedekind-Vervollständigung
 
