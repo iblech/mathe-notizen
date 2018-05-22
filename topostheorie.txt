@@ -736,7 +736,7 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
 * http://mathoverflow.net/questions/51187/what-is-the-generic-poset-used-in-forcing-really
 
 
-=== Topos der G-Mengen
+=== Topos der G-Mengen (BG)
 
 * Der Topos der G-Mengen, im Fall dass G eine gewöhnliche Gruppe ist,
   klassifiziert G-Torsorn. Er lässt sich schreiben als die Kategorie der
@@ -750,6 +750,11 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
 === Topos der M-Mengen (M ein Monoid)
 
 * http://176.58.104.245/NOTES/categories/M-Set.pdf (Ebrahimi, Mahmoudi)
+
+* Zhen Lin schreibt: Die Punkte von BM, dem Topos mit den Rechts-M-Mengen als
+  zugrundeliegende Kategorie, sind diejenigen Links-M-Mengen, die in einem
+  gewissen Sinne transitiv/filternd sind.
+  https://mathoverflow.net/questions/84197/toposes-topoi-as-classifying-toposes-of-groupoids
 
 
 === Pullbacks in der 2-Kategorie der Topoi
