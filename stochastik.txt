@@ -76,3 +76,10 @@ Nullhypothese ab. Die Person ist also kein Amerikaner.
 
 Tatsächlich aber können nur Amerikaner Kongressabgeordnete sein. Die
 Person ist also ganz sicher ein Amerikaner.
+
+
+=== Multi-Armed-Bandit-Problem
+
+http://stevehanov.ca/blog/index.php?id=132
+https://www.cs.mcgill.ca/~vkules/bandits.pdf
+https://cs.nyu.edu/~mohri/pub/bandit.pdf
