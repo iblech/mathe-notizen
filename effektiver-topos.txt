@@ -116,6 +116,63 @@
 * Was sind Beispiele für Aussagen, die im λ-Kalkül-Modell, aber nicht im
   TM-Modell realisierbar sind?
 
+* TM können übrigens parallel-or, Lambda-Kalkül nicht. Das besagt wohl
+  das Berry sequentiality theorem.
+  http://lama.univ-savoie.fr/~hyvernat/Realisabilite2011/Files/JohnLongley1.pdf#page=26
+
+* Vermutung von Longley und Phoa: Jedes Element einfachen Typs in PER(λC) ist
+  PCF-definierbar.
+
+* Es gibt Beispiele für propositionale Aussagen, die realisiert werden,
+  aber nicht in Heyting-Arithmetik ableitbar sind: Rose 1953,
+  https://www.ams.org/journals/tran/1953-075-01/S0002-9947-1953-0055952-4/S0002-9947-1953-0055952-4.pdf,
+  Thm. 6.1. Ich verstehe aber die Notation nicht.
+
+  Lässt man die Beschränkung auf propositionale Aussagen fallen, gibt es viele
+  Beispiele: etwa die Negation der Aussage, jede Turingmaschine halte oder
+  halte nicht.
+
+
+=== Realisierung von IZF
+
+* Man kann sogar eine Realisierbarkeitssemantik für IZF, inklusive
+  nichtklassischer Prinzipien aber großer Kardinalzahlen (!) angeben.
+  http://lama.univ-savoie.fr/~hyvernat/Realisabilite2011/Files/JohnLongley1.pdf,
+  Seite 13.
+
+
+=== Idempotenz von Realisierbarkeit
+
+* Für jede HA-Formel phi gilt: HA + ECT_0 |- (phi <--> (|== phi)).
+
+  Dabei ist ECT_0, für beliebige Formeln B(x,y) und "fast negativen" Formeln
+  A(x) (aus "t = s", "exists x. t = s", top, bot, wedge, implies, forall
+  zusammengesetzt):
+
+      forall x. (A(x) --> exists y. B(x,y))
+          --> exists e. forall x. (A(x) --> M_e(x) terminiert und B(x, M_e(x)))
+
+* Daraus folgt: HA |- (|== phi) genau dann, wenn HA + ECT_0 |- phi.
+
+  Die Rückrichtung ist klar, denn HA |- (|== ECT_0).
+
+* Das hängt wohl eng mit einer Form von Idempotenz zusammen:
+
+      |== (phi --> (|== phi)).
+
+* Siehe /Extensional realizability/ von Jaap van Oosten, Seite 2.
+  https://www.sciencedirect.com/science/article/pii/S0168007296000504
+
+
+=== Krivine-Realisierbarkeit
+
+* Krivine-Realisierbarkeit interpretiert klassische Logik und sogar ZF.
+  Ziel (von wem?): Das auf ZFC ausdehnen.
+
+* Krivines Philosophie ist: Neue Programmierkonzepte sollten dadurch motiviert
+  werden, dass sie wichtige Axiome realisieren.
+  http://lama.univ-savoie.fr/~hyvernat/Realisabilite2011/Files/JohnLongley1.pdf#page=18
+
 
 === Gleichmäßige Stetigkeit
 

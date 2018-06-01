@@ -1,0 +1,228 @@
+=== Quellen
+
+* https://web.math.princeton.edu/~nelson/books/pa.pdf
+
+* https://web.math.princeton.edu/~nelson/papers/e.pdf
+
+* https://www.math.ucsd.edu/~sbuss/ResearchWeb/nelson/talk.pdf
+
+
+=== Addition, Multiplikation, Exponentiation
+
+* Wir definieren über folgende zwei Axiome, wann eine Zahl *Zählzahl* (counting
+  number) heißt:
+
+      0 ist eine Zählzahl.
+      Ist y eine Zählzahl, so auch Sy.
+
+  Diese Definition findet also im Kontext einer Ursuppe an Zahlen (die man
+  vielleicht besser "Pseudozahlen" nennen sollte) statt. Ich denke, eine gute
+  Theorie, in der man diesen Abschnitt formalisieren kann, ist Nelsons Q_1.
+
+* Sind alle Zahlen Zählzahlen? Vorsicht!
+
+  Klar ist: PA zeigt, dass für alle n gilt: Q_1 zeigt, dass \ul{n} eine
+  Zählzahl ist. Diese Aussage über PA geht sogar in sowas wie in IQ durch.
+
+  Aber zum einen hat dieses Argument nur dann eine Aussagekraft, wenn man den
+  Resultaten von PA Vertrauen schenken kann. Zum anderen zeigt es nicht,
+  dass Q_1 zeigt, dass für alle n gilt: n ist eine Zählzahl. In einer starken
+  Metatheorie kann ich das vermutlich auch einfach durch ein geschicktes Modell
+  von Q_1 widerlegen.
+
+  Und was ist mit den "echten Zahlen" der Metatheorie? Zeigt Q_1 vom
+  entsprechenden Numeral, dass es eine Zählzahl ist? Naja, wenn ich das Numeral
+  bilden kann, dann war die Zahl wohl von der Form S...S0. Also ja, ich muss
+  nur so lange das Axiom iteriert anwenden. Aber wenn nein, ist die Frage nicht
+  wohldefiniert.
+
+* Eine Zahl x ist genau dann eine *additive Zahl*, wenn für alle Zählzahlen y
+  die Zahl x + y ebenfalls eine Zählzahl ist.
+
+  Die Zahl 1 = S0 ist eine additive Zahl, wenn (wie in diesem Abschnitt
+  unterstellt) Kommutativität der Addition zur Verfügung steht.
+
+* Eine Zahl x ist genau dann eine *multiplikative Zahl*, wenn für alle
+  additiven Zahlen y die Zahl x * y ebenfalls eine additive Zahl ist.
+
+* Man kann zeigen:
+
+  * Multiplikative Zahlen sind additive Zahlen und diese sind Zählzahlen.
+  * Additive Zahlen sind unter Addition abgeschlossen.
+  * Multiplikative Zahlen sind unter Addition und Multiplikation abgeschlossen.
+
+  (Im Buch führt Nelson auch noch sowas wie "<="-Zahlen ein, für die alle
+  <=-igen Zahlen Zählzahlen sind. Additive Zahlen werden dann über diese
+  definiert.)
+
+  Zum ersten Punkt: 1 ist eine additive Zahl, 0 ist eine Zählzahl.
+
+  Zum zweiten Punkt: trivial mit der Assoziativität der Addition.
+
+  Zum letzten Punkt: Seien a und b multiplikative Zahlen. Dann ist ab wieder
+  multiplikativ, denn für additive Zahlen y ist
+
+      (ab) * y = a * (b * y)
+
+  wieder additiv. Die Summe a + b ist wieder multiplikativ, denn für additive
+  Zahlen y ist die Zahl
+
+      (a + b) * y = ay + by
+
+  wieder additiv, als Summe additiver Zahlen.
+
+* Man kann zwar schon auf analoge Art und Weise die "exponentierbaren Zahlen"
+  als solche Zahlen x, sodass x ^ y für alle multiplikativen Zahlen y wieder
+  multiplikativ ist, definieren. Man wird aber nicht zeigen können, dass
+  Summen, Produkte und Potenzen von exponentierbaren Zahlen wieder
+  exponentierbar sind.
+
+  Und in der Tat: Man kann zeigen (finitistisch, aber womöglich nicht in
+  prädikativer Arithmetik), dass es keine Eigenschaft gibt, die Zählzahlheit
+  impliziert und abgeschlossen unter Potenzierung ist.
+
+* Man kann zeigen, dass 2 ^^ 5 = 2 ^ 65536 eine Zählzahl ist, obwohl
+  wir als Menschen nicht dahin zählen können (das ist gut!):
+
+  Wir überlegen uns zunächst, dass 2 eine multiplikative Zahl ist.
+  Sei dazu y eine additive Zahl. Dann ist 2 * y = y + y als Summe additiver
+  Zahlen additiv.
+
+  Dann ist 2*2 wieder multiplikativ. Also auch (2*2)*(2*2).
+  Und so weiter. Nach insgesamt 16 Schritten sehen wir, dass 2 ^^ 5
+  multiplikativ ist.
+
+  Das Argument lässt sich aber *nicht* auf 2 ^^ (2 ^^ 5) übertragen.
+
+* PA zeigt mühelos, dass Q_1 zeigt, dass 80*...*80 (2000 Faktoren) eine Zählzahl ist.
+
+  Aber das heißt nicht, dass ich einen Q_1-Beweis dieser Behauptung kenne.
+  Ich meine, einen bilden zu können, aber der wird sehr lang! Es gibt einen
+  Unterschied zwischem dem, was ich denke, was PA denkt, was Q_1 zeigen kann, und
+  dem, was ich denke, was Q_1 zeigen kann, wenn ich in einer hinreichend
+  schwachen Metatheorie existiere.
+
+  Tatsächlich gibt es ein anderes Argument, wieso ich einen Q_1-Beweis dieser
+  Behauptung kenne. In Q_1 kann ich wie folgt argumentieren: Es ist 80 eine
+  multiplikative Zahl. (Dazu 80 Mal das Lemma, dass multiplikative Zahlen unter
+  Nachfolgerbildung abgeschlossen sind, anwenden; oder sich cleverer
+  anstellen.) Dann 2000 Mal das Lemma über multiplikative Abgeschlossenheit
+  multiplikativer Zahlen verwenden.
+
+  Was genau meint Nelson, wenn er schreibt, dass 80^2000 unendlich sein könnte?
+
+* Eine *prädikative Rekursion* ist eine primitive Rekursion, in der
+  alle Rekursionen nur über Zählzahlen gehen. Ich gehe davon aus,
+  dass man NICHT (etwa induktiv oder so) davon ausgehen kann, dass die
+  Ergebnisse von rekursiven Aufrufen wieder Zählzahlen sind.
+
+  (1) x + 0 := x, x + Sy := S(x + y).
+      Also ist die Rekursion "x + y" okay für x beliebige Zahl und y Zählzahl.
+
+  (2) x * 0 := 0, x * Sy := xy + x.
+      Also ist die Rekursion "x * y" okay für x und y Zählzahlen.
+
+  (3) x ^ 0 := 1, x ^ Sy := x * (x^y).
+      Die Rekursion "x ^ y" ist nicht okay.
+
+
+=== Eine Art Reflektionsprinzip
+
+* Das Reflektionsprinzip der Mengenlehre besagt: Für je endliche
+  viele Aussagen phi_1, ..., phi_n zeigt ZFC:
+
+      forall y. exists alpha. y in V_alpha wedge
+          bigwedge_i phi_i^(V_alpha) <==> phi_i.
+
+  Das führt dann zur Konservativität von ZFC/S über ZFC. Ist geil.
+
+* Nelson macht doch etwas Ähnliches: Für je endlich viele Theoreme von Q_2
+  ist Q_1'[Theoreme] interpretierbar in Q_1'. Im Endeffekt heißt das: Für je
+  endlich viele Theoreme von Q_2 gibt es ein Prädikat, das gute Zahlen
+  ausschneidet, sodass die Relativierung von ihnen in Q_1' gilt.
+
+  Was ist davon zu halten? Das mit der Interpretierbarkeit klingt auf den
+  ersten Blick so, als würde man sich für jedes zu zeigende Theorem gerade ein
+  passendes Axiomensystem basteln. Antworten auf diese Besorgnis sind unter
+  anderem:
+
+  - Es ist geil, dass es für beliebig endlich viele Theoreme je ein
+    Zahlprädikat gibt, dass für sie alle funktioniert. Die Menge der
+    Zahlbegriffe ist gewissermaßen gerichtet. Ich habe volle Interoperabilität.
+
+  - Die neuen Systeme sind äquikonsistent zu Q_1'. Zeigt Q_1' bottom,
+    so natürlich auch jedes der neuen Systeme. Zeigt eines dieser Systeme
+    bottom, so zeigt Q_1' die Übersetzung von bottom, also ebenfalls bottom.
+
+* Haben wir auch sowas wie das folgende? Für je endlich viele Aussagen phi_i
+  (nicht unbedingt Theoreme!) von Q_2 gibt es ein Prädikat C, sodass:
+
+      Q_1' |- bigwedge_i (C-Übersetzung von phi_i)
+          genau dann, wenn
+              Q_2 |- bigwedge_i phi_i.
+
+* Robinson-Arithmetik ist wie ein ungeschliffener Diamant. Man kann tolle
+  Zahlbegriffe aus ihm herausschneiden.
+
+
+=== Passagen, die integriert werden müssen
+
+* Irgendwo schreibt Nelson "crux".
+
+* Ist 80^2000 nun endlich oder nicht?
+
+
+=== Gödels Resultat als Warnung?
+
+* Gödel besagt: PRA |- (Con(PA) ==> neg (PA |- Con(PA))).
+
+* Das kann man so verstehen: Sollte PA konsistent sein,
+  so kann PA (und erst recht nicht PRA) die Konsistenz zeigen.
+
+  Ist das ein Indiz dafür, dass PA nicht konsistent ist?
+
+
+=== Wahrheit als von Menschen geschaffenes Konstrukt
+
+* Nelson: Mathematicians no more discover truths than the sculpter discovers the
+  sculpture inside the stone. [...] But, unlike sculpting, our work is tightly
+  constrained, both by the strict requirements of syntax and by the collegial
+  nature of the enterprise. This is how mathematics differs profoundly from
+  art. https://www.math.ucsd.edu/~sbuss/ResearchWeb/nelson/talk.pdf#page=23
+
+* Ich interpretiere das so: Angenommen, ich möchte eine gewisse Aussage
+  beweisen. Dann stelle ich vielleicht fest, dass sie nicht in meiner
+  momentanen Theorie beweisbar ist. Aber (zum Beispiel) mit einer Instanz von
+  bounded induction schon! Dann darf ich den Zahlbegriff verfeinern. In der
+  neuen Theorie kann ich dann die Aussage zeigen.
+
+  Das ist nicht völlig arbiträr, denn Kolleginnen können den Zahlbegriff
+  ebenfalls verfeinern. Wir können immer wieder zusammenkommen, wenn die
+  Verfeinerungen nur von einer gewissen Art waren, das ist gut; und vielleicht
+  ist es gar nicht schlimm, wenn es Divergenzen gibt? Dann haben halt Annas
+  Zahlen und meine verschiedene Eigenschaften? Bei Mengen sind wir das schon
+  längst gewohnt!
+
+
+=== Unhaltbarkeit von Nelsons Prädikativismus
+
+* Iwan in /The Untenability Of Nelson's Predicativism/:
+  https://link.springer.com/article/10.1023%2FA%3A1005651027553
+
+  Nelsons Prädikativismus zeigt, dass IΔ_0 + Exp und Q + Con(Q)
+  biinterpretierbar sind. Wenn Nelson bezweifelt, dass IΔ_0 + Exp
+  konsistent ist, muss er also auch bezweifeln, dass Q + Con(Q)
+  konsistent ist.
+
+* Wie schlimm wäre das? Wenn Q die Inkonsistenz von Q zeigt?
+
+
+=== Nächste Schritte
+
+* Jon Becks Ansatz verstehen.
+
+* Cantorian Nanotechnology :-): https://arxiv.org/pdf/cs/0611100v1.pdf
+
+* Q erlaubt beliebige Quantifikation. Ist das nicht schlecht? Weiß ich,
+  was das bedeutet? Das Ausschneiden besserer Zahlsysteme aus Q verwendet diese
+  Quantifikation auch.

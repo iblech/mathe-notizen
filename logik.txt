@@ -602,13 +602,6 @@ Handbook of the History of Logic: Inductive logic
 herausgegeben von Dov M. Gabbay, John Hayden
 
 
-=== Prädikative Zahlentheorie
-
-* https://web.math.princeton.edu/~nelson/books/pa.pdf
-
-* https://www.math.ucsd.edu/~sbuss/ResearchWeb/nelson/talk.pdf
-
-
 === Russel konstruktiv statt imprädikativ
 
 http://staff.math.su.se/palmgren/CERRTT.pdf
@@ -787,6 +780,16 @@ http://people.ucalgary.ca/~rzach/static/open-logic/courses/phil479/phil479-scree
 
 * Einfachheit und Länge von Beweisen:
   http://www.phil.uu.nl/~iemhoff/Mijn/Papers/simplicity.pdf
+
+
+=== Robinson-Arithmetik Q
+
+* Beweist konkrete Aussagen (etwa jede Instanz der binomischen Formel),
+  aber kaum allgemeine Aussagen.
+
+* Ein Modell von Q ist die Menge all derjenigen Polynome aus Z[X],
+  deren Leitkoeffizient (sofern vorhanden) positiv ist, mit der üblichen
+  Polynomaddition und -multiplikation und +1 als Nachfolgeroperation.
 
 
 === Nächste Schritte
