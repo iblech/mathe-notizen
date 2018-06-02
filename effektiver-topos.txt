@@ -133,6 +133,25 @@
   halte nicht.
 
 
+=== In schwachen Metatheorien
+
+* PRA zeigt:
+
+      Falls HA die Sequenz (phi |- psi) im Kontext x_1, ..., x_n ableitet, so
+      gibt es eine Zahl r mit
+
+          HA |- (r ||= (forall x_1. ... forall x_n. (phi ==> psi))).
+
+* PRA + "Turingmaschinen, die HA-beweisbar terminieren, terminieren" zeigt
+  auch:
+
+      Falls HA |- phi, so gibt es r mit HA |- (r ||= phi).
+
+* PRA zeigt:
+
+      Falls HA |- phi, so HA |- (exists r. r ||= phi).
+
+
 === Realisierung von IZF
 
 * Man kann sogar eine Realisierbarkeitssemantik für IZF, inklusive
