@@ -496,6 +496,10 @@ Hochgelobt von David Roberts auf MO.
   Wim Ruitenburg. Constructing roots of polynomials over the complex numbers.
   http://www.mscs.mu.edu/~wimr/publica/roots_new.pdf
 
+* Mehr zu algebraischen Zahlen:
+  https://projecteuclid.org/download/pdf_1/euclid.pjm/1102810439
+  Algebraic numbers, a constructive development
+
 
 === Fan-Theorem & Co.
 
@@ -530,6 +534,13 @@ Hochgelobt von David Roberts auf MO.
 * Mit Markovs Prinzip gilt: FAN <==> Kontraposition-von-WKL.
 
 * LEM ==> FAN (ohne Auswahlprinzipien).
+
+
+=== Zum Auswahlaxiom äquivalente Aussagen
+
+* Jeder nichttriviale Ring enthält ein maximales Ideal:
+  Von Hodges (1979). Siehe auch Banaschweski: A new proof that "Krull implies
+  Zorn".
 
 
 === Lokale und globale Lipschitzstetigkeit

@@ -387,6 +387,22 @@ Empfohlen von John Baez!
   also einen HA-Beweis (mit Nichtstandardlänge), dass P nicht xs ausgibt.
 
 
+=== Gödel und Turing
+
+* Sei PA korrekt für Aussagen über das Halteverhalten von Turingmaschinen.
+  Sei PA vollständig. Dann ist das Halteproblem lösbar.
+
+  Nämlich durch folgende Turingmaschine: Gegeben eine Maschine M, suche alle
+  Beweise von PA ab nach einem Beweis, dass M hält, oder einem Beweis, dass M
+  nicht hält. Wegen Vollständigkeit terminiert die Suche. Wegen Korrektheit
+  stimmt das vermeldete Ergebnis.
+
+* Dieses Argument kann man angeblich verbessern, sodass man die Korrektheitannahme
+  nicht benötigt, behauptet Joel David Hamkins:
+  https://mathoverflow.net/a/227316/31233 Mir ist aber nicht klar, wie das
+  geht.
+
+
 === Parikh
 
 * Es gibt Aussagen, die nur einen langen Beweis haben, aber einen kurzen Beweis,
@@ -790,6 +806,17 @@ http://people.ucalgary.ca/~rzach/static/open-logic/courses/phil479/phil479-scree
 * Ein Modell von Q ist die Menge all derjenigen Polynome aus Z[X],
   deren Leitkoeffizient (sofern vorhanden) positiv ist, mit der üblichen
   Polynomaddition und -multiplikation und +1 als Nachfolgeroperation.
+
+
+=== Anwendungen von Logik in Mainstreammathematik
+
+* Klar: Proof Mining, interne Sprache von Topoi, ...
+
+* Whitehead
+
+* In der Theorie der assoziativen Algebren oder so ab es Aussagen,
+  die zunächst unter Verwendung großer Kardinalzahlen gezeigt wurden.
+  https://mathoverflow.net/a/71258/31233
 
 
 === Nächste Schritte

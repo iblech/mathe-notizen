@@ -2623,6 +2623,18 @@ Sei R nicht unbedingt kommutativ.
   gibt es Obermengen K' und J' mit derselben Eigenschaft
   sodass sum_{i in K'} a_i = sum_{j in J'} b_j.
 
+  Eine analoge Charakterisierung gilt für direkte Summen von Moduln
+  (freie Moduln sind ja der Spezialfall für direkte Summen des Grundrings).
+
+  Man zeigt die Charakterisierung so:
+  1. Die angegebene Bedingung definiert eine Äquivalenzrelation.
+  2. Die so definierte Äquivalenzrelation macht die kleinen Schritte
+     (Umordnung der formalen Summanden, Entfernen von Summanden mit Koeffizient
+     Null, Kontraktion von Summanden zum selben Basiselement) mit.
+  3. Sie ist die kleinste Äquivalenzrelation, die die kleinen Schritte
+     mitmacht. Dazu Induktion und Ausnutzung, dass Addition in Moduln
+     cancellative ist.
+
 
 === Purity filtration
 

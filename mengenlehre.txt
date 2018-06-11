@@ -21,6 +21,23 @@
   ohne Grothendieckuniversen & Co. Garbenkohomologie betreiben zu können.
 
 
+=== Shoenfields Absolutheitssatz
+
+* Shoenfield's absoluteness theorem shows that Pi_2^1 and Sigma_2^1 sentences
+  in the analytical hierarchy are absolute between a model V of ZF and the
+  constructible universe L of the model, when interpreted as statements about
+  the natural numbers in each model.
+
+* Shoenfield's theorem also shows that there are limits to the independence
+  results that can be obtained by forcing. In particular, any sentence of Peano
+  arithmetic is absolute to transitive models of set theory with the same
+  ordinals. Thus it is not possible to use forcing to change the truth value of
+  arithmetical sentences, as forcing does not change the ordinals of the model
+  to which it is applied.
+
+* https://en.wikipedia.org/wiki/Absoluteness#Shoenfield.27s_absoluteness_theorem
+
+
 === Ein einfaches Maximalitätsprinzip
 
 "Alles, was erzwingbar ist und nicht nachträglich antierzwingbar ist, ist
@@ -147,3 +164,17 @@ Dann wird f durch folgende Formel psi realisiert:
 
   Noch mal mit Reflektion (fasse A als freie Variable auf) folgt:
   forall x. (phi(x) <==> x in A).
+
+
+=== Injektive abelsche Gruppen
+
+* Wenn jede divisible Gruppe injektiv ist, so gilt das Auswahlaxiom.
+  (Blass)
+
+* Colin McLarty in https://cs.nyu.edu/pipermail/fom/2010-October/015091.html:
+  Der Beweis, dass jeder Modul in einen injektiven Modul einbettet (sogar in
+  beliebigen Grothendiecktopoi), geht schon in ZC durch (Zermelo mit Choice und
+  Separation, aber ohne Replacement). ZFC zeigt die Existenz von Modellen von
+  ZC (jedes V_lambda, lambda Limesordinalzahl). Damit benötigt man also
+  zumindest für diesen einen Aspekt von Grothendiecks Kohomologieapparat keine
+  über ZFC hinausgehenden Axiome.

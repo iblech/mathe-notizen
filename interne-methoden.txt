@@ -544,6 +544,17 @@ Sei j eine Lawvere-Tierney-Topologie.
   * j(x \in S).
   * j(S = {x}).
 
+* Freyd definiert den Reflektor in die separierten Prägarben wie folgt:
+
+      X^sep := { K : P(X) | exists x : X. K = { y : X | j(x = y) } }
+      (https://ncatlab.org/spahn/files/aspects_of_topoi.pdf, Lemma 2.615)
+
+  Und den Reflektor in die Garben so:
+
+      X^sh := j-Abschluss der Teilmenge { { y : X | j(x = y) } | x : X }
+      in der j-Garbe Omega_j^X, also der Menge derjenigen Teilmengen von X,
+      für die Zugehörigkeit j-stabil ist.
+
 * Die Plus-Konstruktion kann man so definieren:
 
       X^+ := { S \subseteq X | j(S Singleton) }/~,

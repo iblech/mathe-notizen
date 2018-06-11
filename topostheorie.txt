@@ -58,6 +58,24 @@
   exakt ist und einen linksexakten Linksadjungierten besitzt.
 
 
+=== Exaktheitseigenschaften
+
+* In Topoi sind Pushouts von Monos wieder Monos. Das zeigt man unter Verwendung
+  injektiver Objekte: Sei
+
+      A `--> B
+      |      |
+      |      |
+      v      v
+      C ---> D
+
+  ein Pushout-Diagramm. Wir möchten zeigen, dass C --> D ein Mono ist. Wir
+  wählen eine Einbettung C --> E in ein injektives Objekt. Dann wird E zu einem
+  Möchtegern-Pushout von B und C über A. Also gibt es genau einen Morphismus
+  D --> E, sodass C --> D --> E gleich der Einbettung C --> E ist. Da diese ein
+  Mono ist, ist auch C --> D ein Mono.
+
+
 === Darstellung von Topoi
 
 * Sei E eine präsentierbare Kategorie (damit meint Joyal "lokal präsentierbare
@@ -594,6 +612,35 @@ immer ein offener Untertopos von Set[|T|], oder?
   die glaube ich äquivalent ist zu einer Hochhebungseigenschaft.) Dann hat sie
   gezeigt, dass es einen generischen lokalen (strikt lokalen, fppf-lokalen)
   Ring gibt.
+
+* Elephant 4.6.3(a): Klassifizierende Topoi von kartesischen Theorien
+  erfüllen das de Morgansche Gesetz.
+
+  Volles LEM ist dagegen sehr selten (3.4.6): Der klassifizierende Topos einer
+  kohärenten Theorie T ist genau dann boolsch, wenn jede Formel erster Ordnung
+  in klassischer Logik beweisbar äquivalent zu einer kohärenten Formel ist, und
+  wenn es über jedem Kontext bis auf beweisbare klassische Äquivalenz nur
+  endlich viele Formeln erster Ordnung gibt. (Achtung, Johnstones Beweis
+  scheint mir nur in einer klassischen Metalogik durchzugehen.)
+
+* Das Koprodukt Set[T_1] + Set[T_2] in der Kategorie der Topoi bildet man
+  als Kategorie ja einfach durch das kartesische Produkt der zugrundeliegenden
+  Kategorien. Der entstehende Topos wird dann folgende Theorie T_3
+  klassifizieren (3.3.7):
+
+      Sorten: die von T_1, die von T_2, und zwei neue: U_1, U_2
+      Relationssymbole: die von T_1 und von T_2
+      Funktionssymbole: die von T_1 und von T_2, sowie je zwei neue für jede
+          Sorte von T_1 bzw. T_2: f_A : A --> U_1 bzw. g_A : A --> U_2
+
+      Axiome:
+      * die von T_1, aber mit neuer freier Variable der Sorte U_1
+        (Johnstone ergänzt die freie Variable nur, wenn der Kontext leer war --
+        sollte egal sein)
+      * analog mit T_2
+      * U_1 und U_2 sind Subsingletons
+      * U_1 ist bewohnt oder U_2 ist bewohnt
+      * U_1 und U_2 sind nicht beide bewohnt
 
 
 === Siten
