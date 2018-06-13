@@ -346,6 +346,11 @@ http://mathoverflow.net/questions/132802/defining-holomorphic-functions-in-terms
 
   http://people.idsia.ch/~juergen/speedprior/sld008.htm
 
+* Carlo Rovelli. Is Time's Arrow Perspectival? https://arxiv.org/abs/1505.01125
+
+* Diskussionen beim HIM: Vielleicht leben wir im platonischen Himmel,
+  sodass das Zugriffsproblem trivial/leichter wird.
+
 
 === Deep Learning
 

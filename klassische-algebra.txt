@@ -29,6 +29,16 @@ beliebig. Dann gilt:
     also gh = v^n u v^m w = v^n v^m uw = v^m v^n uw = v^m w v^n u = hg.
 
 
+=== 5/8
+
+* Wenn die Wahrscheinlichkeit, dass zwei willkürlich herausgegriffene
+  Gruppenelemente miteinander kommutieren (das ist die Zahl (Anzahl
+  Konjugationsklassen) / (Anzahl Gruppenelemente)), größer als 5/8 ist, so ist
+  die Gruppe abelsch.
+
+  https://mathoverflow.net/q/91685/31233
+
+
 === Untergruppen vom Index 2
 
 Enthalte G/H zwei Elemente im starken Sinn, also G/H = { A, B } mit A != B.

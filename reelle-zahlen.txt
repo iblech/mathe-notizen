@@ -19,6 +19,11 @@ Sei A : Ouv(Q) --> Set. Dann erhalte reelle Zahl x als eindeutige Zahl in
 bigcap_{y in Q, r > 0, A(B_r^Q(y)) bewohnt} B_r^R(y).
 
 
+=== Literatur
+
+* http://math.fau.edu/Richman/docs/cuts-la.pdf
+
+
 === Nächste Schritte
 
 * Bildet die Kategorie Hom(Sh(R), Sh(R)) tatsächlich eine Menge

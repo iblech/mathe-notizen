@@ -81,11 +81,15 @@ N* := { (x_n)_n | x_n in {0,1}, (x_n) monoton steigend }.
   eine solche Zahl.
 
 
-=== Kohomologie diskreter Räume
+=== Kohomologie
 
-http://homotopytypetheory.org/2013/07/24/cohomology/
-Andreas Blass (_Cohomology detects failures of the axiom of choice_)
-http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
+* http://homotopytypetheory.org/2013/07/24/cohomology/
+  Andreas Blass (_Cohomology detects failures of the axiom of choice_)
+  http://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
+
+* Bishop. Mathematics as a numerical language: H^1(S^1) = Z ist konstruktiv
+  wohl eher nicht zeigbar.
+  https://www.sciencedirect.com/science/article/pii/S0049237X08707407
 
 
 === Konstruktive reverse Mathematik

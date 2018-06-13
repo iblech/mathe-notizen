@@ -272,6 +272,9 @@ Zur Hinrichtung überlege zunächst, dass
 * Von Andrej Bauer empfohlen:
   http://www.cs.cmu.edu/~fp/courses/15317-f09/index.html
 
+* Bishop. Schizophrenia in contemporary mathematics.
+  https://prl.ccs.neu.edu/img/sicm.pdf
+
 
 === Nächste Schritte
 

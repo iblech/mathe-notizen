@@ -2635,6 +2635,10 @@ Sei R nicht unbedingt kommutativ.
      mitmacht. Dazu Induktion und Ausnutzung, dass Addition in Moduln
      cancellative ist.
 
+  Bessere Charakterisierung wird in
+  https://mathoverflow.net/questions/302516/constructively-is-the-unit-of-the-free-abelian-group-monad-on-sets-injective
+  diskutiert. Sie funktioniert auch für Rigs.
+
 
 === Purity filtration
 

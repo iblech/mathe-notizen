@@ -93,3 +93,12 @@ http://arxiv.org/abs/math/9902004
 
 * https://byorgey.wordpress.com/2016/06/20/any-clues-about-this-newton-iteration-formula-with-jacobian-matrix/
 * https://arxiv.org/abs/1109.2688 (Newton-Verfahren!)
+
+
+=== Bijektive Beweise
+
+* /Bijective matrix algebra/ von Loehr und Mendes:
+  https://www.sciencedirect.com/science/article/pii/S0024379506000218
+
+  Sehr geil. Via
+  https://mathoverflow.net/questions/302516/constructively-is-the-unit-of-the-free-abelian-group-monad-on-sets-injective.

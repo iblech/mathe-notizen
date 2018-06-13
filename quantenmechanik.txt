@@ -99,3 +99,27 @@ http://physics.stackexchange.com/a/17225/103105
 === Das Wasserstoffproblem
 
 * http://ta.twi.tudelft.nl/users/vuik/numanal/kastner_scriptie.pdf
+
+
+=== Physikalische Mathematik
+
+http://inference-review.com/article/a-view-from-the-bridge
+
+"The monstrous moonshine observations are ultimately natural consequences of
+string theoretic spacetime and worldsheet symmetries and have generated
+striking and far-flung algebraic structures. Many years ago, Eugene Wigner
+asked for an explanation of the unreasonable effectiveness of mathematics
+within physics. His essay was influential more for asking the question than for
+answering it. It would be possible today to write a comparable essay asking for
+the explanation of the unreasonable effectiveness of physics within
+mathematics. If mathematics and physics are in so many respects in equipoise,
+then the differences between them may be less a matter of their content than
+their technique; and that, in the end, they serve to show that there is only
+one reality to which they both appeal.
+
+Wouldn’t it be lovely to think so?"
+
+
+=== Bedeutung von Potenzialen
+
+* https://en.wikipedia.org/wiki/Aharonov%E2%80%93Bohm_effect

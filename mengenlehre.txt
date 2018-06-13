@@ -178,3 +178,27 @@ Dann wird f durch folgende Formel psi realisiert:
   ZC (jedes V_lambda, lambda Limesordinalzahl). Damit benötigt man also
   zumindest für diesen einen Aspekt von Grothendiecks Kohomologieapparat keine
   über ZFC hinausgehenden Axiome.
+
+
+=== Zum Auswahlaxiom
+
+* "In L gilt das Auswahlaxiom." Eine Präzisierung davon ist:
+
+  Sei M ein Modell von ZF (in irgendeiner Metatheorie, die über Modelle
+  sprechen kann). Sei L dasjenige Modell, was man von M erhält, wenn man nur
+  die aus M-Sicht definierbaren Elemente nimmt. Dann ist L ein Modell von ZFC.
+
+  Eine andere Präzisierung ist folgende: Lass in ZF arbeiten. Sei V die Klasse
+  aller Mengen. Dann ist V ein "inner model" von ZF: Man kann (in der
+  Metatheorie wie PRA) für jede endliche Aussage phi formulieren, was
+  "V ||= phi" bedeutet (nämlich "phi"), und dann stellt sich heraus, dass für
+  jedes ZF-Axiom phi tatsächlich "V ||= phi" gilt (damit meine ich, dass ZF
+  "V ||= phi" beweist). Nun kann man auch die Klasse L der definierbaren Mengen
+  definieren. Diese ist ebenfalls ein inner model. Und nun stellt sich heraus,
+  dass "L ||= phi" sogar für alle ZFC-Axiome phi.
+
+* Für Aussagen phi, für die man in ZF zeigen kann, dass V ||= phi äquivalent
+  zu L ||= phi ist (die "absolut zwischen V und L sind"), gilt daher: Sind sie
+  in ZFC beweisbar, so schon in ZF.
+
+  Habe das von Andreas Blass gelernt: https://mathoverflow.net/a/84116/31233

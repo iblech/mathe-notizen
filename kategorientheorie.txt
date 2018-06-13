@@ -1427,6 +1427,19 @@ In Haskell geht das auch:
         fmap phi (MkFree f x) = MkFree (phi . f) x
 
 
+=== Freie Strukturen
+
+* Man sagt ja oft: "Eine freie Struktur hat nur die Eigenschaften, die sie
+  unbedingt haben muss, damit sie wirklich eine Struktur der untersuchten Art wird."
+
+  Das ist natürlich etwas gelogen. Etwa ist A<X> ein Modul mit einer Basis der
+  Länge |X|; diese Forderung steckt gewiss nicht in den Modulaxiomen.
+
+  Es stimmt aber schon, dass zwei Elemente genau dann gleich sind, wenn allein
+  aus den Strukturaxiomen folgt, dass sie gleich sein müssen. (Ich denke hier
+  an die Konstruktion über die Termalgebra.)
+
+
 === Codensity-Monade (Kodichtemonade)
 
 * Codensity(G) = Ran_G(G) für G : B --> A.

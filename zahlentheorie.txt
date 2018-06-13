@@ -130,3 +130,14 @@ http://mathoverflow.net/questions/50879/what-is-the-knot-associated-to-a-prime/5
   ausnahmsweise die natürlichen Zahlen erst bei 1 beginnen.)
 
   http://math.stackexchange.com/questions/352547/baire-space-homeomorphic-to-irrationals
+
+
+=== Ring der ganzen algebraischen Zahlen
+
+* Ist frei (ohne Auswahlaxiom): https://mathoverflow.net/a/84116/31233
+
+
+=== Wasser umschütten
+
+https://mathoverflow.net/a/5807/31233
+https://www.youtube.com/watch?v=0Oef3MHYEC0

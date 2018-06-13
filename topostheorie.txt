@@ -783,7 +783,7 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
 * http://mathoverflow.net/questions/51187/what-is-the-generic-poset-used-in-forcing-really
 
 
-=== Topos der G-Mengen (BG)
+=== Topos der G-Mengen (PSh(BG))
 
 * Der Topos der G-Mengen, im Fall dass G eine gewöhnliche Gruppe ist,
   klassifiziert G-Torsorn. Er lässt sich schreiben als die Kategorie der
@@ -792,6 +792,17 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
 * Die Scheibenkategorie G-Set / G ist kanonisch äquivalent zu Set (schreibt
   Simon Henry auf https://mathoverflow.net/a/278745/31233), vermutlich durch
   (f : X --> G) |--> f^(-1)[e] und M |--> (G x M --> G).
+
+* Gesucht: Objekt von PSh(BG), das nicht bewohnt ist, aber das nach Rückzug in
+  die Scheibe PSh(BG)/G bewohnt ist. Gibt es sowas? Nein. Es ist G --> 1 ein
+  Epi. Angenommen, X ist so beschaffen, dass X x G --> G ein Epi in PSh(BG)/G
+  ist. Dann ist es auch ein Epi in PSh(BG). Also ist X x G --> G --> 1 ein Epi,
+  somit auch X x G --> X --> 1, somit auch X --> 1.
+
+  Gesucht: Objekt, das keine globalen Elemente besitzt, aber nach Rückzug in
+  die Scheibe PSh(BG)/G schon. Das ist zum Beispiel die G-Menge G. Hat keine
+  invarianten Elemente, also keine globalen Elemente. Nach Rückzug zu PSh(BG)/G
+  ist sie G x G, unter der Äquivalenz mit Set also G.
 
 
 === Topos der M-Mengen (M ein Monoid)
