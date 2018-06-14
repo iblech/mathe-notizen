@@ -6,6 +6,8 @@
 
 * https://www.math.ucsd.edu/~sbuss/ResearchWeb/nelson/talk.pdf
 
+* http://preprints.ihes.fr/2011/M/M-11-15.pdf (Cartier)
+
 
 === Addition, Multiplikation, Exponentiation
 

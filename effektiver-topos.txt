@@ -55,6 +55,56 @@
   Details stehen in Streicher.
 
 
+=== Konstruktion des effektiven Topos
+
+Nach https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/hyland-effectivetopos.pdf.
+
+* Objekte: Paare (X,=), wobei X eine Menge ist und (=) ein
+  "Nichtstandardprädikat" auf X x X ist, also eine Relation r |== (x=y)
+  zwischen Zahlen und Elementen von X x X. Dabei muss gelten:
+
+  * Es gibt eine Maschine, die die Symmetrie von (=) bezeugt,
+    die also Realisierer von (x=y) in Realisierer von (y=x) umwandelt.
+
+  * Es gibt eine Maschine, die die Transitivität von (=) bezeugt.
+
+  (Reflexivität fordert man nicht. Wir schreiben "Ex" für (x=x).)
+
+  Das ist also nicht ganz dasselbe wie eine Assembly, da wir keinen Begriff von
+  Realisierern für die Elemente von X haben.
+
+  Ein solches Paar (X,=) gibt aber Anlass zu einer Assembly. Nämlich die, die
+  als Trägermenge X' := { x in X | ex. r |== (x=x) } und als
+  Realisierbarkeitsrelation r |== x <==> r |== (x=x) hat. Die Relation (=) gibt
+  dann ein Unterobjekt von X' x X': Trägermenge { (x,y) in X' x X' | ex. r |== (x=y) },
+  Realisierbarkeitsrelation NICHT "r |== (x,y) <==> r |== (x=y)", sondern
+  "r |== (x,y) <==> pi_1(r) |== x und pi_2(r) |== y und pi_3(r) |== (x=y)",
+  Inklusion offensichtlich. Aus Realisierbarkeitssicht ist diese Relation dann
+  reflexiv, symmetrisch und transitiv.
+
+* Morphismen (X,=) --> (Y,=) sind Äquivalenzklassen funktionaler Relationen G
+  (Nichtstandardprädikate auf X x Y):
+
+      |== G(x,y) wedge x = x' wedge y = y' --> G(x',y')
+      |== G(x,y) --> Ex wedge Ey
+      |== G(x,y) wedge G(x,y') --> y = y'
+      |== Ex -> exists y. G(x,y)
+
+  Mit "|==" ist hier etwa gemeint: Es gibt eine Maschine, die Paare (r,s,t) mit
+  r in G(x,y), s |== (x=x'), t |== (y=y') nimmt und eine Zahl u mit u in
+  G(x',y') ausgibt.
+
+  Zwei solche Relationen G und H sind genau dann äquivalent, wenn
+
+      |== G(x,y) <--> H(x,y).
+
+* Der Unterobjektklassifizierer ist folgendes Objekt: (Sigma,<->),
+  wobei Sigma = P(N) und r |== M <-> N genau dann, wenn r eine Maschine ist,
+  die Elemente aus M auf Elemente aus N abbildet.
+
+  Hm. Diese Relation wäre sogar reflexiv, Sigma wäre also wirklich groß.
+
+
 === Realisierbarkeitslogik
 
 * r |== neg(phi) bedeutet: Es gibt keinen Realisierer für phi.
@@ -131,6 +181,10 @@
   Lässt man die Beschränkung auf propositionale Aussagen fallen, gibt es viele
   Beispiele: etwa die Negation der Aussage, jede Turingmaschine halte oder
   halte nicht.
+
+* In Eff gibt es eine Folge rationaler Intervalle, die R überdecken
+  und von beliebig kleinem Gesamtmaß sind.
+  (https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/hyland-effectivetopos.pdf)
 
 
 === In schwachen Metatheorien
