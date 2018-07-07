@@ -175,6 +175,15 @@ expressed in our system.
   Ferner ist u der größte Fixpunkt. Sei v irgendein Fixpunkt von f.
   Dann v in M. Also v <= u.
 
+  Daran sieht man auch: Ein größtes v mit der Eigenschaft v <= f(v)
+  ist ein Fixpunkt (und zwar der größte).
+
+  Die reellen Zahlen bilden zwar keinen vollständigen Verband, doch trotzdem
+  gilt: Ist f : R --> R eine (schwach) monoton steigende Abbildung, existiert
+  ein v mit v <= f(v) und ist die Menge { v | v <= f(v) } nach oben beschränkt,
+  so besitzt f einen größten Fixpunkt. Das stimmt konstruktiv, wenn die
+  MacNeille-Zahlen gemeint sind.
+
 * Den kleinsten Fixpunkt bekommt man so:
 
       u := inf M  mit  M := { v | f(v) <= v }.
