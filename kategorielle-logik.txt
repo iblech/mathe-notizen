@@ -558,7 +558,8 @@ durch Arbeit im initialen (Elementar-)Topos. Denn:
   sie im initialen Topos gilt.
 
 * Der initiale Topos befriedigt Platonistinnen, denn als ein initiales Objekt
-  ist er eindeutig (in einem 2-kategoriellen Sinn).
+  ist er eindeutig (in der Kategorie der Elementartopoi mit logischen
+  Morphismen).
 
 * Er befriedigt Formalistinnen, da er rein syntaktisch/linguistisch konstruiert
   werden kann.
@@ -581,6 +582,11 @@ Siehe auch: http://www.math.mcgill.ca/barr/lambek/pdffiles/WorldMath.pdf
 
 Marc: Der initiale Topos sollte der Topos der Garben über dem Situs der Topoi
 sein. Stimmt das?
+
+* Lambek und Scott sprechen auch über T(L_1)/LEM. Dieser Topos ist initial
+  in der Kategorie der boolschen Elementartopoi mit logischen Morphismen. Wegen
+  Gödels Unvollständigkeitssatz wissen wir aber, dass er kein lokaler Topos
+  ist.
 
 
 === Kommutative Theorien

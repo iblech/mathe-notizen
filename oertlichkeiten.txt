@@ -372,6 +372,12 @@ mit W' := W wedge U das gesuchte Urbild (W' in F, W' <= U wedge V).
 
 * Genau dann ist eine Unterörtlichkeit X_Box dicht, wenn neg(Box(bot)).
 
+* Achtung: Der kleinste dichte Untertopos ist im Allgemeinen NICHT
+  dasselbe wie der größte boolsche Untertopos. Letzterer existiert im
+  Allgemeinen nicht. Er ist aber laut Olivia der größte DICHTE boolsche
+  Untertopos und laut dem Baby Elephant (Seite 140) der größte, für das die
+  Inklusion 0 --> 1 abgeschlossen ist.
+
 
 === Kovarianter Zugang
 

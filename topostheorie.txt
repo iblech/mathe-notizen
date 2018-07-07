@@ -125,6 +125,10 @@
 * Etwas zum Zusammenhang mit Ringen steht in oertlichkeiten.txt und in
   http://arxiv.org/abs/1107.6032 (Beispiel 3.13).
 
+* Matthias' Motto: Wenn man zeigen will, dass zwei Topoi gleich sind, ist es
+  toll, einen gemeinsamen Obertopos zu kennen, denn dann ist nur noch
+  eine Gleichheit in einer Partialordnung zu zeigen.
+
 
 === Punkte
 
