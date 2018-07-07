@@ -19,6 +19,30 @@ Sei A : Ouv(Q) --> Set. Dann erhalte reelle Zahl x als eindeutige Zahl in
 bigcap_{y in Q, r > 0, A(B_r^Q(y)) bewohnt} B_r^R(y).
 
 
+=== Überabzählbarkeit der MacNeille-Zahlen
+
+Sei f : N --> R.
+
+Wir bauen eine Abbildung g : R --> R mit
+
+    g(x) = sup
+        { sum_{n in M} 2^{-n}
+        | M <= N herauslösbar
+        , f[M] < x
+        }.
+
+Das Supremum existiert, da die Menge durch 0 bewohnt und durch 2 nach oben
+beschränkt ist.
+
+Sei c = sup { x | x <= g(x) }. Das Supremum existiert, da die Menge durch 0
+bewohnt und durch 2 nach oben beschränkt ist. Angenommen c = f(n0) für ein n0.
+Dann gilt:
+
+    g(c + 2^{-n0}) >= g(c) + 2^{-n0} >= c + 2^{-n0},
+
+also c + 2^{-n0} <= c, Widerspruch.
+
+
 === Literatur
 
 * http://math.fau.edu/Richman/docs/cuts-la.pdf
