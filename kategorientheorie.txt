@@ -1065,6 +1065,16 @@ Inklusion einen Linksadjungierten besitzt, den sog. Reflektor.
   injektiv und surjektiv (somit ein Bimorphismus), aber kein Isomorphismus.
 
 
+=== Einbettbarkeit
+
+* Die Kategorie der Gruppen bettet nicht volltreu in die Kategorie
+  der topologischen Räume ein.
+
+  Denn von den unendlich vielen Gruppen C_p mit p prim können nur endlich viele
+  auf {} und {*} gehen. Zu den anderen ist es dann so, dass es stets mehr als
+  eine stetige Abbildung zwischen den Bildern gibt, aber nur einen Gruppenhomo.
+
+
 === Elementare Äquivalenz äquivalenter Kategorien
 
 Referenzen von Mike zu "äquivalent als Kategorien ==> elementar äquivalent":
