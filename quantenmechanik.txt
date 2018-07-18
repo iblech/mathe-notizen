@@ -31,6 +31,19 @@
   diese Dekohärenz reproduziert die Erwartungen des Kollapses für interne
   Beobachter.
 
+* Sudbery in /Quantum mechanics and the particles of nature/ auf Seite 191:
+  Interagiere ein quantenmechanisches System mit einem makroskopischen Apparat
+  derart, dass zufällige Phasen in dem Apparat induziert werden. Sei rho der
+  statistische Operator nach Ausführung des Experiments, einfach mit der
+  Schröndingergleichung bestimmt, und rho' das Ergebnis, wenn man das
+  Projektionspostulat auf rho anwendet. Dann ist es makroskopischen Apparaturen
+  nicht möglich, den Unterschied zwischen rho und rho' festzustellen (genauer:
+  tr(rho A) \approx tr(rho' A)).
+
+  Das Danieri--Loinger--Prosperi-Theorem gibt eine oft erfüllte Bedingung dafür
+  an, dass die Bedingung mit den zufälligen Phasen erfüllt ist ("irreversible
+  Evolution").
+
 * Vielleicht ist die Beobachtung der "Wellenfunktion des Universums" nicht so
   wichtig, genau wie in Greg Adams /Permutation City/ es nicht so wichtig ist,
   ob eine Gehirnsimulation tatsächlich ausgeführt wird.
