@@ -54,6 +54,29 @@
 * https://arxiv.org/pdf/quant-ph/9805065.pdf "existential interpretation"
 
 
+=== Interessante Experimente
+
+* https://www.lesswrong.com/posts/KbeHkLNY5ETJ3TN3W/distinct-configurations
+
+
+=== Konfigurationsraum
+
+* In klassischer Mechanik kann man Unsicherheit über den initialen Zustand
+  als Wolke im Konfigurationsraum visualisieren. Jeder einzelne Punkt des
+  Konfigurationsraum unterliegt einer gewissen zeitlichen Entwicklung, so kann
+  man die zukünftige Unsicherheit quantifizieren.
+
+* In Quantenmechanik sind die Wolken selbst (genauer: die
+  Amplitudenverteilungen, d.h. die Wellenfunktionen) die fundamentalen Objekte.
+  Es ergibt keinen Sinn zu fragen, wohin sich ein einzelner Punkt entwickeln
+  wird.
+
+
+=== Heliumatom
+
+https://www.southampton.ac.uk/assets/centresresearch/documents/compchem/DFT_L2.pdf
+
+
 === Quantenfehlerkorrektur
 
 * http://blog.sigfpe.com/2007/03/shor-quantum-error-correcting-code-and.html
@@ -98,6 +121,24 @@ http://physics.stackexchange.com/a/17225/103105
 * Steht wohl auch hier:
   http://www.fysik.su.se/~emma/PathIntegrals.pdf
 
+* Wie schlimm ist es, dass Feynman-Diagramme nur eine asymptotische Entwicklung
+  liefern? http://jakobschwichtenberg.com/divergence-perturbation-series-qft/
+
+  “(Carrier’s Rule). Divergent series converge faster than convergent
+  series because they don’t have to converge.” from The Devil’s Invention:
+  Asymptotic, Superasymptotic and Hyperasymptotic Series by John P. Boyd
+
+  https://arxiv.org/abs/1201.2714
+
+
+=== Beschleunigertechnik
+
+* Der Prozess p + p --> p + p + p + bar p benötigt die sechsfache Ruheenergie
+  des Protons, wenn man ein bewegendes Proton auf ein ruhendes Stoßen lässt.
+  Wenn man dagegen zwei Protonen kollidieren lässt, genügt (insgesamt) die
+  doppelte Ruheenergie. Impulserhaltung fordert im ersten Fall ihren Tribut.
+  (Griffiths, Seite 108)
+
 
 === Kategorielle Sprache
 
@@ -136,3 +177,9 @@ Wouldn’t it be lovely to think so?"
 === Bedeutung von Potenzialen
 
 * https://en.wikipedia.org/wiki/Aharonov%E2%80%93Bohm_effect
+
+
+=== Literatur
+
+* Zur mathematischen Fundierung:
+  https://www.uni-ulm.de/fileadmin/website_uni_ulm/mawi.inst.020/fackler/SS15/qm/lnotes_mathematical_found_qm_temp.pdf

@@ -394,6 +394,10 @@ http://mathoverflow.net/questions/162097/computing-the-minimal-free-resolution-o
 * http://arxiv.org/abs/1409.2028 Gabriel morphisms and the computability of
   Serre quotients with applications to coherent sheaves
 
+* Auch interessant: https://www3.nd.edu/~sommese/preprints/HMPSCohom.pdf
+  Numerical computation of the dimensions of the
+  cohomology of twists of ideal sheaves
+
 
 === Nächte Schritte
 
