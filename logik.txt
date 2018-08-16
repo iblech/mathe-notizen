@@ -386,6 +386,9 @@ Empfohlen von John Baez!
   natürlich die Liste xs aus (nach Axiom). Innerhalb dieses Modells gibt es
   also einen HA-Beweis (mit Nichtstandardlänge), dass P nicht xs ausgibt.
 
+* Jetzt gibt es auch die "universelle Menge"!
+  http://jdh.hamkins.org/wp-content/uploads/2018/04/Set-theoretic-potentialism-and-universal-finite-set-SLS-2018-1.pdf
+
 
 === Gödel und Turing
 

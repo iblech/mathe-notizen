@@ -47,8 +47,9 @@ Beispiele:
 
 Wenn man sogar mehrere Wertewahrscheinlichkeiten von X bestimmen möchte, sagen
 wir m viele, und sicher gehen möchte, dass die Wahrscheinlichkeit, dass
-mindestens eines der Messergebnisse um mindestens eps abweicht, höchstens alpha
-ist, so muss (bei dieser Analyse) n >= m / (4 alpha eps^2) sein.
+die Wahrscheinlichkeit dafür, dass mindestens eines der Messergebnisse um
+mindestens eps abweicht, höchstens alpha ist, so muss (bei dieser Analyse)
+n >= m / (4 alpha eps^2) sein.
 
 Beobachte, dass die Ereignisse "|Z_n - p| >= eps" für verschiedene Wahlen von
 x0 vermutlich nicht unabhängig sind. Trotzdem sollten bessere Abschätzungen
