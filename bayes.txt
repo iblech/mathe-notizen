@@ -35,6 +35,9 @@
   measure spaces and stochastic maps.  So, [T,C] plays the role of the
   "category of models of T in C"."
 
+* Why I am only a half-Bayesian.
+  http://ftp.cs.ucla.edu/pub/stat_ser/r284-reprint.pdf
+
 
 === Markov-Ketten
 

@@ -76,6 +76,20 @@ wieder ausschalten.
 Später spricht Hamkins vom (Erd-)Grund eines Universums, vom Mantel und
 vom inneren Kern.
 
+* Die Menge der abzählbaren Modelle von Mengenlehre ist total geordnet,
+  vom Ordnungstyp omega_1 + 1. http://jdh.hamkins.org/every-model-embeds-into-own-constructible-universe/
+
+* Jedes abzählbare Modell bettet in sein konstruierbares Universum ein.
+
+
+=== Konventionen bei Ordinalzahlarithmetik
+
+* Die Kategorie der Wohlordnungen besitzt wohl keine Produkte (an denen man
+  sich für die Definition des Ordinalzahlenprodukts orientieren könnte): das
+  kartesische Produkt ist keine Totalordnung, und das
+  umgekehrt-lexikographische Produkt (oder auch das gewöhnlich-lexikographische
+  Produkt) erlaubt keine Projektionsmorphismen.
+
 
 === Konstruktion von Funktionen durch Rekursion über N
 
