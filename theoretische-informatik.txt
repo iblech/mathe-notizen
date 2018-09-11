@@ -7,6 +7,65 @@ http://arxiv.org/abs/1406.1808
 Sehr einfach zu verstehen!
 
 
+=== Busy Beaver besiegt jede berechenbare Funktion
+
+Sei f eine berechenbare Funktion.
+
+* Sei M_n eine Turingmaschine, die wie folgt arbeitet: n Einsen schreiben, dann
+  wieder nach vorne gehen, dann die Maschine für f ausführen, dann wieder nach
+  vorne, dann noch mal f, dann wieder nach vorne und einmal ablaufen.
+
+  Die Maschine M_n benötigt mindestens f(f(n)) Schritte und hat
+
+      n + a + |f| + a + |f| + a + b =: 2|f| + c + n
+
+  Zustände. Dabei sei a die Anzahl Zustände, die nötig sind, um nach vorne zu
+  spulen, und b die Anzahl Zustände, die nötig sind, um bis ans Ende zu spulen.
+
+  Folglich: f(f(n)) <= BB(2|f| + c + n).
+
+  Schön wäre jetzt: f(2|f| + c + n) <= f(f(n)), zumindest ab irgendeinem n.
+
+  Das können wir arrangieren: Hinreichend dafür ist, dass f schwach monoton
+  steigt und f(n) >= 2|f| + c + n gilt.
+
+  Einfachste Möglichkeit: Wir ersetzen f durch F mit
+
+      F(n) = max { f(0), ..., f(n) } + 2n.
+
+  Dann haben wir:
+
+      f(2|F| + c + n) <= F(2|F| + c + n) <= F(F(n)) <= BB(2|F| + c + n)
+            für n >= 2|F| + c
+
+* Alternativ: M_n schreibt n Einsen, spult nach vorne, verdoppelt die Anzahl
+  Einsen, führt die Maschine für f aus, spult nach vorne, läuft die Einser ab.
+  Dann braucht M_n mindestens f(2n) Schritte und hat
+
+      n + a + d + |f| + a + b =: |f| + e + n
+
+  Zustände. Folglich f(2n) <= BB(|f| + e + n). Wenn f schwach monoton ist, gilt
+
+      f(|f| + e + n) <= f(2n) <= BB(|f| + e + n)
+            für n >= |f| + e.
+
+* Wenn f nicht unbedingt schwach monoton ist, und wir f aus didaktischen Gründen
+  nicht ersetzen möchten, so können wir wie folgt vorgehen.
+
+  Sei M_n folgende Maschine: n Einsen schreiben, mittels der Maschine für f
+  die Werte f(0), f(1), ..., f(2n) berechnen und jeweils die entstehenden Einsen
+  komplett ablaufen.
+
+  Dann führt M_n mindestens max { f(0), ..., f(2n) } Schritte aus und hat k + n
+  Zustände, wobei k eine gewisse Konstante ist, die von der Maschine für f
+  abhängt.
+
+  Somit:
+
+      f(k + n) <= max { f(0), ..., f(2n) } <= BB(k + n)
+          für n >= k.
+
+
 === Notions of computability at higher types
 
 http://cstheory.stackexchange.com/questions/1117/realizability-theory-difference-in-power-between-lambda-calculus-and-turing-mac
