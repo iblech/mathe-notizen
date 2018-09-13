@@ -2472,6 +2472,29 @@ Schön!
 * http://mathoverflow.net/questions/5211/geometric-meaning-of-the-euler-sequence-on-mathbbpn-example-8-20-1-in-ch-ii
 
 
+=== Matthias' Ergebnisse
+
+* Der große infinitesimale Topos von Spec(R) über Spec(K) klassifiziert, falls K
+  ein beliebiger Ring und R eine endlich präsentierte K-Algebra ist:
+
+  * Lokale K-Algebren A zusammen mit einem K-Algebrenhomo A --> B, wobei B
+    noch die Struktur einer R-Algebra trägt und der Kern nilpotent ist (jedes
+    Element einzeln).
+
+  Das ist wohl dasselbe wie:
+
+  * Lokale K-Algebren zusammen mit einem nilpotenten Ideal und einer
+    R-Algebrenstruktur auf dem Quotienten.
+
+  Das Lokalitätsadjektiv kann man auch gerne auf den Quotienten verschieben.
+  Dann hat man also sowas wie:
+
+  * Lokale R-Algebren, zusammen mit einer K-Algebra (die automatisch lokal ist),
+    von der die R-Algebra ein Quotient nach einem nilpotenten Ideal ist.
+
+  Also lokale R-Algebren zusammen mit einer gewählten K-Aufdickung.
+
+
 === Nächste Schritte
 
 * von Yuri empfohlen: Yves Diers: Categories of commutative algebras
