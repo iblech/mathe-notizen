@@ -52,3 +52,8 @@ http://andrescaicedo.files.wordpress.com/2014/03/olga-taussky-how-i-became-a-tor
 === Überraschungen
 
 https://rjlipton.wordpress.com/2009/09/27/surprises-in-mathematics-and-theory/
+
+
+=== Stern–Brocot-Baum
+
+* Nützlich beim Uhrenbau: https://www.ams.org/publicoutreach/feature-column/fcarc-stern-brocot
