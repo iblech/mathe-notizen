@@ -4,6 +4,12 @@ http://mathoverflow.net/questions/124998/was-the-early-calculus-inconsistent
 Kommentar von Toby Bartels
 
 
+=== Größere Fehler in der mathematischen Literatur
+
+* "Die natürlichen formalen Systeme fallen in eine lineare Hierarchie."
+  (repariert durch: Norman/Sanders)
+
+
 === Grenzwertbegriff
 
 Fermat, Leibniz, Euler, and the gang: The true history of the concepts of limit

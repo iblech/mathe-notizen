@@ -175,3 +175,8 @@ Klar, das Hauptresultat lautet:
 === Spektra
 
 * http://math.uiuc.edu/~cmalkiew/stable.pdf
+
+
+=== Konstruktiv
+
+* Simon Henry, https://arxiv.org/abs/1807.02650.
