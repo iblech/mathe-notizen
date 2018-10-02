@@ -994,7 +994,13 @@ entwickelt ein allgemeines Konzept in einem a priori vorgegebenen Rahmen,
 anstatt induktiv vorzugehen, wie es sonst in der Mathematik der Fall ist."
 
 
+=== Beispiele für Morita-Äquivalenzen
+
+* Baby Elephant, Remark 7.48: Eine kohärente Theorie, deren klassifizierender
+  Topos (SG) erfüllt, ist morita-äquivalent zu Spec(A) für einen Ring A.
+
+
 === Nächste Schritte
 
 * von Peter Arndt empfohlen: John Bell, Toposes and local set theories.
-consequantially
+* consequently.org

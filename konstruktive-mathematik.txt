@@ -205,6 +205,25 @@ http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1381-10.pdf
   dieser keine Punkte hat. Aber ich glaube leider, dass das nicht einmal etwas
   über das Fehlen von Punkten von E aussagt.
 
+* Für jeden Rampenparameter eps > 0 können wir eine Intervallschachtelung
+  definieren, bei der wir in jedem Schritt versuchen, als nächstes diejenige
+  Zahl auszuschließen, die als erstes in dem momentanen offenen Intervall
+  liegt. Dies wird im Allgemeinen nicht gelingen.
+
+  Wenn wie darüber diagonalisieren, also als n-tes Intervall das n-te Intervall
+  zum Rampenparameter 1/n nehmen, so entsteht keine Schachtelung. Daher ist
+  Konvergenz (etwa der linken Ränder) völlig unklar. Aber zumindest können wir
+  zeigen, dass keine Konvergenz vorliegt. Und dass für jedes eps > 0
+  nicht nicht eine Schranke N existiert, sodass die linken Ränder ab N
+  sich alle um höchstens eps unterscheiden.
+
+* Eine schnelle Möglichkeit, eine Form von Überabzählbarkeit der
+  MacNeille-Zahlen einzusehen: Habe für die eine Injektion P(N) --> R, indem
+  eine Menge X auf sup { sum_{n in A} 2^(-n) | A <= X endlich } geschickt wird.
+  Komponiert mit einer angeblichen Injektion R --> N haben wir damit eine
+  Injektion P(N) --> N. Oder anders: Eine angebliche Surjektion N --> R
+  liefert eine Injektion P(R) --> P(N) --> R.
+
 
 === Noetherianität
 

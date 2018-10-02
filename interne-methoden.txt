@@ -198,6 +198,14 @@ avenue seems to be largely unexplored to date.
   (Georg L.). Aber das stimmt nicht. Denn m = sqrt(0); ist X reduziert,
   vereinfacht sich die rechte Seite also zu (0)/(0) = (0).
 
+* Dimension von glatten Mannigfaltigkeiten: Siehe Fourman,
+  http://www.numdam.org/article/CTGDC_1975__16_3_217_0.pdf.
+
+  "dim <= n" genau dann, wenn Dedekindzahlen x_1, ..., x_n existieren, sodass
+  jede Dedekindzahl x Bild dieser Zahlen unter einer Standardfunktion f : R^n --> R
+  sind. Dabei bedeutet "Standardfunktion", dass sie Cauchyzahlen auf
+  Cauchyzahlen abbildet.
+
 
 === Dominanz
 

@@ -405,6 +405,45 @@ Empfohlen von John Baez!
   https://mathoverflow.net/a/227316/31233 Mir ist aber nicht klar, wie das
   geht.
 
+* Von Andreas Kaseorg (https://news.ycombinator.com/reply?id=18117460):
+
+  Sei M diejenige Maschine, die nach einem S-Beweis, dass M nicht halten wird,
+  absucht, und bei Auffinden eines solchen Beweises anhält.
+
+  Falls S zeigt, dass M nicht hält, dann hält M; S kann das auch einsehen; also
+  ist S inkonsistent.
+
+  Falls M hält, so zeigt S auch, dass M hält; zudem gibt es dann einen
+  S-Beweis, dass M nicht hält; also ist S inkonsistent.
+
+  Wenn wir annehmen, dass S konsistent ist, ist die Aussage "M hält nicht" also
+  wahr, aber nicht in S beweisbar.
+
+  Wir können das sogar ein wenig verbessern: Falls S zeigt, dass M hält, dann
+  zeigt S auch, dass S inkonsistent ist. (Hierzu muss S ein bisschen was
+  können; HA zu umfassen genügt völlig. Vielleicht genügt sogar IQ.) Okay, das
+  ist leider nicht ganz dasselbe wie "S zeigt bottom".
+
+* Können wir den Rosser-Trick einbauen?
+
+  Sei M diejenige Maschine, die systematisch alle S-Beweise durchgeht.
+  Trifft sie auf einen Beweis, dass M nicht hält, dann hält sie.
+  Trifft sie auf einen Beweis, dass M hält, dann geht sie in eine
+  Endlosschleife.
+
+  Zeige S, dass M nicht hält. Dann können wir alle vorherigen Beweise
+  durchgehen. Ist dabei einer dabei, der zeigt, dass M hält, so ist S
+  inkonsistent. Andernfalls sehen wir, dass M hält. S kann das auch einsehen.
+  Somit ist S inkonsistent.
+
+  Zeige S, dass M hält. Dann können wir alle vorherigen Beweise
+  durchgehen. Ist dabei einer dabei, der zeigt, dass M nicht hält, so ist S
+  inkonsistent. Andernfalls sehen wir, dass M nicht hält. Zudem zeigt S,
+  dass S zeigt, dass M hält. (Hier benötigt man noch nicht sowas wie die
+  HBL-Bedingungen!) Zusammen mit der Internalisierung der Erkenntnisse über
+  frühere Beweise folgt, dass S zeigt, dass M nicht hält. Also ist S
+  inkonsistent.
+
 
 === Parikh
 
