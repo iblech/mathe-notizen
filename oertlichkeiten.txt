@@ -861,6 +861,11 @@ ersetzen. Dann funktioniert Hahn--Banach.
     Damit folgt insbesondere die Disjunction Property.
 
 
+=== p-adische Zahlen als Örtlichkeit
+
+http://www.cs.cas.cz/tacl2017/slides/contributed/124.pdf
+
+
 === Literatur
 
 * Klar: Johnstone (zwei Einführungsartikel, Stone Spaces, Elephant)

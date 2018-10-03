@@ -102,7 +102,14 @@ Nach https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/hyland-effectiv
   wobei Sigma = P(N) und r |== M <-> N genau dann, wenn r eine Maschine ist,
   die Elemente aus M auf Elemente aus N abbildet.
 
-  Hm. Diese Relation wäre sogar reflexiv, Sigma wäre also wirklich groß.
+  Hm. Diese Relation ist reflexiv, Sigma ist also wirklich groß (hat viele
+  globale Elemente).
+
+* Achtung: Die zugrundeliegende Menge eines Objekts (X,=) ist *keine*
+  Isomorphieinvariante. Dagegen ist Γ(X,=) es natürlich schon.
+
+* Ein Objekt (X,=) ist genau dann separiert, wenn es isomorph ist zu
+  einem, für das aus Bewohntheit von [[ x = x' ]] schon folgt, dass x = x'.
 
 
 === Realisierbarkeitslogik
@@ -204,6 +211,23 @@ Nach https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/hyland-effectiv
 * PRA zeigt:
 
       Falls HA |- phi, so HA |- (exists r. r ||= phi).
+
+* Update: Es hängt wohl davon ab, wie die Klauseln für ∃ und ∨ aussehen.
+  Fordern die direkt die Existenz von Zeugen oder nur die Existenz von
+  Turingmaschinen, die Zeugen berechnen könnten?
+
+  Ich denke, dass, falls letzteres, schon PRA zeigt: Falls HA |- phi,
+  so gibt es r mit HA |- (r ||= phi).
+
+  Aber wieso betont das niemand?
+
+* Mit der neuen Konvention geht der falsche Beweisversuch des
+  Reflektionsprinzips nicht durch, wie es sollte:
+
+  Gelte HA |- (HA |- phi). Dann gibt es r mit HA |- (r ||= (HA |- phi)).
+  Also HA |- (r ist eine Turingmaschine, die mit einem HA-Beweis von phi
+  terminiert). Daraus folgt aber nicht (in einer schwachen Metatheorie), dass
+  HA |- phi.
 
 
 === Realisierung von IZF

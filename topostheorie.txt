@@ -653,6 +653,39 @@ immer ein offener Untertopos von Set[|T|], oder?
   (Dabei E als Situs mit der kanonischen Topologie aufgefasst, siehe
   http://ncatlab.org/nlab/show/canonical+topology.)
 
+* Kanonische Topologie: Überdeckungen sind die universell regulär epimorphen
+  Familien. "Starke Topologie": Überdeckungen sind die epimorphen Familien.
+
+  Die kanonischen Topologie ist die feinste Topologie, sodass alle
+  repräsentierbaren Funktoren Garben sind. Die starke Topologie ist die
+  feinste, sodass alle repräsentierbaren Funktoren separierte Prägarben sind.
+  Im Grothendieckfall fallen die beiden Topologien zusammen.
+  http://www.math.mcgill.ca/barr/papers/top.no.pt.pdf
+
+
+=== W-Typen
+
+* In jedem Elementartopos mit NNO gibt es W-Typen, und zwar von beliebigen
+  Familien B --> A. Moerdijk, Palmgren:
+  https://core.ac.uk/download/pdf/82272452.pdf.
+
+* Und zwar ist deren Konstruktion gar nicht so schwer. Sei f : B --> A gegeben.
+
+  Sei ein Protobaum eine Menge von endlichen Listen über A + B.
+  Sei U eine Menge von Protobäumen.
+  Wir schreiben für ein Element a in A und eine Funktion phi : B_a --> U:
+      node_a(phi) := { a } ∪ { a :: b :: v | b in B_a, v in phi(b) }
+          (ist ein bestimmter Protobaum)
+
+  Dann sollte die Menge der Bäume gegeben sein durch den Schnitt über all
+  diejenigen Mengen U von Protobäumen, die abgeschlossen sind unter der
+  node-Konstruktion. (Nicht durch die Vereinigung über all diejenigen Mengen
+  von Protobäumen, für die jedes Element von der Form node_a(phi) für ein
+  geeignetes Paar (a,phi) ist! Das liefert wohl eher den M-Typ statt den
+  W-Typ.)
+
+* Können wir auch gleich Quotientenbildung berücksichtigen?
+
 
 === Automatische Kovollständigkeit
 

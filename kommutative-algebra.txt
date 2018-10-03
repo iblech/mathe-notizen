@@ -2639,6 +2639,10 @@ Sei R nicht unbedingt kommutativ.
   https://mathoverflow.net/questions/302516/constructively-is-the-unit-of-the-free-abelian-group-monad-on-sets-injective
   diskutiert. Sie funktioniert auch für Rigs.
 
+  Tatsächlich stimmt die "bessere Charakterisierung" mit der hier gegebenen
+  überein. Also geht auch diese hier für Rigs. Habe mich beim Beweis von
+  Schritt 3 nur doof angestellt (zu früh Induktion verwendet).
+
 
 === Purity filtration
 
