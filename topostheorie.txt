@@ -1033,6 +1033,13 @@ anstatt induktiv vorzugehen, wie es sonst in der Mathematik der Fall ist."
   Topos (SG) erfüllt, ist morita-äquivalent zu Spec(A) für einen Ring A.
 
 
+=== Artin-Gluing
+
+* https://core.ac.uk/download/pdf/82272452.pdf, Abschnitt 6
+
+* Zusammenhang zu logical relations verstehen!
+
+
 === Nächste Schritte
 
 * von Peter Arndt empfohlen: John Bell, Toposes and local set theories.

@@ -1763,7 +1763,7 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
   formulieren.
 
 * Was ist eine Charakterisierung in Zar(S)? Und was bedeutet es, wenn
-  der analoge Morphismus in Zar(S) ein Iso ist?
+  der analoge Morphismus in Zar(S) ein Iso ist? Update: Jo, ist geklärt. :-)
 
 * Sei F ^--> E eine Inklusion eines Untermoduls. Seien F und E quasikohärent.
   Dann bleibt, für jeden Ring A, die Inklusion F(A) --> E(A) unter Tensorieren
@@ -1776,9 +1776,19 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
             v       Iso   v
       E(A) tensor B ---> E(B)
 
+  Im Umkehrschluss heißt das: Der von (gewöhnlichen) Untermoduln induzierte
+  Morphismus F --> E wird eher kein Mono sein.
+
 * A^1 ist aus interner Sicht übrigens nicht (im Allgemeinen) kuratowskiendlich.
   Kann (bei hinreichend großem Grundkörper) unendlich viele paarweise
   verschiedene globale Elemente hinschreiben.
+
+
+=== Nicht-quasikohärente Modulgarben: ein Artefakt des klassischen Ansatzes?
+
+* Vielleicht nicht: Doktorarbeit von Claire Tête, Seite 34: Für die Definition
+  von "lokaler Kohomologie" verwendet man lieber die Kategorie aller
+  Modulgarben über O_{Spec(A)}.
 
 
 === Limiten und Kolimiten von Schemata und verwandten Dingen
