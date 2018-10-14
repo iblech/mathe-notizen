@@ -527,3 +527,5 @@ Funktioniert dann natürlich auch für allgemeine Komplexe.
 
 * Von Ariyan sehr empfohlen: Serre. Coherent Algebraic Sheaves.
   http://students.mimuw.edu.pl/~pta/fac/fac.pdf
+
+* https://math.mit.edu/~notzeb/sheaf-coh.pdf

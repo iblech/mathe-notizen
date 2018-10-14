@@ -151,6 +151,19 @@
      Das gilt, weil es auf D(g) gilt. Oder weil es die Qcoh-Bedingung im
      kleinen Zariski-Topos ist.
 
+* Ich glaube, Welkheit (sowohl im klassischen Sinn als auch in meinem)
+  ist überhaupt keine wichtige Bedingung. Wichtig ist, ob Sequenzen auf
+  globalen Schnitten exakt bleiben.
+
+  Etwa ist mir unklar, ob es genügend viele welke Moduln (in jedem der beiden
+  Sinne) in Sh(pt) existieren. Trotzdem ist Gamma : Mod(Sh(pt)) --> Mod exakt.
+  Genauso mit Sh(X) = Set/X, wenn X projektiv (etwa endlich) und diskret ist.
+
+  Welkheit ist nur eine von mehreren Bedingungen, die das sicherstellen möchte.
+
+  Quasikohärente Garben auf affinen Schemata sind ebenfalls azyklisch, und zwar
+  konstruktiv.
+
 
 === Garbenhom
 
