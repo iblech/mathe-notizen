@@ -317,6 +317,34 @@ Dabei wird Gleichheit dann nicht mehr trivial realisiert.
 * https://arxiv.org/abs/1401.7867
 
 
+=== Ein Realisierbarkeitstopos über beweisbar haltende Turingmaschinen?
+
+* Man könnte denken, dass es eine PCA gibt, in der wir definieren: e * n
+  ist genau dann definiert, wenn e von der Form <r,p> ist, wobei p ein
+  ZFC-Beweis ist, dass r eine stets terminierende Turingmaschine ist; in diesem
+  Fall sei e * n = r(n).
+
+* Aber den Kombinator S kann man nicht bauen. Der wäre in etwa so:
+
+    Lese <f,p> ein.
+    Prüfe, dass p ein Terminierungsbeweis von f ist. (Andernfalls halte.)
+    Gib folgende TM (zusammen mit einem Terminierungsbeweis) aus:
+
+        Lese <g,q> ein.
+        Prüfe, dass q ein Terminierungsbeweis von g ist. (Andernfalls halte.)
+
+        Gib folgende TM (zusammen mit ...) aus:
+
+            Lese x ein.
+            Berechne g(x).
+            Berechne f(x).
+            Berechne f(x)(g(x)).
+
+                  Für den letzten Schritt brauche ich eine UTM!
+                  Aber da ZFC ZFC-Beweisen misstraut, kann ich keinen
+                  ZFC-Terminierungsbeweis der UTM angeben.
+
+
 === Quellen
 
 * http://math.andrej.com/data/c2c.pdf

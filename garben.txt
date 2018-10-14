@@ -95,6 +95,62 @@
   mit alpha^{-1}(K - y_0) <= { x }. Damit lässt sich zeigen, dass
   K <= { y_0 + alpha(x) }.
 
+* Sei 0 --> M~ --> F --> G --> 0 eine exakte Sequenz von Modulgarben auf
+  einem affinen Schema. Dann müsste man zeigen können, dass die Sequenz auf
+  globalen Schnitten exakt ist, weil ja die Kohomologie von M~ verschwindet.
+
+  Und das geht auch: Wie im Beweis von Lemma 2.4 auf
+  https://math.berkeley.edu/~mhaiman/math256-fall13-spring14/cohomology-2_schemes.pdf
+  beschrieben.
+
+  Seien (u_i)_i lokale Urbilder eines globalen Schnitts s in G(X), wobei u_i
+  auf U_i definiert sei, was oE standardoffen sei.
+
+  Es gibt eindeutige v_ij mit u_i|ij - u_j|ij = alpha(v_ij).
+  Die (v_ij)_ij bilden einen Kozykel in Grad 2 von Gamma Č^*(M~).
+  Dieser Komplex ist exakt.
+  Daher gibt es (w_i)_i mit v_ij = w_j|ij - w_i|ij.
+
+  Die neue Familie (u_i + alpha(w_i))_i ist immer noch eine Familie lokaler
+  Urbilder von s, aber nun verklebt sie.
+
+  Bleibt die Frage, wieso (0 --> Gamma M~ --> Gamma Č^*(M~)) exakt ist. Das
+  faktorisiert wohl über zwei Tatsachen:
+
+  1. Der Komplex (0 --> M~ --> Č^*(M~)) ist exakt. Das beweisen die Leute
+     immer durch Betrachtung der Halme, siehe etwa
+     https://stacks.math.columbia.edu/tag/02FU.
+
+     Die Halme lassen sich aber eliminieren. Wir schreiben einfach E = M~, weil
+     die Behauptung viel allgemeiner gilt (für beliebige Garben und beliebige
+     Überdeckungen).
+
+     Sei s in Č^p(E)(V) mit ds = 0. Wir möchten lokale Urbilder in Č^{p-1}(E)
+     finden. Es ist s = (s_{i_0,...,i_p}) mit s_{i_0,...,i_p} in E(V cap U_i0 cap ... cap U_ip).
+
+     Als Überdeckung, auf der wir die lokalen Urbilder definieren, nehmen wir
+     genau die Überdeckung, bezüglich der auch der Čech-Komplex definiert ist.
+     Sei i_fix ein fixierter Index. Wir definieren folgendes Urbild in
+     Č^{p-1}(E)(U_ifix):
+
+        (hs)_{i_0,...,i_{p-1}} = s_{i_fix, i_0, ..., i_{p-1}}.
+
+     Dann:
+     
+        d(hs)_{i_0,...,i_p} =
+            sum_{j=0}^p (-1)^j (hs)_{i_0, ..., nicht i_j, ..., i_p} =
+            sum_{j=0}^p (-1)^j s_{i_fix, i_0, ..., nicht i_j, ..., i_p} =
+            s_{i_0, ..., i_p} - (ds)_{i_fix, i_0, ..., i_p} =
+            s_{i_0, ..., i_p}.
+
+  2. Der Komplex bleibt exakt auf globalen Schnitten. Wenn wir davon ausgehen,
+     dass die Überdeckung eine endliche ist und aus Standardoffenen besteht,
+     ist das klar, da dann der Komplex aus quasikohärenten Moduln besteht.
+
+     Hier geht ein: j_* j^{-1} M~ = (M[f^{-1}])~, wenn j : D(f) --> X.
+     Das gilt, weil es auf D(g) gilt. Oder weil es die Qcoh-Bedingung im
+     kleinen Zariski-Topos ist.
+
 
 === Garbenhom
 
