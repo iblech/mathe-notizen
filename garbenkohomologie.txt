@@ -52,6 +52,9 @@ Schnitten ergibt das wieder die ursprüngliche Auflösung von M.
 Siehe http://www.math.mcgill.ca/goren/SeminarOnCohomology/Sheaf_Cohomology.pdf
 für mehr zu Kohomologie von Schemata.
 
+Siehe https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0004972700045238
+für einen Beweis, der allgemeiner und elementarer ist.
+
 
 === Motivation: Lift von Schnitten
 
