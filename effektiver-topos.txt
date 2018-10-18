@@ -287,8 +287,12 @@ stetig sind:
 
 === Effektiver Topos
 
-Muss aus Asm(A) noch einen Tripos machen und daraus einen Topos.
-Dabei wird Gleichheit dann nicht mehr trivial realisiert.
+* Muss aus Asm(A) noch einen Tripos machen und daraus einen Topos.
+  Dabei wird Gleichheit dann nicht mehr trivial realisiert.
+
+* Die interne Sprache des effektiven Topos ist im Wesentlichen
+  die Realisierbarkeitssemantik. Eine genaue Formulierung findet sich auf Seite 41
+  von Jaap van Oostens Doktorarbeit (http://www.illc.uva.nl/Research/Publications/Dissertations/HDS-26-Jaap-van-Oosten.text.pdf).
 
 
 === Untertopoi des effektiven Topos
