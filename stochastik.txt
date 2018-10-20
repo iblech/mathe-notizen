@@ -7,6 +7,9 @@
 * PCA ist nicht skalierungsinvariant!
   Siehe http://www.seas.harvard.edu/courses/cs281/papers/mackay-2006.pdf.
 
+* "Besser als PCA": ICA,
+  http://gael-varoquaux.info/science/ica_vs_pca.html
+
 
 === Regression to the mean
 
@@ -84,3 +87,10 @@ Person ist also ganz sicher ein Amerikaner.
 http://stevehanov.ca/blog/index.php?id=132
 https://www.cs.mcgill.ca/~vkules/bandits.pdf
 https://cs.nyu.edu/~mohri/pub/bandit.pdf
+
+
+=== Wahrscheinlichkeitsexperimente mit Ausgang 1/e
+
+* Schubladenrätsel
+* Derangements
+* Continous Roulette https://math.vanderbilt.edu/dept/conf/tacl2013/coursematerials/TACLconstruction.pdf#page=91

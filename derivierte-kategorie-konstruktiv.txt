@@ -70,7 +70,7 @@ curve. Beweis von Proposition 2.2.)
   eine sinnvolle Definition ist (da sie klassisch genau die gewöhnliche
   Ext-Gruppen berechnet).
 
-* Das ist klasisch bekannt. Siehe nLab "satellite".
+* Das ist klassisch bekannt. Siehe nLab "satellite".
 
 * Mit dieser Definition kann man explizit zeigen: Ist Ext^1(M, N) = 0,
   so zerfällt jede kurze exakte Sequenz 0 --> N -i-> ? -j-> M --> 0.

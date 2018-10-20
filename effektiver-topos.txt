@@ -110,6 +110,21 @@ Nach https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/hyland-effectiv
 
 * Ein Objekt (X,=) ist genau dann separiert, wenn es isomorph ist zu
   einem, für das aus Bewohntheit von [[ x = x' ]] schon folgt, dass x = x'.
+  (Zumindest in einer klassischen Metatheorie.)
+
+* Lass jetzt mal in einer konstruktiven Metatheorie arbeiten. Stimmt folgendes?
+  Der kanonische Morphismus X --> ΔΓX ist genau dann ein Mono, wenn für alle x, x'
+  aus |X| aus der Bewohntheit von [[ x = x' ]] folgt, dass x = x'.
+  Nein, glaube nicht, dass das stimmt. Weil ich oben "isomorph zu" überlesen
+  habe.
+
+  Zur Erinnerung: ΔY hat als zugrundeliegende Menge Y und als
+  Gleichheitsprädikat [[ y = y' ]] = { n | y = y' }. Und ΓX ist die Menge
+  derjenigen x aus |X|, für die [[ x = x ]] bewohnt ist, "modulo [[ x = y ]]".
+
+  "==>": Seien x, x' aus |X| mit r in [[ x = x' ]]. Dann gibt es auch e in
+  [[ x = x ]], e' in [[ x' = x' ]]. In ΓX sind damit x und x' gleich.
+  Und weiter?
 
 
 === Realisierbarkeitslogik
@@ -228,6 +243,12 @@ Nach https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/hyland-effectiv
   Also HA |- (r ist eine Turingmaschine, die mit einem HA-Beweis von phi
   terminiert). Daraus folgt aber nicht (in einer schwachen Metatheorie), dass
   HA |- phi.
+
+* Ich denke, die "neue Konvention" folgt allgemein wie folgt.
+  Man verwendet ja, wenn man gut drauf ist, eine PCA als Grundlage.
+  Dort ist die Paarung <x,y> definiert als \f -> f x y. Also als Funktion! Als
+  Maschine, die bereit ist, x und y zu produzieren. Nicht als direkt
+  zugängliches Pärchen.
 
 
 === Realisierung von IZF

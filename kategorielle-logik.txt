@@ -396,16 +396,24 @@ für geometrische Formeln phi über X:
 === Reelle Zahlen
 
 * Dedekindsche reelle Zahlen: Garbe der stetigen reellwertigen Funktionen.
+
 * Cauchy-Zahlen: Garbe der lokal konstanten reellwertigen Funktionen.
   (Wenn der zugrundeliegende Raum lokal zusammenhängend ist -- siehe Elephant
   D4.7.12.)
+
 * ???: Garbe der differenzierbaren/glatten Funktionen.
+
 * ???: Garbe der holomorphen Funktionen. Aus interner Sicht diskret!
 
 * Mehr zu den glatten Funktionen:
   http://www.numdam.org/article/CTGDC_1975__16_3_217_0.pdf
   Fourman, Comparaison des reels d'un topos structures lisses sur un topos
   elementaire
+
+  Mike: Die Garbe der glatten Funktionen lässt sich eher nicht intern
+  charakterisieren. Da auf demselben topologischen Raum viele glatte Strukturen
+  geben kann.
+  https://nforum.ncatlab.org/discussion/6315/internal-definitions-of-cohesion/?Focus=50466#Comment_50466
 
 
 === Eigenschaften konstanter Garben

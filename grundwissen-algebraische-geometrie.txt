@@ -1757,6 +1757,9 @@ http://www-personal.umich.edu/~bhattb/teaching/mat731fall2011/ex1.pdf
   über A sein.] Umgekehrt ist S über A endlich präsentiert, wenn S über R und R
   über A endlich präsentiert sind.
 
+  (Update: War damals selbst darauf gekommen, aber diese Beobachtung scheint
+  von Anders Kock zu sein. http://home.math.au.dk/kock/GAGD.pdf)
+
 * Sei E eine A^1-Modulgarbe. Dann ist E[X], berechnet in PZar, auch wieder
   eine Garbe. Leider ist es E/fE vermutlich im Allgemeinen nicht. Sonst könnte
   man die interne Quasikohärenzbedingung oben auch in Zar statt PZar

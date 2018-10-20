@@ -127,6 +127,12 @@ Sei K = { z \in Q[i] | z \in Q oder phi }.
 Dann ist (X^2+1) reduzibel in K genau dann, wenn phi.
 
 
+=== Ideelle welke Moduln
+
+* Sollten gut möglich sein. Aber helfen sie was? Sie sind vermutlich nicht
+  endlich präsentiert oder so.
+
+
 === Nächste Schritte
 
 * Coquand "Algebraically closed fields" verstehen, insb. die Anwendung
