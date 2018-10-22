@@ -5,6 +5,11 @@
   g(y,x) := T_xy setzen.
 
 
+=== Coupling from the past
+
+* http://blog.sigfpe.com/2018/10/running-from-past.html
+
+
 === Literatur
 
 * http://videolectures.net/mlss09uk_murray_mcmc/

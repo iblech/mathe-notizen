@@ -1561,6 +1561,13 @@ Beispiel:
   Zariskitopos charakterisieren, indem man eine neue Art Allquantor einfügt,
   die nur über relative DVRs quantifiziert.
 
+* Dubuc bemerkt in /Logical opens and real numbers in topoi/ ("Some Examples"),
+  dass (der Punktefunktor eines) Schemas im großen Zariski-Topos genau dann
+  Penon-separiert ist, wenn das Schema es im üblichen Sinn ist. Zumindest über
+  einem algebraisch abgeschlossenen Grundkörper.
+
+  Können wir das verwenden?
+
 * X qc, O_{X,x} reduziert für alle abgeschlossenen Punkte x ==> O_X reduziert.
   Wie intern zeigen? Welche Modalität fasst "für alle abgeschlossenen Punkte"?
 
