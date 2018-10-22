@@ -1235,6 +1235,12 @@ Prinzip: Denn O_X ist ja aus interner Sicht eine Art Körper. Für Körper ist
 diese Aussage aber (klassisch) zu erwarten.
 
 
+=== Grothendieck's generic freeness lemma auf den Kopf gestellt
+
+* Habe Zorn im kleinen Topos, wenn ich draußen an es glaube! Kann also eine
+  maximale linear unabhängige Familie betrachten ...
+
+
 === Induktionsbeweise für Vektorbündel
 
 Beweise Lemma 3 von
