@@ -101,7 +101,8 @@
 
   Und das geht auch: Wie im Beweis von Lemma 2.4 auf
   https://math.berkeley.edu/~mhaiman/math256-fall13-spring14/cohomology-2_schemes.pdf
-  beschrieben.
+  beschrieben. (Siehe auch https://math.stackexchange.com/a/737853/61604 für
+  einen entrollten Beweis.)
 
   Seien (u_i)_i lokale Urbilder eines globalen Schnitts s in G(X), wobei u_i
   auf U_i definiert sei, was oE standardoffen sei.
@@ -121,7 +122,7 @@
      immer durch Betrachtung der Halme, siehe etwa
      https://stacks.math.columbia.edu/tag/02FU.
 
-     Die Halme lassen sich aber eliminieren. Wir schreiben einfach E = M~, weil
+     Die Halme lassen sich aber eliminieren. Wir schreiben einfach M~ = E, weil
      die Behauptung viel allgemeiner gilt (für beliebige Garben und beliebige
      Überdeckungen).
 
@@ -163,6 +164,53 @@
 
   Quasikohärente Garben auf affinen Schemata sind ebenfalls azyklisch, und zwar
   konstruktiv.
+
+* Sei auf einem quasikompakten separierten Schema eine quasikohärente
+  Modulgarbe E gegeben. Sei j die Inklusion eines Affinoffenen V. Dann ist F :=
+  j_*j^{-1}(E) Γ-azyklisch.
+
+  Das ist klar, denn in diesem Fall ist j affin. Damit kann man klassisch so
+  argumentieren: j_* ist exakt und bewahrt welke Auflösungen. Also kann man
+  die Kohomologie von j_*j^{-1}(E) durch eine flache Auflösung von j^{-1}(E)
+  berechnen.
+
+  Und konstruktiv so: Der obige Beweis geht durch, wenn wir zeigen können:
+  Nach Anwenden von Γ bleibt der Komplex 0 --> F --> Č^*(F; U) azyklisch.
+  Zuvor haben wir gesagt: Nun, das ist ein Komplex aus quasikohärenten und Γ
+  ist für solche sogar eine Kategorienäquivalenz.
+
+  Jetzt sagen wir: Č^*(F; U) = j_* Č^*(j^{-1}E, U hyper-cap V), denn:
+
+      Sei k die Inklusion eines endlichen Schnitts U_K von Offenen aus U.
+      Sei k' die Inklusion von U_K cap V in V. Dann:
+
+          (k_* k^{-1} j_* j^{-1} E)(W) =
+          (k^{-1} j_* j^{-1} E)(W cap U_K) =
+          (j_* j^{-1} E)(W cap U_K) =
+          E(W cap U_K cap V) =
+          (j_* k'_* k'^{-1} j^{-1} E)(W)
+
+  Und somit ist der Komplex 0 --> F --> Č^*(F; U) nur die Vordrückung (mit j_*)
+  des Komplexes 0 --> j^{-1}E --> Č^*(j^{-1}E; U hyper-cap V) bestehend aus
+  quasikohärenten Modulgarben auf dem Affinen V und ist daher exakt nach
+  Anwenden von Γ.
+
+* Ich glaube, auf Schemata gibt es genügend azyklische Garben, zumindest für
+  quasikohärente. Genauer: Jede quasikohärente Modulgarbe besitzt eine
+  Auflösung durch Γ-azyklische Modulgarben (wobei Γ-azyklisch weiterhin
+  bedeutet, dass kurze exakte Sequenzen mit einem Γ-azyklischen Objekt vorne
+  nach Anwendung von Γ exakt bleiben), zumindest auf quasikompakten separierten
+  Schemata. (Kann man vielleicht zu qcqs abschwächen.)
+
+  Und zwar geht das so.
+
+  Sei E quasikohärent auf X. Dann haben wir eine endliche Überdeckung U durch
+  Affinoffene, derart, dass endliche Schnitte auch wieder affinoffen sind.
+  Dann gibt es die Auflösung 0 --> E --> Č^*(E; U). Dass es sich um eine
+  Auflösung handelt, wurde oben gezeigt.
+
+  Und jede der Garben Č^n(E; U) ist Γ-azyklisch, als direkte Summe von Garben
+  der Form j_* j^{-1} E.
 
 * Sei E eine welke Garbe im alten Sinn. Dann ist ΓE welk in meinem Sinn:
   Sei K <= ΓE ein Subterminal. Dann verkleben alle Schnitte in K zu einem

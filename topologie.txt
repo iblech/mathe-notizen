@@ -46,6 +46,31 @@ Falls U abgeschlossen sein sollte, gilt sogar
   abgeschlossen ist.
 
 
+=== Heyting-Implikation
+
+Es gilt:
+
+    (U --> V) = bigcup { W | W cap U <= V }.
+
+Denn:
+
+    Z <= (U --> V)  genau dann, wenn  Z cap U <= V.
+
+"==>": Z cap U <= (U --> V) cap U = bigcup { W cap U | W cap U <= V } <= V.
+"<==": Unter den vielen W's, über die vereinigt wird, kommt auch Z vor.
+
+Insbesondere:
+
+    ¬U = (U --> bot) = bigcup { W | W cap U = empty } =
+        bigcup { W | W <= U^c } = int(U^c).  (konstruktiv.)
+
+    W cap U <= V  genau dann, wenn  W <= { x | x in U ==> x in V }.
+    (Diese Menge ist klassisch dieselbe wie U^c cup V. Ich möchte sie
+    "(U ==> V)" schreiben.)
+
+    Also (U --> V) = int(U ==> V) = int { x | x in U ==> x in V }.
+
+
 === Lokalität des Abschlusses
 
 Sei U \subseteq X offen. Dann gilt für beliebige Teilmengen M von X:

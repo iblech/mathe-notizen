@@ -354,7 +354,37 @@ für geometrische Formeln phi über X:
 === Sh(X) boolsch
 
 * Sh(X) ist genau dann boolsch, wenn für jede offene Teilmenge U gilt:
-  U ist die einzige offene dichte Teilmenge von U.
+  U ist die einzige offene dichte Teilmenge von U. (Damit meine ich mit
+  "offen": "schwach offen", d.h. ist der Schnitt mit einer offenen Menge leer,
+  so ist schon diese Menge leer.)
+
+  Das ist genau dann der Fall, wenn für jede offene Teilmenge U
+  eine offene Teilmenge V mit U cup V = X und U cap V = empty existiert.
+
+  Das wiederum ist genau dann der Fall, wenn für jede offene Teilmenge U gilt,
+  dass U cup int(U^c) = X.
+
+  In klassischer Logik ist das genau dann der Fall, wenn jede offene Teilmenge
+  abgeschlossen ist.
+
+* Übrigens: Genau dann hat X die Eigenschaft, dass die einzige offene Teilmenge
+  ganz X ist, wenn jeder offener Teilraum von X die hat.
+
+  Die Rückrichtung ist klar. Für die Hinrichtung:
+
+  Sei W ein offener Teilraum von X.
+
+  Sei U dicht in W. Zeige, dass U = W.
+  Betrachte dazu (int(W^c) cup U).
+  Das könnte dicht in X liegen.
+  Dann wäre (int(W^c) cup U) = X. Also U cap W = U = W. :-)
+
+  Bleibt zu zeigen, dass (int(W^c) cup U) dicht in X liegt.
+  Gelte (int(W^c) cup U) cap Z = empty.
+  Dann int(W^c) cap Z = empty und U cap Z = empty.
+  Da U cap (Z cap W) = empty, folgt Z cap W = empty.
+  int(W^c) = bigcup { Q | Q cap W = empty } umfasst also Z.
+  Also Z <= int(W^c). Also Z = empty. :-)
 
 * Sei X ein T1-Raum, d.h. für je zwei verschiedene Punkte existiert eine
   offene Menge U, die den einen, aber nicht den anderen Punkt enthält.
