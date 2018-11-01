@@ -212,6 +212,35 @@
   Und jede der Garben Č^n(E; U) ist Γ-azyklisch, als direkte Summe von Garben
   der Form j_* j^{-1} E.
 
+* Ich glaube, dass wir auf qc s Schemata eine Kohomologietheorie für
+  quasikohärente Modulgarben definieren können. Und zwar wie folgt.
+
+  Wir definieren H^n(E) über eine fixierte endliche offene Überdeckung durch
+  affine.
+
+  * Jede quasikohärente Modulgarbe E bettet in eine ein, für die H^{>=1} Null
+    ist. Und zwar Č^0(E; U). Hier geht ein, dass für Garben der Form
+    j_*(quasikohärent), wobei j die Inklusion eines Affinoffenen ist, H^{>=1}
+    Null ist. Das ist der Fall aus folgendem Grund:
+
+        Der Komplex Č^*(j_*(qkoh); U) ist derselbe wie j_* Č^*(qkoh; U hyper-cap V).
+        Liefert also auf globalen Schnitten die Čech-Kohomologie von qkoh auf
+        dem Affinen V. Diese verschwindet. (Oder so: j_* ist auf
+        quasikohärenten Modulgarben exakt, da affin.)
+
+  * Ist 0 --> E --> F --> G --> 0 eine exakte Sequenz von quasikohärenten
+    Modulgarben, so ist auch 0 --> Č^*(E) --> Č^*(F) --> Č^*(G) --> 0 exakt.
+    Das liegt daran, weil die Funktoren j_* auf Quasikohärenten exakt sind (da
+    affin). Die Sequenz bleibt exakt nach Anwenden von Γ, weil ja Garben der
+    Form j_*(qkoh) azyklisch für Γ sind. Also erhalten wir eine lange exakte
+    Sequenz in Kohomologie.
+
+  * Die Klasse derjenigen quasikohärenten Moduln, für die H^{>=1} Null ist,
+    ist abgeschlossen unter Summanden und Quotienten.
+
+  Damit sind doch alle Voraussetzungen dafür, dass die (H^n)_n einen
+  universellen δ-Funktor bilden, erfüllt. Oder? :-)
+
 * Sei E eine welke Garbe im alten Sinn. Dann ist ΓE welk in meinem Sinn:
   Sei K <= ΓE ein Subterminal. Dann verkleben alle Schnitte in K zu einem
   eindeutigen Schnitt s auf U := sup { top | K bewohnt }. Da E welk im alten
