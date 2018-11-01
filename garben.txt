@@ -241,6 +241,8 @@
   Damit sind doch alle Voraussetzungen dafür, dass die (H^n)_n einen
   universellen δ-Funktor bilden, erfüllt. Oder? :-)
 
+* Wann ist eigentlich E~ welk? Im alten Sinn oder in meinem?
+
 * Sei E eine welke Garbe im alten Sinn. Dann ist ΓE welk in meinem Sinn:
   Sei K <= ΓE ein Subterminal. Dann verkleben alle Schnitte in K zu einem
   eindeutigen Schnitt s auf U := sup { top | K bewohnt }. Da E welk im alten
