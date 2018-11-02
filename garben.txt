@@ -241,6 +241,79 @@
   Damit sind doch alle Voraussetzungen dafür, dass die (H^n)_n einen
   universellen δ-Funktor bilden, erfüllt. Oder? :-)
 
+* Also noch mal von vorne.
+
+  1. Ist E eine beliebige Modulgarbe und U eine beliebige endliche Überdeckung,
+  so ist 0 --> E --> Č^*(E; U) azyklisch. (Geht mit "Homotopie angeben".)
+
+  2. Quasikohärente Modulgarben auf affinen Schemata sind Γ-azyklisch.
+  Geht so: Verfeinere die Überdeckung, auf der lokale Urbilder gegeben sind,
+  zunächst zu einer endlichen standardoffenen. Schreibe dann dafür den
+  Čech-Komplex hin. Der ist exakt nach 1. Und bleibt exakt auf globalen
+  Schnitten, da er aus quasikohärenten besteht. Kann damit die lokalen Urbilder
+  derart verändern, dass sie zusammenpassen.
+
+  3. Č^*(j_*(E); U) = j_*(Č^*(E); U hyper-cap V), wenn j : V --> X die
+  Inklusion eines beliebigen Offenen ist und U eine beliebige Überdeckung ist.
+  (Wenn sie nicht unbedingt endlich ist, muss der Čech-Komplex als Produkt
+  statt als direkte Summe definiert sein.)
+
+  [ *. Eine Modulgarbe E ist Γ-azyklisch, wenn ΓČ^1(E; U) für alle offenen
+  Überdeckungen verschwindet. Das geht wie im Beweis von 2. Dort benötige ich
+  nämlich eigentlich nur Exaktheit in Grad 1. ]
+
+  [[ Die Hinrichtung gilt auch, zumindest im quasikohärenten Fall. Sei E
+  Γ-azyklisch und quasikohärent. Habe 0 --> E --> I --> I/E --> 0, wobei I
+  eine quasikohärente Modulgarbe ist, für die ΓČ^1(I; U) verschwindet.
+  (Siehe 5(b).) Dann habe Γ(I/E) --> ΓČ^1(E; U) --> ΓČ^1(I; U) = 0 exakt.
+  Der erste Morphismus ist Null, da wir davor aufgrund der Γ-Azyklizität von E
+  eine Surjektion haben. Fertig. ]]
+
+  4. Modulgarben der Form Č^n(E; U) sind, wenn E quasikohärent, U eine
+  endliche Überdeckung durch Affinoffene ist und das Schema separiert ist,
+  Γ-azyklisch. Dazu muss nur zeigen, dass Modulgarben der Form j_*(F)
+  Γ-azyklisch sind, wobei F quasikohärent und j die Inklusion eines endlichen
+  Schnitts von Mitgliedern der Überdeckung ist. Und das geht mit (*):
+  (Brauche in 5(b) die präzisere Aussage, dass die Čech-Kohomologie von solchen
+  Modulgarben verschwindet.)
+
+  Sei V eine beliebige endliche affine Überdeckung von X. Sei j : W --> X.
+  Habe die Auflösung 0 --> F --> Č^*(F; V hyper-cap W). Die bleibt nach
+  Anwenden von j_* exakt, weil F quasikohärent und j affin ist. Anwenden von Γ
+  liefert dann genau den Komplex, der zur Berechnung der Čech-Kohomologie von
+  j_*(F) bezüglich der Überdeckung V verwendet wird (wegen 3.), und er ist
+  azyklisch, da der ursprüngliche Komplex azyklisch war, man auch in einem
+  Schritt hätte Γ anwenden können und Γ auf quasikohärenten Modulgarben
+  exakt ist.
+
+  5. Sei X qc s. Fixiere eine endliche affine Überdeckung U. Definiere T^i(E)
+  als Čech-Kohomologie von E bezüglich U. Sei K die Klasse derjenigen
+  quasikohärenten Modulgarben E, für die T^{>=1}(E) verschwindet. Dann:
+
+  (a) Kurze exakte Sequenz von quasikohärenten Modulgarben induzieren lange
+  exakte Sequenzen. Denn: Ist 0 --> E --> F --> G --> 0 exakt, so auch
+  nach Anwenden von Č^*(--; U) (da die j_* auf Quasikohärenten exakt sind) und
+  nach Anwenden von Γ (wegen 4.). Dann Schlangenlemma.
+
+  (b) Jede quasikohärente Modulgarbe E besitzt einen Mono in ein Objekt aus K,
+  nämlich Č^0(E; U). Die Monomorphie ist 1. Die Verschwindung ist 4.
+
+  -- Damit bilden die (T^i) schon einen universellen δ-Funktor!
+
+  (c) Die Objekte in K sind alle Γ-azyklisch (auf der Kategorie der
+  quasikohärenten Modulgarben). Das ist trivial im Lichte von (a).
+
+  (d) K ist abgeschlossen unter Quotienten. Ist trivial im Lichte von (a).
+
+  (e) K ist abgeschlossen unter Summanden (und Summen, falls man das benötigt).
+  Ist trivial, da die T^i additive Funktoren sind.
+
+* Zwei Fragen: Kann ich auch eine Kohomologietheorie auf Räumen, die lokal
+  isomorph zu lokalen Spektra Spec(A|O) sind, definieren? Und wie steht's in
+  einem synthetischen Kontext wie im großen Zariski-Topos?
+  
+  Und kann ich die derivierte Kategorie definieren?
+
 * Wann ist eigentlich E~ welk? Im alten Sinn oder in meinem?
 
 * Sei E eine welke Garbe im alten Sinn. Dann ist ΓE welk in meinem Sinn:
