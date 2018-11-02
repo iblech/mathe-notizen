@@ -86,6 +86,10 @@ globalen Schnitt von E liften, wenn sein Bild unter dieser Abbildung null ist.
   Einfacher zu berechnen ist aber chi(F); dafür benötigt man natürlich die
   höhere Garbenkohomologie.
 
+  Um zu beweisen, dass H^0 von kohärenten Garben auf projektiven Schemata
+  kohärent ist, verwendet man eine Rückwärtsinduktion beginnend mit H^n für n
+  groß. Vakil, Bemerkung nach Korollar 18.1.5.
+
 * Garbenkohomologie misst fehlende Exaktheit.
 
 * Gute Invarianten. Mit Garbenkohomologie kann man etwa über H^q(Omega^p)

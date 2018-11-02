@@ -152,6 +152,8 @@
      Das gilt, weil es auf D(g) gilt. Oder weil es die Qcoh-Bedingung im
      kleinen Zariski-Topos ist.
 
+  Das Argument in Vakil (Theorem 18.2.4) ist auch schön.
+
 * Ich glaube, Welkheit (sowohl im klassischen Sinn als auch in meinem)
   ist überhaupt keine wichtige Bedingung. Wichtig ist, ob Sequenzen auf
   globalen Schnitten exakt bleiben.
