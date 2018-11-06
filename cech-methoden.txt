@@ -53,7 +53,10 @@ Siehe http://stacks.math.columbia.edu/tag/02FU.
   2. Man möchte eine Čech-zu-Garbenkohomologie-Spektralsequenz haben. In deren
   Herleitung muss man an einer Stelle das direkte Produkt bzw. die direkte
   Summe mit Kohomologie vertauschen. Korrekt ist das aber nur fürs direkte
-  Produkt: Siehe http://stacks.math.columbia.edu/tag/02FR.
+  Produkt: Siehe http://stacks.math.columbia.edu/tag/02FR. (Update: Wow, stimmt
+  es nicht auch für direkte Summen? Kohomologie vertauscht mit filtrierten
+  Kolimiten (in AB5-Kategorien) und unendliche direkte Summen sind filtrierte
+  Kolimiten von endlichen direkten Summen.)
 
   Im Fall, dass die betrachtete Überdeckung lokal endlich ist, stimmen (beim
   garbisierten Čech-Komplex) direktes Produkt und direkte Summe wieder überein.
@@ -107,3 +110,8 @@ konnte ich nicht nachprüfen.
 Beispiel: Überdecke S^1 durch U, V, W; habe dann nichttriviale
 Kohomologieklasse [VW]. Diese induziert nicht-zerfallende kurze exakte Sequenz
 0 --> Z --> ? --> Z --> 0.
+
+
+=== Hyperüberdeckungen
+
+https://math.stanford.edu/~conrad/papers/hypercover.pdf
