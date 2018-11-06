@@ -154,6 +154,10 @@
 
   Das Argument in Vakil (Theorem 18.2.4) ist auch schön.
 
+* Der Thread https://mathoverflow.net/questions/12119/reverse-mathematics-of-cohomology
+  enthält Referenzen auf Vorarbeiten, wie viel Mengenlehre für Kohomologie
+  nötig ist. Aber nur in klassichen Kontexten.
+
 * Ich glaube, Welkheit (sowohl im klassischen Sinn als auch in meinem)
   ist überhaupt keine wichtige Bedingung. Wichtig ist, ob Sequenzen auf
   globalen Schnitten exakt bleiben.
@@ -309,6 +313,25 @@
 
   (e) K ist abgeschlossen unter Summanden (und Summen, falls man das benötigt).
   Ist trivial, da die T^i additive Funktoren sind.
+
+* Nun für beliebige Schemata.
+
+  Eine *gute Hyperüberdeckung* besteht aus der Angabe von lauter Affinoffenen
+  Überdeckungen:
+
+  * X = bigcup_i U_i
+  * U_i cap U_j = bigcup_k V_ijk
+  * V_ijk cap V_i'j'k' = bigcup_a W_ijki'j'k'a
+  * ...
+
+  Wir definieren den Čech-Komplex zu einer solchen Hyperüberdeckung wie folgt:
+
+      Č^0(E; U) = prod_i E|U_i
+      Č^1(E; U) = prod_ijk E|V_ijk
+      Č^2(E; U) = prod_ijkabcz E|W_ijkabcz
+
+  mit d(s_i)_i = (s_j - s_i)_ijk, d(s_ija)_ija = (s_jka ...)_ijkab
+  ??
 
 * Zwei Fragen: Kann ich auch eine Kohomologietheorie auf Räumen, die lokal
   isomorph zu lokalen Spektra Spec(A|O) sind, definieren? Und wie steht's in
