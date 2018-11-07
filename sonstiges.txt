@@ -661,3 +661,8 @@ https://sivers.org/book/NotSoSmart
 2. Mit "Filter > Dekoration > Rand ausblenden" den eigentlichen Rahmen
    hinzufügen. Als Farbe "weiß" auswählen! "Schatten hinzufügen" aktivieren.
    Breite zum Beispiel 15 Pixel.
+
+
+=== Noether für Erhaltungssätze in einfacher Sprache erklärt
+
+https://physics.stackexchange.com/questions/439235/elementary-argument-for-conservation-laws-from-symmetries-without-using-the-la
