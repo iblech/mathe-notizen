@@ -23,3 +23,18 @@ average. It is the best-known example of Stein's phenomenon.
 === p-Werte
 
 * https://frasierlab.files.wordpress.com/2017/01/p-values.pdf
+
+
+=== Artenschätzer
+
+* Alon Orlitsky, Ananda Theertha Suresh, Yihong Wu.
+  Estimating the number of unseen species: A bird in the hand is worth
+  log(n) in the bush.
+  https://arxiv.org/abs/1511.07428
+
+* Verwandt: https://www.johndcook.com/blog/2010/07/13/lincoln-index/
+
+  Wenn Tester 1 n Bugs findet, Tester 2 m Bugs findet und unter diesen Bugs k
+  viele von beiden gefunden wurden, kann man n*m/k viele Bugs insgesamt
+  erwarten. (Unter Annahme unabhängiger Suche und dass alle Bugs gleich schwer
+  zu finden sind.)
