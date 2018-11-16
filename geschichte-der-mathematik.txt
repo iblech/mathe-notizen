@@ -57,3 +57,8 @@ https://rjlipton.wordpress.com/2009/09/27/surprises-in-mathematics-and-theory/
 === Stern–Brocot-Baum
 
 * Nützlich beim Uhrenbau: https://www.ams.org/publicoutreach/feature-column/fcarc-stern-brocot
+
+
+=== Überraschende rationale Zahlen
+
+https://mathoverflow.net/questions/217854/special-rational-numbers-that-appear-as-answers-to-natural-questions

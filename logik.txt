@@ -868,3 +868,6 @@ http://people.ucalgary.ca/~rzach/static/open-logic/courses/phil479/phil479-scree
 * http://golem.ph.utexas.edu/category/2012/12/universe_polymorphism_and_typi.html
 
 * https://arxiv.org/pdf/1504.03380.pdf
+
+* Inwieweit ist der Rekursionssatz eine Anwendung von Lawveres Fixpunktsatz?
+  https://mathoverflow.net/a/130901/31233
