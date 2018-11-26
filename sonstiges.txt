@@ -329,7 +329,11 @@ http://mathoverflow.net/questions/132802/defining-holomorphic-functions-in-terms
   interaction between neurons that enhances information processing, but as an
   ethereal, plasma-like substance that is privy to experience.
 
-* https://arxiv.org/pdf/1712.01816.pdf
+* https://arxiv.org/pdf/1712.01816.pdf So wie Menschen sich eine Erkältung
+  einfangen können, können Universen/Beobachter sich Gesetze einfangen.
+
+* https://arxiv.org/abs/1108.0665 
+  Eternal Inflation, Global Time Cutoff Measures, and a Probability Paradox
 
 * http://people.idsia.ch/~juergen/computeruniverse.html
 
@@ -628,6 +632,8 @@ https://arxiv.org/abs/0808.1572
 === Zum Fermi-Paradoxon
 
 * https://arxiv.org/pdf/1705.03394.pdf aestivation hypothesis
+
+* https://arxiv.org/abs/1806.02404 Dissolving the Fermi paradox
 
 
 === Entstehung des Lebens
