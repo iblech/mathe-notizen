@@ -672,3 +672,8 @@ https://sivers.org/book/NotSoSmart
 === Noether für Erhaltungssätze in einfacher Sprache erklärt
 
 https://physics.stackexchange.com/questions/439235/elementary-argument-for-conservation-laws-from-symmetries-without-using-the-la
+
+
+=== Bericht von der SOHO-Rettung
+
+http://www.ieec.cat/hosted/web-libpoint/papers/roberts.pdf

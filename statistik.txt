@@ -38,3 +38,28 @@ average. It is the best-known example of Stein's phenomenon.
   viele von beiden gefunden wurden, kann man n*m/k viele Bugs insgesamt
   erwarten. (Unter Annahme unabhängiger Suche und dass alle Bugs gleich schwer
   zu finden sind.)
+
+
+=== Relevanz der Stichprobengröße bei Geschlechtsunterschiedsdebatten
+
+Merim Bilalic, Kieran Smallbone, Peter McLeod, Fernand Gobet.
+Why are (the best) women so good at chess? Participation rates and
+gender differences in intellectual domains.
+https://rspb.royalsocietypublishing.org/content/royprsb/276/1659/1161.full.pdf
+
+A popular explanation for the small number of women at the top level of
+intellectually demanding activities from chess to science appeals to
+biological differences in the intellectual abilities of men and women.
+
+An alternative explanation is that the extreme values in a large sample
+are likely to be greater than those in a small one. Although the
+performance of the 100 best German male chess players is better than
+that of the 100 best German women, we show that 96 per cent of the
+observed difference would be expected given the much greater number of
+men who play chess.
+
+There is little left for biological or cultural explanations to account
+for. In science, where there are many more male than female
+participants, this statistical sampling explanation, rather than
+differences in intellectual ability, may also be the main reason why
+women are under-represented at the top end.
