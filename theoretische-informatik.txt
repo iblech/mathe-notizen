@@ -66,6 +66,28 @@ Sei f eine berechenbare Funktion.
           für n >= k.
 
 
+=== Turings ursprüngliche Definition berechenbarer reeller Zahlen
+
+http://jdh.hamkins.org/alan-turing-on-computable-numbers/
+
+Turings Definition war: Eine Zahl ist genau dann berechenbar, wenn es eine
+Turingmaschine gibt, die mehr und mehr Zehnerziffern ausgibt.
+
+Die moderne Definition ist natürlich: Eine Zahl ist genau dann berechenbar,
+wenn eine Turingmaschine gibt, die bessere und bessere rationale
+Approximationen berechnet.
+
+Es ist klar, dass jede in Turings Sinn berechenbare Zahl auch im modernen Sinn
+berechenbar ist. Die Umkehrung stimmt ebenfalls, klassische Logik
+vorausgesetzt, denn eine Turings Sinn berechenbare Zahl ist entweder rational
+(in welchem Fall es leicht ist, eine Maschine anzugeben, die rationale
+Approximationen bestimmt) oder irrational (in welchem Fall es kein Problem mit
+"0.999... vs. 1.000..." gibt).
+
+Aber Turings Definition leitet zur falschen Definition von Berechenbarkeit von
+Funktionen. Addition auf Repräsentanten in Turings Sinn ist nicht berechenbar.
+
+
 === Notions of computability at higher types
 
 http://cstheory.stackexchange.com/questions/1117/realizability-theory-difference-in-power-between-lambda-calculus-and-turing-mac
