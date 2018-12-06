@@ -219,6 +219,25 @@
 * Wie schlimm wäre das? Wenn Q die Inkonsistenz von Q zeigt?
 
 
+=== Fermats kleiner Satz
+
+* https://dialinf.wordpress.com/2011/03/12/monsieur-xp-x-mod-p-donc-dieu-existe-repondez/
+
+* Die Behauptung "Falls p prim ist, so ist x^p = x (mod p)" erlaubt folgenden
+  ultrafinitistisch fragwürdigen Beweis:
+
+  Consider the set of all sequences of length p of symbols from an
+  alphabet of size x. Its size is x^p. The number of distinct cyclic
+  permutations of a given sequence divides p. But p is prime, so either there
+  are p of them, or just one. In the latter case the sequence will consist of p
+  repetitions of the same letter. There are x distinct cases of this. So the
+  remaining x^p – x sequences are partitioned into orbits of size p. So p
+  divides x^p – x, so x^p = x (mod p). QED
+
+* Für p eine Zahl aus der RSA-Challenge ist es trivial nachzurechnen, dass
+  2^p != 2 (mod p) ist. "Mit Theologie existiert daher ein Faktor von p."
+
+
 === Nächste Schritte
 
 * Jon Becks Ansatz verstehen.
