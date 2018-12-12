@@ -158,6 +158,13 @@
   enthält Referenzen auf Vorarbeiten, wie viel Mengenlehre für Kohomologie
   nötig ist. Aber nur in klassichen Kontexten.
 
+  Auch zitiert werden sollte: https://arxiv.org/pdf/1207.0276.pdf sowie
+  https://arxiv.org/pdf/1102.1773.pdf.
+
+* Interessantes Konzept in https://arxiv.org/pdf/1207.0276.pdf: Jede Idealgarbe
+  (auch, wenn sie nicht quasikohärent ist) auf einem noetherschen affinen
+  Schema wird von einem "endlichen Digraph globaler Erzeuger" erzeugt.
+
 * Ich glaube, Welkheit (sowohl im klassischen Sinn als auch in meinem)
   ist überhaupt keine wichtige Bedingung. Wichtig ist, ob Sequenzen auf
   globalen Schnitten exakt bleiben.
