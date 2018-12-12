@@ -983,6 +983,34 @@ Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
   des echten klassifizierenden Topos von T+Ax. Kann man sagen, welcher?
 
 
+=== Theorem von Barr & Co.
+
+* Baby Elephant S. 140: E_negneg ist nicht der größte boolsche Untertopos
+  von E; so einen gibt es im Allgemeinen nicht. Aber er ist der kleinste, für den
+  die leere Teilmenge von 1 abgeschlossen ist. Das ist nur andere Sprache für
+  "kleinster dichter Untertopos".
+
+* Was in infinitären Theorien beweisbar ist, kann sensibel von der
+  Hintergrundtheorie abhängen. Etwa zeigt IZF nicht, aber ZF schon, dass
+  HA_infty zeigt: forall x. exists y. forall z. (T(x,x,y) vee neg T(x,x,z)).
+  Dabei ist HA_infty die infinitäre Theorie "Robinson-Arithmetik + jede Zahl
+  ist ein Numeral".
+
+* Rathjen formuliert Barr so (https://arxiv.org/pdf/1603.03374.pdf, Thm. 6.6): 
+  Ist eine geometrische Sequenz modulo einer geometrischen Theorie klassisch
+  ableitbar, so auch intuitionistisch. Diese Fassung beweist er in CZF.
+
+  Er zeigt dazu, in CZF, dass wir Schnittelimination haben. Dann ist das
+  eigentliche Resultat nicht schwer, da der Induktionsbeweis nur noch mit
+  einfachen Fällen fertig werden muss.
+
+* Gegeben ein Grothendiecktopos E, so kann man explizit einen bestimmten Topos F
+  und einen surjektiven geometrischen Morphismus F --> E angeben. Man kann auch
+  ohne Weiteres nachrechnen, dass F ein boolscher Topos ist. Aber zum Nachweis,
+  dass in F das Auswahlaxiom gilt, benötigt man es auf Metaniveau. Zumindest
+  ist es so im Baby Elephant.
+
+
 === Nächste Schritte
 
 * Sind die Garben bezüglich der kanonischen Topologie auf einem Topos E
