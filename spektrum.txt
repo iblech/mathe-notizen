@@ -511,6 +511,10 @@ Sei A ein lokaler Ring.
   von-Neumann-regulärer Ring ist. Das bedeutet, dass für alle x gilt:
   x^2 | x.
 
+* In konstruktiver Metatheorie gilt: Genau dann ist A von Krulldimension <= 0
+  (d.h. forall a. exists b. 1 in (a,b) wedge ab nilpotent), falls Spec(A) |==
+  (forall x. x invertierbar vee x nilpotent).
+
 
 === Zusammenhang internes Spektrum und relatives Spektrum
 

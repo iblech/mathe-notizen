@@ -43,6 +43,15 @@ Dann gilt:
 also c + 2^{-n0} <= c, Widerspruch.
 
 
+=== Hinreichend für Überabzählbarkeit von R
+
+* Diskretheit von R genügt für Überabzählbarkeit. Wie ging das Argument noch mal?
+
+  Insbesondere scheidet der Herbrand-Topos also aus. In ihm gilt LEM für
+  negierte Aussagen.
+  https://staff.fnwi.uva.nl/b.vandenberg3/papers/herbrandtopos.pdf
+
+
 === Literatur
 
 * http://math.fau.edu/Richman/docs/cuts-la.pdf

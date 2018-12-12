@@ -216,3 +216,21 @@ Dann wird f durch folgende Formel psi realisiert:
   in ZFC beweisbar, so schon in ZF.
 
   Habe das von Andreas Blass gelernt: https://mathoverflow.net/a/84116/31233
+
+
+=== Nichtdeterministische induktive Definitionen
+
+* https://staff.fnwi.uva.nl/b.vandenberg3/papers/NIDpaper.pdf
+
+* Paradebeispiel: Ein Primideal ist abgeschlossen unter einem gewissen
+  Satz nichtdeterministischer induktiver Regeln.
+
+* Das NID-Axiom besagt: Für jede Menge X und für jede Menge R von Regeln
+  ist die Klasse Clos_R(X) der unter R abgeschlossenen Mengen mengen-erzeugt.
+
+  Wird unter der Einbettung von [einer Variante von?] CZF in [eine Variante von]
+  Martin-Löf-Typentheorie erfüllt, darf daher als von einem "generalized
+  predicative"-Standpunkt aus als zulässig gelten.
+
+  Impliziert schöne Dinge für formale Topologie in CZF. Insbesondere, dass alle
+  W-Typene existieren.

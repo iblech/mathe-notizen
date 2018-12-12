@@ -861,6 +861,11 @@ http://people.ucalgary.ca/~rzach/static/open-logic/courses/phil479/phil479-scree
   https://mathoverflow.net/a/71258/31233
 
 
+=== Überblick über die vielen Varianten von HA^ω
+
+https://staff.fnwi.uva.nl/b.vandenberg3/papers/note_on_haomega.pdf
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?

@@ -925,6 +925,9 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
   Als Korollar sieht man: Die Weierstraßnormalform (ohne Blöcke zu k[X]/(X^n))
   stimmen überein.
 
+* Wie man Homologie von Komplexen berechnen kann:
+  https://jeremykun.com/2013/04/10/computing-homology/
+
 
 === Eigenwerte und Eigenvektoren
 
