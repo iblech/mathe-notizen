@@ -570,3 +570,11 @@ Hochgelobt von David Roberts auf MO.
 
 * Der Beweis, dass lokale Lipschitzstetigkeit auf Kompakte globale impliziert,
   ist nicht völlig uninteressant. Was sagt proof mining dazu?
+
+
+=== Diskretheit und Abzählbarkeit
+
+* Es gibt das Gerücht, dass sich konstruktive Mathematik und Überabzählbarkeit
+  nicht vertragen würden. Das ist natürlich falsch. Aber eine gewisse
+  Präzisierung davon stimmt: In function realizability, jede diskrete Menge ist
+  abzählbar. https://mathoverflow.net/a/296882/31233

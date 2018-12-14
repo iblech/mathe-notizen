@@ -831,6 +831,15 @@ Eine Idee ist zum Beispiel, den Dualraum durch eine Dualörtlichkeit zu
 ersetzen. Dann funktioniert Hahn--Banach.
 
 
+=== Örtlichkeitstheoretische Umformulierungen klassischer Existenzresultate
+
+* IVT, FTA und Brouwer kann man jeweils so formulieren: Gegeben ..., dann
+  ist ... nicht die leere Örtlichkeit.
+
+  In dieser Formulierung gelten die alle. Das beweist Simon Henry kurzerhand
+  mit dem Satz von Barr: https://mathoverflow.net/a/290421/31233.
+
+
 === Lindenbaum-Algebra einer geometrischen Theorie
 
 * Die Lindenbaumalgebra der leeren Theorie ist isomorph zu Omega.

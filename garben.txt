@@ -9,6 +9,16 @@
 * https://xorshammer.com/2016/07/24/the-cgp-grey-topos-of-continents/
 
 
+=== Garben als limesbewahrende Funktoren
+
+* Natürlich ist falsch: Eine Prägarbe auf einem Situs C ist genau dann eine
+  Garbe, wenn sie als Funktor C^op --> Set Kolimiten in C auf Limiten in Set
+  abbildet.
+
+* Aber es stimmt, wenn man die Prägarbe als Funktion Sh(C)^op --> C betrachtet.
+  https://mathoverflow.net/a/294832/31233
+
+
 === Welke Garben
 
 * Eine Garbe E heißt genau dann welk, wenn alle Restriktionsabbildungen
