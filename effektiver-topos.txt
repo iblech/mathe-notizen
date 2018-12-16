@@ -370,6 +370,13 @@ stetig sind:
                   ZFC-Terminierungsbeweis der UTM angeben.
 
 
+=== Mengen als Programme
+
+* In https://www1.maths.leeds.ac.uk/~rathjen/ober.pdf gibt Rathjen
+  eine Art Realisierbarkeitssemantik an, in der Realisierer aber nicht
+  natürliche Zahlen, sondern beliebige Mengen sind.
+
+
 === Quellen
 
 * http://math.andrej.com/data/c2c.pdf

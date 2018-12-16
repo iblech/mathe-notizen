@@ -179,6 +179,39 @@ Dann wird f durch folgende Formel psi realisiert:
   Noch mal mit Reflektion (fasse A als freie Variable auf) folgt:
   forall x. (phi(x) <==> x in A).
 
+* Wie man in IZF Definierbarkeit definiert, wird sehr sauber ausgeführt
+  in Lubarskys /Intuitionistic L/.
+
+
+=== Reflektion
+
+* Sei M ein Modell von ZFC + ¬Con(ZFC). Dann enthält M natürlich nichts,
+  was M für Modelle von ZFC hält. Aber es enthält Dinge, die in Wahrheit
+  Modelle sind, von denen M aber nicht überzeugt ist, dass es Modelle sind!
+  https://mathoverflow.net/a/18804/31233
+
+
+=== Scott's Trick
+
+* Sei M eine Klasse (damit meine ich ein syntaktisches Konstrukt der Form
+  { x | φ }). Dann ist die Unterklasse der Rang-minimalen Elemente von M,
+  also
+
+      M' = { x ∈ M | ∀(y ∈ M). rk(x) ≤ rk(y) },
+
+  stets eine Menge.
+
+  Siehe Formel (6.4) von Jech, Thomas (2002), Set theory, third millennium edition (revised
+  and expanded), Springer, ISBN 3-540-44085-2. Dort ist kein Beweis
+  angegeben; ich glaube, er geht so:
+
+  Falls M leer ist, ist M' auch leer, also eine Menge.
+
+  Falls M ein Element a enthält, so kann M' als Teilmenge von V_{rk(a)}
+  ausgeschnitten werden und ist daher eine Menge.
+
+  Können wir das besser machen ...?
+
 
 === Injektive abelsche Gruppen
 
@@ -234,3 +267,10 @@ Dann wird f durch folgende Formel psi realisiert:
 
   Impliziert schöne Dinge für formale Topologie in CZF. Insbesondere, dass alle
   W-Typene existieren.
+
+
+=== Forcing in IZF
+
+James Lipton.
+Realizability, Set Theory and Term Extraction.
+https://pdfs.semanticscholar.org/92ab/8d8ef79bb1fd68c9876a74e4e2d06c4c8dfd.pdf

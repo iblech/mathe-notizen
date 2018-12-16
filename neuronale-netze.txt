@@ -25,6 +25,11 @@ http://arxiv.org/pdf/1601.07227.pdf
 http://cs231n.github.io/neural-networks-1/#actfun
 
 
+=== Kontinuierliche Varianten neuronaler Netze
+
+* https://arxiv.org/abs/1806.07366
+
+
 === Bücher
 
 * klar, Nielsen

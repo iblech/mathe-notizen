@@ -4,10 +4,16 @@ http://mathoverflow.net/questions/124998/was-the-early-calculus-inconsistent
 Kommentar von Toby Bartels
 
 
-=== Größere Fehler in der mathematischen Literatur
+=== Größere und kleinere Fehler in der mathematischen Literatur
 
 * "Die natürlichen formalen Systeme fallen in eine lineare Hierarchie."
   (repariert durch: Norman/Sanders)
+
+* https://mathoverflow.net/questions/37610/demonstrating-that-rigour-is-important
+  Most of Ramanujan's mistakes arise from his claims in analytic number theory,
+  where his unrigorous methods led him astray. In particular, Ramanujan thought
+  his approximations and asymptotic expansions were considerably more accurate
+  than warranted. In [12], these shortcomings are discussed in detail.
 
 
 === Grenzwertbegriff
