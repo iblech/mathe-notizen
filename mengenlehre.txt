@@ -274,3 +274,178 @@ Dann wird f durch folgende Formel psi realisiert:
 James Lipton.
 Realizability, Set Theory and Term Extraction.
 https://pdfs.semanticscholar.org/92ab/8d8ef79bb1fd68c9876a74e4e2d06c4c8dfd.pdf
+
+
+=== Fun Facts zu Kardinalzahlen
+
+* Zu jeder Kardinalzahl kappa gibt es eine Kardinal alpha >= kappa mit:
+  Ist beta < alpha, so gibt es gamma mit beta <= 2^gamma < alpha.
+
+  Und zwar können wir alpha als die nächste Kardinalzahl nach 2^kappa wählen.
+
+  Wenn 2^kappa = aleph_lambda ist, ist also alpha = aleph_{lambda + 1}.
+
+  Sei nun beta mit beta < alpha gegeben. Es ist beta = aleph_mu für
+  eine Ordinalzahl mu < lambda + 1, d.h. mu <= lambda. Folglich:
+
+      beta = aleph_mu <= aleph_lambda = 2^kappa < alpha.
+
+
+=== Ordinalzahlen in IZF
+
+* (https://onlinelibrary.wiley.com/doi/full/10.1002/malq.201200100) Die Klasse
+  der Ordinalzahlen ist die kleinste Klasse On, sodass aus A <= On folgt, dass
+  next(A) in On. Dabei next(A) = A cup \bigcup A.
+
+* Eine Menge ist genau dann eine Ordinalzahl, wenn sie und wenn all ihre
+  Elemente transitiv sind.
+
+  Mit dieser Definition sieht man übrigens sofort: Ist A eine Menge von
+  Ordinalzahlen, so auch sup(A) := bigcup(A). Denn erstens: Sei x in y in bigcup(A).
+  Dann also x in y in z in A. Da z transitiv ist, folgt x in z in A. Also x in
+  bigcup(A). Zweitens ist klar.
+
+  Das will ich sehen: Sei On' die Klasse dieser Mengen.
+
+  * On' ist abgeschlossen: Sei A ⊆ On'. Dann ist next(A) transitiv:
+    Sei x in y in next(A). Dann y in A oder y in bigcup(A). Im ersten Fall
+    folgt x in bigcup(A), also x in next(A). Im zweiten Fall folgt x in
+    bigcup(A), also x in next(A), da die Elemente von A transitiv sind.
+
+    Ferner sind alle Elemente von next(A) transitiv. Denn alle Elemente von A
+    sind es, und die Elemente von bigcup(A) sind es auch.
+
+  * Elemente von Elementen aus On' sind selbst in On':
+
+    Sei x in y in On'. Um zu zeigen, dass x in On', müssen wir zeigen, dass x
+    transitiv ist und dass alle Elemente von x transitiv sind. Ersteres ist
+    klar, da y in On'. Zweiteres: Sei w in x. Sei a in b in w. Wir müssen
+    zeigen, dass a in w. Wir haben wegen b in w in x, dass b in x. Wegen a in b in x
+    haben wir a in x. Wegen a in ...
+
+    Funktioniert so nicht(?). Brauche ich ∈-Induktion dafür? Geht jedenfalls
+    mit ihr:
+
+    Neustart ab "Zweiteres": Sei w in x. Wir müssen zeigen, dass w transitiv
+    ist. Nun ist x in y, also wissen wir nach Induktionsvoraussetzung: Elemente
+    von x sind in On'. Also ist w transitiv. :-)
+
+  * Für x aus On' gilt x = next(x) = x cup bigcup(x).
+
+    Die Richtung "⊇" ist klar wegen der Transitivität von x.
+    Die Richtung "⊆" ist sowieso klar.
+
+  * On' ist kleinst mit dieser Eigenschaft: Sei Γ eine abgeschlossene Menge.
+    Dann zeige ich mit ∈-Induktion, dass On' ⊆ Γ.
+
+    Sei z in On'. Nach Induktionsvoraussetzung sind alle Elemente von z in Γ.
+    Also auch next(z) in Γ. Aber next(z) = z.
+
+* Ist α eine Ordinalzahl, so auch α + 1 = α cup {α} = next({α}).
+
+* V_alpha ist rekursiv definiert als bigcup_{beta in alpha} P(V_beta).
+
+  V ist definiert als Vereinigung über alle V_alpha, wobei alpha über On läuft.
+
+  Dazu zeigen wir mit ∈-Induktion: Für jede Menge x gibt es ein kleinstes α
+  mit x ∈ V_α. (Kleinst bezüglich ⊆. Damit folgt Eindeutigkeit von α.)
+
+  Sei also x eine Menge. Wir betrachten M = { β in On | ∃(y in x). β ist
+  kleinst mit der Eigenschaft, dass y in V_β }. Das sollte wohl eine Menge
+  sein, aber völlig klar ist es mir nicht.
+
+  Jedenfalls kann ich für α = sup(M) + 1 nachweisen, dass x in V_α: Denn für y
+  in x gilt y in V_β ⊆ V_{sup(M)}, wobei β die kleinste Ordinalzahl mit y in
+  V_β ist. Also x ⊆ V_{sup(M)}, also x in P(V_{sup(M)}); und sup(M) < α.
+
+  Muss jetzt noch Kleinstheit von α nachweisen. Sei α' mit x in V_α'.
+  Dann zeige α ⊆ α'. .....
+
+* Die (V_α)_α bilden eine monotone Familie:
+  Ist β < α, so ist V_β in V_α, denn V_β in P(V_β) ⊆ V_α.
+
+  Zudem gilt: Ist β ⊆ α, so V_β ⊆ V_α.
+
+  Und noch was: Ist β < α + 1, so β ⊆ α.
+  Also β in α cup {α}. Also β in α oder β = α. Im ersten Fall folgt wegen
+  Transitivität von α, dass β ⊆ α. Im zweiten Fall folgt das trivialerweise. :-)
+
+* Die V_α sind alle transitiv:
+
+  Sei x in y in V_α. Wir möchten x in V_α zeigen. Da y in V_α,
+  gibt es β < α mit y ⊆ V_β. Folglich x in V_β. Insbesondere x in V_α.
+
+* x ⊆ V_α  gdw.  x in V_{α + 1}.
+
+  "==>" ist klar, da V_{α + 1} ⊇ P(V_α) ∋ x.
+
+  "<==": Sei y in x. Nach Voraussetzung existiert β < α + 1 mit x in P(V_β).
+  Also y in V_β. Insbesondere y in V_α.
+
+* Es ist { x | rk(x) < α } = V_α. (Dabei ist rk(x) als kleinste Ordinalzahl mit
+  x ⊆ V_{rk(x)} definiert. Wenn man wie in der eingangs zitierten Vorlage hier
+  "∈" schreibt, wird er um 1 falsch.)
+
+  Sei x mit rk(x) < α. Dann x ⊆ V_{rk(x)}, also x in P(V_{rk(x)}), also x in V_α.
+
+  Sei x in V_α. (Also auch x ⊆ V_α, da die V_α alle transitiv sind.)
+  Habe x ⊆ V_{rk(x)}. Wegen Kleinstheit folgt: rk(x) ⊆ α.
+
+* Es ist { x | rk(x) ⊆ α } = P(V_α). (Dabei ist rk(x) als kleinste Ordinalzahl mit
+  x ⊆ V_{rk(x)} definiert. Wenn man wie in der eingangs zitierten Vorlage hier
+  "∈" schreibt, wird er um 1 falsch.)
+
+  Das heißt: rk(x) ⊆ α gdw. x ⊆ V_α.
+
+  "==>": Habe x ⊆ V_{rk(x)} ⊆ V_α.
+
+  "<==": Nach Definition der Kleinstheit.
+
+* Stimmt folgendes? Für Klassen X gilt: Folgt aus der Bewohntheit von X,
+  dass X gleich einer Menge ist, so ist X schon wirklich gleich einer Menge.
+  Ich denke schon, und zwar geht das mit Collection:
+
+  Wir setzen A = { * | X ist bewohnt }. Dann ist A eine Menge (mittels
+  beschränkter Separation). Dann haben wir:
+
+      forall a in A. exists Y. X = Y.
+
+  Mit Collection folgt: exists B. forall a in A. exists Y in B. X = Y.
+  Dann X ⊆ bigcup(B). Denn sei x in X. Dann ist A durch * bewohnt. Folglich
+  gibt es Y in B mit X = Y. Somit x in Y. Also x in bigcup(B).
+
+  Folglich X = { x | x in bigcup(B) wedge x in X }, d.h. mit Separation sehen
+  wir, dass X eine Menge ist. :-)
+
+  Geht auch mit Replacement statt Collection, weil wir ja Eindeutigkeit von Y
+  haben dank Extensionalität. Die stärkere Konklusion von Replacement benötigen
+  wir nicht, aber sie schadet auch nicht.
+
+* Damit können wir glaube ich folgendes zeigen: Ist C eine Klasse, so ist
+
+      C^ = { x in C | rk(x) ≤ rk(y) für alle y aus C }
+
+  eine Menge. Denn ist C^ bewohnt, so auch C, durch ein y0, also
+  C^ ⊆ { x | rk(x) ≤ rk(y0) } = P(V_{rk(y0)}) ⊆ V_{rk(y0) + 1}, somit können
+  wir C mit Separation als Menge erkennen. Dann fertig mit dem vorhergehenden
+  Lemma.
+
+  Aber mir ist nicht klar, wie man die fundamentale Eigenschaft von C^
+  nachweisen soll, nämlich dass aus der Bewohntheit von C die von C^ folgt.
+  Das ist aber fundamental für den Beweis des Reflektionsprinzips.
+
+* Vermutlich kann man zeigen: Ist X eine bewohnte Menge, so
+
+      neg neg exists x in X. forall y in X. neg (rk(x) > rk(y)).
+
+
+=== Literatur
+
+* http://projects.illc.uva.nl/KNAW/Heyting/uploaded_files/inlineitem/vdberg-slides.pdf
+  Über IZF und Varianten sowie CZF.
+
+
+=== Nächste Schritte
+
+* Wie sieht die kumulative Hierarchie in IZF aus? Siehe Lubarskys Artikel zu V = L
+  in IZF.

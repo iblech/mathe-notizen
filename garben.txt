@@ -363,6 +363,10 @@
   eindeutigen Schnitt s auf U := sup { top | K bewohnt }. Da E welk im alten
   Sinn ist, gibt es eine Fortsetzung s' von s auf X. Es gilt K <= { s' }.
 
+* http://tcsc.lakecomoschool.org/files/2018/07/Beke.pdf#page=43
+  Eilenberg--MacLane-Topoi. Unbedingt ansehen. Könnte zur Definition hilfreich
+  sein, oder sollte man als äquivalent nachweisen können!
+
 
 === Garbenhom
 
