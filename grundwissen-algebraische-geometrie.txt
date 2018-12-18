@@ -1348,7 +1348,7 @@ definieren, wobei S(U) = { f | f_x ist kein Nullteiler in allen O_x, x \in U }.
   ist er dann ein fppf-Quotient.
 
 * Dann gibt's noch den fppf-Quotienten. Der ist super easy. Einfach
-  der Quotienten im großen fppf-Topos. Man sagt, "der fppf-Quotient existiere",
+  der Quotient im großen fppf-Topos. Man sagt, "der fppf-Quotient existiere",
   wenn er durch ein Schema dargestellt werden kann. In diesem Fall ist er auch
   ein kategorieller Quotient (wenn man unterstellt, dass die Yoneda-Einbettung
   in den fppf-Topos volltreu ist); das ist nur Nonsens. Er ist aber auch ein
