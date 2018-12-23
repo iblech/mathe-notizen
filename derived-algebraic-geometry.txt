@@ -43,3 +43,8 @@ oder derivierte Schemata nach Lurie oder Toën-Vezzosi.
 
 http://www.ma.utexas.edu/users/benzvi/GRASP/lurie1.jpg
 bis 8.jpg.
+
+
+=== Malapani
+
+https://arxiv.org/pdf/1811.12937.pdf

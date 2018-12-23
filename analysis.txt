@@ -28,6 +28,11 @@
   Diffeomorphismus.
 
 
+=== Existenz von Extrema
+
+* Ein "Ein-Satz-Beweis": https://arxiv.org/pdf/1811.00877.pdf
+
+
 === Eichintegral (gauge integral)
 
 * Ist geil.

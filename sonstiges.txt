@@ -557,6 +557,9 @@ are scientific hypotheses that are not in Pi_1 form."
 
 * Der Zustandsgraph von Türme von Hanoi ist das Sierpinski-Dreieck.
 
+* Wenn man zeilenweise mit cleveren Vorfaktoren gewichtet summiert,
+  erhält man die Fibonacci-Zahlen. https://arxiv.org/pdf/1811.02085.pdf
+
 
 === Das Alien-Problem
 

@@ -2,8 +2,19 @@
 
 * https://sbseminar.wordpress.com/2009/12/07/the-technical-part-of-godels-proof/
 * Inwieweit verhält sich omega_1 ähnlich wie omega_1^CK?
-* Finde man heraus, was es mit ordinal strength und so zu tun hat.
+* Finde mal heraus, was es mit ordinal strength und so zu tun hat.
   http://www.icm2006.org/proceedings/Vol_II/contents/ICM_Vol_2_03.pdf
+
+
+=== Rekursive Ordinalzahlen
+
+* Eine abzählbare Ordinalzahl ist rekursiv, wenn es eine entscheidbare
+  Wohlordnung auf N gibt, die sie als Ordnungstyp hat.
+
+* Stimmt das folgende, wenn man es hinreichend präzisiert? Eine abzählbare
+  Ordinalzahl ist genau dann rekursiv, wenn es eine rekursive Liste f von
+  natürlichen Zahlen gibt, sodass die induzierte Ordnung («) auf N sie als
+  Ordnungstyp hat.
 
 
 === Visualisierungen von Ordinalzahlen

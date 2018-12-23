@@ -15,3 +15,10 @@
 === Typen sind Homotopietypen, nicht Räume
 
 https://groups.google.com/forum/#!topic/HomotopyTypeTheory/Wf-H6rH155g
+
+
+=== Bedeutung von Univalenz
+
+* https://cs.stackexchange.com/questions/83859/continuing-the-example-of-why-its-hard-to-compute-with-univalence
+  In hinreichend einfachen Fällen, eventuell den meisten für Informatik
+  relevanten, stellt das Univalenzaxiom kein Berechnungsproblem dar.

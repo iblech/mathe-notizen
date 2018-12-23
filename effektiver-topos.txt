@@ -377,6 +377,11 @@ stetig sind:
   natürliche Zahlen, sondern beliebige Mengen sind.
 
 
+=== Verallgemeinerung von ITTMs, die Wahrheit in V berechnen können
+
+https://arxiv.org/pdf/1806.08747.pdf
+
+
 === Quellen
 
 * http://math.andrej.com/data/c2c.pdf

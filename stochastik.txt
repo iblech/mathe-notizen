@@ -94,3 +94,8 @@ https://cs.nyu.edu/~mohri/pub/bandit.pdf
 * Schubladenrätsel
 * Derangements
 * Continous Roulette https://math.vanderbilt.edu/dept/conf/tacl2013/coursematerials/TACLconstruction.pdf#page=91
+
+Hat Ausgang 1/4:
+
+* The Broken Stick Problem.
+  https://services.math.duke.edu/education/webfeatsII/gdrive/Team%20D/project/brokenstick.htm
