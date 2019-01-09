@@ -694,6 +694,9 @@ Sei j eine Lawvere-Tierney-Topologie.
 
 === Modale Operatoren
 
+* Benno veröffentlichte im August 2017 ein paar Dinge zur Box-Übersetzung:
+  https://arxiv.org/abs/1708.08791 (Das sehe ich erst jetzt, Dezember 2018.)
+
 * Sei P(psi) irgendeine Aussageform. Dann definiert Box mit
 
       Box(phi) := forall psi. P(psi) wedge (phi ==> psi) ==> psi

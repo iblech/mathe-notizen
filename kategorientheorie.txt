@@ -678,6 +678,12 @@ die relevante Indexkategorie wie folgt aus:
 Der Kolimes ist daher dasselbe wie das Koprodukt über alle eindimensionalen
 Unterräume.
 
+* Die volle Unterkategorie von Cat (der Kategorie der Kategorien), die nur
+  das walking commutative triangle enthält, ist dicht in Cat.
+
+* Cat = Ind_kappa(cat), wobei cat die Kategorie der kleinen Kategorien und
+  kappa die Größe des Universums ist. https://mathoverflow.net/a/319307/31233
+
 
 === Limiten von Limiten
 

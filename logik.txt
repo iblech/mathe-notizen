@@ -293,6 +293,9 @@ Empfohlen von John Baez!
 
   Ein solcher ist nach Löbs Theorem beweisbar.
 
+* Löbs Theorem ist dasselbe wie der Y-Kombinator:
+  https://semantic-domain.blogspot.com/2016/05/lobs-theorem-is-almost-y-combinator.html
+
 * http://gdz.sub.uni-goettingen.de/pdfcache/PPN379931524_0022/PPN379931524_0022___LOG_0008.pdf
 
 * Man kann ja eigentliche alle Argumentationen in PA oder meinetwegen ZFC

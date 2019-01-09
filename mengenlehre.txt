@@ -302,6 +302,16 @@ https://pdfs.semanticscholar.org/92ab/8d8ef79bb1fd68c9876a74e4e2d06c4c8dfd.pdf
       beta = aleph_mu <= aleph_lambda = 2^kappa < alpha.
 
 
+=== Transitive Mengen
+
+* Ist X transitiv, so auch P(X):
+
+  Sei a in K in P(X). Dann a in P(X). Denn a ⊆ X, denn:
+
+  Sei u in a. Dann u in a in K in P(X), also u in a in X. Da X transitiv ist,
+  folgt u in X.
+
+
 === Ordinalzahlen in IZF
 
 * (https://onlinelibrary.wiley.com/doi/full/10.1002/malq.201200100) Die Klasse
