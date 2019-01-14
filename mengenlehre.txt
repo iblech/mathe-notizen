@@ -366,6 +366,34 @@ https://pdfs.semanticscholar.org/92ab/8d8ef79bb1fd68c9876a74e4e2d06c4c8dfd.pdf
 
 * V_alpha ist rekursiv definiert als bigcup_{beta in alpha} P(V_beta).
 
+  [ Wie man das definiert? Aczel/Rathjen machen es so: Sie definieren zunächst
+  die Rangfunktion über ∈-Rekursion via
+
+      rank(x) = ⋃ { rank(y) + 1 | y in x }.
+
+  Dann können wir V_α = { x | rank(x) < α } setzen. Das ist nur eine Klasse,
+  wenn wir nicht unbounded separation haben.
+
+  Mit dieser Definition kann man trivial zeigen: Jede Menge liegt in einem V_α,
+  denn x liegt in V_{rank(x)+1}; und für alle Mengen x gilt x ⊆ V_{rk(x)}.
+  Denn sei y in x. Dann rk(y) < rk(y) + 1 ≤ rk(x), also y in V_{rk(x)}.
+
+  Zudem gilt: V_α ⊆ ⋃_{β ∈ α} P(V_β). Aber die andere Inklusion ist falsch,
+  wie das Beispiel α = 2 zeigt. In diesem Fall ist ein Element der rechten
+  Seite { 0 | φ }, und dessen Rang ist wieder es selbst, und dieser ist nicht
+  enthalten in rk(α) = 2.
+
+  Ziegler sagt (http://www.jaist.ac.jp/~mizuhito/jss12/Ziegler.pdf): Die
+  gewöhnliche kumulative Hierarchie geht schon (wie?), aber ist weniger
+  nützlich, etwa weil die V_α keine Mengen sind. Er definiert eine modifizierte
+  Hierarchie, die wohl geiler ist. ]
+
+  Dann müsste man mit transfiniter Induktion zeigen können: Jede Menge ist in
+  einem V_α enthalten. Mal sehen, wie schwer das ist:
+
+      Sei x eine Menge. Seien alle Elemente von x schon in je einem V_α
+      enthalten.
+
   V ist definiert als Vereinigung über alle V_alpha, wobei alpha über On läuft.
 
   Dazu zeigen wir mit ∈-Induktion: Für jede Menge x gibt es ein kleinstes α
@@ -458,6 +486,9 @@ https://pdfs.semanticscholar.org/92ab/8d8ef79bb1fd68c9876a74e4e2d06c4c8dfd.pdf
 * Vermutlich kann man zeigen: Ist X eine bewohnte Menge, so
 
       neg neg exists x in X. forall y in X. neg (rk(x) > rk(y)).
+
+* Wir haben für Ordinalzahlen: x < y ≤ z  ==>  x ≤ z, aber nicht
+  x ≤ y < z  ==>  x < z. Beispiel: { 0 | φ } ≤ 1 < 2.
 
 
 === Literatur
