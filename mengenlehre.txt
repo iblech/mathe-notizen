@@ -201,6 +201,30 @@ Dann wird f durch folgende Formel psi realisiert:
   Modelle sind, von denen M aber nicht überzeugt ist, dass es Modelle sind!
   https://mathoverflow.net/a/18804/31233
 
+* In ZFC/S gilt: S ist abgeschlossen unter der externen Potenzmengenbildung,
+  und diese stimmt mit der internen Potenzmengenbildung überein.
+
+  Allgemeiner ist in IZF eine Menge S abgeschlossen unter der externen
+  Potenzmengenbildung, und diese stimmt mit der internen überein, wenn sie
+  transitiv ist, abgeschlossen unter Teilmengen ist und die in X freie Aussage
+  "X besitzt eine Potenzmenge" reflektiert.
+
+  Denn: Sei X in S. Da X eine Potenzmenge besitzt, gibt es wegen der Reflektion
+  dann eine Menge P in S, sodass für alle Z in S gilt: Z ∈ P gdw. Z ⊆ X.
+  (Hier geht schon die Transitivität von S ein, denn eigentlich müsste es
+  "Z ∩ S ⊆ X" heißen.)
+
+  Nun gilt P = P(X).
+
+  Denn sei Z in P. Dann Z in S wegen Transitivität. Dann Z ⊆ X, also Z in P(X).
+
+  Sei umgekehrt Z in P(X). Dann Z in S wegen Abgeschlossenheit unter
+  Teilmengen. Also Z in P.
+
+  Ähnlich zeigt man, dass S abgeschlossen unter Singletons, Paarmengen {x,y}
+  und damit auch unter Kuratowski-Paaren und kartesischen Produkten ist.
+  (Dazu muss S schrittweise mehr reflektieren.)
+
 
 === Scott's Trick
 
