@@ -1997,6 +1997,48 @@ Chern-Klassen.
   http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.295.4668&rep=rep1&type=pdf
 
 
+=== Größenprobleme
+
+* Sei Zar der Situs der endlich präsentierten Ringe. Dann kann eine
+  Zariski-Garbe als einzelne Menge kodiert werden (Diagramm auf Zar^op).
+  Die Kategorie der Zariski-Garben existiert dann als Klasse.
+
+  Wenn irgendeine geeignete Art Universum S zur Verfügung steht, kann man
+  eine Zariski-Garbe auch als Funktor Zar^op --> Set_S definieren. Eine solche
+  lässt sich dann als einzelnes Element von S kodieren, zumindest, wenn man
+  nicht all solche Funktoren meint, sondern nur die S-kleinen.
+
+* Sei nun Zar der Situs ALLER Ringe. Dann ist ein Funktor Zar^op --> Set
+  etwas Großes. Insbesondere gibt es keine Kategorie solcher, auch nicht als
+  Klasse.
+
+  Ein einzelnes klassisches Schema (KS -- kann LRS oder LRL sein) ist aber
+  durchaus eine Menge.
+
+* Sei X ein kleines (d.h. Element von S) klassisches Schema.
+
+  Dann sind auch alle Ringe, aus denen X zusammengesetzt sind, wesentlich klein
+  (d.h. isomorph zu Ringen in S): Denn O_X(U) liegt auch wieder in S. (Wie
+  genau ist es um die Ringstruktur bestellt?)
+
+  Der Punktefunktor von X kann dann aufgefasst werden als Menge, aber nicht als
+  kleine Menge: Sowas wie coprod_{A in Ring_S} Hom(Spec(A),X) ist im
+  Allgemeinen nicht klein. (vgl. coprod_{M in S} 1 = S.)
+
+  Die einzelnen Hom(Spec(A), X) sind aber schon klein.
+
+  Habe die Kategorie (als Klasse) aller Funktoren Ring_S --> Set. Einen solchen
+  Funktor kann ich als Menge kodieren (nicht als kleine Menge).
+
+  Habe auch die Kategorie (als Menge) aller Funktoren Ring_S --> S. Einen solchen
+  Funktor kann ich als Menge kodieren (nicht als kleine Menge), welche stets
+  Element einer gewissen Menge, die ich explizit beschreiben könnte ("P(Ring_S x S)"), ist.
+
+  Die Kategorie (als Menge!) der kleinen klassischen Schemata ist dann wohl
+  äquivalent zu einer Unterkategorie (als Klasse) von Funktoren Ring_S --> Set,
+  und zudem äquivalent zu einer Unterkategorie (als Menge) von Funktoren Ring_S --> S.
+
+
 === Referenzen
 
 * Hartshorne

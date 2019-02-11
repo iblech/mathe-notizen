@@ -327,6 +327,12 @@ stetig sind:
   Seite 36.
 
 
+=== Kleine vollständige Kategorien
+
+* Der effektive Topos enthält eine kleine vollständige Kategorie:
+  https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/smallcomplete88.pdf
+
+
 === Berechenbarkeit von Lösungen von Differentialgleichungen
 
 * Pour-el, Richards. A computable ordinary differential equation which

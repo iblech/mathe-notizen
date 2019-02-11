@@ -127,6 +127,19 @@
   (3) x ^ 0 := 1, x ^ Sy := x * (x^y).
       Die Rekursion "x ^ y" ist nicht okay.
 
+* Sei C eine induktive Aussage über Q. Dann können wir C^3 bilden.
+  Q zeigt (trivialerweise) die Totalität von Addition und Multiplikation, und
+  C^3-relativiert kann das immer noch gezeigt werden.
+
+  Aber auch wenn die Basistheorie noch die Totalität von was Weiterem wie etwa
+  der Exponentiation umfassen würde, eventuell auch wieder trivialerweise durch
+  geeignete Terme, würde das C^3-relativiert nicht mehr gelten; und sowas wie
+  C^4 scheint es nicht zu geben.
+
+* Nelson Seite 74: Es gibt Erweiterungen PA' von PA durch Definitionen, die über
+  einen Zahlterm N verfügen, sodass PA' + (phi(0) & (∀n. phi(n) → phi(n+1)))
+  nicht phi(N) zeigt.
+
 
 === Eine Art Reflektionsprinzip
 
