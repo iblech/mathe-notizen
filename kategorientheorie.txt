@@ -323,6 +323,9 @@ Kategorien, die zu diskreten Kategorien äquivalent sind, und
   Siehe auch:
   http://mathoverflow.net/questions/29442/what-is-the-opposite-category-of-the-category-of-modules-or-hopf-algebra-represe/39975#39975
 
+  Oder so: Das einzige Gruppenobjekt in Set^op ist die leere Menge (wegen
+  Existenz eines neutralen Elements).
+
 * Delta^op ist nicht äquivalent zu Delta. Gleiche Begründung.
 
   Für die Buchhaltungskategorie für zyklische Mengen aber meine ich mich zu

@@ -448,6 +448,14 @@ Empfohlen von John Baez!
   inkonsistent.
 
 
+=== Verschachtelte formale Systeme
+
+* In /Axiomatization of induced theories/ gibt Azriel Lévy die Antwort auf
+  folgende Frage: Wie kann das formale System "A |- B |- phi" axiomatisch
+  charakterisiert werden?
+  https://www.ams.org/journals/proc/1961-012-02/S0002-9939-1961-0122702-2/S0002-9939-1961-0122702-2.pdf
+
+
 === Parikh
 
 * Es gibt Aussagen, die nur einen langen Beweis haben, aber einen kurzen Beweis,

@@ -21,6 +21,23 @@
   vielleicht besser "Pseudozahlen" nennen sollte) statt. Ich denke, eine gute
   Theorie, in der man diesen Abschnitt formalisieren kann, ist Nelsons Q_1.
 
+  [ Eine Formalisierungsmöglichkeit könnte auch sein: Füge ein neues
+  Prädikatsymbol P mit den Axiomen P(0) und ∀n. (P(n) → P(Sn)) hinzu.
+  Dann ist eine Zählzahl eine Zahl n mit P(n).
+
+  Q_1 zeigt zum Beispiel, dass 0, 1 und 2 Zählzahlen sind (d.h. in Q_1 + P ist
+  P(0), P(1) und P(2) ableitbar). Wenn mir eine starke Metatheorie zur
+  Verfügung steht, weiß ich natürlich auch: Für jede Zahl n gilt Q_1 |- P(n),
+  wobei hier n als Numeral kodiert wurde. Möglicherweise gilt das in einer
+  ultrafinitistischen Metatheorie nicht.
+
+  Die Idee mit dem Hinzufügen von P ist ähnlich wie bei der Diskussion von
+  transfiniter Induktion. Dort quantifiziert man zum Beispiel auch nicht
+  (natürlich extern, intern geht's nicht) über alle Formeln P, sondern gönnt
+  sich das neue Symbol. Die Erkenntnisse über das so gewonnene neue System sind
+  immer noch wertvoll, da nachträglich das neue Symbol durch jede konkrete
+  Formel ersetzt werden kann. ]
+
 * Sind alle Zahlen Zählzahlen? Vorsicht!
 
   Klar ist: PA zeigt, dass für alle n gilt: Q_1 zeigt, dass \ul{n} eine
@@ -139,6 +156,41 @@
 * Nelson Seite 74: Es gibt Erweiterungen PA' von PA durch Definitionen, die über
   einen Zahlterm N verfügen, sodass PA' + (phi(0) & (∀n. phi(n) → phi(n+1)))
   nicht phi(N) zeigt.
+
+
+=== Große Zahlen als syntaktischer Zucker
+
+In ZFC gibt es ja das Konzept von Klassen als syntaktischer Zucker.
+Gelegentlich stellt sich dann eine gegebene Klasse als Menge heraus.
+
+Ich möchte etwas Ähnliches für Zahlen haben, sodass ich etwa 2^(2^n) zunächst
+als wohldefiniertes syntaktisches Objekt habe und dann in Ruhe seine Existenz
+als echte Zahl untersuchen kann.
+
+Hier ein paar Gedanken dazu, unter Verwendung einer starken Metatheorie.
+
+Dann weiß ich nämlich, dass jede rekursive Funktion in IQ darstellbar ist.
+Es gibt also eine Formel φ(x,y) mit:
+
+  * Für alle n gilt IQ |- φ(n,2^n).
+  * Für alle n gilt IQ |- ∀y, y'. φ(n,y) ∧ φ(n,y') ⇒ y = y'.
+
+Also kann ich durchaus in Nelson die Frage stellen: Gegeben x, gibt es y mit 2^x = y?
+Wir wollen eine Zahl x exponentierbar nennen, wenn das der Fall ist.
+
+Da ich gerade eine starke Metatheorie voraussetze, weiß ich natürlich: Für jede
+Zahl n zeigt Nelson, dass n (das Numeral) exponentierbar ist. Sogar IQ zeigt das.
+
+Wie steht es um die Beweisbarkeit der Induktivität des
+Exponentierbarkeitsprädikats in Nelson? E(0) ist klar. Gelte E(x). Dann
+existiert also y mit 2^x = y (und ich weiß, was das bedeutet). Dann habe
+2^(Sx) = 2*y. (In jedem Fall ist die Formel nicht beschränkbar, sodass
+beschränkte Induktion nichts hilft.)
+
+Geht der Induktionsschritt wirklich durch? Eventuell nicht. Muss dazu zeigen
+können, dass ich mit der β-Funktion kodierte Listen erweitern kann. Update:
+Geht durch, zumindest, wenn man eine bessere Kodierung wählt. Theorem 14.2 in
+Nelson.
 
 
 === Eine Art Reflektionsprinzip
@@ -260,3 +312,8 @@
 * Q erlaubt beliebige Quantifikation. Ist das nicht schlecht? Weiß ich,
   was das bedeutet? Das Ausschneiden besserer Zahlsysteme aus Q verwendet diese
   Quantifikation auch.
+
+* Gilt: Nelson |- (∀n. Nelson |- (n ist eine Zählzahl))? Sicherlich zeigt HA
+  diese Aussage.
+
+* Klassen
