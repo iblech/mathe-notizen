@@ -1,1 +1,22 @@
 * http://math.wustl.edu/~nweaver/what.pdf
+
+
+=== Nik Weaver
+
+* "The explanation of this phenomenon is simple: generally speaking, duals of
+  nonseparable spaces are highly pathological objects about which little of value
+  can be said. This is characteristic of impredicative mathematics generally.
+  The extra generality of ZFC is spurious, involving structures which are
+  highly pathological from the point of view of mainstream mathematics."
+
+  "The impredicative portion of the universe of ZFC is rife with undecidability,
+  and many known undecidable statements are not contrived, but appear quite
+  fundamental — the prototype of such a statement being the continuum
+  hypothesis."
+
+  https://arxiv.org/pdf/0905.1680.pdf#page=13
+
+* Γ_0 ist eventuell gar nicht "die erste nicht-prädikative Ordinalzahl"!
+
+* J_2 ist ein guter Rahmen für Mainstreammathematik:
+  https://arxiv.org/pdf/math/0509245.pdf
