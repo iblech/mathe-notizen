@@ -20,3 +20,24 @@
 
 * J_2 ist ein guter Rahmen für Mainstreammathematik:
   https://arxiv.org/pdf/math/0509245.pdf
+
+* CZF ist laut Nik gar nicht vollständig prädikativ, da es das Axiomenschema
+  der ∈-Induktion umfasst, das für beliebige (nicht nur beschränkte o.Ä.)
+  Formeln formuliert ist.
+
+  Versuch nachzuvollziehen, dass das wirklich den Grundgedanken von
+  Prädikativität verletzt. (In jedem Fall ist es nicht so tragisch, da ja CZF
+  minus ∈-Induktion immer noch ein gut nutzbares System ist. Dagegen ist HA
+  minus Induktion zu eher wenig zu gebrauchen, zumindest, solange man nicht
+  Nelsons Interpretationsidee aufgreift.)
+
+  Das Induktionsaxiom aus der Zahlentheorie ist ja wie folgt imprädikativ. Eine
+  natürliche Zahl ist per Definition etwas, das alle induktive Eigenschaften
+  hat. Aber da Eigenschaften in der Regel Quantoren enthalten, nimmt die
+  Definition von "induktive Eigenschaft" schon Bezug auf die Gesamtheit der
+  natürlichen Zahlen.
+
+  Wie ist es nun mit Mengen? Genau dasselbe...!
+
+  Deswegen wird CZF auch als "generalized predicative" bezeichnet. Ein
+  vollständig prädikatives System ist CZF^-.

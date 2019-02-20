@@ -662,6 +662,10 @@ immer ein offener Untertopos von Set[|T|], oder?
   Im Grothendieckfall fallen die beiden Topologien zusammen.
   http://www.math.mcgill.ca/barr/papers/top.no.pt.pdf
 
+* Sei D eine volle Unterkategorie von C. Dann ist PSh(D) ein Untertopos von
+  PSh(C), und in C2.2.4(d) steht, welche Topologie man auf C packen muss, um
+  das direkt einzusehen.
+
 
 === W-Typen
 

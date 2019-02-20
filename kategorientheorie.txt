@@ -464,6 +464,9 @@ Ferner gilt:
 
 === Noch etwas
 
+* Sei F -| G. Dann G^op -| F^op, wobei F^op, G^op genau wie F, G sind,
+  nur zwischen den dualen Kategorien verlaufen.
+
 * Sei f : A --> GX. Dann habe T^f : FA --> X.
   Habe id : FA --> FA, also auch id^T : A --> GFA.
 
@@ -516,6 +519,15 @@ Ferner gilt:
   Sei R volltreu. Dann ist eps : LR ==> Id ein Iso. Somit sind auch L eta
   und eta R Isos.
 
+* Wenn man ein Stringdiagramm in die duale Kategorie übersetzen möchte, muss
+  man es an der x-Achse spiegeln. (Sowohl in der Konvention von Matthias als
+  auch von nLab:triangle identities.)
+
+  Matthias' Konvention: lies Stringdiagramme von links nach rechts (so kommen
+  westlich-zuerst die Funktoren, die zuerst angewendet werden) und von oben
+  nach unten (so kommen westlich-zuerst die Trafos, die zuerst angewendet
+  werden).
+
 * Sei L -| R. Gelte, dass der Funktor LR vermöge irgendeiner natürlichen
   Trafo isomorph zum Identitätsfunktor ist. Dann ist LR schon vermöge der
   Koeins der Adjunktion (eps : LR ==> Id) isomorph zum Identitätsfunktor.
@@ -524,6 +536,31 @@ Ferner gilt:
   Es stimmt aber nicht, dass wenn LR(X) für ein bestimmtes X isomorph zu X ist,
   dass LR(X) dann auch schon vermöge der Koeins bei X isomorph zu X ist.
   (Gegenbeispiel?)
+
+  Beweis so (in Matthias' Konvention):
+
+        |    η                  G \ / F  | | F
+      G |    *                     o     | |
+        |   / \             o         =  | |
+         \ /   \           / \     o     | |
+          *     | G        \ /  G / \ F  | |
+          ε     |           o
+
+  Das Inverse zu ε ist dann:
+
+          o
+         / \
+        /   \
+       /     \
+      |       |
+      |       | F
+      |   *   |
+      |  / \ /
+      |  |  o
+
+  Der eine Nachweis ist trivial und beim anderen kappt man ganz oben die beiden
+  parallelen G-F-Kabel, die aus der Koeins nach oben herausgehen, und
+  verschiebt dann die Blase nach unten rechts, um mit dem \o/ zu rekombinieren.
 
 * Sei (f -| g) : N --> N eine Galois-Verbindung, also
 
