@@ -150,6 +150,14 @@ http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf
   https://math.berkeley.edu/~qchu/Syllabus.pdf
 
 
+=== Zählen
+
+* https://www.maths.ed.ac.uk/~tl/docs/Schanuel_Length_of_potato.pdf
+  (von Peter Arndt empfohlen)
+
+* John Baez: Mysteries of counting.
+
+
 === Witzige Anwendungen von Homologie
 
 * http://golem.ph.utexas.edu/category/2012/06/cohomology_in_everyday_life.html

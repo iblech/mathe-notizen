@@ -55,6 +55,12 @@ also c + 2^{-n0} <= c, Widerspruch.
   Komplizierter so: Unter dieser Voraussetzung gilt R_Dedekind = R_MacNeille,
   siehe Johnstone, Seite 483, Prop. 1.3 von /Conditions related to de Morgan's law/.
 
+* Sei e : E' --> E der Gleason-Cover von E. Dann ist e_*(R_Dedekind) =
+  R_MacNeille. Vielleicht gilt auch e^{-1}(R_MacNeille) = R_Dedekind. In diesem
+  Fall könnte man einen weiteren Beweis der Überabzählbarkeit von R_MacNeille
+  angeben: Eine Surjektion N --> R_MacNeille überträgt sich in den
+  Gleason-Cover, wo wegen LEM für negierte Aussagen bottom folgt.
+
 
 === Literatur
 
