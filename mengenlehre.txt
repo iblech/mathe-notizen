@@ -32,6 +32,12 @@
   ohne Grothendieckuniversen & Co. Garbenkohomologie betreiben zu können.
 
 
+=== Zu Grothendieck-Universen
+
+* Zhen Lin untersucht, welche Konstruktionen unabhängig vom gewählten Universum
+  sind: https://arxiv.org/pdf/1304.5227.pdf
+
+
 === Shoenfields Absolutheitssatz
 
 * Shoenfield's absoluteness theorem shows that Pi_2^1 and Sigma_2^1 sentences
