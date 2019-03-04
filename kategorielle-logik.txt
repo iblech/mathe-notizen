@@ -613,8 +613,8 @@ Außerdem:
 Dieser Standpunkt heißt wohl "constructive nominalism".
 
 Nur Achtung: Der Beweis, dass der initiale Topos wirklich ein Modell mit den
-gewünschten Eigenschaften ist, setzt die metamathematische Annahme, dass es ein
-Modell von Mengenlehre gibt, voraus. (Letzter Satz des Artikels)
+gewünschten Eigenschaften ist, setzt die metamathematische Annahme, dass es
+eine geeignete Kategorie von Mengen gibt. (Letzter Satz des Artikels)
 
 Siehe auch: http://www.math.mcgill.ca/barr/lambek/pdffiles/WorldMath.pdf
 

@@ -1,5 +1,8 @@
 * http://math.wustl.edu/~nweaver/what.pdf
 
+* http://logic.harvard.edu/EFI_Woodin_TheRealmOfTheInfinite.pdf
+  enthält auch Endlichkeitsspekulationen
+
 
 === Nik Weaver
 

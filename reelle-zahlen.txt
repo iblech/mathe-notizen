@@ -61,6 +61,10 @@ also c + 2^{-n0} <= c, Widerspruch.
   angeben: Eine Surjektion N --> R_MacNeille überträgt sich in den
   Gleason-Cover, wo wegen LEM für negierte Aussagen bottom folgt.
 
+* Enthält der Topos der Injektionen R --> N eine Injektion von R nach N?
+  Wäre beachtenswert, wenn auch vermutlich irrelevant bezüglich der Frage, ob
+  Surjektionen von N nach R existieren können.
+
 
 === Literatur
 

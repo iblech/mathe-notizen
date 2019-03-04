@@ -678,7 +678,7 @@ immer ein offener Untertopos von Set[|T|], oder?
   Sei ein Protobaum eine Menge von endlichen Listen über A + B.
   Sei U eine Menge von Protobäumen.
   Wir schreiben für ein Element a in A und eine Funktion phi : B_a --> U:
-      node_a(phi) := { a } ∪ { a :: b :: v | b in B_a, v in phi(b) }
+      node_a(phi) := { [a] } ∪ { a :: b :: v | b in B_a, v in phi(b) }
           (ist ein bestimmter Protobaum)
 
   Dann sollte die Menge der Bäume gegeben sein durch den Schnitt über all
@@ -814,6 +814,29 @@ den Rahmen derjenigen nach-oben-abgeschlossenen Teilmengen S von T mit:
 Infimum durch Schneiden, Supremum durch Vereinigen und Abschließen:
 
     S |--> j(S) = { xs | forall x. <xs,x> in S }
+
+
+=== Schnitte
+
+Shawn Henry beweist: Ist f ein Epimorphismus in einem boolschen Topos E mit
+bewohnter Zielmenge, so wird E von einem Topos überdeckt, in dem f eine
+Zerfällung besitzt, nämlich dem Topos der Zerfällungen von f.
+
+Ich glaube, dass Shawns Beweis sogar zeigt: Ist f ein Epi in einem Topos E mit
+bewohnter und diskreter Zielmenge, so wird E von einem Topos überdeckt, in dem f
+eine Zerfällung besitzt, nämlich dem Topos der Zerfällungen von f.
+
+
+=== Körperbedingungen
+
+* Shawn Henry zeigt: Ein nichttrivialer Ring ist genau dann ein Körper im Sinne
+  von "!= 0 ==> inv.", wenn der klassifizierende Topos der Theorie der Ideale I
+  mit (1 in I ==> bot) und (top ==> bigvee_{a in A, a != 0} (a in I))
+  degeneriert ist.
+
+* Mit ein weniger klassischer Logik ist ein Körper (im Sinne von "!= 0 ==> inv.")
+  im Sierpinski-Topos ein Tupel (A,B,g) sodass A ein lokaler Ring mit ker(g)
+  als maximalem Ideal und B eine Erweiterung des Restklassenkörpers von A ist.
 
 
 === Forcing
@@ -1070,6 +1093,126 @@ anstatt induktiv vorzugehen, wie es sonst in der Mathematik der Fall ist."
 * https://core.ac.uk/download/pdf/82272452.pdf, Abschnitt 6
 
 * Zusammenhang zu logical relations verstehen!
+
+* Laut [Moerdijk, I., & Palmgren, E. (2000). Wellfounded trees in categories.
+  Annals of Pure and Applied Logic, 104(1-3), 189–218] kann man Artin-Gluing
+  typentheoretisch verstehen, siehe deren Quelle [19].
+
+* Der Scone einer Kategorie C mit terminalem Objekt 1 bezüglich des globale-
+  Schnitte-Funktors Γ = Hom(1, __) : C → Set ist folgende Kategorie:
+
+      Objekte: (X ∈ C, A → ΓX)
+      Morphismen: kommutative Quadrate.
+
+  Statt Γ kann man auch einen anderen Funktor nehmen. Wenn der betrachtete
+  Funktor Γ eine Art Vergissfunktor ist, so kann man die Objekte des Scones
+  als "Mengen versehen mit C-Struktur" ansehen
+  (https://golem.ph.utexas.edu/category/2013/04/scones_logical_relations_and_p.html).
+
+
+=== Fundierte Relationen
+
+* Eine Relation < auf einer Menge A ist genau dann fundiert, wenn die einzige
+  progressive Teilmenge von A ganz A ist.
+
+* Eine "schlechte Menge" für < ist eine Teilmenge X mit:
+
+   (i) X bewohnt.
+  (ii) Für alle a in X existiert b in X mit b < a.
+
+* Fundierte Relationen haben keine schlechten Mengen. Die Umkehrung gilt
+  klassisch.
+
+* Eine Relation heißt "geometrisch fundiert", wenn der klassfizierende Topos
+  ihrer schlechten Mengen degeneriert ist. Das ist äquivalent dazu, dass jeder
+  Topos f : E --> Set, der eine schlechte Menge für f^*(<) besitzt, degeneriert ist.
+
+* Andreas Blass beweist [Well-ordering and induction in intuitionistic logic
+  and topoi, in "Mathematical Logic and Theoretical Computer Science" (D. W.
+  Kueker, E. G. K. Lopez-Escobar, and C. H. Smith, eds.) Marcel Dekker, Lecture
+  Notes in Pure and Applied Mathematics 106 (1987) 22--48], dass eine Relation
+  genau dann fundiert ist, wenn sie geometrisch fundiert ist.
+
+  Insbesondere sind Rückzüge fundierter Relationen wieder fundiert.
+
+  (Achtung: Möglicherweise gilt das nur in einer klassischen Metatheorie. Glaub
+  ich aber nicht.)
+
+* Eine induktive Konstruktion (A,S,P,R) besteht aus:
+
+  * einer Menge A
+  * einer Menge S von Konstruktionsschritten
+  * einer Relation P ⊆ A × S
+  * einer Funktion R : S → A.
+
+  Eine Teilmenge X ⊆ A ist genau dann abgeschlossen, wenn
+
+      für alle s aus S: R(s) ∈ X falls (a ∈ X für alle a ∈ A mit (a,s) ∈ P).
+
+  Die Konstruktion heißt genau dann total, falls A die einzige abgeschlossene
+  Teilmenge ist.
+
+  Beispiele:
+
+  * A = N (nat. Zahlen), S = {zero, succ0, succ1, ...}, P = { (n, succ_n) | n },
+    R(zero) = 0, R(succ_n) = n + 1. Dann ist eine Teilmenge genau dann
+    abgeschlossen, wenn sie induktiv im gewöhnlichen Sinn ist.
+
+  * Sei f : B → A. Zur Erinnerung: Der W-Typ W_{x:A} B(x) ist induktiv
+    definiert über den einzigen Konstruktor
+
+        sup : (x : A) → (B(x) → W) → W.
+
+    Die Elemente von W können als Bäume visualisiert werden. Ein solcher Baum
+    ist eine gewisse Teilmenge von List(A + B), d.h. ein Element von P(List(A + B)).
+    Die Menge W ist also eine gewisse Teilmenge von P(List(A + B)).
+
+    Sei Z = P(List(A + B)).
+
+    Sei S = { (x ∈ A, f : B(x) → Z) }.
+
+    Sei P = { (f(y), (x,f)) | x ∈ A, f : B(x) → Z, y ∈ B(x) }.
+
+    Sei R(x,f) = { [x] } ∪ { x ∷ y ∷ z | y ∈ B(x), z ∈ f(y) }.
+
+    Dann ist der Abschluss der Teilmenge ∅ ⊆ Z genau die Menge W der
+    (fundierten) Bäume.
+
+    * List(M) erhält man im Spezialfall A = M + 1, B(m) = 1, B(*) = ∅,
+      d.h. B = M.
+
+    * Statt P(...) kann man doch auch K(...) nehmen, die Menge der
+      Kuratowski-endlichen Teilmengen. Diese Konstruktion ist anders als P
+      geometrisch. Damit R wohldefiniert ist, müssen alle Mengen B(x)
+      Kuratowski-endlich sein.
+
+      Sei M Kuratwoski-endlich. Ist dann Hom(M, __) geometrisch?
+
+      Hom(M, X) = { v : List(X) | bigvee_n exists m_1,...,m_n.
+         M = {m_1,...,m_n} & len(v) = n &
+             bigwedge_{i,j} (m_i = m_j ⇒ v[i] = v[j]) }/...
+
+      Also immer noch nicht. Aber wohl schon, wenn alle Mengen B(x)
+      (Bishop-)endlich sind. Der Einfachheit sei B : A → N. Dann können wir
+      setzen:
+
+          Z = K(List(A + N)).
+          S = coprod_{x ∈ A} Z^(B(x))
+          P = { (v[i], (x,v)) | x ∈ A, v ∈ Z^(B(x)), 1 <= i <= B(x) }
+          R(x,v) = { [x] } ∪ { x ∷ i ∷ z | 1 <= i <= B(x), z ∈ v[i] }
+
+      Und zumindest wenn auch noch A Bishop-endlich ist, sollte klar sein, dass
+      das geometrische Konstruktionen sind. Damit(?) ist dann also die
+      Konstruktion des entstehenden W-Typs ebenfalls geometrisch. Das
+      überrascht natürlich niemanden mehr. (Aber Endlichkeit von A ist eine
+      eine sehr starke Einschränkung! Sollte auch ohne gehen ...?)
+
+* Ist (A,S,P,R) eine totale induktive Konstruktion, so auch f^*(A,S,P,R).
+  Blass zeigt das per Hand, Shawn Henry zeigt es über eine Abwandlung des
+  "schlechte Menge"-Arguments (Theorem III.8 in seiner Doktorarbeit).
+
+  Aber Achtung: Die Konstruktion "induktive Hülle bilden" ist nicht
+  geometrisch.
 
 
 === Nächste Schritte

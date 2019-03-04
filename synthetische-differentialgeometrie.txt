@@ -50,6 +50,15 @@
   https://pizzaseminar.speicherleck.de/grassmannsche-intern/tangent-bundle-projective-space.pdf.
 
 
+=== D(2) und andere infinitesimale Objekte
+
+* D x D = { (a,b) | a^2 = b^2 = 0 } malt man natürlich als kleines Quadrat.
+
+* D[2] = { (a,b) | a^2 = b^2 = ab = 0 } malen Bunge/Dubuc in [Mathematical
+  Logic and Theoretical Computer Science, 106] als gewisse Teilmenge von D[2],
+  nämlich eine Art Karo, dessen vier Kanten zum Ursprung hin eingedellt sind.
+
+
 === Motivation
 
 We want to have infinitesimals in order to ...

@@ -951,6 +951,17 @@ language.
       j_* : G |--> der bekannte Pushforward j_*(G)
 
 
+=== Yoneda fürs interne Hom
+
+Sei C ein Situs mit Produkten. Seien X in C. Dann gilt:
+
+    HOM(ayX, E) = E(X x _).
+
+Denn:
+
+    HOM(ayX, E)(Y) = Hom(ayY, HOM(ayX, E)) = Hom(ay(X x Y), E) = E(X x Y).
+
+
 === Limiten und Kolimiten in der 1-Kategorie Cat
 
 Cat ist vollständig und kovollständig.
