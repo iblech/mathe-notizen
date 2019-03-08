@@ -630,7 +630,7 @@ immer ein offener Untertopos von Set[|T|], oder?
 * Das Koprodukt Set[T_1] + Set[T_2] in der Kategorie der Topoi bildet man
   als Kategorie ja einfach durch das kartesische Produkt der zugrundeliegenden
   Kategorien. Der entstehende Topos wird dann folgende Theorie T_3
-  klassifizieren (3.3.7):
+  klassifizieren (3.3.17):
 
       Sorten: die von T_1, die von T_2, und zwei neue: U_1, U_2
       Relationssymbole: die von T_1 und von T_2

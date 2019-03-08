@@ -544,3 +544,22 @@ das Ergebnis f(n) liefert.
 https://www.quantamagazine.org/in-cryptography-advances-in-program-obfuscation-20140130
 http://eprint.iacr.org/2013/451.pdf
 http://eprint.iacr.org/2013/454.pdf
+
+
+=== Wie mit Variablennamen umgehen?
+
+* Locally Nameless: Namen für freie Variablen, Indizes für gebundene.
+  https://www.chargueraud.org/research/2009/ln/main.pdf
+
+* Nominal Approach. ??
+  https://www.seas.upenn.edu/~sweirich/papers/nominal-coq/lfmtp06.pdf
+
+* Higher Order Abstract Syntax.
+
+  Problem: Exotic Terms.
+
+  Eine Lösung für dieses Problem: http://adam.chlipala.net/papers/PhoasICFP08/PhoasICFP08.pdf
+  Var : V → Term(V)
+  App : Term(V) → Term(V) → Term(V)
+  Abs : (V → Term(V)) → Term(V),
+  dann Term = (∀(V : *). Term(V)).

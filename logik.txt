@@ -456,6 +456,13 @@ Empfohlen von John Baez!
   https://www.ams.org/journals/proc/1961-012-02/S0002-9939-1961-0122702-2/S0002-9939-1961-0122702-2.pdf
 
 
+=== Hereditär endliche Listen
+
+* Es gibt zwei kanonische Ordnungen auf der Menge der hereditär endlichen
+  Listen: die Partialordnung "ist ein Element von" und die bekannte
+  Totalordnung mit Ordnungstyp ε_0.
+
+
 === Parikh
 
 * Es gibt Aussagen, die nur einen langen Beweis haben, aber einen kurzen Beweis,
