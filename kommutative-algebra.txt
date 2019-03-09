@@ -2098,6 +2098,7 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   g(sum_i theta_i(x) x) = g(x).
 
 * Sei M ein A-B-Modul. Dann sind folgende Aussagen äquivalent:
+
   1. Für einen B-A-Modul N gilt M -| N in der 2-Kategorie der Ringe
      (M : B -> A, N : A -> B).
   2. Für einen B-A-Modul N gibt es
