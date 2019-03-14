@@ -1067,6 +1067,10 @@ eine Zerfällung besitzt, nämlich dem Topos der Zerfällungen von f.
   $\bar{k}$ denotes the separable closure of $k$. It was a watershed event for
   the penetration of localic methods in topos theory.
 
+  Luries Wiedergabe vom Beweis von Joyal und Tierney findet sich in
+  http://www.math.harvard.edu/~lurie/278xnotes/Lecture16-Enumerations.pdf
+  und in folgenden Kapiteln.
+
 * http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf lesen
 
 * Jeder (Grothendieck-)Topos hat ja eine boolsche Überdeckung.
