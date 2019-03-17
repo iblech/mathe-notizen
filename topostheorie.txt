@@ -1219,6 +1219,83 @@ anstatt induktiv vorzugehen, wie es sonst in der Mathematik der Fall ist."
   geometrisch.
 
 
+=== Existenzielle Fixpunktlogik
+
+* Referenz: Andreas Blass, Topoi and Computation.
+
+* Neues sprachliches Konstrukt
+
+      let P(x) ← δ(x,y,P) in φ(y,P)
+
+  mit Bedeutung
+
+      ∀P. ((∀x. (δ(x,y,P) ⇒ P(x))) ⇒ φ(y,P)).
+
+  Dabei muss P positiv in δ und φ vorkommen.
+
+* Wenn wir abzählbare Vereinigungen zur Verfügung haben, ist die Bedeutung
+  äquivalent zu
+
+      φ(y,P) wobei P(x) := δ(x,y,⊥) ∨ δ(x,y, (z ↦ δ(z,y,⊥))) ∨ δ(x,y, (w ↦ δ(w,y, (z ↦ δ(z,y,⊥))))) ∨ ...
+
+  Denn mit dieser Definition von P folgt ∀x. δ(x,y,P) ⇒ P(x),
+  und ist P' mit ∀x. (δ(x,y,P') ⇒ P'(x)) gegeben, so folgt ∀x. P(x) ⇒ P'(x).
+
+  Gelte zum Beispiel δ(x,y,⊥). Dann auch δ(x,y,P'). Also P'(x).
+  Oder gelte δ(x,y, (z ↦ δ(z,y,⊥))). Dann nach eben δ(x,y, P'). Also P'(x).
+  und so weiter!
+
+* Kripke--Joyal-Interpretation: entweder mit der Übersetzung zu ∀P oder, aber das ist in
+  Wahrheit gleich, zu:
+
+      φ(y,P) wobei P = ∩ { P' | ∀x. (δ(x,y,P') ⇒ P'(x)) }.
+
+
+=== Spielraum in der Definition des syntaktischen Situs
+
+* Ich denke, man kann sich in der Definition von C_T bei den Objekten auf
+  Horn-Formeln einschränken. Wegen des Vergleichslemmas sollte derselbe Topos
+  herauskommen. Weil ein Objekt der Form {x. bigvee_i φ_i} von den Objekten der
+  Form {x. φ_i} überdeckt wird.
+
+* Ich denke, man kann in der Definition von C_T überall (bei den Objekten,
+  Morphismen und dadurch auch bei den Überdeckungen) bei den Formeln auch die
+  um folgende Konstruktionen ergänzte Sprache verwenden:
+
+  * endliche Limiten
+  * Mengen-indizierte Kolimiten
+  * Fixpunktlogik
+  * Objekt natürlicher Zahlen
+  * Listenobjekte
+
+* Lass den Fall des NNO genauer beleuchten. Also zur Sprache füge ich folgende
+  Dinge hinzu:
+
+      Sorte ℕ, Konstante 0 : ℕ, Funktionssymbol succ : ℕ → ℕ
+
+      Axiome:
+
+          ⊤ ⊢_n bigvee_m (n = succ^m(0))
+          succ(x) = succ(y) ⊢_{x,y} x = y
+          succ(x) = 0 ⊢_x ⊥
+
+  Behauptung: Dann ist よ{n:ℕ. ⊤} das NNO des klassifizierenden Topos.
+
+  * Habe ein Nullelement und ein Nachfolgermorphismus.
+
+  * Sei E eine Garbe zusammen mit z : 1 → E und s : E → E.
+
+    Dann definiere よℕ → E durch Angabe eines Elements von E(ℕ), nämlich durch
+    Ausnutzung des Differenzkerndiagramms
+
+        E(ℕ) → prod_n E(1) ⇒ prod_{n,m} E({. succ^n(0) = succ^m(0)})
+
+    wobei (1 → ℕ)_n die kanonische Überdeckung von ℕ ist.
+
+    Habe das Element (s^n . z)_n von prod_n E(1). Das geht unter den beiden
+    Morphismen aufs gleiche.
+
+
 === Nächste Schritte
 
 * von Peter Arndt empfohlen: John Bell, Toposes and local set theories.

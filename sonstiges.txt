@@ -685,3 +685,23 @@ http://www.ieec.cat/hosted/web-libpoint/papers/roberts.pdf
 === Eine Identität, die pi und e in Beziehung setzt
 
 https://twitter.com/fermatslibrary/status/1061619809669074946
+
+
+=== Robuste Kooperation beim Prisoner's Dilemma mit offenem Quellcode
+
+https://arxiv.org/abs/1602.04184
+
+Idea: In the (non-iterated) prisoner's dilemma, cooperate with your
+opponent if and only if searching all proofs of length <= k shows that
+your opponent would cooperate with you.
+
+This agent will never cooperate if its opponent defects, hence avoiding
+the most undesirable outcome of the experiment. So far so good. But
+there is more:
+
+A variant of Löb's theorem shows that if k is large enough, this agent
+will cooperate with itself. (In strong contrast with the situation where
+"proofs of length <= k" are replaced with "simulations using <= k
+steps".)
+
+And indeed this agent will cooperate with a large class of agents.
