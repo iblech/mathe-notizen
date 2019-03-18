@@ -22,3 +22,23 @@ https://groups.google.com/forum/#!topic/HomotopyTypeTheory/Wf-H6rH155g
 * https://cs.stackexchange.com/questions/83859/continuing-the-example-of-why-its-hard-to-compute-with-univalence
   In hinreichend einfachen Fällen, eventuell den meisten für Informatik
   relevanten, stellt das Univalenzaxiom kein Berechnungsproblem dar.
+
+
+=== Anwendungen außerhalb von Homotopietheorie
+
+* https://math.stackexchange.com/questions/3151953/higher-inductive-type-what-for
+
+* SQL, für einfachere Bag-Semantik.
+  https://homotopytypetheory.org/2016/09/26/hottsql-proving-query-rewrites-with-univalent-sql-semantics/
+
+* Abstrakte Typen -- die Spezifikation lässt sich dann einfach als "spec : PSec = ListSeq"
+  (o.Ä.) formulieren.
+  https://homotopytypetheory.org/2012/11/12/abstract-types-with-isomorphic-types/
+
+* Höhere Linsen. https://homotopytypetheory.org/2014/04/29/higher-lenses/
+
+* Patchtheorie.
+  https://homotopytypetheory.org/2014/09/01/homotopical-patch-theory/
+
+* Integration von Datentypen.
+  https://www.cs.nott.ac.uk/~psztxa/talks/lyon14.pdf
