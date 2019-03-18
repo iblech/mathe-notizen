@@ -180,3 +180,10 @@ Klar, das Hauptresultat lautet:
 === Konstruktiv
 
 * Simon Henry, https://arxiv.org/abs/1807.02650.
+
+  Ist ziemlich geil. Simon macht sogar alles prädikativ. Zwei Einsichten:
+
+  * Überall ausgezeichnete Füllungen und sonstige Daten fordern.
+
+  * Eigenschaften von Morphismen fast immer nur für den Fall, dass die
+    Quelle kofasernd und das Ziel fasernd ist, fordern.

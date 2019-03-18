@@ -1251,6 +1251,67 @@ anstatt induktiv vorzugehen, wie es sonst in der Mathematik der Fall ist."
       φ(y,P) wobei P = ∩ { P' | ∀x. (δ(x,y,P') ⇒ P'(x)) }.
 
 
+=== Klassifizierende Topoi im first-order Fall
+
+* Klar: Mit logischen Morphismen geht's. Das steht in Lambek/Scott.
+
+* Butz/Johnstone
+  (https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.16.4102&rep=rep1&type=pdf)
+  sagen: Es geht auch bezüglich offener geometrischer Morphismen, wenn man sich
+  auf solche Theorien einschränkt, für die es in jedem Kontext nur eine Menge
+  von Äquivalenzklassen von Formeln gibt.
+
+
+
+Behauptung: Im Objektklassifizierer gilt ¬¬(x = y).
+
+Gelte ¬(x = y). Dann T/U ⊢ (x = y ⇒ ⊥).
+Damit meine ich mit "T" die um zwei Konstanten x und y angereicherte Theorie.
+Das ist aber falsch, wie das Modell U + 1 + 1 zeigt.
+
+Ne, einfacher (und korrekter?):
+
+Gelte ¬(x = y). Dann T/U ⊢ (e_x = e_y ⇒ ⊥).
+Dann ist U/(x ~ y) ein Modell, das x mit y identifiziert. Also ⊥.
+
+Gelte ¬(f = 0). Dann T/U ⊢ (e_f = 0 ⇒ ⊥).
+Das heißt U/(f)~ validiert ⊥. Also U/(f) = 0. Also f invertierbar.
+
+Seien x1, ..., xn : U.
+Zeige: ¬ ∀y. bigvee_i (y = x_i).
+
+Angenommen ∀y. top ⇒ bigvee_i (y = x_i).
+Dann zeigt T/U das.
+Also gilt es auch in 1 = {*}.
+Das ist kein Widerspruch. :-)
+
+Also gilt es auch in U + 1.
+Also Widerspruch.
+
+
+Johnstone vermutete: Die first-order Theorie vom generischen Objekt wird
+erzeugt von
+
+    ¬¬(x = y) und ∀x1,...,xn. ¬ ∀y. (y = x1 ∨ ... ∨ y = xn).
+
+Ich sage: wird erzeugt von Nst, also der Aussage
+
+    (irgendwelche Identifikationen) ⇒ bigvee (irgendwelche Identifikationen)
+        impliziert
+    T/U zeigt das.
+
+Zeige: für alle x1,...,xn:
+    falls für alle y: (y = x1 oder ... oder y = xn oder φ),
+    so φ.
+
+Seien x1,...,xn gegeben. Gelte die Sache mit dem für alle y.
+Dann zeigt T/U das.
+Baue U + 1.
+Dann gilt also φ in U + 1.
+Wieso folgt daraus φ für U?
+Weil φ als quantorfrei vorausgesetzt ist.
+
+
 === Spielraum in der Definition des syntaktischen Situs
 
 * Ich denke, man kann sich in der Definition von C_T bei den Objekten auf
