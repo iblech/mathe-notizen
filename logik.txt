@@ -393,6 +393,97 @@ Empfohlen von John Baez!
   http://jdh.hamkins.org/wp-content/uploads/2018/04/Set-theoretic-potentialism-and-universal-finite-set-SLS-2018-1.pdf
 
 
+=== Selbstreferentielle Reflektion
+
+Sei S ein (rekursiv axiomatisierbares, Heyting-Arithmetik umfassendes und die
+HBL-Bedingungen erfüllendes) formales System, das als eine seiner erlaubten
+Schlussregeln folgende enthält:
+
+    Um (im leeren Kontext, ohne Annahmen) eine Aussage φ zu folgern, genügt es,
+    die arithmetische Aussage S ⊢ φ gefolgert zu haben.
+
+Ich fühle mich wohler, wenn wir diese Schlussregel formal in einem Kalkül
+natürlichen Schließens aufschreiben:
+
+    ⊤ ⊢ (S ⊢ φ)
+    -----------   (♡)
+       ⊤ ⊢ φ
+      
+Dann wird der Unterschied zu folgender anderen Schlussregel, die viel stärker
+als (♡) ist, mit Gödel I sofort Inkonsistenz impliziert und nicht gemeint ist,
+klarer:
+    -----------------
+    ⊤ ⊢ ((S ⊢ φ) ⇒ φ)
+
+[ Es ist nicht ganz klar, dass man ein System S mit (♡) konstruieren kann. Aber
+es geht dank der Existenz von Quines [*]. ]
+
+Dank dieser Schlussregel gilt jedenfalls für jede Formel φ:
+
+    Falls S ⊢ (S ⊢ φ), so auch S ⊢ φ.  (☺)
+
+Diese Beobachtung fängt aber die Besonderheit von S noch überhaupt nicht ein!
+Für HA gilt (☺) zum Beispiel auch (eine infinitäre Metatheorie vorausgesetzt):
+Da HA ja nur wahre Aussagen beweist, können wir aus HA ⊢ (HA ⊢ φ) folgern, dass
+HA ⊢ φ.
+
+Das Besondere an S ist, dass Beobachtung (☺) nicht nur gilt, sondern dass sie
+auch formal beweisbar ist. Und zwar schon in schwachen Systemen, denke schon in
+PRA, aber auf jeden Fall in HA und damit in S. Es gilt also:
+
+    S ⊢ ((S ⊢ (S ⊢ φ)) ⇒ (S ⊢ φ)).
+
+Mit Löbs Theorem folgt S ⊢ (S ⊢ φ). Mit (☺) folgt S ⊢ φ.
+
+Das System S beweist also jede Formel φ.
+
+Ich habe das Gefühl, dass man in dieser Argumentation gewinnbringend die
+Anwendung von Löbs Theorem entrollen kann, auf eine Art und Weise, die nach
+Vereinfachung keine(!) Diagonalisierung mehr enthält. Wer möchte sich daran
+versuchen?
+
+
+[*] Wir beginnen mit einem Beweischecker für, sagen wir, HA. Dieser nimmt (eine
+Gödel-Kodierung eines) angeblichen Beweisbaums und prüft, ob es sich dabei um
+einen korrekten HA-Beweis handelt. Dieser Beweischecker soll als Turingmaschine
+vorliegen. Wir können aber dank des Quine-Theorems ohne Einschränkung davon
+ausgehen, dass wir ihn in einer Programmiersprache schreiben können, die ein
+Primitiv bereitstellt, das den Quelltext des laufenden Programms zurückgibt.
+
+Nun modifizieren wir diesen Beweischecker leicht, indem wir folgende Klausel in
+seiner langen if-Abfrage zur Validitätsprüfung hinzufügen:
+
+    Falls der aktuell zu begutachtende Beweisschritt von der Form
+
+        ⊤ ⊢ ∃p. (P hält bei Eingabe von p mit Ausgabe "ja, ist ein korrekter Beweis von #φ")
+        ------------------------------------------------------------------------------------
+                                            ⊤ ⊢ φ
+                                           
+    ist, wobei P (das Numeral zur) (Gödel-Kodierung des) eigenen Quelltexts und
+    #φ (das Numeral zur) (Gödel-Kodierung der) Formel φ ist, so wird dieser
+    Schritt akzeptiert.
+
+In der oberen Zeile der abgesetzten Schlussregel kommt noch deutscher Text vor.
+Logiker*innen wissen, wie der zu einer arithmetischen Aussage übersetzt werden
+kann.
+
+[ Bemerkung am Rande: Der so erhaltene Beweischecker ist keinesfalls eindeutig
+bestimmt. Das Quine-Theorem (übliche Bezeichnung: "recursion theorem")
+garantiert Existenz, aber nicht Eindeutigkeit, auch nicht modulo beobachtbarem
+Verhalten. ]
+
+Jedenfalls kann man sich leicht überlegen, dass das entstehende Programm immer
+noch bei jeder Eingabe terminiert und HA-Beweise als korrekt beurteilt.
+
+Wir konstruieren das gesuchte System S dann so: Für jede Sequenz σ, die der
+neue Beweischecker als validen Beweisschritt akzeptiert, nehmen wir σ als
+Schlussregel. Andere Schlussregeln soll es nicht geben.
+
+Dann kann man sich überlegen, dass S rekursiv axiomatisierbar ist; alle
+Schlussregeln von HA enthält; die HBL-Bedingungen erfüllt; und außerdem Regel (♡)
+enthält.
+
+
 === Gödel und Turing
 
 * Sei PA korrekt für Aussagen über das Halteverhalten von Turingmaschinen.
