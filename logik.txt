@@ -437,10 +437,21 @@ Mit Löbs Theorem folgt S ⊢ (S ⊢ φ). Mit (☺) folgt S ⊢ φ.
 
 Das System S beweist also jede Formel φ.
 
-Ich habe das Gefühl, dass man in dieser Argumentation gewinnbringend die
-Anwendung von Löbs Theorem entrollen kann, auf eine Art und Weise, die nach
-Vereinfachung keine(!) Diagonalisierung mehr enthält. Wer möchte sich daran
-versuchen?
+Offene Punkte:
+
+* Wie kann man möglichst einfach ein Programm angeben, was einen Beweis von
+  jeder beliebigen Formel φ berechnet?
+
+* Die Regel (♡) kann man auf mehrere Arten und Weisen abschwächen, zum Beispiel
+  könnte man statt "∃p. p ist ein Beweis von φ" schreiben: "∃p. p ist ein
+  Beweis von φ und p ist ein Numeral". (Dann haben wir abzählbar viele Regeln,
+  je eine (für jede Formel φ und) jede externe natürliche Zahl.) Statt "ist ein
+  Numeral" könnte man auch sagen: "ist ein Term, in dem nur Numerale, Addition
+  und Subtraktion vorkommen". (Das sollte äquivalent sein.) Oder "ist ein Term,
+  in dem nur primitiv-rekursive Funktionen vorkommen".
+
+* Im intuitionistischen Fall wäre es interessant, Beweisbarkeit durch doppelt
+  negierte Beweisbarkeit zu ersetzen.
 
 
 [*] Wir beginnen mit einem Beweischecker für, sagen wir, HA. Dieser nimmt (eine
@@ -482,6 +493,84 @@ Schlussregel. Andere Schlussregeln soll es nicht geben.
 Dann kann man sich überlegen, dass S rekursiv axiomatisierbar ist; alle
 Schlussregeln von HA enthält; die HBL-Bedingungen erfüllt; und außerdem Regel (♡)
 enthält.
+
+
+=== Quantitatives Löb-Theorem
+
+* Hier noch mal zur Erinnerung, wie man Löb beweist.
+
+  Gelte S ⊢ (Prov(#φ) → φ).
+
+  Mit dem Diagonallemma finden wir eine Formel α mit
+
+      S ⊢ (α ↔ (Prov(#α) → φ)).
+
+  Dann S ⊢ (Prov(#α) → Prov(#φ)). Also durch Nachschalten der Annahme
+  S ⊢ (Prov(#a) → φ). Also S ⊢ α. Also S ⊢ φ.
+
+* Geht das auch quantitativ? Gibt es zu jeder Formel φ eine Zahl n
+  sodass aus r : S ⊢ (Prov_{<n}(#φ) → φ) schon S ⊢ φ folgt?
+  Weiß nicht; es folgt aber ein Argument, wieso für jede Zahl R
+  und jede Formel φ eine Zahl n existiert, sodass aus der Existenz eines
+  <R-Beweises von (Prov_{<n}(#φ) → φ) schon S ⊢ φ folgt.
+
+  Naja: Lass zunächst dieselbe Formel α versuchen.
+
+  Habe also p : S ⊢ (α ↔ (Prov(#α) → φ)).
+  Dann folgt aus q : S ⊢ α schon S ⊢ φ, und zwar so:
+
+      Gelte S ⊢ α.
+      Dann auch S ⊢ Prov(#α).
+      Habe auch S ⊢ (Prov(#a) → φ).
+      Mit Schnittregel folgt S ⊢ φ.
+
+  Wie lang ist dieser Beweis insgesamt? Etwa len(p) +
+  len(Verifizierungsprotokoll von p) + len(q) + Konstanten.
+  Schreibe f_p(|q|) dafür. Ist eine ganz einfache Funktion, auf jeden Fall
+  primitiv-rekursiv.
+
+  Wir haben also: Aus Prov_{<Q}(#α) folgt Prov_{<f_p(Q)}(#φ).
+
+  Das System S kann das auch alles einsehen. Also haben wir:
+
+      S ⊢ (Prov_{<Q}(#α) → Prov_{<f_p(Q)}(#φ)).
+
+  Dieser Beweis hat in etwa Länge len(Verifizierungsprotokoll von p) + Konstanten.
+
+  Wenn wir n := f_p(Q) setzen, wobei wir Q noch zu bestimmen haben, folgt also
+  S ⊢ (Prov_{<Q}(#α) → φ). Dieser Beweis hat in etwa Länge len(Protokoll von p) + len(r).
+
+  Nun sollte diese Implikation äquivalent zu α sein, die Arbeitshypothese, α
+  aus dem unquantitativen Beweis zu übernehmen, müssen wir also leicht
+  anpassen. Wenn wir das unterstellen, haben wir S ⊢ α, und zwar durch einen
+  Beweis, der in etwa die Länge len(Proto p) + len(r) + len(p) =: Q' hat.
+
+  Es folgt S ⊢ (Prov_{<Q'}(#α)). Wir brauchen Q' <= Q. Dann folgt S ⊢ φ.
+
+  Wenn wir mal unterstellen, dass Zahlliterale wegen der Möglichkeit der
+  Binärkodierung nicht ins Gewicht fallen, sind wir fertig:
+  Verifizierungsprotokolle sollten in etwa so lang sein wie die Beweise selbst.
+  Gut, für jeden Beweisschritt kommen noch die Ablaufprotokolle des S-Checkers
+  hinzu. Jedenfalls ist das wohl im Vorfeld berechenbar.
+
+  Dann bekommen wir(?) doch diagonal-/quinemäßig eine Zahl Q und eine Formel α,
+  für die ein Beweis
+
+      p : S ⊢ α ↔ (Prov_{<Q}(#α) → Prov_{<f_p(Q)}(#φ))
+
+  der Länge len(p) mit len(p) + len(Proto p) + R <= Q existiert. Und damit
+  gehen alle obigen Schritte durch.
+
+  Die R-Abhängigkeit kann man eventuell verbessern durch eine trickreichere
+  Argumentation.
+
+* Die KI-Leute sagen in https://arxiv.org/pdf/1602.04184.pdf:
+
+  Für jede Formel φ(n) mit freier Variable n und jede berechenbare Funktion f,
+  die gewisse asymptotische untere Schranken erfüllt, gibt es ein K, sodass:
+
+      Falls S ⊢ ∀k. Proof_{<f(k)}(φ(k)) → φ(k),
+      so    S ⊢ ∀k > K. φ(k).
 
 
 === Gödel und Turing
@@ -994,6 +1083,16 @@ https://staff.fnwi.uva.nl/b.vandenberg3/papers/note_on_haomega.pdf
 * https://arxiv.org/pdf/1805.11342.pdf: Zerfällungen (A <-> B wedge C)
   und Disjunktionen (A <-> B vee C) gibt es in HRM zuhauf (in klassischer RM
   nur sehr selten).
+
+
+=== Hilberts Programm
+
+* Aus Konsistenz von HA folgt Π_0^1-Soundness von HA, und das ist vielleicht
+  wichtiger als Konsistenz:
+
+  Gelte HA ⊢ ∀x. φ(x). Wir möchten zeigen, dass für alle x φ(x) gilt.
+  Sei also x beliebig. Da φ quantorfrei ist, gilt φ(x) oder ¬φ(x).
+  Im zweiten Fall folgt HA ⊢ ¬φ(x), also HA ⊢ ⊥.
 
 
 === Nächste Schritte
