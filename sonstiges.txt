@@ -664,10 +664,10 @@ https://sivers.org/book/NotSoSmart
 
 === Rahmen in Gimp hinzufügen
 
-1. Mit "Bildgröße anpassen" weißen Platz hinzufügen (zum Beispiel 30 Pixel
+1. Mit "Bildgröße anpassen" weißen Platz hinzufügen (zum Beispiel 40 Pixel
    an jeder Seite).
 
-2. Mit "Filter > Dekoration > Rand ausblenden" den eigentlichen Rahmen
+2. Mit "Filter > Dekoration > Rand ausblenden" ("Fuzzy Border") den eigentlichen Rahmen
    hinzufügen. Als Farbe "weiß" auswählen! "Schatten hinzufügen" aktivieren.
    Breite zum Beispiel 15 Pixel.
 

@@ -158,6 +158,11 @@
   Modell M gegeben ist, so klassifiziert dieser Untertopos wohl folgende
   Theorie T_M:
 
+  [ Update! Laut Matthieu Anel stimmt die Aussage nicht. Beispiel Set --> BG.
+  BG hat nur zwei Untertopoi. Die Theorie, die hier folgt, wird laut Olivia 4.2.13
+  durch den Topos, der in der Surjektions-/Injektionsfaktorisierung des
+  gegebenen geometrischen Morphismus vorkommt, klassifiziert. ]
+
   * T
   * Je ein Konstantensymbol für jedes Element von M
   * Axiome, die regeln, dass sich die Funktionssymbole und Relationssymbole von T
@@ -181,6 +186,21 @@
   gegeben.) Wir wissen, dass Set --> E_j eine Äquivalenz ist, da E_j abstrakt
   äquivalent zu Set ist und es nur einen geometrischen Morphismus Set --> Set
   gibt.
+
+
+=== Geometrische Surjektionen
+
+* Man könnte denken, dass geometrische Surjektionen der Form Set → E
+  stets Äquivalenzen sind. Ist aber falsch, wie das Beispiel BG/G → BG
+  zeigt.
+
+  Die analoge Aussage für Örtlichkeitsmorphismen stimmt wohl.
+
+* E/A → E ist genau dann eine Surjektion, wenn A aus interner Sicht bewohnt ist.
+
+  Ja: Genau dann ist const : X → X^A für alle X injektiv, wenn A bewohnt ist.
+  Die Rückrichtung ist klar. Für die Hinrichtung nimm X = Ω und betrachte die
+  beiden Wahrheitswerte ⊤ und [A bewohnt].
 
 
 === Vollständigkeit und Kovollständigkeit
@@ -645,6 +665,18 @@ immer ein offener Untertopos von Set[|T|], oder?
       * U_1 und U_2 sind Subsingletons
       * U_1 ist bewohnt oder U_2 ist bewohnt
       * U_1 und U_2 sind nicht beide bewohnt
+
+* Sei f : F --> Set[T] ein geometrischer Morphismus. Der Topos, der in der
+  Surjektions-/Inklusionsfaktorisierung von f vorkommt, ist dann der
+  klassifizierende Topos von Th(f^*(U_T)), also diejenige Theorie, die genau
+  die Sequenzen als Axiome umfasst, die von f^*(U_T) umfasst werden.
+  (Olivia 4.2.13)
+
+  Als Korollar haben wir: Genau dann ist f surjektiv, wenn f^*(U_T) ein
+  konservatives Modell ist.
+
+* Olivia 7.1.5: Ist F ein Topos über Set[T], so klassifiziert F eine geometric
+  expansion von T.
 
 
 === Siten
@@ -1361,3 +1393,6 @@ Weil φ als quantorfrei vorausgesetzt ist.
 
 * von Peter Arndt empfohlen: John Bell, Toposes and local set theories.
 * consequently.org
+
+* Moderne Sichtweise:
+  http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf
