@@ -367,6 +367,9 @@
   Eilenberg--MacLane-Topoi. Unbedingt ansehen. Könnte zur Definition hilfreich
   sein, oder sollte man als äquivalent nachweisen können!
 
+* https://link.springer.com/article/10.1007/s10485-018-9520-8
+  Über welke Auflösungen von Stefan Schröer. Klingt spannend!
+
 
 === Garbenhom
 
