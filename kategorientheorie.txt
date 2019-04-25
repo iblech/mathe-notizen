@@ -1608,6 +1608,11 @@ die mit einem Funktor nach C kommt.
 * PSh(C)/E = PSh(\int E). Und auch für "Sh" statt "PSh".
 
 
+=== Daggerkategorien
+
+* Martii Karvonen, The Way of the Dagger. https://arxiv.org/abs/1904.10805
+
+
 === Nächste Schritte
 
 * Kurz über "Cat ist vollständig und kovollständig" nachdenken.
