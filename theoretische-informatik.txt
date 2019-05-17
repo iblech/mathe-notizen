@@ -563,3 +563,7 @@ http://eprint.iacr.org/2013/454.pdf
   App : Term(V) → Term(V) → Term(V)
   Abs : (V → Term(V)) → Term(V),
   dann Term = (∀(V : *). Term(V)).
+
+* Nominal Sets (Mengen mit Perm(A)-Wirkung, wobei A die Menge der
+  Variablennamen ist):
+  https://www.cl.cam.ac.uk/~amp12/talks/MGS2011_nominal_sets_slides.pdf

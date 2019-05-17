@@ -137,6 +137,11 @@ http://mathoverflow.net/questions/50879/what-is-the-knot-associated-to-a-prime/5
 * Ist frei (ohne Auswahlaxiom): https://mathoverflow.net/a/84116/31233
 
 
+=== Großer Fermat
+
+* https://www.math.wisc.edu/~boston/869.pdf
+
+
 === Wasser umschütten
 
 https://mathoverflow.net/a/5807/31233

@@ -65,6 +65,18 @@ also c + 2^{-n0} <= c, Widerspruch.
   Wäre beachtenswert, wenn auch vermutlich irrelevant bezüglich der Frage, ob
   Surjektionen von N nach R existieren können.
 
+* Eventuell sind Ishiharas Tricks wichtig. Im Kontext einer strongly
+  extensional mapping f : X → Y, wobei X ein vollständiger metrischer Raum ist,
+  und einer gegen einen Punkt x konvergenten Folge (x_n)_n gilt:
+  https://arxiv.org/pdf/1904.11378.pdf
+
+  * For all positive reals α < β,
+    ∃n ∈ N : ρ(f(xn), f(x)) > α ∨ ∀n ∈ N : ρ(f(xn), f(x)) < β.
+
+  * For all positive reals α < β, either we have
+    * ρ(f(xn), f(x)) < β eventually,
+    * or ρ(f(xn), f(x)) > α infinitely often.
+
 
 === Literatur
 

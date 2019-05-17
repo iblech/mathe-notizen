@@ -780,7 +780,8 @@ Theorie, nämlich "die Theorie ihrer Punkte".
 
       psi  vee  bigvee_i (...)  |-_{T cup T'}  psi.
 
-  "==>": Weil j ein Kern ist (das sollte man noch nachweisen), macht
+  "==>": Weil j ein Kern ist (das sollte man noch nachweisen -- Update: hab das
+  gemacht, in der für den Fall I = 1 angegebenen Vereinfachung), macht
   "*** |-_T j(***)" die Schlussregeln geometrischer Logik mit. Die Axiome von T
   macht das auch mit. Und die Axiome von T' auch! Damit ist alles gezeigt.
 
