@@ -955,6 +955,38 @@ eine Zerfällung besitzt, nämlich dem Topos der Zerfällungen von f.
   Limes von Z[X]'en ist und dass sich Morphismen nur aus polynomiellen
   Ausdrücken zusammensetzen.
 
+* Set^{* → *} klassifiziert Wahrheitswerte.
+
+  Das kann man entweder durch die Beschreibung über flache Funktoren sehen.
+  Oder daran (Argument von Matthias), dass die Theorie der Wahrheitswerte eine
+  Prägarbentheorie ist und die Kategorie der Modelle genau (⊥ → ⊤) ist.
+
+  A truth value φ is compact if and only if for any directed family
+  (α_i)_i of truth values (that is, a family of truth values indexed by a
+  directed set I such that α_i ⇒ α_j for all i, j in I with i ≤ j),
+
+      (φ ⇒ ⋁_i α_i) ⇒ ⋁_i (φ ⇒ α_i).
+
+  It is easy to verify that ⊥ and ⊤ are compact.
+
+  Conversely, let a compact truth value φ be given. Consider the directed set
+
+      I := { 0 } ∪ { 1 | φ }
+
+  and the directed family over I given by
+
+      α_0 := ⊥
+      α_1 := ⊤.
+
+  Then ⋁_i α_i = φ. Hence trivially (φ ⇒ ⋁_i α_i). By assumption,
+  there is an index i such that φ ⇒ α_i. By definition of I,
+  either i = 0 or i = 1. In the first case, we have φ ⇒ ⊥, so ¬φ,
+  so φ = ⊥. In the second case, we have φ. Hence φ = ⊤.
+
+  (If I remember correctly, then I learned this tricky way of defining I
+  from the first couple pages of Moerdijk and Vermeulen's monograph on
+  proper maps of topoi.)
+
 
 === Dedekindsche reelle Zahlen und Cauchy-Zahlen
 
