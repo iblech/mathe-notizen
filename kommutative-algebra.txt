@@ -2338,6 +2338,10 @@ Sei A ein Ring. Dann heißt A[eps]/(eps^2) der Ring der dualen Zahlen über A.
   Konstruktiv gilt noch: Eine endliche Familie von k-Algebren ist genau dann
   gemeinsam treuflach, wenn nicht alle Algebren der Familie Null sind.
 
+* Wie zeigt man konstruktiv, dass A tensor_k B wieder reduziert ist, wenn A und B
+  es sind (wobei k ein Körper ist)?
+  https://mathoverflow.net/questions/9436/reduced-%E2%8A%97-reduced-reduced-what-about-connected
+
 
 === Nakayama
 

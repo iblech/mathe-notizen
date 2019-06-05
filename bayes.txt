@@ -38,6 +38,8 @@
 * Why I am only a half-Bayesian.
   http://ftp.cs.ucla.edu/pub/stat_ser/r284-reprint.pdf
 
+* Interview with Will Kurt on his latest book: Bayesian Statistics The Fun Way
+
 
 === Markov-Ketten
 
