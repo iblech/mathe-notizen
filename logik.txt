@@ -412,6 +412,7 @@ natürlichen Schließens aufschreiben:
 Dann wird der Unterschied zu folgender anderen Schlussregel, die viel stärker
 als (♡) ist, mit Gödel I sofort Inkonsistenz impliziert und nicht gemeint ist,
 klarer:
+
     -----------------
     ⊤ ⊢ ((S ⊢ φ) ⇒ φ)
 
@@ -469,7 +470,7 @@ seiner langen if-Abfrage zur Validitätsprüfung hinzufügen:
         ⊤ ⊢ ∃p. (P hält bei Eingabe von p mit Ausgabe "ja, ist ein korrekter Beweis von #φ")
         ------------------------------------------------------------------------------------
                                             ⊤ ⊢ φ
-                                           
+
     ist, wobei P (das Numeral zur) (Gödel-Kodierung des) eigenen Quelltexts und
     #φ (das Numeral zur) (Gödel-Kodierung der) Formel φ ist, so wird dieser
     Schritt akzeptiert.
