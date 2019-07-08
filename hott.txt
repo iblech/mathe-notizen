@@ -42,3 +42,5 @@ https://groups.google.com/forum/#!topic/HomotopyTypeTheory/Wf-H6rH155g
 
 * Integration von Datentypen.
   https://www.cs.nott.ac.uk/~psztxa/talks/lyon14.pdf
+
+* https://ncatlab.org/davidcorfield/files/AndTalk2.pdf

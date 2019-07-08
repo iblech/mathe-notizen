@@ -1073,6 +1073,9 @@ eine Zerfällung besitzt, nämlich dem Topos der Zerfällungen von f.
   algebraisch ist.) In diesem Fall ist dieser Untertopos also ein Untertopos
   des echten klassifizierenden Topos von T+Ax. Kann man sagen, welcher?
 
+* Prägarbentopoi haben wohl genügend viele Punkte: Die Auswertungsfunktoren
+  sind gemeinsam konservativ.
+
 
 === Theorem von Barr & Co.
 

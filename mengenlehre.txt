@@ -99,6 +99,16 @@ vom inneren Kern.
 * Jedes abzählbare Modell bettet in sein konstruierbares Universum ein.
 
 
+=== Über die Kategorie von Mengen, die von einem Modell erzeugt wird
+
+Mike: But on the third hand, models of two different set theories could produce
+equivalent categories of sets. For instance, the category of sets in a model of
+a non-well-founded set theory, and its subcategory of well-founded sets (which
+form a model of a well-founded set theory), will often be equivalent—for if we
+assume AC, then every set is bijective to a well-founded one (namely, a von
+Neumann ordinal).
+
+
 === Konventionen bei Ordinalzahlarithmetik
 
 * Die Kategorie der Wohlordnungen besitzt wohl keine Produkte (an denen man

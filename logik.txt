@@ -1096,6 +1096,30 @@ https://staff.fnwi.uva.nl/b.vandenberg3/papers/note_on_haomega.pdf
   Im zweiten Fall folgt HA ⊢ ¬φ(x), also HA ⊢ ⊥.
 
 
+=== Theorien ohne Vergangenheit ("The Speech", John Steel)
+
+Jede Π_0^1-Konsequenz eines Systems S ist schon eine Konsequenz von PRA +
+Con(S). (Umgekehrt gilt das nicht, denn Con(S) ist eine solche Konsequenz von
+PRA + Con(S).)
+
+Das zeigt, dass man -- wenn man nur an Π_0^1-Konsequenzen interessiert ist --
+auch gerne in PRA + Con(S) arbeiten kann. Also zum Beispiel in PRA + Con(ZFC).
+Dann kann man also die Position vertreten, dass unendliche Mengen, große
+Kardinalzahlen usw. alle nicht existieren, aber trotzdem die Früchte dieser
+Annahmen ernten.
+
+Steel vergleicht diese Position aber mit der Vorstellung, die Welt sei heute
+früh entstanden, aber auf eine Art und Weise, die vermuten lässt, dass es eine
+Vergangenheit gab (Fossilien, Hintergrundstrahlung, ...).
+
+Steel begegnet damit dem Argument, man könne V = L mit großen Kardinalzahlen
+vereinen: indem man in ZFC + V=L + Con(große Kardinalzahl) arbeite. Darin gibt
+es dann Modelle von ZFC mit großen Kardinalzahlen, aber der Zauberspruch V = L
+erstreckt sich nicht auf diese.
+
+https://cs.nyu.edu/pipermail/fom/2000-January/003643.html
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?
