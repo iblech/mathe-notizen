@@ -7,6 +7,9 @@
   Kategorie A ist dasselbe wie die Kategorie der Monoidobjekte in der Kategorie
   Hom_Span(A)(C_0, C_0), also dasselbe wie eine Monade in Span(A).
 
+  Achtung: Robert Paré sagte gerade (CT2019 in Edinburgh), dass man etwas
+  Gymnastik betreiben müsse, um die richtigen Morphismen zu erhalten.
+
 
 === Extra-Eigenschaften universeller Objekte
 
