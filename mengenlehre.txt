@@ -302,6 +302,11 @@ Dann wird f durch folgende Formel psi realisiert:
   Habe das von Andreas Blass gelernt: https://mathoverflow.net/a/84116/31233
 
 
+=== Zwei Unendlichkeiten, die überraschenderweise gleich sind
+
+https://gowers.wordpress.com/2017/09/19/two-infinities-that-are-surprisingly-equal/
+
+
 === Nichtdeterministische induktive Definitionen
 
 * https://staff.fnwi.uva.nl/b.vandenberg3/papers/NIDpaper.pdf

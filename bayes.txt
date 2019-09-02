@@ -72,6 +72,8 @@ settles the Continuum Hypothesis and the Axiom of Choice.
 
 http://homepages.inf.ed.ac.uk/als/Talks/tacl13.pdf
 
+Eine gute Kategorie von Wahrscheinlichkeitsräumen: https://arxiv.org/pdf/1701.02547.pdf
+
 
 === Verteilte Bayessche Interferenz
 

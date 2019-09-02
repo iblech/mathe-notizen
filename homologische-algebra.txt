@@ -8,7 +8,9 @@ Azyklizität.
 
 Hat ein additiver Funktor einen linksexakten Linksadjungierten, so schickt er
 injektive Objekte auf injektive. (Es genügt sogar, wenn der Linksadjungierte
-additiv ist und Monos auf Monos schickt.)
+additiv ist und Monos auf Monos schickt. (Es genügt sogar, wenn der
+Linksadjungierte nur Monos bewahrt. Dann muss natürlich Injektivität richtig
+formuliert sein, lediglich über Monos.))
 Insbesondere bewahrt der Funktor "|_U", wobei U offen, Injektive.
 
 Sei ein Linksadjungierter A --> B zwischen abelschen Kategorien exakt und treu.
