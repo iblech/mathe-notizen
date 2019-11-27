@@ -678,6 +678,33 @@ immer ein offener Untertopos von Set[|T|], oder?
 * Olivia 7.1.5: Ist F ein Topos über Set[T], so klassifiziert F eine geometric
   expansion von T.
 
+* Klassifiziere Sh(C) eine geometrische Theorie T. Sei T' eine
+  Quotiententheorie von T. Die Axiome können wir immer in folgender Form
+  schreiben:
+
+      φ ⊢_x bigvee_i φ_i,
+
+  wobei in φ und φ_i keine Disjunktionen vorkommen und die φ_i φ bedingen.
+  Das generische Modell erfüllt ein solches Axiom genau dann, wenn die
+  kanonischen Unterobjektsinklusionen
+
+      ([| φ_i |] → [| φ |])_i
+          (beides Unterobjekte von [| x |])
+
+  im Topos eine gemeinsam epimorphe Familie sind.
+
+  Gelte für all diese Axiome, dass es eine Familie (X_i → X)_i in C gibt, deren
+  Bild unter Yoneda und Garbifizierung in Sh(C) diese Familie gibt.
+
+  Dann gilt: Der klassifizierende Topos von T' ist der Garbentopos über C',
+  wobei C' aus C dadurch hervorgeht, dass man diese Familien (X_i → X)_i
+  zur Topologie hinzufügt. Dazu sind zwei Fakten einzusehen.
+
+  (1) Die Nachvergarbung des generischen Modells aus Sh(C) in dem neuen
+      Garbentopos validiert die Axiome von T'. D
+
+  XXX
+
 
 === Siten
 
