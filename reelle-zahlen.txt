@@ -77,6 +77,10 @@ also c + 2^{-n0} <= c, Widerspruch.
     * ρ(f(xn), f(x)) < β eventually,
     * or ρ(f(xn), f(x)) > α infinitely often.
 
+* https://mathoverflow.net/questions/346975/an-axiom-that-shows-that-the-real-numbers-are-weakly-countable
+
+* Anhang von http://www.cs.au.dk/~spitters/obs.pdf
+
 
 === Literatur
 
