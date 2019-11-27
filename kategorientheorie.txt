@@ -576,6 +576,15 @@ Ferner gilt:
   Umgekehrt ist jede Zerlegung von N von dieser Art.
   http://www.math.mcgill.ca/barr/lambek/pdffiles/galois.pdf
 
+* Seien F : D → C, F' : E → C, H : D → E.
+  Seien (G -| F) und (G' -| F') adjungierte Funktorpaare.
+  Sei F' volltreu. Gelte F' . H = F.
+
+  Dann besitzt H einen Linksadjungierten, nämlich G . F'.
+  Denn:
+
+      Hom(GF'X, Y) = Hom(F'X, FY) = Hom(F'X, F'HY) = Hom(X, HY).
+
 
 === Isomorphismen unter Bijektionen von Hom-Mengen
 
