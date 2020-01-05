@@ -43,6 +43,9 @@
   There exists a constant L such that no string of bits has Kolmogorov
   complexity that provably exceeds L.
 
+* http://www.ams.org/notices/201011/rtx101101454p.pdf
+  Beweis von Gödel II mit Chaitin und dem unexpected hanging paradox
+
 
 === Unlösbare Probleme
 
