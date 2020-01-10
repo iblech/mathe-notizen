@@ -578,3 +578,21 @@ Hochgelobt von David Roberts auf MO.
   nicht vertragen würden. Das ist natürlich falsch. Aber eine gewisse
   Präzisierung davon stimmt: In function realizability, jede diskrete Menge ist
   abzählbar. https://mathoverflow.net/a/296882/31233
+
+
+=== Approximative Maxima
+
+(1) The statement "for any ε > 0, for any uniformly continuous function
+f : [0,1] → ℝ, there is a point x₀ ∈ [0,1] such that f(x) ≤ f(x₀) + ε
+for all x ∈ [0,1]" is constructively provable (without any form of
+choice). [Proof idea: Find an appropriate δ using uniform continuity.
+Subdivide [0,1] in overlapping intervals of length at most δ. Take the
+maximum of the (finitely many) values of f at the interval boundaries.
+Then find a point x₀ such that f(x₀) is close to this maximum.]
+
+(2) The statement "for any ε > 0, for any pointwise continuous function
+f : [0,1] → ℝ, there is a point x₀ ∈ [0,1] such that f(x) ≤ f(x₀) + ε
+for all x ∈ [0,1]" is not constructively provable. It would entail that
+any continuous function on [0,1] is bounded. However, this fails in
+RUSS. (However, it does hold in toposes of sheaves over locally compact
+spaces, at least assuming a classical metatheory.)
