@@ -1045,6 +1045,16 @@ eine Zerfällung besitzt, nämlich dem Topos der Zerfällungen von f.
   gibt, relevant sein.
   https://mathoverflow.net/questions/286269/can-we-internalize-topological-fixed-point-theorems-in-an-effective-topos
 
+* Angeblich (irgendwo gelesen) wird in Sh(R) jeder Morphismus C --> C (mit C
+  der Garbe der stetigen Funktionen) von einer stetigen Abbildung R x R --> R
+  induziert. Oder nur jeder stetiger?
+
+  Ist α : C --> C ein aus interner Sicht punktweise stetiger Morphismus, so
+  können wir durch die Setzung f_x(y) := α(const_y)(x) eine Abbildung R x R --> R
+  definieren. Stetigkeit von α müsste dann liefern, dass α(φ) -
+  α(const_{φ(x)}) beliebig klein sein sollte, dass also α(φ)(y) mit f_x(y)
+  übereinstimmt.
+
 
 === Lokalische Reflektion
 
