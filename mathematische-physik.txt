@@ -21,6 +21,13 @@ http://arxiv.org/abs/1408.0050
   in linear homotopy-type theory."
 
 
+=== Kontinuum
+
+http://math.ucr.edu/home/baez/continuum.pdf
+https://arxiv.org/abs/gr-qc/0103044 (ART)
+http://www.pitt.edu/~jearman/Earman_1995BangsCrunches.pdf
+
+
 === Nächste Schritte
 
 * Lesen: A higher stacky perspective on Chern-Simons theory.

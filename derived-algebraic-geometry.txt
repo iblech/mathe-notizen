@@ -48,3 +48,8 @@ bis 8.jpg.
 === Malapani
 
 https://arxiv.org/pdf/1811.12937.pdf
+
+
+=== Anel
+
+http://mathieu.anel.free.fr/mat/doc/Anel-DerivedGeometry.pdf

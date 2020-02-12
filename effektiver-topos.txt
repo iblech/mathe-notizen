@@ -270,6 +270,37 @@ Nach https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/hyland-effectiv
       forall x. (A(x) --> exists y. B(x,y))
           --> exists e. forall x. (A(x) --> M_e(x) terminiert und B(x, M_e(x)))
 
+  (Für "fast negative" Formeln A gilt: Es gibt eine Turingmaschine, die einen
+  Realisierer für A findet, sofern es einen solchen gibt (ganz ohne Markovs
+  Prinzip, diese Behauptung ist in HA beweisbar).)
+
+  (Einer der Fälle des Beweises dieser Behauptung: Ang. (A --> A') hat einen
+  Realisierer. Dann gibt es also e mit forall r. (r |- A ==> er! & er |- A').
+  Eine solche Maschine e können wir aber auch selbst bauen: Lese ein r als
+  Eingabe ein und setze voraus, dass r |- A. Dann hat ja A einen Realisierer.
+  Also finden wir, da A' fast negativ ist, einen Realisierer für A'. Den nennen
+  wir er.)
+
+  (Hm, ich kann diese Behauptung doch ausdehnen auf "vee", oder: Seien e und e'
+  Maschinen, die Realisierer von A bzw. A' finden. Lasse diese in verzahnter
+  Art und Weise ablaufen, bis eine terminiert. Dann gib den entsprechenden
+  Realisierer aus. Tja, gute Idee, aber funktioniert nicht: Das Verhalten von
+  e und e' ist ja nicht spezifiziert, falls A bzw. A' keine Realisierer haben.
+  Insbesondere könnten sie mit falschen Ergebnissen terminieren. Das kann ich
+  auch nicht durch cleverere Konstruktion verhindern, zumindest nicht mit
+  gewöhnlichen Maschinen im Vergleich zu ITTMs.)
+
+  (Für jede Aussage A ist "r |- A" äquivalent (über HA) zu einer fast
+  negativen. Behauptet Seite 245 von Oosten (Realizability: its categorical
+  side). Müsste auch passen.)
+
+  (Für jede fast negative Formeln A gilt: A <--> (exists r. r |- A).)
+  top bottom = wedge vee implies forall exists
+  (A --> B). Zeige: Gibt r mit: Ist x mit x |- A, so rx! mit rx |- B.
+  (forall x. A(x)). Zeige: Gibt r mit: rx! mit rx |- A(x).
+
+  (Mit MP gilt für alle fast negativen Formeln A: Genau dann A, wenn A^negneg.)
+
 * Daraus folgt: HA |- (|== phi) genau dann, wenn HA + ECT_0 |- phi.
 
   Die Rückrichtung ist klar, denn HA |- (|== ECT_0).
@@ -290,6 +321,12 @@ Nach https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/hyland-effectiv
 * Krivines Philosophie ist: Neue Programmierkonzepte sollten dadurch motiviert
   werden, dass sie wichtige Axiome realisieren.
   http://lama.univ-savoie.fr/~hyvernat/Realisabilite2011/Files/JohnLongley1.pdf#page=18
+
+
+=== Referenz über viele Realisierbarkeitsarten
+
+https://staff.fnwi.uva.nl/d.h.j.dejongh/teaching/il/real0new.pdf
+Seite 19
 
 
 === Gleichmäßige Stetigkeit
@@ -386,6 +423,83 @@ stetig sind:
 === Verallgemeinerung von ITTMs, die Wahrheit in V berechnen können
 
 https://arxiv.org/pdf/1806.08747.pdf
+
+
+=== Verschachtelter effektiver Topos
+
+* Für jede Formel α von HA^ω (auf jeden Fall HA) gilt:
+
+      Eff |== α   genau dann, wenn   Eff |== (Eff |== α).
+
+  exists r. r |- α   gdw.  exists s. s |- exists r. α
+
+  (Auch für HA^ω, falls ich die Aussage "e hält auf Eingabe n" als fast
+  negative Aussage schreiben kann.)
+
+* Es stimmt aber nicht, dass [[Eff]]_Eff = Eff ist. Das ist Seite 247 von
+  Oosten. (Also auch nicht, dass Eff glaubt, dass Eff gleich Set ist.)
+
+* Es gibt aber eine verwandte Konstruktion Eff'. Mit LEM gilt Eff = Eff'.
+  Und [[Eff']]_Eff = Eff, wenn ich Seite 250 richtig lese. Also (weiterhin LEM
+  in der Metatheorie angenommen) glaubt Eff', dass Eff' gleich Set ist.
+
+* Wie man Eff und Set schnell auseinanderhalten kann (wenn man klassische Logik
+  zur Verfügung hat):
+
+  In Eff gibt es kein abzählbares Koprodukt von 1. Angenommen das gäbe es, K.
+  Dann gäbe es 2^{aleph_0} viele Morphismen K → N. (Genauer: So viele, wie es
+  Funktionen N → N gibt.) Aber es gibt nur abzählbar viele Morphismen von
+  irgendeinem Objekt nach N hinein.
+
+
+=== Mangelnde Quotienten in Asm, der Kategorie der Assemblies
+
+* Oosten schreibt: Die Kategorie der Assemblies ist regulär, kartesisch
+  abgeschlossen und besitzt endliche Kolimiten.
+
+* Insbesondere gibt es Kodifferenzkerne von Äquivalenzrelationen.
+  (Zu konstruieren wie man es erwarten würde.)
+
+* Aber die Aussage "forall x,y. x ~ y ⇐ pi(x) = pi(y)" ist im Allgemeinen
+  falsch. Okay im Allgemeinen nur, falls die Äquivalenzrelation ¬¬-stabil ist.
+
+
+=== Zum Unterobjektklassifizierer im effektiven Topos
+
+* Oosten Seite 131:
+
+      forall p : Ω. exists A : P_¬¬(ℕ).
+          (p ↔ (A bewohnt)).
+
+
+=== Church-Numerale im effektiven Topos
+
+https://nforum.ncatlab.org/discussion/8622/church-numerals-are-realizers/
+
+
+=== Interne modest Mengen
+
+* IM, die Kategorie der internal modest sets in Eff, ist eine interne Kategorie
+  in Eff. Sie ist vollständig(!).
+
+* Ergebnis: Jeder Funktor IM → IM hat einen Fixpunkt.
+
+* Damit kann man etwa schnell ein Modell des untypisierten Lambdakalküls bauen,
+  einfach Fixpunkt von D ⊢→ D^D finden.
+
+Steht alles auf Seite 236 von /Elementary Categories, Elementary Toposes/
+von Colin McLarty.
+
+
+=== Gluing
+
+* Wirklich mal Artin-Gluing verstehen. Das verarztet diese Slash-Relationen und
+  so. Oostens Buch.
+
+
+=== De Jong's Theorem
+
+* HA ist konservativ über Prädikatenkalkül im Sinne von Seite 123 Oosten.
 
 
 === Quellen

@@ -99,6 +99,22 @@ vom inneren Kern.
 * Jedes abzählbare Modell bettet in sein konstruierbares Universum ein.
 
 
+=== Die Hierarchie großer Kardinalzahlen
+
+* Wenn wir an ZFC glauben, dann wohl auch an ZFC_1 = ZFC + Con(ZFC),
+  und damit an ZFC_2 = ZFC_1 + Con(ZFC_1) und so weiter, so lange wir kommen.
+
+  All diese Theorien sind noch relativ weit unten in der Hierarchie von
+  Erweiterungen von ZFC. Denn schon die Existenz eines ω-Modells von ZFC
+  impliziert die Konsistenz von allen ZFC_α: Sei so ein Modell M gegeben.
+  Damit ist ZFC konsistent, also gilt Con(ZFC). Dies ist eine arithmetische
+  Aussage über die echten natürlichen Zahlen ℕ. Da M ein ω-Modell ist, gilt sie
+  auch in M. Somit ist M sogar ein Modell von ZFC_1. Also ist ZFC_1 konsistent.
+  Und so weiter...
+
+  https://mathoverflow.net/a/12876/31233
+
+
 === Über die Kategorie von Mengen, die von einem Modell erzeugt wird
 
 Mike: But on the third hand, models of two different set theories could produce

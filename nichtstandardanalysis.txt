@@ -28,6 +28,9 @@
   filters, Erik Palmgren; ebenso A sheaf-theoretic foundation for nonstandard
   analysis.
 
+* Analysis-Lehrbuch, was auf NSA setzt:
+  http://www.math.wisc.edu/~keisler/calc.html
+
 
 === Taos cheap nonstandard analysis
 

@@ -705,3 +705,8 @@ will cooperate with itself. (In strong contrast with the situation where
 steps".)
 
 And indeed this agent will cooperate with a large class of agents.
+
+
+=== Empire time
+
+http://www.aleph.se/Trans/Tech/Space-Time/wormholes.html

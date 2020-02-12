@@ -596,3 +596,11 @@ for all x ∈ [0,1]" is not constructively provable. It would entail that
 any continuous function on [0,1] is bounded. However, this fails in
 RUSS. (However, it does hold in toposes of sheaves over locally compact
 spaces, at least assuming a classical metatheory.)
+
+
+=== Exakte Brechnungen
+
+https://dl.acm.org/doi/pdf/10.1145/3341703
+
+Beschreibt eine Sprache, MarshallB, in der alle Funktionen stetig sind und
+Maxima von kompakten Mengen bestimmt werden können.

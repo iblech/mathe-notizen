@@ -595,7 +595,7 @@ enthält.
 * Von Andreas Kaseorg (https://news.ycombinator.com/reply?id=18117460):
 
   Sei M diejenige Maschine, die nach einem S-Beweis, dass M nicht halten wird,
-  absucht, und bei Auffinden eines solchen Beweises anhält.
+  sucht, und bei Auffinden eines solchen Beweises anhält.
 
   Falls S zeigt, dass M nicht hält, dann hält M; S kann das auch einsehen; also
   ist S inkonsistent.
@@ -1121,6 +1121,12 @@ es dann Modelle von ZFC mit großen Kardinalzahlen, aber der Zauberspruch V = L
 erstreckt sich nicht auf diese.
 
 https://cs.nyu.edu/pipermail/fom/2000-January/003643.html
+
+
+=== Löb in KI-Forschung
+
+* https://agentfoundations.org/item?id=320: Procrastination Paradox,
+  Consistency Waterfall
 
 
 === Nächste Schritte
