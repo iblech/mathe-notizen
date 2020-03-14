@@ -396,6 +396,29 @@ Empfohlen von John Baez!
   http://jdh.hamkins.org/wp-content/uploads/2018/04/Set-theoretic-potentialism-and-universal-finite-set-SLS-2018-1.pdf
 
 
+=== Nichtzeigbarkeit von Äquikonsistenz
+
+Sei S ein formales System (das die Voraussetzungen von Gödel II erfüllt), zum
+Beispiel ZFC. Sei U ein Axiom mit S+U ⊢ Con(S), zum Beispiel ein großes
+Kardinalzahlaxiom.
+
+Sei B ein Basissystem, das höchstens so stark wie S ist, etwa PA.
+
+Sei ☻ die Aussage: "Incon(S) ↔ Incon(S+U)". Dann gilt:
+
+    Falls B ⊢ ☻, so B ⊢ Incon(S).
+
+Etwa werden PA oder ZFC nicht beweisen, dass ZFC äquikonsistent zu ZFC+U ist
+(während sie schon beweisen, dass ZFC und ZFC+CH oder ZF und ZFC etc.
+äquikonsistent sind).
+
+Das geht so. Gelte B ⊢ ☻. Dann auch S ⊢ ☻ und B ⊢ (S ⊢ ☻). Den Rest erledigen
+wir durch Arbeit in B:
+
+    Wir haben also ☻ und S ⊢ ☻. Da S+U ⊢ Con(S) und S+U ⊢ ☻, haben wir
+    S+U ⊢ Con(S+U). Mit Gödel II folgt Incon(S+U). Mit ☻ folgt Incon(S).
+
+
 === Selbstreferentielle Reflektion
 
 Sei S ein (rekursiv axiomatisierbares, Heyting-Arithmetik umfassendes und die

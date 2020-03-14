@@ -567,3 +567,8 @@ http://eprint.iacr.org/2013/454.pdf
 * Nominal Sets (Mengen mit Perm(A)-Wirkung, wobei A die Menge der
   Variablennamen ist):
   https://www.cl.cam.ac.uk/~amp12/talks/MGS2011_nominal_sets_slides.pdf
+
+
+=== Ableitungen von Turingmaschinen
+
+http://therisingsea.org/notes/talk-beida-tm-2018.pdf
