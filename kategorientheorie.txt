@@ -1625,6 +1625,118 @@ die mit einem Funktor nach C kommt.
 * Martii Karvonen, The Way of the Dagger. https://arxiv.org/abs/1904.10805
 
 
+=== Indizierung und Co.
+
+* Eine S-indizierte Kategorie ist ein Pseudofunktor S^op → Cat.
+
+  Beispiele:
+
+  * Jede Kategorie induziert eine Set-indizierte Kategorie (die "naive
+    Indizierung").
+
+  * Jede Kategorie S mit Rückzügen induziert eine S-indizierte Kategorie: X ↦ S/X.
+    (Als Faserung: cod : S^→ → S.)
+
+    Eine Unterkategorie dieser S-indizierten Kategorie ist X ↦ Sub(X).
+
+  * Wir haben einen Funktor S\Cart → Cat_S, also von kartesischen Kategorien
+    unter S zu S-indizierten Kategorien: ein lex Funktor F : S → C
+    induziert die S-indizierte Kategorie X ↦ C/F(X).
+
+    Als Faserung: Gl(F) → S.
+
+  * Wir haben die S-indizierten Funktorkategorie ⟦ℂ,ⅅ⟧ mit X ↦ [ℂ,ⅅ^X].
+
+  * Sei I ein Objekt aus S. Dann haben wir X ↦ Hom(X,I).
+    Es gilt ℂ^I = ⟦I,ℂ⟧.
+
+* Sei F : S → C ein Funktor zwischen kartesischen Kategorien mit
+  Rechtsadjungiertem R : C → S. Dann hat R eine kanonische Erweiterung zu einem
+  S-indizierten Funktor ℂ → 𝕊, wobei 𝕊 die Selbstindizierung von S ist und
+  ℂ^I = C/F(I).
+
+  Nämlich auf I ∈ S, C/F(I) → S/I durch erst Anwenden von R und dann
+  Rückzug längs I → RF(I).
+
+  Falls F Rückzüge bewahrt und daher einen S-indizierten Funktor 𝕊 → ℂ
+  induziert, ist dieser in einem indizierten Sinne linksadjungiert zur obigen
+  Fortsetzung von R.
+
+* Eine S-indizierte Kategorie ℂ gibt Anlass zu einer über S gefaserten
+  Kategorie ∫ℂ → S.
+
+      Objekte: (I ∈ S, A ∈ C^I)
+      Morphismen: Hom((I,A), (J,B)) = { (x : I → J, g : A → x^*(B)) }
+
+* Sei p : C → S ein Funktor. Ein Morphismus f : E' → E in C ist genau dann
+  *kartesisch* (prone), falls für jeden Morphismus g : E'' → E in C
+  und jeden Morphismus h : p(E'') → p(E') mit p(f) . h = p(g) genau ein
+  Morphismus k : E'' → E' mit f . k = g und p(k) = h existiert.
+
+                  k
+            E'' - - > E'
+               \      |
+              g \     | f
+                 \    v
+                  --> E
+
+  Bezüglich cod : S^→ → S sind genau die kartesischen Quadrate kartesische
+  Morphismen.
+
+* Ein Funktion p : C → S ist genau dann eine *Faserung*, falls für jedes Objekt
+  E aus C und jeden Morphismus x : I → p(E) ein kartesischer Morphismus
+  existiert, der unter p auf x abgebildet wird.
+
+  Ein cleavage für eine Faserung ist eine Auswahlfunktion für solche
+  kartesischen Morphismen.
+
+* S-indizierte Kategorien sind dasselbe wie cloven fibrations über S.
+
+* Eine S-indizierte Kategorie ℂ hat genau dann "endliche Limiten", wenn
+  alle Fasern C^I endliche Limiten haben und die Rückzugsfunktoren diese
+  bewahren. Im Bild von Faserungen gesprochen: falls ∫ℂ endliche Limiten
+  hat und der Projektionsfunktor diese bewahrt.
+
+* Eine S-indizierte Kategorie ℂ hat genau dann S-indizierte Produkte,
+  wenn all die Rückzugsfunktoren Rechtsadjungierte haben und diese die
+  Beck–Chevalley-Bedingung erfüllen.
+
+* Sei F : S → C ein Funktor zwischen kartesischen Kategorien.
+  Genau dann hat ℂ S-indizierte Koprodukte, wenn F Rückzüge bewahrt.
+
+* Eine S-indizierte Kategorie ℂ ist genau dann ein *Stack* bezüglich einer
+  Grothendieck-Bedeckung auf S, wenn für jede Überdeckung R = (U_i → U)_i
+  der kanonische Funktor C^I → Desc(ℂ,R) eine Äquivalenz ist.
+  (Für einen Prestack fordern wir nur Volltreuheit.)
+
+  Ist ℂ ein Prestack, so ist die Zuordnung I ↦ Hom_{C^I}(I^*A,I^*B)
+  für Objekte A, B in C^1 eine Garbe.
+
+* Eine Set-indizierte Kategorie ℂ ist genau dann ein Stack bezüglich der
+  Topologie bestehend aus den gemeinsam-surjektiven Familien, wenn ℂ
+  als indizierte Kategorie äquivalent zur naiven Indizierung von C^1 ist.
+
+* Lokal-interne Kategorien über kartesischen Kategorien sind dasselbe wie
+  "lokal kleine" indizierte Kategorien (B2.2.2).
+
+* Ein S-indizierter Topos ist eine S-indizierte Kategorie ℂ derart,
+  dass alle C^I Topoi und die Rückzugsmorphismen logische Funktoren sind.
+
+  Die Scheibenkategorie Top/S bettet in die Kategorie der S-indizierten Topoi
+  ein (siehe B3.1.4 für wieso nicht wesentlich surjektiv).
+
+* Herausfinden: Wie stehen Vollständigkeit und Kovollständigkeit von
+  internen und indizierten Kategorien mit ihren internen Gegenstücken in
+  Verbindung? Kor. B2.4.8 ist interessant: Eine S-interne Kategorie ist genau
+  dann S-vollständig, wenn sie S-kovollständig ist (S kartesisch abgeschlossen
+  vorausgesetzt).
+
+  * Mit dem Wort "Stack" neu klären: Besitze ℂ ein terminales Objekt im
+    schwachen Sinn. Dann auch im starken.
+
+  * Whoa, B3.2 (Seite 388) sagt: S^→ klassifiziert Subterminale.
+
+
 === Nächste Schritte
 
 * Kurz über "Cat ist vollständig und kovollständig" nachdenken.
