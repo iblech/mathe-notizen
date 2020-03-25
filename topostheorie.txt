@@ -725,6 +725,15 @@ immer ein offener Untertopos von Set[|T|], oder?
   PSh(C), und in C2.2.4(d) steht, welche Topologie man auf C packen muss, um
   das direkt einzusehen.
 
+* Für Siten kann man ja allerlei Vollständigkeitseigenschaften formulieren.
+  Und zudem die Eigenschaft, dass jede Überdeckung nur einmal vorkommt.
+  Die sind schön und gut für externe Siten, aber im Allgemeinen nicht bewahrt
+  beim Rückzug interner Siten (siehe etwa C2.4.5).
+
+* Sh_E(C) --> E ist genau dann surjektiv, wenn alle Überdeckungen, die in C
+  vorkommen, bewohnt sind -- falls C eine der Vollständigkeitseigenschaften
+  erfüllt (Lemma C2.4.8).
+
 
 === W-Typen
 

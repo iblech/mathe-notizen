@@ -1692,6 +1692,8 @@ die mit einem Funktor nach C kommt.
 
 * S-indizierte Kategorien sind dasselbe wie cloven fibrations über S.
 
+* Sei C ein Situs. Dann ist ay : C → Sh(C) eine Faserung(?). Über eine Garbe F
+
 * Eine S-indizierte Kategorie ℂ hat genau dann "endliche Limiten", wenn
   alle Fasern C^I endliche Limiten haben und die Rückzugsfunktoren diese
   bewahren. Im Bild von Faserungen gesprochen: falls ∫ℂ endliche Limiten
@@ -1723,18 +1725,78 @@ die mit einem Funktor nach C kommt.
   dass alle C^I Topoi und die Rückzugsmorphismen logische Funktoren sind.
 
   Die Scheibenkategorie Top/S bettet in die Kategorie der S-indizierten Topoi
-  ein (siehe B3.1.4 für wieso nicht wesentlich surjektiv).
+  ein (siehe B3.1.4 für wieso nicht wesentlich surjektiv). Streichers Notizen
+  zu Faserungen sagen (S. 73): Geometrische Morphismen in eien Topos S
+  sind dasselbe wie über S gefaserte Topoi, die kovollständig und lokal klein
+  sind.
 
-* Herausfinden: Wie stehen Vollständigkeit und Kovollständigkeit von
-  internen und indizierten Kategorien mit ihren internen Gegenstücken in
-  Verbindung? Kor. B2.4.8 ist interessant: Eine S-interne Kategorie ist genau
-  dann S-vollständig, wenn sie S-kovollständig ist (S kartesisch abgeschlossen
-  vorausgesetzt).
+* Sei E ein Topos über Set und I eine Menge. Jede Δ(I)-indizierte Familie von
+  Objekten in E, also jeder Morphismus X → Δ(I), gibt Anlass zu einer
+  I-indizierten externen Familie, nämlich der Familie (iota_i^*(X))_i der
+  Rückzüge (dabei iota_i : 1 → Δ(I)).
+
+  Genau dann kommt eine externe Familie (X_i)_i von Objekten von E von einer
+  solchen internen Familie, wenn die X_i alle Unterobjekte eines gemeinsamen
+  Objekts X sind.
+
+  "==>": X_i = iota_i^*(X) ist Unterobjekt von X.
+
+  "<==": Seien die X_i alle Unterobjekte von einem Objekt X.
+  Definiere dann Y als ein gewisses Unterobjekt von Δ(I) x X, nämlich ...
+  ???
+
+* Herausfinden:
+
+  * Wie stehen Vollständigkeit und Kovollständigkeit von internen und
+    indizierten Kategorien mit ihren internen Gegenstücken in Verbindung? Kor.
+    B2.4.8 ist interessant: Eine S-interne Kategorie ist genau dann
+    S-vollständig, wenn sie S-kovollständig ist (S kartesisch abgeschlossen
+    vorausgesetzt).
 
   * Mit dem Wort "Stack" neu klären: Besitze ℂ ein terminales Objekt im
     schwachen Sinn. Dann auch im starken.
 
   * Whoa, B3.2 (Seite 388) sagt: S^→ klassifiziert Subterminale.
+
+* Die Gluing-Konstruktion ist einfach der Rückzug von cod : S^→ → S
+  längs eines Funktors.
+
+* Ist E ein Topos, so haben wir drei wichtige Topoi über E:
+
+  (1) Den geometrischen Morphismus id : E → E.
+      Als E-indizierte Kategorie: X ↦ E/X.
+      Als Faserung: cod : E^→ → E.
+
+      E klassifiziert als E-Topos die leere Theorie und als Topos dasselbe, was
+      E klassifiziert.
+
+  (2) Den geometrischen Morphismus f : E^→ → E
+      mit f^*(X) = (X → X), f_*(X → Y) = X, f_!(X → Y) = Y.
+      (Allgemeiner für f : E^C → E: f_* = lim, f^* = const, f_! = colim.)
+      Als E-indizierte Kategorie: X ↦ E^→/(X→X)
+      Als Faserung: last : E^3 → E mit 3 = (0 < 1 < 2).
+
+      E klassifiziert als E-Topos Subterminale.
+      Das weiß man zum Beispiel deswegen, weil die Theorie der Subterminale
+      (eine Sorte, keine Konstanten, ein Axiom: ⊤ ⊢ x = y) eine algebraische
+      Theorie ist, daher vom Prägarbentyp, und daher klassifiziert wird durch
+      den Koprägarbentopos auf den endlich präsentierten Modellen. Von denen
+      gibt es aber nur zwei: die leere Menge und die einelementige.
+
+      Wenn E eine Theorie 𝕋 klassifiziert, so klassifiziert E^→ wohl Modelle
+      von 𝕋 zusammen mit einem Subterminal (welches nichts mit dem Modell zu tun
+      haben muss).
+
+  (3) Sei E = Set[𝕋]. Dann haben wir den geometrischen Morphismus Set[𝕋^→] → Set[𝕋],
+      welcher auf Modellen dom berechnet. (cod gibt es auch.)
+      (Unter diesem zieht sich das generische 𝕋-Modell zur Quelle des
+      generischen 𝕋^→-Modells zurück.)
+
+      Wenn E = Sh(C), könnte Set[𝕋^→] durch Sh(C^→) gegeben sein.
+      Dazu gibt es folgenden Anhaltspunkt: Wenn 𝕋 algebraisch ist, ist ja C^op als
+      Kategorie der endlich präsentierten Modelle wählbar. Die Pfeilkategorie
+      C^→ ist dann vermutlich die Kategorie der endlich präsentierten Modelle
+      von 𝕋^→.
 
 
 === Nächste Schritte
