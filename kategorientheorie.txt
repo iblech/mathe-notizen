@@ -1692,7 +1692,8 @@ die mit einem Funktor nach C kommt.
 
 * S-indizierte Kategorien sind dasselbe wie cloven fibrations über S.
 
-* Sei C ein Situs. Dann ist ay : C → Sh(C) eine Faserung(?). Über eine Garbe F
+* Sei C ein Situs. Dann ist ay : C → Sh(C) *keine* Faserung.
+  Aber etwas ähnliches ist möglich, siehe unten.
 
 * Eine S-indizierte Kategorie ℂ hat genau dann "endliche Limiten", wenn
   alle Fasern C^I endliche Limiten haben und die Rückzugsfunktoren diese
@@ -1713,6 +1714,10 @@ die mit einem Funktor nach C kommt.
 
   Ist ℂ ein Prestack, so ist die Zuordnung I ↦ Hom_{C^I}(I^*A,I^*B)
   für Objekte A, B in C^1 eine Garbe.
+
+  Jede lokal kleine indizierte Kategorie ist ein Prästack, wenn die
+  Topologie subkanonisch ist. Insbesondere sind in diesem Fall interne
+  Kategorien Prästacks.
 
 * Eine Set-indizierte Kategorie ℂ ist genau dann ein Stack bezüglich der
   Topologie bestehend aus den gemeinsam-surjektiven Familien, wenn ℂ
@@ -1748,15 +1753,16 @@ die mit einem Funktor nach C kommt.
 * Herausfinden:
 
   * Wie stehen Vollständigkeit und Kovollständigkeit von internen und
-    indizierten Kategorien mit ihren internen Gegenstücken in Verbindung? Kor.
-    B2.4.8 ist interessant: Eine S-interne Kategorie ist genau dann
+    indizierten Kategorien mit ihren internen Gegenstücken in Verbindung?
+    Kor. B2.4.8 ist interessant: Eine S-interne Kategorie ist genau dann
     S-vollständig, wenn sie S-kovollständig ist (S kartesisch abgeschlossen
     vorausgesetzt).
 
   * Mit dem Wort "Stack" neu klären: Besitze ℂ ein terminales Objekt im
-    schwachen Sinn. Dann auch im starken.
+    schwachen Sinn. Dann auch im starken. Update: Ja, das ist so für Stacks. :-)
 
-  * Whoa, B3.2 (Seite 388) sagt: S^→ klassifiziert Subterminale.
+  * Whoa, B3.2 (Seite 388) sagt: S^→ klassifiziert Subterminale. Update: Ja,
+    okay.
 
 * Die Gluing-Konstruktion ist einfach der Rückzug von cod : S^→ → S
   längs eines Funktors.
@@ -1797,6 +1803,11 @@ die mit einem Funktor nach C kommt.
       Kategorie der endlich präsentierten Modelle wählbar. Die Pfeilkategorie
       C^→ ist dann vermutlich die Kategorie der endlich präsentierten Modelle
       von 𝕋^→.
+
+  (4) Sei E = Sh(C). Dann können wir etwas definieren, was beinahe eine
+      interne Kategorie ist: Nämlich ist die (Pseudo-)Prägarbe von Kategorien
+      X ↦ C/X ein (bis auf das Pseudoproblem) Kategorienobjekt in Sh(C). Oder
+      zumindest PSh(C).
 
 
 === Nächste Schritte
