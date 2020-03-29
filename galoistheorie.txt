@@ -45,6 +45,17 @@ Siehe http://faculty.ycp.edu/~fbutler/MastersThesis.pdf.
   definiert, ihre Konstruktion ist also geometrisch und zieht sich daher
   wunderbar zurück.
 
+  Kann sogar auf unendliche Disjunktionen vermeiden. Wir brauchen dazu nur,
+  dass jedes Element Nullstelle eines normierten Polynoms ist, das endlich
+  viele Nullstellen hat. Die Axiome sind dann nämlich:
+
+  * Ringhomoaxiome
+  * Eindeutigkeit: f(x) = y ∧ f(x) = y' ⊢ ⊥  (für y != y')
+  * Totalität: ⊤ ⊢ bigvee_{y Nst.} f(x) = y  (für alle x und alle Polynome wie oben)
+
+  Daraus ergeben sich Injektivität (trivial) und Surjektivität (Zählprinzip)
+  automatisch.
+
 * Das wird alles schön erklärt in Wraiths /Galois theory in a topos/.
   Ist ein schönes Beispiel für das Motto, dass man konstruktiv Topologie früher
   beachten muss als klassisch. Siehe auch /Localic groups/.

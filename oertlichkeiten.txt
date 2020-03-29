@@ -136,6 +136,21 @@ Kategorien    präs'bare Kat.        Topoi
   von Moerdijk und Wraith. Ebenso in /An extension of the Galois theory of
   Grothendieck/.
 
+* Genau dann ist die Örtlichkeit X der Surjektionen N ↠ M trivial, falls M leer ist.
+
+  Ist M leer, so haben wir ⊤ ≤ bigvee_{x ∈ M} U_{0,x} = ⊥.
+
+  Die Rückrichtung sieht man am einfachsten durch Betrachten der
+  Oberörtlichkeit X' aller Abbildungen N → M ein. In dieser ist nämlich die
+  Unterörtlichkeit V_x all derjenigen Abbildungen, die x treffen, dicht. Das
+  sieht man so: Sei V_x ∧ U_my = ⊥. Dann also U_nx ∧ U_my = ⊥ für alle n.
+  Aber die Funktion (a ↦ { x, falls a ≠ m; y, falls a = m }) liegt in
+  U_{m+1,x} ∧ U_my. Die Unterörtlichkeit X nun entsteht als Schnitt dieser
+  dichten Unterörtlichkeiten und ist damit selbst dicht.
+
+  Ist nun also X trivial, so auch X'. Sei nun x ∈ M. Dann hat X' den Punkt
+  const_x. Das ist ein Widerspruch.
+
 
 === 2-kategorielle Struktur
 
@@ -514,6 +529,10 @@ colim_{a <= a'} F(a').
 
   http://www.math.unipd.it/~sambin/txt/CSSS.pdf
 
+* Joyal--Tierney schreiben in ihrer Erweiterung von Grothendiecks Galoistheorie
+  (Prop. 2 auf Seite 36): Die Örtlichkeit gegeben durch eine Partialordnung und
+  einem System von Überdeckungen ist ouvert, wenn jede Überdeckung bewohnt ist.
+
 
 === Bewohntheit von Örtlichkeiten
 
@@ -525,6 +544,29 @@ colim_{a <= a'} F(a').
 
 * Spec(A) > 0 genau dann, wenn 1 != 0 in A.
   (Mit dem lokalen Spektrum sieht's vielleicht anders aus.)
+
+
+=== Kohärenz von Örtlichkeiten
+
+* Das nLab sagt: Eine Örtlichkeit ist genau dann kohärent, wenn ihre kompakten
+  Offenen unter endlichen Schnitten stabil sind und wenn jedes Offene
+  Vereinigung von kompakten Offenen ist.
+
+* Genau dann ist eine Örtlichkeit kohärent, wenn sie die klassifizierende
+  Örtlichkeit einer kohärenten Theorie ist.
+
+  "<==": Zunächst überlegt man sich (durch Aufsetzen einer geeigneten
+  Interpretation von voller geometrischer Logik in Termen von kohärenter
+  Logik), dass jeder geometrische Beweis phi ⊢ bigvee_i psi_i schon
+  einen kohärenten Beweis phi ⊢ psi_{i_1} ∧ ... ∧ psi_{i_n} induziert.
+
+  Dann ist klar, dass die Örtlichkeit selbst sowie alle Standardoffenen sowie
+  ihre endlichen Schnitte kompakt sind. Zumal ist jedes kompakte Offene
+  endliche Vereinigung von Standardoffenen. Und jedes Offene ist Vereinigung
+  von Standardoffenen, also Vereinigung von kompakten Offenen.
+
+  "==>": Der Rahmen ist frei präsentiert durch die kompakten Elemente modulo
+  welche endlichen Konjunktionen und Disjunktionen sie erfüllen.
 
 
 === Schnitt von Örtlichkeiten

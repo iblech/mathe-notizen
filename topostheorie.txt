@@ -705,6 +705,9 @@ immer ein offener Untertopos von Set[|T|], oder?
 
   XXX
 
+* Die Diagonale E → E x E klassifiziert Isomorphismen zwischen Modellen der
+  Art, wie E sie klassifiziert. (Joyal--Tierney, Seite 69.)
+
 
 === Siten
 
