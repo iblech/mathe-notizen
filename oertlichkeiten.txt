@@ -136,20 +136,100 @@ Kategorien    präs'bare Kat.        Topoi
   von Moerdijk und Wraith. Ebenso in /An extension of the Galois theory of
   Grothendieck/.
 
-* Genau dann ist die Örtlichkeit X der Surjektionen N ↠ M trivial, falls M leer ist.
+* Genau dann ist die Örtlichkeit X der Surjektionen ℕ ↠ M trivial, falls M leer ist.
 
   Ist M leer, so haben wir ⊤ ≤ bigvee_{x ∈ M} U_{0,x} = ⊥.
 
   Die Rückrichtung sieht man am einfachsten durch Betrachten der
-  Oberörtlichkeit X' aller Abbildungen N → M ein. In dieser ist nämlich die
+  Oberörtlichkeit X' aller Abbildungen ℕ → M ein. In dieser ist nämlich die
   Unterörtlichkeit V_x all derjenigen Abbildungen, die x treffen, dicht. Das
-  sieht man so: Sei V_x ∧ U_my = ⊥. Dann also U_nx ∧ U_my = ⊥ für alle n.
-  Aber die Funktion (a ↦ { x, falls a ≠ m; y, falls a = m }) liegt in
-  U_{m+1,x} ∧ U_my. Die Unterörtlichkeit X nun entsteht als Schnitt dieser
-  dichten Unterörtlichkeiten und ist damit selbst dicht.
+  sieht man so:
+
+  (Es genügt ja, auf einer Basis zu testen.) Sei also V_x ∧ (U_{m1,y1} ∧ ... ∧ U_{mN,xN}) = ⊥.
+  Dann also U_nx ∧ (...) = ⊥ für alle n. Darf annehmen, dass in (...) jedes mI
+  nur einmal vorkommt. Muss (...) = ⊥ zeigen.
+
+  Finde eine Zahl p, die von allen mI verschieden ist. Dann liegt die Abbildung
+  (a ↦ { x, falls a ≠ alle mI; yI, falls a = mI }) in U_px ∧ (...). Also
+  Widerspruch. Also (...) = ⊥.
+
+  Die Unterörtlichkeit X nun entsteht als Schnitt dieser dichten
+  Unterörtlichkeiten und ist damit selbst dicht.
 
   Ist nun also X trivial, so auch X'. Sei nun x ∈ M. Dann hat X' den Punkt
   const_x. Das ist ein Widerspruch.
+
+  Das Argument funktioniert allgemeiner für jede diskrete unendliche Menge
+  statt ℕ, wobei "unendlich" hier meint: Für jede endliche Liste von Elementen
+  gibt es ein Element, das nicht auf der Liste steht.
+
+* Für ein Prädikat P auf endlichen Listen σ von Tupeln aus X x Y definieren wir
+  P | σ induktiv wie folgt (über (1)--(4)):
+
+  (1) Wenn P(σ), dann P | σ.
+  (2) (Für alle x.) Wenn P | (x,y) ∷ σ für alle y, so P | σ.
+  (3) (Für alle y.) Wenn P | (x,y) ∷ σ für alle x, so P | σ.
+  (4) (Für alle x,x',y,y'.) Wenn (x,y) ∈ σ und (x',y') ∈ σ und ((x = x' ⇒ y = y') ⇒ P | σ), so P | σ.
+  (4') (Für alle x,y,y'.) Wenn (x,y) ∈ σ und (x,y') ∈ σ und ((y = y') ⇒ P | σ), so P | σ.
+
+  P | σ drückt aus, dass schlussendlich, egal, wie sich σ zu einer längeren
+  Liste τ entwickelt, P(τ) gelten wird.
+
+  Dann zeigen wir für geometrische Formeln α und β:
+
+      Genau dann zeigt die Theorie der Surjektionen α ⊢ β,
+      wenn für alle σ mit α(σ) schon β | σ folgt.
+          (Dabei Eindeutigkeit in der Theorie so formuliert:
+              f(x) = y ∧ f(x') = y' ⊢ bigvee { ⊤ | (x = x' ⇒ y = y') }.
+          Man könnte sie auch so formulieren: f(x) = y ∧ f(x) = y' ⊢ bigvee { ⊤ | y = y' }.
+          Dann muss man aber (4') statt (4) zur induktiven Definition verwenden.)
+          ((Die Theorie wie (4') gibt das X-fache Produkt von Y_diskr in Loc.
+          Vielleicht gibt die Theorie wie (4) das Exponentialobjekt (Y_diskr)^(X_diskr) in Loc.)
+
+  Dazu sind ein paar Lemmata nützlich, die unter anderem verwenden, dass die
+  Prädikate zu geometrischen Formeln monoton sind und sich nicht um die
+  Reihenfolge oder Dopplungen in Listen scheren.
+
+  Dann hat man: Genau dann ist die Theorie inkonsistent, wenn ⊥ | [].
+  Und davon kann man zeigen, dass es (im Fall X "unendlich" wie oben, aber nicht
+  unbedingt diskret) äquivalent zu Y = ∅ ist.
+  (Habe ein bisschen versucht, für X ganz beliebig eine Charakterisierung von
+  ⊥ | [] herzuleiten. Aber nun glaube ich: "⊥ | []" selbst ist schon griffig
+  genug. Es drückt aus, dass jede Erweiterung von [] über die Axiome
+  schlussendlich in eine Inkonsistenz läuft. (Vermutlich genauer: nicht mehr
+  konsistent erweiterbar ist.))
+
+  Die Rückrichtung ist dabei schnell erledigt, da wir Konstruktor (2) verwenden
+  können.
+
+  Für die Hinrichtung definieren wir folgendes Prädikat:
+
+      Q(σ) ≡ (σ konsistent ⇒ Y = ∅).
+          ("Konsistenz" heißt dabei: Wenn (x,y) ∈ σ und (x',y') ∈ σ, so x = x' ⇒ y = y'.)
+          ((Hierbei gibt es keinen Unterschied zu: Wenn (x,y) ∈ σ und (x,y') ∈ σ, so y = y'.))
+
+  Dann zeigen wir induktiv: Falls ⊥ | σ, so Q(σ).
+
+  Fall (1): Klar, aus ⊥ folgt Q(σ).
+
+  Fall (2): Habe also ein x mit Q((x,y) ∷ σ) für alle y. Nimm die Konsistenz von σ an.
+  Prüfe, ob x in σ vorhanden ist. Wenn ja, verwende die Voraussetzung für das
+  zugehörige y. Die Erweiterung (x,y) ∷ σ ist dann ja immer noch konsistent.
+  Also folgt Y = ø. Falls x in σ nicht vorhanden ist: Sei y ∈ Y. Dann verwende
+  die Voraussetzung für dieses y. Erhalte Y = ∅ im Widerspruch zu y ∈ Y.
+  Widerspruch.
+  -- Direkteres Argument so: Nimm direkt (ohne vorherige Prüfung) ein x, das in σ
+  nicht vorhanden ist. Der Rest gleich.
+
+  Fall (3): Habe also ein y mit Q((x,y) ∷ σ) für alle x. Nimm die Konsistenz
+  von σ an. Finde ein x, das nicht in σ vorkommt. Verwende die Voraussetzung
+  dafür. Die Erweiterung (x,y) ∷ σ ist dann ja immer noch konsistent. Also Y = ø.
+
+  Fall (4): Habe also (x,y) ∈ σ und (x',y') ∈ σ und ((x = x' ⇒ y = y') ⇒ Q(σ)).
+  Nimm Konsistenz von σ an. Dann ist (x = x' ⇒ y = y') = ⊤. Also Q(σ). Also Y = ø.
+
+  Fall (4'): Habe also (x,y) ∈ σ und (x,y') ∈ σ und ((y = y') ⇒ Q(σ)).
+  Nimm Konsistenz von σ an. Dann ist (y = y') = ⊤. Also Q(σ). Also Y = ø.
 
 
 === 2-kategorielle Struktur
