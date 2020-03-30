@@ -145,7 +145,7 @@ Kategorien    präs'bare Kat.        Topoi
   Unterörtlichkeit V_x all derjenigen Abbildungen, die x treffen, dicht. Das
   sieht man so:
 
-  (Es genügt ja, auf einer Basis zu testen.) Sei also V_x ∧ (U_{m1,y1} ∧ ... ∧ U_{mN,xN}) = ⊥.
+  (Es genügt ja, auf einer Basis zu testen.) Sei also V_x ∧ (U_{m1,y1} ∧ ... ∧ U_{mN,yN}) = ⊥.
   Dann also U_nx ∧ (...) = ⊥ für alle n. Darf annehmen, dass in (...) jedes mI
   nur einmal vorkommt. Muss (...) = ⊥ zeigen.
 
@@ -388,6 +388,29 @@ mit W' := W wedge U das gesuchte Urbild (W' in F, W' <= U wedge V).
           für b = bigvee b_i
 
   Quelle: Hyland, /Function spaces in the category of locales/ (Seite 270).
+
+* Sei X eine Menge (nicht unbedingt diskret). Sei T eine Örtlichkeit. Dann
+  gilt: T x X_diskr = coprod_{x in X} T.
+
+  Die linke Seite klassifiziert die zusammengesetzte Theorie bestehend aus was
+  auch immer T klassifiziert sowie φ_x mit ⊤ ⊢ bigvee_x φ_x und φ_x ∧ φ_x' ⊢
+  bigvee { ⊤ | x = x' }.
+
+  Der Rahmen der rechten Seite ist der Produktrahmen O(T)^X.
+
+  Vom linken Rahmen in den rechten: φ_x0 ↦ (bigvee { ⊤ | x = x0 })_x, U ↦ (U)_x.
+  Vom rechten Rahmen in den linken: (U_x)_x ↦ bigvee_x (φ_x ∧ U_x).
+
+* Folglich ist das Exponentialobjekt Y^X, für beliebige Mengen X (als diskrete
+  Örtlichkeiten gesehen) und Örtlichkeiten Y, durch prod_{x in X} Y gegeben:
+
+  Hom(T, Y^X) = Hom(T x X, Y) = Hom(coprod_x T, Y) = prod_x Hom(T, Y) = Hom(T, prod_x Y).
+
+  Somit ist, im Fall, dass auch Y diskret ist, *nicht* durch die alternative Theorie mit
+
+      f(x) = y ∧ f(x') = y' ⊢ bigvee { ⊤ | x = x' ⇒ y = y' }
+
+  gegeben.
 
 * Sei X ein topologischer Raum. Seien U und V offene Teilmengen, sodass
   ein Kompaktum K mit U <= K <= V existiert. Dann U << V in Ouv(X).
