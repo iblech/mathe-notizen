@@ -436,6 +436,10 @@ Sei A ein lokaler Ring.
   Dabei habe ich evtl. ein kleines bisschen klassische Logik verwendet, durch
   Betrachtung von Halmen. Neu machen mit Örtlichkeiten!
 
+  Konstruktiv stimmt auf jeden Fall: Genau dann ist (pt, A) die universelle
+  Lokalisierung von A, wenn JEDER Ringhomo A --> B in einen lokalen Ring in
+  einem beliebigen Grothendieck-Topos schon lokal ist.
+
 * In klassischer Logik ist das genau dann der Fall, wenn A genau ein Primideal
   besitzt:
 

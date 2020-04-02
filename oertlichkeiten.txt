@@ -368,7 +368,6 @@ mit W' := W wedge U das gesuchte Urbild (W' in F, W' <= U wedge V).
 * Wenn a << b und a << c, dann gilt a' << b wedge c für alle a' << a.
   Stimmt das? Zumindest im lokal kompakten Fall? Entnehme ich indirekt aus
   Hylands /Function spaces in the category of locales/ (Seite 270).
-  Hylands /Function spaces in the category of locales/ (Seite 270).
 
 * Eine Örtlichkeit ist genau dann exponentierbar (d.h., dass HOM(X,__)
   existiert), wenn sie lokal kompakt ist. In diesem Fall ist HOM(X,Y) die
@@ -506,6 +505,8 @@ http://www.mat.uc.pt/~picado/covariant/contents.pdf
 
 * Jede Untergruppe einer lokalischen Gruppe ist abgeschlossen.
   http://www.wra1th.plus.com/gcw/rants/math/closed.html
+
+  Update: mit bisserl klassischer Logik.
 
 
 === Konstante Garben

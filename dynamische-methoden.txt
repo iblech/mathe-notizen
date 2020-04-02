@@ -141,6 +141,8 @@ Die muss noch garbifiziert werden. Aber moralisch sollte man folgendes haben:
 === Vergleich mit dem gewöhnlichen Spektrum
 
 * O^* ist in Sh(Spec A) der generische Filter:
+  (Update: Nur in dem folgenden Sinn. Der generische Filter ist sonst schon
+  eher eine gewisse Untergarbe der konstanten Garbe A.)
 
   1. O^* erfüllt die Filteraxiome.
   2. Spec A |== (a in O^* ==> b in O^*) ist gleichbedeutend mit

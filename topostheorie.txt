@@ -99,6 +99,26 @@
   einer Örtlichkeit zulässt.
 
 
+=== Verallgemeinerte freie Konstruktionen
+
+* Wir wissen, dass wir jeden Ring lokal machen können, durch Betrachtung
+  des gewöhnlichen Spektrums. Hom_LOCRING(O_{Spec(A)}, R) = Hom_RING(A, R).
+
+* Ebenso kann man jeden Ring zu einem schwachen Integritätsbereich machen,
+  durch Betrachtung des Primidealspektrums. Dabei muss man als Morphismen von
+  schwachen Integritätsbereichen injektive Ringhomos nehmen.
+
+* Und allgemeiner steht's glaub ich in Coste.
+
+  Jeder Morphismus muss eindeutig über etwas faktorisieren, was ich
+  klassifizieren kann.
+
+  Im Fall, dass ich zu einer rein algebraischen Theorie rein algebraische
+  Axiome ergänzen möchte, ist diese Eigenschaft ebenfalls gegeben. Die
+  Bedingung lautet dann: "Die Faktorisierung muss mit dem (ganz klassisch, ohne
+  Toposwechsel) konstruierten freien Modell übereinstimmen."
+
+
 === Kleine und große Topoi
 
 * Große Topoi sehen wie eine Art dicker Punkt aus (unabhängig davon, wie viel
