@@ -1173,6 +1173,37 @@ eine Zerfällung besitzt, nämlich dem Topos der Zerfällungen von f.
   dass in F das Auswahlaxiom gilt, benötigt man es auf Metaniveau. Zumindest
   ist es so im Baby Elephant.
 
+* Rathjen behauptet: Der Satz von Barr ist im Wesentlichen nur
+  (Barwise-)Vollständigkeit. Seine Argumentation ist wohl circa folgende:
+  Gelte, dass Typentheorie plus Auswahlaxiom eine Sequenz zeigt. Dann gilt die
+  Sequenz in jedem Modell, denn jedes Modell lässt sich aufpimpen zu einem
+  Modell von Typentheorie plus Auswahlaxiom plus ursprüngliche Theorie, dort
+  gilt dann die Sequenz und wegen Konservativität der Erweiterung gilt sie auch
+  im ursprünglichen Modell. Wegen Vollständigkeit ist die Sequenz ableitbar.
+
+  Das war jetzt circa für kohärente Theorien argumentiert. Für geometrische
+  muss man noch rumforcen, bevor man Barwise-Vollständigkeit anwenden kann.
+
+  All das klingt okay und plausibel.
+
+* Rathjen behauptet auch: Der Satz von Barr (in der Fassung "zeige Typentheorie
+  plus Auswahlaxiom plus 𝕋 eine Sequenz, so zeigt auch 𝕋 diese Sequenz") lässt
+  sich schon in ZF (statt ZFC) beweisen.
+
+  Das verstehe ich nicht.
+
+  Update: Whoa. Rathjen arbeitet in einem relativen konstruierbaren Universum
+  intern in einer Forcing-Erweiterung, die alles abzählbar macht. In ihr gilt
+  Choice, auch, wenn es in V oder in der Forcing-Erweiterung nicht galt. In ihr
+  folgt durch obige Modellaufpimpungsüberlegung, dass die Sequenz in jedem der
+  in ihr enthaltenen Modelle stimmt. In ihr gibt es wegen des
+  Vollständigkeitssatzes also auch eine Ableitung. Und die liegt dann schon in V.
+
+  Der Satz von Barr (in der Version für rekursive axiomatisierbar kohärente
+  Theorien) ist nur eine Aussage über natürliche Zahlen und relativiert daher
+  prima. Wenn ich ihn ihn ZFC zeigen kann, dann auch in ZF. (Achtung, der
+  Vollständigkeitssatz ist dagegen nicht absolut!)
+
 
 === Nächste Schritte
 
