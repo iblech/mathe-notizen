@@ -81,6 +81,19 @@ also c + 2^{-n0} <= c, Widerspruch.
 
 * Anhang von http://www.cs.au.dk/~spitters/obs.pdf
 
+* Wir wissen ja, wie wir DC vermeiden können und stattdessen alleine mit CC
+  die Überabzählbarkeit nachweisen können (alle potenziell benötigten
+  Vergleiche durchnummerieren -- von Zahl x_n müssen dann 2^n Vergleiche
+  mitberücksichtigt werden). Ich sehe nicht, wie sich dieses Argument trivial auf WCC
+  übertragen lässt.
+
+  Habe übrigens eine geometrische Theorie der Schnitte von X → ℕ, wobei X die
+  Menge { (m,0) | der m-te Vergleich schlägt links aus } cup { (m,1) | der m-te
+  Vergleich schlägt rechts aus }. Wenn wir CC annehmen, hat diese ein Modell.
+
+  Ist der geometrische Morphismus des klassifizierenden Topos dieser Theorie
+  nach Set offen oder surjektiv?
+
 
 === Literatur
 
