@@ -17,6 +17,9 @@
   Ist die Quelle aber eindimensional, so stimmt es doch.
   http://mathoverflow.net/a/53033/31233
 
+* Marco schreibt: In X eine riemannsche Fläche, so sind meromorphe Funktionen
+  X → C dasselbe wie holomorphe nicht lokal konstant ∞ Funktionen X → P^1.
+
 
 === Keime von Teilmengen
 
