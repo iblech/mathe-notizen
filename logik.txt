@@ -1152,6 +1152,13 @@ https://cs.nyu.edu/pipermail/fom/2000-January/003643.html
   Consistency Waterfall
 
 
+=== Conway's Game of Life
+
+https://arxiv.org/pdf/1711.02456.pdf
+
+Gödel = Halteproblem = Conway
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?

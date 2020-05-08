@@ -552,13 +552,19 @@ https://pdfs.semanticscholar.org/92ab/8d8ef79bb1fd68c9876a74e4e2d06c4c8dfd.pdf
   x ≤ y < z  ==>  x < z. Beispiel: { 0 | φ } ≤ 1 < 2.
 
 
+=== Doppelnegationsübersetzung bei Mengenlehre
+
+* Ist wegen Extensionalität nicht ganz so einfach, aber Friedman hat's
+  geschafft: Korollar VIII.3.4 in Beeson /Foundations of Constructive
+  Mathematics: Metamathematical Studies/.
+
+
 === Literatur
 
 * http://projects.illc.uva.nl/KNAW/Heyting/uploaded_files/inlineitem/vdberg-slides.pdf
   Über IZF und Varianten sowie CZF.
 
 * http://www.mathetal.net/data/book1.pdf
-
 
 === Nächste Schritte
 

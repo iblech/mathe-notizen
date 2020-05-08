@@ -1531,3 +1531,6 @@ Weil φ als quantorfrei vorausgesetzt ist.
 
 * Moderne Sichtweise:
   http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf
+
+* Der Schanuel-Topos hilft beim Variablenbinden... inwiefern?
+  Abschnitt 7 von https://www.cl.cam.ac.uk/~amp12/papers/newaas/newaas-jv.pdf

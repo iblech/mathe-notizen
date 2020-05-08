@@ -1328,8 +1328,8 @@ Sei M eine quadratische Matrix über einem Ring.
   ohne die j-te. Insbesondere ist M_(k+1) = M.
 
   Dann ist a A (M_1 | -M_2 | ... | (-1)^(k+1) M_(k+1) | 0 | ... | 0)^T = 0.
-  Denn wenn man das ausmultipliziert, stehen lautet Determinanten da.
-  Die ersten k Stück verschwinden, weil sie zwei gleich Zeilen enthalten. Die
+  Denn wenn man das ausmultipliziert, stehen lauter Determinanten da.
+  Die ersten k Stück verschwinden, weil sie zwei gleiche Zeilen enthalten. Die
   anderen verschwinden nach Induktionsvoraussetzung.
 
   Da A injektiv ist, folgt somit a M_i = 0 für alle i = 1, ..., k+1,
