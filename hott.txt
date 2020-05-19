@@ -44,3 +44,10 @@ https://groups.google.com/forum/#!topic/HomotopyTypeTheory/Wf-H6rH155g
   https://www.cs.nott.ac.uk/~psztxa/talks/lyon14.pdf
 
 * https://ncatlab.org/davidcorfield/files/AndTalk2.pdf
+
+
+=== Lehrbücher
+
+* Klar, das Buch.
+
+* https://github.com/EgbertRijke/HoTT-Intro/blob/master/pdfs/2019-summer-school.pdf

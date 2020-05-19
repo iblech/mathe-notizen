@@ -17,3 +17,8 @@ Corfield: https://link.springer.com/article/10.1007/s11229-017-1569-7
 === Modale Typentheorie
 
 https://dl.acm.org/doi/pdf/10.1145/3341711?download=true
+
+
+=== 4+1 Varianten von Setoiden
+
+http://www.cs.nott.ac.uk/~pszvc/publications/Setoids_JFP_2003.pdf
