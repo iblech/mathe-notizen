@@ -94,6 +94,39 @@ also c + 2^{-n0} <= c, Widerspruch.
   Ist der geometrische Morphismus des klassifizierenden Topos dieser Theorie
   nach Set offen oder surjektiv?
 
+* Sei f : ℕ → ℝ eine örtlichkeitstheoretische Surjektion.
+  (Der Morphismus f wird durch Pt(f) induziert.)
+
+  Dann ist die Örtlichkeit ℝ räumlich, hat also genügend viele Punkte, also ist
+  das topologische Einheitsintervall [0,1] Heine--Borel-kompakt.
+
+  Sei y ∈ Pt(ℝ). Dann haben wir das Offene U := #(y) von ℝ. (Es gilt Pt(U) =
+  { z | z # y }.)
+
+  Angenommen, y liegt nicht im Bild von Pt(f). Dann gilt f^{-1}(ℝ) = f^{-1}(U).
+  Wegen Surjektivität folgt also ℝ = U. Also ⊥.
+
+  Folglich ist Pt(f) "nahezu surjektiv" in dem Sinn, dass jedes Element
+  nicht nicht ein Urbild hat.
+
+  Können wir sogar echte Surjektivität zeigen? Sei ε > 0. Sei U := bigcup_n
+  B_{ε/2ⁿ}(f(n)). Dann gilt f^{-1}(ℝ) = f^{-1}(U), denn alle natürlichen Zahlen
+  liegen drin. Folglich gilt ℝ = U, und zwar nicht nur als Punktmengen, sondern
+  in der Theorie der dedekindschen Schnitte. (Freilich gibt es keinen
+  Unterschied, da ℝ wegen der Surjektion schon räumlich ist.) Das drückt
+  nicht viel mehr aus, als dass das Bild von f dicht liegt. Wie viel mehr?
+
+  Umgekehrt: Sei f in diesem Sinne surjektiv. Unter der Annahme, dass ℝ
+  genügend viele Punkte hat, möchten wir Surjektivität im
+  örtlichkeitstheoretischen Sinn zeigen. Das schaffen wir aber nicht ganz; wir
+  benötigen echte Surjektivität.
+
+  Seien also Offene U, V gegeben. Gelte f^{-1}U ⊆ f^{-1}V. Sei y ∈ U beliebig.
+  Wir möchten y ∈ V zeigen. Schreibe dann y = f(x); habe x ∈ f^{-1}U, also auch
+  x ∈ f^{-1}V. Folglich f(x) = y ∈ V.
+
+* Mail an Matthias im Juni 2020
+
 
 === Literatur
 

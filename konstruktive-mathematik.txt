@@ -604,3 +604,8 @@ https://dl.acm.org/doi/pdf/10.1145/3341703
 
 Beschreibt eine Sprache, MarshallB, in der alle Funktionen stetig sind und
 Maxima von kompakten Mengen bestimmt werden können.
+
+
+=== Integreationstheorie
+
+https://drops.dagstuhl.de/opus/volltexte/2006/290/pdf/05021.SpittersBas1.Paper.290.pdf
