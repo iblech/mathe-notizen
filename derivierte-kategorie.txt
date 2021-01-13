@@ -125,7 +125,30 @@ Lokalisierung.
   based on the existence of adjunctions/.
 
 * Eine "lokale Definition" findet sich im Stacks Project, derived.pdf,
-  Abschnitte 15 und 16.
+  Abschnitte 15 und 16. Im Kontext eines exakten Funktors F : D → D' zwischen
+  triangulierten Kategorien und einem saturierten multiplikativen System S in D
+  sagen die: RF(X) ist genau dann definiert, wenn das System X/S → D'
+  wesentlich konstant ist. Das bedeutet, dass der Funktor X/S → D' einen
+  absoluten Kolimes besitzt.
+
+  Also Stacks: abscolim_{X → X' in S} F(X')
+  Und Emily:   abscolim_{A → X in S⁻¹D} F(A).
+
+  Sei (beta_f)_f Kokegel wie bei Emily. Dann definieren wir alpha_s := beta_{s⁻¹} für s ∈ S.
+
+  Sei (alpha_s)_s Kokegel wie bei Stacks. Dann definieren wir beta_{a;s⁻¹} :=
+  Fa ; alpha_s. Das ist wohldefiniert (hängt nicht von der Wahl der
+  Faktorisierung ab). Habe aber nicht fertig geprüft, dass es wirklich wieder
+  ein Kokegel ist (zu mühsam, weil ich Angst vor der Komposition von Dächern
+  habe...).
+
+* Die Bedingung im Stacks Project kocht sich wie folgt runter:
+
+  Genau dann ist ein Objekt K zusammen mit Koprojektionen FX' → K für X → X' in S
+  der Wert von RF(X), wenn ein X → X₀ in S und ein Morphismus K → FX₀
+  existiert, sodass (K → FX₀ → K) = id und sodass für jeden Morphismus X → X' in S
+  ein Morphismus X → X'' in S und Morphismen X₀ → X'', X' → X'' (unter X)
+  existieren, sodass (F(X') → F(X'')) = (F(X') → K → F(X₀) → F(X'')).
 
 
 === Quelle von Auflösungen

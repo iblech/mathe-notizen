@@ -313,7 +313,7 @@
   als Čech-Kohomologie von E bezüglich U. Sei K die Klasse derjenigen
   quasikohärenten Modulgarben E, für die T^{>=1}(E) verschwindet. Dann:
 
-  (a) Kurze exakte Sequenz von quasikohärenten Modulgarben induzieren lange
+  (a) Kurze exakte Sequenzen von quasikohärenten Modulgarben induzieren lange
   exakte Sequenzen. Denn: Ist 0 --> E --> F --> G --> 0 exakt, so auch
   nach Anwenden von Č^*(--; U) (da die j_* auf Quasikohärenten exakt sind) und
   nach Anwenden von Γ (wegen 4.). Dann Schlangenlemma.

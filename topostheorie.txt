@@ -166,7 +166,8 @@
 
 * Jedes Objekt X von C führt also zum Punkt "Auswertung bei X" von PSh(C),
   wenn man F := Hom(X, __) nimmt. (Es gilt E tensor_C Hom(X, __) = E(X).)
-  Zumindest, wenn C endlich vollständig ist.
+  Zumindest, wenn C endlich vollständig ist. (Obacht, das ist eine starke
+  Einschränkung! Solche Topoi sind mindestens lokal!)
 
   Solche Punkte sind sogar wesentlich.
 
@@ -1534,3 +1535,6 @@ Weil φ als quantorfrei vorausgesetzt ist.
 
 * Der Schanuel-Topos hilft beim Variablenbinden... inwiefern?
   Abschnitt 7 von https://www.cl.cam.ac.uk/~amp12/papers/newaas/newaas-jv.pdf
+
+* Sichten:
+  https://etd.adm.unipi.it/theses/available/etd-11222017-094128/unrestricted/tesi.pdf
