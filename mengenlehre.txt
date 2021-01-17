@@ -114,6 +114,18 @@ vom inneren Kern.
 
   https://mathoverflow.net/a/12876/31233
 
+* https://mathoverflow.net/questions/45037/should-there-be-a-true-model-of-set-theory
+  Gründe für große Kardinalzahlen:
+
+  * There are models with very nice structural properties in which large
+    cardinals exist
+  * Large cardinal axioms form a surprisingly linear hierarchy
+  * They decide many natural questions
+  * They fit together in a way that gives a nice, coherent picture of the
+    universe
+  * Why not add them?
+  * Like to work in strong theories
+
 
 === Über die Kategorie von Mengen, die von einem Modell erzeugt wird
 
