@@ -687,6 +687,10 @@ immer ein offener Untertopos von Set[|T|], oder?
       * U_1 ist bewohnt oder U_2 ist bewohnt
       * U_1 und U_2 sind nicht beide bewohnt
 
+  Update: Nicht ganz richtig, falls Konstantensymbole vorkommen. Diese müssen
+  zu unären Funktionssymbolen, die Extraargument der Sorte U_1 bzw. U_2 nehmen,
+  hochgestuft werden.
+
 * Sei f : F --> Set[T] ein geometrischer Morphismus. Der Topos, der in der
   Surjektions-/Inklusionsfaktorisierung von f vorkommt, ist dann der
   klassifizierende Topos von Th(f^*(U_T)), also diejenige Theorie, die genau
