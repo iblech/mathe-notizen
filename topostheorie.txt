@@ -675,7 +675,7 @@ immer ein offener Untertopos von Set[|T|], oder?
 
       Sorten: die von T_1, die von T_2, und zwei neue: U_1, U_2
       Relationssymbole: die von T_1 und von T_2
-      Funktionssymbole: die von T_1 und von T_2, sowie je zwei neue für jede
+      Funktionssymbole: die von T_1 und von T_2, sowie je ein neues für jede
           Sorte von T_1 bzw. T_2: f_A : A --> U_1 bzw. g_A : A --> U_2
 
       Axiome:

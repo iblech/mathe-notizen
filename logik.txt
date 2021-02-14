@@ -1169,3 +1169,9 @@ Gödel = Halteproblem = Conway
 
 * Inwieweit ist der Rekursionssatz eine Anwendung von Lawveres Fixpunktsatz?
   https://mathoverflow.net/a/130901/31233
+
+
+=== Quellen
+
+* https://www.logicmatters.net/resources/pdfs/godelbook/GodelBookLM.pdf
+* https://www.logicmatters.net/resources/pdfs/GWT3_LM.pdf
