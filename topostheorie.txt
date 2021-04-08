@@ -733,6 +733,9 @@ immer ein offener Untertopos von Set[|T|], oder?
 * Die Diagonale E → E x E klassifiziert Isomorphismen zwischen Modellen der
   Art, wie E sie klassifiziert. (Joyal--Tierney, Seite 69.)
 
+* E/X klassifiziert dieselbe Theorie wie E, nur um eine Konstante x : X
+  erweitert. (Dazu X über geometrische Konstruktionen ausdrücken.)
+
 
 === Siten
 
