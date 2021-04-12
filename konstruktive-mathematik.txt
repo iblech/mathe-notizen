@@ -22,6 +22,16 @@ auch nicht explizit angeben:
 Welcher Fall vorliegt, kann man aber nicht entscheiden.
 
 
+=== Faktorisierung ist schwer
+
+* Sei E(n) eine entscheidbare Aussage. Wenn wir über Q(α₀, α₁, ...) mit
+  α_n² = (if E(n) then p_n else -1) die Reduzibilität des Polynom X² + 1
+  entscheiden können, können wir auch ∃n.E(n) entscheiden.
+
+  (Hab ich aus Thierrys Vortrag am 12.4.2021 gelernt, Sheaf models and
+  constructive mathematics.)
+
+
 === Ein Lemma über viele Aussagen
 
 Seien Aussagen phi_ij mit i = 1, ..., n und j = 1, ..., m_i gegeben;
