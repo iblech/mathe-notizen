@@ -25,3 +25,10 @@ https://dl.acm.org/doi/pdf/10.1145/3341711?download=true
 
 * Kompilieren hin zu Setoiden: Martin Hofmann, Elimination of extensionality in
   Martin-Löf type theory.
+
+
+=== Type in Type
+
+* Direkter Beweis der Inkonsistenz von Type in Type, induktive Typen annehmend:
+  http://www.cs.nott.ac.uk/~psztxa/g53cfr/l20.html/l20.html (Idee:
+  Mengenuniversum aufbauen, dann Russell nachahmen)
