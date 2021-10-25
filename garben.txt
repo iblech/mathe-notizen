@@ -294,7 +294,7 @@
 
   4. Modulgarben der Form Č^n(E; U) sind, wenn E quasikohärent, U eine
   endliche Überdeckung durch Affinoffene ist und das Schema separiert ist,
-  Γ-azyklisch. Dazu muss nur zeigen, dass Modulgarben der Form j_*(F)
+  Γ-azyklisch. Dazu muss nur zeigen (XXX wieso?), dass Modulgarben der Form j_*(F)
   Γ-azyklisch sind, wobei F quasikohärent und j die Inklusion eines endlichen
   Schnitts von Mitgliedern der Überdeckung ist. Und das geht mit (*):
   (Brauche in 5(b) die präzisere Aussage, dass die Čech-Kohomologie von solchen

@@ -114,6 +114,9 @@ Basisraum. Beispiele:
 
   Ist T ein Aut_A(F)-Torsor, so ist F otimes_{Aut_A(F)} T ein A-Modul, der
   isomorph zu F ist. (Obacht: F mit Rechts-Aut_A(F)-Wirkung versehen!)
+  (Iso sieht circa so aus: T ist ja durch ein Element t₀ bewohnt. Dann habe
+  also zu jedem Element t ein eindeutiges Element phi_s in Aut_A(F) mit t =
+  phi_s . t₀. Schicke dann x ⊗ s auf phi_s¯¹(x).
 
 * Ich denke, dass folgendes gilt: Ein O_n(A)-Torsor ist dasselbe wie
   ein A-Modul M zusammen mit einer Bilinearform M x M --> A, sodass
