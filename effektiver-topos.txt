@@ -511,3 +511,6 @@ von Colin McLarty.
 * http://www.lfcs.inf.ed.ac.uk/reports/92/ECS-LFCS-92-208/ von Wesley Phoa
   (sehr empfohlen von Michael O'Connor, Todd Trimble und Tom Leinster)
 * https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/hyland-effectivetopos.pdf
+
+* https://www.cs.bham.ac.uk/~axj/ccc2021/abstracts/CCC_2021_paper_4.pdf
+  Mathematik mit Irrtumswahrscheinlichkeit ε!
