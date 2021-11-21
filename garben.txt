@@ -147,7 +147,7 @@
         (hs)_{i_0,...,i_{p-1}} = s_{i_fix, i_0, ..., i_{p-1}}.
 
      Dann:
-     
+
         d(hs)_{i_0,...,i_p} =
             sum_{j=0}^p (-1)^j (hs)_{i_0, ..., nicht i_j, ..., i_p} =
             sum_{j=0}^p (-1)^j s_{i_fix, i_0, ..., nicht i_j, ..., i_p} =
@@ -161,6 +161,20 @@
      Hier geht ein: j_* j^{-1} M~ = (M[f^{-1}])~, wenn j : D(f) --> X.
      Das gilt, weil es auf D(g) gilt. Oder weil es die Qcoh-Bedingung im
      kleinen Zariski-Topos ist.
+
+     Und wenn die Überdeckung zwar noch endlich ist, aber nicht aus
+     Standardoffenen besteht, stimmt es. Wichtig ist nur, dass (X affin ist
+     und) die j_* j^{-1} M~ quasikohärent sind. Dazu brauchen wir, dass j
+     qc qs ist. Das ist etwa der Fall, wenn j affin ist. Das ist der Fall, wenn
+     die U_i sowie deren endlichen Schnitte alle affin sind.
+
+     Aber noch besser: Es ist j auch dann qc qs, wenn einfach nur die U_i affin
+     sind. Denn dann ist die Inklusion U_i → X qc qs und somit auch ihre
+     Rückzuge. So können wir induktiv zeigen, dass die U_{i_0,...,i_n} → X qc qs
+     sind.
+
+     Und noch besser: Die U_i müssen gar nicht affin sein. Es reicht, wenn sie
+     qc qs sind.
 
   Das Argument in Vakil (Theorem 18.2.4) ist auch schön.
 
@@ -239,7 +253,7 @@
   quasikohärente Modulgarben definieren können. Und zwar wie folgt.
 
   Wir definieren H^n(E) über eine fixierte endliche offene Überdeckung durch
-  affine.
+  Affine.
 
   * Jede quasikohärente Modulgarbe E bettet in eine ein, für die H^{>=1} Null
     ist. Und zwar Č^0(E; U). Hier geht ein, dass für Garben der Form

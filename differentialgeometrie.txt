@@ -67,6 +67,18 @@ https://mathoverflow.net/questions/296619/existence-of-fiber-product-of-manifold
 * https://people.math.ethz.ch/~salamon/PREPRINTS/difftop.pdf
   Introduction to Differential Topology, Robbin und Salamon.
 
+* https://www.mat.univie.ac.at/~michor/kmsbookh.pdf
+  Here we present the Frölicher–Nijenhuis bracket (a natural extension of the
+  Lie bracket from vector fields to vector valued differential forms) as one of
+  the basic structures of differential geometry, and we base nearly all
+  treatment of curvature and Bianchi identities on it. This allows us to
+  present the concept of a connection first on general fiber bundles (without
+  structure group), with curvature, parallel transport and Bianchi identity,
+  and only then add G-equivariance as a further property for principal fiber
+  bundles. We think, that in this way the underlying geometric ideas are more
+  easily understood by the novice than in the traditional approach, where too
+  much structure at the same time is rather confusing.
+
 
 === Nächste Schritte
 
