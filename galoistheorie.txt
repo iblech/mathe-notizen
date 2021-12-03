@@ -121,6 +121,58 @@ Siehe http://faculty.ycp.edu/~fbutler/MastersThesis.pdf.
   a topos"). Verstehe das!
 
 
+=== Separabilität
+
+* Ein normiertes Polynom f ∈ A[X] ist genau dann *unverzweigbar*, wenn (1) =
+  (f'(x_1),...,f'(x_n)) in der Zerfällungsalgebra von L. Ist A lokal, so ist
+  das äquivalent dazu, dass (1) = (d_i(f))_i in A, wobei d_i(f) =
+  e_i(f'(x_1),...,f'(x_n)).
+
+* Wraith sagt: Ein Ring ist genau dann *separabel abgeschlossen*, wenn jedes
+  normierte unverzweigbare Polynom eine einfache Nullstelle besitzt. Thierry
+  hat aber gezeigt, dass das schon dann der Fall ist (für lokale Ringe), wenn
+  jedes normierte unverzweigbare Polynom irgendeine Nullstelle besitzt.
+
+  Für Körper, sagt Wraith, stimmt das mit der Definition "jedes normierte
+  separable Polynom hat eine Nullstelle" überein. Das geht so: Sei f ein
+  normiertes unverzweigbares Polynom über einem Körper. Einer seiner
+  irreduziblen Faktoren besitzt ja dann in einem algebraischen Abschluss eine
+  einfache Nullstelle. Damit muss der ganze Faktor separabel sein. Und besitzt
+  daher nach Voraussetzung eine Nullstelle.
+
+  Irreduzible Polynome mit einfacher Nullstelle sind nämlich schon separabel.
+
+  Und konstruktiv geht das laut Thierry dank Manaa.
+
+* Wraith sagt auch: Ein lokaler Ring ist genau dann separabel abgeschlossen,
+  wenn er henselsch ist (d.h. wenn jede einfache Nullstelle eines normierten
+  Polynoms im Restklassenkörper zu einer einfachen Nullstelle im Ring selbst
+  liftet) und sein Restklassenkörper separabel abgeschlossen ist.
+
+  "==>": Sei f normiertes Polynom mit einer einfachen Nullstelle im
+  Restklassenkörper. Dann ist f über dem Restklassenkörper unverzweigbar und
+  wegen der Lokalität von A → A/m auch über f unverzweigbar. Somit hat f eine
+  einfache Nullstelle. Wenn deg(f) = 1, so ist diese ein Lift der
+  ursprünglichen Nullstelle. sonst... siehe Wraith!
+
+  "<==": Schnell getan. Brauche auch nur (im Lichte von Thierry), dass der
+  Restklassenkörper separabel abgeschlossen ist und dass jede
+  einfache Nullstelle zu einer beliebigen Nullstelle liftet.
+
+* Wraith untersucht separable Erweiterungen lokaler Ringe, das sind lokale,
+  flache und formal unverzweigte Homos in lokale Ringe.
+
+  Ein separabler Abschluss ist dann eine separable Erweiterung, welche
+  ihrerseits separabel abgeschlossen ist. Solche Abschlüsse sind Modelle einer
+  geometrischen Theorie, der klassifizierende Topos ist der (kleine, gell?)
+  étale Topos des Rings.
+
+  Ich glaube, dass eine separable Erweiterung eines geometrischen Körpers
+  nichts anderes ist als ein separabel abgeschlossener Körper, der separabel
+  über dem Grundkörper ist (im Sinne von, dass jedes Element Nullstelle eines
+  separablen Polynoms ist).
+
+
 === Nächste Schritte
 
 * Grothendiecks Galoistheorie?
