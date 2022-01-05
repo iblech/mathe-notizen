@@ -590,6 +590,13 @@ Hochgelobt von David Roberts auf MO.
   abzählbar. https://mathoverflow.net/a/296882/31233
 
 
+=== Potenzmengen & Co.
+
+* Die Inklusion P_{≤1}(X) → P(X) besitzt eine Retraktion:
+
+  Eine Teilmenge K ⊆ X können wir auf { x ∈ X | K = {x} } schicken.
+
+
 === Approximative Maxima
 
 (1) The statement "for any ε > 0, for any uniformly continuous function
