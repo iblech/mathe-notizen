@@ -1011,6 +1011,38 @@ eine Zerfällung besitzt, nämlich dem Topos der Zerfällungen von f.
 
   Siehe etwa http://www.tac.mta.ca/tac/volumes/12/5/12-05.pdf.
 
+* Für C = (A → B):
+
+  Sorten F(A), F(B)
+  Funktionssymbol f : F(A) → F(B)
+
+  F(A) oder F(B) bewohnt
+  -- äqv.: F(B) bewohnt
+
+  forall u : F(A), v : F(A).
+  exists w : F(A).
+  w = u & w = v.
+  -- also F(A) Subterminal
+
+  forall u : F(A), v : F(B).
+  exists w : F(A).
+  w = u & v = f(w).
+
+  forall u : F(B), v : F(A).
+  exists w : F(A).
+  f(w) = u & v = w.
+
+  forall u : F(B), v : F(B).
+  (exists w : F(A). f(w) = u & f(w) = v)
+  or
+  (exists w : F(B). w = u & w = v).
+
+  Ich denke, dass diese vier Axiome äquivalent sind zu: F(A) und F(B) sind
+  beide Subterminals. Ja, das stimmt.
+
+  Also: PSh(→) klassifiziert Wahrheitswerte.
+
+
 * Flache Funktoren bewahren endliche Limiten. Kann man schnell einsehen.
   Die Voraussetzung der Freiheit (letztes Flachheitsaxiom) muss man mehrere
   Male einsetzen.
