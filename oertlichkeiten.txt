@@ -1022,6 +1022,81 @@ ersetzen. Dann funktioniert Hahn--Banach.
 http://www.cs.cas.cz/tacl2017/slides/contributed/124.pdf
 
 
+=== Rahmen und Örtlichkeiten von Partialordnungen
+
+Sei P eine Partialordnung. Dann ist D(P), die Partialordnung der
+↓-abgeschlossenen Teilmengen von P, ein Rahmen (mit den üblichen
+mengentheoretischen Operationen).
+
+* Ist f eine ↑-abgeschlossen ↓-gerichtete Teilmenge von P,
+  so ist F = { U | U ≬ f } ein vollständig primer Filter von D(P).
+
+* Ist F ein vollständig primer Filter von D(P),
+  so ist f = { p | ↓(p) ∈ F } eine ↑-abgeschlossene ↓-gerichtete Teilmenge von P.
+
+* Das definiert eine Eins-zu-Eins-Beziehung.
+
+  Wir können also die Örtlichkeit mit Rahmen D(P) als die klassifizierende
+  Örtlichkeit der ↑-abgeschlossenen ↓-gerichteten Teilmengen von P ansehen.
+
+Ist P diskret (x ≤ y genau dann, wenn x = y), so sind die einzigen solchen
+Teilmengen die Singleton-Teilmengen. Dann ist also D(P) die Potenzmenge von P,
+die Elemente von P (ko-)klassifizierend.
+
+Ein "covering system" (Joyal/Tierney, An Extension of the Galois Theory of
+Grothendieck, Seite 24) besteht aus einer Angabe von Teilmengen von ↓(x) für
+jedes x ∈ P, sodass: ist y ≤ x und ist R ∈ Cov(x), so gibt es R' ∈ Cov(y),
+sodass für jedes Element z ∈ R' ein r ∈ R mit z ≤ r existiert.
+
+Dann können wir bei den Punkten Kompatibilität mit den Überdeckungen fordern:
+
+    Für jedes x ∈ P und R ∈ Cov(x) soll gelten:
+    Falls x ∈ f, so auch R ≬ f.
+
+Der zugehörige Rahmen ist:
+
+    Q = { T ∈ D(P) | ∀x ∈ P. ∀R ∈ Cov(x). R ⊆ T ⇒ x ∈ T }
+
+Für ein Element T ∈ D(P) ist j(T) induktiv erzeugt durch:
+
+    x ∈ T       R ⊆ jT
+    ------    ---------- R ∈ Cov(x)
+    x ∈ jT      x ∈ jT
+
+* Wenn alle Überdeckungen bewohnt sind, so haben wir ein Positivitätsprädikat
+  auf Q, nämlich:
+
+      T > 0  gdw.  T bewohnt.
+
+  Denn: Sei T > 0 und T ⊆ j(⋃_i T_i), so ist für ein i T_i bewohnt;
+  und aus (T > 0 ⇒ T ⊆ j(⋃_i T_i)) folgt T ⊆ j(⋃_i T_i).
+
+Die Örtlichkeit der Surjektionen ℕ → X können wir dann so bauen.
+
+Als P nehmen wir die Menge der Listen von Elementen von X positiver Länge.
+Wir setzen xs ≤ ys genau dann, wenn ys ein initiales Segment von xs ist.
+Dann führen wir folgende Überdeckungen ein:
+
+    { [x_0,...,x_n, x] | x ∈ X } überdeckt [x_0,...,x_n].
+        (so erhalten wir Totalität; die Überdeckung ist bewohnt, da wir x_0
+        wiederholen können!)
+
+    (zu x ∈ X)
+    { [x_0,...,x_n, x_{n+1},...,x_{n+m}] | m ≥ 0, x_{n+i} ∈ X, x ∈ [...] }
+        überdeckt [x_0,...,x_n]
+        (so erhalten wir Surjektivität; die Überdeckung ist bewohnt durch
+        [x_0,...,x_n, x]).
+
+Diese Örtlichkeit ist also stets offen. Dazu haben wir weder benötigt, dass
+Gleichheit auf X entscheidbar ist, noch, dass X bewohnt ist.
+
+Falls X bewohnt durch x₀ ist, erhalten wir, dass diese Örtlichkeit surjektiv
+auf den Punkt geht. Ist φ ein Wahrheitswert, so ist sup { top | φ } = { p ∈ P | φ }
+(hier geht noch mal die Bewohntheit aller Überdeckungen ein, sonst wäre das
+kein Element von Q). Seien nun α,β Wahrheitswerte mit { p | α } ⊆ { p | β }.
+Gelte α, zeige β. Das ist trivial, da [x₀] in der linken Menge liegt.
+
+
 === Literatur
 
 * Klar: Johnstone (zwei Einführungsartikel, Stone Spaces, Elephant)
