@@ -264,6 +264,15 @@ Zur Hinrichtung überlege zunächst, dass
   folgt phi^Nabla |- psi^Nabla in B-Logik.
 
 
+=== Überabzählbare diskrete Mengen
+
+* Konstruktiv können wir nicht die Existenz überabzählbarer diskreter Mengen
+  nachweisen. Andrej Bauer und Andrew Swan in https://arxiv.org/pdf/1804.00427.pdf
+
+* Damit können wir auch nicht die Existenz überabzählbarer geometrischer Körper
+  nachweisen.
+
+
 === Literatur
 
 * The Age of Alternative Logics.

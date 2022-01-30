@@ -571,12 +571,25 @@ https://pdfs.semanticscholar.org/92ab/8d8ef79bb1fd68c9876a74e4e2d06c4c8dfd.pdf
   Mathematics: Metamathematical Studies/.
 
 
+=== ZFC als Fundierung?
+
+* "Mathematiker*innen denken an ZFC, wenn sie an Mengen denken" ist natürlich
+  falsch, da die wenigsten Mathematiker*innen die ZFC-Axiome kennen.
+
+* Natürlich ist Typentheorie näher an der mathematischen Praxis, muss ich hier
+  nicht ausführen.
+
+* Aber auch schon Bounded Zermelo mit Choice ist näher an der mathematischen
+  Praxis!
+
+
 === Literatur
 
 * http://projects.illc.uva.nl/KNAW/Heyting/uploaded_files/inlineitem/vdberg-slides.pdf
   Über IZF und Varianten sowie CZF.
 
 * http://www.mathetal.net/data/book1.pdf
+
 
 === Nächste Schritte
 

@@ -44,6 +44,25 @@ Injektive nützlich.
   haben.
 
 
+=== Baer gut und konstruktiv?
+
+* Erfülle M die Baer-Bedingung (lineare Abbildungen lassen sich längs
+  Idealinklusionen fortsetzen). Dann ist M injektiv für alle Injektionen A → B
+  mit endlich erzeugtem Quotient, wie eine einfache Induktion zeigt.
+
+  Gelernt natürlich von Martin Brandenburg,
+  https://math.stackexchange.com/questions/586169/zorns-lemma-and-injective-modules.
+
+  Dabei wird die Baer-Bedingung auf ein Ideal der Form (A' : y) angewendet,
+  wobei y (ein Repräsentant eines) Erzeugers von B/A und A' eine
+  Zwischenerweiterung von B|A der Form A + span(...) ist.
+
+* In welcher Kategorie von Moduln habe ich beide folgenden Dinge?
+
+  1. Injektionen haben endlich erzeugte Quotienten.
+  2. Es gibt Moduln, die die Baer-Bedingung erfüllen.
+
+
 === Ideelle Oberkörper als Kolimes?
 
 Sei f ein Polynom aus K[X] mit Grad >= 1. Dann ist L := K[X]/(f) ein ideeller

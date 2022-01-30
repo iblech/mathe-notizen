@@ -1152,6 +1152,20 @@ https://cs.nyu.edu/pipermail/fom/2000-January/003643.html
   Consistency Waterfall
 
 
+=== Existenzeigenschaft
+
+* HA zeigt nicht die Existenzeigenschaft von HA:
+  https://mathoverflow.net/questions/413659/is-heyting-arithmetic-sufficient-to-prove-its-own-formalized-existence-propert
+
+  Wenn dem so wäre, würde HA + Con(HA) seine Konsistenz zeigen, denn es könnte
+  wie folgt argumentieren:
+
+  Gelte HA + Con(HA) ⊢ ⊥. Dann HA ⊢ ¬¬Incon(HA). Somit PA ⊢ Incon(HA).
+  Somit HA ⊢ Incon(HA). Nach Voraussetzung gibt es n mit HA ⊢ Proof_HA(n, "⊥").
+  Habe auch ¬Proof_HA(n, "⊥"). Also HA ⊢ ¬Proof_HA(n, "⊥"). Also HA ⊢ ⊥.
+  Also ⊥.
+
+
 === Conway's Game of Life
 
 https://arxiv.org/pdf/1711.02456.pdf

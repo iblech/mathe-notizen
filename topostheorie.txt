@@ -389,6 +389,10 @@ Das folgt sofort aus:
 
 * Ab_E = Mod_E(Z) erfüllt stets Grothendiecks Axiom AB5.
 
+Hier eine genauere Analyse.
+
+
+
 
 === Begriffe von Injektivität
 
