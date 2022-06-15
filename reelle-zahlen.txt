@@ -60,6 +60,8 @@ also c + 2^{-n0} <= c, Widerspruch.
   Fall könnte man einen weiteren Beweis der Überabzählbarkeit von R_MacNeille
   angeben: Eine Surjektion N --> R_MacNeille überträgt sich in den
   Gleason-Cover, wo wegen LEM für negierte Aussagen bottom folgt.
+  (https://www.sciencedirect.com/science/article/pii/0022404980901000, The
+  gleason cover of a topos)
 
 * Enthält der Topos der Injektionen R --> N eine Injektion von R nach N?
   Wäre beachtenswert, wenn auch vermutlich irrelevant bezüglich der Frage, ob

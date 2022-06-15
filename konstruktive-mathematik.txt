@@ -533,6 +533,32 @@ Hochgelobt von David Roberts auf MO.
   https://projecteuclid.org/download/pdf_1/euclid.pjm/1102810439
   Algebraic numbers, a constructive development
 
+* Von abzählbaren Körpern K (gemeint ist: ¬inv ⇒ 0) können wir wie folgt einen
+  algebraischen Abschluss konstruieren. Wir nehmen die Zerfällungsalgebra aller
+  normierten Polynome positiven Grads und teilen das über die
+  Krivine-Konstruktion erhaltene maximale Ideal heraus. Das Ergebnis, K₁, ist
+  wieder ein Körper, die normierten Polynome über K positiven Grads zerfallen
+  alle und K₁ ist auch algebraisch über K.
+
+  Leider sehe ich nicht, wie man konstruktiv zeigen könnte, dass auch die neuen
+  Polynome zerfallen würden.
+
+  Ich kann nur zeigen: Für jedes normierte Polynom positiven Grads aus K₁[X]
+  gilt, dass es nicht nicht der Fall ist, dass es eine Nullstelle in K₁ hat.
+
+  Aber nicht verzagen! Wir wiederholen einfach die Konstruktion für die neuen
+  Polynome, um K₂ zu erhalten, und so weiter. K∞ ist dann der Kolimes (in der
+  Kategorie der Ringe) dieser K_n. Und darüber zerfallen dann sicher alle
+  Polynome. :-)
+
+  K∞ ist wieder ein Körper (im selben Sinne); jedes normierte Polynom zerfällt;
+  jedes Element ist algebraisch über K; und der Unterring K[x ∈ K∞ | f(x) = 0
+  für ein f ∈ K[X]] ist ganz K∞. (Das ist was anderes, größeres, als K[die
+  synthetischen Nullstellen der Polynome von K[X]].)
+
+  Dank der generischen Surjektion geht das alles auch für beliebige Ringe, der
+  Abschluss lebt dann in einem anderen Topos.
+
 
 === Fan-Theorem & Co.
 

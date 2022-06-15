@@ -6,6 +6,9 @@ http://arxiv.org/abs/1406.1808
 
 Sehr einfach zu verstehen!
 
+Mehr zu BB:
+https://www.cs.umd.edu/~gasarch/open/busybeaver.pdf
+
 
 === Busy Beaver besiegt jede berechenbare Funktion
 
@@ -573,3 +576,22 @@ http://eprint.iacr.org/2013/454.pdf
 === Ableitungen von Turingmaschinen
 
 http://therisingsea.org/notes/talk-beida-tm-2018.pdf
+
+
+=== Partialität
+
+* Freie Monaden für Modellierung von partieller Rekursion:
+
+  https://strathprints.strath.ac.uk/60166/1/McBride_LNCS2015_Turing_completeness_totally_free.pdf
+
+
+=== Church-Kodierung
+
+* Vorgängerfunktion erstaunlich subtil,
+  https://okmij.org/ftp/Computation/pred-talk.pdf
+
+
+=== Oleg
+
+* polynomial event semantics
+  https://okmij.org/ftp/gengo/poly-event/PolyNeg-talk.pdf

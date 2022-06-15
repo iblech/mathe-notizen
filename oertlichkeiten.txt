@@ -1097,6 +1097,30 @@ kein Element von Q). Seien nun α,β Wahrheitswerte mit { p | α } ⊆ { p | β 
 Gelte α, zeige β. Das ist trivial, da [x₀] in der linken Menge liegt.
 
 
+=== Örtlichkeit der maximalen Elemente
+
+Sei I eine Partialordnung, die die Kettenbedingung erfüllt. Wir betrachten die
+folgende Theorie:
+
+  propositionale Symbole: Max(i) (für i ∈ I)
+
+  Axiome:
+
+    * ⊤ ⊢ V_{j ≥ i} Max(j)  (für i ∈ I)
+
+    * Max(i) ⊢ V { ⊤ | i = j }  (für i ≤ j)
+
+Ein Modell davon besteht aus einer Auszeichnung von gewissen Elementen als
+"maximale", und zwar genau die, die tatsächlich maximal sind, und zwar so, dass
+jedes Element unter einem maximalen Element liegt:
+
+    1. Sei Modell gegeben. Gelte Max(i). Sei i ≤ j. Dann i = j nach dem zweiten
+    Axiom. Sei umgekehrt i maximal. Dann finde j ≥ i mit Max(j). Wegen
+    Maximalität gilt aber j = i.
+
+Mit Zorn ist die Konsistenz der Theorie klar. Geht es auch ohne Zorn?
+
+
 === Literatur
 
 * Klar: Johnstone (zwei Einführungsartikel, Stone Spaces, Elephant)

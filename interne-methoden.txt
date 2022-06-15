@@ -2519,6 +2519,18 @@ Schön!
   Also lokale R-Algebren zusammen mit einer gewählten K-Aufdickung.
 
 
+=== Modaler Operator für reguläre Überdeckung
+
+* Definition: X ist genau dann quasi-bewohnt, wenn:
+
+      ∀Y. ∀f : X → Y. (∀x,x'. f(x) = f(x')) ⇒ ∃y. ∀x. f(x) = y.
+
+* Dann definieren wir ∇φ als "∃X. X quasi-bewohnt & (X bewohnt ⇒ φ)".
+
+* Das schneidet in PSh(C) wohl die Topologie stabil regulärer
+  Singleton-Familien aus.
+
+
 === Nächste Schritte
 
 * von Yuri empfohlen: Yves Diers: Categories of commutative algebras

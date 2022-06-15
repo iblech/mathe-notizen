@@ -57,6 +57,10 @@ Injektive nützlich.
   wobei y (ein Repräsentant eines) Erzeugers von B/A und A' eine
   Zwischenerweiterung von B|A der Form A + span(...) ist.
 
+* Kann ich maximale Fortsetzung konstruieren wie im Papier mit Peter?
+
+  B_0 := A, B_{n+1} := B_n + (x_n | B_n + (x_n) → M ist wohldef. und linear)
+
 * In welcher Kategorie von Moduln habe ich beide folgenden Dinge?
 
   1. Injektionen haben endlich erzeugte Quotienten.

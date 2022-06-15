@@ -1166,6 +1166,20 @@ https://cs.nyu.edu/pipermail/fom/2000-January/003643.html
   Also ⊥.
 
 
+=== Art der Zeugen in Dialectica
+
+* Die Dialectica-Übersetzung von "∀P. ∃x. (Px → ∀y. Py)" ist "∀P,y. P(fP) → P(y)".
+
+* Die Dialectica-Übersetzung von "∀a,b. a = b → f(a) = f(b)" ist sie selbst.
+
+* Die Dialectica-Übersetzung von "∀α,β. (∀n. α(n) = β(n)) → f(a) = f(b)" ist
+  "α(Λ(α,β)) = β(Λ(α,β)) → f(α) = f(β)", kann noch definiert werden als
+  Λ(α,β) = min { n | α(n) ≠ β(n) } (sonst 0).
+
+* Zeugen werden immer komplizierter (gelernt von Kohlenbach auf Dagstuhl 2021):
+  erst nicht berechenbar, dann sogar nicht ZF-definierbar.
+
+
 === Conway's Game of Life
 
 https://arxiv.org/pdf/1711.02456.pdf
