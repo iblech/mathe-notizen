@@ -157,6 +157,13 @@
   einen Zahlterm N verfügen, sodass PA' + (phi(0) & (∀n. phi(n) → phi(n+1)))
   nicht phi(N) zeigt.
 
+* Nelson Seite 75: Übungsaufgabe zu zeigen, dass 2 ^^ 6, 2 ^^ 7 und 2 ^^ 2 ^^ 4
+  alles Zählzahlen sind. (2 ^^ 2 ^^ 5 ist aber außer Reichweite.)
+
+* Kann den Begriff der additiven Zahl, multiplikativen Zahl usw. nicht
+  verallgemeinern zum Begriff der "f-Zahl", wobei f eine primitiv rekursive
+  Funktion ist, deren Totalität ich gerne hätte.
+
 
 === Große Zahlen als syntaktischer Zucker
 

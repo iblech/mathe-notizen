@@ -301,6 +301,9 @@ offenabgeschlossenen Teilmengen. Stichwort Stone-Dualität.
 
   Diese sind offensichtlich gleich.
 
+* Einbettung von Schemata in Topoi:
+  https://mathoverflow.net/questions/426038/making-the-%c3%a9tale-topos-construction-a-fully-faithful-2-functor-from-schemes-to-g
+
 
 === Motivation für fppf- und fpqc-Topologie
 
