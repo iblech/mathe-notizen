@@ -106,6 +106,12 @@ curve. Beweis von Proposition 2.2.)
   läuft es auch für beliebige Moduln. Dann muss man halt nicht-endlich erzeugte
   Gruppen verwenden.
 
+  Kann man wohl auch so schreiben:
+  * Sei A = ℤ<X>/R, R ist dabei ein ℤ-Untermodul von ℤ<X>.
+  * ℤ<X> bettet in ℚ<X> ein (Einbettung sei i), und das ist divisibel
+  * ℤ<X>/R bettet in ℚ<X>/i[R] ein (Achtung, i[R] ist kein ℚ-UVR)
+  * ℚ<X>/i[R] ist divisibel
+
 * Und so läuft's in R-Mod: Sei M ein R-Modul. Bette die M zugrundeliegende
   abelsche Gruppe U(M) in eine injektive Gruppe D ein. Dann ist Hom(U(R), U(D))
   injektiv und wir haben eine Injektion M --> Hom(U(R), U(D)).

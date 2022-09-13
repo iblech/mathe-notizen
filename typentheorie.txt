@@ -33,6 +33,14 @@ https://dl.acm.org/doi/pdf/10.1145/3341711?download=true
   http://www.cs.nott.ac.uk/~psztxa/g53cfr/l20.html/l20.html (Idee:
   Mengenuniversum aufbauen, dann Russell nachahmen)
 
+* Die Annahme von Type in Type hatte zu folgenden fehlerhaften Ergebnissen
+  geführt:
+
+  1. Konsistenz von Type in Type
+  2. etwas zu Modalitäten von Mike
+
+  https://proofassistants.stackexchange.com/questions/1219/has-anyone-ever-accidentally-proven-a-false-theorem-with-type-in-type
+
 
 === Übersetzungen von Typentheorie nach Typentheorie
 

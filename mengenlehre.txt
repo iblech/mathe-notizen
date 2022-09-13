@@ -359,6 +359,10 @@ James Lipton.
 Realizability, Set Theory and Term Extraction.
 https://pdfs.semanticscholar.org/92ab/8d8ef79bb1fd68c9876a74e4e2d06c4c8dfd.pdf
 
+Naturalist account of forcing (von Hamkins popularisiert):
+§3, https://www.cambridge.org/core/journals/review-of-symbolic-logic/article/settheoretic-multiverse/B27885BC5F1D9860585F070B5DE1D53A
+https://www.jstage.jst.go.jp/article/jafpos/19/0/19_KJ00007475204/_article
+
 
 === Fun Facts zu Kardinalzahlen
 

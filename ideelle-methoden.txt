@@ -57,6 +57,22 @@ Injektive nützlich.
   wobei y (ein Repräsentant eines) Erzeugers von B/A und A' eine
   Zwischenerweiterung von B|A der Form A + span(...) ist.
 
+  Wenn die Baer-Bedingung funktional erfüllt ist, geht das auch für B/A
+  abzählbar erzeugt.
+
+  Idee also, in der Kategorie der abzählbaren Gruppen zu arbeiten. In der ist
+  die Existenz von Kernen nicht klar. Also Gruppen mit partieller Surjektion
+  aus ℕ heraus. Die Potenzmengenkonstruktionen für die Herstellung der
+  Baer-Bedingung führt aber aus dieser Klasse heraus:
+
+  * Es gibt keine partielle Surjektion f : X → P(X).
+
+    Betrachte M = { x ∈ X | falls f(x) definiert ist und x ∈ f(x), dann ⊥ }.
+    Wegen Surjektivität existiert x₀ mit f(x₀) = M.
+    Insbesondere ist f(x₀) definiert. Es gilt also:
+
+        x₀ ∈ M  ↔  ¬(x₀ ∈ M).
+
 * Kann ich maximale Fortsetzung konstruieren wie im Papier mit Peter?
 
   B_0 := A, B_{n+1} := B_n + (x_n | B_n + (x_n) → M ist wohldef. und linear)

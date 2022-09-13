@@ -1100,6 +1100,9 @@ https://staff.fnwi.uva.nl/b.vandenberg3/papers/note_on_haomega.pdf
 
 * https://arxiv.org/pdf/1812.00990.pdf
 
+* https://arxiv.org/abs/math/9204207 Interessanter Beweis von Jech für
+  Mengenlehren
+
 
 === Higher-order reverse mathematics
 

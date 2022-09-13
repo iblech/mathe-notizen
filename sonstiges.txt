@@ -720,3 +720,22 @@ https://www.cambridge.org/core/books/paradoxes-and-inconsistent-mathematics/
 === Acausal trade
 
 https://slatestarcodex.com/2018/04/01/the-hour-i-first-believed/
+
+
+=== Kritik von CG
+
+* Das Wort "Vorlesung" ist suboptimal!
+
+* In Mathe Abstand vom absoluten Wahrheitsanspruch nehmen ("wahr" im selben
+  Sinne wie manche Menschen sagen, dass es wahr sei, dass man nicht tiefer als
+  in Gottes Hand fallen kann), besser "stimmig" sagen
+
+* Englischstunden reduzieren, um mehr Zeit für Mathe zu haben
+
+* Mehr auf Abschätzungen abgehen
+
+
+=== Spezielles der sozialen Aktivität des Mathematikschaffens
+
+* Starker Konsens:
+  http://m-phi.blogspot.com/2011/10/inconsistency-of-pa-and-consensus-in.html

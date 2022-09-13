@@ -146,3 +146,12 @@ http://mathoverflow.net/questions/50879/what-is-the-knot-associated-to-a-prime/5
 
 https://mathoverflow.net/a/5807/31233
 https://www.youtube.com/watch?v=0Oef3MHYEC0
+
+
+=== e^(pi sqrt(163))
+
+http://people.maths.ox.ac.uk/greenbj/papers/ramanujanconstant.pdf
+
+* j((1+sqrt(-163))/2) ist bis auf ganzzahlige Terme und sehr kleine Terme
+  genau e^(pi sqrt(163)), und ist selbst eine Ganzzahl, da ganz über Z
+  und vom Grad 1, da (...), da die Klassenzahl von Q(...) 1 ist.

@@ -1568,6 +1568,64 @@ Weil φ als quantorfrei vorausgesetzt ist.
     Morphismen aufs gleiche.
 
 
+=== Fourman's continuous truth
+
+* (Teil I) Ein geiler Topos ist der Topos der Garben über der/einer
+  Kategorie von [Korrektur in CT II: offenen] Örtlichkeiten (abgeschlossen
+  unter endlichen Limiten und offenen Inklusionen) mit der open cover topology
+  (offene Surjektionen).
+
+  Jede Örtlichkeit X hat ein Spiegelbild in dem Topos gegeben durch
+  O(X')(U) = O(X x U^j). Dann haben wir:
+
+  * Für jede Örtlichkeit X aus dem Situs hat X' aus interner Sicht genügend
+    viele Punkte. (Für X = N^N folgt also Bar-Induction, für X = 2^N das
+    Fan-Theorem, für X = R das Heine-Borel-Theorem. (Offene Inklusionen würden
+    dazu schon genügen, was meint Fourman damit?))
+
+  * eine "open cover"-Version von AC
+
+  * Stetigkeit aller Abbildungen, die zwischen den Punktmengen von
+    T₁-Örtlichkeiten aus dem Situs verlaufen
+
+* Interne Kategorie C~ zum Situs C in Sh(C,J):
+
+      C~(U) = C/U
+
+  oder, wenn auf Kohärenz geachtet werden soll:
+
+      C~(U) = { S_f | f : V → U }
+          mit S_f ∈ (PV)(U) gegeben durch
+          einen gewissen Unterfunktor von Hom_U(__,V), nämlich
+          denjenigen, der g : W → V (mit w : W → U) genau dann enthält,
+          wenn f . g = w. (Stimmt das so?)
+
+  "Halt Yoneda anwenden, um zu striktifizieren."
+
+  Habe dann einen Funktor E = Sh(C,J) → PSh_E(C~), der aus einem Objekt A
+  die Prägarbe ((f : X → U) ↦ (Π_{x ∈ f^{-1}(u)} A)_u macht, und Fourman sagt,
+  dass dieser first-order logic erhält.
+
+* Fourman definiert die interne Sprache auf interessante Art und Weise,
+  induktiv, nur die Einführungsprinzipien fordernd. Die Eliminationsprinzipien
+  leitet er dann als Korollar ab.
+
+* Für Fourman geil ist dann auch folgendes Resultat: "CT ⊢ φ iff ID ⊢ τφ",
+  wobei CT ⊢ (φ ↔ τφ).
+
+* Lemma 5 in CT II drückt aus, dass [[ Set[underline(T')] ]]_{Set[T]} = Set[T] x Set[T'].
+
+* Fourmans reflection in CT II drückt aus: M ⊧ (⊧ φ) gdw. M ⊧ φ. Das "gdw."
+  ist dabei extern. Das ist also etwas anderes als mein Nullstellensatz.
+
+* Sh(C,J) ⊧ φ gdw. Sh(C,J) ⊧ (Sh(C^→, J*) ⊧ φ).
+
+* CT II Prop. 8: Ist X eine Örtlichkeit aus dem Situs, so habe ein
+  adjungiertes Paar Sh(X) ↔ Sh(C/X) von geometrischen Morphismen.
+  Der Rückzug längs Sh(C/X) → Sh(X) bewahrt und reflektiert first-order logic,
+  Exponentiale und Punkte von formalen T₁-Räumen.
+
+
 === Nächste Schritte
 
 * von Peter Arndt empfohlen: John Bell, Toposes and local set theories.

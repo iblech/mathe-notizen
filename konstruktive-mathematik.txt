@@ -604,7 +604,7 @@ Hochgelobt von David Roberts auf MO.
 
 === Lokale und globale Lipschitzstetigkeit
 
-* Der Beweis, dass lokale Lipschitzstetigkeit auf Kompakte globale impliziert,
+* Der Beweis, dass lokale Lipschitzstetigkeit auf Kompakta globale impliziert,
   ist nicht völlig uninteressant. Was sagt proof mining dazu?
 
 
@@ -649,6 +649,6 @@ Beschreibt eine Sprache, MarshallB, in der alle Funktionen stetig sind und
 Maxima von kompakten Mengen bestimmt werden können.
 
 
-=== Integreationstheorie
+=== Integrationstheorie
 
 https://drops.dagstuhl.de/opus/volltexte/2006/290/pdf/05021.SpittersBas1.Paper.290.pdf
