@@ -408,6 +408,12 @@ http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1381-10.pdf
   kohärent und noethersch so ist O_{Spec A} kohärent und noethersch. Wobei der
   Verzicht auf Kohärenz jeweils nicht möglich ist.
 
+* Noethersche Mengen:
+  https://hal.inria.fr/inria-00503917/file/Coquand_Spiwack_-_2010_-_Constructively_Finite.pdf
+
+  Noethersche Mengen sind stets streamless; die Umkehrung gilt nicht:
+  https://cs.ioc.ee/~tarmo/tsem11/bezem2012-slides.pdf
+
 
 === Analysis
 

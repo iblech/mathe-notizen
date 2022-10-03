@@ -363,6 +363,21 @@
   (Update: Finde diese Aussage in der Form gerade nicht wieder in diesem
   Artikel. Ist also vielleicht falsch.)
 
+* Ich glaube, dass ein geometrischer Morphismus f : E → Set genau dann
+  surjektiv ist, wenn f^* Bewohntheit reflektiert.
+
+  Damit wäre etwa Spec(A) → Set genau dann surjektiv, wenn 1 ≠ 0.
+
+  Und Set[𝕋] → Set wäre es genau dann, wenn immer wenn 𝕋 zeigt, dass ⊤ ⊢ ⋁_{i ∈ I} φ_i,
+  folgt, dass I bewohnt ist.
+
+  Also eine schwache Form von Lokalität/Ouvertheit.
+
+  Nach Lemma D2.4.8 scheint das zumindest dann zu stimmen, wenn E ein
+  Grothendieck-Topos über einem Situs mit terminalem Objekt ist.
+  (Nicht mit der Bedingung verwechseln, dass alle erzeugenden Überdeckungen
+  bewohnt sind! Das gibt's bei Offenheit.)
+
 
 === Degeneration von Topoi
 
@@ -1247,6 +1262,14 @@ eine Zerfällung besitzt, nämlich dem Topos der Zerfällungen von f.
   Theorien) ist nur eine Aussage über natürliche Zahlen und relativiert daher
   prima. Wenn ich ihn ihn ZFC zeigen kann, dann auch in ZF. (Achtung, der
   Vollständigkeitssatz ist dagegen nicht absolut!)
+
+* Joyal/Tierney, Theorem VII.3.1: Jeder Grothendiecktopos erlaubt eine offene
+  Surjektion aus einem lokalischen Topos. Der Beweis dort sollte konstruktiv
+  sein.
+
+  Dann Baby-Barr hinterherschalten (auf lokalische Art und Weise, "splitting
+  locale"). Fertig ist eine Überdeckung aus einem Topos, in dem LEM und (falls
+  Zorn in der Metatheorie gilt) Zorn gilt, also AC.
 
 
 === Nächste Schritte
