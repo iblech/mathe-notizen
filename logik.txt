@@ -1190,6 +1190,12 @@ https://arxiv.org/pdf/1711.02456.pdf
 Gödel = Halteproblem = Conway
 
 
+=== Iterierte Konsistenz
+
+* Iterierte Konsistenz, nichttrivial formal zu fassen, gibt in einem gewissen
+  Sinn Vollständigkeit: https://mathoverflow.net/questions/67214/pi1-sentence-independent-of-zf-zfconzf-zfconzfconzfconzf-etc
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?

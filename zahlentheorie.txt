@@ -155,3 +155,8 @@ http://people.maths.ox.ac.uk/greenbj/papers/ramanujanconstant.pdf
 * j((1+sqrt(-163))/2) ist bis auf ganzzahlige Terme und sehr kleine Terme
   genau e^(pi sqrt(163)), und ist selbst eine Ganzzahl, da ganz über Z
   und vom Grad 1, da (...), da die Klassenzahl von Q(...) 1 ist.
+
+
+=== Klassengruppe und Kohomologie
+
+https://mathstodon.xyz/@montessiel/109307323357254194

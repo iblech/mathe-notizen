@@ -587,6 +587,21 @@ https://www.jstage.jst.go.jp/article/jafpos/19/0/19_KJ00007475204/_article
   Praxis!
 
 
+=== Probleme mit Forcing
+
+* Forcing bewahrt immer die Ordinalzahlen (so die eine Freundin von Sylvy).
+
+* Forcing bewahrt immer first-order, insbesondere Eigenschaften von ℕ.
+
+
+=== Minimale Axiomatisierung
+
+* https://cpb-us-w2.wpmucdn.com/u.osu.edu/dist/1/1952/files/2014/01/FromRusselltoSetThy-1rnmfbg.pdf
+  https://cpb-us-w2.wpmucdn.com/u.osu.edu/dist/1/1952/files/2014/01/IntSetMPT97-2hjdxqo.pdf
+
+* ZFC ist in einer Theorie mit nur zwei Axiomen interpretierbar, SS und RED.
+
+
 === Literatur
 
 * http://projects.illc.uva.nl/KNAW/Heyting/uploaded_files/inlineitem/vdberg-slides.pdf
