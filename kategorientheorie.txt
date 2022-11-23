@@ -542,12 +542,12 @@ Ferner gilt:
 
   Beweis so (in Matthias' Konvention):
 
-        |    η                  G \ / F  | | F
-      G |    *                     o     | |
-        |   / \             o         =  | |
-         \ /   \           / \     o     | |
-          *     | G        \ /  G / \ F  | |
-          ε     |           o
+        |    η                       G \ / F    | | F
+      G |    *           o              o       | |
+        |   / \         / \  =               =  | |
+         \ /   \        \ /             o       | |
+          *     | G      o           G / \ F    | |
+          ε     |
 
   Das Inverse zu ε ist dann:
 

@@ -602,6 +602,17 @@ https://www.jstage.jst.go.jp/article/jafpos/19/0/19_KJ00007475204/_article
 * ZFC ist in einer Theorie mit nur zwei Axiomen interpretierbar, SS und RED.
 
 
+=== Fundiertheit
+
+* Unter der Annahme von Con(ZFC) kann man mit dem Vollständigkeitssatz leicht
+  ein Modell von ZFC konstruieren, welches wie jedes Modell von ZFC glaubt, das
+  Regularitätsaxiom zu erfüllen, in Wahrheit aber eine unendlich absteigende
+  Kette von Elementen besitzt.
+
+  Denn für jedes Numeral n ist die Theorie "ZFC + ∃x_1,...,x_n: x_1 ∈ ... ∈ x_n"
+  konsistent.
+
+
 === Literatur
 
 * http://projects.illc.uva.nl/KNAW/Heyting/uploaded_files/inlineitem/vdberg-slides.pdf
