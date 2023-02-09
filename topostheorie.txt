@@ -1649,6 +1649,14 @@ Weil φ als quantorfrei vorausgesetzt ist.
   Exponentiale und Punkte von formalen T₁-Räumen.
 
 
+=== Offene Surjektionen
+
+* Stabil unter Rückzug? Wird für Örtlichkeiten angedeutet auf Seite 86 oben
+  von Proper maps of locales.
+
+* Surjektionen selbst sind ja nicht stabil, oder? Gegenbeispiel?
+
+
 === Nächste Schritte
 
 * von Peter Arndt empfohlen: John Bell, Toposes and local set theories.

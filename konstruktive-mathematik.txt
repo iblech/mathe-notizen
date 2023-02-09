@@ -253,6 +253,11 @@ http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1381-10.pdf
 
   gilt: P(sigma) für alle sigma.
 
+  (Das ist äquivalent dazu, dass G | [], wobei P | σ der induktiv erzeugte Typ
+  mit den Konstruktoren Here : P(σ) → P|σ und Later : ((x) → P|σ,x) → P|σ
+  ist. Für die Hinrichtung betrachte das Prädikat P gegeben durch P(σ) ≡ (G|σ).
+  Für die Rückrichtung Induktion.)
+
 * Wenn (x_1,...,x_n) = (1), so gilt P(x_1,...,x_n) für solch ein Prädikat.
 
 * G(x_1,...,x_n) bedeutet, dass (x_1) <= (x_1,x_2) <= ... <= (x_1,...,x_n)
@@ -413,6 +418,24 @@ http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1381-10.pdf
 
   Noethersche Mengen sind stets streamless; die Umkehrung gilt nicht:
   https://cs.ioc.ee/~tarmo/tsem11/bezem2012-slides.pdf
+
+* A~ in Spec(A) ist genau dann ind-noethersch (Good | [], wobei sich Good auf
+  endliche Listen endlich erzeugter Ideale bezieht), wenn A lokind-noethersch
+  ist. Dabei kommt als ein weiterer Konstruktor Local dazu, wenn auf einer
+  Überdeckung jeweils P||σ gilt, so auch direkt P||σ.
+
+  Es gilt: Good || σ gdw. Good_loc || σ gdw. Good_loc | σ, wobei Good_loc(σ)
+  bedeutet, dass es eine Zerlegung der Eins gibt, sodass σ jeweils
+  weglokalisiert stockt.
+
+  Good || σ ⇒ Good_loc || σ: trivial, da nur Abschwächung.
+  Good || σ ⇐ Good_loc || σ: zum Schluss extra Anwendung von Local.
+  Good_loc || σ ⇒ Good_loc | σ: Da Good_loc lokal ist.
+  Good_loc || σ ⇐ Good_loc | σ: trivial.
+
+* Warnung: ind-noethersch zu sein ist keine geometrische Formel wegen der
+  unendlichen Verzweigung. Verhält sich in Teilen dennoch so ähnlich (in
+  klassischer Metatheorie intern wahr genau dann wenn halmweise wahr).
 
 
 === Analysis
@@ -658,3 +681,8 @@ Maxima von kompakten Mengen bestimmt werden können.
 === Integrationstheorie
 
 https://drops.dagstuhl.de/opus/volltexte/2006/290/pdf/05021.SpittersBas1.Paper.290.pdf
+
+
+=== Schematheorie
+
+* https://arxiv.org/pdf/2212.02902.pdf

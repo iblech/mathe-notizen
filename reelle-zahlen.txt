@@ -134,6 +134,9 @@ also c + 2^{-n0} <= c, Widerspruch.
 
 * http://math.fau.edu/Richman/docs/cuts-la.pdf
 
+* https://www2.mathematik.tu-darmstadt.de/~streicher/rnc.pdf
+  Bas+Rosolini-Beweis
+
 
 === Nächste Schritte
 

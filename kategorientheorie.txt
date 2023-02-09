@@ -1810,6 +1810,15 @@ die mit einem Funktor nach C kommt.
       zumindest PSh(C).
 
 
+=== Garben in Theorie der Nebenläufigkeit
+
+* Joseph Goguen: Sheaf semantics of concurrent interacting objects
+
+  Eine Garbe beschreibt mögliche zeitliche Entwicklungen.
+  Diagramme sind Systeme.
+  Limiten beschreiben Entwicklungen des Gesamtsystems.
+
+
 === Nächste Schritte
 
 * Kurz über "Cat ist vollständig und kovollständig" nachdenken.

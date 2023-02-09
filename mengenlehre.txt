@@ -591,7 +591,35 @@ https://www.jstage.jst.go.jp/article/jafpos/19/0/19_KJ00007475204/_article
 
 * Forcing bewahrt immer die Ordinalzahlen (so die eine Freundin von Sylvy).
 
-* Forcing bewahrt immer first-order, insbesondere Eigenschaften von ℕ.
+* Forcing bewahrt immer bounded first-order, insbesondere Eigenschaften von ℕ.
+
+
+=== Forcing und Filterbegriffe
+
+Sei F ⊆ P eine ↑-abgeschlosse ↓-gerichtete Teilmenge einer Partialordnung P.
+
+Dann sind mit LEM äquivalent:
+
+(1) F zerfällt die Doppelnegationstopologie, d.h.
+    ∀p. ∀R⊆↓p. (∀q≤p. ∃r≤q. r ∈ R) ∧ (p ∈ F) ⇒ F ≬ R.
+               ^^^^^^^^^^^^^^^^^^^
+                 d.h. R ∈ Cov(p)
+
+(2) F ist generisch in dem Sinne, dass es jede dichte Teilmenge trifft, d.h.
+    ∀X. (∀p. ∃q≤p. q ∈ X) ⇒ F ≬ X.
+        ^^^^^^^^^^^^^^^^^
+          d.h. X dicht
+
+(1) ⇒ (2) ist trivial, denn sei X so eine dichte Teilmenge. Als Filter ist F
+durch ein Element p bewohnt. Die Menge R := X ∩ ↓p ist eine Überdeckung von p.
+Dass F ≬ R, impliziert trivialerweise F ≬ X.
+
+(2) ⇒ (1) benötigt LEM und geht so. Sei R eine Überdeckung von p und gelte p ∈ F.
+Definiere X := R ∪ { a | p,a haben keine gemeinsame Verfeinerung }. Dann ist X
+dicht, denn für jedes a gilt: Entweder haben p,a keine gemeinsame Verfeinerung,
+oder wenn doch eine solche b ≤ p,a existiert, so existiert auch c ≤ b mit c ∈ R.
+Also nach Voraussetzung F ≬ X. Sei a ein Element im Schnitt. Da F ein Filter
+ist, besitzen a und p eine gemeinsame Verfeinerung. Also liegt a in R.
 
 
 === Minimale Axiomatisierung

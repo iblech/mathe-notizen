@@ -1028,7 +1028,7 @@ Sei P eine Partialordnung. Dann ist D(P), die Partialordnung der
 ↓-abgeschlossenen Teilmengen von P, ein Rahmen (mit den üblichen
 mengentheoretischen Operationen).
 
-* Ist f eine ↑-abgeschlossen ↓-gerichtete Teilmenge von P,
+* Ist f eine ↑-abgeschlossene ↓-gerichtete Teilmenge von P,
   so ist F = { U | U ≬ f } ein vollständig primer Filter von D(P).
 
 * Ist F ein vollständig primer Filter von D(P),

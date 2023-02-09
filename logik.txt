@@ -1196,6 +1196,12 @@ Gödel = Halteproblem = Conway
   Sinn Vollständigkeit: https://mathoverflow.net/questions/67214/pi1-sentence-independent-of-zf-zfconzf-zfconzfconzfconzf-etc
 
 
+=== Knowability
+
+* Shapiro,
+  https://sci-hub.se/https://www.sciencedirect.com/science/article/abs/pii/S0049237X08701381
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?
