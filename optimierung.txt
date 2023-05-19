@@ -42,6 +42,13 @@ http://sebastianruder.com/optimizing-gradient-descent/
 https://mathoverflow.net/a/178210/31233
 
 
+=== Schwere Optimierungsprobleme durch leichtere approximieren
+
+Using easy optimization problems to solve hard ones, Lars Engebretsen,
+Pages 77-93, Classical and New Paradigms of Computation and their Complexity
+Hierarchies.
+
+
 === Übersicht
 
 * https://arxiv.org/abs/1712.07897

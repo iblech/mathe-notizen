@@ -739,3 +739,13 @@ https://slatestarcodex.com/2018/04/01/the-hour-i-first-believed/
 
 * Starker Konsens:
   http://m-phi.blogspot.com/2011/10/inconsistency-of-pa-and-consensus-in.html
+
+
+=== Symbolisches und automatisches Differenzieren sind identisch!
+
+https://arxiv.org/pdf/1904.02990.pdf
+
+
+=== Deep Learning/GPT und Beweisassistenten
+
+https://arxiv.org/pdf/2009.03393.pdf
