@@ -1202,6 +1202,21 @@ Gödel = Halteproblem = Conway
   https://sci-hub.se/https://www.sciencedirect.com/science/article/abs/pii/S0049237X08701381
 
 
+=== Endliche Automaten deren Eigenschaften unabhängig von ZFC+X sind
+
+https://hal.science/hal-01588572v1/document
+
+
+=== Graph minor theorem
+
+* Der endliche Satz von forbidden minors ist definitiv nicht im Allgemeinen
+  berechenbar: "On Search, Decision, and the Efficiency of Polynomial-Time
+  Algorithms", Michael Fellow.
+
+* Primzahl-Check in Polynomialzeit gegeben ERH:
+  Riemann's Hypothesis and Tests for Primality, Gary Miller.
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?
