@@ -1217,6 +1217,25 @@ https://hal.science/hal-01588572v1/document
   Riemann's Hypothesis and Tests for Primality, Gary Miller.
 
 
+=== Beweistheoretische Härte (proof-theoretic ordinal)
+
+* http://www1.maths.leeds.ac.uk/~rathjen/realm.pdf
+
+* Es gibt keine Ordinalzahl α, sodass PA + Con(PA) beweistheoretisch äquivalent
+  zu PA + bigcup_{β < α} TI(β) ist: Seite 9 in Rathjen.
+
+* Anwendungen von ordinal analysis nach Rathjen:
+
+  (1) Consistency of subsystems of classical second order
+      arithmetic and set theory relative to constructive theories
+
+  (2) reductions of theories formulated as conservation theorems
+
+  (3) combinatorial independence results
+
+  (4) classifications of provable functions and ordinals
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?
