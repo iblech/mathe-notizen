@@ -641,6 +641,11 @@ ist, besitzen a und p eine gemeinsame Verfeinerung. Also liegt a in R.
   konsistent.
 
 
+=== Durchbruch 2017
+
+* p = t: https://arxiv.org/abs/1803.04331
+
+
 === Literatur
 
 * http://projects.illc.uva.nl/KNAW/Heyting/uploaded_files/inlineitem/vdberg-slides.pdf

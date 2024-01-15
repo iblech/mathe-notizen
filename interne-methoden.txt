@@ -2200,6 +2200,17 @@ Sei O_X kohärent. Dann kann EXT intern als Ext verstanden werden.
 * http://arxiv.org/abs/1407.5446v1
   Points in the fppf topology
 
+* Ist R[X]/(...) endlich frei von positivem Rang, so ist es isomorph
+  zu R[X]/(normiert). Nach Cayley--Hamilton finden wir ein normiertes Polynom
+  positiven Grads f, das den Algebren- und Modulerzeuger X annihiliert.
+  Die restlichen Polynome können wir dann durch Polynome vom Grad < deg(f)
+  ersetzen. Nun ist (1,X,...,X^{deg(f)-1}) linear unabhängig (denn EZS von
+  richtiger Länger). Also sind die Koeffizienten all der anderen Polynome Null.
+
+  Mit anderen Worten: Ist I ein endlich erzeugtes Ideal von R[X] derart, dass
+  R[X]/I endlich frei ist, so ist I ein von einem normierten Polynom erzeugtes
+  Hauptideal.
+
 
 === Étale Morphismen
 
