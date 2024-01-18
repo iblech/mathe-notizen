@@ -833,6 +833,12 @@ initiale Objekt vermutlich die leere Kategorie ist.
   schalte Isos in bzw. aus injektive Ersätze vor bzw. nach.)
 
 
+=== Auflösungen in QCoh(X), Mod(O_X) und Ab(X)
+
+* Jeder nichttriviale F_2-Vektorraum ist in der Kategorie der F_2-Vektorräume
+  injektiv, aber in der Kategorie der abelschen Gruppen nicht.
+
+
 === Literatur
 
 * Klar: Gelfand/Manin und Weibel.

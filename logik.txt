@@ -1235,6 +1235,28 @@ https://hal.science/hal-01588572v1/document
 
   (4) classifications of provable functions and ordinals
 
+* Es gibt Konservativitätsbeweise, die NICHT Interpretierung oder Übersetzung
+  verwenden, sondern ordinal analysis (und nur Beweise transformieren können,
+  wobei die Aussagen potenziell völlig verfremdet werden).
+
+  Ein einfaches Beispiel ist vielleicht die Reduktion von PA auf PRA + QF-TI(ε₀).
+
+  Gibt (laut Ulrik) auch Beispiele, wo imprädikative auf prädikative Systeme
+  zurückgeführt werden.
+
+  Mit mehr Arbeit ist dann potenziell doch wieder eine Übersetzung möglich,
+  etwa von BG nach ZF oder von ACA₀ nach PA: https://www.jstor.org/stable/2267646
+
+* PA + Incon(S) lässt sich in PA interpretieren: Habe ich gelernt vom Anhang
+  von https://math.stanford.edu/~feferman/papers/reductive.pdf (hatte Ulrik
+  empfohlen), dort wird auf http://matwbn.icm.edu.pl/ksiazki/fm/fm49/fm4915.pdf
+  verwiesen, scheint mir Thm. 6.6 zu sein. Den Beweis dort verstehe ich nicht.
+  Aber es scheint mir grob zu gehen:
+
+  Es gilt Incon(PA) oder Con(PA). Im ersteren Fall ist N ein (class-sized)
+  model von PA + Incon(PA). Im zweiteren Fall folgt Con(PA + Incon(PA)) und
+  Gödels Vollständigkeitssatz (in PA ausgeführt) liefert dann ein Modell von PA + Incon(PA).
+
 
 === Nächste Schritte
 
