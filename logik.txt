@@ -31,6 +31,8 @@
 
   Also gilt doch x0 \in U. Widerspruch.
 
+  In Coq: https://vilhelms.github.io/posts/why-must-inductive-types-be-strictly-positive/
+
 * Eine Injektion N^N --> N kann es schon geben: etwa in Eff(STM).
   Damit gibt es in Eff(STM) auch eine Injektion 2^N --> N. Das ist kein
   Widerspruch zum Vorherigen, weil 2 != Omega.
@@ -1256,6 +1258,57 @@ https://hal.science/hal-01588572v1/document
   Es gilt Incon(PA) oder Con(PA). Im ersteren Fall ist N ein (class-sized)
   model von PA + Incon(PA). Im zweiteren Fall folgt Con(PA + Incon(PA)) und
   Gödels Vollständigkeitssatz (in PA ausgeführt) liefert dann ein Modell von PA + Incon(PA).
+
+* wtf, PA + TI(|S|) und S zeigen dieselben arithmetischen Formeln.
+
+  Ulrik: https://mathoverflow.net/questions/115809/arithmetic-strength-of-peano-the-howard-ordinal/115826#115826
+  Pohlers, A short course in ordinal analysis, Seite 53.
+
+
+=== ACA_0
+
+* ACA_0 kann formulieren, dass eine Menge X ein Wahrheitsprädikat darstellt, oder?
+
+  Eine Zahl n soll genau dann in X liegen, wenn
+  - n top kodiert und top gilt
+  - n bot kodiert und bot gilt
+  - n "x = y" kodiert und tatsächlich x = y ist
+  - n "∀x. φ(x)" kodiert und für alle x₀ die Zahl "φ(x₀)" in X liegt
+  - etc.
+
+* Sei ψ(n) die Aussage, dass es ein Wahrheitsprädikat für Σ⁰ₙ-Formeln gibt.
+
+  Dann kann ACA₀ zeigen, dass ψ(0) und ∀n. ψ(n) ⇒ ψ(n+1).
+  (https://www.andrew.cmu.edu/user/avigad/Talks/survey1.pdf#page=10)
+
+  ACA kann damit ∀n. ψ(n) und so die Existenz eines allgemeinen
+  Wahrheitsprädikats und so die Konsistenz von PA zeigen.
+
+  ACA₀ kann damit, für jedes Numeral n, polynomiell lange Beweise von Con(IΣ⁰ₙ)
+  führen. Aber PA braucht dafür exponentiell lange Beweise.
+
+* https://www.sas.upenn.edu/~htowsner/prooftheory/ReverseMath.pdf
+
+
+=== Prädikative Mengenlehre
+
+* Können wir analog zu Nelsons Cuts für Zahlentheorie Cuts in Mengenlehre bauen?
+
+* Powersets alleine sind noch nicht so schlimm (damit auch nicht "Prop" in Coq).
+  Erst in Kombination mit comprehension (oder evtl. schon induction) wird es
+  imprädikativ.
+
+
+=== Type in Type
+
+* Thierry: https://inria.hal.science/inria-00076023/document
+
+
+=== Predictive mathematics
+
+* (Idee von Josif? Oder Ulrik? Jedenfalls Dagstuhl 2024.) Lass weniger um
+  Terminierung von Funktionen stressen und eher Aussagen der Form beweisen:
+  Falls sie terminiert, dann gilt ...
 
 
 === Nächste Schritte

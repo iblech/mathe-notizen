@@ -35,7 +35,7 @@
 === Zu Grothendieck-Universen
 
 * Zhen Lin untersucht, welche Konstruktionen unabhängig vom gewählten Universum
-  sind: https://arxiv.org/pdf/1304.5227.pdf
+  sind: https://arxiv.org/pdf/1304.5227.pdf Lokale Präsentierbarkeit ist dabei wichtig.
 
 
 === Shoenfields Absolutheitssatz
@@ -53,6 +53,15 @@
   to which it is applied.
 
 * https://en.wikipedia.org/wiki/Absoluteness#Shoenfield.27s_absoluteness_theorem
+
+* Alte Quelle zu Forcing: https://mathweb.ucsd.edu/~sbuss/CourseWeb/Math260_2012F2013W/Shoenfield_UnramifiedForcing.pdf
+
+* https://cs.nyu.edu/pipermail/fom/2003-July/007024.html
+  "However, forcing might be used to prove A within ZFC as an auxiliary
+  technique! This has happened a number of times both in the standard
+  set theory literature and in my own work concerning Borel Diagonalization.
+  [...] Applying forcing in this way to concrete statements in mathematics is
+  an exciting possibility"
 
 
 === Ein einfaches Maximalitätsprinzip
