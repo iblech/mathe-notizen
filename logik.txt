@@ -37,6 +37,9 @@
   Damit gibt es in Eff(STM) auch eine Injektion 2^N --> N. Das ist kein
   Widerspruch zum Vorherigen, weil 2 != Omega.
 
+* Thierry, Paradox of trees:
+  https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.LawvereFPT.html#16570
+
 
 === Chaitin
 
@@ -1088,6 +1091,11 @@ http://people.ucalgary.ca/~rzach/static/open-logic/courses/phil479/phil479-scree
   https://mathoverflow.net/a/71258/31233
 
 
+=== Proof mining
+
+* https://www2.mathematik.tu-darmstadt.de/~kohlenbach/novikov.pdf
+
+
 === Überblick über die vielen Varianten von HA^ω
 
 https://staff.fnwi.uva.nl/b.vandenberg3/papers/note_on_haomega.pdf
@@ -1264,6 +1272,10 @@ https://hal.science/hal-01588572v1/document
   Ulrik: https://mathoverflow.net/questions/115809/arithmetic-strength-of-peano-the-howard-ordinal/115826#115826
   Pohlers, A short course in ordinal analysis, Seite 53.
 
+* Martín hat ein schönes Skript, in dem man gut erkennt, wie es immer
+  schwieriger wird, Ordinalzahlen zu definieren, und inwiefern Universen
+  helfen: https://www.cs.bham.ac.uk/~mhe/TypeTopology/Ordinals.Codes.html
+
 
 === ACA_0
 
@@ -1288,6 +1300,35 @@ https://hal.science/hal-01588572v1/document
   führen. Aber PA braucht dafür exponentiell lange Beweise.
 
 * https://www.sas.upenn.edu/~htowsner/prooftheory/ReverseMath.pdf
+
+
+=== Fan-Theorem
+
+* Rein kombinatorische/induktive Formulierung von Fridlender:
+  https://www.brics.dk/RS/98/39/BRICS-RS-98-39.pdf
+
+  Siehe auch https://fpfm.github.io/Slides_Larchey-Wendling.pdf.
+
+  Wenn ich das richtig verstehe, ist es ∇ T Q xs ⇒ ∇ T° ∀Q (xs ∷ []).
+
+
+=== Ultrafinitismus
+
+* Die Relation "x^y = z" ist Δ₀-definierbar:
+  https://dml.cz/bitstream/handle/10338.dmlcz/106264/CommentatMathUnivCarol_024-1983-4_8.pdf
+
+* φ(2 ⇑ 2 ⇑ 4) ist mit einem übersichtlichen Beweis etablierbar;
+  φ(2 ⇑ 2 ⇑ 5) nicht. (Nelson, Seite 85. Dabei φ ein neues Prädikat ohne
+  Induktionsprinzip, das aber die Voraussetzungen von Induktion erfüllt.)
+
+* Zeigt prädikative Arithmetik σ(n), so zeigt sie auch σ(Sn). Dabei besagt σ(n)
+  etwas zur Existenz von Potenztürmen mit n als Basis. Aber prädikative
+  Arithmetik zeigt nicht die Implikation σ(n) ⇒ σ(Sn). Nur unter der
+  Zusatzforderung ∀n. ε(n). (Seite 186.)
+
+  Nelson schlägt σ als das "ist eine Zahl"-Prädikat vor. (Aber auch φ hat er
+  schon diesen Namen gegeben und dann hat er auch noch ein Konzept von
+  "Endlichkeit", unter das schon 80^5000 nicht fällt.)
 
 
 === Prädikative Mengenlehre

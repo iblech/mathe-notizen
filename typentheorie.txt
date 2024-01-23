@@ -46,3 +46,29 @@ https://dl.acm.org/doi/pdf/10.1145/3341711?download=true
 
 https://www.pédrot.fr/slides/cpp-01-17.pdf
 The Next 700 Syntactic Models of Type Theory
+
+
+=== Epis in der Kategorie der Typen
+
+* Epis in Set: Fasern bewohnt
+
+* Epis in Type: Fasern azyklisch (d.h. Einhängung ist trivial)
+
+* https://tdejong.com/talks/TYPES-2023.pdf
+
+
+=== Propositionale Abschneidung
+
+* Habe: (f : ℕ → ℕ) → ||Σn. f(n) = 0|| → (Σn. f(n) = 0).
+
+  Folgendes stimmt also jeweils NICHT:
+
+  Myth I. Propositions in HoTT/UF don't carry information.
+
+  Myth II. The propositional truncation ∥ X ∥ erases all the information that
+  is available in the type X.
+
+  Myth III. You can never "exit" propositional truncations, in the sense that
+  there never is a function ∥ X ∥ → X unless X is a proposition.
+
+  https://mathstodon.xyz/@MartinEscardo/111014413939196037

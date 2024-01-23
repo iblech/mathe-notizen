@@ -437,6 +437,9 @@ http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1381-10.pdf
   unendlichen Verzweigung. Verhält sich in Teilen dennoch so ähnlich (in
   klassischer Metatheorie intern wahr genau dann wenn halmweise wahr).
 
+* https://www.andrew.cmu.edu/user/avigad/Students/hertz.pdf:
+  Dialectica-Interpretation von Dickson und Basissatz
+
 
 === Analysis
 

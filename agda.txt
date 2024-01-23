@@ -1,0 +1,9 @@
+=== Ideen für Agda-Aufgaben
+
+* https://www.cs.bham.ac.uk/~mhe/TypeTopology/Various.RootsOfBooleanFunctions.html#1925
+
+* Euklidische Geometrie
+
+* Primzahlen
+
+* Graham
