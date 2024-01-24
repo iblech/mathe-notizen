@@ -130,6 +130,15 @@ also c + 2^{-n0} <= c, Widerspruch.
 * Mail an Matthias im Juni 2020
 
 
+=== Cauchy-reelle Zahlen
+
+* In Sh(R) sind die Cauchy-reellen Zahlen Cauchy-vollständig (in einer
+  klassischen Metatheorie):
+  https://www2.mathematik.tu-darmstadt.de/~streicher/mixed.pdf#page=54
+
+  Allgemeiner in locally connected locales.
+
+
 === Literatur
 
 * http://math.fau.edu/Richman/docs/cuts-la.pdf

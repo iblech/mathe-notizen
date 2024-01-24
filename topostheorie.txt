@@ -1656,6 +1656,27 @@ Weil φ als quantorfrei vorausgesetzt ist.
 
 * Surjektionen selbst sind ja nicht stabil, oder? Gegenbeispiel?
 
+* Beispiel für nicht-offenen Morphismus: E_¬¬ → E.
+
+  Sei A die (rein zahlentheoretische) Aussage "Jede Turing-Maschine hält oder
+  hält nicht." In einer Metatheorie mit ¬A (wie dem effektiven Topos) gilt
+  dann: Die Wahrheitswerte von A in Set und von A in Sh_¬¬(Set) unterscheiden
+  sich (falsch in Set und wahr im Doppelnegationsuntertopos).
+
+
+=== Selbstreflektion etc.
+
+* Joyal-Topos könnte interessant sein:
+  https://www2.mathematik.tu-darmstadt.de/~streicher/mixed.pdf#page=60
+
+  Ebenso "The home of the generic set", Seite 222.
+
+
+=== Zorn forcieren
+
+* https://www2.mathematik.tu-darmstadt.de/~streicher/mixed.pdf#page=225
+  Hier wird zumindest ein nichttrivialer Ultrafilter forciert.
+
 
 === Nächste Schritte
 

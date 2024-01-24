@@ -1301,6 +1301,10 @@ https://hal.science/hal-01588572v1/document
 
 * https://www.sas.upenn.edu/~htowsner/prooftheory/ReverseMath.pdf
 
+* https://www.uni-goettingen.de/de/document/download/07769c2a15f0bfbc24991e7dac4ada66.pdf/Gentzen.pdf
+  Seite 39, dort wird Simpson zitiert: "The proof-theoretic ordinal of Π¹₁-CA₀
+  is too complicated to describe here, but we briefly explain why"
+
 
 === Fan-Theorem
 
