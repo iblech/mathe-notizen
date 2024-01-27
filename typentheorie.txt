@@ -72,3 +72,6 @@ The Next 700 Syntactic Models of Type Theory
   there never is a function ∥ X ∥ → X unless X is a proposition.
 
   https://mathstodon.xyz/@MartinEscardo/111014413939196037
+
+* https://drops.dagstuhl.de/storage/00lipics/lipics-vol039-types2014/LIPIcs.TYPES.2014.111/LIPIcs.TYPES.2014.111.pdf
+  Zu Abbildungen ||A|| → B wenn B keine Proposition ist.

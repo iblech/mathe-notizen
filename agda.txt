@@ -7,3 +7,7 @@
 * Primzahlen
 
 * Graham
+
+* Nelson
+  - Sein PA-Buch formalisieren
+  - Seinen Beweisassistenten in Agda implementieren

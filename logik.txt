@@ -1267,6 +1267,10 @@ https://hal.science/hal-01588572v1/document
   model von PA + Incon(PA). Im zweiteren Fall folgt Con(PA + Incon(PA)) und
   Gödels Vollständigkeitssatz (in PA ausgeführt) liefert dann ein Modell von PA + Incon(PA).
 
+* Hamkins sagt, dass ein Axiom X gibt, sodass PA + Incon(S) + X äquikonsistent
+  zu ZFC ist. (Vorletzte Folie von
+  https://jdh.hamkins.org/pluralism-in-the-foundations-of-mathematics-asl-apa-nyc-january-2024/)
+
 * wtf, PA + TI(|S|) und S zeigen dieselben arithmetischen Formeln.
 
   Ulrik: https://mathoverflow.net/questions/115809/arithmetic-strength-of-peano-the-howard-ordinal/115826#115826
@@ -1333,6 +1337,31 @@ https://hal.science/hal-01588572v1/document
   Nelson schlägt σ als das "ist eine Zahl"-Prädikat vor. (Aber auch φ hat er
   schon diesen Namen gegeben und dann hat er auch noch ein Konzept von
   "Endlichkeit", unter das schon 80^5000 nicht fällt.)
+
+* Nelson präzisiert: (in
+  https://mathoverflow.net/questions/142669/illustrating-edward-nelsons-worldview-with-nonstandard-models-of-arithmetic)
+
+  Eine angemessene Formalisierung von "ist eine Zahl" ist ψ ohne
+  Induktionsschritt, nur als Regel.
+
+* Kann wenn ich mag ein Funktionssymbol (^) mit den üblichen Rekursionsregel
+  für Potenzierung zu Q hinzufügen und so "Exponentiation total machen". Aber
+  das hilft nicht viel. Denn um Induktion simulieren zu können, muss ich ja
+  Cuts bilden. Aber die sind dann nicht mehr abgeschlossen unter
+  Exponentiation. Die Exponentiationsfähigkeit geht also schnell verloren.
+
+  Umgekehrt sagt https://mathweb.ucsd.edu/~sbuss/ResearchWeb/nelson/talk.pdf#page=16:
+  Kann auch (+) und (*) als untotale Relationen nehmen.
+
+  Vermutlich dann C¹(x) definieren als: für alle y mit Cy gibt es x + y und es
+  gilt C(x+y).
+
+  Idee: Ruhig für jedes Funktionsrezept ein partielles Funktionssymbol
+  einführen. Das schadet nicht. Existenz ist dann halt eine offene Frage.
+  "predicative mathematics"!
+
+* Ist es problematisch, dass wir in der Definition von C¹ & Co. unbeschränkte
+  Quantifikation verwenden?
 
 
 === Prädikative Mengenlehre
