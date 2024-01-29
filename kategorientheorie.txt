@@ -1809,6 +1809,10 @@ die mit einem Funktor nach C kommt.
       X ↦ C/X ein (bis auf das Pseudoproblem) Kategorienobjekt in Sh(C). Oder
       zumindest PSh(C).
 
+* Thomas Streicher nennt als einen Vorteil von gefaserten Kategorien im
+  Vergleich zu indizierten, wie leicht Komposition von Faserungen ausdrückbar
+  ist. "Re: Fibrewise opposite fibration", 28 Jan 2024, categories@mq.edu.au
+
 
 === Garben in Theorie der Nebenläufigkeit
 

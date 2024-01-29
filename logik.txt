@@ -1095,6 +1095,24 @@ http://people.ucalgary.ca/~rzach/static/open-logic/courses/phil479/phil479-scree
 
 * https://www2.mathematik.tu-darmstadt.de/~kohlenbach/novikov.pdf
 
+* https://www.sciencedirect.com/science/article/pii/S0001870818304900
+  Die Einleitung enthält eine tolle Einführung in die Denkansätze von proof
+  mining
+
+
+=== Big Five
+
+* Beispiele für Theoreme, die die Big-Five-Kategorisierung sprengen:
+
+  Ramsey Theorem (https://www.sciencedirect.com/science/article/pii/S0168007216300860)
+
+  Infinite Pidgeonhole Principle (Hirst, Combinatorics in subsystems of second
+  order arithmetic)
+
+  WWKL (Measure theory and weak König's lemma)
+
+  Szemerédi regularity lemma
+
 
 === Überblick über die vielen Varianten von HA^ω
 
@@ -1362,6 +1380,9 @@ https://hal.science/hal-01588572v1/document
 
 * Ist es problematisch, dass wir in der Definition von C¹ & Co. unbeschränkte
   Quantifikation verwenden?
+
+  Cuts lieber pointfree definieren? Unterraum derjenigen n wo eine geometrische
+  Sequenz gilt?
 
 
 === Prädikative Mengenlehre

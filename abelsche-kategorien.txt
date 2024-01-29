@@ -445,6 +445,14 @@ Hom(-, F) = 0 hence F = 0 by considering id_F in Hom(F,F).
   (Kap. 1).
 
 
+=== Freie abelsche Kategorie
+
+* Kann in ihr rechnen und so Theoreme beweisen:
+  https://arxiv.org/pdf/2103.08379.pdf
+
+* Dowkers Formel fürs Schlangenlemma, siehe etwa dort Remark 2.10
+
+
 === Nächste Schritte
 
 * Ext-Gruppen anschaulich verstehen, zumindest Ext^1.

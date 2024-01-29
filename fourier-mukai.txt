@@ -142,3 +142,5 @@ Gibt es ein Analogon zur Auflösung der Diagonale?
 
   Da steht: Die Koeins von einer Adjunktion zwischen zwei FM-Funktoren wird von
   Abbildungen zwischen den Kernen induziert.
+
+* https://arxiv.org/abs/2003.13023 Konstruktiv, Sebastian Posur [Tag: Barakat]
