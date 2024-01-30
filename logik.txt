@@ -1086,7 +1086,7 @@ http://people.ucalgary.ca/~rzach/static/open-logic/courses/phil479/phil479-scree
 
 * Whitehead
 
-* In der Theorie der assoziativen Algebren oder so ab es Aussagen,
+* In der Theorie der assoziativen Algebren oder so gab es Aussagen,
   die zunächst unter Verwendung großer Kardinalzahlen gezeigt wurden.
   https://mathoverflow.net/a/71258/31233
 
@@ -1098,6 +1098,12 @@ http://people.ucalgary.ca/~rzach/static/open-logic/courses/phil479/phil479-scree
 * https://www.sciencedirect.com/science/article/pii/S0001870818304900
   Die Einleitung enthält eine tolle Einführung in die Denkansätze von proof
   mining
+
+* Möchte Spectors Ansatz für AC-Extraktion via bar recursion verstehen:
+  https://doc.rero.ch/record/293640/files/S0022481200015127.pdf
+
+* Mehr zu L in negneg:
+  https://doc.rero.ch/record/293640/files/S0022481200015127.pdf#page=6
 
 
 === Big Five
