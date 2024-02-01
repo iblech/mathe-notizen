@@ -151,10 +151,14 @@ https://www.youtube.com/watch?v=0Oef3MHYEC0
 === e^(pi sqrt(163))
 
 http://people.maths.ox.ac.uk/greenbj/papers/ramanujanconstant.pdf
+https://math.stackexchange.com/questions/4544/why-is-e-pi-sqrt163-almost-an-integer
+https://math.stackexchange.com/questions/609760/other-interesting-consequences-of-d-163
 
 * j((1+sqrt(-163))/2) ist bis auf ganzzahlige Terme und sehr kleine Terme
   genau e^(pi sqrt(163)), und ist selbst eine Ganzzahl, da ganz über Z
   und vom Grad 1, da (...), da die Klassenzahl von Q(...) 1 ist.
+
+* Hat Bezug zu x² - x + 41 (prim für x ∈ { 1, ..., 40 })
 
 
 === Klassengruppe und Kohomologie

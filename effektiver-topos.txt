@@ -208,6 +208,12 @@ Nach https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/hyland-effectiv
   und von beliebig kleinem Gesamtmaß sind.
   (https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/hyland-effectivetopos.pdf)
 
+* Aufgrund von paralleler Simulierung gelten (MP und de Morgan in der Metatheorie
+  vorausgesetzt) paar interessante nicht-konstruktive propositionale
+  Behauptungen:
+
+  https://mathoverflow.net/questions/300362/how-is-this-ha-unprovable-formula-recursive-realizable
+
 
 === In schwachen Metatheorien
 
@@ -250,6 +256,10 @@ Nach https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/hyland-effectiv
   Maschine, die bereit ist, x und y zu produzieren. Nicht als direkt
   zugängliches Pärchen.
 
+* https://mathoverflow.net/questions/323964/kleene-realizability-in-peano-arithmetic
+  Antwort auf die Frage, welche Formeln aus PA-Sicht realisierbar sind:
+  Diejenigen, die in HA + ECT₀ + MP + SLEM beweisbar sind.
+
 
 === Realisierung von IZF
 
@@ -257,6 +267,9 @@ Nach https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/hyland-effectiv
   nichtklassischer Prinzipien aber großer Kardinalzahlen (!) angeben.
   http://lama.univ-savoie.fr/~hyvernat/Realisabilite2011/Files/JohnLongley1.pdf,
   Seite 13.
+
+* Krivine's philosophy is that new programming concepts should be motivated by
+  their need to realize important axioms. (Seite 18)
 
 
 === Idempotenz von Realisierbarkeit

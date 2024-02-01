@@ -102,3 +102,9 @@ http://arxiv.org/abs/math/9902004
 
   Sehr geil. Via
   https://mathoverflow.net/questions/302516/constructively-is-the-unit-of-the-free-abelian-group-monad-on-sets-injective.
+
+
+=== Ramsey-Theorem
+
+* Verlockender Beweis mit Ultrafiltern:
+  https://publications.mfo.de/bitstream/handle/mfo/3870/snapshot-2021-006.pdf
