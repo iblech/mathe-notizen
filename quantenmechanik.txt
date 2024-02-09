@@ -35,7 +35,7 @@
   Interagiere ein quantenmechanisches System mit einem makroskopischen Apparat
   derart, dass zufällige Phasen in dem Apparat induziert werden. Sei rho der
   statistische Operator nach Ausführung des Experiments, einfach mit der
-  Schröndingergleichung bestimmt, und rho' das Ergebnis, wenn man das
+  Schrödingergleichung bestimmt, und rho' das Ergebnis, wenn man das
   Projektionspostulat auf rho anwendet. Dann ist es makroskopischen Apparaturen
   nicht möglich, den Unterschied zwischen rho und rho' festzustellen (genauer:
   tr(rho A) \approx tr(rho' A)).
@@ -177,6 +177,22 @@ Wouldn’t it be lovely to think so?"
 === Bedeutung von Potenzialen
 
 * https://en.wikipedia.org/wiki/Aharonov%E2%80%93Bohm_effect
+
+
+=== Quantencomputer
+
+* Shor, Schaukelanalogie für QFT etc. https://scottaaronson.blog/?p=208
+  https://www.cs.ucr.edu/~neal/1996/cosc185-S96/shor/high-level.html
+
+* Das CNOT-Gatter sieht zunächst einfach wie eine Quantenversion des bekannten
+  klassischen Gatters aus. Aber was "Kontrolle" und "Target" sind, ist ein
+  Artefakt unserer Basiswahl! Steht bereits auf Wikipedia:
+  https://en.wikipedia.org/wiki/Controlled_NOT_gate
+
+
+=== Quantenspielen
+
+* https://homes.psd.uchicago.edu/~sethi/Teaching/P243-W2020/final-papers/price.pdf
 
 
 === Literatur

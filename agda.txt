@@ -13,3 +13,10 @@
   - Seinen Beweisassistenten in Agda implementieren
 
 * Deep/shallow embedding
+
+
+=== Philosophie
+
+* Terence Tao: Formales Beweisen erschließt neue Möglichkeiten der
+  Kollaboration.
+  https://www.quantamagazine.org/what-makes-for-good-mathematics-20240201/
