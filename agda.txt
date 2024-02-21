@@ -14,9 +14,17 @@
 
 * Deep/shallow embedding
 
+* φ ⇒ ¬¬φ beweisen, sowie ¬¬¬φ ⇒ ¬φ, sowie erklären, wie man den Beweis des
+  zweite Resultats mit dem ersten vereinfachen kann.
+
 
 === Philosophie
 
 * Terence Tao: Formales Beweisen erschließt neue Möglichkeiten der
   Kollaboration.
   https://www.quantamagazine.org/what-makes-for-good-mathematics-20240201/
+
+
+=== Besonderheiten von Agda
+
+* https://proofassistants.stackexchange.com/questions/1981/what-are-the-complex-induction-patterns-supported-by-agda/2002#2002
