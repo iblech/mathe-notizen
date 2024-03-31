@@ -44,3 +44,9 @@
 
 * Hat Anwendungen fürs Pfadintegral in der Physik?!
   http://www.heldermann-verlag.de/jaa/jaa06/jaa06001.pdf
+
+
+=== Pi
+
+* Schöner Irrationalitätsbeweis:
+  https://mathoverflow.net/questions/444082/to-prove-irrationality-why-integrate/444167#444167

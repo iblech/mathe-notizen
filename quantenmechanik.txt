@@ -131,6 +131,59 @@ http://physics.stackexchange.com/a/17225/103105
   https://arxiv.org/abs/1201.2714
 
 
+=== QFT
+
+* How I Learned to Stop Worrying and Love QFT. https://arxiv.org/pdf/1201.2714.pdf
+
+  Nichtkonvergenz der formalen Potenzreihe liegt daran, dass man an einer
+  Stelle Summe mit Integral vertauscht hat. Das Integral der Reihe hätte
+  konvergiert. Aber nicht die Reihe der Integrale.
+
+  Renormalisierung kann als Erweiterungsproblem von Distributionen (von dem
+  punktierten Raum auf den ganzen Raum) verstanden werden.
+
+* QM auf QFT: siehe Seiten 23 bis 26 von
+  https://www.damtp.cam.ac.uk/user/tong/qft/two.pdf
+
+* Ich meine, das *für freie Felder* folgendes stimmt:
+
+  Eine Feldsnapshot ist eine Funktion vom Raum in den Raum der Operatoren auf
+  dem Fock-Raum des zugehörigen 1-Partikel-Hilbertraums. Zum Beispiel x ↦
+  φ(x) a^\dagger(x). Statt "Funktion" aber "Distribution".
+
+  Möglicherweise muss die Quelle auch die Raumzeit sein.
+
+  Für Theorien mit Wechselwirkung ist es im Allgemeinen ein nichttriviales
+  Problem, die passenden Hilberträume hinzuschreiben. Bei "constructive quantum
+  field theory" versucht man es. Dank des Feynman-Ansatzes ist es aber in
+  vielen Fällen gar nicht nötig.
+
+
+=== Pfadintegral
+
+* Im Prinzip einfach. Für gaussian integrals gibt es bei polynomiellen
+  Integranden eine Formel. Dann formal fortsetzen. https://arxiv.org/pdf/1505.04809.pdf
+
+* Von Theo Johnson-Freyd: https://arxiv.org/abs/1004.4305
+
+* https://arxiv.org/pdf/math/0406251.pdf
+
+* https://en.wikipedia.org/wiki/Method_of_steepest_descent
+
+
+=== GUT
+
+* John Baez: https://arxiv.org/pdf/0904.1556.pdf
+
+* Eine Gruppenwirkung G x V → V induziert eine Wirkung der zugehörigen
+  Lie-Algebra. Die Darstellung von G entspricht den Teilchenarten und die der
+  Lie-Algebra den Austauschmöglichkeiten.
+
+  Beispiel: Die Wirkung von SU(2) auf C² entspricht den beiden Basiszuständen
+  eines Nukleons, nämlich Proton und Neutron. Die Lie-Algebra su(2) macht die
+  Pionen.
+
+
 === Beschleunigertechnik
 
 * Der Prozess p + p --> p + p + p + bar p benötigt die sechsfache Ruheenergie
@@ -148,6 +201,8 @@ http://physics.stackexchange.com/a/17225/103105
 === Quantenalgorithmen
 
 * Shor gut erklärt: http://www.scottaaronson.com/blog/?p=208
+
+* Deutsch-Algorithmus als gutes erstes Beispiel
 
 
 === Das Wasserstoffproblem
@@ -190,7 +245,7 @@ Wouldn’t it be lovely to think so?"
   https://en.wikipedia.org/wiki/Controlled_NOT_gate
 
 
-=== Quantenspielen
+=== Quantenspiele
 
 * https://homes.psd.uchicago.edu/~sethi/Teaching/P243-W2020/final-papers/price.pdf
 

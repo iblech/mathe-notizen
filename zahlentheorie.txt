@@ -164,3 +164,8 @@ https://math.stackexchange.com/questions/609760/other-interesting-consequences-o
 === Klassengruppe und Kohomologie
 
 https://mathstodon.xyz/@montessiel/109307323357254194
+
+
+=== Primzahlsatz
+
+* Schicker Beweis von Newman
