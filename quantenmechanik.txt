@@ -139,6 +139,9 @@ http://physics.stackexchange.com/a/17225/103105
   Stelle Summe mit Integral vertauscht hat. Das Integral der Reihe hätte
   konvergiert. Aber nicht die Reihe der Integrale.
 
+  Das ist nicht nur mathematisch eine Herausforderung, sondern unterschlägt
+  auch gewisse physikalische Phänomene.
+
   Renormalisierung kann als Erweiterungsproblem von Distributionen (von dem
   punktierten Raum auf den ganzen Raum) verstanden werden.
 
@@ -157,6 +160,10 @@ http://physics.stackexchange.com/a/17225/103105
   Problem, die passenden Hilberträume hinzuschreiben. Bei "constructive quantum
   field theory" versucht man es. Dank des Feynman-Ansatzes ist es aber in
   vielen Fällen gar nicht nötig.
+
+* https://web.archive.org/web/20210226215126/https://iphc.cnrs.fr/IMG/pdf/eqft.pdf
+  Zum Thema Wellenfunktional, empfohlen von
+  https://physics.stackexchange.com/a/494391
 
 
 === Pfadintegral

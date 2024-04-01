@@ -1,0 +1,302 @@
+Ind & Pro
+=========
+
+(1) Was ist nur wenig komplexer als endliche Mengen, endliche Gruppen, ...?
+
+    pro-endliche Mengen! pro-endliche Gruppen! ...
+
+(2) Wie koennen wir Ind(C) bzw. Pro(C) konstruieren?
+
+(3) Wie koennen wir Ind(C) bzw. Pro(C) in Einzelfaellen konkreter fassen?
+
+
+Beispiel: Eine pro-endliche Menge ist ein Pro-Objekt ber der Kategorie C = FinSet.
+          ProFinSet := Pro(FinSet).
+          ProFinGrp := Pro(FinGrp).
+
+
+Motto: Ein Pro-Objekt in C ist ein formaler kofiltrierter Limes von Objekten aus C.
+                                   ^^^^^^^^ ^^^^^^^^^^^^^
+
+Motto: Ein Ind-Objekt in C ist ein formaler filtrierter Kolimes von Objekten aus C.
+                                   ^^^^^^^^ ^^^^^^^^^^^
+
+
+I. (Ko-)Filtrierte Diagramme
+----------------------------
+
+Nicht filtriert oder kofiltriert:
+
+      *   *
+
+Filtriert:
+
+                      *----+
+                           v
+      * ---> * ---> * ---> * ---> * ---> ...
+
+        z.B. ℝ⁰ → ℝ¹ → ℝ² → ...
+
+Kofiltriert:
+
+    z.B. ... --> ℤ/(p²) → ℤ/(p¹) → ℤ/(p⁰)
+
+Def.: Ein Diagramm F : I → C ist genau dann (ko-)filtriert, wenn I es ist.
+
+Def.: Eine Kategorie I ist genau dann filtriert, wenn jedes in ihr verlaufende
+      endliche Diagramm einen Kokegel besitzt, d.h. wenn:
+      (1) I bewohnt ist,     (lol, nicht folgende schwache Bedingung: Ob(I) ≠ ∅)
+      (2) zu je zwei X,Y ∈ I ein Z ∈ I zusammen mit X → Z und Y → Z und
+      (3) zu jedem f,g : X ⇉ Y ein h : Y → Z mit h . f = h . g existiert.
+
+Bsp.: Sei V ein Vektorraum. Die Menge alle endlich erzeugten Untervektorraeume
+      bildet eine filtrierte Kategorie.
+
+Bsp.: Sei G eine Gruppe. Die Menge aller Normalteiler N mit endlichem Index
+      (d.h. G/N endlich) bildet eine kofiltrierte Kategorie.
+
+Bsp.: Sei X eine Menge. Die Menge aller Paare (A, f : A → X), wobei A eine endliche
+      Menge ist, bildet eine filtrierte Kategorie.
+
+Bsp.: Sei X eine Modul. Die Menge aller Paare (A, f : A → X), wobei A ein endlich
+      praesentierter Modul ist, bildet eine filtrierte Kategorie.
+
+
+II. Formale Grenzwerte
+----------------------
+
+Motto: Ein Pro-Objekt in C ist ein formaler kofiltrierter Limes von Objekten aus C.
+                                   ^^^^^^^^ ^^^^^^^^^^^^^
+
+Motto: Ein Ind-Objekt in C ist ein formaler filtrierter Kolimes von Objekten aus C.
+                                   ^^^^^^^^ ^^^^^^^^^^^
+
+Def.: Ein Pro-Objekt in C ist ein Funktor F : I → C aus einer kofiltrierten Kategorie.
+Def.: Ein Ind-Objekt in C ist ein Funktor F : I → C aus einer filtrierten Kategorie.
+
+Notation: Fassen wir einen Funktor F : I → C als Pro-Objekt auf, so schreiben wir auch
+          "limᵢ" F(i) fuer dieses Pro-Objekt. Analog "colimᵢ" F(i).
+
+Def.: Hom-Mengen in Pro(C):
+
+             Hom(F,G) = Hom("limᵢ" F(i), "limⱼ" G(j))
+                      = limⱼ Hom("limᵢ" F(i), G(j))
+                      = limⱼ colimᵢ Hom(F(i), G(j))
+
+      (Habe (colimᵢ Hom(F(i), X)) → Hom(limᵢ F(i), X))
+            [⟨i, f : F(i) → X⟩]   ↦ (f . πᵢ)    (dabei πᵢ : limᵢ F(i) → F(i))
+
+Def.: Pro(C) = Ind(Cᵒᵖ)ᵒᵖ.
+
+Bsp.: Jedes Objekt aus C koennen wir auch als Ind- und als Pro-Objekt auffassen,
+      vermoege der einobjektigen Indexkategorie 𝟙.
+
+      In Folge haben wir einen (volltreuen) Funktor ι : C → Ind(C) bzw. C → Pro(C).
+
+Bsp.: (p-adischen Zahlen) ℤₚ = "lim"ₙ ℤ/(pⁿ) in Pro(FinGrp).
+      (Bem.: Grp(Pro(C)) = Pro(Grp(C)))
+
+Bsp.: Gal(L|K) = "lim"_E Gal(E|K) in Pro(FinGrp).
+
+Bsp.: Sei L = "lim"(... → ℕ → ℕ → ℕ) in Pro(Set)   (die Morphismen ℕ → ℕ jeweils succ)
+      In Set ausgefuehrt ist der Limes ∅.
+
+      Ist dann X eine beliebige Menge, so gilt Hom(L, ιX) = "Menge der moeglichen
+      Endverlaeufe von unendlichen Folgen von X-Elementen".
+
+Bsp.: ℝF(X) = "colim"_{X → X'} F(X').
+
+Bem.: (1) Ind(C) besitzt filtrierte Kolimiten, Pro(C) filtrierte Limiten.
+
+      (2) (Sei C klein.) Ind(C) ist die freie Vervollstaendigung von C
+          unter kleinen filtrierten Kolimiten (und analog fuer Pro(C)).
+
+                 F
+            C --------> D (D abg. unter kleinen filtrierten Kolimiten)
+             \         ^
+          iota\
+               v      /
+                Ind(C)
+
+          !! Die Vervollständigung erfolgt frei! Etwaige vorhandene filtrierte Kolimiten
+          werden von ι nicht bewahrt!
+
+          (analog: A[X]/(X² + 1).    ℂ[X]/(X² + 1))
+            
+      (3) Ind(C) kann identifiziert werden mit der vollen Unterkategorie von
+          PSh(C) = [Cᵒᵖ, Set] derjenigen Funktoren, die filtrierte Kolimiten
+          darstellbarer Funktoren (solche von der Form よX = Hom(__, X)) sind.
+
+          (Im Fall, dass C endliche Limiten besitzt, sind diese Funktoren
+          genau die linksexakten.)
+
+          Ind(C) → PSh(C), "colimᵢ" F(i) ↦ colimᵢ よ(F(i))
+
+Bem.: Sei F ein Pro/Ind-Objekt. Wann ist F ≅ ιX?
+      Antwort: Genau dann, wenn X der **absolute** (Ko-)Limes von F ist.
+
+(WP: japanese hiragana yo)
+
+
+    pro-endliche Mengen, Gruppen, ...!
+
+(2) Wie können wir Ind(C), die Kategorie der Ind-Objekte einer Kategorie C, konstruieren?
+
+(3) Wie können wir Ind- und Pro-Objekte in Einzelfällen konkreter begreifen?
+
+Motto: Ein Pro-Objekt in 𝒞 ist ein formaler kofiltrierter Limes von Objekten aus C.
+           Ind                     ^^^^^^^^   filtrierter Kolimes
+                                            ^^^^^^^^^^^^^ 
+
+I. (Ko-)Filtrierte Diagramme
+----------------------------
+
+Nicht filtriert oder kofiltriert:
+  *  *
+                    *
+                    |
+Filtriert:          v
+  * --> * --> * --> * --> * --> ...
+    z.B. ℝ⁰ → ℝ¹ → ℝ² → ...
+
+Kofiltriert:
+  ... --> * --> * --> * --> *
+    z.B. ... --> ℤ/(p²) --> ℤ/(p¹) --> ℤ/(p⁰)
+
+Def.: Ein Diagramm F : I → C ist genau dann (ko-)filtriert, wenn I es ist.
+
+Def.: Eine Kategorie I ist genau dann filtriert, wenn jedes in ihr verlaufende
+      endliche Diagramm einen Kokegel besitzt, d.h. wenn:
+      (1) I bewohnt ist,
+      (2) zu je zwei X,Y ∈ I ein Z ∈ I zusammen mit X → Z und Y → Z existiert und
+      (3) zu jedem f,g : X ⇉ Y ein h : Y → Z mit h . f = h . g existiert.
+
+Bsp.: Sei V ein Vektorraum. Die Menge aller endlich erzeugten Untervektorräume
+      bildet eine filtrierte Kategorie.
+
+Bsp.: Sei X eine Menge. Die Menge aller Paare (A, f : A → X), wobei A
+      eine endliche Menge ist, bildet eine filtrierte Kategorie.
+
+Bsp.: Sei G eine Gruppe. Die Menge aller Normalerteiler N mit endlichem Index
+      (d.h. G/N endlich) bildet eine kofiltrierte Kategorie.
+
+
+II. Formale Grenzwerte
+----------------------
+
+Def.: Ein Pro-Objekt in C ist ein Funktor F : I → C aus einer kofiltrierten Kategorie.
+          Ind                                                  filtrierten
+
+      Wenn wir F als Pro-Objekt auffassen, schreiben wir auch
+      "limᵢ" F(i) (mit den Anführungszeichen!). Dual schreiben wir ein Ind-Objekt G
+      auch als "colimⱼ" G(j).
+
+Def.: Hom-Mengen in Pro(C):
+                 Hom(F,G) = Hom("limᵢ" F(i), "limⱼ" G(j))
+                          = limⱼ Hom("limᵢ" F(i), G(j))
+                          = limⱼ colimᵢ Hom(F(i), G(j))
+
+      (Habe colimᵢ Hom(F(i), X) → Hom(limᵢ F(i), X))
+            [⟨i, f⟩]            ↦ f . πᵢ
+                          
+Def.: Hom-Mengen in Ind(C):
+                 Hom(F,G) = Hom("colimᵢ" F(i), "colimⱼ" G(j))
+                          = limᵢ Hom(F(i), "colimⱼ" G(j))
+                          = limᵢ colimⱼ Hom(F(i), G(j))
+                          
+Beob.: Pro(C) = Ind(Cᵒᵖ)ᵒᵖ.
+
+Bsp.: Jedes Objekt aus C können wir auch als Ind- und als Pro-Objekt
+      auffassen, vermöge der einobjektigen Indexkategorie 𝟙.
+
+      In Folge haben wir einen Funktor ι : C → Ind(C) bzw. C → Pro(C).
+
+Bsp.: (p-adische Zahlen) ℤₚ = "lim"ₙ ℕ/(pⁿ) in Pro(Grp).
+
+Bsp.: Gal(L|K) = "lim"_E Gal(E|K) in Pro(Grp).
+
+Bsp.: Sei L = "lim"(... → ℕ → ℕ → ℕ) in Pro(Set).
+      (In Set ausgeführt ist dieser Limes ∅.)
+
+      Ist dann X eine beliebige Menge, so gilt Hom(L, ιX) = colim_n Hom(N,X) =
+      Menge der möglichen Endverläufe von unendlichen Folgen von X-Elementen.
+
+Bsp.: Die pro-endliche Vervollständigung einer Gruppe G ist "lim"_N G/N.
+
+Bsp.: RF(X) = "colim"_{X → X'} F(X').
+
+Bem.: (1) Ind(C) besitzt filtrierte Kolimiten, Pro(C) filtrierte Limiten.
+
+      (2) Ind(C) ist die freie Vervollständigung unter filtrierten Kolimiten (und analog):
+      
+                 F
+            C --------> D (D abg. unter filtrierten Kolimiten)
+             \         ^
+              \           ∃! F' : Ind(C) → D, filtrierte Kolimiten bewahrend
+               v      /
+                Ind(C)
+
+          !! Die Vervollständigung erfolgt frei! Etwaige vorhandene filtrierte Kolimiten
+          werden von ι nicht bewahrt!
+            
+      (3) Ind(C) kann identifiziert werden mit der vollen Unterkategorie
+          von PSh(C) = [Cᵒᵖ, Set] derjenigen Funktoren, die filtrierte Kolimiten
+          darstellbarer Funktoren (solche von der Form よX = Hom(__, X)) sind:
+
+          Ind(C) → PSh(C), "colimᵢ" F(i) ↦ colimᵢ よ(F(i))
+
+          (Besitzt C endliche Limiten, so sind das genau die linksexakten Funktoren.)
+
+Bem.: Ist F = ιX, so ist X der **absolute** (Ko-)Limes von F.
+
+
+III. Konkrete Realisierung von Ind und Pro
+------------------------------------------
+
+Lemma: Besitze eine Kategorie A kofiltrierte Limiten. Sei |.| : C → A ein volltreuer Funktor
+       sodass |X| für jedes Objekt X ∈ C kokompakt ist (d.h. Hom(__, X) wandelt
+       filtrierte Limiten in C zu Kolimiten).
+       Dann ist auch ||.|| : Pro(C) → A, "limᵢ F(i)" ↦ limᵢ |F(i)| volltreu.
+
+Lemma: Besitze eine Kategorie A filtrierte Kolimiten. Sei |.| : C → A ein volltreuer Funktor
+       sodass |X| für jedes Objekt X ∈ C kompakt ist (d.h. Hom(X, __)
+       bewahrt filtrierte Kolimiten).
+       Dann ist auch ||.|| : Ind(C) → A, "colimᵢ F(i)" ↦ colimᵢ |F(i)| volltreu.
+
+Bsp.: C = FinSet, A = Set, |.| = Vergissfunktor (Einbettung).
+
+      Jede endliche Menge X ist kompakt:
+
+           colimᵢ Hom(X,Yᵢ)    ----->   Hom(X, colimᵢ Yᵢ)   ist bijektiv.
+
+      Also ist ||.|| : Ind(FinSet) → Set volltreu, und darüber hinaus wesentlich surjektiv,
+      also eine Kategorienäquivalenz.
+
+Bsp.: Ind(FinGrp) = Grp, Ind(FinVect) = Vect, Ind(A-Algᶠᵖ) = A-Alg, ...
+
+      Ind(Grp) ist NICHT Grp.
+
+      Es gibt einen Funktor Ind(Grp) → Grp, "colim" ... ↦ colim ...
+
+Bsp.: C = FinSet, A = StoneSp = kompakte total unzusammenhängende Hausdorffräume,
+      |.| = diskrete Topologie.
+
+      Jeder endliche diskrete Raum X ist kokompakt:
+
+           colimᵢ Hom(Yᵢ, X)   ----->   Hom(limᵢ Yᵢ, X)
+
+      Pro(FinSet) = StoneSp, genauer:
+                  "limᵢ" F(i) ↦ limᵢ F(i).
+
+      !! Der Vergissfunktor StoneSp → Set ist NICHT voll!
+
+Bsp.: Pro(FinGrp) = "Stone-Raeume mit stetiger Gruppenstruktur"
+
+
+"Baby-Stone-Dualitaet"
+FinSetᵒᵖ     vs.    FinBoolAlg
+  X        |---->      P(X)
+
+
+Pro(FinSet)ᵒᵖ    =====   Ind(FinBoolAlg) = StoneSpᵒᵖ
+                         BoolAlg(Ind(FinSet)) = BoolAlg(Set)

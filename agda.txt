@@ -17,6 +17,10 @@
 * φ ⇒ ¬¬φ beweisen, sowie ¬¬¬φ ⇒ ¬φ, sowie erklären, wie man den Beweis des
   zweite Resultats mit dem ersten vereinfachen kann.
 
+  Außerdem Dinge wie ¬∃ ↔ ∀¬.
+
+  Und ganz banal: Gegeben f : A → B und g : B → C, dann habe A → C.
+
 
 === Philosophie
 

@@ -1664,6 +1664,15 @@ Weil φ als quantorfrei vorausgesetzt ist.
   sich (falsch in Set und wahr im Doppelnegationsuntertopos).
 
 
+=== Doppelnegationsuntertopos
+
+https://mathoverflow.net/questions/385546/sheaf-theoretic-approach-to-forcing
+Antwort von Zhen Lin
+
+Damit explizite Beschreibung des Doppelnegationsuntertopos des Zariski-Topos
+gönnen? Wann ist eine Menge von conditions dicht?
+
+
 === Selbstreflektion etc.
 
 * Joyal-Topos könnte interessant sein:
