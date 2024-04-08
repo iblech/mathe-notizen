@@ -750,3 +750,10 @@ https://arxiv.org/pdf/1904.02990.pdf
 === Deep Learning/GPT und Beweisassistenten
 
 https://arxiv.org/pdf/2009.03393.pdf
+
+
+=== Chaostheorie
+
+* https://arxiv.org/abs/2311.07651 Für manche Drei-Körper-Systeme können
+  Unterschiede in den Eingangsdaten in Größenordnung der Planck-Länge schon
+  einen Unterschied machen

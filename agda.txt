@@ -21,6 +21,8 @@
 
   Und ganz banal: Gegeben f : A → B und g : B → C, dann habe A → C.
 
+* Todd Ambridge, https://www.cs.bham.ac.uk/~txw467/mgs24/
+
 
 === Philosophie
 
