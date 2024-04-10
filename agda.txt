@@ -23,6 +23,8 @@
 
 * Todd Ambridge, https://www.cs.bham.ac.uk/~txw467/mgs24/
 
+* Wenn A und B entscheidbar, dann auch A + B, A x B, A → B.
+
 
 === Philosophie
 
