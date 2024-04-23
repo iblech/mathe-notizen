@@ -75,3 +75,31 @@ The Next 700 Syntactic Models of Type Theory
 
 * https://drops.dagstuhl.de/storage/00lipics/lipics-vol039-types2014/LIPIcs.TYPES.2014.111/LIPIcs.TYPES.2014.111.pdf
   Zu Abbildungen ||A|| → B wenn B keine Proposition ist.
+
+
+=== Rekursoren und pattern matching
+
+* https://www.xn--pdrot-bsa.fr/slides/jnim-03-24.pdf#page=142
+
+  Die Funktion even? : ℕ → Bool ist NICHT intensionally recursor-encodable.
+
+
+=== Theorien von Beweisassistenten
+
+https://proofassistants.stackexchange.com/questions/1201/proof-theoretic-comparison-table
+
+
+=== Setoid-Hölle
+
+* Schlimm nicht weil man ein paar Kongruenzen beweisen muss. Das muss mab so
+  oder so. Sondern:
+
+  * Weil Kongruenzen, die leicht inferierbar sein sollten, nicht automatisch
+    inferiert werden. "f(g(x))"
+
+  * Besonders dramatisch bei Familien, die von Setoiden indiziert werden.
+
+  https://proofassistants.stackexchange.com/a/927/607
+
+* Es gibt Setoid Type Theory, "Observational Equality: Now For Good", XTT und
+  natürlich Millys 2TT. Wie verhalten die sich zueinander?

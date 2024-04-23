@@ -15,15 +15,37 @@
 * Deep/shallow embedding
 
 * φ ⇒ ¬¬φ beweisen, sowie ¬¬¬φ ⇒ ¬φ, sowie erklären, wie man den Beweis des
-  zweite Resultats mit dem ersten vereinfachen kann.
+  zweiten Resultats mit dem ersten vereinfachen kann.
 
   Außerdem Dinge wie ¬∃ ↔ ∀¬.
 
   Und ganz banal: Gegeben f : A → B und g : B → C, dann habe A → C.
 
+  Sowie Drinker.
+
 * Todd Ambridge, https://www.cs.bham.ac.uk/~txw467/mgs24/
 
 * Wenn A und B entscheidbar, dann auch A + B, A x B, A → B.
+
+* Rätsel zum Auswahlaxiom
+
+* Kalupen
+
+* Qx. Qy. x = 2y
+
+* Calkin–Wilf-Baum
+
+  cf : [Bool] → ℕ × ℕ
+
+  cf-reduced : (α : [Bool]) → IsReduced (cf α)
+
+  cf-surjective : (p q : ℕ) → NonZero p → NonZero q → IsReduced (p , q) → ∃[ α ] cf α ≡ (p , q)
+
+* SL₂(ℕ): https://www.codewars.com/kata/5c930224c4661143a6666add
+
+* Blaue-Augen-Rätsel
+
+* uniq
 
 
 === Philosophie
@@ -36,3 +58,25 @@
 === Besonderheiten von Agda
 
 * https://proofassistants.stackexchange.com/questions/1981/what-are-the-complex-induction-patterns-supported-by-agda/2002#2002
+
+
+=== Braucht Berechenbarkeitstheorie computergeprüfte Beweise?
+
+https://yforster.de/files/talk-chocola-synthetic-computability.pdf#page=26
+
+
+=== 2024, Sitzung 1
+
+grande-teorema : 2 + 2 ≡ 4
+grande-teorema = refl
+
+favorite-number : ℕ
+favorite-number = 42
+
+ℕ : Set
+ℕ = ?
+
+- Beispiele für Anwendungen von Agda, u.a. mein Paper mit Peter
+- Bool, ℕ, id, neg, and, pred, twice, Empty, Weird
+- Dependent-Type-Notation für Funktionstypen
+- LessThan2, IsZero, Even, Odd

@@ -63,3 +63,12 @@ for. In science, where there are many more male than female
 participants, this statistical sampling explanation, rather than
 differences in intellectual ability, may also be the main reason why
 women are under-represented at the top end.
+
+
+=== Rekorde
+
+https://math.stackexchange.com/questions/1541254/expected-value-and-variance-of-records
+
+Bei unabhängigen identisch verteilten kontinuierlichen Zufallsgrößen gilt:
+
+Der Erwartungswert für die Anzahl Rekorde bei n Ziehungen ist 1 + 1/2 + ... + 1/n ≈ ln(2).

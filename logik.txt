@@ -1216,6 +1216,9 @@ https://cs.nyu.edu/pipermail/fom/2000-January/003643.html
 * Zeugen werden immer komplizierter (gelernt von Kohlenbach auf Dagstuhl 2021):
   erst nicht berechenbar, dann sogar nicht ZF-definierbar.
 
+* Dialectica hat was mit Ableitung und automatic differentiation zu tun:
+  https://hal.science/hal-03123968/document
+
 
 === Conway's Game of Life
 
@@ -1410,6 +1413,18 @@ https://hal.science/hal-01588572v1/document
 * (Idee von Josif? Oder Ulrik? Jedenfalls Dagstuhl 2024.) Lass weniger um
   Terminierung von Funktionen stressen und eher Aussagen der Form beweisen:
   Falls sie terminiert, dann gilt ...
+
+
+=== Konservativität von HA^ω + AC + DC über HA
+
+Goodman's Theorem; lässt sich schick über Realisierbarkeit + Forcing beweisen:
+https://msp.org/pjm/1979/84-1/pjm-v84-n1-p01-s.pdf,
+https://proofassistants.stackexchange.com/a/1729/607
+
+
+=== Forcing in Typentheorie
+
+https://www.fing.edu.uy/%7Eamiquel/publis/lics11.pdf
 
 
 === Nächste Schritte
