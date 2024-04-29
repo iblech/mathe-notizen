@@ -527,3 +527,6 @@ von Colin McLarty.
 
 * https://www.cs.bham.ac.uk/~axj/ccc2021/abstracts/CCC_2021_paper_4.pdf
   Mathematik mit Irrtumswahrscheinlichkeit ε!
+
+* https://pages.cpsc.ucalgary.ca/~robin/FMCS/FMCS_04/material/hofstra.pdf
+  gut!

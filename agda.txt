@@ -54,6 +54,9 @@
   Kollaboration.
   https://www.quantamagazine.org/what-makes-for-good-mathematics-20240201/
 
+* Terminierungsaufgaben von
+  https://github.com/coq-community/almost-full/blob/master/theories/Default/AFExamples.v
+
 
 === Besonderheiten von Agda
 

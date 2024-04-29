@@ -445,6 +445,13 @@ http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1381-10.pdf
   https://link.springer.com/chapter/10.1007/978-3-642-25379-9_11
 
 
+=== Dickson & Co
+
+* Wenn jede Folge spezifierte guten Paaren hat, ist es ganz leicht, die
+  Existenz von guten Tripeln zu zeigen. Betrachte einfach die Unterfolge der
+  hinteren Komponenten guter Paare.
+
+
 === Analysis
 
 http://www.phil.pku.edu.cn/cllc/people/fengye/finitismAndTheLogicOfMathematicalApplications.pdf

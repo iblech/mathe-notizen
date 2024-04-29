@@ -88,3 +88,15 @@
 === Newtonsche Dynamik
 
 * http://gminton.org/#gravity
+
+
+=== Newton-Verfahren
+
+* Lange Geschichte! Babylonien etc.
+  https://topos.site/events/topos-colloquium/slides/2023-11-30.pdf
+
+* https://link.springer.com/article/10.1007/s002220100149
+  "full understanding" von der Methode, die als "Newton-Verfahren" bezeichnet
+  wird. Explizite Konstruktion einer Punktmenge die geeignete Startwerte für
+  alle komplexen Polynomen vorgegebenen Grads (mit Nullstellen im Einheitsball)
+  enthält.
