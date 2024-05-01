@@ -34,3 +34,4 @@ http://cs231n.github.io/neural-networks-1/#actfun
 
 * klar, Nielsen
 * http://ciml.info/
+* https://www.sscardapane.it/alice-book

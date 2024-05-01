@@ -1307,6 +1307,12 @@ https://hal.science/hal-01588572v1/document
   schwieriger wird, Ordinalzahlen zu definieren, und inwiefern Universen
   helfen: https://www.cs.bham.ac.uk/~mhe/TypeTopology/Ordinals.Codes.html
 
+* Es kann sein, dass sowohl A als auch B für sich genommen predicatively
+  reducible sind, aber nicht A ∧ B. Sam Sanders, Mail an fom vom3. Juli 2023,
+  "Re: [FOM] The difficulty I had with Weaver's argument". Er gibt das
+  Lindelöf-Lemma für Baire-Räume und die Aussage "es gibt Riemann-integrierbare
+  Funktionen f, g mit f . g nicht Riemann-integrierbar" an.
+
 
 === ACA_0
 

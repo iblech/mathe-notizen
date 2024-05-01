@@ -155,7 +155,9 @@ https://mathoverflow.net/a/277515/31233
 * Der Kleene-Baum liefert eine Funktion psi : 2^N --> N (das Exponential soll nur
   die berechenbaren Funktionen enthalten), die nicht gleichmäßig stetig ist:
   Bilde f ab auf die kleinste natürliche Zahl n, sodass das Wort
-  [f(0),...,f(n-1)] nicht im Kleene-Baum liegt.
+  [f(0),...,f(n-1)] nicht im Kleene-Baum liegt. (Es muss eine solche Zahl n
+  nach Markovs Prinzip geben, denn ihre Nichtexistenz würde bedeuten, dass f
+  einen unendlichen Pfad beschreibt.)
 
   Stetig ist diese Funktion aber schon: Sei eine Funktion f mit psi(f) = n
   gegeben. Dann gilt psi(f) = psi(g) für alle berechenbaren Funktionen g
@@ -203,6 +205,19 @@ https://mathoverflow.net/a/277515/31233
 * Es gibt noch eine Variante des Kleene-Baums von Lacombe, in dem
   die Menge der unendlichen Pfade Maß > 1/2 hat. Siehe Thm. 9.1.17 in
   /Higher-Order Computability/ von Longley und Normann.
+
+* Ich glaube der Kleene-Baum demonstriert, dass Bar-Induktion im effektiven
+  Topos fehlschlägt.
+
+  Sei P xs das Prädikat "xs liegt nicht im Kleene-Baum".
+
+  Dann gilt für alle unendlichen 0/1-Folgen, dass ein initiales Segment P erfüllt.
+  Denn jeder unendliche Pfad läuft ja aus dem Baum heraus, und es ist auch
+  entscheidbar, wann.
+
+  Mit Bar-Induktion müsste P | [] folgen. Aber dann würden auch bis auf
+  Doppelnegation definierte 0/1-Folgen Präfixe mit P haben. Und das tun sie
+  nicht unbedingt.
 
 
 === Modelle von Berechenbarkeit
