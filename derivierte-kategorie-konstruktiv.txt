@@ -405,7 +405,7 @@ http://mathoverflow.net/questions/162097/computing-the-minimal-free-resolution-o
   cohomology of twists of ideal sheaves
 
 
-=== Nächte Schritte
+=== Nächste Schritte
 
 * Unbedingt http://www.mfo.de/document/1320b/OWR_2013_25.pdf
   durcharbeiten: Mini-Workshop: Constructive Homological Algebra with
@@ -414,3 +414,12 @@ http://mathoverflow.net/questions/162097/computing-the-minimal-free-resolution-o
 * https://arxiv.org/abs/0905.2212
   Castelnuovo-Mumford Regularity and Computing the de Rham Cohomology of Smooth
   Projective Varieties
+
+
+=== Updates
+
+* https://arxiv.org/abs/2405.03258 "This allows us to construct a homotopy
+  colimit functor explicitly. These two functors are "computable",
+  specifically, the constructed cylinder functor sends a dg category of finite
+  type, i.e., a semifree dg category having finitely many generating morphisms,
+  to a dg category of finite type"

@@ -720,3 +720,9 @@ Dank der strikten Monotonie können wir dagegen eine entsprechende
 Fallunterscheidung machen.
 
 Siehe den Absatz direkt vor Abschnitt 7 des zitierten Aufsatzes.
+
+
+=== Ultrafilter in Kombinatorik
+
+* Wie geht Hindman's Theorem konstruktiv? Wenn ich die Theoreme nicht
+  verwechsele, wurde mir diese Aufgabe von Christian Sattler gestellt.
