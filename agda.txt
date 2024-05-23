@@ -4,7 +4,8 @@
 
 * Euklidische Geometrie
 
-* Primzahlen
+* Primzahlen, siehe etwa
+  https://hrmacbeth.github.io/math2001/07_Number_Theory.html
 
 * Graham
 
@@ -47,6 +48,12 @@
 
 * uniq
 
+* Reguläre Sprachen etc.? Pumping Lemma!
+  http://conal.net/talks/language-derivatives.pdf
+
+* Imperative Programmierung (State Monad), Hoare-Tripel
+  https://github.com/piotr-lewandowski/hoare-triples/blob/master/HoareTriples.agda
+
 
 === Philosophie
 
@@ -57,15 +64,61 @@
 * Terminierungsaufgaben von
   https://github.com/coq-community/almost-full/blob/master/theories/Default/AFExamples.v
 
+* Mit decision procedures können wir manche Beweise konzeptuell vereinfachen.
+  Nicht mehr Symmetrieargumente vornehmen, um die Anzahl Fälle auf ein
+  menschengenießbares Maß zu reduzieren. Sondern einfach automatisiert alle
+  prüfen. https://arxiv.org/pdf/2405.04699
+
 
 === Besonderheiten von Agda
 
 * https://proofassistants.stackexchange.com/questions/1981/what-are-the-complex-induction-patterns-supported-by-agda/2002#2002
 
+* https://proofassistants.stackexchange.com/questions/1981/what-are-the-complex-induction-patterns-supported-by-agda
+
 
 === Braucht Berechenbarkeitstheorie computergeprüfte Beweise?
 
 https://yforster.de/files/talk-chocola-synthetic-computability.pdf#page=26
+
+
+=== Formalisierungsideen Graphentheorie
+
+Graph
+- Edge-Relation könnte entscheidbar sein (und überhaupt erst mal eine Prop)
+- Vertex-Typ könnte endlich sein
+- locally finite
+
+Walk
+- ++
+- ∈
+
+Acyclic
+Sink
+Tree
+Forest (höchstens ein irredudanter Pfad)
+Star
+
+Isomorphism
+
+Ramsey?
+Minor
+
+some specific graphs:
+- ring
+- complete
+
+Reachability
+Spanning tree
+
+Menger's theorem?
+
+https://types22.inria.fr/files/2022/06/TYPES_2022_paper_70.pdf
+https://cstheory.stackexchange.com/questions/44198/representations-of-planar-graphs-in-coq
+https://hal.science/hal-02127698/document
+https://dominicpm.github.io/publications/markhert-dijkstra-2016.pdf
+https://github.com/pnguyen4/agda-shortest-path
+https://publications.lib.chalmers.se/records/fulltext/117330.pdf
 
 
 === 2024, Sitzung 1

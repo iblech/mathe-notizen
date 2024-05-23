@@ -12,3 +12,11 @@
 * http://www.math.jhu.edu/~eriehl/elements.pdf
 
 * Cisinski
+
+* Motivation:
+  https://mathoverflow.net/questions/450835/what-is-the-motivation-for-infinity-category-theory
+  "There are many motivations, but the short answer is that many desirable
+  properties are only available in the world of ∞-categories. This is a
+  wonderful miracle."
+
+  z.B. derivierte Kategorie hat nun Limiten und Kolimiten

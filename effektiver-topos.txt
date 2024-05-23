@@ -335,6 +335,8 @@ Nach https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/hyland-effectiv
   werden, dass sie wichtige Axiome realisieren.
   http://lama.univ-savoie.fr/~hyvernat/Realisabilite2011/Files/JohnLongley1.pdf#page=18
 
+* A Guide to Krivine Realizability for Set Theory, https://arxiv.org/pdf/2307.13563
+
 
 === Referenz über viele Realisierbarkeitsarten
 
@@ -513,6 +515,13 @@ von Colin McLarty.
 === De Jong's Theorem
 
 * HA ist konservativ über Prädikatenkalkül im Sinne von Seite 123 Oosten.
+
+
+=== Kategorizität von HA
+
+* Klar, Bennos Paper
+
+* https://arxiv.org/pdf/2302.14699
 
 
 === Quellen

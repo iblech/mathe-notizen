@@ -103,3 +103,32 @@ https://proofassistants.stackexchange.com/questions/1201/proof-theoretic-compari
 
 * Es gibt Setoid Type Theory, "Observational Equality: Now For Good", XTT und
   natürlich Millys 2TT. Wie verhalten die sich zueinander?
+
+
+=== Extensionale Typentheorie
+
+* https://www.xn--pdrot-bsa.fr/slides/birmingham-06-20.pdf#page=77
+
+* Eliminating Reflection from Type Theory: Übersetzung von ETT zu ITT + UIP +
+  funext. Benötigt die ETT-Ableitungen. Typechecking in ETT ist bekanntermaßen
+  nicht entscheidbar, nur die Korrektheit von vollständigen Ableitungsbäumen
+  ist es.
+
+* CT ist inkonsistent mit funext, sofern Choice für ℕ → ℕ vorhanden ist.
+
+  Denn sei F : (ℕ → ℕ) → ℕ eine Funktion, die Funktionen sie berechnende Codes
+  zuordnet. Dann f = g punktweise genau dann, wenn Ff = Fg. (Für die Richtung
+  "⇒" benötigen wir funext.)
+
+  Damit ist aber das Halteproblem entscheidbar. Und das beißt sich mit CT.
+
+* Entsprechend ist auch CT_Σ mit funext inkompatibel (ohne Choice, da schon
+  eingebaut).
+
+
+=== Nonstandard
+
+* Von Zoltan in seiner Doktorarbeit gemacht: Kapitel 4 von
+  https://pure.manchester.ac.uk/ws/portalfiles/portal/146395090/FULL_TEXT.PDF
+
+  https://github.com/zaklogician/agda-ist-algebra/blob/master/src/Base.agda

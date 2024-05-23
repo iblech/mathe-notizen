@@ -169,3 +169,8 @@ https://mathstodon.xyz/@montessiel/109307323357254194
 === Primzahlsatz
 
 * Schicker Beweis von Newman
+
+
+=== Ableitung nach p
+
+https://arxiv.org/pdf/2311.13551

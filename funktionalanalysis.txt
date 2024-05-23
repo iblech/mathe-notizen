@@ -26,6 +26,10 @@ redundant."
 * Distributionen bilden tendenziell Koalgebren:
   https://qchu.wordpress.com/2016/03/19/coalgebras-of-distributions/
 
+* https://drive.google.com/file/d/1iFz3n8gnOKLTL-sPqdFT_0N7Va0cvtjC/view
+  Paolo Giordano, A conceptual introduction to Schwartz distributions
+  and Colombeau generalized functions, ko-universelle Lösung
+
 
 === Absolutstetige Funktionen
 

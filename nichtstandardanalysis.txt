@@ -31,6 +31,10 @@
 * Analysis-Lehrbuch, was auf NSA setzt:
   http://www.math.wisc.edu/~keisler/calc.html
 
+* https://arxiv.org/pdf/2405.04552
+  Nonstandard arguments for results about infinite systems of equations in
+  infinitely many variables
+
 
 === Taos cheap nonstandard analysis
 
@@ -60,6 +64,7 @@ Definiere rekursiv für unendliche Teilmengen Sigma von N:
         :<==> bot.
 
 * Dann erfüllt Box die Axiome an einen modalen Operator.
+  (Wirklich? Auch Konjunktion? gerade/ungerade?)
 
 * Außerdem ist die Relation monoton, d.h. Sigma |== phi impliziert Sigma' |== phi,
   falls Sigma' eine unendliche Teilmenge von Sigma ist.

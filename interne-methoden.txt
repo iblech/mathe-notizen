@@ -2542,6 +2542,13 @@ Schön!
   Singleton-Familien aus.
 
 
+=== Faserungen
+
+* Arbeit von Nico, offensichtlich
+
+* https://mathoverflow.net/questions/456804/how-to-represent-morphisms-in-a-fibration-in-the-internal-type-theory
+
+
 === Nächste Schritte
 
 * von Yuri empfohlen: Yves Diers: Categories of commutative algebras
