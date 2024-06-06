@@ -54,6 +54,8 @@
 * Imperative Programmierung (State Monad), Hoare-Tripel
   https://github.com/piotr-lewandowski/hoare-triples/blob/master/HoareTriples.agda
 
+* https://github.com/martinescardo/HoTTEST-Summer-School
+
 
 === Philosophie
 

@@ -1239,9 +1239,12 @@ Gödel = Halteproblem = Conway
   https://sci-hub.se/https://www.sciencedirect.com/science/article/abs/pii/S0049237X08701381
 
 
-=== Endliche Automaten deren Eigenschaften unabhängig von ZFC+X sind
+=== Beispiele für unabhängige Aussagen
 
-https://hal.science/hal-01588572v1/document
+* Endliche Automaten deren Eigenschaften unabhängig von ZFC+X sind:
+  https://hal.science/hal-01588572v1/document
+
+* https://math.mit.edu/~poonen/papers/sampler.pdf
 
 
 === Graph minor theorem
@@ -1312,6 +1315,9 @@ https://hal.science/hal-01588572v1/document
   "Re: [FOM] The difficulty I had with Weaver's argument". Er gibt das
   Lindelöf-Lemma für Baire-Räume und die Aussage "es gibt Riemann-integrierbare
   Funktionen f, g mit f . g nicht Riemann-integrierbar" an.
+
+* https://arxiv.org/pdf/2405.09275 Feferman-Resultat, dass man durch geeignete
+  Reflektionsaxiome jede beliebige wahre Aussage beweisbar machen kann.
 
 
 === ACA_0

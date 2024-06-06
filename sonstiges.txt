@@ -561,6 +561,9 @@ are scientific hypotheses that are not in Pi_1 form."
 * Wenn man zeilenweise mit cleveren Vorfaktoren gewichtet summiert,
   erhält man die Fibonacci-Zahlen. https://arxiv.org/pdf/1811.02085.pdf
 
+* Sierpinski-Fraktal hat was mit Überträgen bei Addition in Basis p zu tun:
+  https://arxiv.org/pdf/2405.13060
+
 
 === Das Alien-Problem
 
