@@ -524,6 +524,16 @@ von Colin McLarty.
 * https://arxiv.org/pdf/2302.14699
 
 
+=== Lambda-Kalkül als PCA
+
+* Alle Lambda-Terme nehmen, bis auf α- und β-Äquivalenz (auch η?).
+  Verknüpfung ist Juxtaposition und ist total.
+
+* Nun die "stark normalisierenden" Lambda-Terme nehmen (bis auf α-Äquivalenz).
+  Verknüpfung ist Normalform nach Juxtaposition und ist partiell.
+  (Quelle: Buch von Oosten, "term models")
+
+
 === Quellen
 
 * http://math.andrej.com/data/c2c.pdf

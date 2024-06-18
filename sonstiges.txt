@@ -760,3 +760,13 @@ https://arxiv.org/pdf/2009.03393.pdf
 * https://arxiv.org/abs/2311.07651 Für manche Drei-Körper-Systeme können
   Unterschiede in den Eingangsdaten in Größenordnung der Planck-Länge schon
   einen Unterschied machen
+
+
+=== PRNG
+
+* Moduli bias und andere Subtilitäten:
+  https://queue.acm.org/detail.cfm?id=3664645
+
+* Mersenne Twister vollständig reversibel nach Kenntnis von 624
+  aufeinanderfolgenden Ausgaben:
+  https://blog.ollien.com/posts/reverse-mersenne-twister

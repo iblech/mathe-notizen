@@ -606,6 +606,14 @@ http://therisingsea.org/notes/talk-beida-tm-2018.pdf
   https://okmij.org/ftp/Computation/pred-talk.pdf
 
 
+=== Aufzählbarkeit
+
+Es ist relativ trivial, dass Mengen natürlicher Zahlen, die durch eine
+Turing-Maschine M aufzählbar sind, es auch durch eine primitiv-rekursive Funktion
+sind: Lese eine Zahl n ein und simuliere M auf Eingabe fst(n) für snd(n)
+Schritte.
+
+
 === Oleg
 
 * polynomial event semantics

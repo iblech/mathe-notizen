@@ -400,6 +400,11 @@ Empfohlen von John Baez!
 * Jetzt gibt es auch die "universelle Menge"!
   http://jdh.hamkins.org/wp-content/uploads/2018/04/Set-theoretic-potentialism-and-universal-finite-set-SLS-2018-1.pdf
 
+* Jede Menge Beweise im Gödel-Umfeld:
+  https://mathoverflow.net/questions/72062/what-are-some-proofs-of-godels-theorem-which-are-essentially-different-from-t
+
+* Toller Beweis von Dominik Kirst
+
 
 === Nichtzeigbarkeit von Äquikonsistenz
 
@@ -1044,6 +1049,10 @@ Hier ein paar Details zu primitiv-rekursiven Funktionen und Co.
 
 Siehe: Um Seite 85 von
 http://people.ucalgary.ca/~rzach/static/open-logic/courses/phil479/phil479-screen.pdf.
+
+* Eine Funktion ist genau dann primitiv rekursiv, wenn ihr Graph es ist und
+  wenn sie nach oben durch eine primitiv rekursive Funktion beschränkt wird:
+  https://mathoverflow.net/questions/76037/inverse-ackermann-primitive-recursive-or-not
 
 
 === Lineare Logik
