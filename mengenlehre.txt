@@ -63,6 +63,10 @@
   [...] Applying forcing in this way to concrete statements in mathematics is
   an exciting possibility"
 
+* Forcing ist einfach nur iterative conception in multi-valued logics:
+  https://jdh.hamkins.org/forcing-is-simply-the-iterative-conception-undertaken-with-multivalued-logic-forcingfest-oslo-june-2024/
+
+
 
 === Ein einfaches Maximalitätsprinzip
 

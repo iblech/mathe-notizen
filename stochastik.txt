@@ -99,3 +99,8 @@ Hat Ausgang 1/4:
 
 * The Broken Stick Problem.
   https://services.math.duke.edu/education/webfeatsII/gdrive/Team%20D/project/brokenstick.htm
+
+
+=== Stein-Paradoxon
+
+* https://joe-antognini.github.io/machine-learning/steins-paradox

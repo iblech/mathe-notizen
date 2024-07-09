@@ -257,6 +257,13 @@ Wouldn’t it be lovely to think so?"
 * https://homes.psd.uchicago.edu/~sethi/Teaching/P243-W2020/final-papers/price.pdf
 
 
+=== FTL?
+
+* https://gwern.net/review/quantum-thief
+  Es gibt keine überlichtschnelle Kommunikation, wohl aber eine
+  überlichtschnelle *Koordination*!
+
+
 === Literatur
 
 * Zur mathematischen Fundierung:
