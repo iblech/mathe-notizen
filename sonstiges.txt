@@ -770,3 +770,26 @@ https://arxiv.org/pdf/2009.03393.pdf
 * Mersenne Twister vollständig reversibel nach Kenntnis von 624
   aufeinanderfolgenden Ausgaben:
   https://blog.ollien.com/posts/reverse-mersenne-twister
+
+
+=== MAC nicht am Ende
+
+https://moxie.org/2011/12/13/the-cryptographic-doom-principle.html
+
+* Vaudenay
+* SSH plaintext recovery
+
+
+=== Geometrische Algebra
+
+https://terathon.com/blog/poor-foundations-ga.html
+
+
+=== Formale Methoden in der Funkmodementwicklung
+
+* Wenn Teilaspekte formal verifiziert wurden, kann dann beim Debuggen eben jene
+  Teilaspekte als Fehlerquellen ausschließen
+
+* Zertifiziertes Plotten auch beruhigend
+
+* 75.000 Personenstunden, um ein Funkmodem zu entwickeln

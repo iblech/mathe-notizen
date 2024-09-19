@@ -58,6 +58,10 @@
 
 * https://mathworld.wolfram.com/CosmologicalTheorem.html?
 
+* GGT über Konstruktivierung von "minimale positive Zahl in (a,b)" bestimmen,
+  bin auf die Idee gekommen durch den letzten Absatz auf Seite 34 von
+  Thierry/Persson zu Gröbnerbasen.
+
 
 === Philosophie
 

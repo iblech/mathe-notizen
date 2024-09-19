@@ -358,6 +358,69 @@ stetig sind:
   https://cj-xu.github.io/talks/xu-kleene-kreisel.pdf
 
 
+=== Stetigkeit ℝ → ℝ
+
+Sei e eine Maschine, die eine Funktion f : ℝ → ℝ berechnet. Sei a eine Maschine,
+die eine Zahl x : ℝ berechnet. Wir wollen zeigen, dass f in x stetig ist. Sei
+dazu ε > 0 gegeben. Finde j mit 2^{-j} ≤ ε/2. Wir bauen folgende Maschine r:
+
+    Lese eine Zahl n ein.
+
+    Prüfe, ob e(r)(j) innerhalb von n Schritten anhält. Wenn nein, gib a(n) aus.
+    Sei im Folgenden K die Anzahl Schritte, die die Berechnung e(r)(j) zum
+    Halten brauchte.
+
+    Prüfe, ob e(r)(j) kompatibel mit e(a)(j) ist, im Sinne von
+    |e(r)(j) - e(a)(j)| ≤ 2^{-j} + 2^{-j}. Wenn nein, gib a(n) aus.
+
+    Suche nun nach einer rationalen Zahl q mit |a(i) - q| ≤ 2^{-i} + 2^{-K}
+    für alle i < K sodass |e(q) - e(a)| zertifiziert größer als ε ist
+    (damit meine ich, dass ein l existiert mit x(l) - 2^{-l} - 2^{-l} > ε,
+    wobei x(l) = |e(q)(l+1) - e(a)(l+1)|). (Die Suche ist dann also verzahnt
+    über q und l.) Wenn eine solche Zahl gefunden wurde, gib diese aus.
+
+Dann haben wir:
+
+1. Es ist unmöglich, dass e(r)(j) nicht anhält. Denn wäre das so, so wäre r ≃ a
+   und damit e(r)(j) terminierend mit Ergebnis e(a)(j).
+
+2. Mit MP folgt, dass e(r)(j) anhält. Sei K die Anzahl Rechenschritte.
+
+   Das Ergebnis muss dann auch kompatibel mit e(a)(j) sein, sonst wäre wieder
+   r ≃ a und damit eben doch e(r)(j) = e(a)(j).
+
+3. Sei nun q eine beliebige rationale Zahl mit |a(i) - q| ≤ 2^{-i} ...+ 2^{-K}...
+   für alle i < K. Angenommen |e(q) - e(a)| > ε. Dann wird die Suche
+   erfolgreich sein und eine gewisse rationale Zahl q' mit den gleichen
+   Eigenschaften finden. Dann wird zwar nicht r ≃ q' gelten. Aber es wird
+   gelten: r(i) = a(i) für i < K und r(i) = q' für i ≥ K. Definiert dies eine
+   reelle Zahl, und zwar genauer die Zahl q'?
+
+      |r(i) - r(i')| ≤ 2^{-i} + 2^{-i'}?
+      falls i,i' < K:      ja nach Voraussetzung an a.
+      falls i,i' ≥ K:      ja, da Differenz Null.
+      falls i < K, i' ≥ K: ja, denn |a(i) - q'| ≤ 2^{-i} ≤ 2^{-i} + 2^{-i'}.
+      falls i ≥ K, i' < K: ja, analog.
+
+      |r(i) - q'| = 0 für i ≥ K und ≤ 2^{-i} für i < K.
+
+   Somit muss e(r) eine reelle Zahl darstellen, und zwar dieselbe wie e(q').
+   Insbesondere wird e(r)(j) kompatibel zu e(q')(j) sein. Auf der anderen Seite
+   gilt aber |e(q') - e(a)| > ε, d.h. es gibt l mit |e(q')(l+1) - e(a)(l+1)| >
+   ε + 2^{-l} + 2^{-l}. Widerspruch:
+
+      |e(r)(l+1) - e(a)(l+1)| ≥ |e(a)(l+1) - e(q')(l+1)| - |e(q')(l+1) -
+      e(r)(l+1)| > ε + 2^{-l} + 2^{-l} - 2^{-(l+1)} - 2^{-(l+1)} = ε + 2^{-l}.
+
+      |e(r)(l+1) - e(a)(l+1)| ≤ |e(r)(l+1) - e(r)(j)| + |e(r)(j) - e(a)(l+1)| ≤
+      2^{-j} + 2^{-(l+1)} + 2^{-(l+1)} + 2^{-j} = 2^{-l} + 2 2^{-j} ≤ ε +
+      2^{-l}.
+
+3. Sei nun y eine beliebige reelle Zahl mit |x - y| ≤ 2^{-K}.
+
+   Dann finde eine rationale Zahl q...
+
+
 === Effektiver Topos
 
 * Muss aus Asm(A) noch einen Tripos machen und daraus einen Topos.
@@ -532,6 +595,22 @@ von Colin McLarty.
 * Nun die "stark normalisierenden" Lambda-Terme nehmen (bis auf α-Äquivalenz).
   Verknüpfung ist Normalform nach Juxtaposition und ist partiell.
   (Quelle: Buch von Oosten, "term models")
+
+
+=== Doppelnegations-PCA?
+
+Sei A eine PCA. Dann können wir folgende neue Verknüpfung definieren:
+
+- e * x ↓ genau dann, wenn für alle totalen r gilt, dass e x r ↓.
+
+- In diesem Fall sind alle e x r Ergebnisse von e * x.
+
+Mit "total" meine ich dabei: Hält auf allen natürlichen Zahlen als Eingaben.
+
+Ist A eine typisierte PCA, kann das sicher noch besser ausgedrückt werden.
+
+Ist A mit der neuen Verknüpfung eine (nicht-deterministische) PCA? Die LEM
+realisiert?
 
 
 === Quellen

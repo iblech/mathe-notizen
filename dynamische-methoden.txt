@@ -177,6 +177,12 @@ gemeint. Jedenfalls hat es vermutlich Verbindungen zu Marcs ideellen
 Oberkörpern.
 
 
+=== Galois-Gruppe
+
+https://www.sciencedirect.com/science/article/pii/S0747717110000921
+Dynamic Galois Theory, Diaz-Toca, Lombardi
+
+
 === Nächste Schritte
 
 * Coquands Bemerkung zu Zerfällungskörpern verstehen.

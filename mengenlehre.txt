@@ -659,12 +659,20 @@ ist, besitzen a und p eine gemeinsame Verfeinerung. Also liegt a in R.
 * p = t: https://arxiv.org/abs/1803.04331
 
 
+=== Kontinuumshypothese (CH)
+
+* CH impliziert Eindeutigkeit der hyperreellen Zahlen:
+  https://arxiv.org/pdf/2407.02463, Seite 8
+
+
 === Literatur
 
 * http://projects.illc.uva.nl/KNAW/Heyting/uploaded_files/inlineitem/vdberg-slides.pdf
   Über IZF und Varianten sowie CZF.
 
 * http://www.mathetal.net/data/book1.pdf
+
+* https://jdh.hamkins.org/philosophy-of-set-theory-fall-2011/
 
 
 === Nächste Schritte

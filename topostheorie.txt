@@ -1687,6 +1687,16 @@ gönnen? Wann ist eine Menge von conditions dicht?
   Hier wird zumindest ein nichttrivialer Ultrafilter forciert.
 
 
+=== Topologischer Topos
+
+* https://grossack.site/2024/07/03/topological-topos-3-bonus-axioms
+
+
+=== Alggeo konstruktiv
+
+* Abschnitt 7 von https://www.cse.chalmers.se/~coquand/val1.pdf
+
+
 === Nächste Schritte
 
 * von Peter Arndt empfohlen: John Bell, Toposes and local set theories.

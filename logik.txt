@@ -1414,6 +1414,10 @@ Gödel = Halteproblem = Conway
   Cuts lieber pointfree definieren? Unterraum derjenigen n wo eine geometrische
   Sequenz gilt?
 
+* https://en.wikipedia.org/wiki/Alexander_Esenin-Volpin
+  "He sketched a program for proving the consistency of Zermelo–Fraenkel set
+  theory using ultrafinitistic techniques"
+
 
 === Prädikative Mengenlehre
 
@@ -1446,6 +1450,27 @@ https://proofassistants.stackexchange.com/a/1729/607
 === Forcing in Typentheorie
 
 https://www.fing.edu.uy/%7Eamiquel/publis/lics11.pdf
+
+
+=== Umgang mit Inkonsistenz
+
+Freek Wiedijk erzählte mir auf PC2024, dass sein Lieblingssystem Type in Type sei
+(genauer lambda star).
+
+Ja, darin kann man im leeren Kontext ⊥ beweisen, das System ist inkonsistent.
+Aber: Kein Term vom Typ ⊥ terminiert. Gewissermaßen ist die Inkonsistenz nicht
+schlimm, da sie auffällt.
+
+Das erinnert mich an Voevodskys letzten Vortrag, in dem er eine Unterscheidung
+zwischen Beweisen (in möglicherweise inkonsistenten Systemen) und tatsächlich
+belastbaren Zertifikaten vorschlug.
+
+
+=== Friedman's Grand Conjecture
+
+* Widerlegt durch Karims Resultat?
+  https://www.cse.chalmers.se/~coquand/centrem1.pdf#page=9 Schranken sind nicht
+  primitiv rekursiv.
 
 
 === Nächste Schritte

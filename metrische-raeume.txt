@@ -181,6 +181,52 @@ Sei R über Cauchyprozesse definiert.
   Zeige das genauso wie oben, definiere aber eps' := (|x0-y0| - 2eps0) / 4.
 
 
+=== Rationale Zahl kompatibel mit Vorgaben finden
+
+Seien rationale Zahlen (q_i)_{i<K} gegeben mit |q_i - q_j| ≤ 2^{-i} + 2^{-j}
+für alle i,j < K. Dann gibt es eine rationale Zahl q mit
+
+    |q_i - q| ≤ 2^{-i} + 2^{-j} für alle i,j,
+
+oder äquivalent
+
+    |q_i - q| ≤ 2^{-i} für alle i.
+
+Nämlich q := q_{K-1}, oder?
+
+    |q_i - q| ≤ 2^{-i} + 2^{-(K-1)}, das genügt nicht.
+
+Vielleicht der Durchschnitt? q := (sum_i q_i) / K. Dann:
+
+    |q_i - q| = |q_i - sum_j q_j / K| = |sum_j (q_i - q_j)| / K
+    ≤ sum_j (2^{-i} + 2^{-j}) / K = (K 2^{-i} + 2 - 2^{-(K-1)}) / K =
+    2^{-i} + 2/K - 2^{-(K-1)} / K, genügt wieder nicht.
+
+Gewichteter Durchschnitt? q := (sum_i 2^i q_i) / (2^K - 1). Dann:
+
+    |q_i - q| = |q_i - sum_j 2^j q_j / (2^K - 1)| =
+    |sum_j 2^j (q_i - q_j)| / (2^K - 1) ≤
+    sum_j 2^j (2^{-i} + 2^{-j}) / (2^K - 1) =
+    sum_j (2^{j-i} + 1) / (2^K - 1) =
+    sum_j 2^{j-i} / (2^K - 1) + K / (2^K - 1) =
+    2^{-i} (2^K - 1) / (2^K - 1) + K / (2^K - 1) =
+    2^{-i} + K / (2^K - 1), genügt wieder nicht.
+    (Auch wenn sich der Zähler K zu K - 2 verbessern lässt.)
+
+Aber es geht so.
+
+Für alle i, j gilt direkt nach Voraussetzung:
+
+    a_i := q_i - 2^(-i) ≤ q_j + 2^(-j) =: b_j.
+
+Also ist das abgeschlossene Intervall [max_i a_i, min_i b_j] bewohnt.
+Wenn wir nun für q irgendeine Zahl aus diesem Intervall nehmen, gilt
+für alle i wie gewünscht:
+
+    q_i - q ≤ 2^(-i), denn q_i - 2^(-i) = a_i ≤ q
+    q - q_i ≤ 2^(-i), denn q_i + 2^(-i) = b_i ≥ q.
+
+
 === Topologisch
 
 Sei X topologischer Raum. Sei f : X --> R eine stetige Funktion.

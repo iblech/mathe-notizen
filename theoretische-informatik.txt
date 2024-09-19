@@ -210,6 +210,7 @@ https://mathoverflow.net/a/277515/31233
   Topos fehlschlägt.
 
   Sei P xs das Prädikat "xs liegt nicht im Kleene-Baum".
+  (Das ist sogar monoton und entscheidbar.)
 
   Dann gilt für alle unendlichen 0/1-Folgen, dass ein initiales Segment P erfüllt.
   Denn jeder unendliche Pfad läuft ja aus dem Baum heraus, und es ist auch
@@ -218,6 +219,31 @@ https://mathoverflow.net/a/277515/31233
   Mit Bar-Induktion müsste P | [] folgen. Aber dann würden auch bis auf
   Doppelnegation definierte 0/1-Folgen Präfixe mit P haben. Und das tun sie
   nicht unbedingt.
+
+  Hm, welches Beispiel hatte ich im Sinn? Weiß nicht mehr. Aber ich kann
+  zeigen:
+
+  Wenn P | xs, so gibt es nur endlich viele endliche Pfade im Kleene-Baum, die
+  xs fortsetzen. Denn wenn P(xs), so sind es 0. Und im Induktionsschritt gibt
+  es nur endlich viele Fortsetzungen von xs.0 und nur endlich viele
+  Fortsetzungen von xs.1. Also höchstens 1+Schranke+Schranke viele endliche
+  Fortsetzungen von xs.
+
+  Mit P | [] würde folgen, dass es insgesamt nur eine endliche Anzahl endlicher
+  Pfade gibt. Das widerspricht der Existenz von beliebig langen endlichen
+  Pfaden.
+
+  Thomas Streicher scheint implizit zuzustimmen: "I think that Fan or Bar
+  Theorem fail in this model since there will be something like the Kleene
+  tree." https://groups.google.com/g/constructivenews/c/X2XHrEecFd0/m/FIuYAZF821MJ
+
+* Gilt Bar-Induktion in Eff(STM)?
+
+  Ich glaube jedenfalls, dass es auch in Eff(STM) einen Kleene-Baum gibt.
+  Mit wortwörtlich derselben Konstruktion.
+
+* Missverständnis um die Terminologie rund um Bar-Rekursion und Bar-Induktion:
+  https://groups.google.com/g/constructivenews/c/X2XHrEecFd0/m/TOwlFtKkq4IJ
 
 
 === Modelle von Berechenbarkeit

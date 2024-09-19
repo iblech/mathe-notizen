@@ -132,3 +132,8 @@ https://proofassistants.stackexchange.com/questions/1201/proof-theoretic-compari
   https://pure.manchester.ac.uk/ws/portalfiles/portal/146395090/FULL_TEXT.PDF
 
   https://github.com/zaklogician/agda-ist-algebra/blob/master/src/Base.agda
+
+
+=== Sinn und Unsinn der η-Regeln (eta-Regeln)
+
+https://www.wellesu.com/10.1017/bsl.2019.21
