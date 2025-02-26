@@ -12,7 +12,7 @@ http://mathoverflow.net/questions/81342/elementary-results-with-p-adic-numbers
 * \binom{1/2}{n} hat nur Zweierpotenzen als Nenner. Auch allgemeiner:
   \binom{q}{n} hat nur die Primfaktoren im Nenner, die auch q im Nenner hat.
 
-* Bestimmte Gleichungen haben nur endlich viele ganzzahlige Lösungen.
+* Bestimmte Gleichungen haben nur endlich viele ganzzahlige Lösungen. (!)
 
 * Man kann ein Quadrat nicht in n gleich große Dreiecke teilen, wenn n
   ungerade. (Monskys Theorem)
@@ -56,3 +56,21 @@ Surfaces, Algebraic Curves and Moduli Spaces/ folgende Referenzen:
 * http://math.uga.edu/~pete/realspectrum.pdf: Wenn p = 1 mod 4, ist -1
   eine Quadratzahl in Q_p. Wenn p eine ungerade Primzahl ist, so ist -1
   Summe zweier Quadratzahlen. In Q_2 ist -1 eine Summe von vier Quadratzahlen.
+
+
+=== Konstruktiv
+
+* Gleichheit von p-adischen Ganzzahlen ist ¬¬-stabil.
+
+* Eine p-adische Ganzzahl ist genau dann regulär, wenn sie nicht Null ist.
+  (Für "⇐" nutze "oBdA LEM" und betrachte minimales n mit x_n ≠ 0,
+  wobei x = sum_n x_n p^n.)
+
+* Insbesondere gilt für reguläre Elemente wohl also NICHT, dass sie
+  von der Form p^n * Einheit sind.
+
+* Aktuell vermute ich: Es ist sinnvoll, auf den p-adischen Ganzzahlen
+  (und auf Potenzreihen) eine Apartness-Relation zu definieren. Dann würden die
+  von Null entfernten Elemente von der Form p^n * Einheit sein.
+
+* https://core.ac.uk/download/pdf/82407223.pdf Deirdre Haskell

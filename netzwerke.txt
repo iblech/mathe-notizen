@@ -31,3 +31,8 @@ Zufällige Stichworte:
 * synthetic inertia
 
 * Idee für Schülerakadamie: komplexe Netzwerke, Schaltungen, Blackouts.
+
+
+=== NAT Traversal
+
+https://tailscale.com/blog/how-nat-traversal-works

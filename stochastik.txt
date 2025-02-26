@@ -104,3 +104,8 @@ Hat Ausgang 1/4:
 === Stein-Paradoxon
 
 * https://joe-antognini.github.io/machine-learning/steins-paradox
+
+
+=== Kelly can't fail
+
+https://win-vector.com/2024/12/19/kelly-cant-fail/

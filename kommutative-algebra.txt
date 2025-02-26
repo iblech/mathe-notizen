@@ -214,7 +214,10 @@ Sei S = k[x_0,...,x_n]. Habe S --> k durch Auswertung bei (0,...,0).
   Klassisch gilt: j = { x | 1 - xy inv. für alle y }.
 
 * Ein Ring heißt genau dann jacobsonsch, wenn jedes Primideal Schnitt
-  von maximalen Idealen ist.
+  von maximalen Idealen ist. Ryota Kuroki schlägt, Daniel folgend, folgende
+  konstruktive Formulierung vor, die ist klassisch auch tatsächlich äquivalent:
+  Dass für jedes Ideal I gilt, dass Jac(I) ⊆ Nil(I). (Ich frage mich, ob nicht
+  das generische Ideal betrachtet werden sollte?)
 
 * Jede endlich erzeugte Algebra über einem (nicht notwendermaßen algebraisch
   abgeschlossenen) Körper ist jacobsonsch. Das sagt Hilberts Nullstellensatz.
@@ -224,6 +227,8 @@ Sei S = k[x_0,...,x_n]. Habe S --> k durch Auswertung bei (0,...,0).
   so ist auch S jacobsonsch, Urbilder von maximalen Idealen sind wieder
   maximal und die zugehörigen Restklassenkörpererweiterungen sind endlich.
   http://stacks.math.columbia.edu/tag/00GB
+
+  Konstruktiv ganz frisch https://arxiv.org/pdf/2406.06078
 
 
 === Dualer Vektorraum
@@ -928,6 +933,9 @@ http://swc.math.arizona.edu/aws/2006/06StillmanNotes.pdf
 * Wie man Homologie von Komplexen berechnen kann:
   https://jeremykun.com/2013/04/10/computing-homology/
 
+* https://math.mit.edu/~rstan/transparencies/snf.pdf
+  Anwendungen der SNF in der Kombinatorik
+
 
 === Eigenwerte und Eigenvektoren
 
@@ -1067,6 +1075,10 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
 
   Etwas kurioserweise impliziert ein konstruktiver Beweis von "M[F^(-1)] ist
   endlich erzeugt" eben schon, dass M endlich erzeugt ist.
+
+* Sei (x_1,...,x_n) eine linear unabhängige Familie in einem A-Modul und
+  (y_1,...,y_m) ein EZS. Dann finden wir eine injektive lineare Abbildung
+  A^n --> A^m.
 
 
 === Kohärente Moduln
@@ -1467,6 +1479,10 @@ Sei M eine quadratische Matrix über einem Ring.
 * Sei phi : A --> B ein injektiver Ringhomo. Sei x aus A.
   Sei phi(x) invertierbar und sei phi(x)^(-1) ganz über A.
   Dann ist x auch invertierbar in A.
+
+  [ Aus einer Ganzheitsgleichung für phi(x)^(-1) kann ich durch
+  Durchmultiplizieren mit der Toppotenz sehen, dass ein gewisses Polynom in x
+  invers zu x ist. ]
 
   Also: Injektive ganze Ringhomos sind lokal (reflektieren Invertierbarkeit).
 
@@ -2778,6 +2794,35 @@ http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/artinschreier.pdf
 Besitze ein Körper F einen algebraischen Abschluss C, der endlich über F ist.
 Dann "verhält sich F wie die reellen Zahlen". Insbesondere ist char F = 0 und
 C = F(i).
+
+
+=== Algebraischer Abschluss
+
+* Schicke Möglichkeit, F_q zu konstruieren: Einen Körper bauen, in dem X^q - X
+  zerfällt, und dann darin die Nullstellenmenge dieses Polynoms ausschneiden.
+  Das Polynom ist separabel, die Nullstellenmenge wird also Bishop-endlich
+  der Größe q sein.
+
+* Schicke Möglichkeit, einen algebraischen Abschluss eines Körpers K zu
+  beschaffen: Zunächst K[X_0,...]/(...) betrachten, das Tensorprodukt aller
+  Zerfällungsalgebren aller normierten Polynome über K. Das Ideal ist echt,
+  denn wenn 1 ∈ (...), dann auch schon bezüglich einer endlichen Anzahl von
+  Polynomen, dafür haben wir aber die Kronecker-Konstruktion. Somit in einem
+  maximalen Ideal enthalten.
+
+  Dieses trifft "knifflige Entscheidungen", wie etwa: Seien X_0, X_1
+  Nullstellen von T² + 1 und Y_0, Y_1, Y_2 Nullstellen von T³ + T.
+  Dann sollte eine der Y_i gleich 0 sein und die anderen beiden gleich den X_j.
+  Das maximale Ideal trifft diese Entscheidungen.
+
+  Konstruktiv müssen wir diese Konstruktion ω oft wiederholen, klassisch ist
+  der so erhaltene Körper schon algebraisch abgeschlossen. (Siehe reifying
+  Paper mit Peter.)
+
+  Siehe https://kconrad.math.uconn.edu/blurbs/galoistheory/algclosureshorter.pdf.
+  In https://kconrad.math.uconn.edu/blurbs/galoistheory/algclosure.pdf wird
+  dagegen jedem Polynom nur eine synthetische Nullstelle spendiert. Damit wird
+  der Nachweis deutlich komplizierter.
 
 
 === Morita-Äquivalenz

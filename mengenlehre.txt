@@ -675,6 +675,15 @@ ist, besitzen a und p eine gemeinsame Verfeinerung. Also liegt a in R.
 * https://jdh.hamkins.org/philosophy-of-set-theory-fall-2011/
 
 
+=== Resurrection property
+
+https://jdh.hamkins.org/wp-content/uploads/Slides-Infinitary-universal-algorithm-Spain-2024-Hamkins.pdf#page=130
+
+Whatever is true in some inner model can become true again in an end-extension,
+even a pointwise definable end-extension. e.g. Inner models of large cardinals
+resurrected in end-extensions.
+
+
 === Nächste Schritte
 
 * Wie sieht die kumulative Hierarchie in IZF aus? Siehe Lubarskys Artikel zu V = L

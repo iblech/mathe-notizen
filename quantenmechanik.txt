@@ -96,6 +96,8 @@ quantum mechanics in his papers)."
 
 http://physics.stackexchange.com/a/17225/103105
 
+Keywords: Entropie, Wärmepumpe, Wärmetausch, Boxen
+
 
 === Welle/Teilchen-Dualismus auf makroskopischer Ebene
 
@@ -262,6 +264,17 @@ Wouldn’t it be lovely to think so?"
 * https://gwern.net/review/quantum-thief
   Es gibt keine überlichtschnelle Kommunikation, wohl aber eine
   überlichtschnelle *Koordination*!
+
+
+=== QED
+
+* https://link.springer.com/article/10.1140/epjh/s13129-024-00067-6
+  The development of computational methods for Feynman diagrams
+  Eq. 3.5
+
+  Quantenelektrodynamik braucht, dass die Formel für den Flächeninhalt der
+  Oberfläche einer D-dimensionalen Kugel für reelle Zahlen D verallgemeinert
+  werden kann.
 
 
 === Literatur

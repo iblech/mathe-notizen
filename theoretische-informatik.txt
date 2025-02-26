@@ -168,6 +168,15 @@ https://mathoverflow.net/a/277515/31233
   https://books.google.de/books?id=j6f9CAAAQBAJ&pg=PA70&lpg=PA70
   (Beeson, Foundations of Constructive Mathematics: Metamathematical Studies)
 
+* Der Kleene-Baum liefert auch eine Überdeckung von 2^N durch Basisoffene, die
+  keine endliche Teilüberdeckung hat:
+
+      2^N = bigcup_{xs ∈ K} D(xs)
+
+  Jede Folge führt aus K hinaus, daher handelt es sich (punktweise, nicht
+  formal) um eine Überdeckung. Aber wenn endlich viele Überdeckungen ausreichen
+  würden, dann wäre K endlich.
+
 * In PCF ist eine Funktion
 
       max :: (2^N --> N) --> N

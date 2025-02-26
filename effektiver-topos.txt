@@ -503,6 +503,11 @@ Dann haben wir:
 https://arxiv.org/pdf/1806.08747.pdf
 
 
+=== ITTMs können durch ODEs simuliert werden
+
+https://www.math.univ-toulouse.fr/~msablik/SlideConfAlgorithmicDynamicalSystem/Ouazzani_Toulouse.pdf
+
+
 === Verschachtelter effektiver Topos
 
 * Für jede Formel α von HA^ω (auf jeden Fall HA) gilt:

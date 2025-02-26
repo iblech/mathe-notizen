@@ -731,3 +731,11 @@ Siehe den Absatz direkt vor Abschnitt 7 des zitierten Aufsatzes.
 
 * Wie geht Hindman's Theorem konstruktiv? Wenn ich die Theoreme nicht
   verwechsele, wurde mir diese Aufgabe von Christian Sattler gestellt.
+
+
+=== Creating subject
+
+* Douglas Bridges and Fred Richman, Varieties of Constructive Mathematics, S. 163f.
+
+* Die Prägarbensemantik formalisiert (manche Vorstellungen) über das creating
+  subject
