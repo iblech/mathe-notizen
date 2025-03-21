@@ -43,6 +43,15 @@ Injektive nützlich.
 * Idee: Möchte Disjunktion "es existiert ein Lift oder eine Klasse in Ext^1"
   haben.
 
+* Gelernt auf Logique à Paris 2025 von Chris Lambie-Hanson: Es gibt wohl ein
+  Forcing, das Dinge injektiv machen kann. Muss Details nachschauen. Aber habe
+  folgendes selbst überlegt:
+
+  Sei I eine Gruppe, die die Baer-Bedingung erfüllt. Sei A → B eine Injektion
+  und sei eine Abbildung A → I gegeben. Sei L das Forcing-Poset der partiellen
+  Fortsetzungen. Dann gibt es in der Forcing-Erweiterung eine Erweiterung auf
+  ganz B.
+
 
 === Baer gut und konstruktiv?
 

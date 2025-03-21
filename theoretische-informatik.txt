@@ -229,8 +229,11 @@ https://mathoverflow.net/a/277515/31233
   Doppelnegation definierte 0/1-Folgen Präfixe mit P haben. Und das tun sie
   nicht unbedingt.
 
-  Hm, welches Beispiel hatte ich im Sinn? Weiß nicht mehr. Aber ich kann
-  zeigen:
+  Hm, welches Beispiel hatte ich im Sinn? Weiß nicht mehr. [Update: Zum
+  Beispiel die unendliche partiell definierte 0/1-Folge, die in jedem Schritt
+  prüft, ob das linke oder rechte Kind im Kleene-Baum unendlich viele Nodes
+  unter sich hat und entsprechend abbiegt, im Zweifel nach links, um DC zu
+  vermeiden.] Aber ich kann zeigen:
 
   Wenn P | xs, so gibt es nur endlich viele endliche Pfade im Kleene-Baum, die
   xs fortsetzen. Denn wenn P(xs), so sind es 0. Und im Induktionsschritt gibt

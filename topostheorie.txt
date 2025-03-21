@@ -1687,6 +1687,36 @@ gönnen? Wann ist eine Menge von conditions dicht?
   Hier wird zumindest ein nichttrivialer Ultrafilter forciert.
 
 
+=== Filterquotientkonstruktion
+
+* Sei E ein Topos und F ein Filter von Offenen (also Unterobjekten von 1) im
+  Sinne von:
+
+  - F ist ↑-abgeschlossen
+  - F ist ↓-gerichtet
+  - F enthält nicht ⊥
+  - und sollte nicht was für Joins gefordert werden?
+  - verstehe die Definition in Moerdijk–MacLane (Seite 257) nicht ganz.
+
+  Dann können wir E/F wie folgt definieren. Die Objekte sind dieselben wie die
+  von E. Ein Morphismus X → Y wird repräsentiert durch ein E-Morphismus
+  X x U → Y x U mit der erwarteten Äquivalenzrelation.
+
+  Das ist verwandt, aber NICHT dasselbe wie bei Halmbildung. Dort kann jeder
+  Keim auf einem anderen Offenen definiert sein.
+
+* Ich denke, dass Folgendes gilt:
+
+      E/F |== φ  gdw.  [[φ]] ∈ F  gdw.  ∃U ∈ F. U |== φ
+
+* Ebenso denke ich: Wenn für jedes Offene U von E gilt, dass es ein Komplement V hat,
+  und dass eines dieser Offenen in F liegt, dann ist E/F zweiwertig.
+
+* Zhen Lin warnt, dass E/F im Allgemeinen nicht wieder ein Grothendieck-Topos
+  ist: https://math.stackexchange.com/a/454711/61604 Nur, wenn der Filter
+  principal war.
+
+
 === Topologischer Topos
 
 * https://grossack.site/2024/07/03/topological-topos-3-bonus-axioms
