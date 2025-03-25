@@ -135,6 +135,13 @@ Idempotenzlemma.)
 * Nun sollte E[f] --> E surjektiv sein, damit es erlaubt ist,
   geometrische Implikationen in E "oBdA in E[f] zu beweisen".
 
+* Update: Viel direkter so.
+
+  Für alle normierten Polynome f über einem Körper K ist es nicht nicht der
+  Fall, dass es eine Ringerweiterung von K gibt, in der f eine Nullstelle hat,
+  und die in folgendem Sinn nahezu ein Körper ist: Für jedes Element ist es
+  nicht nicht der Fall, dass es Null oder invertierbar ist.
+
 
 === Zerfällungsalgebra
 
