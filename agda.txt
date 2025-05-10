@@ -62,6 +62,11 @@
   bin auf die Idee gekommen durch den letzten Absatz auf Seite 34 von
   Thierry/Persson zu Gröbnerbasen.
 
+* https://en.wikipedia.org/wiki/Burnside_problem im Fall von n = 2:
+  Gruppe ist abelsch, damit schnell fertig.
+
+* https://entropia.de/images/c/cf/AgdaTalk.pdf
+
 
 === Philosophie
 

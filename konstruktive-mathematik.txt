@@ -739,3 +739,20 @@ Siehe den Absatz direkt vor Abschnitt 7 des zitierten Aufsatzes.
 
 * Die Prägarbensemantik formalisiert (manche Vorstellungen) über das creating
   subject
+
+
+=== Automatische Stetigkeit
+
+* https://martinescardo.github.io/continuity-false/continuity-false.html
+  Stetigkeit aller Funktionen (ℕ → ℕ) → ℕ, mit Σ statt ∃ formuliert,
+  impliziert 0 = 1.
+
+  Die unstetige Gegenbeispielsfunktion f, die dort konstruiert wird,
+  ist in anderen Kontexten (z.B. wenn M nicht extensional ist) möglicherweise
+  nicht extensional. Zum Beispiel im effektiven Topos nicht.
+
+* Für Funktionen (ℕ → 2) → ℕ gibt es keinen Unterschied, da wir den
+  kleinsten Stetigkeitsmodul finden können, wenn wir schon einen haben.
+
+* Verallgemeinert von System T:
+  https://guilhem.jaber.fr/ComputationalInterpretationForcingTypeTheory.pdf

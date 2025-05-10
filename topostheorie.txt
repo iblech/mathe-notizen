@@ -1272,6 +1272,41 @@ eine Zerfällung besitzt, nämlich dem Topos der Zerfällungen von f.
   Zorn in der Metatheorie gilt) Zorn gilt, also AC.
 
 
+=== Grothendieck-Topos mit AC, obwohl es nicht in der Metatheorie gilt
+
+* So ein Topos kann jedenfalls keinen Punkt haben, sonst folgt AC in der
+  Metatheorie. Außerdem darf er nicht die Eigenschaft haben, dass jede
+  Überdeckung vom terminalen Objekt funktional-bewohnt ist.
+
+* Ist nur eine einzelne Surjektion A ↠ B gegeben, so kann ich aber einen Topos
+  angeben, in dem diese zerfällt.
+
+  Situs:
+  - Objekte: endliche Listen von Elementen aus A x B
+  - Überdeckungen:
+    - Totalität herstellen
+    - Rechtseindeutigkeit herstellen
+    - Inversizität herstellen
+
+  Wenn A diskret ist, können wir auch gleich nur Listen verwenden, in denen die
+  A-Komponenten paarweise verschieden sind. Und auch nur solche, in denen die
+  B-Komponenten zu den A-Komponenten passen (via der Surjektion). Dann ist jede
+  Überdeckung bewohnt.
+
+* Es gibt die "universelle Surjektion" X ↠ Y, mit
+
+      X = { (A, B, f : A ↠ B Surjektion, x ∈ A) }  und
+      Y = { (A, B, f : A ↠ B Surjektion, y ∈ B) }.
+
+  Wenn wir diese spalten können, dann jede.
+
+  So ist es also möglich, einen Topos zu finden, in dem alle Surjektionen des
+  Basistopos zerfallen. Wenn LEM in der Metatheorie gilt, ist dieser overt.
+
+  Aber das heißt natürlich noch nicht, dass auch alle Surjektionen von ihm
+  selbst zerfallen.
+
+
 === Nächste Schritte
 
 * Sind die Garben bezüglich der kanonischen Topologie auf einem Topos E
