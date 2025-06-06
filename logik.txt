@@ -1147,6 +1147,11 @@ https://staff.fnwi.uva.nl/b.vandenberg3/papers/note_on_haomega.pdf
   Mengenlehren
 
 
+=== Reverse Mathematik
+
+* https://events.math.unipd.it/aila2017/sites/default/files/MARCONE.pdf
+
+
 === Higher-order reverse mathematics
 
 * Sam Sanders.
@@ -1327,6 +1332,14 @@ Gödel = Halteproblem = Conway
 
 * https://arxiv.org/pdf/2405.09275 Feferman-Resultat, dass man durch geeignete
   Reflektionsaxiome jede beliebige wahre Aussage beweisbar machen kann.
+
+  Auch hier: https://arxiv.org/pdf/2411.07777 "Iterating reflection over
+  intuitionistic arithmetic"
+
+
+=== Soundness von Q
+
+* HA zeigt, dass Q sound ist: https://arxiv.org/pdf/2411.07777, Thm. 2.20
 
 
 === ACA_0

@@ -618,6 +618,64 @@ Ist A mit der neuen Verknüpfung eine (nicht-deterministische) PCA? Die LEM
 realisiert?
 
 
+=== "In the limit" PCA?
+
+Sei A eine PCA. Dann definieren wir folgende neue Verknüpfung:
+
+- e * x ↓ genau dann, wenn ex↓ und exn↓ für alle n ∈ ℕ und
+  die Folge (exn)_n stabilisiert. In diesem Fall ist ihr Grenzwert der Wert von
+  e * x.
+
+Ist das wieder eine PCA?
+
+
+=== Lifschitz
+
+- Der Lifschitz-Topos ist wohl der größte Untertopos von Eff, in dem
+  für jede Maschine e und jede Schranke N gilt:
+
+      Sollte nichtnicht eine der Berechnungen e * x für x ≤ N divergieren,
+      dann divergiert eine solche tatsächlich.
+
+  Außerdem ist er der größte Untertopos, in dem für alle totale Turingmaschinen
+  E und F gilt:
+
+      Wenn für alle x,y gilt, dass Ex = 0 ∨ Fy = 0,
+      so ist Ex = 0 für alle x oder Fy = 0 für alle y.
+
+- LLPO für jede Domain ⇒
+  LLPO für Subsingletons ⇒
+  DM ⇒
+  DM für jede Domain
+
+- DM ⇒
+  LLPO für jede Domain ⇒
+  LLPO für ℕ
+
+- LLPO für ℕ:
+
+  Seien f, g : ℕ → 2.
+  Wenn ¬(f hat Nullstelle und g hat Nullstelle),
+  so hat f keine Nullstelle oder g hat keine Nullstelle.
+
+  Seien f, g : ℕ → 2.
+  Wenn ¬¬(f hat keine Nullstelle oder g hat keine Nullstelle),
+  so hat f keine Nullstelle oder g hat keine Nullstelle.
+
+  Anwendung davon: Seien F, G Turingmaschinen.
+  Wenn ¬(F terminiert und G terminiert),
+  so terminiert F nicht oder G nicht.
+
+- https://webspace.science.uu.nl/~ooste110/realizability/effsubtoposes.pdf
+  https://resolve.cambridge.org/core/journals/journal-of-symbolic-logic/article/abs/two-remarks-on-the-lifschitz-realizability-topos/AFF7F462CE20643F3C57003A89ECAAA1
+
+- Sei F die Maschine, die nach einer endgültigen Bestätigung des provisorisch
+  verkünderten Indexpaars (i,j) (wird anfangs (0,1) sein) sucht. Das wäre
+
+  Wenn E_0 terminiert, so wird sich das provisorisch verkündete Indexpaar von
+  (0,1) auf (2,3) ändern. ...
+
+
 === Quellen
 
 * http://math.andrej.com/data/c2c.pdf

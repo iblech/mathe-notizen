@@ -6,3 +6,6 @@
 
 * The Cryptographic Doom Principle:
   http://www.thoughtcrime.org/blog/the-cryptographic-doom-principle/
+
+* Wieso elliptische Kurven und wieso gibt es eigentlich wenig Alternativen:
+  https://keymaterial.net/2025/05/23/there-is-no-diffie-hellman-but-elliptic-curve-diffie-hellman/

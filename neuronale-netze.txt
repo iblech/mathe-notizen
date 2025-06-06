@@ -37,3 +37,4 @@ http://cs231n.github.io/neural-networks-1/#actfun
 * https://www.sscardapane.it/alice-book
 * Schöne Visualisierung: https://github.com/lilipads/gradient_descent_viz
 * Llama3 https://github.com/naklecha/llama3-from-scratch
+* https://www.gilesthomas.com/2024/12/llm-from-scratch-1

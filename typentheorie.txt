@@ -137,3 +137,8 @@ https://proofassistants.stackexchange.com/questions/1201/proof-theoretic-compari
 === Sinn und Unsinn der η-Regeln (eta-Regeln)
 
 https://www.wellesu.com/10.1017/bsl.2019.21
+
+
+=== Neue Möglichkeit, initiale Algebren zu bauen, ohne transfinite Iteration
+
+https://arxiv.org/pdf/2405.09504

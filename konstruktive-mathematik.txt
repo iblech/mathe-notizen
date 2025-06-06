@@ -433,6 +433,11 @@ http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1381-10.pdf
   Good_loc || σ ⇒ Good_loc | σ: Da Good_loc lokal ist.
   Good_loc || σ ⇐ Good_loc | σ: trivial.
 
+  Update: In dichte Lücken habe ich behauptet, dass A~ genau dann
+  ind-noethersch ist, wenn A ind-noethersch ist. Ich erinnere mich noch, dass
+  man im Beweis ausgenutzt hat, dass wir Stabilisierung statt nur Stockung
+  bekommen. Wie ging das genau?
+
 * Warnung: ind-noethersch zu sein ist keine geometrische Formel wegen der
   unendlichen Verzweigung. Verhält sich in Teilen dennoch so ähnlich (in
   klassischer Metatheorie intern wahr genau dann wenn halmweise wahr).
@@ -452,7 +457,7 @@ http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1381-10.pdf
 
 === Dickson & Co
 
-* Wenn jede Folge spezifierte guten Paaren hat, ist es ganz leicht, die
+* Wenn jede Folge spezifierte gute Paare hat, ist es ganz leicht, die
   Existenz von guten Tripeln zu zeigen. Betrachte einfach die Unterfolge der
   hinteren Komponenten guter Paare.
 
