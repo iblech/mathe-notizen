@@ -142,3 +142,20 @@ https://www.wellesu.com/10.1017/bsl.2019.21
 === Neue Möglichkeit, initiale Algebren zu bauen, ohne transfinite Iteration
 
 https://arxiv.org/pdf/2405.09504
+
+
+=== Normalisierung und decidability
+
+* Thierry: https://arxiv.org/pdf/2103.04287
+  via Artin-Gluing
+
+
+=== Typentheorie vs. traditionelle Fundierung
+
+* Andrej in https://mathoverflow.net/questions/332918/what-do-we-gain-with-higher-order-logics:
+  "For large scale projects the overriding concern becomes proof engineering:
+  how to organize large libraries of definitions and theorems, how to search
+  them, how to write proofs so that they are robust with respect to small
+  changes, etc. Traditional logic has almost nothing to say about these topics,
+  and consequently does not influence much the choice of formalism used in
+  proof assistants."

@@ -438,6 +438,13 @@ http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1381-10.pdf
   man im Beweis ausgenutzt hat, dass wir Stabilisierung statt nur Stockung
   bekommen. Wie ging das genau?
 
+  Antwort: Zeige zunächst, dass wenn alle A[f_i⁻¹] jeweils induktiv noethersch
+  sind, wobei die (f_i)_i eine Überdeckung der Eins bilden, dass dann A
+  induktiv noethersch ist. Das ist nicht trivial, sondern nutzt aus, dass wir
+  oBdA LEM zur Verfügung haben, womit wir Stabilisierung statt nur Stockung
+  hinbekommen und so zum Maximum der Stabilisierungsindizes übergehen können.
+  Dann direkt an einem Zeugen von Good || [] entlang hangeln.
+
 * Warnung: ind-noethersch zu sein ist keine geometrische Formel wegen der
   unendlichen Verzweigung. Verhält sich in Teilen dennoch so ähnlich (in
   klassischer Metatheorie intern wahr genau dann wenn halmweise wahr).
@@ -460,6 +467,53 @@ http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1381-10.pdf
 * Wenn jede Folge spezifierte gute Paare hat, ist es ganz leicht, die
   Existenz von guten Tripeln zu zeigen. Betrachte einfach die Unterfolge der
   hinteren Komponenten guter Paare.
+
+* Cholak–Marcone–Solomon, Reverse mathematics and the equivalence of
+  definitions for well and better quasi-orders, Theorem 4.3 liefert
+  (vereinfacht und angepasst) folgendes:
+
+  - Two relations ≤₀, ≤₁ on ℕ
+
+  such that
+
+  - these relations are decidable (and moreover, by a Turing machine);
+
+  - these relations are reflexive and transitive;
+
+  - for both relations, every computable function f : ℕ → ℕ is good in
+    that there exist indices i < j such that f(i) ≤ f(j) (and moreover,
+    those indices i and j can be computed by a Turing machine with a time
+    bound (no unbounded search as with Markov's principle needed));
+
+  - for every pair (a, b) of distinct natural numbers, if a ≤₀ b, then
+    ¬(a ≤₁ b), and vice versa;
+
+  - as a consequence, the function f(n) = (n,n) is not good for the
+    product ordering.
+
+  In particular, this construction yields a counterexample to naive Dickson
+  in both Eff and REC. The construction uses the finite perjury method and
+  is hence a bit involved---without Gabriele's encouragement, I would not
+  have dared to study this.
+
+* Es stimmt NICHT, anders als zwischenzeitlich gedacht, dass in Eff
+  naives Dickson für entscheidbare (oder semi-entscheidbare) wqos gelten würde.
+
+  Die Idee war, für jede Zahl a verzahnt folgende Strategie umzusetzen:
+
+      Finde (immer mit unbeschränkter Suche) beginnend mit f(a) eine
+      unendliche aufsteigende Teilfolge f(a) ≤ f(a₁) ≤ f(a₂) ≤ ...
+      Suche dann nach einem Paar g(a_i) ≤ g(a_j).
+
+  Bei jeder dieser Strategien können Probleme auftreten, aber so war die Idee,
+  schlussendlich wird eine erfolgreich sein und ≤-Behauptungen lassen sich
+  aufgrund der Semientscheidbarkeit ja verifizieren.
+
+  Aber: Es stimmt wohl nicht, dass eine dieser Strategien funktionieren muss.
+  Wenn die Menge der traurigen Indizes, { a ∈ ℕ | ¬∃b > a. f(a) ≤ f(b) },
+  unendlich groß ist, heißt das noch nicht, dass es eine berechenbare
+  Folge aus traurigen Indizes gibt, die den gesuchten Widerspruch zur Wellness
+  herstellen könnte.
 
 
 === Analysis
@@ -761,3 +815,26 @@ Siehe den Absatz direkt vor Abschnitt 7 des zitierten Aufsatzes.
 
 * Verallgemeinert von System T:
   https://guilhem.jaber.fr/ComputationalInterpretationForcingTypeTheory.pdf
+
+
+=== Konstruktive Mathematik als Logik des Geschichtenerzählens
+
+* von Thorsten auf TYPES 2025 gelernt
+
+* Wenn in einer Geschichte "P ⇒ Q" angegeben wird ("wenn sie über den Hügel
+  kommen, haben wir verloren"), dann gilt das nicht nur jetzt, sondern auch
+  später im weiteren Verlauf der Geschichte.
+
+* Wenn "P ∨ Q" angegeben wird, wird noch vor Ende der Geschichte entweder P
+  oder Q passieren.
+
+
+=== Auswahlaxiom und Trunkierung
+
+Es gibt zwei Extreme (von Thorsten auf TYPES 2025 gelernt):
+
+1. Wie in klassischer Mathematik ständig abschneiden. Dann braucht man AC, um
+   verlorene Information wiederherzustellen.
+
+2. Niemals abschneiden, dann bleibt alle Information immer erhalten und AC ist
+   unnötig.
