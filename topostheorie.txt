@@ -1762,6 +1762,11 @@ gönnen? Wann ist eine Menge von conditions dicht?
 * Abschnitt 7 von https://www.cse.chalmers.se/~coquand/val1.pdf
 
 
+=== Coverages & Co in großem Detail
+
+https://www.arxiv.org/pdf/2503.20664
+
+
 === Nächste Schritte
 
 * von Peter Arndt empfohlen: John Bell, Toposes and local set theories.

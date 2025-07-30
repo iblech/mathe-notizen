@@ -1478,12 +1478,26 @@ Das erinnert mich an Voevodskys letzten Vortrag, in dem er eine Unterscheidung
 zwischen Beweisen (in möglicherweise inkonsistenten Systemen) und tatsächlich
 belastbaren Zertifikaten vorschlug.
 
+Update: Auf der FOM-Liste gab es auch eine Diskussion zu Voevodsky. Und
+speziell folgenden Beitrag: Nimm CIC oder eine andere Typentheorie und entferne
+den termination checker. Das ist dann auch ein inkonsistentes aber dennoch
+nützliches formales System. Man kann ein Programm laufen lassen, und wenn es
+terminieren sollte, hat man einen Zeugen der gesuchten Art.
+
 
 === Friedman's Grand Conjecture
 
 * Widerlegt durch Karims Resultat?
   https://www.cse.chalmers.se/~coquand/centrem1.pdf#page=9 Schranken sind nicht
   primitiv rekursiv.
+
+
+=== Kripkes Beweis von Gödels Unvollständigkeitstheorem
+
+https://projecteuclid.org/journals/notre-dame-journal-of-formal-logic/volume-41/issue-1/Nonstandard-Models-and-Kripkes-Proof-of-the-G%c3%b6del-Theorem/10.1305/ndjfl/1027953483.full
+
+via eine Nonstandard-Modell-Konstruktion
+
 
 
 === Nächste Schritte

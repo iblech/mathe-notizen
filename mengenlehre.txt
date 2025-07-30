@@ -684,6 +684,12 @@ even a pointwise definable end-extension. e.g. Inner models of large cardinals
 resurrected in end-extensions.
 
 
+=== Pro V = L
+
+* FOM-Post, Message-Id: <E63AE4E3-4011-4574-ABA3-A04E64758772@aol.com>
+* Jensen, Ockham's Razor
+
+
 === Nächste Schritte
 
 * Wie sieht die kumulative Hierarchie in IZF aus? Siehe Lubarskys Artikel zu V = L

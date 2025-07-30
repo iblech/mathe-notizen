@@ -30,6 +30,26 @@ http://cs231n.github.io/neural-networks-1/#actfun
 * https://arxiv.org/abs/1806.07366
 
 
+=== Reasoning models don't always say what they think
+
+https://www.anthropic.com/research/reasoning-models-dont-say-think
+
+
+=== KI-Erfolge in Mathematik
+
+https://news.ycombinator.com/item?id=44613840
+OpenAI, IMO 2025
+
+
+=== Gemischtes
+
+* Alloys: https://xbow.com/blog/alloy-agents/
+
+* Embedding: https://huggingface.co/spaces/hesamation/primer-llm-embedding?section=word2vec
+
+* Wie denken multilinguale LLMs? https://arxiv.org/pdf/2408.10811
+
+
 === Bücher
 
 * klar, Nielsen
@@ -38,3 +58,4 @@ http://cs231n.github.io/neural-networks-1/#actfun
 * Schöne Visualisierung: https://github.com/lilipads/gradient_descent_viz
 * Llama3 https://github.com/naklecha/llama3-from-scratch
 * https://www.gilesthomas.com/2024/12/llm-from-scratch-1
+* https://arxiv.org/pdf/2404.17625

@@ -159,3 +159,13 @@ https://arxiv.org/pdf/2405.09504
   changes, etc. Traditional logic has almost nothing to say about these topics,
   and consequently does not influence much the choice of formalism used in
   proof assistants."
+
+
+=== Isomorphieinvarianz ohne Univalenz
+
+https://arxiv.org/pdf/2211.07487
+
+
+=== Konsistenz und 0 ≠ 1 ohne Universen
+
+https://www.cse.chalmers.se/%7Esmith/JSLPeano.pdf

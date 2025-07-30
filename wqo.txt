@@ -1,0 +1,15 @@
+=== Gegenmodelle
+
+* Für Sh(X), X eine Örtlichkeit mit genügend Punkten, gilt:
+
+  Ist (E,R) halmweise wqo, so auch intern in Sh(X).
+
+  Die Umkehrung gilt, falls jede Folge ℕ → E_x zu einer Folge auf einer offenen
+  Umgebung von x liftet (also zum Beispiel wenn E lokal konstant ist).
+
+  Folglich muss ich nicht versuchen, ein Gegenbeispiel zu Dickson_∞ mit E lokal
+  konstant zu finden.
+
+* Außerdem muss ich es nicht für "sequentially finite" Mengen versuchen,
+  damit meine ich solche, wo jede Folge nur endlich viele Werte annimmt.
+  Also zum Beispiel { n : ℕ | |α| < 2^{-n} } auf Sh(ℝ).

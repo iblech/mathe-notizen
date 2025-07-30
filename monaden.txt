@@ -256,6 +256,12 @@ Monoide in der Kategorie der Spezies sind Operaden.
 https://qchu.wordpress.com/2015/11/05/a-monad-is-just-a-monoid-in-the-category-of-endofunctors-whats-the-problem/
 
 
+=== Algebraische Effekte
+
+* https://antelang.org/blog/why_effects/
+* Automatische Differentiation: https://effekt-lang.org/docs/casestudies/ad
+
+
 === Nächste Schritte
 
 * Verstehen, wieso die T-Algebren zum Potenzmengenfunktor die sind, die sie sind.
