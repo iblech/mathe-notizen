@@ -795,6 +795,42 @@ https://terathon.com/blog/poor-foundations-ga.html
 * 75.000 Personenstunden, um ein Funkmodem zu entwickeln
 
 
+=== Wahrscheinlichkeitsexperimente mit e
+
+* "Sekretärinnen-Problem"
+
+* Eigenen Namen ziehen
+
+* Gefangenen-Rätsel
+
+* Pick a uniformly random number in [0,1] and repeat until the sum of the
+  numbers picked is >1. You'll on average pick e≈2.718... numbers!
+
+
 === Mechanische Computer
 
 https://tennysontbardwell.com/blog/2025/04/30/mechanical-computing/index.html
+
+
+=== Konferenzvorträge
+
+* Practice
+* Maintain eye contact
+* Clearly define the target audience / check expectations / follow(?) the onion model
+* Enjoy!
+* Don't worry too much about the quality of your English
+* Embrace the opportunity to get new results by preparing the talk
+* Use a sufficiently large font size
+* Use 16:9 aspect ratio
+* At the end of the talk, first only thank for the attention and wait for the
+  applause to subdue before soliciting questions; else an awkward moment is
+  likely
+* Solicit interruptions / interaction
+* Use(?) a Memento-style story arc
+* If in doubt, check with the conference organizers
+* Chair duty:
+  - applause
+    - do not applaud when at the front, else you stopping will be a cue for the
+      audience to stop as well
+  - light / door / ventilation
+  - failback question
