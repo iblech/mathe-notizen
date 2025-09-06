@@ -834,3 +834,25 @@ https://tennysontbardwell.com/blog/2025/04/30/mechanical-computing/index.html
       audience to stop as well
   - light / door / ventilation
   - failback question
+
+
+=== Exponential smoothing
+
+https://lisyarus.github.io/blog/posts/exponential-smoothing.html
+
+
+=== Videoschnitt mit Emacs
+
+https://xenodium.com/emacs-as-your-video-trimming-tool
+
+
+=== Beweis vs. experimentelle Verifikation
+
+* sum_p 1/p divergiert so langsam, dass man vielleicht nie experimentell sehen
+  wird, dass diese Summe mehr als 4 ist.
+  https://kconrad.math.uconn.edu/math3240s20/handouts/infinitudeofprimes.pdf#page=5
+
+
+=== Simulation von Licht
+
+https://imadr.me/pbr/

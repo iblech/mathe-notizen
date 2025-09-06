@@ -28,6 +28,11 @@ http://en.wikipedia.org/wiki/Liouville%27s_theorem_(transcendence_theory))
 http://terrytao.wordpress.com/2014/07/07/the-subspace-theorem-approach-to-siegels-theorem-on-integral-points-on-curves-via-nonstandard-analysis/
 
 
+=== Approximation von irrationalen und rationalen Zahlen
+
+https://math.stackexchange.com/questions/62565/what-is-your-favorite-application-of-the-pigeonhole-principle
+
+
 === Kleiner Fermat/Euler
 
 * x^phi(m) = 1 mod m, gilt für (x, m) = (1).
