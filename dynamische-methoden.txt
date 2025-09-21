@@ -183,6 +183,14 @@ https://www.sciencedirect.com/science/article/pii/S0747717110000921
 Dynamic Galois Theory, Diaz-Toca, Lombardi
 
 
+=== D5
+
+* Die ursprüngliche D5-Methode scheint mir dasselbe zu sein wie die
+  Konstruktion des maximalen Ideals in der Lévy-Forcing-Erweiterung, aber mit
+  dem Twist, dass man die Maximalität/Körpereigenschaft nicht für g ∈ K[X],
+  sondern für gcd(g,f) verwendet.
+
+
 === Nächste Schritte
 
 * Coquands Bemerkung zu Zerfällungskörpern verstehen.

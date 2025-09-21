@@ -656,3 +656,13 @@ Schritte.
 
 * polynomial event semantics
   https://okmij.org/ftp/gengo/poly-event/PolyNeg-talk.pdf
+
+
+==== P vs. NP
+
+* Pierre-Maries Fantasie: Vielleicht ist klassisch P = NP beweisbar, aber
+  außerdem ist klassisch beweisbar, dass es keinen konstruktiven Beweis geben kann.
+
+  Der Levin-Algorithmus auf Wikipedia
+  (https://en.wikipedia.org/wiki/P_versus_NP_problem#Polynomial-time_algorithms)
+  steht dem nicht entgegen.

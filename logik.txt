@@ -1499,6 +1499,16 @@ https://projecteuclid.org/journals/notre-dame-journal-of-formal-logic/volume-41/
 via eine Nonstandard-Modell-Konstruktion
 
 
+=== Beweisbarkeitslogik
+
+* GL ⊢ φ gdw. für jede Interpretation, PA ⊢ φ*
+  (und statt PA kann auch jede andere Σ¹-sound Theorie, die genügend Arithmetik
+  mit totaler Exponentiation umfasst, verwendet werden).
+
+  Gelernt von Joost Joosten auf CIRM 2025, Referenz Solovay: Provability interpretations of modal logic
+
+* Kripke-Modelle sind nicht vollständig für GLPω, aber topologische Modelle schon.
+
 
 === Nächste Schritte
 
