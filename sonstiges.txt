@@ -866,3 +866,8 @@ https://acoup.blog/2025/09/12/collections-life-work-death-and-the-peasant-part-i
 === Sammlung physikalischer Experimente
 
 https://interactivetextbooks.tudelft.nl/showthephysics/intro.html
+
+
+=== Zufallszahlengeneratoren
+
+https://crates.io/crates/oorandom#a-brief-history-of-random-numbers

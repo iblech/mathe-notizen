@@ -661,8 +661,10 @@ enthält.
   inkonsistent. Andernfalls sehen wir, dass M nicht hält. Zudem zeigt S,
   dass S zeigt, dass M hält. (Hier benötigt man noch nicht sowas wie die
   HBL-Bedingungen!) Zusammen mit der Internalisierung der Erkenntnisse über
-  frühere Beweise folgt, dass S zeigt, dass M nicht hält. Also ist S
-  inkonsistent.
+  frühere Beweise folgt, dass S zeigt, dass M nicht hält (kann das IQ auch
+  schon?). Also ist S inkonsistent.
+
+* Mehr: https://math.stackexchange.com/questions/2486348/computability-viewpoint-of-godel-rossers-incompleteness-theorem
 
 
 === Verschachtelte formale Systeme

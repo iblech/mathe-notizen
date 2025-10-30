@@ -69,6 +69,13 @@ OpenAI, IMO 2025
   everything I know about developing software comes together"
   https://ampcode.com/how-i-use-amp
 
+* NanoChat, ein ChatGPT-Klon für Lehrzwecke:
+  https://nitter.net/karpathy/status/1977755427569111362
+
+* "The tokenizer must go": https://xcancel.com/karpathy/status/1980397031542989305
+
+* Introspection: https://transformer-circuits.pub/2025/introspection/index.html
+
 
 === Bücher
 
