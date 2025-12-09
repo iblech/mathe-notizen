@@ -149,3 +149,8 @@ favorite-number = 42
 - Bool, ℕ, id, neg, and, pred, twice, Empty, Weird
 - Dependent-Type-Notation für Funktionstypen
 - LessThan2, IsZero, Even, Odd
+
+
+=== Cool
+
+* https://github.com/quchen/articles/blob/master/loeb-moeb.md

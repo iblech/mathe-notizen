@@ -1512,6 +1512,14 @@ via eine Nonstandard-Modell-Konstruktion
 * Kripke-Modelle sind nicht vollständig für GLPω, aber topologische Modelle schon.
 
 
+=== Riemann Hypothesis
+
+* Lässt sich als Π⁰₁-Aussage formalisieren, siehe:
+
+  https://mathoverflow.net/questions/31846/is-the-riemann-hypothesis-equivalent-to-a-pi-1-sentence
+  https://mathoverflow.net/questions/504775/is-there-a-natural-topos-where-the-riemann-hypothesis-is-provable-or-disprovable/504798#504798
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?

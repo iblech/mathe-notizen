@@ -871,3 +871,15 @@ https://interactivetextbooks.tudelft.nl/showthephysics/intro.html
 === Zufallszahlengeneratoren
 
 https://crates.io/crates/oorandom#a-brief-history-of-random-numbers
+
+
+=== Reproducible builds
+
+* Beispiel wo der Quest nach reproducible builds eine fehlende Optimierung
+  aufgedeckt hat: https://qt-project.atlassian.net/browse/QTBUG-137440
+  "The underlying problem seems to be that qmlcachegen processes a lot of
+  generated input files and if cmake does not know about all of these, it will
+  happily run qmlcachegen earlier in the build process when only part of the
+  inputs are present, which results in smaller output, and no errors."
+
+* Slogan: software supply chain security
