@@ -883,3 +883,18 @@ https://crates.io/crates/oorandom#a-brief-history-of-random-numbers
   inputs are present, which results in smaller output, and no errors."
 
 * Slogan: software supply chain security
+
+
+=== MD5-Kollisionen & Co
+
+- https://stackchk.fail/blog/jxl_hashquine_writeup
+
+
+=== Video-Basics
+
+* https://gist.github.com/arch1t3cht/b5b9552633567fa7658deee5aec60453/
+
+
+=== Luftstromsimulation
+
+https://ciechanow.ski/airfoil/

@@ -1520,6 +1520,13 @@ via eine Nonstandard-Modell-Konstruktion
   https://mathoverflow.net/questions/504775/is-there-a-natural-topos-where-the-riemann-hypothesis-is-provable-or-disprovable/504798#504798
 
 
+=== i und -i in den komplexen Zahlen
+
+https://www.infinitelymore.xyz/p/complex-numbers-essential-structure
+
+Es gibt ein Modell von ZFC, in dem i und -i ununterscheidbar sind.
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?

@@ -1767,6 +1767,11 @@ gönnen? Wann ist eine Menge von conditions dicht?
 https://www.arxiv.org/pdf/2503.20664
 
 
+=== Topos Theory with Early Internal Language
+
+https://dschepler.github.io/ttweil/ttweil.pdf
+
+
 === Nächste Schritte
 
 * von Peter Arndt empfohlen: John Bell, Toposes and local set theories.

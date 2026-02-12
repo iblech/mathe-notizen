@@ -76,6 +76,16 @@ OpenAI, IMO 2025
 
 * Introspection: https://transformer-circuits.pub/2025/introspection/index.html
 
+* https://media.ccc.de/v/39c3-breaking-bots-cheating-at-blue-team-ctfs-with-ai-speed-runs
+
+* From Zero to Hero: https://news.ycombinator.com/item?id=46485090
+
+* Fundamental LLM phenomena (ICL, repetition, serial position biases, consequences of RL-based reasoning etc)
+  https://news.ycombinator.com/item?id=46641064
+
+* Beispiel für langes Reasoning bei einer Mathe-Frage:
+  https://www.kimi.com/share/19bcfe2e-d9a2-81fe-8000-00002163c26c
+
 
 === Bücher
 
