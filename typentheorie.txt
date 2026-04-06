@@ -149,6 +149,8 @@ https://arxiv.org/pdf/2405.09504
 * Thierry: https://arxiv.org/pdf/2103.04287
   via Artin-Gluing
 
+* https://mpri-prfa.github.io/files/project25.pdf
+
 
 === Typentheorie vs. traditionelle Fundierung
 

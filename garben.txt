@@ -105,9 +105,27 @@
   mit alpha^{-1}(K - y_0) <= { x }. Damit lässt sich zeigen, dass
   K <= { y_0 + alpha(x) }.
 
+  - Functionally flabby impliziert strongly flabby, nicht?
+
+  - Wenn F und G strongly flabby sind, so auch H (für offene kompakte
+    Teilmengen): Sei s in H(U). Weil F strongly flabby ist, existiert ein
+    Urbild t in G(U). Weil G strongly flabby ist, lässt sich t zu einem
+    globalen Schnitt von G fortsetzen. Dann ist dessen Bild in H eine
+    Fortsetzung von s. (Achtung: nicht kanonisch, selbst wenn es
+    Fortsetzungsfunktionen für F und G geben sollte, oder? Da es einfach
+    Ambiguität im Urbild gibt. Unwahrscheinlich, dass die sich weghebt.)
+
+  - Wenn es stimmt, dass jede Modulgarbe in eine strongly flabby Modulgarbe
+    einbettet, wovon ich aktuell ausgehe, dann gibt es also für
+    Garbenkohomologie (auf topologischen Räumen oder Örtlichkeiten) konstruktiv
+    gar keine Probleme mehr, da wir einfach strongly flabby Garben für
+    Auflösungen verwenden können! Nicht prädikativ, aber auch nicht völlig
+    absurd.
+
 * Sei 0 --> M~ --> F --> G --> 0 eine exakte Sequenz von Modulgarben auf
   einem affinen Schema. Dann müsste man zeigen können, dass die Sequenz auf
   globalen Schnitten exakt ist, weil ja die Kohomologie von M~ verschwindet.
+  [ Sogar, wenn F und G nur Garben abelscher Gruppen sind, oder? ]
 
   Und das geht auch: Wie im Beweis von Lemma 2.4 auf
   https://math.berkeley.edu/~mhaiman/math256-fall13-spring14/cohomology-2_schemes.pdf

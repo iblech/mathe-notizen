@@ -86,6 +86,8 @@ OpenAI, IMO 2025
 * Beispiel für langes Reasoning bei einer Mathe-Frage:
   https://www.kimi.com/share/19bcfe2e-d9a2-81fe-8000-00002163c26c
 
+* GuppyLM: https://github.com/arman-bd/guppylm
+
 
 === Bücher
 

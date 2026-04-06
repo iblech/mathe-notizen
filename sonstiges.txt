@@ -898,3 +898,16 @@ https://crates.io/crates/oorandom#a-brief-history-of-random-numbers
 === Luftstromsimulation
 
 https://ciechanow.ski/airfoil/
+
+
+=== Fehlerhafte Beweise
+
+https://ftp.mcs.anl.gov/pub/qed/archive/209
+italienische Schule der Alggeo
+
+
+=== Epigrams on Programming
+
+https://iiif.library.cmu.edu/file/Simon_box00075_fld05959_bdl0003_doc0002/Simon_box00075_fld05959_bdl0003_doc0002.pdf
+
+Alan J. Perlis

@@ -1078,7 +1078,18 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
 
 * Sei (x_1,...,x_n) eine linear unabhängige Familie in einem A-Modul und
   (y_1,...,y_m) ein EZS. Dann finden wir eine injektive lineare Abbildung
-  A^n --> A^m.
+  A^n --> A^m. Also 1 = 0 in A oder n ≤ m.
+
+* Sei A ein Körper im Sinne von "≠0 ⇒ inv". Sei in einem A-Modul ein EZS
+  gegeben, das genauso kurz wie eine lu Familie ist. Dann ist dieses EZS selbst
+  schon lu:
+
+      Sei sum_i a_i x_i = 0.
+      Angenommen a_i ≠ 0.
+      Dann gibt es ein verkürztes EZS.
+      Nach dem Vorherigen geht das nicht.
+
+  Und die lu Familie ist auch ein EZS
 
 
 === Kohärente Moduln
