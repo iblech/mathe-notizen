@@ -247,6 +247,14 @@ Aber anschaulich ist: Falls q + eps < f auf offener dichter Teilmenge, dann
 auch q < f auf dem gesamten Raum.
 
 
+=== Generische Cauchy-Folge
+
+Für einen metrischen Raum X kann man die "generische Cauchy-Folge in X"
+betrachten, doch zu fordern, dass sie konvergiert, ist zu viel: Eine Konsequenz
+davon wäre, dass für jede Cauchy-Folge schon ein gewisses endliches initiales
+Segment den Grenzwert festlegen würde.
+
+
 === Literatur
 
 * Richman, Real numbers and other completions.
