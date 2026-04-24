@@ -676,6 +676,13 @@ Ist das wieder eine PCA?
   (0,1) auf (2,3) ändern. ...
 
 
+=== Choice
+
+* Ich habe ja immer gesagt, dass in Eff das abzählbare Auswahlaxiom gilt,
+  selbst dann, wenn es nicht in der Metatheorie gilt. Eventuell war das nicht
+  ganz richtig (sondern nur für Asm oder so?). Prüfen: Phoa, Example 4.5.19.
+
+
 === Quellen
 
 * http://math.andrej.com/data/c2c.pdf

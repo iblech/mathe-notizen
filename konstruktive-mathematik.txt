@@ -838,3 +838,9 @@ Es gibt zwei Extreme (von Thorsten auf TYPES 2025 gelernt):
 
 2. Niemals abschneiden, dann bleibt alle Information immer erhalten und AC ist
    unnötig.
+
+
+=== Integrationstheorie
+
+Integrationstheorie, Vervollständigung usw. geht konstruktiv alles wunderbar,
+wenn man Ishiharas Ansatz zu uniform spaces verwendet.
