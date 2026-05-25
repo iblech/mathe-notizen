@@ -2542,6 +2542,86 @@ Schön!
   Singleton-Familien aus.
 
 
+=== Flache Topologie
+
+* Sei die Zariski-Topologie für Zar(k) ergänzt um folgende Überdeckungen:
+
+  Zu einer Stage A und einer Relation a^T m = 0 in A (wobei a ∈ kⁿ, m ∈ Aⁿ),
+  die Familie (A → A[N_1,...,N_q]/(B N - M)), indiziert durch (q,B,b), wobei
+  a^T B = 0 in k.
+
+  Dann wird dadurch die Theorie der flachen lokalen k-Algebren klassifiziert.
+
+  (Sollte A flach sein, so wird jede dieser neuen Familien schon durch die
+  Identitätsfamilie (A → A) verfeinert, für flache A kann ich mir also die
+  neuen Familien auch sparen. Aber nicht-flache Stages können durchaus
+  nicht von der leeren Familie überdeckt sein. Das wird zum Beispiel für
+  all diejenigen Stages A der Fall sein, die zwar nicht flach sind, aber
+  einen Homo in eine flache lokale k-Algebra besitzen. Im Fall k = ℤ wäre
+  etwa die Stage A = ℤ/(2) x ℤ ein Beispiel, die nach ℚ abbilden kann.)
+
+* Sei ein Element von k, suggestiv genannt "2", regulär.
+
+  Dann wird nun jede Stage A mit 2 = 0 von der leeren Familie überdeckt.
+
+  Denn (für a := (2) und m := (1)) gilt a^T B = 0 nur wenn B = 0.
+  Also habe ich die überdeckende Familie (A → A[N_1,...,N_q]/(1)).
+  All diese Ringe werden aber wiederum von der leeren Familie
+  Zariski-überdeckt.
+
+* Sei zum Beispiel k = ℤ. Dann müsste jede Garbe E für die neue Topologie
+  auf ℤ/(2) ausgewertet einelementig sein. Aber y(k[X]) ist es nicht:
+  Gibt ja zwei Homos k[X] → ℤ/(2), f ↦ f(0) und f ↦ f(1).
+
+  Folglich ist die neue Topologie nicht subkanonisch.
+
+  Im Übrigen ist k[X] sogar flach über k!
+
+* Ein R-Modul M heiße flatly quasicoherent, wenn M ⊗ A → M^Sp(A) für alle
+  flachen e.p. R-Algebren ein Iso ist.
+
+  Dann habe ich vermutlich: Ein R-Modul E in Zar(k) ist genau dann flatly
+  quasicoherent, wenn E(A) ⊗_A B → E(B) für alle flachen A → B.
+
+* Kerne von Morphismen zwischen fqc Moduln sind wieder fqc.
+  Aus diesem Grund sind endlich adäquate Moduln fqc.
+
+* Abhängige Produkte von Bündeln von sqc Moduln über affinen Schemata sind
+  wieder sqc. (Für wqc stimmt es auch für beliebige Produkte.)
+
+* Sei E ein Bündel von sqc Moduln auf ℙⁿ. Dann ist H^n(E) auch wieder sqc.
+  Denn der Čech-Komplex besteht aus sqc Moduln und für H^n(E) muss ich nur den
+  Kokern nehmen, keinen Kern. Und alle H^i(E) sind zumindest fqc (als Kokerne
+  von Kernen).
+
+  Wenn R scheibenweise (auf jedem kleinen Zariski-Topos) kohärent ist, sollte
+  die Kohomologie von scheibenweise kohärenten Bündeln (zum Beispiel endlich
+  präsentierten) auch wieder scheibenweise kohärent (also wieder e.p.) sein.
+
+  Wenn R scheibenweise kohärent ist, gilt auch: endlich adäquat gdw.
+  scheibenweise kohärent gdw. scheibenweise e.p., oder?
+
+* "Scheibenweise φ" kann ich glaub ich so ausdrücken: Für jede e.p. k-Algebra A,
+  für jeden R-wertigen Punkt von A ⊗_k R, gilt φ unter der ∇-Übersetzung,
+  wobei ∇ erzwingt, dass die kanonische Abbildung A → R eine Lokalisierung ist.
+
+* Sei D → E → F → G → H eine exakte Sequenz von Moduln, sodass E, G und H
+  kohärent sind und D alle Endlichkeitseigenschaften von F erbt
+  (wie in https://math.stanford.edu/~vakil/0708-216/216class3536.pdf).
+
+  Dann ist F kohärent. Das sieht man so:
+
+  Bei F in eine kurze exakte Sequenz aufspaltend, sehen wir, dass F
+  gesandwiched wird von zwei endlich erzeugten Moduln (dem Bild von E → F
+  sowie dem Kern von G → H). Somit ist F endlich erzeugt.
+
+  Damit ist auch D endlich erzeugt.
+
+  Das Bild von E → F passt dann in die kurze exakte Sequenz D → E → im → 0
+  und somit ist das Bild kohärent ("kohärent modulo endlich erzeugt ist
+  kohärent").
+
+
 === Faserungen
 
 * Arbeit von Nico, offensichtlich

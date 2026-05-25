@@ -139,6 +139,11 @@ also c + 2^{-n0} <= c, Widerspruch.
   Allgemeiner in locally connected locales.
 
 
+=== Rationale Zahl kompatibel mit Vorgaben finden
+
+Siehe metrische-raeume.txt.
+
+
 === Literatur
 
 * http://math.fau.edu/Richman/docs/cuts-la.pdf

@@ -219,7 +219,7 @@ Für alle i, j gilt direkt nach Voraussetzung:
 
     a_i := q_i - 2^(-i) ≤ q_j + 2^(-j) =: b_j.
 
-Also ist das abgeschlossene Intervall [max_i a_i, min_i b_j] bewohnt.
+Also ist das abgeschlossene Intervall [max_i a_i, min_j b_j] bewohnt.
 Wenn wir nun für q irgendeine Zahl aus diesem Intervall nehmen, gilt
 für alle i wie gewünscht:
 

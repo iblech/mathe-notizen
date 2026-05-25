@@ -88,6 +88,8 @@ OpenAI, IMO 2025
 
 * GuppyLM: https://github.com/arman-bd/guppylm
 
+* There Will Be a Scientific Theory of Deep Learning: https://arxiv.org/abs/2604.21691
+
 
 === Bücher
 

@@ -87,6 +87,9 @@ Empfohlen von John Baez!
 
 * http://www.logicmatters.net/resources/pdfs/gwt/GWT2f.pdf
 
+* https://yelingyuan.fr/wp-content/uploads/2024/07/why_godel.pdf
+  Canonical incompleteness
+
 * http://jdh.hamkins.org/are-all-godel-sentences-equivalent/
   In einem gewissen Sinn sind alle Gödelsätze zueinander beweisbar äquivalent,
   da sie alle äquivalent sind zu Con(PA).

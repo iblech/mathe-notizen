@@ -407,6 +407,15 @@
 * https://link.springer.com/article/10.1007/s10485-018-9520-8
   Über welke Auflösungen von Stefan Schröer. Klingt spannend!
 
+* Kann denke ich eine Welkifizierung als QIT bauen genau wie in meinem
+  flabby-objects.pdf beschrieben. Aber statt negativ über alle
+  (Subsingleton-)Teilmengen zu quantifizieren, was nicht geht, in dem
+  Konstruktor über alle (Subsingleton-)Familien gehen.
+
+  Um zu sehen, wieso aus embed(x) = 0 schon x = 0 folgt:
+  Dazu die Welkifizierung einbetten in die Garbifizierung von M
+  bezüglich ((__ ⇒ x = 0) ⇒ x = 0).
+
 
 === Garbenhom
 

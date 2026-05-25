@@ -2044,6 +2044,30 @@ Chern-Klassen.
   und zudem äquivalent zu einer Unterkategorie (als Menge) von Funktoren Ring_S --> S.
 
 
+=== Serre-Dualität konstruktiv
+
+* Wenn A[X_1,...,X_n] kohärent ist, dann sollte auch die Strukturgarbe auf ℙⁿ
+  kohärent sein.
+
+* Wenn A kohärent ist, dann sollte die Kohomologie von kohärenten Modulgarben
+  auf dem ℙⁿ wieder kohärent sein, und zwar mit dem klassischen Beweis von
+  https://math.stanford.edu/~vakil/0708-216/216class3536.pdf:
+
+  1. Kohomologie der Twistinggarben bestimmen.
+  2. Ist M eine kohärente Modulgarbe, so finde eine Surjektion aus einer
+     direkten Summe von Twistinggarben, und ihr Kern ist wieder kohärent
+     (da allgemein Kerne von Morphismen von e.e. nach kohärenten Moduln wieder
+     kohärent sind).
+  3. Dann die lange exakte Sequenz nutzen und von der Top-Kohomologie langsam
+     herunterhangeln.
+
+* Fabian hat in synthetic-zariski/serre-duality synthetisch bewiesen: Für
+  Vektorbündel ist jede Kohomologie endlich adäquat.
+
+* Dabei bedeutet endlich adäquat zum Beispiel: Kern eines Morphismus zwischen
+  e.p. Moduln.
+
+
 === Referenzen
 
 * Hartshorne

@@ -1228,6 +1228,13 @@ Ist deg(f) <= n, so lässt sich f in der Form f = sum_{i=0}^n a_i X^i schreiben.
           also C^T w = P u für ein u,
           somit w = (1 - B^T C^T) w + B^T P u.
 
+* Ein Modul M ist genau dann endlich präsentiert, wenn für alle direkten
+  Familien (N_i)_i die kanonische Abbildung M ⊗ Π_i N_i → Π_i (M ⊗ N_i) ein Iso
+  ist. (Lenzing)
+
+  Damit lässt sich wohl zeigen: Ein Ring ist genau dann kohärent, wenn Produkte
+  von flachen Moduln wieder flach sind.
+
 
 === Endlichkeitseigenschaften von Algebren
 
