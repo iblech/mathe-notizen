@@ -2629,6 +2629,105 @@ Schön!
 * https://mathoverflow.net/questions/456804/how-to-represent-morphisms-in-a-fibration-in-the-internal-type-theory
 
 
+=== ph-Topos
+
+One month ago, @jdw resolved to learn elimination theory. I suggested that @jdw
+should then solve an open problem barring us from giving a concrete description
+of the theory classified by algebraic geometry's big ph topos. A couple of weeks
+later, @jdw offered a positive solution and now I believe I can confirm the
+result. Sometimes dreams come true! I'd be very glad if someone -- e.g.
+@buchholtz, with whom Matthias Ritter (né Hutzler) and I previously
+collaborated on classifying toposes at Dagstuhl workshops -- could confirm this.
+
+The big ph topos classifies those algebraically closed valuation domains in
+which every system of homogeneous polynomial equations that elimination theory
+predicts to have a nontrivial solution actually has one.
+
+Here is how the argument works, and what "being predicted by elimination
+theory" means. If confirmed, then (to my knowledge) this is the first new
+description result of a topos in algebraic geometry in ages.
+
+I am sorry to not provide in this thread the required algebraic geometry /
+commutative algebra / classifying topos background.
+
+Step 1: Lang states in his Algebra, Chapter IX, Theorem 4.1, that
+for every homogeneous system situation (a number of variables, a number of
+polynomials, degrees of the polynomials), there is uniform finite list R_ρ ∈ ℤ[W]
+of polynomials such that every such system (f) over a field k has a nontrivial
+common zero if and only if R_ρ(w) = 0 for all ρ, where w is the (long) vector of
+coefficients of the polynomials (f).
+
+Lang's 'has a non-trivial common zero' means 'has one in some algebraic closure
+of k'; for algebraically closed k this collapses to plain existence. We take
+"R_ρ(w) = 0 for all ρ" as the definition of "a nontrivial solution is predicted
+by elimination theory".
+
+Classically, the classifying topos of the theory of algebraically closed
+discrete fields has enough points (by virtue of this theory being coherent), and
+the equivalence claim "(f) actually has a non-trivial common zero iff R_ρ(w) =
+0 for all ρ" is a geometric sequent, so can be verified stalkwise, i.e. for
+every algebraically closed field individually, where Lang's Theorem 4.1
+applies.
+
+So, without having to look at Lang's proof, we nonconstructively obtain the
+existence of a constructive proof of the equivalence claim modulo the theory of
+algebraically closed discrete fields.
+
+Step 2: In the big Zariski topos, we have the Nullstellensatz in the following form:
+"(f) does not have a non-trivial common zero iff (X₀,…,Xₙ) ⊆ √(f)."
+And the same observation holds for the classifying topos of the theory of
+algebraically closed valuation domains (as a ring for the new topology is only
+locally trivial iff it was locally trivial before iff it is the zero ring).
+
+Step 3: The generic algebraically closed valuation domain is a field in the
+weak sense that nonzero elements are invertible. For the generic local ring
+this is due to Mulvey, about which Tierney remarked in 1976 that "its precise
+significance is still somewhat obscure"; and this property survives when
+passing to the relevant subtopos, for the same reason as in Step 2.
+
+Step 4: Now we seek to prove "R_ρ(w) = 0 for all ρ iff not (X₀,…,Xₙ) ⊆
+√(f)" modulo the (constructive) theory of algebraically closed valuation
+domains, thereby settling Conjecture 21.17 of my PhD thesis. Observe that the
+right hand side is a negated statement, and so is the left hand side ("R_ρ(w) =
+0 for all ρ" is equivalent to the negation of "there is ρ such that R_ρ(w) is
+invertible"). So, when trying to prove this equivalence, we are free to use the
+law of excluded middle a finite number of times. This allows us to upgrade from
+"nonzero implies invertible" to "zero or invertible", which is exactly what the
+constructive proof obtained in Step 1 required.
+
+Step 5: With Conjecture 21.17 solved, my Proposition 21.18 applies, giving
+the concrete description of the big ph topos promised above.
+
+@jdw's resolution:
+https://mathstodon.xyz/@jdw/116656149944637163
+
+My thesis:
+https://rawgit.quasicoherent.io/iblech/internal-methods/master/notes.pdf
+
+* Ergänzung: Kann die Sache mit den realen Lösungen für vorausgesagte Lösungen
+  auch weglassen. Denn das ist ja eine geometrische Sequenz. Und mit LEM wird
+  aus dem generischen algebraisch abgeschlossenen Bewertungsbereich ein
+  Integritätsbereich im starken Sinn. Sein Bruchkörper ist dann ein algebraisch
+  abgeschlossener geometrischer Körper. Also greift der konstruktive Beweis aus
+  Schritt 1, sodass im Bruchkörper die geforderten Lösungen existieren. Und
+  damit auch im ursprünglichen Ring, muss nur die Nenner wegmultiplizieren.
+
+* Streamlined: Wir wissen schon, dass (X) ⊆ √(f) äquivalent zur Nichtexistenz
+  einer nichttrivialen Lösung ist (Nullstellensatz). Also ist ¬((X) ⊆ √(f))
+  Äquivalent zur Nichtnichtexistenz einer nichttrivialen Lösung. Für
+  algebraisch abgeschlossene schwache Integritätsbereiche haben wir die
+  Äquivalenz. Also ist ¬((X) ⊆ √(f)) äquivalent zur Nichtnichtnullheit
+  der Resultanten. Und das liefert mir Nilpotenz und dann Nullheit.
+  Und daraus wiederum folgt dann die Existenz.
+
+* Oder noch mal anders: Muss mit einer Überdeckung Proj_X(O_X[...]/(...)) → X
+  umgehen. Durch Betrachtung aller Fasern erhalte ich, dass die Resultanten
+  in jedem k(𝔭) verschwinden, also in O_X nilpotent sind. Das hilft dort nicht
+  so recht weiter. Aber im klassifizierenden Topos der algebraisch
+  abgeschlossenen Bewertungsbereiche folgt aus Nilpotenz die Nullheit.
+  Und dann kann ich ja das Äquivalenzresultat verwenden.
+
+
 === Nächste Schritte
 
 * von Yuri empfohlen: Yves Diers: Categories of commutative algebras

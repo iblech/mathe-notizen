@@ -1535,6 +1535,14 @@ https://www.infinitelymore.xyz/p/complex-numbers-essential-structure
 Es gibt ein Modell von ZFC, in dem i und -i ununterscheidbar sind.
 
 
+=== Bi-Interpretierbarkeit heißt nicht "gleich komfortabel"
+
+* https://juliakw.net/2022/05/18/bi-interpretability.html
+
+  Es gibt keinen bekannten Beweis von Shoenfield absoluteness, der nativ in
+  ETCS geschrieben wäre.
+
+
 === Nächste Schritte
 
 * Kann man explizit x, y mit phi(x) != phi(y) angeben?

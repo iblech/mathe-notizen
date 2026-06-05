@@ -90,6 +90,8 @@ OpenAI, IMO 2025
 
 * There Will Be a Scientific Theory of Deep Learning: https://arxiv.org/abs/2604.21691
 
+* Größenschätzung: https://01.me/research/ikp/
+
 
 === Bücher
 
