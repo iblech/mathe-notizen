@@ -92,6 +92,10 @@ OpenAI, IMO 2025
 
 * Größenschätzung: https://01.me/research/ikp/
 
+* Mit Eigenwerten logische Kohärenz von LLM-Ausagen messen: https://arxiv.org/abs/2601.00791v2
+
+* Agentische KI aus Systemperspektive betrachtet: https://mastodon.social/@d_stepanovic/116778042128817720
+
 
 === Bücher
 

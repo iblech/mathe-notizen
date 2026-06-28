@@ -666,3 +666,20 @@ Schritte.
   Der Levin-Algorithmus auf Wikipedia
   (https://en.wikipedia.org/wiki/P_versus_NP_problem#Polynomial-time_algorithms)
   steht dem nicht entgegen.
+
+
+=== Nominale Mengen
+
+* https://www.cl.cam.ac.uk/~amp12/talks/nominal-sets-1.pdf
+
+* Topos der G-Mengen mit endlichem Träger, wobei G die Gruppe der endlichen
+  Automorphismen von ℕ ist.
+
+
+=== Konstruktion initialer Algebren
+
+https://arxiv.org/abs/2405.09504: nicht der übliche Kolimes, sondern Menge der
+"rekursiven Koalgebren" (= fundierten Elemente).
+
+Enthält Vorschlag für einen konstruktiven Begriff von "Fil-erreichbarer Kategorie".
+Angrenzend an locally presentable/accessible category.

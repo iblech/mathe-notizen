@@ -2858,6 +2858,27 @@ C = F(i).
 * R^{n x n} ist "nicht ernsthaft" nichtkommutativ.
 
 
+=== Gröbner-Basen
+
+* Für univariate Polynome über geometrischen Körpern kann ich leicht erkennen,
+  ob ein Polynom in einem endlich erzeugten Ideal liegt: einfach den ggT der
+  Erzeuger bestimmen und dann den Divisionstest machen.
+
+* Für multivariate Polynome geht es auch, aber mit zwei Herausforderungen:
+
+  1. Es braucht eine allgemeinere Divisionsroutine RED(f; G).
+  2. Wenn RED(f; G) = 0, so f ∈ (G). Aber die Umkehrung gilt nur,
+     wenn G eine Gröbner-Basis ist.
+
+  Es gibt ein einfaches Kriterium dafür, dass eine endliche Menge G eine
+  Gröbner-Basis ist: die sog. S-Polynome müssen RED(_; G) = 0 erfüllen.
+
+  Aus einem beliebigen EZS kann man eine Gröbner-Basis gewinnen, indem man
+  sukzessive S-Polynome hinzufügt. Der Prozess terminiert.
+
+* Siehe Thierry & Persson, Gröbner bases in type theory.
+
+
 === Siehe auch
 
 * http://math.uga.edu/~pete/integral.pdf

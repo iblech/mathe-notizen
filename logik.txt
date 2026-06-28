@@ -449,7 +449,7 @@ natürlichen Schließens aufschreiben:
        ⊤ ⊢ φ
       
 Dann wird der Unterschied zu folgender anderen Schlussregel, die viel stärker
-als (♡) ist, mit Gödel I sofort Inkonsistenz impliziert und nicht gemeint ist,
+als (♡) ist, mit Gödel II sofort Inkonsistenz impliziert und nicht gemeint ist,
 klarer:
 
     -----------------

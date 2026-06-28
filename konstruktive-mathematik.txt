@@ -461,6 +461,10 @@ http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1381-10.pdf
   Die induktive Noether-Definition wird reflektiert von positiven ouverten
   Räumen (und vermutlich auch von positiven ouverten Grothendieck-Topoi).
 
+* Noethersche Ringe sind nicht abgeschlossen und filtrierten Kolimiten
+  (ℤ ⊆ ℤ[X₁] ⊆ ...). Daher können sie nicht die Modelle einer geometrischen
+  Theorie sein.
+
 
 === Dickson & Co
 

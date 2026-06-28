@@ -1347,5 +1347,15 @@ homogenen Elementen von F.
 
 * Coquand und Lombardi definieren auch eine "Theorie der Primidealketten"!
 
+  siehe http://hlombardi.free.fr/publis/3Krull.pdf
+
+  dim(R) ≤ n gdw. für alle a₁, ..., aₙ: a₁ ∉ P₁, ... , aₙ ∉ Pₙ ⊢ a₁ ∉ P₀, ... , aₙ ∉ Pₙ₋₁ gdw.
+  übliche Bedingung
+
+  Die Ableitbarkeit ist modulo der Theorie der Ketten P₀ ⊇ ... ⊇ Pₙ.
+  (Gemeint sind Primfilter, nicht Primideale, und mit "∉" ist dann entsprechend "∈" gemeint.)
+
+  Und das ist mit LEM äquivalent dazu, dass ein i mit Pᵢ₊₁ ⊆ Pᵢ existiert.
+
 * In http://www.mathematik.uni-muenchen.de/~pschust/vorlsem/MunichSlide.pdf
   wird ganz klar die Theorie für maximale und minimale Primideale angegeben.
