@@ -98,6 +98,8 @@ OpenAI, IMO 2025
 
 * RL ändert vor allem nur wenige Schichten: https://arxiv.org/abs/2607.01232
 
+* https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy
+
 
 === Bücher
 
