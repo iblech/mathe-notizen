@@ -96,6 +96,8 @@ OpenAI, IMO 2025
 
 * Agentische KI aus Systemperspektive betrachtet: https://mastodon.social/@d_stepanovic/116778042128817720
 
+* RL ändert vor allem nur wenige Schichten: https://arxiv.org/abs/2607.01232
+
 
 === Bücher
 
