@@ -110,6 +110,11 @@ We want to have infinitesimals in order to ...
 * Differential forms
 
 
+=== Vollständiger Kalkül für Ableitungen
+
+https://fiorefest.gitlab.io/home/slides/Plotkin.pdf
+
+
 === Literature
 
 * Kock: Synthetic Differential Geometry.

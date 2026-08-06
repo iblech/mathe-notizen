@@ -171,3 +171,8 @@ https://arxiv.org/pdf/2211.07487
 === Konsistenz und 0 ≠ 1 ohne Universen
 
 https://www.cse.chalmers.se/%7Esmith/JSLPeano.pdf
+
+
+=== Schematheorie ohne abhängige Typen
+
+https://www.cl.cam.ac.uk/%7Elp15/papers/Alexandria/Bordg-talk_schemes.pdf

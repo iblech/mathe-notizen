@@ -104,6 +104,17 @@ OpenAI, IMO 2025
   ideology, way to hide and devalue human labor, way to shift accountability,
   way to centralize power: https://academic.oup.com/edited-volume/63015/chapter-abstract/565952661
 
+* LLMs schichtweise auf mehrere Rechner aufteilen mittels Iroh:
+  https://news.ycombinator.com/item?id=48876505
+
+* OpenAI's accidental cyberattack against Hugging Face is science fiction that happened:
+  https://simonwillison.net/2026/Jul/22/openai-cyberattack/
+
+* https://arxiv.org/abs/2603.12277: Prompt Injection as Role Confusion
+
+* https://gwern.net/scaling-hypothesis#why-does-pretraining-work "We may be at
+  our most human while filling out the paperwork for life insurance."
+
 
 === Bücher
 
