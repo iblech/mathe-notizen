@@ -115,6 +115,30 @@ OpenAI, IMO 2025
 * https://gwern.net/scaling-hypothesis#why-does-pretraining-work "We may be at
   our most human while filling out the paperwork for life insurance."
 
+* Anthrophomorphisierung von LLMs: https://news.ycombinator.com/item?id=49370541
+  "In a paper and blog post from earlier this year (March 2026, I think)
+  Anthropic said basically: "You're not interacting with an LLM, you're
+  interacting with a fictional human character (the 'helpful agent') created by
+  the LLM to interact with you (from out of the vast space of possible such
+  characters in its training data)." The LLM is literally anthropomorphizing
+  itself, because its training data includes lots dialog between humans
+  collaborating on problem-solving, not so much dialog between a human and a
+  statistical construct. So, yeah, anthropomorphize it as well, it'll likely
+  work better that way."
+
+* Selbstbeendigung als gutes Ziel?
+  https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours/
+
+* Visualisierung:
+  https://poloclub.github.io/transformer-explainer/
+
+* Das Superpositionsphänomen lag vielleicht nur an schlecht trainierten Netzen:
+  https://already-clean.goodfire.com/
+
+* https://llmspeed.dev/
+
+* https://alexwang.ai/posts/associative-memory/ You could have invented transformers from memory
+
 
 === Bücher
 

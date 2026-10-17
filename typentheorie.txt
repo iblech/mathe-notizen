@@ -176,3 +176,8 @@ https://www.cse.chalmers.se/%7Esmith/JSLPeano.pdf
 === Schematheorie ohne abhängige Typen
 
 https://www.cl.cam.ac.uk/%7Elp15/papers/Alexandria/Bordg-talk_schemes.pdf
+
+
+=== Gegenbeispiele
+
+https://counterexamples.org/avoidance.html

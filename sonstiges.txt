@@ -916,3 +916,8 @@ Alan J. Perlis
 === Open Source Low Tech
 
 https://opensourcelowtech.org/
+
+
+=== Async
+
+https://cel.cs.brown.edu/blog/design-space-async-await/

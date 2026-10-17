@@ -74,6 +74,8 @@ der DGL bezeichnet (immer geeignet fortsetzen):
 "Erklärung": Wenn das Integral sowas wie ln(f(gamma(1))) - ln(f(gamma(0)))
 gibt, dann gibt das Exponential gerade sowas wie f(gamma(1)) / f(gamma(0)).
 
+Schön auch illustriert hier: https://hidden-phenomena.com/articles/monodromy
+
 
 === Klassifikation lokaler Systeme
 
